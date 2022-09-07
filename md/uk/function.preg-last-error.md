@@ -25,10 +25,10 @@ preg_last_error(): int
 ```php
 <?php
 
-preg_match('/(?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');
+preg_match('/(?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');
 
-if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
-    echo 'Был исчерпан лимит обратных ссылок!';
+if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
+    echo 'Был исчерпан лимит обратных ссылок!';
 }
 
 ?>

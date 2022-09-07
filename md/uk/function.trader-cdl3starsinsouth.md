@@ -15,7 +15,7 @@ tradercdl3starsinsouth — Три південні зірки
 ### Опис
 
 ```methodsynopsis
-trader_cdl3starsinsouth(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3starsinsouth(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

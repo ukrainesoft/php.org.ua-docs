@@ -44,8 +44,8 @@ wincache_ucache_cas(string $key, int $old_value, int $new_value): bool
 
 ```php
 <?php
-wincache_ucache_set('counter', 2922);
-var_dump(wincache_ucache_cas('counter', 2922, 1));
+wincache_ucache_set('counter', 2922);
+var_dump(wincache_ucache_cas('counter', 2922, 1));
 var_dump(wincache_ucache_get('counter'));
 ?>
 ```

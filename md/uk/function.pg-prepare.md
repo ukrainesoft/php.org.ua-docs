@@ -59,18 +59,18 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 ```php
 <?php
-// Подключение к базе данных "mary"
-$dbconn = pg_connect("dbname=mary");
+// Подключение к базе данных "mary"
+$dbconn = pg_connect("dbname=mary");
 
-// Подготовка запроса
-$result = pg_prepare($dbconn, "my_query", 'SELECT * FROM shops WHERE name = $1');
+// Подготовка запроса
+$result = pg_prepare($dbconn, "my_query", 'SELECT * FROM shops WHERE name = $1');
 
-// Запуск запроса на выполнение. Стоит отметить, что нет необходимости экранировать
-// спецсимволы в строке "Joe's Widgets"
-$result = pg_execute($dbconn, "my_query", array("Joe's Widgets"));
+// Запуск запроса на выполнение. Стоит отметить, что нет необходимости экранировать
+// спецсимволы в строке "Joe's Widgets"
+$result = pg_execute($dbconn, "my_query", array("Joe's Widgets"));
 
-// Запуск на выполнение того же запроса, но с другим параметром
-$result = pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
+// Запуск на выполнение того же запроса, но с другим параметром
+$result = pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
 
 ?>
 ```

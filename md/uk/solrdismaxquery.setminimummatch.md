@@ -37,10 +37,10 @@ public SolrDisMaxQuery::setMinimumMatch(string $value): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery("lucene");
-// 75% предложений запроса должны соответствовать
+$dismaxQuery = new SolrDisMaxQuery("lucene");
+// 75% предложений запроса должны соответствовать
 $dismaxQuery->setMinimumMatch("75%");
-echo $dismaxQuery . PHP_EOL;
+echo $dismaxQuery . PHP_EOL;
 ?>
 ```
 

@@ -50,16 +50,16 @@ public Imagick::queryFontMetrics(ImagickDraw $properties, string $text, bool $mu
 
 ```php
 <?php
-/* Создание нового объекта Imagick */
-$im = new Imagick();
+/* Создание нового объекта Imagick */
+$im = new Imagick();
 
-/* Создание нового объекта Imagick */
-$draw = new ImagickDraw();
+/* Создание нового объекта Imagick */
+$draw = new ImagickDraw();
 
-/* Установка шрифта */
+/* Установка шрифта */
 $draw->setFont('/path/to/font.ttf');
 
-/* Вывод метрики шрифта, автоматическое определение многострочного параметра */
-var_dump($im->queryFontMetrics($draw, "Hello World!"));
+/* Вывод метрики шрифта, автоматическое определение многострочного параметра */
+var_dump($im->queryFontMetrics($draw, "Hello World!"));
 ?>
 ```

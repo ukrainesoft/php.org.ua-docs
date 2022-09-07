@@ -72,9 +72,9 @@ localeconv(): array
 
 ```php
 <?php
-if (false !== setlocale(LC_ALL, 'ru_RU.UTF-8')) {
-    $locale_info = localeconv();
-    print_r($locale_info);
+if (false !== setlocale(LC_ALL, 'ru_RU.UTF-8')) {
+    $locale_info = localeconv();
+    print_r($locale_info);
 }
 ?>
 ```

@@ -15,7 +15,7 @@ snmp2realwalk — Повертає всі об'єкти, включаючи їх
 ### Опис
 
 ```methodsynopsis
-snmp2_real_walk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp2_real_walk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
 Функція **snmp2realwalk()** використовується для обходу об'єктів SNMP, починаючи з `object_id` і повертає як їх значення, а й ідентифікатори об'єктів.
@@ -52,7 +52,7 @@ Read-спільнота.
 
 ```php
 <?php
- print_r(snmp2_real_walk("localhost", "public", "IF-MIB::ifName"));
+ print_r(snmp2_real_walk("localhost", "public", "IF-MIB::ifName"));
 ?>
 ```
 

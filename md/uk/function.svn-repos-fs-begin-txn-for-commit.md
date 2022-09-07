@@ -15,7 +15,7 @@ svnreposфсbegintxnforcommit — Створення нової транзакц
 ### Опис
 
 ```methodsynopsis
-svn_repos_fs_begin_txn_for_commit(    resource $repos,    int $rev,    string $author,    string $log_msg): resource
+svn_repos_fs_begin_txn_for_commit(    resource $repos,    int $rev,    string $author,    string $log_msg): resource
 ```
 
 **Увага**

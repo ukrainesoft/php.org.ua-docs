@@ -31,7 +31,7 @@ title: Клас SimpleXMLElement
 
     /* Методы */
     
-   public __construct(    string $data,    int $options = 0,    bool $dataIsURL = false,    string $namespaceOrPrefix = "",    bool $isPrefix = false)
+   public __construct(    string $data,    int $options = 0,    bool $dataIsURL = false,    string $namespaceOrPrefix = "",    bool $isPrefix = false)
 
     public addAttribute(string $qualifiedName, string $value, ?string $namespace = null): void
 public addChild(string $qualifiedName, ?string $value = null, ?string $namespace = null): ?SimpleXMLElement

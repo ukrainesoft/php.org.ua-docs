@@ -54,19 +54,19 @@ imap_thread(IMAP\Connection $imap, int $flags = SE_FREE): array|false
 ```php
 <?php
 
-// Здесь мы выводим связанные сообщения группы новостей в HTML
+// Здесь мы выводим связанные сообщения группы новостей в HTML
 
-$nntp = imap_open('{news.example.com:119/nntp}some.newsgroup', '', '');
-$threads = imap_thread($nntp);
+$nntp = imap_open('{news.example.com:119/nntp}some.newsgroup', '', '');
+$threads = imap_thread($nntp);
 
-foreach ($threads as $key => $val) {
-  $tree = explode('.', $key);
-  if ($tree[1] == 'num') {
-    $header = imap_headerinfo($nntp, $val);
-    echo "<ul>\n\t<li>" . $header->fromaddress . "\n";
-  } elseif ($tree[1] == 'branch') {
-    echo "\t</li>\n</ul>\n";
-  }
+foreach ($threads as $key => $val) {
+  $tree = explode('.', $key);
+  if ($tree[1] == 'num') {
+    $header = imap_headerinfo($nntp, $val);
+    echo "<ul>\n\t<li>" . $header->fromaddress . "\n";
+  } elseif ($tree[1] == 'branch') {
+    echo "\t</li>\n</ul>\n";
+  }
 }
 
 imap_close($nntp);

@@ -49,22 +49,22 @@ public
 
 ```php
 <?php
-$base = new EventBase();
-$http = new EventHttp($base);
+$base = new EventBase();
+$http = new EventHttp($base);
 
-$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-if (!$http->bind("127.0.0.1", 8088)) {
-    exit("связать(1) не удалось\n");
+if (!$http->bind("127.0.0.1", 8088)) {
+    exit("связать(1) не удалось\n");
 };
-if (!$http->bind("127.0.0.1", 8089)) {
-    exit("связать(2) не удалось\n");
+if (!$http->bind("127.0.0.1", 8089)) {
+    exit("связать(2) не удалось\n");
 };
 
-$http->setCallback("/about", function($req) {
-    echo "URI: ", $req->getUri(), PHP_EOL;
-    $req->sendReply(200, "OK");
-    echo "OK\n";
+$http->setCallback("/about", function($req) {
+    echo "URI: ", $req->getUri(), PHP_EOL;
+    $req->sendReply(200, "OK");
+    echo "OK\n";
 });
 
 $base->dispatch();

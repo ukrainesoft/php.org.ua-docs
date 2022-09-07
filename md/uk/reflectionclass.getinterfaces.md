@@ -34,13 +34,13 @@ public ReflectionClass::getInterfaces(): array
 
 ```php
 <?php
-interface Foo { }
+interface Foo { }
 
-interface Bar { }
+interface Bar { }
 
-class Baz implements Foo, Bar { }
+class Baz implements Foo, Bar { }
 
-$rc1 = new ReflectionClass("Baz");
+$rc1 = new ReflectionClass("Baz");
 
 print_r($rc1->getInterfaces());
 ?>

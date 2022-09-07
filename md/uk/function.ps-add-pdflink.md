@@ -15,7 +15,7 @@ title: псaddpdflink
 ### Опис
 
 ```methodsynopsis
-ps_add_pdflink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $filename,    int $page,    string $dest): bool
+ps_add_pdflink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $filename,    int $page,    string $dest): bool
 ```
 
 Додає гіперпосилання у зазначеному місці, яке вказує на інший PDF-файл. Натискання на посилання призведе до переходу на цю сторінку. Номер першої сторінки документа – 1.

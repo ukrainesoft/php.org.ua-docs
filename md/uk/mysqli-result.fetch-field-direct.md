@@ -66,31 +66,31 @@ mysqli_fetch_field_direct(mysqli_result $result, int $index): object|false
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка подключения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, SurfaceArea from Country ORDER BY Name LIMIT 5";
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Name LIMIT 5";
 
-if ($result = $mysqli->query($query)) {
+if ($result = $mysqli->query($query)) {
 
-    /* получение метаданных столбца 'SurfaceArea' */
-    $finfo = $result->fetch_field_direct(1);
+    /* получение метаданных столбца 'SurfaceArea' */
+    $finfo = $result->fetch_field_direct(1);
 
-        printf("Имя:         %s\n", $finfo->name);
-        printf("Таблица:     %s\n", $finfo->table);
-        printf("Макс. длина: %d\n", $finfo->max_length);
-        printf("Флаги:       %d\n", $finfo->flags);
-        printf("Тип:         %d\n\n", $finfo->type);
+        printf("Имя:         %s\n", $finfo->name);
+        printf("Таблица:     %s\n", $finfo->table);
+        printf("Макс. длина: %d\n", $finfo->max_length);
+        printf("Флаги:       %d\n", $finfo->flags);
+        printf("Тип:         %d\n\n", $finfo->type);
 
-    $result->close();
+    $result->close();
 }
 
-/* закрываем подключение */
+/* закрываем подключение */
 $mysqli->close();
 ?>
 ```
@@ -99,31 +99,31 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка подключения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, SurfaceArea from Country ORDER BY Name LIMIT 5";
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Name LIMIT 5";
 
-if ($result = mysqli_query($link, $query)) {
+if ($result = mysqli_query($link, $query)) {
 
-    /* получение метаданных столбца 'SurfaceArea' */
-    $finfo = mysqli_fetch_field_direct($result, 1);
+    /* получение метаданных столбца 'SurfaceArea' */
+    $finfo = mysqli_fetch_field_direct($result, 1);
 
-    printf("Имя:         %s\n", $finfo->name);
-    printf("Таблица:     %s\n", $finfo->table);
-    printf("Макс. длина: %d\n", $finfo->max_length);
-    printf("Флаги:       %d\n", $finfo->flags);
-    printf("Тип:         %d\n\n", $finfo->type);
+    printf("Имя:         %s\n", $finfo->name);
+    printf("Таблица:     %s\n", $finfo->table);
+    printf("Макс. длина: %d\n", $finfo->max_length);
+    printf("Флаги:       %d\n", $finfo->flags);
+    printf("Тип:         %d\n\n", $finfo->type);
 
-    mysqli_free_result($result);
+    mysqli_free_result($result);
 }
 
-/* закрываем подключение */
+/* закрываем подключение */
 mysqli_close($link);
 ?>
 ```

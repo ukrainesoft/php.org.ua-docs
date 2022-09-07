@@ -15,7 +15,7 @@ statsdenspmfhypergeometric - Імовірнісний захід гіперге�
 ### Опис
 
 ```methodsynopsis
-stats_dens_pmf_hypergeometric(    float $n1,    float $n2,    float $N1,    float $N2): float
+stats_dens_pmf_hypergeometric(    float $n1,    float $n2,    float $N1,    float $N2): float
 ```
 
 Повертає імовірнісний захід для `n1`, де `n2` `N1` і `N2` є кількістю невдалих спроб, числом успішних вибірок та числом невдалих вибірок відповідно.

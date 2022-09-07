@@ -15,7 +15,7 @@ hashpbkdf2 - Формування ключа PBKDF2 для заданих вхі
 ### Опис
 
 ```methodsynopsis
-hash_pbkdf2(    string $algo,    string $password,    string $salt,    int $iterations,    int $length = 0,    bool $binary = false): string
+hash_pbkdf2(    string $algo,    string $password,    string $salt,    int $iterations,    int $length = 0,    bool $binary = false): string
 ```
 
 ### Список параметрів
@@ -66,18 +66,18 @@ hash_pbkdf2(    string $algo,    string $password,    string $salt,�
 
 ```php
 <?php
-$password = "password";
-$iterations = 1000;
+$password = "password";
+$iterations = 1000;
 
-// Создаём случайный инициализирующий вектор
-// с помощью openssl_random_pseudo_bytes() или другого источника случайных данных
-$salt = openssl_random_pseudo_bytes(16);
+// Создаём случайный инициализирующий вектор
+// с помощью openssl_random_pseudo_bytes() или другого источника случайных данных
+$salt = openssl_random_pseudo_bytes(16);
 
-$hash = hash_pbkdf2("sha256", $password, $salt, $iterations, 20);
+$hash = hash_pbkdf2("sha256", $password, $salt, $iterations, 20);
 var_dump($hash);
 
-// для необработанного двоичного файла параметр $length должен быть уменьшен вдвое для получения аналогичных результатов
-$hash = hash_pbkdf2("sha256", $password, $salt, $iterations, 10, true);
+// для необработанного двоичного файла параметр $length должен быть уменьшен вдвое для получения аналогичных результатов
+$hash = hash_pbkdf2("sha256", $password, $salt, $iterations, 10, true);
 var_dump(bin2hex($hash));?>
 ```
 

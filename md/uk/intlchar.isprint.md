@@ -39,7 +39,7 @@ public static IntlChar::isprint(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::isprint("A"));
-var_dump(IntlChar::isprint(" "));
+var_dump(IntlChar::isprint(" "));
 var_dump(IntlChar::isprint("\n"));
 var_dump(IntlChar::isprint("\u{200e}"));
 ?>

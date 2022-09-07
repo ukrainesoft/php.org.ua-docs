@@ -58,17 +58,17 @@ strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ```php
 <?php
-$mystring = 'abc';
-$findme   = 'a';
-$pos = strpos($mystring, $findme);
+$mystring = 'abc';
+$findme   = 'a';
+$pos = strpos($mystring, $findme);
 
-// Заметьте, что используется ===.  Использование == не даст верного
-// результата, так как 'a' находится в нулевой позиции.
-if ($pos === false) {
-    echo "Строка '$findme' не найдена в строке '$mystring'";
-} else {
-    echo "Строка '$findme' найдена в строке '$mystring'";
-    echo " в позиции $pos";
+// Заметьте, что используется ===.  Использование == не даст верного
+// результата, так как 'a' находится в нулевой позиции.
+if ($pos === false) {
+    echo "Строка '$findme' не найдена в строке '$mystring'";
+} else {
+    echo "Строка '$findme' найдена в строке '$mystring'";
+    echo " в позиции $pos";
 }
 ?>
 ```
@@ -77,18 +77,18 @@ if ($pos === false) {
 
 ```php
 <?php
-$mystring = 'abc';
-$findme   = 'a';
-$pos = strpos($mystring, $findme);
+$mystring = 'abc';
+$findme   = 'a';
+$pos = strpos($mystring, $findme);
 
-// Оператор !== также можно использовать.  Использование != не даст верного
-// результата, так как 'a' находится в нулевой позиции. Выражение (0 != false) приводится
-// к false.
-if ($pos !== false) {
-     echo "Строка '$findme' найдена в строке '$mystring'";
-         echo " в позиции $pos";
-} else {
-     echo "Строка '$findme' не найдена в строке '$mystring'";
+// Оператор !== также можно использовать.  Использование != не даст верного
+// результата, так как 'a' находится в нулевой позиции. Выражение (0 != false) приводится
+// к false.
+if ($pos !== false) {
+     echo "Строка '$findme' найдена в строке '$mystring'";
+         echo " в позиции $pos";
+} else {
+     echo "Строка '$findme' не найдена в строке '$mystring'";
 }
 ?>
 ```
@@ -97,9 +97,9 @@ if ($pos !== false) {
 
 ```php
 <?php
-// Можно искать символ, игнорируя символы до определённого смещения
-$newstring = 'abcdef abcdef';
-$pos = strpos($newstring, 'a', 1); // $pos = 7, не 0
+// Можно искать символ, игнорируя символы до определённого смещения
+$newstring = 'abcdef abcdef';
+$pos = strpos($newstring, 'a', 1); // $pos = 7, не 0
 ?>
 ```
 

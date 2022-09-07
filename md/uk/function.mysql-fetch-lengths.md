@@ -45,13 +45,13 @@ mysql_fetch_lengths(resource $result): array|false
 
 ```php
 <?php
-$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
-if (!$result) {
-    echo 'Ошибка выполнения запроса: ' . mysql_error();
-    exit;
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Ошибка выполнения запроса: ' . mysql_error();
+    exit;
 }
-$row     = mysql_fetch_assoc($result);
-$lengths = mysql_fetch_lengths($result);
+$row     = mysql_fetch_assoc($result);
+$lengths = mysql_fetch_lengths($result);
 
 print_r($row);
 print_r($lengths);

@@ -51,9 +51,9 @@ bccomp(string $num1, string $num2, ?int $scale = null): int
 ```php
 <?php
 
-echo bccomp('1', '2') . "\n";   // -1
-echo bccomp('1.00001', '1', 3); // 0
-echo bccomp('1.00001', '1', 5); // 1
+echo bccomp('1', '2') . "\n";   // -1
+echo bccomp('1.00001', '1', 3); // 0
+echo bccomp('1.00001', '1', 5); // 1
 
 ?>
 ```

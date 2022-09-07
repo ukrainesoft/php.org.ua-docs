@@ -52,10 +52,10 @@ rar_close(RarArchive $rarfile): bool
 
 ```php
 <?php
-$rar_arch = RarArchive::open('latest_winrar.rar');
-echo $rar_arch."\n";
+$rar_arch = RarArchive::open('latest_winrar.rar');
+echo $rar_arch."\n";
 $rar_arch->close();
-echo $rar_arch."\n";
+echo $rar_arch."\n";
 ?>
 ```
 
@@ -70,9 +70,9 @@ RAR Archive "D:\php_rar\trunk\tests\latest_winrar.rar" (closed)
 
 ```php
 <?php
-$rar_arch = rar_open('latest_winrar.rar');
-echo $rar_arch."\n";
+$rar_arch = rar_open('latest_winrar.rar');
+echo $rar_arch."\n";
 rar_close($rar_arch);
-echo $rar_arch."\n";
+echo $rar_arch."\n";
 ?>
 ```

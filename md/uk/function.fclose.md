@@ -37,7 +37,7 @@ fclose(resource $stream): bool
 ```php
 <?php
 
-$handle = fopen('somefile.txt', 'r');
+$handle = fopen('somefile.txt', 'r');
 
 fclose($handle);
 

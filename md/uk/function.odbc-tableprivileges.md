@@ -15,7 +15,7 @@ odbctableprivileges — Перераховує таблиці та привіл�
 ### Опис
 
 ```methodsynopsis
-odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
+odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
 ```
 
 Перелічує таблиці у запитаному діапазоні та привілеї, пов'язані з кожною таблицею.
@@ -62,11 +62,11 @@ odbc_tableprivileges(    resource $odbc,    ?string $catalog,    str
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$privileges = odbc_tableprivileges($conn, 'SalesOrders', 'dbo', 'Orders');
-while (($row = odbc_fetch_array($privileges))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$privileges = odbc_tableprivileges($conn, 'SalesOrders', 'dbo', 'Orders');
+while (($row = odbc_fetch_array($privileges))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

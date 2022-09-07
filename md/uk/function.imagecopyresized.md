@@ -15,7 +15,7 @@ imagecopyresized — Копіювання та зміна розміру час�
 ### Опис
 
 ```methodsynopsis
-imagecopyresized(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $dst_width,    int $dst_height,    int $src_width,    int $src_height): bool
+imagecopyresized(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $dst_width,    int $dst_height,    int $src_width,    int $src_height): bool
 ```
 
 **imagecopyresized()** копіює прямокутну ділянку одного зображення на інше зображення . `dst_image` - результуюче зображення, `src_image` - Ідентифікатор вихідного зображення.
@@ -84,26 +84,26 @@ y-координата вихідного зображення.
 
 ```php
 <?php
-// файл и новый размер
-$filename = 'test.jpg';
-$percent = 0.5;
+// файл и новый размер
+$filename = 'test.jpg';
+$percent = 0.5;
 
-// тип содержимого
-header('Content-Type: image/jpeg');
+// тип содержимого
+header('Content-Type: image/jpeg');
 
-// получение нового размера
-list($width, $height) = getimagesize($filename);
-$newwidth = $width * $percent;
-$newheight = $height * $percent;
+// получение нового размера
+list($width, $height) = getimagesize($filename);
+$newwidth = $width * $percent;
+$newheight = $height * $percent;
 
-// загрузка
-$thumb = imagecreatetruecolor($newwidth, $newheight);
-$source = imagecreatefromjpeg($filename);
+// загрузка
+$thumb = imagecreatetruecolor($newwidth, $newheight);
+$source = imagecreatefromjpeg($filename);
 
-// изменение размера
-imagecopyresized($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);
+// изменение размера
+imagecopyresized($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);
 
-// вывод
+// вывод
 imagejpeg($thumb);
 ?>
 ```

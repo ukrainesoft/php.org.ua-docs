@@ -62,17 +62,17 @@ public PharData::convertToData(?int $format = null, ?int $compression = null, ?s
 
 ```php
 <?php
-try {
-    $tarphar = new PharData('myphar.tar');
-    // обратите внимание, что myphar.tar *не* удаляется
-    // создаём myphar.zip
-    $zip = $tarphar->convertToData(Phar::ZIP);
-    // создаём myphar.tbz
-    $tgz = $zip->convertToData(Phar::TAR, Phar::BZ2, '.tbz');
-    // создаём myphar.phar.tgz
-    $phar = $tarphar->convertToData(Phar::PHAR); // выбрасывает исключение
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $tarphar = new PharData('myphar.tar');
+    // обратите внимание, что myphar.tar *не* удаляется
+    // создаём myphar.zip
+    $zip = $tarphar->convertToData(Phar::ZIP);
+    // создаём myphar.tbz
+    $tgz = $zip->convertToData(Phar::TAR, Phar::BZ2, '.tbz');
+    // создаём myphar.phar.tgz
+    $phar = $tarphar->convertToData(Phar::PHAR); // выбрасывает исключение
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

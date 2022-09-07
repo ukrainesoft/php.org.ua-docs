@@ -62,20 +62,20 @@ public Phar::convertToData(?int $format = null, ?int $compression = null, ?strin
 
 ```php
 <?php
-try {
-    $tarphar = new Phar('myphar.phar.tar');
-    // обратите внимание, что myphar.phar.tar *не* будет удалён
-    // конверировать архив в неисполняемый tar-формат
-    // будет создан myphar.tar
-    $tar = $tarphar->convertToData();
-    //  конверировать архив в неисполняемый zip-формат файла, будет создан myphar.zip
-    $zip = $tarphar->convertToData(Phar::ZIP);
-    // будет создан myphar.tbz
-    $tgz = $tarphar->convertToData(Phar::TAR, Phar::BZ2, '.tbz');
-    // будет создан myphar.phar.tgz
-    $phar = $tarphar->convertToData(Phar::PHAR); // будет выброшено исключение
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $tarphar = new Phar('myphar.phar.tar');
+    // обратите внимание, что myphar.phar.tar *не* будет удалён
+    // конверировать архив в неисполняемый tar-формат
+    // будет создан myphar.tar
+    $tar = $tarphar->convertToData();
+    //  конверировать архив в неисполняемый zip-формат файла, будет создан myphar.zip
+    $zip = $tarphar->convertToData(Phar::ZIP);
+    // будет создан myphar.tbz
+    $tgz = $tarphar->convertToData(Phar::TAR, Phar::BZ2, '.tbz');
+    // будет создан myphar.phar.tgz
+    $phar = $tarphar->convertToData(Phar::PHAR); // будет выброшено исключение
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

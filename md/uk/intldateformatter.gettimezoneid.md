@@ -46,16 +46,16 @@ datefmt_get_timezone_id(IntlDateFormatter $formatter): string|false
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'timezone_id средства форматирования: ' . datefmt_get_timezone_id($fmt) . "\n";
-datefmt_set_timezone($fmt, 'Europe/Madrid');
-echo 'Теперь timezone_id средства форматирования: ' . datefmt_get_timezone_id($fmt);
+echo 'timezone_id средства форматирования: ' . datefmt_get_timezone_id($fmt) . "\n";
+datefmt_set_timezone($fmt, 'Europe/Madrid');
+echo 'Теперь timezone_id средства форматирования: ' . datefmt_get_timezone_id($fmt);
 
 ?>
 ```
@@ -64,16 +64,16 @@ echo 'Теперь timezone_id средства форматирования
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'timezone_id средства форматирования: ' . $fmt->getTimezoneId() . "\n";
+echo 'timezone_id средства форматирования: ' . $fmt->getTimezoneId() . "\n";
 $fmt->setTimezone('Europe/Madrid');
-echo 'Теперь timezone_id средства форматирования: ' . $fmt->getTimezoneId();
+echo 'Теперь timezone_id средства форматирования: ' . $fmt->getTimezoneId();
 
 ?>
 ```

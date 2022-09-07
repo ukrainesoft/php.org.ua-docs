@@ -42,7 +42,7 @@ str_repeat(string $string, int $times): string
 
 ```php
 <?php
-echo str_repeat("-=", 10);
+echo str_repeat("-=", 10);
 ?>
 ```
 

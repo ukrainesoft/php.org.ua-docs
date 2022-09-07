@@ -40,20 +40,20 @@ public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel  = new \Vtiful\Kernel\Excel($config);
+$excel  = new \Vtiful\Kernel\Excel($config);
 
-$fileObject = $excel->fileName('tutorial01.xlsx');
-$fileHandle = $fileObject->getHandle();
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
 
-$underlineStyle = \Vtiful\Kernel\Format::underline($fileHandle, \Vtiful\Kernel\Format::UNDERLINE_SINGLE);
+$underlineStyle = \Vtiful\Kernel\Format::underline($fileHandle, \Vtiful\Kernel\Format::UNDERLINE_SINGLE);
 
-$fileObject->header(['name', 'age'])
-    ->data([['viest', 21]])
-    ->setColumn('A:A', 200, $underlineStyle)
-    ->output();
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setColumn('A:A', 200, $underlineStyle)
+    ->output();
 ?>
 ```

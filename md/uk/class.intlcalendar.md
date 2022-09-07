@@ -225,7 +225,7 @@ public isSet(int $field): bool
 public isWeekend(?float $timestamp = null): bool
 public roll(int $field, int|bool $value): bool
 public set(int $field, int $value): bool
-public set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
+public set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
 public setFirstDayOfWeek(int $dayOfWeek): bool
 public setLenient(bool $lenient): bool
 public setMinimalDaysInFirstWeek(int $days): bool

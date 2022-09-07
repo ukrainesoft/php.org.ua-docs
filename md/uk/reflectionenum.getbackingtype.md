@@ -34,17 +34,17 @@ public ReflectionEnum::getBackingType(): ?ReflectionType
 
 ```php
 <?php
-enum Suit: string
+enum Suit: string
 {
-    case Hearts = 'H';
-    case Diamonds = 'D';
-    case Clubs = 'C';
-    case Spades = 'S';
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
 }
 
-$rEnum = new ReflectionEnum(Suit::class);
+$rEnum = new ReflectionEnum(Suit::class);
 
-$rBackingType = $rEnum->getBackingType();
+$rBackingType = $rEnum->getBackingType();
 
 var_dump((string)$rBackingType);
 ?>

@@ -18,7 +18,7 @@ LSAPI – це дуже оптимізований API, що дозволяє Li
 
 Зверніть увагу, що у всій документації номери версій замінені на `x`, Що говорить про те, що ця документація залишиться актуальною і в майбутньому. Тому сміливо можете замінити ці символи на номер вашої версії.
 
-1.  Для отримання та встановлення LSWS та OLS відвідайте сайт із документацією по LiteSpeed ​​Web Server - [» инструкции по установке](https://docs.litespeedtech.com/products/lsws/installation/) або сайт з документацією по OpenLiteSpeed ​​- [» инструкции по установке](https://openlitespeed.org/kb/category/installation/more-installation-methods/)
+1.  Для отримання та встановлення LSWS та OLS відвідайте сайт із документацією по LiteSpeed ​​Web Server - [» инструкции по установке](https://docs.litespeedtech.com/products/lsws/installation/) або сайт з документацією по OpenLiteSpeed ​​- [» инструкции по установке](https://openlitespeed.org/kb/category/installation/more-installation-methods/)
     
 2.  Завантажте та розпакуйте вихідні коди PHP:
     
@@ -58,7 +58,7 @@ LSAPI – це дуже оптимізований API, що дозволяє Li
     Зверніть увагу на слово `litespeed`. Це означає, що PHP зібраний за допомогою LSAPI.
     
 
-Після виконання описаних вище кроків, LSWS/OLS повинні запускатися за допомогою PHP як модуля SAPI. Існує досить багато додаткових опцій конфігурації для налаштування роботи LSWS/OLS c PHP. Більш детально почитати про них можна на сайті з документацією LiteSpeed ​​в розділі [» PHP](https://docs.litespeedtech.com/extapp/php/configuration/control/)
+Після виконання описаних вище кроків, LSWS/OLS повинні запускатися за допомогою PHP як модуля SAPI. Існує досить багато додаткових опцій конфігурації для налаштування роботи LSWS/OLS c PHP. Більш детально почитати про них можна на сайті з документацією LiteSpeed ​​в розділі [» PHP](https://docs.litespeedtech.com/extapp/php/configuration/control/)
 
 Використання LSPHP з командного рядка:
 
@@ -98,14 +98,14 @@ LSAPI – це дуже оптимізований API, що дозволяє Li
 PHP_LSAPI_MAX_REQUESTS=500 PHP_LSAPI_CHILDREN=35 /path/to/lsphp -b IP_address:port
 ```
 
-На даний момент LiteSpeed ​​PHP можна використовувати з веб-серверами LiteSpeed, OpenLiteSpeed ​​та Apache modlsapi. Подробиці про конфігурацію сервера читайте на сторінках [» LiteSpeed Web Server](https://docs.litespeedtech.com/extapp/php/getting_started/) і [» OpenLiteSpeed](https://openlitespeed.org/kb/category/installation/php-installation-guides/)
+На даний момент LiteSpeed ​​PHP можна використовувати з веб-серверами LiteSpeed, OpenLiteSpeed ​​та Apache modlsapi. Подробиці про конфігурацію сервера читайте на сторінках [» LiteSpeed Web Server](https://docs.litespeedtech.com/extapp/php/getting_started/) і [» OpenLiteSpeed](https://openlitespeed.org/kb/category/installation/php-installation-guides/)
 
 LSPHP можна встановити різними способами.
 
-CentOS: На CentOS, LSPHP може бути встановлений з репозиторіїв LiteSpeed ​​або Remi, використовуючи [» RPM](https://docs.litespeedtech.com/extapp/php/getting_started/#litespeed-repo-search-packages)
+CentOS: На CentOS, LSPHP може бути встановлений з репозиторіїв LiteSpeed ​​або Remi, використовуючи [» RPM](https://docs.litespeedtech.com/extapp/php/getting_started/#litespeed-repo-search-packages)
 
-Debian: На Debian, LSPHP можна поставити з репозиторію LiteSpeed, використовуючи [» apt](https://docs.litespeedtech.com/extapp/php/getting_started/#litespeed-repo-search-packages)
+Debian: На Debian, LSPHP можна поставити з репозиторію LiteSpeed, використовуючи [» apt](https://docs.litespeedtech.com/extapp/php/getting_started/#litespeed-repo-search-packages)
 
-cPanel: Для встановлення з cPanel та LSWS/OLS використовуючи EasyApache 4, читайте відповідну [» документацию](https://docs.litespeedtech.com/cp/cpanel/quickstart/#easyapache-integration)
+cPanel: Для встановлення з cPanel та LSWS/OLS використовуючи EasyApache 4, читайте відповідну [» документацию](https://docs.litespeedtech.com/cp/cpanel/quickstart/#easyapache-integration)
 
-Plesk: Plesk можна використовувати з LSPHP на CentOS, CloudLinux, Debian та Ubuntu. Докладніше описано в [» документации](https://docs.litespeedtech.com/cp/plesk/)
+Plesk: Plesk можна використовувати з LSPHP на CentOS, CloudLinux, Debian та Ubuntu. Докладніше описано в [» документации](https://docs.litespeedtech.com/cp/plesk/)

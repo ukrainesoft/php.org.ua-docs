@@ -34,10 +34,10 @@ public Exception::__toString(): string
 
 ```php
 <?php
-try {
-    throw new Exception("Какое-нибудь сообщение об ошибке");
-} catch(Exception $e) {
-    echo $e;
+try {
+    throw new Exception("Какое-нибудь сообщение об ошибке");
+} catch(Exception $e) {
+    echo $e;
 }
 ?>
 ```

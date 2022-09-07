@@ -48,15 +48,15 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 Отримання числа записів у результаті.
 
 ```php
-// $ds допустимый экземпляр LDAP\Connection
+// $ds допустимый экземпляр LDAP\Connection
 
-     $dn        = 'ou=example,dc=org';
-     $filter    = '(|(sn=Doe*)(givenname=John*))';
-     $justthese = array('ou', 'sn', 'givenname', 'mail');
+     $dn        = 'ou=example,dc=org';
+     $filter    = '(|(sn=Doe*)(givenname=John*))';
+     $justthese = array('ou', 'sn', 'givenname', 'mail');
 
-     $sr = ldap_search($ds, $dn, $filter, $justthese);
+     $sr = ldap_search($ds, $dn, $filter, $justthese);
 
-     var_dump(ldap_count_entries($ds, $sr));
+     var_dump(ldap_count_entries($ds, $sr));
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

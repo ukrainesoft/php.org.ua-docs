@@ -15,7 +15,7 @@ Imagick::shadowImage — Імітує тінь зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::shadowImage(    float $opacity,    float $sigma,    int $x,    int $y): bool
+public Imagick::shadowImage(    float $opacity,    float $sigma,    int $x,    int $y): bool
 ```
 
 Імітує тінь зображення.
@@ -40,11 +40,11 @@ public Imagick::shadowImage(    float $opacity,    float $sigma,    
 
 ```php
 <?php
-function shadowImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->shadowImage(0.4, 10, 50, 5);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function shadowImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->shadowImage(0.4, 10, 50, 5);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

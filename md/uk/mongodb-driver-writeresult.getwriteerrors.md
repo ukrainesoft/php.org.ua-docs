@@ -37,23 +37,23 @@ final public MongoDB\Driver\WriteResult::getWriteErrors(): array
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
+$manager = new MongoDB\Driver\Manager;
 
-/* По умолчанию массовые операции записи выполняются последовательно по порядку
- * и выполнение прекращается после первой ошибки.
- */
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['_id' => 1]);
-$bulk->insert(['_id' => 2]);
-$bulk->insert(['_id' => 2]);
-$bulk->insert(['_id' => 3]);
-$bulk->insert(['_id' => 4]);
-$bulk->insert(['_id' => 4]);
+/* По умолчанию массовые операции записи выполняются последовательно по порядку
+ * и выполнение прекращается после первой ошибки.
+ */
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['_id' => 1]);
+$bulk->insert(['_id' => 2]);
+$bulk->insert(['_id' => 2]);
+$bulk->insert(['_id' => 3]);
+$bulk->insert(['_id' => 4]);
+$bulk->insert(['_id' => 4]);
 
-try {
-    $result = $manager->executeBulkWrite('db.collection', $bulk);
-} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
-    var_dump($e->getWriteResult()->getWriteErrors());
+try {
+    $result = $manager->executeBulkWrite('db.collection', $bulk);
+} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteErrors());
 }
 
 ?>
@@ -82,23 +82,23 @@ array(1) {
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
+$manager = new MongoDB\Driver\Manager;
 
-/* Параметр "ordered" может использоваться для продолжения
- * выполнения массовых операций записи после первой ошибки.
- */
-$bulk = new MongoDB\Driver\BulkWrite(['ordered' => false]);
-$bulk->insert(['_id' => 1]);
-$bulk->insert(['_id' => 2]);
-$bulk->insert(['_id' => 2]);
-$bulk->insert(['_id' => 3]);
-$bulk->insert(['_id' => 4]);
-$bulk->insert(['_id' => 4]);
+/* Параметр "ordered" может использоваться для продолжения
+ * выполнения массовых операций записи после первой ошибки.
+ */
+$bulk = new MongoDB\Driver\BulkWrite(['ordered' => false]);
+$bulk->insert(['_id' => 1]);
+$bulk->insert(['_id' => 2]);
+$bulk->insert(['_id' => 2]);
+$bulk->insert(['_id' => 3]);
+$bulk->insert(['_id' => 4]);
+$bulk->insert(['_id' => 4]);
 
-try {
-    $result = $manager->executeBulkWrite('db.collection', $bulk);
-} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
-    var_dump($e->getWriteResult()->getWriteErrors());
+try {
+    $result = $manager->executeBulkWrite('db.collection', $bulk);
+} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteErrors());
 }
 
 ?>

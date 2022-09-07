@@ -41,35 +41,35 @@ public Yaf_Route_Map::assemble(array $info, array $query = ?): string
 ```php
 <?php
 
-$router = new Yaf_Router();
+$router = new Yaf_Router();
 
-$route  = new Yaf_Route_Map();
+$route  = new Yaf_Route_Map();
 
-$router->addRoute("map", $route);
+$router->addRoute("map", $route);
 
 var_dump($router->getRoute('map')->assemble(
-                        array(
-                                ':c' => 'foo_bar'
-                        ),
-                        array(
-                                'tkey1' => 'tval1',
-                                'tkey2' => 'tval2'
-                        )
-                   )
+                        array(
+                                ':c' => 'foo_bar'
+                        ),
+                        array(
+                                'tkey1' => 'tval1',
+                                'tkey2' => 'tval2'
+                        )
+                   )
 );
 
-$route = new Yaf_Route_Map(true, '_');
-$router->addRoute("map", $route);
+$route = new Yaf_Route_Map(true, '_');
+$router->addRoute("map", $route);
 
 var_dump($router->getRoute('map')->assemble(
-                        array(
-                                ':a' => 'foo_bar'
-                        ),
-                        array(
-                                'tkey1' => 'tval1',
-                                'tkey2' => 'tval2'
-                        )
-                   )
+                        array(
+                                ':a' => 'foo_bar'
+                        ),
+                        array(
+                                'tkey1' => 'tval1',
+                                'tkey2' => 'tval2'
+                        )
+                   )
 );
 ```
 

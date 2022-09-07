@@ -36,14 +36,14 @@ public ReflectionClass::hasProperty(string $name): bool
 
 ```php
 <?php
-class Foo {
-    public    $p1;
-    protected $p2;
-    private   $p3;
+class Foo {
+    public    $p1;
+    protected $p2;
+    private   $p3;
 
 }
 
-$obj = new ReflectionObject(new Foo());
+$obj = new ReflectionObject(new Foo());
 
 var_dump($obj->hasProperty("p1"));
 var_dump($obj->hasProperty("p2"));

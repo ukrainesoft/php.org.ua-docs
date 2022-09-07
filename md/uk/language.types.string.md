@@ -31,26 +31,26 @@ title: Рядки
 
 ```php
 <?php
-echo 'это простая строка';
+echo 'это простая строка';
 
-echo 'Также вы можете вставлять в строки
-символ новой строки вот так,
-это нормально';
+echo 'Также вы можете вставлять в строки
+символ новой строки вот так,
+это нормально';
 
-// Выводит: Однажды Арнольд сказал: "I'll be back"
-echo 'Однажды Арнольд сказал: "I\'ll be back"';
+// Выводит: Однажды Арнольд сказал: "I'll be back"
+echo 'Однажды Арнольд сказал: "I\'ll be back"';
 
-// Выводит: Вы удалили C:\*.*?
-echo 'Вы удалили C:\\*.*?';
+// Выводит: Вы удалили C:\*.*?
+echo 'Вы удалили C:\\*.*?';
 
-// Выводит: Вы удалили C:\*.*?
-echo 'Вы удалили C:\*.*?';
+// Выводит: Вы удалили C:\*.*?
+echo 'Вы удалили C:\*.*?';
 
-// Выводит: Это не будет развёрнуто: \n новая строка
-echo 'Это не будет развёрнуто: \n новая строка';
+// Выводит: Это не будет развёрнуто: \n новая строка
+echo 'Это не будет развёрнуто: \n новая строка';
 
-// Выводит: Переменные $expand также $either не разворачиваются
-echo 'Переменные $expand также $either не разворачиваются';
+// Выводит: Переменные $expand также $either не разворачиваются
+echo 'Переменные $expand также $either не разворачиваются';
 ?>
 ```
 
@@ -91,20 +91,20 @@ echo 'Переменные $expand также $either не развора�
 
 ```php
 <?php
-// без отступов
-echo <<<END
-      a
-     b
-    c
+// без отступов
+echo <<<END
+      a
+     b
+    c
 \n
 END;
 
-// 4 отступа
-echo <<<END
-      a
-     b
-    c
-    END;
+// 4 отступа
+echo <<<END
+      a
+     b
+    c
+    END;
 ```
 
 Результат виконання цього прикладу в PHP 7.3:
@@ -125,11 +125,11 @@ c
 
 ```php
 <?php
-echo <<<END
-  a
- b
+echo <<<END
+  a
+ b
 c
-   END;
+   END;
 ```
 
 Результат виконання цього прикладу в PHP 7.3:
@@ -144,27 +144,27 @@ PHP Parse error:  Invalid body indentation level (expecting an indentation level
 
 ```php
 <?php
-// Весь следующий код не работает.
+// Весь следующий код не работает.
 
-// Другой отступ для закрывающего идентификатора (табов) тела (пробелов)
+// Другой отступ для закрывающего идентификатора (табов) тела (пробелов)
 {
-    echo <<<END
-     a
-        END;
+    echo <<<END
+     a
+        END;
 }
 
-// смешивание пробелов и табуляции в теле
+// смешивание пробелов и табуляции в теле
 {
-    echo <<<END
-        a
-     END;
+    echo <<<END
+        a
+     END;
 }
 
-// смешивание пробелов и табуляции в закрывающем идентификаторе
+// смешивание пробелов и табуляции в закрывающем идентификаторе
 {
-    echo <<<END
-          a
-         END;
+    echo <<<END
+          a
+         END;
 }
 ```
 
@@ -180,11 +180,11 @@ PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in examp
 
 ```php
 <?php
-$values = [<<<END
+$values = [<<<END
 a
-  b
-    c
-END, 'd e f'];
+  b
+    c
+END, 'd e f'];
 var_dump($values);
 ```
 
@@ -209,11 +209,11 @@ array(2) {
 
 ```php
 <?php
-$values = [<<<END
+$values = [<<<END
 a
 b
-END ING
-END, 'd e f'];
+END ING
+END, 'd e f'];
 ```
 
 Результат виконання цього прикладу в PHP 7.3:
@@ -234,11 +234,11 @@ PHP Parse error:  syntax error, unexpected identifier "ING", expecting "]" in ex
 
 ```php
 <?php
-class foo {
-    public $bar = <<<EOT
+class foo {
+    public $bar = <<<EOT
 bar
-    EOT;
-// отступ перед закрывающим идентификатором недопустим
+    EOT;
+// отступ перед закрывающим идентификатором недопустим
 }
 ?>
 ```
@@ -247,8 +247,8 @@ bar
 
 ```php
 <?php
-class foo {
-    public $bar = <<<EOT
+class foo {
+    public $bar = <<<EOT
 bar
 EOT;
 }
@@ -263,32 +263,32 @@ Heredoc-текст поводиться так само, як і рядок у �
 
 ```php
 <?php
-$str = <<<EOD
-Пример строки,
-охватывающей несколько строк,
-с использованием heredoc-синтаксиса.
+$str = <<<EOD
+Пример строки,
+охватывающей несколько строк,
+с использованием heredoc-синтаксиса.
 EOD;
 
-/* Более сложный пример с переменными. */
-class foo
+/* Более сложный пример с переменными. */
+class foo
 {
-    var $foo;
-    var $bar;
+    var $foo;
+    var $bar;
 
-    function __construct()
-    {
-        $this->foo = 'Foo';
-        $this->bar = array('Bar1', 'Bar2', 'Bar3');
-    }
+    function __construct()
+    {
+        $this->foo = 'Foo';
+        $this->bar = array('Bar1', 'Bar2', 'Bar3');
+    }
 }
 
-$foo = new foo();
-$name = 'Имярек';
+$foo = new foo();
+$name = 'Имярек';
 
-echo <<<EOT
-Меня зовут "$name". Я печатаю $foo->foo.
-Теперь я вывожу {$foo->bar[1]}.
-Это должно вывести заглавную букву 'A': \x41
+echo <<<EOT
+Меня зовут "$name". Я печатаю $foo->foo.
+Теперь я вывожу {$foo->bar[1]}.
+Это должно вывести заглавную букву 'A': \x41
 EOT;
 ?>
 ```
@@ -320,23 +320,23 @@ EOD
 
 ```php
 <?php
-// Статические переменные
-function foo()
+// Статические переменные
+function foo()
 {
-    static $bar = <<<LABEL
-Здесь ничего нет...
+    static $bar = <<<LABEL
+Здесь ничего нет...
 LABEL;
 }
 
-// Константы/свойства класса
-class foo
+// Константы/свойства класса
+class foo
 {
-    const BAR = <<<FOOBAR
-Пример использования константы
+    const BAR = <<<FOOBAR
+Пример использования константы
 FOOBAR;
 
-    public $baz = <<<FOOBAR
-Пример использования поля
+    public $baz = <<<FOOBAR
+Пример использования поля
 FOOBAR;
 }
 ?>
@@ -348,8 +348,8 @@ FOOBAR;
 
 ```php
 <?php
-echo <<<"FOOBAR"
-Привет, мир!
+echo <<<"FOOBAR"
+Привет, мир!
 FOOBAR;
 ?>
 ```
@@ -364,11 +364,11 @@ Nowdoc вказується тією ж послідовністю `<<<`, що �
 
 ```php
 <?php
-echo <<<'EOD'
-Пример текста,
-занимающего несколько строк,
-с помощью синтаксиса nowdoc. Обратные слеши всегда обрабатываются буквально,
-например, \\ и \'.
+echo <<<'EOD'
+Пример текста,
+занимающего несколько строк,
+с помощью синтаксиса nowdoc. Обратные слеши всегда обрабатываются буквально,
+например, \\ и \'.
 EOD;
 ```
 
@@ -385,26 +385,26 @@ EOD;
 
 ```php
 <?php
-/* Более сложный пример с переменными. */
-class foo
+/* Более сложный пример с переменными. */
+class foo
 {
-    public $foo;
-    public $bar;
+    public $foo;
+    public $bar;
 
-    function __construct()
-    {
-        $this->foo = 'Foo';
-        $this->bar = array('Bar1', 'Bar2', 'Bar3');
-    }
+    function __construct()
+    {
+        $this->foo = 'Foo';
+        $this->bar = array('Bar1', 'Bar2', 'Bar3');
+    }
 }
 
-$foo = new foo();
-$name = 'Имярек';
+$foo = new foo();
+$name = 'Имярек';
 
-echo <<<'EOT'
-Меня зовут "$name". Я печатаю $foo->foo.
-Теперь я печатаю {$foo->bar[1]}.
-Это не должно вывести заглавную 'A': \x41
+echo <<<'EOT'
+Меня зовут "$name". Я печатаю $foo->foo.
+Теперь я печатаю {$foo->bar[1]}.
+Это не должно вывести заглавную 'A': \x41
 EOT;
 ?>
 ```
@@ -421,8 +421,8 @@ EOT;
 
 ```php
 <?php
-class foo {
-    public $bar = <<<'EOT'
+class foo {
+    public $bar = <<<'EOT'
 bar
 EOT;
 }
@@ -443,15 +443,15 @@ EOT;
 
 ```php
 <?php
-$juice = "apple";
+$juice = "apple";
 
-echo "He drank some $juice juice.".PHP_EOL;
+echo "He drank some $juice juice.".PHP_EOL;
 
-// Некорректно. 's' - верный символ для имени переменной, но переменная имеет имя $juice.
-echo "He drank some juice made of $juices.";
+// Некорректно. 's' - верный символ для имени переменной, но переменная имеет имя $juice.
+echo "He drank some juice made of $juices.";
 
-// Корректно. Строго указан конец имени переменной с помощью скобок:
-echo "He drank some juice made of ${juice}s.";
+// Корректно. Строго указан конец имени переменной с помощью скобок:
+echo "He drank some juice made of ${juice}s.";
 ?>
 ```
 
@@ -469,26 +469,26 @@ He drank some juice made of apples.
 
 ```php
 <?php
-$juices = array("apple", "orange", "koolaid1" => "purple");
+$juices = array("apple", "orange", "koolaid1" => "purple");
 
-echo "He drank some $juices[0] juice.".PHP_EOL;
-echo "He drank some $juices[1] juice.".PHP_EOL;
-echo "He drank some $juices[koolaid1] juice.".PHP_EOL;
+echo "He drank some $juices[0] juice.".PHP_EOL;
+echo "He drank some $juices[1] juice.".PHP_EOL;
+echo "He drank some $juices[koolaid1] juice.".PHP_EOL;
 
-class people {
-    public $john = "John Smith";
-    public $jane = "Jane Smith";
-    public $robert = "Robert Paulsen";
+class people {
+    public $john = "John Smith";
+    public $jane = "Jane Smith";
+    public $robert = "Robert Paulsen";
 
-    public $smith = "Smith";
+    public $smith = "Smith";
 }
 
-$people = new people();
+$people = new people();
 
-echo "$people->john drank some $juices[0] juice.".PHP_EOL;
-echo "$people->john then said hello to $people->jane.".PHP_EOL;
-echo "$people->john's wife greeted $people->robert.".PHP_EOL;
-echo "$people->robert greeted the two $people->smiths."; // Не сработает
+echo "$people->john drank some $juices[0] juice.".PHP_EOL;
+echo "$people->john then said hello to $people->jane.".PHP_EOL;
+echo "$people->john's wife greeted $people->robert.".PHP_EOL;
+echo "$people->robert greeted the two $people->smiths."; // Не сработает
 ?>
 ```
 
@@ -510,10 +510,10 @@ Robert Paulsen greeted the two .
 
 ```php
 <?php
-$string = 'string';
-echo "Символ с индексом -2 равен $string[-2].", PHP_EOL;
-$string[-3] = 'o';
-echo "Изменение символа на позиции -3 на 'o' даёт следующую строку: $string.", PHP_EOL;
+$string = 'string';
+echo "Символ с индексом -2 равен $string[-2].", PHP_EOL;
+$string[-3] = 'o';
+echo "Изменение символа на позиции -3 на 'o' даёт следующую строку: $string.", PHP_EOL;
 ?>
 ```
 
@@ -534,55 +534,55 @@ echo "Изменение символа на позиции -3 на 'o' 
 
 ```php
 <?php
-// Показываем все ошибки
+// Показываем все ошибки
 error_reporting(E_ALL);
 
-$great = 'здорово';
+$great = 'здорово';
 
-// Не работает, выводит: Это { здорово}
-echo "Это { $great}";
+// Не работает, выводит: Это { здорово}
+echo "Это { $great}";
 
-// Работает, выводит: Это здорово
-echo "Это {$great}";
+// Работает, выводит: Это здорово
+echo "Это {$great}";
 
-// Работает
-echo "Этот квадрат шириной {$square->width}00 сантиметров.";
+// Работает
+echo "Этот квадрат шириной {$square->width}00 сантиметров.";
 
-// Работает, ключи, заключённые в кавычки, работают только с синтаксисом фигурных скобок
-echo "Это работает: {$arr['key']}";
+// Работает, ключи, заключённые в кавычки, работают только с синтаксисом фигурных скобок
+echo "Это работает: {$arr['key']}";
 
-// Работает
-echo "Это работает: {$arr[4][3]}";
+// Работает
+echo "Это работает: {$arr[4][3]}";
 
-// Это неверно по той же причине, что и $foo[bar] вне
-// строки. Другими словами, это по-прежнему будет работать,
-// но поскольку PHP сначала ищет константу foo, это вызовет
-// ошибку уровня E_NOTICE (неопределённая константа).
-echo "Это неправильно: {$arr[foo][3]}";
+// Это неверно по той же причине, что и $foo[bar] вне
+// строки. Другими словами, это по-прежнему будет работать,
+// но поскольку PHP сначала ищет константу foo, это вызовет
+// ошибку уровня E_NOTICE (неопределённая константа).
+echo "Это неправильно: {$arr[foo][3]}";
 
-// Работает. При использовании многомерных Масивов внутри
-// строк всегда используйте фигурные скобки
-echo "Это работает: {$arr['foo'][3]}";
+// Работает. При использовании многомерных Масивов внутри
+// строк всегда используйте фигурные скобки
+echo "Это работает: {$arr['foo'][3]}";
 
-// Работает.
-echo "Это работает: " . $arr['foo'][3];
+// Работает.
+echo "Это работает: " . $arr['foo'][3];
 
-echo "Это тоже работает: {$obj->values[3]->name}";
+echo "Это тоже работает: {$obj->values[3]->name}";
 
-echo "Это значение переменной по имени $name: {${$name}}";
+echo "Это значение переменной по имени $name: {${$name}}";
 
-echo "Это значение переменной по имени, которое возвращает функция getName(): {${getName()}}";
+echo "Это значение переменной по имени, которое возвращает функция getName(): {${getName()}}";
 
-echo "Это значение переменной по имени, которое возвращает \$object->getName(): {${$object->getName()}}";
+echo "Это значение переменной по имени, которое возвращает \$object->getName(): {${$object->getName()}}";
 
-// Не работает, выводит: Это то, что возвращает getName(): {getName()}
-echo "Это то, что возвращает getName(): {getName()}";
+// Не работает, выводит: Это то, что возвращает getName(): {getName()}
+echo "Это то, что возвращает getName(): {getName()}";
 
-// Не работает, выводит: C:\folder\{fantastic}.txt
-echo "C:\folder\{$great}.txt"
+// Не работает, выводит: C:\folder\{fantastic}.txt
+echo "C:\folder\{$great}.txt"
 
-// Работает, выводит: C:\folder\fantastic.txt
-echo "C:\\folder\\{$great}.txt"
+// Работает, выводит: C:\folder\fantastic.txt
+echo "C:\\folder\\{$great}.txt"
 ?>
 ```
 
@@ -590,15 +590,15 @@ echo "C:\\folder\\{$great}.txt"
 
 ```php
 <?php
-class foo {
-    var $bar = 'I am bar.';
+class foo {
+    var $bar = 'I am bar.';
 }
 
-$foo = new foo();
-$bar = 'bar';
-$baz = array('foo', 'bar', 'baz', 'quux');
-echo "{$foo->$bar}\n";
-echo "{$foo->{$baz[1]}}\n";
+$foo = new foo();
+$bar = 'bar';
+$baz = array('foo', 'bar', 'baz', 'quux');
+echo "{$foo->$bar}\n";
+echo "{$foo->{$baz[1]}}\n";
 ?>
 ```
 
@@ -615,22 +615,22 @@ I am bar.
 
 ```php
 <?php
-// Показываем все ошибки
+// Показываем все ошибки
 error_reporting(E_ALL);
 
-class beers {
-    const softdrink = 'rootbeer';
-    public static $ale = 'ipa';
+class beers {
+    const softdrink = 'rootbeer';
+    public static $ale = 'ipa';
 }
 
-$rootbeer = 'A & W';
-$ipa = 'Alexander Keith\'s';
+$rootbeer = 'A & W';
+$ipa = 'Alexander Keith\'s';
 
-// Это работает, выводит: Я бы хотел A & W
-echo "Я бы хотел {${beers::softdrink}}\n";
+// Это работает, выводит: Я бы хотел A & W
+echo "Я бы хотел {${beers::softdrink}}\n";
 
-// Это тоже работает, выводит: Я бы хотел Alexander Keith's
-echo "Я бы хотел {${beers::$ale}}\n";
+// Это тоже работает, выводит: Я бы хотел Alexander Keith's
+echo "Я бы хотел {${beers::$ale}}\n";
 ?>
 ```
 
@@ -656,20 +656,20 @@ echo "Я бы хотел {${beers::$ale}}\n";
 
 ```php
 <?php
-// Получение первого символа строки
-$str = 'This is a test.';
-$first = $str[0];
+// Получение первого символа строки
+$str = 'This is a test.';
+$first = $str[0];
 
-// Получение третьего символа строки
-$third = $str[2];
+// Получение третьего символа строки
+$third = $str[2];
 
-// Получение последнего символа строки
-$str = 'This is still a test.';
-$last = $str[strlen($str)-1];
+// Получение последнего символа строки
+$str = 'This is still a test.';
+$last = $str[strlen($str)-1];
 
-// Изменение последнего символа строки
-$str = 'Look at the sea';
-$str[strlen($str)-1] = 'e';
+// Изменение последнего символа строки
+$str = 'Look at the sea';
+$str[strlen($str)-1] = 'e';
 
 ?>
 ```
@@ -680,7 +680,7 @@ $str[strlen($str)-1] = 'e';
 
 ```php
 <?php
-$str = 'abc';
+$str = 'abc';
 
 var_dump($str['1']);
 var_dump(isset($str['1']));

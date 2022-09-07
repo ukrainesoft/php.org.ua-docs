@@ -42,17 +42,17 @@ public PharFileInfo::isCompressed(?int $compression = null): bool
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['myfile.txt'] = 'hi';
-    $p['myfile2.txt'] = 'hi';
-    $p['myfile2.txt']->setCompressedGZ();
-    $file = $p['myfile.txt'];
-    $file2 = $p['myfile2.txt'];
-    var_dump($file->isCompressed());
-    var_dump($file2->isCompressed());
-} catch (Exception $e) {
-    echo 'Не удалось создать/изменить phar my.phar: ', $e;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['myfile.txt'] = 'hi';
+    $p['myfile2.txt'] = 'hi';
+    $p['myfile2.txt']->setCompressedGZ();
+    $file = $p['myfile.txt'];
+    $file2 = $p['myfile2.txt'];
+    var_dump($file->isCompressed());
+    var_dump($file2->isCompressed());
+} catch (Exception $e) {
+    echo 'Не удалось создать/изменить phar my.phar: ', $e;
 }
 ?>
 ```

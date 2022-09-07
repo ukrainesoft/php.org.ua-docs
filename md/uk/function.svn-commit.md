@@ -58,9 +58,9 @@ array( 0 => Номер ревізії зробленої зміни 1 => Ряд�
 
 ```php
 <?php
-svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_USERNAME, 'Bob');
-svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_PASSWORD, 'abc123');
-var_dump(svn_commit('Комментарий Bob\'а', array(realpath('calculator'))));
+svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_USERNAME, 'Bob');
+svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_PASSWORD, 'abc123');
+var_dump(svn_commit('Комментарий Bob\'а', array(realpath('calculator'))));
 ?>
 ```
 
@@ -83,4 +83,4 @@ array(
 ### Дивіться також
 
 -   [svnauthsetparameter()](function.svn-auth-set-parameter.md) - Встановлює параметр автентифікації
--   [» SVN-документация по svn commit](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.commit.md)
+-   [» SVN-документация по svn commit](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.commit.md)

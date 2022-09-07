@@ -39,7 +39,7 @@ public SolrDisMaxQuery::setQueryAlt(string $q): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new DisMaxQuery();
+$dismaxQuery = new DisMaxQuery();
 $dismaxQuery->setQueryAlt('*:*');
 
 ?>

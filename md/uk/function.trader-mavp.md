@@ -15,7 +15,7 @@ tradermavp — Ковзна середня зі змінним періодом
 ### Опис
 
 ```methodsynopsis
-trader_mavp(    array $real,    array $periods,    int $minPeriod = ?,    int $maxPeriod = ?,    int $mAType = ?): array
+trader_mavp(    array $real,    array $periods,    int $minPeriod = ?,    int $maxPeriod = ?,    int $mAType = ?): array
 ```
 
 ### Список параметрів

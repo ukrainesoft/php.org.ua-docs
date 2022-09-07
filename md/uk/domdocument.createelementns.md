@@ -55,14 +55,14 @@ URI простір імен.
 ```php
 <?php
 
-$dom = new DOMDocument('1.0', 'utf-8');
+$dom = new DOMDocument('1.0', 'utf-8');
 
-$element = $dom->createElementNS('http://www.example.com/XFoo', 'xfoo:test', 'Это корневой элемент!');
+$element = $dom->createElementNS('http://www.example.com/XFoo', 'xfoo:test', 'Это корневой элемент!');
 
-// Вставляем новый элемент как корень (потомок документа)
+// Вставляем новый элемент как корень (потомок документа)
 $dom->appendChild($element);
 
-echo $dom->saveXML();
+echo $dom->saveXML();
 ?>
 ```
 
@@ -77,19 +77,19 @@ echo $dom->saveXML();
 
 ```php
 <?php
-$doc  = new DOMDocument('1.0', 'utf-8');
-$doc->formatOutput = true;
-$root = $doc->createElementNS('http://www.w3.org/2005/Atom', 'element');
+$doc  = new DOMDocument('1.0', 'utf-8');
+$doc->formatOutput = true;
+$root = $doc->createElementNS('http://www.w3.org/2005/Atom', 'element');
 $doc->appendChild($root);
-$root->setAttributeNS('http://www.w3.org/2000/xmlns/' ,'xmlns:g', 'http://base.google.com/ns/1.0');
-$item = $doc->createElementNS('http://base.google.com/ns/1.0', 'g:item_type', 'house');
+$root->setAttributeNS('http://www.w3.org/2000/xmlns/' ,'xmlns:g', 'http://base.google.com/ns/1.0');
+$item = $doc->createElementNS('http://base.google.com/ns/1.0', 'g:item_type', 'house');
 $root->appendChild($item);
 
-echo $doc->saveXML(), "\n";
+echo $doc->saveXML(), "\n";
 
-echo $item->namespaceURI, "\n"; // Выведет: http://base.google.com/ns/1.0
-echo $item->prefix, "\n";       // Выведет: g
-echo $item->localName, "\n";    // Выведет: item_type
+echo $item->namespaceURI, "\n"; // Выведет: http://base.google.com/ns/1.0
+echo $item->prefix, "\n";       // Выведет: g
+echo $item->localName, "\n";    // Выведет: item_type
 ?>
 ```
 

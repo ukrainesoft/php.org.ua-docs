@@ -51,7 +51,7 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 ```php
 <?php
 
-print_r(imap_getacl($imap, 'user.joecool'));
+print_r(imap_getacl($imap, 'user.joecool'));
 
 ?>
 ```

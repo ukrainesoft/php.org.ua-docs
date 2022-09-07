@@ -41,11 +41,11 @@ dba_handlers(bool $full_info = false): array
 ```php
 <?php
 
-echo "Доступные обработчики DBA:\n";
-foreach (dba_handlers(true) as $handler_name => $handler_version) {
-  // Очищаем строки с версиями
-  $handler_version = str_replace('$', '', $handler_version);
-  echo " - $handler_name: $handler_version\n";
+echo "Доступные обработчики DBA:\n";
+foreach (dba_handlers(true) as $handler_name => $handler_version) {
+  // Очищаем строки с версиями
+  $handler_version = str_replace('$', '', $handler_version);
+  echo " - $handler_name: $handler_version\n";
 }
 
 ?>

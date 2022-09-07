@@ -29,7 +29,7 @@ title: Клас PDO
 
     /* Методы */
     
-   public __construct(    string $dsn,    ?string $username = null,    ?string $password = null,    ?array $options = null)
+   public __construct(    string $dsn,    ?string $username = null,    ?string $password = null,    ?array $options = null)
 
     public beginTransaction(): bool
 public commit(): bool
@@ -43,7 +43,7 @@ public lastInsertId(?string $name = null): string|false
 public prepare(string $query, array $options = []): PDOStatement|false
 public query(string $query, ?int $fetchMode = null): PDOStatement|false
 public query(string $query, ?int $fetchMode = PDO::FETCH_COLUMN, int $colno): PDOStatement|false
-public query(    string $query,    ?int $fetchMode = PDO::FETCH_CLASS,    string $classname,    array $constructorArgs): PDOStatement|false
+public query(    string $query,    ?int $fetchMode = PDO::FETCH_CLASS,    string $classname,    array $constructorArgs): PDOStatement|false
 public query(string $query, ?int $fetchMode = PDO::FETCH_INTO, object $object): PDOStatement|false
 public quote(string $string, int $type = PDO::PARAM_STR): string|false
 public rollBack(): bool

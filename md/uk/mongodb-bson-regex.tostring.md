@@ -33,8 +33,8 @@ final public MongoDB\BSON\Regex::__toString(): string
 ```php
 <?php
 
-$regex = new MongoDB\BSON\Regex('regex', 'i');
-var_dump((string) $regex);
+$regex = new MongoDB\BSON\Regex('regex', 'i');
+var_dump((string) $regex);
 
 ?>
 ```
@@ -47,4 +47,4 @@ string(8) "/regex/i"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

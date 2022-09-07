@@ -48,15 +48,15 @@ public Phar::extractTo(string $directory, array|string|null $files = null, bool 
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    $phar->extractTo('/full/path'); // извлечь все файлы
-    $phar->extractTo('/another/path', 'file.txt'); // извлечь только file.txt
-    $phar->extractTo('/this/path',
-        array('file1.txt', 'file2.txt')); // извлечь два указанных файла
-    $phar->extractTo('/third/path', null, true); // извлечь все файлы, использовать перезапись
-} catch (Exception $e) {
-    // handle errors
+try {
+    $phar = new Phar('myphar.phar');
+    $phar->extractTo('/full/path'); // извлечь все файлы
+    $phar->extractTo('/another/path', 'file.txt'); // извлечь только file.txt
+    $phar->extractTo('/this/path',
+        array('file1.txt', 'file2.txt')); // извлечь два указанных файла
+    $phar->extractTo('/third/path', null, true); // извлечь все файлы, использовать перезапись
+} catch (Exception $e) {
+    // handle errors
 }
 ?>
 ```

@@ -54,16 +54,16 @@ public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
 
 ```php
 <?php
-// создать с псевдонимом "project.phar"
-$phar = new Phar('project.phar', 0, 'project.phar');
-// добавить все файлы директории project в файл project.phar
-$phar->buildFromDirectory(dirname(__FILE__) . '/project');
-$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
+// добавить все файлы директории project в файл project.phar
+$phar->buildFromDirectory(dirname(__FILE__) . '/project');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 
-$phar2 = new Phar('project2.phar', 0, 'project2.phar');
-// добавить все файлы директории project в файл project2.phar, включая только php-файлы
-$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
-$phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+$phar2 = new Phar('project2.phar', 0, 'project2.phar');
+// добавить все файлы директории project в файл project2.phar, включая только php-файлы
+$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
+$phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 

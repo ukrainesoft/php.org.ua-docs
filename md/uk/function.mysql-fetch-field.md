@@ -60,38 +60,38 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 ```php
 <?php
-$conn = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$conn) {
-    die('Ошибка при соединении: ' . mysql_error());
+$conn = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$conn) {
+    die('Ошибка при соединении: ' . mysql_error());
 }
 mysql_select_db('database');
-$result = mysql_query('select * from table');
-if (!$result) {
-    die('Ошибка в запросе: ' . mysql_error());
+$result = mysql_query('select * from table');
+if (!$result) {
+    die('Ошибка в запросе: ' . mysql_error());
 }
-/* получаем данные о колонке */
-$i = 0;
-while ($i < mysql_num_fields($result)) {
-    echo "Информация о колонке $i:<br />\n";
-    $meta = mysql_fetch_field($result, $i);
-    if (!$meta) {
-        echo "Информация недоступна<br />\n";
-    }
-    echo "<pre>
-blob:         $meta->blob
-max_length:   $meta->max_length
-multiple_key: $meta->multiple_key
-name:         $meta->name
-not_null:     $meta->not_null
-numeric:      $meta->numeric
-primary_key:  $meta->primary_key
-table:        $meta->table
-type:         $meta->type
-unique_key:   $meta->unique_key
-unsigned:     $meta->unsigned
-zerofill:     $meta->zerofill
+/* получаем данные о колонке */
+$i = 0;
+while ($i < mysql_num_fields($result)) {
+    echo "Информация о колонке $i:<br />\n";
+    $meta = mysql_fetch_field($result, $i);
+    if (!$meta) {
+        echo "Информация недоступна<br />\n";
+    }
+    echo "<pre>
+blob:         $meta->blob
+max_length:   $meta->max_length
+multiple_key: $meta->multiple_key
+name:         $meta->name
+not_null:     $meta->not_null
+numeric:      $meta->numeric
+primary_key:  $meta->primary_key
+table:        $meta->table
+type:         $meta->type
+unique_key:   $meta->unique_key
+unsigned:     $meta->unsigned
+zerofill:     $meta->zerofill
 </pre>";
-    $i++;
+    $i++;
 }
 mysql_free_result($result);
 ?>

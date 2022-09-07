@@ -15,7 +15,7 @@ GmagickDraw::arc — Малює дугу
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): GmagickDraw
+public GmagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): GmagickDraw
 ```
 
 Малює дугу, що знаходиться в межах прямокутника, що обмежує, на зображенні.

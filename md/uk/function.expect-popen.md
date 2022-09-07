@@ -38,11 +38,11 @@ expect_popen(string $command): resource
 
 ```php
 <?php
-// Соединение с CVS репозиторием PHP.net:
-$stream = expect_popen ("cvs -d :pserver:anonymous@cvs.php.net:/repository login");
-sleep (3);
-fwrite ($stream, "phpfi\n");
-fclose ($stream);
+// Соединение с CVS репозиторием PHP.net:
+$stream = expect_popen ("cvs -d :pserver:anonymous@cvs.php.net:/repository login");
+sleep (3);
+fwrite ($stream, "phpfi\n");
+fclose ($stream);
 ?>
 ```
 

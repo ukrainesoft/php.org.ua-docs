@@ -19,7 +19,7 @@ png2wbmp — Перетворення PNG файлу на WBMP
 ### Опис
 
 ```methodsynopsis
-png2wbmp(    string $pngname,    string $wbmpname,    int $dest_height,    int $dest_width,    int $threshold): bool
+png2wbmp(    string $pngname,    string $wbmpname,    int $dest_height,    int $dest_width,    int $threshold): bool
 ```
 
 Перетворює PNG файл на WBMP.
@@ -60,14 +60,14 @@ png2wbmp(    string $pngname,    string $wbmpname,    int $dest_heig
 
 ```php
 <?php
-// Путь к png
-$path = './test.png';
+// Путь к png
+$path = './test.png';
 
-// Получение размеров изображений
-$image = getimagesize($path);
+// Получение размеров изображений
+$image = getimagesize($path);
 
-// Преобразование
-png2wbmp($path, './test.wbmp', $image[1], $image[0], 7);
+// Преобразование
+png2wbmp($path, './test.wbmp', $image[1], $image[0], 7);
 ?>
 ```
 

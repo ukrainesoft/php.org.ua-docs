@@ -34,11 +34,11 @@ public SplFileObject::next(): void
 
 ```php
 <?php
-// Читаем файл построчно
-$file = new SplFileObject("misc.txt");
-while (!$file->eof()) {
-    echo $file->current();
-    $file->next();
+// Читаем файл построчно
+$file = new SplFileObject("misc.txt");
+while (!$file->eof()) {
+    echo $file->current();
+    $file->next();
 }
 ?>
 ```

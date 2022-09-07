@@ -37,19 +37,19 @@ public Yar_Client::setOpt(int $name, mixed $value): Yar_Client|false
 ```php
 <?php
 
-$cient = new Yar_Client("http://host/api/");
+$cient = new Yar_Client("http://host/api/");
 
-//Установим время ожидания на 1 секунду
-$client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 1000);
+//Установим время ожидания на 1 секунду
+$client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 1000);
 
-//Установим упаковщик JSON
-$client->SetOpt(YAR_OPT_PACKAGER, "json");
+//Установим упаковщик JSON
+$client->SetOpt(YAR_OPT_PACKAGER, "json");
 
-//Установим собственный заголовок
-$client->SetOpt(YAR_OPT_HEADER, array("hr1: val1", "hd2: val2"));
+//Установим собственный заголовок
+$client->SetOpt(YAR_OPT_HEADER, array("hr1: val1", "hd2: val2"));
 
-/* вызовем удалённый сервис */
-$result = $client->some_method("parameter");
+/* вызовем удалённый сервис */
+$result = $client->some_method("parameter");
 ?>
 ```
 

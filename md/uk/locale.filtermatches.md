@@ -56,9 +56,9 @@ locale_filter_matches(string $langtag, string $locale, bool $canonicalize = fals
 
 ```php
 <?php
-echo (locale_filter_matches('de-DEVA','de-DE', false)) ? "Подходит" : "Не подходит";
-echo '; ';
-echo (locale_filter_matches('de-DE_1996','de-DE', false)) ? "Подходит" : "Не подходит";
+echo (locale_filter_matches('de-DEVA','de-DE', false)) ? "Подходит" : "Не подходит";
+echo '; ';
+echo (locale_filter_matches('de-DE_1996','de-DE', false)) ? "Подходит" : "Не подходит";
 ?>
 ```
 
@@ -66,9 +66,9 @@ echo (locale_filter_matches('de-DE_1996','de-DE', false)) ? "Подходи�
 
 ```php
 <?php
-echo (Locale::filterMatches('de-DEVA','de-DE', false)) ? "Подходит" : "Не подходит";
-echo '; ';
-echo (Locale::filterMatches('de-DE-1996','de-DE', false)) ? "Подходит" : "Не подходит";
+echo (Locale::filterMatches('de-DEVA','de-DE', false)) ? "Подходит" : "Не подходит";
+echo '; ';
+echo (Locale::filterMatches('de-DE-1996','de-DE', false)) ? "Подходит" : "Не подходит";
 ?>
 ```
 

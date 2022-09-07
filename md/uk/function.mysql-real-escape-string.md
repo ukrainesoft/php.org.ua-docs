@@ -61,14 +61,14 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 ```php
 <?php
-// Соединение
-$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')
-    OR die(mysql_error());
+// Соединение
+$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')
+    OR die(mysql_error());
 
-// Запрос
-$query = sprintf("SELECT * FROM users WHERE user='%s' AND password='%s'",
-            mysql_real_escape_string($user),
-            mysql_real_escape_string($password));
+// Запрос
+$query = sprintf("SELECT * FROM users WHERE user='%s' AND password='%s'",
+            mysql_real_escape_string($user),
+            mysql_real_escape_string($password));
 ?>
 ```
 
@@ -78,12 +78,12 @@ $query = sprintf("SELECT * FROM users WHERE user='%s' AND password='%s'
 
 ```php
 <?php
-// Коннекта к MySQL нет
+// Коннекта к MySQL нет
 
-$lastname  = "O'Reilly";
-$_lastname = mysql_real_escape_string($lastname);
+$lastname  = "O'Reilly";
+$_lastname = mysql_real_escape_string($lastname);
 
-$query = "SELECT * FROM actors WHERE last_name = '$_lastname'";
+$query = "SELECT * FROM actors WHERE last_name = '$_lastname'";
 
 var_dump($_lastname);
 var_dump($query);
@@ -104,17 +104,17 @@ string(41) "SELECT * FROM actors WHERE last_name = ''"
 
 ```php
 <?php
-// Мы никак не проверили переменную $_POST['password'],
-// а она может содержать совсем не то, что мы ожидали. Например:
-$_POST['username'] = 'aidan';
-$_POST['password'] = "' OR ''='";
+// Мы никак не проверили переменную $_POST['password'],
+// а она может содержать совсем не то, что мы ожидали. Например:
+$_POST['username'] = 'aidan';
+$_POST['password'] = "' OR ''='";
 
-// посылаем запрос, чтобы проверить имя и пароль пользователя
-$query = "SELECT * FROM users WHERE user='{$_POST['username']}' AND password='{$_POST['password']}'";
+// посылаем запрос, чтобы проверить имя и пароль пользователя
+$query = "SELECT * FROM users WHERE user='{$_POST['username']}' AND password='{$_POST['password']}'";
 mysql_query($query);
 
-// посмотрим, какой запрос будет отправлен в MySQL:
-echo $query;
+// посмотрим, какой запрос будет отправлен в MySQL:
+echo $query;
 ?>
 ```
 

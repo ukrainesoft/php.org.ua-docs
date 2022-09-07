@@ -15,7 +15,7 @@ SwooleHttpResponse::cookie — Встановлює cookie HTTP-відповід
 ### Опис
 
 ```methodsynopsis
-public Swoole\Http\Response::cookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): string
+public Swoole\Http\Response::cookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): string
 ```
 
 ### Список параметрів

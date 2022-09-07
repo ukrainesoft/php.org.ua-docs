@@ -15,7 +15,7 @@ tradercdlkickingbylength — Високий стрибок - бик/ведмід
 ### Опис
 
 ```methodsynopsis
-trader_cdlkickingbylength(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlkickingbylength(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

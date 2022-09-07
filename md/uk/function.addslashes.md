@@ -29,8 +29,8 @@ addslashes(string $string): string
 
 ```php
 <?php
-$str = "O'Reilly?";
-eval("echo '" . addslashes($str) . "';");
+$str = "O'Reilly?";
+eval("echo '" . addslashes($str) . "';");
 ?>
 ```
 
@@ -52,10 +52,10 @@ eval("echo '" . addslashes($str) . "';");
 
 ```php
 <?php
-$str = "Ваше имя O'Reilly?";
+$str = "Ваше имя O'Reilly?";
 
-// выводит: Ваше имя O\'Reilly?
-echo addslashes($str);
+// выводит: Ваше имя O\'Reilly?
+echo addslashes($str);
 ?>
 ```
 

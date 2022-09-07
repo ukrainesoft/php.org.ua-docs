@@ -35,7 +35,7 @@ final public MongoDB\BSON\Binary::__toString(): string
 ```php
 <?php
 
-var_dump((string) new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC));
+var_dump((string) new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC));
 
 ?>
 ```
@@ -49,4 +49,4 @@ string(3) "foo"
 ### Дивіться також
 
 -   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md) - Повертає дані Binary
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

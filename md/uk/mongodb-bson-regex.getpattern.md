@@ -37,7 +37,7 @@ final public MongoDB\BSON\Regex::getPattern(): string
 ```php
 <?php
 
-$regex = new MongoDB\BSON\Regex('regex', 'i');
+$regex = new MongoDB\BSON\Regex('regex', 'i');
 var_dump($regex->getPattern());
 
 ?>
@@ -51,4 +51,4 @@ string(5) "regex"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

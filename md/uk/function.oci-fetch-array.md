@@ -69,19 +69,19 @@ oci_fetch_array(resource $statement, int $mode = OCI_BOTH | OCI_RETURN_NULLS): a
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT department_id, department_name FROM departments');
+$stid = oci_parse($conn, 'SELECT department_id, department_name FROM departments');
 oci_execute($stid);
 
-while (($row = oci_fetch_array($stid, OCI_BOTH))) {
-    // Используйте название полей в верхнем регистре для ассоциативных индексов
-    echo $row[0] . " и " . $row['DEPARTMENT_ID']   . " идентичны<br>\n";
-    echo $row[1] . " и " . $row['DEPARTMENT_NAME'] . " идентичны<br>\n";
+while (($row = oci_fetch_array($stid, OCI_BOTH))) {
+    // Используйте название полей в верхнем регистре для ассоциативных индексов
+    echo $row[0] . " и " . $row['DEPARTMENT_ID']   . " идентичны<br>\n";
+    echo $row[1] . " и " . $row['DEPARTMENT_NAME'] . " идентичны<br>\n";
 }
 
 oci_free_statement($stid);
@@ -96,29 +96,29 @@ oci_close($conn);
 <?php
 
 /*
-  Перед выполнением создайте таблицу:
-      CREATE TABLE mytab (id NUMBER, description CLOB);
-      INSERT INTO mytab (id, description) values (1, 'A very long string');
-      COMMIT;
+  Перед выполнением создайте таблицу:
+      CREATE TABLE mytab (id NUMBER, description CLOB);
+      INSERT INTO mytab (id, description) values (1, 'A very long string');
+      COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
 oci_execute($stid);
 
-while (($row = oci_fetch_array($stid, OCI_NUM)) != false) {
-    echo $row[0] . "<br>\n";
-    echo $row[1]->read(11) . "<br>\n"; // это выведет первые 11 байт DESCRIPTION
+while (($row = oci_fetch_array($stid, OCI_NUM)) != false) {
+    echo $row[0] . "<br>\n";
+    echo $row[1]->read(11) . "<br>\n"; // это выведет первые 11 байт DESCRIPTION
 }
 
-// Выведет:
-//    1
-//    A very long
+// Выведет:
+//    1
+//    A very long
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -132,29 +132,29 @@ oci_close($conn);
 <?php
 
 /*
-  Перед выполнением создайте таблицу:
-      CREATE TABLE mytab (id NUMBER, description CLOB);
-      INSERT INTO mytab (id, description) values (1, 'A very long string');
-      COMMIT;
+  Перед выполнением создайте таблицу:
+      CREATE TABLE mytab (id NUMBER, description CLOB);
+      INSERT INTO mytab (id, description) values (1, 'A very long string');
+      COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
 oci_execute($stid);
 
-while (($row = oci_fetch_array($stid, OCI_ASSOC)) != false) {
-    echo $row['ID'] . "<br>\n";
-    echo $row['DESCRIPTION']->read(11) . "<br>\n"; // это выведет первые 11 байт DESCRIPTION
+while (($row = oci_fetch_array($stid, OCI_ASSOC)) != false) {
+    echo $row['ID'] . "<br>\n";
+    echo $row['DESCRIPTION']->read(11) . "<br>\n"; // это выведет первые 11 байт DESCRIPTION
 }
 
-// Выведет:
-//    1
-//    A very long
+// Выведет:
+//    1
+//    A very long
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -167,40 +167,40 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT 1, null FROM dual');
+$stid = oci_parse($conn, 'SELECT 1, null FROM dual');
 oci_execute($stid);
-while (($row = oci_fetch_array ($stid, OCI_ASSOC)) != false) { // Игнорирует NULL значения
-    var_dump($row);
+while (($row = oci_fetch_array ($stid, OCI_ASSOC)) != false) { // Игнорирует NULL значения
+    var_dump($row);
 }
 
 /*
-Вышеуказанный код выведет:
-  array(1) {
-    [1]=>
-    string(1) "1"
-  }
+Вышеуказанный код выведет:
+  array(1) {
+    [1]=>
+    string(1) "1"
+  }
 */
 
-$stid = oci_parse($conn, 'SELECT 1, null FROM dual');
+$stid = oci_parse($conn, 'SELECT 1, null FROM dual');
 oci_execute($stid);
-while (($row = oci_fetch_array ($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) { // Получает NULL значения
-    var_dump($row);
+while (($row = oci_fetch_array ($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) { // Получает NULL значения
+    var_dump($row);
 }
 
 /*
-Вышеуказанный код выведет:
-  array(2) {
-    [1]=>
-    string(1) "1"
-    ["NULL"]=>
-    NULL
-  }
+Вышеуказанный код выведет:
+  array(2) {
+    [1]=>
+    string(1) "1"
+    ["NULL"]=>
+    NULL
+  }
 */
 
 ?>
@@ -212,31 +212,31 @@ while (($row = oci_fetch_array ($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != fa
 <?php
 
 /*
-  Перед выполнением создайте таблицу:
-      CREATE TABLE mytab (id NUMBER, description CLOB);
-      INSERT INTO mytab (id, description) values (1, 'A very long string');
-      COMMIT;
+  Перед выполнением создайте таблицу:
+      CREATE TABLE mytab (id NUMBER, description CLOB);
+      INSERT INTO mytab (id, description) values (1, 'A very long string');
+      COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
 oci_execute($stid);
 
-while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_LOBS))) {
-    echo $row['ID'] . "<br>\n";
-    echo $row['DESCRIPTION'] . "<br>\n"; // содержит весь DESCRIPTION
-    // В цикле, очищение больших переменных перед повторным получением данных, уменьшает пиковое потребление памяти PHP
-    unset($row);
+while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_LOBS))) {
+    echo $row['ID'] . "<br>\n";
+    echo $row['DESCRIPTION'] . "<br>\n"; // содержит весь DESCRIPTION
+    // В цикле, очищение больших переменных перед повторным получением данных, уменьшает пиковое потребление памяти PHP
+    unset($row);
 }
 
-// Выведет:
-//    1
-//    A very long string
+// Выведет:
+//    1
+//    A very long string
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -250,27 +250,27 @@ oci_close($conn);
 <?php
 
 /*
-   Перед выполнением создайте таблицу:
-      CREATE TABLE mytab ("Name" VARCHAR2(20), city VARCHAR2(20));
-      INSERT INTO mytab ("Name", city) values ('Chris', 'Melbourne');
-      COMMIT;
+   Перед выполнением создайте таблицу:
+      CREATE TABLE mytab ("Name" VARCHAR2(20), city VARCHAR2(20));
+      INSERT INTO mytab ("Name", city) values ('Chris', 'Melbourne');
+      COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'select * from mytab');
+$stid = oci_parse($conn, 'select * from mytab');
 oci_execute($stid);
-$row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS);
+$row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS);
 
-// Так как 'Name' было создан как регистрозависимое поле, то
-// те же регисты символов используются для индексов Масива.
-// Тем не менее для 'CITY' должен использоваться индекс в верхнем регистре.
-print $row['Name'] . "<br>\n";   //  выведет Chris
-print $row['CITY'] . "<br>\n";   //  выведет Melbourne
+// Так как 'Name' было создан как регистрозависимое поле, то
+// те же регисты символов используются для индексов Масива.
+// Тем не менее для 'CITY' должен использоваться индекс в верхнем регистре.
+print $row['Name'] . "<br>\n";   //  выведет Chris
+print $row['CITY'] . "<br>\n";   //  выведет Melbourne
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -284,50 +284,50 @@ oci_close($conn);
 <?php
 
 /*
-  Перед выполнением создайте таблицу:
-      CREATE TABLE mycity (id NUMBER, name VARCHAR2(20));
-      INSERT INTO mycity (id, name) values (1, 'Melbourne');
-      CREATE TABLE mycountry (id NUMBER, name VARCHAR2(20));
-      INSERT INTO mycountry (id, name) values (1, 'Australia');
-      COMMIT;
+  Перед выполнением создайте таблицу:
+      CREATE TABLE mycity (id NUMBER, name VARCHAR2(20));
+      INSERT INTO mycity (id, name) values (1, 'Melbourne');
+      CREATE TABLE mycountry (id NUMBER, name VARCHAR2(20));
+      INSERT INTO mycountry (id, name) values (1, 'Australia');
+      COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$sql = 'SELECT mycity.name, mycountry.name
-        FROM mycity, mycountry
-        WHERE mycity.id = mycountry.id';
-$stid = oci_parse($conn, $sql);
+$sql = 'SELECT mycity.name, mycountry.name
+        FROM mycity, mycountry
+        WHERE mycity.id = mycountry.id';
+$stid = oci_parse($conn, $sql);
 oci_execute($stid);
-$row = oci_fetch_array($stid, OCI_ASSOC);
+$row = oci_fetch_array($stid, OCI_ASSOC);
 var_dump($row);
 
-// Выведет только одну записаь "NAME":
-//    array(1) {
-//      ["NAME"]=>
-//      string(9) "Australia"
-//    }
+// Выведет только одну записаь "NAME":
+//    array(1) {
+//      ["NAME"]=>
+//      string(9) "Australia"
+//    }
 
-// Для получения полей с повторяющимся названием используйте SQL псевдонимы (alias) для полей. Например "AS ctnm":
-$sql = 'SELECT mycity.name AS ctnm, mycountry.name
-        FROM mycity, mycountry
-        WHERE mycity.id = mycountry.id';
-$stid = oci_parse($conn, $sql);
+// Для получения полей с повторяющимся названием используйте SQL псевдонимы (alias) для полей. Например "AS ctnm":
+$sql = 'SELECT mycity.name AS ctnm, mycountry.name
+        FROM mycity, mycountry
+        WHERE mycity.id = mycountry.id';
+$stid = oci_parse($conn, $sql);
 oci_execute($stid);
-$row = oci_fetch_array($stid, OCI_ASSOC);
+$row = oci_fetch_array($stid, OCI_ASSOC);
 var_dump($row);
 
-// Выведет записи из обоих полей:
-//    array(2) {
-//      ["CTNM"]=>
-//      string(9) "Melbourne"
-//      ["NAME"]=>
-//      string(9) "Australia"
-//    }
+// Выведет записи из обоих полей:
+//    array(2) {
+//      ["CTNM"]=>
+//      string(9) "Melbourne"
+//      ["NAME"]=>
+//      string(9) "Australia"
+//    }
 
 
 oci_free_statement($stid);
@@ -341,22 +341,22 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-// Устанавливаем формат даты для данного соединения.
-// Для повышения производительности вместо этого
-// используйте изменение формата в триггере или переменной окружения.
-$stid = oci_parse($conn, "ALTER SESSION SET NLS_DATE_FORMAT = 'YYYY-MM-DD'");
+// Устанавливаем формат даты для данного соединения.
+// Для повышения производительности вместо этого
+// используйте изменение формата в триггере или переменной окружения.
+$stid = oci_parse($conn, "ALTER SESSION SET NLS_DATE_FORMAT = 'YYYY-MM-DD'");
 oci_execute($stid);
 
-$stid = oci_parse($conn, 'SELECT hire_date FROM employees WHERE employee_id = 188');
+$stid = oci_parse($conn, 'SELECT hire_date FROM employees WHERE employee_id = 188');
 oci_execute($stid);
-$row = oci_fetch_array($stid, OCI_ASSOC);
-echo $row['HIRE_DATE'] . "<br>\n";  // выведет 1997-06-14
+$row = oci_fetch_array($stid, OCI_ASSOC);
+echo $row['HIRE_DATE'] . "<br>\n";  // выведет 1997-06-14
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -369,36 +369,36 @@ oci_close($conn);
 ```php
 <?php
 /*
-  Создайте PL/SQL хранимую процедуру:
+  Создайте PL/SQL хранимую процедуру:
 
-  CREATE OR REPLACE PROCEDURE myproc(p1 OUT SYS_REFCURSOR) AS
-  BEGIN
-    OPEN p1 FOR SELECT * FROM all_objects WHERE ROWNUM < 5000;
-  END;
+  CREATE OR REPLACE PROCEDURE myproc(p1 OUT SYS_REFCURSOR) AS
+  BEGIN
+    OPEN p1 FOR SELECT * FROM all_objects WHERE ROWNUM < 5000;
+  END;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'BEGIN myproc(:rc); END;');
-$refcur = oci_new_cursor($conn);
-oci_bind_by_name($stid, ':rc', $refcur, -1, OCI_B_CURSOR);
+$stid = oci_parse($conn, 'BEGIN myproc(:rc); END;');
+$refcur = oci_new_cursor($conn);
+oci_bind_by_name($stid, ':rc', $refcur, -1, OCI_B_CURSOR);
 oci_execute($stid);
 
-// Выполняет вовзращенный REF CURSOR и получает его в виде идентификатора выражения
+// Выполняет вовзращенный REF CURSOR и получает его в виде идентификатора выражения
 oci_execute($refcur);
-echo "<table border='1'>\n";
-while (($row = oci_fetch_array($refcur, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "")."</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while (($row = oci_fetch_array($refcur, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "")."</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 oci_free_statement($refcur);
 oci_free_statement($stid);
@@ -412,50 +412,50 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-// Определяем версию базы данных
-preg_match('/Release ([0-9]+)\./', oci_server_version($conn), $matches);
-$oracleversion = $matches[1];
+// Определяем версию базы данных
+preg_match('/Release ([0-9]+)\./', oci_server_version($conn), $matches);
+$oracleversion = $matches[1];
 
-// Запрос, который необходимо сделать "постраничным"
-$sql = 'SELECT city, postal_code FROM locations ORDER BY city';
+// Запрос, который необходимо сделать "постраничным"
+$sql = 'SELECT city, postal_code FROM locations ORDER BY city';
 
-if ($oracleversion >= 12) {
-    // Используем Oracle 12c OFFSET / FETCH NEXT синтаксис
-    $sql = $sql . ' OFFSET :offset ROWS FETCH NEXT :numrows ROWS ONLY';
-} else {
-    // Cтарые версии Oracle нуждаются в выборке с помощью подзапроса в $sql.
-    // Или, если SQL выражение известно на стадии разработки, то с помощью
-    // функции row_number(). Будьте осторожны и избегайте возможности
-    // SQL-инъекции при объединении строк в боевом окружении.
-    $sql = "SELECT * FROM (SELECT a.*, ROWNUM AS my_rnum
-                           FROM ($sql) a
-                           WHERE ROWNUM <= :offset + :numrows)
-            WHERE my_rnum > :offset";
+if ($oracleversion >= 12) {
+    // Используем Oracle 12c OFFSET / FETCH NEXT синтаксис
+    $sql = $sql . ' OFFSET :offset ROWS FETCH NEXT :numrows ROWS ONLY';
+} else {
+    // Cтарые версии Oracle нуждаются в выборке с помощью подзапроса в $sql.
+    // Или, если SQL выражение известно на стадии разработки, то с помощью
+    // функции row_number(). Будьте осторожны и избегайте возможности
+    // SQL-инъекции при объединении строк в боевом окружении.
+    $sql = "SELECT * FROM (SELECT a.*, ROWNUM AS my_rnum
+                           FROM ($sql) a
+                           WHERE ROWNUM <= :offset + :numrows)
+            WHERE my_rnum > :offset";
 }
 
-$offset  = 0;  // skip this many rows
-$numrows = 5;  // return 5 rows
-$stid = oci_parse($conn, $sql);
-oci_bind_by_name($stid, ':numrows', $numrows);
-oci_bind_by_name($stid, ':offset', $offset);
+$offset  = 0;  // skip this many rows
+$numrows = 5;  // return 5 rows
+$stid = oci_parse($conn, $sql);
+oci_bind_by_name($stid, ':numrows', $numrows);
+oci_bind_by_name($stid, ':offset', $offset);
 oci_execute($stid);
 
-while (($row = oci_fetch_array($stid, OCI_ASSOC + OCI_RETURN_NULLS)) != false) {
-    echo $row['CITY'] . " " . $row['POSTAL_CODE'] . "<br>\n";
+while (($row = oci_fetch_array($stid, OCI_ASSOC + OCI_RETURN_NULLS)) != false) {
+    echo $row['CITY'] . " " . $row['POSTAL_CODE'] . "<br>\n";
 }
 
-// Выведет:
-//    Beijing 190518
-//    Bern 3095
-//    Bombay 490231
-//    Geneva 1730
-//    Hiroshima 6823
+// Выведет:
+//    Beijing 190518
+//    Bern 3095
+//    Bombay 490231
+//    Geneva 1730
+//    Hiroshima 6823
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -468,44 +468,44 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-// Требует OCI8 2.0 (или новее) и Oracle Database 12c (или новее)
-// также смотрите oci_get_implicit_resultset()
-$sql = 'DECLARE
-           c1 SYS_REFCURSOR;
-        BEGIN
-           OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city;
-           DBMS_SQL.RETURN_RESULT(c1);
-           OPEN c1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BY city;
-           DBMS_SQL.RETURN_RESULT(c1);
-        END;';
+// Требует OCI8 2.0 (или новее) и Oracle Database 12c (или новее)
+// также смотрите oci_get_implicit_resultset()
+$sql = 'DECLARE
+           c1 SYS_REFCURSOR;
+        BEGIN
+           OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+           OPEN c1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+        END;';
 
-$stid = oci_parse($conn, $sql);
+$stid = oci_parse($conn, $sql);
 oci_execute($stid);
 
-// Обратите внимание: oci_fetch_all и oci_fetch() нельзя неприменимы здесь
-echo "<table>\n";
-while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"")."</td>\n";
-    }
-    echo "</tr>\n";
+// Обратите внимание: oci_fetch_all и oci_fetch() нельзя неприменимы здесь
+echo "<table>\n";
+while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"")."</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
-// Выведет:
-//    Beijing 190518
-//    Bern    3095
-//    Bombay  490231
-//    CN
-//    CH
-//    IN
+// Выведет:
+//    Beijing 190518
+//    Bern    3095
+//    Bombay  490231
+//    CN
+//    CH
+//    IN
 
 oci_free_statement($stid);
 oci_close($conn);

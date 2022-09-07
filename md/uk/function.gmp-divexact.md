@@ -44,11 +44,11 @@ gmp_divexact(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$div1 = gmp_divexact("10", "2");
-echo gmp_strval($div1) . "\n";
+$div1 = gmp_divexact("10", "2");
+echo gmp_strval($div1) . "\n";
 
-$div2 = gmp_divexact("10", "3"); // некорректный результат
-echo gmp_strval($div2) . "\n";
+$div2 = gmp_divexact("10", "3"); // некорректный результат
+echo gmp_strval($div2) . "\n";
 ?>
 ```
 

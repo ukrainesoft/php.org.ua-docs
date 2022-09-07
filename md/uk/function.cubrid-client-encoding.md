@@ -39,13 +39,13 @@ cubrid_client_encoding(resource $conn_identifier = ?): string
 ```php
 <?php
 
-$con = cubrid_connect("localhost", 33000, "demodb");
-if (!$con)
+$con = cubrid_connect("localhost", 33000, "demodb");
+if (!$con)
 {
-    die('Не получилось подключиться.');
+    die('Не получилось подключиться.');
 }
 
-printf("Текущая кодировка CUBRID: %s\n", cubrid_client_encoding($con));
+printf("Текущая кодировка CUBRID: %s\n", cubrid_client_encoding($con));
 
 ?>
 ```

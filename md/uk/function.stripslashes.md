@@ -38,10 +38,10 @@ stripslashes(string $string): string
 
 ```php
 <?php
-$str = "Ваc зовут O\'reilly?";
+$str = "Ваc зовут O\'reilly?";
 
-// выводит: Вас зовут O'reilly?
-echo stripslashes($str);
+// выводит: Вас зовут O'reilly?
+echo stripslashes($str);
 ?>
 ```
 
@@ -53,20 +53,20 @@ echo stripslashes($str);
 
 ```php
 <?php
-function stripslashes_deep($value)
+function stripslashes_deep($value)
 {
-    $value = is_array($value) ?
-                array_map('stripslashes_deep', $value) :
-                stripslashes($value);
+    $value = is_array($value) ?
+                array_map('stripslashes_deep', $value) :
+                stripslashes($value);
 
-    return $value;
+    return $value;
 }
 
-// Пример
-$array = array("f\\'oo", "b\\'ar", array("fo\\'o", "b\\'ar"));
-$array = stripslashes_deep($array);
+// Пример
+$array = array("f\\'oo", "b\\'ar", array("fo\\'o", "b\\'ar"));
+$array = stripslashes_deep($array);
 
-// Вывод
+// Вывод
 print_r($array);
 ?>
 ```

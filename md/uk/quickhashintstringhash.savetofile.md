@@ -36,12 +36,12 @@ public QuickHashIntStringHash::saveToFile(string $filename): void
 
 ```php
 <?php
-$hash = new QuickHashIntStringHash( 1024 );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->add( 4, "сорок три" ) );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->add( 4, "пятьдесят два" ) );
+$hash = new QuickHashIntStringHash( 1024 );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->add( 4, "сорок три" ) );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->add( 4, "пятьдесят два" ) );
 
-$hash->saveToFile( '/tmp/test.string.hash' );
+$hash->saveToFile( '/tmp/test.string.hash' );
 ?>
 ```

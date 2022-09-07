@@ -38,11 +38,11 @@ public Ds\PriorityQueue::peek(): mixed
 
 ```php
 <?php
-$queue = new \Ds\PriorityQueue();
+$queue = new \Ds\PriorityQueue();
 
-$queue->push("a",  5);
-$queue->push("b", 15);
-$queue->push("c", 10);
+$queue->push("a",  5);
+$queue->push("b", 15);
+$queue->push("c", 10);
 
 var_dump($queue->peek());
 ?>

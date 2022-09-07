@@ -34,11 +34,11 @@ public ReflectionClass::isInterface(): bool
 
 ```php
 <?php
-interface SomeInterface {
-    public function interfaceMethod();
+interface SomeInterface {
+    public function interfaceMethod();
 }
 
-$class = new ReflectionClass('SomeInterface');
+$class = new ReflectionClass('SomeInterface');
 var_dump($class->isInterface());
 ?>
 ```

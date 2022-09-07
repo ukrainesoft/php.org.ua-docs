@@ -18,20 +18,20 @@ EvIo::createStopped — Створює зупинений об'єкт спост
 final
    public
    static
-   EvIo::createStopped(    
+   EvIo::createStopped(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

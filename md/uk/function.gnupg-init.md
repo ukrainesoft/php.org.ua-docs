@@ -47,7 +47,7 @@ gnupg_init(?array $options = null): resource
 
 ```php
 <?php
-$res = gnupg_init();
+$res = gnupg_init();
 ?>
 ```
 
@@ -55,7 +55,7 @@ $res = gnupg_init();
 
 ```php
 <?php
-$res = gnupg_init(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/www/.gnupg"]);
+$res = gnupg_init(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/www/.gnupg"]);
 ?>
 ```
 
@@ -63,7 +63,7 @@ $res = gnupg_init(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/ww
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 ?>
 ```
 
@@ -71,6 +71,6 @@ $gpg = new gnupg();
 
 ```php
 <?php
-$gpg = new gnupg(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/www/.gnupg"]);
+$gpg = new gnupg(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/www/.gnupg"]);
 ?>
 ```

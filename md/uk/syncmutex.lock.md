@@ -36,16 +36,16 @@ public SyncMutex::lock(int $wait = -1): bool
 
 ```php
 <?php
-$mutex = new SyncMutex("UniqueName");
+$mutex = new SyncMutex("UniqueName");
 
-if (!$mutex->lock(3000))
+if (!$mutex->lock(3000))
 {
-    echo "Невозможно заблокировать мьютекс.";
+    echo "Невозможно заблокировать мьютекс.";
 
-    exit();
+    exit();
 }
 
-/* ... */
+/* ... */
 
 $mutex->unlock();
 ?>

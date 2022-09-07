@@ -22,7 +22,7 @@ COOKIE - HTTP Cookies
 
 ```php
 <?php
-echo 'Привет, ' . htmlspecialchars($_COOKIE["name"]) . '!';
+echo 'Привет, ' . htmlspecialchars($_COOKIE["name"]) . '!';
 ?>
 ```
 

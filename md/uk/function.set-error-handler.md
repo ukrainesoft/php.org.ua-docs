@@ -37,7 +37,7 @@ set_error_handler(?callable $callback, int $error_levels = E_ALL): ?callable
 Якщо передано значення **`null`**, обробник скидається у стан за промовчанням. В іншому випадку обробник є callback-функцією з наступною сигнатурою:
 
 ```methodsynopsis
-handler(    int $errno,    string $errstr,    string $errfile = ?,    int $errline = ?,    array $errcontext = ?): bool
+handler(    int $errno,    string $errstr,    string $errfile = ?,    int $errline = ?,    array $errcontext = ?): bool
 ```
 
 `errno`
@@ -89,92 +89,92 @@ handler(    int $errno,    string $errstr,    string $errfile = ?, 
 
 ```php
 <?php
-// функция обработки ошибок
-function myErrorHandler($errno, $errstr, $errfile, $errline)
+// функция обработки ошибок
+function myErrorHandler($errno, $errstr, $errfile, $errline)
 {
-    if (!(error_reporting() & $errno)) {
-        // Этот код ошибки не включён в error_reporting,
-        // так что пусть обрабатываются стандартным обработчиком ошибок PHP
-        return false;
-    }
+    if (!(error_reporting() & $errno)) {
+        // Этот код ошибки не включён в error_reporting,
+        // так что пусть обрабатываются стандартным обработчиком ошибок PHP
+        return false;
+    }
 
-    // может потребоваться экранирование $errstr:
-    $errstr = htmlspecialchars($errstr);
+    // может потребоваться экранирование $errstr:
+    $errstr = htmlspecialchars($errstr);
 
-    switch ($errno) {
-    case E_USER_ERROR:
-        echo "<b>Пользовательская ОШИБКА</b> [$errno] $errstr<br />\n";
-        echo "  Фатальная ошибка в строке $errline файла $errfile";
-        echo ", PHP " . PHP_VERSION . " (" . PHP_OS . ")<br />\n";
-        echo "Завершение работы...<br />\n";
-        exit(1);
+    switch ($errno) {
+    case E_USER_ERROR:
+        echo "<b>Пользовательская ОШИБКА</b> [$errno] $errstr<br />\n";
+        echo "  Фатальная ошибка в строке $errline файла $errfile";
+        echo ", PHP " . PHP_VERSION . " (" . PHP_OS . ")<br />\n";
+        echo "Завершение работы...<br />\n";
+        exit(1);
 
-    case E_USER_WARNING:
-        echo "<b>Пользовательское ПРЕДУПРЕЖДЕНИЕ</b> [$errno] $errstr<br />\n";
-        break;
+    case E_USER_WARNING:
+        echo "<b>Пользовательское ПРЕДУПРЕЖДЕНИЕ</b> [$errno] $errstr<br />\n";
+        break;
 
-    case E_USER_NOTICE:
-        echo "<b>Пользовательское УВЕДОМЛЕНИЕ</b> [$errno] $errstr<br />\n";
-        break;
+    case E_USER_NOTICE:
+        echo "<b>Пользовательское УВЕДОМЛЕНИЕ</b> [$errno] $errstr<br />\n";
+        break;
 
-    default:
-        echo "Неизвестная ошибка: [$errno] $errstr<br />\n";
-        break;
-    }
+    default:
+        echo "Неизвестная ошибка: [$errno] $errstr<br />\n";
+        break;
+    }
 
-    /* Не запускаем внутренний обработчик ошибок PHP */
-    return true;
+    /* Не запускаем внутренний обработчик ошибок PHP */
+    return true;
 }
 
-// функция для тестирования обработчика ошибок
-function scale_by_log($vect, $scale)
+// функция для тестирования обработчика ошибок
+function scale_by_log($vect, $scale)
 {
-    if (!is_numeric($scale) || $scale <= 0) {
-        trigger_error("log(x) для x <= 0 не определён, вы используете: scale = $scale", E_USER_ERROR);
-    }
+    if (!is_numeric($scale) || $scale <= 0) {
+        trigger_error("log(x) для x <= 0 не определён, вы используете: scale = $scale", E_USER_ERROR);
+    }
 
-    if (!is_array($vect)) {
-        trigger_error("Некорректный входной вектор, пропущен Масив значений", E_USER_WARNING);
-        return null;
-    }
+    if (!is_array($vect)) {
+        trigger_error("Некорректный входной вектор, пропущен Масив значений", E_USER_WARNING);
+        return null;
+    }
 
-    $temp = array();
-    foreach($vect as $pos => $value) {
-        if (!is_numeric($value)) {
-            trigger_error("Значение на позиции $pos не является числом, будет использован 0 (ноль)", E_USER_NOTICE);
-            $value = 0;
-        }
-        $temp[$pos] = log($scale) * $value;
-    }
+    $temp = array();
+    foreach($vect as $pos => $value) {
+        if (!is_numeric($value)) {
+            trigger_error("Значение на позиции $pos не является числом, будет использован 0 (ноль)", E_USER_NOTICE);
+            $value = 0;
+        }
+        $temp[$pos] = log($scale) * $value;
+    }
 
-    return $temp;
+    return $temp;
 }
 
-// переключаемся на пользовательский обработчик
-$old_error_handler = set_error_handler("myErrorHandler");
+// переключаемся на пользовательский обработчик
+$old_error_handler = set_error_handler("myErrorHandler");
 
-// вызовем несколько ошибок, во-первых, определим Масив с нечисловым элементом
-echo "vector a\n";
-$a = array(2, 3, "foo", 5.5, 43.3, 21.11);
+// вызовем несколько ошибок, во-первых, определим Масив с нечисловым элементом
+echo "vector a\n";
+$a = array(2, 3, "foo", 5.5, 43.3, 21.11);
 print_r($a);
 
-// теперь создадим ещё один Масив
-echo "----\nvector b - a notice (b = log(PI) * a)\n";
-/* Значение на позиции $pos не является числом, будет использован 0 (ноль)*/
-$b = scale_by_log($a, M_PI);
+// теперь создадим ещё один Масив
+echo "----\nvector b - a notice (b = log(PI) * a)\n";
+/* Значение на позиции $pos не является числом, будет использован 0 (ноль)*/
+$b = scale_by_log($a, M_PI);
 print_r($b);
 
-// проблема, мы передаём строку вместо Масива
-echo "----\nvector c - a warning\n";
-/* Некорректный входной вектор, пропущен Масив значений */
-$c = scale_by_log("not array", 2.3);
-var_dump($c); // NULL
+// проблема, мы передаём строку вместо Масива
+echo "----\nvector c - a warning\n";
+/* Некорректный входной вектор, пропущен Масив значений */
+$c = scale_by_log("not array", 2.3);
+var_dump($c); // NULL
 
-// критическая ошибка, логарифм от неположительного числа не определён
-echo "----\nvector d - fatal error\n";
-/* log(x) для x <= 0 не определён, вы используете: scale = $scale */
-$d = scale_by_log($a, -2.5);
-var_dump($d); // До сюда не дойдём никогда
+// критическая ошибка, логарифм от неположительного числа не определён
+echo "----\nvector d - fatal error\n";
+/* log(x) для x <= 0 не определён, вы используете: scale = $scale */
+$d = scale_by_log($a, -2.5);
+var_dump($d); // До сюда не дойдём никогда
 ?>
 ```
 

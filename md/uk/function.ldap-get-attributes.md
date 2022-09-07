@@ -59,19 +59,19 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 ```php
 <?php
-// $ds допустимый экземпляр LDAP\Connection
+// $ds допустимый экземпляр LDAP\Connection
 
-// $sr - действительный результат поиска из запроса
-// к директории ldap
+// $sr - действительный результат поиска из запроса
+// к директории ldap
 
-$entry = ldap_first_entry($ds, $sr);
+$entry = ldap_first_entry($ds, $sr);
 
-$attrs = ldap_get_attributes($ds, $entry);
+$attrs = ldap_get_attributes($ds, $entry);
 
-echo $attrs["count"] . " атрибуты, соответствующие этой записи:<p>";
+echo $attrs["count"] . " атрибуты, соответствующие этой записи:<p>";
 
-for ($i=0; $i < $attrs["count"]; $i++) {
-    echo $attrs[$i] . "<br />";
+for ($i=0; $i < $attrs["count"]; $i++) {
+    echo $attrs[$i] . "<br />";
 }
 ?>
 ```

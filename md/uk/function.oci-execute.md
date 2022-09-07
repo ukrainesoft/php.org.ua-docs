@@ -59,20 +59,20 @@ oci_execute(resource $statement, int $mode = OCI_COMMIT_ON_SUCCESS): bool
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+$stid = oci_parse($conn, 'SELECT * FROM employees');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 ?>
 ```
@@ -82,14 +82,14 @@ echo "</table>\n";
 ```php
 <?php
 
-// Перед выполнением создайте таблицу:
-//   CREATE TABLE MYTABLE (col1 NUMBER);
+// Перед выполнением создайте таблицу:
+//   CREATE TABLE MYTABLE (col1 NUMBER);
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (123)');
+$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (123)');
 
-oci_execute($stid); // Строка сохранена и становится видимой для других пользователей
+oci_execute($stid); // Строка сохранена и становится видимой для других пользователей
 
 ?>
 ```
@@ -99,17 +99,17 @@ oci_execute($stid); // Строка сохранена и становит�
 ```php
 <?php
 
-// Перед выполнением создайте таблицу:
-//   CREATE TABLE MYTABLE (col1 NUMBER);
+// Перед выполнением создайте таблицу:
+//   CREATE TABLE MYTABLE (col1 NUMBER);
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (:bv)');
-oci_bind_by_name($stid, ':bv', $i, 10);
-for ($i = 1; $i <= 5; ++$i) {
-    oci_execute($stid, OCI_NO_AUTO_COMMIT);  // use OCI_DEFAULT for PHP <= 5.3.1
+$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (:bv)');
+oci_bind_by_name($stid, ':bv', $i, 10);
+for ($i = 1; $i <= 5; ++$i) {
+    oci_execute($stid, OCI_NO_AUTO_COMMIT);  // use OCI_DEFAULT for PHP <= 5.3.1
 }
-oci_commit($conn);  // сохранение все новых значений: 1, 2, 3, 4, 5
+oci_commit($conn);  // сохранение все новых значений: 1, 2, 3, 4, 5
 
 ?>
 ```
@@ -119,16 +119,16 @@ oci_commit($conn);  // сохранение все новых значен
 ```php
 <?php
 
-// Перед выполнением создайте таблицу:
-//   CREATE TABLE MYTABLE (col1 NUMBER);
+// Перед выполнением создайте таблицу:
+//   CREATE TABLE MYTABLE (col1 NUMBER);
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (123)');
-oci_execute($stid, OCI_NO_AUTO_COMMIT);  // data not committed
+$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (123)');
+oci_execute($stid, OCI_NO_AUTO_COMMIT);  // data not committed
 
-$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (456)');
-oci_execute($stid);  // commits both 123 and 456 values
+$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (456)');
+oci_execute($stid);  // commits both 123 and 456 values
 
 ?>
 ```
@@ -138,12 +138,12 @@ oci_execute($stid);  // commits both 123 and 456 values
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'SELECT * FROM locations');
-oci_execute($s, OCI_DESCRIBE_ONLY);
-for ($i = 1; $i <= oci_num_fields($stid); ++$i) {
-    echo oci_field_name($stid, $i) . "<br>\n";
+$stid = oci_parse($conn, 'SELECT * FROM locations');
+oci_execute($s, OCI_DESCRIBE_ONLY);
+for ($i = 1; $i <= oci_num_fields($stid); ++$i) {
+    echo oci_field_name($stid, $i) . "<br>\n";
 }
 
 ?>

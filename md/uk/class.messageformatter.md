@@ -53,10 +53,10 @@ public setPattern(string $pattern): bool
 
 ## Дивіться також
 
--   [»  ICU. Документация по форматированию.](https://unicode-org.github.io/icu/userguide/format_parse/)
--   [»  ICU. Описание форматирования сообщений.](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
--   [» ICU. Средства форматирования сообщений](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
--   [» ICU. Засоби форматування вибору](http://icu-project.org/apiref/icu4c/classChoiceFormat.md#details)
+-   [»  ICU. Документация по форматированию.](https://unicode-org.github.io/icu/userguide/format_parse/)
+-   [»  ICU. Описание форматирования сообщений.](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+-   [» ICU. Средства форматирования сообщений](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+-   [» ICU. Засоби форматування вибору](http://icu-project.org/apiref/icu4c/classChoiceFormat.md#details)
 
 ## Зміст
 

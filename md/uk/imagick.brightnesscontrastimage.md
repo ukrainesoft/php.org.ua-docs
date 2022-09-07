@@ -38,11 +38,11 @@ public Imagick::brightnessContrastImage(float $brightness, float $contrast, int 
 
 ```php
 <?php
-function brightnessContrastImage($imagePath, $brightness, $contrast, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->brightnessContrastImage($brightness, $contrast, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function brightnessContrastImage($imagePath, $brightness, $contrast, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->brightnessContrastImage($brightness, $contrast, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -15,7 +15,7 @@ SQLite3::createAggregate — Зареєструвати функцію PHP як 
 ### Опис
 
 ```methodsynopsis
-public SQLite3::createAggregate(    string $name,    callable $stepCallback,    callable $finalCallback,    int $argCount = -1): bool
+public SQLite3::createAggregate(    string $name,    callable $stepCallback,    callable $finalCallback,    int $argCount = -1): bool
 ```
 
 Реєструє функцію PHP або функцію користувача як агрегуючу функцію SQL для використання в запитах.
@@ -33,7 +33,7 @@ public SQLite3::createAggregate(    string $name,    callable $stepCallb
 Ця функція має бути визначена так:
 
 ```methodsynopsis
-step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
+step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
 ```
 
 `context`
@@ -88,43 +88,43 @@ fini(mixed $context, int $rownumber): mixed
 
 ```php
 <?php
-$data = array(
-   'one',
-   'two',
-   'three',
-   'four',
-   'five',
-   'six',
-   'seven',
-   'eight',
-   'nine',
-   'ten',
-   );
-$db = new SQLite3(':memory:');
-$db->exec("CREATE TABLE strings(a)");
-$insert = $db->prepare('INSERT INTO strings VALUES (?)');
-foreach ($data as $str) {
-    $insert->bindValue(1, $str);
-    $insert->execute();
+$data = array(
+   'one',
+   'two',
+   'three',
+   'four',
+   'five',
+   'six',
+   'seven',
+   'eight',
+   'nine',
+   'ten',
+   );
+$db = new SQLite3(':memory:');
+$db->exec("CREATE TABLE strings(a)");
+$insert = $db->prepare('INSERT INTO strings VALUES (?)');
+foreach ($data as $str) {
+    $insert->bindValue(1, $str);
+    $insert->execute();
 }
-$insert = null;
+$insert = null;
 
-function max_len_step($context, $rownumber, $string)
+function max_len_step($context, $rownumber, $string)
 {
-    if (strlen($string) > $context) {
-        $context = strlen($string);
-    }
-    return $context;
+    if (strlen($string) > $context) {
+        $context = strlen($string);
+    }
+    return $context;
 }
 
-function max_len_finalize($context, $rownumber)
+function max_len_finalize($context, $rownumber)
 {
-    return $context === null ? 0 : $context;
+    return $context === null ? 0 : $context;
 }
 
-$db->createAggregate('max_len', 'max_len_step', 'max_len_finalize');
+$db->createAggregate('max_len', 'max_len_step', 'max_len_finalize');
 
-var_dump($db->querySingle('SELECT max_len(a) from strings'));
+var_dump($db->querySingle('SELECT max_len(a) from strings'));
 ?>
 ```
 

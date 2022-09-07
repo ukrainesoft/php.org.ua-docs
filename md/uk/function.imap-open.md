@@ -15,7 +15,7 @@ imapopen — Відкриває потік IMAP до поштової скрин
 ### Опис
 
 ```methodsynopsis
-imap_open(    string $mailbox,    string $user,    string $password,    int $flags = 0,    int $retries = 0,    array $options = []): IMAP\Connection|false
+imap_open(    string $mailbox,    string $user,    string $password,    int $flags = 0,    int $retries = 0,    array $options = []): IMAP\Connection|false
 ```
 
 Відкриває потік IMAP до `mailbox`
@@ -112,24 +112,24 @@ imap_open(    string $mailbox,    string $user,    string $password,
 
 ```php
 <?php
-// Для подключения к серверу IMAP, работающему на порту 143 на локальной машине, сделать следующее:
-$mbox = imap_open("{localhost:143}INBOX", "user_id", "password");
+// Для подключения к серверу IMAP, работающему на порту 143 на локальной машине, сделать следующее:
+$mbox = imap_open("{localhost:143}INBOX", "user_id", "password");
 
-// Для подключения к серверу POP3, работающему на порту 110 на локальной машине, использовать:
-$mbox = imap_open ("{localhost:110/pop3}INBOX", "user_id", "password");
+// Для подключения к серверу POP3, работающему на порту 110 на локальной машине, использовать:
+$mbox = imap_open ("{localhost:110/pop3}INBOX", "user_id", "password");
 
-// Для подключения к серверу SSL IMAP или POP3, добавить /ssl после протокола
-// specification:
-$mbox = imap_open ("{localhost:993/imap/ssl}INBOX", "user_id", "password");
+// Для подключения к серверу SSL IMAP или POP3, добавить /ssl после протокола
+// specification:
+$mbox = imap_open ("{localhost:993/imap/ssl}INBOX", "user_id", "password");
 
-// Для подключения к серверу SSL IMAP или POP3 с самоподписанным сертификатом,
-// добавить /ssl/novalidate-cert после спецификации протокола:
-$mbox = imap_open ("{localhost:995/pop3/ssl/novalidate-cert}", "user_id", "password");
+// Для подключения к серверу SSL IMAP или POP3 с самоподписанным сертификатом,
+// добавить /ssl/novalidate-cert после спецификации протокола:
+$mbox = imap_open ("{localhost:995/pop3/ssl/novalidate-cert}", "user_id", "password");
 
-// Для подключения к серверу NNTP, работающему на порту 119 на локальной машине, использовать:
-$nntp = imap_open ("{localhost:119/nntp}comp.test", "", "");
-// Для подключения к удалённому серверу, заменить "localhost" на имя или
-// IP-адрес сервера, к которому вы хотите подключиться.
+// Для подключения к серверу NNTP, работающему на порту 119 на локальной машине, использовать:
+$nntp = imap_open ("{localhost:119/nntp}comp.test", "", "");
+// Для подключения к удалённому серверу, заменить "localhost" на имя или
+// IP-адрес сервера, к которому вы хотите подключиться.
 ?>
 ```
 
@@ -137,28 +137,28 @@ $nntp = imap_open ("{localhost:119/nntp}comp.test", "", "");
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org:143}", "username", "password");
+$mbox = imap_open("{imap.example.org:143}", "username", "password");
 
-echo "<h1>Почтовые ящики</h1>\n";
-$folders = imap_listmailbox($mbox, "{imap.example.org:143}", "*");
+echo "<h1>Почтовые ящики</h1>\n";
+$folders = imap_listmailbox($mbox, "{imap.example.org:143}", "*");
 
-if ($folders == false) {
-    echo "Неудачный вызов<br />\n";
-} else {
-    foreach ($folders as $val) {
-        echo $val . "<br />\n";
-    }
+if ($folders == false) {
+    echo "Неудачный вызов<br />\n";
+} else {
+    foreach ($folders as $val) {
+        echo $val . "<br />\n";
+    }
 }
 
-echo "<h1>Заголовки в INBOX</h1>\n";
-$headers = imap_headers($mbox);
+echo "<h1>Заголовки в INBOX</h1>\n";
+$headers = imap_headers($mbox);
 
-if ($headers == false) {
-    echo "Неудачный вызов<br />\n";
-} else {
-    foreach ($headers as $val) {
-        echo $val . "<br />\n";
-    }
+if ($headers == false) {
+    echo "Неудачный вызов<br />\n";
+} else {
+    foreach ($headers as $val) {
+        echo $val . "<br />\n";
+    }
 }
 
 imap_close($mbox);

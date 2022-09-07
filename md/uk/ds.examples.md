@@ -13,12 +13,12 @@ title: Приклади
 ```php
 <?php
 
-$vector = new \Ds\Vector();
+$vector = new \Ds\Vector();
 
 $vector->push('a');
-$vector->push('b', 'c');
+$vector->push('b', 'c');
 
-$vector[] = 'd';
+$vector[] = 'd';
 
 print_r($vector);
 
@@ -42,12 +42,12 @@ Ds\Vector Object
 ```php
 <?php
 
-$map = new \Ds\Map();
+$map = new \Ds\Map();
 
-$map->put('a', 1);
-$map->put('b', 2);
+$map->put('a', 1);
+$map->put('b', 2);
 
-$map['c'] = 3;
+$map['c'] = 3;
 
 print_r($map);
 

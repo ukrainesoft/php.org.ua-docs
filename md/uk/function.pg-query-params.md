@@ -65,16 +65,16 @@ pg_query_params(PgSql\Connection $connection = ?, string $query, array $params):
 
 ```php
 <?php
-// Подключение к базе данных "mary"
-$dbconn = pg_connect("dbname=mary");
+// Подключение к базе данных "mary"
+$dbconn = pg_connect("dbname=mary");
 
-// Найдём все магазины с названием "Joe's Widgets". Стоит отметить, что нет необходимости экранировать
-// спецсимволы в строке "Joe's Widgets"
-$result = pg_query_params($dbconn, 'SELECT * FROM shops WHERE name = $1', array("Joe's Widgets"));
+// Найдём все магазины с названием "Joe's Widgets". Стоит отметить, что нет необходимости экранировать
+// спецсимволы в строке "Joe's Widgets"
+$result = pg_query_params($dbconn, 'SELECT * FROM shops WHERE name = $1', array("Joe's Widgets"));
 
-// Для сравнения то же самое, используя функцию pg_query
-$str = pg_escape_string("Joe's Widgets");
-$result = pg_query($dbconn, "SELECT * FROM shops WHERE name = '{$str}'");
+// Для сравнения то же самое, используя функцию pg_query
+$str = pg_escape_string("Joe's Widgets");
+$result = pg_query($dbconn, "SELECT * FROM shops WHERE name = '{$str}'");
 
 ?>
 ```

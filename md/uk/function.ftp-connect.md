@@ -51,10 +51,10 @@ ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection
 ```php
 <?php
 
-$ftp_server = "ftp.example.com";
+$ftp_server = "ftp.example.com";
 
-// устанавливает соединение или выходит
-$ftp = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server");
+// устанавливает соединение или выходит
+$ftp = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server");
 
 ?>
 ```

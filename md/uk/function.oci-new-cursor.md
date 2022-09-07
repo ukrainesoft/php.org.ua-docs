@@ -37,26 +37,26 @@ oci_new_cursor(resource $connection): resource|false
 ```php
 <?php
 
-// Предварительная подготовка:
-//   создайте или замените процедуру myproc(myrc out sys_refcursor) как
-//   begin
-//     open myrc for select first_name from employees;
-//   end;
+// Предварительная подготовка:
+//   создайте или замените процедуру myproc(myrc out sys_refcursor) как
+//   begin
+//     open myrc for select first_name from employees;
+//   end;
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$curs = oci_new_cursor($conn);
-$stid = oci_parse($conn, "begin myproc(:cursbv); end;");
-oci_bind_by_name($stid, ":cursbv", $curs, -1, OCI_B_CURSOR);
+$curs = oci_new_cursor($conn);
+$stid = oci_parse($conn, "begin myproc(:cursbv); end;");
+oci_bind_by_name($stid, ":cursbv", $curs, -1, OCI_B_CURSOR);
 oci_execute($stid);
 
-oci_execute($curs);  // Выполняет REF CURSOR как обычный идентификатор выражения
-while (($row = oci_fetch_array($curs, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
-    echo $row['FIRST_NAME'] . "<br />\n";
+oci_execute($curs);  // Выполняет REF CURSOR как обычный идентификатор выражения
+while (($row = oci_fetch_array($curs, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
+    echo $row['FIRST_NAME'] . "<br />\n";
 }
 
 oci_free_statement($stid);

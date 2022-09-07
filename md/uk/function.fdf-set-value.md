@@ -15,7 +15,7 @@ fdfsetvalue — Встановлює значення поля
 ### Опис
 
 ```methodsynopsis
-fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,    int $isName = ?): bool
+fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,    int $isName = ?): bool
 ```
 
 Встановлює `value` для заданого поля.

@@ -56,11 +56,11 @@ Array
 
 ```php
 <?php
-// Проверяет существование обёртки потока bzip2
-if (in_array('compress.bzip2', stream_get_wrappers())) {
-    echo 'compress.bzip2:// поддержка включена.';
-} else {
-    echo 'compress.bzip2:// поддержка не включена.';
+// Проверяет существование обёртки потока bzip2
+if (in_array('compress.bzip2', stream_get_wrappers())) {
+    echo 'compress.bzip2:// поддержка включена.';
+} else {
+    echo 'compress.bzip2:// поддержка не включена.';
 }
 ?>
 ```

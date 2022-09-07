@@ -36,14 +36,14 @@ public ReflectionFunction::invokeArgs(array $args): mixed
 
 ```php
 <?php
-function title($title, $name)
+function title($title, $name)
 {
-    return sprintf("%s. %s\r\n", $title, $name);
+    return sprintf("%s. %s\r\n", $title, $name);
 }
 
-$function = new ReflectionFunction('title');
+$function = new ReflectionFunction('title');
 
-echo $function->invokeArgs(array('Dr', 'Phil'));
+echo $function->invokeArgs(array('Dr', 'Phil'));
 ?>
 ```
 
@@ -57,21 +57,21 @@ Dr. Phil
 
 ```php
 <?php
-function get_false_conditions(array $conditions, array &$false_conditions)
+function get_false_conditions(array $conditions, array &$false_conditions)
 {
-    foreach ($conditions as $condition) {
-        if (!$condition) {
-            $false_conditions[] = $condition;
-        }
-    }
+    foreach ($conditions as $condition) {
+        if (!$condition) {
+            $false_conditions[] = $condition;
+        }
+    }
 }
 
-$function_ref     = new ReflectionFunction('get_false_conditions');
+$function_ref     = new ReflectionFunction('get_false_conditions');
 
-$conditions       = array(true, false, -1, 0, 1);
-$false_conditions = array();
+$conditions       = array(true, false, -1, 0, 1);
+$false_conditions = array();
 
-$function_ref->invokeArgs(array($conditions, &$false_conditions));
+$function_ref->invokeArgs(array($conditions, &$false_conditions));
 
 var_dump($false_conditions);
 ?>

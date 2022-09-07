@@ -15,7 +15,7 @@ ldaplist — Однорівневий пошук
 ### Опис
 
 ```methodsynopsis
-ldap_list(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
+ldap_list(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
 ```
 
 Виконує пошук для вказаного `filter` у директорії в рамках **`LDAP_SCOPE_ONELEVEL`**
@@ -96,17 +96,17 @@ ldap_list(    LDAP\Connection|array $ldap,    array|string $base,   �
 
 ```php
 <?php
-// $ds допустимый экземпляр LDAP\Connection
+// $ds допустимый экземпляр LDAP\Connection
 
-$basedn = "o=My Company, c=US";
-$justthese = array("ou");
+$basedn = "o=My Company, c=US";
+$justthese = array("ou");
 
-$sr = ldap_list($ds, $basedn, "ou=*", $justthese);
+$sr = ldap_list($ds, $basedn, "ou=*", $justthese);
 
-$info = ldap_get_entries($ds, $sr);
+$info = ldap_get_entries($ds, $sr);
 
-for ($i=0; $i < $info["count"]; $i++) {
-    echo $info[$i]["ou"][0];
+for ($i=0; $i < $info["count"]; $i++) {
+    echo $info[$i]["ou"][0];
 }
 ?>
 ```

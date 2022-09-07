@@ -15,7 +15,7 @@ pregreplacecallbackarray — Здійснює пошук та заміну за 
 ### Опис
 
 ```methodsynopsis
-preg_replace_callback_array(    array $pattern,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
+preg_replace_callback_array(    array $pattern,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
 ```
 
 Поведінка цієї функції схожа на [pregreplacecallback()](function.preg-replace-callback.md), за винятком того, що для кожного шаблону використовується функція зворотного дзвінка.
@@ -64,18 +64,18 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 ```php
 <?php
-$subject = 'Aaaaaa Bbb';
+$subject = 'Aaaaaa Bbb';
 
 preg_replace_callback_array(
-    [
-        '~[a]+~i' => function ($match) {
-            echo 'Найдено ', strlen($match[0]), ' совпадений "a"', PHP_EOL;
-        },
-        '~[b]+~i' => function ($match) {
-            echo 'Найдено ', strlen($match[0]), ' совпадений "b"', PHP_EOL;
-        }
-    ],
-    $subject
+    [
+        '~[a]+~i' => function ($match) {
+            echo 'Найдено ', strlen($match[0]), ' совпадений "a"', PHP_EOL;
+        },
+        '~[b]+~i' => function ($match) {
+            echo 'Найдено ', strlen($match[0]), ' совпадений "b"', PHP_EOL;
+        }
+    ],
+    $subject
 );
 ?>
 ```

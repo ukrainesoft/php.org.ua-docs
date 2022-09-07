@@ -48,26 +48,26 @@ ftp_pasv(FTP\Connection $ftp, bool $enable): bool
 
 ```php
 <?php
-$file = 'somefile.txt';
-$remote_file = 'readme.txt';
+$file = 'somefile.txt';
+$remote_file = 'readme.txt';
 
-// установка соединения
-$conn_id = ftp_connect($ftp_server);
+// установка соединения
+$conn_id = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
 
-// включение пассивного режима
-ftp_pasv($conn_id, true);
+// включение пассивного режима
+ftp_pasv($conn_id, true);
 
-// загрузка файла
-if (ftp_put($conn_id, $remote_file, $file, FTP_ASCII)) {
- echo "$file успешно загружен на сервер\n";
-} else {
- echo "Не удалось загрузить $file на сервер\n";
+// загрузка файла
+if (ftp_put($conn_id, $remote_file, $file, FTP_ASCII)) {
+ echo "$file успешно загружен на сервер\n";
+} else {
+ echo "Не удалось загрузить $file на сервер\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($conn_id);
 ?>
 ```

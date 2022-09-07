@@ -44,13 +44,13 @@ ctype_alpha(mixed $text): bool
 
 ```php
 <?php
-$strings = array('KjgWZC', 'arf12');
-foreach ($strings as $testcase) {
-    if (ctype_alpha($testcase)) {
-        echo "Строка $testcase состоит только из букв.\n";
-    } else {
-        echo "Строка $testcase состоит не только из букв.\n";
-    }
+$strings = array('KjgWZC', 'arf12');
+foreach ($strings as $testcase) {
+    if (ctype_alpha($testcase)) {
+        echo "Строка $testcase состоит только из букв.\n";
+    } else {
+        echo "Строка $testcase состоит не только из букв.\n";
+    }
 }
 ?>
 ```

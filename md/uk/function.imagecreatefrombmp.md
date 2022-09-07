@@ -46,11 +46,11 @@ imagecreatefrombmp(string $filename): GdImage|false
 
 ```php
 <?php
-// Загрузить BMP-файл
-$im = imagecreatefrombmp('./example.bmp');
+// Загрузить BMP-файл
+$im = imagecreatefrombmp('./example.bmp');
 
-// Преобразовать в PNG-файл с настройками по умолчанию
-imagepng($im, './example.png');
+// Преобразовать в PNG-файл с настройками по умолчанию
+imagepng($im, './example.png');
 imagedestroy($im);
 ?>
 ```

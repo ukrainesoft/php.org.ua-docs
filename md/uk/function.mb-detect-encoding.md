@@ -52,22 +52,22 @@ mb_detect_encoding(string $string, array|string|null $encodings = null, bool $st
 
 ```php
 <?php
-// Определение кодировки с текущим detect_order
-echo mb_detect_encoding($str);
+// Определение кодировки с текущим detect_order
+echo mb_detect_encoding($str);
 
-// "auto" раскрывается в соответствии с mbstring.language
-echo mb_detect_encoding($str, "auto");
+// "auto" раскрывается в соответствии с mbstring.language
+echo mb_detect_encoding($str, "auto");
 
-// Зададим список кодировок "encodings" в виде строки
-echo mb_detect_encoding($str, "JIS, eucjp-win, sjis-win");
+// Зададим список кодировок "encodings" в виде строки
+echo mb_detect_encoding($str, "JIS, eucjp-win, sjis-win");
 
-// Использование Масива для задания возможных кодировок "encodings"
-$encodings = [
-  "ASCII",
-  "JIS",
-  "EUC-JP"
+// Использование Масива для задания возможных кодировок "encodings"
+$encodings = [
+  "ASCII",
+  "JIS",
+  "EUC-JP"
 ];
-echo mb_detect_encoding($str, $encodings);
+echo mb_detect_encoding($str, $encodings);
 ?>
 ```
 
@@ -75,16 +75,16 @@ echo mb_detect_encoding($str, $encodings);
 
 ```php
 <?php
-// 'áéóú' закодирована в ISO-8859-1
-$str = "\xE1\xE9\xF3\xFA";
+// 'áéóú' закодирована в ISO-8859-1
+$str = "\xE1\xE9\xF3\xFA";
 
-// Строка недействительна в ASCII или UTF-8, но UTF-8 считается более близким соответствием
-var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8'], false));
-var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8'], true));
+// Строка недействительна в ASCII или UTF-8, но UTF-8 считается более близким соответствием
+var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8'], false));
+var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8'], true));
 
-// Если допустимая кодировка найдена, параметр strict не меняет результат
-var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8', 'ISO-8859-1'], false));
-var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8', 'ISO-8859-1'], true));
+// Если допустимая кодировка найдена, параметр strict не меняет результат
+var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8', 'ISO-8859-1'], false));
+var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8', 'ISO-8859-1'], true));
 ?>
 ```
 
@@ -107,12 +107,12 @@ string(10) "ISO-8859-1"
 
 ```php
 <?php
-$str = "\xC4\xA2";
+$str = "\xC4\xA2";
 
-// Строка действительна во всех трех кодировках, поэтому будет возвращена первая из перечисленных кодировок.
-var_dump(mb_detect_encoding($str, ['UTF-8', 'ISO-8859-1', 'ISO-8859-5']));
-var_dump(mb_detect_encoding($str, ['ISO-8859-1', 'ISO-8859-5', 'UTF-8']));
-var_dump(mb_detect_encoding($str, ['ISO-8859-5', 'UTF-8', 'ISO-8859-1']));
+// Строка действительна во всех трех кодировках, поэтому будет возвращена первая из перечисленных кодировок.
+var_dump(mb_detect_encoding($str, ['UTF-8', 'ISO-8859-1', 'ISO-8859-5']));
+var_dump(mb_detect_encoding($str, ['ISO-8859-1', 'ISO-8859-5', 'UTF-8']));
+var_dump(mb_detect_encoding($str, ['ISO-8859-5', 'UTF-8', 'ISO-8859-1']));
 ?>
 ```
 

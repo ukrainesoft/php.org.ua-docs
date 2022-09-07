@@ -15,7 +15,7 @@ eiofdatasync — Синхронізує стан файлу з фізичним 
 ### Опис
 
 ```methodsynopsis
-eio_fdatasync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_fdatasync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiofdatasync()** синхронізує поточний стан файлу із фізичним пристроєм.
@@ -35,7 +35,7 @@ eio_fdatasync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    calla
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

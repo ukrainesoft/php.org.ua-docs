@@ -28,7 +28,7 @@ public Phar::setStub(string $stub, int $len = -1): bool
 
 ```php
 <?php
-include 'myphar.phar';
+include 'myphar.phar';
 ?>
 ```
 
@@ -36,7 +36,7 @@ include 'myphar.phar';
 
 ```php
 <?php
-include 'phar://myphar.phar/somefile.php';
+include 'phar://myphar.phar/somefile.php';
 ?>
 ```
 
@@ -62,18 +62,18 @@ include 'phar://myphar.phar/somefile.php';
 
 ```php
 <?php
-try {
-    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-    $p['a.php'] = '<?php var_dump("Hello");';
-    $p->setStub('<?php var_dump("First"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>');
-    include 'phar://brandnewphar.phar/a.php';
-    var_dump($p->getStub());
-    $p['b.php'] = '<?php var_dump("World");';
-    $p->setStub('<?php var_dump("Second"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>');
-    include 'phar://brandnewphar.phar/b.php';
-    var_dump($p->getStub());
-} catch (Exception $e) {
-    echo 'Операции записи на brandnewphar.phar завершились неудачей: ', $e;
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+    $p['a.php'] = '<?php var_dump("Hello");';
+    $p->setStub('<?php var_dump("First"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>');
+    include 'phar://brandnewphar.phar/a.php';
+    var_dump($p->getStub());
+    $p['b.php'] = '<?php var_dump("World");';
+    $p->setStub('<?php var_dump("Second"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>');
+    include 'phar://brandnewphar.phar/b.php';
+    var_dump($p->getStub());
+} catch (Exception $e) {
+    echo 'Операции записи на brandnewphar.phar завершились неудачей: ', $e;
 }
 ?>
 ```

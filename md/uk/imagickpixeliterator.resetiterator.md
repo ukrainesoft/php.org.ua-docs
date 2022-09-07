@@ -34,46 +34,46 @@ public ImagickPixelIterator::resetIterator(): bool
 
 ```php
 <?php
-function resetIterator($imagePath) {
+function resetIterator($imagePath) {
 
-    $imagick = new \Imagick(realpath($imagePath));
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imageIterator = $imagick->getPixelIterator();
+    $imageIterator = $imagick->getPixelIterator();
 
-    /* Походим по строкам пикселей */
-    foreach ($imageIterator as $pixels) {
-        /* Походим по пикселям в строке (столбцы) */
-        foreach ($pixels as $column => $pixel) {
-            /** @var $pixel \ImagickPixel */
-            if ($column % 2) {
+    /* Походим по строкам пикселей */
+    foreach ($imageIterator as $pixels) {
+        /* Походим по пикселям в строке (столбцы) */
+        foreach ($pixels as $column => $pixel) {
+            /** @var $pixel \ImagickPixel */
+            if ($column % 2) {
 
-                /* Делаем каждый второй пиксель на 25% красным*/
-                $pixel->setColorValue(\Imagick::COLOR_RED, 64);
-            }
-        }
-        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
-        $imageIterator->syncIterator();
-    }
+                /* Делаем каждый второй пиксель на 25% красным*/
+                $pixel->setColorValue(\Imagick::COLOR_RED, 64);
+            }
+        }
+        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+        $imageIterator->syncIterator();
+    }
 
-    $imageIterator->resetiterator();
+    $imageIterator->resetiterator();
 
-    /* Походим по строкам пикселей */
-    foreach ($imageIterator as $pixels) {
-        /* Походим по пикселям в строке (столбцы) */
-        foreach ($pixels as $column => $pixel) {
-            /** @var $pixel \ImagickPixel */
-            if ($column % 3) {
-                $pixel->setColorValue(\Imagick::COLOR_BLUE, 64); /* Делаем каждый второй пиксель немного синим*/
-                //$pixel->setColor("rgba(0, 0, 128, 0)"); /* Paint every second pixel black*/
-            }
-        }
-        $imageIterator->syncIterator(); /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
-    }
+    /* Походим по строкам пикселей */
+    foreach ($imageIterator as $pixels) {
+        /* Походим по пикселям в строке (столбцы) */
+        foreach ($pixels as $column => $pixel) {
+            /** @var $pixel \ImagickPixel */
+            if ($column % 3) {
+                $pixel->setColorValue(\Imagick::COLOR_BLUE, 64); /* Делаем каждый второй пиксель немного синим*/
+                //$pixel->setColor("rgba(0, 0, 128, 0)"); /* Paint every second pixel black*/
+            }
+        }
+        $imageIterator->syncIterator(); /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+    }
 
-    $imageIterator->clear();
+    $imageIterator->clear();
 
-    header("Content-Type: image/jpg");
-    echo $imagick;
+    header("Content-Type: image/jpg");
+    echo $imagick;
 }
 
 ?>

@@ -19,13 +19,13 @@ XMLWriter::writeDtd -- xmlwriterwritedtd — Записати повний те�
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public XMLWriter::writeDtd(    string $name,    ?string $publicId = null,    ?string $systemId = null,    ?string $content = null): bool
+public XMLWriter::writeDtd(    string $name,    ?string $publicId = null,    ?string $systemId = null,    ?string $content = null): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_write_dtd(    XMLWriter $writer,    string $name,    ?string $publicId = null,    ?string $systemId = null,    ?string $content = null): bool
+xmlwriter_write_dtd(    XMLWriter $writer,    string $name,    ?string $publicId = null,    ?string $systemId = null,    ?string $content = null): bool
 ```
 
 Записує повний тег DTD.

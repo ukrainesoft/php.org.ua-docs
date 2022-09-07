@@ -15,7 +15,7 @@ tradercdldragonflydoji — Бабка дожі.
 ### Опис
 
 ```methodsynopsis
-trader_cdldragonflydoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdldragonflydoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -40,12 +40,12 @@ ssh2_sftp_rmdir(resource $sftp, string $dirname): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
-$sftp = ssh2_sftp($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
 
-ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
-/* Или так:  rmdir("ssh2.sftp://$sftp/home/username/dirtodel"); */
+ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
+/* Или так:  rmdir("ssh2.sftp://$sftp/home/username/dirtodel"); */
 ?>
 ```
 

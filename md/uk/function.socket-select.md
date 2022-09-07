@@ -15,7 +15,7 @@ socketselect — Запускає системний виклик select() дл�
 ### Опис
 
 ```methodsynopsis
-socket_select(    ?array &$read,    ?array &$write,    ?array &$except,    ?int $seconds,    int $microseconds = 0): int|false
+socket_select(    ?array &$read,    ?array &$write,    ?array &$except,    ?int $seconds,    int $microseconds = 0): int|false
 ```
 
 **socketselect()** приймає масиви сокетів та чекає їх зміни статусу. Ті, хто знайомий із сокетами BSD, виявлять, що масиви сокетів насправді є так званими наборами дескрипторів файлів. Спостерігаються три незалежні масиви ресурсів сокетів.
@@ -54,8 +54,8 @@ socket_select(    ?array &$read,    ?array &$write,    ?array &$exce
 > 
 > ```php
 > <?php
-> $e = NULL;
-> socket_select($r, $w, $e, 0);
+> $e = NULL;
+> socket_select($r, $w, $e, 0);
 > ?>
 > ```
 
@@ -71,10 +71,10 @@ socket_select(    ?array &$read,    ?array &$write,    ?array &$exce
 > 
 > ```php
 > <?php
-> $e = NULL;
-> if (false === socket_select($r, $w, $e, 0)) {
->     echo "Неудачный вызов socket_select(), причина: " .
->         socket_strerror(socket_last_error()) . "\n";
+> $e = NULL;
+> if (false === socket_select($r, $w, $e, 0)) {
+>     echo "Неудачный вызов socket_select(), причина: " .
+>         socket_strerror(socket_last_error()) . "\n";
 > }
 > ?>
 > ```
@@ -85,16 +85,16 @@ socket_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ```php
 <?php
-/* Подготовить Масив сокетов для чтения */
-$read   = array($socket1, $socket2);
-$write  = NULL;
-$except = NULL;
-$num_changed_sockets = socket_select($read, $write, $except, 0);
+/* Подготовить Масив сокетов для чтения */
+$read   = array($socket1, $socket2);
+$write  = NULL;
+$except = NULL;
+$num_changed_sockets = socket_select($read, $write, $except, 0);
 
-if ($num_changed_sockets === false) {
-    /* Обработка ошибок */
-} else if ($num_changed_sockets > 0) {
-    /* По крайней мере, в одном из сокетов произошло что-то интересное */
+if ($num_changed_sockets === false) {
+    /* Обработка ошибок */
+} else if ($num_changed_sockets > 0) {
+    /* По крайней мере, в одном из сокетов произошло что-то интересное */
 }
 ?>
 ```

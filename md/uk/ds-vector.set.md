@@ -44,9 +44,9 @@ public Ds\Vector::set(int $index, mixed $value): void
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
-$vector->set(1, "_");
+$vector->set(1, "_");
 print_r($vector);
 ?>
 ```
@@ -66,9 +66,9 @@ Ds\Vector Object
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
-$vector[1] = "_";
+$vector[1] = "_";
 print_r($vector);
 ?>
 ```

@@ -19,13 +19,13 @@ Locale::lookup -- localelookup — Пошук мовних позначок на
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public static Locale::lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
+public static Locale::lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-locale_lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
+locale_lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
 ```
 
 Шукає елементи `languageTag`, що найкраще підходять для діапазону мов, зазначеного в `locale`, відповідно до алгоритму пошуку RFC 4647
@@ -66,13 +66,13 @@ locale_lookup(    array $languageTag,    string $locale,    bool $ca
 
 ```php
 <?php
-$arr = array(
-    'de-DEVA',
-    'de-DE-1996',
-    'de',
-    'de-De'
+$arr = array(
+    'de-DEVA',
+    'de-DE-1996',
+    'de',
+    'de-De'
 );
-echo locale_lookup($arr, 'de-DE-1996-x-prv1-prv2', true, 'en_US');
+echo locale_lookup($arr, 'de-DE-1996-x-prv1-prv2', true, 'en_US');
 ?>
 ```
 
@@ -80,13 +80,13 @@ echo locale_lookup($arr, 'de-DE-1996-x-prv1-prv2', true, 'en_US');
 
 ```php
 <?php
-$arr = array(
-    'de-DEVA',
-    'de-DE-1996',
-    'de',
-    'de-De'
+$arr = array(
+    'de-DEVA',
+    'de-DE-1996',
+    'de',
+    'de-De'
 );
-echo Locale::lookup($arr, 'de-DE-1996-x-prv1-prv2', true, 'en_US');
+echo Locale::lookup($arr, 'de-DE-1996-x-prv1-prv2', true, 'en_US');
 ?>
 ```
 

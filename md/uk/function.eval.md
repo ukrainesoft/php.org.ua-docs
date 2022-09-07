@@ -48,12 +48,12 @@ eval(string $code): mixed
 
 ```php
 <?php
-$string = 'чашка';
-$name = 'кофе';
-$str = 'Это $string с моим $name.';
-echo $str. "\n";
-eval("\$str = \"$str\";");
-echo $str. "\n";
+$string = 'чашка';
+$name = 'кофе';
+$str = 'Это $string с моим $name.';
+echo $str. "\n";
+eval("\$str = \"$str\";");
+echo $str. "\n";
 ?>
 ```
 

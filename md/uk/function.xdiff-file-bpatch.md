@@ -46,14 +46,14 @@ xdiff_file_bpatch(string $file, string $patch, string $dest): bool
 
 ```php
 <?php
-$old_version = 'archive-1.0.tgz';
-$patch = 'archive.bpatch';
+$old_version = 'archive-1.0.tgz';
+$patch = 'archive.bpatch';
 
-$result = xdiff_file_bpatch($old_version, $patch, 'archive-1.1.tgz');
-if ($result) {
-   echo "Файл пропатчен";
-} else {
-   echo "Файл не может быть пропатчен";
+$result = xdiff_file_bpatch($old_version, $patch, 'archive-1.1.tgz');
+if ($result) {
+   echo "Файл пропатчен";
+} else {
+   echo "Файл не может быть пропатчен";
 }
 
 ?>

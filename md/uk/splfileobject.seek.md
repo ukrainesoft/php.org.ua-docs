@@ -42,9 +42,9 @@ public SplFileObject::seek(int $line): void
 
 ```php
 <?php
-$file = new SplFileObject(__FILE__);
+$file = new SplFileObject(__FILE__);
 $file->seek(2);
-echo $file->current();
+echo $file->current();
 ?>
 ```
 

@@ -49,16 +49,16 @@ mysql_create_db(string $database_name, resource $link_identifier = NULL): bool
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
 
-$sql = 'CREATE DATABASE my_db';
-if (mysql_query($sql, $link)) {
-    echo "База my_db успешно создана\n";
-} else {
-    echo 'Ошибка при создании базы данных: ' . mysql_error() . "\n";
+$sql = 'CREATE DATABASE my_db';
+if (mysql_query($sql, $link)) {
+    echo "База my_db успешно создана\n";
+} else {
+    echo 'Ошибка при создании базы данных: ' . mysql_error() . "\n";
 }
 ?>
 ```

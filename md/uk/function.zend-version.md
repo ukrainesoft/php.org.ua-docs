@@ -34,7 +34,7 @@ zend_version(): string
 
 ```php
 <?php
-echo "Версия движка Zend: " . zend_version();
+echo "Версия движка Zend: " . zend_version();
 ?>
 ```
 

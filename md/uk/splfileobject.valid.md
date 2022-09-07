@@ -34,10 +34,10 @@ public SplFileObject::valid(): bool
 
 ```php
 <?php
-// Цикл по файлу
-$file = new SplFileObject("file.txt");
-while ($file->valid()) {
-    echo $file->fgets();
+// Цикл по файлу
+$file = new SplFileObject("file.txt");
+while ($file->valid()) {
+    echo $file->fgets();
 }
 ?>
 ```

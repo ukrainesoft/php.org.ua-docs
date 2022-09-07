@@ -15,7 +15,7 @@ SwooleHttpClient::addFile — Додає файл до форми повідом
 ### Опис
 
 ```methodsynopsis
-public Swoole\Http\Client::addFile(    string $path,    string $name,    string $type = ?,    string $filename = ?,    string $offset = ?): void
+public Swoole\Http\Client::addFile(    string $path,    string $name,    string $type = ?,    string $filename = ?,    string $offset = ?): void
 ```
 
 ### Список параметрів

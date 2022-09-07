@@ -56,13 +56,13 @@ y-координата пікселя.
 
 ```php
 <?php
-$im = imagecreatefrompng("php.png");
-$rgb = imagecolorat($im, 10, 15);
-$r = ($rgb >> 16) & 0xFF;
-$g = ($rgb >> 8) & 0xFF;
-$b = $rgb & 0xFF;
+$im = imagecreatefrompng("php.png");
+$rgb = imagecolorat($im, 10, 15);
+$r = ($rgb >> 16) & 0xFF;
+$g = ($rgb >> 8) & 0xFF;
+$b = $rgb & 0xFF;
 
-var_dump($r, $g, $b);
+var_dump($r, $g, $b);
 ?>
 ```
 
@@ -78,10 +78,10 @@ int(180)
 
 ```php
 <?php
-$im = imagecreatefrompng("php.png");
-$rgb = imagecolorat($im, 10, 15);
+$im = imagecreatefrompng("php.png");
+$rgb = imagecolorat($im, 10, 15);
 
-$colors = imagecolorsforindex($im, $rgb);
+$colors = imagecolorsforindex($im, $rgb);
 
 var_dump($colors);
 ?>

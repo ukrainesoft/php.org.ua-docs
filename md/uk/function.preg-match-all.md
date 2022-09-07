@@ -15,7 +15,7 @@ pregmatchall — Виконує глобальний пошук шаблону �
 ### Опис
 
 ```methodsynopsis
-preg_match_all(    string $pattern,    string $subject,    array &$matches = null,    int $flags = 0,    int $offset = 0): int|false
+preg_match_all(    string $pattern,    string $subject,    array &$matches = null,    int $flags = 0,    int $offset = 0): int|false
 ```
 
 Шукає у рядку `subject` всі збіги з шаблоном `pattern` і поміщає результат у масив `matches` у порядку, що визначається комбінацією прапорів `flags`
@@ -47,10 +47,10 @@ preg_match_all(    string $pattern,    string $subject,    array &$m
 ```php
 <?php
 preg_match_all("|<[^>]+>(.*)</[^>]+>|U",
-    "<b>пример: </b><div align=left>это тест</div>",
-    $out, PREG_PATTERN_ORDER);
-echo $out[0][0] . ", " . $out[0][1] . "\n";
-echo $out[1][0] . ", " . $out[1][1] . "\n";
+    "<b>пример: </b><div align=left>это тест</div>",
+    $out, PREG_PATTERN_ORDER);
+echo $out[0][0] . ", " . $out[0][1] . "\n";
+echo $out[1][0] . ", " . $out[1][1] . "\n";
 ?>
 ```
 
@@ -70,10 +70,10 @@ echo $out[1][0] . ", " . $out[1][1] . "\n";
 ```php
 <?php
 preg_match_all(
-    '/(?J)(?<match>foo)|(?<match>bar)/',
-    'foo bar',
-    $matches,
-    PREG_PATTERN_ORDER
+    '/(?J)(?<match>foo)|(?<match>bar)/',
+    'foo bar',
+    $matches,
+    PREG_PATTERN_ORDER
 );
 print_r($matches['match']);
 ?>
@@ -96,10 +96,10 @@ Array
 ```php
 <?php
 preg_match_all("|<[^>]+>(.*)</[^>]+>|U",
-    "<b>пример: </b><div align=\"left\">это тест</div>",
-    $out, PREG_SET_ORDER);
-echo $out[0][0] . ", " . $out[0][1] . "\n";
-echo $out[1][0] . ", " . $out[1][1] . "\n";
+    "<b>пример: </b><div align=\"left\">это тест</div>",
+    $out, PREG_SET_ORDER);
+echo $out[0][0] . ", " . $out[0][1] . "\n";
+echo $out[1][0] . ", " . $out[1][1] . "\n";
 ?>
 ```
 
@@ -116,7 +116,7 @@ echo $out[1][0] . ", " . $out[1][1] . "\n";
 
 ```php
 <?php
-preg_match_all('/(foo)(bar)(baz)/', 'foobarbaz', $matches, PREG_OFFSET_CAPTURE);
+preg_match_all('/(foo)(bar)(baz)/', 'foobarbaz', $matches, PREG_OFFSET_CAPTURE);
 print_r($matches);
 ?>
 ```
@@ -203,8 +203,8 @@ Array
 
 ```php
 <?php
-preg_match_all("/\(?  (\d{3})?  \)?  (?(1)  [\-\s] ) \d{3}-\d{4}/x",
-                "Звоните 555-1212 или 1-800-555-1212", $phones);
+preg_match_all("/\(?  (\d{3})?  \)?  (?(1)  [\-\s] ) \d{3}-\d{4}/x",
+                "Звоните 555-1212 или 1-800-555-1212", $phones);
 ?>
 ```
 
@@ -212,20 +212,20 @@ preg_match_all("/\(?  (\d{3})?  \)?  (?(1)  [\-\s] ) \d{3}-\d{4}/x",
 
 ```php
 <?php
-// Запись \\2 является примером использования ссылок на подмаски.
-// Она означает необходимость соответствия подстроки строке, захваченной
-// второй подмаской, в нашем примере это ([\w]+).
-// Дополнительный обратный слеш необходим, так как используются двойные кавычки.
-$html = "<b>полужирный текст</b><a href=howdy.html>нажми</a>";
+// Запись \\2 является примером использования ссылок на подмаски.
+// Она означает необходимость соответствия подстроки строке, захваченной
+// второй подмаской, в нашем примере это ([\w]+).
+// Дополнительный обратный слеш необходим, так как используются двойные кавычки.
+$html = "<b>полужирный текст</b><a href=howdy.html>нажми</a>";
 
-preg_match_all("/(<([\w]+)[^>]*>)(.*?)(<\/\\2>)/", $html, $matches, PREG_SET_ORDER);
+preg_match_all("/(<([\w]+)[^>]*>)(.*?)(<\/\\2>)/", $html, $matches, PREG_SET_ORDER);
 
-foreach ($matches as $val) {
-    echo "совпадение: " . $val[0] . "\n";
-    echo "часть 1: " . $val[1] . "\n";
-    echo "часть 2: " . $val[2] . "\n";
-    echo "часть 3: " . $val[3] . "\n";
-    echo "часть 4: " . $val[4] . "\n\n";
+foreach ($matches as $val) {
+    echo "совпадение: " . $val[0] . "\n";
+    echo "часть 1: " . $val[1] . "\n";
+    echo "часть 2: " . $val[2] . "\n";
+    echo "часть 3: " . $val[3] . "\n";
+    echo "часть 4: " . $val[4] . "\n\n";
 }
 ?>
 ```
@@ -251,16 +251,16 @@ matched: <a href=hody.html>нажми</a>
 ```php
 <?php
 
-$str = <<<FOO
-a: 1
-b: 2
-c: 3
+$str = <<<FOO
+a: 1
+b: 2
+c: 3
 FOO;
 
-preg_match_all('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
+preg_match_all('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
 
-/* Альтернативный вариант */
-// preg_match_all('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
+/* Альтернативный вариант */
+// preg_match_all('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
 
 print_r($matches);
 

@@ -49,36 +49,36 @@ normalizer_get_raw_decomposition(string $string, int $form = Normalizer::FORM_C)
 ```php
 <?php
 
-$result = "";
-$strings = [
-    "a",
-    "\u{FFDA}",
-    "\u{FDFA}",
-    "",
-    "aa",
-    "\xF5",
+$result = "";
+$strings = [
+    "a",
+    "\u{FFDA}",
+    "\u{FDFA}",
+    "",
+    "aa",
+    "\xF5",
 ];
 
-foreach ($strings as $string) {
-    $decomposition = Normalizer::getRawDecomposition($string);
-    // $decomposition = normalizer_get_raw_decomposition($string); Процедурный стиль
+foreach ($strings as $string) {
+    $decomposition = Normalizer::getRawDecomposition($string);
+    // $decomposition = normalizer_get_raw_decomposition($string); Процедурный стиль
 
-    $error_code = intl_get_error_code();
-    $error_message = intl_get_error_message();
+    $error_code = intl_get_error_code();
+    $error_message = intl_get_error_message();
 
-    $string_hex = bin2hex($string);
-    $result .= "---------------------\n";
+    $string_hex = bin2hex($string);
+    $result .= "---------------------\n";
 
-    if ($decomposition === null) {
-        $result .= "'$string_hex' не имеет соответствия декомпозиции\n" ;
-    } else {
-        $result .= "'$string_hex' имеет соответствие декомпозиции '" . bin2hex($decomposition) . "'\n" ;
-    }
+    if ($decomposition === null) {
+        $result .= "'$string_hex' не имеет соответствия декомпозиции\n" ;
+    } else {
+        $result .= "'$string_hex' имеет соответствие декомпозиции '" . bin2hex($decomposition) . "'\n" ;
+    }
 
-    $result .= "error info: '$error_message' ($error_code)\n";
+    $result .= "error info: '$error_message' ($error_code)\n";
 }
 
-echo $result;
+echo $result;
 ?>
 ```
 

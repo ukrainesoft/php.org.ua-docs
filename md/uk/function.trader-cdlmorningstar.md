@@ -15,7 +15,7 @@ tradercdlmorningstar - Ранкова зірка
 ### Опис
 
 ```methodsynopsis
-trader_cdlmorningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdlmorningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

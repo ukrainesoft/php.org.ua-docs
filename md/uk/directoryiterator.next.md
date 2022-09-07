@@ -36,10 +36,10 @@ public DirectoryIterator::next(): void
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-while($iterator->valid()) {
-    echo $iterator->getFilename() . "\n";
-    $iterator->next();
+$iterator = new DirectoryIterator(dirname(__FILE__));
+while($iterator->valid()) {
+    echo $iterator->getFilename() . "\n";
+    $iterator->next();
 }
 ?>
 ```

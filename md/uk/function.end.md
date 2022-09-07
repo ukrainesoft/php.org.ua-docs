@@ -43,8 +43,8 @@ end(array|object &$array): mixed
 ```php
 <?php
 
-$fruits = array('apple', 'banana', 'cranberry');
-echo end($fruits); // cranberry
+$fruits = array('apple', 'banana', 'cranberry');
+echo end($fruits); // cranberry
 
 ?>
 ```

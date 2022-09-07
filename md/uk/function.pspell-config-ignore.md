@@ -46,9 +46,9 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 ```php
 <?php
-$pspell_config = pspell_config_create("en");
-pspell_config_ignore($pspell_config, 5);
-$pspell = pspell_new_config($pspell_config);
-pspell_check($pspell, "abcd");    //Сообщение об ошибке не будет сгенерировано
+$pspell_config = pspell_config_create("en");
+pspell_config_ignore($pspell_config, 5);
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "abcd");    //Сообщение об ошибке не будет сгенерировано
 ?>
 ```

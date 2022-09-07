@@ -46,11 +46,11 @@ string; Пароль, для якого буде генеруватися хеш
 
 ```php
 <?php
-$password = 'password';
-echo sodium_crypto_pwhash_str(
-    $password,
-    SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,
-    SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE
+$password = 'password';
+echo sodium_crypto_pwhash_str(
+    $password,
+    SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,
+    SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE
 );
 ```
 
@@ -72,4 +72,4 @@ $argon2id$v=19$m=65536,t=2,p=1$oWIfdaXwWwhVmovOBc2NAQ$EbsZ+JnZyyavkafS0hoc4HdaOB
 -   [sodiumcryptopwhash()](function.sodium-crypto-pwhash.md) - Отримує ключ із пароля, використовуючи Argon2
 -   [passwordhash()](function.password-hash.md) - Створює хеш пароля
 -   [passwordverify()](function.password-verify.md) - Перевіряє, чи пароль хешу відповідає
--   [» Документация на Libsodium Argon2](https://download.libsodium.org/doc/password_hashing/the_argon2i_function.md)
+-   [» Документация на Libsodium Argon2](https://download.libsodium.org/doc/password_hashing/the_argon2i_function.md)

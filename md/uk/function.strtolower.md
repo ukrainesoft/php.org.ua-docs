@@ -38,9 +38,9 @@ strtolower(string $string): string
 
 ```php
 <?php
-$str = "Mary Had A Little Lamb and She LOVED It So";
-$str = strtolower($str);
-echo $str; // выводит: mary had a little lamb and she loved it so
+$str = "Mary Had A Little Lamb and She LOVED It So";
+$str = strtolower($str);
+echo $str; // выводит: mary had a little lamb and she loved it so
 ?>
 ```
 

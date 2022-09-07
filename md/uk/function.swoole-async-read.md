@@ -15,7 +15,7 @@ swooleasyncread — Асинхронне читання потоку файлу
 ### Опис
 
 ```methodsynopsis
-swoole_async_read(    string $filename,    callable $callback,    int $chunk_size = 65536,    int $offset = 0): bool
+swoole_async_read(    string $filename,    callable $callback,    int $chunk_size = 65536,    int $offset = 0): bool
 ```
 
 ### Список параметрів

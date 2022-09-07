@@ -40,10 +40,10 @@ gnupg_sign(resource $identifier, string $plaintext): string
 
 ```php
 <?php
-$res = gnupg_init();
+$res = gnupg_init();
 gnupg_addsignkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");
-$signed = gnupg_sign($res, "просто тест");
-echo $signed;
+$signed = gnupg_sign($res, "просто тест");
+echo $signed;
 ?>
 ```
 
@@ -51,9 +51,9 @@ echo $signed;
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
-$signed = $gpg->sign("просто тест");
-echo $signed;
+$signed = $gpg->sign("просто тест");
+echo $signed;
 ?>
 ```

@@ -45,30 +45,30 @@ public ZipArchive::locateName(string $name, int $flags = 0): int|false
 
 ```php
 <?php
-$file = 'testlocate.zip';
+$file = 'testlocate.zip';
 
-$zip = new ZipArchive;
-if ($zip->open($file, ZipArchive::CREATE) !== TRUE) {
-    exit('ошибка');
+$zip = new ZipArchive;
+if ($zip->open($file, ZipArchive::CREATE) !== TRUE) {
+    exit('ошибка');
 }
 
-$zip->addFromString('entry1.txt', 'entry #1');
-$zip->addFromString('entry2.txt', 'entry #2');
-$zip->addFromString('dir/entry2d.txt', 'entry #2');
+$zip->addFromString('entry1.txt', 'entry #1');
+$zip->addFromString('entry2.txt', 'entry #2');
+$zip->addFromString('dir/entry2d.txt', 'entry #2');
 
-if ($zip->status !== ZipArchive::ER_OK) {
-    echo "Ошибка записи в zip\n";
+if ($zip->status !== ZipArchive::ER_OK) {
+    echo "Ошибка записи в zip\n";
 }
 $zip->close();
 
-if ($zip->open($file) !== TRUE) {
-    exit('ошибка');
+if ($zip->open($file) !== TRUE) {
+    exit('ошибка');
 }
 
-echo $zip->locateName('entry1.txt') . "\n";
-echo $zip->locateName('eNtry2.txt') . "\n";
-echo $zip->locateName('eNtry2.txt', ZipArchive::FL_NOCASE) . "\n";
-echo $zip->locateName('enTRy2d.txt', ZipArchive::FL_NOCASE|ZipArchive::FL_NODIR) . "\n";
+echo $zip->locateName('entry1.txt') . "\n";
+echo $zip->locateName('eNtry2.txt') . "\n";
+echo $zip->locateName('eNtry2.txt', ZipArchive::FL_NOCASE) . "\n";
+echo $zip->locateName('enTRy2d.txt', ZipArchive::FL_NOCASE|ZipArchive::FL_NODIR) . "\n";
 $zip->close();
 
 ?>

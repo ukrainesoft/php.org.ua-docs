@@ -34,11 +34,11 @@ public SplFileInfo::getPerms(): int|false
 
 ```php
 <?php
-$info = new SplFileInfo('/tmp');
-echo substr(sprintf('%o', $info->getPerms()), -4);
+$info = new SplFileInfo('/tmp');
+echo substr(sprintf('%o', $info->getPerms()), -4);
 
-$info = new SplFileInfo(__FILE__);
-echo substr(sprintf('%o', $info->getPerms()), -4);
+$info = new SplFileInfo(__FILE__);
+echo substr(sprintf('%o', $info->getPerms()), -4);
 ?>
 ```
 

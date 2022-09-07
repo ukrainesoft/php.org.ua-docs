@@ -15,7 +15,7 @@ title: псbeginpattern
 ### Опис
 
 ```methodsynopsis
-ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    float $xstep,    float $ystep,    int $painttype): int|false
+ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    float $xstep,    float $ystep,    int $painttype): int|false
 ```
 
 Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [псsetcolor()](function.ps-setcolor.md) і встановлюючи колірний простір у `pattern`
@@ -56,33 +56,33 @@ ps_begin_pattern(    resource $psdoc,    float $width,    float $hei
 
 ```php
 <?php
-$ps = ps_new();
+$ps = ps_new();
 
-if (!ps_open_file($ps, "pattern.ps")) {
-  print "Не удаётся открыть файл PostScript\n";
-  exit;
+if (!ps_open_file($ps, "pattern.ps")) {
+  print "Не удаётся открыть файл PostScript\n";
+  exit;
 }
 
-ps_set_parameter($ps, "warning", "true");
-ps_set_info($ps, "Creator", "pattern.php");
-ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример узора");
+ps_set_parameter($ps, "warning", "true");
+ps_set_info($ps, "Creator", "pattern.php");
+ps_set_info($ps, "Author", "Уве Штайнманн");
+ps_set_info($ps, "Title", "Пример узора");
 
 
-$pspattern = ps_begin_pattern($ps, 10.0, 10.0, 10.0, 10.0, 1);
-ps_setlinewidth($ps, 0.2);
-ps_setcolor($ps, "stroke", "rgb", 0.0, 0.0, 1.0, 0.0);
-ps_moveto($ps, 0, 0);
-ps_lineto($ps, 7, 7);
+$pspattern = ps_begin_pattern($ps, 10.0, 10.0, 10.0, 10.0, 1);
+ps_setlinewidth($ps, 0.2);
+ps_setcolor($ps, "stroke", "rgb", 0.0, 0.0, 1.0, 0.0);
+ps_moveto($ps, 0, 0);
+ps_lineto($ps, 7, 7);
 ps_stroke($ps);
-ps_moveto($ps, 0, 7);
-ps_lineto($ps, 7, 0);
+ps_moveto($ps, 0, 7);
+ps_lineto($ps, 7, 0);
 ps_stroke($ps);
 ps_end_pattern($ps);
 
-ps_begin_page($ps, 596, 842);
-ps_setcolor($ps, "both", "pattern", $pspattern, 0.0, 0.0, 0.0);
-ps_rect($ps, 50, 400, 200, 200);
+ps_begin_page($ps, 596, 842);
+ps_setcolor($ps, "both", "pattern", $pspattern, 0.0, 0.0, 0.0);
+ps_rect($ps, 50, 400, 200, 200);
 ps_fill($ps);
 ps_end_page($ps);
 

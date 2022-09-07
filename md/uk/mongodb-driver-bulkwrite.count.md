@@ -45,11 +45,11 @@ public MongoDB\Driver\BulkWrite::count(): int
 ```php
 <?php
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['_id' => 1, 'x' => 1]);
-$bulk->insert(['_id' => 2, 'x' => 2]);
-$bulk->update(['x' => 2], ['$set' => ['x' => 1]]);
-$bulk->delete(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['_id' => 1, 'x' => 1]);
+$bulk->insert(['_id' => 2, 'x' => 2]);
+$bulk->update(['x' => 2], ['$set' => ['x' => 1]]);
+$bulk->delete(['x' => 1]);
 
 var_dump(count($bulk));
 

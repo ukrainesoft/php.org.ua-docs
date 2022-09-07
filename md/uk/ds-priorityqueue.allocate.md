@@ -44,7 +44,7 @@ public Ds\PriorityQueue::allocate(int $capacity): void
 
 ```php
 <?php
-$queue = new \Ds\PriorityQueue();
+$queue = new \Ds\PriorityQueue();
 var_dump($queue->capacity());
 
 $queue->allocate(100);

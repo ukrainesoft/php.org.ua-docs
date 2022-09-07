@@ -42,12 +42,12 @@ Oid екземпляра glo з якого ви хочете прочитати 
 
 ```php
 <?php
-$req = cubrid_execute ($con, "select image from person where id =1");
-if ($req) {
-  list ($oid) = cubrid_fetch($req);
-  cubrid_close_request($req);
-  Header ("Content-type: image/jpeg");
-  cubrid_send_glo ($con, $oid);
+$req = cubrid_execute ($con, "select image from person where id =1");
+if ($req) {
+  list ($oid) = cubrid_fetch($req);
+  cubrid_close_request($req);
+  Header ("Content-type: image/jpeg");
+  cubrid_send_glo ($con, $oid);
 }
 ?>
 ```

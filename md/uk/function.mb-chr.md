@@ -48,10 +48,10 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 ```php
 <?php
-$values = [65, 63, 0x20AC, 128024];
-foreach ($values as $value) {
-    var_dump(mb_chr($value, 'UTF-8'));
-    var_dump(mb_chr($value, 'ISO-8859-1'));
+$values = [65, 63, 0x20AC, 128024];
+foreach ($values as $value) {
+    var_dump(mb_chr($value, 'UTF-8'));
+    var_dump(mb_chr($value, 'ISO-8859-1'));
 }
 ?>
 ```

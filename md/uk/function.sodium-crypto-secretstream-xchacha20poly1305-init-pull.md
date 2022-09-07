@@ -40,37 +40,37 @@ sodium_crypto_secretstream_xchacha20poly1305_init_pull(string $header, string $k
 
 ```php
 <?php
-function decrypt_file(string $inputFilePath, string $outputFilePath, string $key): void
+function decrypt_file(string $inputFilePath, string $outputFilePath, string $key): void
 {
-    $inputFile = fopen($inputFilePath, 'rb');
-    $outputFile = fopen($outputFilePath, 'wb');
-    $header = fread($inputFile, 24);
+    $inputFile = fopen($inputFilePath, 'rb');
+    $outputFile = fopen($outputFilePath, 'wb');
+    $header = fread($inputFile, 24);
 
-    $state = sodium_crypto_secretstream_xchacha20poly1305_init_pull($header, $key);
-    $inputFileSize = fstat($inputFile)['size'];
+    $state = sodium_crypto_secretstream_xchacha20poly1305_init_pull($header, $key);
+    $inputFileSize = fstat($inputFile)['size'];
 
-    // Расшифровка файла и запись содержимого в выходной файл:
-    for ($i = 24; $i < $inputFileSize; $i += 8192) {
-        $ctxt_chunk = fread($inputFile, 8192);
+    // Расшифровка файла и запись содержимого в выходной файл:
+    for ($i = 24; $i < $inputFileSize; $i += 8192) {
+        $ctxt_chunk = fread($inputFile, 8192);
 
-        // Мы не используем $tag, но в реальных протоколах вы можете использовать его для шифрования, например,
-        // инициировать смену ключа или указать конец файла. Затем при расшифровке
-        // вы можете подтвердить это поведение.
-        [$ptxt_chunk, $tag] = sodium_crypto_secretstream_xchacha20poly1305_pull($state, $ctxt_chunk);
-        fwrite($outputFile, $ptxt_chunk);
-    }
+        // Мы не используем $tag, но в реальных протоколах вы можете использовать его для шифрования, например,
+        // инициировать смену ключа или указать конец файла. Затем при расшифровке
+        // вы можете подтвердить это поведение.
+        [$ptxt_chunk, $tag] = sodium_crypto_secretstream_xchacha20poly1305_pull($state, $ctxt_chunk);
+        fwrite($outputFile, $ptxt_chunk);
+    }
 
-    sodium_memzero($state);
-    fclose($inputFile);
-    fclose($outputFile);
+    sodium_memzero($state);
+    fclose($inputFile);
+    fclose($outputFile);
 }
 
-// sodium_crypto_secretstream_xchacha20poly1305_keygen()
-$key = sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8=', SODIUM_BASE64_VARIANT_ORIGINAL);
+// sodium_crypto_secretstream_xchacha20poly1305_keygen()
+$key = sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8=', SODIUM_BASE64_VARIANT_ORIGINAL);
 
-$example = sodium_hex2bin('971e33b255f0990ef3931caf761c59136efa77b434832f28ec719e3ff73f5aec38b3bba1574ab5b70a8844d8da36a668e802cfea2c');
-file_put_contents('hello.enc', $example);
-decrypt_file('hello.enc', 'hello.txt.decrypted', $key);
+$example = sodium_hex2bin('971e33b255f0990ef3931caf761c59136efa77b434832f28ec719e3ff73f5aec38b3bba1574ab5b70a8844d8da36a668e802cfea2c');
+file_put_contents('hello.enc', $example);
+decrypt_file('hello.enc', 'hello.txt.decrypted', $key);
 var_dump(file_get_contents('hello.txt.decrypted'));
 ?>
 ```

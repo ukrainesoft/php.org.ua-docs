@@ -34,10 +34,10 @@ public Ds\Set::capacity(): int
 
 ```php
 <?php
-$set = new \Ds\Set();
+$set = new \Ds\Set();
 var_dump($set->capacity());
 
-$set->push(...range(1, 50));
+$set->push(...range(1, 50));
 var_dump($set->capacity());
 ?>
 ```

@@ -59,16 +59,16 @@ imagebmp(GdImage $image, resource|string|null $file = null, bool $compressed = t
 
 ```php
 <?php
-// Создайте пустое изображение и добавьте текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
+// Создайте пустое изображение и добавьте текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
 
-imagestring($im, 1, 5, 5,  'BMP with PHP', $text_color);
+imagestring($im, 1, 5, 5,  'BMP with PHP', $text_color);
 
-// Сохранить изображение
-imagebmp($im, 'php.bmp');
+// Сохранить изображение
+imagebmp($im, 'php.bmp');
 
-// Освободить память
+// Освободить память
 imagedestroy($im);
 ?>
 ```

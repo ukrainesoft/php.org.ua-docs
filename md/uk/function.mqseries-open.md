@@ -15,7 +15,7 @@ mqseriesopen — MQSeries MQOPEN
 ### Опис
 
 ```methodsynopsis
-mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resource &$hobj,    resource &$compCode,    resource &$reason): void
+mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resource &$hobj,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesopen()** (MQOPEN) встановлює з'єднання з об'єктом.
@@ -60,18 +60,18 @@ mqseries_open(    resource $hconn,    array &$objDesc,    int $optio
 
 ```php
 <?php
-    $mqods = array('ObjectName' => 'TESTQ');
-    mqseries_open(
-                $conn,
-                $mqods,
-                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,
-                $obj,
-                $comp_code,
-                $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("open CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-        exit;
-    }
+    $mqods = array('ObjectName' => 'TESTQ');
+    mqseries_open(
+                $conn,
+                $mqods,
+                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,
+                $obj,
+                $comp_code,
+                $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("open CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        exit;
+    }
 ?>
 ```
 

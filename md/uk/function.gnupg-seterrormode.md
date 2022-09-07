@@ -42,8 +42,8 @@ gnupg_seterrormode(resource $identifier, int $errormode): void
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_seterrormode($res, GNUPG_ERROR_WARNING); // выводить PHP-предупреждения в случае возникновения ошибки
+$res = gnupg_init();
+gnupg_seterrormode($res, GNUPG_ERROR_WARNING); // выводить PHP-предупреждения в случае возникновения ошибки
 ?>
 ```
 
@@ -51,7 +51,7 @@ gnupg_seterrormode($res, GNUPG_ERROR_WARNING); // выводить PHP-пр�
 
 ```php
 <?php
-$gpg = new gnupg();
-$gpg->seterrormode(gnupg::ERROR_EXCEPTION); // исключение в случае возникновения ошибки
+$gpg = new gnupg();
+$gpg->seterrormode(gnupg::ERROR_EXCEPTION); // исключение в случае возникновения ошибки
 ?>
 ```

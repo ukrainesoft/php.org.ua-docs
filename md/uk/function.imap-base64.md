@@ -35,4 +35,4 @@ imap_base64(string $string): string|false
 -   [imapbinary()](function.imap-binary.md) - Конвертує 8-бітовий рядок у рядок base64
 -   [base64encode()](function.base64-encode.md) - Кодує дані у формат MIME base64
 -   [base64decode()](function.base64-decode.md) - Декодує дані, закодовані MIME base64
--   [» RFC2045](http://www.faqs.org/rfcs/rfc2045)секція 6.8
+-   [» RFC2045](http://www.faqs.org/rfcs/rfc2045)секція 6.8

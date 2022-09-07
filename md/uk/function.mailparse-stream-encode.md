@@ -45,16 +45,16 @@ mailparse_stream_encode(resource $sourcefp, resource $destfp, string $encoding):
 ```php
 <?php
 
-// email.eml содержит: hello, this is some text=hello.
-$fp = fopen('email.eml', 'r');
+// email.eml содержит: hello, this is some text=hello.
+$fp = fopen('email.eml', 'r');
 
-$dest = tmpfile();
+$dest = tmpfile();
 
-mailparse_stream_encode($fp, $dest, "quoted-printable");
+mailparse_stream_encode($fp, $dest, "quoted-printable");
 
 rewind($dest);
 
-// Отображаем контент нового файла
+// Отображаем контент нового файла
 fpassthru($dest);
 
 ?>

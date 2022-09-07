@@ -41,13 +41,13 @@ public ZipArchive::registerProgressCallback(float $rate, callable $callback): bo
 **Приклад #1 Архівація файлу**
 
 ```php
-$zip = new ZipArchive();
-if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
-    $zip->addFile(PHP_BINARY, 'php');
-    $zip->registerProgressCallback(0.05, function ($r) {
-        printf("%d%%\n", $r * 100);
-    });
-    $zip->close();
+$zip = new ZipArchive();
+if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
+    $zip->addFile(PHP_BINARY, 'php');
+    $zip->registerProgressCallback(0.05, function ($r) {
+        printf("%d%%\n", $r * 100);
+    });
+    $zip->close();
 }
 ```
 

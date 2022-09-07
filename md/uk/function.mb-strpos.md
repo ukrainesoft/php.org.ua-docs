@@ -15,7 +15,7 @@ title: мбstrpos
 ### Опис
 
 ```methodsynopsis
-mb_strpos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
+mb_strpos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
 Шукає позицію першого входження одного рядка string до іншого рядка string.

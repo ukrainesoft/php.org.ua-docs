@@ -40,26 +40,26 @@ public ImagickPixel::setColor(string $color): bool
 
 ```php
 <?php
-function setColor() {
-    $draw = new \ImagickDraw();
+function setColor() {
+    $draw = new \ImagickDraw();
 
-    $strokeColor = new \ImagickPixel('green');
-    $fillColor = new \ImagickPixel();
-    $fillColor->setColor('rgba(100%, 75%, 0%, 1.0)');
+    $strokeColor = new \ImagickPixel('green');
+    $fillColor = new \ImagickPixel();
+    $fillColor->setColor('rgba(100%, 75%, 0%, 1.0)');
 
-    $draw->setstrokewidth(3.0);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->rectangle(200, 200, 300, 300);
+    $draw->setstrokewidth(3.0);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle(200, 200, 300, 300);
 
-    $image = new \Imagick();
-    $image->newImage(500, 500, "SteelBlue2");
-    $image->setImageFormat("png");
+    $image = new \Imagick();
+    $image->newImage(500, 500, "SteelBlue2");
+    $image->setImageFormat("png");
 
-    $image->drawImage($draw);
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

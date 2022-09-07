@@ -16,17 +16,17 @@ title: Основи підрахунку посилань
 
 ```php
 <?php
-$a = "new string";
+$a = "new string";
 ?>
 ```
 
-У цьому прикладі створюється новий символ `a` у поточній області видимості та новий контейнер змінної з типом string та значенням `new string`. Біт "isref" за замовчуванням задається рівним **`false`**, т.к. не створено жодного користувача посилання. Значення "refcount" задається рівним `1`, т.к. лише одне ім'я змінної вказує цей контейнер. Зверніть увагу, що посилання (тобто "isref" одно **`true`**) з "refcount" рівним `1` обробляються так, якби вони не були посиланнями (тобто як "isref" було б **`false`**). Якщо у вас встановлено [» Xdebug](http://xdebug.org/), то ви можете вивести цю інформацію, викликавши функцію **xdebugdebugкликав()**
+У цьому прикладі створюється новий символ `a` у поточній області видимості та новий контейнер змінної з типом string та значенням `new string`. Біт "isref" за замовчуванням задається рівним **`false`**, т.к. не створено жодного користувача посилання. Значення "refcount" задається рівним `1`, т.к. лише одне ім'я змінної вказує цей контейнер. Зверніть увагу, що посилання (тобто "isref" одно **`true`**) з "refcount" рівним `1` обробляються так, якби вони не були посиланнями (тобто як "isref" було б **`false`**). Якщо у вас встановлено [» Xdebug](http://xdebug.org/), то ви можете вивести цю інформацію, викликавши функцію **xdebugdebugкликав()**
 
 **Приклад #2 Виведення інформації про zval**
 
 ```php
 <?php
-$a = "new string";
+$a = "new string";
 xdebug_debug_zval('a');
 ?>
 ```
@@ -43,9 +43,9 @@ a: (refcount=1, is_ref=0)='new string'
 
 ```php
 <?php
-$a = "new string";
-$b = $a;
-xdebug_debug_zval( 'a' );
+$a = "new string";
+$b = $a;
+xdebug_debug_zval( 'a' );
 ?>
 ```
 
@@ -61,13 +61,13 @@ a: (refcount=2, is_ref=0)='new string'
 
 ```php
 <?php
-$a = "new string";
-$c = $b = $a;
-xdebug_debug_zval( 'a' );
-$b = 42;
-xdebug_debug_zval( 'a' );
-unset( $c );
-xdebug_debug_zval( 'a' );
+$a = "new string";
+$c = $b = $a;
+xdebug_debug_zval( 'a' );
+$b = 42;
+xdebug_debug_zval( 'a' );
+unset( $c );
+xdebug_debug_zval( 'a' );
 ?>
 ```
 
@@ -89,8 +89,8 @@ a: (refcount=1, is_ref=0)='new string'
 
 ```php
 <?php
-$a = array( 'meaning' => 'life', 'number' => 42 );
-xdebug_debug_zval( 'a' );
+$a = array( 'meaning' => 'life', 'number' => 42 );
+xdebug_debug_zval( 'a' );
 ?>
 ```
 
@@ -113,9 +113,9 @@ a: (refcount=1, is_ref=0)=array (
 
 ```php
 <?php
-$a = array( 'meaning' => 'life', 'number' => 42 );
-$a['life'] = $a['meaning'];
-xdebug_debug_zval( 'a' );
+$a = array( 'meaning' => 'life', 'number' => 42 );
+$a['life'] = $a['meaning'];
+xdebug_debug_zval( 'a' );
 ?>
 ```
 
@@ -141,10 +141,10 @@ a: (refcount=1, is_ref=0)=array (
 
 ```php
 <?php
-$a = array( 'meaning' => 'life', 'number' => 42 );
-$a['life'] = $a['meaning'];
-unset( $a['meaning'], $a['number'] );
-xdebug_debug_zval( 'a' );
+$a = array( 'meaning' => 'life', 'number' => 42 );
+$a['life'] = $a['meaning'];
+unset( $a['meaning'], $a['number'] );
+xdebug_debug_zval( 'a' );
 ?>
 ```
 
@@ -162,9 +162,9 @@ a: (refcount=1, is_ref=0)=array (
 
 ```php
 <?php
-$a = array( 'one' );
-$a[] =& $a;
-xdebug_debug_zval( 'a' );
+$a = array( 'one' );
+$a[] =& $a;
+xdebug_debug_zval( 'a' );
 ?>
 ```
 

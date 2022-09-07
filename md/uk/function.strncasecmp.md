@@ -45,10 +45,10 @@ strncasecmp(string $string1, string $string2, int $length): int
 ```php
 <?php
 
-$var1 = 'Hello John';
-$var2 = 'hello Doe';
-if (strncasecmp($var1, $var2, 5) === 0) {
-    echo 'Первые 5 символов $var1 и $var2 равны при сравнении строк без учёта регистра';
+$var1 = 'Hello John';
+$var2 = 'hello Doe';
+if (strncasecmp($var1, $var2, 5) === 0) {
+    echo 'Первые 5 символов $var1 и $var2 равны при сравнении строк без учёта регистра';
 }
 ?>
 ```

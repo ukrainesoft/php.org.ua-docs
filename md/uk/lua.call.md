@@ -52,16 +52,16 @@ public Lua::__call(callable $lua_func, array $args = ?, int $use_self = 0): mixe
 
 ```php
 <?php
-$lua = new Lua();
+$lua = new Lua();
 $lua->eval(<<<CODE
-    function dummy(foo, bar)
-        print(foo, ",", bar)
-    end
+    function dummy(foo, bar)
+        print(foo, ",", bar)
+    end
 CODE
 );
-$lua->call("dummy", array("Lua", "geiliable\n"));
-$lua->dummy("Lua", "geiliable"); // __call()
-var_dump($lua->call(array("table", "concat"), array(array(1=>1, 2=>2, 3=>3), "-")));
+$lua->call("dummy", array("Lua", "geiliable\n"));
+$lua->dummy("Lua", "geiliable"); // __call()
+var_dump($lua->call(array("table", "concat"), array(array(1=>1, 2=>2, 3=>3), "-")));
 ?>
 ```
 

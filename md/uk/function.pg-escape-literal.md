@@ -54,17 +54,17 @@ pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
 
 ```php
 <?php
-  // Подключение к базе данных
-  $dbconn = pg_connect('dbname=foo');
+  // Подключение к базе данных
+  $dbconn = pg_connect('dbname=foo');
 
-  // Чтение из текстового файла (содержащий апострофы и обратные косые черты)
-  $data = file_get_contents('letter.txt');
+  // Чтение из текстового файла (содержащий апострофы и обратные косые черты)
+  $data = file_get_contents('letter.txt');
 
-  // Экранирование текстовых данных
-  $escaped = pg_escape_literal($data);
+  // Экранирование текстовых данных
+  $escaped = pg_escape_literal($data);
 
-  // Вставка их в базу данных. Обратите внимание, что вокруг {$escaped} нет кавычек
-  pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', {$escaped})");
+  // Вставка их в базу данных. Обратите внимание, что вокруг {$escaped} нет кавычек
+  pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', {$escaped})");
 ?>
 ```
 

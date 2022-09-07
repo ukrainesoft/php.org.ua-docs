@@ -18,7 +18,7 @@ MongoDBBSONfromPHP — Повертає представлення BSON знач
 MongoDB\BSON\fromPHP(array|object $value): string
 ```
 
-Серіалізує масив або об'єкт PHP (наприклад, документ) для його подання [» BSON](https://www.mongodb.com/docs/manual/reference/bson-types/). Повернутий двійковий рядок буде описувати документ BSON.
+Серіалізує масив або об'єкт PHP (наприклад, документ) для його подання [» BSON](https://www.mongodb.com/docs/manual/reference/bson-types/). Повернутий двійковий рядок буде описувати документ BSON.
 
 ### Список параметрів
 
@@ -41,8 +41,8 @@ MongoDB\BSON\fromPHP(array|object $value): string
 ```php
 <?php
 
-$bson = MongoDB\BSON\fromPHP(['foo' => 1]);
-echo bin2hex($bson), "\n";
+$bson = MongoDB\BSON\fromPHP(['foo' => 1]);
+echo bin2hex($bson), "\n";
 
 ?>
 ```
@@ -56,5 +56,5 @@ echo bin2hex($bson), "\n";
 ### Дивіться також
 
 -   [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.md) - Повертає PHP подання значення BSON
--   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 -   [Постійні дані](mongodb.persistence.md)

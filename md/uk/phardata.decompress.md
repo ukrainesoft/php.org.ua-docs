@@ -50,8 +50,8 @@ public PharData::decompress(?string $extension = null): ?PharData
 
 ```php
 <?php
-$p = new PharData('/path/to/my.tar.gz');
-$p->decompress(); // creates /path/to/my.tar
+$p = new PharData('/path/to/my.tar.gz');
+$p->decompress(); // creates /path/to/my.tar
 ?>
 ```
 

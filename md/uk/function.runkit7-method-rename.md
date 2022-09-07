@@ -44,21 +44,21 @@ runkit7_method_rename(string $class_name, string $source_method_name, string $ta
 
 ```php
 <?php
-class Example {
-    function foo() {
-        return "foo!\n";
-    }
+class Example {
+    function foo() {
+        return "foo!\n";
+    }
 }
 
-// Переименование метода 'foo' в 'bar'
+// Переименование метода 'foo' в 'bar'
 runkit7_method_rename(
-    'Example',
-    'foo',
-    'bar'
+    'Example',
+    'foo',
+    'bar'
 );
 
-// Вывод переименованной функции
-echo (new Example)->bar();
+// Вывод переименованной функции
+echo (new Example)->bar();
 ?>
 ```
 

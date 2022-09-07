@@ -40,25 +40,25 @@ title: Інтерфейс IteratorAggregate
 
 ```php
 <?php
-class myData implements IteratorAggregate {
-    public $property1 = "Первое общедоступное свойство";
-    public $property2 = "Второе общедоступное свойство";
-    public $property3 = "Третье общедоступное свойство";
+class myData implements IteratorAggregate {
+    public $property1 = "Первое общедоступное свойство";
+    public $property2 = "Второе общедоступное свойство";
+    public $property3 = "Третье общедоступное свойство";
 
-    public function __construct() {
-        $this->property4 = "последнее свойство";
-    }
+    public function __construct() {
+        $this->property4 = "последнее свойство";
+    }
 
-    public function getIterator() {
-        return new ArrayIterator($this);
-    }
+    public function getIterator() {
+        return new ArrayIterator($this);
+    }
 }
 
-$obj = new myData;
+$obj = new myData;
 
-foreach($obj as $key => $value) {
-    var_dump($key, $value);
-    echo "\n";
+foreach($obj as $key => $value) {
+    var_dump($key, $value);
+    echo "\n";
 }
 ?>
 ```

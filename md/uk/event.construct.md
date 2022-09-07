@@ -16,19 +16,19 @@ Event::construct - Конструктор об'єкта Event
 
 ```methodsynopsis
 public
-   Event::__construct(    
+   Event::__construct(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $fd
-   ,    
+   ,    
     int
      $what
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $arg
      = NULL

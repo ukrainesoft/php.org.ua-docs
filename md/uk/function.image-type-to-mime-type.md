@@ -59,7 +59,7 @@ image_type_to_mime_type(int $image_type): string
 
 ```php
 <?php
-header("Content-type: " . image_type_to_mime_type(IMAGETYPE_PNG));
+header("Content-type: " . image_type_to_mime_type(IMAGETYPE_PNG));
 ?>
 ```
 

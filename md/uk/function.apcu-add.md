@@ -54,14 +54,14 @@ apcu_add(array $values, mixed $unused = NULL, int $ttl = 0): array
 
 ```php
 <?php
-$bar = 'BAR';
-apcu_add('foo', $bar);
+$bar = 'BAR';
+apcu_add('foo', $bar);
 var_dump(apcu_fetch('foo'));
-echo "\n";
-$bar = 'NEVER GETS SET';
-apcu_add('foo', $bar);
+echo "\n";
+$bar = 'NEVER GETS SET';
+apcu_add('foo', $bar);
 var_dump(apcu_fetch('foo'));
-echo "\n";
+echo "\n";
 ?>
 ```
 

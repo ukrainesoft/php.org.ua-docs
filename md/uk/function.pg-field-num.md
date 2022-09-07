@@ -50,11 +50,11 @@ pg_field_num(PgSql\Result $result, string $field): int
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
 
-  $res = pg_query($dbconn, "select author, year, title from authors where author = 'Orwell'");
+  $res = pg_query($dbconn, "select author, year, title from authors where author = 'Orwell'");
 
-  echo "Столбец 'title' - это поле с номером: ", pg_field_num($res, 'title');
+  echo "Столбец 'title' - это поле с номером: ", pg_field_num($res, 'title');
 ?>
 ```
 

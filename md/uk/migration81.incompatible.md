@@ -20,18 +20,18 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ```php
 <?php
-class A {
-    public static function counter() {
-        static $counter = 0;
-        $counter++;
-        return $counter;
-    }
+class A {
+    public static function counter() {
+        static $counter = 0;
+        $counter++;
+        return $counter;
+    }
 }
-class B extends A {}
-var_dump(A::counter()); // int(1)
-var_dump(A::counter()); // int(2)
-var_dump(B::counter()); // int(3), ранее было int(1)
-var_dump(B::counter()); // int(4), ранее было int(2)
+class B extends A {}
+var_dump(A::counter()); // int(1)
+var_dump(A::counter()); // int(2)
+var_dump(B::counter()); // int(3), ранее было int(1)
+var_dump(B::counter()); // int(4), ранее было int(2)
 ?>
 ```
 
@@ -43,17 +43,17 @@ var_dump(B::counter()); // int(4), ранее было int(2)
 
 ```php
 <?php
-function makeyogurt($container = "миску", $flavour)
+function makeyogurt($container = "миску", $flavour)
 {
-    return "Готовим $container с $flavour йогуртом.\n";
+    return "Готовим $container с $flavour йогуртом.\n";
 }
 try
 {
-    echo makeyogurt(flavour: "малиновым");
+    echo makeyogurt(flavour: "малиновым");
 }
-catch (Error $e)
+catch (Error $e)
 {
-    echo get_class($e), ' - ', $e->getMessage(), "\n";
+    echo get_class($e), ' - ', $e->getMessage(), "\n";
 }
 ?>
 ```

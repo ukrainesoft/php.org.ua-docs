@@ -36,17 +36,17 @@ public Vtiful\Kernel\Excel::data(array $data)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$fileObject  = new \Vtiful\Kernel\Excel($config);
+$fileObject  = new \Vtiful\Kernel\Excel($config);
 
-$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
-    ->header(['name', 'age'])
-    ->data([
-      ['viest', 23],
-      ['wjx', 23],
-    ]);
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age'])
+    ->data([
+      ['viest', 23],
+      ['wjx', 23],
+    ]);
 ?>
 ```

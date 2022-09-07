@@ -42,28 +42,28 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ```php
 <?php
-    // Присоединение к удаленному серверу Firebird по IP-адресу
-    if (($service = ibase_service_attach('10.1.1.199', 'sysdba', 'masterkey')) != FALSE) {
+    // Присоединение к удаленному серверу Firebird по IP-адресу
+    if (($service = ibase_service_attach('10.1.1.199', 'sysdba', 'masterkey')) != FALSE) {
 
-        // Присоединение прошло успешно.
-        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
-        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
+        // Присоединение прошло успешно.
+        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
+        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
 
-        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
-        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
+        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
+        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
 
-        // Отсоединение от сервера (отключение)
-        ibase_service_detach($service);
+        // Отсоединение от сервера (отключение)
+        ibase_service_detach($service);
 
-        // Вывод информации
-        echo "Версия сервера: " . $server_version . "<br/>";
-        echo "Реализация сервера: " . $server_implementation;
-    }
-    else {
-        // Вывод сообщения в случае возникновения ошибки
-        $conn_error = ibase_errmsg();
-        die($conn_error);
-    }
+        // Вывод информации
+        echo "Версия сервера: " . $server_version . "<br/>";
+        echo "Реализация сервера: " . $server_implementation;
+    }
+    else {
+        // Вывод сообщения в случае возникновения ошибки
+        $conn_error = ibase_errmsg();
+        die($conn_error);
+    }
 
 ?>
 ```
@@ -72,28 +72,28 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ```php
 <?php
-    // Присоединение к удаленному серверу Firebird по имени. Используется порт 3050.
-    if (($service = ibase_service_attach('FB-SRV-01.contoso.local/3050', 'sysdba', 'masterkey')) != FALSE) {
+    // Присоединение к удаленному серверу Firebird по имени. Используется порт 3050.
+    if (($service = ibase_service_attach('FB-SRV-01.contoso.local/3050', 'sysdba', 'masterkey')) != FALSE) {
 
-        // Присоединение прошло успешно.
-        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
-        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
+        // Присоединение прошло успешно.
+        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
+        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
 
-        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
-        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
+        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
+        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
 
-        // Отсоединение от сервера (отключение)
-        ibase_service_detach($service);
+        // Отсоединение от сервера (отключение)
+        ibase_service_detach($service);
 
-        // Вывод информации
-        echo "Версия сервера: " . $server_version . "<br/>";
-        echo "Реализация сервера: " . $server_implementation;
-    }
-    else {
-        // Вывод сообщения в случае возникновения ошибки
-        $conn_error = ibase_errmsg();
-        die($conn_error);
-    }
+        // Вывод информации
+        echo "Версия сервера: " . $server_version . "<br/>";
+        echo "Реализация сервера: " . $server_implementation;
+    }
+    else {
+        // Вывод сообщения в случае возникновения ошибки
+        $conn_error = ibase_errmsg();
+        die($conn_error);
+    }
 
 ?>
 ```

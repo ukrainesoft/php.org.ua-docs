@@ -40,20 +40,20 @@ func_get_args(): array
 
 ```php
 <?php
-function foo()
+function foo()
 {
-    $numargs = func_num_args();
-    echo "Количество аргументов: $numargs\n";
-    if ($numargs >= 2) {
-        echo "Второй аргумент: " . func_get_arg(1) . "\n";
-    }
-    $arg_list = func_get_args();
-    for ($i = 0; $i < $numargs; $i++) {
-        echo "Аргумент №$i: " . $arg_list[$i] . "\n";
-    }
+    $numargs = func_num_args();
+    echo "Количество аргументов: $numargs\n";
+    if ($numargs >= 2) {
+        echo "Второй аргумент: " . func_get_arg(1) . "\n";
+    }
+    $arg_list = func_get_args();
+    for ($i = 0; $i < $numargs; $i++) {
+        echo "Аргумент №$i: " . $arg_list[$i] . "\n";
+    }
 }
 
-foo(1, 2, 3);
+foo(1, 2, 3);
 ?>
 ```
 
@@ -71,19 +71,19 @@ foo(1, 2, 3);
 
 ```php
 <?php
-function byVal($arg) {
-    echo 'Передан          : ', var_export(func_get_args()), PHP_EOL;
-    $arg = 'baz';
-    echo 'После изменения  : ', var_export(func_get_args()), PHP_EOL;
+function byVal($arg) {
+    echo 'Передан          : ', var_export(func_get_args()), PHP_EOL;
+    $arg = 'baz';
+    echo 'После изменения  : ', var_export(func_get_args()), PHP_EOL;
 }
 
-function byRef(&$arg) {
-    echo 'Передан          : ', var_export(func_get_args()), PHP_EOL;
-    $arg = 'baz';
-    echo 'После изменения  : ', var_export(func_get_args()), PHP_EOL;
+function byRef(&$arg) {
+    echo 'Передан          : ', var_export(func_get_args()), PHP_EOL;
+    $arg = 'baz';
+    echo 'После изменения  : ', var_export(func_get_args()), PHP_EOL;
 }
 
-$arg = 'bar';
+$arg = 'bar';
 byVal($arg);
 byRef($arg);
 ?>

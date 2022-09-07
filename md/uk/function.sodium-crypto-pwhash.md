@@ -15,7 +15,7 @@ sodiumcryptopwhash — Отримує ключ із пароля, викорис
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_pwhash(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit,    int $algo = SODIUM_CRYPTO_PWHASH_ALG_DEFAULT): string
+sodium_crypto_pwhash(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit,    int $algo = SODIUM_CRYPTO_PWHASH_ALG_DEFAULT): string
 ```
 
 Ця функція надає низькорівневий доступ до функції cryptopwhash бібліотеки libsodium. Якщо у вас немає принципової необхідності в цій функції, краще використовувати [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md) або [passwordhash()](function.password-hash.md)
@@ -58,18 +58,18 @@ int Число, що вказує алгоритм хешування, що ви
 
 ```php
 <?php
-//Для дальнейшенй проверки необходимо сохранить соль
-$salt = random_bytes(SODIUM_CRYPTO_PWHASH_SALTBYTES);
-// Используем bin2hex для удобочитаемости
-echo bin2hex(
-    sodium_crypto_pwhash(
-        16, // == 128 бит
-        'password',
-        $salt,
-        SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,
-        SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE,
-        SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13
-    )
+//Для дальнейшенй проверки необходимо сохранить соль
+$salt = random_bytes(SODIUM_CRYPTO_PWHASH_SALTBYTES);
+// Используем bin2hex для удобочитаемости
+echo bin2hex(
+    sodium_crypto_pwhash(
+        16, // == 128 бит
+        'password',
+        $salt,
+        SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,
+        SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE,
+        SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13
+    )
 );
 ?>
 ```

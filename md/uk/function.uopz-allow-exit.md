@@ -37,10 +37,10 @@ uopz_allow_exit(bool $allow): void
 ```php
 <?php
 exit(1);
-echo 1;
+echo 1;
 uopz_allow_exit(true);
 exit(2);
-echo 2;
+echo 2;
 ?>
 ```
 

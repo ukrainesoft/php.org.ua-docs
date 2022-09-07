@@ -42,8 +42,8 @@ public ArrayAccess::offsetSet(mixed $offset, mixed $value): void
 > 
 > ```php
 > <?php
-> $arrayaccess[] = "первое значение";
-> $arrayaccess[] = "второе значение";
+> $arrayaccess[] = "первое значение";
+> $arrayaccess[] = "второе значение";
 > print_r($arrayaccess);
 > ?>
 > ```

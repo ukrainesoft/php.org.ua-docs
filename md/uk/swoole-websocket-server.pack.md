@@ -15,7 +15,7 @@ SwooleWebSocketServer::pack — Отримання пакета двійкови
 ### Опис
 
 ```methodsynopsis
-public static Swoole\WebSocket\Server::pack(    string $data,    string $opcode = ?,    string $finish = ?,    string $mask = ?): binary
+public static Swoole\WebSocket\Server::pack(    string $data,    string $opcode = ?,    string $finish = ?,    string $mask = ?): binary
 ```
 
 ### Список параметрів

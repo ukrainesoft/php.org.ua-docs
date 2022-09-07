@@ -38,39 +38,39 @@ public Yaf_Router::getCurrentRoute(): string
 
 ```php
 <?php
-class Bootstrap extends Yaf_Bootstrap_Abstract{
-    public function _initConfig() {
-        $config = Yaf_Application::app()->getConfig();
-        Yaf_Registry::set("config", $config);
-    }
+class Bootstrap extends Yaf_Bootstrap_Abstract{
+    public function _initConfig() {
+        $config = Yaf_Application::app()->getConfig();
+        Yaf_Registry::set("config", $config);
+    }
 
-    public function _initRoute(Yaf_Dispatcher $dispatcher) {
-        $router = $dispatcher->getRouter();
-        $rewrite_route  = new Yaf_Route_Rewrite(
-            "/product/list/:page",
-            array(
-                "controller" => "product",
-                "action"     => "list",
-            )
-        );
+    public function _initRoute(Yaf_Dispatcher $dispatcher) {
+        $router = $dispatcher->getRouter();
+        $rewrite_route  = new Yaf_Route_Rewrite(
+            "/product/list/:page",
+            array(
+                "controller" => "product",
+                "action"     => "list",
+            )
+        );
 
-        $regex_route  = new Yaf_Route_Rewrite(
-            "#^/product/info/(\d+)",
-            array(
-                "controller" => "product",
-                "action"     => "info",
-            )
-        );
+        $regex_route  = new Yaf_Route_Rewrite(
+            "#^/product/info/(\d+)",
+            array(
+                "controller" => "product",
+                "action"     => "info",
+            )
+        );
 
-        $router->addRoute('rewrite', $rewrite_route)->addRoute('regex', $regex_route);
-    }
+        $router->addRoute('rewrite', $rewrite_route)->addRoute('regex', $regex_route);
+    }
 
-    /**
-     * зарегистрировать плагин
-     */
-    public function __initPlugins(Yaf_Dispatcher $dispatcher) {
-        $dispatcher->registerPlugin(new DummyPlugin());
-    }
+    /**
+     * зарегистрировать плагин
+     */
+    public function __initPlugins(Yaf_Dispatcher $dispatcher) {
+        $dispatcher->registerPlugin(new DummyPlugin());
+    }
 }
 ?>
 ```
@@ -79,11 +79,11 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 
 ```php
 <?php
-class DummyPlugin extends Yaf_Plugin_Abstract {
+class DummyPlugin extends Yaf_Plugin_Abstract {
 
-    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-         var_dump(Yaf_Dispatcher::getInstance()->getRouter()->getCurrentRoute());
-    }
+    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+         var_dump(Yaf_Dispatcher::getInstance()->getRouter()->getCurrentRoute());
+    }
 }
 ?>
 ```

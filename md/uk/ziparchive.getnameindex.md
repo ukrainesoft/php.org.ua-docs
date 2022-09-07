@@ -40,11 +40,11 @@ public ZipArchive::getNameIndex(int $index, int $flags = 0): string|false
 
 ```php
 <?php
-if ($zip->open('test.zip') == TRUE) {
- for ($i = 0; $i < $zip->numFiles; $i++) {
-     $filename = $zip->getNameIndex($i);
-     // ...
- }
+if ($zip->open('test.zip') == TRUE) {
+ for ($i = 0; $i < $zip->numFiles; $i++) {
+     $filename = $zip->getNameIndex($i);
+     // ...
+ }
 }
 ?>
 ```

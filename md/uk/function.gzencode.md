@@ -20,7 +20,7 @@ gzencode(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_GZIP): str
 
 Ця функція повертає стислу версію вхідних даних `data`, аналогічно висновку програми **gzip**
 
-Подробиці про формат GZIP дивіться [» Формат файлу GZIP. Специфікація версії 4.3](http://www.faqs.org/rfcs/rfc1952) (RFC 1952).
+Подробиці про формат GZIP дивіться [» Формат файлу GZIP. Специфікація версії 4.3](http://www.faqs.org/rfcs/rfc1952) (RFC 1952).
 
 ### Список параметрів
 
@@ -50,9 +50,9 @@ gzencode(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_GZIP): str
 
 ```php
 <?php
-$data = file_get_contents("bigfile.txt");
-$gzdata = gzencode($data, 9);
-file_put_contents("bigfile.txt.gz", $gzdata);
+$data = file_get_contents("bigfile.txt");
+$gzdata = gzencode($data, 9);
+file_put_contents("bigfile.txt.gz", $gzdata);
 ?>
 ```
 
@@ -63,4 +63,4 @@ file_put_contents("bigfile.txt.gz", $gzdata);
 -   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
 -   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
 -   [gzcompress()](function.gzcompress.md) - Стиснути рядок
--   [»  Спецификация ZLIB Compressed Data (RFC 1950)](http://www.faqs.org/rfcs/rfc1950)
+-   [»  Спецификация ZLIB Compressed Data (RFC 1950)](http://www.faqs.org/rfcs/rfc1950)

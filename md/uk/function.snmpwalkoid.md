@@ -15,7 +15,7 @@ snmpwalkoid — Запит дерева інформації про мереже
 ### Опис
 
 ```methodsynopsis
-snmpwalkoid(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmpwalkoid(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
 Функція **snmpwalkoid()** використовується для читання всіх ідентифікаторів об'єктів та їх відповідних значень агента SNMP, зазначеного в `hostname`
@@ -56,9 +56,9 @@ Read-спільнота.
 
 ```php
 <?php
-$a = snmpwalkoid("127.0.0.1", "public", "");
-for (reset($a); $i = key($a); next($a)) {
-    echo "$i: $a[$i]<br />\n";
+$a = snmpwalkoid("127.0.0.1", "public", "");
+for (reset($a); $i = key($a); next($a)) {
+    echo "$i: $a[$i]<br />\n";
 }
 ?>
 ```

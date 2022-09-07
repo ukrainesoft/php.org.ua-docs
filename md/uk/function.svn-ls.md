@@ -15,7 +15,7 @@ svnls — Повертає список вмісту директорії реп
 ### Опис
 
 ```methodsynopsis
-svn_ls(    string $repos_url,    int $revision_no = SVN_REVISION_HEAD,    bool $recurse = false,    bool $peg = false): array
+svn_ls(    string $repos_url,    int $revision_no = SVN_REVISION_HEAD,    bool $recurse = false,    bool $peg = false): array
 ```
 
 Ця функція будує запит на URL адресою репозиторію та отримує список файлів і директорій, опціонально для конкретної ревізії. Це еквівалентно команді SVN **`svn list $repos_url[@$revision_no]`**
@@ -50,7 +50,7 @@ URL-адреса репозиторію, наприклад **`http://www.exampl
 
 ```php
 <?php
-print_r( svn_ls('http://www.example.com/svnroot/') );
+print_r( svn_ls('http://www.example.com/svnroot/') );
 ?>
 ```
 
@@ -90,4 +90,4 @@ Array
 
 ### Дивіться також
 
--   [» SVN-документация по svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)
+-   [» SVN-документация по svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)

@@ -34,7 +34,7 @@ gnupg_clearencryptkeys(resource $identifier): bool
 
 ```php
 <?php
-$res = gnupg_init();
+$res = gnupg_init();
 gnupg_clearencryptkeys($res);
 ?>
 ```
@@ -43,7 +43,7 @@ gnupg_clearencryptkeys($res);
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->clearencryptkeys();
 ?>
 ```

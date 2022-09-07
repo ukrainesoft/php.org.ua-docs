@@ -36,24 +36,24 @@ sqlsrv_free_stmt(resource $stmt): bool
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");
-if( $stmt === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
 /*-------------------------------
-     Здесь можно обработать результаты запроса.
+     Здесь можно обработать результаты запроса.
 -------------------------------*/
 
-/* Освободите ресурсы для оператора */
-sqlsrv_free_stmt( $stmt);
+/* Освободите ресурсы для оператора */
+sqlsrv_free_stmt( $stmt);
 
 ?>
 ```

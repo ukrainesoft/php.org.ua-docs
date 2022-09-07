@@ -46,17 +46,17 @@ sodium_crypto_box_seal(string $message, string $public_key): string
 
 ```php
 <?php
-$keypair = sodium_crypto_box_keypair();
-$public_key = sodium_crypto_box_publickey($keypair);
+$keypair = sodium_crypto_box_keypair();
+$public_key = sodium_crypto_box_publickey($keypair);
 
-// Обфусцированный текст, чтобы сделать пример более увлекательным
-$plaintext_b64 = "V3JpdGluZyBzb2Z0d2FyZSBpbiBQSFAgY2FuIGJlIGEgZGVsaWdodCE=";
-$decoded_plaintext = sodium_base642bin($plaintext_b64, SODIUM_BASE64_VARIANT_ORIGINAL);
+// Обфусцированный текст, чтобы сделать пример более увлекательным
+$plaintext_b64 = "V3JpdGluZyBzb2Z0d2FyZSBpbiBQSFAgY2FuIGJlIGEgZGVsaWdodCE=";
+$decoded_plaintext = sodium_base642bin($plaintext_b64, SODIUM_BASE64_VARIANT_ORIGINAL);
 
-$sealed = sodium_crypto_box_seal($decoded_plaintext, $public_key);
+$sealed = sodium_crypto_box_seal($decoded_plaintext, $public_key);
 var_dump(base64_encode($sealed));
 
-$opened = sodium_crypto_box_seal_open($sealed, $keypair);
+$opened = sodium_crypto_box_seal_open($sealed, $keypair);
 var_dump($opened);
 ?>
 ```

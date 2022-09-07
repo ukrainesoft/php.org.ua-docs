@@ -47,7 +47,7 @@ mhash_get_hash_name(int $algo): string|false
 ```php
 <?php
 
-echo mhash_get_hash_name(MHASH_MD5); // MD5
+echo mhash_get_hash_name(MHASH_MD5); // MD5
 
 ?>
 ```

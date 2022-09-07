@@ -16,17 +16,17 @@ title: Опис кількох просторів імен в одному фа�
 
 ```php
 <?php
-namespace MyProject;
+namespace MyProject;
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 
-namespace AnotherProject;
+namespace AnotherProject;
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 ?>
 ```
 
@@ -36,18 +36,18 @@ function connect() { /* ... */  }
 
 ```php
 <?php
-namespace MyProject {
+namespace MyProject {
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 }
 
-namespace AnotherProject {
+namespace AnotherProject {
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 }
 ?>
 ```
@@ -60,17 +60,17 @@ function connect() { /* ... */  }
 
 ```php
 <?php
-namespace MyProject {
+namespace MyProject {
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 }
 
-namespace {       // глобальный код
+namespace {       // глобальный код
 session_start();
-$a = MyProject\connect();
-echo MyProject\Connection::start();
+$a = MyProject\connect();
+echo MyProject\Connection::start();
 }
 ?>
 ```
@@ -82,17 +82,17 @@ PHP-код не може перебувати поза дужками конст
 ```php
 <?php
 declare(encoding='UTF-8');
-namespace MyProject {
+namespace MyProject {
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 }
 
-namespace {      // глобальный код
+namespace {      // глобальный код
 session_start();
-$a = MyProject\connect();
-echo MyProject\Connection::start();
+$a = MyProject\connect();
+echo MyProject\Connection::start();
 }
 ?>
 ```

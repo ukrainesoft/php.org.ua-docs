@@ -35,7 +35,7 @@ public ReflectionFunctionAbstract::hasTentativeReturnType(): bool
 ```php
 <?php
 
-$method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');
+$method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');
 var_dump($method->hasTentativeReturnType());
 ```
 

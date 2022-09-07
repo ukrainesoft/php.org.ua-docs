@@ -44,13 +44,13 @@ tidy_get_error_buffer(tidy $tidy): string|false
 
 ```php
 <?php
-$html = '<p>параграф</p>';
+$html = '<p>параграф</p>';
 
-$tidy = tidy_parse_string($html);
+$tidy = tidy_parse_string($html);
 
-echo tidy_get_error_buffer($tidy);
-/* или в ООП стиле: */
-echo $tidy->errorBuffer;
+echo tidy_get_error_buffer($tidy);
+/* или в ООП стиле: */
+echo $tidy->errorBuffer;
 ?>
 ```
 

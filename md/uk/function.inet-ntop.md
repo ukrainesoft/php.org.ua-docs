@@ -36,17 +36,17 @@ inet_ntop(string $ip): string|false
 
 ```php
 <?php
-$packed = chr(127) . chr(0) . chr(0) . chr(1);
-$expanded = inet_ntop($packed);
+$packed = chr(127) . chr(0) . chr(0) . chr(1);
+$expanded = inet_ntop($packed);
 
-/* Выведет: 127.0.0.1 */
-echo $expanded;
+/* Выведет: 127.0.0.1 */
+echo $expanded;
 
-$packed = str_repeat(chr(0), 15) . chr(1);
-$expanded = inet_ntop($packed);
+$packed = str_repeat(chr(0), 15) . chr(1);
+$expanded = inet_ntop($packed);
 
-/* Выведет: ::1 */
-echo $expanded;
+/* Выведет: ::1 */
+echo $expanded;
 ?>
 ```
 

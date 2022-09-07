@@ -40,12 +40,12 @@ gmp_xor(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$xor1 = gmp_init("1101101110011101", 2);
-$xor2 = gmp_init("0110011001011001", 2);
+$xor1 = gmp_init("1101101110011101", 2);
+$xor2 = gmp_init("0110011001011001", 2);
 
-$xor3 = gmp_xor($xor1, $xor2);
+$xor3 = gmp_xor($xor1, $xor2);
 
-echo gmp_strval($xor3, 2) . "\n";
+echo gmp_strval($xor3, 2) . "\n";
 ?>
 ```
 

@@ -47,33 +47,33 @@ public GearmanClient::doBackground(string $function_name, string $workload, stri
 ```php
 <?php
 
-/* создание объекта */
-$gmclient= new GearmanClient();
+/* создание объекта */
+$gmclient= new GearmanClient();
 
-/* указание сервера по умолчанию */
+/* указание сервера по умолчанию */
 $gmclient->addServer();
 
-/* запуск выполнение клиента */
-$job_handle = $gmclient->doBackground("reverse", "this is a test");
+/* запуск выполнение клиента */
+$job_handle = $gmclient->doBackground("reverse", "this is a test");
 
-if ($gmclient->returnCode() != GEARMAN_SUCCESS)
+if ($gmclient->returnCode() != GEARMAN_SUCCESS)
 {
-  echo "неуспешный код возврата\n";
-  exit;
+  echo "неуспешный код возврата\n";
+  exit;
 }
 
-$done = false;
+$done = false;
 do
 {
-   sleep(3);
-   $stat = $gmclient->jobStatus($job_handle);
-   if (!$stat[0]) // задание известно, но не выполнено
-      $done = true;
-   echo "Выполняется: " . ($stat[1] ? "true" : "false") . ", числитель: " . $stat[2] . ", знаменатель: " . $stat[3] . "\n";
+   sleep(3);
+   $stat = $gmclient->jobStatus($job_handle);
+   if (!$stat[0]) // задание известно, но не выполнено
+      $done = true;
+   echo "Выполняется: " . ($stat[1] ? "true" : "false") . ", числитель: " . $stat[2] . ", знаменатель: " . $stat[3] . "\n";
 }
 while(!$done);
 
-echo "завершено!\n";
+echo "завершено!\n";
 
 ?>
 ```

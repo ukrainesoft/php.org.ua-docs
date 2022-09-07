@@ -40,24 +40,24 @@ OID екземпляра, на який необхідно встановити 
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-@cubrid_execute($conn, "DROP TABLE foo");
-cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c list(int), d char(10))");
-cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
-cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44,55,66,666}, 'b')");
+@cubrid_execute($conn, "DROP TABLE foo");
+cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c list(int), d char(10))");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44,55,66,666}, 'b')");
 
-$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
+$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
-$oid = cubrid_current_oid($req);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$oid = cubrid_current_oid($req);
 
-cubrid_lock_read($conn, $oid);
+cubrid_lock_read($conn, $oid);
 
-$attr = cubrid_get($conn, $oid, "b");
+$attr = cubrid_get($conn, $oid, "b");
 var_dump($attr);
 
-$attr = cubrid_get($conn, $oid);
+$attr = cubrid_get($conn, $oid);
 var_dump($attr);
 
 cubrid_close_request($req);

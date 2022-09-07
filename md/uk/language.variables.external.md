@@ -23,8 +23,8 @@ Email:
 
 ```php
 <?php
-echo $_POST['username'];
-echo $_REQUEST['username'];
+echo $_POST['username'];
+echo $_REQUEST['username'];
 ?>
 ```
 
@@ -40,22 +40,22 @@ PHP також розуміє масиви в контексті змінних 
 
 ```php
 <?php
-if ($_POST) {
-    echo '<pre>';
-    echo htmlspecialchars(print_r($_POST, true));
-    echo '</pre>';
+if ($_POST) {
+    echo '<pre>';
+    echo htmlspecialchars(print_r($_POST, true));
+    echo '</pre>';
 }
 ?>
-<form action="" method="post">
-    Имя:  <input type="text" name="personal[name]" /><br />
-    Email: <input type="text" name="personal[email]" /><br />
-    Пиво: <br />
-    <select multiple name="beer[]">
-        <option value="warthog">Warthog</option>
-        <option value="guinness">Guinness</option>
-        <option value="stuttgarter">Stuttgarter Schwabenbräu</option>
-    </select><br />
-    <input type="submit" value="Отправь меня!" />
+<form action="" method="post">
+    Имя:  <input type="text" name="personal[name]" /><br />
+    Email: <input type="text" name="personal[email]" /><br />
+    Пиво: <br />
+    <select multiple name="beer[]">
+        <option value="warthog">Warthog</option>
+        <option value="guinness">Guinness</option>
+        <option value="stuttgarter">Stuttgarter Schwabenbräu</option>
+    </select><br />
+    <input type="submit" value="Отправь меня!" />
 </form>
 ```
 
@@ -69,7 +69,7 @@ if ($_POST) {
 
 ### HTTP Cookies
 
-PHP прозоро підтримує HTTP cookies як визначено в [» RFC 6265](http://www.faqs.org/rfcs/rfc6265). Cookies - це механізм для зберігання даних у віддаленому браузері і, таким чином, відстеження та ідентифікації користувачів, що повернулися. Ви можете встановити cookies за допомогою функції [setcookie()](function.setcookie.md). Cookies є частиною HTTP-заголовка, тому функція SetCookie повинна викликатися до того, як браузеру буде відправлено будь-який висновок. Це те ж обмеження, що й для функції [header()](function.header.md). Дані, що зберігаються в cookie, доступні у відповідних масивах даних cookie, таких як [COOKIE](reserved.variables.cookies.md) і [REQUEST](reserved.variables.request.md). Подробиці та приклади дивіться у довідковій сторінці [setcookie()](function.setcookie.md)
+PHP прозоро підтримує HTTP cookies як визначено в [» RFC 6265](http://www.faqs.org/rfcs/rfc6265). Cookies - це механізм для зберігання даних у віддаленому браузері і, таким чином, відстеження та ідентифікації користувачів, що повернулися. Ви можете встановити cookies за допомогою функції [setcookie()](function.setcookie.md). Cookies є частиною HTTP-заголовка, тому функція SetCookie повинна викликатися до того, як браузеру буде відправлено будь-який висновок. Це те ж обмеження, що й для функції [header()](function.header.md). Дані, що зберігаються в cookie, доступні у відповідних масивах даних cookie, таких як [COOKIE](reserved.variables.cookies.md) і [REQUEST](reserved.variables.request.md). Подробиці та приклади дивіться у довідковій сторінці [setcookie()](function.setcookie.md)
 
 > **Зауваження**: Починаючи з PHP 7.2.34, 7.3.23 та 7.4.11, відповідно, *імена* вхідні cookie більше не декодуються з URL-закодованого рядка з міркувань безпеки.
 
@@ -77,8 +77,8 @@ PHP прозоро підтримує HTTP cookies як визначено в [�
 
 ```php
 <?php
-  setcookie("MyCookie[foo]", 'Testing 1', time()+3600);
-  setcookie("MyCookie[bar]", 'Testing 2', time()+3600);
+  setcookie("MyCookie[foo]", 'Testing 1', time()+3600);
+  setcookie("MyCookie[bar]", 'Testing 2', time()+3600);
 ?>
 ```
 
@@ -90,13 +90,13 @@ PHP прозоро підтримує HTTP cookies як визначено в [�
 
 ```php
 <?php
-if (isset($_COOKIE['count'])) {
-    $count = $_COOKIE['count'] + 1;
-} else {
-    $count = 1;
+if (isset($_COOKIE['count'])) {
+    $count = $_COOKIE['count'] + 1;
+} else {
+    $count = 1;
 }
-setcookie('count', $count, time()+3600);
-setcookie("Cart[$count]", $item, time()+3600);
+setcookie('count', $count, time()+3600);
+setcookie("Cart[$count]", $item, time()+3600);
 ?>
 ```
 
@@ -106,7 +106,7 @@ setcookie("Cart[$count]", $item, time()+3600);
 
 ```php
 <?php
-$varname.ext;  /* неверное имя переменной */
+$varname.ext;  /* неверное имя переменной */
 ?>
 ```
 

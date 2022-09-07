@@ -51,7 +51,7 @@ title: Клас YafRouteRegex
 
     /* Методы */
     
-   public __construct(    string $match,    array $route,    array $map = ?,    array $verify = ?,    string $reverse = ?)
+   public __construct(    string $match,    array $route,    array $map = ?,    array $verify = ?,    string $reverse = ?)
 
     public assemble(array $info, array $query = ?): ?string
 public route(Yaf_Request_Abstract $request): bool

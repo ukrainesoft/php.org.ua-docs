@@ -34,8 +34,8 @@ sodium_crypto_secretbox_keygen(): string
 
 ```php
 <?php
-$key = sodium_crypto_secretbox_keygen();
-var_dump( sodium_bin2hex( $key ) );
+$key = sodium_crypto_secretbox_keygen();
+var_dump( sodium_bin2hex( $key ) );
 ?>
 ```
 
@@ -49,9 +49,9 @@ string(64) "88bd1dc51ec81984f3ddc5a8f59a3d95b647e2da3e879f1b9ceb0abd89e7286c"
 
 ```php
 <?php
-$key = sodium_crypto_secretbox_keygen();
-$bytes = random_bytes( SODIUM_CRYPTO_SECRETBOX_KEYBYTES );
-var_dump( mb_strlen( $key, '8bit' ) === mb_strlen( $bytes, '8bit' ) );
+$key = sodium_crypto_secretbox_keygen();
+$bytes = random_bytes( SODIUM_CRYPTO_SECRETBOX_KEYBYTES );
+var_dump( mb_strlen( $key, '8bit' ) === mb_strlen( $bytes, '8bit' ) );
 ?>
 ```
 

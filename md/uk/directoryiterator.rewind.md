@@ -34,13 +34,13 @@ public DirectoryIterator::rewind(): void
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
+$iterator = new DirectoryIterator(dirname(__FILE__));
 
 $iterator->next();
-echo $iterator->key(); //1
+echo $iterator->key(); //1
 
-$iterator->rewind(); //переход к началу
-echo $iterator->key(); //0
+$iterator->rewind(); //переход к началу
+echo $iterator->key(); //0
 ?>
 ```
 

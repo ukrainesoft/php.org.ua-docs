@@ -48,8 +48,8 @@ locale_accept_from_http(string $header): string|false
 
 ```php
 <?php
-$locale = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-echo $locale;
+$locale = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
+echo $locale;
 ?>
 ```
 
@@ -57,8 +57,8 @@ echo $locale;
 
 ```php
 <?php
-$locale = Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-echo $locale;
+$locale = Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']);
+echo $locale;
 ?>
 ```
 

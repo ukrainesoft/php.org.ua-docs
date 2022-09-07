@@ -52,13 +52,13 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 ```php
 <?php
-   $doc_oid = 189762345;
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $handle = pg_lo_open($database, $doc_oid, "r");
-   $data = pg_lo_read($handle, 50000);
-   pg_query($database, "commit");
-   echo $data;
+   $doc_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "r");
+   $data = pg_lo_read($handle, 50000);
+   pg_query($database, "commit");
+   echo $data;
 ?>
 ```
 

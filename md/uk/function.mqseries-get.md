@@ -15,7 +15,7 @@ mqseriesget — MQSeries MQGET
 ### Опис
 
 ```methodsynopsis
-mqseries_get(    resource $hConn,    resource $hObj,    array &$md,    array &$gmo,    int &$bufferLength,    string &$msg,    int &$data_length,    resource &$compCode,    resource &$reason): void
+mqseries_get(    resource $hConn,    resource $hObj,    array &$md,    array &$gmo,    int &$bufferLength,    string &$msg,    int &$data_length,    resource &$compCode,    resource &$reason): void
 ```
 
 The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has been opened using the [mqseriesopen()](function.mqseries-open.md) (MQOPEN) call
@@ -72,36 +72,36 @@ The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has
 
 ```php
 <?php
-// Открываем соединение с MQ
-    mqseries_conn('WMQ1', $conn, $comp_code, $reason);
-// Теперь $conn содержит ссылку на соединение
+// Открываем соединение с MQ
+    mqseries_conn('WMQ1', $conn, $comp_code, $reason);
+// Теперь $conn содержит ссылку на соединение
 
-// Открываем соединение с очередью testq
-    mqseries_open(
-                $conn,
-                array('ObjectName' => 'TESTQ'),
-                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,
-                $obj,
-                $comp_code,
-                $reason);
-// Теперь $obj содержит ссылку на объект (TESTQ)
+// Открываем соединение с очередью testq
+    mqseries_open(
+                $conn,
+                array('ObjectName' => 'TESTQ'),
+                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,
+                $obj,
+                $comp_code,
+                $reason);
+// Теперь $obj содержит ссылку на объект (TESTQ)
 
-// Устанавливаем пустой дескриптор сообщения.
-    $mdg = array();
-// Устанавливаем опции извлечения сообщения
-    $gmo = array('Options' => MQSERIES_MQGMO_FAIL_IF_QUIESCING | MQSERIES_MQGMO_WAIT, 'WaitInterval' => 3000);
+// Устанавливаем пустой дескриптор сообщения.
+    $mdg = array();
+// Устанавливаем опции извлечения сообщения
+    $gmo = array('Options' => MQSERIES_MQGMO_FAIL_IF_QUIESCING | MQSERIES_MQGMO_WAIT, 'WaitInterval' => 3000);
 
-// Получаем сообщение
-    mqseries_get($conn, $obj, $mdg, $gmo, 255, $msg, $data_length, $comp_code, $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("GET CompCode:%d Reason:%d Text:%s<br>", $comp_code, $reason, mqseries_strerror($reason));
-    }
+// Получаем сообщение
+    mqseries_get($conn, $obj, $mdg, $gmo, 255, $msg, $data_length, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("GET CompCode:%d Reason:%d Text:%s<br>", $comp_code, $reason, mqseries_strerror($reason));
+    }
 
-// закрываем $obj
-    mqseries_close($conn, $obj, MQSERIES_MQCO_NONE, $comp_code, $reason);
+// закрываем $obj
+    mqseries_close($conn, $obj, MQSERIES_MQCO_NONE, $comp_code, $reason);
 
-// закрываем соединение с менеджером
-    mqseries_disc($conn, $comp_code, $reason);
+// закрываем соединение с менеджером
+    mqseries_disc($conn, $comp_code, $reason);
 
 ?>
 ```

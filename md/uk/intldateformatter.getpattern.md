@@ -46,19 +46,19 @@ datefmt_get_pattern(IntlDateFormatter $formatter): string|false
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Шаблон средства форматирования : ' . datefmt_get_pattern($fmt);
-echo 'Первый отформатированный вывод с шаблоном ' . datefmt_format($fmt, 0);
-datefmt_set_pattern($fmt,'yyyymmdd hh:mm:ss z');
-echo 'Теперь шаблон средства форматирования : ' . datefmt_get_pattern($fmt);
-echo 'Второй отформатированный вывод с шаблоном ' . datefmt_format($fmt, 0);
+echo 'Шаблон средства форматирования : ' . datefmt_get_pattern($fmt);
+echo 'Первый отформатированный вывод с шаблоном ' . datefmt_format($fmt, 0);
+datefmt_set_pattern($fmt,'yyyymmdd hh:mm:ss z');
+echo 'Теперь шаблон средства форматирования : ' . datefmt_get_pattern($fmt);
+echo 'Второй отформатированный вывод с шаблоном ' . datefmt_format($fmt, 0);
 
 ?>
 ```
@@ -67,19 +67,19 @@ echo 'Второй отформатированный вывод с шаб�
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Шаблон средства форматирования : ' . $fmt->getPattern();
-echo 'Первый отформатированный вывод с шаблоном ' . $fmt->format(0);
-$fmt->setPattern('yyyymmdd hh:mm:ss z');
-echo 'Теперь шаблон средства форматирования : ' . $fmt->getPattern();
-echo 'Второй отформатированный вывод с шаблоном ' . $fmt->format(0);
+echo 'Шаблон средства форматирования : ' . $fmt->getPattern();
+echo 'Первый отформатированный вывод с шаблоном ' . $fmt->format(0);
+$fmt->setPattern('yyyymmdd hh:mm:ss z');
+echo 'Теперь шаблон средства форматирования : ' . $fmt->getPattern();
+echo 'Второй отформатированный вывод с шаблоном ' . $fmt->format(0);
 ?>
 ```
 

@@ -15,7 +15,7 @@ db2procedurecolumns — Повертає набір результатів зі 
 ### Опис
 
 ```methodsynopsis
-db2_procedure_columns(    resource $connection,    string $qualifier,    string $schema,    string $procedure,    string $parameter): resource
+db2_procedure_columns(    resource $connection,    string $qualifier,    string $schema,    string $procedure,    string $parameter): resource
 ```
 
 Повертає набір результатів, в якому перераховані параметри для однієї або декількох процедур, що зберігаються.

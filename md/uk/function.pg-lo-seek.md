@@ -52,16 +52,16 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 ```php
 <?php
-   $doc_oid = 189762345;
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $handle = pg_lo_open($database, $doc_oid, "r");
-   // Пропустить первые 50000 байт
-   pg_lo_seek($handle, 50000, PGSQL_SEEK_SET);
-   // Прочитать следующие 10000 байт
-   $data = pg_lo_read($handle, 10000);
-   pg_query($database, "commit");
-   echo $data;
+   $doc_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "r");
+   // Пропустить первые 50000 байт
+   pg_lo_seek($handle, 50000, PGSQL_SEEK_SET);
+   // Прочитать следующие 10000 байт
+   $data = pg_lo_read($handle, 10000);
+   pg_query($database, "commit");
+   echo $data;
 ?>
 ```
 

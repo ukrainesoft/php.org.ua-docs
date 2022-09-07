@@ -40,34 +40,34 @@ public ImagickDraw::setStrokeDashOffset(float $dash_offset): bool
 
 ```php
 <?php
-function setStrokeDashOffset($strokeColor, $fillColor, $backgroundColor) {
+function setStrokeDashOffset($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(4);
-    $draw->setStrokeDashArray([20, 20]);
-    $draw->setStrokeDashOffset(0);
-    $draw->rectangle(100, 50, 225, 175);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(4);
+    $draw->setStrokeDashArray([20, 20]);
+    $draw->setStrokeDashOffset(0);
+    $draw->rectangle(100, 50, 225, 175);
 
-    //Начало эффекта штриховки в середине сплошной части
-    $draw->setStrokeDashOffset(10);
-    $draw->rectangle(275, 50, 400, 175);
+    //Начало эффекта штриховки в середине сплошной части
+    $draw->setStrokeDashOffset(10);
+    $draw->rectangle(275, 50, 400, 175);
 
-    //Начало эффекта штриховки в пространственной части
-    $draw->setStrokeDashOffset(20);
-    $draw->rectangle(100, 200, 225, 350);
-    $draw->setStrokeDashOffset(5);
-    $draw->rectangle(275, 200, 400, 350);
+    //Начало эффекта штриховки в пространственной части
+    $draw->setStrokeDashOffset(20);
+    $draw->rectangle(100, 200, 225, 350);
+    $draw->setStrokeDashOffset(5);
+    $draw->rectangle(275, 200, 400, 350);
 
-    $image = new \Imagick();
-    $image->newImage(500, 400, $backgroundColor);
-    $image->setImageFormat("png");
-    $image->drawImage($draw);
+    $image = new \Imagick();
+    $image->newImage(500, 400, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

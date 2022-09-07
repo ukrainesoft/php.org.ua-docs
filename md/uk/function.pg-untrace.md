@@ -47,16 +47,16 @@ pg_untrace(?PgSql\Connection $connection = null): bool
 
 ```php
 <?php
-$pgsql_conn = pg_connect("dbname=mark host=localhost");
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
 
-if ($pgsql_conn) {
-   pg_trace('/tmp/trace.log', 'w', $pgsql_conn);
-   pg_query("SELECT 1");
-   pg_untrace($pgsql_conn);
-   // Теперь трассировка взаимодействия с сервером отключена
-} else {
-   print pg_last_error($pgsql_conn);
-   exit;
+if ($pgsql_conn) {
+   pg_trace('/tmp/trace.log', 'w', $pgsql_conn);
+   pg_query("SELECT 1");
+   pg_untrace($pgsql_conn);
+   // Теперь трассировка взаимодействия с сервером отключена
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
 }
 ?>
 ```

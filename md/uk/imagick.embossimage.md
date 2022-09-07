@@ -44,11 +44,11 @@ public Imagick::embossImage(float $radius, float $sigma): bool
 
 ```php
 <?php
-function embossImage($imagePath, $radius, $sigma) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->embossImage($radius, $sigma);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function embossImage($imagePath, $radius, $sigma) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->embossImage($radius, $sigma);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

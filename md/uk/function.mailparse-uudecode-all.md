@@ -41,30 +41,30 @@ mailparse_uudecode_all(resource $fp): array
 ```php
 <?php
 
-$text = <<<EOD
-To: fred@example.com
+$text = <<<EOD
+To: fred@example.com
 
-hello, this is some text hello.
-blah blah blah.
+hello, this is some text hello.
+blah blah blah.
 
-begin 644 test.txt
+begin 644 test.txt
 /=&AI<R!I<R!A('1E<W0*
 `
 end
 
 EOD;
 
-$fp = tmpfile();
-fwrite($fp, $text);
+$fp = tmpfile();
+fwrite($fp, $text);
 
-$data = mailparse_uudecode_all($fp);
+$data = mailparse_uudecode_all($fp);
 
-echo "BODY\n";
+echo "BODY\n";
 readfile($data[0]["filename"]);
-echo "UUE ({$data[1]['origfilename']})\n";
+echo "UUE ({$data[1]['origfilename']})\n";
 readfile($data[1]["filename"]);
 
-// Очищаем
+// Очищаем
 unlink($data[0]["filename"]);
 unlink($data[1]["filename"]);
 

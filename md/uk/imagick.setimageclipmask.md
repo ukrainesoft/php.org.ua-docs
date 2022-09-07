@@ -44,36 +44,36 @@ public Imagick::setImageClipMask(Imagick $clip_mask): bool
 
 ```php
 <?php
-function setImageClipMask($imagePath) {
-    $imagick = new \Imagick();
-    $imagick->readImage(realpath($imagePath));
+function setImageClipMask($imagePath) {
+    $imagick = new \Imagick();
+    $imagick->readImage(realpath($imagePath));
 
-    $width = $imagick->getImageWidth();
-    $height = $imagick->getImageHeight();
+    $width = $imagick->getImageWidth();
+    $height = $imagick->getImageHeight();
 
-    $clipMask = new \Imagick();
-    $clipMask->newPseudoImage(
-        $width,
-        $height,
-        "canvas:transparent"
-    );
+    $clipMask = new \Imagick();
+    $clipMask->newPseudoImage(
+        $width,
+        $height,
+        "canvas:transparent"
+    );
 
-    $draw = new \ImagickDraw();
-    $draw->setFillColor('white');
-    $draw->circle(
-        $width / 2,
-        $height / 2,
-        ($width / 2) + ($width / 4),
-        $height / 2
-    );
-    $clipMask->drawImage($draw);
-    $imagick->setImageClipMask($clipMask);
+    $draw = new \ImagickDraw();
+    $draw->setFillColor('white');
+    $draw->circle(
+        $width / 2,
+        $height / 2,
+        ($width / 2) + ($width / 4),
+        $height / 2
+    );
+    $clipMask->drawImage($draw);
+    $imagick->setImageClipMask($clipMask);
 
-    $imagick->negateImage(false);
-    $imagick->setFormat("png");
+    $imagick->negateImage(false);
+    $imagick->setFormat("png");
 
-    header("Content-Type: image/png");
-    echo $imagick->getImagesBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImagesBlob();
 
 }
 

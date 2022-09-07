@@ -19,7 +19,7 @@ mcryptmoduleopen — Відкриває модуль шифрування за �
 ### Опис
 
 ```methodsynopsis
-mcrypt_module_open(    string $algorithm,    string $algorithm_directory,    string $mode,    string $mode_directory): resource
+mcrypt_module_open(    string $algorithm,    string $algorithm_directory,    string $mode,    string $mode_directory): resource
 ```
 
 Відкриває модуль шифрування з використанням вказаних алгоритмів та режимів. Ім'я алгоритму задається його ім'ям, наприклад `"twofish"`, або за допомогою константи **`MCRYPT_ciphername`**. Закрити модуль можна за допомогою функції [mcryptmoduleclose()](function.mcrypt-module-close.md)
@@ -52,10 +52,10 @@ mcrypt_module_open(    string $algorithm,    string $algorithm_directory
 
 ```php
 <?php
-    $td = mcrypt_module_open(MCRYPT_DES, '',
-        MCRYPT_MODE_ECB, '/usr/lib/mcrypt-modes');
+    $td = mcrypt_module_open(MCRYPT_DES, '',
+        MCRYPT_MODE_ECB, '/usr/lib/mcrypt-modes');
 
-    $td = mcrypt_module_open('rijndael-256', '', 'ofb', '');
+    $td = mcrypt_module_open('rijndael-256', '', 'ofb', '');
 ?>
 ```
 
@@ -65,38 +65,38 @@ mcrypt_module_open(    string $algorithm,    string $algorithm_directory
 
 ```php
 <?php
-    /* Открываем модуль шифрования */
-    $td = mcrypt_module_open('rijndael-256', '', 'ofb', '');
+    /* Открываем модуль шифрования */
+    $td = mcrypt_module_open('rijndael-256', '', 'ofb', '');
 
-    /* Создаём инициализирующий вектор и определяем длину ключа.
-     * Для Windows используем MCRYPT_RAND */
-    $iv = mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_DEV_RANDOM);
-    $ks = mcrypt_enc_get_key_size($td);
+    /* Создаём инициализирующий вектор и определяем длину ключа.
+     * Для Windows используем MCRYPT_RAND */
+    $iv = mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_DEV_RANDOM);
+    $ks = mcrypt_enc_get_key_size($td);
 
-    /* Создаём ключ */
-    $key = substr(md5('very secret key'), 0, $ks);
+    /* Создаём ключ */
+    $key = substr(md5('very secret key'), 0, $ks);
 
-    /* Инициализируем шифрование */
-    mcrypt_generic_init($td, $key, $iv);
+    /* Инициализируем шифрование */
+    mcrypt_generic_init($td, $key, $iv);
 
-    /* Шифруем данные */
-    $encrypted = mcrypt_generic($td, 'This is very important data');
+    /* Шифруем данные */
+    $encrypted = mcrypt_generic($td, 'This is very important data');
 
-    /* Деинициализируем обработчик шифрования */
-    mcrypt_generic_deinit($td);
+    /* Деинициализируем обработчик шифрования */
+    mcrypt_generic_deinit($td);
 
-    /* Инициализируем модуль дешифровки */
-    mcrypt_generic_init($td, $key, $iv);
+    /* Инициализируем модуль дешифровки */
+    mcrypt_generic_init($td, $key, $iv);
 
-    /* Дешифруем данные */
-    $decrypted = mdecrypt_generic($td, $encrypted);
+    /* Дешифруем данные */
+    $decrypted = mdecrypt_generic($td, $encrypted);
 
-    /* Деинициализируем обработчик дешифровки и закрываем модуль */
-    mcrypt_generic_deinit($td);
-    mcrypt_module_close($td);
+    /* Деинициализируем обработчик дешифровки и закрываем модуль */
+    mcrypt_generic_deinit($td);
+    mcrypt_module_close($td);
 
-    /* Печатаем строку */
-    echo trim($decrypted) . "\n";
+    /* Печатаем строку */
+    echo trim($decrypted) . "\n";
 ?>
 ```
 

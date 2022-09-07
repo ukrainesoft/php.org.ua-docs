@@ -36,11 +36,11 @@ public DirectoryIterator::current(): mixed
 
 ```php
 <?php
-$iterator = new DirectoryIterator(__DIR__);
-while($iterator->valid()) {
-    $file = $iterator->current();
-    echo $iterator->key() . " => " . $file->getFilename() . "\n";
-    $iterator->next();
+$iterator = new DirectoryIterator(__DIR__);
+while($iterator->valid()) {
+    $file = $iterator->current();
+    echo $iterator->key() . " => " . $file->getFilename() . "\n";
+    $iterator->next();
 }
 ?>
 ```

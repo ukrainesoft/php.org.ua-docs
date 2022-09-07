@@ -34,10 +34,10 @@ public Ds\Map::copy(): Ds\Map
 
 ```php
 <?php
-$map = new \Ds\Map([
-    "a" => 1,
-    "b" => 2,
-    "c" => 3,
+$map = new \Ds\Map([
+    "a" => 1,
+    "b" => 2,
+    "c" => 3,
 ]);
 
 print_r($map->copy());

@@ -15,7 +15,7 @@ Memcache::addServer — Додає сервер memcached у пул з'єдна�
 ### Опис
 
 ```methodsynopsis
-Memcache::addServer(    string $host,    int $port = 11211,    bool $persistent = ?,    int $weight = ?,    int $timeout = ?,    int $retry_interval = ?,    bool $status = ?,    callable $failure_callback = ?,    int $timeoutms = ?): bool
+Memcache::addServer(    string $host,    int $port = 11211,    bool $persistent = ?,    int $weight = ?,    int $timeout = ?,    int $retry_interval = ?,    bool $status = ?,    callable $failure_callback = ?,    int $timeoutms = ?): bool
 ```
 
 **Memcache::addServer()** додає сервер до пулу з'єднань. Ви також можете використати функцію **memcacheaddserver()**
@@ -79,16 +79,16 @@ Memcache::addServer(    string $host,    int $port = 11211,    bool 
 ```php
 <?php
 
-/* объектно-ориентированное API */
+/* объектно-ориентированное API */
 
-$memcache = new Memcache;
-$memcache->addServer('memcache_host', 11211);
-$memcache->addServer('memcache_host2', 11211);
+$memcache = new Memcache;
+$memcache->addServer('memcache_host', 11211);
+$memcache->addServer('memcache_host2', 11211);
 
-/* процедурное API */
+/* процедурное API */
 
-$memcache_obj = memcache_connect('memcache_host', 11211);
-memcache_add_server($memcache_obj, 'memcache_host2', 11211);
+$memcache_obj = memcache_connect('memcache_host', 11211);
+memcache_add_server($memcache_obj, 'memcache_host2', 11211);
 
 ?>
 ```

@@ -17,16 +17,16 @@ Event::signal — Створити об'єкт події сигналу
 ```methodsynopsis
 public
    static
-   Event::signal(    
+   Event::signal(    
     EventBase
      $base
-   ,    
+   ,    
     int
      $signum
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $arg
     = ?): Event

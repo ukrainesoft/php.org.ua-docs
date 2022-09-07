@@ -98,13 +98,13 @@ TheirClass
 ```php
 <?php
 
-function bsonUnserialize( array $map )
+function bsonUnserialize( array $map )
 {
-    foreach ( $map as $k => $value )
-    {
-        $this->$k = $value;
-    }
-    $this->unserialized = true;
+    foreach ( $map as $k => $value )
+    {
+        $this->$k = $value;
+    }
+    $this->unserialized = true;
 }
 ```
 

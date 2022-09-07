@@ -30,19 +30,19 @@ title: Клас EventHttpConnection
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     EventBase
      $base
-   ,    
+   ,    
     EventDnsBase
      $dns_base
-   ,    
+   ,    
     string
      $address
-   ,    
+   ,    
     int
      $port
-   ,    
+   ,    
     EventSslContext
      $ctx
      = null

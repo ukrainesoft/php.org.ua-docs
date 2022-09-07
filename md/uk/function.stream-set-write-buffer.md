@@ -42,13 +42,13 @@ stream_set_write_buffer(resource $stream, int $size): int
 
 ```php
 <?php
-$fp = fopen($file, "w");
-if ($fp) {
-   if (stream_set_write_buffer($fp, 0) !== 0) {
-      // не удалось внести изменение
-  }
-  fwrite($fp, $output);
-  fclose($fp);
+$fp = fopen($file, "w");
+if ($fp) {
+   if (stream_set_write_buffer($fp, 0) !== 0) {
+      // не удалось внести изменение
+  }
+  fwrite($fp, $output);
+  fclose($fp);
 }
 ?>
 ```

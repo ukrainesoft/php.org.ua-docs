@@ -1,30 +1,31 @@
-- [«parallel\Sync](class.parallel-sync.md)
-- [parallel\Sync::get »](parallel-sync.get.md)
+---
+navigation:
+  - class.parallel-sync.md: « parallelSync
+  - parallel-sync.get.md: 'parallelSync::get »'
+  - index.md: PHP Manual
+  - class.parallel-sync.md: parallelSync
+title: 'parallelSync::construct'
+---
+# parallelSync::construct
 
-- [PHP Manual](index.md)
-- [parallel\Sync](class.parallel-sync.md)
-- Конструктор класу
-
-# parallel\Sync::\_\_construct
-
-(1.1.0)
-
-parallel\Sync::\_\_construct - Конструктор класу
+parallelSync::construct - Конструктор класу
 
 ### Опис
 
-public **parallel\Sync::\_\_construct**()
+```methodsynopsis
+public parallel\Sync::__construct()
+```
 
 Створює новий об'єкт синхронізації без значення.
 
-public **parallel\Sync::\_\_construct**(scalar `$value`)
+```methodsynopsis
+public parallel\Sync::__construct(scalar $value)
+```
 
-Створює новий об'єкт синхронізації, що містить задане скалярне
-значення.
+Створює новий об'єкт синхронізації, який містить задане скалярне значення.
 
 ### Помилки
 
 **Увага**
 
-Викидає parallel\Sync\Error\IllegalValue, якщо `value` не є
-скалярним значенням.
+Викидає parallelSyncErrorIlegallegalValue, якщо `value` не є скалярним значенням.

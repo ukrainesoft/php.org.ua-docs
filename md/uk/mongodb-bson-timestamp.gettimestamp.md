@@ -1,32 +1,26 @@
-- [« MongoDB\BSON\Timestamp::getIncrement](mongodb-bson-timestamp.getincrement.md)
-- [MongoDB\BSON\Timestamp::jsonSerialize »](mongodb-bson-timestamp.jsonserialize.md)
+---
+navigation:
+  - mongodb-bson-timestamp.getincrement.md: '« MongoDBBSONTimestamp::getIncrement'
+  - mongodb-bson-timestamp.jsonserialize.md: 'MongoDBBSONTimestamp::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::getTimestamp'
+---
+# MongoDBBSONTimestamp::getTimestamp
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
-- Повертає компонент позначки часу Timestamp
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\Timestamp::getTimestamp
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\Timestamp::getTimestamp — Повертає компонент позначки
-часу Timestamp
+MongoDBBSONTimestamp::getTimestamp — Повертає компонент позначки часу Timestamp
 
 ### Опис
 
-final public **MongoDB\BSON\Timestamp::getTimestamp**(): int
+```methodsynopsis
+final public MongoDB\BSON\Timestamp::getTimestamp(): int
+```
 
-Компонент позначки часу Timestamp - це його найбільш значущі 32 біти,
-які позначають кількість секунд початку епохи Unix. Це значення
-читається, як 32-розрядне ціле число без знаку з порядком байтів у
-старшому порядку.
+Компонент позначки часу Timestamp – це його найбільш значущі 32 біти, які позначають кількість секунд від початку епохи Unix. Це значення читається як 32-розрядне ціле число без знака з порядком байтів у старшому порядку.
 
-> **Примітка**: Оскільки цілий тип PHP є знаковим,
-> деякі значення, набуті за допомогою цього методу, можуть
-> перетворитися на негативні цілі числа на 32-бітових платформах. Для
-> отримання рядкового подання беззнакового цілого можна
-> скористатися шаблоном форматування %u функції
-> [sprintf()](function.sprintf.md).
+> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.md)
 
 ### Список параметрів
 
@@ -38,16 +32,12 @@ final public **MongoDB\BSON\Timestamp::getTimestamp**(): int
 
 **Увага**
 
-У 32-бітових системах цей метод може повертати негативне число.
-Хоча частини прирощення та позначки часу типу позначки часу BSON
-складаються з двох 32-розрядних значень без знака, PHP не може
-уявити їх на 32-розрядних платформах.
+У 32-бітових системах цей метод може повертати негативне число. Хоча частини збільшення та позначки часу типу позначки часу BSON складаються з двох 32-розрядних значень без знака, PHP не може представити їх на 32-розрядних платформах.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

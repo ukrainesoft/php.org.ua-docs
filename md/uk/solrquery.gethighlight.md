@@ -1,22 +1,24 @@
-- [«SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.md)
-- [SolrQuery::getHighlightAlternateField »](solrquery.gethighlightalternatefield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає стан параметра hl
-
+---
+navigation:
+  - solrquery.getgrouptruncate.md: '« SolrQuery::getGroupTruncate'
+  - solrquery.gethighlightalternatefield.md: 'SolrQuery::getHighlightAlternateField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlight'
+---
 # SolrQuery::getHighlight
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getHighlight — Повертає стан hl
 
 ### Опис
 
-public **SolrQuery::getHighlight**(): bool
+```methodsynopsis
+public SolrQuery::getHighlight(): bool
+```
 
-Повертає логічне значення, яке вказує, чи слід включати
-виділені фрагменти у відповіді запит.
+Повертає логічне значення, яке вказує на те, чи слід включати виділені фрагменти у відповіді на запит.
 
 ### Список параметрів
 
@@ -24,5 +26,4 @@ public **SolrQuery::getHighlight**(): bool
 
 ### Значення, що повертаються
 
-Повертає логічне значення у разі успішного виконання та
-**`null`**, якщо значення не задано
+Повертає логічне значення у разі успішного виконання та **`null`**, якщо значення не встановлено

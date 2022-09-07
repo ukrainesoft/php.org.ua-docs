@@ -1,57 +1,61 @@
-- [«mb_substitute_character](function.mb-substitute-character.md)
-- [mb_substr »](function.mb-substr.md)
+---
+navigation:
+  - function.mb-substitute-character.md: « mbsubstitutecharacter
+  - function.mb-substr.md: мбsubstr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбsubstrcount
+---
+# мбsubstrcount
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Повертає кількість входжень підрядки
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#mb_substr_count
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-mb_substr_count — Повертає кількість входжень підрядка
+мбsubstrcount — Повертає кількість входжень підрядка
 
 ### Опис
 
-**mb_substr_count**(string `$haystack`, string `$needle`, ?string
-`$encoding` = **`null`**): int
+```methodsynopsis
+mb_substr_count(string $haystack, string $needle, ?string $encoding = null): int
+```
 
-Підраховує, скільки разів підрядок `needle` зустрічається у рядку
-`haystack`.
+Підраховує, скільки разів підрядок `needle` зустрічається у рядку `haystack`
 
 ### Список параметрів
 
 `haystack`
+
 Рядок (string) для перевірки
 
 `needle`
+
 Рядок (string) для пошуку
 
 `encoding`
-Параметр 'encoding' є символьним кодуванням. Якщо він
-опущений або дорівнює **`null`**, замість нього буде використано значення
-внутрішнього кодування.
+
+Параметр `encoding` є символьним кодуванням. Якщо він опущений або дорівнює **`null`**, замість нього буде використано значення внутрішнього кодування.
 
 ### Значення, що повертаються
 
-Кількість входжень підрядки `needle` у рядок `haystack`.
+Кількість входжень підрядка `needle` у рядок `haystack`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-|--------|----------------------------------------------------------|
-| 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mb_substr_count()****
+**Приклад #1 Приклад використання **мбsubstrcount()****
 
-`<?phpecho mb_substr_count("Це просто перевірка", "то"); // виведе на екран 2?> `
+```php
+<?php
+echo mb_substr_count("Это просто проверка", "то"); // выведет на экран 2
+?>
+```
 
 ### Дивіться також
 
-- [mb_strpos()](function.mb-strpos.md) - Пошук позиції першого
-входження одного рядка в інший
-- [mb_substr()](function.mb-substr.md) - Повертає частину рядка
-- [substr_count()](function.substr-count.md) - Повертає число
-входжень підрядки
+-   [мбstrpos()](function.mb-strpos.md) - Пошук позиції першого входження одного рядка до іншого
+-   [мбsubstr()](function.mb-substr.md) - Повертає частину рядка
+-   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка

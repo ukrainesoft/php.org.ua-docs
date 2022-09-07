@@ -1,10 +1,11 @@
-- [« ReflectionClass::getShortName](reflectionclass.getshortname.md)
-- [ReflectionClass::getStaticProperties »](reflectionclass.getstaticproperties.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає номер початкового рядка
-
+---
+navigation:
+  - reflectionclass.getshortname.md: '« ReflectionClass::getShortName'
+  - reflectionclass.getstaticproperties.md: 'ReflectionClass::getStaticProperties »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getStartLine'
+---
 # ReflectionClass::getStartLine
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,14 +14,15 @@ ReflectionClass::getStartLine — Повертає номер початково
 
 ### Опис
 
-public **ReflectionClass::getStartLine**(): int\|false
+```methodsynopsis
+public ReflectionClass::getStartLine(): int|false
+```
 
 Повертає номер початкового рядка.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +30,8 @@ public **ReflectionClass::getStartLine**(): int\|false
 
 ### Значення, що повертаються
 
-Номер початкового рядка у вигляді цілого числа (int) або **`false`**, якщо
-не визначений.
+Номер початкового рядка у вигляді цілого числа (int) або \*\*`false`\*\*якщо не визначений.
 
 ### Дивіться також
 
-- [ReflectionClass::getEndLine()](reflectionclass.getendline.md) -
-Повертає номер останнього рядка
+-   [ReflectionClass::getEndLine()](reflectionclass.getendline.md) - Повертає номер останнього рядка

@@ -1,77 +1,79 @@
-- [« Функції APCu](ref.apcu.md)
-- [apcu_cache_info »](function.apcu-cache-info.md)
+---
+navigation:
+  - ref.apcu.md: « Функции APCu
+  - function.apcu-cache-info.md: apcucacheinfo »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcuadd
+---
+# apcuadd
 
-- [PHP Manual](index.md)
-- [Функції APCu](ref.apcu.md)
-- Додати змінну в кеш
+(PECL apcu >= 4.0.0)
 
-#apcu_add
-
-(PECL apcu \>= 4.0.0)
-
-apcu_add — Додати змінну до кешу
+apcuadd — Додати змінну до кешу
 
 ### Опис
 
-**apcu_add**(string `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$var`, int `$ttl` = 0): bool
+```methodsynopsis
+apcu_add(string $key, mixed $var, int $ttl = 0): bool
+```
 
-**apcu_add**(array `$values`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$unused` = NULL, int `$ttl` = 0): array
+```methodsynopsis
+apcu_add(array $values, mixed $unused = NULL, int $ttl = 0): array
+```
 
 Додає змінну в кеш, якщо її ще немає.
 
-> **Примітка**: На відміну від багатьох інших механізмів PHP, змінні,
-> збережені **apcu_add()**, зберігаються між запитами, доки їх не
-> видалять із кеша.
+> **Зауваження**: На відміну від багатьох інших механізмів PHP, змінні, збережені **apcuadd()**, зберігаються між запитами, доки їх не видалять із кеша.
 
 ### Список параметрів
 
 `key`
-Ім'я, під яким буде збережено змінну. Значення `key` є
-унікальним для кеша, так що спроба використовувати **apcu_add()** для
-збереження змінної з ключем, що вже існує, не перезапише
-запис, а поверне **`false`**. (Це єдина різниця між
-**apcu_add()** та [apcu_store()](function.apcu-store.md).)
+
+Ім'я, під яким буде збережено змінну. Значення `key` є унікальним для кеша, так що спроба використати **apcuadd()** для збереження змінної з ключем, що вже існує, не перезапише запис, а поверне **`false`**. (Це єдина різниця між **apcuadd()** і [apcustore()](function.apcu-store.md)
 
 `var`
+
 Змінна для збереження
 
 `ttl`
-Час життя; змінна `var` зберігатиметься протягом `ttl` секунд.
-Як тільки `ttl` секунд пройдуть, змінна буде видалена з кеша (при
-наступний запит). Якщо параметр `ttl` не заданий (або `ttl` заданий як
-`0`), значення буде зберігатися доки не буде видалено явно, або по
-технічній причині (очищення кешу, перезапуск тощо)
+
+Час життя; змінна `var` буде зберігатися протягом `ttl` секунд. Як тільки `ttl` секунд пройдуть, змінну буде видалено з кеша (при наступному запиті). Якщо параметр `ttl` не заданий (або `ttl` заданий як `0`), значення буде зберігатися доки не буде видалено явно, або з технічної причини (очищення кешу, перезапуск і т.д.)
 
 `values`
+
 Імена у ключах, змінні у значеннях.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо вдалося занести значення в кеш, інакше
-у разі повертає **`false`**. Другий тип синтаксису повертає масив з
-ключами, якими сталася помилка.
+Повертає **`true`**, якщо вдалося занести значення в кеш, інакше повертає **`false`**. Другий тип синтаксису повертає масив із ключами, за якими сталася помилка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcu_add()****
+**Приклад #1 Приклад використання **apcuadd()****
 
-` <?php$bar = 'BAR';apcu_add('foo', $bar);var_dump(apcu_fetch('foo'));echo "
-";$bar = 'NEVER GETS SET';apcu_add('foo', $bar);var_dump(apcu_fetch('foo'));echo "
-";?> `
+```php
+<?php
+$bar = 'BAR';
+apcu_add('foo', $bar);
+var_dump(apcu_fetch('foo'));
+echo "\n";
+$bar = 'NEVER GETS SET';
+apcu_add('foo', $bar);
+var_dump(apcu_fetch('foo'));
+echo "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "BAR"
 string(3) "BAR"
+```
 
 ### Дивіться також
 
-- [apcu_store()](function.apcu-store.md) - Кешує змінну
-- [apcu_fetch()](function.apcu-fetch.md) - Витягує з кеша
-збережену змінну
-- [apcu_delete()](function.apcu-delete.md) - Видаляє збережене
-значення з кешу
+-   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу

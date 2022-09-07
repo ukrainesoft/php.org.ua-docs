@@ -1,113 +1,140 @@
-- [« Постійні дані](mongodb.persistence.md)
-- [Десеріалізація з BSON »](mongodb.persistence.deserialization.md)
-
-- [PHP Manual](index.md)
-- [Постійні дані](mongodb.persistence.md)
-- Серіалізація у BSON
-
-## Серіалізація в BSON
+---
+navigation:
+  - mongodb.persistence.md: « Постійні дані
+  - mongodb.persistence.deserialization.md: Десериализация из BSON »
+  - index.md: PHP Manual
+  - mongodb.persistence.md: Постійні дані
+title: Серіалізація у BSON
+---
+## Серіалізація у BSON
 
 ## Масиви
 
-Якщо масив є *упакованим масивом* - тобто порожній масив або,
-якщо ключі починаються з 0 і є послідовними без пробілів:
-*Масив BSON*.
+Якщо масив є *упакованим масивом* - тобто порожній масив або якщо ключі починаються з 0 і є послідовними без пробілів: *масив BSON*
 
-Якщо масив не упакований - тобто має асоціативні (рядкові) ключі,
-ключі не починаються з 0 або за наявності пробілів: *об'єкт BSON*
+Якщо масив не упакований - тобто має асоціативні (рядкові) ключі, ключі не починаються з 0 або за наявності прогалин: *об'єкт BSON*
 
-Документ верхнього рівня (кореневий), * завжди * серіалізується, як
-документ BSON.
+Документ верхнього рівня (кореневий), *завжди* серіалізується як документ BSON.
 
 ## Приклади
 
 Серіалізація як масив BSON:
 
-``` textcode
-[ 8, 5, 2, 3 ] => [ 8, 5, 2, 3 ]
-[ 0 => 4, 1 => 9 ] => [ 4, 9 ]
-````
+\=> 0 => 4, 1 => я =>
 
 Серіалізація як документ BSON:
 
-``` textcode
-[ 0 => 1, 2 => 8, 3 => 12 ] => { "0" : 1, "2" : 8, "3" : 12 }
-[ "foo" => 42 ] => { "foo" : 42 }
-[ 1 => 9, 0 => 10 ] => { "1" : 9, "0" : 10 }
-````
+0 => 1, 2 => 8, 3 => 12 => { "0": 1, "2": 8, "3": 12} "foo" => 42 => { "foo" : 42 } 1 => я, 0 => 10 => { "1": я, "0": 10}
 
-Зверніть увагу, що п'ять прикладів є витримками з повного
-документа і представляють лише *одно* значення всередині документа.
+Зверніть увагу, що п'ять прикладів є *витримками* з повного документа і подають тільки *одне* значення усередині документа.
 
 ## Об'єкти
 
-Якщо об'єкт належить до класу **stdClass**, серіалізуйте як
-*документ BSON*.
+Якщо об'єкт належить до класу **stdClass**, серіалізуйте, як *документ BSON*
 
-Якщо об'єкт є підтримуваним класом, який реалізує [MongoDB\BSON\Type](class.mongodb-bson-type.md), використовуйте логіку
-Серіалізація BSON для цього конкретного типу. Примірники
-[MongoDB\BSON\Type](class.mongodb-bson-type.md) (за винятком
-[MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md) можна
-серіалізувати лише як значення поля документа. Спроба серіалізації
-такого об'єкта як кореневий документ призведе до викиду
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
+Якщо об'єкт є підтримуваним класом, який реалізує [MongoDBBSONType](class.mongodb-bson-type.md)Використовуйте логіку серіалізації BSON для цього конкретного типу. Примірники [MongoDBBSONType](class.mongodb-bson-type.md) (виключаючи [MongoDBBSONSerializable](class.mongodb-bson-serializable.md) можна серіалізувати лише як значення поля документа. Спроба серіалізації такого об'єкта як кореневий документ призведе до викиду [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
 
-Якщо об'єкт невідомого класу реалізує інтерфейс
-[MongoDB\BSON\Type](class.mongodb-bson-type.md), видається виняток
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
+Якщо об'єкт невідомого класу реалізує інтерфейс [MongoDBBSONType](class.mongodb-bson-type.md), Видається виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
 
-Якщо об'єкт відноситься до будь-якого іншого класу, без реалізації
-будь-якого спеціального інтерфейсу, серіалізуйте, як *документ BSON*.
-Залишайте тільки *public* властивості та ігноруйте *protected* та
-*private* властивості.
+Якщо об'єкт відноситься до будь-якого іншого класу, без реалізації будь-якого спеціального інтерфейсу, серіалізуйте, як *документ BSON*. Залишайте тільки *public* властивості та ігноруйте *protected* і *private* властивості.
 
-Якщо об'єкт належить до класу, який реалізує інтерфейс
-[MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md),
-викличте
-[MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md)
-та використовуйте повернутий масив або **stdClass** для серіалізації в
-як документ BSON або масиву. Тип BSON визначатиметься
-наступним:
+Якщо об'єкт належить до класу, який реалізує інтерфейс [MongoDBBSONSerializable](class.mongodb-bson-serializable.md), викличте [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) і використовуйте повернутий масив або **stdClass** для серіалізації як документ BSON або масиву. Тип BSON визначатиметься таким:
 
-1. Кореневі документи мають бути серіалізовані як документ BSON.
+1.  Кореневі документи мають бути серіалізовані як документ BSON.
+    
+2.  [MongoDBBSONPersistable](class.mongodb-bson-persistable.md) об'єкти повинні бути серіалізовані як документ BSON.
+    
+3.  Якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) повертає упакований масив, серіалізуйте його як масив BSON.
+    
+4.  Якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) повертає невпакований масив або **stdClass**, серіалізуйте як документ BSON.
+    
+5.  Якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) не повернув масив або **stdClass**, видасть виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
+    
 
-2. [MongoDB\BSON\Persistable](class.mongodb-bson-persistable.md)
-об'єкти повинні бути серіалізовані як документ BSON.
+Якщо об'єкт належить до класу, який реалізує інтерфейс [MongoDBBSONPersistable](class.mongodb-bson-persistable.md) (що має на увазі [MongoDBBSONSerializable](class.mongodb-bson-serializable.md)), отримайте властивості аналогічно попереднім абзацям, але *також* додайте додаткову властивість pclass як Binary значення з підтипом `0x80` і даними, що містять повне ім'я класу об'єкта, що серіалізується.
 
-3. Якщо
-[MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md)
-повертає упакований масив, серіалізуйте його як масив BSON.
-
-4. Якщо
-[MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md)
-повертає невпакований масив або **stdClass**, серіалізуйте, як
-документ BSON.
-
-5. Якщо
-[MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md)
-не повернув масив або **stdClass**, видасть виняток
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md).
-
-Якщо об'єкт належить до класу, який реалізує інтерфейс
-[MongoDB\BSON\Persistable](class.mongodb-bson-persistable.md) (що
-має на увазі
-[MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md)),
-отримайте властивості аналогічно до попередніх абзаців, але *також* додайте
-додаткова властивість \_\_pclass як Binary значення з підтипом
-`0x80` і даними, що містять повне ім'я класу об'єкта, що серіалізується.
-
-Властивість \_\_pclass додається в масив або об'єкт, що повертається
-[MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md),
-що означає, що воно буде перезаписувати будь-який ключ/властивість
-\_\_pclass у значенні, що повертається
-[MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md).
-Якщо ви хочете уникнути такої поведінки та встановити власне
-значення \_\_pclass, ви *не* повинні реалізовувати
-[MongoDB\BSON\Persistable](class.mongodb-bson-persistable.md) і замість
-цього мають реалізовувати
-[MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md)
-безпосередньо.
+Властивість pclass додається в масив або об'єкт, що повертається [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md), що означає, що воно буде перезаписувати будь-який ключ/властивість pclass у значенні, що повертається [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md). Якщо ви хочете уникнути такої поведінки та встановити власне значення pclass, ви *не* повинні реалізовувати [MongoDBBSONPersistable](class.mongodb-bson-persistable.md) і натомість повинні реалізовувати [MongoDBBSONSerializable](class.mongodb-bson-serializable.md) безпосередньо.
 
 ## Приклади
 
-`<?phpclass stdClass {  public $foo = 42;} // => { "foo" : 42 }class MyClass { public $foo = 42; protected $prot = "wine"; private $fpr = "cheese";} // => { "foo" : 42 }class AnotherClass1 implements MongoDB\BSON\Serializable { public|$foo = 42; protected $prot = "wine"; private $fpr = "cheese"; function bsonSerialize() {       return [ 'foo' =>$this->foo, 'prot' => $this->prot ]; }} // => { "foo" : 42, "prot" : "wine" }class AnotherClass2 implements MongoDB\BSON\Serializable { public|$foo = 42; function bsonSerialize() {      return $this; }} // => MongoDB\Driver\Exception\UnexpectedValueException("bsonSerialize() did not return an array or stdClass")class AnotherClass3 implements MongoDB\'' function bsonSerialize() {      return $this->elements; }} // => { "0" : "foo", "1" : "bar" }class ContainerClass implements MongoDB\BSON\Serializable {  public $things = AnotherClass4         => 'foo', 2 => 'bar' ]; function bsonSerialize() {      return $this->elements; }  } function bsonSerialize() {      return [ 'things' => $this->things ]; }} // => { "things" : { "0" : "foo", "2" : "bar" } }class ContainerClass implements MongoDB\BSON\Serializable {  public private $elements = [ 0 => 'foo', 2 => 'bar' ]; function bsonSerialize() {       return array_values($this->elements); }  } function bsonSerialize() {      return [ 'things' => $this->things ]; }} // => { "things" : [ "foo", "bar" ] }class ContainerClass implements MongoDB\BSON\Serializable {  public $things = AnotherClass6          , 'bar' ]; function bsonSerialize() {       return (object) $this->elements; }  } function bsonSerialize() {      return [ 'things' => $this->things ]; }} // => { "things" : { "0" : "foo", "1" : "bar" } }class UpperClass implements MongoDB\BSON\Persistable { public $foo; protected $prot = "wine"; private $fpr = "cheese"; function bsonSerialize() {       return [ 'foo' =>$this->foo, 'prot' => $this->prot ]; }} // => { "foo" : 42, "prot" : "wine", "__pclass" : { "$type" : "80", "$binary" : "VXBwZXJDbG 
+```php
+<?php
+
+class stdClass {
+  public $foo = 42;
+} // => { "foo" : 42 }
+
+class MyClass {
+  public $foo = 42;
+  protected $prot = "wine";
+  private $fpr = "cheese";
+} // => { "foo" : 42 }
+
+class AnotherClass1 implements MongoDB\BSON\Serializable {
+  public $foo = 42;
+  protected $prot = "wine";
+  private $fpr = "cheese";
+  function bsonSerialize(): array {
+      return [ 'foo' => $this->foo, 'prot' => $this->prot ];
+  }
+} // => { "foo" : 42, "prot" : "wine" }
+
+class AnotherClass2 implements MongoDB\BSON\Serializable {
+  public $foo = 42;
+  function bsonSerialize(): array {
+      return $this;
+  }
+} // => MongoDB\Driver\Exception\UnexpectedValueException("bsonSerialize() did not return an array or stdClass")
+
+class AnotherClass3 implements MongoDB\BSON\Serializable {
+  private $elements = [ 'foo', 'bar' ];
+  function bsonSerialize(): array {
+      return $this->elements;
+  }
+} // => { "0" : "foo", "1" : "bar" }
+
+class ContainerClass implements MongoDB\BSON\Serializable {
+  public $things = AnotherClass4 implements MongoDB\BSON\Serializable {
+    private $elements = [ 0 => 'foo', 2 => 'bar' ];
+    function bsonSerialize(): array {
+      return $this->elements;
+    }
+  }
+  function bsonSerialize(): array {
+      return [ 'things' => $this->things ];
+  }
+} // => { "things" : { "0" : "foo", "2" : "bar" } }
+
+class ContainerClass implements MongoDB\BSON\Serializable {
+  public $things = AnotherClass5 implements MongoDB\BSON\Serializable {
+    private $elements = [ 0 => 'foo', 2 => 'bar' ];
+    function bsonSerialize(): array {
+      return array_values($this->elements);
+    }
+  }
+  function bsonSerialize(): array {
+      return [ 'things' => $this->things ];
+  }
+} // => { "things" : [ "foo", "bar" ] }
+
+class ContainerClass implements MongoDB\BSON\Serializable {
+  public $things = AnotherClass6 implements MongoDB\BSON\Serializable {
+    private $elements = [ 'foo', 'bar' ];
+    function bsonSerialize(): array {
+      return (object) $this->elements;
+    }
+  }
+  function bsonSerialize(): array {
+      return [ 'things' => $this->things ];
+  }
+} // => { "things" : { "0" : "foo", "1" : "bar" } }
+
+class UpperClass implements MongoDB\BSON\Persistable {
+  public $foo = 42;
+  protected $prot = "wine";
+  private $fpr = "cheese";
+  function bsonSerialize(): array {
+      return [ 'foo' => $this->foo, 'prot' => $this->prot ];
+  }
+} // => { "foo" : 42, "prot" : "wine", "__pclass" : { "$type" : "80", "$binary" : "VXBwZXJDbGFzcw==" } }
+```

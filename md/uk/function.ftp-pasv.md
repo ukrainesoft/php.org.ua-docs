@@ -1,52 +1,73 @@
-- [«ftp_nlist](function.ftp-nlist.md)
-- [ftp_put »](function.ftp-put.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Вмикає або вимикає пасивний режим
-
-#ftp_pasv
+---
+navigation:
+  - function.ftp-nlist.md: « ftpnlist
+  - function.ftp-put.md: ftpput »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftppasv
+---
+# ftppasv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_pasv — Вмикає або вимикає пасивний режим
+ftppasv — Вмикає або вимикає пасивний режим
 
 ### Опис
 
-**ftp_pasv**([FTP\Connection](class.ftp-connection.md) `$ftp`, bool
-`$enable`): bool
+```methodsynopsis
+ftp_pasv(FTP\Connection $ftp, bool $enable): bool
+```
 
-**ftp_pasv()** включає або вимикає пасивний режим. У пасивному
-режимі передачі даних ініціюється клієнтом, а не сервером. Даний
-режим може знадобитися у випадку, якщо клієнт перебуває за
-брандмауер.
+**ftppasv()** вмикає або вимикає пасивний режим. У пасивному режимі передача даних ініціюється клієнтом, а чи не сервером. Цей режим може знадобитися, якщо клієнт перебуває за брандмауером.
 
-Зверніть увагу, що **ftp_pasv()** може бути викликана лише після
-успішної авторизації, інакше вона завершиться помилково.
+Зверніть увагу, що **ftppasv()** може бути викликана лише після успішної авторизації, інакше вона завершиться з помилкою.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `enable`
+
 Якщо **`true`**, пасивний режим буде увімкнено, інакше вимкнено.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_pasv()****
+**Приклад #1 Приклад використання **ftppasv()****
 
-` <?php$file = 'somefile.txt';$remote_file = 'readme.txt';// установка з'єднання$conn_id = ftp_connect($ftp_server);// перевірка імені користувача і $| $ftp_user_name, $ftp_user_pass);// включення пасивного режимаftp_pasv($conn_id, true);
-";} else { echo "Не удалося завантажити $file на сервер
-";}// закриття з'єднанняftp_close($conn_id);?> `
+```php
+<?php
+$file = 'somefile.txt';
+$remote_file = 'readme.txt';
+
+// установка соединения
+$conn_id = ftp_connect($ftp_server);
+
+// проверка имени пользователя и пароля
+$login_result = ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
+
+// включение пассивного режима
+ftp_pasv($conn_id, true);
+
+// загрузка файла
+if (ftp_put($conn_id, $remote_file, $file, FTP_ASCII)) {
+ echo "$file успешно загружен на сервер\n";
+} else {
+ echo "Не удалось загрузить $file на сервер\n";
+}
+
+// закрытие соединения
+ftp_close($conn_id);
+?>
+```

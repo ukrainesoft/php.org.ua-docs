@@ -1,23 +1,24 @@
-- [« Функції хешування паролів](ref.password.md)
-- [password_get_info »](function.password-get-info.md)
+---
+navigation:
+  - ref.password.md: « Функції хешування паролів
+  - function.password-get-info.md: passwordgetinfo »
+  - index.md: PHP Manual
+  - ref.password.md: Функції хешування паролів
+title: passwordalgos
+---
+# passwordalgos
 
-- [PHP Manual](index.md)
-- [Функції хешування паролів](ref.password.md)
-- Отримує доступні ідентифікатори алгоритму хешування пароля
+(PHP 7> = 7.4.0, PHP 8)
 
-#password_algos
-
-(PHP 7 = 7.4.0, PHP 8)
-
-password_algos — Отримує доступні ідентифікатори алгоритму хешування
-пароля
+passwordalgos — Отримує доступні ідентифікатори алгоритму хешування пароля
 
 ### Опис
 
-**password_algos**(): array
+```methodsynopsis
+password_algos(): array
+```
 
-Повертає повний список усіх зареєстрованих ідентифікаторів
-алгоритму хешування паролів у вигляді масиву (array) рядків (string)
+Повертає повний список усіх зареєстрованих ідентифікаторів алгоритму хешування паролів у вигляді масиву (array) рядків (string)
 
 ### Список параметрів
 
@@ -31,13 +32,19 @@ password_algos — Отримує доступні ідентифікатори 
 
 **Приклад #1 Приклад використання **password()****
 
-` <?phpprint_r(password_algos());?> `
+```php
+<?php
+print_r(password_algos());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => 2y
-[1] => argon2i
-[2] => argon2id
+    [0] => 2y
+    [1] => argon2i
+    [2] => argon2id
 )
+```

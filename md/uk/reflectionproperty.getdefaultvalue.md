@@ -1,23 +1,24 @@
-- [« ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md)
-- [ReflectionProperty::getDocComment »](reflectionproperty.getdoccomment.md)
-
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Повертає значення за замовчуванням, задане для якості
-
+---
+navigation:
+  - reflectionproperty.getdeclaringclass.md: '« ReflectionProperty::getDeclaringClass'
+  - reflectionproperty.getdoccomment.md: 'ReflectionProperty::getDocComment »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getDefaultValue'
+---
 # ReflectionProperty::getDefaultValue
 
 (PHP 8)
 
-ReflectionProperty::getDefaultValue — Повертає значення за замовчуванням,
-задане для якості
+ReflectionProperty::getDefaultValue — Повертає значення за промовчанням, задане для властивості
 
 ### Опис
 
-public **ReflectionProperty::getDefaultValue**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionProperty::getDefaultValue(): mixed
+```
 
-Повертає явно чи неявно задане значення за промовчанням властивості.
+Повертає явно чи неявно задане значення за умовчанням властивості.
 
 ### Список параметрів
 
@@ -25,26 +26,35 @@ public **ReflectionProperty::getDefaultValue**():
 
 ### Значення, що повертаються
 
-Значення за замовчуванням (включаючи **`null`**), якщо воно встановлено. Якщо
-значення за замовчуванням не встановлено, то повертається **`null`**. Для
-визначення того, чи встановлено в принципі значення за умовчанням для
-властивості, використовуйте
-[ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.md).
+Значення за замовчуванням (включаючи **`null`**), якщо воно задано. Якщо значення за замовчуванням не задано, то повертається **`null`**. Для визначення того, чи встановлено в принципі значення за промовчанням для властивості, використовуйте [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionProperty::getDefaultValue()****
+**Приклад #1 Приклад використання **ReflectionProperty::getDefaultValue()****
 
-`<?phpclass Foo {    public $bar = 1; public ?int $baz; public int $boing = 0;}$ro = new ReflectionClass(Foo::class);var_dump($ro->getProperty('bar')->getDefaultValue());var_dump($ro->getProperty('baz') )->getDefaultValue());var_dump($ro->getProperty('boing')->getDefaultValue());?> `
+```php
+<?php
+class Foo {
+    public $bar = 1;
+    public ?int $baz;
+    public int $boing = 0;
+}
+
+$ro = new ReflectionClass(Foo::class);
+var_dump($ro->getProperty('bar')->getDefaultValue());
+var_dump($ro->getProperty('baz')->getDefaultValue());
+var_dump($ro->getProperty('boing')->getDefaultValue());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(1)
 NULL
 int(0)
+```
 
 ### Дивіться також
 
-- [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.md) -
-Перевіряє, чи встановлено значення за замовчуванням.
+-   [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.md) - Перевіряє, чи встановлено значення за промовчанням.

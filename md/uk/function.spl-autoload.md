@@ -1,36 +1,34 @@
-- [« spl_autoload_unregister](function.spl-autoload-unregister.md)
-- [spl_classes »](function.spl-classes.md)
+---
+navigation:
+  - function.spl-autoload-unregister.md: « splautoloadunregister
+  - function.spl-classes.md: splclasses »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: splautoload
+---
+# splautoload
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Реалізація за умовчанням методу \_\_autoload()
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-# spl_autoload
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-spl_autoload — Реалізація за замовчуванням методу \_\_autoload()
+splautoload — Реалізація за замовчуванням методу autoload()
 
 ### Опис
 
-**spl_autoload**(string `$class`, ?string `$file_extensions` =
-**`null`**): void
+```methodsynopsis
+spl_autoload(string $class, ?string $file_extensions = null): void
+```
 
-Ця функція є базовою реалізацією методу
-[\_\_autoload()](function.autoload.md). Якщо вона не вказана та
-[spl_autoload_register()](function.spl-autoload-register.md)
-викликається без будь-яких параметрів, то при кожному наступному виклику
-[\_\_autoload()](function.autoload.md) буде використовуватись саме ця
-функція.
+Ця функція являє собою базову реалізацію методу [autoload()](function.autoload.md). Якщо вона не вказана та [splautoloadregister()](function.spl-autoload-register.md) викликається без будь-яких параметрів, то при кожному наступному виклику [autoload()](function.autoload.md) використовуватиметься саме ця функція.
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу (і простору імен), яке потрібно завантажити.
 
 `file_extensions`
-За замовчуванням функція шукатиме файли з розширеннями .inc та .php. по
-всім include-шляхам, де може розташовуватися клас, що шукається.
+
+За замовчуванням функція шукатиме файли з розширеннями .inc та .php. по всіх include-шляхах, де може розташовуватися клас, що шукається.
 
 ### Значення, що повертаються
 
@@ -38,11 +36,10 @@ spl_autoload — Реалізація за замовчуванням метод
 
 ### Помилки
 
-Викликає виняток [LogicException](class.logicexception.md), якщо
-клас не знайдено та відсутні інші зареєстровані автозавантажувачі.
+Викликає виняток [LogicException](class.logicexception.md), якщо клас не знайдено та відсутні інші зареєстровані автозавантажувачі.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                           |
-|--------|------------------------------------------------|
-| 8.0.0  | file_extensions тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `file_extensions` тепер допускає значення null. |

@@ -1,29 +1,33 @@
-- [«trader_maxindex](function.trader-maxindex.md)
-- [trader_mfi»](function.trader-mfi.md)
+---
+navigation:
+  - function.trader-maxindex.md: « tradermaxindex
+  - function.trader-mfi.md: tradermfi »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermedprice
+---
+# tradermedprice
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
--   Середня ціна
+(PECL trader >= 0.2.0)
 
-#trader_medprice
-
-(PECL trader \>= 0.2.0)
-
-trader_medprice — Середня ціна
+tradermedprice — Середня ціна
 
 ### Опис
 
-**trader_medprice**(array `$high`, array `$low`): array
+```methodsynopsis
+trader_medprice(array $high, array $low): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

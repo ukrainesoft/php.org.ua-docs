@@ -1,29 +1,31 @@
-- [ trader_ln](function.trader-ln.md)
-- [trader_ma»](function.trader-ma.md)
+---
+navigation:
+  - function.trader-ln.md: « traderлн
+  - function.trader-ma.md: traderma »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderlog10
+---
+# traderlog10
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Вектор логарифму з основи-10
+(PECL trader >= 0.2.0)
 
-# trader_log10
-
-(PECL trader \>= 0.2.0)
-
-trader_log10 — Вектор логарифму з основи-10
+traderlog10 - Вектор логарифму з основи-10
 
 ### Опис
 
-**trader_log10**(array `$real`): array
+```methodsynopsis
+trader_log10(array $real): array
+```
 
-Обчислює логарифм з основи-10 для кожного значення `real` і
-повертає отриманий масив.
+Обчислює логарифм на основі-10 для кожного значення в `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,26 +1,29 @@
-- [« eio_set_max_poll_reqs](function.eio-set-max-poll-reqs.md)
-- [eio_set_min_parallel »](function.eio-set-min-parallel.md)
+---
+navigation:
+  - function.eio-set-max-poll-reqs.md: « eiosetmaxpollreqs
+  - function.eio-set-min-parallel.md: eiosetminparallel »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosetmaxpolltime
+---
+# eiosetmaxpolltime
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Встановлює максимальний час виконання
+(PECL eio >= 0.0.1dev)
 
-#eio_set_max_poll_time
-
-(PECL eio \>= 0.0.1dev)
-
-eio_set_max_poll_time — Встановлює максимальний час виконання
+eiosetmaxpolltime — Встановлює максимальний час виконання
 
 ### Опис
 
-**eio_set_max_poll_time**(float `$nseconds`): void
+```methodsynopsis
+eio_set_max_poll_time(float $nseconds): void
+```
 
-Виконання запитів зупиняється, якщо час виконання перевищує
-`nseconds` секунд.
+Виконання запитів зупиняється, якщо час виконання перевищує `nseconds` секунд.
 
 ### Список параметрів
 
 `nseconds`
+
 Кількість секунд
 
 ### Значення, що повертаються

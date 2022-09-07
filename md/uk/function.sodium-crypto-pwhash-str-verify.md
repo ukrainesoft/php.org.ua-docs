@@ -1,52 +1,47 @@
-- [« sodium_crypto_pwhash_str_needs_rehash](function.sodium-crypto-pwhash-str-needs-rehash.md)
-- [sodium_crypto_pwhash_str »](function.sodium-crypto-pwhash-str.md)
+---
+navigation:
+  - function.sodium-crypto-pwhash-str-needs-rehash.md: « sodiumcryptopwhashstrneedsrehash
+  - function.sodium-crypto-pwhash-str.md: sodiumcryptopwhashstr »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptopwhashstrverify
+---
+# sodiumcryptopwhashstrverify
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Перевіряє, що пароль відповідає хешу
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_pwhash_str_verify
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_pwhash_str_verify — Перевіряє, що пароль відповідає
-хешу
+sodiumcryptopwhashstrverify — Перевіряє, чи пароль відповідає хешу
 
 ### Опис
 
-**sodium_crypto_pwhash_str_verify**(string `$hash`, string `$password`):
-bool
+```methodsynopsis
+sodium_crypto_pwhash_str_verify(string $hash, string $password): bool
+```
 
-Перевіряє, що хеш пароля, створений
-[sodium_crypto_pwhash_str()](function.sodium-crypto-pwhash-str.md),
-відповідає заданому паролю. Зверніть увагу, що в цій функції
-порядок аргументів не відповідає порядку аргументів у схожій функції
-[password_verify()](function.password-verify.md).
+Перевіряє, що хеш пароля, створений [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)відповідає заданому паролю. Зверніть увагу, що в цій функції порядок аргументів не відповідає порядку аргументів у схожій функції [passwordverify()](function.password-verify.md)
 
 ### Список параметрів
 
 `hash`
-Хеш, створений функцією [password_hash()](function.password-hash.md).
+
+Хеш, створений функцією [passwordhash()](function.password-hash.md)
 
 `password`
+
 Користувальницький пароль.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо пароль відповідає хешу, та **`false`**,
-якщо ні.
+Повертає **`true`**, якщо пароль відповідає хешу, та **`false`**, якщо ні.
 
 ### Примітки
 
-> **Примітка**:
->
-> Хеші обчислюються за допомогою алгоритму Argon2ID, який добре протистоїть
-> обох видів атак: GPU та атак по сторонньому каналу.
+> **Зауваження**
+> 
+> Хеші обчислюються за допомогою алгоритму Argon2ID, який добре протистоїть обом видам атак: GPU і атакам по сторонньому каналу.
 
 ### Дивіться також
 
-- [sodium_crypto_pwhash_str()](function.sodium-crypto-pwhash-str.md) -
-Отримати ASCII-кодований хеш
-- [password_hash()](function.password-hash.md) - Створює хеш пароля
-- [password_verify()](function.password-verify.md) - Перевіряє,
-чи відповідає пароль хешу
+-   [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md) - Отримати ASCII-кодований хеш
+-   [passwordhash()](function.password-hash.md) - Створює хеш пароля
+-   [passwordverify()](function.password-verify.md) - Перевіряє, чи пароль хешу відповідає

@@ -1,20 +1,34 @@
-- [« pspell_suggest](function.pspell-suggest.md)
-- [PSpell\Config »](class.pspell-config.md)
+---
+navigation:
+  - function.pspell-suggest.md: « pspellsuggest
+  - class.pspell-config.md: PSpellConfig »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
+title: Клас PSpellDictionary
+---
+# Клас PSpellDictionary
 
-- [PHP Manual](index.md)
-- [Pspell](book.pspell.md)
-- Клас PSpell\Dictionary
-
-# Клас PSpell\Dictionary
-
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `pspell` у PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `pspell` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **PSpell\Dictionary** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class PSpell\Dictionary
+     
+     {
+    
+
+   }
+```

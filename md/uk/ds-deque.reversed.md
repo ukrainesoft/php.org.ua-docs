@@ -1,19 +1,22 @@
-- [« Ds\Deque::reverse](ds-deque.reverse.md)
-- [Ds\Deque::rotate »](ds-deque.rotate.md)
+---
+navigation:
+  - ds-deque.reverse.md: '« DsDeque::reverse'
+  - ds-deque.rotate.md: 'ДсDeque::rotate »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::reversed'
+---
+# ДсDeque::reversed
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає перегорнуту копію двосторонньої черги
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::reversed
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::reversed — Повертає перегорнуту копію двосторонньої черги
+ДсDeque::reversed — Повертає перегорнуту копію двосторонньої черги
 
 ### Опис
 
-public **Ds\Deque::reversed**(): [Ds\Deque](class.ds-deque.md)
+```methodsynopsis
+public Ds\Deque::reversed(): Ds\Deque
+```
 
 Повертає перегорнуту копію двосторонньої черги.
 
@@ -25,27 +28,36 @@ public **Ds\Deque::reversed**(): [Ds\Deque](class.ds-deque.md)
 
 Перегорнута копія двосторонньої черги.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточна двостороння черга не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::reversed()****
+**Приклад #1 Приклад використання **ДсDeque::reversed()****
 
-` <?php$deque = new \Ds\Deque(["a", "b", "c"]);print_r($deque->reversed());print_r($deque);?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c"]);
+
+print_r($deque->reversed());
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => c
-[1] => b
-[2] => a
+    [0] => c
+    [1] => b
+    [2] => a
 )
 Ds\Deque Object
 (
-[0] => a
-[1] => b
-[2] => c
+    [0] => a
+    [1] => b
+    [2] => c
 )
+```

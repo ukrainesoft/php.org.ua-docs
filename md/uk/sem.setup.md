@@ -1,15 +1,16 @@
-- [«Вступ](intro.sem.md)
-- [Вимоги »](sem.requirements.md)
-
-- [PHP Manual](index.md)
-- [Семафори](book.sem.md)
--   Встановлення та налаштування
-
+---
+navigation:
+  - intro.sem.md: « Введение
+  - sem.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](sem.requirements.md)
-- [Установка](sem.installation.md)
-- [Налаштування під час виконання](sem.configuration.md)
-- [Типи ресурсів](sem.resources.md)
+-   [Вимоги](sem.requirements.md)
+-   [Установка](sem.installation.md)
+-   [Налаштування під час виконання](sem.configuration.md)
+-   [Типи ресурсів](sem.resources.md)

@@ -1,27 +1,26 @@
-- [«CommonMark\Node](class.commonmark-node.md)
-- [CommonMark\Node::prependChild »](commonmark-node.prependchild.md)
+---
+navigation:
+  - class.commonmark-node.md: « CommonMarkNode
+  - commonmark-node.prependchild.md: 'CommonMarkNode::prependChild »'
+  - index.md: PHP Manual
+  - class.commonmark-node.md: CommonMarkNode
+title: 'CommonMarkNode::appendChild'
+---
+# CommonMarkNode::appendChild
 
-- [PHP Manual](index.md)
-- [CommonMark\Node](class.commonmark-node.md)
-- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+(cmark >= 1.0.0)
 
-# CommonMark\Node::appendChild
-
-(cmark \>= 1.0.0)
-
-CommonMark\Node::appendChild - Маніпуляції з AST (Абстрактне
-синтаксичне дерево)
+CommonMarkNode::appendChild — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
-public
-**CommonMark\Node::appendChild**([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
+```methodsynopsis
+public CommonMark\Node::appendChild(CommonMark\Node $child): CommonMark\Node
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

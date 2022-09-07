@@ -1,117 +1,158 @@
-- [« EvCheck::createStopped](evcheck.createstopped.md)
-- [EvChild::\_\_construct »](evchild.construct.md)
-
-- [PHP Manual](index.md)
-- [Ev](book.ev.md)
-- Клас EvChild
-
+---
+navigation:
+  - evcheck.createstopped.md: '« EvCheck::createStopped'
+  - evchild.construct.md: 'EvChild::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvChild
+---
 # Клас EvChild
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 ## Вступ
 
-Спостерігач **EvChild** викликається тоді, коли процес отримує сигнал
-**`SIGCHLD`** у відповідь на деякі зміни статусу дочірнього елемента
-(зазвичай коли дочірній процес завершує свою роботу або виходить із
-нього). Дозволяється встановлювати спостерігач **`EvChild`** після того,
-як дочірній потік був відгалужений (що має на увазі, що він повинен був
-вже завершитися), доки не почалася ітерація циклу подій (або
-продовжується з спостерігача), тобто. розгалуження і потім негайна
-реєстрація спостерігача для дочірнього елемента є гарною
-практикою, а розгалуження та реєстрація спостерігача після кількох
-ітерацій циклу подій або при наступному запуску callback-функції – немає.
+Спостерігач **EvChild** викликається тоді, коли процес отримує сигнал **`SIGCHLD`** у відповідь деякі зміни статусу дочірнього елемента (зазвичай коли дочірній процес завершує свою роботу чи виходить із нього). Дозволяється встановлювати спостерігач **`EvChild`** після того, як дочірній потік був відгалужений (що має на увазі, що він повинен був вже завершитися), доки не почалася ітерація циклу подій (або триває зі спостерігача), тобто. розгалуження і потім негайна реєстрація спостерігача для дочірнього елемента є гарною практикою, а розгалуження та реєстрація спостерігача після кількох ітерацій циклу подій або за наступного запуску callback-функції - немає.
 
-Спостерігачів **EvChild** дозволяється реєструвати тільки в *циклі
-замовчуванням*.
+Спостерігачів **EvChild** дозволяється реєструвати тільки в *циклі за замовчуванням*
 
 ## Огляд класів
 
-class **EvChild** extends [EvWatcher](class.evwatcher.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
+    
+    
+     
+      class EvChild
+     
+     
+      extends
+       EvWatcher
+     
+     {
+    
+    /* Свойства */
+    
+     public
+      $pid;
 
-public `$pid`;
+    public
+      $rpid;
 
-public `$ rpid`;
+    public
+      $rstatus;
 
-public `$ rstatus`;
+    /* Наследуемые свойства */
+    public
+      $is_active;
+public
+      $data;
+public
+      $is_pending;
+public
+      $priority;
 
-/\* Наслідувані властивості \*/
+    /* Методы */
+    
+   public
+   __construct(    
+    int
+     $pid
+   ,    
+    bool
+     $trace
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   )
 
-public `$is_active`;
+    final
+   public
+   static
+   createStopped(    
+    int
+     $pid
+   ,    
+    bool
+     $trace
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+    = ?,    
+    int
+     $priority
+    = ?): object
+public
+   set(
+    int
+     $pid
+   , 
+    bool
+     $trace
+   ): void
 
-public `$data`;
+    /* Наследуемые методы */
+    public
+   EvWatcher::clear(): int
+public
+   EvWatcher::feed(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::getLoop(): EvLoop
+public
+   EvWatcher::invoke(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::keepalive(
+    bool
+     $value
+    = ?): bool
+public
+   EvWatcher::setCallback(
+    callable
+     $callback
+   ): void
+public
+   EvWatcher::start(): void
+public
+   EvWatcher::stop(): void
 
-public `$is_pending`;
-
-public `$priority`;
-
-/\* Методи \*/
-
-public [\_\_construct](evchild.construct.md)(
-int `$pid`,
-bool `$trace`,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-)
-
-final public static [createStopped](evchild.createstopped.md)(
-int `$pid`,
-bool `$trace`,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-int `$priority` = ?
-): object
-
-public [set](evchild.set.md)( int `$pid` , bool `$trace` ): void
-
-/\* Наслідувані методи \*/
-
-public [EvWatcher::clear](evwatcher.clear.md)(): int
-
-public [EvWatcher::feed](evwatcher.feed.md)( int `$revents` ): void
-
-public [EvWatcher::getLoop](evwatcher.getloop.md)():
-[EvLoop](class.evloop.md)
-
-public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
-void
-
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
-?): bool
-
-public [EvWatcher::setCallback](evwatcher.setcallback.md)(
-[callable](language.types.callable.md) `$callback` ): void
-
-public [EvWatcher::start](evwatcher.start.md)(): void
-
-public [EvWatcher::stop](evwatcher.stop.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`pid`
-* Тільки читання *. Ідентифікатор процесу, який слідкує, або **`0`**,
-що означає будь-який ідентифікатор процесу.
+pid
 
-`rpid`
-* Тільки читання *. Ідентифікатор процесу, який слідкує за зміною
-статусу.
+*Тільки читання*. Ідентифікатор процесу, який слідкує, або \*\*`0`\*\*що означає будь-який ідентифікатор процесу.
 
-`rstatus`
-* Тільки читання *. Статус завершення процесу, спричинений `rpid`.
+rpid
+
+*Тільки читання*. Ідентифікатор процесу, який слідкує за зміною статусу.
+
+rstatus
+
+*Тільки читання*. Статус завершення процесу викликаний rpid.
 
 ## Зміст
 
-- [EvChild::\_\_construct](evchild.construct.md) — Створює об'єкт
-спостерігач EvChild
-- [EvChild::createStopped](evchild.createstopped.md) — Створює
-зупинений екземпляр спостерігача EvCheck
-- [EvChild::set](evchild.set.md) — Налаштування спостерігача
+-   [EvChild::construct](evchild.construct.md) - Створює об'єкт спостерігач EvChild
+-   [EvChild::createStopped](evchild.createstopped.md) — Створює зупинений екземпляр спостерігача EvCheck
+-   [EvChild::set](evchild.set.md) - Конфігурування спостерігача

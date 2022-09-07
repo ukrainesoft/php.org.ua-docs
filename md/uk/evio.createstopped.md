@@ -1,49 +1,66 @@
-- [«Evio::\_\_construct](evio.construct.md)
-- [EvIo::set »](evio.set.md)
-
-- [PHP Manual](index.md)
-- [EvIo](class.evio.md)
-- Створює зупинений об'єкт спостерігача EvIo
-
+---
+navigation:
+  - evio.construct.md: '« EvIo::construct'
+  - evio.set.md: 'EvIo::set »'
+  - index.md: PHP Manual
+  - class.evio.md: EvIo
+title: 'EvIo::createStopped'
+---
 # EvIo::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvIo::createStopped — Створює зупинений об'єкт спостерігача EvIo
 
 ### Опис
 
-final public static **EvIo::createStopped**(
+```methodsynopsis
+final
+   public
+   static
+   EvIo::createStopped(    
+    mixed
+     $fd
+   ,    
+    int
+     $events
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvIo
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` ,
-int `$events` ,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvIo](class.evio.md)
-
-Те саме, що і [EvIo::\_\_construct()](evio.construct.md) , але не
-відбувається автоматичний запуск спостерігача.
+Те саме, що й [EvIo::construct()](evio.construct.md) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `fd`
-Дивіться [EvIo::\_\_construct()](evio.construct.md)
+
+Дивіться [EvIo::construct()](evio.construct.md)
 
 `events`
-Дивіться [EvIo::\_\_construct()](evio.construct.md)
+
+Дивіться [EvIo::construct()](evio.construct.md)
 
 `callback`
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md) .
+
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
+
 Довільні дані, пов'язані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -51,7 +68,5 @@ int `$priority` = 0
 
 ### Дивіться також
 
-- [EvIo::\_\_construct()](evio.construct.md) - Створює об'єкт
-спостерігач EvIo
-- [EvLoop::io()](evloop.io.md) - Створює об'єкт спостерігача EvIo,
-пов'язаний з поточним екземпляром циклу подій
+-   [EvIo::construct()](evio.construct.md) - Створює об'єкт спостерігач EvIo
+-   [EvLoop::io()](evloop.io.md) - Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій

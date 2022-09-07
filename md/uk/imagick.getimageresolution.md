@@ -1,10 +1,11 @@
-- [« Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md)
-- [Imagick::getImagesBlob »](imagick.getimagesblob.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає роздільну здатність зображення за X та Y
-
+---
+navigation:
+  - imagick.getimagerenderingintent.md: '« Imagick::getImageRenderingIntent'
+  - imagick.getimagesblob.md: 'Imagick::getImagesBlob »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageResolution'
+---
 # Imagick::getImageResolution
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getImageResolution — Повертає роздільну здатні
 
 ### Опис
 
-public **Imagick::getImageResolution**(): array
+```methodsynopsis
+public Imagick::getImageResolution(): array
+```
 
 Повертає роздільну здатність зображення X та Y.
 

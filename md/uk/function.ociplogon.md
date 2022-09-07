@@ -1,21 +1,21 @@
-- [«ociparse](function.ociparse.md)
-- [ociresult »](function.ociresult.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_pconnect
-
+---
+navigation:
+  - function.ociparse.md: « ociparse
+  - function.ociresult.md: ociresult »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ociplogon
+---
 # ociplogon
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociplogon - Псевдонім [oci_pconnect()](function.oci-pconnect.md)
+ociplogon - Псевдонім [ocipconnect()](function.oci-pconnect.md)
 
 ### Опис
 
-Псевдонім [oci_pconnect()](function.oci-pconnect.md)
+Псевдонім [ocipconnect()](function.oci-pconnect.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

@@ -1,70 +1,55 @@
-- [« yaml_emit](function.yaml-emit.md)
-- [yaml_parse_url »](function.yaml-parse-url.md)
+---
+navigation:
+  - function.yaml-emit.md: « yamlemit
+  - function.yaml-parse-url.md: yamlparseurl »
+  - index.md: PHP Manual
+  - ref.yaml.md: Функции Yaml
+title: yamlparsefile
+---
+# yamlparsefile
 
-- [PHP Manual](index.md)
-- [Функції Yaml](ref.yaml.md)
-- Розбирає YAML-потік із файлу
+(PECL yaml >= 0.4.0)
 
-# yaml_parse_file
-
-(PECL yaml \>= 0.4.0)
-
-yaml_parse_file — Розбирає потоки YAML з файлу
+yamlparsefile — Розбирає поток YAML з файлу
 
 ### Опис
 
-**yaml_parse_file**(
-string `$filename`,
-int `$pos` = 0,
-int `&$ndocs` = ?,
-array `$callbacks` = **`null`**
-):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
+```
 
-Конвертує повністю або частково потік YAML-документів, що читаються з
-файлу в змінну PHP.
+Конвертує повністю або частково потік YAML-документів, які читаються з файлу, в змінну PHP.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 `pos`
-Індекс документа для вилучення з потоку (`-1` для всіх документів, `0`
-для першого документа, ...).
+
+Індекс документа для вилучення з потоку (`-1` для всіх документів, `0` для першого документа, ...).
 
 `ndocs`
-Якщо `ndocs` передано, то він буде заповнений кількістю документів,
-знайдених у потоці.
 
-callbacks
-Обробники вмісту для вузлів YAML. Асоціативний масив (array),
-ключі якого є тегами YAML, а значення callback-функціями
-([callable](language.types.callable.md)), які будуть їх
-обробляти. Докладніше цей механізм описаний у розділі
-[callback-функції аналізу](yaml.callbacks.parse.md).
+Якщо `ndocs` передано, то він буде заповнений кількістю документів, знайдених у потоці.
+
+`callbacks`
+
+Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.md)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.md)
 
 ### Значення, що повертаються
 
-Повертає значення, закодоване в `input`, у відповідному PHP
-типі або **`false`** у разі виникнення помилки. Якщо параметр `pos`
-дорівнює `-1`, то буде повернутий масив (array), що містить по одній
-запис для кожного документа, знайденого в потоці.
+Повертає значення, закодоване в `input`, у відповідному PHP типі або **`false`** у разі виникнення помилки. Якщо параметр `pos` дорівнює `-1`, то буде повернуто масив (array), що містить по одному запису для кожного документа, знайденого в потоці.
 
 ### Примітки
 
 **Увага**
 
-Обробляти неперевірене введення користувача за допомогою функції
-**yaml_parse_file()** у випадку, якщо дозволено використовувати
-[unserialize()](function.unserialize.md) для вузлів із тегом
-`!php/object` - дуже небезпечно. Така поведінка може бути заборонена з
-за допомогою ini-налаштування `yaml.decode_php`.
+Обробляти неперевірене введення користувача за допомогою функції **yamlparsefile()** у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.md) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
 
 ### Дивіться також
 
-- [yaml_parse()](function.yaml-parse.md) - Розбирає потік YAML
-- [yaml_parse_url()](function.yaml-parse-url.md) - Розбирає
-YAML-потік з URL
-- [yaml_emit()](function.yaml-emit.md) - Повертає
-YAML-подання значення
+-   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML
+-   [yamlparseurl()](function.yaml-parse-url.md) - Розбирає YAML-потік із URL
+-   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення

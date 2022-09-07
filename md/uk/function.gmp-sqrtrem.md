@@ -1,47 +1,57 @@
-- [«gmp_sqrt](function.gmp-sqrt.md)
-- [gmp_strval »](function.gmp-strval.md)
+---
+navigation:
+  - function.gmp-sqrt.md: « gmpsqrt
+  - function.gmp-strval.md: gmpstrval »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpsqrtrem
+---
+# gmpsqrtrem
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Квадратний корінь із залишком
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_sqrtrem
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_sqrtrem — Квадратний корінь із залишком
+gmpsqrtrem - Квадратний корінь із залишком
 
 ### Опис
 
-**gmp_sqrtrem**([GMP](class.gmp.md)\|int\|string `$num`): array
+```methodsynopsis
+gmp_sqrtrem(GMP|int|string $num): array
+```
 
 Обчислює квадратний корінь числа із залишком.
 
 ### Список параметрів
 
 `num`
+
 Число, з якого витягується корінь.
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Повертає масив, в якому перший елемент - ціла частина кореня із числа
-`num`, а другий - залишок (тобто різниця чисел `num` і квадрата першого
-елемента масиву).
+Повертає масив, в якому перший елемент - ціла частина кореня з числа `num`, а другий - залишок (тобто різниця чисел `num` та квадрата першого елемента масиву).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_sqrtrem()****
+**Приклад #1 Приклад використання **gmpsqrtrem()****
 
-` <?phplist($sqrt1, $sqrt1rem) = gmp_sqrtrem("9");list($sqrt2, $sqrt2rem) = gmp_sqrtrem("7");list($sqrt3, $sqrt3rem)'8 ;echo gmp_strval($sqrt1) . ", " . gmp_strval($sqrt1rem) . "
-";echo gmp_strval($sqrt2) . ", " . gmp_strval($sqrt2rem) . "
-";echo gmp_strval($sqrt3) . ", " . gmp_strval($sqrt3rem) . "
-";?> `
+```php
+<?php
+list($sqrt1, $sqrt1rem) = gmp_sqrtrem("9");
+list($sqrt2, $sqrt2rem) = gmp_sqrtrem("7");
+list($sqrt3, $sqrt3rem) = gmp_sqrtrem("1048576");
+
+echo gmp_strval($sqrt1) . ", " . gmp_strval($sqrt1rem) . "\n";
+echo gmp_strval($sqrt2) . ", " . gmp_strval($sqrt2rem) . "\n";
+echo gmp_strval($sqrt3) . ", " . gmp_strval($sqrt3rem) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3, 0
 2, 3
 1024, 0
+```

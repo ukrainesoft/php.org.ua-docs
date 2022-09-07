@@ -1,10 +1,11 @@
-- [«ReflectionType](class.reflectiontype.md)
-- [ReflectionType::\_\_toString »](reflectiontype.tostring.md)
-
-- [PHP Manual](index.md)
-- [ReflectionType](class.reflectiontype.md)
-- Перевіряє, чи допустимо NULL
-
+---
+navigation:
+  - class.reflectiontype.md: « ReflectionType
+  - reflectiontype.tostring.md: 'ReflectionType::toString »'
+  - index.md: PHP Manual
+  - class.reflectiontype.md: ReflectionType
+title: 'ReflectionType::allowsNull'
+---
 # ReflectionType::allowsNull
 
 (PHP 7, PHP 8)
@@ -13,9 +14,11 @@ ReflectionType::allowsNull — Перевіряє, чи допустимо NULL
 
 ### Опис
 
-public **ReflectionType::allowsNull**(): bool
+```methodsynopsis
+public ReflectionType::allowsNull(): bool
+```
 
-Перевіряє, чи допустимо **`null`** у заданому параметрі.
+Перевіряє, чи припустимо **`null`** у заданому параметрі.
 
 ### Список параметрів
 
@@ -23,24 +26,32 @@ public **ReflectionType::allowsNull**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо **`null`** допустимо, інакше **`false`**
+**`true`**, якщо **`null`** припустимо, інакше **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionType::allowsNull()****
 
-`<?phpfunction someFunction(string $param, StdClass $param2 = null) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParams = $reflectionFunc>$reflectionFunc ()->allowsNull());var_dump($reflectionParams[1]->getType()->allowsNull()); `
+```php
+<?php
+function someFunction(string $param, StdClass $param2 = null) {}
+
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
+
+var_dump($reflectionParams[0]->getType()->allowsNull());
+var_dump($reflectionParams[1]->getType()->allowsNull());
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) -
-Перевіряє, чи є тип вбудованим
-- [ReflectionType::\_\_toString()](reflectiontype.tostring.md) -
-Перетворення на рядок
-- [ReflectionParameter::getType()](reflectionparameter.gettype.md) -
-Отримати тип параметра
+-   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) - Перевіряє, чи є тип вбудованим
+-   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

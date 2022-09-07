@@ -1,19 +1,22 @@
-- [« SplPriorityQueue::key](splpriorityqueue.key.md)
-- [SplPriorityQueue::recoverFromCorruption »](splpriorityqueue.recoverfromcorruption.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Перехід до наступного вузла
-
+---
+navigation:
+  - splpriorityqueue.key.md: '« SplPriorityQueue::key'
+  - splpriorityqueue.recoverfromcorruption.md: 'SplPriorityQueue::recoverFromCorruption »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::next'
+---
 # SplPriorityQueue::next
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplPriorityQueue::next — Перехід до наступного сайту
 
 ### Опис
 
-public **SplPriorityQueue::next**(): void
+```methodsynopsis
+public SplPriorityQueue::next(): void
+```
 
 Перекладає ітератор на вузол.
 

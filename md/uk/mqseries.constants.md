@@ -1,26 +1,24 @@
-- [« Типи ресурсів](mqseries.resources.md)
-- [Функції mqseries »](ref.mqseries.md)
-
-- [PHP Manual](index.md)
-- [mqseries](book.mqseries.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - mqseries.resources.md: « Типи ресурсів
+  - ref.mqseries.md: Функции mqseries »
+  - index.md: PHP Manual
+  - book.mqseries.md: mqseries
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Для кожної константи WebSphere MQ існує її відображення в mqseries.
 
-Про їх значення та використання читайте у книгах "WebSphere MQ
-Application Programming Guide" та "WebSphere MQ Application Programming
-Reference”.
+Про їх значення та використання читайте у книгах "WebSphere MQ Application Programming Guide" та "WebSphere MQ Application Programming Reference".
 
-Імена двійників констант в mqseries можна визначити, прибравши з констант
-PHP префікс MQSERIES \_. Наприклад, константи CompletionCode:
-
-| Константа PHP Константа MQ |
-| -------------------------- |
-| MQSERIES_MQCC_OK           | MQCC_OK
-| MQSERIES_MQCC_WARNING      | MQCC_WARNING
-| MQSERIES_MQCC_FAILED       | MQCC_FAILED
-| MQSERIES_MQCC_UNKNOWN      | MQCC_UNKNOWN
+Імена двійників констант в mqseries можна визначити, прибравши з констант PHP префікс MQSERIES. Наприклад, константи CompletionCode:
 
 **Константи mqseries**
+
+| Константа PHP | Константа MQ |
+| --- | --- |
+| MQSERIESMQCCОК | MQCCОК |
+| MQSERIESMQCCWARNING | MQCCWARNING |
+| MQSERIESMQCCFAILED | MQCCFAILED |
+| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN |

@@ -1,17 +1,17 @@
-- [« fbird_set_event_handler](function.fbird-set-event-handler.md)
-- [fbird_wait_event »](function.fbird-wait-event.md)
+---
+navigation:
+  - function.fbird-set-event-handler.md: « fbirdseteventhandler
+  - function.fbird-wait-event.md: fbirdwaitevent »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdtrans
+---
+# fbirdtrans
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_trans
+(PHP 5, PHP 7 < 7.4.0)
 
-#fbird_trans
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-fbird_trans - Псевдонім [ibase_trans()](function.ibase-trans.md)
+fbirdtrans - Псевдонім [ibasetrans()](function.ibase-trans.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_trans()](function.ibase-trans.md).
+Ця функція є псевдонімом: [ibasetrans()](function.ibase-trans.md)

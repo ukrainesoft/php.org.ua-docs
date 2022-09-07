@@ -1,31 +1,37 @@
-- [« UI\Area::onDraw](ui-area.ondraw.md)
-- [UI\Area::onMouse »](ui-area.onmouse.md)
-
-- [PHP Manual](index.md)
-- [UI\Area](class.ui-area.md)
-- Функція зворотного виклику під час натискання
-
-# UI\Area::onKey
+---
+navigation:
+  - ui-area.ondraw.md: '« UIArea::onDraw'
+  - ui-area.onmouse.md: 'ОЙArea::onMouse »'
+  - index.md: PHP Manual
+  - class.ui-area.md: ОЙArea
+title: 'ОЙArea::onKey'
+---
+# ОЙArea::onKey
 
 (UI 0.9.9)
 
-UI\Area::onKey — Функція зворотного виклику під час натискання
+ОЙArea::onKey — Функція зворотного дзвінка при натисканні
 
 ### Опис
 
-protected **UI\Area::onKey**(string `$key`, int `$ext`, int `$flags`)
+```methodsynopsis
+protected UI\Area::onKey(string $key, int $ext, int $flags)
+```
 
 Виконується при натисканні клавіші
 
 ### Список параметрів
 
 `key`
+
 Натиснута клавіша
 
 `ext`
+
 Натиснута розширена кнопка
 
 `flags`
+
 Модифікатори події
 
 ### Значення, що повертаються

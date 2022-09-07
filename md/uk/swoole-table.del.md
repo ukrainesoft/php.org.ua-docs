@@ -1,19 +1,22 @@
-- [« Swoole\Table::decr](swoole-table.decr.md)
-- [Swoole\Table::destroy »](swoole-table.destroy.md)
+---
+navigation:
+  - swoole-table.decr.md: '« SwooleTable::decr'
+  - swoole-table.destroy.md: 'SwooleTable::destroy »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::del'
+---
+# SwooleTable::del
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Видаляє рядок у таблиці Swoole за $row_key
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::del
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::del — Видаляє рядок у таблиці Swoole за $row_key
+SwooleTable::del — Видаляє рядок у таблиці Swoole за $rowkey
 
 ### Опис
 
-public **Swoole\Table::del**(string `$key`): void
+```methodsynopsis
+public Swoole\Table::del(string $key): void
+```
 
 ### Список параметрів
 

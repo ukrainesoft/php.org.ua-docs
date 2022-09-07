@@ -1,22 +1,25 @@
-- [«UI\Window::save](ui-window.save.md)
-- [UI\Window::setFullScreen »](ui-window.setfullscreen.md)
-
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Використання рамок
-
-# UI\Window::setBorders
+---
+navigation:
+  - ui-window.save.md: '« UIWindow::save'
+  - ui-window.setfullscreen.md: 'ОЙWindow::setFullScreen »'
+  - index.md: PHP Manual
+  - class.ui-window.md: ОЙWindow
+title: 'ОЙWindow::setBorders'
+---
+# ОЙWindow::setBorders
 
 (UI 0.9.9)
 
-UI\Window::setBorders — Використання рамок
+ОЙWindow::setBorders — Використання рамок
 
 ### Опис
 
-public **UI\Window::setBorders**(bool `$borders`)
+```methodsynopsis
+public UI\Window::setBorders(bool $borders)
+```
 
 Увімкнути або вимкнути використання рамок у цьому вікні
 
 ### Список параметрів
 
-'borders'
+`borders`

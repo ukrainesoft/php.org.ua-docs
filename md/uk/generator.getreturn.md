@@ -1,10 +1,11 @@
-- [«Generator::current](generator.current.md)
-- [Generator::key »](generator.key.md)
-
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Отримати значення, що повертається генератором
-
+---
+navigation:
+  - generator.current.md: '« Generator::current'
+  - generator.key.md: 'Generator::key »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
+title: 'Generator::getReturn'
+---
 # Generator::getReturn
 
 (PHP 7, PHP 8)
@@ -13,8 +14,9 @@ Generator::getReturn — Отримати значення, що поверта�
 
 ### Опис
 
-public **Generator::getReturn**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Generator::getReturn(): mixed
+```
 
 ### Список параметрів
 
@@ -28,10 +30,27 @@ public **Generator::getReturn**():
 
 **Приклад #1 Приклад використання **Generator::getReturn()****
 
-`<?php$gen = (function() {    yield 1;    yield 2;   return 3;})();foreach ($gen as $val) { P|$| , PHP_EOL; `
+```php
+<?php
+
+$gen = (function() {
+    yield 1;
+    yield 2;
+
+    return 3;
+})();
+
+foreach ($gen as $val) {
+    echo $val, PHP_EOL;
+}
+
+echo $gen->getReturn(), PHP_EOL;
+```
 
 Результат виконання цього прикладу:
 
+```
 1
 2
 3
+```

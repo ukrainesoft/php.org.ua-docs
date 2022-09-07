@@ -1,22 +1,22 @@
-- [«EvWatcher::clear](evwatcher.clear.md)
-- [EvWatcher::feed »](evwatcher.feed.md)
+---
+navigation:
+  - evwatcher.clear.md: '« EvWatcher::clear'
+  - evwatcher.feed.md: 'EvWatcher::feed »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::construct'
+---
+# EvWatcher::construct
 
-- [PHP Manual](index.md)
-- [EvWatcher](class.evwatcher.md)
-- абстрактний конструктор об'єкта спостерігача
+(PECL ev >= 0.2.0)
 
-# EvWatcher::\_\_construct
-
-(PECL ev \>= 0.2.0)
-
-EvWatcher::\_\_construct - Абстрактний конструктор об'єкта спостерігача
+EvWatcher::construct - абстрактний конструктор об'єкта спостерігача
 
 ### Опис
 
-abstract public **EvWatcher::\_\_construct**()
+abstract public **EvWatcher::construct**
 
-**EvWatcher::\_\_construct()** є абстрактним конструктором
-об'єкта спостерігача, реалізованого у похідних класах.
+**EvWatcher::construct()** є абстрактним конструктором об'єкта спостерігача, реалізованого у похідних класах.
 
 ### Список параметрів
 

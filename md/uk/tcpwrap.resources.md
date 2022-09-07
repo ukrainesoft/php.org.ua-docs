@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](tcpwrap.configuration.md)
-- [Предвизначені константи »](tcpwrap.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tcpwrap.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - tcpwrap.configuration.md: « Налаштування під час виконання
+  - tcpwrap.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - tcpwrap.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

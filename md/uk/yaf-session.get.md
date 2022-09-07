@@ -1,24 +1,26 @@
-- [« Yaf_Session::del](yaf-session.del.md)
-- [Yaf_Session::getInstance »](yaf-session.getinstance.md)
+---
+navigation:
+  - yaf-session.del.md: '« YafSession::del'
+  - yaf-session.getinstance.md: 'YafSession::getInstance »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::get'
+---
+# YafSession::get
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення \_\_get
+(Yaf >=1.0.0)
 
-# Yaf_Session::\_\_get
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::\_\_get - Призначення \_\_get
+YafSession::get — Призначення get
 
 ### Опис
 
-public **Yaf_Session::\_\_get**(string `$name`): void
+```methodsynopsis
+public Yaf_Session::__get(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

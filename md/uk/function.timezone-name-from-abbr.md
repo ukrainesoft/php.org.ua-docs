@@ -1,60 +1,59 @@
-- [«timezone_location_get](function.timezone-location-get.md)
-- [timezone_name_get »](function.timezone-name-get.md)
+---
+navigation:
+  - function.timezone-location-get.md: « timezonelocationget
+  - function.timezone-name-get.md: timezonenameget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: timezonenamefromabbr
+---
+# timezonenamefromabbr
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Повертає часовий пояс відповідно до абревіатури
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
-#timezone_name_from_abbr
-
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
-
-timezone_name_from_abbr — Повертає часовий пояс відповідно до
-абревіатурою
+timezonenamefromabbr — Повертає часовий пояс відповідно до абревіатури.
 
 ### Опис
 
-**timezone_name_from_abbr**(string `$abbr`, int `$utcOffset` = -1, int
-`$isDST` = -1): string\|false
+```methodsynopsis
+timezone_name_from_abbr(string $abbr, int $utcOffset = -1, int $isDST = -1): string|false
+```
 
 ### Список параметрів
 
 `abbr`
+
 Абревіатура часового поясу.
 
 `utcOffset`
-Зміщення щодо GMT за секунди. За замовчуванням -1, що означає
-повернення першого знайденого часового поясу, що відповідає абревіатурі
-`abbr`. Інакше буде здійснено пошук часового поясу з
-заданим усуненням. Якщо пошук завершиться невдачею, буде повернено
-найближчий до усунення часовий пояс.
+
+Зміщення щодо GMT за секунди. За замовчуванням -1, що означає повернення першого знайденого часового поясу, що відповідає абревіатурі `abbr`. В іншому випадку буде здійснено пошук часового поясу із заданим усуненням. Якщо пошук завершиться невдачею, буде повернено найближчий часовий пояс.
 
 `isDST`
-Виправлення на літній час. За замовчуванням -1, у цьому випадку виправлення на
-літній час не враховується. Якщо передано 1, усунення `utcOffset`
-враховує чинний літній час. Якщо заданий 0, `utcOffset`
-розраховується з урахуванням зимового часу. Якщо `abbr` не існує,
-визначення часового поясу спирається тільки на `utcOffset` та `isDST`.
+
+Виправлення на літній час. За замовчуванням -1, у цьому випадку виправлення на літній час не враховується. Якщо передано 1, усунення `utcOffset` враховує літній час, що діє. Якщо заданий 0, `utcOffset` розраховується з урахуванням зимового часу. Якщо `abbr` не існує, визначення часового поясу спирається тільки на `utcOffset` і `isDST`
 
 ### Значення, що повертаються
 
-Повертає ім'я часового поясу або **`false`** у разі виникнення
-помилки.
+Повертає ім'я часового поясу або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **timezone_name_from_abbr()****
+**Приклад #1 Приклад використання **timezonenamefromabbr()****
 
-`<?phpecho timezone_name_from_abbr("CET") . "
-";echo timezone_name_from_abbr("", 3600, 0) . "
-";?> `
+```php
+<?php
+echo timezone_name_from_abbr("CET") . "\n";
+echo timezone_name_from_abbr("", 3600, 0) . "\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Europe/Berlin
 Europe/Paris
+```
 
 ### Дивіться також
 
-- [timezone_abbreviations_list()](function.timezone-abbreviations-list.md) -
-Псевдонім DateTimeZone::listAbbreviations
+-   [timezoneabbreviationslist()](function.timezone-abbreviations-list.md) - Псевдонім DateTimeZone::listAbbreviations

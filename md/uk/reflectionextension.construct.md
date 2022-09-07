@@ -1,42 +1,48 @@
-- [« ReflectionExtension::\_\_clone](reflectionextension.clone.md)
-- [ReflectionExtension::export »](reflectionextension.export.md)
-
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Створює об'єкт класу ReflectionExtension
-
-# ReflectionExtension::\_\_construct
+---
+navigation:
+  - reflectionextension.clone.md: '« ReflectionExtension::clone'
+  - reflectionextension.export.md: 'ReflectionExtension::export »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::construct'
+---
+# ReflectionExtension::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionExtension::\_\_construct — Створює об'єкт класу
-ReflectionExtension
+ReflectionExtension::construct — Створює об'єкт класу ReflectionExtension
 
 ### Опис
 
-public **ReflectionExtension::\_\_construct**(string `$name`)
+public **ReflectionExtension::construct**(string `$name`
 
-Створює об'єкт (object) класу
-[ReflectionExtension](class.reflectionextension.md).
+Створює об'єкт (object) класу [ReflectionExtension](class.reflectionextension.md)
 
 ### Список параметрів
 
 `name`
+
 Ім'я модуль.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[ReflectionExtension](class.reflectionextension.md)**
+**Приклад #1 Приклад використання [ReflectionExtension](class.reflectionextension.md)**
 
-` <?php$ext = new ReflectionExtension('Reflection');printf('Модуль: %s (версія: %s)', $ext->getName(), $ext->getVersion());?> `
+```php
+<?php
+$ext = new ReflectionExtension('Reflection');
+
+printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVersion());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Модуль: Reflection (версія: $ Revision $)
+```
+Модуль: Reflection (версия: $Revision$)
+```
 
 ### Дивіться також
 
-- [ReflectionExtension::info()](reflectionextension.info.md) - Висновок
-інформації про модуль
-- [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)
+-   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

@@ -1,25 +1,26 @@
-- [« Установка](yac.installation.md)
-- [Типи ресурсів»](yac.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yac.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - yac.installation.md: « Установка
+  - yac.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - yac.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
-
-| Ім'я За замовчуванням                                                     | Місце зміни | Список змін    |
-| ------------------------------------------------------------------------- | ----------- | -------------- |
-| [yac.compress_threshold](yac.configuration.md#ini.yac.compress-threshold) | -1          | PHP_INI_SYSTEM |
-| [yac.debug](yac.configuration.md#ini.yac.debug)                           | 0           | PHP_INI_ALL    |
-| [yac.enable](yac.configuration.md#ini.yac.enable)                         | 1           | PHP_INI_SYSTEM |
-| [yac.enable_cli](yac.configuration.md#ini.yac.enable-cli)                 | 0           | PHP_INI_SYSTEM |
-| [yac.keys_memory_size](yac.configuration.md#ini.yac.keys-memory-size)     | 4M          | PHP_INI_SYSTEM |
-| [yac.serializer](yac.configuration.md#ini.yac.serializer)                 | php         | PHP_INI_SYSTEM |
-| [yac.values_memory_size](yac.configuration.md#ini.yac.values-memory-size) | 64M         | PHP_INI_SYSTEM |
+Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Yac**
+
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [yac.compressthreshold](yac.configuration.md#ini.yac.compress-threshold) |  | PHPINISYSTEM |  |
+| [yac.debug](yac.configuration.md#ini.yac.debug) |  | PHPINIALL |  |
+| [yac.enable](yac.configuration.md#ini.yac.enable) |  | PHPINISYSTEM |  |
+| [yac.enablecli](yac.configuration.md#ini.yac.enable-cli) |  | PHPINISYSTEM |  |
+| [yac.keysmemorysize](yac.configuration.md#ini.yac.keys-memory-size) | ЧС | PHPINISYSTEM |  |
+| [yac.serializer](yac.configuration.md#ini.yac.serializer) | php | PHPINISYSTEM |  |
+| [yac.valuesmemorysize](yac.configuration.md#ini.yac.values-memory-size) | 64M | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

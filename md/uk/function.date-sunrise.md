@@ -1,121 +1,126 @@
-- [«date_sun_info](function.date-sun-info.md)
-- [date_sunset »](function.date-sunset.md)
-
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Повертає час світанку для заданого дня та місця розташування
-
-# date_sunrise
+---
+navigation:
+  - function.date-sun-info.md: « datesuninfo
+  - function.date-sunset.md: datesunset »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datesunrise
+---
+# datesunrise
 
 (PHP 5, PHP 7, PHP 8)
 
-date_sunrise — Повертає час світанку для заданих днів та
-розташування
+datesunrise — Повертає час світанку для заданого дня та місця розташування
 
 **Увага**
 
-Функція оголошена *УСТАРНІЙ*, починаючи з PHP 8.1.0. Використати цю
-функцію не рекомендується.
+Функція оголошена *Застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**date_sunrise**(
-int `$timestamp`,
-int `$returnFormat` = **`SUNFUNCS_RET_STRING`**,
-?float `$latitude` = **`null`**,
-?float `$longitude` = **`null`**,
-?float `$zenith` = **`null`**,
-?float `$utcOffset` = **`null`**
-): string\|int\|float\|false
+```methodsynopsis
+date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRING,    ?float $latitude = null,    ?float $longitude = null,    ?float $zenith = null,    ?float $utcOffset = null): string|int|float|false
+```
 
-**date_sunrise()** повертає час світанку для певних днів
-(заданого аргументом `timestamp`) та розташування.
+**datesunrise()** повертає час світанку для певних днів (заданого аргументом `timestamp`) та місця розташування.
 
 ### Список параметрів
 
 `timestamp`
-Тимчасова мітка (`timestamp`) дня, для якого визначається час
-світанку.
+
+Тимчасова мітка (`timestamp`) Дня, для якого визначається час світанку.
 
 `returnFormat`
-| константа опис         | приклад                                               |             |
-| ---------------------- | ----------------------------------------------------- | ----------- |
-| SUNFUNCS_RET_STRING    | тип результату, що повертається string                | 16:46       |
-| SUNFUNCS_RET_DOUBLE    | тип результату, що повертається float                 | 16.78243132 |
-| SUNFUNCS_RET_TIMESTAMP | тип результату, що повертається int (тимчасова мітка) | 1095034606  |
 
 **Константи `returnFormat`**
 
+| константа | описание | пример |
+| --- | --- | --- |
+| SUNFUNCSRETSTRING | тип результату, що повертається string |  |
+| SUNFUNCSRETDOUBLE | тип повертається результату float |  |
+| SUNFUNCSRETTIMESTAMP | тип повертається результату int (тимчасова мітка) |  |
+
 `latitude`
-За замовчуванням у Північній півкулі для Південної передається негативна
-величина. Дивіться також
-[date.default_latitude](datetime.configuration.md#ini.date.default-latitude).
+
+За замовчуванням у Північній півкулі для Південної передається негативна величина. Дивіться також [date.defaultlatitude](datetime.configuration.md#ini.date.default-latitude)
 
 `longitude`
-За умовчанням східна для вказівки західної довготи передається
-від'ємна величина. Дивіться також
-[date.default_longitude](datetime.configuration.md#ini.date.default-longitude).
+
+За замовчуванням східна для вказівки західної довготи передається негативна величина. Дивіться також [date.defaultlongitude](datetime.configuration.md#ini.date.default-longitude)
 
 `zenith`
-`zenith` - це кут між центром Сонця та лінією, перпендикулярною
-Землі поверхні. За замовчуванням
-[date.sunrise_zenith](datetime.configuration.md#ini.date.sunrise-zenith)
 
-| Кут       | Опис                                                                                   |
-| --------- | -------------------------------------------------------------------------------------- |
-| 90 ° 50 ' | Схід сонця: точка, де Сонце стає видимим.                                              |
-| 96°       | Цивільні сутінки: зазвичай використовуються для позначення початку світанку.           |
-| 102°      | Навігаційні сутінки: точка, в якій обрій стає видимим з моря.                          |
-| 108 °     | Астрономічні сутінки: точка, в якій Сонце починає бути джерелом будь-якого освітлення. |
+`zenith` - це кут між центром Сонця та лінією, перпендикулярної поверхні Землі. За замовчуванням [date.sunrisezenith](datetime.configuration.md#ini.date.sunrise-zenith)
 
 **Поширені кути `zenith` angles**
 
+| Угол | Описание |
+| --- | --- |
+|  | Схід сонця: точка, де Сонце стає видимим. |
+|  | Цивільні сутінки: зазвичай використовуються для позначення початку світанку. |
+|  | Навігаційні сутінки: точка, в якій обрій стає видимим з моря. |
+|  | Астрономічний сутінки: точка, в якій Сонце починає бути джерелом будь-якого освітлення. |
+
 `utcOffset`
-Задається в годиннику. `utcOffset` ігнорується, якщо `returnFormat` -
-**`SUNFUNCS_RET_TIMESTAMP`**
+
+Задається в годиннику . `utcOffset` ігнорується, якщо `returnFormat` **`SUNFUNCS_RET_TIMESTAMP`**
 
 ### Значення, що повертаються
 
-Повертає час сходу сонця у заданому форматі `returnFormat` або
-**`false`** у разі виникнення помилки. Одна з можливих причин
-невдалого виконання - сонце не піднімається над обрієм взагалі, що
-відбувається усередині полярних кіл протягом частини року.
+Повертає час сходу сонця у заданому форматі `returnFormat` або **`false`** у разі виникнення помилки. Одна з можливих причин невдалого виконання – сонце не піднімається над обрієм взагалі, що відбувається всередині полярних кіл протягом частини року.
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях
-часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий
-пояс некоректний. Дивіться також
-[date_default_timezone_set()](function.date-default-timezone-set.md)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.md)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Функція оголошена застарілою, використовуйте разом [date_sun_info()](function.date-sun-info.md). |
-| 8.0.0  | latitude, longitude, zenith та utcOffset тепер допускають значення null.                         |
+| Версия | Описание |
+| --- | --- |
+|  | Функція оголошена застарілою, використовуйте її разом [datesuninfo()](function.date-sun-info.md) |
+|  | `latitude` `longitude` `zenith` і `utcOffset` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **date_sunrise()****
+**Приклад #1 Приклад використання **datesunrise()****
 
-`<?php/* розрахунок часу сходу сонця в Лісабоні, ПортугаліяLatitude: 38.4 NorthLongitude: 9 WestZenith ~= 90offset: +1 GMT*/ech   ', час сходу сонця : ' .date_sunrise(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);?> `
+```php
+<?php
+
+/* расчёт времени восхода солнца в Лиссабоне, Португалия
+Latitude: 38.4 North
+Longitude: 9 West
+Zenith ~= 90
+offset: +1 GMT
+*/
+
+echo date("D M d Y"). ', время восхода солнца : ' .date_sunrise(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Mon Dec 20 2004, час сходу сонця : 08:54
+```
+Mon Dec 20 2004, время восхода солнца : 08:54
+```
 
 **Приклад #2 Немає сходу сонця**
 
-` <?php$solstice = strtotime('2017-12-21');var_dump(date_sunrise($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));?> `
+```php
+<?php
+$solstice = strtotime('2017-12-21');
+var_dump(date_sunrise($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
+```
 
 ### Дивіться також
 
-- [date_sunset()](function.date-sunset.md) - Повертає час заходу
-сонця для заданих дня та місця розташування
-- [date_sun_info()](function.date-sun-info.md) - Повертає масив з
-інформацією про захід сонця/світанок і початок/закінчення сутінків
+-   [datesunset()](function.date-sunset.md) - Повертає час заходу сонця для заданого дня та місця розташування
+-   [datesuninfo()](function.date-sun-info.md) - Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків

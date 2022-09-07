@@ -1,33 +1,31 @@
-- [« ibase_commit_ret](function.ibase-commit-ret.md)
-- [ibase_connect »](function.ibase-connect.md)
+---
+navigation:
+  - function.ibase-commit-ret.md: « ibasecommitret
+  - function.ibase-connect.md: ibaseconnect »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasecommit
+---
+# ibasecommit
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Фіксує транзакцію
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_commit
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_commit - Фіксує транзакцію
+ibasecommit - Фіксує транзакцію
 
 ### Опис
 
-**ibase_commit**(resource `$link_or_trans_identifier` = **`null`**):
-bool
+```methodsynopsis
+ibase_commit(resource $link_or_trans_identifier = null): bool
+```
 
 Фіксує транзакцію.
 
 ### Список параметрів
 
 `link_or_trans_identifier`
-Якщо викликається без аргументу, функція фіксує транзакцію за промовчанням
-для посилання за замовчуванням. Якщо аргумент – ідентифікатор з'єднання,
-транзакція за замовчуванням відповідного з'єднання буде зафіксована.
-Якщо аргумент – ідентифікатор транзакції, відповідна транзакція
-буде зафіксовано.
+
+Якщо викликається без аргументу, функція фіксує транзакцію за промовчанням для посилання за промовчанням. Якщо аргумент є ідентифікатором з'єднання, транзакція за промовчанням відповідного з'єднання буде зафіксована. Якщо аргумент є ідентифікатором транзакції, відповідна транзакція буде зафіксована.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

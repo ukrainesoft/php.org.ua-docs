@@ -1,80 +1,91 @@
-- [«array_rand](function.array-rand.md)
-- [array_replace_recursive »](function.array-replace-recursive.md)
+---
+navigation:
+  - function.array-rand.md: « arrayrand
+  - function.array-replace-recursive.md: arrayreplacerecursive »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayreduce
+---
+# arrayreduce
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Ітеративно зменшує масив до єдиного значення, використовуючи
-callback-функцію
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-#array_reduce
-
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
-
-array_reduce - Ітеративно зменшує масив до єдиного значення,
-використовуючи callback-функцію
+arrayreduce - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
 
 ### Опис
 
-**array_reduce**(array `$array`,
-[callable](language.types.callable.md) `$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` = **`null`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+array_reduce(array $array, callable $callback, mixed $initial = null): mixed
+```
 
-**array_reduce()** ітеративно застосовує callback-функцію `callback` до
-елементам масиву `array` і, таким чином, зводить масив до
-єдиного значення.
+**arrayreduce()** ітеративно застосовує callback-функцію `callback` до елементів масиву `array` і таким чином зводить масив до єдиного значення.
 
 ### Список параметрів
 
 `array`
-Вхідний масив.
+
+Вхідний масив
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$carry`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$item`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+
+```methodsynopsis
+callback(mixed $carry, mixed $item): mixed
+```
 
 `carry`
-Містить результуюче значення попередньої ітерації; у випадку ж
-перша ітерація містить значення параметра `initial`.
+
+Містить результуюче значення попередньої ітерації; у разі першої ітерації містить значення параметра `initial`
 
 `item`
+
 Містить поточну ітерацію.
 
 `initial`
-Якщо переданий необов'язковий параметр initial, то він буде використаний
-на початку процесу, або як остаточний результат у випадку
-порожній масив.
+
+Якщо передано необов'язковий параметр `initial`, то він буде використаний на початку процесу, або як остаточний результат у разі порожнього масиву.
 
 ### Значення, що повертаються
 
 Повертає значення, що вийшло.
 
-Якщо масив порожній і не передано параметр `initial`, **array_reduce()**
-поверне **`null`**.
+Якщо масив порожній і не передано параметр `initial` **arrayreduce()** поверне **`null`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Якщо параметр callback очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня ** E_WARNING **. |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо параметр `callback` очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня **`E_WARNING`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_reduce()****
+**Приклад #1 Приклад використання **arrayreduce()****
 
-`<?phpfunction sum($carry, $item){   $carry += $item; return $carry;}function product($carry, $item){    $carry *= $item; return $carry;}$a = array(1, 2, 3, 4, 5);$x = array();var_dump(array_reduce($a, "sum")); // int(15)var_dump(array_reduce($a, "product", 10)); // int(1200), тому що: 10*1*2*3*4*5var_dump(array_reduce($x, "sum", "Нет даних")); // string(19) "Немає даних"?> `
+```php
+<?php
+function sum($carry, $item)
+{
+    $carry += $item;
+    return $carry;
+}
+
+function product($carry, $item)
+{
+    $carry *= $item;
+    return $carry;
+}
+
+$a = array(1, 2, 3, 4, 5);
+$x = array();
+
+var_dump(array_reduce($a, "sum")); // int(15)
+var_dump(array_reduce($a, "product", 10)); // int(1200), потому что: 10*1*2*3*4*5
+var_dump(array_reduce($x, "sum", "Нет данных")); // string(19) "Нет данных"
+?>
+```
 
 ### Дивіться також
 
-- [array_filter()](function.array-filter.md) - Фільтрує елементи
-масиву за допомогою callback-функції
-- [array_map()](function.array-map.md) - Застосовує callback-функцію
-до всіх елементів зазначених масивів
-- [array_unique()](function.array-unique.md) - Забирає повторювані
-значення з масиву
-- [array_count_values()](function.array-count-values.md) -
-Підраховує кількість усіх значень масиву
+-   [arrayfilter()](function.array-filter.md) - Фільтрує елементи масиву за допомогою callback-функції
+-   [arraymap()](function.array-map.md) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [arrayunique()](function.array-unique.md) - Прибирає значення, що повторюються, з масиву
+-   [arraycountvalues()](function.array-count-values.md) - підраховує кількість усіх значень масиву

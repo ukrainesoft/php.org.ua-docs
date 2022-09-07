@@ -1,21 +1,22 @@
-- [« Swoole\Http\Client::on](swoole-http-client.on.md)
-- [Swoole\Http\Client::push »](swoole-http-client.push.md)
+---
+navigation:
+  - swoole-http-client.on.md: '« SwooleHttpClient::on'
+  - swoole-http-client.push.md: 'SwooleHttpClient::push »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::post'
+---
+# SwooleHttpClient::post
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Надсилає HTTP-запит POST на віддалений сервер
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::post
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::post — Надсилає HTTP-запит POST на віддалений
-сервер
+SwooleHttpClient::post — Надсилає HTTP-запит POST на віддалений сервер
 
 ### Опис
 
-public **Swoole\Http\Client::post**(string `$path`, string `$data`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Http\Client::post(string $path, string $data, callable $callback): void
+```
 
 ### Список параметрів
 

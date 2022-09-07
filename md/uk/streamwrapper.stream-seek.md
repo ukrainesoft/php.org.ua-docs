@@ -1,77 +1,61 @@
-- [« streamWrapper::stream_read](streamwrapper.stream-read.md)
-- [streamWrapper::stream_set_option »](streamwrapper.stream-set-option.md)
+---
+navigation:
+  - streamwrapper.stream-read.md: '« streamWrapper::streamread'
+  - streamwrapper.stream-set-option.md: 'streamWrapper::streamsetoption »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamseek'
+---
+# streamWrapper::streamseek
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Переміщення на задану позицію у потоці
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# streamWrapper::stream_seek
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-streamWrapper::stream_seek — Переміщення на задану позицію в потоці
+streamWrapper::streamseek — Переміщення на задану позицію у потоці
 
 ### Опис
 
-public **streamWrapper::stream_seek**(int `$offset`, int `$whence` =
-SEEK_SET): bool
+```methodsynopsis
+public streamWrapper::stream_seek(int $offset, int $whence  = SEEK_SET): bool
+```
 
-Цей метод викликається у процесі виконання
-[fseek()](function.fseek.md).
+Цей метод викликається у процесі виконання [fseek()](function.fseek.md)
 
-Позицію читання/запису в потоці необхідно оновлювати відповідно до
-аргументами `offset` та `whence`.
+Позицію читання/запису в потоці необхідно оновлювати відповідно до аргументів `offset` і `whence`
 
 ### Список параметрів
 
 `offset`
+
 Зміщення у потоці, на яке потрібно переміститися.
 
 `whence`
+
 Можливі значення:
 
-- **`SEEK_SET`** - Переміститися на позицію `offset` байт від початку
-файлу.
-- **`SEEK_CUR`** - Переміститися на `offset` байт щодо поточної
-позиції.
-- **`SEEK_END`** - Переміститися на позицію `offset` байт від кінця
-файлу.
+-   **`SEEK_SET`** - Переміститися на позицію `offset` байт з початку файла.
+-   **`SEEK_CUR`** - Переміститися на `offset` байт щодо поточної позиції.
+-   **`SEEK_END`** - Переміститися на позицію `offset` байт від кінця файлу.
 
-> **Примітка**: Поточна реалізація ніколи не встановлює для
-> `whence` значення **`SEEK_CUR`**; натомість такі пошуки внутрішньо
-> перетворюються на пошуки **`SEEK_SET`**.
+> **Зауваження**: Поточна реалізація ніколи не встановлює для `whence` значення **`SEEK_CUR`**; натомість такі пошуки внутрішньо перетворюються на пошуки **`SEEK_SET`**
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо позиція оновлена, **`false`** до інших
-випадках.
+Повертає **`true`**, якщо позиція оновлена, **`false`** в інших випадках.
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо не реалізований, як повертається значення приймається
-> **`false`**.
+> **Зауваження**
+> 
+> Якщо не реалізований, як значення, що повертається, приймається **`false`**
 
-> **Примітка**:
->
-> У разі успішного виконання
-> [streamWrapper::stream_tell()](streamwrapper.stream-tell.md) буде
-> викликана відразу після того, як **streamWrapper::stream_seek()**
-> відпрацює. Якщо виконання
-> [streamWrapper::stream_tell()](streamwrapper.stream-tell.md)
-> завершиться невдачею, то викликаючу функцію буде повернуто значення
-> **`false`**
+> **Зауваження**
+> 
+> У разі успішного виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.md) буде викликано відразу після того, як **streamWrapper::streamseek()** відпрацює. Якщо виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.md) завершиться невдачею, то викликаючу функцію буде повернуто значення **`false`**
 
-> **Примітка**:
->
-> Не всі операції переміщення у потоці призведуть до виклику цієї функції. В
-> PHP за замовчуванням увімкнено буферизацію потоків (дивіться також
-> [stream_set_read_buffer()](function.stream-set-read-buffer.md)),
-> тому переміщення в потоці може означати лише переміщення покажчика
-> у буфері.
+> **Зауваження**
+> 
+> Не всі операції переміщення у потоці призведуть до виклику цієї функції. У PHP за замовчуванням включена буферизація потоків (дивіться також [streamsetreadbuffer()](function.stream-set-read-buffer.md)), тому переміщення в потоці може означати лише переміщення покажчика буфері.
 
 ### Дивіться також
 
-- [fseek()](function.fseek.md) - Встановлює зміщення у файловому
-вказівнику
+-   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику

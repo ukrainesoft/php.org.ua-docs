@@ -1,23 +1,25 @@
-- [« EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.md)
-- [EventHttpRequest::getConnection »](eventhttprequest.getconnection.md)
-
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Повертає команду запиту (метод)
-
+---
+navigation:
+  - eventhttprequest.getbufferevent.md: '« EventHttpRequest::getBufferEvent'
+  - eventhttprequest.getconnection.md: 'EventHttpRequest::getConnection »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::getCommand'
+---
 # EventHttpRequest::getCommand
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
 EventHttpRequest::getCommand — Повертає команду запиту (метод)
 
 ### Опис
 
-public **EventHttpRequest::getCommand**(): void
+```methodsynopsis
+public
+   EventHttpRequest::getCommand(): void
+```
 
-Повертає команду запиту, одну із констант
-[`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
-.
+Повертає команду запиту, одну з констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
 
 ### Список параметрів
 
@@ -25,6 +27,4 @@ public **EventHttpRequest::getCommand**(): void
 
 ### Значення, що повертаються
 
-Повертає команду запиту, одну із констант
-[`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
-.
+Повертає команду запиту, одну з констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)

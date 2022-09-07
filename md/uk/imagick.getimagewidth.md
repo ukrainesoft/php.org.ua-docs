@@ -1,10 +1,11 @@
-- [« Imagick::getImageWhitePoint](imagick.getimagewhitepoint.md)
-- [Imagick::getInterlaceScheme »](imagick.getinterlacescheme.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає ширину зображення
-
+---
+navigation:
+  - imagick.getimagewhitepoint.md: '« Imagick::getImageWhitePoint'
+  - imagick.getinterlacescheme.md: 'Imagick::getInterlaceScheme »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageWidth'
+---
 # Imagick::getImageWidth
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getImageWidth — Повертає ширину зображення
 
 ### Опис
 
-public **Imagick::getImageWidth**(): int
+```methodsynopsis
+public Imagick::getImageWidth(): int
+```
 
 Повертає ширину зображення.
 

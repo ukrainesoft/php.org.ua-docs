@@ -1,25 +1,24 @@
-- [«MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-- [MongoDB\Driver\CursorId::serialize »](mongodb-driver-cursorid.serialize.md)
+---
+navigation:
+  - class.mongodb-driver-cursorid.md: « MongoDBDriverCursorId
+  - mongodb-driver-cursorid.serialize.md: 'MongoDBDriverCursorId::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
+title: 'MongoDBDriverCursorId::construct'
+---
+# MongoDBDriverCursorId::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-- Створює новий об'єкт CursorId (не використовується)
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\CursorId::\_\_construct
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\CursorId::\_\_construct - Створює новий об'єкт CursorId
-(не використовується)
+MongoDBDriverCursorId::construct — Створює новий об'єкт CursorId (не використовується)
 
 ### Опис
 
-final private **MongoDB\Driver\CursorId::\_\_construct**()
+```methodsynopsis
+final private MongoDB\Driver\CursorId::__construct()
+```
 
-Об'єкти [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-повертаються з
-[MongoDB\Driver\Cursor::getId()](mongodb-driver-cursor.getid.md) і не
-можуть бути створені безпосередньо.
+Об'єкти [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md) повертаються з [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -27,5 +26,4 @@ final private **MongoDB\Driver\CursorId::\_\_construct**()
 
 ### Дивіться також
 
-- [MongoDB\Driver\Cursor::getId()](mongodb-driver-cursor.getid.md) -
-Повертає ідентифікатор для курсору
+-   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) - Повертає ідентифікатор для курсору

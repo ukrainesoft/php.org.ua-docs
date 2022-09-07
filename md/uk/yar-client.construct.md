@@ -1,43 +1,48 @@
-- [«Yar_Client::\_\_call](yar-client.call.md)
-- [Yar_Client::setOpt »](yar-client.setopt.md)
+---
+navigation:
+  - yar-client.call.md: '« YarClient::call'
+  - yar-client.setopt.md: 'YarClient::setOpt »'
+  - index.md: PHP Manual
+  - class.yar-client.md: YarClient
+title: 'YarClient::construct'
+---
+# YarClient::construct
 
-- [PHP Manual](index.md)
-- [Yar_Client](class.yar-client.md)
-- Конструктор Yar_Client
+(PECL yar >= 1.0.0)
 
-# Yar_Client::\_\_construct
-
-(PECL yar \> = 1.0.0)
-
-Yar_Client::\_\_construct - Конструктор Yar_Client
+YarClient::construct — Конструктор YarClient
 
 ### Опис
 
-final public **Yar_Client::\_\_construct**(string `$url`, array
-`$options` = ?)
+```methodsynopsis
+final public Yar_Client::__construct(string $url, array $options = ?)
+```
 
-Створює [Yar_Client](class.yar-client.md) для
-[Yar_Server](class.yar-server.md).
+Створює [YarClient](class.yar-client.md) для [YarServer](class.yar-server.md)
 
 ### Список параметрів
 
 `url`
+
 URL сервера Yar.
 
 ### Значення, що повертаються
 
-Об'єкт класу [Yar_Client](class.yar-client.md).
+Об'єкт класу [YarClient](class.yar-client.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Client::\_\_construct()****
+**Приклад #1 Приклад використання **YarClient::construct()****
 
-` <?php$client = new Yar_Client("http://host/api/");?> `
+```php
+<?php
+$client = new Yar_Client("http://host/api/");
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [Yar_Client::\_\_call()](yar-client.call.md) - Виклик сервісу
-- [Yar_Client::setOpt()](yar-client.setopt.md) - Задати контекст
-виклику
+-   [YarClient::call()](yar-client.call.md) - Виклик сервісу
+-   [YarClient::setOpt()](yar-client.setopt.md) - Задати контекст виклику

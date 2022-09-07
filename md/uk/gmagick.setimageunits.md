@@ -1,29 +1,30 @@
-- [«Gmagick::setimagetype](gmagick.setimagetype.md)
-- [Gmagick::setimagewhitepoint »](gmagick.setimagewhitepoint.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює одиниці роздільної здатності зображення
-
+---
+navigation:
+  - gmagick.setimagetype.md: '« Gmagick::setimagetype'
+  - gmagick.setimagewhitepoint.md: 'Gmagick::setimagewhitepoint »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageunits'
+---
 # Gmagick::setimageunits
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimageunits — Встановлює одиниці роздільної здатності зображення
 
 ### Опис
 
-public **Gmagick::setimageunits**(int `$resolution`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageunits(int $resolution): Gmagick
+```
 
 Встановлює одиниці роздільної здатності зображення.
 
 ### Список параметрів
 
 `resolution`
-Одна з констант
-[дозвіл](gmagick.constants.md#gmagick.constants.resolution)
-(`Gmagick::RESOLUTION_*`).
+
+Одна з констант [разрешения](gmagick.constants.md#gmagick.constants.resolution) `Gmagick::RESOLUTION_*`
 
 ### Значення, що повертаються
 

@@ -1,63 +1,73 @@
-- [«Locale](class.locale.md)
-- [Locale::canonicalize »](locale.canonicalize.md)
-
-- [PHP Manual](index.md)
-- [Locale](class.locale.md)
-- Спробувати визначити найкращу локаль на основі заголовку HTTP
-"Accept-Language"
-
+---
+navigation:
+  - class.locale.md: « Locale
+  - locale.canonicalize.md: 'Locale::canonicalize »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::acceptFromHttp'
+---
 # Locale::acceptFromHttp
 
-#local_accept_from_http
+# localeacceptfromhttp
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::acceptFromHttp -- locale_accept_from_http — Спробувати
-визначити найкращу локаль на основі заголовку HTTP
-"Accept-Language"
+Locale::acceptFromHttp -- localeacceptfromhttp — Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public static **Locale::acceptFromHttp**(string `$header`):
-string\|false
+```methodsynopsis
+public static Locale::acceptFromHttp(string $header): string|false
+```
 
 Процедурний стиль
 
-**locale_accept_from_http**(string `$header`): string\|false
+```methodsynopsis
+locale_accept_from_http(string $header): string|false
+```
 
-Намагається визначити локаль, що відповідає списку мов, запрошеному
-у HTTP-заголовку "Accept-Language".
+Намагається визначити локаль, що відповідає списку мов, запрошеному в HTTP-заголовку "Accept-Language".
 
 ### Список параметрів
 
 `header`
-Рядок, що містить заголовок "Accept-Language" відповідно до формату
-RFC 2616.
+
+Рядок, що містить заголовок "Accept-Language" відповідно до формату RFC 2616.
 
 ### Значення, що повертаються
 
 Ідентифікатор локалі.
 
-Повертає **`false`**, якщо довжина `header` перевищує
-**`INTL_MAX_LOCALE_LEN`**.
+Повертає \*\*`false`\*\*якщо довжина `header` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **locale_accept_from_http()****
+**Приклад #1 Приклад використання **localeacceptfromhttp()****
 
-` <?php$locale = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);echo $locale;?> `
+```php
+<?php
+$locale = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
+echo $locale;
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$locale = Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']);echo $locale;?> `
+```php
+<?php
+$locale = Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']);
+echo $locale;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 en_US
+```
 
 ### Дивіться також
 
-- [locale_lookup()](locale.lookup.md) - Пошук мовних позначок
-найбільш відповідних заданої локалі
+-   [localelookup()](locale.lookup.md) - Пошук мовних позначок найбільш відповідних заданої локалі

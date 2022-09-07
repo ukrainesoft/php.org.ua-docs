@@ -1,19 +1,22 @@
-- [« Yaf_Application::getLastErrorMsg](yaf-application.getlasterrormsg.md)
-- [Yaf_Application::getModules »](yaf-application.getmodules.md)
+---
+navigation:
+  - yaf-application.getlasterrormsg.md: '« YafApplication::getLastErrorMsg'
+  - yaf-application.getmodules.md: 'YafApplication::getModules »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
+title: 'YafApplication::getLastErrorNo'
+---
+# YafApplication::getLastErrorNo
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Отримати код останньої помилки
+(Yaf> = 2.1.2)
 
-# Yaf_Application::getLastErrorNo
-
-(Yaf \> = 2.1.2)
-
-Yaf_Application::getLastErrorNo — Отримати код останньої помилки
+YafApplication::getLastErrorNo — Отримати код останньої помилки
 
 ### Опис
 
-public **Yaf_Application::getLastErrorNo**(): int
+```methodsynopsis
+public Yaf_Application::getLastErrorNo(): int
+```
 
 ### Список параметрів
 
@@ -23,11 +26,33 @@ public **Yaf_Application::getLastErrorNo**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Application::getLastErrorNo()****
+**Приклад #1 Приклад використання **YafApplication::getLastErrorNo()****
 
-` <?phpfunction error_handler($errno, $errstr, $errfile, $errline) {   var_dump(Yaf_Application::app()->getLastErrorNo()); var_dump(Yaf_Application::app()->getLastErrorNo() ==YAF_ERR_NOTFOUND_CONTROLLER);}$config = array( "application" => array(   "directory" => "/t "throwException" => 0, //викликати помилку замість виключення      ),  ),);$app = new Yaf_Application($config);$app->getDispatcher()->setErrorHandler$" >run();?> `
+```php
+<?php
+function error_handler($errno, $errstr, $errfile, $errline) {
+   var_dump(Yaf_Application::app()->getLastErrorNo());
+   var_dump(Yaf_Application::app()->getLastErrorNo() == YAF_ERR_NOTFOUND_CONTROLLER);
+}
+
+$config = array(
+  "application" => array(
+   "directory" => "/tmp/notexists",
+     "dispatcher" => array(
+       "throwException" => 0, //вызывать ошибку вместо исключения
+      ),
+  ),
+);
+
+$app = new Yaf_Application($config);
+$app->getDispatcher()->setErrorHandler("error_handler", E_RECOVERABLE_ERROR);
+$app->run();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(516)
 bool(true)
+```

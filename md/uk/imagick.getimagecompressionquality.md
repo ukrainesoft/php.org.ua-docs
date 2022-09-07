@@ -1,20 +1,22 @@
-- [« Imagick::getImageCompression](imagick.getimagecompression.md)
-- [Imagick::getImageDelay »](imagick.getimagedelay.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає поточну якість стиснення зображення
-
+---
+navigation:
+  - imagick.getimagecompression.md: '« Imagick::getImageCompression'
+  - imagick.getimagedelay.md: 'Imagick::getImageDelay »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageCompressionQuality'
+---
 # Imagick::getImageCompressionQuality
 
-(PECL imagick 2 \>= 2.2.2, PECL imagick 3)
+(PECL imagick 2> = 2.2.2, PECL imagick 3)
 
-Imagick::getImageCompressionQuality — Повертає поточну якість стиснення
-зображення
+Imagick::getImageCompressionQuality — Повертає поточну якість стиснення зображення
 
 ### Опис
 
-public **Imagick::getImageCompressionQuality**(): int
+```methodsynopsis
+public Imagick::getImageCompressionQuality(): int
+```
 
 Отримує поточну якість стиснення зображення
 

@@ -1,52 +1,78 @@
-- [«oci_field_size](function.oci-field-size.md)
-- [oci_field_type »](function.oci-field-type.md)
+---
+navigation:
+  - function.oci-field-size.md: « ocifieldsize
+  - function.oci-field-type.md: ocifieldtype »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifieldtyperaw
+---
+# ocifieldtyperaw
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає вихідний тип поля Oracle
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_field_type_raw
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_field_type_raw — Повертає вихідний тип поля Oracle
+ocifieldtyperaw — Повертає вихідний тип поля Oracle
 
 ### Опис
 
-**oci_field_type_raw**(resource `$statement`, string\|int `$column`):
-int\|false
+```methodsynopsis
+oci_field_type_raw(resource $statement, string|int $column): int|false
+```
 
-Повертає тип "SQLT" Oracle поля `column`.
+Повертає тип "SQLT" Oracle поля `column`
 
-Якщо ви бажаєте отримати тип поля, то
-[oci_field_type()](function.oci-field-type.md) підійде вам більше.
+Якщо ви бажаєте отримати тип поля, то [ocifieldtype()](function.oci-field-type.md) підійде вам більше.
 
 ### Список параметрів
 
 `statement`
+
 Ідентифікатор допустимого запиту OCI.
 
 `column`
+
 Може бути номер поля (нумерація починається з 1) або ім'ям.
 
 ### Значення, що повертаються
 
-Повертає вихідний тип Oracle у вигляді числа або **`false`** у випадку
-виникнення помилки.
+Повертає вихідний тип Oracle у вигляді числа або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_field_type_raw()****
+**Приклад #1 Приклад використання **ocifieldtyperaw()****
 
-`<?php// Створити таблицю://   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1), clob_col CLOB, date_col DATE);$conn = oci ;if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, 'select * from mytab');oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$n = oci_num_fields($stid);for ($i = 1; $i <= $n; ++$i) {     " - вихідний тип: " . oci_field_type_raw($stid, $i) . "<br>
-";}// Выведет://    NUMBER_COL - исходный тип: 2//    VARCHAR2_COL - исходный тип: 1//    CLOB_COL - исходный тип: 112//    DATE_COL - исходный тип: 12oci_free_statement($stid);oci_close($conn); ?> `
+```php
+<?php
+
+// Создать таблицу:
+//   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1), clob_col CLOB, date_col DATE);
+
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'select * from mytab');
+oci_execute($stid, OCI_DESCRIBE_ONLY);  // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+$n = oci_num_fields($stid);
+for ($i = 1; $i <= $n; ++$i) {
+    echo oci_field_name($stid, $i) . " - исходный тип: " . oci_field_type_raw($stid, $i) . "<br>\n";
+}
+
+// Выведет:
+//    NUMBER_COL - исходный тип: 2
+//    VARCHAR2_COL - исходный тип: 1
+//    CLOB_COL - исходный тип: 112
+//    DATE_COL - исходный тип: 12
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У версіях PHP нижче 5.0.0 ця функція називалася
-> [ocicolumntyperaw()](function.ocicolumntyperaw.md). У PHP 5.0.0 та
-> вище [ocicolumntyperaw()](function.ocicolumntyperaw.md) є
-> аліасом **oci_field_type_raw()**, тому ви можете продовжувати
-> використовувати це ім'я, але це не рекомендується.
+> **Зауваження**
+> 
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumntyperaw()](function.ocicolumntyperaw.md). У PHP 5.0.0 і вище [ocicolumntyperaw()](function.ocicolumntyperaw.md) є аліасом \*\*ocifieldtyperaw()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

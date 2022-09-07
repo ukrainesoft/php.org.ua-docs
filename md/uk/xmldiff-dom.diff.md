@@ -1,31 +1,33 @@
-- [« XMLDiff\DOM](class.xmldiff-dom.md)
-- [XMLDiff\DOM::merge »](xmldiff-dom.merge.md)
+---
+navigation:
+  - class.xmldiff-dom.md: « XMLDiffDOM
+  - xmldiff-dom.merge.md: 'XMLDiffDOM::merge »'
+  - index.md: PHP Manual
+  - class.xmldiff-dom.md: XMLDiffDOM
+title: 'XMLDiffDOM::diff'
+---
+# XMLDiffDOM::diff
 
-- [PHP Manual](index.md)
-- [XMLDiff\DOM](class.xmldiff-dom.md)
-- Пошук відмінностей у двох об'єктах DOMDocument
+(PECL xmldiff >= 0.8.0)
 
-# XMLDiff\DOM::diff
-
-(PECL xmldiff \>= 0.8.0)
-
-XMLDiff\DOM::diff — Пошук відмінностей у двох об'єктах DOMDocument
+XMLDiffDOM::diff — Пошук відмінностей у двох об'єктах DOMDocument
 
 ### Опис
 
-public **XMLDiff\DOM::diff**([DOMDocument](class.domdocument.md)
-`$from`, [DOMDocument](class.domdocument.md) `$to`):
-[DOMDocument](class.domdocument.md)
+```methodsynopsis
+public XMLDiff\DOM::diff(DOMDocument $from, DOMDocument $to): DOMDocument
+```
 
-Шукає відмінності у двох об'єктах DOMDocument та повертає новий об'єкт,
-містить ці відмінності.
+Шукає відмінності у двох об'єктах DOMDocument та повертає новий об'єкт, що містить ці відмінності.
 
 ### Список параметрів
 
 `from`
+
 Вихідний об'єкт DOMDocument.
 
 `to`
+
 Об'єкт DOMDocument, з яким проводиться порівняння.
 
 ### Значення, що повертаються

@@ -1,43 +1,39 @@
-- [« mcrypt_module_is_block_algorithm](function.mcrypt-module-is-block-algorithm.md)
-- [mcrypt_module_open »](function.mcrypt-module-open.md)
+---
+navigation:
+  - function.mcrypt-module-is-block-algorithm.md: « mcryptmoduleісblockalgorithm
+  - function.mcrypt-module-open.md: mcryptmoduleopen »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmoduleісblockmode
+---
+# mcryptmoduleісblockmode
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Перевірити, чи повертає зазначений режим дані блоками чи ні
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_module_is_block_mode
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_module_is_block_mode — Перевірити, чи повертається вказаний режим
-дані блоками чи ні
+mcryptmoduleісblockmode — Перевірити, чи вказаний режим повертає дані блоками.
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_module_is_block_mode**(string `$mode`, string `$lib_dir` = ?):
-bool
+```methodsynopsis
+mcrypt_module_is_block_mode(string $mode, string $lib_dir = ?): bool
+```
 
-Функція повертає **`true`**, якщо дані повертаються блоками та
-**`false`**, якщо побайтно. (тобто **`true`** для cbc та ecb, та
-**`false`** для cfb та потоку).
+Функція повертає **`true`**, якщо дані повертаються блоками та \*\*`false`\*\*якщо побайтно. (тобто **`true`** для cbc та ecb, та **`false`** для cfb та потоку).
 
 ### Список параметрів
 
 `mode`
-Одна з констант **`MCRYPT_MODE_modename`**, або одна з наступних
-рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
+
+Одна з констант **`MCRYPT_MODE_modename`**, або один з наступних рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
 
 `lib_dir`
-Опціональний параметр `lib_dir`, в якому можна вказати директорію,
-містить модуль алгоритму.
+
+Опціональний параметр `lib_dir`, В якому можна вказати директорію, що містить модуль алгоритму.
 
 ### Значення, що повертаються
 
-Функція повертає **`true`**, якщо дані повертаються блоками та
-**`false`** якщо побайтно. (тобто **`true`** для cbc та ecb, та
-**`false`** для cfb та потоку).
+Функція повертає **`true`**, якщо дані повертаються блоками та **`false`** якщо побайтно. (тобто **`true`** для cbc та ecb, та **`false`** для cfb та потоку).

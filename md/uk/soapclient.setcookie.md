@@ -1,42 +1,45 @@
-- [« SoapClient::\_\_getTypes](soapclient.gettypes.md)
-- [SoapClient::\_\_setLocation »](soapclient.setlocation.md)
+---
+navigation:
+  - soapclient.gettypes.md: '« SoapClient::getTypes'
+  - soapclient.setlocation.md: 'SoapClient::setLocation »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::setCookie'
+---
+# SoapClient::setCookie
 
-- [PHP Manual](index.md)
-- [SoapClient](class.soapclient.md)
-- Встановлює cookie для запитів SOAP
+(PHP 5> = 5.0.4, PHP 7, PHP 8)
 
-# SoapClient::\_\_setCookie
-
-(PHP 5 \>= 5.0.4, PHP 7, PHP 8)
-
-SoapClient::\_\_setCookie — Встановлює cookie для запитів SOAP
+SoapClient::setCookie — Встановлює cookie для запитів SOAP
 
 ### Опис
 
-public **SoapClient::\_\_setCookie**(string `$name`, ?string `$value` =
-**`null`**): void
+```methodsynopsis
+public SoapClient::__setCookie(string $name, ?string $value = null): void
+```
 
 Визначає cookie, які будуть надіслані із SOAP-запитами.
 
-> **Примітка**:
->
-> Виклик цього методу вплине на всі наступні виклики методів
-> [SoapClient](class.soapclient.md).
+> **Зауваження**
+> 
+> Виклик цього методу вплине на всі наступні виклики методів [SoapClient](class.soapclient.md)
 
 ### Список параметрів
 
 `name`
+
 Ім'я cookie.
 
 `value`
+
 Значення cookie. Якщо не вказано, cookie буде видалено.
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                |
-| ------ | ----------------------------------- |
-| 8.0.0  | value тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `value` тепер допускає значення null. |

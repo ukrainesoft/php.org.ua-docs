@@ -1,40 +1,34 @@
-- [« Yaf_Route_Rewrite::assemble](yaf-route-rewrite.assemble.md)
-- [Yaf_Route_Rewrite::route »](yaf-route-rewrite.route.md)
+---
+navigation:
+  - yaf-route-rewrite.assemble.md: '« YafRouteRewrite::assemble'
+  - yaf-route-rewrite.route.md: 'YafRouteRewrite::route »'
+  - index.md: PHP Manual
+  - class.yaf-route-rewrite.md: YafRouteRewrite
+title: 'YafRouteRewrite::construct'
+---
+# YafRouteRewrite::construct
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Rewrite](class.yaf-route-rewrite.md)
-- Конструктор класу Yaf_Route_Rewrite
+(Yaf >=1.0.0)
 
-# Yaf_Route_Rewrite::\_\_construct
-
-(Yaf \>=1.0.0)
-
-Yaf_Route_Rewrite::\_\_construct - Конструктор класу Yaf_Route_Rewrite
+YafRouteRewrite::construct - Конструктор класу YafRouteRewrite
 
 ### Опис
 
-public **Yaf_Route_Rewrite::\_\_construct**(string `$match`, array
-`$route`, array `$verify` = ?)
+public **YafRouteRewrite::construct**(string `$match`, array `$route`, array `$verify`
 
 ### Список параметрів
 
 `match`
-Шаблон, який буде використовуватися для порівняння запиту URI, якщо
-він не збігається, [Yaf_Route_Rewrite](class.yaf-route-rewrite.md)
-поверне **`false`**.
 
-Ви можете використовувати: стиль імені для іменування співпадаючих сегментів
-та використовувати \* для відповідності іншим сегментам URL.
+Шаблон, який буде використовуватися для порівняння запиту URI, якщо він не збігається, [YafRouteRewrite](class.yaf-route-rewrite.md) поверне **`false`**
+
+Ви можете використовувати: стиль імені для іменування збігаються сегментів і використовувати для відповідності іншим сегментам URL.
 
 `route`
-Коли шаблон збігу відповідає запиту uri,
-[Yaf_Route_Rewrite](class.yaf-route-rewrite.md) буде використовувати
-це, щоб вирішити, який модуль/контролер/дія є пунктом
-призначення.
 
-Будь-який модуль/контролер/дія в цьому масиві не є
-обов'язковим, якщо ви не призначите конкретного значення, воно буде
-перенаправлено на значення за промовчанням.
+Коли шаблон збігу відповідає запиту uri, [YafRouteRewrite](class.yaf-route-rewrite.md) використовуватиме це, щоб вирішити, який модуль/контролер/дія є пунктом призначення.
+
+Будь-який модуль/контролер/дія в цьому масиві не є обов'язковою, якщо ви не призначите конкретне значення, вона буде перенаправлена ​​на значення за промовчанням.
 
 `verify`
 
@@ -42,82 +36,136 @@ public **Yaf_Route_Rewrite::\_\_construct**(string `$match`, array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Route_Rewrite()****
+**Приклад #1 Приклад використання **YafRouteRewrite()****
 
-` <?php   /**    * Добавить маршрут перезаписи в стек маршрутов Yaf_Router    */    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",        new Yaf_Route_rewrite(           "/product/:name/:id/* ", //запрос на совпадение с ведущим "/product"           array(               'controller' => "product",  //маршрут к контроллеру product,           ),        )    );?> `
+```php
+<?php
+   /**
+    * Добавить маршрут перезаписи в стек маршрутов Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_rewrite(
+           "/product/:name/:id/*", //запрос на совпадение с ведущим "/product"
+           array(
+               'controller' => "product",  //маршрут к контроллеру product,
+           ),
+        )
+    );
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /* для http://yourdomain.com/product/foo/22/foo/bar
-* результатом маршруту будуть наступні значення:
-*/
+ * результатом маршрута будут следующие значения:
+ */
 array(
-"controller" => "product",
-"module" => "index", //(за замовчуванням)
-"action" => "index", //(за замовчуванням)
+  "controller" => "product",
+  "module"     => "index", //(по умолчанию)
+  "action"     => "index", //(по умолчанию)
 )
 
 /**
-* та параметри запиту:
-*/
+ * и параметры запроса:
+ */
 array(
-"name" => "foo",
-"id" => 22,
-"foo" => bar
+  "name" => "foo",
+  "id"   => 22,
+  "foo"  => bar
 )
+```
 
-**Приклад #2 Приклад використання **Yaf_Route_Rewrite()****
+**Приклад #2 Приклад використання **YafRouteRewrite()****
 
-` <?php   /**    * Добавьте маршрут перезаписи в стек маршрутов Yaf_Router, вызвав addconfig    */    $config = array(        "name" => array(           "type"  => "rewrite",        //маршрут Yaf_Route_Rewrite           "match" => "/user-list/:id", //совпадение только по /user/list/?/           "route" => array(               'controller' => "user",  //маршрут к контроллеру user,               'action'     => "list",| Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
+```php
+<?php
+   /**
+    * Добавьте маршрут перезаписи в стек маршрутов Yaf_Router, вызвав addconfig
+    */
+    $config = array(
+        "name" => array(
+           "type"  => "rewrite",        //маршрут Yaf_Route_Rewrite
+           "match" => "/user-list/:id", //совпадение только по /user/list/?/
+           "route" => array(
+               'controller' => "user",  //маршрут к контроллеру user,
+               'action'     => "list",  //маршрут к действию list
+           ),
+        ),
+    );
+    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+        new Yaf_Config_Simple($config));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /* для http://yourdomain.com/user-list/22
-* результатом маршруту будуть наступні значення:
-*/
+ * результатом маршрута будут следующие значения:
+ */
 array(
-"controller" => "user",
-"action" => "list",
-"module" => "index", //(за замовчуванням)
+  "controller" => "user",
+  "action"     => "list",
+  "module"     => "index", //(по умолчанию)
 )
 
 /**
-* та параметри запиту:
-*/
+ * и параметры запроса:
+ */
 array(
-"id" => 22,
+  "id"   => 22,
 )
+```
 
-**Приклад #3 Приклад використання **Yaf_Route_Rewrite(as of 2.3.0)()****
+**Приклад #3 Приклад використання **YafRouteRewrite(as of 2.3.0)()****
 
-` <?php   /**    * Добавить переписать маршрут использовать результат поиска как имя м/к/д    */    $config = array(        "name" => array(           "type"  => "rewrite",           "match" => " /user-list/:a/:id", //совпадение только по /user-list/*           "route" => array(               'controller' => "user",   //маршрут к контроллеру user,               'action'     = > ":a",     //маршрут к дії :a            ),        ),    ); Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
+```php
+<?php
+   /**
+    * Добавить переписать маршрут использовать результат поиска как имя м/к/д
+    */
+    $config = array(
+        "name" => array(
+           "type"  => "rewrite",
+           "match" => "/user-list/:a/:id", //совпадение только по /user-list/*
+           "route" => array(
+               'controller' => "user",   //маршрут к контроллеру user,
+               'action'     => ":a",     //маршрут к действию :a
+           ),
+        ),
+    );
+    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+        new Yaf_Config_Simple($config));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /* для http://yourdomain.com/user-list/list/22
-* результатом маршруту будуть наступні значення:
-*/
+ * результатом маршрута будут следующие значения:
+ */
 array(
-"controller" => "user",
-"action" => "list",
-"module" => "index", //(за замовчуванням)
+  "controller" => "user",
+  "action"     => "list",
+  "module"     => "index", //(по умолчанию)
 )
 
 /**
-* та параметри запиту:
-*/
+ * и параметры запроса:
+ */
 array(
-"id" => 22,
+  "id"   => 22,
 )
+```
 
 ### Дивіться також
 
-- [Yaf_Router::addRoute()](yaf-router.addroute.md) - Додає новий
-маршрут у маршрутизатор
-- [Yaf_Router::addConfig()](yaf-router.addconfig.md) - Додає
-налаштовані маршрути на маршрутизатор
-- [Yaf_Route_Static](class.yaf-route-static.md)
-- [Yaf_Route_Supervar](class.yaf-route-supervar.md)
-- [Yaf_Route_Simple](class.yaf-route-simple.md)
-- [Yaf_Route_Regex](class.yaf-route-regex.md)
-- [Yaf_Route_Map](class.yaf-route-map.md)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::addConfig()](yaf-router.addconfig.md) - Додає налаштовані маршрути до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.md)
+-   [YafRouteSupervar](class.yaf-route-supervar.md)
+-   [YafRouteSimple](class.yaf-route-simple.md)
+-   [YafRouteRegex](class.yaf-route-regex.md)
+-   [YafRouteMap](class.yaf-route-map.md)

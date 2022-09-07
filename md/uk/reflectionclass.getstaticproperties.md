@@ -1,10 +1,11 @@
-- [« ReflectionClass::getStartLine](reflectionclass.getstartline.md)
-- [ReflectionClass::getStaticPropertyValue »](reflectionclass.getstaticpropertyvalue.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- повертає статичні властивості
-
+---
+navigation:
+  - reflectionclass.getstartline.md: '« ReflectionClass::getStartLine'
+  - reflectionclass.getstaticpropertyvalue.md: 'ReflectionClass::getStaticPropertyValue »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getStaticProperties'
+---
 # ReflectionClass::getStaticProperties
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,14 +14,15 @@ ReflectionClass::getStaticProperties — Повертає статичні вл�
 
 ### Опис
 
-public **ReflectionClass::getStaticProperties**(): ?array
+```methodsynopsis
+public ReflectionClass::getStaticProperties(): ?array
+```
 
 Повертає статичні властивості.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,12 +30,9 @@ public **ReflectionClass::getStaticProperties**(): ?array
 
 ### Значення, що повертаються
 
-Масив (array) статичних властивостей або **`null`** у разі виникнення
-помилки.
+Масив (array) статичних властивостей або **`null`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) -
-Повертає значення статичної властивості
-- [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) -
-Встановлює значення статичної властивості
+-   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) - Повертає значення статичної властивості
+-   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) - Встановлює значення статичної властивості

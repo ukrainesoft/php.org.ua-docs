@@ -1,31 +1,33 @@
-- [«Стек](class.ds-stack.md)
-- [Ds\Stack::capacity »](ds-stack.capacity.md)
+---
+navigation:
+  - class.ds-stack.md: « Стек
+  - ds-stack.capacity.md: 'ДсStack::capacity »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
+title: 'ДсStack::allocate'
+---
+# ДсStack::allocate
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Виділяє пам'ять під зазначену місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Stack::allocate
-
-(PECL ds \>= 1.0.0)
-
-Ds\Stack::allocate — Виділяє пам'ять під зазначену місткість
+ДсStack::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
-public **Ds\Stack::allocate**(int `$capacity`): void
+```methodsynopsis
+public Ds\Stack::allocate(int $capacity): void
+```
 
-Гарантує, що виділено достатньо пам'яті під задану місткість
-(кількість значень). Дозволяє уникнути динамічного
-перерозподіл пам'яті при додаванні значень.
+Гарантує, що виділено достатньо пам'яті під задану місткість (кількість значень). Дозволяє уникнути динамічного перерозподілу пам'яті під час додавання значень.
 
 ### Список параметрів
 
 `capacity`
+
 Місткість. Очікувана кількість значень.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Якщо нове значення місткості менше поточного, воно не зміниться.
 
 ### Значення, що повертаються

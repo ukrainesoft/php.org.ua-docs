@@ -1,44 +1,44 @@
-- [« MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md)
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited'
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
+---
+# Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Клас MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent
-
-# Клас MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent
-
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent**
-Інкапсулює інформацію про запущений серцевийсервер.
+Клас **MongoDBDriverMonitoringServerHeartbeatStartedEvent** інкапсулює інформацію про запущений heartbeat сервер.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent** {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md)():
-string
+    
+    
+     final
+     
+      class MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent
+     
+     {
+    
 
-final public
-[getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md)():
-int
+    /* Методы */
+    
+   final public getHost(): string
+final public getPort(): int
+final public isAwaited(): bool
 
-final public
-[isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)():
-bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md)
-— Повертає ім'я сервера.
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md)
-— Повертає порт, на якому прослуховується сервер
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)
-— Повертає, чи використовувався у heartbeat потоковий протокол
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md) — Повертає ім'я сервера.
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md) — Повертає порт, на якому прослуховується сервер
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md) — Повертає, чи використовувався в heartbeat потоковий протокол

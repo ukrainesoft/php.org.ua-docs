@@ -1,24 +1,26 @@
-- [«mb_regex_set_options](function.mb-regex-set-options.md)
-- [mb_send_mail »](function.mb-send-mail.md)
+---
+navigation:
+  - function.mb-regex-set-options.md: « mbregexsetoptions
+  - function.mb-send-mail.md: мбsendmail »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбscrub
+---
+# мбscrub
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Опис
+(PHP 7> = 7.2.0, PHP 8)
 
-#mb_scrub
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-mb_scrub — Опис
+мбscrub — Опис
 
 ### Опис
 
-**mb_scrub**(string `$string`, ?string `$encoding` = **`null`**): string
+```methodsynopsis
+mb_scrub(string $string, ?string $encoding = null): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,8 +30,8 @@ mb_scrub — Опис
 
 ### Значення, що повертаються
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-| ------ | -------------------------------------------------------- |
-| 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |

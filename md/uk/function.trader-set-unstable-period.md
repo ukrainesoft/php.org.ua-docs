@@ -1,34 +1,33 @@
-- [« trader_set_compat](function.trader-set-compat.md)
-- [trader_sin »](function.trader-sin.md)
+---
+navigation:
+  - function.trader-set-compat.md: « tradersetcompat
+  - function.trader-sin.md: tradersin »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersetunstableперіод
+---
+# tradersetunstableперіод
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Встановлює нестабільний період
+(PECL trader >= 0.2.2)
 
-# trader_set_unstable_period
-
-(PECL trader \>= 0.2.2)
-
-trader_set_unstable_period — Встановлює нестабільний період
+tradersetunstableperiod — Встановлює нестабільний період
 
 ### Опис
 
-**trader_set_unstable_period**(int `$functionId`, int `$timePeriod`):
-void
+```methodsynopsis
+trader_set_unstable_period(int $functionId, int $timePeriod): void
+```
 
-Впливає на фактор нестабільного періоду для чутливих до нього
-функцій. Додаткову інформацію про нестабільні періоди можна знайти
-на сторінці документації з API
-[» TA-Lib](http://ta-lib.org/d_api/ta_setunstableperiod.md).
+Впливає фактор нестабільного періоду для чутливих до нього функцій. Додаткову інформацію про нестабільні періоди можна знайти на сторінці документації API [» TA-Lib](http://ta-lib.org/d_api/ta_setunstableperiod.md)
 
 ### Список параметрів
 
 `functionId`
-Ідентифікатор функції, на яку має бути встановлений коефіцієнт.
-Серія констант [TRADER_FUNC_UNST\_\*](trader.constants.md) може
-використовуватись для впливу на відповідну функцію.
+
+Ідентифікатор функції, на яку має бути встановлений коефіцієнт. Серія констант [TRADERFUNCUNST](trader.constants.md) може використовуватися для на відповідну функцію.
 
 `timePeriod`
+
 Значення нестабільного періоду.
 
 ### Значення, що повертаються

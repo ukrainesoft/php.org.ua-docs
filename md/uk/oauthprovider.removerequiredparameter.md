@@ -1,41 +1,40 @@
-- [« OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md)
-- [OAuthProvider::reportProblem »](oauthprovider.reportproblem.md)
-
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Видалити потрібний параметр
-
+---
+navigation:
+  - oauthprovider.isrequesttokenendpoint.md: '« OAuthProvider::isRequestTokenEndpoint'
+  - oauthprovider.reportproblem.md: 'OAuthProvider::reportProblem »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::removeRequiredParameter'
+---
 # OAuthProvider::removeRequiredParameter
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuthProvider::removeRequiredParameter — Видалити потрібний параметр
 
 ### Опис
 
-final public **OAuthProvider::removeRequiredParameter**(string
-`$req_params`): bool
+```methodsynopsis
+final public OAuthProvider::removeRequiredParameter(string $req_params): bool
+```
 
 Видаляє потрібний параметр.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `req_params`
-Потрібний параметр для видалення.
+
+Необхідний параметр видалення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [OAuthProvider::setParam()](oauthprovider.setparam.md) -
-Встановити параметр
-- [OAuthProvider::addRequiredParameter()](oauthprovider.addrequiredparameter.md) -
-Додати необхідні параметри
+-   [OAuthProvider::setParam()](oauthprovider.setparam.md) - Встановити параметр
+-   [OAuthProvider::addRequiredParameter()](oauthprovider.addrequiredparameter.md) - Додати необхідні параметри

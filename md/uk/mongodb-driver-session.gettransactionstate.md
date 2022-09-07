@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\Session::getTransactionOptions](mongodb-driver-session.gettransactionoptions.md)
-- [MongoDB\Driver\Session::isDirty »](mongodb-driver-session.isdirty.md)
+---
+navigation:
+  - mongodb-driver-session.gettransactionoptions.md: '« MongoDBDriverSession::getTransactionOptions'
+  - mongodb-driver-session.isdirty.md: 'MongoDBDriverSession::isDirty »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
+title: 'MongoDBDriverSession::getTransactionState'
+---
+# MongoDBDriverSession::getTransactionState
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Повертає статус транзакції для поточної сесії
+(mongodb >=1.7.0)
 
-# MongoDB\Driver\Session::getTransactionState
-
-(mongodb \>=1.7.0)
-
-MongoDB\Driver\Session::getTransactionState - Повертає статус
-транзакції для поточної сесії
+MongoDBDriverSession::getTransactionState — Повертає статус транзакції для поточної сесії
 
 ### Опис
 
-final public **MongoDB\Driver\Session::getTransactionState**(): string
+```methodsynopsis
+final public MongoDB\Driver\Session::getTransactionState(): string
+```
 
 Повертає статус транзакції для сесії.
 
@@ -28,13 +30,9 @@ final public **MongoDB\Driver\Session::getTransactionState**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Session::isInTransaction()](mongodb-driver-session.isintransaction.md) -
-Визначає, чи відбувається зараз багатодокументна
-транзакція
-- [MongoDB\Driver\Session::getTransactionOptions()](mongodb-driver-session.gettransactionoptions.md) -
-Повертає налаштування поточної транзакції
+-   [MongoDBDriverSession::isInTransaction()](mongodb-driver-session.isintransaction.md) - Визначає, чи відбувається зараз багатодокументна транзакція
+-   [MongoDBDriverSession::getTransactionOptions()](mongodb-driver-session.gettransactionoptions.md) - Повертає налаштування поточної транзакції

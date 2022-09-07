@@ -1,25 +1,22 @@
-- [«fpm_get_status](function.fpm-get-status.md)
-- [Сесії »](book.session.md)
+---
+navigation:
+  - function.fpm-get-status.md: « fpmgetstatus
+  - book.session.md: Сессии »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи із сесіями
+---
+# Модулі для роботи із сесіями
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Модулі для роботи із сесіями
-
-# Модулі для роботи з сесіями
-
-- [Сесії](book.session.md) - Управління сесіями
-- [Вступ](intro.session.md)
-- [Встановлення та налаштування](session.setup.md)
-- [Предвизначені константи](session.constants.md)
-- [Приклади](session.examples.md)
-- [Відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)
-- [Безпека сесій](session.security.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- [SessionHandler](class.sessionhandler.md) - Клас
-SessionHandler
-- [SessionHandlerInterface](class.sessionhandlerinterface.md) -
-Клас SessionHandlerInterface
-- [SessionIdInterface](class.sessionidinterface.md) — Інтерфейс
-SessionIdInterface
-- [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
-— Інтерфейс SessionUpdateTimestampHandlerInterface
+-   [Сессии](book.session.md) - Управління сесіями
+    -   [Введение](intro.session.md)
+    -   [Встановлення та налаштування](session.setup.md)
+    -   [Обумовлені константи](session.constants.md)
+    -   [Приклади](session.examples.md)
+    -   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.md)
+    -   [Безпека сесій](session.security.md)
+    -   [Функції для роботи із сесіями](ref.session.md)
+    -   [SessionHandler](class.sessionhandler.md) - Клас SessionHandler
+    -   [SessionHandlerInterface](class.sessionhandlerinterface.md) - Клас SessionHandlerInterface
+    -   [SessionIdInterface](class.sessionidinterface.md) - Інтерфейс SessionIdInterface
+    -   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md) — Інтерфейс SessionUpdateTimestampHandlerInterface

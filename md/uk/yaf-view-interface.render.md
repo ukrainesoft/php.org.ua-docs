@@ -1,27 +1,28 @@
-- [« Yaf_View_Interface::getScriptPath](yaf-view-interface.getscriptpath.md)
-- [Yaf_View_Interface::setScriptPath »](yaf-view-interface.setscriptpath.md)
+---
+navigation:
+  - yaf-view-interface.getscriptpath.md: '« YafViewInterface::getScriptPath'
+  - yaf-view-interface.setscriptpath.md: 'YafViewInterface::setScriptPath »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.md: YafViewInterface
+title: 'YafViewInterface::render'
+---
+# YafViewInterface::render
 
-- [PHP Manual](index.md)
-- [Yaf_View_Interface](class.yaf-view-interface.md)
-- Малює шаблон
+(Yaf >=1.0.0)
 
-# Yaf_View_Interface::render
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Interface::render — Малює шаблон
+YafViewInterface::render — Відображає шаблон
 
 ### Опис
 
-abstract public **Yaf_View_Interface::render**(string `$tpl`, array
-`$tpl_vars` = ?): string
+```methodsynopsis
+abstract public Yaf_View_Interface::render(string $tpl, array $tpl_vars = ?): string
+```
 
 Малює шаблон і повертає результат.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,19 +1,22 @@
-- [« wkhtmltox\PDF\Converter::convert](wkhtmltox-pdf-converter.convert.md)
-- [wkhtmltox\PDF\Object »](class.wkhtmltox-pdf-object.md)
+---
+navigation:
+  - wkhtmltox-pdf-converter.convert.md: '« wkhtmltoxPDFConverter::convert'
+  - class.wkhtmltox-pdf-object.md: wkhtmltoxPDFObject »
+  - index.md: PHP Manual
+  - class.wkhtmltox-pdf-converter.md: wkhtmltoxPDFConverter
+title: 'wkhtmltoxPDFConverter::getVersion'
+---
+# wkhtmltoxPDFConverter::getVersion
 
-- [PHP Manual](index.md)
-- [wkhtmltox\PDF\Converter](class.wkhtmltox-pdf-converter.md)
-- Визначити версію конвертера
+(wkhtmltox >= 0.3.2)
 
-# wkhtmltox\PDF\Converter::getVersion
-
-(wkhtmltox \>= 0.3.2)
-
-wkhtmltox\PDF\Converter::getVersion — Визначити версію конвертера
+wkhtmltoxPDFConverter::getVersion — Визначити версію конвертера
 
 ### Опис
 
-public **wkhtmltox\PDF\Converter::getVersion**(): string
+```methodsynopsis
+public wkhtmltox\PDF\Converter::getVersion(): string
+```
 
 Визначає версію конвертера, як зазначено у бібліотеці libwkhtmltox
 

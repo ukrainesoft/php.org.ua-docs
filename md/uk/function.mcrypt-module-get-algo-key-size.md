@@ -1,37 +1,38 @@
-- [« mcrypt_module_get_algo_block_size](function.mcrypt-module-get-algo-block-size.md)
-- [mcrypt_module_get_supported_key_sizes »](function.mcrypt-module-get-supported-key-sizes.md)
+---
+navigation:
+  - function.mcrypt-module-get-algo-block-size.md: « mcryptmodulegetalgoblocksize
+  - function.mcrypt-module-get-supported-key-sizes.md: mcryptmodulegetsupportedkeysizes »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmodulegetalgokeysize
+---
+# mcryptmodulegetalgokeysize
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає максимальний розмір ключа відкритого режиму
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_module_get_algo_key_size
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_module_get_algo_key_size — Повертає максимальний розмір ключа
-відкритого режиму
+mcryptmodulegetalgokeysize — Повернення максимального розміру ключа відкритого режиму
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_module_get_algo_key_size**(string `$algorithm`, string
-`$lib_dir` = ?): int
+```methodsynopsis
+mcrypt_module_get_algo_key_size(string $algorithm, string $lib_dir = ?): int
+```
 
-Повертає максимальний розмір відкритого режиму.
+Повертає максимальний розмір ключа відкритого режиму.
 
 ### Список параметрів
 
 `algorithm`
+
 Ім'я алгоритму.
 
 `lib_dir`
-Опціональний параметр, в якому можна вказати директорію, що містить
-модуль режиму.
+
+Опціональний параметр, у якому можна вказати директорію, що містить модуль режиму.
 
 ### Значення, що повертаються
 

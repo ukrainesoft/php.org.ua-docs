@@ -1,77 +1,105 @@
-- [« SimpleXMLElement::addChild](simplexmlelement.addchild.md)
-- [SimpleXMLElement::attributes »](simplexmlelement.attributes.md)
-
-- [PHP Manual](index.md)
-- [SimpleXMLElement](class.simplexmlelement.md)
-- Повертає сформований XML-документ у вигляді рядка на основі
-елемента SimpleXML
-
+---
+navigation:
+  - simplexmlelement.addchild.md: '« SimpleXMLElement::addChild'
+  - simplexmlelement.attributes.md: 'SimpleXMLElement::attributes »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::asXML'
+---
 # SimpleXMLElement::asXML
 
 (PHP 5, PHP 7, PHP 8)
 
-SimpleXMLElement::asXML — Повертає сформований XML-документ у вигляді
-рядки на основі елемента SimpleXML
+SimpleXMLElement::asXML — Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
 
 ### Опис
 
-public **SimpleXMLElement::asXML**(?string `$filename` = **`null`**):
-string\|bool
+```methodsynopsis
+public SimpleXMLElement::asXML(?string $filename = null): string|bool
+```
 
-Метод `asXML` задає формат даних батьківських об'єктів у версії XML
-1.0.
+Метод `asXML` визначає формат даних батьківських об'єктів у версії XML 1.0.
 
 ### Список параметрів
 
 `filename`
-Якщо вказано значення у вигляді рядка (string), функція запише дані
-у файл, а чи не поверне їх.
+
+Якщо вказано значення у вигляді рядка (string), то функція запише дані у файл, а чи не поверне їх.
 
 ### Значення, що повертаються
 
-Якщо `filename` не вказано, то функція поверне рядок (string) у разі
-успішного виконання та **`false`** у разі виникнення помилки. Якщо
-параметр вказано, то функція поверне **`true`**, якщо файл буде успішно
-записаний і **`false`** інакше.
+Якщо `filename` не вказано, то функція поверне рядок (string) у разі успішного виконання та **`false`** у разі виникнення помилки. Якщо параметр вказано, то функція поверне **`true`**, якщо файл буде успішно записаний та **`false`** в іншому випадку.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 8.0.0  | filename тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Отримання XML**
 
-` <?php$string = <<<XML<a> <b> <c>текст</c>  <c>штучка</c> </b> <d>  <c>код</c> </ d></a>XML;$xml = new SimpleXMLElement($string);echo $xml->asXML();?> `
+```php
+<?php
+$string = <<<XML
+<a>
+ <b>
+  <c>текст</c>
+  <c>штучка</c>
+ </b>
+ <d>
+  <c>код</c>
+ </d>
+</a>
+XML;
+
+$xml = new SimpleXMLElement($string);
+
+echo $xml->asXML();
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <?xml version="1.0"?>
 <a>
-<b>
-<c>текст</c>
-<c>штучка</c>
-</b>
-<d>
-<c>код</c>
-</d>
+ <b>
+  <c>текст</c>
+  <c>штучка</c>
+ </b>
+ <d>
+  <c>код</c>
+ </d>
 </a>
+```
 
 `asXML` також працює з результатами Xpath:
 
-**Приклад #2 Використання asXML() з результатами
-[SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
+**Приклад #2 Використання asXML() з результатами [SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
 
-` <?php// Продовження прикладу XML вище./* Пошук <a><b><c> */$result = $xml->xpath('/a/b/c');foreach ($result as $ node) {    echo $node->asXML();}?> `
+```php
+<?php
+// Продолжение примера XML выше.
+
+/* Поиск <a><b><c> */
+$result = $xml->xpath('/a/b/c');
+
+foreach ($result as $node) {
+    echo $node->asXML();
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <c>текст</c><c>штучка</c>
+```
 
 ### Дивіться також
 
-- [SimpleXMLElement::\_\_toString()](simplexmlelement.tostring.md) -
-Повертає вміст рядка
-- [Базове використання SimpleXML](simplexml.examples-basic.md)
+-   [SimpleXMLElement::toString()](simplexmlelement.tostring.md) - Повертає вміст рядка
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

@@ -1,19 +1,22 @@
-- [« DOMNode::getLineNo](domnode.getlineno.md)
-- [DOMNode::hasAttributes »](domnode.hasattributes.md)
-
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- Отримання XPath вузла
-
+---
+navigation:
+  - domnode.getlineno.md: '« DOMNode::getLineNo'
+  - domnode.hasattributes.md: 'DOMNode::hasAttributes »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::getNodePath'
+---
 # DOMNode::getNodePath
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 DOMNode::getNodePath — Отримання XPath вузла
 
 ### Опис
 
-public **DOMNode::getNodePath**(): ?string
+```methodsynopsis
+public DOMNode::getNodePath(): ?string
+```
 
 Отримує шлях XPath, яким розташований вузол.
 
@@ -23,24 +26,48 @@ public **DOMNode::getNodePath**(): ?string
 
 ### Значення, що повертаються
 
-Повертає рядок (string), що містить XPath або **`null`** у разі
-виникнення помилки.
+Повертає рядок (string), що містить XPath або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DOMNode::getNodePath()****
 
-` <?php// Створення об'єкту DOMDocument$dom = new DOMDocument;// Завантаження XML$dom->loadXML('<fruits> <apples>  <apple>braeburn</apple>  <app> /apples> <pears>  <pear>conference</pear> </pears></fruits>');// ВисновокXPath для кожного елементаforeach ($dom->getElementsByTagName('*') as $ node->getNodePath() . "
-";}?> `
+```php
+<?php
+// Создание объекта DOMDocument
+$dom = new DOMDocument;
+
+// Загрузка XML
+$dom->loadXML('
+<fruits>
+ <apples>
+  <apple>braeburn</apple>
+  <apple>granny smith</apple>
+ </apples>
+ <pears>
+  <pear>conference</pear>
+ </pears>
+</fruits>
+');
+
+// Вывод XPath для каждого элемента
+foreach ($dom->getElementsByTagName('*') as $node) {
+    echo $node->getNodePath() . "\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 /fruits
 /fruits/apples
 /fruits/apples/apple[1]
 /fruits/apples/apple[2]
 /fruits/pears
 /fruits/pears/pear
+```
 
 ### Дивіться також
- - [DOMXPath](class.domxpath.md)
+
+-   [DOMXPath](class.domxpath.md)

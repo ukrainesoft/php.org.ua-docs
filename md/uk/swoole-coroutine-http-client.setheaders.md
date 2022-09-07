@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Http\Client::setDefer](swoole-coroutine-http-client.setdefer.md)
-- [Swoole\Coroutine\Http\Client::setMethod »](swoole-coroutine-http-client.setmethod.md)
+---
+navigation:
+  - swoole-coroutine-http-client.setdefer.md: '« SwooleCoroutineHttpClient::setDefer'
+  - swoole-coroutine-http-client.setmethod.md: 'SwooleCoroutineHttpClient::setMethod »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::setHeaders'
+---
+# SwooleCoroutineHttpClient::setHeaders
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::setHeaders
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::setHeaders — Опис
+SwooleCoroutineHttpClient::setHeaders — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::setHeaders**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::setHeaders(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

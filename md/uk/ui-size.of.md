@@ -1,33 +1,37 @@
-- [« UI\Size::getWidth](ui-size.getwidth.md)
-- [UI\Size::setHeight »](ui-size.setheight.md)
-
-- [PHP Manual](index.md)
-- [UI\Size](class.ui-size.md)
-- Приведення Point
-
-# UI\Size::of
+---
+navigation:
+  - ui-size.getwidth.md: '« UISize::getWidth'
+  - ui-size.setheight.md: 'ОЙSize::setHeight »'
+  - index.md: PHP Manual
+  - class.ui-size.md: ОЙSize
+title: 'ОЙSize::of'
+---
+# ОЙSize::of
 
 (UI 1.0.2)
 
-UI\Size::of — Приведення Point
+ОЙSize::of — Приведення Point
 
 ### Опис
 
-public static **UI\Size::of**(float `$size`):
-[UI\Size](class.ui-size.md)
+```methodsynopsis
+public static UI\Size::of(float $size): UI\Size
+```
 
-public static **UI\Size::of**([UI\Point](class.ui-point.md) `$point`):
-[UI\Size](class.ui-size.md)
+```methodsynopsis
+public static UI\Size::of(UI\Point $point): UI\Size
+```
 
-Повинен повернути об'єкт UI\Size із заданими у вигляді числа з плаваючою
-комою або у вигляді об'єкта UI\Point шириною та висотою
+Повинен повернути об'єкт UISize із заданими у вигляді числа з плаваючою комою або у вигляді об'єкта UIPoint шириною та висотою
 
 ### Список параметрів
 
 `size`
+
 Значення для ширини та висоти
 
 `point`
+
 Об'єкт Point для конвертації
 
 ### Значення, що повертаються

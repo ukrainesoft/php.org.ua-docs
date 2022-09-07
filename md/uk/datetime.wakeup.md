@@ -1,30 +1,36 @@
-- [« DateTime::getTimezone](datetime.gettimezone.md)
-- [DateTimeZone »](class.datetimezone.md)
+---
+navigation:
+  - datetime.gettimezone.md: '« DateTimeInterface::getTimezone'
+  - class.datetimezone.md: DateTimeZone »
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
+title: 'DateTime::wakeup'
+---
+# DateTime::wakeup
 
-- [PHP Manual](index.md)
-- [DateTimeInterface](class.datetimeinterface.md)
-- Обробник \_\_wakeup
+# DateTimeImmutable::wakeup
 
-# DateTime::\_\_wakeup
+# DateTimeInterface::wakeup
 
-# DateTimeImmutable::\_\_wakeup
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# DateTimeInterface::\_\_wakeup
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-DateTime::\_\_wakeup -- DateTimeImmutable::\_\_wakeup --
-DateTimeInterface::\_\_wakeup - Обробник \_\_wakeup
+DateTime::wakeup -- DateTimeImmutable::wakeup -- DateTimeInterface::wakeup — Обробник wakeup
 
 ### Опис
 
-public **DateTime::\_\_wakeup**(): void
+```methodsynopsis
+public DateTime::__wakeup(): void
+```
 
-public **DateTimeImmutable::\_\_wakeup**(): void
+```methodsynopsis
+public DateTimeImmutable::__wakeup(): void
+```
 
-public **DateTimeInterface::\_\_wakeup**(): void
+```methodsynopsis
+public DateTimeInterface::__wakeup(): void
+```
 
-Обробник [\_\_wakeup()](language.oop5.magic.md#object.wakeup).
+Обробник [wakeup()](language.oop5.magic.md#object.wakeup)
 
 ### Список параметрів
 

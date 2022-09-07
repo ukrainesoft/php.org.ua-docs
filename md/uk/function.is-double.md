@@ -1,16 +1,17 @@
-- [«is_countable](function.is-countable.md)
-- [is_float »](function.is-float.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Псевдонім is_float
-
-#is_double
+---
+navigation:
+  - function.is-countable.md: « iscountable
+  - function.is-float.md: ісfloat »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісdouble
+---
+# ісdouble
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_double - Псевдонім [is_float()](function.is-float.md)
+ісdouble - Псевдонім [ісfloat()](function.is-float.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [is_float()](function.is-float.md).
+Ця функція є псевдонімом: [ісfloat()](function.is-float.md)

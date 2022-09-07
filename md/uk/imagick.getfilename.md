@@ -1,21 +1,24 @@
-- [« Imagick::getCopyright](imagick.getcopyright.md)
-- [Imagick::getFont »](imagick.getfont.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Ім'я файлу результуючого зображення
-
+---
+navigation:
+  - imagick.getcopyright.md: '« Imagick::getCopyright'
+  - imagick.getfont.md: 'Imagick::getFont »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getFilename'
+---
 # Imagick::getFilename
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getFilename — Ім'я файлу результуючого зображення
+Imagick::getFilename - Ім'я файлу результуючого зображення
 
 ### Опис
 
-public **Imagick::getFilename**(): string
+```methodsynopsis
+public Imagick::getFilename(): string
+```
 
-Повертає ім'я файлу, пов'язане з результатом зображення.
+Повертає ім'я файлу, пов'язане із результуючим зображенням.
 
 ### Список параметрів
 

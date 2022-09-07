@@ -1,55 +1,60 @@
-- [«str_rot13](function.str-rot13.md)
-- [str_split »](function.str-split.md)
+---
+navigation:
+  - function.str-rot13.md: « strrot13
+  - function.str-split.md: strsplit »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strshuffle
+---
+# strshuffle
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Переставляє символи у рядку випадковим чином
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#str_shuffle
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-str_shuffle — Переставляє символи у рядку випадковим чином
+strshuffle — Переставляє символи у рядку випадковим чином
 
 ### Опис
 
-**str_shuffle**(string `$string`): string
+```methodsynopsis
+str_shuffle(string $string): string
+```
 
-**str_shuffle()** перемішує символи у рядку. Вибирається одна
-можлива перестановка із усіх можливих.
+**strshuffle()** перемішує символи у рядку. Вибирається одна можлива перестановка із усіх можливих.
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення та не
-повинна використовуватись у криптографічних цілях. Якщо вам потрібно
-криптографічно безпечне значення, подумайте про використання функцій
-[random_int()](function.random-int.md),
-[random_bytes()](function.random-bytes.md) або
-[openssl_random_pseudo_bytes()](function.openssl-random-pseudo-bytes.md)
-замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.md) [randombytes()](function.random-bytes.md) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 ### Значення, що повертаються
 
 Повертає перемішаний рядок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 7.1.0  | Внутрішній алгоритм отримання випадкових чисел [змінено](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [Вихря Мерсена](http://www.math.sci). hiroshima-u.ac.jp/~m-mat/MT/emt.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **str_shuffle()****
+**Приклад #1 Приклад використання **strshuffle()****
 
-` <?php$str = 'abcdef';$shuffled = str_shuffle($str);// виведе щось на зразок цього: bfdaececho $shuffled;?>
+```php
+<?php
+$str = 'abcdef';
+$shuffled = str_shuffle($str);
+
+// выведет что-то вроде этого: bfdaec
+echo $shuffled;
+?>
+```
 
 ### Дивіться також
 
-- [shuffle()](function.shuffle.md) - Перемішує масив
-- [rand()](function.rand.md) - Генерує випадкове число
+-   [shuffle()](function.shuffle.md) - перемішує масив
+-   [rand()](function.rand.md) - Генерує випадкове число

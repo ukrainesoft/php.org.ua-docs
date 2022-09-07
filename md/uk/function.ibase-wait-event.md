@@ -1,32 +1,33 @@
-- [« ibase_trans](function.ibase-trans.md)
-- [IBM DB2 »](book.ibm-db2.md)
+---
+navigation:
+  - function.ibase-trans.md: « ibasetrans
+  - book.ibm-db2.md: IBM DB2 »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasewaitevent
+---
+# ibasewaitevent
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Чекаємо, доки подія буде опублікована в базі даних
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_wait_event
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_wait_event — Чекаємо, доки подія буде опублікована в базі даних
+ibasewaitevent — Чекаємо, доки подія буде опублікована в базі даних
 
 ### Опис
 
-**ibase_wait_event**(string `$event_name`, string `...$event_names`):
-string
+```methodsynopsis
+ibase_wait_event(string $event_name, string ...$event_names): string
+```
 
-**ibase_wait_event**(resource `$connection`, string `$event_name`,
-string `...$event_names`): string
+```methodsynopsis
+ibase_wait_event(resource $connection, string $event_name, string ...$event_names): string
+```
 
-Функція призупиняє виконання сценарію доти, доки одне з
-зазначених подій не буде опубліковано у базі даних. Ім'я події
-яка була опублікована, повертається. Функція приймає до 15
-аргументи події.
+Функція призупиняє виконання сценарію до тих пір, поки одна з зазначених подій не буде опублікована в базі даних. Ім'я події, яку було опубліковано, повертається. Функція ухвалює до 15 аргументів події.
 
 ### Список параметрів
 
 `event_name`
+
 Назва події.
 
 `event_names`
@@ -37,8 +38,5 @@ string `...$event_names`): string
 
 ### Дивіться також
 
-- [ibase_set_event_handler()](function.ibase-set-event-handler.md) -
-Реєструє callback-функцію, яка буде викликатись при
-публікації подій
-- [ibase_free_event_handler()](function.ibase-free-event-handler.md) -
-Скасує зареєстрований обробник події
+-   [ibaseseteventhandler()](function.ibase-set-event-handler.md) - Реєструє callback-функцію, яка буде викликатись при публікації подій
+-   [ibasefreeeventhandler()](function.ibase-free-event-handler.md) - скасовує зареєстрований обробник події

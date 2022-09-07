@@ -1,19 +1,22 @@
-- [«SolrQuery::getStart](solrquery.getstart.md)
-- [SolrQuery::getStatsFacets »](solrquery.getstatsfacets.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає, чи включено статистику
-
+---
+navigation:
+  - solrquery.getstart.md: '« SolrQuery::getStart'
+  - solrquery.getstatsfacets.md: 'SolrQuery::getStatsFacets »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getStats'
+---
 # SolrQuery::getStats
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getStats — Повертає, чи статистика включена
+SolrQuery::getStats — Повертає, чи включена статистика
 
 ### Опис
 
-public **SolrQuery::getStats**(): bool
+```methodsynopsis
+public SolrQuery::getStats(): bool
+```
 
 Повертає, чи включено статистику.
 
@@ -23,5 +26,4 @@ public **SolrQuery::getStats**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

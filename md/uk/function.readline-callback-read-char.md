@@ -1,27 +1,24 @@
-- [« readline_callback_handler_remove](function.readline-callback-handler-remove.md)
-- [readline_clear_history »](function.readline-clear-history.md)
+---
+navigation:
+  - function.readline-callback-handler-remove.md: « readlinecallbackhandlerremove
+  - function.readline-clear-history.md: readlineclearhistory »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlinecallbackreadchar
+---
+# readlinecallbackreadchar
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Читає символ та інформує callback-функцію readline, що отримана
-рядок
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-#readline_callback_read_char
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-readline_callback_read_char — Читає символ та інформує
-callback-функцію readline, що отримано рядок
+readlinecallbackreadchar — Читає символ та інформує callback-функцію readline, що отримано рядок
 
 ### Опис
 
-**readline_callback_read_char**(): void
+```methodsynopsis
+readline_callback_read_char(): void
+```
 
-Читає введений користувачем символ. Коли рядок отримано, цей
-функція інформує callback-функцію інтерфейсу readline, задану з
-допомогою
-[readline_callback_handler_install()](function.readline-callback-handler-install.md),
-що рядок готовий до введення.
+Читає введений користувачем символ. Коли рядок отримано, ця функція інформує callback-функцію інтерфейсу readline, задану за допомогою [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md), що рядок готовий до введення.
 
 ### Список параметрів
 
@@ -33,15 +30,9 @@ callback-функцію readline, що отримано рядок
 
 ### Приклади
 
-Приклад використання інтерфейсу callback-функцій readline
-сторінці опису функції
-[readline_callback_handler_install()](function.readline-callback-handler-install.md).
+Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md)
 
 ### Дивіться також
 
-- [readline_callback_handler_install()](function.readline-callback-handler-install.md) -
-Ініціалізує callback-інтерфейс readline та термінал, друкує
-рядок запрошення та негайно повертає управління
-- [readline_callback_handler_remove()](function.readline-callback-handler-remove.md) -
-Видаляє раніше зареєстровану callback-функцію та відновлює
-термінал
+-   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
+-   [readlinecallbackhandlerremove()](function.readline-callback-handler-remove.md) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал

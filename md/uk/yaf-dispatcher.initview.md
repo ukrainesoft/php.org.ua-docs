@@ -1,20 +1,22 @@
-- [« Yaf_Dispatcher::getRouter](yaf-dispatcher.getrouter.md)
-- [Yaf_Dispatcher::registerPlugin »](yaf-dispatcher.registerplugin.md)
+---
+navigation:
+  - yaf-dispatcher.getrouter.md: '« YafDispatcher::getRouter'
+  - yaf-dispatcher.registerplugin.md: 'YafDispatcher::registerPlugin »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::initView'
+---
+# YafDispatcher::initView
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Ініціалізує виставу та повертає її
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::initView
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::initView — Ініціалізує виставу та повертає її
+YafDispatcher::initView — Ініціалізує виставу та повертає її
 
 ### Опис
 
-public **Yaf_Dispatcher::initView**(string `$templates_dir`, array
-`$options` = ?): [Yaf_View_Interface](class.yaf-view-interface.md)
+```methodsynopsis
+public Yaf_Dispatcher::initView(string $templates_dir, array $options = ?): Yaf_View_Interface
+```
 
 ### Список параметрів
 

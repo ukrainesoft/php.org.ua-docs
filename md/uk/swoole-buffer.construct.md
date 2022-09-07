@@ -1,21 +1,23 @@
-- [« Swoole\Buffer::clear](swoole-buffer.clear.md)
-- [Swoole\Buffer::\_\_destruct »](swoole-buffer.destruct.md)
+---
+navigation:
+  - swoole-buffer.clear.md: '« SwooleBuffer::clear'
+  - swoole-buffer.destruct.md: 'SwooleBuffer::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.md: SwooleBuffer
+title: 'SwooleBuffer::construct'
+---
+# SwooleBuffer::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Фіксований розмір блоку пам'яті
+(PECL swoole >= 1.9.0)
 
-# Swoole\Buffer::\_\_construct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Buffer::\_\_construct - Фіксований розмір блоку пам'яті
+SwooleBuffer::construct - Фіксований розмір блоку пам'яті
 
 ### Опис
 
-public **Swoole\Buffer::\_\_construct**(int `$size` = ?)
+public **SwooleBuffer::construct**(int `$size`
 
 ### Список параметрів
 
 `size`
+
 Розмір пам'яті виділення.

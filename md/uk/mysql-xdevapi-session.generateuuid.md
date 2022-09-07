@@ -1,10 +1,11 @@
-- [« Session::dropSchema](mysql-xdevapi-session.dropschema.md)
-- [Session::getDefaultSchema »](mysql-xdevapi-session.getdefaultschema.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Отримує новий UUID
-
+---
+navigation:
+  - mysql-xdevapi-session.dropschema.md: '« Session::dropSchema'
+  - mysql-xdevapi-session.getdefaultschema.md: 'Session::getDefaultSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+title: 'Session::generateUUID'
+---
 # Session::generateUUID
 
 (No version information available, might only be in Git)
@@ -13,10 +14,11 @@ Session::generateUUID — Отримує новий UUID
 
 ### Опис
 
-public **mysql_xdevapi\Session::generateUUID**(): string
+```methodsynopsis
+public mysql_xdevapi\Session::generateUUID(): string
+```
 
-Генерує універсальний унікальний ідентифікатор (UUID),
-згенерований відповідно до [»RFC 4122](http://www.faqs.org/rfcs/rfc4122).
+Генерує універсальний унікальний ідентифікатор (UUID), згенерований відповідно до [» RFC 4122](http://www.faqs.org/rfcs/rfc4122)
 
 ### Список параметрів
 
@@ -28,11 +30,19 @@ UUID; рядок завдовжки 32 символи.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::generateUuid()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::generateUuid()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$uuid = $session->generateUuid();var_dump($uuid); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$uuid = $session->generateUuid();
+
+var_dump($uuid);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(32) "484B18AC7980F8D4FE84613CDA5EE84B"
+```

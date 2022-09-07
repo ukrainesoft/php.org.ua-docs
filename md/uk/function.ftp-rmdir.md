@@ -1,51 +1,72 @@
-- [«ftp_rename](function.ftp-rename.md)
-- [ftp_set_option »](function.ftp-set-option.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Видаляє директорію
-
-#ftp_rmdir
+---
+navigation:
+  - function.ftp-rename.md: « ftprename
+  - function.ftp-set-option.md: ftpsetoption »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftprmdir
+---
+# ftprmdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_rmdir — Видаляє директорію
+ftprmdir - Видаляє директорію
 
 ### Опис
 
-**ftp_rmdir**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$directory`): bool
+```methodsynopsis
+ftp_rmdir(FTP\Connection $ftp, string $directory): bool
+```
 
-Видаляє директорію `directory`.
+Видаляє директорію `directory`
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `directory`
-Ім'я директорії. Параметр повинен мати відносний або абсолютний
-шлях до порожній директорії.
+
+Ім'я директорії. Параметр повинен мати відносний або абсолютний шлях до порожньої директорії.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_rmdir()****
+**Приклад #1 Приклад використання **ftprmdir()****
 
-` <?php$dir = 'www/';// установка з'єднання$ftp = ftp_connect($ftp_server);// перевірка імені користувача і пароля$login_result = ftp_login($ftp, $ft видалення директорії $dirif (ftp_rmdir($ftp, $dir)) {    echo "Директорія $dir віддалена
-";} else {    echo "Не удалося видалити директорію $dir
-";}ftp_close($ftp);?> `
+```php
+<?php
+
+$dir = 'www/';
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// попытка удаления директории $dir
+if (ftp_rmdir($ftp, $dir)) {
+    echo "Директория $dir удалена\n";
+} else {
+    echo "Не удалось удалить директорию $dir\n";
+}
+
+ftp_close($ftp);
+
+?>
+```
 
 ### Дивіться також
 
-- [ftp_mkdir()](function.ftp-mkdir.md) - Створює директорію
+-   [ftpmkdir()](function.ftp-mkdir.md) - створює директорію

@@ -1,103 +1,121 @@
-- [«ErrorException::getSeverity](errorexception.getseverity.md)
-- [Error::\_\_construct »](error.construct.md)
-
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- Error
-
-#Error
+---
+navigation:
+  - errorexception.getseverity.md: '« ErrorException::getSeverity'
+  - error.construct.md: 'Error::construct »'
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: Error
+---
+# Error
 
 (PHP 7, PHP 8)
 
 ## Вступ
 
-**Error** – базовий клас для всіх внутрішніх помилок PHP.
+**Error** - базовий клас всім внутрішніх помилок PHP.
 
 ## Огляд класів
 
-class **Error** implements [Throwable](class.throwable.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class Error
+     
 
-private string `$string` = "";
+     implements 
+       Throwable {
 
-protected int `$code`;
+    /* Свойства */
+    
+     protected
+     string
+      $message = "";
 
-protected string `$file` = "";
+    private
+     string
+      $string = "";
 
-protected int `$line`;
+    protected
+     int
+      $code;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    protected
+     string
+      $file = "";
 
-/\* Методи \*/
+    protected
+     int
+      $line;
 
-public [\_\_construct](error.construct.md)(string `$message` = "", int
-`$code` = 0, ?[Throwable](class.throwable.md) `$previous` =
-**`null`**)
+    private
+     array
+      $trace = [];
 
-final public [getMessage](error.getmessage.md)(): string
+    private
+     ?Throwable
+      $previous = null;
 
-final public [getPrevious](error.getprevious.md)():
-?[Throwable](class.throwable.md)
 
-final public [getCode](error.getcode.md)(): int
+    /* Методы */
+    
+   public __construct(string $message = "", int $code = 0, ?Throwable $previous = null)
 
-final public [getFile](error.getfile.md)(): string
+    final public getMessage(): string
+final public getPrevious(): ?Throwable
+final public getCode(): int
+final public getFile(): string
+final public getLine(): int
+final public getTrace(): array
+final public getTraceAsString(): string
+public __toString(): string
+private __clone(): void
 
-final public [getLine](error.getline.md)(): int
-
-final public [getTrace](error.gettrace.md)(): array
-
-final public [getTraceAsString](error.gettraceasstring.md)(): string
-
-public [\_\_toString](error.tostring.md)(): string
-
-private [\_\_clone](error.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`message`
+message
+
 Повідомлення про помилку
 
-`code`
+code
+
 Код помилки
 
-`file`
+file
+
 Ім'я файлу, в якому сталася помилка
 
-`line`
+line
+
 Номер рядка, в якому сталася помилка
 
-`previous`
+previous
+
 Раніше викинутий виняток
 
-`string`
-Строкове уявлення трасування стека
+string
 
-`trace`
+Строкове представлення трасування стека
+
+trace
+
 Трасування стека у вигляді масиву
 
 ## Зміст
 
-- [Error::\_\_construct](error.construct.md) — Створює об'єкт класу
-Error
-- [Error::getMessage](error.getmessage.md) — Отримує повідомлення про
-помилці
-- [Error::getPrevious](error.getprevious.md) - Повертає попередній
-Throwable
-- [Error::getCode](error.getcode.md) — Повертає код помилки
-- [Error::getFile](error.getfile.md) — Отримує файл, у якому
-Виникла помилка
-- [Error::getLine](error.getline.md) — Отримує номер рядка в
-якою сталася помилка
-- [Error::getTrace](error.gettrace.md) — Отримує трасування стека
-- [Error::getTraceAsString](error.gettraceasstring.md) — Отримує
-трасування стека у вигляді рядка
-- [Error::\_\_toString](error.tostring.md) — Строкове уявлення
-помилки
-- [Error::\_\_clone](error.clone.md) - Клонує помилку
+-   [Error::construct](error.construct.md) - Створює об'єкт класу Error
+-   [Error::getMessage](error.getmessage.md) — Отримує повідомлення про помилку
+-   [Error::getPrevious](error.getprevious.md) — Повертає попередній Throwable
+-   [Error::getCode](error.getcode.md) — Повертає код помилки
+-   [Error::getFile](error.getfile.md) — Отримує файл, у якому сталася помилка
+-   [Error::getLine](error.getline.md) — Отримує номер рядка, в якому сталася помилка
+-   [Error::getTrace](error.gettrace.md) — Отримує трасування стека
+-   [Error::getTraceAsString](error.gettraceasstring.md) — Отримує трасування стека у вигляді рядка
+-   [Error::toString](error.tostring.md) — Строкове подання помилки
+-   [Error::clone](error.clone.md) - Клонує помилку

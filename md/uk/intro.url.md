@@ -1,10 +1,11 @@
-- [« URL](book.url.md)
-- [Встановлення та налаштування »](url.setup.md)
-
-- [PHP Manual](index.md)
-- [URL](book.url.md)
--   Вступ
-
+---
+navigation:
+  - book.url.md: « URL
+  - url.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.url.md: URL
+title: Вступ
+---
 # Вступ
 
 Робота з рядками URL: кодування, декодування та розбір.

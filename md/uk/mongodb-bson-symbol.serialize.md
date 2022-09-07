@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.md)
-- [MongoDB\BSON\Symbol::\_\_toString »](mongodb-bson-symbol.tostring.md)
+---
+navigation:
+  - mongodb-bson-symbol.jsonserialize.md: '« MongoDBBSONSymbol::jsonSerialize'
+  - mongodb-bson-symbol.tostring.md: 'MongoDBBSONSymbol::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::serialize'
+---
+# MongoDBBSONSymbol::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
-- Серіалізує Symbol
+(mongodb >=1.4.0)
 
-# MongoDB\BSON\Symbol::serialize
-
-(mongodb \>=1.4.0)
-
-MongoDB\BSON\Symbol::serialize — Серіалізує Symbol
+MongoDBBSONSymbol::serialize — Серіалізує Symbol
 
 ### Опис
 
-final public **MongoDB\BSON\Symbol::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Symbol::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\Symbol::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md).
+Повертає серіалізовану виставу [MongoDBBSONSymbol](class.mongodb-bson-symbol.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Symbol::unserialize()](mongodb-bson-symbol.unserialize.md) -
-Десеріалізує Symbol
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONSymbol::unserialize()](mongodb-bson-symbol.unserialize.md) - Десеріалізує Symbol
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

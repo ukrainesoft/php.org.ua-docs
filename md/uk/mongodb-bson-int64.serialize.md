@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Int64::jsonSerialize](mongodb-bson-int64.jsonserialize.md)
-- [MongoDB\BSON\Int64::\_\_toString »](mongodb-bson-int64.tostring.md)
+---
+navigation:
+  - mongodb-bson-int64.jsonserialize.md: '« MongoDBBSONInt64::jsonSerialize'
+  - mongodb-bson-int64.tostring.md: 'MongoDBBSONInt64::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-int64.md: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::serialize'
+---
+# MongoDBBSONInt64::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
-- Серіалізує Int64
+(mongodb >=1.5.0)
 
-# MongoDB\BSON\Int64::serialize
-
-(mongodb \>=1.5.0)
-
-MongoDB\BSON\Int64::serialize — Серіалізує Int64
+MongoDBBSONInt64::serialize — Серіалізує Int64
 
 ### Опис
 
-final public **MongoDB\BSON\Int64::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Int64::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\Int64::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Int64](class.mongodb-bson-int64.md).
+Повертає серіалізовану виставу [MongoDBBSONInt64](class.mongodb-bson-int64.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Int64::unserialize()](mongodb-bson-int64.unserialize.md) -
-Десеріалізує Int64
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONInt64::unserialize()](mongodb-bson-int64.unserialize.md) - Десеріалізує Int64
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

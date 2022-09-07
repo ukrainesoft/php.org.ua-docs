@@ -1,17 +1,11 @@
-- [« Налаштування під час виконання](openal.configuration.md)
-- [Предвизначені константи »](openal.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](openal.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - openal.configuration.md: « Налаштування під час виконання
+  - openal.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - openal.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-Цей модуль визначає чотири типи ресурсів: *Open AL(Device)* -
-повертається [openal_device_open()](function.openal-device-open.md),
-*Open AL(Context)* - повертається
-[openal_context_create()](function.openal-context-create.md), *Open
-AL(Buffer)* - повертається
-[openal_buffer_create()](function.openal-buffer-create.md), і *Open
-AL(Source)* - повертається
-[openal_source_create()](function.openal-source-create.md).
+Цей модуль визначає чотири типи ресурсів: *Open AL(Device)* - Повертається [openaldeviceopen()](function.openal-device-open.md) *Open AL(Context)* - Повертається [openalcontextcreate()](function.openal-context-create.md) *Open AL(Buffer)* - Повертається [openalbuffercreate()](function.openal-buffer-create.md), і *Open AL(Source)* - Повертається [openalsourcecreate()](function.openal-source-create.md)

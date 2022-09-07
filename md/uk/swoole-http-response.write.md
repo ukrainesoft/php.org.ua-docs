@@ -1,20 +1,22 @@
-- [« Swoole\Http\Response::status](swoole-http-response.status.md)
-- [Swoole\Http\Server »](class.swoole-http-server.md)
+---
+navigation:
+  - swoole-http-response.status.md: '« SwooleHttpResponse::status'
+  - class.swoole-http-server.md: SwooleHttpServer »
+  - index.md: PHP Manual
+  - class.swoole-http-response.md: SwooleHttpResponse
+title: 'SwooleHttpResponse::write'
+---
+# SwooleHttpResponse::write
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Додає вміст тіла HTTP до HTTP-відповіді
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Response::write
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Response::write — Додає вміст тіла HTTP в
-HTTP-відповідь
+SwooleHttpResponse::write — Додає вміст тіла HTTP у відповідь HTTP
 
 ### Опис
 
-public **Swoole\Http\Response::write**(string `$content`): void
+```methodsynopsis
+public Swoole\Http\Response::write(string $content): void
+```
 
 Додає вміст тіла HTTP у відповідь HTTP.
 

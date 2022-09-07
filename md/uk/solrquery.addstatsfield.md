@@ -1,30 +1,31 @@
-- [« SolrQuery::addStatsFacet](solrquery.addstatsfacet.md)
-- [SolrQuery::collapse »](solrquery.collapse.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Відповідає параметру stats.field
-
+---
+navigation:
+  - solrquery.addstatsfacet.md: '« SolrQuery::addStatsFacet'
+  - solrquery.collapse.md: 'SolrQuery::collapse »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addStatsField'
+---
 # SolrQuery::addStatsField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::addStatsField — Відповідає параметру stats.field
 
 ### Опис
 
-public **SolrQuery::addStatsField**(string `$field`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::addStatsField(string $field): SolrQuery
+```
 
-Відповідає параметру stats.field. Метод додає ще один параметр
-stats.field.
+Відповідає параметру stats.field. Метод додає ще один параметр stats.field.
 
 ### Список параметрів
 
 `field`
+
 Назва поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

@@ -1,89 +1,85 @@
-- [« tidy::isXml](tidy.isxml.md)
-- [tidy::parseString »](tidy.parsestring.md)
-
-- [PHP Manual](index.md)
-- [Tidy](class.tidy.md)
-- Розбір розмітки у файлі або URI
-
+---
+navigation:
+  - tidy.isxml.md: '« tidy::isXml'
+  - tidy.parsestring.md: 'tidy::parseString »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::parseFile'
+---
 # tidy::parseFile
 
-# tidy_parse_file
+# tidyparsefile
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy::parseFile -- tidy_parse_file — Розбір розмітки у файлі або URI
+tidy::parseFile -- tidyparsefile — Розбір розмітки у файлі або URI
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **tidy::parseFile**(
-string `$filename`,
-array\|string\|null `$config` = **`null`**,
-?string `$encoding` = **`null`**,
-bool `$useIncludePath` = **`false`**
-): bool
+```methodsynopsis
+public tidy::parseFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): bool
+```
 
 Процедурний стиль
 
-**tidy_parse_file**(
-string `$filename`,
-array\|string\|null `$config` = **`null`**,
-?string `$encoding` = **`null`**,
-bool `$useIncludePath` = **`false`**
-): [tidy](class.tidy.md)\|false
+```methodsynopsis
+tidy_parse_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): tidy|false
+```
 
 Розбір одержаного файлу.
 
 ### Список параметрів
 
 `filename`
-Якщо отримано параметр `filename`, то функція прочитає цей файл
-ініціалізує об'єкт із цим файлом, так само як робить це функція
-**tidy_parse_file()**.
+
+Якщо отримано параметр `filename`, то функція прочитає цей файл та ініціалізує об'єкт із цим файлом, так само як робить цю функцію **tidyparsefile()**
 
 `config`
-Налаштування `config` можуть бути задані як масив або рядок. Якщо
-заданий рядок, то він інтерпретується як ім'я файлу конфігурації,
-інакше, параметр інтерпретується як самі налаштування.
 
-Інформацію про кожен параметр можна знайти тут:
-[»http://api.md-tidy.org/#quick-reference](http://api.md-tidy.org/#quick-reference).
+Налаштування `config` можуть бути задані у вигляді масиву чи рядка. Якщо заданий рядок, він інтерпретується як ім'я файлу конфігурації, інакше, параметр інтерпретується як самі настройки.
+
+Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 `encoding`
-Параметр `encoding` встановлює кодування для вхідних/вихідних
-документів. Можливі значення: `ascii`, `latin0`, `latin1`, `raw`,
-`utf8`, `iso2022`, `mac`, `win1252`, `ibm858`, `utf16`, `utf16le`,
-`utf16be`, `big5`, та `shiftjis`.
+
+Параметр `encoding` встановлює кодування для вхідних/вихідних документів. Можливі значення: `ascii` `latin0` `latin1` `raw` `utf8` `iso2022` `mac` `win1252` `ibm858` `utf16` `utf16le` `utf16be` `big5`, і `shiftjis`
 
 `useIncludePath`
-Пошук файлу в [include_path](ini.core.md#ini.include-path).
+
+Пошук файлу в [includepath](ini.core.md#ini.include-path)
 
 ### Значення, що повертаються
 
-**tidy::parseFile()** повертає **`true`** у разі успішного
-виконання. **tidy_parse_file()** повертає новий екземпляр
-[tidy](class.tidy.md) у разі успішного виконання. І метод, і
-функція повертають **`false`** у разі виникнення помилки.
+**tidy::parseFile()** повертає **`true`** у разі успішного виконання . **tidyparsefile()** повертає новий екземпляр [tidy](class.tidy.md) у разі успішного виконання. І метод, і функція повертають **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                               |
-| ------ | -------------------------------------------------- |
-| 8.0.0  | config та encoding тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `config` і `encoding` тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **tidy::parseFile()****
 
-` <?php$tidy = new tidy();$tidy->parseFile('file.md');$tidy->cleanRepair();if(!empty($tidy->errorBuffer)) {    echo "Виникли наступні помилки або попередження:
-";   echo $tidy->errorBuffer;}?> `
+```php
+<?php
+$tidy = new tidy();
+$tidy->parseFile('file.html');
+
+$tidy->cleanRepair();
+
+if(!empty($tidy->errorBuffer)) {
+    echo "Возникли следующие ошибки или предупреждения:\n";
+    echo $tidy->errorBuffer;
+}
+?>
+```
 
 ### Дивіться також
 
-- [tidy::parsestring()](tidy.parsestring.md) - Розбір документа,
-зберігається у рядку
-- [tidy::repairfile()](tidy.repairfile.md) - Відновлює
-розмітку файлу та повертає його у вигляді рядка
-- [tidy::repairstring()](tidy.repairstring.md) - Відновлює
-рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::parsestring()](tidy.parsestring.md) - Розбір документа, що зберігається у рядку
+-   [tidy::repairfile()](tidy.repairfile.md) - Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::repairstring()](tidy.repairstring.md) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл

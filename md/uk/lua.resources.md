@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](lua.configuration.md)
-- [Lua »](class.lua.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](lua.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - lua.configuration.md: « Налаштування під час виконання
+  - class.lua.md: Lua »
+  - index.md: PHP Manual
+  - lua.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

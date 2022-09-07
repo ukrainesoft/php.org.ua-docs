@@ -1,21 +1,31 @@
-- [« MongoDB\Driver\Exception\EncryptionException](class.mongodb-driver-exception-encryptionexception.md)
-- [MongoDB\Driver\Exception\ExecutionTimeoutException »](class.mongodb-driver-exception-executiontimeoutexception.md)
+---
+navigation:
+  - class.mongodb-driver-exception-encryptionexception.md: « MongoDBDriverExceptionEncryptionException
+  - class.mongodb-driver-exception-executiontimeoutexception.md: MongoDBDriverExceptionExecutionTimeoutException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Інтерфейс MongoDBDriverExceptionException
+---
+# Інтерфейс MongoDBDriverExceptionException
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Інтерфейс MongoDB\Driver\Exception\Exception
-
-# Інтерфейс MongoDB\Driver\Exception\Exception
-
-(mongodb \>= 1.0.0)
+(mongodb >= 1.0.0)
 
 ## Вступ
 
-Базовий інтерфейс для всіх винятків драйвера. Його можна використовувати,
-що зловити лише винятки, що виникають із самого драйвера.
+Базовий інтерфейс для винятків драйвера. Його можна використовувати, що зловити лише винятки, що виникають із самого драйвера.
 
 ## Огляд класів
 
-class **MongoDB\Driver\Exception\Exception** {
+```synopsis
 
-}
+
+
+    
+     
+      class MongoDB\Driver\Exception\Exception
+     
+     {
+
+
+   }
+```

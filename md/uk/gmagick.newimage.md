@@ -1,40 +1,41 @@
-- [«Gmagick::motionblurimage](gmagick.motionblurimage.md)
-- [Gmagick::nextimage »](gmagick.nextimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Створює нове зображення
-
+---
+navigation:
+  - gmagick.motionblurimage.md: '« Gmagick::motionblurimage'
+  - gmagick.nextimage.md: 'Gmagick::nextimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::newimage'
+---
 # Gmagick::newimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::newimage — Створює нове зображення
 
 ### Опис
 
-public **Gmagick::newimage**(
-int `$width`,
-int `$height`,
-string `$background`,
-string `$format` = ?
-): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
+```
 
 Створює нове зображення із зазначеним фоновим кольором.
 
 ### Список параметрів
 
 `width`
+
 Ширина нового зображення.
 
 `height`
+
 Висота нового зображення.
 
 `background`
-Колір фону, використовуваний для цього зображення у вигляді числа з плаваючою
-точкою.
+
+Колір фону, який використовується для цього зображення у вигляді числа з плаваючою точкою.
 
 `format`
+
 Формат зображення.
 
 ### Значення, що повертаються

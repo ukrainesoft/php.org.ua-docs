@@ -1,38 +1,28 @@
-- [«ob_end_clean](function.ob-end-clean.md)
-- [ob_flush »](function.ob-flush.md)
-
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Скинути (надіслати) буфер виведення та відключити буферизацію виводу
-
-#ob_end_flush
+---
+navigation:
+  - function.ob-end-clean.md: « obendclean
+  - function.ob-flush.md: проflush »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проendflush
+---
+# проendflush
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ob_end_flush — Скинути (надіслати) буфер виведення та вимкнути буферизацію
-висновку
+проendflush — Скинути (надіслати) буфер виведення та вимкнути буферизацію виводу
 
 ### Опис
 
-**ob_end_flush**(): bool
+```methodsynopsis
+ob_end_flush(): bool
+```
 
-Ця функція надішле вміст найвищого буфера виводу (якщо воно
-є) та відключить цей буфер виводу. Якщо ви хочете використати
-вміст буфера, то вам необхідно викликати
-[ob_get_contents()](function.ob-get-contents.md) перед
-**ob_end_flush()**, т.к. весь вміст буфера видаляється під час виклику
-**ob_end_flush()**.
+Ця функція надішле вміст найвищого буфера виводу (якщо воно є) і відключить цей буфер виводу. Якщо ви хочете використати вміст буфера, то вам необхідно викликати [проgetcontents()](function.ob-get-contents.md) перед **проendflush()**, т.к. весь вміст буфера видаляється під час виклику **проendflush()**
 
-Буфер виводу має запускатися функцією
-[ob_start()](function.ob-start.md) із прапорами
-[PHP_OUTPUT_HANDLER_FLUSHABLE](outcontrol.constants.md#constant.php-output-handler-flushable)
-і
-[PHP_OUTPUT_HANDLER_REMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable).
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERFLUSHABLE](outcontrol.constants.md#constant.php-output-handler-flushable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable)
 
-> **Примітка**: Ця функція аналогічна
-> [ob_get_flush()](function.ob-get-flush.md), за винятком того, що
-> [ob_get_flush()](function.ob-get-flush.md) повертає вміст
-> Буфер у вигляді рядка.
+> **Зауваження**: Ця функція аналогічна [проgetflush()](function.ob-get-flush.md), за винятком того, що [проgetflush()](function.ob-get-flush.md) повертає вміст буфера у вигляді рядка.
 
 ### Список параметрів
 
@@ -40,32 +30,28 @@ ob_end_flush — Скинути (надіслати) буфер виведенн
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Основною причиною невдалого завершення
-роботи функції є її виклик без активного буфера або якщо буфер не
-може бути вилучений (спеціальний тип буфера).
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Основною причиною невдалого завершення роботи функції є виклик без активного буфера або якщо буфер не може бути видалений (спеціальний тип буфера).
 
 ### Помилки
 
-Якщо функція завершується помилкою, генерується **`E_NOTICE`**.
+Якщо функція завершується помилкою, генерується **`E_NOTICE`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ob_end_flush()****
+**Приклад #1 Приклад використання функції **проendflush()****
 
-Наступний приклад показує простий спосіб скидання та завершення всіх
-буферів виводу:
+Наступний приклад показує простий спосіб скидання та завершення всіх буферів виведення:
 
-`<?php  while (@ob_end_flush());?> `
+```php
+<?php
+  while (@ob_end_flush());
+?>
+```
 
 ### Дивіться також
 
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
-- [ob_get_contents()](function.ob-get-contents.md) - Повертає
-вміст буфера виводу
-- [ob_get_flush()](function.ob-get-flush.md) - Скинути буфер
-виводу, повернути його у вигляді рядка та відключити буферизацію виводу
-- [ob_flush()](function.ob-flush.md) - Скинути (надіслати) буфер
-висновку
-- [ob_end_clean()](function.ob-end-clean.md) - Очистити (стерти)
-буфер виводу та вимкнути буферизацію виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
+-   [проgetflush()](function.ob-get-flush.md) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
+-   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу
+-   [проendclean()](function.ob-end-clean.md) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу

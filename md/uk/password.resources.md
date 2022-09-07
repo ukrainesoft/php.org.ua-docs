@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](password.configuration.md)
-- [Предвизначені константи »](password.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](password.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - password.configuration.md: « Налаштування під час виконання
+  - password.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - password.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

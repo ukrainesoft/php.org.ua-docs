@@ -1,25 +1,24 @@
-- [« MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId](mongodb-driver-monitoring-commandfailedevent.getoperationid.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId »](mongodb-driver-monitoring-commandfailedevent.getrequestid.md)
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getoperationid.md: '« MongoDBDriverMonitoringCommandFailedEvent::getOperationId'
+  - mongodb-driver-monitoring-commandfailedevent.getrequestid.md: 'MongoDBDriverMonitoringCommandFailedEvent::getRequestId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getReply'
+---
+# MongoDBDriverMonitoringCommandFailedEvent::getReply
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-- Повертає документ відповіді команди
+(mongodb >=1.5.0)
 
-# MongoDB\Driver\Monitoring\CommandFailedEvent::getReply
-
-(mongodb \>=1.5.0)
-
-MongoDB\Driver\Monitoring\CommandFailedEvent::getReply — Повертає
-документ відповіді команди
+MongoDBDriverMonitoringCommandFailedEvent::getReply — Повертає документ відповіді команди
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandFailedEvent::getReply**(): object
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandFailedEvent::getReply(): object
+```
 
-У відповідь документ буде перетворено з BSON в PHP з використанням
-правил [десеріалізації](mongodb.persistence.deserialization.md) за
-замовчуванням (наприклад, документи BSON будуть перетворені на stdClass).
+У відповідь документ буде перетворено з BSON в PHP з використанням правил [десериализации](mongodb.persistence.deserialization.md) за промовчанням (наприклад, документи BSON будуть перетворені на stdClass).
 
 ### Список параметрів
 
@@ -27,15 +26,13 @@ final public
 
 ### Значення, що повертаються
 
-Повертає документ відповіді команди як об'єкт **stdClass**.
+Повертає документ відповіді команди у вигляді об'єкту **stdClass**
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
-- [Постійні дані](mongodb.persistence.md)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Постійні дані](mongodb.persistence.md)

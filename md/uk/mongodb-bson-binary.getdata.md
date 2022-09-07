@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
-- [MongoDB\BSON\Binary::getType »](mongodb-bson-binary.gettype.md)
+---
+navigation:
+  - mongodb-bson-binary.construct.md: '« MongoDBBSONBinary::construct'
+  - mongodb-bson-binary.gettype.md: 'MongoDBBSONBinary::getType »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::getData'
+---
+# MongoDBBSONBinary::getData
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-- Повертає дані Binary
+(mongodb >=1.0.0)
 
-# MongoDB\BSON\Binary::getData
-
-(mongodb \>=1.0.0)
-
-MongoDB\BSON\Binary::getData — Повертає дані Binary
+MongoDBBSONBinary::getData — Повертає дані Binary
 
 ### Опис
 
-final public **MongoDB\BSON\Binary::getData**(): string
+```methodsynopsis
+final public MongoDB\BSON\Binary::getData(): string
+```
 
 ### Список параметрів
 
@@ -25,19 +28,27 @@ final public **MongoDB\BSON\Binary::getData**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\BSON\Binary::getData()****
+**Приклад #1 Приклад використання **MongoDBBSONBinary::getData()****
 
-` <?php$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary->getData());?> `
+```php
+<?php
+
+$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
+var_dump($binary->getData());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "foo"
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

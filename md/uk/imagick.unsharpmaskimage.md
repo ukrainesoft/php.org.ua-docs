@@ -1,10 +1,11 @@
-- [« Imagick::uniqueImageColors](imagick.uniqueimagecolors.md)
-- [Imagick::valid »](imagick.valid.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Різкість зображення
-
+---
+navigation:
+  - imagick.uniqueimagecolors.md: '« Imagick::uniqueImageColors'
+  - imagick.valid.md: 'Imagick::valid »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::unsharpMaskImage'
+---
 # Imagick::unsharpMaskImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,19 +14,11 @@ Imagick::unsharpMaskImage — Різкість зображення
 
 ### Опис
 
-public **Imagick::unsharpMaskImage**(
-float `$radius`,
-float `$sigma`,
-float `$amount`,
-float `$threshold`,
-int `$channel` = Imagick::CHANNEL_DEFAULT
-): bool
+```methodsynopsis
+public Imagick::unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Різкість зображення. Ми згортаємо зображення за допомогою гаусівського
-оператора заданого радіусу та стандартного відхилення (сигма). Для
-отримання розумних результатів радіус має бути більшим за сигму. Вкажіть
-радіус 0, щоб Imagick::UnsharpMaskImage() задав відповідний радіус
-автоматично.
+Різкість зображення. Ми згортаємо зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для отримання розумних результатів радіус має бути більшим за сигму. Вкажіть радіус 0, щоб Imagick::UnsharpMaskImage() поставив відповідний радіус автоматично.
 
 ### Список параметрів
 
@@ -41,7 +34,7 @@ int `$channel` = Imagick::CHANNEL_DEFAULT
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -51,4 +44,14 @@ int `$channel` = Imagick::CHANNEL_DEFAULT
 
 **Приклад #1 Приклад використання **Imagick::unsharpMaskImage()****
 
-` <?phpfunction unsharpMaskImage($imagePath, $radius, $sigma, $amount, $unsharpThreshold) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->unsharpMaskImage($radius, $sigma, $amount, $unsharpThreshold); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function unsharpMaskImage($imagePath, $radius, $sigma, $amount, $unsharpThreshold) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->unsharpMaskImage($radius, $sigma, $amount, $unsharpThreshold);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

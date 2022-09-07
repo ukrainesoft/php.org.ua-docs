@@ -1,29 +1,31 @@
-- [« Yac::get](yac.get.md)
-- [Yac::info »](yac.info.md)
+---
+navigation:
+  - yac.get.md: '« Yac::get'
+  - yac.info.md: 'Yac::info »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::get'
+---
+# Yac::get
 
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Геттер
+(PECL yac >= 1.0.0)
 
-# Yac::\_\_get
-
-(PECL yac \>= 1.0.0)
-
-Yac::\_\_get - Геттер
+Yac::get - Геттер
 
 ### Опис
 
-public **Yac::\_\_get**(string `$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Yac::__get(string $key): mixed
+```
 
 Витягує значення з кешу
 
 ### Список параметрів
 
 `key`
+
 Ключ (string)
 
 ### Значення, що повертаються
 
-Змішане значення у разі успішного виконання, **`null`** у разі
-виникнення помилки
+Змішане значення у разі успішного виконання, **`null`** у разі виникнення помилки

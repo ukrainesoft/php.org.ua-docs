@@ -1,21 +1,22 @@
-- [« SplDoublyLinkedList::add](spldoublylinkedlist.add.md)
-- [SplDoublyLinkedList::count »](spldoublylinkedlist.count.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- отримує вузол, що знаходиться на початку двозв'язкового списку
-
+---
+navigation:
+  - spldoublylinkedlist.add.md: '« SplDoublyLinkedList::add'
+  - spldoublylinkedlist.count.md: 'SplDoublyLinkedList::count »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::bottom'
+---
 # SplDoublyLinkedList::bottom
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::bottom — Отримує вузол, що знаходиться на початку
-двозв'язного списку
+SplDoublyLinkedList::bottom — Отримує вузол, що знаходиться на початку двозв'язкового списку
 
 ### Опис
 
-public **SplDoublyLinkedList::bottom**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplDoublyLinkedList::bottom(): mixed
+```
 
 ### Список параметрів
 
@@ -27,5 +28,4 @@ public **SplDoublyLinkedList::bottom**():
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

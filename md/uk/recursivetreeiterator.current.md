@@ -1,27 +1,28 @@
-- [« RecursiveTreeIterator::\_\_construct](recursivetreeiterator.construct.md)
-- [RecursiveTreeIterator::endChildren »](recursivetreeiterator.endchildren.md)
-
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Отримання поточного елемента
-
+---
+navigation:
+  - recursivetreeiterator.construct.md: '« RecursiveTreeIterator::construct'
+  - recursivetreeiterator.endchildren.md: 'RecursiveTreeIterator::endChildren »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::current'
+---
 # RecursiveTreeIterator::current
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::current — Отримання поточного елемента
 
 ### Опис
 
-public **RecursiveTreeIterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public RecursiveTreeIterator::current(): mixed
+```
 
 Повертає поточний елемент із префіксом та суфіксом.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

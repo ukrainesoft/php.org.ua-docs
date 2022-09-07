@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Http\Client::isConnected](swoole-coroutine-http-client.isconnected.md)
-- [Swoole\Coroutine\Http\Client::recv »](swoole-coroutine-http-client.recv.md)
+---
+navigation:
+  - swoole-coroutine-http-client.isconnected.md: '« SwooleCoroutineHttpClient::isConnected'
+  - swoole-coroutine-http-client.recv.md: 'SwooleCoroutineHttpClient::recv »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::post'
+---
+# SwooleCoroutineHttpClient::post
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::post
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::post — Опис
+SwooleCoroutineHttpClient::post — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::post**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::post(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

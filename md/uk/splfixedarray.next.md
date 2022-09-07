@@ -1,19 +1,22 @@
-- [« SplFixedArray::key](splfixedarray.key.md)
-- [SplFixedArray::offsetExists »](splfixedarray.offsetexists.md)
-
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Переходить до наступного елементу масиву
-
+---
+navigation:
+  - splfixedarray.key.md: '« SplFixedArray::key'
+  - splfixedarray.offsetexists.md: 'SplFixedArray::offsetExists »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::next'
+---
 # SplFixedArray::next
 
-(PHP 5 = 5.3.0, PHP 7)
+(PHP 5> = 5.3.0, PHP 7)
 
-SplFixedArray::next — Переходить до наступного елементу масиву
+SplFixedArray::next — Переходить до наступного елемента масиву
 
 ### Опис
 
-public **SplFixedArray::next**(): void
+```methodsynopsis
+public SplFixedArray::next(): void
+```
 
 Переміщує ітератор наступного елемента масиву.
 

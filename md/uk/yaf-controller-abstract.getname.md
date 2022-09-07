@@ -1,19 +1,22 @@
-- [« Yaf_Controller_Abstract::getModuleName](yaf-controller-abstract.getmodulename.md)
-- [Yaf_Controller_Abstract::getRequest »](yaf-controller-abstract.getrequest.md)
+---
+navigation:
+  - yaf-controller-abstract.getmodulename.md: '« YafControllerAbstract::getModuleName'
+  - yaf-controller-abstract.getrequest.md: 'YafControllerAbstract::getRequest »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::getName'
+---
+# YafControllerAbstract::getName
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Отримує своє ім'я
+(Yaf> = 3.2.0)
 
-# Yaf_Controller_Abstract::getName
-
-(Yaf \>=3.2.0)
-
-Yaf_Controller_Abstract::getName — Отримує своє ім'я
+YafControllerAbstract::getName — Отримує своє ім'я
 
 ### Опис
 
-public **Yaf_Controller_Abstract::getName**(): string
+```methodsynopsis
+public Yaf_Controller_Abstract::getName(): string
+```
 
 Отримує ім'я контролера
 

@@ -1,19 +1,22 @@
-- [« Gmagick::getimagegamma](gmagick.getimagegamma.md)
-- [Gmagick::getimageheight »](gmagick.getimageheight.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає первинну зелену точку
-
+---
+navigation:
+  - gmagick.getimagegamma.md: '« Gmagick::getimagegamma'
+  - gmagick.getimageheight.md: 'Gmagick::getimageheight »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagegreenprimary'
+---
 # Gmagick::getimagegreenprimary
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagegreenprimary — Повертає первинну зелену точку
 
 ### Опис
 
-public **Gmagick::getimagegreenprimary**(): array
+```methodsynopsis
+public Gmagick::getimagegreenprimary(): array
+```
 
 Повертає первинну зелену точку у вигляді масиву з ключами "x" та "y".
 

@@ -1,42 +1,36 @@
-- [« date_create_immutable](function.date-create-immutable.md)
-- [date_date_set »](function.date-date-set.md)
+---
+navigation:
+  - function.date-create-immutable.md: « datecreateimmutable
+  - function.date-date-set.md: datedateset »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datecreate
+---
+# datecreate
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Створює новий об'єкт DateTime
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#date_create
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-date_create — Створює новий об'єкт [DateTime](class.datetime.md)
+datecreate — Створює новий об'єкт [DateTime](class.datetime.md)
 
 ### Опис
 
-**date_create**(string `$datetime` = "now",
-?[DateTimeZone](class.datetimezone.md) `$timezone` = **`null`**):
-[DateTime](class.datetime.md)\|false
+```methodsynopsis
+date_create(string $datetime = "now", ?DateTimeZone $timezone = null): DateTime|false
+```
 
-Це процедурна версія методу
-[DateTime::\_\_construct()](datetime.construct.md).
+Це процедурна версія методу [DateTime::construct()](datetime.construct.md)
 
-На відміну від конструктора [DateTime](class.datetime.md), функція
-повертає **`false`** замість винятку, якщо передана у параметр
-'datetime' рядок неприпустимий.
+На відміну від конструктора [DateTime](class.datetime.md), функція повертає **`false`** замість виключення, якщо передано до параметра `datetime` рядок неприпустимий.
 
 ### Список параметрів
 
-Дивіться
-[DateTimeImmutable::\_\_construct](datetimeimmutable.construct.md).
+Дивіться [DateTimeImmutable::construct](datetimeimmutable.construct.md)
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр DateTime. Процедурний стиль повертає
-**`false`** у разі виникнення помилки.
+Повертає новий екземпляр DateTime. Процедурний стиль повертає **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DateTime::\_\_construct()](datetime.construct.md) - Конструктор
-класу DateTime
-- [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md) -
-Повертає новий об'єкт DateTimeImmutable
+-   [DateTime::construct()](datetime.construct.md) - Конструктор класу DateTime
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.md) - Повертає новий об'єкт DateTimeImmutable

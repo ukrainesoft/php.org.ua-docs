@@ -1,19 +1,22 @@
-- [« Componere\Definition::addProperty](componere-definition.addproperty.md)
-- [Componere\Definition::isRegistered »](componere-definition.isregistered.md)
+---
+navigation:
+  - componere-definition.addproperty.md: '« ComponereDefinition::addProperty'
+  - componere-definition.isregistered.md: 'ComponereDefinition::isRegistered »'
+  - index.md: PHP Manual
+  - class.componere-definition.md: ComponereDefinition
+title: 'ComponereDefinition::register'
+---
+# ComponereDefinition::register
 
-- [PHP Manual](index.md)
-- [Componere\Definition](class.componere-definition.md)
-- Реєстрація
+(Componere 2 >= 2.1.0)
 
-# Componere\Definition::register
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Definition::register — Реєстрація
+ComponereDefinition::register — Реєстрація
 
 ### Опис
 
-public **Componere\Definition::register**(): void
+```methodsynopsis
+public Componere\Definition::register(): void
+```
 
 Реєструє поточне визначення
 
@@ -21,5 +24,4 @@ public **Componere\Definition::register**(): void
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано

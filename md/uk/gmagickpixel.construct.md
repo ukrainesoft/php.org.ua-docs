@@ -1,25 +1,25 @@
-- [«GmagickPixel](class.gmagickpixel.md)
-- [GmagickPixel::getcolor »](gmagickpixel.getcolor.md)
+---
+navigation:
+  - class.gmagickpixel.md: « GmagickPixel
+  - gmagickpixel.getcolor.md: 'GmagickPixel::getcolor »'
+  - index.md: PHP Manual
+  - class.gmagickpixel.md: GmagickPixel
+title: 'GmagickPixel::construct'
+---
+# GmagickPixel::construct
 
-- [PHP Manual](index.md)
-- [GmagickPixel](class.gmagickpixel.md)
-- Конструктор класу GmagickPixel
+(PECL gmagick >= Unknown)
 
-# GmagickPixel::\_\_construct
-
-(PECL gmagick \>= Unknown)
-
-GmagickPixel::\_\_construct — Конструктор класу GmagickPixel
+GmagickPixel::construct - Конструктора класу GmagickPixel
 
 ### Опис
 
-public **GmagickPixel::\_\_construct**(string `$color` = ?)
+public **GmagickPixel::construct**(string `$color`
 
-Створює новий об'єкт класу [GmagickPixel](class.gmagickpixel.md).
-Якщо вказано колір, об'єкт буде ініціалізований цим кольором.
+Створює новий об'єкт класу [GmagickPixel](class.gmagickpixel.md). Якщо вказано колір, об'єкт буде ініціалізований цим кольором.
 
 ### Список параметрів
 
-`col`
-Опціональний параметр, що використовується для початкового значення кольору
-об'єкт.
+`color`
+
+Опціональний параметр, який використовується для початкового значення кольору об'єкта.

@@ -1,20 +1,22 @@
-- [« Ds\Set::jsonSerialize](ds-set.jsonserialize.md)
-- [Ds\Set::merge »](ds-set.merge.md)
+---
+navigation:
+  - ds-set.jsonserialize.md: '« DsSet::jsonSerialize'
+  - ds-set.merge.md: 'ДсSet::merge »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::last'
+---
+# ДсSet::last
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає останнє значення колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Set::last
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::last — Повертає останнє значення колекції
+ДсSet::last — Повертає останнє значення колекції
 
 ### Опис
 
-public **Ds\Set::last**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Set::last(): mixed
+```
 
 Повертає останнє значення колекції.
 
@@ -28,16 +30,21 @@ public **Ds\Set::last**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::last()****
+**Приклад #1 Приклад використання **ДсSet::last()****
 
-` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->last());?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2, 3]);
+var_dump($set->last());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(3)
+```

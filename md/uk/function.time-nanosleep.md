@@ -1,63 +1,81 @@
-- [«sys_getloadavg](function.sys-getloadavg.md)
-- [time_sleep_until »](function.time-sleep-until.md)
-
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Затримка на задане число секунд та наносекунд
-
-#time_nanosleep
+---
+navigation:
+  - function.sys-getloadavg.md: « sysgetloadavg
+  - function.time-sleep-until.md: timesleepuntil »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: timenanosleep
+---
+# timenanosleep
 
 (PHP 5, PHP 7, PHP 8)
 
-time_nanosleep — Затримка на задану кількість секунд і наносекунд
+timenanosleep — Затримка на задану кількість секунд та наносекунд
 
 ### Опис
 
-**time_nanosleep**(int `$seconds`, int `$nanoseconds`): array\|bool
+```methodsynopsis
+time_nanosleep(int $seconds, int $nanoseconds): array|bool
+```
 
-Відкладає виконання програми на задані в параметрах `seconds` та
-`nanoseconds` число секунд і наносекунд відповідно.
+Відкладає виконання програми на задані параметри `seconds` і `nanoseconds` число секунд та наносекунд відповідно.
 
 ### Список параметрів
 
 `seconds`
+
 Має бути цілим позитивним числом.
 
 `nanoseconds`
+
 Має бути цілим позитивним числом, меншим за один мільярд.
 
-> **Примітка**: У Windows система може відкладати виконання довше
-> вказаної кількості наносекунд, залежно від апаратного
-> Забезпечення.
+> **Зауваження**: У Windows система може відкладати виконання довше зазначеної кількості наносекунд, залежно від апаратного забезпечення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Якщо відкладене виконання було перервано сигналом, то повертається
-асоціативний масив з наступними компонентами:
+Якщо відкладене виконання було перервано сигналом, повертається асоціативний масив з наступними компонентами:
 
-- `seconds` - число секунд, що залишилися
-- `nanoseconds` - число наносекунд, що залишилися.
+-   `seconds` - кількість секунд, що залишилися
+-   `nanoseconds` - кількість наносекунд, що залишилися
 
 ### Приклади
 
-**Приклад #1 Приклад використання **time_nanosleep()****
+**Приклад #1 Приклад використання **timenanosleep()****
 
-`<?php// Увага! Якщо буде повернений масив, та така функція не спрацює, як очікувалосяif (time_nanosleep(0, 500000000)) {    echo "Затримка на |
-";}//Так краще:if (time_nanosleep(0, 500000000) === true) {    echo "Затримка на півсекунди.
-";}// А так краще всього:$nano = time_nanosleep(2, 100000);if ($nano === true) {    echo "Затримка на 2 секунди, 1.
-";} elseif ($nano === false) {    echo "Затримка не удалася.
-";} elseif (is_array($nano)) {    $seconds = $nano['seconds'];    $nanoseconds = $nano['nanoseconds'];    echo |"
-";    echo "Залишилося: $seconds секунд, $nanoseconds наносекунд.";}?> `
+```php
+<?php
+// Внимание! Если будет возвращён Масив, то такая функция не сработает, как ожидалось
+if (time_nanosleep(0, 500000000)) {
+    echo "Задержка на полсекунды.\n";
+}
+
+// Так лучше:
+if (time_nanosleep(0, 500000000) === true) {
+    echo "Задержка на полсекунды.\n";
+}
+
+// А так лучше всего:
+$nano = time_nanosleep(2, 100000);
+
+if ($nano === true) {
+    echo "Задержка на 2 секунды, 100 микросекунд.\n";
+} elseif ($nano === false) {
+    echo "Задержка не удалась.\n";
+} elseif (is_array($nano)) {
+    $seconds = $nano['seconds'];
+    $nanoseconds = $nano['nanoseconds'];
+    echo "Прервано сигналом.\n";
+    echo "Осталось: $seconds секунд, $nanoseconds наносекунд.";
+}
+?>
+```
 
 ### Дивіться також
 
-- [sleep()](function.sleep.md) - Затримка виконання
-- [usleep()](function.usleep.md) - Затримка виконання в
-мікросекундах
-- [time_sleep_until()](function.time-sleep-until.md) - Відкладає
-виконання скрипту до заданого часу
-- [set_time_limit()](function.set-time-limit.md) - Обмеження
-часу виконання скрипту
+-   [sleep()](function.sleep.md) - затримка виконання
+-   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
+-   [timesleepuntil()](function.time-sleep-until.md) - Відкладає виконання скрипту до заданого часу
+-   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту

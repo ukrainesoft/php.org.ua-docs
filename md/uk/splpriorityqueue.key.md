@@ -1,21 +1,24 @@
-- [« SplPriorityQueue::isEmpty](splpriorityqueue.isempty.md)
-- [SplPriorityQueue::next »](splpriorityqueue.next.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Повертає індекс поточного вузла
-
+---
+navigation:
+  - splpriorityqueue.isempty.md: '« SplPriorityQueue::isEmpty'
+  - splpriorityqueue.next.md: 'SplPriorityQueue::next »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::key'
+---
 # SplPriorityQueue::key
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplPriorityQueue::key — Повертає індекс поточного сайту
 
 ### Опис
 
-public **SplPriorityQueue::key**(): int
+```methodsynopsis
+public SplPriorityQueue::key(): int
+```
 
-Повертає індекс поточного вузла.
+Повертає індекс поточного сайту.
 
 ### Список параметрів
 

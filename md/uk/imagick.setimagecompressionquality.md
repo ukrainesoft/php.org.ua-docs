@@ -1,31 +1,34 @@
-- [« Imagick::setImageCompression](imagick.setimagecompression.md)
-- [Imagick::setImageDelay »](imagick.setimagedelay.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює якість стиснення зображення
-
+---
+navigation:
+  - imagick.setimagecompression.md: '« Imagick::setImageCompression'
+  - imagick.setimagedelay.md: 'Imagick::setImageDelay »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageCompressionQuality'
+---
 # Imagick::setImageCompressionQuality
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageCompressionQuality — Встановлює якість стиснення
-зображення
+Imagick::setImageCompressionQuality — Встановлює якість стиснення зображення
 
 ### Опис
 
-public **Imagick::setImageCompressionQuality**(int `$quality`): bool
+```methodsynopsis
+public Imagick::setImageCompressionQuality(int $quality): bool
+```
 
 Встановлює якість стиснення зображення.
 
 ### Список параметрів
 
 `quality`
+
 Якість стиснення зображення у вигляді цілого числа
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -33,7 +36,16 @@ public **Imagick::setImageCompressionQuality**(int `$quality`): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**Imagick::setImageCompressionQuality()****
+**Приклад #1 Приклад використання **Imagick::setImageCompressionQuality()****
 
-`<?phpfunction setImageCompressionQuality($imagePath, $quality) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageCompressionQuality($quality); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function setImageCompressionQuality($imagePath, $quality) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageCompressionQuality($quality);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

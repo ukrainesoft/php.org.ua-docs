@@ -1,39 +1,40 @@
-- [«SQLite (PDO)](ref.pdo-sqlite.md)
-- [PDO::sqliteCreateAggregate »](pdo.sqlitecreateaggregate.md)
+---
+navigation:
+  - ref.pdo-sqlite.md: « SQLite (PDO)
+  - pdo.sqlitecreateaggregate.md: 'PDO::sqliteCreateAggregate »'
+  - index.md: PHP Manual
+  - ref.pdo-sqlite.md: SQLite (PDO)
+title: PDOSQLITE DSN
+---
+# PDOSQLITE DSN
 
-- [PHP Manual](index.md)
-- [SQLite (PDO)](ref.pdo-sqlite.md)
-- З'єднання з базою даних SQLite
+(PHP 5> = 5.1.0, PHP 7, PECL PDOSQLITE> = 0.2.0)
 
-#PDO_SQLITE DSN
-
-(PHP 5 \>= 5.1.0, PHP 7, PECL PDO_SQLITE \>= 0.2.0)
-
-PDO_SQLITE DSN — З'єднання з базою даних SQLite
+PDOSQLITE DSN — З'єднання з базою даних SQLite
 
 ### Опис
 
-Ім'я джерела даних (Data Source Name, DSN) PDO_SQLITE складається з
-наступних елементів:
+Ім'я джерела даних (Data Source Name, DSN) PDOSQLITE складається з наступних елементів:
 
 DSN-префікс (SQLite 3)
-DSN-префікс - це 'sqlite:'**.
 
-- Для доступу до бази даних на диску абсолютний шлях повинен бути
-додано до DSN-префіксу.
+DSN-префікс - це **`sqlite:`**
 
-- Для створення бази даних у пам'яті ``memory:` повинен бути доданий до
-DSN-префіксу.
-
-- Якщо DSN складається лише з префіксу DSN, використовується тимчасова база
-даних, що видаляється при закритті з'єднання.
+-   Для доступу до бази даних на диску абсолютний шлях повинен бути доданий до DSN-префіксу.
+    
+-   Для створення бази даних у пам'яті, `:memory:` має бути доданий до DSN-префіксу.
+    
+-   Якщо DSN складається лише з префіксу DSN, використовується тимчасова база даних, яка видаляється при закритті з'єднання.
+    
 
 ### Приклади
 
-**Приклад #1 Приклад DSN PDO_SQLITE**
+**Приклад #1 Приклад DSN PDOSQLITE**
 
-У наступному прикладі показано DSN PDO_SQLITE для з'єднання з SQLite:
+У наступному прикладі показано DSN PDOSQLITE для з'єднання з SQLite:
 
+```
 sqlite:/opt/databases/mydb.sq3
 sqlite::memory:
 sqlite:
+```

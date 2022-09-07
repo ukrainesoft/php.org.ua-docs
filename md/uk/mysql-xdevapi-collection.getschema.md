@@ -1,10 +1,11 @@
-- [« Collection::getOne](mysql-xdevapi-collection.getone.md)
-- [Collection::getSession »](mysql-xdevapi-collection.getsession.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Повертає об'єкт Schema
-
+---
+navigation:
+  - mysql-xdevapi-collection.getone.md: '« Collection::getOne'
+  - mysql-xdevapi-collection.getsession.md: 'Collection::getSession »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+title: 'Collection::getSchema'
+---
 # Collection::getSchema
 
 (No version information available, might only be in Git)
@@ -13,7 +14,9 @@ Collection::getSchema — Повертає об'єкт Schema
 
 ### Опис
 
-public **mysql_xdevapi\Collection::getSchema**(): Schema Object
+```methodsynopsis
+public mysql_xdevapi\Collection::getSchema(): Schema Object
+```
 
 Повертає об'єкт Schema, що містить колекцію.
 
@@ -23,19 +26,31 @@ public **mysql_xdevapi\Collection::getSchema**(): Schema Object
 
 ### Значення, що повертаються
 
-Об'єкт Schema у разі успішного виконання або **`null`**, якщо об'єкт
-не може бути повернутий для цієї колекції.
+Об'єкт Schema у разі успішного виконання або **`null`**, якщо об'єкт не може бути повернутий для цієї колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::getSchema()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::getSchema()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");var_dump($ecollection ;?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+var_dump($collection->getSchema());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(mysql_xdevapi\Schema)#9 (1) {
-["name"]=>
-string(11) "addressbook"
+  ["name"]=>
+  string(11) "addressbook"
 }
+```

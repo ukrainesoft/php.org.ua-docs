@@ -1,24 +1,24 @@
-- [« Imagick::decipherImage](imagick.decipherimage.md)
-- [Imagick::deleteImageArtifact »](imagick.deleteimageartifact.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає певні піксельні відмінності між зображеннями
-
+---
+navigation:
+  - imagick.decipherimage.md: '« Imagick::decipherImage'
+  - imagick.deleteimageartifact.md: 'Imagick::deleteImageArtifact »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::deconstructImages'
+---
 # Imagick::deconstructImages
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::deconstructImages — Повертає певні піксельні відмінності
-між зображеннями
+Imagick::deconstructImages — Повертає певні піксельні відмінності між зображеннями
 
 ### Опис
 
-public **Imagick::deconstructImages**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::deconstructImages(): Imagick
+```
 
-Порівнює кожне зображення з наступним у послідовності та
-повертає максимальну обмежуючу область будь-яких виявлених
-відмінностей пікселів.
+Порівнює кожне зображення з наступним у послідовності і повертає максимальну область, що обмежує будь-яких виявлених відмінностей пікселів.
 
 ### Список параметрів
 

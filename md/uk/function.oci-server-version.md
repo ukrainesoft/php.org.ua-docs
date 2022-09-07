@@ -1,22 +1,24 @@
-- [«oci_rollback](function.oci-rollback.md)
-- [oci_set_action »](function.oci-set-action.md)
+---
+navigation:
+  - function.oci-rollback.md: « ocirollback
+  - function.oci-set-action.md: ocisetaction »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociserverversion
+---
+# ociserverversion
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає версію сервера Oracle
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_server_version
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_server_version — Повертає версію сервера Oracle
+ociserverversion — Повертає версію сервера Oracle
 
 ### Опис
 
-**oci_server_version**(resource `$connection`): string\|false
+```methodsynopsis
+oci_server_version(resource $connection): string|false
+```
 
-Повертає рядок з інформацією про версію сервера Oracle та доступні
-опціях
+Повертає рядок з інформацією про версію сервера Oracle та доступні опції
 
 ### Список параметрів
 
@@ -24,26 +26,33 @@ oci_server_version — Повертає версію сервера Oracle
 
 ### Значення, що повертаються
 
-Повертає у вигляді рядка інформацію про версію або **`false`** у разі
-виникнення помилки.
+Повертає у вигляді рядка інформацію про версію або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_server_version()****
+**Приклад #1 Приклад використання **ociserverversion()****
 
-` <?php$conn = oci_connect("hr", "hrpwd", "localhost/XE");echo "Версія сервера: " . oci_server_version($conn);//Виведе //Версія сервера:OracleDatabase11gEnterpriseEditionRelease11.2.0.1.0-64bitProduction/In > `
+```php
+<?php
+
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+echo "Версия сервера: " . oci_server_version($conn);
+
+// Выведет:
+// Версия сервера: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+// With the Partitioning, OLAP, Data Mining and Real Application Testing option
+
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У версіях PHP нижче 5.0.0 ця функція називалася
-> [ociserverversion()](function.ociserverversion.md). У PHP 5.0.0 та
-> вище [ociserverversion()](function.ociserverversion.md) є
-> аліасом **oci_server_version()**, тому ви можете продовжувати
-> використовувати це ім'я, але це не рекомендується.
+> **Зауваження**
+> 
+> У версіях PHP нижче 5.0.0 ця функція називалася [ociserverversion()](function.ociserverversion.md). У PHP 5.0.0 і вище [ociserverversion()](function.ociserverversion.md) є аліасом \*\*ociserverversion()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
-- [oci_client_version()](function.oci-client-version.md) -
-Повертає версію клієнтської бібліотеки
+-   [ociclientversion()](function.oci-client-version.md) - Повертає версію клієнтської бібліотеки

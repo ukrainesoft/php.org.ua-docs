@@ -1,16 +1,15 @@
-- [«Зумовлені константи](recode.constants.md)
-- [recode_file »](function.recode-file.md)
-
-- [PHP Manual](index.md)
-- [Recode](book.recode.md)
-- Функції Recode
-
+---
+navigation:
+  - recode.constants.md: « Обумовлені константи
+  - function.recode-file.md: recodefile »
+  - index.md: PHP Manual
+  - book.recode.md: Recode
+title: Функції Recode
+---
 # Функції Recode
 
 ## Зміст
 
-- [recode_file](function.recode-file.md) — Перекодує з одного
-файлу в інший відповідно до заданих параметрів
-- [recode_string](function.recode-string.md) — Перекодує рядок у
-відповідно до заданих параметрів
-- [recode](function.recode.md) - Псевдонім recode_string
+-   [recodefile](function.recode-file.md) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
+-   [recodestring](function.recode-string.md) — Перекодує рядок відповідно до заданих параметрів
+-   [recode](function.recode.md) - Псевдонім recodestring

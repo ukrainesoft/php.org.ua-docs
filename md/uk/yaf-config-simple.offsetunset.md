@@ -1,24 +1,26 @@
-- [« Yaf_Config_Simple::offsetSet](yaf-config-simple.offsetset.md)
-- [Yaf_Config_Simple::readonly »](yaf-config-simple.readonly.md)
+---
+navigation:
+  - yaf-config-simple.offsetset.md: '« YafConfigSimple::offsetSet'
+  - yaf-config-simple.readonly.md: 'YafConfigSimple::readonly »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
+title: 'YafConfigSimple::offsetUnset'
+---
+# YafConfigSimple::offsetUnset
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення offsetUnset
+(Yaf >=1.0.0)
 
-# Yaf_Config_Simple::offsetUnset
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Simple::offsetUnset — Призначення offsetUnset
+YafConfigSimple::offsetUnset — Призначення offsetUnset
 
 ### Опис
 
-public **Yaf_Config_Simple::offsetUnset**(string `$name`): void
+```methodsynopsis
+public Yaf_Config_Simple::offsetUnset(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

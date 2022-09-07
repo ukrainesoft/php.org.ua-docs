@@ -1,26 +1,28 @@
-- [« EmptyIterator::rewind](emptyiterator.rewind.md)
-- [FilesystemIterator »](class.filesystemiterator.md)
-
-- [PHP Manual](index.md)
-- [EmptyIterator](class.emptyiterator.md)
-- Метод valid()
-
+---
+navigation:
+  - emptyiterator.rewind.md: '« EmptyIterator::rewind'
+  - class.filesystemiterator.md: FilesystemIterator »
+  - index.md: PHP Manual
+  - class.emptyiterator.md: EmptyIterator
+title: 'EmptyIterator::valid'
+---
 # EmptyIterator::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 EmptyIterator::valid — Метод valid()
 
 ### Опис
 
-public **EmptyIterator::valid**(): bool
+```methodsynopsis
+public EmptyIterator::valid(): bool
+```
 
 Метод valid() класу EmptyIterator.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

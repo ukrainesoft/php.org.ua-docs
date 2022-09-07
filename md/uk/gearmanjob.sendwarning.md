@@ -1,37 +1,37 @@
-- [« GearmanJob::sendStatus](gearmanjob.sendstatus.md)
-- [GearmanJob::setReturn »](gearmanjob.setreturn.md)
-
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Надсилання попередження
-
+---
+navigation:
+  - gearmanjob.sendstatus.md: '« GearmanJob::sendStatus'
+  - gearmanjob.setreturn.md: 'GearmanJob::setReturn »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::sendWarning'
+---
 # GearmanJob::sendWarning
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanJob::sendWarning — Надсилання попередження
 
 ### Опис
 
-public **GearmanJob::sendWarning**(string `$warning`): bool
+```methodsynopsis
+public GearmanJob::sendWarning(string $warning): bool
+```
 
 Під час виконання роботи надсилає попередження.
 
 ### Список параметрів
 
 `warning`
+
 Повідомлення попередження.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) -
-Надсилання результату та статусу завершення
-- [GearmanJob::sendException()](gearmanjob.sendexception.md) -
-Надсилання виключення завдання, що виконується
-- [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Надсилання
-статусу невдалої операції
+-   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) - Відправлення результату та статусу завершення
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Відправлення статусу невдалої операції

@@ -1,33 +1,37 @@
-- [ trader_minus_di](function.trader-minus-di.md)
-- [trader_mom»](function.trader-mom.md)
+---
+navigation:
+  - function.trader-minus-di.md: « traderminusді
+  - function.trader-mom.md: tradermom »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderminusдм
+---
+# traderminusдм
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Мінус-спрямований рух
+(PECL trader >= 0.2.0)
 
-#trader_minus_dm
-
-(PECL trader \>= 0.2.0)
-
-trader_minus_dm — Мінус-спрямований рух
+traderminusdm - Мінус-спрямований рух
 
 ### Опис
 
-**trader_minus_dm**(array `$high`, array `$low`, int `$timePeriod` = ?):
-array
+```methodsynopsis
+trader_minus_dm(array $high, array $low, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

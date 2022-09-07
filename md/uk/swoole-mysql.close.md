@@ -1,19 +1,22 @@
-- [« Swoole\MySQL](class.swoole-mysql.md)
-- [Swoole\MySQL::connect »](swoole-mysql.connect.md)
+---
+navigation:
+  - class.swoole-mysql.md: « SwooleMySQL
+  - swoole-mysql.connect.md: 'SwooleMySQL::connect »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.md: SwooleMySQL
+title: 'SwooleMySQL::close'
+---
+# SwooleMySQL::close
 
-- [PHP Manual](index.md)
-- [Swoole\MySQL](class.swoole-mysql.md)
-- Закриває асинхронне з'єднання MySQL
+(PECL swoole >= 1.9.0)
 
-# Swoole\MySQL::close
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\MySQL::close — Закриває асинхронне з'єднання MySQL
+SwooleMySQL::close — Закриває асинхронне з'єднання MySQL
 
 ### Опис
 
-public **Swoole\MySQL::close**(): void
+```methodsynopsis
+public Swoole\MySQL::close(): void
+```
 
 ### Список параметрів
 

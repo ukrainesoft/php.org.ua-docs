@@ -1,30 +1,31 @@
-- [« SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md)
-- [SolrDisMaxQuery::setQueryPhraseSlop »](solrdismaxquery.setqueryphraseslop.md)
-
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Встановлює альтернативний запит (параметр q.alt)
-
+---
+navigation:
+  - solrdismaxquery.setphraseslop.md: '« SolrDisMaxQuery::setPhraseSlop'
+  - solrdismaxquery.setqueryphraseslop.md: 'SolrDisMaxQuery::setQueryPhraseSlop »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setQueryAlt'
+---
 # SolrDisMaxQuery::setQueryAlt
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::setQueryAlt — Встановлює альтернативний запит
-(Параметр q.alt)
+SolrDisMaxQuery::setQueryAlt — Встановлює альтернативний запит (параметр q.alt)
 
 ### Опис
 
-public **SolrDisMaxQuery::setQueryAlt**(string `$q`):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::setQueryAlt(string $q): SolrDisMaxQuery
+```
 
 Встановлює альтернативний запит (параметр q.alt).
 
-Коли основний параметр *q* не вказано або порожній. Використовується параметр
-*q.alt*.
+Коли основний параметр *до* не вказаний чи порожній. Використовується параметр *q.alt*
 
 ### Список параметрів
 
 `q`
+
 Рядок запиту.
 
 ### Значення, що повертаються
@@ -35,8 +36,17 @@ public **SolrDisMaxQuery::setQueryAlt**(string `$q`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::setQueryAlt()****
 
-` <?php$dismaxQuery = new DisMaxQuery();$dismaxQuery->setQueryAlt('*:*');?> `
+```php
+<?php
+
+$dismaxQuery = new DisMaxQuery();
+$dismaxQuery->setQueryAlt('*:*');
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 defType=edismax&q.alt=*:*&q=
+```

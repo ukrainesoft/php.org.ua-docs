@@ -1,51 +1,68 @@
-- [«uopz_undefine](function.uopz-undefine.md)
-- [uopz_unset_mock »](function.uopz-unset-mock.md)
-
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Видаляє раніше встановлену функцію чи метод
-
-#uopz_unset_hook
+---
+navigation:
+  - function.uopz-undefine.md: « uopzundefine
+  - function.uopz-unset-mock.md: uopzunsetmock »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzunsethook
+---
+# uopzunsethook
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopz_unset_hook — Видалення раніше встановленої функції або методу
+uopzunsethook — Видалення попередньо встановленої функції або методу
 
 ### Опис
 
-**uopz_unset_hook**(string `$function`): bool
+```methodsynopsis
+uopz_unset_hook(string $function): bool
+```
 
-**uopz_unset_hook**(string `$class`, string `$function`): bool
+```methodsynopsis
+uopz_unset_hook(string $class, string $function): bool
+```
 
-Видаляє раніше встановлену функцію або метод.
+Видаляє раніше встановлену функцію чи метод.
 
 ### Список параметрів
 
 `class`
+
 Назва класу.
 
 `function`
+
 Ім'я функції чи методу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopz_unset_hook()****
+**Приклад #1 Просте використання **uopzunsethook()****
 
-` <?phpfunction foo() {    echo 'foo';}uopz_set_hook('foo', function () {echo 'bar';});foo();echo PHP_EOL;uopz_unset_hook('fo' ?> `
+```php
+<?php
+function foo() {
+    echo 'foo';
+}
+uopz_set_hook('foo', function () {echo 'bar';});
+foo();
+echo PHP_EOL;
+uopz_unset_hook('foo');
+foo();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 barfoo
 foo
+```
 
 ### Дивіться також
 
-- [uopz_set_hook()](function.uopz-set-hook.md) - Встановлює
-обробник для виконання під час виклику функції або методу
-- [uopz_get_hook()](function.uopz-get-hook.md) - Отримує раніше
-встановлений обробник на функцію чи метод
+-   [uopzsethook()](function.uopz-set-hook.md) - Встановлює обробник для виконання під час виклику функції або методу
+-   [uopzgethook()](function.uopz-get-hook.md) - отримує раніше встановлений обробник на функцію або метод

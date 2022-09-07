@@ -1,25 +1,29 @@
-- [« Parle\RLexer::pushState](parle-rlexer.pushstate.md)
-- [Parle\Parser »](class.parle-parser.md)
+---
+navigation:
+  - parle-rlexer.pushstate.md: '« ParleRLexer::pushState'
+  - class.parle-parser.md: ParleParser »
+  - index.md: PHP Manual
+  - class.parle-rlexer.md: ParleRLexer
+title: 'ParleRLexer::reset'
+---
+# ParleRLexer::reset
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-– скидає лексер
+(PECL parle >= 0.7.1)
 
-# Parle\RLexer::reset
-
-(PECL parle \>= 0.7.1)
-
-Parle\RLexer::reset — Скидає лексер
+ParleRLexer::reset — Скидає лексер
 
 ### Опис
 
-public **Parle\RLexer::reset**(int `$pos`): void
+```methodsynopsis
+public Parle\RLexer::reset(int $pos): void
+```
 
 Скидання лексингу, за бажання надаючи бажане усунення.
 
 ### Список параметрів
 
 `pos`
+
 Позиція скидання.
 
 ### Значення, що повертаються

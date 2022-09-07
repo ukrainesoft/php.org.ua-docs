@@ -1,48 +1,45 @@
-- [« mysqli_stmt::bind_result](mysqli-stmt.bind-result.md)
-- [mysqli_stmt::\_\_construct »](mysqli-stmt.construct.md)
+---
+navigation:
+  - mysqli-stmt.bind-result.md: '« mysqlistmt::bindresult'
+  - mysqli-stmt.construct.md: 'mysqlistmt::construct »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::close'
+---
+# mysqlistmt::close
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Закриває підготовлений запит
-
-# mysqli_stmt::close
-
-# mysqli_stmt_close
+# mysqlistmtclose
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::close -- mysqli_stmt_close — Закриває підготовлений
-запит
+mysqlistmt::close -- mysqlistmtclose — Закриває підготовлений запит
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::close**(): bool
+```methodsynopsis
+public mysqli_stmt::close(): bool
+```
 
 Процедурний стиль
 
-**mysqli_stmt_close**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): bool
+```methodsynopsis
+mysqli_stmt_close(mysqli_stmt $statement): bool
+```
 
-Закриває запит. **mysqli_stmt_close()** також
-звільняє дескриптор запиту. Якщо за поточним запитом отримано
-результат, то ця функція очищає його для того, щоб міг бути виконаний
-наступний запит.
+Закриває підготовлений запит . **mysqlistmtclose()** також звільняє дескриптор запиту. Якщо за поточним запитом отримано результат, ця функція очищає його для того, щоб міг бути виконаний наступний запит.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання

@@ -1,79 +1,117 @@
-- [« Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
-- [token_name »](function.token-name.md)
+---
+navigation:
+  - ref.tokenizer.md: « Функции PHP-лексера (tokenizer)
+  - function.token-name.md: tokenname »
+  - index.md: PHP Manual
+  - ref.tokenizer.md: Функции PHP-лексера (tokenizer)
+title: tokengetall
+---
+# tokengetall
 
-- [PHP Manual](index.md)
-- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
-- Розбиває переданий вихідний код на PHP-лексеми
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#token_get_all
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-token_get_all — Розбиває переданий вихідний код на PHP-лексеми
+tokengetall — Розбиває переданий вихідний код на PHP-лексеми
 
 ### Опис
 
-**token_get_all**(string `$code`, int `$flags` = 0): array
+```methodsynopsis
+token_get_all(string $code, int $flags = 0): array
+```
 
-Функція **token_get_all()** розбирає переданий рядок `code` у
-мовні лексеми PHP, використовуючи лексичний сканер Zend Engine.
+Функція **tokengetall()** розбирає переданий рядок `code` у мовні лексеми PHP, використовуючи лексичний сканер Zend Engine.
 
-Список лексем дивіться в [Список тегів (tokens) парсера](tokens.md)
-або використовуйте [token_name()](function.token-name.md) для перекладу
-значення лексеми у рядкове уявлення.
+Список лексем дивіться у [Список меток (tokens) парсера](tokens.md) або використовуйте [tokenname()](function.token-name.md) для переведення значення лексеми в рядкову виставу.
 
 ### Список параметрів
 
 `code`
+
 Вихідний код PHP для аналізу.
 
 `flags`
+
 Коректні прапори:
 
-- **`TOKEN_PARSE`** - Розпізнає можливість використання
-зарезервованих слів у певних контекстах.
+-   **`TOKEN_PARSE`** - Розпізнає можливість використання зарезервованих слів у певних контекстах.
 
 ### Значення, що повертаються
 
-Масив ідентифікаторів лексем. Кожен індивідуальний ідентифікатор
-лексеми це або одиночний символ (наприклад, `;`, `.`, `>`, `!`,
-інші...), або триелементний масив, що містить індекс лексеми в
-нульовому елементі, рядок з оригінальним вмістом лексеми у першому
-елемент і номер рядка в другому елементі.
+Масив ідентифікаторів лексем. Кожен індивідуальний ідентифікатор лексеми це чи одиночний символ (наприклад, `;` `.` `>` `!`, інші...), або триелементний масив, що містить індекс лексеми в нульовому елементі, рядок з оригінальним вмістом лексеми у першому елементі та номером рядка у другому елементі.
 
 ### Приклади
 
-**Приклад #1 **token_get_all()** example**
+**Приклад #1 **tokengetall()** example**
 
-`<?php$tokens =token_get_all('<?php echo; ?>');foreach ($tokens as $token) {    if (is_array($token)) {         , token_name($token[0]), " ('{$token[1]}')", PHP_EOL; }}?> `
+```php
+<?php
+$tokens = token_get_all('<?php echo; ?>');
 
-Результатом виконання цього прикладу буде щось подібне:
-
-Рядок 1: T_OPEN_TAG ('<?php')
-Рядок 1: T_ECHO ('echo')
-Рядок 1: T_WHITESPACE ('')
-Рядок 1: T_CLOSE_TAG ('?>')
-
-**Приклад #2 Приклад неправильного використання **token_get_all()****
-
-` <?php$tokens = token_get_all('/* коментар */');foreach ($tokens as $token) {    if (is_array($token)) {             ($token[0]), " ('{$token[1]}')", PHP_EOL; }}?> `
-
-Результатом виконання цього прикладу буде щось подібне:
-
-Рядок 1: T_INLINE_HTML ('/* коментар */')
-
-Зверніть увагу, у наведеному прикладі рядок розбирається як
-**`T_INLINE_HTML`** замість очікуваного **`T_COMMENT`**. Це пов'язано з
-тим, що не використовується тег, що відкриває в коді. Це було б
-еквівалентно приміщенню коментарів поза тегами PHP у звичайному файлі.
-
-**Приклад #3 Приклад використання **token_get_all()** з класом,
-які використовують зарезервовані слова**
-
-` <?php$source = <<<'Code'<?phpclass A{   const PUBLIC = 1;}code;$tokens = token_get_all($source, TOKEN_PARSE);foreach ($tokens as       $token)) {        echo token_name($token[0]) , PHP_EOL; }}?> `
+foreach ($tokens as $token) {
+    if (is_array($token)) {
+        echo "Строка {$token[2]}: ", token_name($token[0]), " ('{$token[1]}')", PHP_EOL;
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
+Строка 1: T_OPEN_TAG ('<?php ')
+Строка 1: T_ECHO ('echo')
+Строка 1: T_WHITESPACE (' ')
+Строка 1: T_CLOSE_TAG ('?>')
+```
+
+**Приклад #2 Приклад неправильного використання **tokengetall()****
+
+```php
+<?php
+$tokens = token_get_all('/* комментарий */');
+
+foreach ($tokens as $token) {
+    if (is_array($token)) {
+        echo "Строка {$token[2]}: ", token_name($token[0]), " ('{$token[1]}')", PHP_EOL;
+    }
+}
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+Строка 1: T_INLINE_HTML ('/* комментарий */')
+```
+
+Зверніть увагу, у наведеному прикладі рядок розбирається як **`T_INLINE_HTML`** замість очікуваного **`T_COMMENT`**. Це пов'язано з тим, що не використовується тег, що відкриває в коді. Це було б еквівалентно розміщенню коментарів поза тегами PHP у звичайному файлі.
+
+**Приклад #3 Приклад використання **tokengetall()** з класом, який використовує зарезервовані слова**
+
+```php
+<?php
+
+$source = <<<'code'
+<?php
+
+class A
+{
+    const PUBLIC = 1;
+}
+code;
+
+$tokens = token_get_all($source, TOKEN_PARSE);
+
+foreach ($tokens as $token) {
+    if (is_array($token)) {
+        echo token_name($token[0]) , PHP_EOL;
+    }
+}
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
 T_OPEN_TAG
 T_WHITESPACE
 T_CLASS
@@ -83,13 +121,11 @@ T_CONST
 T_WHITESPACE
 T_STRING
 T_LNUMBER
+```
 
-Без прапора **`TOKEN_PARSE`**, передостанній токен (**`T_STRING`**) був би
-**`T_PUBLIC`**.
+Без прапора **`TOKEN_PARSE`**, передостанній токен (**`T_STRING`**) був би **`T_PUBLIC`**
 
 ### Дивіться також
 
-- [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає задану
-рядок, що містить програму на PHP, на масив об'єктів PhpToken
-- [token_name()](function.token-name.md) - Отримати символьне ім'я
-для переданої PHP-лексеми
+-   [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
+-   [tokenname()](function.token-name.md) - Отримати символьне ім'я для переданої PHP-лексеми

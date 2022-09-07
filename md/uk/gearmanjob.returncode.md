@@ -1,19 +1,22 @@
-- [« GearmanJob::handle](gearmanjob.handle.md)
-- [GearmanJob::sendComplete »](gearmanjob.sendcomplete.md)
-
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Отримання останнього коду повернення
-
+---
+navigation:
+  - gearmanjob.handle.md: '« GearmanJob::handle'
+  - gearmanjob.sendcomplete.md: 'GearmanJob::sendComplete »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::returnCode'
+---
 # GearmanJob::returnCode
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanJob::returnCode — Отримання останнього коду повернення
 
 ### Опис
 
-public **GearmanJob::returnCode**(): int
+```methodsynopsis
+public GearmanJob::returnCode(): int
+```
 
 Повертає останній виданий сервером завдань код повернення.
 
@@ -27,5 +30,4 @@ public **GearmanJob::returnCode**(): int
 
 ### Дивіться також
 
-- [GearmanTask::returnCode()](gearmantask.returncode.md) - Отримати
-останній код повернення
+-   [GearmanTask::returnCode()](gearmantask.returncode.md) - Отримати останній код повернення

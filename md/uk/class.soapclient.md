@@ -1,252 +1,287 @@
-- [«use_soap_error_handler](function.use-soap-error-handler.md)
-- [SoapClient::\_\_call »](soapclient.call.md)
-
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Клас SoapClient
-
+---
+navigation:
+  - function.use-soap-error-handler.md: « usesoaperrorhandler
+  - soapclient.call.md: 'SoapClient::call »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
+title: 'Клас SoapClient'
+---
 # Клас [SoapClient](class.soapclient.md)
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SoapClient є клієнтом для серверів [» SOAP 1.1](http://www.w3.org/TR/soap11/), [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі з
-WSDL чи без нього.
+Клас SoapClient є клієнтом для серверів [» SOAP 1.1](http://www.w3.org/TR/soap11/) [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі WSDL або без нього.
 
 ## Огляд класів
 
-class **SoapClient** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-private ?string `$uri` = null;
+    
+     
+      class SoapClient
+     
+     {
 
-private ?int `$style` = null;
+    /* Свойства */
+    
+     private
+     ?string
+      $uri = null;
 
-private ?int `$use` = null;
+    private
+     ?int
+      $style = null;
 
-private ?string `$location` = null;
+    private
+     ?int
+      $use = null;
 
-private bool `$trace` = false;
+    private
+     ?string
+      $location = null;
 
-private ?int `$compression` = null;
+    private
+     bool
+      $trace = false;
 
-private ?resource `$sdl` = null;
+    private
+     ?int
+      $compression = null;
 
-private ?resource `$typemap` = null;
+    private
+     ?resource
+      $sdl = null;
 
-private ?resource `$httpsocket` = null;
+    private
+     ?resource
+      $typemap = null;
 
-private ?resource `$httpurl` = null;
+    private
+     ?resource
+      $httpsocket = null;
 
-private ?string `$_login` = null;
+    private
+     ?resource
+      $httpurl = null;
 
-private ?string `$_password` = null;
+    private
+     ?string
+      $_login = null;
 
-private bool `$_use_digest` = false;
+    private
+     ?string
+      $_password = null;
 
-private ?string `$_digest` = null;
+    private
+     bool
+      $_use_digest = false;
 
-private ?string `$_proxy_host` = null;
+    private
+     ?string
+      $_digest = null;
 
-private ?int `$_proxy_port` = null;
+    private
+     ?string
+      $_proxy_host = null;
 
-private ?string `$_proxy_login` = null;
+    private
+     ?int
+      $_proxy_port = null;
 
-private ?string `$_proxy_password` = null;
+    private
+     ?string
+      $_proxy_login = null;
 
-private bool `$_exceptions` = true;
+    private
+     ?string
+      $_proxy_password = null;
 
-private ?string `$_encoding` = null;
+    private
+     bool
+      $_exceptions = true;
 
-private ?array `$_classmap` = null;
+    private
+     ?string
+      $_encoding = null;
 
-private ?int `$_features` = null;
+    private
+     ?array
+      $_classmap = null;
 
-private int `$_connection_timeout`;
+    private
+     ?int
+      $_features = null;
 
-private ?resource `$_stream_context` = null;
+    private
+     int
+      $_connection_timeout;
 
-private ?string `$_user_agent` = null;
+    private
+     ?resource
+      $_stream_context = null;
 
-private bool `$_keep_alive` = true;
+    private
+     ?string
+      $_user_agent = null;
 
-private ?int `$_ssl_method` = null;
+    private
+     bool
+      $_keep_alive = true;
 
-private int `$_soap_version`;
+    private
+     ?int
+      $_ssl_method = null;
 
-private ?int `$_use_proxy` = null;
+    private
+     int
+      $_soap_version;
 
-private array `$_cookies` = [];
+    private
+     ?int
+      $_use_proxy = null;
 
-private ?array `$__default_headers` = null;
- private ?[SoapFault](class.soapfault.md) `$__soap_fault` = null;
+    private
+     array
+      $_cookies = [];
 
-private ?string `$__last_request` = null;
+    private
+     ?array
+      $__default_headers = null;
 
-private ?string `$__last_response` = null;
+    private
+     ?SoapFault
+      $__soap_fault = null;
 
-private ?string `$__last_request_headers` = null;
+    private
+     ?string
+      $__last_request = null;
 
-private ?string `$__last_response_headers` = null;
+    private
+     ?string
+      $__last_response = null;
 
-/\* Методи \*/
+    private
+     ?string
+      $__last_request_headers = null;
 
-public [\_\_construct](soapclient.construct.md)(?string `$wsdl`, array
-`$options` = [])
- public [\_\_call](soapclient.call.md)(string `$name`, array `$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    private
+     ?string
+      $__last_response_headers = null;
 
-public [\_\_doRequest](soapclient.dorequest.md)(
-string `$request`,
-string `$location`,
-string `$action`,
-int `$version`,
-bool `$oneWay` = **`false`**
-): ?string
 
-public [\_\_getCookies](soapclient.getcookies.md)(): array
+    /* Методы */
+    
+   public __construct(?string $wsdl, array $options = [])
 
-public [\_\_getFunctions](soapclient.getfunctions.md)(): ?array
+    public __call(string $name, array $args): mixed
+public __doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
+public __getCookies(): array
+public __getFunctions(): ?array
+public __getLastRequest(): ?string
+public __getLastRequestHeaders(): ?string
+public __getLastResponse(): ?string
+public __getLastResponseHeaders(): ?string
+public __getTypes(): ?array
+public __setCookie(string $name, ?string $value = null): void
+public __setLocation(?string $location = null): ?string
+public __setSoapHeaders(SoapHeader|array|null $headers = null): bool
+public __soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
 
-public [\_\_getLastRequest](soapclient.getlastrequest.md)(): ?string
-
-public
-[\_\_getLastRequestHeaders](soapclient.getlastrequestheaders.md)():
-?string
-
-public [\_\_getLastResponse](soapclient.getlastresponse.md)(): ?string
-
-public
-[\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md)():
-?string
-
-public [\_\_getTypes](soapclient.gettypes.md)(): ?array
-
-public [\_\_setCookie](soapclient.setcookie.md)(string `$name`,
-?string `$value` = **`null`**): void
-
-public [\_\_setLocation](soapclient.setlocation.md)(?string
-`$location` = **`null`**): ?string
-
-public
-[\_\_setSoapHeaders](soapclient.setsoapheaders.md)([SoapHeader](class.soapheader.md)\|array\|null
-`$headers` = **`null`**): bool
-
-public [\_\_soapCall](soapclient.soapcall.md)(
-string `$name`,
-array `$args`,
-?array `$options` = **`null`**,
-[SoapHeader](class.soapheader.md)\|array\|null `$inputHeaders` =
-**`null`**,
-array `&$outputHeaders` = **`null`**
-):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-}
+   }
+```
 
 ## Властивості
 
-`__default_headers`
+defaultheaders
 
-`__last_request`
+lastrequest
 
-`__last_request_headers`
+lastrequestheaders
 
-`__last_response`
+lastresponse
 
-`__last_response_headers`
+lastresponseheaders
 
-`__soap_fault`
+soapfault
 
-`_classmap`
+classmap
 
-`_connection_timeout`
+connectiontimeout
 
-`_cookies`
+cookies
 
-`_digest`
+digest
 
-`_encoding`
+encoding
 
-`_exceptions`
+exceptions
 
-`_features`
+features
 
-`_keep_alive`
+keepalive
 
-`_login`
+login
 
-`_password`
+password
 
-`_proxy_host`
+proxyhost
 
-`_proxy_login`
+proxylogin
 
-`_proxy_password`
+proxypassword
 
-`_proxy_port`
+proxyport
 
-`_soap_version`
+soapversion
 
-`_ssl_method`
+sslметод
 
-`_stream_context`
+streamcontext
 
-`_use_digest`
+usedigest
 
-`_use_proxy`
+useproxy
 
-`_user_agent`
+useragent
 
-`compression`
+compression
 
-`httpsocket`
+httpsocket
 
-`httpurl`
+httpurl
 
-`location`
+location
 
-`sdl`
+sdl
 
-`style`
+style
 
-`trace`
+trace
 
-`typemap`
+typemap
 
-`uri`
+uri
 
-`use`
+use
 
 ## Зміст
 
-- [SoapClient::\_\_call](soapclient.call.md) — Викликає SOAP-функцію
-(застарілий метод)
-- [SoapClient::\_\_construct](soapclient.construct.md) - Конструктор
-класу SoapClient
-- [SoapClient::\_\_doRequest](soapclient.dorequest.md) - Виконує
-SOAP-запит
-- [SoapClient::\_\_getCookies](soapclient.getcookies.md) — Отримати
-список cookies
-- [SoapClient::\_\_getFunctions](soapclient.getfunctions.md) -
-Повертає список доступних SOAP-функцій
-- [SoapClient::\_\_getLastRequest](soapclient.getlastrequest.md) -
-Повертає останній SOAP-запит
-- [SoapClient::\_\_getLastRequestHeaders](soapclient.getlastrequestheaders.md)
-— Повертає SOAP-заголовки останнього запиту
-- [SoapClient::\_\_getLastResponse](soapclient.getlastresponse.md) -
-Повертає останню SOAP-відповідь
-- [SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md)
-— Повертає SOAP-заголовки останньої відповіді
-- [SoapClient::\_\_getTypes](soapclient.gettypes.md) - Повертає
-список SOAP-типів
-- [SoapClient::\_\_setCookie](soapclient.setcookie.md) -
-Встановлює cookie для запитів SOAP
-- [SoapClient::\_\_setLocation](soapclient.setlocation.md) -
-Встановлює адресу веб-служби, що використовується
-- [SoapClient::\_\_setSoapHeaders](soapclient.setsoapheaders.md) -
-Встановлює заголовки SOAP для подальших дзвінків
-- [SoapClient::\_\_soapCall](soapclient.soapcall.md) - Викликає
-SOAP-функцію
+-   [SoapClient::call](soapclient.call.md) - Викликає SOAP-функцію (застарілий метод)
+-   [SoapClient::construct](soapclient.construct.md) - Конструктор класу SoapClient
+-   [SoapClient::doRequest](soapclient.dorequest.md) - Виконує SOAP-запит
+-   [SoapClient::getCookies](soapclient.getcookies.md) — Отримати список cookies
+-   [SoapClient::getFunctions](soapclient.getfunctions.md) — Повертає список доступних SOAP-функцій
+-   [SoapClient::getLastRequest](soapclient.getlastrequest.md) - Повертає останній SOAP-запит
+-   [SoapClient::getLastRequestHeaders](soapclient.getlastrequestheaders.md) — Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::getLastResponse](soapclient.getlastresponse.md) — Повертає останню SOAP-відповідь
+-   [SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.md) — Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::getTypes](soapclient.gettypes.md) — Повертає список типів SOAP
+-   [SoapClient::setCookie](soapclient.setcookie.md) — Встановлює cookie для запитів SOAP
+-   [SoapClient::setLocation](soapclient.setlocation.md) — Встановлює адресу веб-служби, що використовується.
+-   [SoapClient::setSoapHeaders](soapclient.setsoapheaders.md) — Встановлює заголовки SOAP для наступних дзвінків
+-   [SoapClient::soapCall](soapclient.soapcall.md) - Викликає SOAP-функцію

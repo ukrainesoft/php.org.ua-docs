@@ -1,46 +1,46 @@
-- [« Swoole\Async::writeFile](swoole-async.writefile.md)
-- [Swoole\Atomic::add »](swoole-atomic.add.md)
+---
+navigation:
+  - swoole-async.writefile.md: '« SwooleAsync::writeFile'
+  - swoole-atomic.add.md: 'SwooleAtomic::add »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleAtomic
+---
+# Клас SwooleAtomic
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Atomic
-
-# Клас Swoole\Atomic
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Atomic** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [add](swoole-atomic.add.md)(int `$add_value` = ?): int
 
-public [cmpset](swoole-atomic.cmpset.md)(int `$cmp_value`, int
-`$new_value`): int
+    
+     
+      class Swoole\Atomic
+     
+     {
 
-public [get](swoole-atomic.get.md)(): int
 
-public [set](swoole-atomic.set.md)(int $value): int
+    /* Методы */
+    
+   public add(int $add_value = ?): int
+public cmpset(int $cmp_value, int $new_value): int
+public get(): int
+public set(int $value): int
+public sub(int $sub_value = ?): int
 
-public [sub](swoole-atomic.sub.md)(int `$sub_value` = ?): int
-
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Atomic::add](swoole-atomic.add.md) — Додає число до
-значення атомарного об'єкта
-- [Swoole\Atomic::cmpset](swoole-atomic.cmpset.md) - Порівнює та
-встановлює значення атомарного об'єкта
-- [Swoole\Atomic::\_\_construct](swoole-atomic.construct.md) -
-Створює атомарний об'єкт swoole
-- [Swoole\Atomic::get](swoole-atomic.get.md) — Отримує поточне
-значення атомарного об'єкта
-- [Swoole\Atomic::set](swoole-atomic.set.md) - Встановлює нове
-значення для атомарного об'єкта
-- [Swoole\Atomic::sub](swoole-atomic.sub.md) — Віднімає число з
-значення атомарного об'єкта
+-   [SwooleAtomic::add](swoole-atomic.add.md) - Додає число до значення атомарного об'єкта
+-   [SwooleAtomic::cmpset](swoole-atomic.cmpset.md) — Порівнює та встановлює значення атомарного об'єкта
+-   [SwooleAtomic::construct](swoole-atomic.construct.md) - Створює атомарний об'єкт swoole
+-   [SwooleAtomic::get](swoole-atomic.get.md) — Отримує поточне значення атомарного об'єкта
+-   [SwooleAtomic::set](swoole-atomic.set.md) — Встановлює нове значення для атомарного об'єкту
+-   [SwooleAtomic::sub](swoole-atomic.sub.md) — Віднімає число із значення атомарного об'єкта

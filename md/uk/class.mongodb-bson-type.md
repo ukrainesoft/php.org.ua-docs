@@ -1,24 +1,33 @@
-- [« MongoDB\BSON\UTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.md)
-- [MongoDB\BSON\Persistable »](class.mongodb-bson-persistable.md)
+---
+navigation:
+  - mongodb-bson-utcdatetime.unserialize.md: '« MongoDBBSONUTCDateTime::unserialize'
+  - class.mongodb-bson-persistable.md: MongoDBBSONPersistable »
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONType
+---
+# Інтерфейс MongoDBBSONType
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\Type
-
-# Інтерфейс MongoDB\BSON\Type
-
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
-Абстрактний базовий інтерфейс, який не має бути реалізований
-безпосередньо.
+Анотація базовий інтерфейс, який не повинен бути реалізований безпосередньо.
 
 ## Огляд інтерфейсів
 
-class **MongoDB\BSON\Type** {
+```synopsis
 
-}
 
-Цей інтерфейс немає методів. Його єдине призначення – бути
-базовим інтерфейсом всім класів типів BSON.
+
+    
+     
+      class MongoDB\BSON\Type
+     
+     {
+
+
+   }
+```
+
+Цей інтерфейс немає методів. Його єдине призначення – бути базовим інтерфейсом для всіх класів типів BSON.

@@ -1,49 +1,61 @@
-- [«gmp_setbit](function.gmp-setbit.md)
-- [gmp_sqrt »](function.gmp-sqrt.md)
+---
+navigation:
+  - function.gmp-setbit.md: « gmpsetbit
+  - function.gmp-sqrt.md: gmpsqrt »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpsign
+---
+# gmpsign
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Знак числа
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-# gmp_sign
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_sign - Знак числа
+gmpsign — Знак числа
 
 ### Опис
 
-**gmp_sign**([GMP](class.gmp.md)\|int\|string `$num`): int
+```methodsynopsis
+gmp_sign(GMP|int|string $num): int
+```
 
 Перевіряє знак числа.
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), або рядок, що містить число, яке
-можна перетворити на тип int.
+
+Об'єкт [GMP](class.gmp.md), або рядок, що містить число, яке можна перетворити на тип int.
 
 ### Значення, що повертаються
 
-Повертає 1, якщо 'num' позитивне; -1, якщо `num` негативне; і
-0, якщо `num` дорівнює нулю.
+Повертає 1, якщо `num` позитивне; -1, якщо `num` негативне; і 0, якщо `num` одно нулю.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_sign()****
+**Приклад #1 Приклад використання **gmpsign()****
 
-`<?php// позитивнеecho gmp_sign("500") . "
-";// негативнеecho gmp_sign("-500") . "
-";// нольecho gmp_sign("0") . "
-";?> `
+```php
+<?php
+// положительное
+echo gmp_sign("500") . "\n";
+
+// отрицательное
+echo gmp_sign("-500") . "\n";
+
+// ноль
+echo gmp_sign("0") . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1
 -1
-    0
+0
+```
 
 ### Дивіться також
 
-- [gmp_abs()](function.gmp-abs.md) - Абсолютна величина
-- [abs()](function.abs.md) - Абсолютне значення (модуль числа)
+-   [gmpabs()](function.gmp-abs.md) - Абсолютна величина
+-   [abs()](function.abs.md) - Абсолютне значення (модуль числа)

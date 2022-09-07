@@ -1,25 +1,26 @@
-- [«FFI\CType::getName](ffi-ctype.getname.md)
-- [FFI\CType::getSize »](ffi-ctype.getsize.md)
+---
+navigation:
+  - ffi-ctype.getname.md: '« FFICType::getName'
+  - ffi-ctype.getsize.md: 'FFICType::getSize »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
+title: 'FFICType::getPointerType'
+---
+# FFICType::getPointerType
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+(PHP 8> = 8.1.0)
 
-# FFI\CType::getPointerType
-
-(PHP 8 \>= 8.1.0)
-
-FFI\CType::getPointerType — Опис
+FFICType::getPointerType — Опис
 
 ### Опис
 
-public **FFI\CType::getPointerType**():
-[FFI\CType](class.ffi-ctype.md)
+```methodsynopsis
+public FFI\CType::getPointerType(): FFI\CType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,13 +1,14 @@
-- [«RRDGraph::setOptions](rrdgraph.setoptions.md)
-- [RRDUpdater::\_\_construct »](rrdupdater.construct.md)
-
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
-- Клас RRDUpdater
-
+---
+navigation:
+  - rrdgraph.setoptions.md: '« RRDGraph::setOptions'
+  - rrdupdater.construct.md: 'RRDUpdater::construct »'
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
+title: Клас RRDUpdater
+---
 # Клас RRDUpdater
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
 ## Вступ
 
@@ -15,20 +16,29 @@
 
 ## Огляд класів
 
-class **RRDUpdater** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](rrdupdater.construct.md)(string `$path`)
+    
+    
+     
+      class RRDUpdater
+     
+     {
+    
 
-public [update](rrdupdater.update.md)(array `$values`, string `$time`
-= time() : bool
+    /* Методы */
+    
+   public __construct(string $path)
 
-}
+    public update(array $values, string $time
+     = time()
+   ): bool
+
+   }
+```
 
 ## Зміст
 
-- [RRDUpdater::\_\_construct](rrdupdater.construct.md) - Створює
-новий об'єкт RRDUpdater
-- [RRDUpdater::update](rrdupdater.update.md) — Оновлення файлу бази
-даних RRD
+-   [RRDUpdater::construct](rrdupdater.construct.md) — Створює новий об'єкт RRDUpdater
+-   [RRDUpdater::update](rrdupdater.update.md) — Оновлює файл бази даних RRD

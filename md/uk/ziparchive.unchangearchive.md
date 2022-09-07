@@ -1,23 +1,24 @@
-- [« ZipArchive::unchangeAll](ziparchive.unchangeall.md)
-- [ZipArchive::unchangeIndex »](ziparchive.unchangeindex.md)
-
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- Повертає усі глобальні зміни, зроблені в архіві
-
+---
+navigation:
+  - ziparchive.unchangeall.md: '« ZipArchive::unchangeAll'
+  - ziparchive.unchangeindex.md: 'ZipArchive::unchangeIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::unchangeArchive'
+---
 # ZipArchive::unchangeArchive
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
 
-ZipArchive::unchangeArchive — Повертає всі глобальні зміни,
-зроблені в архіві
+ZipArchive::unchangeArchive — Повертає всі глобальні зміни, зроблені в архіві
 
 ### Опис
 
-public **ZipArchive::unchangeArchive**(): bool
+```methodsynopsis
+public ZipArchive::unchangeArchive(): bool
+```
 
-Повертає всі глобальні зміни в архіві. В даний момент
-тільки скасовує зміни у коментарях до архіву.
+Повертає всі глобальні зміни, зроблені у архіві. На даний момент лише скасовує зміни у коментарях до архіву.
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **ZipArchive::unchangeArchive**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

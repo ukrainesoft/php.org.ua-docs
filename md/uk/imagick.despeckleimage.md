@@ -1,10 +1,11 @@
-- [« Imagick::deskewImage](imagick.deskewimage.md)
-- [Imagick::destroy »](imagick.destroy.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Зменшує спекл-шум на зображенні
-
+---
+navigation:
+  - imagick.deskewimage.md: '« Imagick::deskewImage'
+  - imagick.destroy.md: 'Imagick::destroy »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::despeckleImage'
+---
 # Imagick::despeckleImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::despeckleImage — Зменшує шум на зображенні.
 
 ### Опис
 
-public **Imagick::despeckleImage**(): bool
+```methodsynopsis
+public Imagick::despeckleImage(): bool
+```
 
 Зменшує шум на зображенні, зберігаючи краї вихідного зображення.
 
@@ -23,7 +26,7 @@ public **Imagick::despeckleImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -33,4 +36,14 @@ public **Imagick::despeckleImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::despeckleImage()****
 
-`<?phpfunction despeckleImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->despeckleImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function despeckleImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->despeckleImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

@@ -1,23 +1,24 @@
-- [«SyncEvent::\_\_construct](syncevent.construct.md)
-- [SyncEvent::reset »](syncevent.reset.md)
-
-- [PHP Manual](index.md)
-- [SyncEvent](class.syncevent.md)
-- Запускає/встановлює подію
-
+---
+navigation:
+  - syncevent.construct.md: '« SyncEvent::construct'
+  - syncevent.reset.md: 'SyncEvent::reset »'
+  - index.md: PHP Manual
+  - class.syncevent.md: SyncEvent
+title: 'SyncEvent::fire'
+---
 # SyncEvent::fire
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 SyncEvent::fire — Запускає/встановлює подію
 
 ### Опис
 
-public **SyncEvent::fire**(): bool
+```methodsynopsis
+public SyncEvent::fire(): bool
+```
 
-Запускає/встановлює об'єкт [SyncEvent](class.syncevent.md).
-Дозволяє проходити кільком потокам, які очікують, якщо об'єкт
-події було створено з параметром manual рівним **`true`**.
+Запускає/встановлює об'єкт [SyncEvent](class.syncevent.md). Дозволяє проходити кільком потокам, які очікують, якщо об'єкт події був створений з параметром manual рівним **`true`**
 
 ### Список параметрів
 
@@ -25,18 +26,25 @@ public **SyncEvent::fire**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SyncEvent::fire()****
 
-` <?php// У веб-додатку:$event = new SyncEvent("GetAppReport");$event->fire();// В завдання cron:$event = new SyncEvent("GetAppReport");$event- >wait();?> `
+```php
+<?php
+// В веб-приложении:
+$event = new SyncEvent("GetAppReport");
+$event->fire();
+
+// В задании cron:
+$event = new SyncEvent("GetAppReport");
+$event->wait();
+?>
+```
 
 ### Дивіться також
 
-- [SyncEvent::reset()](syncevent.reset.md) - Скидає ручне
-подія
-- [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки
-події
+-   [SyncEvent::reset()](syncevent.reset.md) - скидає ручну подію
+-   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події

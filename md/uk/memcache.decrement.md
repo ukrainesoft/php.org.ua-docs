@@ -1,61 +1,70 @@
-- [« Memcache::connect](memcache.connect.md)
-- [Memcache::delete »](memcache.delete.md)
-
-- [PHP Manual](index.md)
-- [Memcache](class.memcache.md)
-- декрементувати значення елемента
-
+---
+navigation:
+  - memcache.connect.md: '« Memcache::connect'
+  - memcache.delete.md: 'Memcache::delete »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::decrement'
+---
 # Memcache::decrement
 
-(PECL memcache \>= 0.2.0)
+(PECL memcache >= 0.2.0)
 
 Memcache::decrement — Декрементувати значення елемента
 
 ### Опис
 
-**Memcache::decrement**(string `$key`, int `$value` = 1): int\|false
+```methodsynopsis
+Memcache::decrement(string $key, int $value = 1): int|false
+```
 
-**Memcache::decrement()** зменшує значення елемента на величину
-`value`. Аналогічно [Memcache::increment()](memcache.increment.md),
-поточне значення елемента наводиться до числового і після цього з нього
-віднімається `value`.
+**Memcache::decrement()** зменшує значення елемента на величину `value`. Аналогічно [Memcache::increment()](memcache.increment.md), поточне значення елемента наводиться до числового і після цього віднімається `value`
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Нове значення елемента не може бути меншим за нуль.
 
-> **Примітка**:
->
-> Не використовуйте **Memcache::decrement()** з елементами, які були
-> збережені за допомогою стиснення, тому що відповідний виклик
-> [Memcache::get()](memcache.get.md) обернеться невдачею.
+> **Зауваження**
+> 
+> Не використовуйте **Memcache::decrement()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.md) обернеться невдачею.
 
-**Memcache::decrement()** *не* створює елемент, якщо він раніше не
-існував. Також ви можете використати функцію
-**memcache_decrement()**.
+**Memcache::decrement()** *не* створює елемент, якщо він раніше не існував. Також можна використовувати функцію **memcachedecrement()**
 
 ### Список параметрів
 
 `key`
+
 Ключ елемента, що декрементується.
 
 `value`
-Зменшення елемента на величину `value`.
+
+Зменшення елемента на величину `value`
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає нове значення елемента або
-**`false`** у разі виникнення помилки.
+У разі успішного виконання повертає нове значення елемента або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcache::decrement()****
 
-` <?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);/* декрементувати на 2 */$new_value = memcache_decret| */$memcache_obj = new Memcache;$memcache_obj->connect('memcache_host', 11211);/* декрементувати на 3 */$new_value = $memcache_obj->_deem'?
+```php
+<?php
+
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+/* декрементировать на 2 */
+$new_value = memcache_decrement($memcache_obj, 'test_item', 2);
+
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+/* декрементировать на 3 */
+$new_value = $memcache_obj->decrement('test_item', 3);
+?>
+```
 
 ### Дивіться також
 
-- [Memcache::increment()](memcache.increment.md) - Збільшити
-значення елемента
-- [Memcache::replace()](memcache.replace.md) - Замінити значення
-існуючого елемента
+-   [Memcache::increment()](memcache.increment.md) - Збільшити значення елемента
+-   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента

@@ -1,27 +1,29 @@
-- [« Gmagick::setimagedispose](gmagick.setimagedispose.md)
-- [Gmagick::setimageformat »](gmagick.setimageformat.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює ім'я файлу конкретного зображення у послідовності
-
+---
+navigation:
+  - gmagick.setimagedispose.md: '« Gmagick::setimagedispose'
+  - gmagick.setimageformat.md: 'Gmagick::setimageformat »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagefilename'
+---
 # Gmagick::setimagefilename
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimagefilename — Встановлює ім'я конкретного файлу
-зображення у послідовності
+Gmagick::setimagefilename — Встановлює ім'я файлу конкретного зображення у послідовності
 
 ### Опис
 
-public **Gmagick::setimagefilename**(string `$filename`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagefilename(string $filename): Gmagick
+```
 
-Встановлює ім'я файлу зображення в послідовності.
+Встановлює ім'я файлу конкретного зображення у послідовності.
 
 ### Список параметрів
 
 `filename`
+
 Назва файлу зображення.
 
 ### Значення, що повертаються

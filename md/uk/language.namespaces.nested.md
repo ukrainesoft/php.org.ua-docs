@@ -1,22 +1,28 @@
-- [« Визначення просторів імен](language.namespaces.definition.md)
-- [Опис кількох просторів імен в одному файлі »](language.namespaces.definitionmultiple.md)
-
-- [PHP Manual](index.md)
-- [Простори імен](language.namespaces.md)
-- Визначення підпросторів імен
-
+---
+navigation:
+  - language.namespaces.definition.md: « Определение пространств имён
+  - language.namespaces.definitionmultiple.md: Опис кількох просторів імен в одному файлі »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: Визначення підпросторів імен
+---
 ## Визначення підпросторів імен
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-Так само як файли та каталоги, простори імен PHP дозволяють створювати
-ієрархію імен. Таким чином, ім'я простору може бути визначено з
-підрівнями:
+Як файли і каталоги, простори імен PHP дозволяють створювати ієрархію імен. Таким чином, ім'я простору може бути визначене з підрівнями:
 
 **Приклад #1 Визначення простору імен з ієрархією**
 
-` <?phpnamespace MyProject\Sub\Level;const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }?> `
+```php
+<?php
+namespace MyProject\Sub\Level;
 
-Вищенаведений приклад створює константу
-`MyProject\Sub\Level\CONNECT_OK`, клас `MyProject\Sub\Level\Connection`
-та функцію `MyProject\Sub\Leve
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
+
+?>
+```
+
+Наведений вище приклад створює константу `MyProject\Sub\Level\CONNECT_OK`, клас `MyProject\Sub\Level\Connection` та функцію `MyProject\Sub\Level\connect`

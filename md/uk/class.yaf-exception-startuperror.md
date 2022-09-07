@@ -1,28 +1,43 @@
-- [« Yaf_Exception_TypeError](class.yaf-exception-typeerror.md)
-- [Yaf_Exception_DispatchFailed »](class.yaf-exception-dispatchfailed.md)
+---
+navigation:
+  - class.yaf-exception-typeerror.md: « YafExceptionTypeError
+  - class.yaf-exception-dispatchfailed.md: YafExceptionDispatchFailed »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafExceptionStartupError
+---
+# Клас YafExceptionStartupError
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Exception_StartupError
-
-# Клас Yaf_Exception_StartupError
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Yaf_Exception_StartupError** extends
-[Yaf_Exception](class.yaf-exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-/\* Методи \*/
+    
+    
+     
+      class Yaf_Exception_StartupError
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       Yaf_Exception
+     
+     {
+    
+    /* Свойства */
 
-public [Yaf_Exception::getPrevious](yaf-exception.getprevious.md)():
-void
 
-}
+    /* Методы */
+
+    /* Наследуемые методы */
+    
+   public Yaf_Exception::getPrevious(): void
+
+
+   }
+```

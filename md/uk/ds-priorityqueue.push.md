@@ -1,30 +1,33 @@
-- [« Ds\PriorityQueue::pop](ds-priorityqueue.pop.md)
-- [Ds\PriorityQueue::toArray »](ds-priorityqueue.toarray.md)
+---
+navigation:
+  - ds-priorityqueue.pop.md: '« DsPriorityQueue::pop'
+  - ds-priorityqueue.toarray.md: 'ДсPriorityQueue::toArray »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::push'
+---
+# ДсPriorityQueue::push
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Додає значення у чергу
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::push
-
-(PECL ds \>= 1.0.0)
-
-Ds\PriorityQueue::push — Додає значення до черги
+ДсPriorityQueue::push — Додає значення до черги
 
 ### Опис
 
-public
-**Ds\PriorityQueue::push**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$priority`): void
+```methodsynopsis
+public Ds\PriorityQueue::push(mixed $value, int $priority): void
+```
 
-Додає `value` із заданим пріоритетом `priority` у чергу.
+Додає `value` із заданим пріоритетом `priority` в чергу.
 
 ### Список параметрів
 
 `value`
+
 Значення, що додається.
 
 `priority`
+
 Пріоритет, з яким додається значення.
 
 ### Значення, що повертаються
@@ -33,12 +36,26 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::push()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::push()****
 
-` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);print_r($queue->pop());print_r($queue->pop());print_r($queue->pop());?> `
+```php
+<?php
+$queue = new \Ds\PriorityQueue();
+
+$queue->push("a",  5);
+$queue->push("b", 15);
+$queue->push("c", 10);
+
+print_r($queue->pop());
+print_r($queue->pop());
+print_r($queue->pop());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "b"
 string(1) "c"
 string(1) "a"
+```

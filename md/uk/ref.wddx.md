@@ -1,23 +1,18 @@
-- [« Приклади wddx](wddx.examples-serialize.md)
-- [wddx_add_vars »](function.wddx-add-vars.md)
-
-- [PHP Manual](index.md)
-- [WDDX](book.wddx.md)
-- Функції WDDX
-
+---
+navigation:
+  - wddx.examples-serialize.md: « Приклади wddx
+  - function.wddx-add-vars.md: wddxaddvars »
+  - index.md: PHP Manual
+  - book.wddx.md: WDDX
+title: Функції WDDX
+---
 # Функції WDDX
 
 ## Зміст
 
-- [wddx_add_vars](function.wddx-add-vars.md) — Додати змінні до
-пакет WDDX із зазначеним ідентифікатором
-- [wddx_deserialize](function.wddx-deserialize.md) - Десеріалізує
-пакет WDDX
-- [wddx_packet_end](function.wddx-packet-end.md) - Завершує пакет
-WDDX із зазначеним ідентифікатором
-- [wddx_packet_start](function.wddx-packet-start.md) - Запускає
-новий пакет WDDX зі структурою всередині нього
-- [wddx_serialize_value](function.wddx-serialize-value.md) -
-Серіалізує одне значення всередині пакету WDDX
-- [wddx_serialize_vars](function.wddx-serialize-vars.md) -
-Серіалізація змінних у пакет WDDX
+-   [wddxaddvars](function.wddx-add-vars.md) — Додати змінні до пакету WDDX із зазначеним ідентифікатором
+-   [wddxdeserialize](function.wddx-deserialize.md) - Десеріалізує пакет WDDX
+-   [wddxpacketend](function.wddx-packet-end.md) — Завершує пакет WDDX із зазначеним ідентифікатором
+-   [wddxpacketstart](function.wddx-packet-start.md) — Запускає новий пакет WDDX із структурою всередині нього
+-   [wddxserializevalue](function.wddx-serialize-value.md) — Серіалізує одне значення всередині пакету WDDX
+-   [wddxserializevars](function.wddx-serialize-vars.md) — Серіалізація змінних у пакет WDDX

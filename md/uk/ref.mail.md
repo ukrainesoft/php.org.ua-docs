@@ -1,14 +1,14 @@
-- [«Зумовлені константи](mail.constants.md)
-- [ezmlm_hash »](function.ezmlm-hash.md)
-
-- [PHP Manual](index.md)
-- [Mail](book.mail.md)
-- Пошта
-
+---
+navigation:
+  - mail.constants.md: « Обумовлені константи
+  - function.ezmlm-hash.md: ezmlmhash »
+  - index.md: PHP Manual
+  - book.mail.md: Mail
+title: Пошта
+---
 # Пошта
 
 ## Зміст
 
-- [ezmlm_hash](function.ezmlm-hash.md) - обчислює хеш-суму,
-необхідну для EZMLM
-- [mail](function.mail.md) — Надсилає електронну пошту
+-   [ezmlmhash](function.ezmlm-hash.md) — Обчислює хеш-суму, необхідну для EZMLM
+-   [mail](function.mail.md) — Надсилає електронну пошту

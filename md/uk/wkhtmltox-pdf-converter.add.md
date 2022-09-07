@@ -1,25 +1,27 @@
-- [«wkhtmltox\PDF\Converter](class.wkhtmltox-pdf-converter.md)
-- [wkhtmltox\PDF\Converter::\_\_construct »](wkhtmltox-pdf-converter.construct.md)
+---
+navigation:
+  - class.wkhtmltox-pdf-converter.md: « wkhtmltoxPDFConverter
+  - wkhtmltox-pdf-converter.construct.md: 'wkhtmltoxPDFConverter::construct »'
+  - index.md: PHP Manual
+  - class.wkhtmltox-pdf-converter.md: wkhtmltoxPDFConverter
+title: 'wkhtmltoxPDFConverter::add'
+---
+# wkhtmltoxPDFConverter::add
 
-- [PHP Manual](index.md)
-- [wkhtmltox\PDF\Converter](class.wkhtmltox-pdf-converter.md)
-- Додавання об'єкта для перетворення
+(wkhtmltox >= 0.1.0)
 
-# wkhtmltox\PDF\Converter::add
-
-(wkhtmltox \>= 0.1.0)
-
-wkhtmltox\PDF\Converter::add — Додати об'єкт для перетворення
+wkhtmltoxPDFConverter::add — Додати об'єкт для перетворення
 
 ### Опис
 
-public
-**wkhtmltox\PDF\Converter::add**([wkhtmltox\PDF\Object](class.wkhtmltox-pdf-object.md)
-`$object`): void
+```methodsynopsis
+public wkhtmltox\PDF\Converter::add(wkhtmltox\PDF\Object $object): void
+```
 
 Додає цей об'єкт у перетворення
 
 ### Список параметрів
 
 `object`
+
 Об'єкт для додавання

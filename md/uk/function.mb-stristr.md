@@ -1,67 +1,56 @@
-- [«mb_stripos](function.mb-stripos.md)
-- [mb_strlen »](function.mb-strlen.md)
+---
+navigation:
+  - function.mb-stripos.md: « mbstripos
+  - function.mb-strlen.md: мбstrlen »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstristr
+---
+# мбstristr
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Знаходить перше входження підрядки у рядку без урахування регістру
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#mb_stristr
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-mb_stristr — Знаходить перше входження підрядки в рядку без урахування
-регістру
+мбstristr — Знаходить перше входження підрядки в рядку без урахування регістру
 
 ### Опис
 
-**mb_stristr**(
-string `$haystack`,
-string `$needle`,
-bool `$before_needle` = **`false`**,
-?string `$encoding` = **`null`**
-): string\|false
+```methodsynopsis
+mb_stristr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
+```
 
-**mb_stristr()** знаходить перше входження підрядки `needle` у
-`haystack` і повертає частину `haystack`. На відміну від
-[mb_strstr()](function.mb-strstr.md), **mb_stristr()** не враховує
-регістр. Якщо `needle` не знайдена, повертається **`false`**.
+**мбstristr()** знаходить перше входження підрядка `needle` в `haystack` і повертає частину `haystack`. На відміну від [мбstrstr()](function.mb-strstr.md) **мбstristr()** не враховує регістр. Якщо `needle` не знайдено, повертається **`false`**
 
 ### Список параметрів
 
 `haystack`
+
 Рядок, в якому шукається перше входження рядка `needle`
 
 `needle`
+
 Рядок для пошуку в `haystack`
 
 `before_needle`
-Визначає, яку частину рядка `haystack` поверне ця функція. Якщо
-встановлено **`true`**, повертається частина `haystack` від початку до
-першого входження `needle` (виключаючи needle). Якщо встановлено
-**`false`**, повертається частина `haystack` від першого входження `needle`
-до кінця (включаючи needle).
+
+Визначає, яку частину рядка `haystack` поверне ця функція. Якщо встановлено **`true`**, повертається частина `haystack` від початку до першого входження `needle` (Виключаючи needle). Якщо встановлено **`false`**, повертається частина `haystack` від першого входження `needle` до кінця (включаючи needle).
 
 `encoding`
-Назва кодування символів, що використовується. Якщо цей параметр опущено,
-використовується внутрішнє кодування.
+
+Назва кодування символів, що використовується. Якщо цей параметр опущено, використовується внутрішнє кодування.
 
 ### Значення, що повертаються
 
-Повертає частину рядка `haystack`, або **`false`**, якщо `needle` не
-знайдено.
+Повертає частину рядка `haystack`, або **`false`**, якщо `needle` не знайдена.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-|--------|----------------------------------------------------------|
-| 8.0.0  | needle тепер приймає порожній рядок.                     |
-| 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | `needle` тепер приймає порожній рядок. |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 
-- [stristr()](function.stristr.md) - Реєстронезалежний варіант
-функції strstr
-- [strstr()](function.strstr.md) - Знаходить перше входження
-підрядки
-- [mb_strstr()](function.mb-strstr.md) - Знаходить перше входження
-підстроки у рядку
+-   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [мбstrstr()](function.mb-strstr.md) - Знаходить перше входження підрядка у рядку

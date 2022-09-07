@@ -1,20 +1,22 @@
-- [« UI\Draw\Matrix::skew](ui-draw-matrix.skew.md)
-- [UI\Draw\Color »](class.ui-draw-color.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Matrix](class.ui-draw-matrix.md)
-- Перекласти матрицю
-
-# UI\Draw\Matrix::translate
+---
+navigation:
+  - ui-draw-matrix.skew.md: '« UIDrawMatrix::skew'
+  - class.ui-draw-color.md: ОЙDrawColor »
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::translate'
+---
+# ОЙDrawMatrix::translate
 
 (UI 0.9.9)
 
-UI\Draw\Matrix::translate — Перекласти матрицю
+ОЙDrawMatrix::translate — Перекласти матрицю
 
 ### Опис
 
-public **UI\Draw\Matrix::translate**([UI\Point](class.ui-point.md)
-`$point`)
+```methodsynopsis
+public UI\Draw\Matrix::translate(UI\Point $point)
+```
 
 Перекладе цю матрицю
 

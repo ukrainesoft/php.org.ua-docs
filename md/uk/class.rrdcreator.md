@@ -1,13 +1,14 @@
-- [«rrdc_disconnect](function.rrdc-disconnect.md)
-- [RRDCreator::addArchive »](rrdcreator.addarchive.md)
-
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
-- Клас RRDCreator
-
+---
+navigation:
+  - function.rrdc-disconnect.md: « rrdcdisconnect
+  - rrdcreator.addarchive.md: 'RRDCreator::addArchive »'
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
+title: Клас RRDCreator
+---
 # Клас RRDCreator
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
 ## Вступ
 
@@ -15,30 +16,31 @@
 
 ## Огляд класів
 
-class **RRDCreator** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](rrdcreator.construct.md)(string `$path`, string
-`$startTime` = ?, int `$step` = 0)
+    
+    
+     
+      class RRDCreator
+     
+     {
+    
 
-public [addArchive](rrdcreator.addarchive.md)(string `$description`):
-void
+    /* Методы */
+    
+   public __construct(string $path, string $startTime = ?, int $step = 0)
 
-public [addDataSource](rrdcreator.adddatasource.md)(string
-`$description`): void
+    public addArchive(string $description): void
+public addDataSource(string $description): void
+public save(): bool
 
-public [save](rrdcreator.save.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [RRDCreator::addArchive](rrdcreator.addarchive.md) — Додає
-RRA – архів значень даних для кожного джерела даних
-- [RRDCreator::addDataSource](rrdcreator.adddatasource.md)
-Додає визначення джерела даних для бази даних RRD
-- [RRDCreator::\_\_construct](rrdcreator.construct.md) - Створює
-новий екземпляр RRDCreator
-- [RRDCreator::save](rrdcreator.save.md) — Зберігає базу даних RRD
-у файл
+-   [RRDCreator::addArchive](rrdcreator.addarchive.md) — Додає RRA – архів значень даних для кожного джерела даних
+-   [RRDCreator::addDataSource](rrdcreator.adddatasource.md) — Додає визначення джерела даних для бази даних RRD
+-   [RRDCreator::construct](rrdcreator.construct.md) — Створює новий екземпляр RRDCreator
+-   [RRDCreator::save](rrdcreator.save.md) — Зберігає базу даних RRD у файл

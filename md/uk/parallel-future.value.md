@@ -1,45 +1,41 @@
-- [« parallel\Future::done](parallel-future.done.md)
-- [parallel\Channel »](class.parallel-channel.md)
+---
+navigation:
+  - parallel-future.done.md: '« parallelFuture::done'
+  - class.parallel-channel.md: parallelChannel »
+  - index.md: PHP Manual
+  - class.parallel-future.md: parallelFuture
+title: 'parallelFuture::value'
+---
+# parallelFuture::value
 
-- [PHP Manual](index.md)
-- [parallel\Future](class.parallel-future.md)
--   Розширення
-
-# parallel\Future::value
-
-(0.8.0)
-
-parallel\Future::value — Дозвіл
+parallelFuture::value — Дозвіл
 
 ### Опис
 
-public **parallel\Future::value**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public parallel\Future::value(): mixed
+```
 
-Повертає (і за необхідності чекає) повернення із завдання.
+Повертає (і за потреби чекає) повернення із завдання.
 
 ### Винятки
 
 **Увага**
 
-Викидає parallel\Future\Error, якщо очікування не вдалося (внутрішня
-помилка).
+Викидає parallelFutureError, якщо очікування не вдалося (внутрішня помилка).
 
 **Увага**
 
-Викидає parallel\Future\Error\Killed, якщо
-[parallel\Runtime](class.parallel-runtime.md) виконання завдання було
-перервано.
+Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.md) виконання завдання було перервано.
 
 **Увага**
 
-Викидає parallel\Future\Error\Cancelled, якщо завдання було скасовано.
+Викидає parallelFutureErrorCancelled, якщо завдання було скасовано.
 
 **Увага**
 
-Викидає parallel\Future\Error\Foreign, якщо завдання викликало
-нерозпізнане неперехоплене виняток.
+Викидає parallelFutureErrorForeign, якщо завдання викликало нерозпізнане неперехоплене виняток.
 
 **Увага**
 
-Викидає [Throwable](class.throwable.md), не спійманий у задачі.
+Викидає [Throwable](class.throwable.md), не спіймані у завданні.

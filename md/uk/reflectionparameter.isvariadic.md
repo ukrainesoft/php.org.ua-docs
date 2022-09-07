@@ -1,23 +1,24 @@
-- [« ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.md)
-- [ReflectionParameter::\_\_toString »](reflectionparameter.tostring.md)
-
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Перевірити, чи є параметр параметром зі змінною кількістю
-аргументів
-
+---
+navigation:
+  - reflectionparameter.ispassedbyreference.md: '« ReflectionParameter::isPassedByReference'
+  - reflectionparameter.tostring.md: 'ReflectionParameter::toString »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isVariadic'
+---
 # ReflectionParameter::isVariadic
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-ReflectionParameter::isVariadic — Перевірити, чи є параметр
-параметром зі змінною кількістю аргументів
+ReflectionParameter::isVariadic — Перевірити, чи є параметр параметром зі змінною кількістю аргументів
 
 ### Опис
 
-public **ReflectionParameter::isVariadic**(): bool
+```methodsynopsis
+public ReflectionParameter::isVariadic(): bool
+```
 
-Перевіряє, чи встановлено параметр як [параметр зі змінним числом аргументів](functions.arguments.md#functions.variable-arg-list).
+Перевіряє, чи визначено параметр як [параметр зі змінною кількістю аргументів](functions.arguments.md#functions.variable-arg-list)
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **ReflectionParameter::isVariadic**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо параметр приймає змінну кількість
-аргументів, **`false`** інакше.
+Повертає **`true`**, якщо параметр приймає змінну кількість аргументів, **`false`** в іншому випадку.

@@ -1,10 +1,11 @@
-- [« Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md)
-- [Imagick::getImageWidth »](imagick.getimagewidth.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає білу точку кольоровості
-
+---
+navigation:
+  - imagick.getimagevirtualpixelmethod.md: '« Imagick::getImageVirtualPixelMethod'
+  - imagick.getimagewidth.md: 'Imagick::getImageWidth »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageWhitePoint'
+---
 # Imagick::getImageWhitePoint
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,10 +14,11 @@ Imagick::getImageWhitePoint — Повертає білу точку кольо�
 
 ### Опис
 
-public **Imagick::getImageWhitePoint**(): array
+```methodsynopsis
+public Imagick::getImageWhitePoint(): array
+```
 
-Повертає білу точку кольоровості у вигляді асоціативного масиву з ключами
-"x" та "y".
+Повертає білу точку кольоровості як асоціативного масиву з ключами " x " і " y " .
 
 ### Список параметрів
 
@@ -24,8 +26,7 @@ public **Imagick::getImageWhitePoint**(): array
 
 ### Значення, що повертаються
 
-Повертає білу точку кольоровості у вигляді асоціативного масиву з ключами
-"x" та "y".
+Повертає білу точку кольоровості як асоціативного масиву з ключами " x " і " y " .
 
 ### Помилки
 

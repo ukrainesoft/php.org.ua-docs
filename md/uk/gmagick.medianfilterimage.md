@@ -1,28 +1,30 @@
-- [«Gmagick::mapimage](gmagick.mapimage.md)
-- [Gmagick::minifyimage »](gmagick.minifyimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Застосовує цифровий фільтр
-
+---
+navigation:
+  - gmagick.mapimage.md: '« Gmagick::mapimage'
+  - gmagick.minifyimage.md: 'Gmagick::minifyimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::medianfilterimage'
+---
 # Gmagick::medianfilterimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::medianfilterimage — Застосовує цифровий фільтр
 
 ### Опис
 
-public **Gmagick::medianfilterimage**(float `$radius`): void
+```methodsynopsis
+public Gmagick::medianfilterimage(float $radius): void
+```
 
-Застосовує цифровий фільтр, який покращує якість зашумленого зображення.
-Кожен піксель замінюється медіаною в наборі сусідніх пікселів,
-що визначаються радіусом.
+Застосовує цифровий фільтр, який покращує якість зашумленого зображення. Кожен піксель замінюється медіаною у наборі сусідніх пікселів, що визначаються радіусом.
 
 ### Список параметрів
 
 `radius`
-Радіус навколо пікселя.
+
+Радіус околиці пікселів.
 
 ### Значення, що повертаються
 

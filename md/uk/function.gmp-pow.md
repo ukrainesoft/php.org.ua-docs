@@ -1,33 +1,36 @@
-- [«gmp_popcount](function.gmp-popcount.md)
-- [gmp_powm »](function.gmp-powm.md)
+---
+navigation:
+  - function.gmp-popcount.md: « gmppopcount
+  - function.gmp-powm.md: gmppowm »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmppow
+---
+# gmppow
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Зводить число до ступеня
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_pow
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_pow — Зводить число до ступеня
+gmppow — Зводить число до ступеня
 
 ### Опис
 
-**gmp_pow**([GMP](class.gmp.md)\|int\|string `$num`, int `$exponent`):
-[GMP](class.gmp.md)
+```methodsynopsis
+gmp_pow(GMP|int|string $num, int $exponent): GMP
+```
 
-Зводить число `num` у ступінь `exponent`.
+Зводить число `num` у ступінь `exponent`
 
 ### Список параметрів
 
 `num`
+
 Підстава ступеня.
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `exponent`
-Позитивний показник ступеня числа 'num'.
+
+Позитивний показник ступеня числа `num`
 
 ### Значення, що повертаються
 
@@ -35,14 +38,22 @@ gmp_pow — Зводить число до ступеня
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_pow()****
+**Приклад #1 Приклад використання **gmppow()****
 
-`<?php$pow1 = gmp_pow("2", 31);echo gmp_strval($pow1) . "
-";$pow2==gmp_pow("0", 0);echo gmp_strval($pow2) . "
-";$pow3 = gmp_pow("2", -1); // Негативний показник ступеня викличе попередженняecho gmp_strval($pow3) . ""
-";?> `
+```php
+<?php
+$pow1 = gmp_pow("2", 31);
+echo gmp_strval($pow1) . "\n";
+$pow2 = gmp_pow("0", 0);
+echo gmp_strval($pow2) . "\n";
+$pow3 = gmp_pow("2", -1); // Отрицательный показатель степени вызовет предупреждение
+echo gmp_strval($pow3) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2147483648
 1
+```

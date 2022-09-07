@@ -1,10 +1,11 @@
-- [« ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.md)
-- [ColumnResult::getSchemaName »](mysql-xdevapi-columnresult.getschemaname.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує довжину поля стовпця
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getfractionaldigits.md: '« ColumnResult::getFractionalDigits'
+  - mysql-xdevapi-columnresult.getschemaname.md: 'ColumnResult::getSchemaName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+title: 'ColumnResult::getLength'
+---
 # ColumnResult::getLength
 
 (No version information available, might only be in Git)
@@ -13,12 +14,13 @@ ColumnResult::getLength — Отримує довжину поля стовпц�
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getLength**(): int
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getLength(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +30,12 @@ public **mysql_xdevapi\ColumnResult::getLength**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getLength()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getLength()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

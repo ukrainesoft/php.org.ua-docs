@@ -1,52 +1,45 @@
-- [«socket_accept](function.socket-accept.md)
-- [socket_addrinfo_connect »](function.socket-addrinfo-connect.md)
+---
+navigation:
+  - function.socket-accept.md: « socketaccept
+  - function.socket-addrinfo-connect.md: socketaddrinfoconnect »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketaddrinfobind
+---
+# socketaddrinfobind
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Створити та прив'язати до сокету із зазначеного addrinfo
+(PHP 7> = 7.2.0, PHP 8)
 
-# socket_addrinfo_bind
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-socket_addrinfo_bind — Створити та прив'язати до сокету із зазначеного
-addrinfo
+socketaddrinfobind — Створити та прив'язати до сокету із вказаного addrinfo
 
 ### Опис
 
-**socket_addrinfo_bind**([AddressInfo](class.addressinfo.md)
-`$address`): [Socket](class.socket.md)\|false
+```methodsynopsis
+socket_addrinfo_bind(AddressInfo $address): Socket|false
+```
 
-Створити екземпляр [Socket](class.socket.md) та прив'язати його з
-наданим [AddressInfo](class.addressinfo.md). Повертається
-значення цієї функції може використовуватися з
-[socket_listen()](function.socket-listen.md).
+Створити екземпляр [Socket](class.socket.md) та прив'язати його з наданим [AddressInfo](class.addressinfo.md). Значення цієї функції, що повертається, може використовуватися з [socketlisten()](function.socket-listen.md)
 
 ### Список параметрів
 
 `address`
-Примірник [AddressInfo](class.addressinfo.md), створений за допомогою
-[socket_addrinfo_lookup()](function.socket-addrinfo-lookup.md).
+
+Екземпляр [AddressInfo](class.addressinfo.md), створений за допомогою [socketaddrinfolookup()](function.socket-addrinfo-lookup.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Socket](class.socket.md) у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [Socket](class.socket.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                   |
-| ------ | ---------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У разі успішного виконання, функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
-| 8.0.0  | address тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource).                     |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+|  | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_addrinfo_connect()](function.socket-addrinfo-connect.md) -
-Створити та підключитися до сокету із вказаного addrinfo
-- [socket_addrinfo_explain()](function.socket-addrinfo-explain.md) -
-Отримати інформацію про addrinfo
-- [socket_addrinfo_lookup()](function.socket-addrinfo-lookup.md) -
-Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
-- [socket_listen()](function.socket-listen.md) - Прослуховує
-вхідні з'єднання на сокеті
+-   [socketaddrinfoconnect()](function.socket-addrinfo-connect.md) - Створити та підключитися до сокету із вказаного addrinfo
+-   [socketaddrinfoexplain()](function.socket-addrinfo-explain.md) - Отримати інформацію про addrinfo
+-   [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+-   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті

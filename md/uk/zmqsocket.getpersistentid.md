@@ -1,19 +1,22 @@
-- [«ZMQSocket::getEndpoints](zmqsocket.getendpoints.md)
-- [ZMQSocket::getSocketType »](zmqsocket.getsockettype.md)
-
-- [PHP Manual](index.md)
-- [ZMQSocket](class.zmqsocket.md)
-- отримати ідентифікатор постійного сокету
-
+---
+navigation:
+  - zmqsocket.getendpoints.md: '« ZMQSocket::getEndpoints'
+  - zmqsocket.getsockettype.md: 'ZMQSocket::getSocketType »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::getPersistentId'
+---
 # ZMQSocket::getPersistentId
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQSocket::getPersistentId — Отримати ідентифікатор постійного сокету
 
 ### Опис
 
-public **ZMQSocket::getPersistentId**(): string
+```methodsynopsis
+public ZMQSocket::getPersistentId(): string
+```
 
 Повертає ідентифікатор постійного сокету.
 
@@ -23,5 +26,4 @@ public **ZMQSocket::getPersistentId**(): string
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор сокету у вигляді рядка, або **`null`**, якщо
-сокет не постійний.
+Повертає ідентифікатор сокету у вигляді рядка або \*\*`null`\*\*якщо сокет не постійний.

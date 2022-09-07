@@ -1,10 +1,11 @@
-- [«CachingIterator::getFlags](cachingiterator.getflags.md)
-- [CachingIterator::hasNext »](cachingiterator.hasnext.md)
-
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Повертає внутрішній ітератор
-
+---
+navigation:
+  - cachingiterator.getflags.md: '« CachingIterator::getFlags'
+  - cachingiterator.hasnext.md: 'CachingIterator::hasNext »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::getInnerIterator'
+---
 # CachingIterator::getInnerIterator
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,15 +14,15 @@ CachingIterator::getInnerIterator — Повертає внутрішній іт
 
 ### Опис
 
-public **CachingIterator::getInnerIterator**():
-[Iterator](class.iterator.md)
+```methodsynopsis
+public CachingIterator::getInnerIterator(): Iterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає ітератор переданий конструктору.
+Повертає ітератор, переданий конструктору.
 
 ### Список параметрів
 

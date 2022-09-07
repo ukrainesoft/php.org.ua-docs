@@ -1,20 +1,22 @@
-- [« Componere\Method::setStatic](componere-method.setstatic.md)
-- [Componere\Value »](class.componere-value.md)
+---
+navigation:
+  - componere-method.setstatic.md: '« ComponereMethod::setStatic'
+  - class.componere-value.md: ComponereValue »
+  - index.md: PHP Manual
+  - class.componere-method.md: ComponereMethod
+title: 'ComponereMethod::getReflector'
+---
+# ComponereMethod::getReflector
 
-- [PHP Manual](index.md)
-- [Componere\Method](class.componere-method.md)
-- Reflection
+(Componere 2 >= 2.1.0)
 
-# Componere\Method::getReflector
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Method::getReflector — Reflection
+ComponereMethod::getReflector - Reflection
 
 ### Опис
 
-public **Componere\Method::getReflector**():
-[ReflectionMethod](class.reflectionmethod.md)
+```methodsynopsis
+public Componere\Method::getReflector(): ReflectionMethod
+```
 
 Повинен створити та повернути ReflectionMethod
 

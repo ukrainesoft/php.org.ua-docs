@@ -1,25 +1,24 @@
-- [« Yaf_Plugin_Abstract::preResponse](yaf-plugin-abstract.preresponse.md)
-- [Yaf_Plugin_Abstract::routerStartup »](yaf-plugin-abstract.routerstartup.md)
+---
+navigation:
+  - yaf-plugin-abstract.preresponse.md: '« YafPluginAbstract::preResponse'
+  - yaf-plugin-abstract.routerstartup.md: 'YafPluginAbstract::routerStartup »'
+  - index.md: PHP Manual
+  - class.yaf-plugin-abstract.md: YafPluginAbstract
+title: 'YafPluginAbstract::routerShutdown'
+---
+# YafPluginAbstract::routerShutdown
 
-- [PHP Manual](index.md)
-- [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-- Призначення routerShutdown
+(Yaf >=1.0.0)
 
-# Yaf_Plugin_Abstract::routerShutdown
-
-(Yaf \>=1.0.0)
-
-Yaf_Plugin_Abstract::routerShutdown — Призначення routerShutdown
+YafPluginAbstract::routerShutdown — Призначення routerShutdown
 
 ### Опис
 
-public
-**Yaf_Plugin_Abstract::routerShutdown**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`, [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-`$response`): void
+```methodsynopsis
+public Yaf_Plugin_Abstract::routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response): void
+```
 
-Цей перехоплювач буде запущений після завершення процесу маршрутизації,
-зазвичай використовується для перевірки входу до системи.
+Цей перехоплювач буде запущений після завершення процесу маршрутизації, який зазвичай використовується для перевірки входу в систему.
 
 ### Список параметрів
 
@@ -31,20 +30,40 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**Yaf_Plugin_Abstract::routerShutdown()****
+**Приклад #1 Приклад використання **YafPluginAbstract::routerShutdown()****
 
-`<?phpclass UserInitPlugin extends Yaf_Plugin_Abstract {                              ¦        /**         * Использовать контроллер доступа не нужно для API         */        if (in_array(strtolower($controller), array(            'api',        ))) {            return TRUE; }     if (Yaf_Session::getInstance()->has("login")) {            return TRUE; }        /* Помилка перевірки доступу, необхідно увійти */        $response->setRedirect("http://yourdomain.com/login/"); return FALSE; }}?> `
+```php
+<?php
+class UserInitPlugin extends Yaf_Plugin_Abstract {
+
+    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+        $controller = $request->getControllerName();
+
+        /**
+         * Использовать контроллер доступа не нужно для API
+         */
+        if (in_array(strtolower($controller), array(
+            'api',
+        ))) {
+            return TRUE;
+        }
+
+        if (Yaf_Session::getInstance()->has("login")) {
+            return TRUE;
+        }
+
+        /* Ошибка проверки доступа, необходимо войти */
+        $response->setRedirect("http://yourdomain.com/login/");
+        return FALSE;
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [Yaf_Plugin_Abstract::routerStartup()](yaf-plugin-abstract.routerstartup.md) -
-Перехоплювач RouterStartup
-- [Yaf_Plugin_Abstract::dispatchLoopStartup()](yaf-plugin-abstract.dispatchloopstartup.md) -
-Хук перед відправкою циклу
-- [Yaf_Plugin_Abstract::preDispatch()](yaf-plugin-abstract.predispatch.md) -
-Призначення preDispatch
-- [Yaf_Plugin_Abstract::postDispatch()](yaf-plugin-abstract.postdispatch.md) -
-Призначення postDispatch
-- [Yaf_Plugin_Abstract::dispatchLoopShutdown()](yaf-plugin-abstract.dispatchloopshutdown.md) -
-Призначення dispatchLoopShutdown
+-   [YafPluginAbstract::routerStartup()](yaf-plugin-abstract.routerstartup.md) - Перехоплювач RouterStartup
+-   [YafPluginAbstract::dispatchLoopStartup()](yaf-plugin-abstract.dispatchloopstartup.md) - Хук перед відправкою циклу
+-   [YafPluginAbstract::preDispatch()](yaf-plugin-abstract.predispatch.md) - Призначення preDispatch
+-   [YafPluginAbstract::postDispatch()](yaf-plugin-abstract.postdispatch.md) - Призначення postDispatch
+-   [YafPluginAbstract::dispatchLoopShutdown()](yaf-plugin-abstract.dispatchloopshutdown.md) - Призначення dispatchLoopShutdown

@@ -1,10 +1,11 @@
-- [«UI\Draw\Pen::write](ui-draw-pen.write.md)
-- [UI\Draw\Path::addRectangle »](ui-draw-path.addrectangle.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Шлях малювання
-
+---
+navigation:
+  - ui-draw-pen.write.md: '« UIDrawPen::write'
+  - ui-draw-path.addrectangle.md: 'ОЙDrawPath::addRectangle »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Шлях малювання
+---
 # Шлях малювання
 
 (UI 0.9.9)
@@ -15,89 +16,63 @@
 
 ## Огляд класів
 
-class **UI\Draw\Path** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Winding`;
 
-const int `Alternate`;
+    
+     
+      class UI\Draw\Path
+     
+     {
 
-/\* Конструктор \*/
+    /* Константы */
+    
+     const
+     int
+      Winding;
 
-public [\_\_construct](ui-draw-path.construct.md)(int `$mode` =
-UI\Draw\Path::Winding)
+    const
+     int
+      Alternate;
 
-/\* Методи \*/
 
-public
-[addRectangle](ui-draw-path.addrectangle.md)([UI\Point](class.ui-point.md)
-`$point`, [UI\Size](class.ui-size.md) `$size`)
+    /* Конструктор */
+    
+   public __construct(int $mode = UI\Draw\Path::Winding)
 
-public [arcTo](ui-draw-path.arcto.md)(
-[UI\Point](class.ui-point.md) `$point`,
-float `$radius`,
-float `$angle`,
-float `$sweep`,
-float `$negative`
-)
 
-public [bezierTo](ui-draw-path.bezierto.md)(
-[UI\Point](class.ui-point.md) `$point`,
-float `$radius`,
-float `$angle`,
-float `$sweep`,
-float `$negative`
-)
+    /* Методы */
+    public addRectangle(UI\Point $point, UI\Size $size)
+public arcTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public closeFigure()
+public end()
+public lineTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public newFigure(UI\Point $point)
+public newFigureWithArc(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 
-public [closeFigure](ui-draw-path.closefigure.md)()
+   }
+```
 
-public [end](ui-draw-path.end.md)()
-
-public [lineTo](ui-draw-path.lineto.md)(
-[UI\Point](class.ui-point.md) `$point`,
-float `$radius`,
-float `$angle`,
-float `$sweep`,
-float `$negative`
-)
-
-public
-[newFigure](ui-draw-path.newfigure.md)([UI\Point](class.ui-point.md)
-`$point`)
-
-public [newFigureWithArc](ui-draw-path.newfigurewitharc.md)(
-[UI\Point](class.ui-point.md) `$point`,
-float `$radius`,
-float `$angle`,
-float `$sweep`,
-float `$negative`
-)
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Draw\Path::Winding`**
-Це режим малювання за замовчуванням
+
+Це режим малювання за умовчанням
 
 **`UI\Draw\Path::Alternate`**
+
 Це альтернативний режим малювання
 
 ## Зміст
 
-- [UI\Draw\Path::addRectangle](ui-draw-path.addrectangle.md) -
-Намалювати прямокутник
-- [UI\Draw\Path::arcTo](ui-draw-path.arcto.md) - Намалювати дугу
-- [UI\Draw\Path::bezierTo](ui-draw-path.bezierto.md) - Намалювати
-криву Безьє
-- [UI\Draw\Path::closeFigure](ui-draw-path.closefigure.md) — Закрити
-фігуру
-- [UI\Draw\Path::\_\_construct](ui-draw-path.construct.md) - Створити
-новий об'єкт Path
-- [UI\Draw\Path::end](ui-draw-path.end.md) - Завершити шлях
-- [UI\Draw\Path::lineTo](ui-draw-path.lineto.md) - Намалювати лінію
-- [UI\Draw\Path::newFigure](ui-draw-path.newfigure.md) — Намалювати
-фігуру
-- [UI\Draw\Path::newFigureWithArc](ui-draw-path.newfigurewitharc.md)
-- Намалювати фігуру з дугою
+-   [ОЙDrawPath::addRectangle](ui-draw-path.addrectangle.md) — Намалювати прямокутник
+-   [ОЙDrawPath::arcTo](ui-draw-path.arcto.md) - Намалювати дугу
+-   [ОЙDrawPath::bezierTo](ui-draw-path.bezierto.md) — Намалювати криву Безьє
+-   [ОЙDrawPath::closeFigure](ui-draw-path.closefigure.md) - Закрити фігуру
+-   [ОЙDrawPath::construct](ui-draw-path.construct.md) - Створити новий об'єкт Path
+-   [ОЙDrawPath::end](ui-draw-path.end.md) - Завершити шлях
+-   [ОЙDrawPath::lineTo](ui-draw-path.lineto.md) - Намалювати лінію
+-   [ОЙDrawPath::newFigure](ui-draw-path.newfigure.md) — Намалювати фігуру
+-   [ОЙDrawPath::newFigureWithArc](ui-draw-path.newfigurewitharc.md) - Намалювати фігуру з дугою

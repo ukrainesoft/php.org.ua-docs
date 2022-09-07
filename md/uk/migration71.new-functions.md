@@ -1,44 +1,44 @@
-- [« Нові можливості](migration71.new-features.md)
-- [Нові глобальні константи »](migration71.constants.md)
-
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.0.x на PHP 7.1.x](migration71.md)
-- Нові функції
-
+---
+navigation:
+  - migration71.new-features.md: '" Нові можливості'
+  - migration71.constants.md: Нові глобальні константи »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Нові функції
+---
 ## Нові функції
 
 ### Ядро PHP
 
-- [sapi_windows_cp_get()](function.sapi-windows-cp-get.md)
-- [sapi_windows_cp_set()](function.sapi-windows-cp-set.md)
-- [sapi_windows_cp_conv()](function.sapi-windows-cp-conv.md)
-- [sapi_windows_cp_is_utf8()](function.sapi-windows-cp-is-utf8.md)
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.md)
+-   [sapiwindowsспset()](function.sapi-windows-cp-set.md)
+-   [sapiwindowsспconv()](function.sapi-windows-cp-conv.md)
+-   [sapiwindowsспісutf8()](function.sapi-windows-cp-is-utf8.md)
 
 ### [Замикання](class.closure.md)
 
-- [Closure::fromCallable()](closure.fromcallable.md)
+-   [Closure::fromCallable()](closure.fromcallable.md)
 
 ### [CURL](book.curl.md)
 
-- [curl_multi_errno()](function.curl-multi-errno.md)
-- [curl_share_errno()](function.curl-share-errno.md)
-- [curl_share_strerror()](function.curl-share-strerror.md)
+-   [curlmultierrno()](function.curl-multi-errno.md)
+-   [curlshareerrno()](function.curl-share-errno.md)
+-   [curlsharestrerror()](function.curl-share-strerror.md)
 
 ### [OpenSSL](book.openssl.md)
 
-- [openssl_get_curve_names()](function.openssl-get-curve-names.md)
+-   [opensslgetcurvenames()](function.openssl-get-curve-names.md)
 
-### [Сесії](book.session.md)
+### [Сессии](book.session.md)
 
-- [session_create_id()](function.session-create-id.md)
-- [session_gc()](function.session-gc.md)
+-   [sessioncreateid()](function.session-create-id.md)
+-   [sessiongc()](function.session-gc.md)
 
 ### [SPL](book.spl.md)
 
-- [is_iterable()](function.is-iterable.md)
+-   [ісiterable()](function.is-iterable.md)
 
 ### [PCNTL](book.pcntl.md)
 
-- [pcntl_async_signals()](function.pcntl-async-signals.md)
--
-[pcntl_signal_get_handler()](function.pcntl-signal-get-handler.md)
+-   [pcntlasyncsignals()](function.pcntl-async-signals.md)
+-   [pcntlsignalgethandler()](function.pcntl-signal-get-handler.md)

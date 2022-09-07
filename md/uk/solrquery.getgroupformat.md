@@ -1,19 +1,22 @@
-- [«SolrQuery::getGroupFields](solrquery.getgroupfields.md)
-- [SolrQuery::getGroupFunctions »](solrquery.getgroupfunctions.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення group.format
-
+---
+navigation:
+  - solrquery.getgroupfields.md: '« SolrQuery::getGroupFields'
+  - solrquery.getgroupfunctions.md: 'SolrQuery::getGroupFunctions »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupFormat'
+---
 # SolrQuery::getGroupFormat
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroupFormat — Повертає значення group.format
 
 ### Опис
 
-public **SolrQuery::getGroupFormat**(): string
+```methodsynopsis
+public SolrQuery::getGroupFormat(): string
+```
 
 Повертає значення group.format
 
@@ -25,6 +28,4 @@ public **SolrQuery::getGroupFormat**(): string
 
 ### Дивіться також
 
-- [SolrQuery::setGroupFormat()](solrquery.setgroupformat.md) -
-Встановлює формат групи, структуру результату (параметр
-group.format)
+-   [SolrQuery::setGroupFormat()](solrquery.setgroupformat.md) - Встановлює формат групи, структуру результату (параметр group.format)

@@ -1,78 +1,51 @@
-- [« Служби автентифікації](refs.remote.auth.md)
-- [Вступ »](intro.radius.md)
-
-- [PHP Manual](index.md)
-- [Служби автентифікації](refs.remote.auth.md)
-- Radius
-
+---
+navigation:
+  - refs.remote.auth.md: « Служби автентифікації
+  - intro.radius.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.auth.md: Служби автентифікації
+title: Radius
+---
 # Radius
 
-- [Вступ](intro.radius.md)
-- [Встановлення та налаштування](radius.setup.md)
-- [Вимоги](radius.requirements.md)
-- [Установка](radius.installation.md)
-- [Налаштування під час виконання](radius.configuration.md)
-- [Типи ресурсів](radius.resources.md)
-- [Предвизначені константи](radius.constants.md)
-- [Опції RADIUS](radius.constants.options.md)
-- [типи пакетів RADIUS](radius.constants.packets.md)
-- [Типи атрибутів RADIUS](radius.constants.attributes.md)
-- [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
-- [Приклади](radius.examples.md)
-- [Функції Radius](ref.radius.md)
-- [radius_acct_open](function.radius-acct-open.md) — Створює
-дескриптор Radius для обліку
-- [radius_add_server](function.radius-add-server.md) — Додає
-сервер
-- [radius_auth_open](function.radius-auth-open.md) — Створює
-дескриптор Radius для автентифікації
-- [radius_close](function.radius-close.md) - Звільняє все
-ресурси
-- [radius_config](function.radius-config.md) — Примушує
-бібліотеку читати цей файл конфігурації
-- [radius_create_request](function.radius-create-request.md) -
-Створює обліковий запис або запит автентифікації
-- [radius_cvt_addr](function.radius-cvt-addr.md) - Перетворює
-необроблені дані в IP-адресу
-- [radius_cvt_int](function.radius-cvt-int.md) - Перетворює
-необроблені дані в ціле число
-- [radius_cvt_string](function.radius-cvt-string.md) -
-Перетворює необроблені дані у рядок
-- [radius_demangle_mppe_key](function.radius-demangle-mppe-key.md)
-— Отримує mppe-ключі зі спотворених даних
-- [radius_demangle](function.radius-demangle.md)
-Розшифровує дані
-- [radius_get_attr](function.radius-get-attr.md) — Витягує
-атрибут
-- [radius_get_tagged_attr_data](function.radius-get-tagged-attr-data.md)
-— Витягує дані із позначеного атрибуту
-- [radius_get_tagged_attr_tag](function.radius-get-tagged-attr-tag.md)
-— Витягує тег із позначеного атрибуту
-- [radius_get_vendor_attr](function.radius-get-vendor-attr.md) -
-Виймає атрибут, що залежить від постачальника
-- [radius_put_addr](function.radius-put-addr.md) — Приєднує
-атрибут IP-адреси
-- [radius_put_attr](function.radius-put-attr.md) — Приєднує
-бінарний атрибут
-- [radius_put_int](function.radius-put-int.md) — Приєднує
-цілісний атрибут
-- [radius_put_string](function.radius-put-string.md) -
-Приєднує рядковий атрибут
-- [radius_put_vendor_addr](function.radius-put-vendor-addr.md) -
-Приєднує атрибут IP-адреси конкретного постачальника
-- [radius_put_vendor_attr](function.radius-put-vendor-attr.md) -
-Приєднує бінарний атрибут, що залежить від постачальника
-- [radius_put_vendor_int](function.radius-put-vendor-int.md) -
-Приєднує цілий атрибут, що залежить від постачальника
-- [radius_put_vendor_string](function.radius-put-vendor-string.md)
-— Приєднує рядковий атрибут, що залежить від постачальника
-- [radius_request_authenticator](function.radius-request-authenticator.md)
-— Повертає аутентифікатор запиту
-- [radius_salt_encrypt_attr](function.radius-salt-encrypt-attr.md)
-- Зашифровує значення за допомогою солі
-- [radius_send_request](function.radius-send-request.md) -
-Відправляє запит і чекає відповіді
-- [radius_server_secret](function.radius-server-secret.md) -
-Повертає загальний секрет
-- [radius_strerror](function.radius-strerror.md) — Повертає
-повідомлення про помилку
+-   [Введение](intro.radius.md)
+-   [Встановлення та налаштування](radius.setup.md)
+    -   [Вимоги](radius.requirements.md)
+    -   [Установка](radius.installation.md)
+    -   [Налаштування під час виконання](radius.configuration.md)
+    -   [Типи ресурсів](radius.resources.md)
+-   [Обумовлені константи](radius.constants.md)
+    -   [Опции RADIUS](radius.constants.options.md)
+    -   [типи пакетів RADIUS](radius.constants.packets.md)
+    -   [Типи атрибутів RADIUS](radius.constants.attributes.md)
+    -   [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
+-   [Приклади](radius.examples.md)
+-   [Функции Radius](ref.radius.md)
+    -   [radiusacctopen](function.radius-acct-open.md) - Створює дескриптор Radius для обліку
+    -   [radiusaddserver](function.radius-add-server.md) - Додає сервер
+    -   [radiusauthopen](function.radius-auth-open.md) — Створює дескриптор Radius для автентифікації
+    -   [radiusclose](function.radius-close.md) - Звільняє всі ресурси
+    -   [radiusconfig](function.radius-config.md) — Примушує бібліотеку читати цей файл конфігурації
+    -   [radiuscreaterequest](function.radius-create-request.md) — Створює обліковий запис або запит автентифікації
+    -   [radiuscvtaddr](function.radius-cvt-addr.md) — Перетворює необроблені дані на IP-адресу
+    -   [radiuscvtint](function.radius-cvt-int.md) — Перетворює необроблені дані на ціле число
+    -   [radiuscvtstring](function.radius-cvt-string.md) — Перетворює необроблені дані на рядок
+    -   [radiusdemanglemppekey](function.radius-demangle-mppe-key.md) — Отримує mppe-ключі зі спотворених даних
+    -   [radiusdemangle](function.radius-demangle.md) - Розшифровує дані
+    -   [radiusgetattr](function.radius-get-attr.md) — Витягує атрибут
+    -   [radiusgettaggedattrdata](function.radius-get-tagged-attr-data.md) — Витягує дані із зазначеного атрибуту
+    -   [radiusgettaggedattrtag](function.radius-get-tagged-attr-tag.md) — Витягує тег із позначеного атрибуту
+    -   [radiusgetvendorattr](function.radius-get-vendor-attr.md) — Витягує атрибут, що залежить від постачальника
+    -   [radiusputaddr](function.radius-put-addr.md) — Приєднує атрибут IP-адреси
+    -   [radiusputattr](function.radius-put-attr.md) — Приєднує бінарний атрибут
+    -   [radiusputint](function.radius-put-int.md) — Приєднує цілісний атрибут
+    -   [radiusputstring](function.radius-put-string.md) — Приєднує рядковий атрибут
+    -   [radiusputvendoraddr](function.radius-put-vendor-addr.md) — Приєднує атрибут IP-адреси конкретного постачальника
+    -   [radiusputvendorattr](function.radius-put-vendor-attr.md) — Приєднує бінарний атрибут, що залежить від постачальника
+    -   [radiusputvendorint](function.radius-put-vendor-int.md) — Приєднує цілий атрибут, що залежить від постачальника.
+    -   [radiusputvendorstring](function.radius-put-vendor-string.md) — Приєднує рядковий атрибут, що залежить від постачальника
+    -   [radiusrequestauthenticator](function.radius-request-authenticator.md) — Повертає аутентифікатор запиту
+    -   [radiussaltencryptattr](function.radius-salt-encrypt-attr.md) - Зашифровує значення за допомогою солі
+    -   [radiussendrequest](function.radius-send-request.md) — Надсилає запит і чекає на відповідь
+    -   [radiusserversecret](function.radius-server-secret.md) — Повертає загальний секрет
+    -   [radiusstrerror](function.radius-strerror.md) — Повертає повідомлення про помилку

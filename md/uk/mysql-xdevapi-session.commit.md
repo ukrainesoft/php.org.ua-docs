@@ -1,19 +1,22 @@
-- [« Session::close](mysql-xdevapi-session.close.md)
-- [Session::\_\_construct »](mysql-xdevapi-session.construct.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Фіксує транзакцію
-
+---
+navigation:
+  - mysql-xdevapi-session.close.md: '« Session::close'
+  - mysql-xdevapi-session.construct.md: 'Session::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+title: 'Session::commit'
+---
 # Session::commit
 
-(PHP 4 \>= 4.4.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.4.0, PHP 5, PHP 7, PHP 8)
 
-Session::commit — Фіксує транзакцію
+Session::commit - Фіксує транзакцію
 
 ### Опис
 
-public **mysql_xdevapi\Session::commit**(): Object
+```methodsynopsis
+public mysql_xdevapi\Session::commit(): Object
+```
 
 Фіксує транзакцію.
 
@@ -27,6 +30,18 @@ public **mysql_xdevapi\Session::commit**(): Object
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Session::commit()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::commit()****
 
-` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("friends");$session-> startTransaction();$collection->add('{"John":42, "Sam":33}')->execute();$savepoint = $session->setSavepoint();$session->commit() ;$session->close(); `
+```php
+<?php
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("friends");
+
+$session->startTransaction();
+
+$collection->add('{"John":42, "Sam":33}')->execute();
+$savepoint = $session->setSavepoint();
+
+$session->commit();
+$session->close();
+```

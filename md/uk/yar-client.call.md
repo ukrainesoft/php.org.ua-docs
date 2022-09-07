@@ -1,42 +1,53 @@
-- [«Yar_Client](class.yar-client.md)
-- [Yar_Client::\_\_construct »](yar-client.construct.md)
+---
+navigation:
+  - class.yar-client.md: « YarClient
+  - yar-client.construct.md: 'YarClient::construct »'
+  - index.md: PHP Manual
+  - class.yar-client.md: YarClient
+title: 'YarClient::call'
+---
+# YarClient::call
 
-- [PHP Manual](index.md)
-- [Yar_Client](class.yar-client.md)
-- Виклик сервісу
+(PECL yar >= 1.0.0)
 
-# Yar_Client::\_\_call
-
-(PECL yar \> = 1.0.0)
-
-Yar_Client::\_\_call — Виклик сервісу
+YarClient::call — Виклик сервісу
 
 ### Опис
 
-public **Yar_Client::\_\_call**(string `$method`, array `$parameters`):
-void
+```methodsynopsis
+public Yar_Client::__call(string $method, array $parameters): void
+```
 
 Здійснює виклик віддаленого RPC-метода.
 
 ### Список параметрів
 
 `method`
+
 Ім'я дистанційного методу.
 
 `parameters`
+
 Параметри.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Client::\_\_call()****
+**Приклад #1 Приклад використання **YarClient::call()****
 
-` <?php$client = new Yar_Client("http://host/api/");/* виклик віддаленого сервісу */$result = $client->some_method("parameter");?> `
+```php
+<?php
+
+$client = new Yar_Client("http://host/api/");
+
+/* вызов удалённого сервиса */
+$result = $client->some_method("parameter");
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [Yar_Client::setOpt()](yar-client.setopt.md) - Задати контекст
-виклику
+-   [YarClient::setOpt()](yar-client.setopt.md) - Задати контекст виклику

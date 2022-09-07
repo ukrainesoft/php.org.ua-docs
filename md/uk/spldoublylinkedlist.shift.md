@@ -1,21 +1,22 @@
-- [« SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.md)
-- [SplDoublyLinkedList::top »](spldoublylinkedlist.top.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Видаляє вузол, що знаходиться на початку двозв'язкового списку
-
+---
+navigation:
+  - spldoublylinkedlist.setiteratormode.md: '« SplDoublyLinkedList::setIteratorMode'
+  - spldoublylinkedlist.top.md: 'SplDoublyLinkedList::top »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::shift'
+---
 # SplDoublyLinkedList::shift
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::shift — Видаляє вузол, що знаходиться на початку
-двозв'язного списку
+SplDoublyLinkedList::shift — Видаляє вузол, що знаходиться на початку двозв'язкового списку
 
 ### Опис
 
-public **SplDoublyLinkedList::shift**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplDoublyLinkedList::shift(): mixed
+```
 
 ### Список параметрів
 
@@ -27,5 +28,4 @@ public **SplDoublyLinkedList::shift**():
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

@@ -1,24 +1,27 @@
-- [« Ds\Pair::jsonSerialize](ds-pair.jsonserialize.md)
-- [Набір »](class.ds-set.md)
+---
+navigation:
+  - ds-pair.jsonserialize.md: '« DsPair::jsonSerialize'
+  - class.ds-set.md: Набор »
+  - index.md: PHP Manual
+  - class.ds-pair.md: Пара
+title: 'ДсPair::toArray'
+---
+# ДсPair::toArray
 
-- [PHP Manual](index.md)
-- [Пара](class.ds-pair.md)
-- Перетворює пару на масив (array)
+(PECL ds >= 1.0.0)
 
-# Ds\Pair::toArray
-
-(PECL ds \>= 1.0.0)
-
-Ds\Pair::toArray — Перетворює пару на масив (array)
+ДсPair::toArray - Перетворює пару в масив (array)
 
 ### Опис
 
-public **Ds\Pair::toArray**(): array
+```methodsynopsis
+public Ds\Pair::toArray(): array
+```
 
 Перетворює пару на масив (array).
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Приведення до масиву поки що не підтримується.
 
 ### Список параметрів
@@ -27,19 +30,27 @@ public **Ds\Pair::toArray**(): array
 
 ### Значення, що повертаються
 
-Масив, що містить елементи в тому самому порядку, як вони були в парі.
+Масив містить елементи в тому ж порядку, як вони були в парі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Pair::toArray()****
+**Приклад #1 Приклад використання **ДсPair::toArray()****
 
-` <?php$pair = new \Ds\Pair("a", 1);var_dump($pair->toArray());?> `
+```php
+<?php
+$pair = new \Ds\Pair("a", 1);
+
+var_dump($pair->toArray());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(2) {
-["key"]=>
-string(1) "a"
-["value"]=>
-int(1)
+  ["key"]=>
+  string(1) "a"
+  ["value"]=>
+  int(1)
 }
+```

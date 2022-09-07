@@ -1,24 +1,26 @@
-- [« Swoole\Event::set](swoole-event.set.md)
-- [Swoole\Event::write »](swoole-event.write.md)
+---
+navigation:
+  - swoole-event.set.md: '« SwooleEvent::set'
+  - swoole-event.write.md: 'SwooleEvent::write »'
+  - index.md: PHP Manual
+  - class.swoole-event.md: SwooleEvent
+title: 'SwooleEvent::wait'
+---
+# SwooleEvent::wait
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Опис
+(PECL swoole >= 1.9.0)
 
-# Swoole\Event::wait
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Event::wait — Опис
+SwooleEvent::wait — Опис
 
 ### Опис
 
-public static **Swoole\Event::wait**(): void
+```methodsynopsis
+public static Swoole\Event::wait(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

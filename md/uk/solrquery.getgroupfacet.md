@@ -1,19 +1,22 @@
-- [« SolrQuery::getGroupCachePercent](solrquery.getgroupcachepercent.md)
-- [SolrQuery::getGroupFields »](solrquery.getgroupfields.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення параметра group.facet
-
+---
+navigation:
+  - solrquery.getgroupcachepercent.md: '« SolrQuery::getGroupCachePercent'
+  - solrquery.getgroupfields.md: 'SolrQuery::getGroupFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupFacet'
+---
 # SolrQuery::getGroupFacet
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroupFacet — Повертає значення параметра group.facet
 
 ### Опис
 
-public **SolrQuery::getGroupFacet**(): bool
+```methodsynopsis
+public SolrQuery::getGroupFacet(): bool
+```
 
 Повертає значення параметра group.facet
 
@@ -25,5 +28,4 @@ public **SolrQuery::getGroupFacet**(): bool
 
 ### Дивіться також
 
-- [SolrQuery::setGroupFacet()](solrquery.setgroupfacet.md) -
-Встановлює параметр group.facet
+-   [SolrQuery::setGroupFacet()](solrquery.setgroupfacet.md) - Встановлює параметр group.facet

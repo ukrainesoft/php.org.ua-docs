@@ -1,35 +1,36 @@
-- [«gmp_legendre](function.gmp-legendre.md)
-- [gmp_mul»](function.gmp-mul.md)
+---
+navigation:
+  - function.gmp-legendre.md: « gmplegendre
+  - function.gmp-mul.md: gmpmul »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpmod
+---
+# gmpmod
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Обчислення залишку від цілого розподілу
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_mod
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_mod — Обчислення залишку від цілого розподілу
+gmpmod — Обчислення залишку від цілого розподілу
 
 ### Опис
 
-**gmp_mod**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_mod(GMP|int|string $num1, GMP|int|string $num2): GMP
+```
 
-Обчислює залишок від розподілу числа `num1` на `num2`. Результат завжди
-неотрицательный, знак числа 'num2' ігнорується.
+Обчислює залишок від поділу числа `num1` на `num2`. Результат завжди невід'ємний, знак числа `num2` ігнорується.
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
+
 Дільник (модуль).
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -37,11 +38,17 @@ gmp_mod — Обчислення залишку від цілого розпод
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_mod()****
+**Приклад #1 Приклад використання **gmpmod()****
 
-` <?php$mod = gmp_mod("8", "3");echo gmp_strval($mod) . "
-";?> `
+```php
+<?php
+$mod = gmp_mod("8", "3");
+echo gmp_strval($mod) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2
+```

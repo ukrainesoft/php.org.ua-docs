@@ -1,63 +1,93 @@
-- [«curl_multi_errno](function.curl-multi-errno.md)
-- [curl_multi_getcontent »](function.curl-multi-getcontent.md)
-
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Запускає підключення поточного дескриптора cURL
-
-#curl_multi_exec
+---
+navigation:
+  - function.curl-multi-errno.md: « curlmultierrno
+  - function.curl-multi-getcontent.md: curlmultigetcontent »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlmultiexec
+---
+# curlmultiexec
 
 (PHP 5, PHP 7, PHP 8)
 
-curl_multi_exec — Запускає підключення поточного дескриптора cURL
+curlmultiexec — Запускає підключення поточного дескриптора cURL
 
 ### Опис
 
-**curl_multi_exec**([CurlMultiHandle](class.curlmultihandle.md)
-`$multi_handle`, int `&$still_running`): int
+```methodsynopsis
+curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
+```
 
-Обробляє кожен дескриптор у стеку. Цей метод може бути викликаний поза
-залежно від необхідності дескриптора читати чи записувати дані.
+Обробляє кожен дескриптор у стеку. Цей метод може бути викликаний незалежно від необхідності дескриптора читати чи записувати дані.
 
 ### Список параметрів
 
 `multi_handle`
-Мультидескриптор cURL, отриманий з
-[curl_multi_init()](function.curl-multi-init.md).
+
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 `still_running`
+
 Посилання на прапор, який вказує, чи йдуть ще якісь дії.
 
 ### Значення, що повертаються
 
-Код cURL, вказаний у [визначених константах](curl.constants.md)
-CURL.
+Код cURL, вказаний у [визначених константах](curl.constants.md) CURL.
 
-> **Примітка**:
->
-> Тут повертаються помилки, що стосуються всього стека. Проблеми
-> все ще можуть статися на індивідуальних запитах, навіть коли ця
-> функція повертає **CURLM_OK**.
+> **Зауваження**
+> 
+> Тут повертаються помилки, що стосуються лише всього стеку. Проблеми все ще можуть виникнути на індивідуальних запитах, навіть коли ця функція повертає **`CURLM_OK`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                      |
-|--------|---------------------------------------------------------------------------|
-| 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curl_multi_exec()****
+**Приклад #1 Приклад використання **curlmultiexec()****
 
-Цей приклад створить два дескриптори cURL, додасть їх до набору
-дескрипторів, а потім запустить їх асинхронно.
+Цей приклад створить два дескриптори cURL, додасть в набір дескрипторів, а потім запустить їх асинхронно.
 
-`<?php// створюємо обидва ресурсу cURL$ch1 = curl_init();$ch2 = curl_init();// встановлюємо URL і інші відповідні опціїcurl_setopt($ch, curl_setopt($ch1, CURLOPT_HEADER, 0);curl_setopt($ch2, CURLOPT_URL, "http://www.php.net/");curl_setopt($ch2, CURLOPT_HEADER, 0)| curl_multi_init();//додаємо два дескриптори if ($active) {         // Чекаємо якийсь час для пожвавлення активності        curl_multi_select($mh); }} while ($active && $status ===CURLM_OK);//закриваємо дескрипториcurl_multi_remove_handle($mh, $ch1);curl_multi_remove_handle($mh, $ch2);curl_mul
+```php
+<?php
+// создаём оба ресурса cURL
+$ch1 = curl_init();
+$ch2 = curl_init();
+
+// устанавливаем URL и другие соответствующие опции
+curl_setopt($ch1, CURLOPT_URL, "http://example.com/");
+curl_setopt($ch1, CURLOPT_HEADER, 0);
+curl_setopt($ch2, CURLOPT_URL, "http://www.php.net/");
+curl_setopt($ch2, CURLOPT_HEADER, 0);
+
+//создаём набор дескрипторов cURL
+$mh = curl_multi_init();
+
+//добавляем два дескриптора
+curl_multi_add_handle($mh,$ch1);
+curl_multi_add_handle($mh,$ch2);
+
+//запускаем множественный обработчик
+do {
+    $status = curl_multi_exec($mh, $active);
+    if ($active) {
+        // Ждём какое-то время для оживления активности
+        curl_multi_select($mh);
+    }
+} while ($active && $status == CURLM_OK);
+
+//закрываем дескрипторы
+curl_multi_remove_handle($mh, $ch1);
+curl_multi_remove_handle($mh, $ch2);
+curl_multi_close($mh);
+
+?>
+```
 
 ### Дивіться також
 
-- [curl_multi_init()](function.curl-multi-init.md) - Створює набір
-CURL-дескрипторів
-- [curl_multi_select()](function.curl-multi-select.md) - Чекає
-активності на будь-якому curl_multi з'єднанні
-- [curl_exec()](function.curl-exec.md) - Виконує запит cURL
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
+-   [curlmultiselect()](function.curl-multi-select.md) - Чекає активності на будь-якому curlmulti з'єднанні
+-   [curlexec()](function.curl-exec.md) - Виконує запит cURL

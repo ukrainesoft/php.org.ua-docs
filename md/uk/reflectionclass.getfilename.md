@@ -1,20 +1,22 @@
-- [« ReflectionClass::getExtensionName](reflectionclass.getextensionname.md)
-- [ReflectionClass::getInterfaceNames »](reflectionclass.getinterfacenames.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає ім'я файлу, в якому визначено клас
-
+---
+navigation:
+  - reflectionclass.getextensionname.md: '« ReflectionClass::getExtensionName'
+  - reflectionclass.getinterfacenames.md: 'ReflectionClass::getInterfaceNames »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getFileName'
+---
 # ReflectionClass::getFileName
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getFileName — Повертає ім'я файлу, в якому визначено
-клас
+ReflectionClass::getFileName — Повертає ім'я файлу, в якому визначено клас
 
 ### Опис
 
-public **ReflectionClass::getFileName**(): string\|false
+```methodsynopsis
+public ReflectionClass::getFileName(): string|false
+```
 
 Повертає ім'я файлу, у якому визначено клас.
 
@@ -24,10 +26,8 @@ public **ReflectionClass::getFileName**(): string\|false
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу, у якому визначено клас. Якщо клас визначений у
-ядрі PHP або в модулі PHP, повертає **`false`**.
+Повертає ім'я файлу, у якому визначено клас. Якщо клас визначено в ядрі PHP або модулі PHP, повертає **`false`**
 
 ### Дивіться також
 
-- [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) -
-Повертає ім'я модуля, що визначає клас
+-   [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) - Повертає ім'я модуля, що визначає клас

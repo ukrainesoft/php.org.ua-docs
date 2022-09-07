@@ -1,99 +1,99 @@
-- [«UI\Controls\Label::setText](ui-controls-label.settext.md)
-- [UI\Controls\Entry::\_\_construct »](ui-controls-entry.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Введення"
-
+---
+navigation:
+  - ui-controls-label.settext.md: '« UIControlsLabel::setText'
+  - ui-controls-entry.construct.md: 'ОЙControlsEntry::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Введення"
+---
 # Елемент управління "Введення"
 
 (UI 0.9.9)
 
 ## Вступ
 
-Введення (Entry) - елемент керування текстовим записом, який підходить для введення
-простого тексту, паролів чи пошукових запитів.
+Введення (Entry) - елемент керування текстовим записом, який підходить для введення простого тексту, паролів або пошукових запитів.
 
 ## Огляд класів
 
-class **UI\Controls\Entry** extends [UI\Control](class.ui-control.md)
-{
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Normal`;
 
-const int `Password`;
+    
+     
+      class UI\Controls\Entry
+     
 
-const int `Search`;
+     
+      extends
+       UI\Control
+     
+     {
 
-/\* Конструктор \*/
+    /* Константы */
+    
+     const
+     int
+      Normal;
 
-public [\_\_construct](ui-controls-entry.construct.md)(int `$type` =
-UI\Controls\Entry::Normal)
+    const
+     int
+      Password;
 
-/\* Методи \*/
+    const
+     int
+      Search;
 
-public [getText](ui-controls-entry.gettext.md)(): string
 
-public [isReadOnly](ui-controls-entry.isreadonly.md)(): bool
+    /* Конструктор */
+    
+   public __construct(int $type = UI\Controls\Entry::Normal)
 
-protected [onChange](ui-controls-entry.onchange.md)()
 
-public [setReadOnly](ui-controls-entry.setreadonly.md)(bool
-`$readOnly`)
+    /* Методы */
+    public getText(): string
+public isReadOnly(): bool
+protected onChange()
+public setReadOnly(bool $readOnly)
+public setText(string $text)
 
-public [setText](ui-controls-entry.settext.md)(string `$text`)
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+   }
+```
 
-public [UI\Control::enable](ui-control.enable.md)()
-
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Controls\Entry::Normal`**
+
 Звичайне однорядкове введення
 
 **`UI\Controls\Entry::Password`**
+
 Введення пароля
 
 **`UI\Controls\Entry::Search`**
+
 Введення пошуку
 
 ## Зміст
 
-- [UI\Controls\Entry::\_\_construct](ui-controls-entry.construct.md)
-— Створити новий об'єкт Entry
-- [UI\Controls\Entry::getText](ui-controls-entry.gettext.md) -
-Отримати текст
-- [UI\Controls\Entry::isReadOnly](ui-controls-entry.isreadonly.md) -
-Визначити, чи є елемент лише для читання
-- [UI\Controls\Entry::onChange](ui-controls-entry.onchange.md) -
-Обробник зміни
-- [UI\Controls\Entry::setReadOnly](ui-controls-entry.setreadonly.md)
-- Встановити "тільки для читання"
-- [UI\Controls\Entry::setText](ui-controls-entry.settext.md) -
-Встановити текст
+-   [ОЙControlsEntry::construct](ui-controls-entry.construct.md) — Створити новий об'єкт Entry
+-   [ОЙControlsEntry::getText](ui-controls-entry.gettext.md) — Отримати текст
+-   [ОЙControlsEntry::isReadOnly](ui-controls-entry.isreadonly.md) — Визначити, чи є елемент лише для читання
+-   [ОЙControlsEntry::onChange](ui-controls-entry.onchange.md) - Обробник зміни
+-   [ОЙControlsEntry::setReadOnly](ui-controls-entry.setreadonly.md) - Встановити "тільки для читання"
+-   [ОЙControlsEntry::setText](ui-controls-entry.settext.md) — Встановити текст

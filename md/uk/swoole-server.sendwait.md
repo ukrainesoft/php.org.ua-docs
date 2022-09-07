@@ -1,25 +1,26 @@
-- [« Swoole\Server::sendto](swoole-server.sendto.md)
-- [Swoole\Server::set »](swoole-server.set.md)
+---
+navigation:
+  - swoole-server.sendto.md: '« SwooleServer::sendto'
+  - swoole-server.set.md: 'SwooleServer::set »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::sendwait'
+---
+# SwooleServer::sendwait
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Надсилає дані у віддалений сокет блокуючим способом
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::sendwait
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::sendwait — Надсилає дані у віддалений сокет
-блокуючим способом
+SwooleServer::sendwait — Надсилає дані у віддалений сокет блокуючим способом
 
 ### Опис
 
-public **Swoole\Server::sendwait**(int `$fd`, string `$data`): bool
+```methodsynopsis
+public Swoole\Server::sendwait(int $fd, string $data): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,68 +1,73 @@
-- [«oci_fetch_array](function.oci-fetch-array.md)
-- [oci_fetch_object »](function.oci-fetch-object.md)
+---
+navigation:
+  - function.oci-fetch-array.md: « ocifetcharray
+  - function.oci-fetch-object.md: ocifetchobject »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifetchassoc
+---
+# ocifetchassoc
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає наступний рядок із результату запиту у вигляді
-асоціативного масиву
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_fetch_assoc
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_fetch_assoc — Повертає наступний рядок з результату запиту
-вигляді асоціативного масиву
+ocifetchassoc — Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
 
 ### Опис
 
-**oci_fetch_assoc**(resource `$statement`): array\|false
+```methodsynopsis
+oci_fetch_assoc(resource $statement): array|false
+```
 
-Повертає асоціативний масив, що містить наступний рядок з
-результату виконання запиту. Кожен елемент масиву відповідає
-стовпцю поточного рядка. Ця функція зазвичай викликається в циклі, доки
-повертає **`false`**, якщо більше немає рядків.
+Повертає асоціативний масив, що містить наступний рядок результату виконання запиту. Кожен елемент масиву відповідає стовпцю поточного рядка. Ця функція зазвичай викликається в циклі, доки не повертає \*\*`false`\*\*якщо більше немає рядків.
 
-Результат виконання **oci_fetch_assoc()** ідентичний до виконання
-[oci_fetch_array()](function.oci-fetch-array.md) з прапором
-**`OCI_ASSOC`** + **`OCI_RETURN_NULLS`**.
+Результат виконання **ocifetchassoc()** ідентичний до виконання [ocifetcharray()](function.oci-fetch-array.md) з прапором **`OCI_ASSOC`** **`OCI_RETURN_NULLS`**
 
 ### Список параметрів
 
 `statement`
-Коректний ідентифікатор виразу OCI8, отриманий з
-[oci_parse()](function.oci-parse.md) та виконаний функцією
-[oci_execute()](function.oci-execute.md), або ідентифікатор виразу
-`REF CURSOR`.
+
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив. Якщо в результаті запиту рядків більше
-ні, повертає **`false`**.
+Повертає асоціативний масив. Якщо результат запиту рядків більше немає, повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_fetch_assoc()****
+**Приклад #1 Приклад використання **ocifetchassoc()****
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT department_id, department_name FROM departments');oci_execu ($stid)) != false) {    echo $row['DEPARTMENT_ID'] . " " . $row['DEPARTMENT_NAME'] . "<br>
-";}oci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT department_id, department_name FROM departments');
+oci_execute($stid);
+
+while (($row = oci_fetch_assoc($stid)) != false) {
+    echo $row['DEPARTMENT_ID'] . " " . $row['DEPARTMENT_NAME'] . "<br>\n";
+}
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Дивіться додаткові приклади отримання рядків
-> [oci_fetch_array()](function.oci-fetch-array.md).
+> **Зауваження**
+> 
+> Дивіться додаткові приклади отримання рядків у [ocifetcharray()](function.oci-fetch-array.md)
 
 ### Дивіться також
 
-- [oci_fetch()](function.oci-fetch.md) - Вибирає наступний рядок
-з результату в буфер
-- [oci_fetch_all()](function.oci-fetch-all.md) - Вибирає всі рядки
-з результату запиту до двомірного масиву
-- [oci_fetch_array()](function.oci-fetch-array.md) - Повертає
-наступний рядок з результату запиту у вигляді асоціативного або
-нумерованого масиву
-- [oci_fetch_object()](function.oci-fetch-object.md) - Повертає
-наступний рядок із результату запиту у вигляді об'єкта
-- [oci_fetch_row()](function.oci-fetch-row.md) - Повертає
-наступний рядок з результату запиту у вигляді нумерованого масиву
+-   [ocifetch()](function.oci-fetch.md) - Вибирає наступний рядок із результату в буфер
+-   [ocifetchall()](function.oci-fetch-all.md) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [ocifetcharray()](function.oci-fetch-array.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [ocifetchobject()](function.oci-fetch-object.md) - Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [ocifetchrow()](function.oci-fetch-row.md) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву

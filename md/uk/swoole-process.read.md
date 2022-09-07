@@ -1,19 +1,22 @@
-- [« Swoole\Process::push](swoole-process.push.md)
-- [Swoole\Process::signal »](swoole-process.signal.md)
+---
+navigation:
+  - swoole-process.push.md: '« SwooleProcess::push'
+  - swoole-process.signal.md: 'SwooleProcess::signal »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::read'
+---
+# SwooleProcess::read
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Читає дані відправлення у процес
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::read
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::read - Читає дані відправки в процес
+SwooleProcess::read - Читає дані відправки в процес
 
 ### Опис
 
-public **Swoole\Process::read**(int `$maxsize` = ?): string
+```methodsynopsis
+public Swoole\Process::read(int $maxsize = ?): string
+```
 
 ### Список параметрів
 

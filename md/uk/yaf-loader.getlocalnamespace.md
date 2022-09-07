@@ -1,25 +1,26 @@
-- [« Yaf_Loader::getLibraryPath](yaf-loader.getlibrarypath.md)
-- [Yaf_Loader::getNamespacePath »](yaf-loader.getnamespacepath.md)
+---
+navigation:
+  - yaf-loader.getlibrarypath.md: '« YafLoader::getLibraryPath'
+  - yaf-loader.getnamespacepath.md: 'YafLoader::getNamespacePath »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
+title: 'YafLoader::getLocalNamespace'
+---
+# YafLoader::getLocalNamespace
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Призначення getLocalNamespace
+(Yaf >=1.0.0)
 
-# Yaf_Loader::getLocalNamespace
-
-(Yaf \>=1.0.0)
-
-Yaf_Loader::getLocalNamespace — Призначення getLocalNamespace
+YafLoader::getLocalNamespace — Призначення getLocalNamespace
 
 ### Опис
 
-public [Yaf_Loader::getLocalNamespace](yaf-loader.getnamespaces.md)():
-void
+```methodsynopsis
+public Yaf_Loader::getLocalNamespace(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

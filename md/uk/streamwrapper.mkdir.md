@@ -1,10 +1,11 @@
-- [« streamWrapper::dir_rewinddir](streamwrapper.dir-rewinddir.md)
-- [streamWrapper::rename »](streamwrapper.rename.md)
-
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- створення директорії
-
+---
+navigation:
+  - streamwrapper.dir-rewinddir.md: '« streamWrapper::dirrewinddir'
+  - streamwrapper.rename.md: 'streamWrapper::rename »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::mkdir'
+---
 # streamWrapper::mkdir
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,49 +14,45 @@ streamWrapper::mkdir — Створення директорії
 
 ### Опис
 
-public **streamWrapper::mkdir**(string `$path`, int `$mode`, int
-`$options`): bool
+```methodsynopsis
+public streamWrapper::mkdir(string $path, int $mode, int $options): bool
+```
 
-Цей метод викликається у процесі виконання
-[mkdir()](function.mkdir.md).
+Цей метод викликається у процесі виконання [mkdir()](function.mkdir.md)
 
-> **Примітка**:
->
-> Щоб повідомлення про помилки відповідали реальним помилкам, цей
-> метод *не потрібно* визначати у випадках, коли обгортка не підтримує
-> Створення директорій.
+> **Зауваження**
+> 
+> Щоб повідомлення про помилки відповідали реальним помилкам, цей метод *не потрібно* визначати у випадках, коли обгортка не підтримує створення директорій.
 
 ### Список параметрів
 
 `path`
+
 Створювана директорія.
 
 `mode`
-Значення, що передається в [mkdir()](function.mkdir.md).
+
+Значення, передане в [mkdir()](function.mkdir.md)
 
 `options`
-Бітова маска, складена з констант, як
-**`STREAM_MKDIR_RECURSIVE`**.
+
+Бітова маска, складена з констант, начебто **`STREAM_MKDIR_RECURSIVE`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не
-удався (наприклад, не реалізований).
+Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не вдалося (наприклад, не реалізовано).
 
 ### Примітки
 
-> **Примітка**:
->
-> Властивість `streamWrapper::$context` буде оновлена, якщо коректна
-> контекст був переданий у функцію, що викликається.
+> **Зауваження**
+> 
+> Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
-- [mkdir()](function.mkdir.md) - Створює директорію
-- [streamwrapper::rmdir()](streamwrapper.rmdir.md) - Видаляє
-директорію
+-   [mkdir()](function.mkdir.md) - створює директорію
+-   [streamwrapper::rmdir()](streamwrapper.rmdir.md) - видаляє директорію

@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Http\Client::setHeaders](swoole-coroutine-http-client.setheaders.md)
-- [Swoole\Coroutine\MySQL::close »](swoole-coroutine-mysql.close.md)
+---
+navigation:
+  - swoole-coroutine-http-client.setheaders.md: '« SwooleCoroutineHttpClient::setHeaders'
+  - swoole-coroutine-mysql.close.md: 'SwooleCoroutineMySQL::close »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::setMethod'
+---
+# SwooleCoroutineHttpClient::setMethod
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::setMethod
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::setMethod — Опис
+SwooleCoroutineHttpClient::setMethod — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::setMethod**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::setMethod(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

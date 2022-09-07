@@ -1,28 +1,31 @@
-- [«SolrInputDocument::\_\_destruct](solrinputdocument.destruct.md)
-- [SolrInputDocument::getBoost »](solrinputdocument.getboost.md)
-
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Перевіряє, чи існує поле
-
+---
+navigation:
+  - solrinputdocument.destruct.md: '« SolrInputDocument::destruct'
+  - solrinputdocument.getboost.md: 'SolrInputDocument::getBoost »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::fieldExists'
+---
 # SolrInputDocument::fieldExists
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrInputDocument::fieldExists — Перевіряє, чи існує поле
 
 ### Опис
 
-public **SolrInputDocument::fieldExists**(string `$fieldName`): bool
+```methodsynopsis
+public SolrInputDocument::fieldExists(string $fieldName): bool
+```
 
 Перевіряє, чи існує поле
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі, якщо поле знайдено та **`false`**, якщо
-ні.
+Повертає **`true`** у разі, якщо поле знайдено та **`false`**, якщо ні.

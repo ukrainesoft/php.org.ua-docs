@@ -1,55 +1,47 @@
-- [« Yaf_Action_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md)
-- [Yaf_View_Interface::assign »](yaf-view-interface.assign.md)
+---
+navigation:
+  - yaf-controller-abstract.getcontrollername.md: '« YafActionAbstract::getControllerName'
+  - yaf-view-interface.assign.md: 'YafViewInterface::assign »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafViewInterface
+---
+# Клас YafViewInterface
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_View_Interface
-
-# Клас Yaf_View_Interface
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-Yaf надає розробникам можливість використовувати їх власний
-двигун відображення, що відрізняється від вбудованого
-[Yaf_View_Simple](class.yaf-view-simple.md). Приклад реалізації
-дивіться в описі
-[Yaf_Dispatcher::setView()](yaf-dispatcher.setview.md).
+Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [YafViewSimple](class.yaf-view-simple.md). Приклад реалізації дивіться у описі [YafDispatcher::setView()](yaf-dispatcher.setview.md)
 
 ## Огляд класів
 
-class **Yaf_View_Interface** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public [assign](yaf-view-interface.assign.md)(string `$name`,
-string `$value` = ?): bool
+    
+    
+     
+      class Yaf_View_Interface
+     
+     {
+    
 
-abstract public [display](yaf-view-interface.display.md)(string
-`$tpl`, array `$tpl_vars` = ?): bool
+    /* Методы */
+    
+   abstract public assign(string $name, string $value = ?): bool
+abstract public display(string $tpl, array $tpl_vars = ?): bool
+abstract public getScriptPath(): void
+abstract public render(string $tpl, array $tpl_vars = ?): string
+abstract public setScriptPath(string $template_dir): void
 
-abstract public
-[getScriptPath](yaf-view-interface.getscriptpath.md)(): void
-
-abstract public [render](yaf-view-interface.render.md)(string `$tpl`,
-array `$tpl_vars` = ?): string
-
-abstract public
-[setScriptPath](yaf-view-interface.setscriptpath.md)(string
-`$template_dir`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [Yaf_View_Interface::assign](yaf-view-interface.assign.md) -
-Призначає значення для движка відображення
-- [Yaf_View_Interface::display](yaf-view-interface.display.md) -
-Відмальовує та виводить шаблон
-- [Yaf_View_Interface::getScriptPath](yaf-view-interface.getscriptpath.md)
-- Призначення getScriptPath
-- [Yaf_View_Interface::render](yaf-view-interface.render.md) -
-Малює шаблон
-- [Yaf_View_Interface::setScriptPath](yaf-view-interface.setscriptpath.md)
-- Призначення setScriptPath
+-   [YafViewInterface::assign](yaf-view-interface.assign.md) — Призначає значення для движка відображення
+-   [YafViewInterface::display](yaf-view-interface.display.md) — Малює та виводить шаблон
+-   [YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.md) - Призначення getScriptPath
+-   [YafViewInterface::render](yaf-view-interface.render.md) — Малює шаблон
+-   [YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.md) - Призначення setScriptPath

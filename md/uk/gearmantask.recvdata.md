@@ -1,39 +1,37 @@
-- [« GearmanTask::jobHandle](gearmantask.jobhandle.md)
-- [GearmanTask::returnCode »](gearmantask.returncode.md)
-
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Читання даних роботи чи результату завдання у буфер
-
+---
+navigation:
+  - gearmantask.jobhandle.md: '« GearmanTask::jobHandle'
+  - gearmantask.returncode.md: 'GearmanTask::returnCode »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::recvData'
+---
 # GearmanTask::recvData
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanTask::recvData — Читання даних роботи або результату завдання в
-буфер
+GearmanTask::recvData — Читання даних роботи або результату завдання у буфер
 
 ### Опис
 
-public **GearmanTask::recvData**(int `$data_len`): array
+```methodsynopsis
+public GearmanTask::recvData(int $data_len): array
+```
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 ### Список параметрів
 
 `data_len`
-Розмір даних читання.
+
+Розмір даних для читання.
 
 ### Значення, що повертаються
 
-Масив, в якому перший елемент є розміром прочитаних даних,
-а другий – буферизовані дані. У разі невдачі під час читання, метод
-поверне **`false`**.
+Масив, в якому перший елемент представляє розмір прочитаних даних, а другий буферизовані дані. У разі невдачі при читанні метод поверне **`false`**
 
 ### Дивіться також
 
-- [GearmanTask::sendData()](gearmantask.senddata.md) - Надсилання
-даних завдання (застарілий метод)
+-   [GearmanTask::sendData()](gearmantask.senddata.md) - Надсилання даних завдання (застарілий метод)

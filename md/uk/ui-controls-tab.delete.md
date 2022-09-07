@@ -1,25 +1,29 @@
-- [«UI\Controls\Tab::append](ui-controls-tab.append.md)
-- [UI\Controls\Tab::hasMargin »](ui-controls-tab.hasmargin.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Tab](class.ui-controls-tab.md)
-- Видалити сторінку
-
-# UI\Controls\Tab::delete
+---
+navigation:
+  - ui-controls-tab.append.md: '« UIControlsTab::append'
+  - ui-controls-tab.hasmargin.md: 'ОЙControlsTab::hasMargin »'
+  - index.md: PHP Manual
+  - class.ui-controls-tab.md: ОЙControlsTab
+title: 'ОЙControlsTab::delete'
+---
+# ОЙControlsTab::delete
 
 (UI 0.9.9)
 
-UI\Controls\Tab::delete — Видалити сторінку
+ОЙControlsTab::delete — Видалити сторінку
 
 ### Опис
 
-public **UI\Controls\Tab::delete**(int `$index`): bool
+```methodsynopsis
+public UI\Controls\Tab::delete(int $index): bool
+```
 
-Видалити вибрану сторінку з елемента керування "Таб"
+Видалити вибрану сторінку з керуючого елементу "Таб"
 
 ### Список параметрів
 
 `index`
+
 Індекс сторінки для видалення
 
 ### Значення, що повертаються

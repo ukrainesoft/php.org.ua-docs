@@ -1,23 +1,24 @@
-- [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md)
-- [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.md)
-
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Перемикає QueryParser на DisMax Query Parser
-
+---
+navigation:
+  - solrdismaxquery.setuserfields.md: '« SolrDisMaxQuery::setUserFields'
+  - solrdismaxquery.useedismaxqueryparser.md: 'SolrDisMaxQuery::useEDisMaxQueryParser »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::useDisMaxQueryParser'
+---
 # SolrDisMaxQuery::useDisMaxQueryParser
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::useDisMaxQueryParser — Перемикає QueryParser на
-DisMax Query Parser
+SolrDisMaxQuery::useDisMaxQueryParser — Перемикає QueryParser на DisMax Query Parser
 
 ### Опис
 
-public **SolrDisMaxQuery::useDisMaxQueryParser**():
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::useDisMaxQueryParser(): SolrDisMaxQuery
+```
 
-Переключає QueryParser на DisMax Query Parser
+Перемикає QueryParser на DisMax Query Parser
 
 ### Список параметрів
 
@@ -29,15 +30,23 @@ public **SolrDisMaxQuery::useDisMaxQueryParser**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrDisMaxQuery::useDisMaxQueryParser()****
+**Приклад #1 Приклад використання **SolrDisMaxQuery::useDisMaxQueryParser()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->useDisMaxQueryParser();echo $dismaxQuery;?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery();
+$dismaxQuery->useDisMaxQueryParser();
+echo $dismaxQuery;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 defType=dismax
+```
 
 ### Дивіться також
 
-- **SolrDisMaxQuery::useDisMaxQueryParser()**
+-   **SolrDisMaxQuery::useDisMaxQueryParser()**

@@ -1,40 +1,43 @@
-- [«curl_multi_strerror](function.curl-multi-strerror.md)
-- [curl_reset»](function.curl-reset.md)
+---
+navigation:
+  - function.curl-multi-strerror.md: « curlmultistrerror
+  - function.curl-reset.md: curlreset »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlpause
+---
+# curlpause
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Припинити та відновити з'єднання
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-#curl_pause
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-curl_pause — Зупинити та відновити з'єднання
+curlpause — Зупинити та відновити з'єднання
 
 ### Опис
 
-**curl_pause**([CurlHandle](class.curlhandle.md) `$handle`, int
-`$flags`): int
+```methodsynopsis
+curl_pause(CurlHandle $handle, int $flags): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 `flags`
-Одна із констант **`CURLPAUSE_*`**.
+
+Одна з констант **`CURLPAUSE_*`**
 
 ### Значення, що повертаються
 
 Повертає один із кодів повернення (**`CURLE_OK`** якщо помилок немає).
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------- |
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |

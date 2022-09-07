@@ -1,19 +1,22 @@
-- [« Ds\Deque::insert](ds-deque.insert.md)
-- [Ds\Deque::join »](ds-deque.join.md)
+---
+navigation:
+  - ds-deque.insert.md: '« DsDeque::insert'
+  - ds-deque.join.md: 'ДсDeque::join »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::isEmpty'
+---
+# ДсDeque::isEmpty
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Перевіряє, чи порожня двостороння черга
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::isEmpty
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::isEmpty — Перевіряє, чи порожня двостороння черга
+ДсDeque::isEmpty — Перевіряє, чи порожня двостороння черга
 
 ### Опис
 
-public **Ds\Deque::isEmpty**(): bool
+```methodsynopsis
+public Ds\Deque::isEmpty(): bool
+```
 
 Перевіряє, чи порожня двостороння черга.
 
@@ -23,16 +26,25 @@ public **Ds\Deque::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо двостороння черга порожня, **`false`** в
-інакше.
+Повертає **`true`**, якщо двостороння черга порожня, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::isEmpty()****
+**Приклад #1 Приклад використання **ДсDeque::isEmpty()****
 
-` <?php$a = new \Ds\Deque([1, 2, 3]);$b = new \Ds\Deque();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+```php
+<?php
+$a = new \Ds\Deque([1, 2, 3]);
+$b = new \Ds\Deque();
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

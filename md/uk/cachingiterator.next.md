@@ -1,10 +1,11 @@
-- [«CachingIterator::key](cachingiterator.key.md)
-- [CachingIterator::offsetExists »](cachingiterator.offsetexists.md)
-
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Переміщує ітератор до наступного елементу
-
+---
+navigation:
+  - cachingiterator.key.md: '« CachingIterator::key'
+  - cachingiterator.offsetexists.md: 'CachingIterator::offsetExists »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::next'
+---
 # CachingIterator::next
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,12 +14,13 @@ CachingIterator::next — Переміщує ітератор до наступ�
 
 ### Опис
 
-public **CachingIterator::next**(): void
+```methodsynopsis
+public CachingIterator::next(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Переміщення ітератора до наступного елемента.
 

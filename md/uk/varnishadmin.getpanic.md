@@ -1,20 +1,22 @@
-- [« VarnishAdmin::disconnect](varnishadmin.disconnect.md)
-- [VarnishAdmin::getParams »](varnishadmin.getparams.md)
-
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Отримати останнє критичне повідомлення на екземплярі varnish
-
+---
+navigation:
+  - varnishadmin.disconnect.md: '« VarnishAdmin::disconnect'
+  - varnishadmin.getparams.md: 'VarnishAdmin::getParams »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::getPanic'
+---
 # VarnishAdmin::getPanic
 
-(PECL varnish \>= 0.4)
+(PECL varnish >= 0.4)
 
-VarnishAdmin::getPanic — Отримати останнє критичне повідомлення на
-екземплярі varnish
+VarnishAdmin::getPanic — Отримати останнє критичне повідомлення на екземплярі varnish
 
 ### Опис
 
-public **VarnishAdmin::getPanic**(): string
+```methodsynopsis
+public VarnishAdmin::getPanic(): string
+```
 
 ### Список параметрів
 
@@ -22,5 +24,4 @@ public **VarnishAdmin::getPanic**(): string
 
 ### Значення, що повертаються
 
-Повертає останнє критичне повідомлення на поточному екземплярі
-varnish.
+Повертає останнє критичне повідомлення на поточному екземплярі varnish.

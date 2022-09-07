@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md)
-- [MongoDB\Driver\ReadPreference::getMaxStalenessSeconds »](mongodb-driver-readpreference.getmaxstalenessseconds.md)
+---
+navigation:
+  - mongodb-driver-readpreference.construct.md: '« MongoDBDriverReadPreference::construct'
+  - mongodb-driver-readpreference.getmaxstalenessseconds.md: 'MongoDBDriverReadPreference::getMaxStalenessSeconds »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::getHedge'
+---
+# MongoDBDriverReadPreference::getHedge
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-- Повертає опцію "hedge" із ReadPreference
+(mongodb >=1.8.0)
 
-# MongoDB\Driver\ReadPreference::getHedge
-
-(mongodb \>=1.8.0)
-
-MongoDB\Driver\ReadPreference::getHedge — Повертає опцію "hedge" з
-ReadPreference
+MongoDBDriverReadPreference::getHedge — Повертає опцію "hedge" із ReadPreference
 
 ### Опис
 
-final public **MongoDB\Driver\ReadPreference::getHedge**(): ?object
+```methodsynopsis
+final public MongoDB\Driver\ReadPreference::getHedge(): ?object
+```
 
 ### Список параметрів
 
@@ -26,9 +28,8 @@ final public **MongoDB\Driver\ReadPreference::getHedge**(): ?object
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [» документація по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

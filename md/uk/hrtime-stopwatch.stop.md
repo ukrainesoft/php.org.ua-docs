@@ -1,21 +1,24 @@
-- [«HRTime\StopWatch::start](hrtime-stopwatch.start.md)
-- [HRTime\Unit »](class.hrtime-unit.md)
+---
+navigation:
+  - hrtime-stopwatch.start.md: '« HRTimeStopWatch::start'
+  - class.hrtime-unit.md: HRTimeUnit »
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
+title: 'HRTimeStopWatch::stop'
+---
+# HRTimeStopWatch::stop
 
-- [PHP Manual](index.md)
-- [HRTime\StopWatch](class.hrtime-stopwatch.md)
-- Зупинити вимір
+(PECL hrtime >= 0.4.3)
 
-# HRTime\StopWatch::stop
-
-(PECL hrtime \>= 0.4.3)
-
-HRTime\StopWatch::stop — Зупинити вимірювання
+HRTimeStopWatch::stop — Зупинити вимір
 
 ### Опис
 
-public **HRTime\StopWatch::stop**(): void
+```methodsynopsis
+public HRTime\StopWatch::stop(): void
+```
 
-Зупиняє вимірювання раніше запущеного інтервалу.
+Зупиняє вимір для раніше запущеного інтервалу.
 
 ### Список параметрів
 

@@ -1,52 +1,73 @@
-- [«ftp_delete](function.ftp-delete.md)
-- [ftp_fget »](function.ftp-fget.md)
+---
+navigation:
+  - function.ftp-delete.md: « ftpdelete
+  - function.ftp-fget.md: ftpfget »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpexec
+---
+# ftpexec
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Запитує виконання команди на FTP-сервері
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-#ftp_exec
-
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
-
-ftp_exec — Вимагає виконання команди на FTP-сервері
+ftpexec — Вимагає виконання команди на FTP-сервері
 
 ### Опис
 
-**ftp_exec**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$command`): bool
+```methodsynopsis
+ftp_exec(FTP\Connection $ftp, string $command): bool
+```
 
-Надсилає команду SITE EXEC `command` на FTP-сервер.
+Надсилає команду SITE EXEC `command` на сервері FTP.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `command`
+
 Команда для виконання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання команди (сервер
-відправляє код відповіді: `200`); інакше повертає
-**`false`**.
+Повертає **`true`** у разі успішного виконання команди (сервер надсилає код відповіді: `200`); в іншому випадку повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_exec()****
+**Приклад #1 Приклад використання **ftpexec()****
 
-` <?php// ініціалізація змінних$command = 'ls -al >files.txt';// встановлюємо з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і$ $ftp_user_name, $ftp_user_pass);// виконуємо командуif (ftp_exec($ftp, $command)) {    echo "Команда $command виконана успішно
-";} else {   echo "Не удалося виконати $command
-";}// закриваємо з'єднанняftp_close($ftp);?> `
+```php
+<?php
+// инициализация переменных
+$command = 'ls -al >files.txt';
+
+// устанавливаем соединение
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// выполняем команду
+if (ftp_exec($ftp, $command)) {
+    echo "Команда $command выполнена успешно\n";
+} else {
+    echo "Не удалось выполнить $command\n";
+}
+
+// закрываем соединение
+ftp_close($ftp);
+
+?>
+```
 
 ### Дивіться також
 
-- [ftp_raw()](function.ftp-raw.md) - Надсилає довільну команду
-FTP-серверу
+-   [ftpraw()](function.ftp-raw.md) - Надсилає довільну команду FTP-серверу

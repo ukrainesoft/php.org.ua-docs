@@ -1,45 +1,46 @@
-- [« Imagick::getPixelIterator](imagick.getpixeliterator.md)
-- [Imagick::getPointSize »](imagick.getpointsize.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає об'єкт ImagickPixelIterator для секції зображення
-
+---
+navigation:
+  - imagick.getpixeliterator.md: '« Imagick::getPixelIterator'
+  - imagick.getpointsize.md: 'Imagick::getPointSize »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getPixelRegionIterator'
+---
 # Imagick::getPixelRegionIterator
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getPixelRegionIterator — Повертає об'єкт ImagickPixelIterator
-для секції зображення
+Imagick::getPixelRegionIterator — Повертає об'єкт ImagickPixelIterator для розділу зображення
 
 ### Опис
 
-public **Imagick::getPixelRegionIterator**(
-int `$x`,
-int `$y`,
-int `$columns`,
-int `$rows`
-): [ImagickPixelIterator](class.imagickpixeliterator.md)
+```methodsynopsis
+public Imagick::getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
+```
 
-Повертає об'єкт ImagickPixelIterator для розділу зображення.
+Повертає об'єкт ImagickPixelIterator для секції зображення.
 
 ### Список параметрів
 
 `x`
+
 Координати області X.
 
 `y`
+
 Координати області Y.
 
 `columns`
+
 Ширина області.
 
 `rows`
+
 Висота області.
 
 ### Значення, що повертаються
 
-Повертає об'єкт ImagickPixelIterator для розділу зображення.
+Повертає об'єкт ImagickPixelIterator для секції зображення.
 
 ### Помилки
 
@@ -47,9 +48,22 @@ int `$rows`
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції
-**Imagick::getPixelRegionIterator()****
+**Приклад #1 Приклад використання функції **Imagick::getPixelRegionIterator()****
 
 Пробігає пікселями вгорі зліва зображення і замінює їх на чорні.
 
-` <?php$im = new Imagick(realpath("./testImage.png"));$areaIterator = $im->getPixelRegionIterator(0, 0, 10, 10);foreach ($areaIterator as   ($rowIterator as $pixel) {         // Красить кожний піксель чорним        $pixel->setColor("rgba(0, 0, 0, 0) }   $areaIterator->syncIterator();}$im->writeImage("./output.png");?> `
+```php
+<?php
+$im = new Imagick(realpath("./testImage.png"));
+$areaIterator = $im->getPixelRegionIterator(0, 0, 10, 10);
+
+foreach ($areaIterator as $rowIterator) {
+    foreach ($rowIterator as $pixel) {
+        // Красит каждый пиксель черным
+        $pixel->setColor("rgba(0, 0, 0, 0)");
+    }
+    $areaIterator->syncIterator();
+}
+$im->writeImage("./output.png");
+?>
+```

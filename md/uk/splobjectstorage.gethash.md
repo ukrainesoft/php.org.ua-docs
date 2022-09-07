@@ -1,37 +1,33 @@
-- [« SplObjectStorage::detach](splobjectstorage.detach.md)
-- [SplObjectStorage::getInfo »](splobjectstorage.getinfo.md)
-
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- обчислює унікальний ідентифікатор для об'єктів контейнера
-
+---
+navigation:
+  - splobjectstorage.detach.md: '« SplObjectStorage::detach'
+  - splobjectstorage.getinfo.md: 'SplObjectStorage::getInfo »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::getHash'
+---
 # SplObjectStorage::getHash
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-SplObjectStorage::getHash — Обчислює унікальний ідентифікатор для
-об'єктів контейнера
+SplObjectStorage::getHash — Обчислює унікальний ідентифікатор об'єктів контейнера
 
 ### Опис
 
-public **SplObjectStorage::getHash**(object `$object`): string
+```methodsynopsis
+public SplObjectStorage::getHash(object $object): string
+```
 
-Метод обчислює унікальний ідентифікатор для об'єктів, що додаються
-контейнер [SplObjectStorage](class.splobjectstorage.md).
+Метод обчислює унікальний ідентифікатор для об'єктів, що додаються до контейнера [SplObjectStorage](class.splobjectstorage.md)
 
-Реалізація [SplObjectStorage](class.splobjectstorage.md) повертає щось
-ж значення, як і функція
-[spl_object_hash()](function.spl-object-hash.md).
+Реалізація [SplObjectStorage](class.splobjectstorage.md) повертає те саме значення, що і функція [splobjecthash()](function.spl-object-hash.md)
 
-В одному контейнері ніколи не з'явиться двох об'єктів з однаковими
-ідентифікаторами. Таким чином, за допомогою контейнера можна реалізувати
-безліч (колекцію значень, кожне з яких представлене в
-єдиному примірнику), в якому унікальність об'єктів буде
-визначатись цим ідентифікатором.
+В одному контейнері ніколи не з'явиться два об'єкти з однаковими ідентифікаторами. Таким чином, за допомогою контейнера можна реалізувати безліч (колекцію значень, кожне з яких представлено в єдиному екземплярі), в якому унікальність об'єктів визначатиметься цим ідентифікатором.
 
 ### Список параметрів
 
 `object`
+
 Об'єкт, ідентифікатор якого потрібно обчислити.
 
 ### Значення, що повертаються
@@ -40,24 +36,47 @@ public **SplObjectStorage::getHash**(object `$object`): string
 
 ### Помилки
 
-Метод викидає виняток
-[RuntimeException](class.runtimeexception.md), коли тип повертається
-Значення не є рядком (string).
+Метод викидає виняток [RuntimeException](class.runtimeexception.md), коли тип значення, що повертається не є рядком (string).
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplObjectStorage::getHash()****
 
-`<?phpclass OneSpecimenPerClassStorage extends SplObjectStorage {    public function getHash($o) {       return get_class($o); }}class A {}$s = new OneSpecimenPerClassStorage;$o1 = new stdClass;$o2 = new stdClass;$o3 = new A;$s[$o1] = 1;//$  заміщується$s[$o2] = 2;$s[$o3] = 3;//передбачаємо, наступні об'єкти еквівалентні наведеним вище//таким образом, их можна використовувати для $      = new A;echo $s[$p1], "
-";echo $s[$p2], "
-";?> `
+```php
+<?php
+class OneSpecimenPerClassStorage extends SplObjectStorage {
+    public function getHash($o) {
+        return get_class($o);
+    }
+}
+class A {}
+
+$s = new OneSpecimenPerClassStorage;
+$o1 = new stdClass;
+$o2 = new stdClass;
+$o3 = new A;
+
+$s[$o1] = 1;
+//$o2 предполагается равным $o1, соответственно значение замещается
+$s[$o2] = 2;
+$s[$o3] = 3;
+
+//предполагаем, что следующие объекты эквивалентны приведённым выше
+//таким образом, их можно использовать для извлечения данных из контейнера
+$p1 = new stdClass;
+$p2 = new A;
+echo $s[$p1], "\n";
+echo $s[$p2], "\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 2
 3
+```
 
 ### Дивіться також
 
-- [spl_object_hash()](function.spl-object-hash.md) - Повертає
-хеш-ідентифікатор для об'єкту
+-   [splobjecthash()](function.spl-object-hash.md) - Повертає хеш-ідентифікатор для об'єкта

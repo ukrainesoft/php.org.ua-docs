@@ -1,37 +1,37 @@
-- [« imap_errors](function.imap-errors.md)
-- [imap_fetch_overview »](function.imap-fetch-overview.md)
-
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Видалити всі позначені для видалення повідомлення
-
-#imap_expunge
+---
+navigation:
+  - function.imap-errors.md: « imaperrors
+  - function.imap-fetch-overview.md: imapfetchoverview »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapexpunge
+---
+# imapexpunge
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_expunge — Видалити всі позначені для видалення повідомлення
+imapexpunge — Видалити всі позначені для видалення повідомлення
 
 ### Опис
 
-**imap_expunge**([IMAP\Connection](class.imap-connection.md) `$imap`):
-bool
+```methodsynopsis
+imap_expunge(IMAP\Connection $imap): bool
+```
 
-Видаляє всі позначені видалення повідомлення. Позначити для видалення
-можна за допомогою функцій [imap_delete()](function.imap-delete.md),
-[imap_mail_move()](function.imap-mail-move.md) або
-[imap_setflag_full()](function.imap-setflag-full.md).
+Видаляє всі позначені для видалення повідомлення. Позначити для видалення можна за допомогою функцій [imapdelete()](function.imap-delete.md) [imapmailmove()](function.imap-mail-move.md) або [imapsetflagfull()](function.imap-setflag-full.md)
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**.
+Повертає **`true`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

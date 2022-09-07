@@ -1,19 +1,22 @@
-- [« Ds\PriorityQueue::count](ds-priorityqueue.count.md)
-- [Ds\PriorityQueue::jsonSerialize »](ds-priorityqueue.jsonserialize.md)
+---
+navigation:
+  - ds-priorityqueue.count.md: '« DsPriorityQueue::count'
+  - ds-priorityqueue.jsonserialize.md: 'ДсPriorityQueue::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::isEmpty'
+---
+# ДсPriorityQueue::isEmpty
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Перевіряє, чи порожня колекція
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::isEmpty
-
-(PECL ds \>= 1.0.0)
-
-Ds\PriorityQueue::isEmpty — Перевіряє, чи порожня колекція
+ДсPriorityQueue::isEmpty — Перевіряє, чи порожня колекція
 
 ### Опис
 
-public **Ds\PriorityQueue::isEmpty**(): bool
+```methodsynopsis
+public Ds\PriorityQueue::isEmpty(): bool
+```
 
 Перевіряє, чи колекція порожня.
 
@@ -23,16 +26,29 @@ public **Ds\PriorityQueue::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо черга порожня, **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо черга порожня, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::isEmpty()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::isEmpty()****
 
-` <?php$a = new \Ds\PriorityQueue();$b = new \Ds\PriorityQueue();$a->push("a",  5);$a->push("b", 15 );$a->push("c", 10);var_dump($a->isEmpty());var_dump($b->isEmpty());?> `
+```php
+<?php
+$a = new \Ds\PriorityQueue();
+$b = new \Ds\PriorityQueue();
+
+$a->push("a",  5);
+$a->push("b", 15);
+$a->push("c", 10);
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

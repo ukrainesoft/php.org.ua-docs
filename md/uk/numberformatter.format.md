@@ -1,70 +1,87 @@
-- [« NumberFormatter::formatCurrency](numberformatter.formatcurrency.md)
-- [NumberFormatter::getAttribute »](numberformatter.getattribute.md)
-
-- [PHP Manual](index.md)
-- [NumberFormatter](class.numberformatter.md)
-- Форматує число
-
+---
+navigation:
+  - numberformatter.formatcurrency.md: '« NumberFormatter::formatCurrency'
+  - numberformatter.getattribute.md: 'NumberFormatter::getAttribute »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::format'
+---
 # NumberFormatter::format
 
-#numfmt_format
+# numfmtformat
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::format -- numfmt_format — Форматує число
+NumberFormatter::format -- numfmtformat — Форматує число
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **NumberFormatter::format**(int\|float `$num`, int `$type` =
-NumberFormatter::TYPE_DEFAULT): string\|false
+```methodsynopsis
+public NumberFormatter::format(int|float $num, int $type = NumberFormatter::TYPE_DEFAULT): string|false
+```
 
 Процедурний стиль
 
-**numfmt_format**([NumberFormatter](class.numberformatter.md)
-`$formatter`, int\|float `$num`, int `$type` =
-NumberFormatter::TYPE_DEFAULT): string\|false
+```methodsynopsis
+numfmt_format(NumberFormatter $formatter, int|float $num, int $type = NumberFormatter::TYPE_DEFAULT): string|false
+```
 
-Форматує числове значення відповідно до правил засобу
-форматування.
+Форматує числове значення відповідно до правил засобу форматування.
 
 ### Список параметрів
 
 `formatter`
-Об'єкт [NumberFormatter](class.numberformatter.md).
+
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `num`
-Значення форматування. Може бути цілим числом (int) або числом з
-плаваючою точкою (float), інші типи будуть перетворені на числове
-значення.
+
+Значення форматування. Може бути цілим числом (int) або числом з плаваючою точкою (float), інші типи будуть перетворені на числове значення.
 
 `type`
-Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types).
+
+Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types)
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить форматоване значення або **`false`**
-у разі виникнення помилки.
+Повертає рядок, який містить форматоване значення або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmt_format()****
+**Приклад #1 Приклад використання **numfmtformat()****
 
-` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );$data = numfmt_format($fmt, 1234567.891234567890000);if(intl_is_failure(numfmt_format($fmt))) {    report_error("Formatter error"); }?> `
+```php
+<?php
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+$data = numfmt_format($fmt, 1234567.891234567890000);
+if(intl_is_failure(numfmt_format($fmt))) {
+    report_error("Formatter error");
+}
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );$fmt->format(1234567.891234567890000);if(intl_is_failure$ ;}?> `
+```php
+<?php
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+$fmt->format(1234567.891234567890000);
+if(intl_is_failure($fmt->getErrorCode())) {
+    report_error("Formatter error");
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1.234.567,891
+```
 
 ### Дивіться також
 
-- [numfmt_get_error_code()](numberformatter.geterrorcode.md) -
-Отримує останній код помилки засобу форматування
-- [numfmt_format_currency()](numberformatter.formatcurrency.md) -
-Форматує значення валюти
-- [numfmt_parse()](numberformatter.parse.md) - Розбирає число
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtformatcurrency()](numberformatter.formatcurrency.md) - Форматує значення валюти
+-   [numfmtparse()](numberformatter.parse.md) - Розбирає число

@@ -1,27 +1,26 @@
-- [« RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.md)
-- [RecursiveDirectoryIterator::getSubPath »](recursivedirectoryiterator.getsubpath.md)
-
-- [PHP Manual](index.md)
-- [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-- Якщо поточний елемент є директорією, метод повертає неї
-ітератор
-
+---
+navigation:
+  - recursivedirectoryiterator.construct.md: '« RecursiveDirectoryIterator::construct'
+  - recursivedirectoryiterator.getsubpath.md: 'RecursiveDirectoryIterator::getSubPath »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::getChildren'
+---
 # RecursiveDirectoryIterator::getChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveDirectoryIterator::getChildren — Якщо поточний елемент є
-директорією, метод повертає для неї ітератор
+RecursiveDirectoryIterator::getChildren - Якщо поточний елемент є директорією, метод повертає для неї ітератор
 
 ### Опис
 
-public **RecursiveDirectoryIterator::getChildren**():
-[RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
+```methodsynopsis
+public RecursiveDirectoryIterator::getChildren(): RecursiveDirectoryIterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,6 +28,4 @@ public **RecursiveDirectoryIterator::getChildren**():
 
 ### Значення, що повертаються
 
-Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме
-буде повертатись залежить від прапорів налаштувань. Дивіться додатково
-[Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме повертатиметься залежить від прапорів налаштувань. Дивіться додатково [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)

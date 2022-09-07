@@ -1,29 +1,29 @@
-- [« geoip_region_name_by_code](function.geoip-region-name-by-code.md)
-- [geoip_time_zone_by_country_and_region »](function.geoip-time-zone-by-country-and-region.md)
+---
+navigation:
+  - function.geoip-region-name-by-code.md: « geoipregionnameбcode
+  - function.geoip-time-zone-by-country-and-region.md: geoiptimezoneбcountryandregion »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipsetupcustomdirectory
+---
+# geoipsetupcustomdirectory
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Встановити власну директорію для бази даних GeoIP
+(PECL geoip >= 1.1.0)
 
-# geoip_setup_custom_directory
-
-(PECL geoip \>= 1.1.0)
-
-geoip_setup_custom_directory — Встановити власну директорію
-для бази даних GeoIP
+geoipsetupcustomdirectory — Встановити власну директорію для бази даних GeoIP
 
 ### Опис
 
-**geoip_setup_custom_directory**(string `$path`): void
+```methodsynopsis
+geoip_setup_custom_directory(string $path): void
+```
 
-Функція **geoip_setup_custom_directory()** змінює директорію з
-замовчуванням для бази даних GeoIP. Використання функції еквівалентне
-зміни
-[geoip.custom_directory](geoip.configuration.md#ini.geoip.custom-directory).
+Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.customdirectory](geoip.configuration.md#ini.geoip.custom-directory)
 
 ### Список параметрів
 
 `path`
+
 Повний шлях до бази даних GeoIP.
 
 ### Значення, що повертаються
@@ -32,12 +32,22 @@ geoip_setup_custom_directory — Встановити власну директ�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_setup_custom_directory()****
+**Приклад #1 Приклад використання **geoipsetupcustomdirectory()****
 
-Змінимо шлях до бази GeoIP.
+Змінимо шлях до бази даних GeoIP.
 
-` <?phpgeoip_setup_custom_directory('/some/other/path');print geoip_db_filename(GEOIP_COUNTRY_EDITION);?> `
+```php
+<?php
+
+geoip_setup_custom_directory('/some/other/path');
+
+print geoip_db_filename(GEOIP_COUNTRY_EDITION);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 /some/other/path/GeoIP.dat
+```

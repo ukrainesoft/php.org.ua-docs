@@ -1,24 +1,24 @@
-- [« sodium_crypto_kdf_derive_from_key](function.sodium-crypto-kdf-derive-from-key.md)
-- [sodium_crypto_kx_client_session_keys »](function.sodium-crypto-kx-client-session-keys.md)
+---
+navigation:
+  - function.sodium-crypto-kdf-derive-from-key.md: « sodiumcryptokdfderivefromkey
+  - function.sodium-crypto-kx-client-session-keys.md: sodiumcryptoкксclientsessionkeys »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptokdfkeygen
+---
+# sodiumcryptokdfkeygen
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює випадковий кореневий ключ для інтерфейсу KDF
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_kdf_keygen
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_kdf_keygen — Створює випадковий кореневий ключ для
-інтерфейсу KDF
+sodiumcryptokdfkeygen — Створює випадковий кореневий ключ для інтерфейсу KDF
 
 ### Опис
 
-**sodium_crypto_kdf_keygen**(): string
+```methodsynopsis
+sodium_crypto_kdf_keygen(): string
+```
 
-Створює випадковий ключ, що підходить для використання як
-кореневого ключа для
-[sodium_crypto_kdf_derive_from_key()](function.sodium-crypto-kdf-derive-from-key.md).
+Створює випадковий ключ, що підходить для використання як кореневий ключ [sodiumcryptokdfderivefromkey()](function.sodium-crypto-kdf-derive-from-key.md)
 
 ### Список параметрів
 

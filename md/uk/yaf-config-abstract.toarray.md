@@ -1,24 +1,26 @@
-- [« Yaf_Config_Abstract::set](yaf-config-abstract.set.md)
-- [Yaf_Config_Ini »](class.yaf-config-ini.md)
+---
+navigation:
+  - yaf-config-abstract.set.md: '« YafConfigAbstract::set'
+  - class.yaf-config-ini.md: YafConfigIni »
+  - index.md: PHP Manual
+  - class.yaf-config-abstract.md: YafConfigAbstract
+title: 'YafConfigAbstract::toArray'
+---
+# YafConfigAbstract::toArray
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Abstract](class.yaf-config-abstract.md)
-- Приведення до масиву
+(Yaf >=1.0.0)
 
-# Yaf_Config_Abstract::toArray
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Abstract::toArray - Приведення до масиву
+YafConfigAbstract::toArray — Приведення до масиву
 
 ### Опис
 
-abstract public **Yaf_Config_Abstract::toArray**(): array
+```methodsynopsis
+abstract public Yaf_Config_Abstract::toArray(): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

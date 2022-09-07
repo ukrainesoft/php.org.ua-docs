@@ -1,22 +1,24 @@
-- [« Imagick::getImageSize](imagick.getimagesize.md)
-- [Imagick::getImageTotalInkDensity »](imagick.getimagetotalinkdensity.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує кількість кадрів за секунду для зображення
-
+---
+navigation:
+  - imagick.getimagesize.md: '« Imagick::getImageSize'
+  - imagick.getimagetotalinkdensity.md: 'Imagick::getImageTotalInkDensity »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageTicksPerSecond'
+---
 # Imagick::getImageTicksPerSecond
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageTicksPerSecond — Отримує кількість кадрів за секунду
-для зображення
+Imagick::getImageTicksPerSecond — Отримує кількість кадрів на секунду для зображення
 
 ### Опис
 
-public **Imagick::getImageTicksPerSecond**(): int
+```methodsynopsis
+public Imagick::getImageTicksPerSecond(): int
+```
 
-Отримує кількість кадрів за секунду для зображення.
+Отримує кількість кадрів на секунду для зображення.
 
 ### Список параметрів
 
@@ -24,7 +26,7 @@ public **Imagick::getImageTicksPerSecond**(): int
 
 ### Значення, що повертаються
 
-Повертає кількість кадрів на секунду для зображення.
+Повертає кількість кадрів за секунду для зображення.
 
 ### Помилки
 

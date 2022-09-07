@@ -1,27 +1,22 @@
-- [« LuaSandboxFunction::call](luasandboxfunction.call.md)
-- [LuaSandboxFunction::dump »](luasandboxfunction.dump.md)
+---
+navigation:
+  - luasandboxfunction.call.md: '« LuaSandboxFunction::call'
+  - luasandboxfunction.dump.md: 'LuaSandboxFunction::dump »'
+  - index.md: PHP Manual
+  - class.luasandboxfunction.md: LuaSandboxFunction
+title: 'LuaSandboxFunction::construct'
+---
+# LuaSandboxFunction::construct
 
-- [PHP Manual](index.md)
-- [LuaSandboxFunction](class.luasandboxfunction.md)
--   Не використовується
+(PECL luasandbox >= 1.0.0)
 
-# LuaSandboxFunction::\_\_construct
-
-(PECL luasandbox \>= 1.0.0)
-
-LuaSandboxFunction::\_\_construct — Не використовується
+LuaSandboxFunction::construct — Не використовується
 
 ### Опис
 
-final private **LuaSandboxFunction::\_\_construct**()
+final private **LuaSandboxFunction::construct**
 
-Об'єкти [LuaSandboxFunction](class.luasandboxfunction.md) можна
-отримати у вигляді значення, що повертається з Lua, у вигляді параметра,
-переданого callback-функції з Lua, або при використанні
-[LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md),
-[LuaSandbox::loadString()](luasandbox.loadstring.md) або
-[LuaSandbox::loadBinary()](luasandbox.loadbinary.md). Вони не можуть
-бути створені безпосередньо.
+Об'єкти [LuaSandboxFunction](class.luasandboxfunction.md) можна отримати у вигляді значення, що повертається з Lua, у вигляді параметра, переданого callback-функції з Lua, або при використанні [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) [LuaSandbox::loadString()](luasandbox.loadstring.md) або [LuaSandbox::loadBinary()](luasandbox.loadbinary.md). Вони не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

@@ -1,20 +1,21 @@
-- [«finfo::file](finfo.file.md)
-- [Файлова система»](book.filesystem.md)
+---
+navigation:
+  - finfo.file.md: '« finfo::file'
+  - book.filesystem.md: Файлова система »
+  - index.md: PHP Manual
+  - class.finfo.md: finfo
+title: 'finfo::setflags'
+---
+# finfo::setflags
 
-- [PHP Manual](index.md)
-- [finfo](class.finfo.md)
-- Псевдонім finfo_set_flags()
+(PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-# finfo::set_flags
-
-(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
-
-finfo::set_flags — Псевдонім
-[finfo_set_flags()](function.finfo-set-flags.md)
+finfo::setflags - Псевдонім [finfosetflags()](function.finfo-set-flags.md)
 
 ### Опис
 
-public **finfo::set_flags**(int `$flags`): bool
+```methodsynopsis
+public finfo::set_flags(int $flags): bool
+```
 
-Ця функція є псевдонімом:
-[finfo_set_flags()](function.finfo-set-flags.md)
+Ця функція є псевдонімом: [finfosetflags()](function.finfo-set-flags.md)

@@ -1,19 +1,22 @@
-- [«rrd_create](function.rrd-create.md)
-- [rrd_fetch »](function.rrd-fetch.md)
+---
+navigation:
+  - function.rrd-create.md: « rrdcreate
+  - function.rrd-fetch.md: rrdfetch »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrderror
+---
+# rrderror
 
-- [PHP Manual](index.md)
-- [Функції RRD](ref.rrd.md)
-- Отримати останнє повідомлення про помилку
+(PECL rrd >= 0.9.0)
 
-#rrd_error
-
-(PECL rrd \>= 0.9.0)
-
-rrd_error — Отримати останнє повідомлення про помилку
+rrderror — Отримати останнє повідомлення про помилку
 
 ### Опис
 
-**rrd_error**(): string
+```methodsynopsis
+rrd_error(): string
+```
 
 Повертає останнє повідомлення про помилку.
 

@@ -1,66 +1,63 @@
-- [«eio_chown](function.eio-chown.md)
-- [eio_custom »](function.eio-custom.md)
+---
+navigation:
+  - function.eio-chown.md: « eiochown
+  - function.eio-custom.md: eiocustom »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioclose
+---
+# eioclose
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Закрити файл
+(PECL eio >= 0.0.1dev)
 
-#eio_close
-
-(PECL eio \>= 0.0.1dev)
-
-eio_close — Закрити файл
+eioclose — Закрити файл
 
 ### Опис
 
-**eio_close**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_close(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_close()** закриває файл, вказаний у `fd`.
+**eioclose()** закриває файл, вказаний у `fd`
 
 ### Список параметрів
 
 `fd`
-Потік, покажчик на сокет (Socket resource), або числовий дескриптор
-файлу
+
+Потік, покажчик на сокет (Socket resource), чи числовий дескриптор файлу
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-**eio_close()** повертає вказівник на запит у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eioclose()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [eio_open()](function.eio-open.md) - Відкриває файл
+-   [eioopen()](function.eio-open.md) - Відкриває файл

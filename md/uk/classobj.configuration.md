@@ -1,10 +1,11 @@
-- [« Установка](classobj.installation.md)
-- [Типи ресурсів»](classobj.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](classobj.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - classobj.installation.md: « Установка
+  - classobj.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - classobj.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Цей модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

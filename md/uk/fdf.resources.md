@@ -1,14 +1,11 @@
-- [« Налаштування під час виконання](fdf.configuration.md)
-- [Предвизначені константи »](fdf.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](fdf.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - fdf.configuration.md: « Налаштування під час виконання
+  - fdf.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - fdf.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-Більшість функцій fdf вимагаю ресурс `fdf` як перший
-параметра. Ресурс `fdf` вказує на відкритий файл fdf. `fdf` можна
-отримати за допомогою функцій [fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) та
-[fdf_open_string()](function.fdf-open-string.md).
+Більшість функцій fdf потребують ресурсу `fdf` як перший параметр. Ресурс `fdf` вказує на відкритий файл fdf . `fdf` можна отримати за допомогою функцій [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) і [fdfopenstring()](function.fdf-open-string.md)

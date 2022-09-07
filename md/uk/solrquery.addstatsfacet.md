@@ -1,32 +1,31 @@
-- [«SolrQuery::addSortField](solrquery.addsortfield.md)
-- [SolrQuery::addStatsField »](solrquery.addstatsfield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Запитує повернення допоміжних результатів для значень у
-даному фасеті
-
+---
+navigation:
+  - solrquery.addsortfield.md: '« SolrQuery::addSortField'
+  - solrquery.addstatsfield.md: 'SolrQuery::addStatsField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addStatsFacet'
+---
 # SolrQuery::addStatsFacet
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::addStatsFacet — Запитує повернення допоміжних
-результатів для значень у цьому фасеті
+SolrQuery::addStatsFacet — Вимагає повернення допоміжних результатів для значень у цьому фасеті
 
 ### Опис
 
-public **SolrQuery::addStatsFacet**(string `$field`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::addStatsFacet(string $field): SolrQuery
+```
 
-Запитує повернення допоміжних результатів для значень у цьому
-фасеті. Відповідає полю stats.facet
+Запитує повернення допоміжних результатів для значень у фасеті. Відповідає полю stats.facet
 
 ### Список параметрів
 
 `field`
+
 Назва поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

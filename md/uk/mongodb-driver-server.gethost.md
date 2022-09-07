@@ -1,19 +1,22 @@
-- [« MongoDB\Driver\Server::executeWriteCommand](mongodb-driver-server.executewritecommand.md)
-- [MongoDB\Driver\Server::getInfo »](mongodb-driver-server.getinfo.md)
+---
+navigation:
+  - mongodb-driver-server.executewritecommand.md: '« MongoDBDriverServer::executeWriteCommand'
+  - mongodb-driver-server.getinfo.md: 'MongoDBDriverServer::getInfo »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
+title: 'MongoDBDriverServer::getHost'
+---
+# MongoDBDriverServer::getHost
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Повертає ім'я сервера хоста
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Server::getHost
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Server::getHost - Повертає ім'я хоста сервера
+MongoDBDriverServer::getHost — Повертає ім'я сервера.
 
 ### Опис
 
-final public **MongoDB\Driver\Server::getHost**(): string
+```methodsynopsis
+final public MongoDB\Driver\Server::getHost(): string
+```
 
 Повертає ім'я сервера хоста.
 
@@ -27,22 +30,32 @@ final public **MongoDB\Driver\Server::getHost**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\Driver\Server::getHost()****
+**Приклад #1 Приклад використання **MongoDBDriverServer::getHost()****
 
-` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server = manager->selectServer($rp);var_dump($server->getHost());?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$server = $manager->selectServer($rp);
+
+var_dump($server->getHost());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(9) "localhost"
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
-- [MongoDB\Driver\ServerDescription::getHost()](mongodb-driver-serverdescription.gethost.md) -
-Повертає ім'я сервера хоста
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getHost()](mongodb-driver-serverdescription.gethost.md) - Повертає ім'я сервера хоста

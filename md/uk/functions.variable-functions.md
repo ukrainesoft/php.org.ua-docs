@@ -1,55 +1,124 @@
-- [«Повернення значень](functions.returning-values.md)
-- [Вбудовані функції »](functions.internal.md)
-
-- [PHP Manual](index.md)
-- [Функції](language.functions.md)
-- Звернення до функцій через змінні
-
+---
+navigation:
+  - functions.returning-values.md: « Возврат значений
+  - functions.internal.md: Вбудовані функції »
+  - index.md: PHP Manual
+  - language.functions.md: Функції
+title: Звернення до функцій через змінні
+---
 ## Звернення до функцій через змінні
 
-PHP підтримує змінні функції. Це означає, що якщо до
-імені змінної приєднані круглі дужки, PHP шукає функцію з тим же
-ім'ям, як і результат обчислення змінної, і намагається її виконати.
-Цю можливість можна використовувати для реалізації зворотних викликів,
-таблиць функцій та безлічі інших речей.
+PHP підтримує концепцію змінних функцій. Це означає, що якщо до імені змінної приєднані круглі дужки, PHP шукає функцію з тим самим ім'ям, що й результат обчислення змінної, і намагається її виконати. Цю можливість можна використовувати для реалізації зворотних викликів, таблиць функцій та безлічі інших речей.
 
-Змінні функції не працюватимуть з такими мовними конструкціями
-як [echo](function.echo.md), [print](function.print.md),
-[unset()](function.unset.md), [isset()](function.isset.md),
-[empty()](function.empty.md), [include](function.include.md),
-[require](function.require.md) тощо. Вам необхідно реалізувати свою
-функцію-обертку для того, щоб наведені вище конструкції могли
-працювати зі змінними функціями.
+Змінні функції не працюватимуть з такими мовними конструкціями, як [echo](function.echo.md) [print](function.print.md) [unset()](function.unset.md) [isset()](function.isset.md) [empty()](function.empty.md) [include](function.include.md) [require](function.require.md) і т.п. Вам необхідно реалізувати свою функцію-обертку для того, щоб наведені вище конструкції могли працювати зі змінними функціями.
 
 **Приклад #1 Робота з функціями за допомогою змінних**
 
-`<?phpfunction foo() {    echo "В foo()<br />
-";}function bar($arg = ''){    echo "В bar(); аргумент був '$arg'.<br />
-";}// Функція-обгортка для echofunction echoit($string){    echo $string;}$func = 'foo';$func();         // Викликає ''$| 'test');  // Викликає функцію bar()$func = 'echoit';$func('test');  // Викликає функцію echoit()?> `
+```php
+<?php
+function foo() {
+    echo "В foo()<br />\n";
+}
 
-Ви також можете викликати методи об'єкта, використовуючи можливості PHP для
-роботи із змінними функціями.
+function bar($arg = '')
+{
+    echo "В bar(); аргумент был '$arg'.<br />\n";
+}
+
+// Функция-обёртка для echo
+function echoit($string)
+{
+    echo $string;
+}
+
+$func = 'foo';
+$func();        // Вызывает функцию foo()
+
+$func = 'bar';
+$func('test');  // Вызывает функцию bar()
+
+$func = 'echoit';
+$func('test');  // Вызывает функцию echoit()
+?>
+```
+
+Ви також можете викликати методи об'єкта, використовуючи можливості PHP для роботи зі змінними функціями.
 
 **Приклад #2 Звернення до методів класу за допомогою змінних**
 
-` <?phpclass Foo{   function Variable()    {       $name = 'Bar'; $this->$name(); // Викликаємо метод Bar()     }   function Bar()   {        echo "Це Bar"; }}$foo = new Foo();$funcname = "Variable";$foo->$funcname(); // Звертаємось до $foo->Variable()?> `
+```php
+<?php
+class Foo
+{
+    function Variable()
+    {
+        $name = 'Bar';
+        $this->$name(); // Вызываем метод Bar()
+    }
 
-При виклик статичних методів виклик функції "сильніше", ніж оператор
-доступу до статичної властивості:
+    function Bar()
+    {
+        echo "Это Bar";
+    }
+}
+
+$foo = new Foo();
+$funcname = "Variable";
+$foo->$funcname();  // Обращаемся к $foo->Variable()
+
+?>
+```
+
+При виклику статичних методів виклик функції "сильніший", ніж оператор доступу до статичної властивості:
 
 **Приклад #3 Приклад виклику змінного методу зі статичною властивістю**
 
-`<?phpclass Foo{    static $variable = 'статична властивість'; static function Variable()    {        echo 'Виклик методуVariable'; }}echo Foo::$variable; // Це виведе 'статичне властивість'. Змінна $variable буде дозволена в цієї області видимості.$variable = "Variable";Foo::$variable(); // Це викличе $foo->Variable(), прочитавши $variable з цієї області видимості.?> `
+```php
+<?php
+class Foo
+{
+    static $variable = 'статическое свойство';
+    static function Variable()
+    {
+        echo 'Вызов метода Variable';
+    }
+}
 
-**Приклад #4 Складні callable-функції**
+echo Foo::$variable; // Это выведет 'статическое свойство'. Переменная $variable будет разрешена в этой области видимости.
+$variable = "Variable";
+Foo::$variable();  // Это вызовет $foo->Variable(), прочитав $variable из этой области видимости.
 
-` <?phpclass Foo{    static function bar()    {       echo "bar
-";    }    function baz()    {        echo "baz
-";    }}$func = array("Foo", "bar");$func(); // виведе "bar"$func = array(new Foo, "baz");$func(); // від "baz"$func = "Foo::bar";$func(); // виведе "bar"?> `
+?>
+```
+
+**Приклад #4 Складні callable функції**
+
+```php
+<?php
+class Foo
+{
+    static function bar()
+    {
+        echo "bar\n";
+    }
+    function baz()
+    {
+        echo "baz\n";
+    }
+}
+
+$func = array("Foo", "bar");
+$func(); // выведет "bar"
+$func = array(new Foo, "baz");
+$func(); // выведет "baz"
+$func = "Foo::bar";
+$func(); // выведет "bar"
+?>
+```
 
 ### Дивіться також
 
-- [is_callable()](function.is-callable.md)
-- [call_user_func()](function.call-user-func.md)
-- [function_exists()](function.function-exists.md)
-- [Змінні змінних](language.variables.variable.md)
+-   [ісcallable()](function.is-callable.md)
+-   [calluserfunc()](function.call-user-func.md)
+-   [functionexists()](function.function-exists.md)
+-   [змінні змінних](language.variables.variable.md)

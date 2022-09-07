@@ -1,19 +1,22 @@
-- [« Yaf_Controller_Abstract::forward](yaf-controller-abstract.forward.md)
-- [Yaf_Controller_Abstract::getInvokeArgs »](yaf-controller-abstract.getinvokeargs.md)
+---
+navigation:
+  - yaf-controller-abstract.forward.md: '« YafControllerAbstract::forward'
+  - yaf-controller-abstract.getinvokeargs.md: 'YafControllerAbstract::getInvokeArgs »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::getInvokeArg'
+---
+# YafControllerAbstract::getInvokeArg
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Призначення getInvokeArg
+(Yaf >=1.0.0)
 
-# Yaf_Controller_Abstract::getInvokeArg
-
-(Yaf \>=1.0.0)
-
-Yaf_Controller_Abstract::getInvokeArg — Призначення getInvokeArg
+YafControllerAbstract::getInvokeArg — Призначення getInvokeArg
 
 ### Опис
 
-public **Yaf_Controller_Abstract::getInvokeArg**(string `$name`): void
+```methodsynopsis
+public Yaf_Controller_Abstract::getInvokeArg(string $name): void
+```
 
 ### Список параметрів
 

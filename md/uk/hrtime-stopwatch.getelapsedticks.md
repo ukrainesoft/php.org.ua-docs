@@ -1,20 +1,22 @@
-- [«HRTime\StopWatch](class.hrtime-stopwatch.md)
-- [HRTime\StopWatch::getElapsedTime »](hrtime-stopwatch.getelapsedtime.md)
+---
+navigation:
+  - class.hrtime-stopwatch.md: « HRTimeStopWatch
+  - hrtime-stopwatch.getelapsedtime.md: 'HRTimeStopWatch::getElapsedTime »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
+title: 'HRTimeStopWatch::getElapsedTicks'
+---
+# HRTimeStopWatch::getElapsedTicks
 
-- [PHP Manual](index.md)
-- [HRTime\StopWatch](class.hrtime-stopwatch.md)
-- Отримати кількість минулих тиків для всіх інтервалів
+(PECL hrtime >= 0.4.3)
 
-# HRTime\StopWatch::getElapsedTicks
-
-(PECL hrtime \>= 0.4.3)
-
-HRTime\StopWatch::getElapsedTicks — Отримати кількість минулих тиків
-для всіх інтервалів
+HRTimeStopWatch::getElapsedTicks — Отримати кількість тиків, що пройшли, для всіх інтервалів
 
 ### Опис
 
-public **HRTime\StopWatch::getElapsedTicks**(): int
+```methodsynopsis
+public HRTime\StopWatch::getElapsedTicks(): int
+```
 
 Повертає кількість минулих тиків всіх раніше закритих інтервалів.
 

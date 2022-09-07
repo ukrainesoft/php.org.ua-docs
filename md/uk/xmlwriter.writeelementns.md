@@ -1,80 +1,69 @@
-- [« XMLWriter::writeElement](xmlwriter.writeelement.md)
-- [XMLWriter::writePi »](xmlwriter.writepi.md)
-
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Записати повний простір імен тега елемента
-
+---
+navigation:
+  - xmlwriter.writeelement.md: '« XMLWriter::writeElement'
+  - xmlwriter.writepi.md: 'XMLWriter::writePi »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::writeElementNs'
+---
 # XMLWriter::writeElementNs
 
-#xmlwriter_write_element_ns
+# xmlwriterwriteelementнс
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::writeElementNs -- xmlwriter_write_element_ns — Записати
-повний простір імен тега елемента
+XMLWriter::writeElementNs -- xmlwriterwriteelementns — Записати повний простір імен тега елемента
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::writeElementNs**(
-?string `$prefix`,
-string `$name`,
-?string `$namespace`,
-?string `$content` = **`null`**
-): bool
+```methodsynopsis
+public XMLWriter::writeElementNs(    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_write_element_ns**(
-[XMLWriter](class.xmlwriter.md) `$writer`,
-?string `$prefix`,
-string `$name`,
-?string `$namespace`,
-?string `$content` = **`null`**
-): bool
+```methodsynopsis
+xmlwriter_write_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
+```
 
 Записує повний простір імен тега елемента.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `prefix`
-Префікс простору імен. Якщо `prefix` дорівнює **`null`**, простір
-імен буде опущено.
+
+Префікс простору імен. Якщо `prefix` дорівнює **`null`**, простір імен буде опущено.
 
 `name`
-Назва елемента.
+
+Ім'я елемент.
 
 `namespace`
-URI простір імен. Якщо `namespace` дорівнює **`null`**, оголошення
-простір імен буде опущено.
+
+URI простір імен. Якщо `namespace` дорівнює **`null`**, оголошення простору імен буде опущено.
 
 `content`
+
 Вміст елемента.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::startElementNs()](xmlwriter.startelementns.md) -
-Створити стартовий тег елемента простору імен
-- [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити
-поточний елемент
-- [XMLWriter::writeElement()](xmlwriter.writeelement.md) - Записати
-повний тег елемент
+-   [XMLWriter::startElementNs()](xmlwriter.startelementns.md) - Створити стартовий тег елемента простору імен
+-   [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити поточний елемент
+-   [XMLWriter::writeElement()](xmlwriter.writeelement.md) - Записати повний тег елемента

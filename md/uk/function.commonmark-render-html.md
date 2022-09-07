@@ -1,31 +1,33 @@
-- [«CommonMark\Render](function.commonmark-render.md)
-- [CommonMark\Render\Latex »](function.commonmark-render-latex.md)
+---
+navigation:
+  - function.commonmark-render.md: « CommonMarkRender
+  - function.commonmark-render-latex.md: CommonMarkRenderLatex »
+  - index.md: PHP Manual
+  - ref.cmark.md: Функции CommonMark
+title: CommonMarkRenderHTML
+---
+# CommonMarkRenderHTML
 
-- [PHP Manual](index.md)
-- [Функції CommonMark](ref.cmark.md)
-- Відображення
+(cmark >= 1.0.0)
 
-# CommonMark\Render\HTML
-
-(cmark \>= 1.0.0)
-
-CommonMark\Render\HTML — Відображення
+CommonMarkRenderHTML — Відображення
 
 ### Опис
 
-**CommonMark\Render\HTML**([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?): string
+```methodsynopsis
+CommonMark\Render\HTML(CommonMark\Node $node, int $options = ?): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `node`
 
 `options`
+
 Маска з:
 
 **`CommonMark\Render\Normal`** (int)

@@ -1,20 +1,22 @@
-- [« Swoole\Http\Response::gzip](swoole-http-response.gzip.md)
-- [Swoole\Http\Response::initHeader »](swoole-http-response.initheader.md)
+---
+navigation:
+  - swoole-http-response.gzip.md: '« SwooleHttpResponse::gzip'
+  - swoole-http-response.initheader.md: 'SwooleHttpResponse::initHeader »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.md: SwooleHttpResponse
+title: 'SwooleHttpResponse::header'
+---
+# SwooleHttpResponse::header
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Встановлює заголовки HTTP-відповіді
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Response::header
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Response::header — Встановлює заголовки HTTP-відповіді
+SwooleHttpResponse::header — Встановлює заголовки HTTP-відповіді
 
 ### Опис
 
-public **Swoole\Http\Response::header**(string `$key`, string `$value`,
-string `$ucwords` = ?): void
+```methodsynopsis
+public Swoole\Http\Response::header(string $key, string $value, string $ucwords = ?): void
+```
 
 ### Список параметрів
 

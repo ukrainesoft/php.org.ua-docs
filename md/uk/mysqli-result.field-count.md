@@ -1,41 +1,38 @@
-- [« mysqli_result::fetch_row](mysqli-result.fetch-row.md)
-- [mysqli_result::field_seek »](mysqli-result.field-seek.md)
+---
+navigation:
+  - mysqli-result.fetch-row.md: '« mysqliresult::fetchrow'
+  - mysqli-result.field-seek.md: 'mysqliresult::fieldseek »'
+  - index.md: PHP Manual
+  - class.mysqli-result.md: mysqliresult
+title: 'mysqliresult::$fieldcount'
+---
+# mysqliresult::$fieldcount
 
-- [PHP Manual](index.md)
-- [mysqli_result](class.mysqli-result.md)
-- Отримує кількість полів у наборі результатів
-
-# mysqli_result::$field_count
-
-# mysqli_num_fields
+# mysqlinumfields
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_result::$field_count -- mysqli_num_fields — Отримує кількість
-полів у наборі результатів
+mysqliresult::$fieldcount - mysqlinumfields — Отримує кількість полів у наборі результатів
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli_result->field_count`;
+int [$mysqliresult->fieldcount](mysqli-result.field-count.md)
 
 Процедурний стиль
 
-**mysqli_num_fields**([mysqli_result](class.mysqli-result.md)
-`$result`): int
+```methodsynopsis
+mysqli_num_fields(mysqli_result $result): int
+```
 
 Повертає кількість полів у наборі результатів.
 
 ### Список параметрів
 
 `result`
-Тільки для процедурного стилю: об'єкт
-[mysqli_result](class.mysqli-result.md), отриманий за допомогою
-[mysqli_query()](mysqli.query.md),
-[mysqli_store_result()](mysqli.store-result.md),
-[mysqli_use_result()](mysqli.use-result.md) або
-[mysqli_stmt_get_result()](mysqli-stmt.get-result.md).
+
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -45,19 +42,42 @@ int `$mysqli_result->field_count`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysqli Population FROM City ORDER BYID LIMIT 1");/* Отримання|кількості полів в набір результатів */$field_cnt = $result->field_count;printf("Отримано %d 
-", $field_cnt); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$result = $mysqli->query("SELECT Name, CountryCode, District, Population FROM City ORDER BY ID LIMIT 1");
+
+/* Получение количества полей в наборе результатов */
+$field_cnt = $result->field_count;
+
+printf("Получено %d полей.\n", $field_cnt);
+```
 
 **Приклад #2 Процедурний стиль**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = Mysqli_connect("localhost", "my_user", "my_password", "world"); City ORDER BYIDID LIMIT 1");/* Отримання кількості полів в наборі результатів */$field_cnt = mysqli_num_fields($result);printf("Отримано %d полів.
-", $field_cnt); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$result = mysqli_query($link, "SELECT Name, CountryCode, District, Population FROM City ORDER BY ID LIMIT 1");
+
+/* Получение количества полей в наборе результатов */
+$field_cnt = mysqli_num_fields($result);
+
+printf("Получено %d полей.\n", $field_cnt);
+```
 
 Результат виконання даних прикладів:
 
-Отримано 4 поля.
+```
+Получено 4 полей.
+```
 
 ### Дивіться також
 
-- [mysqli_fetch_field()](mysqli-result.fetch-field.md) - Повертає
-наступне поле результуючого набору
+-   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору

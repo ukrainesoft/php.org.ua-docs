@@ -1,16 +1,21 @@
-- [« Вимоги](scoutapm.requirements.md)
-- [Налаштування під час виконання »](scoutapm.configuration.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](scoutapm.setup.md)
-- Встановлення
-
-## Установка
+---
+navigation:
+  - scoutapm.requirements.md: « Вимоги
+  - scoutapm.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - scoutapm.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
 Модуль доступний для PECL. Запустіть:
 
+```
 $ sudo pecl install scoutapm
+```
 
-Можливо, вам доведеться додати Scout в *php.ini*, наприклад:
+Можливо, вам буде потрібно додати Scout в *php.ini*, наприклад:
 
+```
 extension=scoutapm.so
+```

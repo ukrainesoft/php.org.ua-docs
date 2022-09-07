@@ -1,78 +1,82 @@
-- [« pg_fetch_object](function.pg-fetch-object.md)
-- [pg_fetch_row »](function.pg-fetch-row.md)
+---
+navigation:
+  - function.pg-fetch-object.md: « pgfetchobject
+  - function.pg-fetch-row.md: пгfetchrow »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfetchresult
+---
+# пгfetchresult
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає запис із результату запиту
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#pg_fetch_result
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-pg_fetch_result — Повертає запис із результату запиту
+пгfetchresult — Повертає запис із результату запиту
 
 ### Опис
 
-**pg_fetch_result**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$row`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field`): string\|false\|null
+```methodsynopsis
+pg_fetch_result(PgSql\Result $result, int $row, mixed $field): string|false|null
+```
 
-**pg_fetch_result**([PgSql\Result](class.pgsql-result.md) `$result`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field`): string\|false\|null
+```methodsynopsis
+pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
+```
 
-**pg_fetch_result()** повертає значення осередку таблиці екземпляра
-[PgSql\Result](class.pgsql-result.md).
+**пгfetchresult()** повертає значення комірки таблиці примірника [PgSqlResult](class.pgsql-result.md)
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_result()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгresult()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
-Номер вибирається з результату запиту рядка. Нумерація починається з
-нуля. Якщо аргумент опущений, береться наступний по черзі рядок.
+
+Номер вибирається з результату запиту рядка. Нумерація починається із нуля. Якщо аргумент опущено, береться наступний по черзі рядок.
 
 `field`
+
 Ім'я або номер поля значення, що вибирається. Поля нумеруються з нуля.
 
 ### Значення, що повертаються
 
-Логічні значення повертаються як "t" чи "f". Інші типи,
-включаючи масиви, повертаються у вигляді рядків у стандартному форматі
-PostgreSQL, аналогічно висновку програми psql. Значення `NULL` бази
-даних перетворюються на PHP **`null`**.
+Логічні значення повертаються як "t" чи "f". Інші типи, включаючи масиви, повертаються у вигляді рядків у стандартному форматі PostgreSQL, аналогічно висновку програми **psql**. Значення `NULL` бази даних перетворюються на PHP **`null`**
 
-**`false`**, якщо `row` перевищує число рядків в результаті запиту, та
-за інших помилок.
+**`false`**, якщо `row` перевищує кількість рядків в результаті запиту, та за інших помилок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_fetch_result()****
+**Приклад #1 Приклад використання **пгfetchresult()****
 
-` <?php$db = pg_connect("dbname=users user=me") || die();$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");$val = pg_fetch_result($res, 1, 0);echo "Перше поле во другий       "
-";?> `
+```php
+<?php
+$db = pg_connect("dbname=users user=me") || die();
+
+$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");
+
+$val = pg_fetch_result($res, 1, 0);
+
+echo "Первое поле во второй строчке результата это: ", $val, "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Перше поле у другому рядку результату це: 2
+```
+Первое поле во второй строчке результата это: 2
+```
 
 ### Дивіться також
 
-- [pg_query()](function.pg-query.md) - Виконує запит
-- [pg_fetch_array()](function.pg-fetch-array.md) - Повертає рядок
-результату у вигляді масиву
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву

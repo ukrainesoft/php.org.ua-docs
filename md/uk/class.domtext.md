@@ -1,198 +1,177 @@
-- [« DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.md)
-- [DOMText::\_\_construct »](domtext.construct.md)
-
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMText
-
+---
+navigation:
+  - domprocessinginstruction.construct.md: '« DOMProcessingInstruction::construct'
+  - domtext.construct.md: 'DOMText::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMText
+---
 # Клас DOMText
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас **DOMText** успадковується від
-[DOMCharacterData](class.domcharacterdata.md) і представляє текстове
-вміст [DOMElement](class.domelement.md) або
-[DOMAttr](class.domattr.md).
+Клас **DOMText** успадковується від [DOMCharacterData](class.domcharacterdata.md) і представляє текстовий вміст [DOMElement](class.domelement.md) або [DOMAttr](class.domattr.md)
 
 ## Огляд класів
 
-class **DOMText** extends
-[DOMCharacterData](class.domcharacterdata.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly string `$wholeText`;
+    
+     
+      class DOMText
+     
 
-/\* Наслідувані властивості \*/
+     
+      extends
+       DOMCharacterData
+     
+     {
 
-public string `$data`;
+    /* Свойства */
+    
+     public
+     readonly
+     string
+      $wholeText;
 
-public readonly int `$length`;
 
-public readonly ?[DOMElement](class.domelement.md)
-`$previousElementSibling`;
-
-public readonly ?[DOMElement](class.domelement.md)
-`$nextElementSibling`;
-
-public readonly string `$nodeName`;
-
-public ?string `$nodeValue`;
-
-public readonly int `$nodeType`;
-
-public readonly ?[DOMNode](class.domnode.md) `$parentNode`;
-
-public readonly [DOMNodeList](class.domnodelist.md) `$childNodes`;
-
-public readonly ?[DOMNode](class.domnode.md) `$firstChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$lastChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$previousSibling`;
-
-public readonly ?[DOMNode](class.domnode.md) `$nextSibling`;
-
-public readonly ?[DOMNamedNodeMap](class.domnamednodemap.md)
-`$attributes`;
-
-public readonly ?[DOMDocument](class.domdocument.md) `$ownerDocument`;
-
-public readonly ?string `$namespaceURI`;
-
-public string `$prefix`;
-
-public readonly ?string `$localName`;
-
-public readonly ?string `$baseURI`;
-
-public string `$textContent`;
-
-/\* Методи \*/
-
-public [\_\_construct](domtext.construct.md)(string `$data` = "")
-
+    /* Наследуемые свойства */
+    public
+     string
+      $data;
 public
-[isElementContentWhitespace](domtext.iselementcontentwhitespace.md)():
-bool
-
+     readonly
+     int
+      $length;
 public
-[isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md)():
-bool
-
-public [splitText](domtext.splittext.md)(int `$offset`):
-[DOMText](class.domtext.md)\|false
-
-/\* Наслідувані методи \*/
-
+     readonly
+     ?DOMElement
+      $previousElementSibling;
 public
-[DOMCharacterData::appendData](domcharacterdata.appenddata.md)(string
-`$data`): bool
+     readonly
+     ?DOMElement
+      $nextElementSibling;
 
+    public
+     readonly
+     string
+      $nodeName;
 public
-[DOMCharacterData::deleteData](domcharacterdata.deletedata.md)(int
-`$offset`, int `$count`): bool
-
+     ?string
+      $nodeValue;
 public
-[DOMCharacterData::insertData](domcharacterdata.insertdata.md)(int
-`$offset`, string `$data`): bool
-
+     readonly
+     int
+      $nodeType;
 public
-[DOMCharacterData::replaceData](domcharacterdata.replacedata.md)(int
-`$offset`, int `$count`, string `$data`): bool
-
+     readonly
+     ?DOMNode
+      $parentNode;
 public
-[DOMCharacterData::substringData](domcharacterdata.substringdata.md)(int
-`$offset`, int `$count`): string\|false
-
+     readonly
+     DOMNodeList
+      $childNodes;
 public
-[DOMNode::appendChild](domnode.appendchild.md)([DOMNode](class.domnode.md)
-`$node`): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): string\|false
-
-public [DOMNode::C14NFile](domnode.c14nfile.md)(
-string `$uri`,
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): int\|false
-
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
-**`false`**): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::getLineNo](domnode.getlineno.md)(): int
-
-public [DOMNode::getNodePath](domnode.getnodepath.md)(): ?string
-
-public [DOMNode::hasAttributes](domnode.hasattributes.md)(): bool
-
-public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
-
+     readonly
+     ?DOMNode
+      $firstChild;
 public
-[DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
-[DOMNode](class.domnode.md)\|false
-
+     readonly
+     ?DOMNode
+      $lastChild;
 public
-[DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md)(string
-`$namespace`): bool
-
+     readonly
+     ?DOMNode
+      $previousSibling;
 public
-[DOMNode::isSameNode](domnode.issamenode.md)([DOMNode](class.domnode.md)
-`$otherNode`): bool
-
-public [DOMNode::isSupported](domnode.issupported.md)(string
-`$feature`, string `$version`): bool
-
+     readonly
+     ?DOMNode
+      $nextSibling;
 public
-[DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md)(string
-`$prefix`): string
-
-public [DOMNode::lookupPrefix](domnode.lookupprefix.md)(string
-`$namespace`): ?string
-
-public [DOMNode::normalize](domnode.normalize.md)(): void
-
+     readonly
+     ?DOMNamedNodeMap
+      $attributes;
 public
-[DOMNode::removeChild](domnode.removechild.md)([DOMNode](class.domnode.md)
-`$child`): [DOMNode](class.domnode.md)\|false
-
+     readonly
+     ?DOMDocument
+      $ownerDocument;
 public
-[DOMNode::replaceChild](domnode.replacechild.md)([DOMNode](class.domnode.md)
-`$node`, [DOMNode](class.domnode.md) `$child`):
-[DOMNode](class.domnode.md)\|false
+     readonly
+     ?string
+      $namespaceURI;
+public
+     string
+      $prefix;
+public
+     readonly
+     ?string
+      $localName;
+public
+     readonly
+     ?string
+      $baseURI;
+public
+     string
+      $textContent;
 
-}
+
+    /* Методы */
+    
+   public __construct(string $data = "")
+
+    public isElementContentWhitespace(): bool
+public isWhitespaceInElementContent(): bool
+public splitText(int $offset): DOMText|false
+
+
+    /* Наследуемые методы */
+    public DOMCharacterData::appendData(string $data): bool
+public DOMCharacterData::deleteData(int $offset, int $count): bool
+public DOMCharacterData::insertData(int $offset, string $data): bool
+public DOMCharacterData::replaceData(int $offset, int $count, string $data): bool
+public DOMCharacterData::substringData(int $offset, int $count): string|false
+
+    public DOMNode::appendChild(DOMNode $node): DOMNode|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::cloneNode(bool $deep = false): DOMNode|false
+public DOMNode::getLineNo(): int
+public DOMNode::getNodePath(): ?string
+public DOMNode::hasAttributes(): bool
+public DOMNode::hasChildNodes(): bool
+public DOMNode::insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|false
+public DOMNode::isDefaultNamespace(string $namespace): bool
+public DOMNode::isSameNode(DOMNode $otherNode): bool
+public DOMNode::isSupported(string $feature, string $version): bool
+public DOMNode::lookupNamespaceUri(string $prefix): string
+public DOMNode::lookupPrefix(string $namespace): ?string
+public DOMNode::normalize(): void
+public DOMNode::removeChild(DOMNode $child): DOMNode|false
+public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
+
+   }
+```
 
 ## Властивості
 
-`wholeText`
-Містить весь текст суміжних (не розділені іншими елементами,
-коментарями чи інструкціями) текстових вузлів.
+wholeText
 
-## Список змін
+Містить весь текст суміжних текстових вузлів (не розділені іншими елементами, коментарями або інструкціями).
 
-| Версія | Опис                                                                |
-| ------ | ------------------------------------------------------------------- |
-| 8.0.0  | Нереалізований метод **DOMText::replaceWholeText()** був вилучений. |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізований метод **DOMText::replaceWholeText()** був видалений. |
 
 ## Зміст
 
-- [DOMText::\_\_construct](domtext.construct.md) — Створює об'єкт
-класу DOMText
-- [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md)
-— Повертає, чи містить текстовий вузол пробіл у вмісті
-елемента
-- [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md)
-— Визначає, чи містить текстовий вузол пробіли у вмісті
-- [DOMText::splitText](domtext.splittext.md) — розділяє вузол на
-два, починаючи із заданої позиції
+-   [DOMText::construct](domtext.construct.md) — Створює об'єкт класу DOMText
+-   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
+-   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md) — Визначає, чи містить текстовий вузол пробіли у вмісті
+-   [DOMText::splitText](domtext.splittext.md) — Поділяє вузол на два, починаючи із заданої позиції

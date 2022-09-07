@@ -1,20 +1,22 @@
-- [« Throwable::getFile](throwable.getfile.md)
-- [Throwable::getTrace »](throwable.gettrace.md)
-
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- Отримує рядок скрипта, в якому цей об'єкт був викинутий
-
+---
+navigation:
+  - throwable.getfile.md: '« Throwable::getFile'
+  - throwable.gettrace.md: 'Throwable::getTrace »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getLine'
+---
 # Throwable::getLine
 
 (PHP 7, PHP 8)
 
-Throwable::getLine — Отримує рядок скрипта, в якому цей об'єкт
-був викинутий
+Throwable::getLine — Отримує рядок скрипта, в якому цей об'єкт був викинутий
 
 ### Опис
 
-public **Throwable::getLine**(): int
+```methodsynopsis
+public Throwable::getLine(): int
+```
 
 Повертає номер рядка, в якому цей об'єкт було викинуто.
 
@@ -28,5 +30,4 @@ public **Throwable::getLine**(): int
 
 ### Дивіться також
 
-- [Exception::getLine()](exception.getline.md) - Отримує рядок, в
-якої виник виняток
+-   [Exception::getLine()](exception.getline.md) - Отримує рядок, у якому виник виняток

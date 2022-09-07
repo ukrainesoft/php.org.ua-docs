@@ -1,24 +1,24 @@
-- [« DirectoryIterator::isFile](directoryiterator.isfile.md)
-- [DirectoryIterator::isReadable »](directoryiterator.isreadable.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Визначає, чи є поточний елемент DirectoryIterator
-символічним посиланням
-
+---
+navigation:
+  - directoryiterator.isfile.md: '« DirectoryIterator::isFile'
+  - directoryiterator.isreadable.md: 'DirectoryIterator::isReadable »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::isLink'
+---
 # DirectoryIterator::isLink
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::isLink — Визначає, чи є поточний елемент
-DirectoryIterator символічне посилання
+DirectoryIterator::isLink — Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
 
 ### Опис
 
-public **DirectoryIterator::isLink**(): bool
+```methodsynopsis
+public DirectoryIterator::isLink(): bool
+```
 
-Визначає, чи є поточний елемент
-[DirectoryIterator](class.directoryiterator.md) символічним посиланням.
+Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) символічним посиланням.
 
 ### Список параметрів
 
@@ -26,8 +26,7 @@ public **DirectoryIterator::isLink**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо елемент є символічним посиланням,
-інакше повертає **`false`**
+Повертає \*\*`true`\*\*якщо елемент є символічним посиланням, інакше повертає **`false`**
 
 ### Приклади
 
@@ -35,18 +34,33 @@ public **DirectoryIterator::isLink**(): bool
 
 Приклад містить рекурсивну функцію видалення дерева каталогів.
 
-`<?php/** * Дана функція рекурсивно удаляє всі файли, символічні посилання і директорії * за вказаним шляхом. * * @param string $path Шлях до директорії для видалення. */function removeDir($path) {    $dir = new DirectoryIterator($path); foreach ($dir as $fileinfo) {        if ($fileinfo->isFile() || $fileinfo->isLink()) {              unlink($file }elseif(!$fileinfo->isDot() && $fileinfo->isDir()) {           removeDir($fileinfo->getPathName()); }    }   rmdir($path);}removeDir('foo');?> `
+```php
+<?php
+/**
+ * Данная функция рекурсивно удаляет все файлы, символические ссылки и директории
+ * по указанному пути.
+ *
+ * @param string $path Путь к директории для удаления.
+ */
+function removeDir($path) {
+    $dir = new DirectoryIterator($path);
+    foreach ($dir as $fileinfo) {
+        if ($fileinfo->isFile() || $fileinfo->isLink()) {
+            unlink($fileinfo->getPathName());
+        } elseif (!$fileinfo->isDot() && $fileinfo->isDir()) {
+            removeDir($fileinfo->getPathName());
+        }
+    }
+    rmdir($path);
+}
+
+removeDir('foo');
+?>
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getType()](directoryiterator.gettype.md) -
-Визначає тип поточного елемента DirectoryIterator
-- [DirectoryIterator::isDir()](directoryiterator.isdir.md) -
-Визначає, чи є поточний елемент DirectoryIterator
-директорією
-- [DirectoryIterator::isDot()](directoryiterator.isdot.md) -
-Визначає, чи є поточний елемент DirectoryIterator '.' або
-'..'
-- [DirectoryIterator::isFile()](directoryiterator.isfile.md) -
-Визначає, чи поточний елемент DirectoryIterator є звичайним
-файлом
+-   [DirectoryIterator::getType()](directoryiterator.gettype.md) - Визначає тип поточного елемента DirectoryIterator
+-   [DirectoryIterator::isDir()](directoryiterator.isdir.md) - Визначає, чи є поточний елемент DirectoryIterator директорією
+-   [DirectoryIterator::isDot()](directoryiterator.isdot.md) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
+-   [DirectoryIterator::isFile()](directoryiterator.isfile.md) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом

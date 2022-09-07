@@ -1,25 +1,24 @@
-- [« RegexIterator](class.regexiterator.md)
-- [RegexIterator::\_\_construct »](regexiterator.construct.md)
-
-- [PHP Manual](index.md)
-- [RegexIterator](class.regexiterator.md)
-- Перевірка відповідності регулярному виразу
-
+---
+navigation:
+  - class.regexiterator.md: « RegexIterator
+  - regexiterator.construct.md: 'RegexIterator::construct »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
+title: 'RegexIterator::accept'
+---
 # RegexIterator::accept
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::accept — Перевірка відповідності регулярному виразу
 
 ### Опис
 
-public **RegexIterator::accept**(): bool
+```methodsynopsis
+public RegexIterator::accept(): bool
+```
 
-Перевіряє відповідність рядка `(string)`, який повернув метод
-**RegexIterator::current()** (або **RegexIterator::key()**, якщо
-встановлено прапор
-[RegexIterator::USE_KEY](class.regexiterator.md#regexiterator.constants.use-key)),
-регулярного вираження.
+Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()** (або **RegexIterator::key()**, якщо встановлено прапор [RegexIterator::USEKEY](class.regexiterator.md#regexiterator.constants.use-key)), регулярному виразу.
 
 ### Список параметрів
 
@@ -27,26 +26,33 @@ public **RegexIterator::accept**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо значення елемента відповідає регулярному виразу,
-**`false`** інакше.
+\*\*`true`\*\*якщо значення елемента відповідає регулярному виразу, **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **RegexIterator::accept()****
 
-У цьому прикладі буде здійснюватись навігація тільки за тими елементами,
-значення яких відповідають регулярному виразу.
+У цьому прикладі буде здійснюватись навігація тільки по тих елементах, значення яких відповідають регулярному виразу.
 
-` <?php$names = new ArrayIterator(array('Ann', 'Bob', 'Charlie', 'David'));$filter = new RegexIterator($names, '/^[B-D]/');foreach ($filter as $name) {    echo $name . PHP_EOL;}?> `
+```php
+<?php
+$names = new ArrayIterator(array('Ann', 'Bob', 'Charlie', 'David'));
+$filter = new RegexIterator($names, '/^[B-D]/');
+foreach ($filter as $name) {
+    echo $name . PHP_EOL;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Bob
 Charlie
 David
+```
 
 ### Дивіться також
 
-- [Константи RegexIterator](class.regexiterator.md#regexiterator.constants)
-- [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка
-прапорів
+-   [Константи RegexIterator](class.regexiterator.md#regexiterator.constants)
+-   [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка прапорів

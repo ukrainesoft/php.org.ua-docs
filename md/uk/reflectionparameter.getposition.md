@@ -1,19 +1,22 @@
-- [« ReflectionParameter::getName](reflectionparameter.getname.md)
-- [ReflectionParameter::getType »](reflectionparameter.gettype.md)
-
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Отримання позиції параметра
-
+---
+navigation:
+  - reflectionparameter.getname.md: '« ReflectionParameter::getName'
+  - reflectionparameter.gettype.md: 'ReflectionParameter::getType »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getPosition'
+---
 # ReflectionParameter::getPosition
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
 ReflectionParameter::getPosition — Отримання позиції параметра
 
 ### Опис
 
-public **ReflectionParameter::getPosition**(): int
+```methodsynopsis
+public ReflectionParameter::getPosition(): int
+```
 
 Отримує позицію параметра у списку параметрів.
 
@@ -23,10 +26,8 @@ public **ReflectionParameter::getPosition**(): int
 
 ### Значення, що повертаються
 
-Позиція параметра, ліворуч праворуч, перший параметр знаходиться на позиції
-#0.
+Позиція параметра, ліворуч, перший параметр знаходиться на позиції #0.
 
 ### Дивіться також
 
-- [ReflectionParameter::getName()](reflectionparameter.getname.md) -
-Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра

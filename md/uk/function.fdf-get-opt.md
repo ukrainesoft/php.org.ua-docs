@@ -1,23 +1,23 @@
-- [«fdf_get_flags](function.fdf-get-flags.md)
-- [fdf_get_status »](function.fdf-get-status.md)
+---
+navigation:
+  - function.fdf-get-flags.md: « fdfgetflags
+  - function.fdf-get-status.md: fdfgetstatus »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetopt
+---
+# fdfgetopt
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Отримує значення з масиву opt поля
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECLv)
 
-#fdf_get_opt
-
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECLv)
-
-fdf_get_opt — Отримує значення з масиву opt поля
+fdfgetopt — Отримує значення з масиву opt поля
 
 ### Опис
 
-**fdf_get_opt**(resource `$fdf_document`, string `$fieldname`, int
-$element = -1):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+fdf_get_opt(resource $fdf_document, string $fieldname, int $element = -1): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

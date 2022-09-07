@@ -1,29 +1,29 @@
-- [« sodium_bin2base64](function.sodium-bin2base64.md)
-- [sodium_compare »](function.sodium-compare.md)
+---
+navigation:
+  - function.sodium-bin2base64.md: « sodiumbin2base64
+  - function.sodium-compare.md: sodiumcompare »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumbin2hex
+---
+# sodiumbin2hex
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Кодувати у шістнадцяткове уявлення
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_bin2hex
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_bin2hex — Кодувати в шістнадцяткову виставу
+sodiumbin2hex — Кодувати в шістнадцяткову виставу
 
 ### Опис
 
-**sodium_bin2hex**(string `$string`): string
+```methodsynopsis
+sodium_bin2hex(string $string): string
+```
 
-Перетворює необроблений двійковий рядок у рядок у шістнадцятковому
-кодування. На відміну від стандартної функції шістнадцяткового
-кодування, **sodium_bin2hex()** є постійною за часом
-(властивість, яка важлива для будь-якого коду, що стосується
-криптографічних даних, таких як тексти чи ключі).
+Перетворює необроблений двійковий рядок у рядок у шістнадцятковому кодуванні. На відміну від стандартної функції шістнадцяткового кодування, **sodiumbin2hex()** є постійною за часом (властивість, яка важлива для будь-якого коду, який стосується криптографічних даних, таких як тексти чи ключі).
 
 ### Список параметрів
 
 `string`
+
 Необроблений двійковий рядок.
 
 ### Значення, що повертаються

@@ -1,13 +1,14 @@
-- [« sodium_unpad](function.sodium-unpad.md)
-- [Модулі для роботи з базами даних»](refs.database.md)
-
-- [PHP Manual](index.md)
-- [Sodium](book.sodium.md)
-- Клас SodiumException
-
+---
+navigation:
+  - function.sodium-unpad.md: « sodiumunpad
+  - refs.database.md: Модулі для роботи з базами даних
+  - index.md: PHP Manual
+  - book.sodium.md: Sodium
+title: Клас SodiumException
+---
 # Клас SodiumException
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
 ## Вступ
 
@@ -15,44 +16,58 @@
 
 ## Огляд класів
 
-class **SodiumException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class SodiumException
+     
 
-private string `$string` = "";
+     
+      extends
+       Exception
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

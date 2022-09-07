@@ -1,19 +1,22 @@
-- [« Swoole\Server::stats](swoole-server.stats.md)
-- [Swoole\Server::task »](swoole-server.task.md)
+---
+navigation:
+  - swoole-server.stats.md: '« SwooleServer::stats'
+  - swoole-server.task.md: 'SwooleServer::task »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::stop'
+---
+# SwooleServer::stop
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Зупиняє сервер Swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::stop
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::stop — Зупиняє сервер Swoole
+SwooleServer::stop — Зупиняє сервер Swoole
 
 ### Опис
 
-public **Swoole\Server::stop**(int `$worker_id` = ?): bool
+```methodsynopsis
+public Swoole\Server::stop(int $worker_id = ?): bool
+```
 
 ### Список параметрів
 

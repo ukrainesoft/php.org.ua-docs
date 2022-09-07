@@ -1,20 +1,22 @@
-- [« Swoole\Server\Port::\_\_destruct](swoole-server-port.destruct.md)
-- [Swoole\Server\Port::set »](swoole-server-port.set.md)
+---
+navigation:
+  - swoole-server-port.destruct.md: '« SwooleServerPort::destruct'
+  - swoole-server-port.set.md: 'SwooleServerPort::set »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServerPort::on'
+---
+# SwooleServerPort::on
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Реєструє callback-функції події
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server\Port::on
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server\Port::on - Реєструє callback-функції події
+SwooleServerPort::on — Реєструє callback-функції події
 
 ### Опис
 
-public **Swoole\Server\Port::on**(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): ReturnType
+```methodsynopsis
+public Swoole\Server\Port::on(string $event_name, callable $callback): ReturnType
+```
 
 ### Список параметрів
 

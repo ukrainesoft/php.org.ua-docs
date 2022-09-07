@@ -1,21 +1,31 @@
-- [«DeflateContext](class.deflatecontext.md)
-- [Криптографічні модулі »](refs.crypto.md)
-
-- [PHP Manual](index.md)
-- [Zlib](book.zlib.md)
-- Клас InflateContext
-
+---
+navigation:
+  - class.deflatecontext.md: « DeflateContext
+  - refs.crypto.md: Криптографічні модулі »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
+title: Клас InflateContext
+---
 # Клас InflateContext
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, який замінює ресурси `zlib.inflate` в PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `zlib.inflate` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **InflateContext** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class InflateContext
+     
+     {
+   }
+```

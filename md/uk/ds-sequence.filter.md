@@ -1,75 +1,85 @@
-- [« Ds\Sequence::contains](ds-sequence.contains.md)
-- [Ds\Sequence::find »](ds-sequence.find.md)
+---
+navigation:
+  - ds-sequence.contains.md: '« DsSequence::contains'
+  - ds-sequence.find.md: 'ДсSequence::find »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::filter'
+---
+# ДсSequence::filter
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Створює нову послідовність елементів, вибраних за допомогою
-заданої callback-функції
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::filter
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::filter — Створює нову послідовність елементів,
-вибраних за допомогою заданої callback-функції
+ДсSequence::filter — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
 
 ### Опис
 
-abstract public
-**Ds\Sequence::filter**([callable](language.types.callable.md)
-`$callback` = ?): [Ds\Sequence](class.ds-sequence.md)
+```methodsynopsis
+abstract public Ds\Sequence::filter(callable $callback = ?): Ds\Sequence
+```
 
-Створює нову послідовність елементів, вибраних за допомогою
-заданої callback-функції.
+Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
 
-Необов'язковий аргумент типу [callable](language.types.callable.md),
-який повертає **`true`**, якщо значення має бути включене та
-**`false`**, якщо ні.
+```methodsynopsis
+callback(mixed $value): bool
+```
 
-Якщо callback-функція не задана, будуть включені тільки елементи,
-які наводяться до логічного значення **`true`** (дивись [приведення до boolean](language.types.boolean.md#language.types.boolean.casting)).
+Необов'язковий аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
+
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивися [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 
-Нова послідовність, що містить значення, для яких функція
-`callback` повернула **`true`**, або всі елементи, які при приведенні
-до логічного типу стають **`true`**, якщо параметр `callback` не
-заданий.
+Нова послідовність, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback` не заданий.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::filter()** з
-callback-функцією**
+**Приклад #1 Приклад використання **ДсSequence::filter()** з callback-функцією**
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3, 4, 5]);var_dump($sequence->filter(function($value) {    return|$value % 2 === ));?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3, 4, 5]);
+
+var_dump($sequence->filter(function($value) {
+    return $value % 2 == 0;
+}));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Vector)#3 (2) {
-[0]=>
-int(2)
-[1]=>
-int(4)
+  [0]=>
+  int(2)
+  [1]=>
+  int(4)
 }
+```
 
-**Приклад #2 Приклад використання **Ds\Sequence::filter()** без
-callback-функції**
+**Приклад #2 Приклад використання **ДсSequence::filter()** без callback-функції**
 
-` <?php$sequence = new \Ds\Vector([0, 1, 'a', true, false]);var_dump($sequence->filter());?> `
+```php
+<?php
+$sequence = new \Ds\Vector([0, 1, 'a', true, false]);
+
+var_dump($sequence->filter());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Vector)#2 (3) {
-[0]=>
-int(1)
-[1]=>
-string(1) "a"
-[2]=>
-bool(true)
+  [0]=>
+  int(1)
+  [1]=>
+  string(1) "a"
+  [2]=>
+  bool(true)
 }
+```

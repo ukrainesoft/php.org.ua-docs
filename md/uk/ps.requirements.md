@@ -1,12 +1,11 @@
-- [« Встановлення та налаштування](ps.setup.md)
-- [Установка »](ps.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ps.setup.md)
-- Вимоги
-
+---
+navigation:
+  - ps.setup.md: « Встановлення та налаштування
+  - ps.installation.md: Установка »
+  - index.md: PHP Manual
+  - ps.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Потрібна бібліотека pslib версії 0.1.12 чи вище. Бібліотеку pslib
-можна скачати тут:
-[»http://pslib.sourceforge.net/](http://pslib.sourceforge.net/).
+Потрібна бібліотека pslib версії 0.1.12 або вищою. Бібліотеку pslib можна завантажити тут: [» http://pslib.sourceforge.net/](http://pslib.sourceforge.net/)

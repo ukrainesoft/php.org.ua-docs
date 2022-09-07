@@ -1,22 +1,24 @@
-- [«UnitEnum](class.unitenum.md)
-- [BackedEnum »](class.backedenum.md)
-
-- [PHP Manual](index.md)
-- [UnitEnum](class.unitenum.md)
-- Повертає список варіантів перерахування
-
+---
+navigation:
+  - class.unitenum.md: « UnitEnum
+  - class.backedenum.md: BackedEnum »
+  - index.md: PHP Manual
+  - class.unitenum.md: UnitEnum
+title: 'UnitEnum::cases'
+---
 # UnitEnum::cases
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 UnitEnum::cases — Повертає список варіантів перерахування
 
 ### Опис
 
-public static **UnitEnum::cases**(): array
+```methodsynopsis
+public static UnitEnum::cases(): array
+```
 
-Метод повертає упакований масив всіх варіантів перерахування
-лексичному порядку.
+Метод повертає упакований масив усіх варіантів перерахування у лексичному порядку.
 
 ### Список параметрів
 
@@ -30,19 +32,33 @@ public static **UnitEnum::cases**(): array
 
 **Приклад #1 Простий приклад використання**
 
-У наведеному прикладі показано, як повертаються варіанти перерахування.
+У цьому прикладі показано, як повертаються варіанти перерахування.
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}var_dump(Suit::cases());?> `
+```php
+<?php
+enum Suit
+{
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
+}
+
+var_dump(Suit::cases());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(4) {
-[0]=>
-enum(Suit::Hearts)
-[1]=>
-enum(Suit::Diamonds)
-[2]=>
-enum(Suit::Clubs)
-[3]=>
-enum(Suit::Spades)
+    [0]=>
+    enum(Suit::Hearts)
+    [1]=>
+    enum(Suit::Diamonds)
+    [2]=>
+    enum(Suit::Clubs)
+    [3]=>
+    enum(Suit::Spades)
 }
+```

@@ -1,22 +1,24 @@
-- [« Parle\RParser::tokenId](parle-rparser.tokenid.md)
-- [Parle\RParser::validate »](parle-rparser.validate.md)
+---
+navigation:
+  - parle-rparser.tokenid.md: '« ParleRParser::tokenId'
+  - parle-rparser.validate.md: 'ParleRParser::validate »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
+title: 'ParleRParser::trace'
+---
+# ParleRParser::trace
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Стежить за роботою парсера
+(PECL parle >= 0.7.0)
 
-# Parle\RParser::trace
-
-(PECL parle \>= 0.7.0)
-
-Parle\RParser::trace — Слідкує за роботою парсера
+ParleRParser::trace — Слідкує за роботою парсера
 
 ### Опис
 
-public **Parle\RParser::trace**(): string
+```methodsynopsis
+public Parle\RParser::trace(): string
+```
 
-Отримує опис роботи парсера. Може бути корисно для
-вивчення синтаксичного аналізатора та оптимізації граматики.
+Отримує опис роботи парсера. Може бути корисним для вивчення синтаксичного аналізатора та оптимізації граматики.
 
 ### Список параметрів
 

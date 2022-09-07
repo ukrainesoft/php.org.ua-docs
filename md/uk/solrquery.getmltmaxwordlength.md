@@ -1,24 +1,24 @@
-- [« SolrQuery::getMltMaxNumTokens](solrquery.getmltmaxnumtokens.md)
-- [SolrQuery::getMltMinDocFrequency »](solrquery.getmltmindocfrequency.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає максимальну довжину слова, вище за яку слова будуть
-ігноруватися
-
+---
+navigation:
+  - solrquery.getmltmaxnumtokens.md: '« SolrQuery::getMltMaxNumTokens'
+  - solrquery.getmltmindocfrequency.md: 'SolrQuery::getMltMinDocFrequency »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltMaxWordLength'
+---
 # SolrQuery::getMltMaxWordLength
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMltMaxWordLength — Повертає максимальну довжину слова,
-вище за яку слова ігноруватимуться
+SolrQuery::getMltMaxWordLength — Повертає максимальну довжину слова, вище за яку слова будуть ігноруватися
 
 ### Опис
 
-public **SolrQuery::getMltMaxWordLength**(): int
+```methodsynopsis
+public SolrQuery::getMltMaxWordLength(): int
+```
 
-Повертає максимальну довжину слова, вище за яку слова будуть
-ігноруватися.
+Повертає максимальну довжину слова, вище за яку слова ігноруватимуться.
 
 ### Список параметрів
 
@@ -26,5 +26,4 @@ public **SolrQuery::getMltMaxWordLength**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

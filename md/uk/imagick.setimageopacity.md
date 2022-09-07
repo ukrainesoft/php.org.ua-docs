@@ -1,43 +1,38 @@
-- [« Imagick::setImageMatteColor](imagick.setimagemattecolor.md)
-- [Imagick::setImageOrientation »](imagick.setimageorientation.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює рівень непрозорості зображення
-
+---
+navigation:
+  - imagick.setimagemattecolor.md: '« Imagick::setImageMatteColor'
+  - imagick.setimageorientation.md: 'Imagick::setImageOrientation »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageOpacity'
+---
 # Imagick::setImageOpacity
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageOpacity — Встановлює рівень непрозорості
-зображення
+Imagick::setImageOpacity — Встановлює непрозорість зображення.
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::setImageOpacity**(float `$opacity`): bool
+```methodsynopsis
+public Imagick::setImageOpacity(float $opacity): bool
+```
 
-Встановлює зображення на вказаний рівень непрозорості. Цей
-метод доступний, якщо Imagick був скомпільований з версією ImageMagick
-6.3.1 чи старше. Метод працює з усіма каналами, що означає,
-наприклад, що значення непрозорості 0.5 зробить усі прозорі області
-частково непрозорими. Щоб додати прозорості в області, які
-ще непрозорі, використовуйте
-[Imagick::evaluateImage()](imagick.evaluateimage.md).
+Встановлює зображення на вказаний рівень непрозорості. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.1 або старшим. Метод працює з усіма каналами, що означає, наприклад, значення непрозорості 0.5 зробить всі прозорі області частково непрозорими. Щоб додати прозорості в області, які ще непрозорі, використовуйте [Imagick::evaluateImage()](imagick.evaluateimage.md)
 
 ### Список параметрів
 
 `opacity`
-Рівень прозорості: 1.0 – повністю непрозорий, а 0.0 – повністю
-прозорий. transparent.
+
+Рівень прозорості: 1.0 – повністю непрозорий, а 0.0 – повністю прозорий. transparent.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -45,4 +40,17 @@ public **Imagick::setImageOpacity**(float `$opacity`): bool
 
 Приклад використання Imagick::setImageOpacity().
 
-` <?php/* Створення об'єкта */$image = new Imagick('source.png');/* Установка непрозорості */$image->setImageOpacity(0.7);/* Висновок зображення */header('Conte : image/png');echo $image;?> `
+```php
+<?php
+/* Создание объекта */
+$image = new Imagick('source.png');
+
+/* Установка непрозрачности */
+$image->setImageOpacity(0.7);
+
+/* Вывод изображения */
+header('Content-type: image/png');
+echo $image;
+
+?>
+```

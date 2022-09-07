@@ -1,32 +1,31 @@
-- [« SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.md)
-- [SolrQuery::setHighlightRegexPattern »](solrquery.sethighlightregexpattern.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Задає максимальну кількість символів для аналізу
-
+---
+navigation:
+  - solrquery.sethighlightmergecontiguous.md: '« SolrQuery::setHighlightMergeContiguous'
+  - solrquery.sethighlightregexpattern.md: 'SolrQuery::setHighlightRegexPattern »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightRegexMaxAnalyzedChars'
+---
 # SolrQuery::setHighlightRegexMaxAnalyzedChars
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightRegexMaxAnalyzedChars — Задає максимальне
-кількість символів для аналізу
+SolrQuery::setHighlightRegexMaxAnalyzedChars — Задає максимальну кількість символів для аналізу
 
 ### Опис
 
-public **SolrQuery::setHighlightRegexMaxAnalyzedChars**(int
-`$maxAnalyzedChars`): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightRegexMaxAnalyzedChars(int $maxAnalyzedChars): SolrQuery
+```
 
-Задає максимальну кількість символів для аналізу з поля
-використання фрагментера регулярного вираження
+Задає максимальну кількість символів для аналізу з поля під час використання фрагментера регулярного виразу
 
 ### Список параметрів
 
 `maxAnalyzedChars`
-Максимальна кількість символів для аналізу з поля під час використання
-фрагментера регулярного вираження
+
+Максимальна кількість символів для аналізу з поля під час використання фрагментера регулярного виразу
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

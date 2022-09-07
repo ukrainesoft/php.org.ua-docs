@@ -1,45 +1,46 @@
-- [«uopz_set_mock](function.uopz-set-mock.md)
-- [uopz_set_return »](function.uopz-set-return.md)
-
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Встановлює значення існуючої властивості класу чи екземпляра
-
-#uopz_set_property
+---
+navigation:
+  - function.uopz-set-mock.md: « uopzsetmock
+  - function.uopz-set-return.md: uopzsetreturn »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzsetproperty
+---
+# uopzsetproperty
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopz_set_property — Встановлює значення існуючої властивості класу
-або екземпляра
+uopzsetproperty — Встановлює значення існуючої властивості класу або екземпляра
 
 ### Опис
 
-**uopz_set_property**(string `$class`, string `$property`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+uopz_set_property(string $class, string $property, mixed $value): void
+```
 
-**uopz_set_property**(object `$instance`, string `$property`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+uopz_set_property(object $instance, string $property, mixed $value): void
+```
 
-Задає значення статичної властивості класу, якщо заданий
-клас (`class`), або значення існуючої властивості екземпляра (поза
-залежно від того, чи існує властивість екземпляра), якщо переданий
-екземпляр ('instance').
+Задає значення статичної властивості класу, якщо заданий клас (`class`), або значення існуючої властивості екземпляра (незалежно від того, чи існує властивість екземпляра), якщо передано екземпляр (`instance`
 
 ### Список параметрів
 
 `class`
+
 Назва класу.
 
 `instance`
+
 Примірник об'єкта.
 
 `property`
+
 Ім'я якості.
 
 `value`
-Значення, яке присвоюється властивістю.
+
+Значення, що присвоюється властивістю.
 
 ### Значення, що повертаються
 
@@ -47,15 +48,34 @@ uopz_set_property — Встановлює значення існуючої в�
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopz_set_property()****
+**Приклад #1 Просте використання **uopzsetproperty()****
 
-`<?phpclass Foo {   private static $staticBar; private $bar; public static function testStaticBar() {     return self::$staticBar; }   public function testBar() {     return $this->bar; }}$foo = new Foo;uopz_set_property('Foo', 'staticBar', 10);uopz_set_property($foo, 'bar', 100);var_dump(Foo::testStaticBar() ());?> `
+```php
+<?php
+class Foo {
+   private static $staticBar;
+   private $bar;
+   public static function testStaticBar() {
+      return self::$staticBar;
+   }
+   public function testBar() {
+      return $this->bar;
+   }
+}
+$foo = new Foo;
+uopz_set_property('Foo', 'staticBar', 10);
+uopz_set_property($foo, 'bar', 100);
+var_dump(Foo::testStaticBar());
+var_dump($foo->testBar());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(10)
+```
 
 ### Дивіться також
 
-- [uopz_get_property()](function.uopz-get-property.md) - Отримує
-значення класу або властивість екземпляра
+-   [uopzgetproperty()](function.uopz-get-property.md) - Отримує значення класу або властивість екземпляра

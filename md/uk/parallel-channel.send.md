@@ -1,21 +1,20 @@
-- [« parallel\Channel::recv](parallel-channel.recv.md)
-- [parallel\Channel::close »](parallel-channel.close.md)
+---
+navigation:
+  - parallel-channel.recv.md: '« parallelChannel::recv'
+  - parallel-channel.close.md: 'parallelChannel::close »'
+  - index.md: PHP Manual
+  - class.parallel-channel.md: parallelChannel
+title: 'parallelChannel::send'
+---
+# parallelChannel::send
 
-- [PHP Manual](index.md)
-- [parallel\Channel](class.parallel-channel.md)
--   Спільне використання
-
-# parallel\Channel::send
-
-(0.9.0)
-
-parallel\Channel::send — Спільне використання
+parallelChannel::send — Спільне використання
 
 ### Опис
 
-public
-**parallel\Channel::send**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public parallel\Channel::send(mixed $value): void
+```
 
 Відправляє задане значення каналу
 
@@ -23,9 +22,8 @@ public
 
 **Увага**
 
-Викидає parallel\Channel\Error\Closed, якщо канал закритий.
+Викидає parallelChannelErrorClosed, якщо канал закритий.
 
 **Увага**
 
-Викидає parallel\Channel\Error\IllegalValue, якщо значення
-неприпустимо.
+Викидає parallelChannelErrorIlegallegal, якщо значення неприпустимо.

@@ -1,20 +1,22 @@
-- [« swoole_event_add](function.swoole-event-add.md)
-- [swoole_event_del »](function.swoole-event-del.md)
+---
+navigation:
+  - function.swoole-event-add.md: « swooleeventadd
+  - function.swoole-event-del.md: swooleeventdel »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleeventdefer
+---
+# swooleeventdefer
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Додати callback-функцію до наступного циклу подій
+(PECL swoole >= 1.9.0)
 
-# swoole_event_defer
-
-(PECL swoole \>= 1.9.0)
-
-swoole_event_defer — Додати callback-функцію до наступного циклу подій
+swooleeventdefer — Додати callback-функцію до наступного циклу подій
 
 ### Опис
 
-**swoole_event_defer**([callable](language.types.callable.md)
-`$callback`): bool
+```methodsynopsis
+swoole_event_defer(callable $callback): bool
+```
 
 ### Список параметрів
 
@@ -22,5 +24,4 @@ swoole_event_defer — Додати callback-функцію до наступн�
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

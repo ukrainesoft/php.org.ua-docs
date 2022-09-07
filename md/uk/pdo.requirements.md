@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](pdo.setup.md)
-- [Установка »](pdo.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](pdo.setup.md)
-- Вимоги
-
+---
+navigation:
+  - pdo.setup.md: « Встановлення та налаштування
+  - pdo.installation.md: Установка »
+  - index.md: PHP Manual
+  - pdo.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

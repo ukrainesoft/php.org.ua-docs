@@ -1,19 +1,20 @@
-- [«SolrInputDocument::\_\_clone](solrinputdocument.clone.md)
-- [SolrInputDocument::deleteField »](solrinputdocument.deletefield.md)
+---
+navigation:
+  - solrinputdocument.clone.md: '« SolrInputDocument::clone'
+  - solrinputdocument.deletefield.md: 'SolrInputDocument::deleteField »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::construct'
+---
+# SolrInputDocument::construct
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Конструктор
+(PECL solr> = 0.9.2)
 
-# SolrInputDocument::\_\_construct
-
-(PECL solr \> = 0.9.2)
-
-SolrInputDocument::\_\_construct — Конструктор
+SolrInputDocument::construct — Конструктор
 
 ### Опис
 
-public **SolrInputDocument::\_\_construct**()
+public **SolrInputDocument::construct**
 
 Конструктор.
 

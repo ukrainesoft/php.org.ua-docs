@@ -1,21 +1,22 @@
-- [« SplPriorityQueue::count](splpriorityqueue.count.md)
-- [SplPriorityQueue::extract »](splpriorityqueue.extract.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Повертає поточний вузол, на який вказує ітератор
-
+---
+navigation:
+  - splpriorityqueue.count.md: '« SplPriorityQueue::count'
+  - splpriorityqueue.extract.md: 'SplPriorityQueue::extract »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::current'
+---
 # SplPriorityQueue::current
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplPriorityQueue::current — Повертає поточний вузол, на який
-вказує ітератор
+SplPriorityQueue::current — Повертає поточний вузол, на який вказує ітератор
 
 ### Опис
 
-public **SplPriorityQueue::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplPriorityQueue::current(): mixed
+```
 
 Повертає структуру даних поточного сайту.
 
@@ -25,5 +26,4 @@ public **SplPriorityQueue::current**():
 
 ### Значення, що повертаються
 
-Значення або пріоритет (або те й інше) поточного вузла в залежності
-від заданого прапора.
+Значення або пріоритет (або те й інше) поточного вузла в залежності від заданого прапора.

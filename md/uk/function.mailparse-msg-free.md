@@ -1,37 +1,36 @@
-- [« mailparse_msg_extract_whole_part_file](function.mailparse-msg-extract-whole-part-file.md)
-- [mailparse_msg_get_part_data »](function.mailparse-msg-get-part-data.md)
+---
+navigation:
+  - function.mailparse-msg-extract-whole-part-file.md: « mailparsemsgextractwholepartfile
+  - function.mailparse-msg-get-part-data.md: mailparsemsggetpartdata »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsgfree
+---
+# mailparsemsgfree
 
-- [PHP Manual](index.md)
-- [Mailparse](ref.mailparse.md)
-- Вивільнити MIME-ресурс
+(PECL mailparse >= 0.9.0)
 
-#mailparse_msg_free
-
-(PECL mailparse \>= 0.9.0)
-
-mailparse_msg_free — Вивільнити MIME-ресурс
+mailparsemsgfree — Вивільнити MIME-ресурс
 
 ### Опис
 
-**mailparse_msg_free**(resource `$mimemail`): bool
+```methodsynopsis
+mailparse_msg_free(resource $mimemail): bool
+```
 
-Вивільняє `MIME`-ресурс.
+Вивільняє `MIME`ресурс.
 
 ### Список параметрів
 
 `mimemail`
-Коректний `MIME`-ресурс, створений
-[mailparse_msg_create()](function.mailparse-msg-create.md) або
-[mailparse_msg_parse_file()](function.mailparse-msg-parse-file.md).
+
+Коректний `MIME`ресурс, створений [mailparsemsgcreate()](function.mailparse-msg-create.md) або [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [mailparse_msg_create()](function.mailparse-msg-create.md) -
-Створює поштовий MIME-ресурс
-- [mailparse_msg_parse_file()](function.mailparse-msg-parse-file.md) -
-Розібрати файл
+-   [mailparsemsgcreate()](function.mailparse-msg-create.md) - Створює поштовий MIME-ресурс
+-   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md) - Розібрати файл

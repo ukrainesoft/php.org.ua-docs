@@ -1,24 +1,25 @@
-- [«UI\Controls\Picker](class.ui-controls-picker.md)
-- [UI\Controls\Form »](class.ui-controls-form.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Picker](class.ui-controls-picker.md)
-- Створює новий об'єкт Picker
-
-# UI\Controls\Picker::\_\_construct
+---
+navigation:
+  - class.ui-controls-picker.md: « UIControlsPicker
+  - class.ui-controls-form.md: ОЙControlsForm »
+  - index.md: PHP Manual
+  - class.ui-controls-picker.md: ОЙControlsPicker
+title: 'ОЙControlsPicker::construct'
+---
+# ОЙControlsPicker::construct
 
 (UI 0.9.9)
 
-UI\Controls\Picker::\_\_construct — Створює новий об'єкт Picker
+ОЙControlsPicker::construct — Створює новий об'єкт Picker
 
 ### Опис
 
-public **UI\Controls\Picker::\_\_construct**(int `$type` =
-UI\Controls\Picker::Date)
+public **ОЙControlsPicker::construct**(int `$type` = UIControlsPicker::Date)
 
 Створити новий об'єкт Picker заданого типу
 
 ### Список параметрів
 
 `type`
+
 Picker::Date, Picker::Time або Picker::DateTime

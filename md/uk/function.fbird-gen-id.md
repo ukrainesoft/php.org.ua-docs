@@ -1,17 +1,17 @@
-- [«fbird_free_result](function.fbird-free-result.md)
-- [fbird_maintain_db »](function.fbird-maintain-db.md)
+---
+navigation:
+  - function.fbird-free-result.md: « fbirdfreeresult
+  - function.fbird-maintain-db.md: fbirdmaintaindb »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdгенід
+---
+# fbirdгенід
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_gen_id
+(PHP 5, PHP 7 < 7.4.0)
 
-#fbird_gen_id
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-fbird_gen_id - Псевдонім [ibase_gen_id()](function.ibase-gen-id.md)
+fbirdгенid - Псевдонім [ibasegenid()](function.ibase-gen-id.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_gen_id()](function.ibase-gen-id.md).
+Ця функція є псевдонімом: [ibasegenid()](function.ibase-gen-id.md)

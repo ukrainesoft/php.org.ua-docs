@@ -1,51 +1,49 @@
-- [«fdf_get_status](function.fdf-get-status.md)
-- [fdf_get_version »](function.fdf-get-version.md)
+---
+navigation:
+  - function.fdf-get-status.md: « fdfgetstatus
+  - function.fdf-get-version.md: fdfgetversion »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetvalue
+---
+# fdfgetvalue
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Отримує значення поля
+(PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-#fdf_get_value
-
-(PHP 4, PHP 5 \< 5.3.0, PECL fdf SVN)
-
-fdf_get_value — Отримує значення поля
+fdfgetvalue — Отримує значення поля
 
 ### Опис
 
-**fdf_get_value**(resource `$fdf_document`, string `$fieldname`, int
-`$which` = -1):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
+```
 
 Отримує значення запрошеного поля.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
+
 Ім'я поля FDF у вигляді рядка.
 
 `which`
-Елементи поля масиву можна отримати, передавши цей необов'язковий
-параметр, починаючи з нуля. Для полів без масиву цей параметр буде
-проігноровано.
+
+Елементи поля масиву можна отримати, передавши цей параметр, починаючи з нуля. Для полів без масиву цей параметр буде проігноровано.
 
 ### Значення, що повертаються
 
 Повертає значення поля.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                         |
-| ------ | -------------------------------------------- |
-| 4.3.0  | Додана підтримка масивів та параметра which. |
+| Версия | Описание |
+| --- | --- |
+|  | Додана підтримка масивів та параметра `which` |
 
 ### Дивіться також
 
-- [fdf_set_value()](function.fdf-set-value.md) - Встановлює
-значення поля
+-   [fdfsetvalue()](function.fdf-set-value.md) - Встановлює значення поля

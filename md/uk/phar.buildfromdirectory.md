@@ -1,74 +1,72 @@
-- [« Phar::apiVersion](phar.apiversion.md)
-- [Phar::buildFromIterator »](phar.buildfromiterator.md)
-
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Створює phar-архів із файлів, розташованих усередині директорії
-
+---
+navigation:
+  - phar.apiversion.md: '« Phar::apiVersion'
+  - phar.buildfromiterator.md: 'Phar::buildFromIterator »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::buildFromDirectory'
+---
 # Phar::buildFromDirectory
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-Phar::buildFromDirectory — Створює phar-архів із файлів, розташованих
-всередині директорії
+Phar::buildFromDirectory — Створює phar-архів із файлів, розташованих усередині директорії
 
 ### Опис
 
-public **Phar::buildFromDirectory**(string `$directory`, string
-`$pattern` = ""): array
+```methodsynopsis
+public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
+```
 
-> **Примітка**:
->
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цим методом
-> необхідна установка значення `php.ini` `phar.readonly` у `0`. В
-> інакше, буде викинуто виняток
-> [PharException](class.pharexception.md).
+> **Зауваження**
+> 
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Заповнює phar-архів вмістом директорії. Необов'язковий другий
-параметр є регулярним виразом (PCRE) і використовується для
-виключення файлів. Будь-який файл, ім'я якого відповідає регулярному
-виразу, буде включений, решта буде виключено. Для більш
-деталізованого контролю використовуйте
-[Phar::buildFromIterator()](phar.buildfromiterator.md).
+Заповнює phar-архів вмістом директорії. Необов'язковий другий параметр є регулярним виразом (PCRE) та використовується для виключення файлів. Будь-який файл, ім'я якого відповідає регулярному виразу, буде включений, всі інші будуть виключені. Для більш детального контролю використовуйте [Phar::buildFromIterator()](phar.buildfromiterator.md)
 
 ### Список параметрів
 
 `directory`
-Повний або абсолютний шлях до директорії, всі файли якої мають бути
-додано до архіву.
+
+Повний або абсолютний шлях до директорії, всі файли якої мають бути додані до архіву.
 
 `pattern`
-Необов'язковий регулярний вираз (PCRE), який використовується для
-фільтрування списку файлів. До архіву будуть включені тільки ті файли, шляхи до
-яким відповідають регулярному виразу.
+
+Необов'язковий регулярний вираз (PCRE), який використовується для фільтрації списку файлів. До архіву будуть включені лише ті файли, шляхи до яких відповідають регулярному виразу.
 
 ### Значення, що повертаються
 
-**Phar::buildFromDirectory()** повертає асоціативний масив, в
-якому відображено відповідність шляху до файлу всередині архіву до шляху до файлу
-у файловій системі.
+**Phar::buildFromDirectory()** повертає асоціативний масив, в якому відображено відповідність шляху до файлу всередині архіву до шляху до файлу у файловій системі.
 
 ### Помилки
 
-Цей метод викидає виняток
-[BadMethodCallException](class.badmethodcallexception.md) у тому
-у випадку, якщо не вдалося створити екземпляр ітератора внутрішніх
-директорій. Виняток [PharException](class.pharexception.md)
-викидається у разі помилок збереження phar-архіву.
+Цей метод викидає виняток [BadMethodCallException](class.badmethodcallexception.md) у разі, якщо не вдалося створити примірник ітератора внутрішніх директорій. Виняток [PharException](class.pharexception.md) викидається у разі помилок збереження phar-архіву.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                  |
-| ------ | --------------------------------------------------------------------- |
-| 8.1.0  | **Phar::buildFromDirectory()** більше не повертає значення **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::buildFromDirectory()****
 
-`<?php// створити з псевдонімом "project.phar"$phar = new Phar('project.phar', 0, 'project.phar');// додати все файли директорії project в файл$ >buildFromDirectory(dirname(__FILE__) . '/project');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));$phar2 = new Phar( 'project2.phar', 0, 'project2.phar');// додати всі файли директорії project в файл project2.phar, включаючи тільки php-файли$phar2->buildFromDirectory(' (' |' /\.php$/');$phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+```php
+<?php
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
+// добавить все файлы директории project в файл project.phar
+$phar->buildFromDirectory(dirname(__FILE__) . '/project');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+
+$phar2 = new Phar('project2.phar', 0, 'project2.phar');
+// добавить все файлы директории project в файл project2.phar, включая только php-файлы
+$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
+$phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+?>
+```
 
 ### Дивіться також
 
-- [Phar::buildFromIterator()](phar.buildfromiterator.md) - Створює
-phar-архів з ітератора
+-   [Phar::buildFromIterator()](phar.buildfromiterator.md) - Створює phar-архів із ітератора

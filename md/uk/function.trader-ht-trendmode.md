@@ -1,26 +1,29 @@
-- [« trader_ht_trendline](function.trader-ht-trendline.md)
-- [trader_kama »](function.trader-kama.md)
+---
+navigation:
+  - function.trader-ht-trendline.md: « traderхтtrendline
+  - function.trader-kama.md: traderkama »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтtrendmode
+---
+# traderхтtrendmode
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Перетворення Гільберта – тренд проти циклу
+(PECL trader >= 0.2.0)
 
-#trader_ht_trendmode
-
-(PECL trader \>= 0.2.0)
-
-trader_ht_trendmode - Перетворення Гільберта - тренд проти циклу
+traderхтtrendmode - Перетворення Гільберта - тренд проти циклу
 
 ### Опис
 
-**trader_ht_trendmode**(array `$real`): array
+```methodsynopsis
+trader_ht_trendmode(array $real): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,20 +1,22 @@
-- [« Yaf_Response_Abstract::setBody](yaf-response-abstract.setbody.md)
-- [Yaf_Response_Abstract::setRedirect »](yaf-response-abstract.setredirect.md)
+---
+navigation:
+  - yaf-response-abstract.setbody.md: '« YafResponseAbstract::setBody'
+  - yaf-response-abstract.setredirect.md: 'YafResponseAbstract::setRedirect »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
+title: 'YafResponseAbstract::setHeader'
+---
+# YafResponseAbstract::setHeader
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- Встановлює заголовок відповіді
+(Yaf >=1.0.0)
 
-# Yaf_Response_Abstract::setHeader
-
-(Yaf \>=1.0.0)
-
-Yaf_Response_Abstract::setHeader — Встановлює заголовок відповіді
+YafResponseAbstract::setHeader — Встановлює заголовок відповіді
 
 ### Опис
 
-public **Yaf_Response_Abstract::setHeader**(string `$name`, string
-`$value`, bool `$replace` = ?): bool
+```methodsynopsis
+public Yaf_Response_Abstract::setHeader(string $name, string $value, bool $replace = ?): bool
+```
 
 Використовується для надсилання заголовка HTTP
 
@@ -26,6 +28,5 @@ public **Yaf_Response_Abstract::setHeader**(string `$name`, string
 
 ### Дивіться також
 
-- [Yaf_Response_Abstract::getHeader()](yaf-response-abstract.getheader.md) -
-Призначення getHeader
-- **Yaf_Response_Abstract::cleanHeaders()**
+-   [YafResponseAbstract::getHeader()](yaf-response-abstract.getheader.md) - Призначення getHeader
+-   **YafResponseAbstract::cleanHeaders()**

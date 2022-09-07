@@ -1,19 +1,22 @@
-- [« Yaf_Action_Abstract::getController](yaf-action-abstract.getcontroller.md)
-- [Yaf_View_Interface »](class.yaf-view-interface.md)
-
-- [PHP Manual](index.md)
-- [Yaf_Action_Abstract](class.yaf-action-abstract.md)
-- Отримує ім'я контролера
-
-# Yaf_Action_Abstract::getControllerName
+---
+navigation:
+  - yaf-action-abstract.getcontroller.md: '« YafActionAbstract::getController'
+  - class.yaf-view-interface.md: YafViewInterface »
+  - index.md: PHP Manual
+  - class.yaf-action-abstract.md: YafActionAbstract
+title: 'YafActionAbstract::getControllerName'
+---
+# YafActionAbstract::getControllerName
 
 (No version information available, might only be in Git)
 
-Yaf_Action_Abstract::getControllerName — Отримує ім'я контролера
+YafActionAbstract::getControllerName — Отримує ім'я контролера
 
 ### Опис
 
-public **Yaf_Action_Abstract::getControllerName**(): string
+```methodsynopsis
+public Yaf_Action_Abstract::getControllerName(): string
+```
 
 Отримує ім'я контролера
 

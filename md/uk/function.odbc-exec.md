@@ -1,44 +1,46 @@
-- [«odbc_errormsg](function.odbc-errormsg.md)
-- [odbc_execute »](function.odbc-execute.md)
-
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Виконує інструкцію SQL безпосередньо
-
-#odbc_exec
+---
+navigation:
+  - function.odbc-errormsg.md: « odbcerrormsg
+  - function.odbc-execute.md: odbcexecute »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcexec
+---
+# odbcexec
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_exec — Виконує інструкцію SQL безпосередньо
+odbcexec — Виконує інструкцію SQL безпосередньо
 
 ### Опис
 
-**odbc_exec**(resource `$odbc`, string `$query`): resource\|false
+```methodsynopsis
+odbc_exec(resource $odbc, string $query): resource|false
+```
 
 Надсилає інструкцію SQL на сервер бази даних.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 `query`
+
 Інструкція SQL.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC, якщо команда SQL була
-виконано успішно, або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC, якщо команда SQL була успішно виконана, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                          |
-| ------ | ----------------------------- |
-| 8.0.0  | Параметр flags був вилучений. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `flags` був видалений. |
 
 ### Дивіться також
 
-- [odbc_prepare()](function.odbc-prepare.md) - Підготовка запиту
-до виконання
-- [odbc_execute()](function.odbc-execute.md) - Виконує запит
+-   [odbcprepare()](function.odbc-prepare.md) - готує запит до виконання
+-   [odbcexecute()](function.odbc-execute.md) - Виконує запит

@@ -1,121 +1,145 @@
-- [« tidy::root](tidy.root.md)
-- [tidyNode::\_\_construct »](tidynode.construct.md)
-
-- [PHP Manual](index.md)
-- [Tidy](book.tidy.md)
-- Клас tidyNode
-
+---
+navigation:
+  - tidy.root.md: '« tidy::root'
+  - tidynode.construct.md: 'tidyNode::construct »'
+  - index.md: PHP Manual
+  - book.tidy.md: Tidy
+title: 'Клас tidyNode'
+---
 # Клас [tidyNode](class.tidynode.md)
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-An HTML node in an HTML file, as detected by tidy.
+У HTML-коді не в HTML-файлі, як виявлено тиді.
 
 ## Огляд класів
 
-final class **tidyNode** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly string $value;
+    
+     
+      final
+      class tidyNode
+     
+     {
 
-public readonly string `$name`;
+    /* Свойства */
+    
+     public
+     readonly
+     string
+      $value;
 
-public readonly int `$type`;
+    public
+     readonly
+     string
+      $name;
 
-public readonly int `$line`;
+    public
+     readonly
+     int
+      $type;
 
-public readonly int `$column`;
+    public
+     readonly
+     int
+      $line;
 
-public readonly bool `$proprietary`;
+    public
+     readonly
+     int
+      $column;
 
-public readonly ?int `$id`;
+    public
+     readonly
+     bool
+      $proprietary;
 
-public readonly ?array `$attribute`;
+    public
+     readonly
+     ?int
+      $id;
 
-public readonly ?array `$child`;
+    public
+     readonly
+     ?array
+      $attribute;
 
-/\* Методи \*/
+    public
+     readonly
+     ?array
+      $child;
 
-private [\_\_construct](tidynode.construct.md)()
 
-public [getParent](tidynode.getparent.md)():
-?[tidyNode](class.tidynode.md)
+    /* Методы */
+    
+   private __construct()
 
-public [hasChildren](tidynode.haschildren.md)(): bool
+    public getParent(): ?tidyNode
+public hasChildren(): bool
+public hasSiblings(): bool
+public isAsp(): bool
+public isComment(): bool
+public isHtml(): bool
+public isJste(): bool
+public isPhp(): bool
+public isText(): bool
 
-public [hasSiblings](tidynode.hassiblings.md)(): bool
-
-public [isAsp](tidynode.isasp.md)(): bool
-
-public [isComment](tidynode.iscomment.md)(): bool
-
-public [isHtml](tidynode.ishtml.md)(): bool
-
-public [isJste](tidynode.isjste.md)(): bool
-
-public [isPhp](tidynode.isphp.md)(): bool
-
-public [isText](tidynode.istext.md)(): bool
-
-}
+   }
+```
 
 ## Властивості
 
-`value`
+value
+
 HTML-подання вузла, включаючи навколишні теги.
 
-`name`
+name
+
 Назва HTML-вузла
 
-`type`
-Тип тега (одна з
-[констант](tidy.constants.md#tidy.constants.nodetype), описаних вище,
-наприклад **`TIDY_NODETYPE_PHP`**)
+type
 
-`line`
+Тип тега (одна з [констант](tidy.constants.md#tidy.constants.nodetype), описаних вище, наприклад **`TIDY_NODETYPE_PHP`**
+
+line
+
 Номер рядка, на якому розташований тег у файлі
 
-`column`
+column
+
 Номер стовпця, на якому розташований тег у файлі
 
-`proprietary`
+proprietary
+
 Ознака пропрієтарності тега
 
-`id`
-Ідентифікатор тега (одна з
-[констант](tidy.constants.md#tidy.constants.tag), описаних вище,
-наприклад **`TIDY_TAG_FRAME`**)
+ід
 
-`attribute`
-Масив рядків, що представляють імена атрибутів (як ключі)
-поточного вузла.
+Ідентифікатор тега (одна з [констант](tidy.constants.md#tidy.constants.tag), описаних вище, наприклад **`TIDY_TAG_FRAME`**
 
-`child`
-Масив, що складається з екземплярів **tidyNode**, що представляє дітей
-поточного вузла.
+attribute
+
+Масив рядків, що представляють імена атрибутів (як ключі) поточного вузла.
+
+child
+
+Масив, що складається з екземплярів **tidyNode**представляє дітей поточного вузла.
 
 ## Зміст
 
-- [tidyNode::\_\_construct](tidynode.construct.md) - Приватний
-конструктор, який унеможливлює пряме створення об'єкта
-- [tidyNode::getParent](tidynode.getparent.md) — Повертає
-батьківський вузол поточного вузла
-- [tidyNode::hasChildren](tidynode.haschildren.md) — Перевіряє
-існування нащадків біля вузла
-- [tidyNode::hasSiblings](tidynode.hassiblings.md) — Перевіряє
-існування сусідніх вузлів
-- [tidyNode::isAsp](tidynode.isasp.md) — Перевіряє поточний вузол на
-відповідність ASP
-- [tidyNode::isComment](tidynode.iscomment.md) — Перевіряє, чи є
-чи вузол коментарем
-- [tidyNode::isHtml](tidynode.ishtml.md) — Перевіряє, чи є
-вузол вузлом елемента
-- [tidyNode::isJste](tidynode.isjste.md) — Перевіряє поточний вузол на
-відповідність JSTE
-- [tidyNode::isPhp](tidynode.isphp.md) — Перевіряє, чи є
-поточний вузол PHP-кодом
-- [tidyNode::isText](tidynode.istext.md) — Перевіряє, чи є
-поточний вузол звичайним текстом (не розміткою)
+-   [tidyNode::construct](tidynode.construct.md) — Приватний конструктор, який унеможливлює пряме створення об'єкта
+-   [tidyNode::getParent](tidynode.getparent.md) - Повертає батьківський вузол поточного вузла
+-   [tidyNode::hasChildren](tidynode.haschildren.md) - Перевіряє існування нащадків біля вузла
+-   [tidyNode::hasSiblings](tidynode.hassiblings.md) - Перевіряє існування сусідніх вузлів
+-   [tidyNode::isAsp](tidynode.isasp.md) — Перевіряє поточний вузол на відповідність ASP
+-   [tidyNode::isComment](tidynode.iscomment.md) — Перевіряє, чи є вузол коментарем
+-   [tidyNode::isHtml](tidynode.ishtml.md) — Перевіряє, чи є вузол вузлом елемента
+-   [tidyNode::isJste](tidynode.isjste.md) — Перевіряє поточний вузол на відповідність JSTE
+-   [tidyNode::isPhp](tidynode.isphp.md) — Перевіряє, чи є поточний вузол PHP-кодом
+-   [tidyNode::isText](tidynode.istext.md) — Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)

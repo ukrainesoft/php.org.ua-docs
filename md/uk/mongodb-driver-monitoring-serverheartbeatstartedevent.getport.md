@@ -1,22 +1,22 @@
-- [« MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost'
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDBDriverMonitoringServerHeartbeatStartedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort'
+---
+# MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.md)
-- Повертає порт, на якому прослуховується сервер
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort
-Повертає порт, на якому прослуховується сервер
+MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort — Повертає порт, на якому прослуховується сервер
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort**():
-int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort(): int
+```
 
 ### Список параметрів
 
@@ -28,5 +28,4 @@ int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

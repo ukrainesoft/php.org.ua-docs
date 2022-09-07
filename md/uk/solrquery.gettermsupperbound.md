@@ -1,19 +1,22 @@
-- [«SolrQuery::getTermsSort](solrquery.gettermssort.md)
-- [SolrQuery::getTimeAllowed »](solrquery.gettimeallowed.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає вираз для зупинки
-
+---
+navigation:
+  - solrquery.gettermssort.md: '« SolrQuery::getTermsSort'
+  - solrquery.gettimeallowed.md: 'SolrQuery::getTimeAllowed »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsUpperBound'
+---
 # SolrQuery::getTermsUpperBound
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getTermsUpperBound — Повертає вираз для зупинки
 
 ### Опис
 
-public **SolrQuery::getTermsUpperBound**(): string
+```methodsynopsis
+public SolrQuery::getTermsUpperBound(): string
+```
 
 Повертає вираз для зупинки
 
@@ -23,5 +26,4 @@ public **SolrQuery::getTermsUpperBound**(): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає рядок і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає рядок та **`null`**, якщо значення не встановлено.

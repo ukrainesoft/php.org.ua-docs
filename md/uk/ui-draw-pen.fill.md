@@ -1,33 +1,39 @@
-- [«UI\Draw\Pen::clip](ui-draw-pen.clip.md)
-- [UI\Draw\Pen::restore »](ui-draw-pen.restore.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Pen](class.ui-draw-pen.md)
-- Залити шлях
-
-# UI\Draw\Pen::fill
+---
+navigation:
+  - ui-draw-pen.clip.md: '« UIDrawPen::clip'
+  - ui-draw-pen.restore.md: 'ОЙDrawPen::restore »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.md: ОЙDrawPen
+title: 'ОЙDrawPen::fill'
+---
+# ОЙDrawPen::fill
 
 (UI 0.9.9)
 
-UI\Draw\Pen::fill — Залити шлях
+ОЙDrawPen::fill - Залити шлях
 
 ### Опис
 
-public **UI\Draw\Pen::fill**([UI\Draw\Path](class.ui-draw-path.md)
-`$path`, [UI\Draw\Brush](class.ui-draw-brush.md) `$with`)
+```methodsynopsis
+public UI\Draw\Pen::fill(UI\Draw\Path $path, UI\Draw\Brush $with)
+```
 
-public **UI\Draw\Pen::fill**([UI\Draw\Path](class.ui-draw-path.md)
-`$path`, [UI\Draw\Color](class.ui-draw-color.md) `$with`)
+```methodsynopsis
+public UI\Draw\Pen::fill(UI\Draw\Path $path, UI\Draw\Color $with)
+```
 
-public **UI\Draw\Pen::fill**([UI\Draw\Path](class.ui-draw-path.md)
-`$path`, int `$with`)
+```methodsynopsis
+public UI\Draw\Pen::fill(UI\Draw\Path $path, int $with)
+```
 
 Заливає заданий шлях
 
 ### Список параметрів
 
 `path`
+
 Шлях для заливання
 
 `with`
+
 Колір або пензель для заливки

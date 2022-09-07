@@ -1,20 +1,22 @@
-- [« ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
-- [ReflectionMethod::isFinal »](reflectionmethod.isfinal.md)
-
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Перевіряє, чи є метод деструктором
-
+---
+navigation:
+  - reflectionmethod.isconstructor.md: '« ReflectionMethod::isConstructor'
+  - reflectionmethod.isfinal.md: 'ReflectionMethod::isFinal »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::isDestructor'
+---
 # ReflectionMethod::isDestructor
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionMethod::isDestructor — Перевіряє, чи є метод
-деструктором
+ReflectionMethod::isDestructor — Перевіряє, чи є метод деструктором
 
 ### Опис
 
-public **ReflectionMethod::isDestructor**(): bool
+```methodsynopsis
+public ReflectionMethod::isDestructor(): bool
+```
 
 Перевіряє, чи є метод деструктором.
 
@@ -24,10 +26,8 @@ public **ReflectionMethod::isDestructor**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо метод є деструктором, **`false`** у протилежному
-випадку.
+**`true`**, якщо метод є деструктором, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) -
-Перевіряє, чи є метод конструктором
+-   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) - Перевіряє, чи є метод конструктором

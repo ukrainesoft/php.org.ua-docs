@@ -1,50 +1,56 @@
-- [«gmp_fact](function.gmp-fact.md)
-- [gmp_gcdext »](function.gmp-gcdext.md)
+---
+navigation:
+  - function.gmp-fact.md: « gmpfact
+  - function.gmp-gcdext.md: gmpgcdext »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpgcd
+---
+# gmpgcd
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Обчислення найбільшого загального дільника
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_gcd
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_gcd - Обчислення найбільшого загального дільника
+gmpgcd - Обчислення найбільшого спільного дільника
 
 ### Опис
 
-**gmp_gcd**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_gcd(GMP|int|string $num1, GMP|int|string $num2): GMP
+```
 
-Обчислює найбільший загальний дільник чисел `num1` та `num2`. Результат
-завжди позитивний, навіть якщо одне з чисел, або обидва негативні.
+Обчислює найбільший спільний дільник чисел `num1` і `num2`. Результат завжди позитивний, навіть якщо одне з чисел, або обидва негативні.
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Позитивний НОД чисел `num1` та `num2`.
+Позитивний НОД чисел `num1` і `num2`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_gcd()****
+**Приклад #1 Приклад використання **gmpgcd()****
 
-` <?php$gcd = gmp_gcd("12", "21");echo gmp_strval($gcd) . "
-";?> `
+```php
+<?php
+$gcd = gmp_gcd("12", "21");
+echo gmp_strval($gcd) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3
+```
 
 ### Дивіться також
 
-- [gmp_lcm()](function.gmp-lcm.md) - Обчислює найменше загальне
-кратне
+-   [gmplcm()](function.gmp-lcm.md) - обчислює найменше загальне кратне

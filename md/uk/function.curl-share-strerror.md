@@ -1,35 +1,36 @@
-- [«curl_share_setopt](function.curl-share-setopt.md)
-- [curl_strerror »](function.curl-strerror.md)
+---
+navigation:
+  - function.curl-share-setopt.md: « curlsharesetopt
+  - function.curl-strerror.md: curlstrerror »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlsharestrerror
+---
+# curlsharestrerror
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Повертає опис для заданого коду помилки
+(PHP 7> = 7.1.0, PHP 8)
 
-#curl_share_strerror
-
-(PHP 7 \>= 7.1.0, PHP 8)
-
-curl_share_strerror — Повертає опис для заданого коду помилки
+curlsharestrerror — Повертає опис для заданого коду помилки
 
 ### Опис
 
-**curl_share_strerror**(int `$error_code`): ?string
+```methodsynopsis
+curl_share_strerror(int $error_code): ?string
+```
 
 Повертає опис для заданого коду помилки.
 
 ### Список параметрів
 
 `error_code`
-Одна із констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
+
+Одна з констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 
-Повертає опис для заданого коду помилки або **`null`**, якщо
-такого коду немає.
+Повертає опис для заданого коду помилки або \*\*`null`\*\*якщо такого коду не існує.
 
 ### Дивіться також
 
-- [curl_share_errno()](function.curl-share-errno.md) - Повертає
-код останньої помилки оброблюваного обробника curl
-- [curl_strerror()](function.curl-strerror.md) - Отримати текстове
-опис для коду помилки
+-   [curlshareerrno()](function.curl-share-errno.md) - Повертає код останньої помилки оброблюваного обробника curl
+-   [curlstrerror()](function.curl-strerror.md) - Отримати текстовий опис для коду помилки

@@ -1,21 +1,24 @@
-- [« UI\Controls\Grid::isPadded](ui-controls-grid.ispadded.md)
-- [UI\Controls\Group »](class.ui-controls-group.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Grid](class.ui-controls-grid.md)
-- встановити заповнення
-
-# UI\Controls\Grid::setPadded
+---
+navigation:
+  - ui-controls-grid.ispadded.md: '« UIControlsGrid::isPadded'
+  - class.ui-controls-group.md: ОЙControlsGroup »
+  - index.md: PHP Manual
+  - class.ui-controls-grid.md: ОЙControlsGrid
+title: 'ОЙControlsGrid::setPadded'
+---
+# ОЙControlsGrid::setPadded
 
 (UI 0.9.9)
 
-UI\Controls\Grid::setPadded — Встановити заповнення
+ОЙControlsGrid::setPadded — Встановити заповнення
 
 ### Опис
 
-public **UI\Controls\Grid::setPadded**(bool `$padding`)
+```methodsynopsis
+public UI\Controls\Grid::setPadded(bool $padding)
+```
 
-Визначає, увімкнено або вимкнено заповнення у цій сітці
+Визначає, увімкнено або вимкнено заповнення в даній сітці
 
 ### Список параметрів
 

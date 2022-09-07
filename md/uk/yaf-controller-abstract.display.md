@@ -1,20 +1,22 @@
-- [« Yaf_Controller_Abstract::\_\_construct](yaf-controller-abstract.construct.md)
-- [Yaf_Controller_Abstract::forward »](yaf-controller-abstract.forward.md)
+---
+navigation:
+  - yaf-controller-abstract.construct.md: '« YafControllerAbstract::construct'
+  - yaf-controller-abstract.forward.md: 'YafControllerAbstract::forward »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::display'
+---
+# YafControllerAbstract::display
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Призначення display
+(Yaf >=1.0.0)
 
-# Yaf_Controller_Abstract::display
-
-(Yaf \>=1.0.0)
-
-Yaf_Controller_Abstract::display — Призначення display
+YafControllerAbstract::display — Призначення display
 
 ### Опис
 
-protected **Yaf_Controller_Abstract::display**(string `$tpl`, array
-`$parameters` = ?): bool
+```methodsynopsis
+protected Yaf_Controller_Abstract::display(string $tpl, array $parameters = ?): bool
+```
 
 ### Список параметрів
 

@@ -1,25 +1,29 @@
-- [« Parle\RParser::reset](parle-rparser.reset.md)
-- [Parle\RParser::sigil »](parle-rparser.sigil.md)
+---
+navigation:
+  - parle-rparser.reset.md: '« ParleRParser::reset'
+  - parle-rparser.sigil.md: 'ParleRParser::sigil »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
+title: 'ParleRParser::right'
+---
+# ParleRParser::right
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Оголошує токен із правою асоціативністю
+(PECL parle >= 0.7.0)
 
-# Parle\RParser::right
-
-(PECL parle \>= 0.7.0)
-
-Parle\RParser::right — Оголошує токен із правою асоціативністю
+ParleRParser::right — Оголошує токен із правою асоціативністю
 
 ### Опис
 
-public **Parle\RParser::right**(string `$tok`): void
+```methodsynopsis
+public Parle\RParser::right(string $tok): void
+```
 
 Оголошує токен із правою асоціативністю.
 
 ### Список параметрів
 
 `tok`
+
 Ім'я токена.
 
 ### Значення, що повертаються

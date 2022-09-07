@@ -1,10 +1,11 @@
-- [« SimpleXMLIterator](class.simplexmliterator.md)
-- [SimpleXMLIterator::getChildren »](simplexmliterator.getchildren.md)
-
-- [PHP Manual](index.md)
-- [SimpleXMLIterator](class.simplexmliterator.md)
-- Повертає поточний елемент
-
+---
+navigation:
+  - class.simplexmliterator.md: « SimpleXMLIterator
+  - simplexmliterator.getchildren.md: 'SimpleXMLIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::current'
+---
 # SimpleXMLIterator::current
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,11 +14,11 @@ SimpleXMLIterator::current — Повертає поточний елемент
 
 ### Опис
 
-public **SimpleXMLIterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SimpleXMLIterator::current(): mixed
+```
 
-Цей метод повертає поточний елемент як об'єкт класу
-[SimpleXMLIterator](class.simplexmliterator.md) або **`null`**.
+Цей метод повертає поточний елемент як об'єкт класу [SimpleXMLIterator](class.simplexmliterator.md) або **`null`**
 
 ### Список параметрів
 
@@ -25,32 +26,36 @@ public **SimpleXMLIterator::current**():
 
 ### Значення, що повертаються
 
-Повертає поточний елемент як об'єкт класу
-[SimpleXMLIterator](class.simplexmliterator.md) або **`null`**
-у разі виникнення помилки.
+Повертає поточний елемент як об'єкт класу [SimpleXMLIterator](class.simplexmliterator.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Повернення поточного елемента**
 
-` <?php$xmlIterator = new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');var_dump($xmlIterator->current()); $xmlIterator->rewind(); // скидає курсор до першому елементу var_dump($xmlIterator->current());?> `
+```php
+<?php
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
+var_dump($xmlIterator->current());
+
+$xmlIterator->rewind(); // сбрасывает курсор к первому элементу
+var_dump($xmlIterator->current());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
 object(SimpleXMLIterator)#2 (1) {
-[0]=>
-string(10) "Основи PHP"
+  [0]=>
+  string(10) "Основы PHP"
 }
+```
 
 ### Дивіться також
 
-- [SimpleXMLIterator::key()](simplexmliterator.key.md) - Повертає
-поточний ключ
-- [SimpleXMLIterator::next()](simplexmliterator.next.md) -
-Переміщує ітератор до наступного елемента
-- [SimpleXMLIterator::rewind()](simplexmliterator.rewind.md) -
-Повертає ітератор до першого елементу
-- [SimpleXMLIterator::valid()](simplexmliterator.valid.md) -
-Перевіряє, чи є поточний елемент допустимим
-- [SimpleXMLElement](class.simplexmlelement.md)
+-   [SimpleXMLIterator::key()](simplexmliterator.key.md) - Повертає поточний ключ
+-   [SimpleXMLIterator::next()](simplexmliterator.next.md) - Переміщує ітератор до наступного елементу
+-   [SimpleXMLIterator::rewind()](simplexmliterator.rewind.md) - Повертає ітератор до першого елементу
+-   [SimpleXMLIterator::valid()](simplexmliterator.valid.md) - Перевіряє, чи є поточний елемент допустимим
+-   [SimpleXMLElement](class.simplexmlelement.md)

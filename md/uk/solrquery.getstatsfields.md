@@ -1,19 +1,22 @@
-- [« SolrQuery::getStatsFacets](solrquery.getstatsfacets.md)
-- [SolrQuery::getTerms »](solrquery.getterms.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає усі поля статистики
-
+---
+navigation:
+  - solrquery.getstatsfacets.md: '« SolrQuery::getStatsFacets'
+  - solrquery.getterms.md: 'SolrQuery::getTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getStatsFields'
+---
 # SolrQuery::getStatsFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getStatsFields — Повертає всі поля статистики
 
 ### Опис
 
-public **SolrQuery::getStatsFields**(): array
+```methodsynopsis
+public SolrQuery::getStatsFields(): array
+```
 
 Повертає усі поля статистики
 
@@ -23,5 +26,4 @@ public **SolrQuery::getStatsFields**(): array
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає масив та **`null`**, якщо значення не встановлено.

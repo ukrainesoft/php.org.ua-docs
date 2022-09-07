@@ -1,25 +1,28 @@
-- [«CachingIterator::current](cachingiterator.current.md)
-- [CachingIterator::getFlags »](cachingiterator.getflags.md)
-
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Отримання вмісту кешу
-
+---
+navigation:
+  - cachingiterator.current.md: '« CachingIterator::current'
+  - cachingiterator.getflags.md: 'CachingIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::getCache'
+---
 # CachingIterator::getCache
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::getCache — Отримання вмісту кешу
 
 ### Опис
 
-public **CachingIterator::getCache**(): array
+```methodsynopsis
+public CachingIterator::getCache(): array
+```
 
-Отримання вмісту кеша.
+Отримання вмісту кешу.
 
-> **Примітка**:
->
-> Потрібно використовувати прапор **`CachingIterator::FULL_CACHE`**.
+> **Зауваження**
+> 
+> Має використовувати прапор **`CachingIterator::FULL_CACHE`**
 
 ### Список параметрів
 
@@ -31,28 +34,41 @@ public **CachingIterator::getCache**(): array
 
 ### Помилки
 
-Викидає [BadMethodCallException](class.badmethodcallexception.md)
-у випадку, якщо не встановлено прапор **`CachingIterator::FULL_CACHE`**.
+Викидає [BadMethodCallException](class.badmethodcallexception.md) у випадку, якщо не встановлено прапор **`CachingIterator::FULL_CACHE`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **CachingIterator::getCache()****
 
-` <?php$iterator = new ArrayIterator(array(1, 2, 3));$cache   = new CachingIterator($iterator, CachingIterator::FULL_CACHE);$cache->next();$$ ;var_dump($cache->getCache());$cache->next();var_dump($cache->getCache());?> `
+```php
+<?php
+$iterator = new ArrayIterator(array(1, 2, 3));
+$cache    = new CachingIterator($iterator, CachingIterator::FULL_CACHE);
+
+$cache->next();
+$cache->next();
+var_dump($cache->getCache());
+
+$cache->next();
+var_dump($cache->getCache());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(2) {
-[0]=>
-int(1)
-[1]=>
-int(2)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
 }
 array(3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

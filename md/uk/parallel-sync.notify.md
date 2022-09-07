@@ -1,19 +1,19 @@
-- [« parallel\Sync::wait](parallel-sync.wait.md)
-- [parallel\Sync::\_\_invoke »](parallel-sync.invoke.md)
+---
+navigation:
+  - parallel-sync.wait.md: '« parallelSync::wait'
+  - parallel-sync.invoke.md: 'parallelSync::invoke »'
+  - index.md: PHP Manual
+  - class.parallel-sync.md: parallelSync
+title: 'parallelSync::notify'
+---
+# parallelSync::notify
 
-- [PHP Manual](index.md)
-- [parallel\Sync](class.parallel-sync.md)
-- Синхронізація
-
-# parallel\Sync::notify
-
-(1.1.0)
-
-parallel\Sync::notify — Синхронізація
+parallelSync::notify — Синхронізація
 
 ### Опис
 
-public **parallel\Sync::notify**(bool `$all` = ?)
+```methodsynopsis
+public parallel\Sync::notify(bool $all = ?)
+```
 
-Повідомляє один (за замовчуванням) або всі потоки, які очікують на об'єкт
-синхронізації.
+Повідомляє один (за замовчуванням) або всі потоки, які очікують на об'єкт синхронізації.

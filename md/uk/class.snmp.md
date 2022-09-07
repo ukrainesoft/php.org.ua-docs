@@ -1,13 +1,14 @@
-- [« snmpwalkoid](function.snmpwalkoid.md)
-- [SNMP::close »](snmp.close.md)
-
-- [PHP Manual](index.md)
-- [SNMP](book.snmp.md)
-- Клас SNMP
-
+---
+navigation:
+  - function.snmpwalkoid.md: « snmpwalkoid
+  - snmp.close.md: 'SNMP::close »'
+  - index.md: PHP Manual
+  - book.snmp.md: SNMP
+title: Клас SNMP
+---
 # Клас SNMP
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -15,222 +16,216 @@
 
 ## Огляд класів
 
-class **SNMP** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly array `$info`;
+    
+     
+      class SNMP
+     
+     {
 
-public ?int `$max_oids`;
+    /* Свойства */
+    
+     public
+     readonly
+     array
+      $info;
 
-public int `$valueretrieval`;
+    public
+     ?int
+      $max_oids;
 
-public bool `$quick_print`;
+    public
+     int
+      $valueretrieval;
 
-public bool `$enum_print`;
+    public
+     bool
+      $quick_print;
 
-public int `$oid_output_format`;
+    public
+     bool
+      $enum_print;
 
-public bool `$oid_increasing_check`;
+    public
+     int
+      $oid_output_format;
 
-public int `$exceptions_enabled`;
+    public
+     bool
+      $oid_increasing_check;
 
-/\* Методи \*/
+    public
+     int
+      $exceptions_enabled;
 
-public [\_\_construct](snmp.construct.md)(
-int `$version`,
-string `$hostname`,
-string `$community`,
-int `$timeout` = -1,
-int `$retries` = -1
-)
 
-public [close](snmp.close.md)(): bool
+    /* Методы */
+    
+   public __construct(    int $version,    string $hostname,    string $community,    int $timeout = -1,    int $retries = -1)
 
-public [get](snmp.get.md)(array\|string `$objectId`, bool
-`$preserveKeys` = **`false`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public close(): bool
+public get(array|string $objectId, bool $preserveKeys = false): mixed
+public getErrno(): int
+public getError(): string
+public getnext(array|string $objectId): mixed
+public set(array|string $objectId, array|string $type, array|string $value): bool
+public setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
+public walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
 
-public [getErrno](snmp.geterrno.md)(): int
 
-public [getError](snmp.geterror.md)(): string
+    /* Константы */
+    
+     const
+     int
+      ERRNO_NOERROR = 0;
 
-public [getnext](snmp.getnext.md)(array\|string `$objectId`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    const
+     int
+      ERRNO_GENERIC = 2;
 
-public [set](snmp.set.md)(array\|string `$objectId`, array\|string
-`$type`, array\|string `$value`): bool
+    const
+     int
+      ERRNO_TIMEOUT = 4;
 
-public [setSecurity](snmp.setsecurity.md)(
-string `$securityLevel`,
-string `$authProtocol` = "",
-string `$authPassphrase` = "",
-string `$privacyProtocol` = "",
-string `$privacyPassphrase` = "",
-string `$contextName` = "",
-string `$contextEngineId` = ""
-): bool
+    const
+     int
+      ERRNO_ERROR_IN_REPLY = 8;
 
-public [walk](snmp.walk.md)(
-array\|string `$objectId`,
-bool `$suffixAsKey` = **`false`**,
-int `$maxRepetitions` = -1,
-int `$nonRepeaters` = -1
-): array\|false
+    const
+     int
+      ERRNO_OID_NOT_INCREASING = 16;
 
-/\* Константи \*/
+    const
+     int
+      ERRNO_OID_PARSING_ERROR = 32;
 
-const int `ERRNO_NOERROR` = 0;
+    const
+     int
+      ERRNO_MULTIPLE_SET_QUERIES = 64;
 
-const int `ERRNO_GENERIC` = 2;
+    const
+     int
+      ERRNO_ANY = 126;
 
-const int `ERRNO_TIMEOUT` = 4;
+    const
+     int
+      VERSION_1 = 0;
 
-const int `ERRNO_ERROR_IN_REPLY` = 8;
+    const
+     int
+      VERSION_2C = 1;
 
-const int `ERRNO_OID_NOT_INCREASING` = 16;
+    const
+     int
+      VERSION_2c = 1;
 
-const int `ERRNO_OID_PARSING_ERROR` = 32;
+    const
+     int
+      VERSION_3 = 3;
 
-const int `ERRNO_MULTIPLE_SET_QUERIES` = 64;
-
-const int `ERRNO_ANY` = 126;
-
-const int `VERSION_1` = 0;
-
-const int `VERSION_2C` = 1;
-
-const int `VERSION_2c` = 1;
-
-const int `VERSION_3` = 3;
-
-}
+   }
+```
 
 ## Властивості
 
-`max_oids`
+maxoids
+
 Максимальний OID для запитів GET/SET/GETBULK
 
-`valueretrieval`
+valueretrieval
+
 Контролює спосіб, як повертатимуться значення SNMP
 
-|                        |                                                                                                                                                                                                                                                       |
-|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SNMP_VALUE_LIBRARY** | Значення, що повертаються, будуть такими, ніби повернені бібліотекою Net-SNMP.                                                                                                                                                                        |
-| **SNMP_VALUE_PLAIN**   | Значення, що повертаються, будуть простими, без інформації про типи SNMP.                                                                                                                                                                             |
-| **SNMP_VALUE_OBJECT**  | Значення, що повертаються будуть об'єктами з властивостями "value" і "type", де "type" міститиме одну з констант: SNMP_OCTET_STR, SNMP_COUNTER і т.д., а "value" буде залежати від того, встановлено **SNMP_VALUE_LIBRARY** або **SNMP_VALUE_PLAIN**. |
+<table class="doctable table"><tbody class="tbody"><tr><td><strong><code>SNMP_VALUE_LIBRARY</code></strong></td><td>Повертані значення будуть такими, ніби повернуто бібліотекою Net-SNMP.</td></tr><tr><td><strong><code>SNMP_VALUE_PLAIN</code></strong></td><td>Повертані значення будуть простими, без інформації про типи SNMP.</td></tr><tr><td><strong><code>SNMP_VALUE_OBJECT</code></strong></td><td>Повертані значення будуть об'єктами з властивостями "value" і "type", де "type" міститиме одну з констант: SNMP_OCTET_STR, SNMP_COUNTER і т.д., а "value" буде залежати від того, чи встановлено <strong><code>SNMP_VALUE_LIBRARY</code></strong> або <strong><code>SNMP_VALUE_PLAIN</code></strong>.</td></tr></tbody></table>
 
-`quick_print`
+quickprint
+
 Значення `quick_print` у бібліотеці NET-SNMP
 
-Встановлює значення `quick_print` у бібліотеці NET-SNMP. якщо поставлено
-як (1), бібліотека SNMP повертатиме значення 'quick printed'.
-Це означає, що буде надруковано лише значення. Якщо `quick_print` не
-дозволено (за замовчуванням), бібліотека NET-SNMP друкуватиме
-додаткову інформацію, включаючи тип значення (тобто IpAddress або
-OID). Додатково, якщо quick_print не дозволено, бібліотека буде
-друкувати шістнадцяткові значення для всіх рядків коротше за чотири
-символів.
+Встановлює значення `quick_print` у бібліотеці NET-SNMP. якщо задано як (1), бібліотека SNMP повертатиме значення 'quick printed'. Це означає, що буде надруковано лише значення. Якщо `quick_print` не дозволено (за замовчуванням), бібліотека NET-SNMP друкуватиме додаткову інформацію, включаючи тип значення (тобто IpAddress або OID). Додатково якщо quickprint не дозволено, бібліотека друкуватиме шістнадцяткові значення для всіх рядків коротше чотирьох символів.
 
-`enum_print`
+enumprint
+
 Контролює спосіб, яким будуть друкуватись значення перерахувань
 
-Параметр перемикає поведінку walk/get тощо, щоб вони автоматично
-дивилися значення перерахувань у MIB і повертали їх разом із зрозумілим
-людина тексту.
+Параметр перемикає поведінку walk/get і т.д., щоб вони автоматично дивилися значення перерахувань у MIB та повертали їх разом із зрозумілим людині текстом.
 
-`oid_output_format`
+oidoutputformat
+
 Контролює формат виводу OID
 
-|                             |                                                                     |
-|-----------------------------|---------------------------------------------------------------------|
-| **SNMP_OID_OUTPUT_FULL**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |
-| **SNMP_OID_OUTPUT_NUMERIC** | .1.3.6.1.2.1.1.3.0                                                  |
-| **SNMP_OID_OUTPUT_MODULE**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
-| **SNMP_OID_OUTPUT_SUFFIX**  | sysUpTimeInstance                                                   |
-| **SNMP_OID_OUTPUT_UCD**     | system.sysUpTime.sysUpTimeInstance                                  |
-| **SNMP_OID_OUTPUT_NONE**    | Undefined                                                           |
+<table class="doctable table"><caption><strong>OID-подання .1.3.6.1.2.1.1.3.0 для різних значень <var class="varname">oid_output_format</var></strong></caption><tbody class="tbody"><tr><td><strong><code>SNMP_OID_OUTPUT_FULL</code></strong></td><td>.iso.org.dod.internet.mgmt.mib -2.system.sysUpTime.sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_NUMERIC</code></strong></td><td>.1.3.6.1.2.1 .1.3.0</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_MODULE</code></strong></td><td>DISMAN-EVENT-MIB::sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_SUFFIX</code></strong></td><td>sysUpTimeInstance</td></tr><tr><td>&lt; strong&gt;<code>SNMP_OID_OUTPUT_UCD</code></td><td>system.sysUpTime.sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_NONE</code></strong></td><td>Undefined</td></tr></tbody></table>
 
-**OID-представлення .1.3.6.1.2.1.1.3.0 для різних значень
-`oid_output_format`**
+oidincreasingcheck
 
-`oid_increasing_check`
 Контролює заборону на перевірку збільшення OID під час обходу дерева OID
 
-Деякі агенти SNMP відомі тим, що повертають OID не по порядку, але
-все одно завершують прохід. Інші агенти, що повертають OID не по порядку
-і можуть викликати нескінченне зациклювання [SNMP::walk()](snmp.walk.md),
-доки не буде вичерпано всю пам'ять. Бібліотека PHP SNMP за замовчуванням
-проводить перевірку збільшення OID і припиняє обхід дерева, якщо
-визначає можливе закольцювання, видаючи відповідне
-попередження. Встановіть `oid_increasing_check` у значення **`false`**
-для заборони цієї перевірки.
+Деякі агенти SNMP відомі тим, що OID повертають не по порядку, але все одно завершують прохід. Інші агенти, що повертають OID не по порядку і можуть викликати нескінченне зациклювання [SNMP::walk()](snmp.walk.md), поки не буде вичерпано всю пам'ять. Бібліотека PHP SNMP за промовчанням здійснює перевірку збільшення OID і припиняє обхід дерева, якщо визначає можливе кільце, видаючи відповідне попередження. Встановіть oidincreasingcheck у значення **`false`** для заборони перевірки.
 
-`exceptions_enabled`
-Контролює, у яких випадках викидатимуться винятки
-SNMPException замість попереджень. Використовуйте побітове АБО з
-констант **`SNMP::ERRNO_*`**. За промовчанням SNMP не викидає
-винятки.
+exceptionsenabled
 
-`info`
-Властивість доступна лише для читання, що містить конфігурацію віддаленого
-агента: ім'я хоста, порт, очікування за замовчуванням, кількість
-повторів за замовчуванням
+Контролює, у яких випадках викидаються винятки SNMPException замість попереджень. Використовуйте побітове АБО з констант **`SNMP::ERRNO_*`**. За промовчанням SNMP не викидає виняток.
 
-## Зумовлені константи
+info
+
+Властивість доступна тільки для читання, що містить конфігурацію віддаленого агента: ім'я хоста, порт, час за замовчуванням, кількість повторів за замовчуванням
+
+## Обумовлені константи
 
 ## Типи помилок SNMP
 
 **`SNMP::ERRNO_NOERROR`**
+
 Помилки SNMP відсутні.
 
 **`SNMP::ERRNO_GENERIC`**
+
 Загальна помилка SNMP.
 
 **`SNMP::ERRNO_TIMEOUT`**
-Перевищено час очікування запиту до агента SNMP.
+
+Перевищено час очікування запиту до SNMPагенту.
 
 **`SNMP::ERRNO_ERROR_IN_REPLY`**
-SNMP-агент повернув помилку у відповідь.
+
+SNMPагент повернув помилку у відповідь.
 
 **`SNMP::ERRNO_OID_NOT_INCREASING`**
-SNMP-агент виявив можливе закольцювання через незбільшення OID при
-виконання команд (BULK)WALK. Говорить нам, що віддалений SNMP-агент
-фіктивний.
+
+SNMPагент виявив можливе закольцювання через незбільшення OID під час виконання команд (BULK)WALK. Говорить нам, що віддалений SNMPагент фіктивний.
 
 **`SNMP::ERRNO_OID_PARSING_ERROR`**
-Бібліотека не змогла розібрати OID (та/або тип команди SET). Запитів
-не було.
+
+Бібліотека не змогла розібрати OID (та/або тип команди SET). Запитів не було.
 
 **`SNMP::ERRNO_MULTIPLE_SET_QUERIES`**
-Бібліотека використовує багато запитів для операції SET. Це
-означає, що операція виконуватиметься без транзакції, і якщо
-виникне помилка типу чи значення, другий чи наступні фрагменти
-можуть завершитися помилкою.
+
+Бібліотека використовує багато запитів для операції SET. Це означає, що операція буде виконуватися без транзакції, і якщо виникне помилка типу або значення, другий або наступні фрагменти можуть завершитися помилкою.
 
 **`SNMP::ERRNO_ANY`**
-Усі коди SNMP::ERRNO\_\* об'єднані побітовим АБО.
+
+Усі коди SNMP::ERRNO об'єднані побітовим АБО.
 
 ## Версії протоколу SNMP
 
 **`SNMP::VERSION_1`**
 
-**`SNMP::VERSION_2C`**, **`SNMP::VERSION_2c`**
+**`SNMP::VERSION_2C`** **`SNMP::VERSION_2c`**
 
 **`SNMP::VERSION_3`**
 
 ## Зміст
 
-- [SNMP::close](snmp.close.md) — Закриває сесію SNMP
-- [SNMP::\_\_construct](snmp.construct.md) — Створює екземпляр SNMP,
-представляє сесію віддаленого агента SNMP
-- [SNMP::get](snmp.get.md) — Отримує об'єкт SNMP
-- [SNMP::getErrno](snmp.geterrno.md) — Отримує код останньої помилки
-- [SNMP::getError](snmp.geterror.md) — Отримує останнє повідомлення
-про помилку
-- [SNMP::getnext](snmp.getnext.md) — Отримати об'єкт SNMP, який
-слідує за цим ідентифікатором об'єкта
-- [SNMP::set](snmp.set.md) — Встановлює значення об'єкта SNMP
-- [SNMP::setSecurity](snmp.setsecurity.md) — Налаштовує пов'язані з
-безпекою параметри сесії SNMPv3
-- [SNMP::walk](snmp.walk.md) — Отримує піддерево об'єкта SNMP
+-   [SNMP::close](snmp.close.md) — Закриває сесію SNMP
+-   [SNMP::construct](snmp.construct.md) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+-   [SNMP::get](snmp.get.md) — Отримує об'єкт SNMP
+-   [SNMP::getErrno](snmp.geterrno.md) — Отримує код останньої помилки
+-   [SNMP::getError](snmp.geterror.md) — Отримує останнє повідомлення про помилку
+-   [SNMP::getnext](snmp.getnext.md) — Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+-   [SNMP::set](snmp.set.md) — Встановлює значення об'єкта SNMP
+-   [SNMP::setSecurity](snmp.setsecurity.md) — Налаштовує пов'язані з безпекою параметри сесії SNMPv3
+-   [SNMP::walk](snmp.walk.md) — Отримує піддерево об'єкта SNMP

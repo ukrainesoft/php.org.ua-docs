@@ -1,14 +1,15 @@
-- [« Yac::\_\_set](yac.setter.md)
-- [OpenAL »](book.openal.md)
-
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Обробка аудіо форматів
-
+---
+navigation:
+  - yac.setter.md: '« Yac::set'
+  - book.openal.md: OpenAL »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Обробка аудіо форматів
+---
 # Обробка аудіо форматів
 
-- [OpenAL](book.openal.md) - Аудіопотоки OpenAL
-- [Вступ](intro.openal.md)
-- [Встановлення та налаштування](openal.setup.md)
-- [Предвизначені константи](openal.constants.md)
-- [Функції OpenAL](ref.openal.md)
+-   [OpenAL](book.openal.md) - Аудіопотоки OpenAL
+    -   [Введение](intro.openal.md)
+    -   [Встановлення та налаштування](openal.setup.md)
+    -   [Обумовлені константи](openal.constants.md)
+    -   [Функции OpenAL](ref.openal.md)

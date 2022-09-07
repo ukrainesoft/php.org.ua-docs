@@ -1,46 +1,67 @@
-- [« radius_get_tagged_attr_tag](function.radius-get-tagged-attr-tag.md)
-- [radius_put_addr »](function.radius-put-addr.md)
+---
+navigation:
+  - function.radius-get-tagged-attr-tag.md: « radiusgettaggedattrtag
+  - function.radius-put-addr.md: radiusputaddr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusgetvendorattr
+---
+# radiusgetvendorattr
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Виймає атрибут, що залежить від постачальника
+(PECL radius >= 1.1.0)
 
-#radius_get_vendor_attr
-
-(PECL radius \>= 1.1.0)
-
-radius_get_vendor_attr — Виймає атрибут, що залежить від постачальника
+radiusgetvendorattr — Витягує атрибут, що залежить від постачальника
 
 ### Опис
 
-**radius_get_vendor_attr**(string `$data`): array
+```methodsynopsis
+radius_get_vendor_attr(string $data): array
+```
 
-Якщо [radius_get_attr()](function.radius-get-attr.md) повернула
-**`RADIUS_VENDOR_SPECIFIC`**, **radius_get_vendor_attr()** може бути
-викликана визначення постачальника.
+Якщо [radiusgetattr()](function.radius-get-attr.md) повернула **`RADIUS_VENDOR_SPECIFIC`** **radiusgetvendorattr()** може бути викликана визначення постачальника.
 
 ### Список параметрів
 
 `data`
+
 Вхідні дані
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, що містить тип атрибуту, постачальника та
-дані або **`false`** у разі виникнення помилки.
+Повертає асоціативний масив, що містить тип атрибуту, постачальника та дані або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radius_get_vendor_attr()****
+**Приклад #1 Приклад використання **radiusgetvendorattr()****
 
-` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));         exit;    }   $attr = $resa['attr'];    $data = $resa['data']   |
-", $attr, strlen($data), bin2hex($data));    if ($attr == RADIUS_VENDOR_SPECIFIC) {        $resv = radius_get_vendor_attr($data);        if (is_array($resv)) {            $vendor = $resv ['vendor'];      $attrv = $resv['attr'];            $datav = $resv[   
-", $attrv, strlen($datav), bin2hex($datav));        }    }}?> `
+```php
+<?php
+while ($resa = radius_get_attr($res)) {
+
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
+
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+    printf("Получен атрибут:%d %d байт %s\n", $attr, strlen($data), bin2hex($data));
+    if ($attr == RADIUS_VENDOR_SPECIFIC) {
+
+        $resv = radius_get_vendor_attr($data);
+        if (is_array($resv)) {
+            $vendor = $resv['vendor'];
+            $attrv = $resv['attr'];
+            $datav = $resv['data'];
+            printf("Получен атрибут поставщика:%d %d байт %s\n", $attrv, strlen($datav), bin2hex($datav));
+        }
+
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [radius_get_attr()](function.radius-get-attr.md) - Витягує
-атрибут
-- [radius_put_vendor_attr()](function.radius-put-vendor-attr.md) -
-Приєднує бінарний атрибут, що залежить від постачальника
+-   [radiusgetattr()](function.radius-get-attr.md) - Витягує атрибут
+-   [radiusputvendorattr()](function.radius-put-vendor-attr.md) - Приєднує бінарний атрибут, що залежить від постачальника

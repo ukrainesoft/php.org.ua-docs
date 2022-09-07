@@ -1,12 +1,13 @@
-- [«Зумовлені константи](shmop.constants.md)
-- [Базове використання»](shmop.examples-basic.md)
-
-- [PHP Manual](index.md)
-- [Керування пам'яттю, що розділяється](book.shmop.md)
-- Приклади
-
+---
+navigation:
+  - shmop.constants.md: « Обумовлені константи
+  - shmop.examples-basic.md: Базовое использование »
+  - index.md: PHP Manual
+  - book.shmop.md: Управление разделяемой памятью
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Базове використання](shmop.examples-basic.md)
+-   [Базовое использование](shmop.examples-basic.md)

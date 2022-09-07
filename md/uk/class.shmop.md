@@ -1,20 +1,31 @@
-- [«shmop_write](function.shmop-write.md)
-- [Sync »](book.sync.md)
-
-- [PHP Manual](index.md)
-- [Керування пам'яттю, що розділяється](book.shmop.md)
-- Клас Shmop
-
+---
+navigation:
+  - function.shmop-write.md: « shmopwrite
+  - book.sync.md: Sync »
+  - index.md: PHP Manual
+  - book.shmop.md: Управление разделяемой памятью
+title: Клас Shmop
+---
 # Клас Shmop
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `shmop` у PHP 8.0.0.
+Повністю непрозорий клас, який замінює ресурси `shmop` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **Shmop** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class Shmop
+     
+     {
+   }
+```

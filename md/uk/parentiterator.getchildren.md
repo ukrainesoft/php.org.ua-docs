@@ -1,30 +1,28 @@
-- [« ParentIterator::\_\_construct](parentiterator.construct.md)
-- [ParentIterator::hasChildren »](parentiterator.haschildren.md)
-
-- [PHP Manual](index.md)
-- [ParentIterator](class.parentiterator.md)
-- Повертає дочірні об'єкти ітератора, що зберігається всередині
-ParentIterator
-
+---
+navigation:
+  - parentiterator.construct.md: '« ParentIterator::construct'
+  - parentiterator.haschildren.md: 'ParentIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::getChildren'
+---
 # ParentIterator::getChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-ParentIterator::getChildren — Повертає дочірні об'єкти ітератора,
-що зберігається всередині ParentIterator
+ParentIterator::getChildren — Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
 
 ### Опис
 
-public **ParentIterator::getChildren**():
-[ParentIterator](class.parentiterator.md)
+```methodsynopsis
+public ParentIterator::getChildren(): ParentIterator
+```
 
-Повертає дочірні об'єкти ітератора, що зберігається всередині
-ParentIterator.
+Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,4 +30,4 @@ ParentIterator.
 
 ### Значення, що повертаються
 
-Об'єкт (об'єкт).
+Об'єкт (object).

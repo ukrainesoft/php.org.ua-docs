@@ -1,19 +1,22 @@
-- [« ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md)
-- [ReflectionFunctionAbstract::getEndLine »](reflectionfunctionabstract.getendline.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує doc-коментар
-
+---
+navigation:
+  - reflectionfunctionabstract.getclosureusedvariables.md: '« ReflectionFunctionAbstract::getClosureUsedVariables'
+  - reflectionfunctionabstract.getendline.md: 'ReflectionFunctionAbstract::getEndLine »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getDocComment'
+---
 # ReflectionFunctionAbstract::getDocComment
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getDocComment — Отримує doc-коментар
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getDocComment**(): string\|false
+```methodsynopsis
+public ReflectionFunctionAbstract::getDocComment(): string|false
+```
 
 Отримує doc-коментар із опису функції.
 
@@ -23,9 +26,8 @@ public **ReflectionFunctionAbstract::getDocComment**(): string\|false
 
 ### Значення, що повертаються
 
-Коментар, якщо він є, **`false`** інакше.
+Коментар, якщо він є, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) -
-Отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) - отримує початковий номер рядка

@@ -1,25 +1,22 @@
-- [« Swoole \ Http \ Client](class.swoole-http-client.md)
-- [Swoole\Http\Client::close »](swoole-http-client.close.md)
+---
+navigation:
+  - class.swoole-http-client.md: « SwooleHttpClient
+  - swoole-http-client.close.md: 'SwooleHttpClient::close »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::addFile'
+---
+# SwooleHttpClient::addFile
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Додає файл до форми повідомлення
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::addFile
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::addFile — Додає файл до форми повідомлення
+SwooleHttpClient::addFile — Додає файл до форми повідомлення
 
 ### Опис
 
-public **Swoole\Http\Client::addFile**(
-string `$path`,
-string `$name`,
-string `$type` = ?,
-string `$filename` = ?,
-string `$offset` = ?
-): void
+```methodsynopsis
+public Swoole\Http\Client::addFile(    string $path,    string $name,    string $type = ?,    string $filename = ?,    string $offset = ?): void
+```
 
 ### Список параметрів
 

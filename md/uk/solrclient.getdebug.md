@@ -1,20 +1,22 @@
-- [«SolrClient::getByIds](solrclient.getbyids.md)
-- [SolrClient::getOptions »](solrclient.getoptions.md)
-
-- [PHP Manual](index.md)
-- [SolrClient](class.solrclient.md)
-- Повертає дані налагодження для останньої спроби підключення
-
+---
+navigation:
+  - solrclient.getbyids.md: '« SolrClient::getByIds'
+  - solrclient.getoptions.md: 'SolrClient::getOptions »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::getDebug'
+---
 # SolrClient::getDebug
 
-(PECL solr \> = 0.9.7)
+(PECL solr> = 0.9.7)
 
-SolrClient::getDebug — Повертає дані налагодження для останньої спроби
-підключення
+SolrClient::getDebug — Повертає дані налагодження для останньої спроби підключення
 
 ### Опис
 
-public **SolrClient::getDebug**(): string
+```methodsynopsis
+public SolrClient::getDebug(): string
+```
 
 Повертає дані налагодження для останньої спроби підключення
 
@@ -24,5 +26,4 @@ public **SolrClient::getDebug**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання та null, якщо нічого
-повертати.
+Повертає рядок у разі успішного виконання та null, якщо нема чого повертати.

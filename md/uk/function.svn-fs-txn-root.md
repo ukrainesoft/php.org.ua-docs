@@ -1,24 +1,26 @@
-- [« svn_fs_revision_root](function.svn-fs-revision-root.md)
-- [svn_fs_youngest_rev »](function.svn-fs-youngest-rev.md)
+---
+navigation:
+  - function.svn-fs-revision-root.md: « svnфсrevisionroot
+  - function.svn-fs-youngest-rev.md: svnфсyoungestrev »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсtxnroot
+---
+# svnфсtxnroot
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Створює та повертає корінь транзакції
+(PECL svn >= 0.2.0)
 
-# svn_fs_txn_root
-
-(PECL svn \>= 0.2.0)
-
-svn_fs_txn_root — Створює та повертає корінь транзакції
+svnфсtxnroot — Створює та повертає корінь транзакції.
 
 ### Опис
 
-**svn_fs_txn_root**(resource `$txn`): resource
+```methodsynopsis
+svn_fs_txn_root(resource $txn): resource
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Створює та повертає корінь транзакції
 
@@ -26,6 +28,4 @@ svn_fs_txn_root — Створює та повертає корінь транз
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

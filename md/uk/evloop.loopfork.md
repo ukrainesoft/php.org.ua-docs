@@ -1,24 +1,25 @@
-- [«EvLoop::io](evloop.io.md)
-- [EvLoop::now »](evloop.now.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Викликається після розгалуження
-
+---
+navigation:
+  - evloop.io.md: '« EvLoop::io'
+  - evloop.now.md: 'EvLoop::now »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::loopFork'
+---
 # EvLoop::loopFork
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::loopFork — Викликається після розгалуження
+UvLoop::loop Fork — Викликається після розгалуження
 
 ### Опис
 
-public **EvLoop::loopFork**(): void
+```methodsynopsis
+public
+   EvLoop::loopFork(): void
+```
 
-Повинен викликатися після розгалуження в дочірньому елементі, перед входом
-чи продовженням циклу подій. Альтернативою є використання
-**`Ev::FLAG_FORKCHECK`**, яка викликає цю функцію автоматично при
-деяку втрату продуктивності (дивіться [» документацію libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)).
+Повинен викликатися після *розгалуження* у дочірньому елементі перед входом або продовженням циклу подій. Альтернативою є використання **`Ev::FLAG_FORKCHECK`**, яка викликає цю функцію автоматично при певній втраті продуктивності (див. [» документацию libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
 
 ### Список параметрів
 

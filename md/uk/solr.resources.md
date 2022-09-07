@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](solr.configuration.md)
-- [Предвизначені константи »](solr.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](solr.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - solr.configuration.md: « Налаштування під час виконання
+  - solr.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - solr.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

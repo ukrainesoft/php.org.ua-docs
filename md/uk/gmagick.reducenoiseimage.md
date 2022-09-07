@@ -1,30 +1,30 @@
-- [«Gmagick::readimagefile](gmagick.readimagefile.md)
-- [Gmagick::removeimage »](gmagick.removeimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Згладжує контури зображення
-
+---
+navigation:
+  - gmagick.readimagefile.md: '« Gmagick::readimagefile'
+  - gmagick.removeimage.md: 'Gmagick::removeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::reducenoiseimage'
+---
 # Gmagick::reducenoiseimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::reducenoiseimage — Згладжує контури зображення
 
 ### Опис
 
-public **Gmagick::reducenoiseimage**(float `$radius`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::reducenoiseimage(float $radius): Gmagick
+```
 
-Згладжує контури зображення, зберігаючи інформацію про краї.
-Алгоритм працює, замінюючи кожен піксель найближчим за значенням сусідом.
-Сусід визначається значенням radius. Використовуйте значення radius, що дорівнює
-0, і **Gmagick::reducenoiseimage()** вибере для вас відповідний радіус.
+Згладжує контури зображення, зберігаючи при цьому інформацію про краї. Алгоритм працює, замінюючи кожен піксель найближчим за значенням сусідом. Сусід визначається значенням radius. Використовуйте значення radius, що дорівнює 0, і **Gmagick::reducenoiseimage()** вибере вам відповідний радіус.
 
 ### Список параметрів
 
 `radius`
-Радіус навколо пікселя.
+
+Радіус околиці пікселів.
 
 ### Значення, що повертаються
 

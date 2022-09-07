@@ -1,19 +1,22 @@
-- [« ZipArchive::statName](ziparchive.statname.md)
-- [ZipArchive::unchangeArchive »](ziparchive.unchangearchive.md)
-
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- скасовує всі зміни, зроблені в архіві
-
+---
+navigation:
+  - ziparchive.statname.md: '« ZipArchive::statName'
+  - ziparchive.unchangearchive.md: 'ZipArchive::unchangeArchive »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::unchangeAll'
+---
 # ZipArchive::unchangeAll
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
 
 ZipArchive::unchangeAll — Скасує всі зміни, зроблені в архіві
 
 ### Опис
 
-public **ZipArchive::unchangeAll**(): bool
+```methodsynopsis
+public ZipArchive::unchangeAll(): bool
+```
 
 Скасовує всі зміни, зроблені в архіві.
 
@@ -23,5 +26,4 @@ public **ZipArchive::unchangeAll**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

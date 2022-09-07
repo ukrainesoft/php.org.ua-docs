@@ -1,22 +1,22 @@
-- [« MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
-- [MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescription »](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.md)
+---
+navigation:
+  - class.mongodb-driver-monitoring-topologychangedevent.md: « MongoDBDriverMonitoringTopologyChangedEvent
+  - mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.md: 'MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDBDriverMonitoringTopologyChangedEvent
+title: 'MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription'
+---
+# MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
-- Повертає новий опис топології
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription -
-Повертає новий опис топології
+MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription — Повертає новий опис топології
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription**():
-[MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md)
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription(): MongoDB\Driver\TopologyDescription
+```
 
 ### Список параметрів
 
@@ -24,11 +24,8 @@ final public
 
 ### Значення, що повертаються
 
-Повертає новий опис
-([MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md))
-топології.
+Повертає новий опис ([MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.md)) топології.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

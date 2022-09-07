@@ -1,80 +1,63 @@
-- [« socket_strerror](function.socket-strerror.md)
-- [socket_wsaprotocol_info_export »](function.socket-wsaprotocol-info-export.md)
+---
+navigation:
+  - function.socket-strerror.md: « socketstrerror
+  - function.socket-wsaprotocol-info-export.md: socketwsaprotocolinfoexport »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketwrite
+---
+# socketwrite
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Запис у сокет
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# socket_write
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-socket_write — Запис у сокет
+socketwrite — Запис у сокет
 
 ### Опис
 
-**socket_write**([Socket](class.socket.md) `$socket`, string `$data`,
-?int `$length` = **`null`**): int\|false
+```methodsynopsis
+socket_write(Socket $socket, string $data, ?int $length = null): int|false
+```
 
-Функція **socket_write()** записує в сокет `socket` дані з
-вказаного буфера `data`.
+Функція **socketwrite()** записує в сокет `socket` дані із зазначеного буфера `data`
 
 ### Список параметрів
 
 `socket`
 
 `data`
+
 Буфер, який буде записано.
 
 `length`
-Необов'язковий параметр `length` може вказувати інше число байт,
-записуються в сокет. Якщо це число більше, ніж довжина буфера, воно буде
-мовчки урізано до довжини буфера.
+
+Необов'язковий параметр `length` може вказувати інше число байт, що записуються в сокет. Якщо це число більше, ніж довжина буфера, воно буде мовчки урізано до довжини буфера.
 
 ### Значення, що повертаються
 
-Повертає кількість байт, успішно записаних у сокет або **`false`**
-у разі виникнення помилки. Код помилки може бути отриманий за допомогою
-функції [socket_last_error()](function.socket-last-error.md). Цей код
-може бути переданий функції
-[socket_strerror()](function.socket-strerror.md) для отримання
-текстового опису помилки.
+Повертає кількість байт, успішно записаних у сокет або **`false`** у разі виникнення помилки. Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
-> **Примітка**:
->
-> Цілком нормально для функції **socket_write()** повертати нуль,
-> що означає, що жодного байта був записано. Будь ласка,
-> використовуйте оператор `===` для перевірки значення на **`false`**
-> у разі виникнення помилки.
+> **Зауваження**
+> 
+> Цілком нормально для функції **socketwrite()** повертати нуль, що означає, що жодного байта не було записано. Будь ласка, використовуйте оператор `===` для перевірки значення на **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-|--------|-----------------------------------------------------------------------------------------|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
-| 8.0.0  | length тепер припускає значення null.                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+|  | `length` тепер допускає значення null. |
 
 ### Примітки
 
-> **Примітка**:
->
-> **socket_write()** не обов'язково записує всі байти із зазначеного
-> Буфер. Нормально те, що, залежно від мережевих буферів тощо,
-> лише кілька даних, навіть один байт, буде записано,
-> хоча ваш буфер більше. Ви повинні стежити за тим, щоб ненавмисно
-> не забути передати залишок ваших даних.
+> **Зауваження**
+> 
+> **socketwrite()** не обов'язково записує всі байти із зазначеного буфера. Нормально те, що, залежно від мережевих буферів і т. д., лише кілька даних, навіть один байт, буде записаний, хоча ваш буфер більше. Ви повинні стежити за тим, щоб ненавмисно не забути передати залишок ваших даних.
 
 ### Дивіться також
 
-- [socket_accept()](function.socket-accept.md) - Приймає
-з'єднання на сокеті
-- [socket_bind()](function.socket-bind.md) - Прив'язує ім'я до
-сокету
-- [socket_connect()](function.socket-connect.md) - Починає
-з'єднання з сокетом
-- [socket_listen()](function.socket-listen.md) - Прослуховує
-вхідні з'єднання на сокеті
-- [socket_read()](function.socket-read.md) - Читає рядок
-максимальну довжину байт із сокету
-- [socket_strerror()](function.socket-strerror.md) - Повертає
-рядок, що описує помилку сокету
+-   [socketaccept()](function.socket-accept.md) - приймає з'єднання на сокеті
+-   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
+-   [socketconnect()](function.socket-connect.md) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
+-   [socketread()](function.socket-read.md) - Читає рядок максимальну довжину байт із сокету
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету

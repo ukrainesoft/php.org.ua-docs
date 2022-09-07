@@ -1,22 +1,21 @@
-- [« ocifreedesc](function.ocifreedesc.md)
-- [ociinternaldebug »](function.ociinternaldebug.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_free_statement
-
+---
+navigation:
+  - function.ocifreedesc.md: « ocifreedesc
+  - function.ociinternaldebug.md: ociinternaldebug »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocifreestatement
+---
 # ocifreestatement
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifreestatement - Псевдонім
-[oci_free_statement()](function.oci-free-statement.md)
+ocifreestatement - Псевдонім [ocifreestatement()](function.oci-free-statement.md)
 
 ### Опис
 
-Псевдонім [oci_free_statement()](function.oci-free-statement.md)
+Псевдонім [ocifreestatement()](function.oci-free-statement.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

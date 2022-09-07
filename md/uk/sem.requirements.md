@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](sem.setup.md)
-- [Встановлення »](sem.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sem.setup.md)
-- Вимоги
-
+---
+navigation:
+  - sem.setup.md: « Встановлення та налаштування
+  - sem.installation.md: Установка »
+  - index.md: PHP Manual
+  - sem.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

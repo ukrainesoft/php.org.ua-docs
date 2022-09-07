@@ -1,30 +1,31 @@
-- [«SolrQuery::addGroupSortField](solrquery.addgroupsortfield.md)
-- [SolrQuery::addMltField »](solrquery.addmltfield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Відповідає hl.fl
-
+---
+navigation:
+  - solrquery.addgroupsortfield.md: '« SolrQuery::addGroupSortField'
+  - solrquery.addmltfield.md: 'SolrQuery::addMltField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addHighlightField'
+---
 # SolrQuery::addHighlightField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::addHighlightField — Відповідає hl.fl
 
 ### Опис
 
-public **SolrQuery::addHighlightField**(string `$field`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::addHighlightField(string $field): SolrQuery
+```
 
-Відповідає hl.fl. Використовується, щоб вказати, що виділені
-фрагменти мають бути створені для певного поля.
+Відповідає hl.fl. Використовується, щоб вказати, що виділені фрагменти мають бути створені для певного поля.
 
 ### Список параметрів
 
 `field`
+
 Назва поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

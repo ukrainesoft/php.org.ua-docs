@@ -1,19 +1,22 @@
-- [« Gmagick::getimagewhitepoint](gmagick.getimagewhitepoint.md)
-- [Gmagick::getpackagename »](gmagick.getpackagename.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає ширину зображення
-
+---
+navigation:
+  - gmagick.getimagewhitepoint.md: '« Gmagick::getimagewhitepoint'
+  - gmagick.getpackagename.md: 'Gmagick::getpackagename »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagewidth'
+---
 # Gmagick::getimagewidth
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagewidth — Повертає ширину зображення
 
 ### Опис
 
-public **Gmagick::getimagewidth**(): int
+```methodsynopsis
+public Gmagick::getimagewidth(): int
+```
 
 Повертає ширину зображення.
 

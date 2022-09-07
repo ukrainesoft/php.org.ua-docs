@@ -1,59 +1,77 @@
-- [«imagesetpixel](function.imagesetpixel.md)
-- [imagesetthickness »](function.imagesetthickness.md)
+---
+navigation:
+  - function.imagesetpixel.md: « imagesetpixel
+  - function.imagesetthickness.md: imagesetthickness »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagesetstyle
+---
+# imagesetstyle
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Установка стилю малювання ліній
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#imagesetstyle
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-imagesetstyle — Встановлення стилю креслення ліній
+imagesetstyle — Налаштування стилю малювання ліній
 
 ### Опис
 
-**imagesetstyle**([GdImage](class.gdimage.md) `$image`, array
-`$style`): bool
+```methodsynopsis
+imagesetstyle(GdImage $image, array $style): bool
+```
 
-**imagesetstyle()** задає стиль, який використовуватиметься функціями
-малювання ліній (такими як [imageline()](function.imageline.md) та
-[imagepolygon()](function.imagepolygon.md)) при заданні спеціального
-кольори **`IMG_COLOR_STYLED`** або **`IMG_COLOR_STYLEDBRUSHED`**.
+**imagesetstyle()** задає стиль, який використовуватиметься функціями малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при завданні спеціального кольору **`IMG_COLOR_STYLED`** або **`IMG_COLOR_STYLEDBRUSHED`**
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `style`
-Масив із квітами пікселів. Можна використовувати константу
-**`IMG_COLOR_TRANSPARENT`** для додавання прозорої точки. Зверніть
-увагу, що `style` не може бути порожнім масивом.
+
+Масив з квітами пікселів. Можна використовувати константу **`IMG_COLOR_TRANSPARENT`** для додавання прозорої точки. Зверніть увагу, що `style` не може бути порожнім масивом.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-Наступний приклад малює пунктирну лінію з лівого верхнього кута
-зображення у правий нижній:
+Наступний приклад малює пунктирну лінію з лівого верхнього кута зображення в нижній правий:
 
 **Приклад #1 Приклад використання **imagesetstyle()****
 
-`<?phpheader("Content-type: image/jpeg"); , 0, 0);/* Малування пунктирної лінії, 5 червоних точок, 5 білих */$style = array($red, $red, $red, $red, $red, $w, $w $w| w, $w);imagesetstyle($im, $style);imageline($im, 0, 0, 100,100, IMG_COLOR_STYLED);/* ($w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $red);imagesetstyle($im, $style); $brush= imagecreatefrompng("http://www.libpng.org/pub/png/images/smile.happy.png");$w2 = imagecolorallocate($brush, 255, 255, 255);imagecolortransparent($brush, $w2);imagesetbrush($im, $brush);imageline($im, 100, 0, 0, 100, IMG_COLOR_STYLEDBRUSHED);imagejpeg($im);imagedestroy($im);?> `
+```php
+<?php
+header("Content-type: image/jpeg");
+$im  = imagecreatetruecolor(100, 100);
+$w   = imagecolorallocate($im, 255, 255, 255);
+$red = imagecolorallocate($im, 255, 0, 0);
+
+/* Рисование пунктирной линии, 5 красных точек, 5 белых */
+$style = array($red, $red, $red, $red, $red, $w, $w, $w, $w, $w);
+imagesetstyle($im, $style);
+imageline($im, 0, 0, 100, 100, IMG_COLOR_STYLED);
+
+/* Рисование линии из смайликов, используя imagesetbrush() с imagesetstyle */
+$style = array($w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $red);
+imagesetstyle($im, $style);
+
+$brush = imagecreatefrompng("http://www.libpng.org/pub/png/images/smile.happy.png");
+$w2 = imagecolorallocate($brush, 255, 255, 255);
+imagecolortransparent($brush, $w2);
+imagesetbrush($im, $brush);
+imageline($im, 100, 0, 0, 100, IMG_COLOR_STYLEDBRUSHED);
+
+imagejpeg($im);
+imagedestroy($im);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Висновок прикладу:
-imagesetstyle()](images/21009b70229598c6a80eef8b45bf282b-imagesetstyle.jpg)
+![Висновок прикладу: imagesetstyle()](images/21009b70229598c6a80eef8b45bf282b-imagesetstyle.jpg)
 
 ### Дивіться також
 
-- [imagesetbrush()](function.imagesetbrush.md) - Встановлення
-зображення (кисті), за допомогою якого будуть малюватись лінії
-- [imageline()](function.imageline.md) - Малювання лінії
+-   [imagesetbrush()](function.imagesetbrush.md) - Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
+-   [imageline()](function.imageline.md) - Малювання лінії

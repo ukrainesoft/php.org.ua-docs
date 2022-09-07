@@ -1,29 +1,30 @@
-- [«fdf_get_opt](function.fdf-get-opt.md)
-- [fdf_get_value »](function.fdf-get-value.md)
+---
+navigation:
+  - function.fdf-get-opt.md: « fdfgetopt
+  - function.fdf-get-value.md: fdfgetvalue »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetstatus
+---
+# fdfgetstatus
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Отримує значення ключа /STATUS
+(PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-#fdf_get_status
-
-(PHP 4, PHP 5 \< 5.3.0, PECL fdf SVN)
-
-fdf_get_status — Отримує значення ключа /STATUS
+fdfgetstatus — Отримує значення ключа /STATUS
 
 ### Опис
 
-**fdf_get_status**(resource `$fdf_document`): string
+```methodsynopsis
+fdf_get_status(resource $fdf_document): string
+```
 
-Отримує значення ключа `/STATUS`.
+Отримує значення ключа `/STATUS`
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор FDF-документа, повернутий функціями
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -31,5 +32,4 @@ fdf_get_status — Отримує значення ключа /STATUS
 
 ### Дивіться також
 
-- [fdf_set_status()](function.fdf-set-status.md) - Встановлює
-значення ключа /STATUS
+-   [fdfsetstatus()](function.fdf-set-status.md) - Встановлює значення ключа /STATUS

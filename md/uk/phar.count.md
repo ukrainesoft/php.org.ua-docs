@@ -1,36 +1,51 @@
-- [« Phar::copy](phar.copy.md)
-- [Phar::createDefaultStub »](phar.createdefaultstub.md)
-
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Повертає кількість записів (файлів) у Phar-архіві
-
+---
+navigation:
+  - phar.copy.md: '« Phar::copy'
+  - phar.createdefaultstub.md: 'Phar::createDefaultStub »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::count'
+---
 # Phar::count
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
 Phar::count — Повертає кількість записів (файлів) у Phar-архіві
 
 ### Опис
 
-public **Phar::count**(int `$mode` = **`COUNT_NORMAL`**): int
+```methodsynopsis
+public Phar::count(int $mode = COUNT_NORMAL): int
+```
 
 ### Список параметрів
 
 ### Значення, що повертаються
 
-Кількість файлів, що містяться в цьому phar-архіві, або `0` (число
-нуль), якщо архів порожній.
+Кількість файлів, що містяться в цьому phar-архіві, або `0` (число нуль), якщо архів порожній.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::count()****
 
-`<?php// переконайтеся, що архів не існує@unlink('brandnewphar.phar');try {    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar','ar' ;} catch (Exception $e) {    echo 'Не удалося створити phar:', $e;}echo 'Новий phar містить ' . $p->count() . "записів
-";$p['file.txt'] = 'привіт';echo 'Новий phar містить ' . $p->count() . "" записів
-";?> `
+```php
+<?php
+// убедитесь, что архив не существует
+@unlink('brandnewphar.phar');
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+} catch (Exception $e) {
+    echo 'Не удалось создать phar:', $e;
+}
+echo 'Новый phar содержит ' . $p->count() . " записей\n";
+$p['file.txt'] = 'привет';
+echo 'Новый phar содержит ' . $p->count() . " записей\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Новий phar містить 0 записів
-Новий phar містить 1 записів
+```
+Новый phar содержит 0 записей
+Новый phar содержит 1 записей
+```

@@ -1,28 +1,31 @@
-- [« fann_cascadetrain_on_file](function.fann-cascadetrain-on-file.md)
-- [fann_copy »](function.fann-copy.md)
+---
+navigation:
+  - function.fann-cascadetrain-on-file.md: « fanncascadetrainвінfile
+  - function.fann-copy.md: fanncopy »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannclearscalingparams
+---
+# fannclearscalingparams
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Очистка параметрів масштабування
+(PECL fann> = 1.0.0)
 
-# fann_clear_scaling_params
-
-(PECL fann = 1.0.0)
-
-fann_clear_scaling_params — Очистка параметрів масштабування
+fannclearscalingparams — Очищення параметрів масштабування
 
 ### Опис
 
-**fann_clear_scaling_params**(resource `$ann`): bool
+```methodsynopsis
+fann_clear_scaling_params(resource $ann): bool
+```
 
 Очищення параметрів масштабування.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.

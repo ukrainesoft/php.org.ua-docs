@@ -1,11 +1,12 @@
-- [« ZMQDevice::run](zmqdevice.run.md)
-- [ZMQDevice::setIdleTimeout »](zmqdevice.setidletimeout.md)
-
-- [PHP Manual](index.md)
-- [ZMQDevice](class.zmqdevice.md)
-- Встановити callback-функцію бездіяльності
-
-# ZMQDevice::setIdleCallback
+---
+navigation:
+  - zmqdevice.run.md: '« ZMQDevice::run'
+  - zmqdevice.setidletimeout.md: 'ZMQDevice::setIdleTimeout »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
+title: 'ZMQ Device::set Idle Callback'
+---
+# ZMQ Device::set Idle Callback
 
 (No version information available, might only be in Git)
 
@@ -13,32 +14,24 @@ ZMQDevice::setIdleCallback — Встановити callback-функцію бе
 
 ### Опис
 
-public
-**ZMQDevice::setIdleCallback**([callable](language.types.callable.md)
-`$cb_func`, int `$timeout`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$user_data` = ?): [ZMQDevice](class.zmqdevice.md)
+```methodsynopsis
+public ZMQDevice::setIdleCallback(callable $cb_func, int $timeout, mixed $user_data = ?): ZMQDevice
+```
 
-Встановлює callback-функцію бездіяльності. Якщо встановлено час очікування
-простою, то ця функція буде запущена, якщо цикл опитування не отримає жодного
-однієї події протягом цього часу. Якщо функція поверне ефективне
-**`false`**, то пристрій буде зупинено. Сигнатура функції - (mixed
-$user_data).
+Встановлює callback-функцію бездіяльності. Якщо задано час очікування простою, ця функція буде запущена, якщо цикл опитування не отримає жодної події протягом цього часу. Якщо функція поверне ефективне **`false`**, пристрій буде зупинено. Сигнатура функції - (mixed $userdata).
 
 ### Список параметрів
 
 `cb_func`
-Callback-функція для запуску у разі тривалого простою. Повернення
-**`false`** або значення, яке наводиться до **`false`** призведе до
-зупинки пристрою.
+
+Callback-функція для запуску у разі тривалого простою. Повернення **`false`** або значення, яке наводиться до **`false`** призведе до зупинки пристрою.
 
 `timeout`
-Час очікування простою у мілісекундах. Callback-функція буде
-викликатися щоразу, коли протягом заданого часу не буде
-відбуватися жодних подій. Гарантується, що між запусками функції
-відбуватиметься не менше заданої кількості мілісекунд.
+
+Час очікування простою у мілісекундах. Callback-функція буде викликатись кожного разу, коли протягом заданого часу не відбуватиметься жодних подій. Гарантується, що між запусками функції відбуватиметься не менше заданої кількості мілісекунд.
 
 `user_data`
+
 Додаткові дані, які передаватимуться в callback-функцію.
 
 ### Значення, що повертаються

@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](tcpwrap.setup.md)
-- [Встановлення »](tcpwrap.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tcpwrap.setup.md)
-- Вимоги
-
+---
+navigation:
+  - tcpwrap.setup.md: « Встановлення та налаштування
+  - tcpwrap.installation.md: Установка »
+  - index.md: PHP Manual
+  - tcpwrap.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

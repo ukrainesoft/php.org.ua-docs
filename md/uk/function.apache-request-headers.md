@@ -1,22 +1,24 @@
-- [«apache_note](function.apache-note.md)
-- [apache_response_headers »](function.apache-response-headers.md)
+---
+navigation:
+  - function.apache-note.md: « apachenote
+  - function.apache-response-headers.md: apacheresponseheaders »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apacherequestheaders
+---
+# apacherequestheaders
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Отримує список усіх заголовків HTTP-запиту
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#apache_request_headers
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-apache_request_headers — Отримує список усіх заголовків HTTP-запиту
+apacherequestheaders — Отримує список усіх заголовків HTTP-запиту
 
 ### Опис
 
-**apache_request_headers**(): array
+```methodsynopsis
+apache_request_headers(): array
+```
 
-Отримує список усіх заголовків HTTP поточного запиту. Працює на
-веб-серверах Apache та FastCGI.
+Отримує список усіх заголовків HTTP поточного запиту. Працює на веб-серверах Apache та FastCGI.
 
 ### Список параметрів
 
@@ -24,42 +26,45 @@ apache_request_headers — Отримує список усіх заголовк
 
 ### Значення, що повертаються
 
-Асоціативний масив, що містить усі HTTP-заголовки поточного запиту,
-або **`false`** у разі виникнення помилки.
+Асоціативний масив, що містить усі HTTP-заголовки поточного запиту, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                   |
-|--------|----------------------------------------|
-| 7.3.0  | Ця функція стала доступною у SAPI FPM. |
+| Версия | Описание |
+| --- | --- |
+|  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apache_request_headers()****
+**Приклад #1 Приклад використання **apacherequestheaders()****
 
-` <?php$headers = apache_request_headers();foreach ($headers as $header => $value) {    echo "$header: $value <br />
-";}?> `
+```php
+<?php
+$headers = apache_request_headers();
+
+foreach ($headers as $header => $value) {
+    echo "$header: $value <br />\n";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Accept: */*
 Accept-Language: en-us
 Accept-Encoding: gzip, deflate
 User-Agent: Mozilla/4.0
 Host: www.example.com
 Connection: Keep-Alive
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Також можна отримати значення широко використовуваних CGI-змінних,
-> отримавши їх із оточення сервера; це працює незалежно від того,
-> встановлений PHP як модуль Apache чи ні. Для того щоб
-> отримати список усіх доступних [змінних > оточення](language.variables.predefined.md), використовуйте функцію
-> [phpinfo()](function.phpinfo.md).
+> **Зауваження**
+> 
+> Також можна отримати значення широко використовуваних CGIзмінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [змінних оточення](language.variables.predefined.md), використовуйте функцію [phpinfo()](function.phpinfo.md)
 
 ### Дивіться також
 
-- [apache_response_headers()](function.apache-response-headers.md) -
-Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apacheresponseheaders()](function.apache-response-headers.md) - Повертає список усіх HTTP-заголовків відповіді Apache

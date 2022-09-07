@@ -1,31 +1,33 @@
-- [«FANNConnection](class.fannconnection.md)
-- [FANNConnection::getFromNeuron »](fannconnection.getfromneuron.md)
+---
+navigation:
+  - class.fannconnection.md: « FANNConnection
+  - fannconnection.getfromneuron.md: 'FANNConnection::getFromNeuron »'
+  - index.md: PHP Manual
+  - class.fannconnection.md: FANNConnection
+title: 'FANNConnection::construct'
+---
+# FANNConnection::construct
 
-- [PHP Manual](index.md)
-- [FANNConnection](class.fannconnection.md)
-- Конструктор зв'язку
+(PECL fann> = 1.0.0)
 
-# FANNConnection::\_\_construct
-
-(PECL fann = 1.0.0)
-
-FANNConnection::\_\_construct - Конструктор зв'язку
+FANNConnection::construct — Конструктор зв'язку
 
 ### Опис
 
-public **FANNConnection::\_\_construct**(int `$from_neuron`, int
-`$to_neuron`, float `$weight`)
+public **FANNConnection::construct**(int `$from_neuron`, int `$to_neuron`, float `$weight`
 
-Створює новий зв'язок та ініціалізує його параметри. Після створення зв'язку
-можна буде змінити лише її вагу.
+Створює новий зв'язок та ініціалізує його параметри. Після створення зв'язку можна буде змінити лише його вагу.
 
 ### Список параметрів
 
 `from_neuron`
-Позиція стартового нейрону.
+
+Позиція стартового нейрона.
 
 `to_neuron`
+
 Позиція кінцевого нейрону.
 
 `weight`
+
 Вага зв'язку.

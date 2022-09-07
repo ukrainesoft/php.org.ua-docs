@@ -1,20 +1,22 @@
-- [« ReflectionAttribute::\_\_construct](reflectionattribute.construct.md)
-- [ReflectionAttribute::getName »](reflectionattribute.getname.md)
-
-- [PHP Manual](index.md)
-- [ReflectionAttribute](class.reflectionattribute.md)
-- Повертає аргументи, передані атрибуту
-
+---
+navigation:
+  - reflectionattribute.construct.md: '« ReflectionAttribute::construct'
+  - reflectionattribute.getname.md: 'ReflectionAttribute::getName »'
+  - index.md: PHP Manual
+  - class.reflectionattribute.md: ReflectionAttribute
+title: 'ReflectionAttribute::getArguments'
+---
 # ReflectionAttribute::getArguments
 
 (PHP 8)
 
-ReflectionAttribute::getArguments — Повертає аргументи, передані
-атрибуту
+ReflectionAttribute::getArguments — Повертає аргументи, передані атрибуту
 
 ### Опис
 
-public **ReflectionAttribute::getArguments**(): array
+```methodsynopsis
+public ReflectionAttribute::getArguments(): array
+```
 
 Повертає аргументи передані атрибуту.
 

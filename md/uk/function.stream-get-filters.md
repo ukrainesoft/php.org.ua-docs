@@ -1,19 +1,22 @@
-- [«stream_get_contents](function.stream-get-contents.md)
-- [stream_get_line »](function.stream-get-line.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Отримати список зареєстрованих фільтрів
-
-#stream_get_filters
+---
+navigation:
+  - function.stream-get-contents.md: « streamgetcontents
+  - function.stream-get-line.md: streamgetline »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamgetfilters
+---
+# streamgetfilters
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_get_filters — Отримати список зареєстрованих фільтрів
+streamgetfilters — Отримати список зареєстрованих фільтрів
 
 ### Опис
 
-**stream_get_filters**(): array
+```methodsynopsis
+stream_get_filters(): array
+```
 
 Отримати список зареєстрованих фільтрів у запущеній системі.
 
@@ -23,28 +26,32 @@ stream_get_filters — Отримати список зареєстровани�
 
 ### Значення, що повертаються
 
-Повертає індексований масив, що містить назви всіх доступних
-системних фільтрів потоку
+Повертає індексований масив, що містить найменування всіх доступних системних фільтрів потоку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **stream_get_filters()****
+**Приклад #1 Приклад використання функції **streamgetfilters()****
 
-` <?php$streamlist = stream_get_filters();print_r($streamlist);?> `
+```php
+<?php
+$streamlist = stream_get_filters();
+print_r($streamlist);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array (
-[0] => string.rot13
-[1] => string.toupper
-[2] => string.tolower
-[3] => string.base64
-[4] => string.quoted-printable
+  [0] => string.rot13
+  [1] => string.toupper
+  [2] => string.tolower
+  [3] => string.base64
+  [4] => string.quoted-printable
 )
+```
 
 ### Дивіться також
 
-- [stream_filter_register()](function.stream-filter-register.md) -
-Реєструє потоковий фільтр, визначений користувачем
-- [stream_get_wrappers()](function.stream-get-wrappers.md) -
-Отримати список зареєстрованих потоків
+-   [streamfilterregister()](function.stream-filter-register.md) - Реєструє потоковий фільтр, визначений користувачем
+-   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків

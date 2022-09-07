@@ -1,26 +1,26 @@
-- [« Phar::decompressFiles](phar.decompressfiles.md)
-- [Phar::delete »](phar.delete.md)
-
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Видалити глобальні метадані в архіві phar
-
+---
+navigation:
+  - phar.decompressfiles.md: '« Phar::decompressFiles'
+  - phar.delete.md: 'Phar::delete »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::delMetadata'
+---
 # Phar::delMetadata
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.2.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)
 
 Phar::delMetadata — Видалити глобальні метадані в архіві phar
 
 ### Опис
 
-public **Phar::delMetadata**(): bool
+```methodsynopsis
+public Phar::delMetadata(): bool
+```
 
-> **Примітка**:
->
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цим методом
-> необхідна установка значення `php.ini` `phar.readonly` у `0`. В
-> інакше, буде викинуто виняток
-> [PharException](class.pharexception.md).
+> **Зауваження**
+> 
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Видаляє глобальні метадані в архіві phar
 
@@ -28,31 +28,41 @@ public **Phar::delMetadata**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** в успішне виконання, але краще використовувати
-перевірку винятків.
+Повертає **`true`** успішного виконання, але краще використовувати перевірку винятків.
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md)
-у разі виникнення помилки під час збереження змін на диск.
+Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки під час збереження змін на диск.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::delMetaData()****
 
-`<?phptry {   $phar = new Phar('myphar.phar'); var_dump($phar->getMetadata()); $phar->setMetadata("hi there"); var_dump($phar->getMetadata()); $phar->delMetadata(); var_dump($phar->getMetadata());} catch (Exception $e) {    // обробка помилок}?> `
+```php
+<?php
+try {
+    $phar = new Phar('myphar.phar');
+    var_dump($phar->getMetadata());
+    $phar->setMetadata("hi there");
+    var_dump($phar->getMetadata());
+    $phar->delMetadata();
+    var_dump($phar->getMetadata());
+} catch (Exception $e) {
+    // обработка ошибок
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
 string(8) "hi there"
 NULL
+```
 
 ### Дивіться також
 
-- [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані
-phar-архіву
-- [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані
-phar-архіву
-- [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить
-чи phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані

@@ -1,91 +1,146 @@
-- [« mysqli_stmt::execute](mysqli-stmt.execute.md)
-- [mysqli_stmt::$field_count »](mysqli-stmt.field-count.md)
+---
+navigation:
+  - mysqli-stmt.execute.md: '« mysqlistmt::execute'
+  - mysqli-stmt.field-count.md: 'mysqlistmt::$fieldcount »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::fetch'
+---
+# mysqlistmt::fetch
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- пов'язує результати підготовленого виразу зі змінними
-
-# mysqli_stmt::fetch
-
-# mysqli_stmt_fetch
+# mysqlistmtfetch
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::fetch -- mysqli_stmt_fetch — Зв'язує результати
-підготовленого виразу зі змінними
+mysqlistmt::fetch -- mysqlistmtfetch - пов'язує результати підготовленого виразу зі змінними
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::fetch**(): ?bool
+```methodsynopsis
+public mysqli_stmt::fetch(): ?bool
+```
 
 Процедурний стиль
 
-**mysqli_stmt_fetch**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): ?bool
+```methodsynopsis
+mysqli_stmt_fetch(mysqli_stmt $statement): ?bool
+```
 
-Зв'язує результати підготовленого виразу зі змінними,
-певними за допомогою
-[mysqli_stmt_bind_result()](mysqli-stmt.bind-result.md).
+Зв'язує результати підготовленого виразу зі змінними, визначеними за допомогою [mysqlistmtbindresult()](mysqli-stmt.bind-result.md)
 
-> **Примітка**:
->
-> Необхідно зазначити, що всі стовпці повинні бути пов'язані перед викликом
-> **mysqli_stmt_fetch()**.
+> **Зауваження**
+> 
+> Необхідно відзначити, що всі стовпці повинні бути пов'язані перед викликом **mysqlistmtfetch()**
 
-> **Примітка**:
->
-> Дані не буферизуються під час передачі, коли викликається
-> [mysqli_stmt_store_result()](mysqli-stmt.store-result.md), що
-> знижує продуктивність (але знижує витрати пам'яті).
+> **Зауваження**
+> 
+> Дані не буферизуються під час передачі, коли викликається [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)що знижує продуктивність (але також знижує витрати пам'яті).
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-| Значення  | Опис                                          |
-|-----------|-----------------------------------------------|
-| **true**  | Успіх. Дані вибрали                           |
-| **false** | Помилка                                       |
-| **null**  | Більше немає рядків/даних або зникнення даних |
+**Значення, що повертаються**
 
-**Повертані значення**
+| Значение | Описание |
+| --- | --- |
+| **`true`** | Успіх. Дані були обрані |
+| **`false`** | Виникла помилка |
+| **`null`** | Більше немає рядків/даних або відбулося усічення даних |
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) { випробування|
-", mysqli_connect_error());  exit();}$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5 par| Запустити вираз */   $stmt->execute();    /                      printf ("%s (%s)
-", $name, $code);    }    /* Завершити запрос */    $stmt->close();}/* Закрити з'єднання */$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Попытка соединения не удалась: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5";
+
+if ($stmt = $mysqli->prepare($query)) {
+
+    /* Запустить выражение */
+    $stmt->execute();
+
+    /* Определить переменные для результата */
+    $stmt->bind_result($name, $code);
+
+    /* Выбрать значения */
+    while ($stmt->fetch()) {
+        printf ("%s (%s)\n", $name, $code);
+    }
+
+    /* Завершить запрос */
+    $stmt->close();
+}
+
+/* Закрыть соединение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Спроба |
-", mysqli_connect_error());   exit();}$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5 par| запрос */    mysqli_stmt_execute($stmt);    /* Определить переменные для результата */    mysqli_stmt_bind_result($stmt, $name, $code);    /* Выбрать значения */    while (mysqli_stmt_fetch($stmt)) {        printf ("%s ( %s)
-", $name, $code);    }    /* Завершити запит */   mysqli_stmt_close($stmt);}/* Закрити з'єднання**/mysqli_close($link);
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Попытка соединения не удалась: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5";
+
+if ($stmt = mysqli_prepare($link, $query)) {
+
+    /* Запустить запрос */
+    mysqli_stmt_execute($stmt);
+
+    /* Определить переменные для результата */
+    mysqli_stmt_bind_result($stmt, $name, $code);
+
+    /* Выбрать значения */
+    while (mysqli_stmt_fetch($stmt)) {
+        printf ("%s (%s)\n", $name, $code);
+    }
+
+    /* Завершить запрос */
+    mysqli_stmt_close($stmt);
+}
+
+/* Закрыть соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 Rockford (USA)
 Tallahassee (USA)
 Salinas (USA)
-Santa Clarita (США)
+Santa Clarita (USA)
 Springfield (USA)
+```
 
 ### Дивіться також
 
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
-- [mysqli_stmt_errno()](mysqli-stmt.errno.md) - Повертає код
-помилки виконання останнього запиту
-- [mysqli_stmt_error()](mysqli-stmt.error.md) - Повертає рядок з
-поясненням останньої помилки під час виконання запиту
-- [mysqli_stmt_bind_result()](mysqli-stmt.bind-result.md) - Прив'язка
-змінних до підготовленого запиту для розміщення результату
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату

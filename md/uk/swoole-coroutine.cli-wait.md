@@ -1,19 +1,22 @@
-- [« Swoole\Coroutine::call_user_func](swoole-coroutine.call-user-func.md)
-- [Swoole\Coroutine::create »](swoole-coroutine.create.md)
+---
+navigation:
+  - swoole-coroutine.call-user-func.md: '« SwooleCoroutine::calluserfunc'
+  - swoole-coroutine.create.md: 'SwooleCoroutine::create »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutine::cliwait'
+---
+# SwooleCoroutine::cliwait
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine::cli_wait
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine::cli_wait — Опис
+SwooleCoroutine::cliwait — Опис
 
 ### Опис
 
-public static **Swoole\Coroutine::cli_wait**(): ReturnType
+```methodsynopsis
+public static Swoole\Coroutine::cli_wait(): ReturnType
+```
 
 ### Список параметрів
 

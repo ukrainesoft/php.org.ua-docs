@@ -1,84 +1,95 @@
-- [« Collator::sortWithSortKeys](collator.sortwithsortkeys.md)
-- [NumberFormatter »](class.numberformatter.md)
-
-- [PHP Manual](index.md)
-- [Collator](class.collator.md)
-- Сортує масив із використанням зазначеного засобу сортування
-
+---
+navigation:
+  - collator.sortwithsortkeys.md: '« Collator::sortWithSortKeys'
+  - class.numberformatter.md: NumberFormatter »
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::sort'
+---
 # Collator::sort
 
-#collator_sort
+# collatorsort
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::sort -- collator_sort — Сортує масив з використанням
-зазначеного засобу сортування
+Collator::sort -- collatorsort — Сортує масив із використанням зазначеного засобу сортування
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **Collator::sort**(array `&$array`, int `$flags` =
-Collator::SORT_REGULAR): bool
+```methodsynopsis
+public Collator::sort(array &$array, int $flags = Collator::SORT_REGULAR): bool
+```
 
 Процедурний стиль
 
-**collator_sort**([Collator](class.collator.md) `$object`, array
-`&$array`, int `$flags` = Collator::SORT_REGULAR): bool
+```methodsynopsis
+collator_sort(Collator $object, array &$array, int $flags = Collator::SORT_REGULAR): bool
+```
 
 Функція сортує масив відповідно до поточних правил локалі.
 
-Еквівалентна стандартній функції PHP [sort()](function.sort.md) .
+Еквівалентна стандартній функції PHP [sort()](function.sort.md)
 
 ### Список параметрів
 
 `object`
-Об'єкт [Collator](class.collator.md).
+
+Об'єкт [Collator](class.collator.md)
 
 `array`
+
 Array of strings to sort.
 
 `flags`
+
 Необов'язковий тип сортування, один із таких:
 
-- **`Collator::SORT_REGULAR`** - порівнює елементи як звичайно (не
-змінюючи тип)
+-   **`Collator::SORT_REGULAR`** - порівнює елементи як завжди (не змінюючи тип)
+    
+-   **`Collator::SORT_NUMERIC`** - порівнює елементи, як числа
+    
+-   **`Collator::SORT_STRING`** - Порівнює елементи, як рядки
+    
 
-- **`Collator::SORT_NUMERIC`** - порівнює елементи, як числа
-
-- **`Collator::SORT_STRING`** - порівнює елементи, як рядки
-
-Тип сортування за промовчанням - **`Collator::SORT_REGULAR`**. він також
-використовується, якщо вказано неприпустиме значення flags.
+Тип сортування за промовчанням - **`Collator::SORT_REGULAR`**. Він також використовується, якщо вказано неприпустиме значення `flags`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collator_sort()****
+**Приклад #1 Приклад використання **collatorsort()****
 
-`<?php$coll = collator_create( 'en_US' );$arr  = array( 'at', 'às', 'as' );var_export( $arr );collator_sort( $coll, $arr ); arr );?> `
+```php
+<?php
+$coll = collator_create( 'en_US' );
+$arr  = array( 'at', 'às', 'as' );
+
+var_export( $arr );
+collator_sort( $coll, $arr );
+var_export( $arr );
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array (
-0 => 'at',
-1 => 'às',
-2 => 'as',
+  0 => 'at',
+  1 => 'às',
+  2 => 'as',
 )array (
-0 => 'as',
-1 => 'às',
-2 => 'at',
+  0 => 'as',
+  1 => 'às',
+  2 => 'at',
 )
+```
 
 ### Дивіться також
 
-- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
-- [collator_asort()](collator.asort.md) - Сортує масив з
-збереженням асоціації індексу
-- [collator_sort_with_sort_keys()](collator.sortwithsortkeys.md) -
-Сортує масив з використанням вказаного Collator та ключів
-сортування
+-   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorasort()](collator.asort.md) - Сортує масив із збереженням асоціації індексу
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування

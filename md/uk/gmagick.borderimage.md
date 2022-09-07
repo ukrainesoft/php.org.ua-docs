@@ -1,39 +1,42 @@
-- [« Gmagick::blurimage](gmagick.blurimage.md)
-- [Gmagick::charcoalimage »](gmagick.charcoalimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додати рамку до зображення
-
+---
+navigation:
+  - gmagick.blurimage.md: '« Gmagick::blurimage'
+  - gmagick.charcoalimage.md: 'Gmagick::charcoalimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::borderimage'
+---
 # Gmagick::borderimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::borderimage — Додати рамку до зображення
 
 ### Опис
 
-public **Gmagick::borderimage**([GmagickPixel](class.gmagickpixel.md)
-`$color`, int `$width`, int `$height`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::borderimage(GmagickPixel $color, int $width, int $height): Gmagick
+```
 
-Додати рамку до зображення. Колір рамки задається рядком або кольором
-фону [GmagickPixel](class.gmagickpixel.md).
+Додати рамку зображення. Колір рамки задається рядком або кольором фону об'єкта [GmagickPixel](class.gmagickpixel.md)
 
 ### Список параметрів
 
-`col`
-Об'єкт [GmagickPixel](class.gmagickpixel.md) object або рядок,
-визначальна колір рамки.
+`color`
+
+Об'єкт [GmagickPixel](class.gmagickpixel.md) object або рядок, що визначає колір рамки.
 
 `width`
+
 Товщина кадру.
 
 `height`
+
 Висота кадру.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) із доданою рамкою.
+Об'єкт [Gmagick](class.gmagick.md) з доданою рамкою.
 
 ### Помилки
 

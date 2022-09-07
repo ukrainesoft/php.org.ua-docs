@@ -1,23 +1,24 @@
-- [«RRDGraph::\_\_construct](rrdgraph.construct.md)
-- [RRDGraph::saveVerbose »](rrdgraph.saveverbose.md)
-
-- [PHP Manual](index.md)
-- [RRDGraph](class.rrdgraph.md)
-- Зберігає результат запиту на зображення
-
+---
+navigation:
+  - rrdgraph.construct.md: '« RRDGraph::construct'
+  - rrdgraph.saveverbose.md: 'RRDGraph::saveVerbose »'
+  - index.md: PHP Manual
+  - class.rrdgraph.md: RRDGraph
+title: 'RRDGraph::save'
+---
 # RRDGraph::save
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
 RRDGraph::save — Зберігає результат запиту на зображення
 
 ### Опис
 
-public **RRDGraph::save**(): array
+```methodsynopsis
+public RRDGraph::save(): array
+```
 
-Зберігає результат запиту до бази даних RRD зображення,
-визначене у методі
-[RRDGraph::\_\_construct()](rrdgraph.construct.md).
+Зберігає результат запиту до бази даних RRD у зображення, визначене методом [RRDGraph::construct()](rrdgraph.construct.md)
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **RRDGraph::save**(): array
 
 ### Значення, що повертаються
 
-Повертається масив з інформацією про згенероване зображення або
-**`false`** у разі виникнення помилки.
+Повертається масив з інформацією про згенероване зображення або **`false`** у разі виникнення помилки.

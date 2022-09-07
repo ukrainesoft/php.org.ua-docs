@@ -1,89 +1,93 @@
-- [« pg_fetch_assoc](function.pg-fetch-assoc.md)
-- [pg_fetch_result »](function.pg-fetch-result.md)
-
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Вибирає рядок результату запиту та повертає дані у вигляді
-об'єкта
-
-#pg_fetch_object
+---
+navigation:
+  - function.pg-fetch-assoc.md: « pgfetchassoc
+  - function.pg-fetch-result.md: пгfetchresult »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfetchobject
+---
+# пгfetchobject
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pg_fetch_object — Вибирає рядок результату запиту та повертає дані
-у вигляді об'єкта
+пгfetchobject — Виберіть рядок результату запиту та повертає дані у вигляді об'єкта.
 
 ### Опис
 
-**pg_fetch_object**(
-[PgSql\Result](class.pgsql-result.md) `$result`,
-?int `$row` = **`null`**,
-string `$class` = "stdClass",
-array `$constructor_args` = []
-): object \ | false
+```methodsynopsis
+pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    string $class = "stdClass",    array $constructor_args = []): object|false
+```
 
-**pg_fetch_object()** повертає об'єкт, властивості якого відповідають
-імен полів вибірки. Також функція може створити екземпляр конкретного
-класу та передати параметри його конструктору.
+**пгfetchobject()** повертає об'єкт, властивості якого відповідають іменам полів вибірки. Також функція може створити екземпляр конкретного класу та передати параметри його конструктору.
 
-> **Примітка**: Ця функція встановлює NULL-поля у значення
-> **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
-За швидкістю функція ідентична
-[pg_fetch_array()](function.pg-fetch-array.md) і трохи повільніше
-[pg_fetch_row()](function.pg-fetch-row.md) (різниця незначна).
+За швидкістю функція ідентична [пгfetcharray()](function.pg-fetch-array.md) і трохи повільніше [пгfetchrow()](function.pg-fetch-row.md) (Різниця незначна).
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
-Номер вибирається з результату запиту рядка. Нумерація починається з
-нуля. Якщо аргумент опущений або дорівнює **`null`**, береться така
-черги рядок.
+
+Номер вибирається з результату запиту рядка. Нумерація починається із нуля. Якщо аргумент опущено або дорівнює **`null`**, береться наступний по черзі рядок.
 
 `class`
-Ім'я класу об'єкта, що створюється і повертається. Якщо не встановлено, функція
-створить екземпляр класу **stdClass**.
+
+Ім'я класу об'єкта, що створюється і повертається. Якщо не встановлено, функція створить екземпляр класу **stdClass**
 
 `constructor_args`
-Необов'язковий аргумент. Масив (array) параметрів для передачі в
-конструктор створюваного об'єкта (`class`).
+
+Необов'язковий аргумент. Масив (array) параметрів передачі в конструктор створюваного об'єкта (`class`
 
 ### Значення, що повертаються
 
-Об'єкт (object), імена та значення властивостей якого відповідають іменам
-і значення полів результату запиту. Значення NULL бази даних
-перетворюються на PHP **`null`**.
+Об'єкт (object), імена та значення властивостей якого відповідають іменам та значенням полів результату запиту. Значення `NULL` бази даних перетворюються на PHP **`null`**
 
-**`false`**, коли `row` перевищує кількість рядків у результаті запиту,
-коли рядків у результаті не залишилося, та за інших помилок.
+**`false`**, коли `row` перевищує кількість рядків у результаті запиту, коли рядків у результаті не залишилося, та за інших помилок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_fetch_object()****
+**Приклад #1 Приклад використання **пгfetchobject()****
 
-` <?php$database = "store";$db_conn = pg_connect("host=localhost port=5432 dbname=$database");if (!$db_conn) {  echo "Неможливо з'єднатися с 
-";  exit;}$qu = pg_query($db_conn, "SELECT * FROM books ORDER BY author");while ($data = pg_fetch_object($qu)) ta| ech| ->year . "): "; echo $data->title . "<br />";}pg_free_result($qu);pg_close($db_conn);?> `
+```php
+<?php
+
+$database = "store";
+
+$db_conn = pg_connect("host=localhost port=5432 dbname=$database");
+if (!$db_conn) {
+  echo "Невозможно соединиться с базой postgres $database\n";
+  exit;
+}
+
+$qu = pg_query($db_conn, "SELECT * FROM books ORDER BY author");
+
+
+while ($data = pg_fetch_object($qu)) {
+  echo $data->author . " (";
+  echo $data->year . "): ";
+  echo $data->title . "<br />";
+}
+
+pg_free_result($qu);
+pg_close($db_conn);
+
+?>
+```
 
 ### Дивіться також
 
-- [pg_query()](function.pg-query.md) - Виконує запит
-- [pg_fetch_array()](function.pg-fetch-array.md) - Повертає рядок
-результату у вигляді масиву
-- [pg_fetch_assoc()](function.pg-fetch-assoc.md) - Вибирає рядок
-результату запиту та поміщає дані в асоціативний масив
-- [pg_fetch_row()](function.pg-fetch-row.md) - Вибирає рядок
-результату запиту та поміщає дані в масив
-- [pg_fetch_result()](function.pg-fetch-result.md) - Повертає
-запис з результату запиту
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву
+-   [пгfetchassoc()](function.pg-fetch-assoc.md) - Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
+-   [пгfetchrow()](function.pg-fetch-row.md) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [пгfetchresult()](function.pg-fetch-result.md) - Повертає запис із результату запиту

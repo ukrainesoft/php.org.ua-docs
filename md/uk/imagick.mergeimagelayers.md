@@ -1,31 +1,30 @@
-- [« Imagick::medianFilterImage](imagick.medianfilterimage.md)
-- [Imagick::minifyImage »](imagick.minifyimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Об'єднує шари зображення
-
+---
+navigation:
+  - imagick.medianfilterimage.md: '« Imagick::medianFilterImage'
+  - imagick.minifyimage.md: 'Imagick::minifyImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::mergeImageLayers'
+---
 # Imagick::mergeImageLayers
 
-(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
+(PECL imagick 2> = 2.1.0, PECL imagick 3)
 
 Imagick::mergeImageLayers — Об'єднує шари зображення
 
 ### Опис
 
-public **Imagick::mergeImageLayers**(int `$layer_method`):
-[Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::mergeImageLayers(int $layer_method): Imagick
+```
 
-Об'єднує шари зображення на один. Метод корисний під час роботи з форматами
-зображень, у яких використовується кілька шарів, наприклад, PSD.
-Об'єднання контролюється за допомогою `layer_method`, який визначає
-Метод об'єднання шарів. Цей метод доступний, якщо Imagick був
-скомпільований з версією ImageMagick 6.3.7 або старшим.
+Об'єднує шари зображення на один. Метод корисний під час роботи з форматами зображень, у яких використовується кілька шарів, наприклад PSD. Об'єднання контролюється за допомогою `layer_method`, Який визначає спосіб об'єднання шарів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.7 або старшим.
 
 ### Список параметрів
 
 `layer_method`
-Одна із констант **`Imagick::LAYERMETHOD_*`**.
+
+Одна з констант **`Imagick::LAYERMETHOD_*`**
 
 ### Значення, що повертаються
 
@@ -39,9 +38,24 @@ public **Imagick::mergeImageLayers**(int `$layer_method`):
 
 **Приклад #1 Приклад використання **Imagick::mergeImageLayers()****
 
-` <?phpfunction mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {   $imagick = new \Imagick(realpath($imagePath)); $imagick2 = new \Imagick(realpath($imagePath2)); $imagick->addImage($imagick2); $imagick->setImageFormat('png'); $result==$imagick->mergeImageLayers($layerMethodType); header("Content-Type: image/png"); echo $result->getImageBlob();}?> `
+```php
+<?php
+function mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {
+
+    $imagick = new \Imagick(realpath($imagePath));
+
+    $imagick2 = new \Imagick(realpath($imagePath2));
+    $imagick->addImage($imagick2);
+    $imagick->setImageFormat('png');
+
+    $result = $imagick->mergeImageLayers($layerMethodType);
+    header("Content-Type: image/png");
+    echo $result->getImageBlob();
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::flattenImages()](imagick.flattenimages.md) - Об'єднує
-послідовність зображень
+-   [Imagick::flattenImages()](imagick.flattenimages.md) - Поєднує послідовність зображень

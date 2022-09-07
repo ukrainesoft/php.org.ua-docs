@@ -1,10 +1,11 @@
-- [« Imagick::queryFormats](imagick.queryformats.md)
-- [Imagick::raiseImage »](imagick.raiseimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Радіальне розмиття зображення
-
+---
+navigation:
+  - imagick.queryformats.md: '« Imagick::queryFormats'
+  - imagick.raiseimage.md: 'Imagick::raiseImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::radialBlurImage'
+---
 # Imagick::radialBlurImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,13 +14,13 @@ Imagick::radialBlurImage — Радіальне розмиття зображе�
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::radialBlurImage**(float `$angle`, int `$channel` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::radialBlurImage(float $angle, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
 Радіальне розмиття зображення.
 
@@ -31,10 +32,23 @@ Imagick::CHANNEL_DEFAULT): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::radialBlurImage()****
 
-`<?phpfunction radialBlurImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); //Розмиття 3 рази з різними радіусами    $imagick->radialBlurImage(3); $imagick->radialBlurImage(5); $imagick->radialBlurImage(7); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function radialBlurImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    //Размытие 3 раза с разными радиусами
+    $imagick->radialBlurImage(3);
+    $imagick->radialBlurImage(5);
+    $imagick->radialBlurImage(7);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

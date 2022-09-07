@@ -1,23 +1,24 @@
-- [« MongoDB\Driver\Session::getClusterTime](mongodb-driver-session.getclustertime.md)
-- [MongoDB\Driver\Session::getOperationTime »](mongodb-driver-session.getoperationtime.md)
+---
+navigation:
+  - mongodb-driver-session.getclustertime.md: '« MongoDBDriverSession::getClusterTime'
+  - mongodb-driver-session.getoperationtime.md: 'MongoDBDriverSession::getOperationTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
+title: 'MongoDBDriverSession::getLogicalSessionId'
+---
+# MongoDBDriverSession::getLogicalSessionId
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Повертає логічний ідентифікатор сеансу для цього сеансу
+(mongodb >=1.4.0)
 
-# MongoDB\Driver\Session::getLogicalSessionId
-
-(mongodb \>=1.4.0)
-
-MongoDB\Driver\Session::getLogicalSessionId — Повертає логічний
-ідентифікатор сеансу для цього сеансу
+MongoDBDriverSession::getLogicalSessionId — Повертає логічний ідентифікатор сеансу для цього сеансу
 
 ### Опис
 
-final public **MongoDB\Driver\Session::getLogicalSessionId**(): object
+```methodsynopsis
+final public MongoDB\Driver\Session::getLogicalSessionId(): object
+```
 
-Повертає логічний ідентифікатор сеансу для цього сеансу, який
-може використовуватися для ідентифікації операцій сеансу сервера.
+Повертає логічний ідентифікатор сеансу для цього сеансу, який можна використовувати для ідентифікації операцій сеансу на сервері.
 
 ### Список параметрів
 
@@ -29,5 +30,4 @@ final public **MongoDB\Driver\Session::getLogicalSessionId**(): object
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

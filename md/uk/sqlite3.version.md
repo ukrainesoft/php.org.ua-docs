@@ -1,24 +1,24 @@
-- [« SQLite3::setAuthorizer](sqlite3.setauthorizer.md)
-- [SQLite3Stmt »](class.sqlite3stmt.md)
-
-- [PHP Manual](index.md)
-- [SQLite3](class.sqlite3.md)
-- Повертає версію бібліотеки SQLite3, містить як рядкову
-константу, так і числову
-
+---
+navigation:
+  - sqlite3.setauthorizer.md: '« SQLite3::setAuthorizer'
+  - class.sqlite3stmt.md: SQLite3Stmt »
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::version'
+---
 # SQLite3::version
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SQLite3::version — Повертає версію бібліотеки SQLite3, містить як
-рядкову константу, так і числову
+SQLite3::version — Повертає версію бібліотеки SQLite3, містить як рядкову константу, так і цифрову
 
 ### Опис
 
-public static **SQLite3::version**(): array
+```methodsynopsis
+public static SQLite3::version(): array
+```
 
-Повертає версію бібліотеки SQLite3, містить як рядкову константу,
-так і числову.
+Повертає версію бібліотеки SQLite3, містить рядкову константу, так і числову.
 
 ### Список параметрів
 
@@ -26,19 +26,24 @@ public static **SQLite3::version**(): array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив із ключами "versionString" та
-"versionNumber".
+Повертає асоціативний масив із ключами "versionString" та "versionNumber".
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SQLite3::version()****
 
-` <?phpprint_r(SQLite3::version());?> `
+```php
+<?php
+print_r(SQLite3::version());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[versionString] => 3.5.9
-[versionNumber] => 3005009
+    [versionString] => 3.5.9
+    [versionNumber] => 3005009
 )
+```

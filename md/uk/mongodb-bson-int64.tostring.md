@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\Int64::serialize](mongodb-bson-int64.serialize.md)
-- [MongoDB\BSON\Int64::unserialize »](mongodb-bson-int64.unserialize.md)
+---
+navigation:
+  - mongodb-bson-int64.serialize.md: '« MongoDBBSONInt64::serialize'
+  - mongodb-bson-int64.unserialize.md: 'MongoDBBSONInt64::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-int64.md: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::toString'
+---
+# MongoDBBSONInt64::toString
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
-- Повертає рядкову виставу Int64
+(mongodb >=1.5.0)
 
-# MongoDB\BSON\Int64::\_\_toString
-
-(mongodb \>=1.5.0)
-
-MongoDB\BSON\Int64::\_\_toString — Повертає рядкову виставу
-Int64
+MongoDBBSONInt64::toString — Повертає рядкову виставу Int64
 
 ### Опис
 
-final public **MongoDB\BSON\Int64::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Int64::__toString(): string
+```
 
 ### Список параметрів
 
@@ -26,15 +28,24 @@ final public **MongoDB\BSON\Int64::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Int64::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONInt64::toString()****
 
-` <?php$int64 = unserialize('C:18:"MongoDB\BSON\Int64":47:{a:1:{s:7:"integer";s:19:"9223372036854775807";}}') ;var_dump((string) $int64);?> `
+```php
+<?php
+
+$int64 = unserialize('C:18:"MongoDB\BSON\Int64":47:{a:1:{s:7:"integer";s:19:"9223372036854775807";}}');
+
+var_dump((string) $int64);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(19) "9223372036854775807"
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

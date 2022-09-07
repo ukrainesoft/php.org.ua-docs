@@ -1,20 +1,18 @@
-- [« FANNConnection::setWeight](fannconnection.setweight.md)
-- [Вступ »](intro.igbinary.md)
-
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- Igbinary
-
+---
+navigation:
+  - fannconnection.setweight.md: '« FANNConnection::setWeight'
+  - intro.igbinary.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Igbinary
+---
 # Igbinary
 
-- [Вступ](intro.igbinary.md)
-- [Встановлення та налаштування](igbinary.setup.md)
-- [Вимоги](igbinary.requirements.md)
-- [Установка](igbinary.installation.md)
-- [Налаштування під час виконання](igbinary.configuration.md)
-- [Функції Igbinary](ref.igbinary.md)
-- [igbinary_serialize](function.igbinary-serialize.md) — Створює
-компактне, двійкове уявлення значення, що зберігається
-- [igbinary_unserialize](function.igbinary-unserialize.md) -
-Створює значення PHP із збереженого уявлення функцією
-igbinary_serialize
+-   [Введение](intro.igbinary.md)
+-   [Встановлення та налаштування](igbinary.setup.md)
+    -   [Вимоги](igbinary.requirements.md)
+    -   [Установка](igbinary.installation.md)
+    -   [Налаштування під час виконання](igbinary.configuration.md)
+-   [Функции Igbinary](ref.igbinary.md)
+    -   [igbinaryserialize](function.igbinary-serialize.md) — Створює компактне, двійкове уявлення, що зберігається.
+    -   [igbinaryunserialize](function.igbinary-unserialize.md) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize

@@ -1,19 +1,22 @@
-- [« SplDoublyLinkedList::key](spldoublylinkedlist.key.md)
-- [SplDoublyLinkedList::offsetExists »](spldoublylinkedlist.offsetexists.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Переміщує ітератор до наступного елементу
-
+---
+navigation:
+  - spldoublylinkedlist.key.md: '« SplDoublyLinkedList::key'
+  - spldoublylinkedlist.offsetexists.md: 'SplDoublyLinkedList::offsetExists »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::next'
+---
 # SplDoublyLinkedList::next
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::next — Переміщує ітератор до наступного елемента
+SplDoublyLinkedList::next — Переміщення ітератора до наступного елемента
 
 ### Опис
 
-public **SplDoublyLinkedList::next**(): void
+```methodsynopsis
+public SplDoublyLinkedList::next(): void
+```
 
 Переміщує ітератор до наступного вузла.
 

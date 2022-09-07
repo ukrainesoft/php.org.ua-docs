@@ -1,28 +1,24 @@
-- [« Imagick::thumbnailImage](imagick.thumbnailimage.md)
-- [Imagick::\_\_toString »](imagick.tostring.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Застосовує вектор кольору до кожного пікселя зображення
-
+---
+navigation:
+  - imagick.thumbnailimage.md: '« Imagick::thumbnailImage'
+  - imagick.tostring.md: 'Imagick::toString »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::tintImage'
+---
 # Imagick::tintImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::tintImage — Застосовує вектор кольору до кожного пікселя
-зображення
+Imagick::tintImage — Застосовує вектор кольору до кожного пікселя зображення
 
 ### Опис
 
-public
-**Imagick::tintImage**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$tint`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$opacity`, bool `$legacy` = **`false`**): bool
+```methodsynopsis
+public Imagick::tintImage(mixed $tint, mixed $opacity, bool $legacy = false): bool
+```
 
-Застосовує вектор кольору до кожного пікселя зображення. Довжина вектора
-дорівнює 0 для чорного та білого та максимальна довжина для півтонів. Функція
-векторного зважування: f(x)=(1-(4.0\*((x-0.5)\*(x-0.5)))).
+Застосовує вектор кольору до кожного пікселя зображення. Довжина вектора дорівнює 0 для чорного та білого та максимальна довжина для півтонів. Функція векторного зважування: f(x)=(1-(4.0)((x-0.5)(x-0.5)))).
 
 ### Список параметрів
 
@@ -32,20 +28,37 @@ public
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
 Викликає ImagickException у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                                                                                                                                                                                                              | Опис |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| PECL imagick 2.1.0 Тепер дозволяє рядок, що представляє колір, як перший параметр і число з точкою, що представляє значення непрозорості, як другий параметр. Попередні версії допускали лише об'єкти ImagickPixel. |      |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Тепер дозволяє рядок, що представляє колір, як перший параметр і число з точкою, що плаває, що представляє значення непрозорості, як другий параметр. Попередні версії допускали лише об'єкти ImagickPixel. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::tintImage()****
 
-` <?phpfunction tintImage($r, $g, $b, $a) {    $a = $a / 100; $imagick==newImagick(); $imagick->newPseudoImage(400, 400, 'gradient:black-white'); $tint = new \ImagickPixel("rgb($r, $g, $b)"); $opacity = new \ImagickPixel("rgb(128, 128, 128, $a)"); $imagick->tintImage($tint, $opacity); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function tintImage($r, $g, $b, $a) {
+    $a = $a / 100;
+
+    $imagick = new \Imagick();
+    $imagick->newPseudoImage(400, 400, 'gradient:black-white');
+
+    $tint = new \ImagickPixel("rgb($r, $g, $b)");
+    $opacity = new \ImagickPixel("rgb(128, 128, 128, $a)");
+    $imagick->tintImage($tint, $opacity);
+    $imagick->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

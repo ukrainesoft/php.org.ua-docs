@@ -1,34 +1,37 @@
-- [«readline_on_new_line](function.readline-on-new-line.md)
-- [readline_redisplay »](function.readline-redisplay.md)
-
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Прочитати історію команд із файлу
-
-#readline_read_history
+---
+navigation:
+  - function.readline-on-new-line.md: « readlineвінnewline
+  - function.readline-redisplay.md: readlineredisplay »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlinereadhistory
+---
+# readlinereadhistory
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readline_read_history — Прочитати історію команд із файлу
+readlinereadhistory — Прочитати історію команд із файлу
 
 ### Опис
 
-**readline_read_history**(?string `$filename` = **`null`**): bool
+```methodsynopsis
+readline_read_history(?string $filename = null): bool
+```
 
 Функція читає історію команд із файлу.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 8.0.0  | filename тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` тепер допускає значення null. |

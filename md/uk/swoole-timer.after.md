@@ -1,21 +1,22 @@
-- [« Swoole\Timer](class.swoole-timer.md)
-- [Swoole\Timer::clear »](swoole-timer.clear.md)
+---
+navigation:
+  - class.swoole-timer.md: « SwooleTimer
+  - swoole-timer.clear.md: 'SwooleTimer::clear »'
+  - index.md: PHP Manual
+  - class.swoole-timer.md: SwooleTimer
+title: 'SwooleTimer::after'
+---
+# SwooleTimer::after
 
-- [PHP Manual](index.md)
-- [Swoole\Timer](class.swoole-timer.md)
-- Запускає callback-функцію через певний проміжок часу
+(PECL swoole >= 1.9.0)
 
-# Swoole\Timer::after
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Timer::after — Запускає callback-функцію через певний
-проміжок часу
+SwooleTimer::after - Запускає callback-функцію через певний проміжок часу
 
 ### Опис
 
-public static **Swoole\Timer::after**(int `$after_time_ms`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public static Swoole\Timer::after(int $after_time_ms, callable $callback): void
+```
 
 Запускає callback-функцію через певний проміжок часу.
 

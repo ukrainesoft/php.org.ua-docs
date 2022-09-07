@@ -1,10 +1,11 @@
-- [« Imagick::getIteratorIndex](imagick.getiteratorindex.md)
-- [Imagick::getOption »](imagick.getoption.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає кількість зображень в об'єкті
-
+---
+navigation:
+  - imagick.getiteratorindex.md: '« Imagick::getIteratorIndex'
+  - imagick.getoption.md: 'Imagick::getOption »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getNumberImages'
+---
 # Imagick::getNumberImages
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getNumberImages — Повертає кількість зображе�
 
 ### Опис
 
-public **Imagick::getNumberImages**(): int
+```methodsynopsis
+public Imagick::getNumberImages(): int
+```
 
 Повертає кількість зображень, пов'язаних із об'єктом Imagick.
 

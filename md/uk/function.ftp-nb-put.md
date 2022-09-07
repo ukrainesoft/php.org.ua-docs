@@ -1,78 +1,113 @@
-- [«ftp_nb_get](function.ftp-nb-get.md)
-- [ftp_nlist »](function.ftp-nlist.md)
+---
+navigation:
+  - function.ftp-nb-get.md: « ftpнбget
+  - function.ftp-nlist.md: ftpnlist »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpнбput
+---
+# ftpнбput
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Завантажує файл на FTP-сервер в асинхронному режимі
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#ftp_nb_put
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-ftp_nb_put — Завантажує файл на FTP-сервер в асинхронному режимі
+ftpнбput — Завантажує файл на сервер FTP в асинхронному режимі
 
 ### Опис
 
-**ftp_nb_put**(
-[FTP\Connection](class.ftp-connection.md) `$ftp`,
-string `$remote_filename`,
-string `$local_filename`,
-int `$mode` = **`FTP_BINARY`**,
-int `$offset` = 0
-): int\|false
+```methodsynopsis
+ftp_nb_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): int|false
+```
 
-**ftp_nb_put()** завантажує локальний файл на сервер FTP.
+**ftpнбput()** завантажує локальний файл на сервер FTP.
 
-Відмінність цієї функції від [ftp_put()](function.ftp-put.md) полягає в
-те, що завантаження файлу відбувається в асинхронному режимі, що дозволяє
-програмі виконувати інші операції під час завантаження.
+Відмінність цієї функції від [ftpput()](function.ftp-put.md) полягає в тому, що завантаження файлу відбувається в асинхронному режимі, що дозволяє програмі виконувати інші операції під час завантаження.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `remote_filename`
-Дорога до файлу на сервері.
+
+Шлях до файлу на сервері.
 
 `local_file`
+
 Шлях до локального файлу.
 
 `mode`
-Режим передачі. Може приймати значення **`FTP_ASCII`** або
-**`FTP_BINARY`**.
+
+Режим передачі. Може приймати значення **`FTP_ASCII`** або **`FTP_BINARY`**
 
 `offset`
+
 Позиція у віддаленому файлі, в яку починається завантаження
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`**, **`FTP_FINISHED`** або **`FTP_MOREDATA`**
-або **`false`** у разі неможливості відкрити локальний файл.
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`** або **`false`** у разі неможливості відкрити локальний файл.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_nb_put()****
+**Приклад #1 Приклад використання **ftpнбput()****
 
-` <?php// Початок завантаження$ret = ftp_nb_put($ftp, "test.remote", "test.local", FTP_BINARY);while ($ret == FTP_MOREDATA) {     echo "."; // Продовження завантаження ...   $ret = ftp_nb_continue($ftp);}if ($ret != FTP_FINISHED) {   echo "При завантаженні файлу відбулася..." exit(1);}?> `
+```php
+<?php
 
-**Приклад #2 Відновлення завантаження файлу за допомогою **ftp_nb_put()****
+// Начало загрузки
+$ret = ftp_nb_put($ftp, "test.remote", "test.local", FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-` <?php// Начало загрузки$ret = ftp_nb_put($ftp, "test.remote", "test.local",                      FTP_BINARY, ftp_size("test.remote"));// ИЛИ: $ret = ftp_nb_put($ ftp, "test.remote", "test.local",//                           FTP_BINARY, FTP_AUTORESUME);while ($ret == FTP_MOREDATA) {   // Производим какие-то действия ...   echo "."; // Продовження завантаження ...   $ret = ftp_nb_continue($ftp);}if ($ret != FTP_FINISHED) {   echo "При завантаженні файлу відбулася..." exit(1);}?> `
+   // Производим какие-то действия ...
+   echo ".";
+
+   // Продолжение загрузки ...
+   $ret = ftp_nb_continue($ftp);
+}
+if ($ret != FTP_FINISHED) {
+   echo "При загрузке файла произошла ошибка...";
+   exit(1);
+}
+?>
+```
+
+**Приклад #2 Відновлення завантаження файлу за допомогою **ftpнбput()****
+
+```php
+<?php
+
+// Начало загрузки
+$ret = ftp_nb_put($ftp, "test.remote", "test.local",
+                      FTP_BINARY, ftp_size("test.remote"));
+// ИЛИ: $ret = ftp_nb_put($ftp, "test.remote", "test.local",
+//                           FTP_BINARY, FTP_AUTORESUME);
+
+while ($ret == FTP_MOREDATA) {
+
+   // Производим какие-то действия ...
+   echo ".";
+
+   // Продолжение загрузки ...
+   $ret = ftp_nb_continue($ftp);
+}
+if ($ret != FTP_FINISHED) {
+   echo "При загрузке файла произошла ошибка...";
+   exit(1);
+}
+?>
+```
 
 ### Дивіться також
 
-- [ftp_nb_fput()](function.ftp-nb-fput.md) - Завантажує
-попередньо відкритий файл на FTP-сервер в асинхронному режимі
-- [ftp_nb_continue()](function.ftp-nb-continue.md) - Продовжує
-асинхронну операцію
-- [ftp_put()](function.ftp-put.md) - Завантажує файл на сервер FTP
-- [ftp_fput()](function.ftp-fput.md) - Завантажує попередньо
-відкритий файл на FTP-сервер
+-   [ftpнбfput()](function.ftp-nb-fput.md) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
+-   [ftpнбcontinue()](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
+-   [ftpput()](function.ftp-put.md) - Завантажує файл на FTP-сервер
+-   [ftpfput()](function.ftp-fput.md) - Завантажує попередньо відкритий файл на FTP-сервер

@@ -1,19 +1,22 @@
-- [« Swoole\Client::recv](swoole-client.recv.md)
-- [Swoole\Client::send »](swoole-client.send.md)
+---
+navigation:
+  - swoole-client.recv.md: '« SwooleClient::recv'
+  - swoole-client.send.md: 'SwooleClient::send »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::resume'
+---
+# SwooleClient::resume
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Відновлює отримання даних
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::resume
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::resume — Відновлює отримання даних
+SwooleClient::resume — Відновлює отримання даних
 
 ### Опис
 
-public **Swoole\Client::resume**(): void
+```methodsynopsis
+public Swoole\Client::resume(): void
+```
 
 ### Список параметрів
 

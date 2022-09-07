@@ -1,25 +1,24 @@
-- [« Yaf_Response_Abstract::\_\_construct](yaf-response-abstract.construct.md)
-- [Yaf_Response_Abstract::getBody »](yaf-response-abstract.getbody.md)
+---
+navigation:
+  - yaf-response-abstract.construct.md: '« YafResponseAbstract::construct'
+  - yaf-response-abstract.getbody.md: 'YafResponseAbstract::getBody »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
+title: 'YafResponseAbstract::destruct'
+---
+# YafResponseAbstract::destruct
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- деструктор класу Yaf_Response_Abstract
+(Yaf >=1.0.0)
 
-# Yaf_Response_Abstract::\_\_destruct
-
-(Yaf \>=1.0.0)
-
-Yaf_Response_Abstract::\_\_destruct - Деструктор класу
-Yaf_Response_Abstract
+YafResponseAbstract::destruct - Деструктор класу YafResponseAbstract
 
 ### Опис
 
-public **Yaf_Response_Abstract::\_\_destruct**()
+public **YafResponseAbstract::destruct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

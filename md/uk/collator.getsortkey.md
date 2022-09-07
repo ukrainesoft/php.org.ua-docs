@@ -1,71 +1,73 @@
-- [«Collator::getLocale](collator.getlocale.md)
-- [Collator::getStrength »](collator.getstrength.md)
-
-- [PHP Manual](index.md)
-- [Collator](class.collator.md)
-- Отримує ключ сортування рядка
-
+---
+navigation:
+  - collator.getlocale.md: '« Collator::getLocale'
+  - collator.getstrength.md: 'Collator::getStrength »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::getSortKey'
+---
 # Collator::getSortKey
 
-#collator_get_sort_key
+# collatorgetsortkey
 
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 1.0.3)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 1.0.3)
 
-Collator::getSortKey -- collator_get_sort_key — Отримує ключ сортування
-рядки
+Collator::getSortKey -- collatorgetsortkey — Отримує ключ сортування рядка
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **Collator::getSortKey**(string `$string`): string\|false
+```methodsynopsis
+public Collator::getSortKey(string $string): string|false
+```
 
 Процедурний стиль
 
-**collator_get_sort_key**([Collator](class.collator.md) `$object`,
-string `$string`): string\|false
+```methodsynopsis
+collator_get_sort_key(Collator $object, string $string): string|false
+```
 
-Повертає ключ зіставлення для рядка. Ключі зіставлення можна
-порівнювати безпосередньо, а не рядки, хоча вони залежать від реалізації і можуть
-змінюватись в залежності від версії бібліотеки ICU. Ключі сортування зазвичай
-корисні лише в базах даних або в інших випадках, коли виклики функцій
-надзвичайно дорогі.
+Повертає ключ зіставлення для рядка. Ключі зіставлення можна порівнювати безпосередньо, а не рядки, хоча вони залежать від реалізації і можуть змінюватись в залежності від версії бібліотеки ICU. Ключі сортування зазвичай корисні лише в базах даних або в інших випадках, коли виклики функцій надзвичайно дорогі.
 
 ### Список параметрів
 
 `object`
-Об'єкт [Collator](class.collator.md).
+
+Об'єкт [Collator](class.collator.md)
 
 `string`
+
 Рядок, з якого створюється ключ.
 
 ### Значення, що повертаються
 
-Повертає ключ зіставлення для рядка або **`false`** у випадку
-виникнення помилки.
+Повертає ключ зіставлення для рядка або **`false`** у разі виникнення помилки.
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**, так і
-значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
-повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collator_get_sort_key()****
+**Приклад #1 Приклад використання **collatorgetsortkey()****
 
-` <?php$s1 = 'Hello';$coll = collator_create('en_US');$res  = collator_get_sort_key($coll, $s1);echo bin2hex($res);?> `
+```php
+<?php
+$s1 = 'Hello';
+
+$coll = collator_create('en_US');
+$res  = collator_get_sort_key($coll, $s1);
+
+echo bin2hex($res);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
-
 
 3832404046010901dc08
 
 ### Дивіться також
 
-- [collator_sort()](collator.sort.md) - Сортує масив з
-використанням зазначеного засобу сортування
-- [collator_sort_with_sort_keys()](collator.sortwithsortkeys.md) -
-Сортує масив з використанням вказаного Collator та ключів
-сортування
+-   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування

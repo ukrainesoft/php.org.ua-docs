@@ -1,19 +1,22 @@
-- [« Ds\Map::filter](ds-map.filter.md)
-- [Ds\Map::get »](ds-map.get.md)
+---
+navigation:
+  - ds-map.filter.md: '« DsMap::filter'
+  - ds-map.get.md: 'ДсMap::get »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::first'
+---
+# ДсMap::first
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає перший елемент колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Map::first
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::first — Повертає перший елемент колекції
+ДсMap::first — Повертає перший елемент колекції
 
 ### Опис
 
-public **Ds\Map::first**(): [Ds\Pair](class.ds-pair.md)
+```methodsynopsis
+public Ds\Map::first(): Ds\Pair
+```
 
 Повертає перший елемент колекції.
 
@@ -27,21 +30,26 @@ public **Ds\Map::first**(): [Ds\Pair](class.ds-pair.md)
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::first()****
+**Приклад #1 Приклад використання **ДсMap::first()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->first());?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+var_dump($map->first());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Pair)#2 (2) {
-["key"]=>
-string(1) "a"
-["value"]=>
-int(1)
+  ["key"]=>
+  string(1) "a"
+  ["value"]=>
+  int(1)
 }
+```

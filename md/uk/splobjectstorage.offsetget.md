@@ -1,27 +1,29 @@
-- [« SplObjectStorage::offsetExists](splobjectstorage.offsetexists.md)
-- [SplObjectStorage::offsetSet »](splobjectstorage.offsetset.md)
-
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Повертає дані, асоційовані з об'єктом object
-
+---
+navigation:
+  - splobjectstorage.offsetexists.md: '« SplObjectStorage::offsetExists'
+  - splobjectstorage.offsetset.md: 'SplObjectStorage::offsetSet »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::offsetGet'
+---
 # SplObjectStorage::offsetGet
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplObjectStorage::offsetGet — Повертає дані, асоційовані з
-об'єктом object
+SplObjectStorage::offsetGet - Повертає дані, асоційовані з об'єктом object
 
 ### Опис
 
-public **SplObjectStorage::offsetGet**(object `$object`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplObjectStorage::offsetGet(object $object): mixed
+```
 
-Повертає дані, пов'язані з об'єктом object.
+Повертає дані, що асоціюються з об'єктом object.
 
 ### Список параметрів
 
 `object`
+
 Об'єкт об'єкта, що шукається.
 
 ### Значення, що повертаються
@@ -30,26 +32,37 @@ public **SplObjectStorage::offsetGet**(object `$object`):
 
 ### Помилки
 
-Викидає виняток
-[UnexpectedValueException](class.unexpectedvalueexception.md), якщо
-об'єкт `object` не вдалося знайти.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо об'єкт `object` не вдалося знайти.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetGet()****
 
-` <?php$s = new SplObjectStorage;$o1 = new StdClass;$o2 = new StdClass;$s[$o1] = "hello";$s->attach($o2);var_dump($s->offG ($ o1)); //  $s[$o1]var_dump($s->offsetGet($o2)); //  $s[$o2]?> `
+```php
+<?php
+$s = new SplObjectStorage;
+
+$o1 = new StdClass;
+$o2 = new StdClass;
+
+$s[$o1] = "hello";
+$s->attach($o2);
+
+
+var_dump($s->offsetGet($o1)); //  $s[$o1]
+var_dump($s->offsetGet($o2)); //  $s[$o2]
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(5) "hello"
 NULL
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) -
-Асоціює дані з об'єктом у контейнері
-- [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) -
-Перевіряє, чи існує об'єкт у контейнері
-- [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) -
-Видаляє об'єкт із контейнера
+-   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) - Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) - Видаляє об'єкт із контейнера

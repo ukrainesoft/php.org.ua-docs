@@ -1,19 +1,22 @@
-- [« SplFileObject::eof](splfileobject.eof.md)
-- [SplFileObject::fgetc »](splfileobject.fgetc.md)
-
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- скидає буфер виводу у файл
-
+---
+navigation:
+  - splfileobject.eof.md: '« SplFileObject::eof'
+  - splfileobject.fgetc.md: 'SplFileObject::fgetc »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fflush'
+---
 # SplFileObject::fflush
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fflush — Скидає буфер виводу у файл
 
 ### Опис
 
-public **SplFileObject::fflush**(): bool
+```methodsynopsis
+public SplFileObject::fflush(): bool
+```
 
 Примусове записування всіх буферизованих даних у файл.
 
@@ -23,15 +26,22 @@ public **SplFileObject::fflush**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fflush()****
 
-` <?php$file = new SplFileObject('misc.txt', 'r+');$file->rewind();$file->fwrite("Foo");$file->fflush();$file ->ftruncate($file->ftell());?> `
+```php
+<?php
+$file = new SplFileObject('misc.txt', 'r+');
+$file->rewind();
+$file->fwrite("Foo");
+$file->fflush();
+$file->ftruncate($file->ftell());
+?>
+```
 
 ### Дивіться також
 
-- [SplFileObject::fwrite()](splfileobject.fwrite.md) - Запис у файл
+-   [SplFileObject::fwrite()](splfileobject.fwrite.md) - Запис у файл

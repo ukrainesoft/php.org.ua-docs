@@ -1,26 +1,24 @@
-- [«RarException](class.rarexception.md)
-- [RarException::setUsingExceptions »](rarexception.setusingexceptions.md)
-
-- [PHP Manual](index.md)
-- [RarException](class.rarexception.md)
-- Перевірити, чи будуть функції повертати помилки або викидати
-винятки
-
+---
+navigation:
+  - class.rarexception.md: « RarException
+  - rarexception.setusingexceptions.md: 'RarException::setUsingExceptions »'
+  - index.md: PHP Manual
+  - class.rarexception.md: RarException
+title: 'RarException::isUsingExceptions'
+---
 # RarException::isUsingExceptions
 
-(PECL rar \>= 2.0.0)
+(PECL rar >= 2.0.0)
 
-RarException::isUsingExceptions — Перевірити, чи будуть функції повертати
-помилки або викидати винятки
+RarException::isUsingExceptions — Перевірити, чи будуть функції повертати помилки або викидати винятки
 
 ### Опис
 
-public static **RarException::isUsingExceptions**(): bool
+```methodsynopsis
+public static RarException::isUsingExceptions(): bool
+```
 
-Перевіряє, чи будуть функції RAR викидати виключення або повертати
-помилки і викликати попередження в більшості випадків (не включаючи
-деякі програмні помилки на кшталт передачі аргументів некоректних
-типів).
+Перевіряє, чи будуть функції RAR викидати винятки або повертати помилки та викликати попередження в більшості випадків (не включаючи деякі програмні помилки на кшталт передачі аргументів некоректних типів).
 
 ### Список параметрів
 
@@ -28,21 +26,25 @@ public static **RarException::isUsingExceptions**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо використовуються винятки та **`false`**, якщо
-ні.
+Повертає **`true`**, якщо використовуються винятки та **`false`**, якщо ні.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **RarException::isUsingExceptions()****
 
-` <?php//За мовчанням виключення не використовуютьсяvar_dump(RarException::isUsingExceptions());?> `
+```php
+<?php
+//По умолчанию исключения не используются
+var_dump(RarException::isUsingExceptions());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
+```
 
 ### Дивіться також
 
-- [RarException::setUsingExceptions()](rarexception.setusingexceptions.md) -
-Включити або вимкнути генерацію винятків замість повернення
-помилок
+-   [RarException::setUsingExceptions()](rarexception.setusingexceptions.md) - Включити або вимкнути генерацію винятків замість повернення помилок

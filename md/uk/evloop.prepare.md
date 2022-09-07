@@ -1,28 +1,37 @@
-- [«EvLoop::periodic](evloop.periodic.md)
-- [EvLoop::resume »](evloop.resume.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним
-екземпляром циклу подій
-
+---
+navigation:
+  - evloop.periodic.md: '« EvLoop::periodic'
+  - evloop.resume.md: 'EvLoop::resume »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::prepare'
+---
 # EvLoop::prepare
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::prepare — Створює об'єкт спостерігача EvPrepare, пов'язаний із
-поточним екземпляром циклу подій
+EvLoop::prepare — Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним екземпляром циклу подій
 
 ### Опис
 
-final public **EvLoop::prepare**(
-[callable](language.types.callable.md) `$callback` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** , int `$priority` = 0 ):
-[EvPrepare](class.evprepare.md)
+```methodsynopsis
+final
+   public
+   EvLoop::prepare(
+    callable
+     $callback
+   , 
+    mixed
+     $data
+     = null
+   , 
+    int
+     $priority
+     = 0
+   ): EvPrepare
+```
 
-Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним екземпляром
-циклу подій
+Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним екземпляром циклу подій
 
 ### Список параметрів
 
@@ -34,5 +43,4 @@ final public **EvLoop::prepare**(
 
 ### Дивіться також
 
-- [EvPrepare::\_\_construct()](evprepare.construct.md) - Конструктор
-спостерігача EvPrepare
+-   [EvPrepare::construct()](evprepare.construct.md) - Конструктор спостерігача EvPrepare

@@ -1,30 +1,33 @@
-- [«hexdec](function.hexdec.md)
-- [intdiv »](function.intdiv.md)
-
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- розраховує довжину гіпотенузи прямокутного трикутника
-
+---
+navigation:
+  - function.hexdec.md: « hexdec
+  - function.intdiv.md: intdiv »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: hypot
+---
 # hypot
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
 hypot - Розраховує довжину гіпотенузи прямокутного трикутника
 
 ### Опис
 
-**hypot**(float `$x`, float `$y`): float
+```methodsynopsis
+hypot(float $x, float $y): float
+```
 
-**hypot()** повертає довжину гіпотенузи прямокутного трикутника з
-довжинами сторін `x` та `y` або відстань точки (`x`, `y`) до початку
-координат Еквівалентно `sqrt(x*x + y*y)`.
+**hypot()** повертає довжину гіпотенузи прямокутного трикутника з довжинами сторін `x` і `y` або відстань точки (`x` `y`) до початку координат Еквівалентно `sqrt(x*x + y*y)`
 
 ### Список параметрів
 
 `x`
+
 Довжина першої сторони
 
 `y`
+
 Довжина другої сторони
 
 ### Значення, що повертаються

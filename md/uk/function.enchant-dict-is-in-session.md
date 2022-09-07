@@ -1,22 +1,21 @@
-- [«enchant_dict_is_added](function.enchant-dict-is-added.md)
-- [enchant_dict_quick_check »](function.enchant-dict-quick-check.md)
+---
+navigation:
+  - function.enchant-dict-is-added.md: « enchantdictісadded
+  - function.enchant-dict-quick-check.md: enchantdictquickcheck »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictісінsession
+---
+# enchantdictісінsession
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Чи є слово 'word' у сесії перевірки
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-#enchant_dict_is_in_session
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
-
-enchant_dict_is_in_session — Чи є слово 'word' у сесії
-перевірки
+enchantdictісінsession — Чи є слово 'word' у сесії перевірки
 
 **Увага**
 
-Псевдонім оголошений *ЗАСТАРІЛИМ* у PHP 8.0.0.
+Псевдонім оголошено *Застарілим* у PHP 8.0.0.
 
 ### Опис
 
-Ця функція є псевдонімом:
-[enchant_dict_is_added()](function.enchant-dict-is-added.md).
+Ця функція є псевдонімом: [enchantdictісadded()](function.enchant-dict-is-added.md)

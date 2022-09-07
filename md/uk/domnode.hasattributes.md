@@ -1,22 +1,24 @@
-- [« DOMNode::getNodePath](domnode.getnodepath.md)
-- [DOMNode::hasChildNodes »](domnode.haschildnodes.md)
-
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- Перевіряє, чи має цей вузол атрибути
-
+---
+navigation:
+  - domnode.getnodepath.md: '« DOMNode::getNodePath'
+  - domnode.haschildnodes.md: 'DOMNode::hasChildNodes »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::hasAttributes'
+---
 # DOMNode::hasAttributes
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMNode::hasAttributes — Перевіряє, чи має цей вузол атрибути
+DOMNode::hasAttributes — Перевіряє, чи цей вузол має атрибути.
 
 ### Опис
 
-public **DOMNode::hasAttributes**(): bool
+```methodsynopsis
+public DOMNode::hasAttributes(): bool
+```
 
-Цей метод перевіряє, чи поточний вузол містить атрибути. Перевірений
-вузол має бути **`XML_ELEMENT_NODE`**.
+Цей метод перевіряє, чи поточний вузол містить атрибути. Вузол, що перевіряється, повинен бути **`XML_ELEMENT_NODE`**
 
 ### Список параметрів
 
@@ -24,10 +26,8 @@ public **DOMNode::hasAttributes**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DOMNode::hasChildNodes()](domnode.haschildnodes.md) - Перевіряє,
-чи має цей вузол нащадків
+-   [DOMNode::hasChildNodes()](domnode.haschildnodes.md) - Перевіряє, чи має цей вузол нащадків

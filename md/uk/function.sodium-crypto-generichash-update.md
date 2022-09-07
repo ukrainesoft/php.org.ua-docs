@@ -1,45 +1,61 @@
-- [« sodium_crypto_generichash_keygen](function.sodium-crypto-generichash-keygen.md)
-- [sodium_crypto_generichash »](function.sodium-crypto-generichash.md)
+---
+navigation:
+  - function.sodium-crypto-generichash-keygen.md: « sodiumcryptogenerichashkeygen
+  - function.sodium-crypto-generichash.md: sodiumcryptogenerichash »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptogenerichashupdate
+---
+# sodiumcryptogenerichashupdate
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Додати повідомлення до хешу
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_generichash_update
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_generichash_update — Додати повідомлення до хешу
+sodiumcryptogenerichashupdate — Додати повідомлення до хешу
 
 ### Опис
 
-**sodium_crypto_generichash_update**(string `&$state`, string
-`$message`): bool
+```methodsynopsis
+sodium_crypto_generichash_update(string &$state, string $message): bool
+```
 
 Додає повідомлення до внутрішнього хеш-стану.
 
 ### Список параметрів
 
 `state`
-Значення, що повертається
-[sodium_crypto_generichash_init()](function.sodium-crypto-generichash-init.md).
+
+Значення, що повертається [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.md)
 
 `message`
+
 Дані для додавання до стану хешування.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**sodium_crypto_generichash_update()****
+**Приклад #1 Приклад використання **sodiumcryptogenerichashupdate()****
 
-`<?php$messages = [random_bytes(32), random_bytes(32), random_bytes(16)];$state = sodium_crypto_generichash_init();foreach ($messages as $message$ $final==sodium_crypto_generichash_final($state);var_dump(sodium_bin2hex($final));$allAtOnce==sodium_crypto_generichash(implode('', $messages));var_dump(sodium_bin2h>
+```php
+<?php
+$messages = [random_bytes(32), random_bytes(32), random_bytes(16)];
+$state = sodium_crypto_generichash_init();
+foreach ($messages as $message) {
+    sodium_crypto_generichash_update($state, $message);
+}
+$final = sodium_crypto_generichash_final($state);
+var_dump(sodium_bin2hex($final));
+
+$allAtOnce = sodium_crypto_generichash(implode('', $messages));
+var_dump(sodium_bin2hex($allAtOnce));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(64) "e16e28bbbbcc39d9f5b1cbc33c41f1d217808640103e57a41f24870f79831e04"
 string(64) "e16e28bbbbcc39d9f5b1cbc33c41f1d217808640103e57a41f24870f79831e04"
+```

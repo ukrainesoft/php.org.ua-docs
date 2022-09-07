@@ -1,23 +1,24 @@
-- [« ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md)
-- [ReflectionFunctionAbstract::getReturnType »](reflectionfunctionabstract.getreturntype.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує параметри
-
+---
+navigation:
+  - reflectionfunctionabstract.getnumberofrequiredparameters.md: '« ReflectionFunctionAbstract::getNumberOfRequiredParameters'
+  - reflectionfunctionabstract.getreturntype.md: 'ReflectionFunctionAbstract::getReturnType »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getParameters'
+---
 # ReflectionFunctionAbstract::getParameters
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getParameters — Отримує параметри
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getParameters**(): array
+```methodsynopsis
+public ReflectionFunctionAbstract::getParameters(): array
+```
 
-Отримання параметрів у вигляді масиву об'єктів
-[ReflectionParameter](class.reflectionparameter.md) в тому порядку,
-якому вони визначені у джерелі.
+Отримання параметрів у вигляді масиву об'єктів [ReflectionParameter](class.reflectionparameter.md) у тому порядку, в якому вони визначені у джерелі.
 
 ### Список параметрів
 
@@ -25,12 +26,9 @@ public **ReflectionFunctionAbstract::getParameters**(): array
 
 ### Значення, що повертаються
 
-Параметри, представлені об'єктами
-[ReflectionParameter](class.reflectionparameter.md).
+Параметри, представлені об'єктами [ReflectionParameter](class.reflectionparameter.md)
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) -
-Отримує кількість параметрів
-- [func_get_args()](function.func-get-args.md) - Повертає масив,
-містить аргументи функції
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів
+-   [funcgetargs()](function.func-get-args.md) - Повертає масив, що містить аргументи функції

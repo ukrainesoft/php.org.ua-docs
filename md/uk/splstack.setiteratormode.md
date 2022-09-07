@@ -1,38 +1,38 @@
-- [« SplStack::\_\_construct](splstack.construct.md)
-- [SplQueue »](class.splqueue.md)
-
-- [PHP Manual](index.md)
-- [SplStack](class.splstack.md)
-- Встановлює режим ітератора
-
+---
+navigation:
+  - splstack.construct.md: '« SplStack::construct'
+  - class.splqueue.md: SplQueue »
+  - index.md: PHP Manual
+  - class.splstack.md: SplStack
+title: 'SplStack::setIteratorMode'
+---
 # SplStack::setIteratorMode
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplStack::setIteratorMode — Встановлює режим ітератора
 
 ### Опис
 
-public **SplStack::setIteratorMode**(int `$mode`): void
+```methodsynopsis
+public SplStack::setIteratorMode(int $mode): void
+```
 
 ### Список параметрів
 
 `mode`
+
 Можна змінити лише один параметр ітератора.
 
-- Поведінка ітератора (або одне, або інше):
-- SplDoublyLinkedList::IT_MODE_DELETE (Елементи видаляються
-ітератором)
-- SplDoublyLinkedList::IT_MODE_KEEP (Ітератор обходить елементи, не
-видаляючи їх)
+-   Поведінка ітератора (чи одне, чи інше):
+    -   SplDoublyLinkedList::ITMODEDELETE (Елементи видаляються ітератором)
+    -   SplDoublyLinkedList::ITMODEKEEP (Ітератор обходить елементи, не видаляючи їх)
 
-За промовчанням використовується режим 0x2 : SplDoublyLinkedList::IT_MODE_LIFO
-\| SplDoublyLinkedList::IT_MODE_KEEP
+За промовчанням використовується режим 0x2 : SplDoublyLinkedList::ITMODELIFO | SplDoublyLinkedList::ITMODEKEEP
 
 **Увага**
-Напрямок ітерації не можна змінити для об'єктів SplStack.
-Спроба зробити це призведе до того, що буде викинуто
-[RuntimeException](class.runtimeexception.md).
+
+Напрямок ітерації не можна змінити для об'єктів SplStack. Спроба зробити це призведе до того, що буде викинуто [RuntimeException](class.runtimeexception.md)
 
 ### Значення, що повертаються
 

@@ -1,36 +1,36 @@
-- [« IntlTimeZone::getDisplayName](intltimezone.getdisplayname.md)
-- [IntlTimeZone::getEquivalentID »](intltimezone.getequivalentid.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати кількість мілісекунд, яку потрібно додати до місцевого
-поясний час, щоб отримати літній час
-
+---
+navigation:
+  - intltimezone.getdisplayname.md: '« IntlTimeZone::getDisplayName'
+  - intltimezone.getequivalentid.md: 'IntlTimeZone::getEquivalentID »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getDSTSavings'
+---
 # IntlTimeZone::getDSTSavings
 
-# intltz_get_dst_savings
+# intltzgetdstsavings
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getDSTSavings -- intltz_get_dst_savings — Отримати
-кількість мілісекунд, яку потрібно додати до місцевого поясного
-часу, щоб отримати літній час
+IntlTimeZone::getDSTSavings -- intltzgetdstsavings — Отримати кількість мілісекунд, яку потрібно додати до місцевого поясного часу, щоб отримати літній час
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::getDSTSavings**(): int
+```methodsynopsis
+public IntlTimeZone::getDSTSavings(): int
+```
 
 Процедурний стиль:
 
-**intltz_get_dst_savings**([IntlTimeZone](class.intltimezone.md)
-`$timezone`): int
+```methodsynopsis
+intltz_get_dst_savings(IntlTimeZone $timezone): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

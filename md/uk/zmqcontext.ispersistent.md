@@ -1,23 +1,24 @@
-- [«ZMQContext::getSocket](zmqcontext.getsocket.md)
-- [ZMQContext::setOpt »](zmqcontext.setopt.md)
-
-- [PHP Manual](index.md)
-- [ZMQContext](class.zmqcontext.md)
-- Чи є контекст постійним
-
+---
+navigation:
+  - zmqcontext.getsocket.md: '« ZMQContext::getSocket'
+  - zmqcontext.setopt.md: 'ZMQContext::setOpt »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
+title: 'ZMQContext::isPersistent'
+---
 # ZMQContext::isPersistent
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
-ZMQContext::isPersistent — Чи є контекст незмінним
+ZMQContext::isPersistent — Чи є контекст постійним
 
 ### Опис
 
-public **ZMQContext::isPersistent**(): bool
+```methodsynopsis
+public ZMQContext::isPersistent(): bool
+```
 
-Визначає, чи контекст є постійним. Постійний контекст
-потрібно для постійного з'єднання, так як кожен сокет виділяється з
-контексту.
+Визначає, чи контекст є постійним. Постійний контекст потрібний для постійного з'єднання, оскільки кожен сокет виділяється з контексту.
 
 ### Список параметрів
 
@@ -25,4 +26,4 @@ public **ZMQContext::isPersistent**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо контекст постійний та **`false`**, якщо ні.
+Повертає **`true`**, якщо контекст постійний і **`false`**, якщо ні.

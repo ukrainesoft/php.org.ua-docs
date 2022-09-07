@@ -1,19 +1,22 @@
-- [« DOMNode::cloneNode](domnode.clonenode.md)
-- [DOMNode::getNodePath »](domnode.getnodepath.md)
-
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- Отримати номер рядка вузла
-
+---
+navigation:
+  - domnode.clonenode.md: '« DOMNode::cloneNode'
+  - domnode.getnodepath.md: 'DOMNode::getNodePath »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::getLineNo'
+---
 # DOMNode::getLineNo
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 DOMNode::getLineNo — Отримати номер рядка вузла
 
 ### Опис
 
-public **DOMNode::getLineNo**(): int
+```methodsynopsis
+public DOMNode::getLineNo(): int
+```
 
 Повертає номер рядка, в якому визначено вузол.
 
@@ -29,8 +32,29 @@ public **DOMNode::getLineNo**(): int
 
 **Приклад #1 Приклад використання **DOMNode::getLineNo()****
 
-` <?php// Визначення необхідного для прикладу XML$xml = <<<XML<?xml version="1.0" encoding="utf-8"?><root>    <node /></root>XML;/// Створення нового примірника DOMDocument$dom = new DOMDocument; // Завантаження XML$dom->loadXML($xml); , $dom->getElementsByTagName('node')->item(0)->getLineNo());?> `
+```php
+<?php
+// Определение необходимого для примера XML
+$xml = <<<XML
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <node />
+</root>
+XML;
+
+// Создание нового экземпляра DOMDocument
+$dom = new DOMDocument;
+
+// Загрузка XML
+$dom->loadXML($xml);
+
+// Вывод номер строки, в которой определён элемент 'node'
+printf('Тег <node> определён в строке %d', $dom->getElementsByTagName('node')->item(0)->getLineNo());
+?>
+```
 
 Результат виконання цього прикладу:
 
-Тег <node> визначено у рядку 3
+```
+Тег <node> определён в строке 3
+```

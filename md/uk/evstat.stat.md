@@ -1,23 +1,25 @@
-- [«EvStat::set](evstat.set.md)
-- [EvTimer »](class.evtimer.md)
+---
+navigation:
+  - evstat.set.md: '« EvStat::set'
+  - class.evtimer.md: EvTimer »
+  - index.md: PHP Manual
+  - class.evstat.md: EvStat
+title: 'Евстат::стати'
+---
+# Евстат::стати
 
-- [PHP Manual](index.md)
-- [EvStat](class.evstat.md)
-- Ініціює виклик статистики
-
-# EvStat::stat
-
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvStat::stat — Ініціює виклик статистики
 
 ### Опис
 
-public **EvStat::stat**(): bool
+```methodsynopsis
+public
+   EvStat::stat(): bool
+```
 
-Ініціює виклик статистики (оновлює внутрішній кеш). Визначає
-(використовуючи `lstat`) `path`, вказаний у спостерігачі, та встановлює
-знайдені значення.
+Ініціює виклик статистики (оновлює внутрішній кеш). Визначає (використовуючи `lstat`) path, вказаний у спостерігачі, та встановлює знайдені значення.
 
 ### Список параметрів
 
@@ -25,12 +27,9 @@ public **EvStat::stat**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `path` існує. В іншому випадку
-**`false`**.
+Повертає \*\*`true`\*\*якщо path існує. В іншому випадку **`false`**
 
 ### Дивіться також
 
-- [EvStat::attr()](evstat.attr.md) - Повертає значення нещодавно
-виявлені Ev
-- [EvStat::prev()](evstat.prev.md) - Повертає попередній набір
-значень, що повертаються EvStat::attr
+-   [EvStat::attr()](evstat.attr.md) - Повертає значення, нещодавно виявлені Ev
+-   [EvStat::prev()](evstat.prev.md) - Повертає попередній набір значень, які повертаються EvStat::attr

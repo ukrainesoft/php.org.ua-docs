@@ -1,37 +1,47 @@
-- [«EvLoop::nowUpdate](evloop.nowupdate.md)
-- [EvLoop::prepare »](evloop.prepare.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним
-екземпляром циклу подій
-
+---
+navigation:
+  - evloop.nowupdate.md: '« EvLoop::nowUpdate'
+  - evloop.prepare.md: 'EvLoop::prepare »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::periodic'
+---
 # EvLoop::periodic
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::periodic — Створює об'єкт спостерігача EvPeriodic, пов'язаний із
-поточним екземпляром циклу подій
+EvLoop::periodic — Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
 
 ### Опис
 
-final public **EvLoop::periodic**(
-float `$offset`,
-float `$interval`,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   EvLoop::periodic(    
+    float
+     $offset
+   ,    
+    float
+     $interval
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvPeriodic
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvPeriodic](class.evperiodic.md)
-
-Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром
-циклу подій
+Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
 
 ### Список параметрів
 
-Усі параметри, що й для
-[EvPeriodic::\_\_construct()](evperiodic.construct.md)
+Усі параметри, що й для [EvPeriodic::construct()](evperiodic.construct.md)
 
 ### Значення, що повертаються
 
@@ -39,5 +49,4 @@ int `$priority` = 0
 
 ### Дивіться також
 
-- [EvPeriodic::\_\_construct()](evperiodic.construct.md) -
-Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::construct()](evperiodic.construct.md) - Конструктор об'єкта спостерігача EvPeriodic

@@ -1,35 +1,37 @@
-- [« Ds\Sequence::get](ds-sequence.get.md)
-- [Ds\Sequence::join »](ds-sequence.join.md)
+---
+navigation:
+  - ds-sequence.get.md: '« DsSequence::get'
+  - ds-sequence.join.md: 'ДсSequence::join »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::insert'
+---
+# ДсSequence::insert
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Вставляє значення за вказаним індексом
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::insert
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::insert — Вставляє значення за вказаним індексом
+ДсSequence::insert — Вставляє значення за вказаним індексом
 
 ### Опис
 
-abstract public **Ds\Sequence::insert**(int `$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+abstract public Ds\Sequence::insert(int $index, mixed ...$values): void
+```
 
 Вставляє значення за вказаним індексом.
 
 ### Список параметрів
 
 `index`
-Індекс, яким необхідно здійснити вставку.
-`0 <= index <= count`
 
-> **Примітка**:
->
+Індекс, за яким необхідно здійснити вставку . `0 <= index <= count`
+
+> **Зауваження**
+> 
 > Можна вказати індекс, який дорівнює кількості елементів колекції.
 
 `values`
+
 Значення чи значення для вставки.
 
 ### Значення, що повертаються
@@ -38,31 +40,43 @@ abstract public **Ds\Sequence::insert**(int `$index`,
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md) у разі
-некоректного індексу.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md) у разі некоректного індексу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::insert()****
+**Приклад #1 Приклад використання **ДсSequence::insert()****
 
-` <?php$sequence = new \Ds\Vector();$sequence->insert(0, "e"); // [e]$sequence->insert(1, "f"); // [e, f]$sequence->insert(2, "g"); // [e, f, g]$sequence->insert(0, "a", "b"); // [a, b, e, f, g]$sequence->insert(2, ...["c", "d"]); // [a, b, c, d, e, f, g]var_dump($sequence);?> `
+```php
+<?php
+$sequence = new \Ds\Vector();
+
+$sequence->insert(0, "e");             // [e]
+$sequence->insert(1, "f");             // [e, f]
+$sequence->insert(2, "g");             // [e, f, g]
+$sequence->insert(0, "a", "b");        // [a, b, e, f, g]
+$sequence->insert(2, ...["c", "d"]);   // [a, b, c, d, e, f, g]
+
+var_dump($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Vector)#1 (7) {
-[0]=>
-string(1) "a"
-[1]=>
-string(1) "b"
-[2]=>
-string(1) "c"
-[3]=>
-string(1) "d"
-[4]=>
-string(1) "e"
-[5]=>
-string(1) "f"
-[6]=>
-string(1) "g"
+  [0]=>
+  string(1) "a"
+  [1]=>
+  string(1) "b"
+  [2]=>
+  string(1) "c"
+  [3]=>
+  string(1) "d"
+  [4]=>
+  string(1) "e"
+  [5]=>
+  string(1) "f"
+  [6]=>
+  string(1) "g"
 }
+```

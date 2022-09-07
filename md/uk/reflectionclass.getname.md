@@ -1,10 +1,11 @@
-- [« ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)
-- [ReflectionClass::getNamespaceName »](reflectionclass.getnamespacename.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає ім'я класу
-
+---
+navigation:
+  - reflectionclass.getmodifiers.md: '« ReflectionClass::getModifiers'
+  - reflectionclass.getnamespacename.md: 'ReflectionClass::getNamespaceName »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getName'
+---
 # ReflectionClass::getName
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ReflectionClass::getName — Повертає ім'я класу
 
 ### Опис
 
-public **ReflectionClass::getName**(): string
+```methodsynopsis
+public ReflectionClass::getName(): string
+```
 
 Повертає ім'я класу.
 
@@ -29,10 +32,31 @@ public **ReflectionClass::getName**(): string
 
 **Приклад #1 Приклад використання **ReflectionClass::getName()****
 
-` <?phpnamespace A\B;class Foo { }$function = new \ReflectionClass('stdClass');var_dump($function->inNamespace());var_dump($function->getName());var_dump($function ->getNamespaceName());var_dump($function->getShortName());$function = new \ReflectionClass('A\B\Foo');var_dump($function->inNamespace());var_dump($function- >getName());var_dump($function->getNamespaceName());var_dump($function->getShortName());?> `
+```php
+<?php
+namespace A\B;
+
+class Foo { }
+
+$function = new \ReflectionClass('stdClass');
+
+var_dump($function->inNamespace());
+var_dump($function->getName());
+var_dump($function->getNamespaceName());
+var_dump($function->getShortName());
+
+$function = new \ReflectionClass('A\\B\\Foo');
+
+var_dump($function->inNamespace());
+var_dump($function->getName());
+var_dump($function->getNamespaceName());
+var_dump($function->getShortName());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 string(8) "stdClass"
 string(0) ""
@@ -42,8 +66,8 @@ bool(true)
 string(7) "A\B\Foo"
 string(3) "A\B"
 string(3) "Foo"
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) -
-Повертає назву простору імен
+-   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) - Повертає назву простору імен

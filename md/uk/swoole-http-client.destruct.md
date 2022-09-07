@@ -1,19 +1,22 @@
-- [« Swoole\Http\Client::\_\_construct](swoole-http-client.construct.md)
-- [Swoole\Http\Client::download »](swoole-http-client.download.md)
+---
+navigation:
+  - swoole-http-client.construct.md: '« SwooleHttpClient::construct'
+  - swoole-http-client.download.md: 'SwooleHttpClient::download »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::destruct'
+---
+# SwooleHttpClient::destruct
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Знищує HTTP-клієнт
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::\_\_destruct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::\_\_destruct — Знищує HTTP-клієнт
+SwooleHttpClient::destruct — Знищує HTTP-клієнт
 
 ### Опис
 
-public **Swoole\Http\Client::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Http\Client::__destruct(): void
+```
 
 ### Список параметрів
 

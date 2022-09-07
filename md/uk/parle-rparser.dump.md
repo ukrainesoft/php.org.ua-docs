@@ -1,19 +1,22 @@
-- [« Parle\RParser::consume](parle-rparser.consume.md)
-- [Parle\RParser::errorInfo »](parle-rparser.errorinfo.md)
+---
+navigation:
+  - parle-rparser.consume.md: '« ParleRParser::consume'
+  - parle-rparser.errorinfo.md: 'ParleRParser::errorInfo »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
+title: 'ParleRParser::dump'
+---
+# ParleRParser::dump
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Виводить граматику
+(PECL parle >= 0.7.0)
 
-# Parle\RParser::dump
-
-(PECL parle \>= 0.7.0)
-
-Parle\RParser::dump - Виводить граматику
+ParleRParser::dump - Виводить граматику
 
 ### Опис
 
-public **Parle\RParser::dump**(): void
+```methodsynopsis
+public Parle\RParser::dump(): void
+```
 
 Виводить поточну граматику у стандартний висновок.
 

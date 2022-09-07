@@ -1,19 +1,22 @@
-- [« MongoDB\Driver\CursorId::\_\_construct](mongodb-driver-cursorid.construct.md)
-- [MongoDB\Driver\CursorId::\_\_toString »](mongodb-driver-cursorid.tostring.md)
+---
+navigation:
+  - mongodb-driver-cursorid.construct.md: '« MongoDBDriverCursorId::construct'
+  - mongodb-driver-cursorid.tostring.md: 'MongoDBDriverCursorId::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
+title: 'MongoDBDriverCursorId::serialize'
+---
+# MongoDBDriverCursorId::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-- Серіалізація CursorId
+(mongodb >=1.7.0)
 
-# MongoDB\Driver\CursorId::serialize
-
-(mongodb \>=1.7.0)
-
-MongoDB\Driver\CursorId::serialize — Серіалізація CursorId
+MongoDBDriverCursorId::serialize — Серіалізація CursorId
 
 ### Опис
 
-final public **MongoDB\Driver\CursorId::serialize**(): string
+```methodsynopsis
+final public MongoDB\Driver\CursorId::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\Driver\CursorId::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md).
+Повертає серіалізовану виставу [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\CursorId::unserialize()](mongodb-driver-cursorid.unserialize.md) -
-Десеріалізація CursorId
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBDriverCursorId::unserialize()](mongodb-driver-cursorid.unserialize.md) - Десеріалізація CursorId
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

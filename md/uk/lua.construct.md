@@ -1,24 +1,26 @@
-- [« Lua::call](lua.call.md)
-- [Lua::eval »](lua.eval.md)
+---
+navigation:
+  - lua.call.md: '« Lua::call'
+  - lua.eval.md: 'Lua::eval »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
+title: 'Lua::construct'
+---
+# Lua::construct
 
-- [PHP Manual](index.md)
-- [Lua](class.lua.md)
-- Конструктор Lua
+(PECL lua> = 0.9.0)
 
-# Lua::\_\_construct
-
-(PECL lua \>=0.9.0)
-
-Lua::\_\_construct - Конструктор Lua
+Lua::construct - Конструктор Lua
 
 ### Опис
 
-public **Lua::\_\_construct**(string `$lua_script_file` = NULL)
+```methodsynopsis
+public Lua::__construct(string $lua_script_file = NULL)
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

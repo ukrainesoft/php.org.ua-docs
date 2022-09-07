@@ -1,40 +1,43 @@
-- [« MongoDB\BSON\TimestampInterface::\_\_toString](mongodb-bson-timestampinterface.tostring.md)
-- [MongoDB\BSON\UTCDateTimeInterface::toDateTime »](mongodb-bson-utcdatetimeinterface.todatetime.md)
+---
+navigation:
+  - mongodb-bson-timestampinterface.tostring.md: '« MongoDBBSONTimestampInterface::toString'
+  - mongodb-bson-utcdatetimeinterface.todatetime.md: 'MongoDBBSONUTCDateTimeInterface::toDateTime »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONUTCDateTimeInterface
+---
+# Інтерфейс MongoDBBSONUTCDateTimeInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\UTCDateTimeInterface
-
-# Інтерфейс MongoDB\BSON\UTCDateTimeInterface
-
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
 ## Вступ
 
-Цей інтерфейс реалізований за допомогою
-[MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md), але
-також може використовуватися як параметр, що повертається значення
-або типу властивості в класах простору користувача.
+Цей інтерфейс реалізований за допомогою [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
-class **MongoDB\BSON\UTCDateTimeInterface** {
+```classsynopsis
 
-/\* Методи \*/
+    
+     
+      class MongoDB\BSON\UTCDateTimeInterface
+     
+     {
+    /* Методы */
+    
+   abstract public toDateTime(): DateTime
+abstract public __toString(): string
 
-abstract public
-[toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md)():
-[DateTime](class.datetime.md)
+   }
+```
 
-abstract public
-[\_\_toString](mongodb-bson-utcdatetimeinterface.tostring.md)():
-string
+## список змін
 
-}
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\BSON\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md)
-— Повертає уявлення DateTime цього UTCDateTimeInterface
-- [MongoDB\BSON\UTCDateTimeInterface::\_\_toString](mongodb-bson-utcdatetimeinterface.tostring.md)
-— Повертає рядкову виставу UTCDateTimeInterface
+-   [MongoDBBSONUTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md) — Повертає уявлення DateTime цього UTCDateTimeInterface
+-   [MongoDBBSONUTCDateTimeInterface::toString](mongodb-bson-utcdatetimeinterface.tostring.md) — Повертає рядкову виставу UTCDateTimeInterface

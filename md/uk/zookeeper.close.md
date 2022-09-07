@@ -1,20 +1,23 @@
-- [« Zookeeper::addAuth](zookeeper.addauth.md)
-- [Zookeeper::connect »](zookeeper.connect.md)
-
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- Закриває обробник zookeeper та звільняє будь-які ресурси
-
+---
+navigation:
+  - zookeeper.addauth.md: '« Zookeeper::addAuth'
+  - zookeeper.connect.md: 'Zookeeper::connect »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::close'
+---
 # Zookeeper::close
 
-(PECL zookeeper \>= 0.5.0)
+(PECL zookeeper >= 0.5.0)
 
-Zookeeper::close — Закриває обробник zookeeper та звільняє будь-які
-ресурси
+Zookeeper::close — Закриває обробник zookeeper та звільняє будь-які ресурси
 
 ### Опис
 
-public **Zookeeper::close**(): void
+```methodsynopsis
+public
+   Zookeeper::close(): void
+```
 
 ### Список параметрів
 
@@ -26,13 +29,10 @@ public **Zookeeper::close**(): void
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.md) та
-його похідні при закритті неініціалізованого екземпляра.
+Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні при закритті неініціалізованого екземпляра.
 
 ### Дивіться також
 
-- [Zookeeper::\_\_construct()](zookeeper.construct.md) - Створює
-дескриптор для спілкування з zookeeper
-- [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор
-для спілкування з zookeeper
-- [ZookeeperException](class.zookeeperexception.md)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

@@ -1,31 +1,28 @@
-- [« Набір](class.ds-set.md)
-- [Ds\Set::allocate »](ds-set.allocate.md)
+---
+navigation:
+  - class.ds-set.md: « Набор
+  - ds-set.allocate.md: 'ДсSet::allocate »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::add'
+---
+# ДсSet::add
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Додає значення до набору
+(PECL ds >= 1.0.0)
 
-# Ds\Set::add
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::add — Додає значення до набору
+ДсSet::add — Додає значення до набору
 
 ### Опис
 
-public
-**Ds\Set::add**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+public Ds\Set::add(mixed ...$values): void
+```
 
-Додає всі задані значення набір, якщо вони раніше не були
-додані.
+Додає всі задані значення набір, якщо вони раніше не були додані.
 
-> **Примітка**:
->
-> Підтримуються значення типу об'єкта. Якщо об'єкт реалізує інтерфейс
-> **Ds\Hashable**, перевірка здійснюється шляхом виклику методу об'єкта
-> `equals`. Якщо об'єкт не реалізує інтерфейс **Ds\Hashable**, об'єкти
-> повинні посилатися на той самий екземпляр класу.
+> **Зауваження**
+> 
+> Підтримуються значення типу об'єкта. Якщо об'єкт реалізує інтерфейс **ДсHashable**, перевірка здійснюється шляхом виклику методу об'єкта `equals`. Якщо об'єкт не реалізує інтерфейс **ДсHashable**, об'єкти повинні посилатися на той самий екземпляр класу.
 
 **Застереження**
 
@@ -34,6 +31,7 @@ public
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
 ### Значення, що повертаються
@@ -42,53 +40,117 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::add()** зі скалярними
-значеннями**
+**Приклад #1 Приклад використання **ДсSet::add()** зі скалярними значеннями**
 
-` <?php$set = new \Ds\Set();$set->add(1);$set->add(1);$set->add(2);$set->add(3) ;// Виробляється суворе порівняння, тому "1" не приведеться к int(1)$set->add("1");$set->add(true);var_dump($set);?> `
+```php
+<?php
+$set = new \Ds\Set();
 
-Результатом виконання цього прикладу буде щось подібне:
+$set->add(1);
+$set->add(1);
+$set->add(2);
+$set->add(3);
 
-object(Ds\Set)#1 (5) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
-[3]=>
-string(1) "1"
-[4]=>
-bool(true)
-}
+// Производится строгое сравнение, поэтому "1" не приведётся к int(1)
+$set->add("1");
+$set->add(true);
 
-**Приклад #2 Приклад використання **Ds\Set::add()** з об'єктами**
-
-` <?phpclass HashableObject implements \Ds\Hashable{    /**     * Довільне значення для використання як значення хешу. * Не визначає рівність. */    private $value; public function __construct($value)    {        $this->value = $value; }    public function hash()    {        return $this->value; }    public function equals($obj): bool    {       return$$is->value ===$obj->value; }}$set = new \Ds\Set();$obj = new \ArrayIterator([]);// При додаванні одного і того ж примірника декілька раз, додаеться тільки$ob> $set->add($obj);// При додаванні кількох примірників одного і того об'єкта, вони все додадуться. );// При додаванні об'єктів з однаковим хешем кілька раз, додасться тільки перший.$set->add(new \HashableObject(1));$set->add(new \HashableObject(1)); (new \HashableObject(2));$set->add(new \HashableObject(2));var_dump($set);?> `
+var_dump($set);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Set)#1 (5) {
-[0]=>
-object(ArrayIterator)#2 (1) {
-["storage":"ArrayIterator":private]=>
-array(0) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+  [3]=>
+  string(1) "1"
+  [4]=>
+  bool(true)
 }
+```
+
+**Приклад #2 Приклад використання **ДсSet::add()** з об'єктами**
+
+```php
+<?php
+class HashableObject implements \Ds\Hashable
+{
+    /**
+     * Произвольное значение для использования в качестве значения хеша.
+     * Не определяет равенство.
+     */
+    private $value;
+
+    public function __construct($value)
+    {
+        $this->value = $value;
+    }
+
+    public function hash()
+    {
+        return $this->value;
+    }
+
+    public function equals($obj): bool
+    {
+        return $this->value === $obj->value;
+    }
 }
-[1]=>
-object(stdClass)#3 (0) {
+
+$set = new \Ds\Set();
+
+$obj = new \ArrayIterator([]);
+
+// При добавлении одного и того же экземпляря несколько раз, добавится только первый.
+$set->add($obj);
+$set->add($obj);
+
+// При добавлении нескольких экземпляров одного и того же объекта, они все добавятся.
+$set->add(new \stdClass());
+$set->add(new \stdClass());
+
+// При добавлении объектов с одинаковым хешем несколько раз, добавится только первый.
+$set->add(new \HashableObject(1));
+$set->add(new \HashableObject(1));
+$set->add(new \HashableObject(2));
+$set->add(new \HashableObject(2));
+
+var_dump($set);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+object(Ds\Set)#1 (5) {
+  [0]=>
+  object(ArrayIterator)#2 (1) {
+    ["storage":"ArrayIterator":private]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  object(stdClass)#3 (0) {
+  }
+  [2]=>
+  object(stdClass)#4 (0) {
+  }
+  [3]=>
+  object(HashableObject)#5 (1) {
+    ["value":"HashableObject":private]=>
+    int(1)
+  }
+  [4]=>
+  object(HashableObject)#6 (1) {
+    ["value":"HashableObject":private]=>
+    int(2)
+  }
 }
-[2]=>
-object(stdClass)#4 (0) {
-}
-[3]=>
-object(HashableObject)#5 (1) {
-["value":"HashableObject":private]=>
-int(1)
-}
-[4]=>
-object(HashableObject)#6 (1) {
-["value":"HashableObject":private]=>
-int(2)
-}
-}
+```

@@ -1,17 +1,16 @@
-- [«runkit7_function_rename](function.runkit7-function-rename.md)
-- [runkit7_method_add »](function.runkit7-method-add.md)
+---
+navigation:
+  - function.runkit7-function-rename.md: « runkit7functionrename
+  - function.runkit7-method-add.md: runkit7methodadd »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7import
+---
+# runkit7import
 
-- [PHP Manual](index.md)
-- [Функції runkit7](ref.runkit7.md)
-- Обробляє функцію імпорту файлу PHP та визначення класів, при
-необхідності перезаписуючи
+(PECL runkit7> = Unknown)
 
-# runkit7_import
-
-(PECL runkit7 \>= Unknown)
-
-runkit7_import — Обробляє функцію імпорту файлу PHP та визначення
-класів, при необхідності перезаписуючи
+runkit7import — Обробляє функцію імпорту файлу PHP та визначення класів, за потреби перезаписуючи
 
 **Увага**
 
@@ -19,23 +18,22 @@ runkit7_import — Обробляє функцію імпорту файлу PHP
 
 ### Опис
 
-**runkit7_import**(string `$filename`, int `$flags` = ?): bool
+```methodsynopsis
+runkit7_import(string $filename, int $flags = ?): bool
+```
 
-Функція подібна до [include](function.include.md). Однак будь-який код,
-що знаходиться поза межами функції або класу, просто ігнорується. Крім
-того, в залежності від значення `flags`, будь-які функції чи класи,
-які вже існують у поточному запущеному середовищі, можуть бути
-автоматично перезаписані їх новими визначеннями.
+Функція подібна [include](function.include.md). Однак будь-який код, який знаходиться за межами функції або класу, просто ігнорується. Крім того, залежно від значення `flags`, будь-які функції або класи, які вже існують у поточному запущеному середовищі, можуть бути автоматично перезаписані їх новими визначеннями.
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу для імпорту визначень функцій та класів.
 
 `flags`
-Побітове АБО констант [`RUNKIT7_IMPORT_*`](runkit7.constants.md).
+
+Побітове АБО констант [`RUNKIT7_IMPORT_*`](runkit7.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

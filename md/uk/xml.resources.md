@@ -1,14 +1,11 @@
-- [« Налаштування під час виконання](xml.configuration.md)
-- [Предвизначені константи »](xml.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xml.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - xml.configuration.md: « Налаштування під час виконання
+  - xml.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - xml.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-До PHP 8.0.0 `xml`-ресурс, що повертається
-[xml_parser_create()](function.xml-parser-create.md) та
-[xml_parser_create_ns()](function.xml-parser-create-ns.md), посилається
-на сутність xml-парсера, щоб мати можливість використовувати функції
-цього модуля.
+До PHP 8.0.0 `xml`ресурс, що повертається [xmlparsercreate()](function.xml-parser-create.md) і [xmlparsercreatens()](function.xml-parser-create-ns.md), посилається на суть xml-парсера, щоб мати можливість використовувати функції цього модуля.

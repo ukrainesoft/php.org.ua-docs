@@ -1,47 +1,61 @@
-- [« dbase_add_record](function.dbase-add-record.md)
-- [dbase_create »](function.dbase-create.md)
+---
+navigation:
+  - function.dbase-add-record.md: « dbaseaddrecord
+  - function.dbase-create.md: dbasecreate »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
+title: dbaseclose
+---
+# dbaseclose
 
-- [PHP Manual](index.md)
-- [dBase](ref.dbase.md)
-- Закриває базу даних
+(PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-#dbase_close
-
-(PHP 5 \< 5.3.0, dbase 5, dbase 7)
-
-dbase_close — Закриває базу даних
+dbaseclose — Закриває базу даних
 
 ### Опис
 
-**dbase_close**(resource `$database`): bool
+```methodsynopsis
+dbase_close(resource $database): bool
+```
 
 Закриває вказаний ресурс бази даних.
 
 ### Список параметрів
 
 `database`
-Ресурс бази даних, що повертається функцією
-[dbase_open()](function.dbase-open.md) або
-[dbase_create()](function.dbase-create.md).
+
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія    | Опис                                                |
-|-----------|-----------------------------------------------------|
-| dbase 7.0 | Параметр database тепер має тип resource, а не int. |
+| Версия | Описание |
+| --- | --- |
+| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади
 
 **Приклад #1 Закриття файлу бази даних dBase**
 
-` <?php// відкрити БД в режимі читання$db = dbase_open('/tmp/test.dbf', 0);if ($db) {  // отримати деякі(se)$?
+```php
+<?php
+
+// открыть БД в режиме чтения
+$db = dbase_open('/tmp/test.dbf', 0);
+
+if ($db) {
+  // получить некоторые данные
+
+  dbase_close($db);
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [dbase_open()](function.dbase-open.md) - Відкриває базу даних
-- [dbase_create()](function.dbase-create.md) - Створює базу даних
+-   [dbaseopen()](function.dbase-open.md) - Відкриває базу даних
+-   [dbasecreate()](function.dbase-create.md) - Створює базу даних

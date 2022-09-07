@@ -1,10 +1,11 @@
-- [«UI\run](function.ui-run.md)
-- [UI\Draw\Text\Font\Italic »](class.ui-draw-text-font-italic.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Налаштування зображення шрифту
-
+---
+navigation:
+  - function.ui-run.md: « UIrun
+  - class.ui-draw-text-font-italic.md: ОЙDrawTextFontItalic »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Налаштування зображення шрифту
+---
 # Налаштування зображення шрифту
 
 (UI 0.9.9)
@@ -13,30 +14,63 @@
 
 ## Огляд класів
 
-final class **UI\Draw\Text\Font\Weight** {
+```synopsis
 
-/\* Константи \*/
 
-const int `Thin`;
 
-const int `UltraLight`;
+    
+     
+      final
+      class UI\Draw\Text\Font\Weight
+     
+     {
 
-const int `Light`;
+    /* Константы */
+    
+     const
+     int
+      Thin;
 
-const int `Book`;
+    const
+     int
+      UltraLight;
 
-const int `Normal`;
+    const
+     int
+      Light;
 
-const int `Medium`;
+    const
+     int
+      Book;
 
-const int `SemiBold`;
+    const
+     int
+      Normal;
 
-const int `Bold`;
+    const
+     int
+      Medium;
 
-const int `UltraBold`;
+    const
+     int
+      SemiBold;
 
-const int `Heavy`;
+    const
+     int
+      Bold;
 
-const int `UltraHeavy`;
+    const
+     int
+      UltraBold;
 
-}
+    const
+     int
+      Heavy;
+
+    const
+     int
+      UltraHeavy;
+
+
+   }
+```

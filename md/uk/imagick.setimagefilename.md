@@ -1,22 +1,24 @@
-- [« Imagick::setImageExtent](imagick.setimageextent.md)
-- [Imagick::setImageFormat »](imagick.setimageformat.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює ім'я певного файлу.
-
+---
+navigation:
+  - imagick.setimageextent.md: '« Imagick::setImageExtent'
+  - imagick.setimageformat.md: 'Imagick::setImageFormat »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageFilename'
+---
 # Imagick::setImageFilename
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageFilename — Встановлює ім'я конкретного файлу.
-зображення
+Imagick::setImageFilename — Встановлює ім'я файлу зображення.
 
 ### Опис
 
-public **Imagick::setImageFilename**(string `$filename`): bool
+```methodsynopsis
+public Imagick::setImageFilename(string $filename): bool
+```
 
-Встановлює ім'я файлу зображення в послідовності.
+Встановлює ім'я файлу конкретного зображення у послідовності.
 
 ### Список параметрів
 
@@ -24,7 +26,7 @@ public **Imagick::setImageFilename**(string `$filename`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

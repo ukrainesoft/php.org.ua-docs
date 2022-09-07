@@ -1,25 +1,26 @@
-- [« ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md)
-- [ReflectionExtension »](class.reflectionextension.md)
+---
+navigation:
+  - reflectionzendextension.getversion.md: '« ReflectionZendExtension::getVersion'
+  - class.reflectionextension.md: ReflectionExtension »
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::toString'
+---
+# ReflectionZendExtension::toString
 
-- [PHP Manual](index.md)
-- [ReflectionZendExtension](class.reflectionzendextension.md)
-- обробник перетворення в рядок
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# ReflectionZendExtension::\_\_toString
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-ReflectionZendExtension::\_\_toString — Обробник перетворення на
-рядок
+ReflectionZendExtension::toString — Обробник перетворення в рядок
 
 ### Опис
 
-public **ReflectionZendExtension::\_\_toString**(): string
+```methodsynopsis
+public ReflectionZendExtension::__toString(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

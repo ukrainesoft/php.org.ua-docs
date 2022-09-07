@@ -1,10 +1,11 @@
-- [« Розширення](reflection.extending.md)
-- [Reflection::export »](reflection.export.md)
-
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас Reflection
-
+---
+navigation:
+  - reflection.extending.md: « Расширение
+  - reflection.export.md: 'Reflection::export »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас Reflection
+---
 # Клас Reflection
 
 (PHP 5, PHP 7, PHP 8)
@@ -15,22 +16,26 @@
 
 ## Огляд класів
 
-class **Reflection** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public static
-[export](reflection.export.md)([Reflector](class.reflector.md)
-`$reflector`, bool `$return` = **`false`**): string
+    
+     
+      class Reflection
+     
+     {
 
-public static [getModifierNames](reflection.getmodifiernames.md)(int
-`$modifiers`): array
+    /* Методы */
+    
+   public static export(Reflector $reflector, bool $return = false): string
+public static getModifierNames(int $modifiers): array
 
-}
+   }
+```
 
 ## Зміст
 
-- [Reflection::export](reflection.export.md) — Експортує
-Reflection
-- [Reflection::getModifierNames](reflection.getmodifiernames.md) -
-Отримання імен модифікаторів
+-   [Reflection::export](reflection.export.md) - Експортує Reflection
+-   [Reflection::getModifierNames](reflection.getmodifiernames.md) — Отримання імен модифікаторів

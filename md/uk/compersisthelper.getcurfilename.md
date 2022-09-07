@@ -1,10 +1,11 @@
-- [« COMPersistHelper::\_\_construct](compersisthelper.construct.md)
-- [COMPersistHelper::GetMaxStreamSize »](compersisthelper.getmaxstreamsize.md)
-
-- [PHP Manual](index.md)
-- [COMPersistHelper](class.compersisthelper.md)
-- Отримати ім'я файлу
-
+---
+navigation:
+  - compersisthelper.construct.md: '« COMPersistHelper::construct'
+  - compersisthelper.getmaxstreamsize.md: 'COMPersistHelper::GetMaxStreamSize »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::GetCurFileName'
+---
 # COMPersistHelper::GetCurFileName
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ COMPersistHelper::GetCurFileName — Отримати ім'я файлу
 
 ### Опис
 
-public **COMPersistHelper::GetCurFileName**(): string\|false
+```methodsynopsis
+public COMPersistHelper::GetCurFileName(): string|false
+```
 
 Повертає назву файлу, пов'язаного з об'єктом.
 
@@ -27,6 +30,4 @@ public **COMPersistHelper::GetCurFileName**(): string\|false
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md), якщо
-пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**, або якщо
-виклик **IPersistFile::GetCurFile()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::GetCurFile()** завершився помилкою.

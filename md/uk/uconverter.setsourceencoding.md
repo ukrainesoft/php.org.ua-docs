@@ -1,24 +1,26 @@
-- [« UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md)
-- [UConverter::setSubstChars »](uconverter.setsubstchars.md)
-
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Встановити вихідне кодування
-
+---
+navigation:
+  - uconverter.setdestinationencoding.md: '« UConverter::setDestinationEncoding'
+  - uconverter.setsubstchars.md: 'UConverter::setSubstChars »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::setSourceEncoding'
+---
 # UConverter::setSourceEncoding
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 UConverter::setSourceEncoding — Встановити вихідне кодування
 
 ### Опис
 
-public **UConverter::setSourceEncoding**(string `$encoding`): bool
+```methodsynopsis
+public UConverter::setSourceEncoding(string $encoding): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

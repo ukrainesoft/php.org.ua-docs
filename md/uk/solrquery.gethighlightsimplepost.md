@@ -1,31 +1,31 @@
-- [« SolrQuery::getHighlightRequireFieldMatch](solrquery.gethighlightrequirefieldmatch.md)
-- [SolrQuery::getHighlightSimplePre »](solrquery.gethighlightsimplepre.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає текст, який з'являється після виділеного виразу
-
+---
+navigation:
+  - solrquery.gethighlightrequirefieldmatch.md: '« SolrQuery::getHighlightRequireFieldMatch'
+  - solrquery.gethighlightsimplepre.md: 'SolrQuery::getHighlightSimplePre »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightSimplePost'
+---
 # SolrQuery::getHighlightSimplePost
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightSimplePost — Повертає текст, який відображається
-після виділеного виразу
+SolrQuery::getHighlightSimplePost — Повертає текст, який з'являється після виділення.
 
 ### Опис
 
-public **SolrQuery::getHighlightSimplePost**(string `$field_override` =
-?): string
+```methodsynopsis
+public SolrQuery::getHighlightSimplePost(string $field_override = ?): string
+```
 
-Повертає текст, який з'являється після виділення.
-Приймає необов'язкове перевизначення поля
+Повертає текст, який з'являється після виділення. Приймає необов'язкове перевизначення поля
 
 ### Список параметрів
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає рядок у разі успішного виконання та **`null`**, якщо значення не встановлено

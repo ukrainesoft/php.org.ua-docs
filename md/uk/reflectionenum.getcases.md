@@ -1,23 +1,24 @@
-- [« ReflectionEnum::getCase](reflectionenum.getcase.md)
-- [ReflectionEnum::hasCase »](reflectionenum.hascase.md)
-
-- [PHP Manual](index.md)
-- [ReflectionEnum](class.reflectionenum.md)
-- Повертає список усіх варіантів перерахування
-
+---
+navigation:
+  - reflectionenum.getcase.md: '« ReflectionEnum::getCase'
+  - reflectionenum.hascase.md: 'ReflectionEnum::hasCase »'
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
+title: 'ReflectionEnum::getCases'
+---
 # ReflectionEnum::getCases
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionEnum::getCases — Повертає список усіх варіантів перерахунку
+ReflectionEnum::getCases — Повертає список усіх варіантів перерахування
 
 ### Опис
 
-public **ReflectionEnum::getCases**(): array
+```methodsynopsis
+public ReflectionEnum::getCases(): array
+```
 
-Перелік може містити нуль або більше варіантів. Цей метод
-витягує всі певні випадки в лексичному порядку (тобто
-порядку, де вони з'являються у вихідному коді).
+Перелік може містити нуль або більше варіантів. Цей метод отримує всі певні випадки в лексичному порядку (тобто в порядку, в якому вони з'являються у вихідному коді).
 
 ### Список параметрів
 
@@ -25,29 +26,43 @@ public **ReflectionEnum::getCases**(): array
 
 ### Значення, що повертаються
 
-Масив Reflection-об'єктів перерахування, по одному для кожного варіанта
-перерахування. Для простих перерахунків усі вони будуть екземплярами
-[ReflectionEnumUnitCase](class.reflectionenumunitcase.md). Для
-типізованих перерахувань всі вони будуть екземплярами
-[ReflectionEnumBackedCase](class.reflectionenumbackedcase.md).
+Масив Reflection-об'єктів перерахування, по одному для кожного варіанта перерахування. Для простих перерахувань усі вони будуть екземплярами [ReflectionEnumUnitCase](class.reflectionenumunitcase.md). Для типізованих перерахувань усі вони будуть екземплярами [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionEnum::getCases()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum = new ReflectionEnum(Suit::class);$cases = $rEnum->getCases();foreach ($cases as $rCase) {    var_dump($rCa>) `
+```php
+<?php
+enum Suit
+{
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
+}
+
+$rEnum = new ReflectionEnum(Suit::class);
+
+$cases = $rEnum->getCases();
+
+foreach ($cases as $rCase) {
+    var_dump($rCase->getValue());
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 enum(Suit::Hearts)
 enum(Suit::Diamonds)
 enum(Suit::Clubs)
 enum(Suit::Spades)
+```
 
 ### Дивіться також
 
-- [Перерахування](language.enumerations.md)
-- [ReflectionEnum::getCase()](reflectionenum.getcase.md) -
-Повертає певний варіант перерахування
-- [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) -
-Визначає, чи є перерахування типовим
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::getCase()](reflectionenum.getcase.md) - Повертає певний варіант перерахування
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим

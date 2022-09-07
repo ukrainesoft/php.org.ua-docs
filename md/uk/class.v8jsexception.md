@@ -1,99 +1,109 @@
-- [« V8Js::registerExtension](v8js.registerextension.md)
-- [V8JsException::getJsFileName »](v8jsexception.getjsfilename.md)
-
-- [PHP Manual](index.md)
-- [V8js](book.v8js.md)
-- Клас V8JsException
-
+---
+navigation:
+  - v8js.registerextension.md: '« V8Js::registerExtension'
+  - v8jsexception.getjsfilename.md: 'V8JsException::getJsFileName »'
+  - index.md: PHP Manual
+  - book.v8js.md: V8js
+title: 'Клас V8JsException'
+---
 # Клас [V8JsException](class.v8jsexception.md)
 
-(PECL v8js \>= 0.1.0)
+(PECL v8js >= 0.1.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **V8JsException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$JsFileName`;
+    
+    
+     
+      class V8JsException
+     
 
-protected `$JsLineNumber`;
+     
+      extends
+       Exception
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $JsFileName;
 
-protected `$JsSourceLine`;
+    protected
+      $JsLineNumber;
 
-protected `$JsTrace`;
+    protected
+      $JsSourceLine;
 
-/\* Наслідувані властивості \*/
+    protected
+      $JsTrace;
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$code`;
 
-protected string `$file` = "";
+    /* Методы */
+    
+   final public getJsFileName(): string
+final public getJsLineNumber(): int
+final public getJsSourceLine(): string
+final public getJsTrace(): string
 
-protected int `$line`;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-/\* Методи \*/
 
-final public [getJsFileName](v8jsexception.getjsfilename.md)(): string
-
-final public [getJsLineNumber](v8jsexception.getjslinenumber.md)():
-int
-
-final public [getJsSourceLine](v8jsexception.getjssourceline.md)():
-string
-
-final public [getJsTrace](v8jsexception.getjstrace.md)(): string
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`JsFileName`
+JsFileName
 
-`JsLineNumber`
+JsLineNumber
 
-`JsSourceLine`
+JsSourceLine
 
-`JsTrace`
+JsTrace
 
 ## Зміст
 
-- [V8JsException::getJsFileName](v8jsexception.getjsfilename.md) -
-Отримати ім'я JavaScript
-- [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md)
-— Отримати номер рядка
-- [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md)
-— Отримати вихідний рядок JavaScript
-- [V8JsException::getJsTrace](v8jsexception.getjstrace.md) -
-Отримати стек викликів
+-   [V8JsException::getJsFileName](v8jsexception.getjsfilename.md) — Отримати ім'я JavaScript
+-   [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md) — Отримати номер рядка
+-   [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md) — Отримати вихідний рядок JavaScript
+-   [V8JsException::getJsTrace](v8jsexception.getjstrace.md) — Отримати стек викликів

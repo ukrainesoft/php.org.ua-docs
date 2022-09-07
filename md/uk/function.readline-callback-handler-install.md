@@ -1,64 +1,84 @@
-- [«readline_add_history](function.readline-add-history.md)
-- [readline_callback_handler_remove »](function.readline-callback-handler-remove.md)
+---
+navigation:
+  - function.readline-add-history.md: « readlineaddhistory
+  - function.readline-callback-handler-remove.md: readlinecallbackhandlerremove »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlinecallbackhandlerinstall
+---
+# readlinecallbackhandlerinstall
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Ініціалізує callback-інтерфейс readline та термінал, друкує
-рядок запрошення та негайно повертає управління
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-#readline_callback_handler_install
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-readline_callback_handler_install — Ініціалізує callback-інтерфейс
-readline та термінал, друкує рядок запрошення та негайно повертає
-управління
+readlinecallbackhandlerinstall — Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає керування
 
 ### Опис
 
-**readline_callback_handler_install**(string `$prompt`,
-[callable](language.types.callable.md) `$callback`): bool
+```methodsynopsis
+readline_callback_handler_install(string $prompt, callable $callback): bool
+```
 
-Ініціалізує callback-інтерфейс readline, друкує `prompt` та
-повертає керування. Повторний виклик цієї функції без попереднього
-видалення старого callback-інтерфейсу призведе до автоматичного його
-перезапису.
+Ініціалізує callback-інтерфейс readline, друкує `prompt` та повертає управління. Повторний виклик цієї функції без попереднього видалення старого callback-інтерфейсу призведе до його автоматичного перезапису.
 
-Функціонал callback-функцій особливо зручний у комбінації з
-[stream_select()](function.stream-select.md), оскільки він, на відміну
-від [readline()](function.readline.md), дозволяє чергувати введення-виведення
-та введення користувача.
+Функціонал callback-функцій особливо зручний у комбінації з [streamselect()](function.stream-select.md), оскільки він, на відміну від [readline()](function.readline.md), дозволяє чергувати введення-виведення та введення користувача.
 
 ### Список параметрів
 
 `prompt`
+
 Рядок запрошення.
 
 `callback`
-Функція, що передається в параметр `callback`, повинна приймати один
-параметр - повернутий введення користувача.
+
+Функція, що передається в параметр `callback` повинна приймати один параметр - повернутий введення користувача.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання callback-інтерфейсу readline**
 
-` <?phpfunction rl_callback($ret){    global $c, $prompting; echo "Ви ввели: $ret
-";    $c++;    if ($c > 10) {        $prompting = false;        readline_callback_handler_remove();    } else {        readline_callback_handler_install("[$c] Поговори со мной: ", 'rl_callback');    }}$c = 1; $prompting==true;readline_callback_handler_install("[$c] Введіть що-небудь: ", 'rl_callback');while ($prompting) {    $w = NULL;            STDIN), $w, $e, null);    if ($n && in_array(STDIN, $r)) {        // читаем символ и вызываем callback-функцию,        // если введён символ новой строки        readline_callback_read_char();    }}echo "Введення відключено. Спасибі за увагу.
-";?> `
+```php
+<?php
+function rl_callback($ret)
+{
+    global $c, $prompting;
+
+    echo "Вы ввели: $ret\n";
+    $c++;
+
+    if ($c > 10) {
+        $prompting = false;
+        readline_callback_handler_remove();
+    } else {
+        readline_callback_handler_install("[$c] Поговори со мной: ", 'rl_callback');
+    }
+}
+
+$c = 1;
+$prompting = true;
+
+readline_callback_handler_install("[$c] Введите что-нибудь: ", 'rl_callback');
+
+while ($prompting) {
+    $w = NULL;
+    $e = NULL;
+    $n = stream_select($r = array(STDIN), $w, $e, null);
+    if ($n && in_array(STDIN, $r)) {
+        // читаем символ и вызываем callback-функцию,
+        // если введён символ новой строки
+        readline_callback_read_char();
+    }
+}
+
+echo "Ввод отключён. Спасибо за внимание.\n";
+?>
+```
 
 ### Дивіться також
 
-- [readline_callback_handler_remove()](function.readline-callback-handler-remove.md) -
-Видаляє раніше зареєстровану callback-функцію та відновлює
-термінал
-- [readline_callback_read_char()](function.readline-callback-read-char.md) -
-Читає символ та інформує callback-функцію readline, що отримана
-рядок
-- [stream_select()](function.stream-select.md) - Запускає
-еквівалент системного виклику select() на заданих масивах потоків
-з часом очікування, вказаним параметрами seconds та microseconds
+-   [readlinecallbackhandlerremove()](function.readline-callback-handler-remove.md) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал
+-   [readlinecallbackreadchar()](function.readline-callback-read-char.md) - Читає символ та інформує callback-функцію readline, що отримано рядок
+-   [streamselect()](function.stream-select.md) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds

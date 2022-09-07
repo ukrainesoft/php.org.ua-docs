@@ -1,39 +1,35 @@
-- [« IntlChar::enumCharTypes](intlchar.enumchartypes.md)
-- [IntlChar::forDigit »](intlchar.fordigit.md)
-
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Здійснює перетворення регістру заданого символу
-
+---
+navigation:
+  - intlchar.enumchartypes.md: '« IntlChar::enumCharTypes'
+  - intlchar.fordigit.md: 'IntlChar::forDigit »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::foldCase'
+---
 # IntlChar::foldCase
 
 (PHP 7, PHP 8)
 
-IntlChar::foldCase — Перетворює регістр заданого
-символу
+IntlChar::foldCase — Перетворює регістр заданого символу.
 
 ### Опис
 
-public static **IntlChar::foldCase**(int\|string `$codepoint`, int
-`$options` = IntlChar::FOLD_CASE_DEFAULT): int\|string\|null
+```methodsynopsis
+public static IntlChar::foldCase(int|string $codepoint, int $options = IntlChar::FOLD_CASE_DEFAULT): int|string|null
+```
 
-Повертає код символу в регістрі відмінному від регістру переданого
-символ. Якщо символ не має уявлення в іншому регістрі, то буде
-повернутий переданий символ.
+Повертає код символу в регістрі відмінному від регістра переданого символу. Якщо символ не має уявлення в іншому регістрі, то буде повернутий переданий символ.
 
 ### Список параметрів
 
 `codepoint`
-Цілочисленне (int) завдання коду символу (наприклад, `0x2603` для *U+2603
-СНІГОВИКА*), або символ, закодований рядок UTF-8 (наприклад
-``\u{2603}"`)
+
+Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
 
 `options`
-**`IntlChar::FOLD_CASE_DEFAULT`** (за замовчуванням) або
-**`IntlChar::FOLD_CASE_EXCLUDE_SPECIAL_I`**.
+
+**`IntlChar::FOLD_CASE_DEFAULT`** (за замовчуванням) або **`IntlChar::FOLD_CASE_EXCLUDE_SPECIAL_I`**
 
 ### Значення, що повертаються
 
-Повертає *Simple_Case_Folding* для символу, якщо він є. В іншому
-випадку - сам символ у разі успішного виконання або **`null`**
-у разі виникнення помилки.
+Повертає *SimpleCaseFolding* для символу, якщо він є. В іншому випадку - сам символ у разі успішного виконання або **`null`** у разі виникнення помилки.

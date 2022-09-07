@@ -1,21 +1,24 @@
-- [«UI\Control::disable](ui-control.disable.md)
-- [UI\Control::getParent »](ui-control.getparent.md)
-
-- [PHP Manual](index.md)
-- [UI\Control](class.ui-control.md)
-- Включити керуючий елемент
-
-# UI\Control::enable
+---
+navigation:
+  - ui-control.disable.md: '« UIControl::disable'
+  - ui-control.getparent.md: 'ОЙControl::getParent »'
+  - index.md: PHP Manual
+  - class.ui-control.md: ОЙControl
+title: 'ОЙControl::enable'
+---
+# ОЙControl::enable
 
 (UI 0.9.9)
 
-UI\Control::enable — Включити керуючий елемент
+ОЙControl::enable — Включити керуючий елемент
 
 ### Опис
 
-public **UI\Control::enable**()
+```methodsynopsis
+public UI\Control::enable()
+```
 
-Включить цей керуючий елемент
+Увімкне цей керуючий елемент
 
 ### Список параметрів
 

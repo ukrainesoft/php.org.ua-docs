@@ -1,30 +1,29 @@
-- [« MongoDB\Driver\CursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md)
-- [MongoDB\Driver\CursorInterface::setTypeMap »](mongodb-driver-cursorinterface.settypemap.md)
+---
+navigation:
+  - mongodb-driver-cursorinterface.getserver.md: '« MongoDBDriverCursorInterface::getServer'
+  - mongodb-driver-cursorinterface.settypemap.md: 'MongoDBDriverCursorInterface::setTypeMap »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorinterface.md: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::isDead'
+---
+# MongoDBDriverCursorInterface::isDead
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
-- Перевірити, чи можна ще отримати з курсору результати
+(mongodb >=1.6.0)
 
-# MongoDB\Driver\CursorInterface::isDead
-
-(mongodb \>=1.6.0)
-
-MongoDB\Driver\CursorInterface::isDead — Перевірити, чи можна ще
-отримати з курсору результати
+MongoDBDriverCursor Interface::is Dead — Перевірити, чи можна ще отримати з курсора результати
 
 ### Опис
 
-abstract public **MongoDB\Driver\CursorInterface::isDead**(): bool
+```methodsynopsis
+abstract public MongoDB\Driver\CursorInterface::isDead(): bool
+```
 
-Перевіряє, чи можна отримати результати з курсору.
-Спочатку курсор перебуває у статусі "живий"(alive), але в наступних
-випадках може перейти в статус "мертвий"(dead):
+Перевіряє, чи можна спробувати отримати з курсору результати. Спочатку курсор перебуває у статусі "живий" (alive), але в наступних випадках може перейти в статус "мертвий" (dead):
 
-- При черговому вичитуванні не хвостового курсору не було повернено
-документ
+-   При черговому вичитуванні не хвостового курсора не було повернено документ
 -   Виникла помилка
-- Курсор прочитав останній батч до завершення
-- Курсор досяг встановленого ліміту
+-   Курсор прочитав останній батч до завершення
+-   Курсор досяг встановленого ліміту
 
 Це насамперед корисно під час роботи з хвостовими курсорами.
 
@@ -34,16 +33,12 @@ abstract public **MongoDB\Driver\CursorInterface::isDead**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо запросити черговий результат не вдасться
-або **`false`**, якщо він ще "живий".
+Повертає \*\*`true`\*\*якщо запитати черговий результат не вийде або \*\*`false`\*\*якщо він ще "живий".
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Cursor::isDead()](mongodb-driver-cursor.isdead.md) -
-Перевіряє, чи курсор вичерпано або може містити додаткові
-результати
+-   [MongoDBDriverCursor::isDead()](mongodb-driver-cursor.isdead.md) - Перевіряє, чи курсор вичерпано чи може містити додаткові результати

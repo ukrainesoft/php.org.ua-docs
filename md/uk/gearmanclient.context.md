@@ -1,22 +1,24 @@
-- [« GearmanClient::\_\_construct](gearmanclient.construct.md)
-- [GearmanClient::data »](gearmanclient.data.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Повертає контекст програми
-
+---
+navigation:
+  - gearmanclient.construct.md: '« GearmanClient::construct'
+  - gearmanclient.data.md: 'GearmanClient::data »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::context'
+---
 # GearmanClient::context
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanClient::context — Повертає контекст програми
 
 ### Опис
 
-public **GearmanClient::context**(): string
+```methodsynopsis
+public GearmanClient::context(): string
+```
 
-Повертає контекст, раніше встановлений за допомогою
-[GearmanClient::setContext()](gearmanclient.setcontext.md).
+Повертає контекст, раніше встановлений за допомогою [GearmanClient::setContext()](gearmanclient.setcontext.md)
 
 ### Список параметрів
 
@@ -24,10 +26,8 @@ public **GearmanClient::context**(): string
 
 ### Значення, що повертаються
 
-Та сама структура даних контексту, наведена в
-[GearmanClient::setContext()](gearmanclient.setcontext.md)
+Та сама структура даних контексту, наведена в [GearmanClient::setContext()](gearmanclient.setcontext.md)
 
 ### Дивіться також
 
-- [GearmanClient::setContext()](gearmanclient.setcontext.md) -
-Встановити контекст програми
+-   [GearmanClient::setContext()](gearmanclient.setcontext.md) - Встановити контекст програми

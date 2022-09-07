@@ -1,63 +1,71 @@
-- [«Collator::getErrorMessage](collator.geterrormessage.md)
-- [Collator::getSortKey »](collator.getsortkey.md)
-
-- [PHP Manual](index.md)
-- [Collator](class.collator.md)
-- Отримує назву локалі для Collator
-
+---
+navigation:
+  - collator.geterrormessage.md: '« Collator::getErrorMessage'
+  - collator.getsortkey.md: 'Collator::getSortKey »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::getLocale'
+---
 # Collator::getLocale
 
-#collator_get_locale
+# collatorgetlocale
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::getLocale -- collator_get_locale — Отримує назву локалі
-для Collator
+Collator::getLocale -- collatorgetlocale — Отримує назву локалі для Collator
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **Collator::getLocale**(int `$type`): string\|false
+```methodsynopsis
+public Collator::getLocale(int $type): string|false
+```
 
 Процедурний стиль
 
-**collator_get_locale**([Collator](class.collator.md) `$object`, int
-`$type`): string\|false
+```methodsynopsis
+collator_get_locale(Collator $object, int $type): string|false
+```
 
 Отримує назву локалі Collator.
 
 ### Список параметрів
 
 `object`
-Об'єкт [Collator](class.collator.md).
+
+Об'єкт [Collator](class.collator.md)
 
 `type`
-Ви можете вибирати між коректним та фактичним мовним стандартом (
-**`Locale::VALID_LOCALE`** та **`Locale::ACTUAL_LOCALE`**,
-відповідно).
+
+Ви можете вибирати між коректним та фактичним мовним стандартом ( **`Locale::VALID_LOCALE`** і \*\*`Locale::ACTUAL_LOCALE`\*\*відповідно).
 
 ### Значення, що повертаються
 
-Справжнє ім'я локалі, з якого беруться дані зіставлення. Якщо
-Collator був створений із правил або сталася помилка, повертає
-**`false`**.
+Справжнє ім'я локалі, з якого беруться дані зіставлення. Якщо Collator був створений з правил або помилка, повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 **collator_get_locale()** example**
+**Приклад #1 **collatorgetlocale()** example**
 
-` <?php$coll    = collator_create( 'en_US_California' );$res_val = collator_get_locale( $coll, Locale::VALID_LOCALE );$res_act =?collator_get_locale(  s
-Назва фактичної локалі: %s
-",         $res_val, $res_act );?> `
+```php
+<?php
+$coll    = collator_create( 'en_US_California' );
+$res_val = collator_get_locale( $coll, Locale::VALID_LOCALE );
+$res_act = collator_get_locale( $coll, Locale::ACTUAL_LOCALE );
+printf( "Название корректной локали: %s\nНазвание фактической локали: %s\n",
+         $res_val, $res_act );
+?>
+```
 
 Результат виконання цього прикладу:
 
-Назва локалі: en_US_California
-Назва коректної локалі: en_US
-Назва фактичної локалі: en
+```
+Запрошенное название локали: en_US_California
+Название корректной локали: en_US
+Название фактической локали: en
+```
 
 ### Дивіться також
 
-- [collator_create()](collator.create.md) - Створює новий екземпляр
-Collator
+-   [collatorcreate()](collator.create.md) - Створює новий екземпляр Collator

@@ -1,21 +1,22 @@
-- [« Swoole\Server::confirm](swoole-server.confirm.md)
-- [Swoole\Server::connection_list »](swoole-server.connection-list.md)
+---
+navigation:
+  - swoole-server.confirm.md: '« SwooleServer::confirm'
+  - swoole-server.connection-list.md: 'SwooleServer::connectionlist »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::connectioninfo'
+---
+# SwooleServer::connectioninfo
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Отримує інформацію про з'єднання з описом файлу
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::connection_info
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::connection_info — Отримує інформацію про з'єднання
-опис файлу
+SwooleServer::connectioninfo — Отримує інформацію про з'єднання з описом файлу
 
 ### Опис
 
-public **Swoole\Server::connection_info**(int `$fd`, int `$reactor_id` =
-?): array
+```methodsynopsis
+public Swoole\Server::connection_info(int $fd, int $reactor_id = ?): array
+```
 
 ### Список параметрів
 

@@ -1,39 +1,53 @@
-- [« Thread::join](thread.join.md)
-- [Worker »](class.worker.md)
-
-- [PHP Manual](index.md)
-- [Thread](class.thread.md)
-- Виконання
-
+---
+navigation:
+  - thread.join.md: '« Thread::join'
+  - class.worker.md: Worker »
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::start'
+---
 # Thread::start
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
-Thread::start — Виконання
+Thread::start - Виконання
 
 ### Опис
 
-public **Thread::start**(int `$options` = ?): bool
+```methodsynopsis
+public Thread::start(int $options = ?): bool
+```
 
 Запуск нового потоку для виконання реалізованого методу запуску.
 
 ### Список параметрів
 
 `options`
-Необов'язкова маска констант успадкування, за замовчуванням
-PTHREADS_INHERIT_ALL.
+
+Необов'язкова маска констант успадкування за промовчанням PTHREADSINHERITALL.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Запуск потоку**
 
-` <?phpclass My extends Thread {    public function run() {        /** ... **/   }}$my = new My()>_my;
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        /** ... **/
+    }
+}
+$my = new My();
+var_dump($my->start());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

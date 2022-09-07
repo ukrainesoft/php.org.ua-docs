@@ -1,26 +1,29 @@
-- [« trader_ht_phasor](function.trader-ht-phasor.md)
-- [trader_ht_trendline »](function.trader-ht-trendline.md)
+---
+navigation:
+  - function.trader-ht-phasor.md: « traderхтphasor
+  - function.trader-ht-trendline.md: traderхтtrendline »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтsine
+---
+# traderхтsine
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Перетворення Гільберта - SineWave
+(PECL trader >= 0.2.0)
 
-# trader_ht_sine
-
-(PECL trader \>= 0.2.0)
-
-trader_ht_sine — Перетворення Гільберта - SineWave
+traderхтsine - Перетворення Гільберта - SineWave
 
 ### Опис
 
-**trader_ht_sine**(array `$real`): array
+```methodsynopsis
+trader_ht_sine(array $real): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

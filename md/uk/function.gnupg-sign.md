@@ -1,47 +1,59 @@
-- [«gnupg_setsignmode](function.gnupg-setsignmode.md)
-- [gnupg_verify »](function.gnupg-verify.md)
+---
+navigation:
+  - function.gnupg-setsignmode.md: « gnupgsetsignmode
+  - function.gnupg-verify.md: gnupgverify »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgsign
+---
+# gnupgsign
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Підписує переданий текст
+(PECL gnupg >= 0.1)
 
-#gnupg_sign
-
-(PECL gnupg \>= 0.1)
-
-gnupg_sign — Підписує переданий текст
+gnupgsign — Підписує переданий текст
 
 ### Опис
 
-**gnupg_sign**(resource `$identifier`, string `$plaintext`): string
+```methodsynopsis
+gnupg_sign(resource $identifier, string $plaintext): string
+```
 
-Підписує переданий у параметрі `plaintext` текст ключем, що був
-раніше встановлений за допомогою
-[gnupg_addsignkey](function.gnupg-addsignkey.md) та повертає
-підписаний текст або підпис, залежно від того, що було
-встановлено в [gnupg_setsignmode](function.gnupg-setsignmode.md).
+Підписує переданий у параметрі `plaintext` текст ключем, який був раніше встановлений за допомогою [gnupgaddsignkey](function.gnupg-addsignkey.md) і повертає підписаний текст або підпис, залежно від того, що було встановлено [gnupgsetsignmode](function.gnupg-setsignmode.md)
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `plaintext`
+
 Простий текст для підписання.
 
 ### Значення, що повертаються
 
-У разі успішного виконання функція повертає підписаний текст або
-підпис. У разі помилки функція повертає **`false`**.
+У разі успішного виконання, функція повертає підписаний текст або підпис. У разі помилки функція повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_sign()** у процедурному стилі**
+**Приклад #1 Приклад використання **gnupgsign()** у процедурному стилі**
 
-` <?php$res = gnupg_init();gnupg_addsignkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");$signed = gnupg_sign|
+```php
+<?php
+$res = gnupg_init();
+gnupg_addsignkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");
+$signed = gnupg_sign($res, "просто тест");
+echo $signed;
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_sign()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgsign()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");$signed = $gpg->|
+```php
+<?php
+$gpg = new gnupg();
+$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
+$signed = $gpg->sign("просто тест");
+echo $signed;
+?>
+```

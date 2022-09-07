@@ -1,49 +1,61 @@
-- [«cubrid_affected_rows](function.cubrid-affected-rows.md)
-- [cubrid_close »](function.cubrid-close.md)
+---
+navigation:
+  - function.cubrid-affected-rows.md: « cubridaffectedrows
+  - function.cubrid-close.md: cubridclose »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridclientencoding
+---
+# cubridclientencoding
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Повертає кодування поточного з'єднання CUBRID
+(PECL CUBRID >= 8.3.1)
 
-#cubrid_client_encoding
-
-(PECL CUBRID = 8.3.1)
-
-cubrid_client_encoding — Повертає кодування поточного з'єднання CUBRID
+cubridclientencoding — Повертає кодування поточного з'єднання CUBRID
 
 ### Опис
 
-**cubrid_client_encoding**(resource `$conn_identifier` = ?): string
+```methodsynopsis
+cubrid_client_encoding(resource $conn_identifier = ?): string
+```
 
-Функція повертає кодування поточного з'єднання CUBRID та аналогічна
-функції **cubrid_get_encoding()**.
+Функція повертає кодування поточного з'єднання CUBRID та аналогічна функції **cubridgetencoding()**
 
 ### Список параметрів
 
 `conn_identifier`
-Ідентифікатор з'єднання. Якщо не задано, то буде використано
-останнє відкрите за допомогою
-[cubrid_connect()](function.cubrid-connect.md) з'єднання.
+
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
 
 ### Значення, що повертаються
 
-Рядок, що містить кодування поточного з'єднання CUBRID у випадку
-успішного виконання.
+Рядок, що містить кодування поточного з'єднання CUBRID у разі успішного виконання.
 
 **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_client_encoding()****
+**Приклад #1 Приклад використання **cubridclientencoding()****
 
-` <?php$con = cubrid_connect("localhost", 33000, "demodb");if (!$con){    die('Не вийшло підключитися.');}printf("Поточне кодування CUBRID: 
-", cubrid_client_encoding($con));?> `
+```php
+<?php
+
+$con = cubrid_connect("localhost", 33000, "demodb");
+if (!$con)
+{
+    die('Не получилось подключиться.');
+}
+
+printf("Текущая кодировка CUBRID: %s\n", cubrid_client_encoding($con));
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-Поточне кодування CUBRID: iso8859-1
+```
+Текущая кодировка CUBRID: iso8859-1
+```
 
 ### Дивіться також
 
-- [cubrid_get_charset()](function.cubrid-get-charset.md) -
-Повертає кодування поточного з'єднання CUBRID
+-   [cubridgetcharset()](function.cubrid-get-charset.md) - Повертає кодування поточного з'єднання CUBRID

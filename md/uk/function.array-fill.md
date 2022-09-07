@@ -1,84 +1,95 @@
-- [«array_fill_keys](function.array-fill-keys.md)
-- [array_filter »](function.array-filter.md)
+---
+navigation:
+  - function.array-fill-keys.md: « arrayfillkeys
+  - function.array-filter.md: arrayfilter »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayfill
+---
+# arrayfill
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Заповнює масив значеннями
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#array_fill
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-array_fill - Заповнює масив значеннями
+arrayfill - Заповнює масив значеннями
 
 ### Опис
 
-**array_fill**(int `$start_index`, int `$count`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): array
+```methodsynopsis
+array_fill(int $start_index, int $count, mixed $value): array
+```
 
-Заповнює масив `count` елементами зі значенням `value`, починаючи з
-ключа `start_index`.
+Заповнює масив `count` елементами зі значенням `value`, починаючи з ключа `start_index`
 
 ### Список параметрів
 
 `start_index`
-Перший індекс масиву, що повертається.
 
-Якщо `start_index` негативний, першим індексом масиву, що повертається
-буде `start_index`, а наступні індекси починаються з нуля
-(дивіться
-[Приклад](function.array-fill.md#function.array-fill.example.basic)).
+Перший індекс масива, що повертається.
+
+Якщо `start_index` негативний, першим індексом масиву, що повертається `start_index`, а наступні індекси починаються з нуля (дивіться [пример](function.array-fill.md#function.array-fill.example.basic)
 
 `count`
-Кількість елементів, що вставляються. Їх має бути більше або дорівнює нулю.
+
+Кількість елементів, що додаються. Повинно бути більше або одно нулю і менше чи одно `2147483647`
 
 `value`
-Значення для заповнення
+
+Значення заповнення.
 
 ### Значення, що повертаються
 
-Повертає заповнений масив
+Повертає заповнений масив.
 
 ### Помилки
 
-Викликає попередження **`E_WARNING`** у випадку, якщо параметр `count`
-меньше нуля.
+Викидає виняток [ValueError](class.valueerror.md) у випадку, якщо параметр `count` виходить за межі діапазону.
+
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Функція **arrayfill()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `count` виходить за межі діапазону; раніше видавалася помилка рівня **`E_WARNING`**, а функція повертала значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_fill()****
+**Приклад #1 Приклад використання **arrayfill()****
 
-` <?php$a = array_fill(5, 6, 'banana');$b = array_fill(-2, 4, 'pear');print_r($a);print_r($b);?> `
+```php
+<?php
+$a = array_fill(5, 6, 'banana');
+$b = array_fill(-2, 4, 'pear');
+print_r($a);
+print_r($b);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[5] => banana
-[6] => banana
-[7] => banana
-[8] => banana
-[9] => banana
-[10] => banana
+    [5]  => banana
+    [6]  => banana
+    [7]  => banana
+    [8]  => banana
+    [9]  => banana
+    [10] => banana
 )
 Array
 (
-[-2] => pear
-[0] => pear
-[1] => pear
-[2] => pear
+    [-2] => pear
+    [0] => pear
+    [1] => pear
+    [2] => pear
 )
+```
 
 ### Примітки
 
-Дивіться також докладний опис негативних ключів у розділі [Масиви](language.types.array.md).
+Дивіться також докладний опис негативних ключів у розділі [Масиви](language.types.array.md)
 
 ### Дивіться також
 
-- [array_fill_keys()](function.array-fill-keys.md) - Створює масив
-та заповнює його значеннями з певними ключами
-- [str_repeat()](function.str-repeat.md) - Повертає повторювану
-рядок
-- [range()](function.range.md) - Створює масив, що містить діапазон
-елементів
+-   [arrayfillkeys()](function.array-fill-keys.md) - створює масив і заповнює його значеннями з певними ключами
+-   [strrepeat()](function.str-repeat.md) - Повертає рядок, що повторюється
+-   [range()](function.range.md) - Створює масив, що містить діапазон елементів

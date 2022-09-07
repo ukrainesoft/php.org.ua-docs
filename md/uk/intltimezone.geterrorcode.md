@@ -1,34 +1,36 @@
-- [« IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.md)
-- [IntlTimeZone::getErrorMessage »](intltimezone.geterrormessage.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати останній код про помилку в об'єкті
-
+---
+navigation:
+  - intltimezone.getequivalentid.md: '« IntlTimeZone::getEquivalentID'
+  - intltimezone.geterrormessage.md: 'IntlTimeZone::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getErrorCode'
+---
 # IntlTimeZone::getErrorCode
 
-# intltz_get_error_code
+# intltzgeterrorcode
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getErrorCode -- intltz_get_error_code — Отримати останній
-код про помилку в об'єкті
+IntlTimeZone::getErrorCode -- intltzgeterrorcode — Отримати останній код про помилку в об'єкті
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::getErrorCode**(): int\|false
+```methodsynopsis
+public IntlTimeZone::getErrorCode(): int|false
+```
 
 Процедурний стиль:
 
-**intltz_get_error_code**([IntlTimeZone](class.intltimezone.md)
-`$timezone`): int\|false
+```methodsynopsis
+intltz_get_error_code(IntlTimeZone $timezone): int|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

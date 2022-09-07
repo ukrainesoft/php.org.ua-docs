@@ -1,30 +1,28 @@
-- [« InfiniteIterator::\_\_construct](infiniteiterator.construct.md)
-- [IteratorIterator »](class.iteratoriterator.md)
-
-- [PHP Manual](index.md)
-- [InfiniteIterator](class.infiniteiterator.md)
-- Переміщує ітератор на одну позицію вперед або на початок
-
+---
+navigation:
+  - infiniteiterator.construct.md: '« InfiniteIterator::construct'
+  - class.iteratoriterator.md: IteratorIterator »
+  - index.md: PHP Manual
+  - class.infiniteiterator.md: InfiniteIterator
+title: 'InfiniteIterator::next'
+---
 # InfiniteIterator::next
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-InfiniteIterator::next — Переміщує ітератор на одну позицію вперед або
-на початок
+InfiniteIterator::next — Переміщує ітератор на одну позицію вперед або на початок
 
 ### Опис
 
-public **InfiniteIterator::next**(): void
+```methodsynopsis
+public InfiniteIterator::next(): void
+```
 
-Переміщує внутрішній вказівник об'єкта [Iterator](class.iterator.md)
-на наступний елемент або перший елемент, якщо поточний елемент був
-останнім.
+Переміщує внутрішній покажчик об'єкта [Iterator](class.iterator.md) на наступний елемент або перший елемент, якщо поточний елемент був останнім.
 
-> **Примітка**:
->
-> Ітератор [InfiniteIterator](class.infiniteiterator.md)
-> зупиняється, коли об'єкт, що зберігається всередині,
-> [Iterator](class.iterator.md) виявляється порожнім.
+> **Зауваження**
+> 
+> Ітератор [InfiniteIterator](class.infiniteiterator.md) зупиняється, коли об'єкт, що зберігається всередині [Iterator](class.iterator.md) виявляється порожнім.
 
 ### Список параметрів
 
@@ -36,5 +34,4 @@ public **InfiniteIterator::next**(): void
 
 ### Дивіться також
 
-- [InfiniteIterator::\_\_construct()](infiniteiterator.construct.md) -
-Конструктор класу InfiniteIterator
+-   [InfiniteIterator::construct()](infiniteiterator.construct.md) - Конструктор класу InfiniteIterator

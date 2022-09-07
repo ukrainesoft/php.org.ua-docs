@@ -1,24 +1,24 @@
-- [« MongoDB\Driver\Server::getInfo](mongodb-driver-server.getinfo.md)
-- [MongoDB\Driver\Server::getPort »](mongodb-driver-server.getport.md)
+---
+navigation:
+  - mongodb-driver-server.getinfo.md: '« MongoDBDriverServer::getInfo'
+  - mongodb-driver-server.getport.md: 'MongoDBDriverServer::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
+title: 'MongoDBDriverServer::getLatency'
+---
+# MongoDBDriverServer::getLatency
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Повертає затримку сервера у мілісекундах
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Server::getLatency
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Server::getLatency — Повертає затримку сервера в
-мілісекундах
+MongoDBDriverServer::getLatency — Повертає затримку сервера в мілісекундах
 
 ### Опис
 
-final public **MongoDB\Driver\Server::getLatency**(): ?integer
+```methodsynopsis
+final public MongoDB\Driver\Server::getLatency(): ?integer
+```
 
-Повертає затримку сервера у мілісекундах. Виміряне клієнтом
-[» час проходження](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#round-trip-time)
-команди `hello`.
+Повертає затримку сервера у мілісекундах. Виміряне клієнтом [» время прохождения](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#round-trip-time) команди `hello`
 
 ### Список параметрів
 
@@ -26,36 +26,43 @@ final public **MongoDB\Driver\Server::getLatency**(): ?integer
 
 ### Значення, що повертаються
 
-Повертає затримку сервера в мілісекундах або **`null`**, якщо
-затримка не була виміряна (наприклад, клієнт підключений до балансувальника
-навантаження).
+Повертає затримку сервера в мілісекундах або **`null`**, якщо затримка не була виміряна (наприклад, клієнт підключено до балансувальника навантаження).
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
-### Список змін
+### список змін
 
-| Версія              | Опис                                                                                                                                                        |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.11.0 | Метод поверне **null**, якщо затримка не була виміряна. У ранніх версіях завжди поверталося ціле число, а невстановлене значення могло відображатися як -1. |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.11.0 | Метод поверне \*\*`null`\*\*якщо затримка не була виміряна. У попередніх версіях завжди поверталося ціле число, а невстановлене значення могло відображатися як `-1` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\Server::getLatency()****
+**Приклад #1 Приклад використання **MongoDBDriverServer::getLatency()****
 
-` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server = manager->selectServer($rp);var_dump($server->getLatency());?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$server = $manager->selectServer($rp);
+
+var_dump($server->getLatency());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(592)
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
-- [MongoDB\Driver\ServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.md) -
-Повертає час обходу сервера у мілісекундах
-- [» Специфікація виявлення та моніторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.md) - Повертає час обходу сервера у мілісекундах
+-   [» Спецификация обнаружения и мониторинга сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

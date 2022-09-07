@@ -1,220 +1,276 @@
-- [« Налаштування під час виконання](gmagick.configuration.md)
-- [Приклади »](gmagick.examples.md)
+---
+navigation:
+  - gmagick.configuration.md: « Налаштування під час виконання
+  - gmagick.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.gmagick.md: Gmagick
+title: Обумовлені константи
+---
+# Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Gmagick](book.gmagick.md)
-- Обумовлені константи
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-# Зумовлені константи
-
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+**Колірні константи**
 
 **`Gmagick::COLOR_BLACK`** (int)
+
 Чорний
 
 **`Gmagick::COLOR_BLUE`** (int)
+
 Синій
 
 **`Gmagick::COLOR_CYAN`** (int)
+
 Бірюзовий
 
 **`Gmagick::COLOR_GREEN`** (int)
+
 Зелений
 
 **`Gmagick::COLOR_RED`** (int)
+
 червоний
 
 **`Gmagick::COLOR_YELLOW`** (int)
+
 Жовтий
 
 **`Gmagick::COLOR_MAGENTA`** (int)
+
 Пурпурний
 
 **`Gmagick::COLOR_OPACITY`** (int)
+
 Непрозорість
 
 **`Gmagick::COLOR_ALPHA`** (int)
+
 Альфа-канал
 
 **`Gmagick::COLOR_FUZZ`** (int)
+
 Розпушка
 
-
+**Константи композитного оператора**
 
 **`Gmagick::COMPOSITE_DEFAULT`** (int)
+
 Композитний оператор за замовчуванням
 
 **`Gmagick::COMPOSITE_UNDEFINED`** (int)
+
 Невизначений композитний оператор
 
 **`Gmagick::COMPOSITE_NO`** (int)
+
 Композитний оператор не заданий
 
 **`Gmagick::COMPOSITE_ADD`** (int)
+
 Результат складання зображень
 
 **`Gmagick::COMPOSITE_ATOP`** (int)
-Результат має ту саму форму, що й вихідне зображення, але затемнений
-за допомогою композитного зображення у місцях перетину.
+
+Результат має ту саму форму, що і вихідне зображення, але затемнений за допомогою композитного зображення у місцях перетину.
 
 **`Gmagick::COMPOSITE_BLEND`** (int)
+
 Змішування зображення
 
 **`Gmagick::COMPOSITE_BUMPMAP`** (int)
-Те саме, що і COMPOSITE_MULTIPLY, за винятком того, що вихідне
-зображення спочатку перетворюється на відтінки сірого.
+
+Те саме, що і COMPOSITEMULTIPLY, за винятком того, що вихідне зображення спочатку перетворюється на відтінки сірого.
 
 **`Gmagick::COMPOSITE_CLEAR`** (int)
+
 Робить цільове зображення прозорим.
 
 **`Gmagick::COMPOSITE_COLORBURN`** (int)
+
 Затемняє цільове зображення для відображення вихідного зображення.
 
 **`Gmagick::COMPOSITE_COLORDODGE`** (int)
+
 Освітлює цільове зображення для відображення вихідного зображення.
 
 **`Gmagick::COMPOSITE_COLORIZE`** (int)
-Розмальовує цільове зображення за допомогою композитного зображення.
+
+Розфарбовує цільове зображення за допомогою композитного зображення.
 
 **`Gmagick::COMPOSITE_COPYBLACK`** (int)
+
 Копіює чорний канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_COPYBLUE`** (int)
+
 Копіює синій канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_COPY`** (int)
+
 Копіює джерело до приймача
 
 **`Gmagick::COMPOSITE_COPYCYAN`** (int)
+
 Копіює бірюзовий канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_COPYGREEN`** (int)
+
 Копіює зелений канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_COPYMAGENTA`** (int)
-Копіює пурпурний канал із джерела до приймача
+
+Копіює пурпуровий канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_COPYOPACITY`** (int)
+
 Копіює канал прозорості з джерела до приймача
 
 **`Gmagick::COMPOSITE_COPYRED`** (int)
+
 Копіює червоний канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_COPYYELLOW`** (int)
+
 Копіює жовтий канал із джерела до приймача
 
 **`Gmagick::COMPOSITE_DARKEN`** (int)
+
 Затемнення приймача
 
 **`Gmagick::COMPOSITE_DSTATOP`** (int)
-Частина приймача, що лежить усередині джерела, накладається на джерело та
-замінює приймач
+
+Частина приймача, що лежить усередині джерела, накладається на джерело та замінює приймач
 
 **`Gmagick::COMPOSITE_DST`** (int)
-Приймач залишається недоторканим
+
+Приймач залишається незайманим
 
 **`Gmagick::COMPOSITE_DSTIN`** (int)
+
 Частину всередині джерела замінює приймач
 
 **`Gmagick::COMPOSITE_DSTOUT`** (int)
+
 Частину поза джерелом замінює приймач
 
 **`Gmagick::COMPOSITE_DSTOVER`** (int)
+
 Приймач замінює джерело
 
 **`Gmagick::COMPOSITE_DIFFERENCE`** (int)
+
 Віднімає темніше значення кольору з світлішого
 
 **`Gmagick::COMPOSITE_DISPLACE`** (int)
-Зсуває пікселі приймача як задано у джерелі
+
+Зсув пікселів приймача як задано в джерелі
 
 **`Gmagick::COMPOSITE_DISSOLVE`** (int)
+
 Розчиняє джерело в приймачі
 
 **`Gmagick::COMPOSITE_EXCLUSION`** (int)
-Створює ефект аналогічний Gmagick:: COMPOSITE_DIFFERENCE, але виглядає
-як зниження контрасту
+
+Створює ефект аналогічний до Gmagick::COMPOSITEDIFFERENCE, але виглядає як зниження розмаїття
 
 **`Gmagick::COMPOSITE_HARDLIGHT`** (int)
+
 Помножує або освітлює кольори, залежно від значення кольору джерела
 
 **`Gmagick::COMPOSITE_HUE`** (int)
+
 Модифікує відтінок приймача відповідно до джерела
 
 **`Gmagick::COMPOSITE_IN`** (int)
+
 Підмішує джерело до приймача
 
 **`Gmagick::COMPOSITE_LIGHTEN`** (int)
+
 Освітлює приймач відповідно до джерела
 
 **`Gmagick::COMPOSITE_LUMINIZE`** (int)
+
 Люмінізує приймач відповідно до джерела
 
 **`Gmagick::COMPOSITE_MINUS`** (int)
+
 Віднімає джерело з приймача
 
 **`Gmagick::COMPOSITE_MODULATE`** (int)
-Модулює яскравість, насиченість та відтінок приймача відповідно до
-джерелом
+
+Модулює яскравість, насиченість та відтінок приймача відповідно до джерела
 
 **`Gmagick::COMPOSITE_MULTIPLY`** (int)
+
 Помножує приймач на джерело
 
 **`Gmagick::COMPOSITE_OUT`** (int)
+
 Накладає зовнішні частини джерела на приймач
 
 **`Gmagick::COMPOSITE_OVER`** (int)
+
 Підмішує джерело поверх приймача
 
 **`Gmagick::COMPOSITE_OVERLAY`** (int)
+
 Перекриває приймач джерелом
 
 **`Gmagick::COMPOSITE_PLUS`** (int)
+
 Додає джерело до приймача
 
 **`Gmagick::COMPOSITE_REPLACE`** (int)
+
 Замінює приймач джерелом
 
 **`Gmagick::COMPOSITE_SATURATE`** (int)
+
 Змінює насиченість приймача відповідно до джерела
 
 **`Gmagick::COMPOSITE_SCREEN`** (int)
-Джерело та приймач доповнюються, після цього множаться та замінюють
-приймач
+
+Джерело та приймач доповнюються, після цього множаться та замінюють приймач
 
 **`Gmagick::COMPOSITE_SOFTLIGHT`** (int)
+
 Затемняє або освітлює залежно від джерела
 
 **`Gmagick::COMPOSITE_SRCATOP`** (int)
+
 Частина джерела, що лежить поза приймачем, підмішується до приймача
 
 **`Gmagick::COMPOSITE_SRC`** (int)
+
 Джерело копіюється до приймача
 
 **`Gmagick::COMPOSITE_SRCIN`** (int)
+
 Частина джерела, що лежить усередині приймача, замінює приймач.
 
 **`Gmagick::COMPOSITE_SRCOUT`** (int)
+
 Частина джерела, що лежить поза приймачем, замінює приймач.
 
 **`Gmagick::COMPOSITE_SRCOVER`** (int)
+
 Джерело замінює приймач
 
 **`Gmagick::COMPOSITE_SUBTRACT`** (int)
+
 Віднімає кольори зображення джерела із зображення приймача
 
 **`Gmagick::COMPOSITE_THRESHOLD`** (int)
-Джерело підмішується до приймача, як визначено у пороговому значенні
-джерела
+
+Джерело підмішується до приймача, як визначено у пороговому значенні джерела
 
 **`Gmagick::COMPOSITE_XOR`** (int)
-Частина джерела, що лежить поза приймачем, комбінується з частиною приймача.
-що лежить поза джерелом
 
+Частина джерела, що лежить поза приймачем, комбінується з частиною приймача, що лежить поза джерелом.
 
+**Константи режиму монтажу**
 
 **`Gmagick::MONTAGEMODE_FRAME`** (int)
 
@@ -222,7 +278,7 @@
 
 **`Gmagick::MONTAGEMODE_CONCATENATE`** (int)
 
-
+**Константи стилю**
 
 **`Gmagick::STYLE_NORMAL`** (int)
 
@@ -232,7 +288,7 @@
 
 **`Gmagick::STYLE_ANY`** (int)
 
-
+**Константи фільтрації**
 
 **`Gmagick::FILTER_UNDEFINED`** (int)
 
@@ -266,7 +322,7 @@
 
 **`Gmagick::FILTER_SINC`** (int)
 
-
+**Константи типу зображення**
 
 **`Gmagick::IMGTYPE_UNDEFINED`** (int)
 
@@ -290,7 +346,7 @@
 
 **`Gmagick::IMGTYPE_OPTIMIZE`** (int)
 
-
+**Константи дозволу**
 
 **`Gmagick::RESOLUTION_UNDEFINED`** (int)
 
@@ -298,7 +354,7 @@
 
 **`Gmagick::RESOLUTION_PIXELSPERCENTIMETER`** (int)
 
-
+**Константи стиснення**
 
 **`Gmagick::COMPRESSION_UNDEFINED`** (int)
 
@@ -322,7 +378,7 @@
 
 **`Gmagick::COMPRESSION_ZIP`** (int)
 
-
+**Константи малювання**
 
 **`Gmagick::PAINT_POINT`** (int)
 
@@ -334,7 +390,7 @@
 
 **`Gmagick::PAINT_RESET`** (int)
 
-
+**Гравітаційні константи**
 
 **`Gmagick::GRAVITY_NORTHWEST`** (int)
 
@@ -354,7 +410,7 @@
 
 **`Gmagick::GRAVITY_SOUTHEAST`** (int)
 
-
+**Константи розтягування**
 
 **`Gmagick::STRETCH_NORMAL`** (int)
 
@@ -374,7 +430,7 @@
 
 **`Gmagick::STRETCH_ANY`** (int)
 
-
+**Align constants**
 
 **`Gmagick::ALIGN_UNDEFINED`** (int)
 
@@ -384,7 +440,7 @@
 
 **`Gmagick::ALIGN_RIGHT`** (int)
 
-
+**Константи декорування**
 
 **`Gmagick::DECORATION_NO`** (int)
 
@@ -394,7 +450,7 @@
 
 **`Gmagick::DECORATION_LINETROUGH`** (int)
 
-
+**Константи шуму**
 
 **`Gmagick::NOISE_UNIFORM`** (int)
 
@@ -408,7 +464,7 @@
 
 **`Gmagick::NOISE_POISSON`** (int)
 
-
+**Константи каналів**
 
 **`Gmagick::CHANNEL_UNDEFINED`** (int)
 
@@ -438,7 +494,7 @@
 
 **`Gmagick::CHANNEL_ALL`** (int)
 
-
+**Метричні константи**
 
 **`Gmagick::METRIC_UNDEFINED`** (int)
 
@@ -452,7 +508,7 @@
 
 **`Gmagick::METRIC_ROOTMEANSQUAREDERROR`** (int)
 
-
+**Піксельні константи**
 
 **`Gmagick::PIXEL_CHAR`** (int)
 
@@ -468,7 +524,7 @@
 
 **`Gmagick::PIXEL_SHORT`** (int)
 
-
+**Константи колірного простору**
 
 **`Gmagick::COLORSPACE_UNDEFINED`** (int)
 
@@ -510,7 +566,7 @@
 
 **`Gmagick::COLORSPACE_LOG`** (int)
 
-
+**Константи методу віртуального пікселя**
 
 **`Gmagick::VIRTUALPIXELMETHOD_UNDEFINED`** (int)
 
@@ -526,7 +582,7 @@
 
 **`Gmagick::VIRTUALPIXELMETHOD_TRANSPARENT`** (int)
 
-
+**Константи перегляду**
 
 **`Gmagick::PREVIEW_UNDEFINED`** (int)
 
@@ -588,7 +644,7 @@
 
 **`Gmagick::PREVIEW_JPEG`** (int)
 
-
+**Константи інтенту малювання**
 
 **`Gmagick::RENDERINGINTENT_UNDEFINED`** (int)
 
@@ -600,7 +656,7 @@
 
 **`Gmagick::RENDERINGINTENT_RELATIVE`** (int)
 
-
+**Константи правил заповнення**
 
 **`Gmagick::FILLRULE_UNDEFINED`** (int)
 
@@ -608,7 +664,7 @@
 
 **`Gmagick::FILLRULE_NONZERO`** (int)
 
-
+**Константи блоку колії (pathunit)**
 
 **`Gmagick::PATHUNITS_UNDEFINED`** (int)
 
@@ -618,7 +674,7 @@
 
 **`Gmagick::PATHUNITS_OBJECTBOUNDINGBOX`** (int)
 
-
+**Константи Linecap**
 
 **`Gmagick::LINECAP_UNDEFINED`** (int)
 
@@ -628,7 +684,7 @@
 
 **`Gmagick::LINECAP_SQUARE`** (int)
 
-
+**Константи об'єднання ліній**
 
 **`Gmagick::LINEJOIN_UNDEFINED`** (int)
 
@@ -638,7 +694,7 @@
 
 **`Gmagick::LINEJOIN_BEVEL`** (int)
 
-
+**Константи типу ресурсу**
 
 **`Gmagick::RESOURCETYPE_UNDEFINED`** (int)
 
@@ -652,7 +708,7 @@
 
 **`Gmagick::RESOURCETYPE_MEMORY`** (int)
 
-
+**Константи орієнтації**
 
 **`Gmagick::ORIENTATION_UNDEFINED`** (int)
 
@@ -672,7 +728,7 @@
 
 **`Gmagick::ORIENTATION_LEFTBOTTOM`** (int)
 
-
+**Константи черезрядкової розгортки**
 
 **`Gmagick::INTERLACE_UNDEFINED`** (int)
 

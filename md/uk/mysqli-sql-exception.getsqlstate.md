@@ -1,30 +1,28 @@
-- [« mysqli_sql_exception](class.mysqli-sql-exception.md)
-- [Синоніми та застарілі функції Mysqli »](ref.mysqli.md)
+---
+navigation:
+  - class.mysqli-sql-exception.md: « mysqlisqlexception
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli »
+  - index.md: PHP Manual
+  - class.mysqli-sql-exception.md: mysqlisqlexception
+title: 'mysqlisqlexception::getSqlState'
+---
+# mysqlisqlexception::getSqlState
 
-- [PHP Manual](index.md)
-- [mysqli_sql_exception](class.mysqli-sql-exception.md)
-- Повертає код помилки SQLSTATE
+(PHP 8> = 8.1.2)
 
-# mysqli_sql_exception::getSqlState
-
-(PHP 8 \>= 8.1.2)
-
-mysqli_sql_exception::getSqlState — Повертає код помилки SQLSTATE
+mysqlisqlexception::getSqlState — Повертає код помилки SQLSTATE
 
 ### Опис
 
-public **mysqli_sql_exception::getSqlState**(): string
+```methodsynopsis
+public mysqli_sql_exception::getSqlState(): string
+```
 
-Повертає рядок, який містить код останньої помилки SQLSTATE. Код помилки
-складається із п'яти символів. Значення задаються ANSI SQL та ODBC. перелік
-можливих значень можна переглянути на сторінці
-[»http://dev.mysql.com/doc/mysql/en/error-handling.md](http://dev.mysql.com/doc/mysql/en/error-handling.md).
+Повертає рядок, який містить код останньої помилки SQLSTATE. Код помилки складається із п'яти символів. Значення задаються ANSI SQL та ODBC. Список можливих значень можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
-> **Примітка**:
->
-> Зверніть увагу, що не всі помилки MySQL ще зіставлені з
-> SQLSTATE. Якщо помилка не зіставлена, використовується значення `HY000`
-> (загальна помилка).
+> **Зауваження**
+> 
+> Зауважте, що не всі помилки MySQL ще зіставлені з SQLSTATE. Якщо помилка не зіставлена, використовується значення `HY000` (Загальна помилка).
 
 ### Список параметрів
 
@@ -32,5 +30,4 @@ public **mysqli_sql_exception::getSqlState**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, який містить код останньої помилки SQLSTATE. Код помилки
-складається із п'яти символів.
+Повертає рядок, який містить код останньої помилки SQLSTATE. Код помилки складається із п'яти символів.

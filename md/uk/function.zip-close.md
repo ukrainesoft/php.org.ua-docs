@@ -1,45 +1,46 @@
-- [« Функції Zip](ref.zip.md)
-- [zip_entry_close »](function.zip-entry-close.md)
+---
+navigation:
+  - ref.zip.md: « Функции Zip
+  - function.zip-entry-close.md: zipentryclose »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipclose
+---
+# zipclose
 
-- [PHP Manual](index.md)
-- [Функції Zip](ref.zip.md)
-- Закриває дескриптор ZIP-архіву
+(PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-#zip_close
-
-(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
-
-zip_close — Закриває дескриптор ZIP-архіву
+zipclose — Закриває дескриптор ZIP-архіву
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**zip_close**(resource `$zip`): void
+```methodsynopsis
+zip_close(resource $zip): void
+```
 
 Закриває дескриптор ZIP-архіву.
 
 ### Список параметрів
 
 `zip`
-ZIP-файл має бути відкритий за допомогою функції
-[zip_open()](function.zip-open.md).
+
+ZIP-файл має бути відкритий за допомогою функції [zipopen()](function.zip-open.md)
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md) |
 
 ### Дивіться також
 
-- [zip_open()](function.zip-open.md) - Відкриває ZIP-архів
-- [zip_read()](function.zip-read.md) - Зчитує наступний запис у
-ZIP-архіві
+-   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.md) - Зчитує наступний запис у ZIP-архіві

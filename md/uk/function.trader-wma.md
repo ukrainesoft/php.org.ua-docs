@@ -1,29 +1,33 @@
-- [«trader_willr](function.trader-willr.md)
-- [Генерація нетекстових MIME-форматів»](refs.utilspec.nontext.md)
+---
+navigation:
+  - function.trader-willr.md: « traderwillr
+  - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderwma
+---
+# traderwma
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Зважене ковзне середнє
+(PECL trader >= 0.2.0)
 
-# trader_wma
-
-(PECL trader \>= 0.2.0)
-
-trader_wma — Зважене ковзне середнє
+traderwma — Зважена ковзна середня
 
 ### Опис
 
-**trader_wma**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_wma(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

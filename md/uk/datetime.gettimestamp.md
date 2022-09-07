@@ -1,38 +1,44 @@
-- [« DateTime::getOffset](datetime.getoffset.md)
-- [DateTime::getTimezone »](datetime.gettimezone.md)
-
-- [PHP Manual](index.md)
-- [DateTimeInterface](class.datetimeinterface.md)
-- Повертає тимчасову мітку Unix
-
-# DateTime::getTimestamp
+---
+navigation:
+  - datetime.getoffset.md: '« DateTimeInterface::getOffset'
+  - datetime.gettimezone.md: 'DateTimeInterface::getTimezone »'
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
+title: 'DateTimeInterface::getTimestamp'
+---
+# DateTimeInterface::getTimestamp
 
 # DateTimeImmutable::getTimestamp
 
-# DateTimeInterface::getTimestamp
+# DateTime::getTimestamp
 
-# date_timestamp_get
+# datetimestampget
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-DateTime::getTimestamp -- DateTimeImmutable::getTimestamp --
-DateTimeInterface::getTimestamp -- date_timestamp_get -- Повертає
-тимчасову мітку Unix
+DateTimeInterface::getTimestamp -- DateTimeImmutable::getTimestamp -- DateTime::getTimestamp -- datetimestampget — Повертає тимчасову мітку Unix
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **DateTime::getTimestamp**(): int
+```methodsynopsis
+public DateTimeInterface::getTimestamp(): int
+```
 
-public **DateTimeImmutable::getTimestamp**(): int
+```methodsynopsis
+public DateTimeImmutable::getTimestamp(): int
+```
 
-public **DateTimeInterface::getTimestamp**(): int
+```methodsynopsis
+public DateTime::getTimestamp(): int
+```
 
 Процедурний стиль
 
-[date_timestamp_get](function.date-timestamp-get.md)([DateTimeInterface](class.datetimeinterface.md)
-`$object`): int
+```methodsynopsis
+date_timestamp_get(DateTimeInterface $object): int
+```
 
 Повертає тимчасову мітку Unix.
 
@@ -42,21 +48,17 @@ public **DateTimeInterface::getTimestamp**(): int
 
 ### Значення, що повертаються
 
-Повертає тимчасову позначку Unix для вказаної дати.
+Повертає тимчасову мітку Unix для цієї дати.
 
 ### Помилки
 
-Якщо тимчасова мітка не може бути представлена як ціле число (int),
-викидається [ValueError](class.valueerror.md). До PHP 8.0.0 у цьому
-у разі поверталося **`false`**. Тим не менш, мітку часу можна
-отримати як рядок (string) за допомогою
-[DateTimeInterface::format()](datetime.format.md) з форматом `U`.
+Якщо тимчасова мітка не може бути представлена ​​як ціле число (int), викидається [ValueError](class.valueerror.md). До PHP 8.0.0 у цьому випадку поверталося **`false`**. Тим не менш, мітку часу можна отримати як рядок (string) за допомогою [DateTimeInterface::format()](datetime.format.md) з форматом `U`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                              |
-|--------|-------------------------------------------------------------------|
-| 8.0.0  | Функції більше не повертають **false** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функції більше не повертають **`false`** у разі виникнення помилки. |
 
 ### Приклади
 
@@ -64,19 +66,29 @@ public **DateTimeInterface::getTimestamp**(): int
 
 Об'єктно-орієнтований стиль
 
-` <?php$date = new DateTime();echo $date->getTimestamp();?> `
+```php
+<?php
+$date = new DateTimeImmutable();
+echo $date->getTimestamp();
+?>
+```
 
 Процедурний стиль
 
-` <?php$date = date_create();echo date_timestamp_get($date);?> `
+```php
+<?php
+$date = date_create();
+echo date_timestamp_get($date);
+?>
+```
 
 Результатом виконання даних прикладів буде щось подібне:
 
+```
 1272509157
+```
 
 ### Дивіться також
 
-- [DateTime::setTimestamp()](datetime.settimestamp.md) -
-Встановлює дату та час на основі мітки часу Unix
-- [DateTime::format()](datetime.format.md) - Повертає дату,
-відформатовану згідно з переданим форматом
+-   [DateTime::setTimestamp()](datetime.settimestamp.md) - Встановлює дату та час на основі мітки часу Unix
+-   [DateTime::format()](datetime.format.md) - Повертає дату, відформатовану згідно з переданим форматом

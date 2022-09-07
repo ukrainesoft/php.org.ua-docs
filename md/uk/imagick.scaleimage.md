@@ -1,10 +1,11 @@
-- [« Imagick::sampleImage](imagick.sampleimage.md)
-- [Imagick::segmentImage »](imagick.segmentimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Масштабує розмір зображення
-
+---
+navigation:
+  - imagick.sampleimage.md: '« Imagick::sampleImage'
+  - imagick.segmentimage.md: 'Imagick::segmentImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::scaleImage'
+---
 # Imagick::scaleImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,23 +14,13 @@ Imagick::scaleImage — Масштабує розмір зображення
 
 ### Опис
 
-public **Imagick::scaleImage**(
-int `$cols`,
-int `$rows`,
-bool `$bestfit` = **`false`**,
-bool `$legacy` = **`false`**
-): bool
+```methodsynopsis
+public Imagick::scaleImage(    int $cols,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
+```
 
-Масштабує зображення до розмірів. Другий параметр буде
-обчислений, якщо будь-який з параметрів буде переданий 0.
+Масштабує зображення до розмірів. Другий параметр буде обчислено, якщо в якості будь-якого з параметрів буде передано 0.
 
-> **Примітка**: Поводження параметра `bestfit` було змінено в Imagick
->3.0.0. До цієї версії при зміні зображення розміром 200x150
-> 400×300 ніяких операцій не відбувалося. В Imagick 3.0.0 і далі
-> зображення буде масштабовано до розмірів 400x300, оскільки це
-> найкраще відповідає ("best fit") даним розмірам. Якщо
-> використовується параметр `bestfit`, то ширина та висота також повинні бути
-> визначено.
+> **Зауваження**: Поведінка параметра `bestfit` було змінено у Imagick 3.0.0. До цієї версії при зміні зображення розміром 200×150 до 400×300 жодних операцій не відбувалося. В Imagick 3.0.0 і далі зображення буде масштабовано до розмірів 400x300, оскільки це найкраще відповідає ("best fit") даним розмірам. Якщо використовується параметр `bestfit`, то ширина та висота також повинні бути визначені.
 
 ### Список параметрів
 
@@ -41,20 +32,30 @@ bool `$legacy` = **`false`**
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
 Викликає ImagickException у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                                                                                                                                                                         | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-| PECL imagick 2.1.0 Доданий необов'язковий параметр fit. Метод тепер підтримує пропорційне масштабування. Передайте нуль як будь-який параметр для пропорційного масштабування. |      |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Доданий необов'язковий параметр fit. Метод тепер підтримує пропорційне масштабування. Передайте нуль як будь-який параметр для пропорційного масштабування. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::scaleImage()****
 
-` <?phpfunction scaleImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->scaleImage(150, 150, true); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function scaleImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->scaleImage(150, 150, true);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

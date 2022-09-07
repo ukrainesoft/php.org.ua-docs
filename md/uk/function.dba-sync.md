@@ -1,36 +1,35 @@
-- [«dba_replace](function.dba-replace.md)
-- [ODBC »](book.uodbc.md)
-
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Синхронізує базу даних
-
-#dba_sync
+---
+navigation:
+  - function.dba-replace.md: « dbareplace
+  - book.uodbc.md: ODBC »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbasync
+---
+# dbasync
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_sync — Синхронізує базу даних
+dbasync — Синхронізує базу даних
 
 ### Опис
 
-**dba_sync**(resource `$dba`): bool
+```methodsynopsis
+dba_sync(resource $dba): bool
+```
 
-**dba_sync()** синхронізує базу даних. Швидше за все ця функція,
-якщо підтримується, викличе запис на диск.
+**dbasync()** синхронізує базу даних. Швидше за все, якщо підтримується ця функція, викличе запис на диск.
 
 ### Список параметрів
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [dba_optimize()](function.dba-optimize.md) - Оптимізує базу
-даних
+-   [dbaoptimize()](function.dba-optimize.md) - Оптимізує базу даних

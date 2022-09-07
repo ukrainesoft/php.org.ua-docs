@@ -1,11 +1,11 @@
-- [« Встановлення та налаштування](trader.setup.md)
-- [Установка »](trader.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](trader.setup.md)
-- Вимоги
-
+---
+navigation:
+  - trader.setup.md: « Встановлення та налаштування
+  - trader.installation.md: Установка »
+  - index.md: PHP Manual
+  - trader.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Модуль trader заснований на TA-Lib (http://www.ta-lib.org/). TA-Lib
-повністю інтегрований у модуль, тому зовнішні бібліотеки непотрібні.
+Модуль trader заснований на [» TA-Lib](http://www.ta-lib.org/). TA-Lib повністю інтегрований у модуль, тому зовнішні бібліотеки не потрібні.

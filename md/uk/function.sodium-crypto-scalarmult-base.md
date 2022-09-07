@@ -1,18 +1,17 @@
-- [« sodium_crypto_pwhash](function.sodium-crypto-pwhash.md)
-- [sodium_crypto_scalarmult_ristretto255_base »](function.sodium-crypto-scalarmult-ristretto255-base.md)
+---
+navigation:
+  - function.sodium-crypto-pwhash.md: « sodiumcryptopwhash
+  - function.sodium-crypto-scalarmult-ristretto255-base.md: sodiumcryptoscalarmultristretto255base »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoscalarmultbase
+---
+# sodiumcryptoscalarmultbase
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Псевдонім sodium_crypto_box_publickey_from_secretkey
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_scalarmult_base
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_scalarmult_base — Псевдонім
-[sodium_crypto_box_publickey_from_secretkey()](function.sodium-crypto-box-publickey-from-secretkey.md)
+sodiumcryptoscalarmultbase - Псевдонім [sodiumcryptoboxpublickeyfromsecretkey()](function.sodium-crypto-box-publickey-from-secretkey.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[sodium_crypto_box_publickey_from_secretkey()](function.sodium-crypto-box-publickey-from-secretkey.md).
+Ця функція є псевдонімом: [sodiumcryptoboxpublickeyfromsecretkey()](function.sodium-crypto-box-publickey-from-secretkey.md)

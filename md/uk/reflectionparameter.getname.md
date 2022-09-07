@@ -1,10 +1,11 @@
-- [« ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.md)
-- [ReflectionParameter::getPosition »](reflectionparameter.getposition.md)
-
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Отримання імені параметра
-
+---
+navigation:
+  - reflectionparameter.getdefaultvalueconstantname.md: '« ReflectionParameter::getDefaultValueConstantName'
+  - reflectionparameter.getposition.md: 'ReflectionParameter::getPosition »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getName'
+---
 # ReflectionParameter::getName
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ReflectionParameter::getName — Отримання імені параметр�
 
 ### Опис
 
-public **ReflectionParameter::getName**(): string
+```methodsynopsis
+public ReflectionParameter::getName(): string
+```
 
 Отримує назву параметра.
 
@@ -27,4 +30,4 @@ public **ReflectionParameter::getName**(): string
 
 ### Дивіться також
 
-- **ReflectionParameter::getValue()**
+-   **ReflectionParameter::getValue()**

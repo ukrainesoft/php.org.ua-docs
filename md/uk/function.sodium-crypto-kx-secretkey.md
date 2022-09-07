@@ -1,28 +1,30 @@
-- [« sodium_crypto_kx_publickey](function.sodium-crypto-kx-publickey.md)
-- [sodium_crypto_kx_seed_keypair »](function.sodium-crypto-kx-seed-keypair.md)
+---
+navigation:
+  - function.sodium-crypto-kx-publickey.md: « sodiumcryptoкксpublickey
+  - function.sodium-crypto-kx-seed-keypair.md: sodiumcryptoкксseedkeypair »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoкксsecretkey
+---
+# sodiumcryptoкксsecretkey
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Витягує секретний ключ із пари ключів crypto_kx
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_kx_secretkey
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_kx_secretkey — Витягує секретний ключ із пари ключів
-crypto_kx
+sodiumcryptoкксsecretkey — Витягує секретний ключ із пари ключів cryptoккс
 
 ### Опис
 
-**sodium_crypto_kx_secretkey**(string `$key_pair`): string
+```methodsynopsis
+sodium_crypto_kx_secretkey(string $key_pair): string
+```
 
-Витягує секретний ключ із пари ключів crypto_kx.
+Витягує секретний ключ із пари ключів cryptokx.
 
 ### Список параметрів
 
 `key_pair`
-Пара ключів X25519, наприклад, згенерована
-[sodium_crypto_kx_keypair()](function.sodium-crypto-kx-keypair.md).
+
+Пара ключів X25519, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.md)
 
 ### Значення, що повертаються
 

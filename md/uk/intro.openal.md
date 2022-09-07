@@ -1,10 +1,11 @@
-- [«OpenAL](book.openal.md)
-- [Встановлення та налаштування »](openal.setup.md)
-
-- [PHP Manual](index.md)
-- [OpenAL](book.openal.md)
--   Вступ
-
+---
+navigation:
+  - book.openal.md: « OpenAL
+  - openal.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.openal.md: OpenAL
+title: Вступ
+---
 # Вступ
 
-Платформонезалежна робота з аудіопотоками. Потрібна [» бібліотека OpenAL](https://www.openal.org/).
+Незалежна робота з відеопотоками. Потрібно [» библиотека OpenAL](https://www.openal.org/)

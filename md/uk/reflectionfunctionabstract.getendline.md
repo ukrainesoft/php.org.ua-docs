@@ -1,20 +1,22 @@
-- [« ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)
-- [ReflectionFunctionAbstract::getExtension »](reflectionfunctionabstract.getextension.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує номер рядка завершення опису функції
-
+---
+navigation:
+  - reflectionfunctionabstract.getdoccomment.md: '« ReflectionFunctionAbstract::getDocComment'
+  - reflectionfunctionabstract.getextension.md: 'ReflectionFunctionAbstract::getExtension »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getEndLine'
+---
 # ReflectionFunctionAbstract::getEndLine
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getEndLine — Отримує номер рядка
-завершення опису функції
+ReflectionFunctionAbstract::getEndLine — Отримує номер рядка завершення опису функції
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getEndLine**(): int\|false
+```methodsynopsis
+public ReflectionFunctionAbstract::getEndLine(): int|false
+```
 
 Отримує номер рядка завершення опису функції.
 
@@ -24,10 +26,8 @@ public **ReflectionFunctionAbstract::getEndLine**(): int\|false
 
 ### Значення, що повертаються
 
-Номер останнього рядка опису визначеної користувачем функції або
-**`false`**, якщо він невідомий.
+Номер останнього рядка опису визначеної користувачем функції або \*\*`false`\*\*якщо він невідомий.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) -
-Отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) - отримує початковий номер рядка

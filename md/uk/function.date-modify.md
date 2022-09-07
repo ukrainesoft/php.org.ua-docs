@@ -1,17 +1,17 @@
-- [« date_isodate_set](function.date-isodate-set.md)
-- [date_offset_get »](function.date-offset-get.md)
+---
+navigation:
+  - function.date-isodate-set.md: « dateisodateset
+  - function.date-offset-get.md: dateoffsetget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datemodify
+---
+# datemodify
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::modify
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#date_modify
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-date_modify - Псевдонім [DateTime::modify()](datetime.modify.md)
+datemodify - Псевдонім [DateTime::modify()](datetime.modify.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTime::modify()](datetime.modify.md)
+Ця функція є псевдонімом: [DateTime::modify()](datetime.modify.md)

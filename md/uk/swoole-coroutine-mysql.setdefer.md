@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\MySQL::recv](swoole-coroutine-mysql.recv.md)
-- [Swoole\Coroutine::getuid »](swoole-coroutine.getuid.md)
+---
+navigation:
+  - swoole-coroutine-mysql.recv.md: '« SwooleCoroutineMySQL::recv'
+  - swoole-coroutine.getuid.md: 'SwooleCoroutine::getuid »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::setDefer'
+---
+# SwooleCoroutineMySQL::setDefer
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\MySQL::setDefer
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\MySQL::setDefer — Опис
+SwooleCoroutineMySQL::setDefer — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\MySQL::setDefer**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\MySQL::setDefer(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,22 +1,24 @@
-- [«odbc_binmode](function.odbc-binmode.md)
-- [odbc_close »](function.odbc-close.md)
-
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Закриває всі з'єднання ODBC
-
-#odbc_close_all
+---
+navigation:
+  - function.odbc-binmode.md: « odbcbinmode
+  - function.odbc-close.md: odbcclose »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbccloseall
+---
+# odbccloseall
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_close_all — Закриває всі з'єднання ODBC
+odbccloseall — Закриває всі з'єднання ODBC
 
 ### Опис
 
-**odbc_close_all**(): void
+```methodsynopsis
+odbc_close_all(): void
+```
 
-**odbc_close_all()** закриє всі з'єднання з сервером (серверами) бази
-даних.
+**odbccloseall()** закриє всі з'єднання із сервером (серверами) бази даних.
 
 ### Список параметрів
 
@@ -28,7 +30,6 @@ odbc_close_all — Закриває всі з'єднання ODBC
 
 ### Примітки
 
-> **Примітка**:
->
-> Ця функція не спрацює, якщо з'єднання має відкриті транзакції.
-> У цьому випадку з'єднання залишиться відкритим.
+> **Зауваження**
+> 
+> Ця функція не спрацює, якщо з'єднання є відкритими транзакціями. У цьому випадку з'єднання залишиться відкритим.

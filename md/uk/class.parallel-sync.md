@@ -1,60 +1,58 @@
-- [« parallel\Events\Event\Type](class.parallel-events-event-type.md)
-- [parallel\Sync::\_\_construct »](parallel-sync.construct.md)
-
-- [PHP Manual](index.md)
-- [parallel](book.parallel.md)
-- Клас parallel\Sync
-
-# Клас parallel\Sync
-
-(1.1.0)
+---
+navigation:
+  - class.parallel-events-event-type.md: « parallelEventsEventType
+  - parallel-sync.construct.md: 'parallelSync::construct »'
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelSync
+---
+# Клас parallelSync
 
 ## Синхронізація низького рівня
 
-Клас **parallel\Sync** забезпечує доступ до низькорівневих примітивів
-синхронізації, мьютексам, умовним змінним і дозволяє реалізувати
-семафори.
+Клас **parallelSync** забезпечує доступ до низькорівневих примітивів синхронізації, м'ютексу, умовних змінних і дозволяє реалізувати семафори.
 
-Синхронізація для більшості додатків набагато краще реалізується з
-використанням каналів, однак у деяких випадках автори
-низькорівневого коду можуть вважати корисним мати доступ до цих
-механізмів нижчого рівня.
+Синхронізація для більшості додатків набагато краще реалізується з використанням каналів, проте в деяких випадках автори коду низькорівневого можуть вважати корисним мати доступ до цих механізмів нижчого рівня.
 
 ## Огляд класів
 
-final class **parallel\Sync** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](parallel-sync.construct.md)()
 
-public [\_\_construct](parallel-sync.construct.md)(scalar `$value`)
+    
+     
+      final
+      class parallel\Sync
+     
+     {
 
-/\* Доступ \*/
 
-public [get](parallel-sync.get.md)(): scalar
+    /* Конструктор */
+    
+   public __construct()
+public __construct(scalar $value)
 
-public [set](parallel-sync.set.md)(scalar `$value`)
 
-/\* Синхронізація \*/
+    /* Доступ */
+    public get(): scalar
+public set(scalar $value)
 
-public [wait](parallel-sync.wait.md)()
 
-public [notify](parallel-sync.notify.md)(bool `$all` = ?)
+    /* Синхронизация */
+    public wait()
+public notify(bool $all = ?)
+public __invoke(callable $critical)
 
-public
-[\_\_invoke](parallel-sync.invoke.md)([callable](language.types.callable.md)
-`$critical`)
 
-}
+   }
+```
 
 ## Зміст
 
-- [parallel\Sync::\_\_construct](parallel-sync.construct.md) -
-Конструктор класу
-- [parallel\Sync::get](parallel-sync.get.md) — Доступ
-- [parallel\Sync::set](parallel-sync.set.md) — Доступ
-- [parallel\Sync::wait](parallel-sync.wait.md) — Синхронізація
-- [parallel\Sync::notify](parallel-sync.notify.md) — Синхронізація
-- [parallel\Sync::\_\_invoke](parallel-sync.invoke.md) -
-Синхронізація
+-   [parallelSync::construct](parallel-sync.construct.md) - Конструктор класу
+-   [parallelSync::get](parallel-sync.get.md) - Доступ
+-   [parallelSync::set](parallel-sync.set.md) - Доступ
+-   [parallelSync::wait](parallel-sync.wait.md) - Синхронізація
+-   [parallelSync::notify](parallel-sync.notify.md) - Синхронізація
+-   [parallelSync::invoke](parallel-sync.invoke.md) - Синхронізація

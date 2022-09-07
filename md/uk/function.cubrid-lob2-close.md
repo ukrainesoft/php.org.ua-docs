@@ -1,38 +1,35 @@
-- [« cubrid_lob2_bind](function.cubrid-lob2-bind.md)
-- [cubrid_lob2_export »](function.cubrid-lob2-export.md)
+---
+navigation:
+  - function.cubrid-lob2-bind.md: « cubridlob2bind
+  - function.cubrid-lob2-export.md: cubridlob2export »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2close
+---
+# cubridlob2close
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Закриває об'єкт LOB
+(PECL CUBRID >= 8.4.1)
 
-# cubrid_lob2_close
-
-(PECL CUBRID = 8.4.1)
-
-cubrid_lob2_close — Закриває об'єкт LOB
+cubridlob2close — Закриває об'єкт LOB
 
 ### Опис
 
-**cubrid_lob2_close**(resource `$lob_identifier`): bool
+```methodsynopsis
+cubrid_lob2_close(resource $lob_identifier): bool
+```
 
-Функція **cubrid_lob2_close()** використовується для закриття об'єкта LOB,
-поверненого функцією
-[cubrid_lob2_new()](function.cubrid-lob2-new.md) або отриманого з
-результуючого набору.
+Функція **cubridlob2close()** використовується для закриття об'єкта LOB, повернутих функцією [cubridlob2new()](function.cubrid-lob2-new.md) або отриманого із результуючого набору.
 
 ### Список параметрів
 
 `lob_identifier`
-Ідентифікатор LOB, повернутий функцією
-[cubrid_lob2_new()](function.cubrid-lob2-new.md) або отриманий з
-результуючого набору.
+
+Ідентифікатор LOB, повернутий функцією [cubridlob2new()](function.cubrid-lob2-new.md) або отриманий із результуючого набору.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [cubrid_lob2_new()](function.cubrid-lob2-new.md) - Створює об'єкт
-LOB
+-   [cubridlob2new()](function.cubrid-lob2-new.md) - Створює об'єкт LOB

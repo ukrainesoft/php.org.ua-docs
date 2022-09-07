@@ -1,29 +1,31 @@
-- [ trader_tan](function.trader-tan.md)
-- [trader_tema »](function.trader-tema.md)
+---
+navigation:
+  - function.trader-tan.md: « tradertan
+  - function.trader-tema.md: tradertema »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertanh
+---
+# tradertanh
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Тригонометричний вектор Тан
+(PECL trader >= 0.2.0)
 
-# trader_tanh
-
-(PECL trader \>= 0.2.0)
-
-trader_tanh — вектор Тригонометричний Тан
+tradertanh — вектор Тригонометричний Тан
 
 ### Опис
 
-**trader_tanh**(array `$real`): array
+```methodsynopsis
+trader_tanh(array $real): array
+```
 
-Обчислює гіперболічний тангенс для кожного значення в `real` та
-повертає отриманий масив.
+Обчислює гіперболічний тангенс для кожного значення `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

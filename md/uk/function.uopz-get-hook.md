@@ -1,53 +1,65 @@
-- [«uopz_get_exit_status](function.uopz-get-exit-status.md)
-- [uopz_get_mock »](function.uopz-get-mock.md)
-
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- отримує раніше встановлений обробник на функцію або метод
-
-#uopz_get_hook
+---
+navigation:
+  - function.uopz-get-exit-status.md: « uopzgetexitstatus
+  - function.uopz-get-mock.md: uopzgetmock »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzgethook
+---
+# uopzgethook
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopz_get_hook — Отримує раніше встановлений обробник на функцію або
-метод
+uopzgethook — Отримує раніше встановлений обробник на функцію або метод
 
 ### Опис
 
-**uopz_get_hook**(string `$function`): [Closure](class.closure.md)
+```methodsynopsis
+uopz_get_hook(string $function): Closure
+```
 
-**uopz_get_hook**(string `$class`, string `$function`):
-[Closure](class.closure.md)
+```methodsynopsis
+uopz_get_hook(string $class, string $function): Closure
+```
 
 Отримує встановлений обробник на функцію або метод.
 
 ### Список параметрів
 
 `class`
+
 Назва класу.
 
 `function`
+
 Ім'я функції чи методу.
 
 ### Значення, що повертаються
 
-Повертає раніше встановлений обробник на функцію або метод, або
-**`null`**, якщо обробник не було встановлено.
+Повертає раніше встановлений обробник на функцію або метод, або \*\*`null`\*\*якщо обробник не був встановлений.
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopz_get_hook()****
+**Приклад #1 Просте використання **uopzgethook()****
 
-` <?phpfunction foo() {    echo 'foo';}uopz_set_hook('foo', function () {echo 'bar';});var_dump(uopz_get_hook('foo'));?> `
+```php
+<?php
+function foo() {
+    echo 'foo';
+}
+uopz_set_hook('foo', function () {echo 'bar';});
+var_dump(uopz_get_hook('foo'));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Closure)#2 (0) {
 }
+```
 
 ### Дивіться також
 
-- [uopz_set_hook()](function.uopz-set-hook.md) - Встановлює
-обробник для виконання під час виклику функції або методу
-- [uopz_unset_hook()](function.uopz-unset-hook.md) - Видаляє раніше
-встановлену функцію чи метод
+-   [uopzsethook()](function.uopz-set-hook.md) - Встановлює обробник для виконання під час виклику функції або методу
+-   [uopzunsethook()](function.uopz-unset-hook.md) - Видаляє раніше встановлену функцію чи метод

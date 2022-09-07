@@ -1,62 +1,61 @@
-- [« xattr Функції](ref.xattr.md)
-- [xattr_list »](function.xattr-list.md)
+---
+navigation:
+  - ref.xattr.md: « xattr Функции
+  - function.xattr-list.md: xattrlist »
+  - index.md: PHP Manual
+  - ref.xattr.md: xattr Функции
+title: xattrget
+---
+# xattrget
 
-- [PHP Manual](index.md)
-- [xattr Функції](ref.xattr.md)
-- Отримання розширених атрибутів файлу
+(PECL xattr >= 0.9.0)
 
-#xattr_get
-
-(PECL xattr \>= 0.9.0)
-
-xattr_get — отримання розширених атрибутів файлу
+xattrget — отримання розширених атрибутів файлу
 
 ### Опис
 
-**xattr_get**(string `$filename`, string `$name`, int `$flags` = 0):
-string
+```methodsynopsis
+xattr_get(string $filename, string $name, int $flags = 0): string
+```
 
-Ця функція повертає розширений атрибут файлу.
+Ця функція повертає значення розширеного атрибута файлу.
 
-Розширені атрибути мають два різні простори імен:
-користувальницьке та кореневе (root). Користувальницький простір імен
-доступно для всіх користувачів, в той час як кореневе - тільки для
-користувачів з root-привілеями. За замовчуванням xattr оперує в
-користувальницькому просторі імен, але ви можете змінити цю поведінку
-за допомогою аргументу `flags`.
+Розширені атрибути мають два різні простори імен: користувальницьке та кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
 
 ### Список параметрів
 
 `filename`
+
 Файл, атрибут якого потрібно прочитати.
 
 `name`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 `flags`
-|                      |                                                                                 |
-| -------------------- | ------------------------------------------------------------------------------- |
-| **XATTR_DONTFOLLOW** | Чи не розіменовувати символічні посилання, працювати з самим посиланням.        |                                                                                 
-| **XATTR_ROOT**       | Встановити атрибут у кореневому просторі назв. Потрібні права суперкористувача. |
 
-**Підтримувані xattr-прапори**
+<table class="doctable table"><caption><strong>Підтримувані xattr-прапори</strong></caption><tbody class="tbody"><tr><td><strong><code>XATTR_DONTFOLLOW</code></strong></td><td>Не розіменовувати символічні посилання, працювати з самим посиланням.</td></tr><tr><td><strong><code>XATTR_ROOT</code></strong></td><td>Встановити атрибут у кореневому просторі імен. Потрібні права суперкористувача.</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-Функція повертає рядок, що містить значення **`false`**, якщо атрибут
-не існує.
+Функція повертає рядок, що містить значення \*\*`false`\*\*якщо атрибут не існує.
 
 ### Приклади
 
 **Приклад #1 Перевірити, чи підписано файл системним адміністратором**
 
-` <?php$file = '/usr/local/sbin/some_binary';$signature = xattr_get($file, 'Root signature', XATTR_ROOT);/* ... check if $signature is valid ?> `
+```php
+<?php
+$file = '/usr/local/sbin/some_binary';
+$signature = xattr_get($file, 'Root signature', XATTR_ROOT);
+
+/* ... check if $signature is valid ... */
+
+?>
+```
 
 ### Дивіться також
 
-- [xattr_list()](function.xattr-list.md) - Перегляд списку
-розширених атрибутів файлу
-- [xattr_set()](function.xattr-set.md) - Установка розширених
-атрибутів файлу
-- [xattr_remove()](function.xattr-remove.md) - Видалення розширених
-атрибутів файлу
+-   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу
+-   [xattrset()](function.xattr-set.md) - Встановлення розширених атрибутів файлу
+-   [xattrremove()](function.xattr-remove.md) - Видалення розширених атрибутів файлу

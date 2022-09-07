@@ -1,21 +1,24 @@
-- [«Table::insert](mysql-xdevapi-table.insert.md)
-- [Table::select »](mysql-xdevapi-table.select.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Table](class.mysql-xdevapi-table.md)
-- Перевірити, чи є таблиця уявленням
-
+---
+navigation:
+  - mysql-xdevapi-table.insert.md: '« Table::insert'
+  - mysql-xdevapi-table.select.md: 'Table::select »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+title: 'Table::isView'
+---
 # Table::isView
 
 (No version information available, might only be in Git)
 
-Table::isView — Перевірити, чи є таблиця уявленням
+Table::isView — Перевірити, чи є таблиця поданням
 
 ### Опис
 
-public **mysql_xdevapi\Table::isView**(): bool
+```methodsynopsis
+public mysql_xdevapi\Table::isView(): bool
+```
 
-Визначте, чи є базовий об'єкт уявленням чи ні.
+Визначте, чи є базовий об'єкт поданням чи ні.
 
 ### Список параметрів
 
@@ -23,15 +26,34 @@ public **mysql_xdevapi\Table::isView**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо базовий об'єкт є поданням, в протилежному
-випадку **`false`**.
+**`true`**, якщо базовий об'єкт є поданням, інакше **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Table::isView()****
+**Приклад #1 Приклад використання **mysqlxdevapiTable::isView()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 33)")->execute();$schema = $session->getSchema("addressbook");$table  ==$schema->getTable("names ");if ($table->isView()) {    echo "Це подання.";} else {    echo "Це не подання.";}?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+if ($table->isView()) {
+    echo "Это представление.";
+} else {
+    echo "Это не представление.";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(2)
+```

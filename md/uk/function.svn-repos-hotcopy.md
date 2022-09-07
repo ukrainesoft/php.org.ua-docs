@@ -1,35 +1,31 @@
-- [« svn_repos_fs](function.svn-repos-fs.md)
-- [svn_repos_open »](function.svn-repos-open.md)
+---
+navigation:
+  - function.svn-repos-fs.md: « svnreposфс
+  - function.svn-repos-open.md: svnreposopen »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnreposhotcopy
+---
+# svnreposhotcopy
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Створює свіжу копію репозиторію на адресу repospath і копіює в
-destpath
+(PECL svn> = 0.1.0)
 
-# svn_repos_hotcopy
-
-(PECL svn \>= 0.1.0)
-
-svn_repos_hotcopy — Створює свіжу копію репозиторію на адресу repospath
-і копіює в destpath
+svnreposhotcopy — Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
 
 ### Опис
 
-**svn_repos_hotcopy**(string `$repospath`, string `$destpath`, bool
-`$cleanlogs`): bool
+```methodsynopsis
+svn_repos_hotcopy(string $repospath, string $destpath, bool $cleanlogs): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Створює свіжу копію репозиторію на адресу `repospath` і копіює в
-`destpath`.
+Створює свіжу копію репозиторію на адресу `repospath` і копіює в `destpath`
 
 ### Примітки
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

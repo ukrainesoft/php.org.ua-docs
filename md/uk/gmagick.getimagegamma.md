@@ -1,19 +1,22 @@
-- [« Gmagick::getimageformat](gmagick.getimageformat.md)
-- [Gmagick::getimagegreenprimary »](gmagick.getimagegreenprimary.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає гаму зображення
-
+---
+navigation:
+  - gmagick.getimageformat.md: '« Gmagick::getimageformat'
+  - gmagick.getimagegreenprimary.md: 'Gmagick::getimagegreenprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagegamma'
+---
 # Gmagick::getimagegamma
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagegamma — Повертає гаму зображення
 
 ### Опис
 
-public **Gmagick::getimagegamma**(): float
+```methodsynopsis
+public Gmagick::getimagegamma(): float
+```
 
 Повертає гаму зображення
 

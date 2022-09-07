@@ -1,82 +1,123 @@
-- [« mysqli_result::getIterator](mysqli-result.getiterator.md)
-- [mysqli_result::$num_rows »](mysqli-result.num-rows.md)
+---
+navigation:
+  - mysqli-result.getiterator.md: '« mysqliresult::getIterator'
+  - mysqli-result.num-rows.md: 'mysqliresult::$numrows »'
+  - index.md: PHP Manual
+  - class.mysqli-result.md: mysqliresult
+title: 'mysqliresult::$lengths'
+---
+# mysqliresult::$lengths
 
-- [PHP Manual](index.md)
-- [mysqli_result](class.mysqli-result.md)
-- Повертає довжини полів поточного рядка результуючого набору
-
-# mysqli_result::$lengths
-
-# mysqli_fetch_lengths
+# mysqlifetchlengths
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_result::$lengths -- mysqli_fetch_lengths — Повертає довжини полів
-поточного рядка результуючого набору
+mysqliresult::$lengths -- mysqlifetchlengths — Повертає довжини полів поточного рядка результуючого набору
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-?array `$mysqli_result->lengths`;
+?array [$mysqliresult->lengths](mysqli-result.lengths.md)
 
 Процедурний стиль
 
-**mysqli_fetch_lengths**([mysqli_result](class.mysqli-result.md)
-`$result`): array\|false
+```methodsynopsis
+mysqli_fetch_lengths(mysqli_result $result): array|false
+```
 
-**mysqli_fetch_lengths()** повертає масив, елементи якого
-являють собою довжини кожного поля поточного рядка результуючого набору.
+**mysqlifetchlengths()** повертає масив, елементи якого являють собою довжини кожного поля поточного рядка результуючого набору.
 
 ### Список параметрів
 
 `result`
-Тільки для процедурного стилю: об'єкт
-[mysqli_result](class.mysqli-result.md), отриманий за допомогою
-[mysqli_query()](mysqli.query.md),
-[mysqli_store_result()](mysqli.store-result.md),
-[mysqli_use_result()](mysqli.use-result.md) або
-[mysqli_stmt_get_result()](mysqli-stmt.get-result.md).
+
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
-Масив цілих чисел, що становлять розміри значень стовпців (за винятком
-будь-які завершальні нуль-символи). **`false`** у разі виникнення
-помилки.
+Масив цілих чисел, що становлять розміри значень стовпців (за винятком будь-яких завершальних нуль-символів) . **`false`** у разі виникнення помилки.
 
-**mysqli_fetch_lengths()** відноситься лише до поточного рядка. Функція
-поверне **`false`**, якщо буде викликано до виклику
-mysqli_fetch_row/array/object або якщо в результуючому наборі більше
-немає рядків.
+**mysqlifetchlengths()** відноситься лише до поточного рядка. Функція поверне **`false`**, якщо буде викликано до виклику mysqlifetchrow/array/object або якщо в результуючому наборі немає рядків.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {   єд
-", mysqli_connect_error());   exit();}$query = "SELECT * from Country ORDER BY Code LIMIT 1";if ($result = $mysqli->query($query) fetch_row();    /* виведемо довжини полів */    foreach ($result->lengths as $i => $val) {       є printf("Д|
-", $i+1, $val);    }    $result->close();}/* закриваємо підключення */$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT * from Country ORDER BY Code LIMIT 1";
+
+if ($result = $mysqli->query($query)) {
+
+    $row = $result->fetch_row();
+
+    /* выведем длины полей */
+    foreach ($result->lengths as $i => $val) {
+        printf("Поле %2d имеет длину %2d\n", $i+1, $val);
+    }
+    $result->close();
+}
+
+/* закрываем подключение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error());   exit();}$query = "SELECT * from Country ORDER BY Code LIMIT 1";if ($result =) Mysqli_query($link, $$ ;   /* виведемо довжини полів */   foreach (mysqli_fetch_lengths($result) as $i => $val) {      дє
-", $i+1, $val);    }    mysqli_free_result($result);}/* закриваємо підключення */mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT * from Country ORDER BY Code LIMIT 1";
+
+if ($result = mysqli_query($link, $query)) {
+
+    $row = mysqli_fetch_row($result);
+
+    /* выведем длины полей */
+    foreach (mysqli_fetch_lengths($result) as $i => $val) {
+        printf("Поле %2d имеет длину %2d\n", $i+1, $val);
+    }
+    mysqli_free_result($result);
+}
+
+/* закрываем подключение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Поле 1 має довжину 3
-Поле 2 має довжину 5
-Поле 3 має довжину 13
-Поле 4 має довжину 9
-Поле 5 має довжину 6
-Поле має довжину 1
-Поле 7 має довжину 6
-Поле 8 має довжину 4
-Поле 9 має довжину 6
-Поле 10 має довжину 6
-Поле 11 має довжину 5
-Поле 12 має довжину 44
-Поле 13 має довжину 7
-Поле 14 має довжину 3
-Поле 15 має довжину 2
+```
+Поле  1 имеет длину  3
+Поле  2 имеет длину  5
+Поле  3 имеет длину 13
+Поле  4 имеет длину  9
+Поле  5 имеет длину  6
+Поле  6 имеет длину  1
+Поле  7 имеет длину  6
+Поле  8 имеет длину  4
+Поле  9 имеет длину  6
+Поле 10 имеет длину  6
+Поле 11 имеет длину  5
+Поле 12 имеет длину 44
+Поле 13 имеет длину  7
+Поле 14 имеет длину  3
+Поле 15 имеет длину  2
+```

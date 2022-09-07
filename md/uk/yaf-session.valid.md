@@ -1,24 +1,26 @@
-- [« Yaf_Session::\_\_unset](yaf-session.unset.md)
-- [Yaf_Exception »](class.yaf-exception.md)
+---
+navigation:
+  - yaf-session.unset.md: '« YafSession::unset'
+  - class.yaf-exception.md: YafException »
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::valid'
+---
+# YafSession::valid
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення valid
+(Yaf >=1.0.0)
 
-# Yaf_Session::valid
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::valid — Призначення valid
+YafSession::valid — Призначення valid
 
 ### Опис
 
-public **Yaf_Session::valid**(): void
+```methodsynopsis
+public Yaf_Session::valid(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

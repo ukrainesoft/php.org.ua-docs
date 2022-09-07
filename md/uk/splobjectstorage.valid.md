@@ -1,23 +1,24 @@
-- [« SplObjectStorage::unserialize](splobjectstorage.unserialize.md)
-- [Ітератори »](spl.iterators.md)
-
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Визначає, чи допустиме поточне значення ітератора
-
+---
+navigation:
+  - splobjectstorage.unserialize.md: '« SplObjectStorage::unserialize'
+  - spl.iterators.md: Ітератори »
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::valid'
+---
 # SplObjectStorage::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplObjectStorage::valid — Визначає, чи допустиме поточне значення
-ітератора
+SplObjectStorage::valid — Визначає, чи допустиме поточне значення ітератора
 
 ### Опис
 
-public **SplObjectStorage::valid**(): bool
+```methodsynopsis
+public SplObjectStorage::valid(): bool
+```
 
-Визначає, чи допустиме поточне значення ітератора, тобто чи можлива
-робота із цим об'єктом.
+Визначає, чи допустиме поточне значення ітератора, тобто чи можлива робота з цим об'єктом.
 
 ### Список параметрів
 
@@ -25,24 +26,38 @@ public **SplObjectStorage::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо поточний об'єкт допустимо і **`false`** в
-інакше.
+Повертає **`true`**, якщо поточний об'єкт допустимо і **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplObjectStorage::valid()****
 
-` <?php$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {   echo $s->key()."
-";   $s->next();}?> `
+```php
+<?php
+$s = new SplObjectStorage();
+
+$o1 = new StdClass;
+$o2 = new StdClass;
+
+$s->attach($o1, "d1");
+$s->attach($o2, "d2");
+
+$s->rewind();
+while($s->valid()) {
+    echo $s->key()."\n";
+    $s->next();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-    0
+```
+0
 1
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::current()](splobjectstorage.current.md) -
-Повертає поточний об'єкт
-- [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) -
-Повертає дані, пов'язані з поточним об'єктом
+-   [SplObjectStorage::current()](splobjectstorage.current.md) - Повертає поточний об'єкт
+-   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) - Повертає дані, що асоціюються з поточним об'єктом

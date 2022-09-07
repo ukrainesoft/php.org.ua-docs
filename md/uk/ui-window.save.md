@@ -1,19 +1,22 @@
-- [«UI\Window::open](ui-window.open.md)
-- [UI\Window::setBorders »](ui-window.setborders.md)
-
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Зберегти діалогове вікно
-
-# UI\Window::save
+---
+navigation:
+  - ui-window.open.md: '« UIWindow::open'
+  - ui-window.setborders.md: 'ОЙWindow::setBorders »'
+  - index.md: PHP Manual
+  - class.ui-window.md: ОЙWindow
+title: 'ОЙWindow::save'
+---
+# ОЙWindow::save
 
 (UI 0.9.9)
 
-UI\Window::save — Зберегти діалогове вікно
+ОЙWindow::save — Зберегти діалогове вікно
 
 ### Опис
 
-public **UI\Window::save**(): string
+```methodsynopsis
+public UI\Window::save(): string
+```
 
 Відкриє діалогове вікно збереження
 

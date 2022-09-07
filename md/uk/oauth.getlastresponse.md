@@ -1,19 +1,22 @@
-- [« OAuth::getCAPath](oauth.getcapath.md)
-- [OAuth::getLastResponseHeaders »](oauth.getlastresponseheaders.md)
-
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Отримати останню відповідь
-
+---
+navigation:
+  - oauth.getcapath.md: '« OAuth::getCAPath'
+  - oauth.getlastresponseheaders.md: 'OAuth::getLastResponseHeaders »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::getLastResponse'
+---
 # OAuth::getLastResponse
 
-(PECL OAuth = 0.99.1)
+(PECL OAuth >= 0.99.1)
 
 OAuth::getLastResponse — Отримати останню відповідь
 
 ### Опис
 
-public **OAuth::getLastResponse**(): string
+```methodsynopsis
+public OAuth::getLastResponse(): string
+```
 
 Повертає сире уявлення останньої отриманої відповіді.
 
@@ -23,10 +26,9 @@ public **OAuth::getLastResponse**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок із останньою відповіддю.
+Повертає рядок з останньою відповіддю.
 
 ### Дивіться також
 
-- [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) -
-Отримати HTTP-інформацію про останню відповідь
-- [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth

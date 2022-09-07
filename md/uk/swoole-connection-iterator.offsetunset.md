@@ -1,25 +1,29 @@
-- [« Swoole\Connection\Iterator::offsetSet](swoole-connection-iterator.offsetset.md)
-- [Swoole\Connection\Iterator::rewind »](swoole-connection-iterator.rewind.md)
+---
+navigation:
+  - swoole-connection-iterator.offsetset.md: '« SwooleConnectionIterator::offsetSet'
+  - swoole-connection-iterator.rewind.md: 'SwooleConnectionIterator::rewind »'
+  - index.md: PHP Manual
+  - class.swoole-connection-iterator.md: SwooleConnectionIterator
+title: 'SwooleConnectionIterator::offsetUnset'
+---
+# SwooleConnectionIterator::offsetUnset
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- скидає зміщення
+(PECL swoole >= 1.9.0)
 
-# Swoole\Connection\Iterator::offsetUnset
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Connection\Iterator::offsetUnset - Скидає зсув
+SwooleConnectionIterator::offsetUnset - Скидає зсув
 
 ### Опис
 
-public **Swoole\Connection\Iterator::offsetUnset**(int `$offset`): void
+```methodsynopsis
+public Swoole\Connection\Iterator::offsetUnset(int $offset): void
+```
 
 Скидає зміщення.
 
 ### Список параметрів
 
 `offset`
+
 Зміщення для скидання.
 
 ### Значення, що повертаються

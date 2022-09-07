@@ -1,28 +1,30 @@
-- [«trader_sarext](function.trader-sarext.md)
-- [trader_set_unstable_period »](function.trader-set-unstable-period.md)
+---
+navigation:
+  - function.trader-sarext.md: « tradersarext
+  - function.trader-set-unstable-period.md: tradersetunstableperiod »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersetcompat
+---
+# tradersetcompat
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Встановлює режим сумісності
+(PECL trader >= 0.2.2)
 
-# trader_set_compat
-
-(PECL trader \>= 0.2.2)
-
-trader_set_compat — Встановлює режим сумісності
+tradersetcompat — Встановлює режим сумісності
 
 ### Опис
 
-**trader_set_compat**(int `$compatId`): void
+```methodsynopsis
+trader_set_compat(int $compatId): void
+```
 
-Встановлює режим сумісності, який впливає на спосіб виконання
-обчислень усіма функціями модуля.
+Встановлює режим сумісності, який впливає на спосіб виконання обчислень усіма функціями модуля.
 
 ### Список параметрів
 
 `compatId`
-Ідентифікатор сумісності. Використовується серія констант
-[TRADER_COMPATIBILITY\_\*](trader.constants.md).
+
+Ідентифікатор сумісності. Використовується серія констант [TRADERCOMPATIBILITY](trader.constants.md)
 
 ### Значення, що повертаються
 

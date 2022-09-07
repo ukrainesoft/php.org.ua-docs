@@ -1,22 +1,24 @@
-- [« ReflectionExtension::getVersion](reflectionextension.getversion.md)
-- [ReflectionExtension::isPersistent »](reflectionextension.ispersistent.md)
-
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Виведення інформації про модуль
-
+---
+navigation:
+  - reflectionextension.getversion.md: '« ReflectionExtension::getVersion'
+  - reflectionextension.ispersistent.md: 'ReflectionExtension::isPersistent »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::info'
+---
 # ReflectionExtension::info
 
-(PHP 5 \>= 5.2.4, PHP 7, PHP 8)
+(PHP 5> = 5.2.4, PHP 7, PHP 8)
 
 ReflectionExtension::info — Виведення інформації про модуль
 
 ### Опис
 
-public **ReflectionExtension::info**(): void
+```methodsynopsis
+public ReflectionExtension::info(): void
+```
 
-Виводить фрагмент "[phpinfo()](function.phpinfo.md)" для зазначеного
-модуля.
+Виводить фрагмент "[phpinfo()](function.phpinfo.md)для зазначеного модуля.
 
 ### Список параметрів
 
@@ -30,10 +32,16 @@ public **ReflectionExtension::info**(): void
 
 **Приклад #1 Приклад використання **ReflectionExtension::info()****
 
-` <?php$ext = new ReflectionExtension('mysqli');$ext->info();?> `
+```php
+<?php
+$ext = new ReflectionExtension('mysqli');
+$ext->info();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 mysqli
 
 MysqlI Support => enabled
@@ -62,10 +70,9 @@ mysqli.default_socket => no value => no value
 mysqli.reconnect => Off => Off
 mysqli.allow_local_infile => On => On
 mysqli.cache_size => 2000 => 2000
+```
 
 ### Дивіться також
 
-- [ReflectionExtension::getName()](reflectionextension.getname.md) -
-Отримання імені модуля
-- [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну
-конфігурації PHP
+-   [ReflectionExtension::getName()](reflectionextension.getname.md) - Отримання імені модуля
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP

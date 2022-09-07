@@ -1,19 +1,22 @@
-- [«OCICollection::max](ocicollection.max.md)
-- [OCICollection::trim »](ocicollection.trim.md)
-
-- [PHP Manual](index.md)
-- [OCICollection](class.ocicollection.md)
-- Повертає кількість елементів у колекції
-
+---
+navigation:
+  - ocicollection.max.md: '« OCICollection::max'
+  - ocicollection.trim.md: 'OCICollection::trim »'
+  - index.md: PHP Manual
+  - class.ocicollection.md: OCICollection
+title: 'OCICollection::size'
+---
 # OCICollection::size
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
 OCICollection::size — Повертає кількість елементів у колекції
 
 ### Опис
 
-public **OCICollection::size**(): int\|false
+```methodsynopsis
+public OCICollection::size(): int|false
+```
 
 Повертає кількість елементів у колекції.
 
@@ -23,15 +26,14 @@ public **OCICollection::size**(): int\|false
 
 ### Значення, що повертаються
 
-Повертає кількість елементів у колекції або **`false`** у разі
-виникнення помилки.
+Повертає кількість елементів у колекції або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                                       |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCICollection::max](ocicollection.max.md)
+-   [OCICollection::max](ocicollection.max.md)

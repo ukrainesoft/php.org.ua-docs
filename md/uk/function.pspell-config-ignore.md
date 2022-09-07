@@ -1,46 +1,54 @@
-- [« pspell_config_dict_dir](function.pspell-config-dict-dir.md)
-- [pspell_config_mode »](function.pspell-config-mode.md)
+---
+navigation:
+  - function.pspell-config-dict-dir.md: « pspellconfigdictdir
+  - function.pspell-config-mode.md: pspellconfigmode »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellconfigignore
+---
+# pspellconfigignore
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Ігнорує слова довжиною менше N символів
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-#pspell_config_ignore
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
-
-pspell_config_ignore — Ігнорує слова довжиною менше N символів
+pspellconfigignore — Ігнорує слова довжиною менше N символів
 
 ### Опис
 
-**pspell_config_ignore**([PSpell\Config](class.pspell-config.md)
-`$config`, int `$min_length`): bool
+```methodsynopsis
+pspell_config_ignore(PSpell\Config $config, int $min_length): bool
+```
 
-**pspell_config_ignore()** має бути використана для конфігурації до
-виклику [pspell_new_config()](function.pspell-new-config.md). Ця
-функція дозволяє пропускати короткі слова під час перевірки орфографії.
+**pspellconfigignore()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md). Ця функція дозволяє пропускати короткі слова під час перевірки орфографії.
 
 ### Список параметрів
 
 `config`
-Примірник [PSpell\Config](class.pspell-config.md).
+
+Екземпляр [PSpellConfig](class.pspell-config.md)
 
 `min_length`
-Слова довжиною менше 'min_length' символів будуть пропущені.
+
+Слова довжиною менше `min_length` символів буде пропущено.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_config_ignore()****
+**Приклад #1 Приклад використання **pspellconfigignore()****
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_ignore($pspell_config, 5);$pspell = pspell_new_config($pspell_config);pspell_check($pspell, "abcd") //Повідомлення про помилку не буде згенеровано?
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_ignore($pspell_config, 5);
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "abcd");    //Сообщение об ошибке не будет сгенерировано
+?>
+```

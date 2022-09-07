@@ -1,20 +1,22 @@
-- [« Yaf_Registry::del](yaf-registry.del.md)
-- [Yaf_Registry::has »](yaf-registry.has.md)
+---
+navigation:
+  - yaf-registry.del.md: '« YafRegistry::del'
+  - yaf-registry.has.md: 'YafRegistry::has »'
+  - index.md: PHP Manual
+  - class.yaf-registry.md: YafRegistry
+title: 'YafRegistry::get'
+---
+# YafRegistry::get
 
-- [PHP Manual](index.md)
-- [Yaf_Registry](class.yaf-registry.md)
-- Отримує елемент із реєстру
+(Yaf >=1.0.0)
 
-# Yaf_Registry::get
-
-(Yaf \>=1.0.0)
-
-Yaf_Registry::get — Отримує елемент із реєстру
+YafRegistry::get — Отримує елемент із реєстру
 
 ### Опис
 
-public static **Yaf_Registry::get**(string `$name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public static Yaf_Registry::get(string $name): mixed
+```
 
 Отримує елемент із реєстру
 

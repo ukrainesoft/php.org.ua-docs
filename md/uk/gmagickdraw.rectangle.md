@@ -1,42 +1,43 @@
-- [« GmagickDraw::polyline](gmagickdraw.polyline.md)
-- [GmagickDraw::rotate »](gmagickdraw.rotate.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Малює прямокутник
-
+---
+navigation:
+  - gmagickdraw.polyline.md: '« GmagickDraw::polyline'
+  - gmagickdraw.rotate.md: 'GmagickDraw::rotate »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::rectangle'
+---
 # GmagickDraw::rectangle
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::rectangle — Малює прямокутник
+GmagickDraw::rectangle — Малює прямокутник.
 
 ### Опис
 
-public **GmagickDraw::rectangle**(
-float `$x1`,
-float `$y1`,
-float `$x2`,
-float `$y2`
-): [GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
+```
 
-Малює прямокутник за двома координатами з використанням поточних
-параметрів обведення, ширини обведення та заливки.
+Малює прямокутник по двох координатах за допомогою поточних параметрів обведення, ширини обведення та заливки.
 
 ### Список параметрів
 
 `x1`
+
 Перша координата x.
 
 `y1`
+
 Перша координата y.
 
 `x2`
+
 Друга координата x.
 
 `y2`
+
 Друга координата y.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.md)

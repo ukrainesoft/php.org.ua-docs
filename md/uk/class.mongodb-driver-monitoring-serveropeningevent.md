@@ -1,44 +1,44 @@
-- [« MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost »](mongodb-driver-monitoring-serveropeningevent.gethost.md)
+---
+navigation:
+  - mongodb-driver-monitoring-serverclosedevent.gettopologyid.md: '« MongoDBDriverMonitoringServerClosedEvent::getTopologyId'
+  - mongodb-driver-monitoring-serveropeningevent.gethost.md: 'MongoDBDriverMonitoringServerOpeningEvent::getHost »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringServerOpeningEvent
+---
+# Клас MongoDBDriverMonitoringServerOpeningEvent
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Клас MongoDB\Driver\Monitoring\ServerOpeningEvent
-
-# Клас MongoDB\Driver\Monitoring\ServerOpeningEvent
-
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDB\Driver\Monitoring\ServerOpeningEvent** інкапсулює
-інформацію про відкритий сервер.
+Клас **MongoDBDriverMonitoringServerOpeningEvent** інкапсулює інформацію про відкритий сервер.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Monitoring\ServerOpeningEvent** {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[getHost](mongodb-driver-monitoring-serveropeningevent.gethost.md)():
-string
+    
+    
+     final
+     
+      class MongoDB\Driver\Monitoring\ServerOpeningEvent
+     
+     {
+    
 
-final public
-[getPort](mongodb-driver-monitoring-serveropeningevent.getport.md)():
-int
+    /* Методы */
+    
+   final public getHost(): string
+final public getPort(): int
+final public getTopologyId(): MongoDB\BSON\ObjectId
 
-final public
-[getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.md)():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost](mongodb-driver-monitoring-serveropeningevent.gethost.md)
-— Повертає ім'я сервера.
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent::getPort](mongodb-driver-monitoring-serveropeningevent.getport.md)
-— Повертає порт, на якому прослуховується сервер
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.md)
-— Returns the topology ID associated with this server
+-   [MongoDBDriverMonitoringServerOpeningEvent::getHost](mongodb-driver-monitoring-serveropeningevent.gethost.md) — Повертає ім'я сервера.
+-   [MongoDBDriverMonitoringServerOpeningEvent::getPort](mongodb-driver-monitoring-serveropeningevent.getport.md) — Повертає порт, на якому прослуховується сервер
+-   [MongoDBDriverMonitoringServerOpeningEvent::getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.md) — Returns the topology ID associated with this server

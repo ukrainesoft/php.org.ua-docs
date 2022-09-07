@@ -1,20 +1,22 @@
-- [« Swoole\Http\Client::setMethod](swoole-http-client.setmethod.md)
-- [Swoole\Http\Request »](class.swoole-http-request.md)
+---
+navigation:
+  - swoole-http-client.setmethod.md: '« SwooleHttpClient::setMethod'
+  - class.swoole-http-request.md: SwooleHttpRequest »
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::upgrade'
+---
+# SwooleHttpClient::upgrade
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Оновлення до протоколу websocket
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::upgrade
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::upgrade — Оновлення до протоколу websocket
+SwooleHttpClient::upgrade — Оновлення до протоколу websocket
 
 ### Опис
 
-public **Swoole\Http\Client::upgrade**(string `$path`, string
-`$callback`): void
+```methodsynopsis
+public Swoole\Http\Client::upgrade(string $path, string $callback): void
+```
 
 ### Список параметрів
 

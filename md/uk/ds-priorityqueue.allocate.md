@@ -1,37 +1,38 @@
-- [« Черга з пріоритетом](class.ds-priorityqueue.md)
-- [Ds\PriorityQueue::capacity »](ds-priorityqueue.capacity.md)
+---
+navigation:
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+  - ds-priorityqueue.capacity.md: 'ДсPriorityQueue::capacity »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::allocate'
+---
+# ДсPriorityQueue::allocate
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Виділяє пам'ять під зазначену місткість
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::allocate
-
-(PECL ds \>= 1.0.0)
-
-Ds\PriorityQueue::allocate — Виділяє пам'ять під зазначену місткість
+ДсPriorityQueue::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
-public **Ds\PriorityQueue::allocate**(int `$capacity`): void
+```methodsynopsis
+public Ds\PriorityQueue::allocate(int $capacity): void
+```
 
-Гарантує, що виділено достатньо пам'яті під задану місткість
-(кількість значень). Дозволяє уникнути динамічного
-перерозподіл пам'яті при додаванні значень.
+Гарантує, що виділено достатньо пам'яті під задану місткість (кількість значень). Дозволяє уникнути динамічного перерозподілу пам'яті під час додавання значень.
 
 ### Список параметрів
 
 `capacity`
+
 Місткість. Очікувана кількість значень.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Якщо нове значення місткості менше поточного, воно не зміниться.
 
-> **Примітка**:
->
-> Значення місткості округляється до найближчого ступеня двійки
-> (тобто 8, 16, 32, 64, 128 і т.д.)
+> **Зауваження**
+> 
+> Значення місткості округляється до найближчого ступеня двійки (тобто 8, 16, 32, 64, 128 і т.д.)
 
 ### Значення, що повертаються
 
@@ -39,11 +40,21 @@ public **Ds\PriorityQueue::allocate**(int `$capacity`): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::allocate()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::allocate()****
 
-` <?php$queue = new \Ds\PriorityQueue();var_dump($queue->capacity());$queue->allocate(100);var_dump($queue->capacity());?> `
+```php
+<?php
+$queue = new \Ds\PriorityQueue();
+var_dump($queue->capacity());
+
+$queue->allocate(100);
+var_dump($queue->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(8)
 int(128)
+```

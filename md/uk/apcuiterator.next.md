@@ -1,21 +1,24 @@
-- [«APCUIterator::key](apcuiterator.key.md)
-- [APCUIterator::rewind »](apcuiterator.rewind.md)
-
-- [PHP Manual](index.md)
-- [APCUIterator](class.apcuiterator.md)
-- Переміщує покажчик на наступний елемент
-
+---
+navigation:
+  - apcuiterator.key.md: '« APCUIterator::key'
+  - apcuiterator.rewind.md: 'APCUIterator::rewind »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::next'
+---
 # APCUIterator::next
 
-(PECL apcu \>= 5.0.0)
+(PECL apcu >= 5.0.0)
 
 APCUIterator::next — Переміщує курсор на наступний елемент
 
 ### Опис
 
-public **APCUIterator::next**(): bool
+```methodsynopsis
+public APCUIterator::next(): bool
+```
 
-Переміщує вказівник на наступний елемент.
+Переміщує курсор на наступний елемент.
 
 ### Список параметрів
 
@@ -23,14 +26,10 @@ public **APCUIterator::next**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [APCUIterator::current()](apcuiterator.current.md) - Отримати
-поточний елемент
-- [APCUIterator::rewind()](apcuiterator.rewind.md) - Перемотування
-ітератора
-- [Iterator::next()](iterator.next.md) - Переходить до наступного
-елементу
+-   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
+-   [APCUIterator::rewind()](apcuiterator.rewind.md) - Перемотування ітератора
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу

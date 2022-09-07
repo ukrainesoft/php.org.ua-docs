@@ -1,64 +1,72 @@
-- [« pg_result_error](function.pg-result-error.md)
-- [pg_result_status »](function.pg-result-status.md)
+---
+navigation:
+  - function.pg-result-error.md: « pgresulterror
+  - function.pg-result-status.md: пгresultstatus »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгresultseek
+---
+# пгresultseek
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Зміщує покажчик на рядок вибірки в екземплярі результату запиту
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#pg_result_seek
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-pg_result_seek — Зміщує покажчик на рядок вибірки в екземплярі
-результату запиту
+пгresultseek — Зміщує вказівник на рядок вибірки в екземплярі результату запиту
 
 ### Опис
 
-**pg_result_seek**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$row`): bool
+```methodsynopsis
+pg_result_seek(PgSql\Result $result, int $row): bool
+```
 
-**pg_result_seek()** встановлює зміщення внутрішнього покажчика в
-екземплярі `result`.
+**пгresultseek()** встановлює зміщення внутрішнього покажчика в екземплярі `result`
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
-Кількість рядків, на які потрібно змістити внутрішній покажчик
-ресурсу [PgSql\Result](class.pgsql-result.md). Рядки нумеруються з
-нуля.
+
+Кількість рядків, на які потрібно змістити внутрішній покажчик ресурсу [PgSqlResult](class.pgsql-result.md). Рядки нумеруються з нуля.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_result_seek()****
+**Приклад #1 Приклад використання **пгresultseek()****
 
-` <?php// Підключення к базі даних$conn = pg_pconnect("dbname=publisher"); рядок// (допускаємо, в в результаті є хоч би три рядки)pg_result_seek($result, 2);// Вибираємо третій рядок з результату$row = pg_fetch;
+```php
+<?php
+
+// Подключение к базе данных
+$conn = pg_pconnect("dbname=publisher");
+
+// Выполнение запроса
+$result = pg_query($conn, "SELECT author, email FROM authors");
+
+// Перемещаемся сразу на третью строку
+// (допускаем, что в результате есть хотя бы три строки)
+pg_result_seek($result, 2);
+
+// Выбираем третью строку из результата
+$row = pg_fetch_row($result);
+
+?>
+```
 
 ### Дивіться також
 
-- [pg_fetch_row()](function.pg-fetch-row.md) - Вибирає рядок
-результату запиту та поміщає дані в масив
-- [pg_fetch_assoc()](function.pg-fetch-assoc.md) - Вибирає рядок
-результату запиту та поміщає дані в асоціативний масив
-- [pg_fetch_array()](function.pg-fetch-array.md) - Повертає рядок
-результату у вигляді масиву
-- [pg_fetch_object()](function.pg-fetch-object.md) - Вибирає рядок
-результату запиту та повертає дані у вигляді об'єкта
-- [pg_fetch_result()](function.pg-fetch-result.md) - Повертає
-запис з результату запиту
+-   [пгfetchrow()](function.pg-fetch-row.md) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [пгfetchassoc()](function.pg-fetch-assoc.md) - Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
+-   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву
+-   [пгfetchobject()](function.pg-fetch-object.md) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгfetchresult()](function.pg-fetch-result.md) - Повертає запис із результату запиту

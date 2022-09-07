@@ -1,24 +1,24 @@
-- [« Swoole\Server::sendwait](swoole-server.sendwait.md)
-- [Swoole\Server::shutdown »](swoole-server.shutdown.md)
+---
+navigation:
+  - swoole-server.sendwait.md: '« SwooleServer::sendwait'
+  - swoole-server.shutdown.md: 'SwooleServer::shutdown »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::set'
+---
+# SwooleServer::set
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Встановлює налаштування часу виконання сервера swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::set
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::set — Встановлює налаштування часу виконання сервера
-swoole
+SwooleServer::set — Встановлює налаштування часу виконання сервера swoole
 
 ### Опис
 
-public **Swoole\Server::set**(array `$settings`): ReturnType
+```methodsynopsis
+public Swoole\Server::set(array $settings): ReturnType
+```
 
-Встановлює налаштування часу виконання сервера swoole. Доступ до
-налаштувань можна отримати за допомогою $server-\>setting після запуску
-сервера swoole.
+Встановлює налаштування часу виконання сервера swoole. Доступ до налаштувань можна отримати за допомогою $server->setting після запуску сервера swoole.
 
 ### Список параметрів
 

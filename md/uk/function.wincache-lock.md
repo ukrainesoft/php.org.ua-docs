@@ -1,77 +1,69 @@
-- [«wincache_fcache_meminfo](function.wincache-fcache-meminfo.md)
-- [wincache_ocache_fileinfo »](function.wincache-ocache-fileinfo.md)
+---
+navigation:
+  - function.wincache-fcache-meminfo.md: « wincachefcachememinfo
+  - function.wincache-ocache-fileinfo.md: wincacheocachefileinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincachelock
+---
+# wincachelock
 
-- [PHP Manual](index.md)
-- [Функції WinCache](ref.wincache.md)
-- Отримує ексклюзивне блокування для цього ключа
+(PECL wincache >= 1.1.0)
 
-#wincache_lock
-
-(PECL wincache \>= 1.1.0)
-
-wincache_lock — Отримує ексклюзивне блокування для цього ключа
+wincachelock — Отримує ексклюзивне блокування для цього ключа
 
 ### Опис
 
-**wincache_lock**(string `$key`, bool `$isglobal` = **`false`**): bool
+```methodsynopsis
+wincache_lock(string $key, bool $isglobal = false): bool
+```
 
-Отримує ексклюзивне блокування для цього ключа. Виконання поточного
-скрипта буде заблоковано доти, доки блокування не буде
-отримано. Після отримання блокування інші сценарії, які намагаються
-запитувати блокування за допомогою того ж ключа, будуть заблоковані до тих
-доки поточний скрипт не зніме блокування за допомогою
-[wincache_unlock()](function.wincache-unlock.md).
+Отримує ексклюзивне блокування для цього ключа. Виконання поточного скрипту буде заблоковано, доки блокування не буде отримано. Після отримання блокування інші сценарії, які намагаються запросити блокування за допомогою того ж ключа, будуть заблоковані доти, доки поточний скрипт не зніме блокування за допомогою [wincacheunlock()](function.wincache-unlock.md)
 
 **Увага**
 
-Використання **wincache_lock()** та
-[wincache_unlock()](function.wincache-unlock.md) може викликати
-взаємне блокування при виконанні скриптів PHP у багатопроцесорній
-середовище, таке як FastCGI. Не використовуйте ці функції, якщо ви не
-впевнені, що це вам потрібно. Для більшості операцій з користувальницьким
-кешем ці функції використовувати необов'язково.
+Використання **wincachelock()** і [wincacheunlock()](function.wincache-unlock.md) може викликати взаємне блокування при виконанні скриптів PHP у багатопроцесорному середовищі, такому як FastCGI. Не використовуйте ці функції, якщо ви не впевнені, що це потрібно. Для більшості операцій з кешем користувача ці функції використовувати не обов'язково.
 
 ### Список параметрів
 
 `key`
-Ім'я ключа в кеші для блокування.
+
+Ім'я ключа в кеші, щоб увімкнути блокування.
 
 `isglobal`
-Визначає, чи область блокування загальносистемної або локальної.
-Локальні блокування відносяться до пулу програм у випадку IIS FastCGI
-або до всіх процесів PHP, які мають один і той самий ідентифікатор
-батьківського процесу.
+
+Визначає, чи область блокування загальносистемної чи локальної. Локальні блокування відносяться до пулу додатків у випадку IIS FastCGI або всіх процесів PHP, які мають один і той же ідентифікатор батьківського процесу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **wincache_lock()****
+**Приклад #1 Приклад використання **wincachelock()****
 
-` <?php$fp = fopen("/tmp/lock.txt", "r+");if (wincache_lock(“lock_txt_lock”)) { // отримати ексклюзивне блокування    ftruncate($fp, 0 // обрізати файл    fwrite($fp, "Напишіть що-небудь тут
-");   wincache_unlock(“lock_txt_lock”); // зняти блокування} else {    echo "Не удалося отримати блокування!";}fclose($fp);?> `
+```php
+<?php
+$fp = fopen("/tmp/lock.txt", "r+");
+if (wincache_lock(“lock_txt_lock”)) { // получить эксклюзивную блокировку
+    ftruncate($fp, 0); // обрезать файл
+    fwrite($fp, "Напишите что-нибудь здесь\n");
+    wincache_unlock(“lock_txt_lock”); // снять блокировку
+} else {
+    echo "Не удалось получить блокировку!";
+}
+fclose($fp);
+?>
+```
 
 ### Дивіться також
 
-- [wincache_unlock()](function.wincache-unlock.md) - Знімає
-ексклюзивне блокування даного ключа
-- [wincache_ucache_set()](function.wincache-ucache-set.md) -
-Додає змінну в кеш користувача і перезаписує
-змінну, якщо вона вже існує у кеші
-- [wincache_ucache_get()](function.wincache-ucache-get.md) -
-Отримує змінну, що зберігається в кеші користувача
-- [wincache_ucache_delete()](function.wincache-ucache-delete.md) -
-Видаляє змінні з кешу користувача.
-- [wincache_ucache_clear()](function.wincache-ucache-clear.md) -
-Видаляє весь вміст кешу користувача.
-- [wincache_ucache_exists()](function.wincache-ucache-exists.md) -
-Перевіряє, чи існує змінна в кеші користувача
-- [wincache_ucache_meminfo()](function.wincache-ucache-meminfo.md) -
-Отримує інформацію про використання пам'яті кешу користувача
-- [wincache_ucache_info()](function.wincache-ucache-info.md) -
-Отримує інформацію про дані, що зберігаються в кеші користувача
-- [wincache_scache_info()](function.wincache-scache-info.md) -
-Отримує інформацію про файли, закешовані в кеші сесії
+-   [wincacheunlock()](function.wincache-unlock.md) - Знімає ексклюзивне блокування цього ключа
+-   [wincacheucacheset()](function.wincache-ucache-set.md) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincacheucacheget()](function.wincache-ucache-get.md) - Отримує змінну, що зберігається в користувальницькому кеші
+-   [wincacheucachedelete()](function.wincache-ucache-delete.md) - Видаляє змінні з користувальницького кешу
+-   [wincacheucacheclear()](function.wincache-ucache-clear.md) - Видаляє весь вміст кешу користувача.
+-   [wincacheucacheexists()](function.wincache-ucache-exists.md) - Перевіряє, чи існує змінна в кеші користувача
+-   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wincachescacheinfo()](function.wincache-scache-info.md) - Отримує інформацію про файли, закешовані в кеші сесії

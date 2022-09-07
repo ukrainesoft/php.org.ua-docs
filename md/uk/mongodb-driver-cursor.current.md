@@ -1,19 +1,22 @@
-- [« MongoDB\Driver\Cursor::\_\_construct](mongodb-driver-cursor.construct.md)
-- [MongoDB\Driver\Cursor::getId »](mongodb-driver-cursor.getid.md)
+---
+navigation:
+  - mongodb-driver-cursor.construct.md: '« MongoDBDriverCursor::construct'
+  - mongodb-driver-cursor.getid.md: 'MongoDBDriverCursor::getId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::current'
+---
+# MongoDBDriverCursor::current
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- Повертає поточний елемент
+(mongodb >=1.9.0)
 
-# MongoDB\Driver\Cursor::current
-
-(mongodb \>=1.9.0)
-
-MongoDB\Driver\Cursor::current — Повертає поточний елемент
+MongoDBDriverCursor::current — Повертає поточний елемент
 
 ### Опис
 
-public **MongoDB\Driver\Cursor::current**(): array\|object
+```methodsynopsis
+public MongoDB\Driver\Cursor::current(): array|object|null
+```
 
 ### Список параметрів
 
@@ -21,11 +24,8 @@ public **MongoDB\Driver\Cursor::current**(): array\|object
 
 ### Значення, що повертаються
 
-Повертає поточний документ у вигляді масиву або об'єкта, залежно від
-налаштувань курсору. Якщо ітерація не була розпочата, або поточна позиція не
-коректна, буде повернено **`null`**.
+Повертає поточний документ у вигляді масиву або об'єкта залежно від налаштувань курсору. Якщо ітерація не була розпочата, або поточна позиція не коректна, буде повернено **`null`**
 
 ### Дивіться також
 
-- [Iterator::current()](iterator.current.md) - Повернення поточного
-елемента
+-   [Iterator::current()](iterator.current.md) - Повернення поточного елемента

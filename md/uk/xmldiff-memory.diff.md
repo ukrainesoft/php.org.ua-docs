@@ -1,32 +1,35 @@
-- [« XMLDiff\Memory](class.xmldiff-memory.md)
-- [XMLDiff\Memory::merge »](xmldiff-memory.merge.md)
+---
+navigation:
+  - class.xmldiff-memory.md: « XMLDiffMemory
+  - xmldiff-memory.merge.md: 'XMLDiffMemory::merge »'
+  - index.md: PHP Manual
+  - class.xmldiff-memory.md: XMLDiffMemory
+title: 'XMLDiffMemory::diff'
+---
+# XMLDiffMemory::diff
 
-- [PHP Manual](index.md)
-- [XMLDiff\Memory](class.xmldiff-memory.md)
-- Порівняння двох документів XML
+(PECL xmldiff >= 0.8.0)
 
-# XMLDiff\Memory::diff
-
-(PECL xmldiff \>= 0.8.0)
-
-XMLDiff\Memory::diff — Порівняння двох документів XML
+XMLDiffMemory::diff — Порівняння двох документів XML
 
 ### Опис
 
-public **XMLDiff\Memory::diff**(string `$from`, string `$to`): string
+```methodsynopsis
+public XMLDiff\Memory::diff(string $from, string $to): string
+```
 
-Порівнює два рядки з XML і повертає рядок з інформацією про
-розходження.
+Порівнює два рядки з XML та повертає рядок з інформацією про відмінності.
 
 ### Список параметрів
 
 `from`
+
 XML-документ джерело.
 
 `to`
+
 Цільовий документ XML.
 
 ### Значення, що повертаються
 
-Рядок з XML-документом, що містить інформацію про відмінності, або
-**`null`**.
+Рядок з XML-документом, що містить інформацію про відмінності, або **`null`**

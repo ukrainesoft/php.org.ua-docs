@@ -1,10 +1,11 @@
-- [« Imagick::getImageRedPrimary](imagick.getimageredprimary.md)
-- [Imagick::getImageRenderingIntent »](imagick.getimagerenderingintent.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Виймає область зображення
-
+---
+navigation:
+  - imagick.getimageredprimary.md: '« Imagick::getImageRedPrimary'
+  - imagick.getimagerenderingintent.md: 'Imagick::getImageRenderingIntent »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageRegion'
+---
 # Imagick::getImageRegion
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,29 +14,29 @@ Imagick::getImageRegion — Витягує область зображення
 
 ### Опис
 
-public **Imagick::getImageRegion**(
-int `$width`,
-int `$height`,
-int `$x`,
-int `$y`
-): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
+```
 
-Виймає область зображення та повертає її у вигляді нового об'єкта
-Imagick.
+Витягує область зображення та повертає її у вигляді нового об'єкта Imagick.
 
 ### Список параметрів
 
 `width`
-Ширина витягнутої області.
+
+Ширина вилученої області.
 
 `height`
+
 Висота витягнутої області.
 
 `x`
+
 Координата X лівого верхнього кута одержаної області.
 
 `y`
-Координата Y лівого верхнього кута витягнутої області.
+
+Координата Y лівого верхнього кута одержаної області.
 
 ### Значення, що повертаються
 

@@ -1,19 +1,22 @@
-- [« Generator::next](generator.next.md)
-- [Generator::send »](generator.send.md)
-
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Перемотати ітератор
-
+---
+navigation:
+  - generator.next.md: '« Generator::next'
+  - generator.send.md: 'Generator::send »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
+title: 'Generator::rewind'
+---
 # Generator::rewind
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-Generator::rewind — Перемотати ітератор
+Generator::rewind - Перемотати ітератор
 
 ### Опис
 
-public **Generator::rewind**(): void
+```methodsynopsis
+public Generator::rewind(): void
+```
 
 Якщо ітерацію вже розпочато, то викидає виняток.
 

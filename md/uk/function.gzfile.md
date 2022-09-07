@@ -1,10 +1,11 @@
-- [«gzeof](function.gzeof.md)
-- [gzgetc »](function.gzgetc.md)
-
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Зчитує весь gz-файл у масив
-
+---
+navigation:
+  - function.gzeof.md: « gzeof
+  - function.gzgetc.md: gzgetc »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzfile
+---
 # gzfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,36 +14,40 @@ gzfile — Зчитує весь gz-файл у масив
 
 ### Опис
 
-**gzfile**(string `$filename`, int `$use_include_path` = 0):
-array\|false
+```methodsynopsis
+gzfile(string $filename, int $use_include_path = 0): array|false
+```
 
-Аналогічна [readgzfile()](function.readgzfile.md), за винятком
-те, що вона повертає файл у масиві.
+Аналогічна [readgzfile()](function.readgzfile.md), За винятком того, що вона повертає файл у масиві.
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу.
 
 `use_include_path`
-Якщо ви хочете, щоб також перевірялася наявність файлу в каталогах
-[include_path](ini.core.md#ini.include-path), встановіть значення
-цього параметра в `1`.
+
+Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [includepath](ini.core.md#ini.include-path), встановіть значення цього параметра в `1`
 
 ### Значення, що повертаються
 
-Масив рядків файлу, у кожному елементі масиву знаходиться один рядок,
-порожні рядки включаються, а переноси рядків, як і раніше, додаються або
-**`false`** у разі виникнення помилки.
+Масив рядків файлу, у кожному елементі масиву знаходиться один рядок, порожні рядки включаються, а перенесення рядків, як і раніше, додаються або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **gzfile()****
 
-` <?php$lines = gzfile('somefile.gz');foreach ($lines as $line) {    echo $line;}?> `
+```php
+<?php
+$lines = gzfile('somefile.gz');
+foreach ($lines as $line) {
+    echo $line;
+}
+?>
+```
 
 ### Дивіться також
 
-- [readgzfile()](function.readgzfile.md) - Виводить вміст
-gz-файлу
-- [gzopen()](function.gzopen.md) - Відкрити файл gz-файл
+-   [readgzfile()](function.readgzfile.md) - Виводить вміст gz-файлу
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл

@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](opcache.setup.md)
-- [Встановлення »](opcache.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](opcache.setup.md)
-- Вимоги
-
+---
+navigation:
+  - opcache.setup.md: « Встановлення та налаштування
+  - opcache.installation.md: Установка »
+  - index.md: PHP Manual
+  - opcache.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

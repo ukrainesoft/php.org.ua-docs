@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Http\Client::execute](swoole-coroutine-http-client.execute.md)
-- [Swoole\Coroutine\Http\Client::getDefer »](swoole-coroutine-http-client.getdefer.md)
+---
+navigation:
+  - swoole-coroutine-http-client.execute.md: '« SwooleCoroutineHttpClient::execute'
+  - swoole-coroutine-http-client.getdefer.md: 'SwooleCoroutineHttpClient::getDefer »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::get'
+---
+# SwooleCoroutineHttpClient::get
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::get
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::get — Опис
+SwooleCoroutineHttpClient::get — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::get**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::get(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

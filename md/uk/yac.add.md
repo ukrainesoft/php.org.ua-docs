@@ -1,49 +1,53 @@
-- [« Yac](class.yac.md)
-- [Yac::\_\_construct »](yac.construct.md)
-
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Зберігає у кеш
-
+---
+navigation:
+  - class.yac.md: « Yac
+  - yac.construct.md: 'Yac::construct »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::add'
+---
 # Yac::add
 
-(PECL yac \>= 1.0.0)
+(PECL yac >= 1.0.0)
 
 Yac::add — Зберігає у кеш
 
 ### Опис
 
-public **Yac::add**(string `$keys`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$ttl` = 0): bool
+```methodsynopsis
+public Yac::add(string $keys, mixed $value, int $ttl = 0): bool
+```
 
-public **Yac::add**(array `$key_vals`): bool
+```methodsynopsis
+public Yac::add(array $key_vals): bool
+```
 
 Додає елемент у кеш.
 
 ### Список параметрів
 
 `keys`
+
 Ключ (string)
 
 `value`
-Змішане значення. Можуть бути збережені всі типи значень php, крім
-[resource](language.types.resource.md)
+
+Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.md)
 
 `ttl`
+
 Час життя
 
 ### Значення, що повертаються
 
-bool, **`true`** у разі успішного виконання, **`false`** у разі
-виникнення помилки
+bool, **`true`** у разі успішного виконання, **`false`** у разі виникнення помилки
 
-> **Примітка**:
->
-> **Yac::add()** може завершитися з помилкою, якщо не вдалося отримати
-> блокування cas, тому, якщо вам потрібно, щоб значення зберігалося
-> належним чином ви можете написати наступне:
->
+> **Зауваження**
+> 
+> **Yac::add()** може завершитися з помилкою, якщо не вдалося отримати блокування cas, тому, якщо вам потрібно, щоб значення зберігалося належним чином, ви можете написати таке:
+> 
 > **Приклад #1 Переконайтеся, що елемент зберігається**
->
-> `while(!$yac->set("key", "vale));`
+> 
+> ```php
+> while(!$yac->set("key", "vale));
+> ```

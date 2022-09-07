@@ -1,24 +1,26 @@
-- [« Yaf_Route_Static::assemble](yaf-route-static.assemble.md)
-- [Yaf_Route_Static::route »](yaf-route-static.route.md)
+---
+navigation:
+  - yaf-route-static.assemble.md: '« YafRouteStatic::assemble'
+  - yaf-route-static.route.md: 'YafRouteStatic::route »'
+  - index.md: PHP Manual
+  - class.yaf-route-static.md: YafRouteStatic
+title: 'YafRouteStatic::match'
+---
+# YafRouteStatic::match
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Static](class.yaf-route-static.md)
-- Призначення match
+(Yaf >=1.0.0)
 
-# Yaf_Route_Static::match
-
-(Yaf \>=1.0.0)
-
-Yaf_Route_Static::match — Призначення match
+YafRouteStatic::match — Призначення match
 
 ### Опис
 
-public **Yaf_Route_Static::match**(string `$uri`): void
+```methodsynopsis
+public Yaf_Route_Static::match(string $uri): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

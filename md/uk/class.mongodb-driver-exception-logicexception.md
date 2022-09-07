@@ -1,62 +1,77 @@
-- [« MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
-- [MongoDB\Driver\Exception\RuntimeException »](class.mongodb-driver-exception-runtimeexception.md)
+---
+navigation:
+  - class.mongodb-driver-exception-invalidargumentexception.md: « MongoDBDriverExceptionInvalidArgumentException
+  - class.mongodb-driver-exception-runtimeexception.md: MongoDBDriverExceptionRuntimeException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Клас MongoDBDriverExceptionLogicException
+---
+# Клас MongoDBDriverExceptionLogicException
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Клас MongoDB\Driver\Exception\LogicException
-
-# Клас MongoDB\Driver\Exception\LogicException
-
-(mongodb \>= 1.0.0)
+(mongodb >= 1.0.0)
 
 ## Вступ
 
-Викидається при неправильному використанні драйвера (наприклад,
-перемотування на початок курсору).
+Викидається при неправильному використанні драйвера (наприклад, перемотування на початок курсору).
 
 ## Огляд класів
 
-class **MongoDB\Driver\Exception\LogicException** extends
-[LogicException](class.logicexception.md) implements
-[MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-{
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class MongoDB\Driver\Exception\LogicException
+     
 
-protected int `$code`;
+     
+      extends
+       LogicException
+     
 
-protected string `$file` = "";
+     implements 
+       MongoDB\Driver\Exception\Exception {
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

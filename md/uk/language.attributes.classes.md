@@ -1,51 +1,72 @@
-- [« Читання атрибутів за допомогою Reflection API](language.attributes.reflection.md)
-- [Пояснення посилань »](language.references.md)
-
-- [PHP Manual](index.md)
-- [Атрибути](language.attributes.md)
-- Оголошення класів атрибутів
-
+---
+navigation:
+  - language.attributes.reflection.md: « Чтение атрибутов с помощью Reflection API
+  - language.references.md: Пояснення посилань »
+  - index.md: PHP Manual
+  - language.attributes.md: Атрибути
+title: Оголошення класів атрибутів
+---
 ## Оголошення класів атрибутів
 
-Створювати класи для атрибутів не обов'язково, але рекомендується.
-У найпростішому випадку потрібно просто порожній клас з атрибутом
-`#[Attribute]`, який можна імпортувати з глобального простору
-імен за допомогою оператора use.
+Створювати класи для атрибутів необов'язково, але рекомендується. У найпростішому випадку потрібно просто порожній клас з атрибутом `#[Attribute]`, який можна імпортувати з глобального простору назв за допомогою оператора use.
 
 **Приклад #1 Простий клас з атрибутом**
 
-`<?phpnamespace Example;use Attribute;#[Attribute]class MyAttribute{} `
+```php
+<?php
 
-Для обмеження того, з яким типом декларацій можна використати
-конкретний атрибут, можна передати бітову маску першим параметром
-`#[Attribute]`.
+namespace Example;
 
-**Приклад #2 Обмеження допустимих сутностей для використання
-атрибуту**
+use Attribute;
 
-` <?phpnamespace Example;use Attribute;#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION)]class MyAttribute{} `
+#[Attribute]
+class MyAttribute
+{
+}
+```
 
-Після цього анотування атрибутом **MyAttribute** чогось,
-що відрізняється від методу або функції, призведе до викидання виключення
-під час виклику
-[ReflectionAttribute::newInstance()](reflectionattribute.newinstance.md).
+Для обмеження того, з яким типом декларацій можна використовувати конкретний атрибут, можна передати бітову маску першим параметром `#[Attribute]`
+
+**Приклад #2 Обмеження допустимих сутностей використання атрибута**
+
+```php
+<?php
+
+namespace Example;
+
+use Attribute;
+
+#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION)]
+class MyAttribute
+{
+}
+```
+
+Після цього анотування атрибутом **MyAttribute** чогось, що відрізняється від методу або функції, призведе до викидання винятку під час виклику [ReflectionAttribute::newInstance()](reflectionattribute.newinstance.md)
 
 Можна вказати такі сутності:
 
-- **`Attribute::TARGET_CLASS`**
-- **`Attribute::TARGET_FUNCTION`**
-- **`Attribute::TARGET_METHOD`**
-- **`Attribute::TARGET_PROPERTY`**
-- **`Attribute::TARGET_CLASS_CONSTANT`**
-- **`Attribute::TARGET_PARAMETER`**
-- **`Attribute::TARGET_ALL`**
+-   **`Attribute::TARGET_CLASS`**
+-   **`Attribute::TARGET_FUNCTION`**
+-   **`Attribute::TARGET_METHOD`**
+-   **`Attribute::TARGET_PROPERTY`**
+-   **`Attribute::TARGET_CLASS_CONSTANT`**
+-   **`Attribute::TARGET_PARAMETER`**
+-   **`Attribute::TARGET_ALL`**
 
-За умовчанням атрибут можна використовувати лише один раз для кожної
-сутності. Якщо потрібно вказувати кілька однакових
-атрибутів для однієї сутності - можна виставити відповідний прапор у
-бітової маски для декларації `#[Attribute]`.
+За умовчанням, атрибут можна використовувати лише один раз для кожної сутності. Якщо потрібно вказувати кілька однакових атрибутів для однієї сутності - можна виставити відповідний прапор у бітовій масці для декларації `#[Attribute]`
 
-**Приклад #3 Використання IS_REPEATABLE для дозволу використовувати
-атрибут в оголошенні кілька разів**
+**Приклад #3 Використання ISREPEATABLE для дозволу використовувати атрибут в оголошенні кілька разів**
 
-` <?phpnamespace Example;use Attribute;#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION | Attribute::IS_REPEATABLE)]class MyAttribute{} `
+```php
+<?php
+
+namespace Example;
+
+use Attribute;
+
+#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION | Attribute::IS_REPEATABLE)]
+class MyAttribute
+{
+}
+```

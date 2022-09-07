@@ -1,48 +1,55 @@
-- [« MongoDB\Driver\Session::isInTransaction](mongodb-driver-session.isintransaction.md)
-- [MongoDB\Driver\ClientEncryption »](class.mongodb-driver-clientencryption.md)
+---
+navigation:
+  - mongodb-driver-session.isintransaction.md: '« MongoDBDriverSession::isInTransaction'
+  - class.mongodb-driver-clientencryption.md: MongoDBDriverClientEncryption »
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
+title: 'MongoDBDriverSession::startTransaction'
+---
+# MongoDBDriverSession::startTransaction
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Запускає транзакцію
+(mongodb >=1.5.0)
 
-# MongoDB\Driver\Session::startTransaction
-
-(mongodb \>=1.5.0)
-
-MongoDB\Driver\Session::startTransaction - Запускає транзакцію
+MongoDBDriverSession::startTransaction — Запускає транзакцію
 
 ### Опис
 
-final public **MongoDB\Driver\Session::startTransaction**(array
-`$options` = ?): void
+```methodsynopsis
+final public MongoDB\Driver\Session::startTransaction(?array $options = null): void
+```
 
-Запускає багатодокументну транзакцію, пов'язану із сеансом. В будь-який
-момент часу ви можете мати не більше однієї відкритої транзакції для
-сеансу. Після запуску транзакції об'єкт сеансу має бути переданий
-кожної операції за допомогою опції "session" (наприклад,
-[MongoDB\Driver\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)),
-щоб пов'язати цю операцію із транзакцією.
+Запускає багатодокументну транзакцію, пов'язану із сеансом. У будь-який час ви можете мати не більше однієї відкритої транзакції для сеансу. Після запуску транзакції об'єкт сеансу має бути переданий кожній операції за допомогою опції `"session"` (наприклад, [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)), щоб пов'язати цю операцію з транзакцією.
 
-Транзакції можуть бути зафіксовані через
-[MongoDB\Driver\Session::commitTransaction()](mongodb-driver-session.committransaction.md)
-та перервані за допомогою
-[MongoDB\Driver\Session::abortTransaction()](mongodb-driver-session.aborttransaction.md).
-Транзакції також автоматично перериваються, коли сеанс закривається з
-складання сміття або явно викликається
-[MongoDB\Driver\Session::endSession()](mongodb-driver-session.endsession.md).
+Транзакції можуть бути зафіксовані через [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.md) та перервані за допомогою [MongoDBDriverSession::abortTransaction()](mongodb-driver-session.aborttransaction.md). Транзакції також автоматично перериваються, коли сеанс закривається зі складання сміття або явно викликається. [MongoDBDriverSession::endSession()](mongodb-driver-session.endsession.md)
 
 ### Список параметрів
 
 `options`
-Параметри можуть бути передані як аргумент цього методу. Кожен
-елемент у цьому масиві опцій перевизначає відповідну опцію з
-опції ``defaultTransactionOptions'`, якщо вона встановлена під час запуску
-сеансу з
-[MongoDB\Driver\Manager::startSession()](mongodb-driver-manager.startsession.md).
 
-[TABLE]
+Параметри можуть бути передані як аргумент цим методом. Кожен елемент у цьому масиві опцій перевизначає відповідну опцію з опції `"defaultTransactionOptions"`, якщо вона встановлена ​​під час запуску сеансу з [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md)
 
 **options**
+
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| maxCommitTimeMS | integer |  |
+| Максимальний період часу в мілісекундах, протягом якого може виконуватись одна команда `commitTransaction` |  |  |
+
+Якщо зазначено, `maxCommitTimeMS` має бути 32-розрядним цілим числом зі знаком, великим або рівним нулю.
+
+| | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
+
+Гарантія для застосування до операції.
+
+Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
+
+| | readPreference | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
+
+Перевага читання, що використовується для вибору сервера для виконання операції.
+
+| | writeConcern | [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
+
+Гарантія запису для застосування до операції.
 
 ### Значення, що повертаються
 
@@ -50,27 +57,19 @@ final public **MongoDB\Driver\Session::startTransaction**(array
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Видає виняток
-[MongoDB\Driver\Exception\CommandException](class.mongodb-driver-exception-commandexception.md),
-якщо транзакція не може бути запущена через проблему на стороні
-сервера (наприклад, не вдалося отримати блокування).
-- Видає виняток
-[MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md),
-якщо транзакція не може бути запущена (наприклад, транзакція вже
-була запущена).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає виняток [MongoDBDriverExceptionCommandException](class.mongodb-driver-exception-commandexception.md), якщо транзакція не може бути запущена через проблему на стороні сервера (наприклад, не вдалося отримати блокування).
+-   Видає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md)якщо транзакція не може бути запущена (наприклад, транзакція вже була запущена).
 
-### Список змін
+### список змін
 
-| Версія             | Опис                             |
-|--------------------|----------------------------------|
-| PECL mongodb 1.6.0 | Додано параметр maxCommitTimeMS. |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.6.0 |  |
+| Доданий параметр `"maxCommitTimeMS"` |  |
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::startSession()](mongodb-driver-manager.startsession.md) -
-Запуск нового клієнтського сеансу для використання з цим клієнтом
-- [MongoDB\Driver\Session::commitTransaction()](mongodb-driver-session.committransaction.md) -
-Фіксує транзакцію
-- [MongoDB\Driver\Session::abortTransaction()](mongodb-driver-session.aborttransaction.md) -
-Перериває транзакцію
+-   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) - Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.md) - Фіксує транзакцію
+-   [MongoDBDriverSession::abortTransaction()](mongodb-driver-session.aborttransaction.md) - перериває транзакцію

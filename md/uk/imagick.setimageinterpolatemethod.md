@@ -1,28 +1,31 @@
-- [« Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.md)
-- [Imagick::setImageIterations »](imagick.setimageiterations.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює метод інтерполяції пікселів зображення
-
+---
+navigation:
+  - imagick.setimageinterlacescheme.md: '« Imagick::setImageInterlaceScheme'
+  - imagick.setimageiterations.md: 'Imagick::setImageIterations »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageInterpolateMethod'
+---
 # Imagick::setImageInterpolateMethod
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageInterpolateMethod — Встановлює метод інтерполяції
-пікселів зображення
+Imagick::setImageInterpolateMethod — Встановлює метод інтерполяції пікселів зображення
 
 ### Опис
 
-public **Imagick::setImageInterpolateMethod**(int `$method`): bool
+```methodsynopsis
+public Imagick::setImageInterpolateMethod(int $method): bool
+```
 
-Встановлює спосіб інтерполяції пікселів зображення.
+Встановлює метод інтерполяції пікселів зображення.
 
 ### Список параметрів
 
 `method`
-Метод, що є однією із констант **`Imagick::INTERPOLATE_*`**.
+
+Метод, що є однією з констант **`Imagick::INTERPOLATE_*`**
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

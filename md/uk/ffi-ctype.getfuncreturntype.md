@@ -1,25 +1,26 @@
-- [« FFI\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.md)
-- [FFI\CType::getKind »](ffi-ctype.getkind.md)
+---
+navigation:
+  - ffi-ctype.getfuncparametertype.md: '« FFICType::getFuncParameterType'
+  - ffi-ctype.getkind.md: 'FFICType::getKind »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
+title: 'FFICType::getFuncReturnType'
+---
+# FFICType::getFuncReturnType
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+(PHP 8> = 8.1.0)
 
-# FFI\CType::getFuncReturnType
-
-(PHP 8 \>= 8.1.0)
-
-FFI\CType::getFuncReturnType — Опис
+FFICType::getFuncReturnType — Опис
 
 ### Опис
 
-public **FFI\CType::getFuncReturnType**():
-[FFI\CType](class.ffi-ctype.md)
+```methodsynopsis
+public FFI\CType::getFuncReturnType(): FFI\CType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

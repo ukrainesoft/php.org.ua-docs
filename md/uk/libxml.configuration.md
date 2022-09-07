@@ -1,10 +1,11 @@
-- [« Встановлення](libxml.installation.md)
-- [Типи ресурсів»](libxml.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](libxml.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - libxml.installation.md: « Установка
+  - libxml.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - libxml.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

@@ -1,55 +1,59 @@
-- [« dotnet::\_\_construct](dotnet.construct.md)
-- [variant::\_\_construct »](variant.construct.md)
-
-- [PHP Manual](index.md)
-- [COM](book.com.md)
-- Клас variant
-
+---
+navigation:
+  - dotnet.construct.md: '« dotnet::construct'
+  - variant.construct.md: 'variant::construct »'
+  - index.md: PHP Manual
+  - book.com.md: COM
+title: Клас variant
+---
 # Клас variant
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-VARIANT – це еквівалент zval для COM; це структура, яка може
-містити значення різних допустимих типів. Клас variant входить у
-модуль COM і дозволяє більше контролювати значення, що передаються від
-PHP COM і назад.
+VARIANT – це еквівалент zval для COM; це структура, яка може містити значення різних допустимих типів. Клас variant входить у модуль COM і дозволяє більше контролювати значення, що передаються від PHP до COM і назад.
 
 ## Огляд класів
 
-class **variant** {
+```synopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](variant.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` = **`null`**, int `$type` = **`VT_EMPTY`**, int `$codepage` =
-**`CP_ACP`**)
 
-}
+    
+     
+      class variant
+     
+     {
+
+
+    /* Методы */
+    
+   public __construct(mixed $value = null, int $type = VT_EMPTY, int $codepage = CP_ACP)
+
+   }
+```
 
 ## Приклади variant
 
 **Приклад #1 Приклад використання variant**
 
-`<?php$v = new variant(42);print "Тип — " . variant_get_type($v) . "<br/>";print "Значення — " . $v . "<br/>";?> `
+```php
+<?php
+$v = new variant(42);
+print "Тип — " . variant_get_type($v) . "<br/>";
+print "Значение — " . $v . "<br/>";
+?>
+```
 
-> **Примітка**:
->
-> Коли повертається значення або витягається властивість, variant
-> перетворюється на значення PHP тільки якщо є прямий зв'язок між
-> типами, що призведе до втрати інформації. У всіх інших випадках
-> результат повертається як екземпляра класу variant. Ви можете
-> примусово вказати PHP конвертувати значення в типи PHP використовуючи
-> оператор приведення типів або перетворювати їх у рядок,
-> Використовуючи функцію [print](function.print.md). Ви можете використовувати
-> безліч функцій класу для арифметичних операцій без наведення
-> значень до типів PHP із ризиком втрати інформації.
+> **Зауваження**
+> 
+> Коли повертається значення або витягається властивість, variant перетворюється на значення PHP тільки якщо є прямий зв'язок між типами, що не призведе до втрати інформації. В інших випадках результат повернеться у вигляді екземпляра класу variant. Ви можете примусово вказати PHP конвертувати значення в типи PHP використовуючи оператор приведення типів або перетворювати їх у рядок, використовуючи функцію [print](function.print.md). Ви можете використовувати безліч функцій класу для арифметичних операцій без приведення значень типів PHP з ризиком втрати інформації.
 
-Також дивіться [variant_get_type()](function.variant-get-type.md).
+Дивіться також [variantgettype()](function.variant-get-type.md)
 
 ## Зміст
 
-- [variant::\_\_construct](variant.construct.md) - Конструктор
-класу variant
+-   [variant::construct](variant.construct.md) - Конструктор класу variant

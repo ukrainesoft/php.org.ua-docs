@@ -1,72 +1,71 @@
-- [« pg_cancel_query](function.pg-cancel-query.md)
-- [pg_close »](function.pg-close.md)
+---
+navigation:
+  - function.pg-cancel-query.md: « pgcancelquery
+  - function.pg-close.md: пгclose »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгclientencoding
+---
+# пгclientencoding
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- отримання кодування клієнта.
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-#pg_client_encoding
-
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
-
-pg_client_encoding — отримання кодування клієнта.
+пгclientencoding — отримання кодування клієнта.
 
 ### Опис
 
-**pg_client_encoding**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): string
+```methodsynopsis
+pg_client_encoding(?PgSql\Connection $connection = null): string
+```
 
-PostgreSQL підтримує автоматичне перетворення наборів символів
-між сервером та клієнтом для деяких кодувань.
-**pg_client_encoding()** повертає клієнтське кодування у вигляді рядка,
-стандартний ідентифікатор кодування PostgreSQL.
+PostgreSQL підтримує автоматичне перетворення наборів символів між сервером та клієнтом для деяких кодувань . **пгclientencoding()** повертає клієнтське кодування у вигляді рядка, що є стандартним ідентифікатором кодування PostgreSQL.
 
-> **Примітка**:
->
-> Для роботи функції потрібна PostgreSQL версія 7.0 або вище. В разі,
-> якщо libpg скомпільована без підтримки багатобайтових кодувань,
-> **pg_client_encoding()** завжди повертає `SQL_ASCII`. Набір
-> підтримуваних кодувань залежить від версії сервера БД і описаний в
-> документації PostgreSQL.
->
-> Функція для дзвінка: **pg_clientencoding()**.
+> **Зауваження**
+> 
+> Для роботи функції потрібно PostgreSQL версії 7.0 або вищою. У випадку, якщо libpg скомпільована без підтримки багатобайтових кодувань, **пгclientencoding()** завжди повертає `SQL_ASCII`. Набір кодувань, що підтримуються, залежить від версії сервера БД і описаний в документації PostgreSQL.
+> 
+> Функція для дзвінка: **пгclientencoding()**
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
 Клієнтське кодування.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_client_encoding()****
+**Приклад #1 Приклад використання **пгclientencoding()****
 
-`<?php// Припустимо, що $conn - з'єднання з базою даних, підтримуючою стандарт ISO-8859-1$encoding==pg_client_encoding($conn);echo "Кодування    
-";?> `
+```php
+<?php
+// Допустим, что $conn - соединение с базой данных, поддерживающей стандарт ISO-8859-1
+$encoding = pg_client_encoding($conn);
+
+echo "Кодировка клиента: ", $encoding, "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Кодування клієнта: ISO-8859-1
+```
+Кодировка клиента: ISO-8859-1
+```
 
 ### Дивіться також
 
-- [pg_set_client_encoding()](function.pg-set-client-encoding.md) -
-Встановлює клієнтське кодування
+-   [пгsetclientencoding()](function.pg-set-client-encoding.md) - Встановлює клієнтське кодування

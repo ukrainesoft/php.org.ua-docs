@@ -1,28 +1,31 @@
-- [« fann_descale_train](function.fann-descale-train.md)
-- [fann_destroy »](function.fann-destroy.md)
+---
+navigation:
+  - function.fann-descale-train.md: « fanndescaletrain
+  - function.fann-destroy.md: fanndestroy »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanndestroytrain
+---
+# fanndestroytrain
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Знищує тренувальні дані
+(PECL fann> = 1.0.0)
 
-# fann_destroy_train
-
-(PECL fann = 1.0.0)
-
-fann_destroy_train — Знищує тренувальні дані
+fanndestroytrain — Знищує тренувальні дані
 
 ### Опис
 
-**fann_destroy_train**(resource `$train_data`): bool
+```methodsynopsis
+fann_destroy_train(resource $train_data): bool
+```
 
 Знищує тренувальні дані
 
 ### Список параметрів
 
 `train_data`
+
 Ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.

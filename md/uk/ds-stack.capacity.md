@@ -1,19 +1,22 @@
-- [« Ds\Stack::allocate](ds-stack.allocate.md)
-- [Ds\Stack::clear »](ds-stack.clear.md)
+---
+navigation:
+  - ds-stack.allocate.md: '« DsStack::allocate'
+  - ds-stack.clear.md: 'ДсStack::clear »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
+title: 'ДсStack::capacity'
+---
+# ДсStack::capacity
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Повертає поточну місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Stack::capacity
-
-(PECL ds \>= 1.0.0)
-
-Ds\Stack::capacity — Повертає поточну місткість
+ДсStack::capacity — Повертає поточну місткість
 
 ### Опис
 
-public **Ds\Stack::capacity**(): int
+```methodsynopsis
+public Ds\Stack::capacity(): int
+```
 
 Повертає поточну місткість.
 

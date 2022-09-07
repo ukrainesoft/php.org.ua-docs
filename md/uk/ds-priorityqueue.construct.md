@@ -1,29 +1,37 @@
-- [« Ds\PriorityQueue::clear](ds-priorityqueue.clear.md)
-- [Ds\PriorityQueue::copy »](ds-priorityqueue.copy.md)
+---
+navigation:
+  - ds-priorityqueue.clear.md: '« DsPriorityQueue::clear'
+  - ds-priorityqueue.copy.md: 'ДсPriorityQueue::copy »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::construct'
+---
+# ДсPriorityQueue::construct
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Створює новий екземпляр
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::\_\_construct
-
-(PECL ds \>= 1.0.0)
-
-Ds\PriorityQueue::\_\_construct — Створює новий екземпляр
+ДсPriorityQueue::construct — Створює новий екземпляр
 
 ### Опис
 
-public **Ds\PriorityQueue::\_\_construct**()
+public **ДсPriorityQueue::construct**
 
 Створює новий екземпляр.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::\_\_construct()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::construct()****
 
-` <?php$queue = new \Ds\PriorityQueue();var_dump($queue);?> `
+```php
+<?php
+$queue = new \Ds\PriorityQueue();
+var_dump($queue);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\PriorityQueue)#1 (0) {
 }
+```

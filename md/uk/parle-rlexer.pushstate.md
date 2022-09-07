@@ -1,29 +1,29 @@
-- [« Parle\RLexer::push](parle-rlexer.push.md)
-- [Parle\RLexer::reset »](parle-rlexer.reset.md)
+---
+navigation:
+  - parle-rlexer.push.md: '« ParleRLexer::push'
+  - parle-rlexer.reset.md: 'ParleRLexer::reset »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.md: ParleRLexer
+title: 'ParleRLexer::pushState'
+---
+# ParleRLexer::pushState
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- Просуває новий початковий стан
+(PECL parle >= 0.5.1)
 
-# Parle\RLexer::pushState
-
-(PECL parle \>= 0.5.1)
-
-Parle\RLexer::pushState — Просуває новий початковий стан
+ParleRLexer::pushState - Просуває новий початковий стан
 
 ### Опис
 
-public **Parle\RLexer::pushState**(string `$state`): int
+```methodsynopsis
+public Parle\RLexer::pushState(string $state): int
+```
 
-Цей тип лексера може мати більше одного стану пристрою. Це
-дозволяє вам використовувати різні токени в залежності від контексту, що
-дозволяє виконувати простий синтаксичний аналіз. Після відправки
-стану його можна використовувати з відповідним варіантом сигнатури
-[Parle\RLexer::push()](parle-rlexer.push.md).
+Цей тип лексера може мати більше одного стану пристрою. Це дозволяє використовувати різні токени залежно від контексту, що дозволяє виконувати простий синтаксичний аналіз. Після відправлення стану його можна використовувати з відповідним варіантом сигнатури [ParleRLexer::push()](parle-rlexer.push.md)
 
 ### Список параметрів
 
 `state`
+
 Назва стану
 
 ### Значення, що повертаються

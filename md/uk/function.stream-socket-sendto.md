@@ -1,68 +1,73 @@
-- [«stream_socket_recvfrom](function.stream-socket-recvfrom.md)
-- [stream_socket_server »](function.stream-socket-server.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Надсилає повідомлення до сокету, незалежно від того, під'єднаний він або
-ні
-
-#stream_socket_sendto
+---
+navigation:
+  - function.stream-socket-recvfrom.md: « streamsocketrecvfrom
+  - function.stream-socket-server.md: streamsocketserver »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamsocketsendto
+---
+# streamsocketsendto
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_socket_sendto — Надсилає повідомлення до сокету, незалежно від того,
-під'єднаний він чи ні
+streamsocketsendto — Надсилає повідомлення до сокету, незалежно від того, приєднаний він чи ні
 
 ### Опис
 
-**stream_socket_sendto**(
-resource `$socket`,
-string `$data`,
-int `$flags` = 0,
-string `$address` = ""
-): int\|false
+```methodsynopsis
+stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,    string $address = ""): int|false
+```
 
-Відправляє зазначені дані `data` через сокет `socket`.
+Надсилає зазначені дані `data` через сокет `socket`
 
 ### Список параметрів
 
 `socket`
-Сокет для надсилання даних `data`.
+
+Сокет для надсилання даних `data`
 
 `data`
+
 Надані дані.
 
 `flags`
-Значення параметра `flags` може бути будь-якою з наступних комбінацій:
 
-|                |                                                |
-|----------------|------------------------------------------------|
-| **STREAM_OOB** | Обробляти OOB (out-of-band, позасмугові) дані. |
+Значення параметру `flags` може бути будь-якою з наступних комбінацій:
 
-**можливі значення для параметра `flags`**
+<table class="doctable table"><caption><strong>можливі значення для параметра <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>STREAM_OOB</code></strong></td><td>Обробляти OOB (out-of-band, позасмугові) дані.</td></tr></tbody></table>
 
 `address`
-Адреса, вказана при створенні потокового сокету, буде використовуватися до
-доки не вказано альтернативну адресу в параметрі `address`.
+
+Адреса, вказана при створенні потокового сокету, буде використовуватися доти, доки не вказана альтернативна адреса в параметрі `address`
 
 Якщо вказано, він має бути у форматі ipv4 або ipv6.
 
 ### Значення, що повертаються
 
-Повертає код результату, як ціле число або **`false`** у разі
-виникнення помилки.
+Повертає код результату як ціле число або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_socket_sendto()****
+**Приклад #1 Приклад використання **streamsocketsendto()****
 
-` <?php/* Відкрити сокет на 1234-му порту на localhost */$socket = stream_socket_client('tcp://127.0.0.1:1234');/* Відправити звичайні  */fwrite($socket, "Передача звичайних даних.");/* Відправляємо внесмугові дані. */stream_socket_sendto($socket, "Позасмугові дані.", STREAM_OOB);/* Закрити сокет */fclose($socket);?> `
+```php
+<?php
+/* Открыть сокет на 1234-м порту на localhost */
+$socket = stream_socket_client('tcp://127.0.0.1:1234');
+
+/* Отправить обычные данные через обычные каналы. */
+fwrite($socket, "Передача обычных данных.");
+
+/* Отправляем внеполосные данные. */
+stream_socket_sendto($socket, "Внеполосные данные.", STREAM_OOB);
+
+/* Закрыть сокет */
+fclose($socket);
+?>
+```
 
 ### Дивіться також
 
-- [stream_socket_recvfrom()](function.stream-socket-recvfrom.md) -
-Отримує дані із сокету, підключеного чи ні
-- [stream_socket_client()](function.stream-socket-client.md) -
-Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
-- [stream_socket_server()](function.stream-socket-server.md) -
-Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketrecvfrom()](function.stream-socket-recvfrom.md) - Отримує дані із сокету, підключеного чи ні
+-   [streamsocketclient()](function.stream-socket-client.md) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix

@@ -1,45 +1,42 @@
-- [«Yar_Concurrent_Client](class.yar-concurrent-client.md)
-- [Yar_Concurrent_Client::loop »](yar-concurrent-client.loop.md)
+---
+navigation:
+  - class.yar-concurrent-client.md: « YarConcurrentClient
+  - yar-concurrent-client.loop.md: 'YarConcurrentClient::loop »'
+  - index.md: PHP Manual
+  - class.yar-concurrent-client.md: YarConcurrentClient
+title: 'YarConcurrentClient::call'
+---
+# YarConcurrentClient::call
 
-- [PHP Manual](index.md)
-- [Yar_Concurrent_Client](class.yar-concurrent-client.md)
-- Зареєструвати конкурентний виклик
+(PECL yar >= 1.0.0)
 
-# Yar_Concurrent_Client::call
-
-(PECL yar \> = 1.0.0)
-
-Yar_Concurrent_Client::call — Зареєструвати конкурентний виклик
+YarConcurrentClient::call — Зареєструвати конкурентний виклик
 
 ### Опис
 
-public static **Yar_Concurrent_Client::call**(
-string `$uri`,
-string `$method`,
-array `$parameters` = ?,
-[callable](language.types.callable.md) `$callback` = ?,
-[callable](language.types.callable.md) `$error_callback` = ?,
-array `$options` = ?
-): int
+```methodsynopsis
+public static Yar_Concurrent_Client::call(    string $uri,    string $method,    array $parameters = ?,    callable $callback = ?,    callable $error_callback = ?,    array $options = ?): int
+```
 
-Реєструє RPC-дзвінок, але не надсилає його негайно, а відкладає до
-моменти виклику
-[Yar_Concurrent_Client::loop()](yar-concurrent-client.loop.md)
+Реєструє RPC-дзвінок, але не надсилає його негайно, а відкладає до моменту виклику [YarConcurrentClient::loop()](yar-concurrent-client.loop.md)
 
 ### Список параметрів
 
 `uri`
+
 URI (http, tcp) сервера RPC
 
 `method`
+
 Ім'я сервісу (ім'я методу)
 
 `parameters`
+
 Параметри
 
 `callback`
-Callback-функція, яка буде викликана після відпрацювання віддаленого
-запиту.
+
+Callback-функція, яка буде викликана після відпрацювання віддаленого запиту.
 
 ### Значення, що повертаються
 
@@ -47,19 +44,38 @@ Callback-функція, яка буде викликана після відп�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Concurrent_Client::call()****
+**Приклад #1 Приклад використання **YarConcurrentClient::call()****
 
-`<?phpfunction callback($retval, $callinfo) {    var_dump($retval);}function error_callback($type, $error, $callinfo) {    error_log($error);}Yar_Concurrent host/api/", "some_method", array("parameters"), "callback");//якщо функція зворотного дзвінка не задана, буде використана визначена в_циклі викликівY /", "some_method", array("parameters"));//цей сервер приймає упаковку JSONYar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), " ", NULL, array(YAR_OPT_PACKAGER => "json"));//окремо заданий час очікуванняYar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters" , NULL, array(YAR_OPT_TIMEOUT=>1));//запити все ще не запущені?> `
+```php
+<?php
+function callback($retval, $callinfo) {
+     var_dump($retval);
+}
+
+function error_callback($type, $error, $callinfo) {
+    error_log($error);
+}
+
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback");
+
+//если функция обратного вызова не задана, то будет использована определённая в цикле вызовов
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"));
+
+//этот сервер принимает упаковку JSON
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_PACKAGER => "json"));
+
+//отдельно заданное время ожидания
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_TIMEOUT=>1));
+
+//запросы всё ещё не запущены
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [Yar_Concurrent_Client::loop()](yar-concurrent-client.loop.md) -
-Запуск усіх зареєстрованих викликів
-- [Yar_Concurrent_Client::reset()](yar-concurrent-client.reset.md) -
-Очистити всі зареєстровані дзвінки
-- [Yar_Server::\_\_construct()](yar-server.construct.md) -
-Конструктор Yar_Server
-- [Yar_Server::handle()](yar-server.handle.md) - Запустити сервер
-RPC
+-   [YarConcurrentClient::loop()](yar-concurrent-client.loop.md) - Запуск усіх зареєстрованих викликів
+-   [YarConcurrentClient::reset()](yar-concurrent-client.reset.md) - Очистити всі зареєстровані дзвінки
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
+-   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC

@@ -1,11 +1,11 @@
-- [« Налаштування під час виконання](inotify.configuration.md)
-- [Предвизначені константи »](inotify.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](inotify.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - inotify.configuration.md: « Налаштування під час виконання
+  - inotify.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - inotify.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-Модуль визначає потоковий ресурс, що повертається
-[inotify_init()](function.inotify-init.md).
+Модуль визначає потоковий ресурс, що повертається [inotifyinit()](function.inotify-init.md)

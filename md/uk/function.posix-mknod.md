@@ -1,57 +1,67 @@
-- [«posix_mkfifo](function.posix-mkfifo.md)
-- [posix_setegid »](function.posix-setegid.md)
+---
+navigation:
+  - function.posix-mkfifo.md: « posixmkfifo
+  - function.posix-setegid.md: posixsetegid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixmknod
+---
+# posixmknod
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Створює спеціальний або звичайний файл (POSIX.1)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-#posix_mknod
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-posix_mknod — Створює спеціальний або звичайний файл (POSIX.1)
+posixmknod — Створює спеціальний або звичайний файл (POSIX.1)
 
 ### Опис
 
-**posix_mknod**(
-string `$filename`,
-int `$flags`,
-int `$major` = 0,
-int `$minor` = 0
-): bool
+```methodsynopsis
+posix_mknod(    string $filename,    int $flags,    int $major = 0,    int $minor = 0): bool
+```
 
 Створює спеціальний чи звичайний файл.
 
 ### Список параметрів
 
 `filename`
+
 Шлях та ім'я створюваного файлу
 
 `flags`
-Цей параметр виходить за допомогою побітового АБО між типом файлу
-(одною з наступних констант: **`POSIX_S_IFREG`**, **`POSIX_S_IFCHR`**,
-**`POSIX_S_IFBLK`**, **`POSIX_S_IFIFO`** або **`POSIX_S_IFSOCK`**) та
-правами доступу.
+
+Цей параметр виходить за допомогою побітового АБО між типом файлу (однієї з наступних констант: **`POSIX_S_IFREG`** **`POSIX_S_IFCHR`** **`POSIX_S_IFBLK`** **`POSIX_S_IFIFO`** або **`POSIX_S_IFSOCK`**) та правами доступу.
 
 `major`
-Старший номер пристрою (обов'язковий параметр під час використання
-констант **`S_IFCHR`** або **`S_IFBLK`**).
+
+Старший номер пристрою (обов'язковий параметр під час використання констант **`S_IFCHR`** або **`S_IFBLK`**
 
 `minor`
-Молодший номер.
+
+Молодший номер пристрою.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_mknod()****
+**Приклад #1 Приклад використання **posixmknod()****
 
-`<?php$file = '/tmp/tmpfile'; // file name$type = POSIX_S_IFBLK; // file type$permissions = 0777; // octal$major = 1;$minor = 8; // /dev/randomif (!posix_mknod($file, $type | $permissions, $major, $minor)) {    die('Error ' . ?> `
+```php
+<?php
+
+$file = '/tmp/tmpfile';  // file name
+$type = POSIX_S_IFBLK;   // file type
+$permissions = 0777;     // octal
+$major = 1;
+$minor = 8;              // /dev/random
+
+if (!posix_mknod($file, $type | $permissions, $major, $minor)) {
+    die('Error ' . posix_get_last_error() . ': ' . posix_strerror(posix_get_last_error()));
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [posix_mkfifo()](function.posix-mkfifo.md) - Створює спеціальний
-fifo файл (іменований канал-pipe)
+-   [posixmkfifo()](function.posix-mkfifo.md) - Створює спеціальний fifo файл (іменований канал-pipe)

@@ -1,25 +1,24 @@
-- [«CommonMark\Node\CodeBlock](class.commonmark-node-codeblock.md)
-- [CommonMark\Node\HTMLBlock »](class.commonmark-node-htmlblock.md)
+---
+navigation:
+  - class.commonmark-node-codeblock.md: « CommonMarkNodeCodeBlock
+  - class.commonmark-node-htmlblock.md: CommonMarkNodeHTMLBlock »
+  - index.md: PHP Manual
+  - class.commonmark-node-codeblock.md: CommonMarkNodeCodeBlock
+title: 'CommonMarkNodeCodeBlock::construct'
+---
+# CommonMarkNodeCodeBlock::construct
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\CodeBlock](class.commonmark-node-codeblock.md)
-- Конструктор класу CodeBlock
+(cmark >= 1.0.0)
 
-# CommonMark\Node\CodeBlock::\_\_construct
-
-(cmark \>= 1.0.0)
-
-CommonMark\Node\CodeBlock::\_\_construct - Конструктор класу CodeBlock
+CommonMarkNodeCodeBlock::construct - Конструктор класу CodeBlock
 
 ### Опис
 
-public **CommonMark\Node\CodeBlock::\_\_construct**(string `$fence`,
-string `$literal`)
+public **CommonMarkNodeCodeBlock::construct**(string `$fence`, string `$literal`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

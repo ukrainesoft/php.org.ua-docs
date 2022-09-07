@@ -1,24 +1,26 @@
-- [« Yaf_Config_Simple::\_\_get](yaf-config-simple.get.md)
-- [Yaf_Config_Simple::key »](yaf-config-simple.key.md)
+---
+navigation:
+  - yaf-config-simple.get.md: '« YafConfigSimple::get'
+  - yaf-config-simple.key.md: 'YafConfigSimple::key »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
+title: 'YafConfigSimple::isset'
+---
+# YafConfigSimple::isset
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення \_\_isset
+(Yaf >=1.0.0)
 
-# Yaf_Config_Simple::\_\_isset
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Simple::\_\_isset - Призначення \_\_isset
+YafConfigSimple::isset - Призначення isset
 
 ### Опис
 
-public **Yaf_Config_Simple::\_\_isset**(string `$name`): void
+```methodsynopsis
+public Yaf_Config_Simple::__isset(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

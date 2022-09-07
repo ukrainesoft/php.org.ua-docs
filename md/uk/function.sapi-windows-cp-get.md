@@ -1,37 +1,35 @@
-- [« sapi_windows_cp_conv](function.sapi-windows-cp-conv.md)
-- [sapi_windows_cp_is_utf8 »](function.sapi-windows-cp-is-utf8.md)
+---
+navigation:
+  - function.sapi-windows-cp-conv.md: « sapiwindowsспconv
+  - function.sapi-windows-cp-is-utf8.md: sapiwindowsспісutf8 »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowsспget
+---
+# sapiwindowsспget
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Отримати поточну кодову сторінку
+(PHP 7> = 7.1.0, PHP 8)
 
-# sapi_windows_cp_get
-
-(PHP 7 \>= 7.1.0, PHP 8)
-
-sapi_windows_cp_get — Отримати поточну кодову сторінку
+sapiwindowsспget — Отримати поточну сторінку.
 
 ### Опис
 
-**sapi_windows_cp_get**(string `$kind` = ""): int
+```methodsynopsis
+sapi_windows_cp_get(string $kind = ""): int
+```
 
 Отримати поточну сторінку.
 
 ### Список параметрів
 
 `kind`
-Тип кодової сторінки операційної системи, яку потрібно отримати: або
-''ansi'', або ''oem''. Будь-яке інше значення відноситься до поточної
-кодової сторінки процесу.
+
+Тип кодової сторінки операційної системи, яку потрібно отримати: або `'ansi'`, або `'oem'`. Будь-яке інше значення стосується поточної кодової сторінки процесу.
 
 ### Значення, що повертаються
 
-Якщо `kind` дорівнює ``ansi'`, повертається поточна кодова сторінка ANSI
-ОС. Якщо `kind` дорівнює ``oem'`, повертається поточна
-кодова сторінка OEM операційної системи. В іншому випадку
-поточна кодова сторінка процесу повертається.
+Якщо `kind` дорівнює `'ansi'`повертається поточна кодова сторінка ANSI операційної системи. Якщо `kind` дорівнює `'oem'`, повертається поточна кодова сторінка OEM операційної системи. В іншому випадку поточна кодова сторінка процесу повертається.
 
 ### Дивіться також
 
-- [sapi_windows_cp_set()](function.sapi-windows-cp-set.md) -
-Встановити кодову сторінку процесу
+-   [sapiwindowsспset()](function.sapi-windows-cp-set.md) - Встановити кодову сторінку процесу

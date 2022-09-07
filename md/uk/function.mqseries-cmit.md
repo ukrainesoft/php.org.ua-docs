@@ -1,37 +1,39 @@
-- [« mqseries_close](function.mqseries-close.md)
-- [mqseries_conn »](function.mqseries-conn.md)
+---
+navigation:
+  - function.mqseries-close.md: « mqseriesclose
+  - function.mqseries-conn.md: mqseriesconn »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriescmit
+---
+# mqseriescmit
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- MQSeries MQCMIT
+(PECL mqseries >= 0.10.0)
 
-# mqseries_cmit
-
-(PECL mqseries \>= 0.10.0)
-
-mqseries_cmit — MQSeries MQCMIT
+mqseriescmit — MQSeries MQCMIT
 
 ### Опис
 
-**mqseries_cmit**(resource `$hconn`, resource `&$compCode`, resource
-`&$reason`): void
+```methodsynopsis
+mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
+```
 
-Функція **mqseries_cmit()** (MQCMIT) фіксує транзакцію. Тобто. всі
-повідомлення, розміщені в чергу з останньої точки синхронізації
-стають незмінними. Всі повідомлення, прочитані з черги з
-останньої точки синхронізації видаляються з неї.
+Функція **mqseriescmit()** (MQCMIT) фіксує транзакцію. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, стають постійними. Усі повідомлення, прочитані з черги з останньої точки синхронізації, видаляються з неї.
 
 ### Список параметрів
 
 `hConn`
-Обробник з'єднання.
+
+Оброблювач з'єднання.
 
 Є відкрите з'єднання з менеджером черг.
 
 `compCode`
+
 Код завершення.
 
 `reason`
+
 Код причини, що кваліфікує compCode.
 
 ### Значення, що повертаються
@@ -40,21 +42,26 @@ mqseries_cmit — MQSeries MQCMIT
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_cmit()****
+**Приклад #1 Приклад використання **mqseriescmit()****
 
-`<?php   mqseries_cmit($conn, $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("cmit CompCode:%d Reason:%d Text:%s<br>
-", $comp_code, $reason, mqseries_strerror($reason));    }?> `
+```php
+<?php
+    mqseries_cmit($conn, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("cmit CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> [mqseries_back()](function.mqseries-back.md) не працює, якщо для
-> підключення до менеджера черг використовується MQSeries Client.
+> **Зауваження**
+> 
+> [mqseriesback()](function.mqseries-back.md) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
-- [mqseries_begin()](function.mqseries-begin.md) - MQseries MQBEGIN
-- [mqseries_back()](function.mqseries-back.md) - MQSeries MQBACK
-- [mqseries_conn()](function.mqseries-conn.md) - MQSeries MQCONN
-- [mqseries_connx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesbegin()](function.mqseries-begin.md) - MQseries MQBEGIN
+-   [mqseriesback()](function.mqseries-back.md) - MQSeries MQBACK
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX

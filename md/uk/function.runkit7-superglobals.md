@@ -1,21 +1,22 @@
-- [« runkit7_object_id](function.runkit7-object-id.md)
-- [runkit7_zval_inspect »](function.runkit7-zval-inspect.md)
+---
+navigation:
+  - function.runkit7-object-id.md: « runkit7objectід
+  - function.runkit7-zval-inspect.md: runkit7zvalinspect »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7superglobals
+---
+# runkit7superglobals
 
-- [PHP Manual](index.md)
-- [Функції runkit7](ref.runkit7.md)
-- Повертає числовий індексований масив зареєстрованих
-суперглобальних змінних
+(PECL runkit7> = Unknown)
 
-# runkit7_superglobals
-
-(PECL runkit7 \>= Unknown)
-
-runkit7_superglobals — Повертає числовий індексований масив
-зареєстрованих суперглобальних змінних
+runkit7superglobals — Повертає числовий індексований масив зареєстрованих суперглобальних змінних
 
 ### Опис
 
-**runkit7_superglobals**(): array
+```methodsynopsis
+runkit7_superglobals(): array
+```
 
 ### Список параметрів
 
@@ -23,10 +24,8 @@ runkit7_superglobals — Повертає числовий індексован�
 
 ### Значення, що повертаються
 
-Повертає числовий індексований масив зареєстрованих
-суперглобальних змінних. Наприклад: \_GET, \_POST, \_REQUEST,
-\_COOKIE, \_SESSION, \_SERVER, \_ENV, \_FILES.
+Повертає числовий індексований масив зареєстрованих суперглобальних змінних. Наприклад: GET, POST, REQUEST, COOKIE, SESSION, SERVER, ENV, FILES.
 
 ### Дивіться також
 
-- [Область видимості змінної](language.variables.scope.md)
+-   [Область видимості змінної](language.variables.scope.md)

@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](apcu.configuration.md)
-- [Предвизначені константи »](apcu.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](apcu.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - apcu.configuration.md: « Налаштування під час виконання
+  - apcu.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - apcu.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

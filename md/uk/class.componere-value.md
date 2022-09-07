@@ -1,60 +1,57 @@
-- [« Componere\Method::getReflector](componere-method.getreflector.md)
-- [Componere\Value::\_\_construct »](componere-value.construct.md)
+---
+navigation:
+  - componere-method.getreflector.md: '« ComponereMethod::getReflector'
+  - componere-value.construct.md: 'ComponereValue::construct »'
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Клас ComponereValue
+---
+# Клас ComponereValue
 
-- [PHP Manual](index.md)
-- [Componere](book.componere.md)
-- Клас Componere\Value
-
-# Клас Componere\Value
-
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
 ## Вступ
 
-Value представляє змінну PHP всіх типів, включаючи невизначену
-(undefined)
+Value являє собою змінну PHP всіх типів, включаючи невизначену (undefined)
 
 ## Огляд класів
 
-final class **Componere\Value** {
+```classsynopsis
 
-/\* Конструктор класу \*/
 
-public [\_\_construct](componere-value.construct.md)(`$default` = ?)
 
-/\* Методи \*/
+    
+     
+      final
+      class Componere\Value
+     
+     {
 
-public [setPrivate](componere-value.setprivate.md)(): Value
 
-public [setProtected](componere-value.setprotected.md)(): Value
+    /* Конструктор класса */
+    
+   public __construct( $default = ?)
 
-public [setStatic](componere-value.setstatic.md)(): Value
 
-public [isPrivate](componere-value.isprivate.md)(): bool
+    /* Методы */
+    public setPrivate(): Value
+public setProtected(): Value
+public setStatic(): Value
+public isPrivate(): bool
+public isProtected(): bool
+public isStatic(): bool
+public hasDefault(): bool
 
-public [isProtected](componere-value.isprotected.md)(): bool
-
-public [isStatic](componere-value.isstatic.md)(): bool
-
-public [hasDefault](componere-value.hasdefault.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [Componere\Value::\_\_construct](componere-value.construct.md) -
-Конструктор класу Value
-- [Componere\Value::setPrivate](componere-value.setprivate.md) -
-Зміна доступності
-- [Componere\Value::setProtected](componere-value.setprotected.md) -
-Зміна доступності
-- [Componere\Value::setStatic](componere-value.setstatic.md) -
-Зміна доступності
-- [Componere\Value::isPrivate](componere-value.isprivate.md) -
-Визначення доступності
-- [Componere\Value::isProtected](componere-value.isprotected.md) -
-Визначення доступності
-- [Componere\Value::isStatic](componere-value.isstatic.md)
-Визначення доступності
-- [Componere\Value::hasDefault](componere-value.hasdefault.md)
-Взаємодія з класом Value
+-   [ComponereValue::construct](componere-value.construct.md) - Конструктор класу Value
+-   [ComponereValue::setPrivate](componere-value.setprivate.md) — Зміна доступності
+-   [ComponereValue::setProtected](componere-value.setprotected.md) — Зміна доступності
+-   [ComponereValue::setStatic](componere-value.setstatic.md) — Зміна доступності
+-   [ComponereValue::isPrivate](componere-value.isprivate.md) — Визначення доступності
+-   [ComponereValue::isProtected](componere-value.isprotected.md) — Визначення доступності
+-   [ComponereValue::isStatic](componere-value.isstatic.md) — Визначення доступності
+-   [ComponereValue::hasDefault](componere-value.hasdefault.md) - Взаємодія з класом Value

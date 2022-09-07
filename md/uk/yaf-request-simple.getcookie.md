@@ -1,24 +1,26 @@
-- [« Yaf_Request_Simple::get](yaf-request-simple.get.md)
-- [Yaf_Request_Simple::getFiles »](yaf-request-simple.getfiles.md)
+---
+navigation:
+  - yaf-request-simple.get.md: '« YafRequestSimple::get'
+  - yaf-request-simple.getfiles.md: 'YafRequestSimple::getFiles »'
+  - index.md: PHP Manual
+  - class.yaf-request-simple.md: YafRequestSimple
+title: 'YafRequestSimple::getCookie'
+---
+# YafRequestSimple::getCookie
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Simple](class.yaf-request-simple.md)
-- Призначення getCookie
+(Yaf >=1.0.0)
 
-# Yaf_Request_Simple::getCookie
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Simple::getCookie — Призначення getCookie
+YafRequestSimple::getCookie — Призначення getCookie
 
 ### Опис
 
-public **Yaf_Request_Simple::getCookie**(): void
+```methodsynopsis
+public Yaf_Request_Simple::getCookie(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

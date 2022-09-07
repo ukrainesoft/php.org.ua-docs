@@ -1,15 +1,16 @@
-- [«Вступ](intro.rrd.md)
-- [Вимоги »](rrd.requirements.md)
-
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
--   Встановлення та налаштування
-
+---
+navigation:
+  - intro.rrd.md: « Введение
+  - rrd.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](rrd.requirements.md)
-- [Установка](rrd.installation.md)
-- [Налаштування під час виконання](rrd.configuration.md)
-- [Типи ресурсів](rrd.resources.md)
+-   [Вимоги](rrd.requirements.md)
+-   [Установка](rrd.installation.md)
+-   [Налаштування під час виконання](rrd.configuration.md)
+-   [Типи ресурсів](rrd.resources.md)

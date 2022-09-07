@@ -1,38 +1,38 @@
-- [«EvCheck](class.evcheck.md)
-- [EvCheck::createStopped »](evcheck.createstopped.md)
+---
+navigation:
+  - class.evcheck.md: « EvCheck
+  - evcheck.createstopped.md: 'EvCheck::createStopped »'
+  - index.md: PHP Manual
+  - class.evcheck.md: EvCheck
+title: 'EvCheck::construct'
+---
+# EvCheck::construct
 
-- [PHP Manual](index.md)
-- [EvCheck](class.evcheck.md)
-- Конструктор об'єкту EvCheck
+(PECL ev >= 0.2.0)
 
-# EvCheck::\_\_construct
-
-(PECL ev \>= 0.2.0)
-
-EvCheck::\_\_construct — Конструктор об'єкту EvCheck
+EvCheck::construct — Конструктор об'єкту EvCheck
 
 ### Опис
 
-public **EvCheck::\_\_construct**(
-[callable](language.types.callable.md) `$callback` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?, int `$priority` = ?)
+public **EvCheck::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` ?, int `$priority`
 
-Створює спостерігач [EvCheck](class.evcheck.md).
+Створює спостерігач [EvCheck](class.evcheck.md)
 
 ### Список параметрів
 
 `callback`
-Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.md) .
+
+Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.md)
 
 `data`
+
 Дані, пов'язані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Дивіться також
 
-- [EvPrepare](class.evprepare.md)
-- [EvLoop::check()](evloop.check.md) - Створює об'єкт EvCheck,
-пов'язаний з поточним екземпляром циклу подій
+-   [EvPrepare](class.evprepare.md)
+-   [EvLoop::check()](evloop.check.md) - Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій

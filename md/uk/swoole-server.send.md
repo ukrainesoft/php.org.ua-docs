@@ -1,25 +1,26 @@
-- [« Swoole\Server::resume](swoole-server.resume.md)
-- [Swoole\Server::sendfile »](swoole-server.sendfile.md)
+---
+navigation:
+  - swoole-server.resume.md: '« SwooleServer::resume'
+  - swoole-server.sendfile.md: 'SwooleServer::sendfile »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::send'
+---
+# SwooleServer::send
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Надсилає дані клієнту
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::send
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::send — Надсилає дані клієнту
+SwooleServer::send — Надсилає дані клієнту
 
 ### Опис
 
-public **Swoole\Server::send**(int `$fd`, string `$data`, int
-`$reactor_id` = ?): bool
+```methodsynopsis
+public Swoole\Server::send(int $fd, string $data, int $reactor_id = ?): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

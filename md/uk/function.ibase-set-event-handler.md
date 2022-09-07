@@ -1,66 +1,72 @@
-- [« ibase_service_detach](function.ibase-service-detach.md)
-- [ibase_trans »](function.ibase-trans.md)
+---
+navigation:
+  - function.ibase-service-detach.md: « ibaseservicedetach
+  - function.ibase-trans.md: ibasetrans »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseseteventhandler
+---
+# ibaseseteventhandler
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Реєструє callback-функцію, яка буде викликатись при
-публікації подій
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_set_event_handler
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_set_event_handler - Реєструє callback-функцію, яка буде
-викликатись при публікації подій
+ibaseseteventhandler — Реєструє callback-функцію, яка буде викликатись при публікації подій
 
 ### Опис
 
-**ibase_set_event_handler**([callable](language.types.callable.md)
-`$event_handler`, string `$event_name`, string `...$even_names`):
-resource
+```methodsynopsis
+ibase_set_event_handler(callable $event_handler, string $event_name, string ...$even_names): resource
+```
 
-**ibase_set_event_handler**(
-resource `$connection`,
-[callable](language.types.callable.md) `$event_handler`,
-string `$event_name`,
-string `...$event_names`
-): resource
+```methodsynopsis
+ibase_set_event_handler(    resource $connection,    callable $event_handler,    string $event_name,    string ...$event_names): resource
+```
 
-Функція реєструє користувальницьку функцію PHP як обробник
-подій для зазначених подій.
+Функція реєструє функцію PHP в якості обробника подій для зазначених подій.
 
 ### Список параметрів
 
 `event_handler`
-Callback-функція викликається з ім'ям події та ресурсом посилання в
-як аргументи щоразу, коли одна із зазначених подій
-публікується базою даних.
 
-Callback-функція повинна повертати **`false`**, якщо обробник події
-має бути скасовано. Будь-яке інше значення, що повертається, ігнорується.
-Функція приймає до 15 аргументів.
+Callback-функція викликається з ім'ям події та ресурсом посилання як аргументи кожного разу, коли одна із зазначених подій публікується базою даних.
+
+Callback-функція має повертати **`false`**, якщо обробник події має бути скасовано. Будь-яке інше значення, що повертається, ігнорується. Функція ухвалює до 15 аргументів події.
 
 `event_name`
+
 Найменування події.
 
 `event_names`
+
 Дозволено максимум 15 подій.
 
 ### Значення, що повертаються
 
-Значення, що повертається, є ресурсом події. Цей ресурс можна
-використовувати для звільнення обробника подій за допомогою
-[ibase_free_event_handler()](function.ibase-free-event-handler.md).
+Значення, що повертається, є ресурсом події. Цей ресурс можна використовувати для звільнення обробника подій за допомогою [ibasefreeeventhandler()](function.ibase-free-event-handler.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_set_event_handler()****
+**Приклад #1 Приклад використання **ibaseseteventhandler()****
 
-`<?phpfunction event_handler($event_name, $link){   if ($event_name == "NEW ORDER") {         | } else if ($event_name == "DB_SHUTDOWN") {        // скасовуємо обробник подій         return false; }}ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");?> `
+```php
+<?php
+
+function event_handler($event_name, $link)
+{
+    if ($event_name == "NEW ORDER") {
+        // обрабатываем новый заказ
+        ibase_query($link, "UPDATE orders SET status='handled'");
+    } else if ($event_name == "DB_SHUTDOWN") {
+        // отменяем обработчик событий
+        return false;
+    }
+}
+
+ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");
+?>
+```
 
 ### Дивіться також
 
-- [ibase_free_event_handler()](function.ibase-free-event-handler.md) -
-Скасує зареєстрований обробник події
-- [ibase_wait_event()](function.ibase-wait-event.md) - Чекаємо, поки
-подія буде опублікована в базі даних
+-   [ibasefreeeventhandler()](function.ibase-free-event-handler.md) - скасовує зареєстрований обробник події
+-   [ibasewaitevent()](function.ibase-wait-event.md) - Чекаємо, поки подія буде опублікована в базі даних

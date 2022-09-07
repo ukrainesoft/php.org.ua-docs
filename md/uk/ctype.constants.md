@@ -1,10 +1,11 @@
-- [« Типи ресурсів](ctype.resources.md)
-- [Функції Ctype »](ref.ctype.md)
-
-- [PHP Manual](index.md)
-- [Ctype](book.ctype.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - ctype.resources.md: « Типи ресурсів
+  - ref.ctype.md: Опції Ctype »
+  - index.md: PHP Manual
+  - book.ctype.md: Ctype
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

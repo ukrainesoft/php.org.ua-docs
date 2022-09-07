@@ -1,13 +1,14 @@
-- [«Table::update](mysql-xdevapi-table.update.md)
-- [TableDelete::bind »](mysql-xdevapi-tabledelete.bind.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас TableDelete
-
+---
+navigation:
+  - mysql-xdevapi-table.update.md: '« Table::update'
+  - mysql-xdevapi-tabledelete.bind.md: 'TableDelete::bind »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Клас TableDelete
+---
 # Клас TableDelete
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
@@ -15,39 +16,35 @@
 
 ## Огляд класів
 
-class **mysql_xdevapi\TableDelete** implements
-[mysql_xdevapi\Executable](class.mysql-xdevapi-executable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public **bind**(array `$placeholder_values`):
-[mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
 
-public **execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+    
+     
+      class mysql_xdevapi\TableDelete
+     
 
-public **limit**(int `$rows`):
-[mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
+     implements 
+       mysql_xdevapi\Executable {
 
-public **orderby**(string `$orderby_expr`):
-[mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
 
-public **where**(string `$where_expr`):
-[mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
+    /* Методы */
+    
+   public bind(array $placeholder_values): mysql_xdevapi\TableDelete
+public execute(): mysql_xdevapi\Result
+public limit(int $rows): mysql_xdevapi\TableDelete
+public orderby(string $orderby_expr): mysql_xdevapi\TableDelete
+public where(string $where_expr): mysql_xdevapi\TableDelete
 
-}
+   }
+```
 
 ## Зміст
 
-- [TableDelete::bind](mysql-xdevapi-tabledelete.bind.md) — Зв'язує
-параметри запиту на видалення
-- [TableDelete::\_\_construct](mysql-xdevapi-tabledelete.construct.md)
-- Конструктор класу TableDelete
-- [TableDelete::execute](mysql-xdevapi-tabledelete.execute.md) -
-Виконує запит на видалення
-- [TableDelete::limit](mysql-xdevapi-tabledelete.limit.md) -
-Обмежує рядки для видалення
-- [TableDelete::orderby](mysql-xdevapi-tabledelete.orderby.md) -
-Встановлює критерії сортування видалення
-- [TableDelete::where](mysql-xdevapi-tabledelete.where.md)
-Встановлює умову пошуку для видалення
+-   [TableDelete::bind](mysql-xdevapi-tabledelete.bind.md) — Зв'язує параметри запиту на видалення
+-   [TableDelete::construct](mysql-xdevapi-tabledelete.construct.md) - Конструктор класу TableDelete
+-   [TableDelete::execute](mysql-xdevapi-tabledelete.execute.md) — Виконує запит на видалення
+-   [TableDelete::limit](mysql-xdevapi-tabledelete.limit.md) — Обмежує рядки видалення
+-   [TableDelete::orderby](mysql-xdevapi-tabledelete.orderby.md) — Встановлює критерії сортування видалення
+-   [TableDelete::where](mysql-xdevapi-tabledelete.where.md) — Встановлює умову пошуку для видалення

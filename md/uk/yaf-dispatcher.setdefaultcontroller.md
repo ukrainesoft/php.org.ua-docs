@@ -1,21 +1,22 @@
-- [« Yaf_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.md)
-- [Yaf_Dispatcher::setDefaultModule »](yaf-dispatcher.setdefaultmodule.md)
+---
+navigation:
+  - yaf-dispatcher.setdefaultaction.md: '« YafDispatcher::setDefaultAction'
+  - yaf-dispatcher.setdefaultmodule.md: 'YafDispatcher::setDefaultModule »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::setDefaultController'
+---
+# YafDispatcher::setDefaultController
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Змінює стандартне ім'я контролера
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::setDefaultController
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::setDefaultController — Змінює ім'я контролера за
-замовчуванням
+YafDispatcher::setDefaultController — Змінює назву контролера за умовчанням
 
 ### Опис
 
-public **Yaf_Dispatcher::setDefaultController**(string `$controller`):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::setDefaultController(string $controller): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

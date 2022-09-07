@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine::resume](swoole-coroutine.resume.md)
-- [Swoole\Event »](class.swoole-event.md)
+---
+navigation:
+  - swoole-coroutine.resume.md: '« SwooleCoroutine::resume'
+  - class.swoole-event.md: SwooleEvent »
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutine::suspend'
+---
+# SwooleCoroutine::suspend
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine::suspend
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine::suspend — Опис
+SwooleCoroutine::suspend — Опис
 
 ### Опис
 
-public static **Swoole\Coroutine::suspend**(): ReturnType
+```methodsynopsis
+public static Swoole\Coroutine::suspend(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

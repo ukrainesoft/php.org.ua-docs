@@ -1,43 +1,43 @@
-- [«ob_gzhandler](function.ob-gzhandler.md)
-- [ob_list_handlers »](function.ob-list-handlers.md)
-
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Увімкнення/вимкнення неявного скидання
-
-#ob_implicit_flush
+---
+navigation:
+  - function.ob-gzhandler.md: « obgzhandler
+  - function.ob-list-handlers.md: проlisthandlers »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проimplicitflush
+---
+# проimplicitflush
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ob_implicit_flush — Увімкнення/вимкнення неявного скидання
+проimplicitflush — Увімкнення/вимкнення неявного скидання
 
 ### Опис
 
-**ob_implicit_flush**(bool `$enable` = **`true`**): void
+```methodsynopsis
+ob_implicit_flush(bool $enable = true): void
+```
 
-**ob_implicit_flush()** включає або вимикає неявне скидання. Неявний
-скидання призводить до того, що операція скидання виконується після кожного
-тому явні виклики функції [flush()](function.flush.md)
-більше не знадобляться.
+**проimplicitflush()** включає або вимикає неявне скидання. Неявне скидання призводить до того, що операція скидання виконується після кожного виводу, тому явні виклики функції [flush()](function.flush.md) більше не знадобляться.
 
 ### Список параметрів
 
 `enable`
-`1` для включення неявного скидання, `false` інакше.
+
+`true` для включення неявного скидання, `false` в іншому випадку.
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                |
-|--------|-------------------------------------------------------------------------------------|
-| 8.0.0  | enable тепер набуває логічного значення (bool); раніше приймалося ціле число (int). |
+| Версия | Описание |
+| --- | --- |
+|  | `enable` тепер набуває логічного значення (bool); раніше приймалося ціле число (int). |
 
 ### Дивіться також
 
-- [flush()](function.flush.md) - Скидання системного буфера виводу
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
-- [ob_end_flush()](function.ob-end-flush.md) - Скинути (надіслати)
-буфер виведення та вимкнути буферизацію виводу
+-   [flush()](function.flush.md) - Скидання системного буфера виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [проendflush()](function.ob-end-flush.md) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу

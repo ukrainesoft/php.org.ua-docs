@@ -1,22 +1,21 @@
-- [«ocicolumnname](function.ocicolumnname.md)
-- [ocicolumnscale »](function.ocicolumnscale.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_field_precision
-
+---
+navigation:
+  - function.ocicolumnname.md: « ocicolumnname
+  - function.ocicolumnscale.md: ocicolumnscale »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicolumnprecision
+---
 # ocicolumnprecision
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnprecision - Псевдонім
-[oci_field_precision()](function.oci-field-precision.md)
+ocicolumnprecision - Псевдонім [ocifieldprecision()](function.oci-field-precision.md)
 
 ### Опис
 
-Псевдонім [oci_field_precision()](function.oci-field-precision.md)
+Псевдонім [ocifieldprecision()](function.oci-field-precision.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

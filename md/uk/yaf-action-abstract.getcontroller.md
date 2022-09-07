@@ -1,20 +1,22 @@
-- [« Yaf_Action_Abstract::execute](yaf-action-abstract.execute.md)
-- [Yaf_Action_Abstract::getControllerName »](yaf-controller-abstract.getcontrollername.md)
+---
+navigation:
+  - yaf-action-abstract.execute.md: '« YafActionAbstract::execute'
+  - yaf-controller-abstract.getcontrollername.md: 'YafActionAbstract::getControllerName »'
+  - index.md: PHP Manual
+  - class.yaf-action-abstract.md: YafActionAbstract
+title: 'YafActionAbstract::getController'
+---
+# YafActionAbstract::getController
 
-- [PHP Manual](index.md)
-- [Yaf_Action_Abstract](class.yaf-action-abstract.md)
-- Отримати об'єкт контролер
+(Yaf >=1.0.0)
 
-# Yaf_Action_Abstract::getController
-
-(Yaf \>=1.0.0)
-
-Yaf_Action_Abstract::getController — Отримати об'єкт контролер
+YafActionAbstract::getController — Отримати об'єкт контролер
 
 ### Опис
 
-public**Yaf_Action_Abstract::getController**():
-[Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
+```methodsynopsis
+publicYaf_Action_Abstract::getController(): Yaf_Controller_Abstract
+```
 
 Отримати поточний об'єкт контролера.
 
@@ -24,5 +26,4 @@ public**Yaf_Action_Abstract::getController**():
 
 ### Значення, що повертаються
 
-Об'єкт класу
-[Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
+Об'єкт класу [YafControllerAbstract](class.yaf-controller-abstract.md)

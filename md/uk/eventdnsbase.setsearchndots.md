@@ -1,30 +1,35 @@
-- [«EventDnsBase::setOption](eventdnsbase.setoption.md)
-- [EventHttp »](class.eventhttp.md)
-
-- [PHP Manual](index.md)
-- [EventDnsBase](class.eventdnsbase.md)
-- Встановлює 'ndots' для пошуку
-
+---
+navigation:
+  - eventdnsbase.setoption.md: '« EventDnsBase::setOption'
+  - class.eventhttp.md: EventHttp »
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::setSearchNdots'
+---
 # EventDnsBase::setSearchNdots
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventDnsBase::setSearchNdots — Встановлює параметр 'ndots' для пошуку
 
 ### Опис
 
-public **EventDnsBase::setSearchNdots**( int `$ndots` ): bool
+```methodsynopsis
+public
+   EventDnsBase::setSearchNdots(
+    int
+     $ndots
+   ): bool
+```
 
-Встановлює параметр **``ndots'`** для пошуку. Встановлює
-кількість точок, яке при знаходженні в імені призводить до того, що
-перший запит немає пошукового домену.
+Встановлює параметр **`'ndots'`** для пошуку. Встановлює кількість точок, що при знаходженні імені приводить до того, що перший запит не має пошукового домену.
 
 ### Список параметрів
 
 `ndots`
+
 Кількість точок.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

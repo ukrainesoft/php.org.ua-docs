@@ -1,54 +1,60 @@
-- [«EvSignal](class.evsignal.md)
-- [EvSignal::createStopped »](evsignal.createstopped.md)
+---
+navigation:
+  - class.evsignal.md: « EvSignal
+  - evsignal.createstopped.md: 'EvSignal::createStopped »'
+  - index.md: PHP Manual
+  - class.evsignal.md: EvSignal
+title: 'EvSignal::construct'
+---
+# EvSignal::construct
 
-- [PHP Manual](index.md)
-- [EvSignal](class.evsignal.md)
-- Конструктор об'єкта спостерігача EvSignal
+(PECL ev >= 0.2.0)
 
-# EvSignal::\_\_construct
-
-(PECL ev \>= 0.2.0)
-
-EvSignal::\_\_construct — Конструктор об'єкта спостерігача EvSignal
+EvSignal::construct - Конструктор об'єкта спостерігача EvSignal
 
 ### Опис
 
-public **EvSignal::\_\_construct**(
-int `$signum` ,
-[callable](language.types.callable.md) `$callback` ,
+public **EvSignal::construct**  
+int `$signum`  
+[callable](language.types.callable.md) `$callback`  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
+int `$priority`
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-)
-
-Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для
-створення зупиненого об'єкта спостерігача використовуйте метод
-[EvSignal::createStopped()](evsignal.createstopped.md).
+Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для створення зупиненого об'єкта спостерігача використовуйте метод [EvSignal::createStopped()](evsignal.createstopped.md)
 
 ### Список параметрів
 
 `signum`
-Номер сигналу. Дивіться константи модуля *pcntl* та документацію по
-`signal(7)`.
+
+Номер сигналу. Дивіться константи модуля *pcntl* та документацію з `signal(7)`
 
 `callback`
-Дивіться [Функції зворотного дзвінка спостерігачів](ev.watcher-callbacks.md).
+
+Дивіться [Функції зворотного виклику спостерігачів](ev.watcher-callbacks.md)
 
 `data`
-Користувальницькі дані, асоційовані із спостерігачем.
+
+Дані користувача, асоційовані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 
 **Приклад #1 Обробка сигналу SIGTERM**
 
-` <?php$w = new EvSignal(SIGTERM, function ($watcher) {   echo "SIGTERM received
-";   $watcher->stop();});Ev::run();?> `
+```php
+<?php
+$w = new EvSignal(SIGTERM, function ($watcher) {
+    echo "SIGTERM received\n";
+    $watcher->stop();
+});
+
+Ev::run();
+?>
+```
 
 ### Дивіться також
 
-- [EvSignal::createStopped()](evsignal.createstopped.md) - Create
-stopped EvSignal watcher object
+-   [EvSignal::createStopped()](evsignal.createstopped.md) - Create stopped EvSignal watcher object

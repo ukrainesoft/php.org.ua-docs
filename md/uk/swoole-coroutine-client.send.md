@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Client::recv](swoole-coroutine-client.recv.md)
-- [Swoole\Coroutine\Client::sendfile »](swoole-coroutine-client.sendfile.md)
+---
+navigation:
+  - swoole-coroutine-client.recv.md: '« SwooleCoroutineClient::recv'
+  - swoole-coroutine-client.sendfile.md: 'SwooleCoroutineClient::sendfile »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineClient::send'
+---
+# SwooleCoroutineClient::send
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Client::send
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Client::send — Опис
+SwooleCoroutineClient::send — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Client::send**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Client::send(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

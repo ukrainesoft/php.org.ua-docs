@@ -1,20 +1,22 @@
-- [« Ds\Deque::set](ds-deque.set.md)
-- [Ds\Deque::slice »](ds-deque.slice.md)
+---
+navigation:
+  - ds-deque.set.md: '« DsDeque::set'
+  - ds-deque.slice.md: 'ДсDeque::slice »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::shift'
+---
+# ДсDeque::shift
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Видаляє та повертає перше значення
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::shift
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::shift — Видаляє та повертає перше значення
+ДсDeque::shift — Видаляє та повертає перше значення
 
 ### Опис
 
-public **Ds\Deque::shift**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::shift(): mixed
+```
 
 Видаляє та повертає перше значення.
 
@@ -28,18 +30,26 @@ public **Ds\Deque::shift**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо двостороння
-черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо двостороння черга порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::shift()****
+**Приклад #1 Приклад використання **ДсDeque::shift()****
 
-` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque->shift());var_dump($deque->shift()); var_dump($deque->shift());?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c"]);
+
+var_dump($deque->shift());
+var_dump($deque->shift());
+var_dump($deque->shift());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
 string(1) "b"
 string(1) "c"
+```

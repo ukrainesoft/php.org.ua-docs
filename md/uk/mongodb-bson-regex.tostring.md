@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\Regex::serialize](mongodb-bson-regex.serialize.md)
-- [MongoDB\BSON\Regex::unserialize »](mongodb-bson-regex.unserialize.md)
+---
+navigation:
+  - mongodb-bson-regex.serialize.md: '« MongoDBBSONRegex::serialize'
+  - mongodb-bson-regex.unserialize.md: 'MongoDBBSONRegex::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::toString'
+---
+# MongoDBBSONRegex::toString
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
-- Повертає рядкову виставу Regex
+(mongodb >=1.0.0)
 
-# MongoDB\BSON\Regex::\_\_toString
-
-(mongodb \>=1.0.0)
-
-MongoDB\BSON\Regex::\_\_toString — Повертає рядкову виставу
-Regex
+MongoDBBSONRegex::toString — Повертає рядкову виставу Regex
 
 ### Опис
 
-final public **MongoDB\BSON\Regex::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Regex::__toString(): string
+```
 
 ### Список параметрів
 
@@ -26,15 +28,23 @@ final public **MongoDB\BSON\Regex::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Regex::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONRegex::toString()****
 
-` <?php$regex = new MongoDB\BSON\Regex('regex', 'i');var_dump((string) $regex);?> `
+```php
+<?php
+
+$regex = new MongoDB\BSON\Regex('regex', 'i');
+var_dump((string) $regex);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(8) "/regex/i"
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

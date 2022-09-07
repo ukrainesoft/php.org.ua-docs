@@ -1,19 +1,22 @@
-- [« Swoole\Server::protect](swoole-server.protect.md)
-- [Swoole\Server::resume »](swoole-server.resume.md)
+---
+navigation:
+  - swoole-server.protect.md: '« SwooleServer::protect'
+  - swoole-server.resume.md: 'SwooleServer::resume »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::reload'
+---
+# SwooleServer::reload
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Перезапускає усі робочі процеси
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::reload
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::reload — Перезапускає всі робочі процеси
+SwooleServer::reload — Перезапускає всі робочі процеси
 
 ### Опис
 
-public **Swoole\Server::reload**(): bool
+```methodsynopsis
+public Swoole\Server::reload(): bool
+```
 
 ### Список параметрів
 

@@ -1,287 +1,332 @@
-- [« Ітератори об'єктів](language.oop5.iterations.md)
-- [Ключове слово final»](language.oop5.final.md)
-
-- [PHP Manual](index.md)
-- [Класи та об'єкти](language.oop5.md)
-- Магічні методи
-
+---
+navigation:
+  - language.oop5.iterations.md: « Ітератори об'єктів
+  - language.oop5.final.md: Ключевое слово final »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Магічні методи
+---
 ## Магічні методи
 
-Магічні методи – це спеціальні методи, які перевизначають
-дія PHP за умовчанням, коли над об'єктом виконуються певні
-дії.
+Магічні методи – це спеціальні методи, які перевизначають дію PHP за умовчанням, коли над об'єктом виконуються певні дії.
 
 **Застереження**
 
-Усі імена методів, що починаються з `__`, зарезервовані PHP. Не
-рекомендується використовувати імена методів з \_\_ у PHP, якщо ви не хочете
-використати відповідну магічну функціональність.
+Всі імена методів, що починаються з `__`, зарезервовані PHP Не рекомендується використовувати імена методів з у PHP, якщо ви не бажаєте використовувати відповідну магічну функціональність.
 
-Наступні назви методів вважаються магічними:
-[\_\_construct()](language.oop5.decon.md#object.construct),
-[\_\_destruct()](language.oop5.decon.md#object.destruct),
-[\_\_call()](language.oop5.overloading.md#object.call),
-[\_\_callStatic()](language.oop5.overloading.md#object.callstatic),
-[\_\_get()](language.oop5.overloading.md#object.get),
-[\_\_set()](language.oop5.overloading.md#object.set),
-[\_\_isset()](language.oop5.overloading.md#object.isset),
-[\_\_unset()](language.oop5.overloading.md#object.unset),
-[\_\_sleep()](language.oop5.magic.md#object.sleep),
-[\_\_wakeup()](language.oop5.magic.md#object.wakeup),
-[\_\_serialize()](language.oop5.magic.md#object.serialize),
-[\_\_unserialize()](language.oop5.magic.md#object.unserialize),
-[\_\_toString()](language.oop5.magic.md#object.tostring),
-[\_\_invoke()](language.oop5.magic.md#object.invoke),
-[\_\_set_state()](language.oop5.magic.md#object.set-state),
-[\_\_clone()](language.oop5.cloning.md#object.clone) та
-[\_\_debugInfo()](language.oop5.magic.md#object.debuginfo)
+Наступні назви методів вважаються магічними: [construct()](language.oop5.decon.md#object.construct) [destruct()](language.oop5.decon.md#object.destruct) [call()](language.oop5.overloading.md#object.call) [callStatic()](language.oop5.overloading.md#object.callstatic) [get()](language.oop5.overloading.md#object.get) [set()](language.oop5.overloading.md#object.set) [isset()](language.oop5.overloading.md#object.isset) [unset()](language.oop5.overloading.md#object.unset) [sleep()](language.oop5.magic.md#object.sleep) [wakeup()](language.oop5.magic.md#object.wakeup) [serialize()](language.oop5.magic.md#object.serialize) [unserialize()](language.oop5.magic.md#object.unserialize) [toString()](language.oop5.magic.md#object.tostring) [invoke()](language.oop5.magic.md#object.invoke) [setstate()](language.oop5.magic.md#object.set-state) [clone()](language.oop5.cloning.md#object.clone) і [debugInfo()](language.oop5.magic.md#object.debuginfo)
 
 **Увага**
 
-Усі магічні методи, за винятком
-[\_\_construct()](language.oop5.decon.md#object.construct),
-[\_\_destruct()](language.oop5.decon.md#object.destruct) та
-[\_\_clone()](language.oop5.cloning.md#object.clone), *МОВНІ* бути
-оголошено як `public`, інакше буде викликана помилка рівня
-**`E_WARNING`**. До PHP 8.0.0 для магічних методів
-[\_\_sleep()](language.oop5.magic.md#object.sleep),
-[\_\_wakeup()](language.oop5.magic.md#object.wakeup),
-[\_\_serialize()](language.oop5.magic.md#object.serialize),
-[\_\_unserialize()](language.oop5.magic.md#object.unserialize) та
-[\_\_set_state()](language.oop5.magic.md#object.set-state) не
-виконувалась перевірка.
+Усі магічні методи, за винятком [construct()](language.oop5.decon.md#object.construct) [destruct()](language.oop5.decon.md#object.destruct) і [clone()](language.oop5.cloning.md#object.clone) *ПОВИННІ* бути оголошені як `public`, інакше буде викликана помилка рівня **`E_WARNING`**. До PHP 8.0.0 для магічних методів [sleep()](language.oop5.magic.md#object.sleep) [wakeup()](language.oop5.magic.md#object.wakeup) [serialize()](language.oop5.magic.md#object.serialize) [unserialize()](language.oop5.magic.md#object.unserialize) і [setstate()](language.oop5.magic.md#object.set-state) не виконувалась перевірка.
 
 **Увага**
 
-Якщо оголошення типу використовуються у визначенні магічного методу, вони
-повинні бути ідентичні до сигнатури, описаної в цьому документі. В протилежному
-У разі видається фатальна помилка. До PHP 8.0.0 діагностичні повідомлення
-не вирушали. Проте
-[\_\_construct()](language.oop5.decon.md#object.construct) та
-[\_\_destruct()](language.oop5.decon.md#object.destruct) не повинні
-оголошувати тип, що повертається; в іншому випадку видається фатальна
-помилка.
+Якщо оголошення типу використовуються для визначення магічного методу, вони повинні бути ідентичними сигнатурі, описаної в цьому документі. В іншому випадку видається фатальна помилка. До PHP 8.0.0 діагностичні повідомлення не надсилалися. Однак [construct()](language.oop5.decon.md#object.construct) і [destruct()](language.oop5.decon.md#object.destruct) не повинні оголошувати тип, що повертається; в іншому випадку видається фатальна помилка.
 
-### [\_\_sleep()](language.oop5.magic.md#object.sleep) та [\_\_wakeup()](language.oop5.magic.md#object.wakeup)
+### [sleep()](language.oop5.magic.md#object.sleep) і [wakeup()](language.oop5.magic.md#object.wakeup)
 
-public **\_\_sleep**(): array
+```methodsynopsis
+public __sleep(): array
+```
 
-public **\_\_wakeup**(): void
+```methodsynopsis
+public __wakeup(): void
+```
 
-Функція [serialize()](function.serialize.md) перевіряє, чи є
-чи в класі метод із магічним ім'ям
-[\_\_sleep()](language.oop5.magic.md#object.sleep). Якщо це так, то
-цей метод виконується до будь-якої операції серіалізації. Він може очистити
-об'єкт і повинен повертати масив з іменами всіх змінних цього
-об'єкта, які мають бути серіалізовані. Якщо метод нічого не
-повертає, то серіалізується **`null`** та видається попередження
-**`E_NOTICE`**.
+Функція [serialize()](function.serialize.md) перевіряє, чи є у класі метод із магічним ім'ям [sleep()](language.oop5.magic.md#object.sleep). Якщо це так, цей метод виконується до будь-якої операції серіалізації. Він може очистити об'єкт і повинен повертати масив з іменами всіх змінних цього об'єкта, які мають бути серіалізовані. Якщо метод нічого не повертає, то серіалізується **`null`** та видається попередження **`E_NOTICE`**
 
-> **Примітка**:
->
-> Неприпустимо повертати в
-> [\_\_sleep()](language.oop5.magic.md#object.sleep) імена закритих
-> властивостей у батьківському класі. Це призведе до помилки рівня
-> **`E_NOTICE`**. Натомість ви можете використовувати
-> [\_\_serialize()](language.oop5.magic.md#object.serialize).
+> **Зауваження**
+> 
+> Неприпустимо повертати в [sleep()](language.oop5.magic.md#object.sleep) імена закритих властивостей у батьківському класі. Це призведе до помилки рівня **`E_NOTICE`**. Натомість ви можете використовувати [serialize()](language.oop5.magic.md#object.serialize)
 
-Передбачуване використання
-[\_\_sleep()](language.oop5.magic.md#object.sleep) полягає в
-завершення роботи над даними, що чекають на обробку або інших подібних
-задач очищення. Крім того, цей метод може бути корисним, коли є
-дуже великі об'єкти, які немає потреби повністю зберігати.
+Передбачуване використання [sleep()](language.oop5.magic.md#object.sleep) полягає в завершенні роботи над даними, що чекають на обробку або інших подібних завдань очищення. Крім того, цей метод може бути корисним, коли є дуже великі об'єкти, які немає потреби повністю зберігати.
 
-З іншого боку, функція [unserialize()](function.unserialize.md)
-перевіряє наявність методу з магічним ім'ям
-[\_\_wakeup()](language.oop5.magic.md#object.wakeup). Якщо вона
-є, ця функція може відновлювати будь-які ресурси, які можуть
-мати об'єкт.
+З іншого боку, функція [unserialize()](function.unserialize.md) перевіряє наявність методу з магічним ім'ям [wakeup()](language.oop5.magic.md#object.wakeup). Якщо є, ця функція може відновлювати будь-які ресурси, які може мати об'єкт.
 
-Передбачуване використання
-[\_\_wakeup()](language.oop5.magic.md#object.wakeup) полягає в
-відновлення будь-яких з'єднань з базою даних, які могли бути
-втрачені під час операції серіалізації та виконання інших операцій
-повторної ініціалізації.
+Передбачуване використання [wakeup()](language.oop5.magic.md#object.wakeup) полягає у відновленні будь-яких з'єднань з базою даних, які могли бути втрачені під час операції серіалізації та виконання інших операцій повторної ініціалізації.
 
 **Приклад #1 Серіалізація та десеріалізація**
 
-`<?phpclass Connection{    protected $link; private $dsn, $username, $password; public function __construct($dsn, $username, $password)   {        $this->dsn = $dsn; $this->username = $username; $this->password = $password; $this->connect(); }    private function connect()    {        $this->link = new PDO($this->dsn, $this->username, $this->password); }   publicfunction __sleep()   {        return array('dsn', 'username', 'password'); }    public function __wakeup()   {         $this->connect(); }}?> `
+```php
+<?php
+class Connection
+{
+    protected $link;
+    private $dsn, $username, $password;
 
-### [\_\_serialize()](language.oop5.magic.md#object.serialize) та [\_\_unserialize()](language.oop5.magic.md#object.unserialize)
+    public function __construct($dsn, $username, $password)
+    {
+        $this->dsn = $dsn;
+        $this->username = $username;
+        $this->password = $password;
+        $this->connect();
+    }
 
-public **\_\_serialize**(): array
+    private function connect()
+    {
+        $this->link = new PDO($this->dsn, $this->username, $this->password);
+    }
 
-public **\_\_unserialize**(array `$data`): void
+    public function __sleep()
+    {
+        return array('dsn', 'username', 'password');
+    }
 
-[serialize()](function.serialize.md) перевіряє, чи є у класі
-функція з магічним ім'ям
-[\_\_serialize()](language.oop5.magic.md#object.serialize). Якщо так,
-функція виконується перед будь-якою серіалізацією. Вона повинна створити і
-повернути асоціативний масив пар ключ/значення, які представляють
-серіалізовану форму об'єкта. Якщо масив не повернутий, буде видано
-[TypeError](class.typeerror.md).
+    public function __wakeup()
+    {
+        $this->connect();
+    }
+}?>
+```
 
-> **Примітка**:
->
-> Якщо і [\_\_serialize()](language.oop5.magic.md#object.serialize) та
-> [\_\_sleep()](language.oop5.magic.md#object.sleep) визначено в
-> одному й тому самому об'єкті, буде викликаний лише метод
-> [\_\_serialize()](language.oop5.magic.md#object.serialize).
-> [\_\_sleep()](language.oop5.magic.md#object.sleep) буде
-> ігноруватися. Якщо об'єкт реалізує інтерфейс
-> [Serializable](class.serializable.md), метод `serialize()`
-> інтерфейсу буде ігноруватися, а замість нього буде використано
-> [\_\_serialize()](language.oop5.magic.md#object.serialize).
+### [serialize()](language.oop5.magic.md#object.serialize) і [unserialize()](language.oop5.magic.md#object.unserialize)
 
-Передбачуване використання
-[\_\_serialize()](language.oop5.magic.md#object.serialize) полягає
-у визначенні зручного для серіалізації довільного уявлення
-об'єкт. Елементи масиву можуть відповідати властивостям об'єкта, але
-це не обов'язково.
+```methodsynopsis
+public __serialize(): array
+```
 
-І навпаки, [unserialize()](function.unserialize.md) перевіряє наявність
-магічної функції
-[\_\_unserialize()](language.oop5.magic.md#object.unserialize). Якщо
-функція присутня, їй буде передано відновлений масив, який
-був повернутий з
-[\_\_serialize()](language.oop5.magic.md#object.serialize). Потім він
-може відновити властивості об'єкта з цього масиву відповідним
-чином.
+```methodsynopsis
+public __unserialize(array $data): void
+```
 
-> **Примітка**:
->
-> Якщо і
-> [\_\_unserialize()](language.oop5.magic.md#object.unserialize) та
-> [\_\_wakeup()](language.oop5.magic.md#object.wakeup) визначено в
-> одному й тому самому об'єкті, буде викликаний лише метод
-> [\_\_unserialize()](language.oop5.magic.md#object.unserialize).
-> [\_\_wakeup()](language.oop5.magic.md#object.wakeup) буде
-> ігноруватися.
+[serialize()](function.serialize.md) перевіряє, чи є у класі функція з магічним ім'ям [serialize()](language.oop5.magic.md#object.serialize). Якщо так, то функція виконується перед будь-якою серіалізацією. Вона повинна створити та повернути асоціативний масив пар ключ/значення, які представляють серіалізовану форму об'єкта. Якщо масив не повернутий, буде видано [TypeError](class.typeerror.md)
 
-> **Примітка**:
->
+> **Зауваження**
+> 
+> Якщо і [serialize()](language.oop5.magic.md#object.serialize) і [sleep()](language.oop5.magic.md#object.sleep) визначено в одному і тому ж об'єкті, буде викликано лише метод [serialize()](language.oop5.magic.md#object.serialize). . [sleep()](language.oop5.magic.md#object.sleep) ігноруватиметься. Якщо об'єкт реалізує інтерфейс [Serializable](class.serializable.md), метод `serialize()` інтерфейсу ігноруватиметься, а замість нього буде використаний [serialize()](language.oop5.magic.md#object.serialize)
+
+Передбачуване використання [serialize()](language.oop5.magic.md#object.serialize) полягає у визначенні зручного для серіалізації довільного уявлення об'єкта. Елементи масиву можуть відповідати властивостям об'єкта, але не обов'язково.
+
+І навпаки, [unserialize()](function.unserialize.md) перевіряє наявність магічної функції [unserialize()](language.oop5.magic.md#object.unserialize). Якщо функція присутня, їй буде передано відновлений масив, який було повернено з [serialize()](language.oop5.magic.md#object.serialize). Потім він може відновити властивості об'єкта цього масиву відповідним чином.
+
+> **Зауваження**
+> 
+> Якщо і [unserialize()](language.oop5.magic.md#object.unserialize) і [wakeup()](language.oop5.magic.md#object.wakeup) визначено в одному і тому ж об'єкті, буде викликано лише метод [unserialize()](language.oop5.magic.md#object.unserialize). . [wakeup()](language.oop5.magic.md#object.wakeup) ігноруватиметься.
+
+> **Зауваження**
+> 
 > Функція доступна з PHP 7.4.0.
 
 **Приклад #2 Серіалізація та десеріалізація**
 
-`<?phpclass Connection{    protected $link; private $dsn, $username, $password; public function __construct($dsn, $username, $password)   {        $this->dsn = $dsn; $this->username = $username; $this->password = $password; $this->connect(); }    private function connect()    {        $this->link = new PDO($this->dsn, $this->username, $this->password); }    public function __serialize(): array    {        return [          'dsn' => $this->dsn,          'user' => $this->username,          'pass' => $this->password,        ]; }    public function __unserialize(array $data): void    {        $this->dsn = $data['dsn']; $this->username = $data['user']; $this->password = $data['pass']; $this->connect(); }}?> `
+```php
+<?php
+class Connection
+{
+    protected $link;
+    private $dsn, $username, $password;
 
-### [\_\_toString()](language.oop5.magic.md#object.tostring)
+    public function __construct($dsn, $username, $password)
+    {
+        $this->dsn = $dsn;
+        $this->username = $username;
+        $this->password = $password;
+        $this->connect();
+    }
 
-public **\_\_toString**(): string
+    private function connect()
+    {
+        $this->link = new PDO($this->dsn, $this->username, $this->password);
+    }
 
-Метод [\_\_toString()](language.oop5.magic.md#object.tostring)
-дозволяє класу вирішувати, як він повинен реагувати при перетворенні на
-рядок. Наприклад, що вивести під час виконання `echo $obj;`.
+    public function __serialize(): array
+    {
+        return [
+          'dsn' => $this->dsn,
+          'user' => $this->username,
+          'pass' => $this->password,
+        ];
+    }
+
+    public function __unserialize(array $data): void
+    {
+        $this->dsn = $data['dsn'];
+        $this->username = $data['user'];
+        $this->password = $data['pass'];
+
+        $this->connect();
+    }
+}?>
+```
+
+### [toString()](language.oop5.magic.md#object.tostring)
+
+```methodsynopsis
+public __toString(): string
+```
+
+Метод [toString()](language.oop5.magic.md#object.tostring) дозволяє класу вирішувати, як він повинен реагувати при перетворенні на рядок. Наприклад, що вивести під час виконання `echo $obj;`
 
 **Увага**
 
-Починаючи з PHP 8.0.0, значення, що повертається, слід стандартної семантиці
-типу PHP, що означає, що воно буде перетворено на рядок (string),
-якщо можливо, і якщо [strict typing](language.types.declarations.md#language.types.declarations.strict)
-вимкнено.
+Починаючи з PHP 8.0.0, значення, що повертається слід стандартній семантиці типу PHP, що означає, що воно буде перетворене в рядок (string), якщо можливо, і якщо [strict typing](language.types.declarations.md#language.types.declarations.strict) вимкнено.
 
-Починаючи з PHP 8.0.0, будь-який клас, що містить метод
-[\_\_toString()](language.oop5.magic.md#object.tostring), також буде
-неявно реалізовувати інтерфейс [Stringable](class.stringable.md) та,
-таким чином, буде проходити перевірку типу для цього інтерфейсу
-будь-якому разі рекомендується явно реалізувати інтерфейс.
+Починаючи з PHP 8.0.0, будь-який клас, що містить метод [toString()](language.oop5.magic.md#object.tostring), також неявно реалізовуватиме інтерфейс [Stringable](class.stringable.md) і, таким чином, буде проходити перевірку типу для цього інтерфейсу. У будь-якому випадку рекомендується явно реалізувати інтерфейс.
 
-У PHP 7.4 повертається значення *МОВНО* бути рядком (string), інакше
-видається [Error](class.error.md).
+У PHP 7.4 значення, що повертається *ПОВИННО* бути рядком (string), інакше видається [Error](class.error.md)
 
-До PHP 7.4.0 повертається значення *має* бути рядком (string), в
-в іншому випадку видається фатальна помилка **`E_RECOVERABLE_ERROR`**. is
-emitted.
+До PHP 7.4.0 значення, що повертається *повинно* бути рядком (string), інакше видається фатальна помилка **`E_RECOVERABLE_ERROR`**. is emitted.
 
 **Увага**
 
-Не можна викинути виняток із методу
-[\_\_toString()](language.oop5.magic.md#object.tostring) до PHP 7.4.0.
-Це призведе до фатальної помилки.
+Не можна викинути виняток із методу [toString()](language.oop5.magic.md#object.tostring) до PHP 7.4.0. Це призведе до фатальної помилки.
 
 **Приклад #3 Простий приклад**
 
-`<?php// Оголошення простого класуclass TestClass{    public $foo; public function __construct($foo)    {        $this->foo = $foo; }    public function __toString()    {        return $this->foo; }}$class = new TestClass('Привіт');echo $class;?> `
+```php
+<?php
+// Объявление простого класса
+class TestClass
+{
+    public $foo;
+
+    public function __construct($foo)
+    {
+        $this->foo = $foo;
+    }
+
+    public function __toString()
+    {
+        return $this->foo;
+    }
+}
+
+$class = new TestClass('Привет');
+echo $class;
+?>
+```
 
 Результат виконання цього прикладу:
 
-вітання
+```
+Привет
+```
 
-### [\_\_invoke()](language.oop5.magic.md#object.invoke)
+### [invoke()](language.oop5.magic.md#object.invoke)
 
-**\_\_invoke**( `...$values`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+__invoke( ...$values): mixed
+```
 
-Метод [\_\_invoke()](language.oop5.magic.md#object.invoke) викликається,
-коли скрипт намагається виконати об'єкт як функцію.
+Метод [invoke()](language.oop5.magic.md#object.invoke) викликається, коли скрипт намагається виконати об'єкт як функцію.
 
-**Приклад #4 Використання
-[\_\_invoke()](language.oop5.magic.md#object.invoke)**
+**Приклад #4 Використання [invoke()](language.oop5.magic.md#object.invoke)**
 
-`<?phpclass CallableClass{    public function __invoke($x)    {       var_dump($x); }}$obj = new CallableClass;$obj(5);var_dump(is_callable($obj));?> `
+```php
+<?php
+class CallableClass
+{
+    public function __invoke($x)
+    {
+        var_dump($x);
+    }
+}
+$obj = new CallableClass;
+$obj(5);
+var_dump(is_callable($obj));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(5)
 bool(true)
+```
 
-### [\_\_set_state()](language.oop5.magic.md#object.set-state)
+### [setstate()](language.oop5.magic.md#object.set-state)
 
-static **\_\_set_state**(array `$properties`): object
+```methodsynopsis
+static __set_state(array $properties): object
+```
 
-Цей [статичний](language.oop5.static.md) метод викликається для тих
-класів, що експортуються функцією
-[var_export()](function.var-export.md).
+Цей [статичний](language.oop5.static.md) метод викликається тим класів, які експортуються функцією [varexport()](function.var-export.md)
 
-Єдиним параметром цього методу є масив, що містить
-експортовані властивості як `['property' => value, ...]`.
+Єдиним параметром цього методу є масив, що містить властивості, що експортуються у вигляді `['property' => value, ...]`
 
-**Приклад #5 Використання
-[\_\_set_state()](language.oop5.magic.md#object.set-state)**
+**Приклад #5 Використання [setstate()](language.oop5.magic.md#object.set-state)**
 
-`<?phpclass A{    public $var1; public $var2; public static function __set_state($an_array)    {        $obj = new A; $obj->var1 = $an_array['var1']; $obj->var2 = $an_array['var2']; return $obj; }}$a = new A;$a->var1 = 5;$a->var2 = 'foo';$b = var_export($a, true);var_dump($b);eval('$c = ' . $b . ';');var_dump($c);?> `
+```php
+<?php
+
+class A
+{
+    public $var1;
+    public $var2;
+
+    public static function __set_state($an_array)
+    {
+        $obj = new A;
+        $obj->var1 = $an_array['var1'];
+        $obj->var2 = $an_array['var2'];
+        return $obj;
+    }
+}
+
+$a = new A;
+$a->var1 = 5;
+$a->var2 = 'foo';
+
+$b = var_export($a, true);
+var_dump($b);
+eval('$c = ' . $b . ';');
+var_dump($c);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(60) "A::__set_state(array(
-'var1' => 5,
-'var2' => 'foo',
+   'var1' => 5,
+   'var2' => 'foo',
 ))"
 object(A)#2 (2) {
-["var1"]=>
-int(5)
-["var2"]=>
-string(3) "foo"
+  ["var1"]=>
+  int(5)
+  ["var2"]=>
+  string(3) "foo"
+}
+```
+
+> **Зауваження**: Під час експорту об'єкту [varexport()](function.var-export.md) не перевіряє, чи реалізує клас об'єкта метод [setstate()](language.oop5.magic.md#object.set-state)тому повторний імпорт об'єктів призведе до виключення [Error](class.error.md), якщо метод setstate() не реалізовано. Зокрема, це стосується деяких внутрішніх класів. Необхідність перевірки, чи реалізує імпортований клас метод setstate(), повністю лежить на розробнику.
+
+### [debugInfo()](language.oop5.magic.md#object.debuginfo)
+
+```methodsynopsis
+__debugInfo(): array
+```
+
+Цей метод викликається функцією [vardump()](function.var-dump.md), коли потрібно вивести список властивостей об'єкта. Якщо цей метод не визначений, тоді будуть виведені всі властивості об'єкта з модифікаторами public, protected та private.
+
+**Приклад #6 Використання [debugInfo()](language.oop5.magic.md#object.debuginfo)**
+
+```php
+<?php
+class C {
+    private $prop;
+
+    public function __construct($val) {
+        $this->prop = $val;
+    }
+
+    public function __debugInfo() {
+        return [
+            'propSquared' => $this->prop ** 2,
+        ];
+    }
 }
 
-> **Примітка**: Під час експорту об'єкта
-> [var_export()](function.var-export.md) не перевіряє, чи реалізує
-> клас об'єкта метод
-> [\_\_set_state()](language.oop5.magic.md#object.set-state), тому
-> повторний імпорт об'єктів призведе до виключення
-> [Error](class.error.md), якщо метод \_\_set_state() не реалізований. В
-> Зокрема, це стосується деяких внутрішніх класів. Необхідність
-> перевірки, чи реалізує імпортований клас метод \_\_set_state(),
-> повністю лежить розробнику.
-
-### [\_\_debugInfo()](language.oop5.magic.md#object.debuginfo)
-
-**\_\_debugInfo**(): array
-
-Цей метод викликається функцією [var_dump()](function.var-dump.md),
-коли потрібно вивести список властивостей об'єкта. Якщо цей метод не
-визначено, тоді будуть виведені всі властивості об'єкта з модифікаторами
-public, protected та private.
-
-**Приклад #6 Використання
-[\_\_debugInfo()](language.oop5.magic.md#object.debuginfo)**
-
-` <?phpclass C {    private $prop; public function __construct($val) {         $this->prop = $val; }   publicfunction __debugInfo() {        return [            'propSquared' => $this->prop **   }}var_dump(new C(42));?> `
+var_dump(new C(42));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(C)#1 (1) {
-["propSquared"]=>
-int(1764)
+  ["propSquared"]=>
+  int(1764)
 }
+```

@@ -1,24 +1,24 @@
-- [« SolrQuery::getTermsIncludeUpperBound](solrquery.gettermsincludeupperbound.md)
-- [SolrQuery::getTermsLowerBound »](solrquery.gettermslowerbound.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає максимальну кількість виразів, які має повернути
-Solr
-
+---
+navigation:
+  - solrquery.gettermsincludeupperbound.md: '« SolrQuery::getTermsIncludeUpperBound'
+  - solrquery.gettermslowerbound.md: 'SolrQuery::getTermsLowerBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsLimit'
+---
 # SolrQuery::getTermsLimit
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTermsLimit — Повертає максимальну кількість виразів,
-які має повернути Solr
+SolrQuery::getTermsLimit — Повертає максимальну кількість виразів, які має повернути Solr
 
 ### Опис
 
-public **SolrQuery::getTermsLimit**(): int
+```methodsynopsis
+public SolrQuery::getTermsLimit(): int
+```
 
-Повертає максимальну кількість виразів, які має повернути
-Solr.
+Повертає максимальну кількість виразів, які має повернути Solr.
 
 ### Список параметрів
 
@@ -26,5 +26,4 @@ Solr.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

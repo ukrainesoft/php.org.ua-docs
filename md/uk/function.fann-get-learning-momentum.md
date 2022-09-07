@@ -1,43 +1,40 @@
-- [« fann_get_layer_array](function.fann-get-layer-array.md)
-- [fann_get_learning_rate »](function.fann-get-learning-rate.md)
+---
+navigation:
+  - function.fann-get-layer-array.md: « fanngetlayerarray
+  - function.fann-get-learning-rate.md: fanngetlearningrate »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetlearningmomentum
+---
+# fanngetlearningmomentum
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає імпульс навчання
+(PECL fann> = 1.0.0)
 
-# fann_get_learning_momentum
-
-(PECL fann = 1.0.0)
-
-fann_get_learning_momentum - Повертає імпульс навчання
+fanngetlearningmomentum - Повертає імпульс навчання
 
 ### Опис
 
-**fann_get_learning_momentum**(resource `$ann`): float
+```methodsynopsis
+fann_get_learning_momentum(resource $ann): float
+```
 
-Імпульс навчання можна використовувати для прискорення навчання
-**`FANN_TRAIN_INCREMENTAL`**. Проте надто високий імпульс не принесе
-користі тренувань. Встановлення імпульсу на 0 буде рівносильним відключенню
-параметра імпульсу Рекомендоване значення цього параметра становить від
-0,0 до 1,0.
+Імпульс навчання можна використовувати для прискорення навчання **`FANN_TRAIN_INCREMENTAL`**. Проте надто високий імпульс не принесе користі тренуванням. Встановлення імпульсу на 0 буде рівним відключенню параметра імпульсу. Цей параметр рекомендується від 0.0 до 1.0.
 
-Імпульс за промовчанням дорівнює 0.
+Імпульс за замовчуванням дорівнює 0.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 Імпульс навчання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_learning_momentum()](function.fann-set-learning-momentum.md) -
-Встановлює імпульс навчання
-- [fann_set_training_algorithm()](function.fann-set-training-algorithm.md) -
-Встановлює алгоритм навчання
+-   [fannsetlearningmomentum()](function.fann-set-learning-momentum.md) - встановлює імпульс навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) - встановлює алгоритм навчання

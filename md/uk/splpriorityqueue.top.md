@@ -1,20 +1,22 @@
-- [« SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.md)
-- [SplPriorityQueue::valid »](splpriorityqueue.valid.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Повертає вузол, що знаходиться на початку черги
-
+---
+navigation:
+  - splpriorityqueue.setextractflags.md: '« SplPriorityQueue::setExtractFlags'
+  - splpriorityqueue.valid.md: 'SplPriorityQueue::valid »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::top'
+---
 # SplPriorityQueue::top
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplPriorityQueue::top — Повертає вузол, що знаходиться на початку черги
 
 ### Опис
 
-public **SplPriorityQueue::top**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplPriorityQueue::top(): mixed
+```
 
 ### Список параметрів
 
@@ -22,5 +24,4 @@ public **SplPriorityQueue::top**():
 
 ### Значення, що повертаються
 
-Значення або пріоритет вузла (або те й інше) в залежності від
-прапор.
+Значення або пріоритет вузла (або те й інше) залежно від встановленого прапора.

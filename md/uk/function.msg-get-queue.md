@@ -1,58 +1,49 @@
-- [«ftok](function.ftok.md)
-- [msg_queue_exists »](function.msg-queue-exists.md)
+---
+navigation:
+  - function.ftok.md: « ftok
+  - function.msg-queue-exists.md: msgqueueexists »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: msggetqueue
+---
+# msggetqueue
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Створення або підключення до черги повідомлень
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-# msg_get_queue
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-msg_get_queue — Створення або підключення до черги повідомлень
+msggetqueue — Створення або підключення до черги повідомлень
 
 ### Опис
 
-**msg_get_queue**(int `$key`, int `$permissions` = 0666):
-[SysvMessageQueue](class.sysvmessagequeue.md)\|false
+```methodsynopsis
+msg_get_queue(int $key, int $permissions = 0666): SysvMessageQueue|false
+```
 
-**msg_get_queue()** повертає ідентифікатор, який використовується для
-доступу до черги повідомлень System V із зазначеним ключем `key`. Перший
-виклик створює чергу повідомлень із необов'язковими правами `permissions`.
-Другий та подальші виклики **msg_get_queue()** для того ж `key` будуть
-повертатимуть інші ідентифікатори, проте всі вони посилатимуться на одну
-і ту саму чергу повідомлень.
+**msggetqueue()** повертає ідентифікатор, який використовується для доступу до черги повідомлень System V із зазначеним ключем `key`. Перший виклик створює чергу повідомлень із необов'язковими правами `permissions`. Другий та наступні виклики **msggetqueue()** для того ж `key` повертатимуть інші ідентифікатори, проте всі вони посилатимуться на ту саму чергу повідомлень.
 
 ### Список параметрів
 
 `key`
+
 Числовий ідентифікатор черги повідомлень.
 
 `permissions`
-Права доступу до черги. За замовчуванням 0666. Якщо черга повідомлень вже
-Існує, параметр `permissions` ігнорується.
+
+Права доступу до черги. За промовчанням 0666. Якщо черга повідомлень вже існує, параметр `permissions` ігнорується.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md),
-який може бути використаний для доступу до черги повідомлень System V
-або **`false`** у разі виникнення помилки.
+Повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md), який може бути використаний для доступу до черги повідомлень System V або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 
-- [msg_remove_queue()](function.msg-remove-queue.md) - Видалення
-черги повідомлень
-- [msg_receive()](function.msg-receive.md) - Отримання повідомлення з
-черги повідомлень
-- [msg_send()](function.msg-send.md) - Надсилання повідомлення в чергу
-повідомлень
-- [msg_stat_queue()](function.msg-stat-queue.md) - Отримання
-інформації із структури даних черги повідомлень
-- [msg_set_queue()](function.msg-set-queue.md) - Встановлення
-інформації у структурі даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.md) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.md) - Отримання повідомлення з черги повідомлень
+-   [msgsend()](function.msg-send.md) - Надсилання повідомлення в чергу повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.md) - Отримання інформації із структури даних черги повідомлень
+-   [msgsetqueue()](function.msg-set-queue.md) - Встановлення інформації у структурі даних черги повідомлень

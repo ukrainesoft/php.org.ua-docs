@@ -1,25 +1,26 @@
-- [« RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.md)
-- [RecursiveIteratorIterator::getInnerIterator »](recursiveiteratoriterator.getinneriterator.md)
-
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- визначає поточну глибину рекурсії
-
+---
+navigation:
+  - recursiveiteratoriterator.enditeration.md: '« RecursiveIteratorIterator::endIteration'
+  - recursiveiteratoriterator.getinneriterator.md: 'RecursiveIteratorIterator::getInnerIterator »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::getDepth'
+---
 # RecursiveIteratorIterator::getDepth
 
 (PHP 5, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::getDepth — Визначає поточну глибину
-рекурсії
+RecursiveIteratorIterator::getDepth — Визначає поточну глибину рекурсії
 
 ### Опис
 
-public **RecursiveIteratorIterator::getDepth**(): int
+```methodsynopsis
+public RecursiveIteratorIterator::getDepth(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,4 +28,4 @@ public **RecursiveIteratorIterator::getDepth**(): int
 
 ### Значення, що повертаються
 
-Поточна глибина навігації рекурсії.
+Поточна глибина рекурсії навігації.

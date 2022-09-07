@@ -1,16 +1,13 @@
-- [« Вимоги](readline.requirements.md)
-- [Налаштування під час виконання »](readline.configuration.md)
+---
+navigation:
+  - readline.requirements.md: « Вимоги
+  - readline.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - readline.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](readline.setup.md)
-- Встановлення
+Для використання модуля потрібно скомпілювати CGI або CLI версію PHP з підтримкою readline. Необхідно налаштувати PHP з опцією **\-with-readline=DIR**. Якщо ж ви хочете використовувати альтернативну бібліотеку libedit, то потрібно конфігурувати з опцією **\-with-libedit=DIR**
 
-## Установка
-
-Для використання модуля вам потрібно скомпілювати CGI або CLI версію PHP
-за допомогою readline. Необхідно налаштувати PHP з опцією
-**--with-readline[=DIR]**. Якщо ж ви хочете використати
-альтернативну бібліотеку libedit, то конфігурувати треба з опцією
-**--with-libedit[=DIR]**.
-
-У Windows модуль доступний із версії PHP 7.1.0.
+Windows модуль доступний з версії PHP 7.1.0.

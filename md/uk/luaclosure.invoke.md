@@ -1,26 +1,26 @@
-- [« LuaClosure](class.luaclosure.md)
-- [LuaSandbox »](book.luasandbox.md)
+---
+navigation:
+  - class.luaclosure.md: « LuaClosure
+  - book.luasandbox.md: LuaSandbox »
+  - index.md: PHP Manual
+  - class.luaclosure.md: LuaClosure
+title: 'LuaClosure::invoke'
+---
+# LuaClosure::invoke
 
-- [PHP Manual](index.md)
-- [LuaClosure](class.luaclosure.md)
-- Виклик замикання Lua
+(PECL lua> = 0.9.0)
 
-# LuaClosure::\_\_invoke
-
-(PECL lua \>=0.9.0)
-
-LuaClosure::\_\_invoke — Виклик замикання Lua
+LuaClosure::invoke — Виклик замикання Lua
 
 ### Опис
 
-public
-**LuaClosure::\_\_invoke**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`): void
+```methodsynopsis
+public LuaClosure::__invoke(mixed ...$args): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,10 +30,25 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання**LuaClosure::\_\_invoke()****
+**Приклад #1 Приклад використання**LuaClosure::invoke()\*\*\*\*
 
-`<?php$lua = new Lua();$closure = $lua->eval(<<<CODE   return (function ()       print("hello world")   | );$closure();?> `
+```php
+<?php
+$lua = new Lua();
+$closure = $lua->eval(<<<CODE
+    return (function ()
+        print("hello world")
+    end)
+CODE
+);
+
+$lua->call($closure);
+$closure();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 hello worldhello world
+```

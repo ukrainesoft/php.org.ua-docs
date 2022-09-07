@@ -1,13 +1,14 @@
-- [« Creative Commons Attribution 3.0](cc.license.md)
-- [Список функцій та методів»](indexes.functions.md)
-
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Алфавітний список
-
-# Алфавітний список
+---
+navigation:
+  - cc.license.md: « Creative Commons Attribution 3.0
+  - indexes.functions.md: Список функций и методов »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Алфавітний перелік
+---
+# Алфавітний перелік
 
 ## Зміст
 
-- [Список функцій та методів](indexes.functions.md)
-- [Список прикладів](indexes.examples.md)
+-   [Список функций и методов](indexes.functions.md)
+-   [Список примеров](indexes.examples.md)

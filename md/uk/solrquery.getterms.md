@@ -1,21 +1,24 @@
-- [«SolrQuery::getStatsFields](solrquery.getstatsfields.md)
-- [SolrQuery::getTermsField »](solrquery.gettermsfield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає, чи увімкнено TermsComponent
-
+---
+navigation:
+  - solrquery.getstatsfields.md: '« SolrQuery::getStatsFields'
+  - solrquery.gettermsfield.md: 'SolrQuery::getTermsField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTerms'
+---
 # SolrQuery::getTerms
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getTerms — Повертає, чи увімкнено TermsComponent
 
 ### Опис
 
-public **SolrQuery::getTerms**(): bool
+```methodsynopsis
+public SolrQuery::getTerms(): bool
+```
 
-Повертає, чи увімкнено TermsComponent
+Повертає, чи включено Terms Component
 
 ### Список параметрів
 
@@ -23,5 +26,4 @@ public **SolrQuery::getTerms**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

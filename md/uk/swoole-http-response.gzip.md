@@ -1,20 +1,22 @@
-- [« Swoole\Http\Response::end](swoole-http-response.end.md)
-- [Swoole\Http\Response::header »](swoole-http-response.header.md)
+---
+navigation:
+  - swoole-http-response.end.md: '« SwooleHttpResponse::end'
+  - swoole-http-response.header.md: 'SwooleHttpResponse::header »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.md: SwooleHttpResponse
+title: 'SwooleHttpResponse::gzip'
+---
+# SwooleHttpResponse::gzip
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Включає gzip-стиснення вмісту відповіді.
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Response::gzip
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Response::gzip — Включає gzip-стиснення вмісту відповіді.
+SwooleHttpResponse::gzip — Включає gzip-стиснення вмісту відповіді.
 
 ### Опис
 
-public **Swoole\Http\Response::gzip**(string `$compress_level` = ?):
-ReturnType
+```methodsynopsis
+public Swoole\Http\Response::gzip(string $compress_level = ?): ReturnType
+```
 
 Заголовок про Content-Encoding буде додано автоматично.
 

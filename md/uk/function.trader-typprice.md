@@ -1,32 +1,37 @@
-- [«trader_tsf](function.trader-tsf.md)
-- [trader_ultosc »](function.trader-ultosc.md)
+---
+navigation:
+  - function.trader-tsf.md: « tradertsf
+  - function.trader-ultosc.md: traderultosc »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertypprice
+---
+# tradertypprice
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Типова ціна
+(PECL trader >= 0.2.0)
 
-#trader_typprice
-
-(PECL trader \>= 0.2.0)
-
-trader_typprice — Типова ціна
+tradertypprice — Типова ціна
 
 ### Опис
 
-**trader_typprice**(array `$high`, array `$low`, array `$close`): array
+```methodsynopsis
+trader_typprice(array $high, array $low, array $close): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

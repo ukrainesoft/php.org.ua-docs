@@ -1,10 +1,11 @@
-- [« ArrayIterator::current](arrayiterator.current.md)
-- [ArrayIterator::getFlags »](arrayiterator.getflags.md)
-
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Повертає копію масиву
-
+---
+navigation:
+  - arrayiterator.current.md: '« ArrayIterator::current'
+  - arrayiterator.getflags.md: 'ArrayIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::getArrayCopy'
+---
 # ArrayIterator::getArrayCopy
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,14 +14,15 @@ ArrayIterator::getArrayCopy — Повертає копію масиву
 
 ### Опис
 
-public **ArrayIterator::getArrayCopy**(): array
+```methodsynopsis
+public ArrayIterator::getArrayCopy(): array
+```
 
 Повертає копію масиву.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +30,8 @@ public **ArrayIterator::getArrayCopy**(): array
 
 ### Значення, що повертаються
 
-Копія масиву (array) або масив публічних властивостей, якщо ArrayIterator
-свідчить про об'єкт (object).
+Копія масиву (array) або масив публічних властивостей, якщо ArrayIterator вказує на об'єкт (object).
 
 ### Дивіться також
 
-- [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє,
-містить масив ще записи
+-   [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє, чи містить масив ще запису

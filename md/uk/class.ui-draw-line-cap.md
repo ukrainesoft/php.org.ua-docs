@@ -1,10 +1,11 @@
-- ["UI\Draw\Text\Font\Stretch](class.ui-draw-text-font-stretch.md)
-- [UI\Draw\Line\Join »](class.ui-draw-line-join.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Налаштування кінців ліній
-
+---
+navigation:
+  - class.ui-draw-text-font-stretch.md: « UIDrawTextFontStretch
+  - class.ui-draw-line-join.md: ОЙDrawLineJoin »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Налаштування кінців ліній
+---
 # Налаштування кінців ліній
 
 (UI 0.9.9)
@@ -13,14 +14,31 @@
 
 ## Огляд класів
 
-final class **UI\Draw\Line\Cap** {
+```synopsis
 
-/\* Константи \*/
 
-const int `Flat`;
 
-const int `Round`;
+    
+     
+      final
+      class UI\Draw\Line\Cap
+     
+     {
 
-const int `Square`;
+    /* Константы */
+    
+     const
+     int
+      Flat;
 
-}
+    const
+     int
+      Round;
+
+    const
+     int
+      Square;
+
+
+   }
+```

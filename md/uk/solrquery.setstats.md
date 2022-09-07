@@ -1,29 +1,31 @@
-- [«SolrQuery::setStart](solrquery.setstart.md)
-- [SolrQuery::setTerms »](solrquery.setterms.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Включає або вимикає компонент Stats
-
+---
+navigation:
+  - solrquery.setstart.md: '« SolrQuery::setStart'
+  - solrquery.setterms.md: 'SolrQuery::setTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setStats'
+---
 # SolrQuery::setStats
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setStats — Включає або вимикає компонент Stats
+SolrQuery::setStats — Вмикає або вимикає компонент Stats
 
 ### Опис
 
-public **SolrQuery::setStats**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setStats(bool $flag): SolrQuery
+```
 
-Включає або вимикає компонент Stats.
+Вмикає або вимикає компонент Stats.
 
 ### Список параметрів
 
 `flag`
+
 **`true`** включає компонент Stats, а **`false`** відключає.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

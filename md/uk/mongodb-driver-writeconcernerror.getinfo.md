@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\WriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.md)
-- [MongoDB\Driver\WriteConcernError::getMessage »](mongodb-driver-writeconcernerror.getmessage.md)
+---
+navigation:
+  - mongodb-driver-writeconcernerror.getcode.md: '« MongoDBDriverWriteConcernError::getCode'
+  - mongodb-driver-writeconcernerror.getmessage.md: 'MongoDBDriverWriteConcernError::getMessage »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError
+title: 'MongoDBDriverWriteConcernError::getInfo'
+---
+# MongoDBDriverWriteConcernError::getInfo
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteConcernError](class.mongodb-driver-writeconcernerror.md)
-- Повертає документ метаданих для WriteConcernError
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\WriteConcernError::getInfo
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\WriteConcernError::getInfo — Повертає документ
-метаданих для WriteConcernError
+MongoDBDriverWriteConcernError::getInfo — Повертає документ метаданих для WriteConcernError
 
 ### Опис
 
-final public **MongoDB\Driver\WriteConcernError::getInfo**(): ?object
+```methodsynopsis
+final public MongoDB\Driver\WriteConcernError::getInfo(): ?object
+```
 
 ### Список параметрів
 
@@ -22,28 +24,44 @@ final public **MongoDB\Driver\WriteConcernError::getInfo**(): ?object
 
 ### Значення, що повертаються
 
-Повертає документ метаданих для WriteConcernError або **`null`**,
-якщо немає метаданих.
+Повертає документ метаданих для WriteConcernError або \*\*`null`\*\*якщо немає метаданих.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteConcernError::getInfo()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteConcernError::getInfo()****
 
-` <?php$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");$bulk = new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' => 1]);$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {   var_dump($e->getWriteResult()->getWriteConcernError()->getInfo());}?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+
+$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);
+
+try {
+    $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
+} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteConcernError()->getInfo());
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(stdClass)#1 (1) {
-["wtimeout"]=>
-bool(true)
+  ["wtimeout"]=>
+  bool(true)
 }
+```
 
 ### Дивіться також
 
-- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

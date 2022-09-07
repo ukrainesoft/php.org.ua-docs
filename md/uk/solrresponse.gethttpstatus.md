@@ -1,19 +1,22 @@
-- [« SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md)
-- [SolrResponse::getHttpStatusMessage »](solrresponse.gethttpstatusmessage.md)
-
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає HTTP-статус відповіді
-
+---
+navigation:
+  - solrresponse.getdigestedresponse.md: '« SolrResponse::getDigestedResponse'
+  - solrresponse.gethttpstatusmessage.md: 'SolrResponse::getHttpStatusMessage »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
+title: 'SolrResponse::getHttpStatus'
+---
 # SolrResponse::getHttpStatus
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrResponse::getHttpStatus — Повертає HTTP-статус відповіді
 
 ### Опис
 
-public **SolrResponse::getHttpStatus**(): int
+```methodsynopsis
+public SolrResponse::getHttpStatus(): int
+```
 
 Повертає HTTP-статус відповіді.
 

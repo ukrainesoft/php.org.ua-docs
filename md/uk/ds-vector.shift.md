@@ -1,20 +1,22 @@
-- [« Ds\Vector::set](ds-vector.set.md)
-- [Ds\Vector::slice »](ds-vector.slice.md)
+---
+navigation:
+  - ds-vector.set.md: '« DsVector::set'
+  - ds-vector.slice.md: 'ДсVector::slice »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::shift'
+---
+# ДсVector::shift
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Видаляє та повертає перше значення
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::shift
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::shift — Видаляє та повертає перше значення
+ДсVector::shift — Видаляє та повертає перше значення
 
 ### Опис
 
-public **Ds\Vector::shift**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Vector::shift(): mixed
+```
 
 Видаляє та повертає перше значення.
 
@@ -28,17 +30,26 @@ public **Ds\Vector::shift**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо вектор порожній.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо вектор порожній.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::shift()****
+**Приклад #1 Приклад використання **ДсVector::shift()****
 
-` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector->shift());var_dump($vector->shift()); var_dump($vector->shift());?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c"]);
+
+var_dump($vector->shift());
+var_dump($vector->shift());
+var_dump($vector->shift());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
 string(1) "b"
 string(1) "c"
+```

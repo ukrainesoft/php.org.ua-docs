@@ -1,24 +1,27 @@
-- [« Ds\Set::sorted](ds-set.sorted.md)
-- [Ds\Set::toArray »](ds-set.toarray.md)
+---
+navigation:
+  - ds-set.sorted.md: '« DsSet::sorted'
+  - ds-set.toarray.md: 'ДсSet::toArray »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::sum'
+---
+# ДсSet::sum
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає суму всіх значень колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Set::sum
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::sum — Повертає суму всіх значень колекції
+ДсSet::sum — Повертає суму всіх значень колекції
 
 ### Опис
 
-public **Ds\Set::sum**(): int\|float
+```methodsynopsis
+public Ds\Set::sum(): int|float
+```
 
 Повертає суму всіх значень колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Масиви та об'єкти вважаються нулем.
 
 ### Список параметрів
@@ -27,25 +30,36 @@ public **Ds\Set::sum**(): int\|float
 
 ### Значення, що повертаються
 
-Сума всіх значень колекції типів float чи int, залежно від
-значень колекції.
+Сума всіх значень колекції типу float або int, залежно від значень колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::sum()** з цілими
-значеннями**
+**Приклад #1 Приклад використання **ДсSet::sum()** з цілими значеннями**
 
-` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->sum());?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2, 3]);
+var_dump($set->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(6)
+```
 
-**Приклад #2 Приклад використання **Ds\Set::sum()** зі значеннями типу
-float**
+**Приклад #2 Приклад використання **ДсSet::sum()** зі значеннями типу float**
 
-` <?php$set = new \Ds\Set([1, 2.5, 3]);var_dump($set->sum());?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2.5, 3]);
+var_dump($set->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 float(6.5)
+```

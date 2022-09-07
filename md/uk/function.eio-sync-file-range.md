@@ -1,81 +1,71 @@
-- [«eio_symlink](function.eio-symlink.md)
-- [eio_sync »](function.eio-sync.md)
+---
+navigation:
+  - function.eio-symlink.md: « eiosymlink
+  - function.eio-sync.md: eiosync »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosyncfilerange
+---
+# eiosyncfilerange
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
+(PECL eio >= 0.0.1dev)
 
-#eio_sync_file_range
-
-(PECL eio \>= 0.0.1dev)
-
-eio_sync_file_range — Синхронізує сегмент файлу з даними файлу на
-зовнішньому сховищі
+eiosyncfilerange — Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
 
 ### Опис
 
-**eio_sync_file_range**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-int `$offset`,
-int `$nbytes`,
-int `$flags`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes,    int $flags,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_sync_file_range()** здійснює необхідні перевірки та дії
-при синхронізації відкритого файлу `fd` з дисковою підсистемою.
+**eiosyncfilerange()** здійснює необхідні перевірки та дії при синхронізації відкритого файлу `fd` з дисковою підсистемою.
 
 ### Список параметрів
 
 `fd`
+
 Файловий описувач
 
 `offset`
+
 Початкова позиція, з якою проводитиметься синхронізація
 
 `nbytes`
-Задає довжину сегмента файлу в байтах, яку потрібно
-синхронізувати. Якщо `nbytes` дорівнює нулю, будуть синхронізовані всі
-дані від `offset` до кінця файла.
+
+Задає довжину сегмента файлу в байтах, яку потрібно синхронізувати. Якщо `nbytes` і нулю, будуть синхронізовані всі дані від `offset` до кінця файлу.
 
 `flags`
-Бітова маска. Може включати комбінацію з наступних значень:
-**`EIO_SYNC_FILE_RANGE_WAIT_BEFORE`**, **`EIO_SYNC_FILE_RANGE_WRITE`**,
-**`EIO_SYNC_FILE_RANGE_WAIT_AFTER`**. Ці прапори мають те ж саме
-призначення, що й аналогічні константи *SYNC_FILE_RANGE\_\**
-(дивіться сторінку керівництва `SYNC_FILE_RANGE(2)`).
+
+Бітова маска. Може включати комбінацію з наступних значень: **`EIO_SYNC_FILE_RANGE_WAIT_BEFORE`** **`EIO_SYNC_FILE_RANGE_WRITE`** **`EIO_SYNC_FILE_RANGE_WAIT_AFTER`**. Ці прапори мають те саме призначення, що й аналогічні *SYNCFILERANGE* константи (дивіться сторінку керівництва `SYNC_FILE_RANGE(2)`
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
-Дані, які потрібно передати функції `callback`.
+
+Дані, які потрібно передати функції `callback`
 
 ### Значення, що повертаються
 
-**eio_sync_file_range()** повертає ресурс запиту у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eiosyncfilerange()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.

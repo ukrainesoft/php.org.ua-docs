@@ -1,71 +1,69 @@
-- [« ibase_prepare](function.ibase-prepare.md)
-- [ibase_restore »](function.ibase-restore.md)
+---
+navigation:
+  - function.ibase-prepare.md: « ibaseprepare
+  - function.ibase-restore.md: ibaserestore »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasequery
+---
+# ibasequery
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Виконує запит до бази даних InterBase
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_query
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_query — Виконує запит до бази даних InterBase
+ibasequery — Виконує запит до бази даних InterBase
 
 ### Опис
 
-**ibase_query**(resource `$link_identifier` = ?, string `$query`, int
-$bind_args = ?): resource
+```methodsynopsis
+ibase_query(resource $link_identifier = ?, string $query, int $bind_args = ?): resource
+```
 
 Виконує запит до бази даних InterBase.
 
 ### Список параметрів
 
 `link_identifier`
-Ідентифікатор посилання на InterBase. Якщо не вказано, передбачається остання
-відкрите посилання.
+
+Ідентифікатор посилання на InterBase. Якщо не вказано, передбачається останнє відкрите посилання.
 
 `query`
+
 Запит InterBase.
 
 `bind_args`
 
 ### Значення, що повертаються
 
-Якщо запит викликає помилку, повертає **false**. У разі успішного
-виконання та наявності (можливо, порожнього) результуючого набору
-(наприклад, із запитом SELECT) повертає ідентифікатор результату. Якщо
-запит був успішним і результатів не було, повертає **`true`**.
+Якщо запит викликає помилку, повертає **`false`**. У разі успішного виконання та наявності (можливо порожнього) результуючого набору (наприклад, із запитом SELECT) повертає ідентифікатор результату. Якщо запит був успішним та результатів не було, повертає **`true`**
 
-> **Примітка**:
->
-> У PHP 5.0.0 і вище ця функція повертатиме кількість рядків,
-> порушених запитом для операторів INSERT, UPDATE і DELETE. Щоб
-> зберегти зворотну сумісність, вона повертатиме **`true`** для
-> цих операцій, якщо запит виконано успішно без торкання
-> будь-яких рядків.
+> **Зауваження**
+> 
+> У PHP 5.0.0 і вище ця функція повертатиме кількість рядків, які торкнулися запиту, для операторів INSERT, UPDATE та DELETE. Щоб зберегти зворотну сумісність, вона повертатиме **`true`** для цих операцій, якщо запит виконано успішно без торкання будь-яких рядків.
 
 ### Помилки
 
-Якщо ви отримуєте повідомлення про помилку на кшталт "arithmetic exception,
-numeric overflow, або string truncation. Cannot transliterate character
-between character sets" (це відбувається, коли ви намагаєтеся використати
-будь-який символ з діакритичними знаками) при використанні цієї
-функції та після використання **ibase_query()**, ви повинні встановити
-символьне кодування (ISO8859_1 або ваше поточне символьне кодування).
+Якщо ви отримаєте повідомлення про помилку на кшталт "аритметичний висновок, numeric overflow, або string truncation. Cannot transliterate character between character sets" (це відбувається, коли ви намагаєтеся використовувати будь-який символ з діакритичними знаками) при використанні цієї функції та після використання **ibasequery()**, необхідно встановити символьне кодування (ISO88591 або ваше поточне символьне кодування).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_query()****
+**Приклад #1 Приклад використання **ibasequery()****
 
-` <?php$host = 'localhost:/path/to/your.gdb';$dbh = ibase_connect($host, $username, $password);$stmt = 'SELECT * FROM tblname';$sth = iba $dbh, $stmt) or die(ibase_errmsg());?> `
+```php
+<?php
+
+$host = 'localhost:/path/to/your.gdb';
+
+$dbh = ibase_connect($host, $username, $password);
+$stmt = 'SELECT * FROM tblname';
+
+$sth = ibase_query($dbh, $stmt) or die(ibase_errmsg());
+
+?>
+```
 
 ### Дивіться також
 
-- [ibase_errmsg()](function.ibase-errmsg.md) - Повертає повідомлення
-про помилку
-- [ibase_fetch_row()](function.ibase-fetch-row.md) - Витягує
-рядок із бази даних InterBase
-- [ibase_fetch_object()](function.ibase-fetch-object.md) - Отримує
-об'єкт із бази даних InterBase
-- [ibase_free_result()](function.ibase-free-result.md) - Звільняє
-набір результатів
+-   [ibaseerrmsg()](function.ibase-errmsg.md) - Повертає повідомлення про помилку
+-   [ibasefetchrow()](function.ibase-fetch-row.md) - Витягує рядок із бази даних InterBase
+-   [ibasefetchobject()](function.ibase-fetch-object.md) - Отримує об'єкт із бази даних InterBase
+-   [ibasefreeresult()](function.ibase-free-result.md) - Звільняє набір результатів

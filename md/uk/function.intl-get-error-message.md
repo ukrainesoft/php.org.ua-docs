@@ -1,19 +1,22 @@
-- [« intl_get_error_code](function.intl-get-error-code.md)
-- [intl_is_failure »](function.intl-is-failure.md)
+---
+navigation:
+  - function.intl-get-error-code.md: « intlgeterrorcode
+  - function.intl-is-failure.md: intlісfailure »
+  - index.md: PHP Manual
+  - ref.intl.md: Функции intl
+title: intlgeterrormessage
+---
+# intlgeterrormessage
 
-- [PHP Manual](index.md)
-- [Функції intl](ref.intl.md)
-- Отримати опис помилки
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-# intl_get_error_message
-
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
-
-intl_get_error_message — Отримати опис помилки
+intlgeterrormessage — Отримати опис помилки
 
 ### Опис
 
-**intl_get_error_message**(): string
+```methodsynopsis
+intl_get_error_message(): string
+```
 
 Отримати опис останньої помилки у функціях ICU.
 
@@ -27,19 +30,20 @@ intl_get_error_message — Отримати опис помилки
 
 ### Приклади
 
-**Приклад #1 Приклад використання **intl_get_error_message()****
+**Приклад #1 Приклад використання **intlgeterrormessage()****
 
-` <?phpif( Collator::getAvailableLocales() ====false ) {    show_error( intl_get_error_message() );}?> `
+```php
+<?php
+if( Collator::getAvailableLocales() === false ) {
+    show_error( intl_get_error_message() );
+}
+?>
+```
 
 ### Дивіться також
 
-- [intl_error_name()](function.intl-error-name.md) - Отримати ім'я
-помилки за її кодом
-- [intl_get_error_code()](function.intl-get-error-code.md) -
-Отримати код останньої помилки
-- [intl_is_failure()](function.intl-is-failure.md) - Перевірити,
-чи є код помилки ознакою збою
-- [collator_get_error_message()](collator.geterrormessage.md) -
-Отримує текст для останньої помилки Collator
-- [numfmt_get_error_message()](numberformatter.geterrormessage.md) -
-Отримує останнє повідомлення про помилку засобу форматування
+-   [intlerrorname()](function.intl-error-name.md) - Отримати ім'я помилки за її кодом
+-   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
+-   [collatorgeterrormessage()](collator.geterrormessage.md) - Отримує текст для останньої помилки коду Collator
+-   [numfmtgeterrormessage()](numberformatter.geterrormessage.md) - Отримує останнє повідомлення про помилку засобу форматування

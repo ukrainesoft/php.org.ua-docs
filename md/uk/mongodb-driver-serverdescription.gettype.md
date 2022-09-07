@@ -1,24 +1,24 @@
-- [« MongoDB\Driver\ServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.md)
-- [MongoDB\Driver\TopologyDescription »](class.mongodb-driver-topologydescription.md)
+---
+navigation:
+  - mongodb-driver-serverdescription.getroundtriptime.md: '« MongoDBDriverServerDescription::getRoundTripTime'
+  - class.mongodb-driver-topologydescription.md: MongoDBDriverTopologyDescription »
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getType'
+---
+# MongoDBDriverServerDescription::getType
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-- Повертає рядок, що позначає тип сервера
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\ServerDescription::getType
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\ServerDescription::getType — Повертає рядок,
-що позначає тип сервера
+MongoDBDriverServerDescription::getType — Повертає рядок, який позначає тип сервера
 
 ### Опис
 
-final public **MongoDB\Driver\ServerDescription::getType**(): string
+```methodsynopsis
+final public MongoDB\Driver\ServerDescription::getType(): string
+```
 
-Повертає рядок (string), що позначає тип сервера. Значення
-співвідноситиметься з константою
-[MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md).
+Повертає рядок (string), що позначає тип сервера. Значення співвідноситиметься з константою [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md)
 
 ### Список параметрів
 
@@ -30,10 +30,8 @@ final public **MongoDB\Driver\ServerDescription::getType**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getType()](mongodb-driver-server.gettype.md) -
-Повертає ціле число, що означає тип цього сервера
+-   [MongoDBDriverServer::getType()](mongodb-driver-server.gettype.md) - Повертає ціле число, що означає тип цього сервера

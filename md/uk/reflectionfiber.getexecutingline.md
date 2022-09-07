@@ -1,24 +1,24 @@
-- [« ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md)
-- [ReflectionFiber::getFiber »](reflectionfiber.getfiber.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFiber](class.reflectionfiber.md)
-- Отримує номер рядка поточної точки виконання
-
+---
+navigation:
+  - reflectionfiber.getexecutingfile.md: '« ReflectionFiber::getExecutingFile'
+  - reflectionfiber.getfiber.md: 'ReflectionFiber::getFiber »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::getExecutingLine'
+---
 # ReflectionFiber::getExecutingLine
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionFiber::getExecutingLine — Отримує номер рядка поточної точки
-виконання
+ReflectionFiber::getExecutingLine — Отримує номер рядка поточної точки виконання
 
 ### Опис
 
-public **ReflectionFiber::getExecutingLine**(): int
+```methodsynopsis
+public ReflectionFiber::getExecutingLine(): int
+```
 
-Повертає номер рядка поточної точки виконання у відображеному класі
-[Fiber](class.fiber.md). Якщо файл не було запущено або завершено,
-видається помилка [Error](class.error.md).
+Повертає номер рядка поточної точки виконання у відбитому класі [Fiber](class.fiber.md). Якщо файбер не було запущено або завершено, видається помилка [Error](class.error.md)
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ public **ReflectionFiber::getExecutingLine**(): int
 
 ### Значення, що повертаються
 
-Номер рядка поточної точки виконання файлу.
+Номер рядка поточної точки виконання файбера.

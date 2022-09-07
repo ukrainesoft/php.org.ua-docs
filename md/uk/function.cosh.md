@@ -1,26 +1,29 @@
-- [«cos](function.cos.md)
-- [decbin »](function.decbin.md)
-
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- гіперболічний косинус
-
+---
+navigation:
+  - function.cos.md: « cos
+  - function.decbin.md: decbin »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: cosh
+---
 # cosh
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
 cosh - Гіперболічний косинус
 
 ### Опис
 
-**cosh**(float `$num`): float
+```methodsynopsis
+cosh(float $num): float
+```
 
-Повертає гіперболічний косинус `num`, який визначається як
-`(exp(arg) + exp(-arg))/2`.
+Повертає гіперболічний косинус `num`, що визначається як `(exp(arg) + exp(-arg))/2`
 
 ### Список параметрів
 
 `num`
+
 Вхідне значення
 
 ### Значення, що повертаються
@@ -29,7 +32,7 @@ cosh - Гіперболічний косинус
 
 ### Дивіться також
 
-- [cos()](function.cos.md) - Косінус
-- [acosh()](function.acosh.md) - Гіперболічний арккосинус
-- [sinh()](function.sinh.md) - Гіперболічний синус
-- [tanh()](function.tanh.md) - Гіперболічний тангенс
+-   [cos()](function.cos.md) - Косінус
+-   [acosh()](function.acosh.md) - Гіперболічний арккосинус
+-   [sinh()](function.sinh.md) - Гіперболічний синус
+-   [tanh()](function.tanh.md) - гіперболічний тангенс

@@ -1,23 +1,24 @@
-- [«Gmagick::getimageheight](gmagick.getimageheight.md)
-- [Gmagick::getimageindex »](gmagick.getimageindex.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає гістограму зображення
-
+---
+navigation:
+  - gmagick.getimageheight.md: '« Gmagick::getimageheight'
+  - gmagick.getimageindex.md: 'Gmagick::getimageindex »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagehistogram'
+---
 # Gmagick::getimagehistogram
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagehistogram — Повертає гістограму зображення
 
 ### Опис
 
-public **Gmagick::getimagehistogram**(): array
+```methodsynopsis
+public Gmagick::getimagehistogram(): array
+```
 
-Повертає гістограму зображення у вигляді масиву об'єктів
-[GmagickPixel](class.gmagickpixel.md). У разі виникнення помилки
-викидає виняток **GmagickException**.
+Повертає гістограму зображення у вигляді масиву об'єктів [GmagickPixel](class.gmagickpixel.md). У разі виникнення помилки викидає виняток **GmagickException**
 
 ### Список параметрів
 
@@ -25,8 +26,7 @@ public **Gmagick::getimagehistogram**(): array
 
 ### Значення, що повертаються
 
-Повертає гістограму зображення у вигляді масиву об'єктів
-[GmagickPixel](class.gmagickpixel.md).
+Повертає гістограму зображення у вигляді масиву об'єктів [GmagickPixel](class.gmagickpixel.md)
 
 ### Помилки
 

@@ -1,26 +1,26 @@
-- [« Swoole\Server::task](swoole-server.task.md)
-- [Swoole\Server::taskWaitMulti »](swoole-server.taskwaitmulti.md)
+---
+navigation:
+  - swoole-server.task.md: '« SwooleServer::task'
+  - swoole-server.taskwaitmulti.md: 'SwooleServer::taskWaitMulti »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::taskwait'
+---
+# SwooleServer::taskwait
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Надсилає дані робочим процесам завдання блокуючим способом
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::taskwait
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::taskwait — Надсилає дані робочим процесам завдання
-блокуючим способом
+SwooleServer::taskwait — Надсилає дані робочим процесам завдання блокуючим способом
 
 ### Опис
 
-public **Swoole\Server::taskwait**(string `$data`, float `$timeout` = ?,
-int `$worker_id` = ?): void
+```methodsynopsis
+public Swoole\Server::taskwait(string $data, float $timeout = ?, int $worker_id = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\Session::getServer](mongodb-driver-session.getserver.md)
-- [MongoDB\Driver\Session::getTransactionState »](mongodb-driver-session.gettransactionstate.md)
+---
+navigation:
+  - mongodb-driver-session.getserver.md: '« MongoDBDriverSession::getServer'
+  - mongodb-driver-session.gettransactionstate.md: 'MongoDBDriverSession::getTransactionState »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
+title: 'MongoDBDriverSession::getTransactionOptions'
+---
+# MongoDBDriverSession::getTransactionOptions
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Повертає налаштування поточної транзакції
+(mongodb >=1.7.0)
 
-# MongoDB\Driver\Session::getTransactionOptions
-
-(mongodb \>=1.7.0)
-
-MongoDB\Driver\Session::getTransactionOptions — Повертає установки
-поточної транзакції
+MongoDBDriverSession::getTransactionOptions — Повертає установки поточної транзакції
 
 ### Опис
 
-final public **MongoDB\Driver\Session::getTransactionOptions**(): ?array
+```methodsynopsis
+final public MongoDB\Driver\Session::getTransactionOptions(): ?array
+```
 
 Повертає установки поточної транзакції.
 
@@ -24,15 +26,12 @@ final public **MongoDB\Driver\Session::getTransactionOptions**(): ?array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить налаштування поточної транзакції, або
-**`null`**, якщо транзакція не стартована.
+Повертає масив, що містить налаштування поточної транзакції, або \*\*`null`\*\*якщо транзакція не стартована.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Session::getTransactionState()](mongodb-driver-session.gettransactionstate.md) -
-Повертає статус транзакції для поточної сесії
+-   [MongoDBDriverSession::getTransactionState()](mongodb-driver-session.gettransactionstate.md) - Повертає статус транзакції для поточної сесії

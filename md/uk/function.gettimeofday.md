@@ -1,10 +1,11 @@
-- [«getdate](function.getdate.md)
-- [gmdate »](function.gmdate.md)
-
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Повертає поточний час
-
+---
+navigation:
+  - function.getdate.md: « getdate
+  - function.gmdate.md: gmdate »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: gettimeofday
+---
 # gettimeofday
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,44 +14,51 @@ gettimeofday — Повертає поточний час
 
 ### Опис
 
-**gettimeofday**(bool `$as_float` = **`false`**): array\|float
+```methodsynopsis
+gettimeofday(bool $as_float = false): array|float
+```
 
-Функція є інтерфейсом до системного виклику gettimeofday(2). Вона
-повертає асоціативний масив, що містить інформацію, отриману від
-системного дзвінка.
+Функція є інтерфейсом до системного виклику gettimeofday(2). Вона повертає асоціативний масив, що містить інформацію, одержану від системного виклику.
 
 ### Список параметрів
 
 `as_float`
-Якщо встановлено в **`true`**, замість масиву повертається число з
-плаваючою точкою.
+
+Якщо встановлено \*\*`true`\*\*замість масиву повертається число з плаваючою точкою.
 
 ### Значення, що повертаються
 
-За промовчанням повертається масив (array). Якщо встановлено параметр
-`as_float`, то повертається число з плаваючою точкою (float).
+За промовчанням повертається масив (array). Якщо встановлено параметр `as_float`, то повертається число з плаваючою точкою (float).
 
 Ключі масиву:
 
-- "sec" - кількість секунд, що минули з епохи Unix
-- "usec" - мікросекунди
-- "minuteswest" - зсув на захід від Грінвіча, в хвилинах
-- "dsttime" - тип корекції літнього часу
+-   "sec" - кількість секунд, що минули з епохи Unix
+-   "usec" - мікросекунди
+-   "minuteswest" - зсув на захід від Грінвіча, в хвилинах
+-   "dsttime" - тип корекції літнього часу
 
 ### Приклади
 
 **Приклад #1 Приклад використання функції **gettimeofday()****
 
-` <?phpprint_r(gettimeofday());echo gettimeofday(true);?> `
+```php
+<?php
+print_r(gettimeofday());
+
+echo gettimeofday(true);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[sec] => 1073504408
-[usec] => 238215
-[minuteswest] => 0
-[dsttime] => 1
+    [sec] => 1073504408
+    [usec] => 238215
+    [minuteswest] => 0
+    [dsttime] => 1
 )
 
 1073504408.23910
+```

@@ -1,33 +1,33 @@
-- [« yaz_itemorder](function.yaz-itemorder.md)
-- [yaz_range »](function.yaz-range.md)
+---
+navigation:
+  - function.yaz-itemorder.md: « yazitemorder
+  - function.yaz-range.md: yazrange »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazpresent
+---
+# yazpresent
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Готується до пошуку (Z39.50 є)
+(PHP 4> = 4.0.5, PECL yaz> = 0.9.0)
 
-# yaz_present
-
-(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
-
-yaz_present — Готується до пошуку (Z39.50 є)
+yazpresent — Готується до пошуку (Z39.50 є)
 
 ### Опис
 
-**yaz_present**(resource `$id`): bool
+```methodsynopsis
+yaz_present(resource $id): bool
+```
 
-Функція готує для повернення запису після успішного пошуку.
+Функція готує повернення запису після успішного пошуку.
 
-Функція [yaz_range()](function.yaz-range.md) має бути викликана до
-цією функцією, щоб вказати діапазон записів, які необхідно
-Вилучити.
+Функція [yazrange()](function.yaz-range.md) має бути викликана до цієї функції, щоб вказати діапазон записів, які потрібно витягти.
 
 ### Список параметрів
 
 `id`
-Ресурс з'єднання, повернутий
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

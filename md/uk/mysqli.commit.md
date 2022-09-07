@@ -1,74 +1,72 @@
-- [« mysqli::close](mysqli.close.md)
-- [mysqli::$connect_errno »](mysqli.connect-errno.md)
-
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Фіксує поточну транзакцію
-
+---
+navigation:
+  - mysqli.close.md: '« mysqli::close'
+  - mysqli.connect-errno.md: 'mysqli::$connecterrno »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::commit'
+---
 # mysqli::commit
 
-# mysqli_commit
+# mysqlicommit
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::commit -- mysqli_commit -- Фіксує поточну транзакцію
+mysqli::commit -- mysqlicommit - Фіксує поточну транзакцію
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::commit**(int `$flags` = 0, ?string `$name` =
-**`null`**): bool
+```methodsynopsis
+public mysqli::commit(int $flags = 0, ?string $name = null): bool
+```
 
 Процедурний стиль
 
-**mysqli_commit**([mysqli](class.mysqli.md) `$mysql`, int `$flags` =
-0, ?string `$name` = **`null`**): bool
+```methodsynopsis
+mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
+```
 
 Фіксує транзакцію для з'єднання з базою даних.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `flags`
-Бітмаска констант **`MYSQLI_TRANS_COR_*`**.
+
+Бітмаска констант **`MYSQLI_TRANS_COR_*`**
 
 `name`
-Якщо передано, то виконується `COMMIT/*name*/`.
+
+Якщо передано, то виконується `COMMIT/*name*/`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                |
-|--------|-------------------------------------|
-| 8.0.0  | name тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Приклади
 
-Дивіться приклад використання у розділі
-[[mysqli::begin_transaction()](mysqli.begin-transaction.md)](mysqli.begin-transaction.md#mysqli.begin-transaction.example.basic).
+Дивіться приклад використання у розділі [](mysqli.begin-transaction.md#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.md)
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція не працює з нетранзакційними типами таблиць (такими як
-> MyISAM або ISAM).
+> **Зауваження**
+> 
+> Функція не працює з нетранзакційними типами таблиць (наприклад, MyISAM або ISAM).
 
 ### Дивіться також
 
-- [mysqli_autocommit()](mysqli.autocommit.md) - Включає або
-відключає автоматичну фіксацію змін бази даних
-- [mysqli_begin_transaction()](mysqli.begin-transaction.md) -
-Стартує транзакцію
-- [mysqli_rollback()](mysqli.rollback.md) - Відкат поточної транзакції
-- [mysqli_savepoint()](mysqli.savepoint.md) - Встановіть іменовану
-точку збереження транзакції
+-   [mysqliautocommit()](mysqli.autocommit.md) - Вмикає або вимикає автоматичну фіксацію змін бази даних
+-   [mysqlibegintransaction()](mysqli.begin-transaction.md) - Стартує транзакцію
+-   [mysqlirollback()](mysqli.rollback.md) - Відкат поточної транзакції
+-   [mysqlisavepoint()](mysqli.savepoint.md) - Встановіть іменовану точку збереження транзакції

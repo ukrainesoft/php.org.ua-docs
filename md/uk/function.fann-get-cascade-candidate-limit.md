@@ -1,40 +1,39 @@
-- [« fann_get_cascade_candidate_change_fraction](function.fann-get-cascade-candidate-change-fraction.md)
-- [fann_get_cascade_candidate_stagnation_epochs »](function.fann-get-cascade-candidate-stagnation-epochs.md)
+---
+navigation:
+  - function.fann-get-cascade-candidate-change-fraction.md: « fanngetcascadecandidatechangefraction
+  - function.fann-get-cascade-candidate-stagnation-epochs.md: fanngetcascadecandidatestagnationepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadecandidatelimit
+---
+# fanngetcascadecandidatelimit
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає межу кандидата
+(PECL fann> = 1.0.0)
 
-# fann_get_cascade_candidate_limit
-
-(PECL fann = 1.0.0)
-
-fann_get_cascade_candidate_limit — Повертає межу кандидата
+fanngetcascadecandidatelimit — Повертає межу кандидата
 
 ### Опис
 
-**fann_get_cascade_candidate_limit**(resource `$ann`): float
+```methodsynopsis
+fann_get_cascade_candidate_limit(resource $ann): float
+```
 
-Межа кандидата - це межа того, скільки нейронів кандидата може
-бути навченим. Обмеження - це обмеження на співвідношення між MSE та
-балом кандидата.
+Межа кандидата - це межа того, скільки нейронів кандидата може бути навчено. Обмеження – це обмеження на співвідношення між MSE та балом кандидата.
 
-Встановлює це більш низьке значення, щоб уникнути
-переоснащення, і на більш високе, якщо переоснащення не є
-проблемою.
+Встановлює це більш низьке значення, щоб уникнути переоснащення, і більш високе, якщо переоснащення перестав бути проблемою.
 
-Гранична кількість за замовчуванням становить 1000.0.
+Гранична кількість кандидатів за умовчанням становить 1000.0.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Межа кандидата або **false** у разі виникнення помилки.
+Межа кандидата або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_cascade_candidate_limit()](function.fann-set-cascade-candidate-limit.md) -
-Встановлює ліміт кандидатів
+-   [fannsetcascadecandidatelimit()](function.fann-set-cascade-candidate-limit.md) - встановлює ліміт кандидатів

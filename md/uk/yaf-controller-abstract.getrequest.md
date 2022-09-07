@@ -1,20 +1,22 @@
-- [« Yaf_Controller_Abstract::getName](yaf-controller-abstract.getname.md)
-- [Yaf_Controller_Abstract::getResponse »](yaf-controller-abstract.getresponse.md)
+---
+navigation:
+  - yaf-controller-abstract.getname.md: '« YafControllerAbstract::getName'
+  - yaf-controller-abstract.getresponse.md: 'YafControllerAbstract::getResponse »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::getRequest'
+---
+# YafControllerAbstract::getRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Отримує поточний об'єкт запиту
+(Yaf >=1.0.0)
 
-# Yaf_Controller_Abstract::getRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Controller_Abstract::getRequest — Отримує поточний об'єкт запиту
+YafControllerAbstract::getRequest — Отримує поточний об'єкт запиту
 
 ### Опис
 
-public **Yaf_Controller_Abstract::getRequest**():
-[Yaf_Request_Abstract](class.yaf-request-abstract.md)
+```methodsynopsis
+public Yaf_Controller_Abstract::getRequest(): Yaf_Request_Abstract
+```
 
 Отримує поточний об'єкт запиту
 
@@ -24,4 +26,4 @@ public **Yaf_Controller_Abstract::getRequest**():
 
 ### Значення, що повертаються
 
-Примірник [Yaf_Request_Abstract](class.yaf-request-abstract.md)
+Екземпляр [YafRequestAbstract](class.yaf-request-abstract.md)

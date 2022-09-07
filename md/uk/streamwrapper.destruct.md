@@ -1,23 +1,22 @@
-- [« streamWrapper::\_\_construct](streamwrapper.construct.md)
-- [streamWrapper::dir_closedir »](streamwrapper.dir-closedir.md)
+---
+navigation:
+  - streamwrapper.construct.md: '« streamWrapper::construct'
+  - streamwrapper.dir-closedir.md: 'streamWrapper::dirclosedir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::destruct'
+---
+# streamWrapper::destruct
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Знищує існуючу обгортку потоку
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# streamWrapper::\_\_destruct
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-streamWrapper::\_\_destruct — Знищує існуючу обгортку потоку
+streamWrapper::destruct — Знищує існуючу обгортку потоку
 
 ### Опис
 
-public **streamWrapper::\_\_destruct**()
+public **streamWrapper::destruct**
 
-Викликається під час закриття обгортки потоку безпосередньо перед
-викликом методу
-[streamWrapper::stream_flush()](streamwrapper.stream-flush.md).
+Викликається під час закриття обгортки потоку безпосередньо перед викликом методу [streamWrapper::streamflush()](streamwrapper.stream-flush.md)
 
 ### Список параметрів
 

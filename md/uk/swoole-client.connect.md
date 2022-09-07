@@ -1,43 +1,40 @@
-- [« Swoole\Client::close](swoole-client.close.md)
-- [Swoole\Client::\_\_construct »](swoole-client.construct.md)
+---
+navigation:
+  - swoole-client.close.md: '« SwooleClient::close'
+  - swoole-client.construct.md: 'SwooleClient::construct »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::connect'
+---
+# SwooleClient::connect
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Підключається до віддаленого порту TCP або UDP
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::connect
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::connect — Підключається до віддаленого порту TCP або UDP
+SwooleClient::connect — Підключається до віддаленого порту TCP або UDP
 
 ### Опис
 
-public **Swoole\Client::connect**(
-string `$host`,
-int `$port` = ?,
-int `$timeout` = ?,
-int `$flag` = ?
-): bool
+```methodsynopsis
+public Swoole\Client::connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
+```
 
 ### Список параметрів
 
 `host`
+
 Ім'я хоста віддаленої адреси.
 
 `port`
+
 Номер порту віддаленої адреси.
 
 `timeout`
-Час очікування (у секундах) з'єднання/надсилання/отримання, значення по
-замовчуванням становить 0,1 с
+
+Час очікування (у секундах) з'єднання/надсилання/отримання, значення за замовчуванням становить 0,1 с
 
 `flag`
-Якщо тип клієнта - UDP, $flag означає, чи ввімкнено конфігурацію
-udp_connect. Якщо конфігурацію udp_connect увімкнено, клієнт буде
-отримувати дані лише із зазначеного ip:port. Якщо тип клієнта TCP, а
-$flag встановлено в 1, він повинен використовувати swoole_client_select
-перевірки стану з'єднання перед відправкою/отриманням.
+
+Якщо тип клієнта - UDP, $flag означає, чи ввімкнено конфігурацію udpconnect. Якщо конфігурація udpconnect включена, клієнт отримуватиме дані тільки з вказаного ip:port. Якщо тип клієнта TCP, а $flag встановлений на 1, він повинен використовувати swooleclientselect для перевірки стану з'єднання перед відправкою/отриманням.
 
 ### Значення, що повертаються
 

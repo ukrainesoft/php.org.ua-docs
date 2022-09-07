@@ -1,19 +1,22 @@
-- [« Ds\Map::capacity](ds-map.capacity.md)
-- [Ds\Map::\_\_construct »](ds-map.construct.md)
+---
+navigation:
+  - ds-map.capacity.md: '« DsMap::capacity'
+  - ds-map.construct.md: 'ДсMap::construct »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::clear'
+---
+# ДсMap::clear
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Видаляє всі значення з колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Map::clear
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::clear — Видаляє всі значення колекції.
+ДсMap::clear — Видаляє всі значення з колекції
 
 ### Опис
 
-public **Ds\Map::clear**(): void
+```methodsynopsis
+public Ds\Map::clear(): void
+```
 
 Видаляє всі значення колекції.
 
@@ -27,33 +30,47 @@ public **Ds\Map::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::clear()****
+**Приклад #1 Приклад використання **ДсMap::clear()****
 
-` <?php$map = new \Ds\Map([   "a" => 1,   "b" => 2,    "c" => 3,]);print_r($map);$map->ar );print_r($map);?> `
+```php
+<?php
+$map = new \Ds\Map([
+    "a" => 1,
+    "b" => 2,
+    "c" => 3,
+]);
+print_r($map);
+
+$map->clear();
+print_r($map);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => a
-[value] => 1
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 1
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 2
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 2
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => c
-[value] => 3
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 3
+        )
 
 )
 Ds\Map Object
 (
 )
+```

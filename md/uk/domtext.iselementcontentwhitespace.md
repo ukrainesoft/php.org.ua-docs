@@ -1,20 +1,22 @@
-- [«DOMText::\_\_construct](domtext.construct.md)
-- [DOMText::isWhitespaceInElementContent »](domtext.iswhitespaceinelementcontent.md)
-
-- [PHP Manual](index.md)
-- [DOMText](class.domtext.md)
-- Повертає, чи містить текстовий вузол пробіл у вмісті елемента
-
+---
+navigation:
+  - domtext.construct.md: '« DOMText::construct'
+  - domtext.iswhitespaceinelementcontent.md: 'DOMText::isWhitespaceInElementContent »'
+  - index.md: PHP Manual
+  - class.domtext.md: DOMText
+title: 'DOMText::isElementContentWhitespace'
+---
 # DOMText::isElementContentWhitespace
 
 (No version information available, might only be in Git)
 
-DOMText::isElementContentWhitespace — Повертає, чи містить текстовий
-вузол пробіл у вмісті елемента
+DOMText::isElementContentWhitespace — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
 
 ### Опис
 
-public **DOMText::isElementContentWhitespace**(): bool
+```methodsynopsis
+public DOMText::isElementContentWhitespace(): bool
+```
 
 ### Список параметрів
 
@@ -22,5 +24,4 @@ public **DOMText::isElementContentWhitespace**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

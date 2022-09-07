@@ -1,19 +1,22 @@
-- [« swoole_timer_tick](function.swoole-timer-tick.md)
-- [Swoole\Async »](class.swoole-async.md)
+---
+navigation:
+  - function.swoole-timer-tick.md: « swooletimertick
+  - class.swoole-async.md: SwooleAsync »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleversion
+---
+# swooleversion
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Отримати версію Swoole
+(PECL swoole >= 1.9.0)
 
-# swoole_version
-
-(PECL swoole \>= 1.9.0)
-
-swoole_version — Отримати версію Swoole
+swooleversion — Отримати версію Swoole
 
 ### Опис
 
-**swoole_version**(): string
+```methodsynopsis
+swoole_version(): string
+```
 
 ### Список параметрів
 

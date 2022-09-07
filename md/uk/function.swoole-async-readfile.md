@@ -1,37 +1,43 @@
-- [« swoole_async_read](function.swoole-async-read.md)
-- [swoole_async_set »](function.swoole-async-set.md)
+---
+navigation:
+  - function.swoole-async-read.md: « swooleasyncread
+  - function.swoole-async-set.md: swooleasyncset »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleasyncreadfile
+---
+# swooleasyncreadfile
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Асинхронне читання файлу
+(PECL swoole >= 1.9.0)
 
-# swoole_async_readfile
-
-(PECL swoole \>= 1.9.0)
-
-swoole_async_readfile - Асинхронне читання файлу
+swooleasyncreadfile - Асинхронне читання файлу
 
 ### Опис
 
-**swoole_async_readfile**(string `$filename`,
-[callable](language.types.callable.md) `$callback`): bool
+```methodsynopsis
+swoole_async_readfile(string $filename, callable $callback): bool
+```
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу для читання.
 
 `callback`
-callback(string `$filename`, string `$content`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+
+```methodsynopsis
+callback(string $filename, string $content): mixed
+```
 
 `filename`
+
 Ім'я файлу.
 
 `content`
+
 Вміст з файлу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

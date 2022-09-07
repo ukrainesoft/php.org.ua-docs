@@ -1,20 +1,22 @@
-- [« ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md)
-- [ReflectionFunctionAbstract::getExtensionName »](reflectionfunctionabstract.getextensionname.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує інформацію про модуль
-
+---
+navigation:
+  - reflectionfunctionabstract.getendline.md: '« ReflectionFunctionAbstract::getEndLine'
+  - reflectionfunctionabstract.getextensionname.md: 'ReflectionFunctionAbstract::getExtensionName »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getExtension'
+---
 # ReflectionFunctionAbstract::getExtension
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getExtension — Отримує інформацію про модуль
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getExtension**():
-?[ReflectionExtension](class.reflectionextension.md)
+```methodsynopsis
+public ReflectionFunctionAbstract::getExtension(): ?ReflectionExtension
+```
 
 Отримання інформації про модуль, до складу якого входить функція.
 
@@ -24,11 +26,8 @@ public **ReflectionFunctionAbstract::getExtension**():
 
 ### Значення, що повертаються
 
-Інформація про модуль як об'єкт
-[ReflectionExtension](class.reflectionextension.md) або **`null`** для
-функцій користувача.
+Інформація про модуль як об'єкт [ReflectionExtension](class.reflectionextension.md) або **`null`** для функцій користувача.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.md) -
-Отримання імені модуля
+-   [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.md) - Отримання імені модуля

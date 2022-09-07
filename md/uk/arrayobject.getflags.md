@@ -1,23 +1,24 @@
-- [« ArrayObject::getArrayCopy](arrayobject.getarraycopy.md)
-- [ArrayObject::getIterator »](arrayobject.getiterator.md)
-
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Отримує прапори поведінки
-
+---
+navigation:
+  - arrayobject.getarraycopy.md: '« ArrayObject::getArrayCopy'
+  - arrayobject.getiterator.md: 'ArrayObject::getIterator »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::getFlags'
+---
 # ArrayObject::getFlags
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::getFlags — Отримує прапори поведінки
 
 ### Опис
 
-public **ArrayObject::getFlags**(): int
+```methodsynopsis
+public ArrayObject::getFlags(): int
+```
 
-Отримує прапори [ArrayObject](class.arrayobject.md). Дивіться
-метод [ArrayObject::setFlags](arrayobject.setflags.md) для перегляду
-список можливих прапорів.
+Отримує прапори поведінки [ArrayObject](class.arrayobject.md). Дивіться метод [ArrayObject::setFlags](arrayobject.setflags.md) Щоб переглянути список можливих прапорів.
 
 ### Список параметрів
 
@@ -29,16 +30,35 @@ public **ArrayObject::getFlags**(): int
 
 ### Приклади
 
+**Приклад #1 Приклад використання **ArrayObject::getFlags()****
 
+```php
+<?php
+// Масив с количеством фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
-`<?php// Масив з кількістю фруктів$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);$fr Ar $fruits);// Одержання поточних прапорів$flags = $fruitsArrayObject->getFlags();var_dump($flags);// Установка нових прапорів$fruitsArrayObject->setFlags(ArrayObject = $fruitsArrayObject->getFlags();var_dump($flags);?> `
+$fruitsArrayObject = new ArrayObject($fruits);
+
+// Получение текущих флагов
+$flags = $fruitsArrayObject->getFlags();
+var_dump($flags);
+
+// Установка новых флагов
+$fruitsArrayObject->setFlags(ArrayObject::ARRAY_AS_PROPS);
+
+// Получение новых флагов
+$flags = $fruitsArrayObject->getFlags();
+var_dump($flags);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(0)
 int(2)
+```
 
 ### Дивіться також
 
-- Метод [ArrayObject::setFlags()](arrayobject.setflags.md) -
-Встановлює прапори поведінки
+-   Метод [ArrayObject::setFlags()](arrayobject.setflags.md) - Встановлює прапори поведінки

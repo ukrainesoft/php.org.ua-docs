@@ -1,31 +1,31 @@
-- [« oci_free_descriptor](function.oci-free-descriptor.md)
-- [oci_get_implicit_resultset »](function.oci-get-implicit-resultset.md)
+---
+navigation:
+  - function.oci-free-descriptor.md: « ocifreedescriptor
+  - function.oci-get-implicit-resultset.md: ocigetimplicitresultset »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifreestatement
+---
+# ocifreestatement
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Звільняє ресурси, які займає курсор або SQL-вираз.
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_free_statement
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_free_statement — Звільняє ресурси, які займає курсор або
-SQL-виразом
+ocifreestatement — Звільняє ресурси, які займає курсор або SQL-вираз.
 
 ### Опис
 
-**oci_free_statement**(resource `$statement`): bool
+```methodsynopsis
+oci_free_statement(resource $statement): bool
+```
 
-Звільняє всі ресурси, які займає курсор або SQL-вираз, який
-було повернено функцією [oci_parse()](function.oci-parse.md) або
-отримано від сервера Oracle.
+Звільняє всі ресурси, що займаються курсором або SQL-виразом, яке повернуто функцією [ociparse()](function.oci-parse.md) або отримано від сервера Oracle.
 
 ### Список параметрів
 
 `statement`
-Допустимий ідентифікатор виразу OCI.
+
+Допустимий ідентифікатор OCI-виразу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

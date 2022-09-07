@@ -1,32 +1,34 @@
-- [« DOMElement::setIdAttribute](domelement.setidattribute.md)
-- [DOMElement::setIdAttributeNS »](domelement.setidattributens.md)
-
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
-
+---
+navigation:
+  - domelement.setidattribute.md: '« DOMElement::setIdAttribute'
+  - domelement.setidattributens.md: 'DOMElement::setIdAttributeNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::setIdAttributeNode'
+---
 # DOMElement::setIdAttributeNode
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::setIdAttributeNode — Оголошує атрибут, вказаний вузлом, з
-ідентифікатор типу
+DOMElement::setIdAttributeNode — Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
 
 ### Опис
 
-public **DOMElement::setIdAttributeNode**([DOMAttr](class.domattr.md)
-`$attr`, bool `$isId`): void
+```methodsynopsis
+public DOMElement::setIdAttributeNode(DOMAttr $attr, bool $isId): void
+```
 
-Оголошує атрибут, який визначається вузлом `attr`, ідентифікатором типу.
+Оголошує атрибут, який визначається вузлом `attr`, ідентифікатор типу.
 
 ### Список параметрів
 
 `attr`
+
 Вузол атрибуту.
 
 `isId`
-Встановіть значення в **`true`** якщо ви хочете, щоб `name` мав
-ідентифікатор типу, **`false`** інакше.
+
+Встановіть значення в **`true`** якщо ви хочете, щоб `name` мав ідентифікатор типу, **`false`** в іншому випадку.
 
 ### Значення, що повертаються
 
@@ -35,17 +37,15 @@ public **DOMElement::setIdAttributeNode**([DOMAttr](class.domattr.md)
 ### Помилки
 
 **`DOM_NO_MODIFICATION_ALLOWED_ERR`**
+
 Виникає, якщо вузол доступний лише читання.
 
 **`DOM_NOT_FOUND`**
+
 Виникає, якщо `name` не є атрибутом елемента.
 
 ### Дивіться також
 
-- [DOMDocument::getElementById()](domdocument.getelementbyid.md) -
-Шукає елемент із певним ідентифікатором
-- [DOMElement::setIdAttribute()](domelement.setidattribute.md) -
-Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
-- [DOMElement::setIdAttributeNS()](domelement.setidattributens.md) -
-Оголошує атрибут, вказаний локальним ім'ям та URI простору
-імен, з ідентифікатором типу
+-   [DOMDocument::getElementById()](domdocument.getelementbyid.md) - Шукає елемент із певним ідентифікатором
+-   [DOMElement::setIdAttribute()](domelement.setidattribute.md) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
+-   [DOMElement::setIdAttributeNS()](domelement.setidattributens.md) - Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу

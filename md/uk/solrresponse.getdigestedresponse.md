@@ -1,20 +1,22 @@
-- [«SolrResponse](class.solrresponse.md)
-- [SolrResponse::getHttpStatus »](solrresponse.gethttpstatus.md)
-
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає відповідь XML як серіалізовані дані PHP
-
+---
+navigation:
+  - class.solrresponse.md: « SolrResponse
+  - solrresponse.gethttpstatus.md: 'SolrResponse::getHttpStatus »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
+title: 'SolrResponse::getDigestedResponse'
+---
 # SolrResponse::getDigestedResponse
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrResponse::getDigestedResponse — Повертає відповідь XML як
-серіалізовані дані PHP
+SolrResponse::getDigestedResponse — Повертає відповідь XML як серіалізовані дані PHP
 
 ### Опис
 
-public **SolrResponse::getDigestedResponse**(): string
+```methodsynopsis
+public SolrResponse::getDigestedResponse(): string
+```
 
 Повертає відповідь XML як серіалізовані дані PHP
 

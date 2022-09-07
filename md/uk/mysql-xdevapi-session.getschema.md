@@ -1,10 +1,11 @@
-- [« Session::getDefaultSchema](mysql-xdevapi-session.getdefaultschema.md)
-- [Session::getSchemas »](mysql-xdevapi-session.getschemas.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Отримує новий об'єкт схеми
-
+---
+navigation:
+  - mysql-xdevapi-session.getdefaultschema.md: '« Session::getDefaultSchema'
+  - mysql-xdevapi-session.getschemas.md: 'Session::getSchemas »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+title: 'Session::getSchema'
+---
 # Session::getSchema
 
 (No version information available, might only be in Git)
@@ -13,14 +14,16 @@ Session::getSchema — Отримує новий об'єкт схеми
 
 ### Опис
 
-public **mysql_xdevapi\Session::getSchema**(string `$schema_name`):
-[mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
+```methodsynopsis
+public mysql_xdevapi\Session::getSchema(string $schema_name): mysql_xdevapi\Schema
+```
 
 Новий об'єкт Schema для вказаного імені схеми.
 
 ### Список параметрів
 
 `schema_name`
+
 Ім'я схеми (бази даних), на яку потрібно отримати об'єкт Schema.
 
 ### Значення, що повертаються
@@ -29,14 +32,21 @@ public **mysql_xdevapi\Session::getSchema**(string `$schema_name`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::getSchema()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchema()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");print_r($schema); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$schema  = $session->getSchema("addressbook");
+
+print_r($schema);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 mysql_xdevapi\Schema Object
 (
-[name] => addressbook
+    [name] => addressbook
 )
+```

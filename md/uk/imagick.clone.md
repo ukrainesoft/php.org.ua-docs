@@ -1,10 +1,11 @@
-- [« Imagick::clipPathImage](imagick.clippathimage.md)
-- [Imagick::clutImage »](imagick.clutimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює точну копію об'єкту Imagick
-
+---
+navigation:
+  - imagick.clippathimage.md: '« Imagick::clipPathImage'
+  - imagick.clutimage.md: 'Imagick::clutImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clone'
+---
 # Imagick::clone
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,14 +14,15 @@ Imagick::clone — Створює точну копію об'єкту Imagick
 
 ### Опис
 
-public **Imagick::clone**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::clone(): Imagick
+```
 
 Створює точну копію об'єкту Imagick.
 
 **Увага**
 
-Функція застаріла (*DEPRECATED*) з imagick версії 3.1.0, замість неї
-використовуйте ключове слово [clone](language.oop5.cloning.md).
+Функція застаріла (*DEPRECATED*) з imagick версії 3.1.0, замість неї використовуйте ключове слово [clone](language.oop5.cloning.md)
 
 ### Список параметрів
 
@@ -28,16 +30,24 @@ public **Imagick::clone**(): [Imagick](class.imagick.md)
 
 ### Значення, що повертаються
 
-Повернеться копія об'єкту Imagick.
+Повернеться копія об'єкта Imagick.
 
-### Список змін
+### список змін
 
-| Версія             | Опис                                                                         |
-|--------------------|------------------------------------------------------------------------------|
-| PECL imagick 3.1.0 | Метод застарів на користь ключового слова [clone](language.oop5.cloning.md). |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 3.1.0 | Метод застарів на користь ключового слова [clone](language.oop5.cloning.md) |
 
 ### Приклади
 
-**Приклад #1 Клонування об'єкту Imagick у різних версіях**
+**Приклад #1 Клонування об'єкта Imagick у різних версіях**
 
-`<?php// Клонування об'єкта Imagick в imagick 2.x і 3.0:$newImage = $image->clone();// Клонування об'єкта Imagick з версії 3.1.0:$ne
+```php
+<?php
+// Клонирование объекта Imagick в imagick 2.x и 3.0:
+$newImage = $image->clone();
+
+// Клонирование объекта Imagick с версии 3.1.0:
+$newImage = clone $image;
+?>
+```

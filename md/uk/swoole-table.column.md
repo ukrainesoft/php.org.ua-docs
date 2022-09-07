@@ -1,20 +1,22 @@
-- [« Swoole\Table](class.swoole-table.md)
-- [Swoole\Table::\_\_construct »](swoole-table.construct.md)
+---
+navigation:
+  - class.swoole-table.md: « SwooleTable
+  - swoole-table.construct.md: 'SwooleTable::construct »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::column'
+---
+# SwooleTable::column
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Встановлює тип даних та розмір стовпців
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::column
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::column — Встановлює тип даних та розмір стовпців
+SwooleTable::column — Встановлює тип даних та розмір стовпців
 
 ### Опис
 
-public **Swoole\Table::column**(string `$name`, string `$type`, int
-`$size` = ?): ReturnType
+```methodsynopsis
+public Swoole\Table::column(string $name, string $type, int $size = ?): ReturnType
+```
 
 ### Список параметрів
 

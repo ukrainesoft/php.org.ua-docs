@@ -1,48 +1,59 @@
-- [« Ds\Sequence::filter](ds-sequence.filter.md)
-- [Ds\Sequence::first »](ds-sequence.first.md)
+---
+navigation:
+  - ds-sequence.filter.md: '« DsSequence::filter'
+  - ds-sequence.first.md: 'ДсSequence::first »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::find'
+---
+# ДсSequence::find
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Пошук індексу за значенням
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::find
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::find — Пошук індексу за значенням
+ДсSequence::find — Пошук індексу за значенням
 
 ### Опис
 
-abstract public
-**Ds\Sequence::find**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract public Ds\Sequence::find(mixed $value): mixed
+```
 
-Повертає індекс значення `value`, або **`false`**, якщо нічого не
-знайдено.
+Повертає індекс значення `value`, або \*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
 `value`
+
 Шукане значення.
 
 ### Значення, що повертаються
 
-Індекс елемента, або **`false`**, якщо значення не знайдено.
+Індекс елемента, або \*\*`false`\*\*якщо значення не знайдено.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Елементи порівнюються строго, за типом та значенням.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::find()****
+**Приклад #1 Приклад використання **ДсSequence::find()****
 
-` <?php$sequence = new \Ds\Vector(["a", 1, true]);var_dump($sequence->find("a")); // 0var_dump($sequence->find("b")); //falsevar_dump($sequence->find("1")); //falsevar_dump($sequence->find(1)); // 1?> `
+```php
+<?php
+$sequence = new \Ds\Vector(["a", 1, true]);
+
+var_dump($sequence->find("a")); // 0
+var_dump($sequence->find("b")); // false
+var_dump($sequence->find("1")); // false
+var_dump($sequence->find(1));   // 1
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(0)
 bool(false)
 bool(false)
 int(1)
+```

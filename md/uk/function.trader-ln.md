@@ -1,29 +1,31 @@
-- [« trader_linearreg](function.trader-linearreg.md)
-- [trader_log10 »](function.trader-log10.md)
+---
+navigation:
+  - function.trader-linearreg.md: « traderlinearreg
+  - function.trader-log10.md: traderlog10 »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderлн
+---
+# traderлн
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Вектор натурального логарифму
+(PECL trader >= 0.2.0)
 
-# trader_ln
-
-(PECL trader \>= 0.2.0)
-
-trader_ln — вектор натурального логарифму
+traderln — вектор натурального логарифму.
 
 ### Опис
 
-**trader_ln**(array `$real`): array
+```methodsynopsis
+trader_ln(array $real): array
+```
 
-Обчислює натуральний логарифм для кожного значення в `real` та
-повертає отриманий масив.
+Обчислює натуральний логарифм для кожного значення `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,50 +1,59 @@
-- [«mcrypt_get_block_size](function.mcrypt-get-block-size.md)
-- [mcrypt_get_iv_size »](function.mcrypt-get-iv-size.md)
+---
+navigation:
+  - function.mcrypt-get-block-size.md: « mcryptgetblocksize
+  - function.mcrypt-get-iv-size.md: mcryptgetвербsize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptgetciphername
+---
+# mcryptgetciphername
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Отримує ім'я вказаного шифру
+(PHP 4, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_get_cipher_name
-
-(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_get_cipher_name — Отримує ім'я вказаного шифру
+mcryptgetciphername — Отримує ім'я вказаного шифру
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_get_cipher_name**(int `$cipher`): string
+```methodsynopsis
+mcrypt_get_cipher_name(int $cipher): string
+```
 
-**mcrypt_get_cipher_name**(string `$cipher`): string
+```methodsynopsis
+mcrypt_get_cipher_name(string $cipher): string
+```
 
-Функція **mcrypt_get_cipher_name()** використовується для отримання імені
-вказаного шифру.
+Функція **mcryptgetciphername()** використовується для отримання вказаного шифру.
 
-**mcrypt_get_cipher_name()** бере номер шифру як аргумент
-(libmcrypt 2.2.x) або ім'я шифру (libmcrypt 2.4.x або вище) та повертає
-ім'я шифру чи **`false`**, якщо шифр відсутній.
+**mcryptgetciphername()** бере номер шифру як аргумент (libmcrypt 2.2.x) або ім'я шифру (libmcrypt 2.4.x або вище) і повертає ім'я шифру або \*\*`false`\*\*якщо шифр відсутній.
 
 ### Список параметрів
 
 `cipher`
-Одна з констант **`MCRYPT_ciphername`** або назва алгоритму у вигляді
-рядки.
+
+Одна з констант **`MCRYPT_ciphername`** або назва алгоритму у вигляді рядка.
 
 ### Значення, що повертаються
 
-Функція повертає ім'я шифру або ** false, якщо такого шифру немає.
+Функція повертає ім'я шифру або \*\*`false`\*\*якщо такого шифру немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcrypt_get_cipher_name()****
+**Приклад #1 Приклад використання **mcryptgetciphername()****
 
-`<?php  $cipher==MCRYPT_TripleDES; echo mcrypt_get_cipher_name($cipher);?> `
+```php
+<?php
+   $cipher = MCRYPT_TripleDES;
+
+   echo mcrypt_get_cipher_name($cipher);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3DES
+```

@@ -1,27 +1,30 @@
-- [« fann_read_train_from_file](function.fann-read-train-from-file.md)
-- [fann_reset_errstr »](function.fann-reset-errstr.md)
+---
+navigation:
+  - function.fann-read-train-from-file.md: « fannreadtrainfromfile
+  - function.fann-reset-errstr.md: fannreseterrstr »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannreseterrno
+---
+# fannreseterrno
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- скидає номер останньої помилки
+(PECL fann> = 1.0.0)
 
-# fann_reset_errno
-
-(PECL fann = 1.0.0)
-
-fann_reset_errno — Скидає номер останньої помилки
+fannreseterrno — Скидає номер останньої помилки
 
 ### Опис
 
-**fann_reset_errno**(resource `$errdat`): void
+```methodsynopsis
+fann_reset_errno(resource $errdat): void
+```
 
 Скидає номер останньої помилки.
 
 ### Список параметрів
 
 `errdat`
-Або ресурс (resource) нейронної мережі, або ресурс (resource) учнів
-даних нейронної мережі.
+
+Або ресурс (resource) нейронної мережі, або ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
@@ -29,7 +32,5 @@ fann_reset_errno — Скидає номер останньої помилки
 
 ### Дивіться також
 
-- [fann_get_errno()](function.fann-get-errno.md) - Повертає
-останній номер помилки
-- [fann_reset_errstr()](function.fann-reset-errstr.md) - Скидає
-останній рядок помилки
+-   [fanngeterrno()](function.fann-get-errno.md) - Повертає останній номер помилки
+-   [fannreseterrstr()](function.fann-reset-errstr.md) - Скидає останній рядок помилки

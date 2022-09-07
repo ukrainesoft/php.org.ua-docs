@@ -1,47 +1,57 @@
-- [«is_infinite](function.is-infinite.md)
-- [lcg_value »](function.lcg-value.md)
+---
+navigation:
+  - function.is-infinite.md: « isinfinite
+  - function.lcg-value.md: lcgvalue »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: ісnan
+---
+# ісnan
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Перевіряє, чи є значення "не числом"
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#is_nan
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-is_nan — Перевіряє, чи є значення "не числом"
+ісnan — Перевіряє, чи є значення "не числом"
 
 ### Опис
 
-**is_nan**(float `$num`): bool
+```methodsynopsis
+is_nan(float $num): bool
+```
 
-Перевіряє, чи є `num` "не числом" (NaN), наприклад, як результат
-виконання функції `acos(1.01)`.
+Перевіряє, чи є `num` "не числом" (NaN), наприклад, як результат виконання функції `acos(1.01)`
 
 ### Список параметрів
 
 `num`
+
 Перевірене значення
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `num` має значення "не число" (NaN),
-**`false`** інакше.
+Повертає **`true`**, якщо `num` має значення "не число" (NaN), **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_nan()****
+**Приклад #1 Приклад використання **ісnan()****
 
-`<?php// Неприпустиме обчислення, повертає// значення "не число" (NaN)$nan = acos(8);var_dump($nan, is_nan($nan));?> `
+```php
+<?php
+// Недопустимое вычисление, возвращает
+// значение "не число" (NaN)
+$nan = acos(8);
+
+var_dump($nan, is_nan($nan));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 float(NAN)
 bool(true)
+```
 
 ### Дивіться також
 
-- [is_finite()](function.is-finite.md) - Перевіряє, чи є
-значення допустимим кінцевим числом
-- [is_infinite()](function.is-infinite.md) - Перевіряє, чи є
-значення нескінченним
+-   [ісfinite()](function.is-finite.md) - Перевіряє, чи є значення допустимим кінцевим числом
+-   [ісinfinite()](function.is-infinite.md) - Перевіряє, чи є значення нескінченним

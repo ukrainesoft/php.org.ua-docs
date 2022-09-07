@@ -1,20 +1,22 @@
-- [« Swoole\Server::heartbeat](swoole-server.heartbeat.md)
-- [Swoole\Server::on »](swoole-server.on.md)
+---
+navigation:
+  - swoole-server.heartbeat.md: '« SwooleServer::heartbeat'
+  - swoole-server.on.md: 'SwooleServer::on »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::listen'
+---
+# SwooleServer::listen
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Слухає по заданому IP та порту, тип сокету
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::listen
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::listen — Слухає по заданому IP та порту, тип сокету
+SwooleServer::listen — Слухає по заданому IP та порту, тип сокету
 
 ### Опис
 
-public **Swoole\Server::listen**(string `$host`, int `$port`, string
-`$socket_type`): bool
+```methodsynopsis
+public Swoole\Server::listen(string $host, int $port, string $socket_type): bool
+```
 
 ### Список параметрів
 

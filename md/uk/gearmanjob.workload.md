@@ -1,22 +1,24 @@
-- [« GearmanJob::warning](gearmanjob.warning.md)
-- [GearmanJob::workloadSize »](gearmanjob.workloadsize.md)
-
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- отримання даних для обробки
-
+---
+navigation:
+  - gearmanjob.warning.md: '« GearmanJob::warning'
+  - gearmanjob.workloadsize.md: 'GearmanJob::workloadSize »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::workload'
+---
 # GearmanJob::workload
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanJob::workload — Отримання даних для обробки
 
 ### Опис
 
-public **GearmanJob::workload**(): string
+```methodsynopsis
+public GearmanJob::workload(): string
+```
 
-Повертає дані, передані для обробки. Це серіалізовані дані,
-з якими працюватиме обробник.
+Повертає дані, передані для обробки. Це серіалізовані дані, з якими працюватиме обробник.
 
 ### Список параметрів
 
@@ -28,7 +30,5 @@ public **GearmanJob::workload**(): string
 
 ### Дивіться також
 
-- [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання
-і повертає результат [Застарілий метод]
-- [GearmanJob::workloadSize()](gearmanjob.workloadsize.md) -
-Отримання розміру даних, що оброблюються
+-   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanJob::workloadSize()](gearmanjob.workloadsize.md) - Отримання розміру даних, що оброблюються

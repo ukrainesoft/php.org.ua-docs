@@ -1,50 +1,68 @@
-- [« Memcache::decrement](memcache.decrement.md)
-- [Memcache::flush »](memcache.flush.md)
-
-- [PHP Manual](index.md)
-- [Memcache](class.memcache.md)
-- Видалити елемент із сервера
-
+---
+navigation:
+  - memcache.decrement.md: '« Memcache::decrement'
+  - memcache.flush.md: 'Memcache::flush »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::delete'
+---
 # Memcache::delete
 
-(PECL memcache \>= 0.2.0)
+(PECL memcache >= 0.2.0)
 
 Memcache::delete — Видалити елемент із сервера
 
 ### Опис
 
-**Memcache::delete**(string `$key`, int `$timeout` = 0): bool
+```methodsynopsis
+Memcache::delete(string $key, int $timeout = 0): bool
+```
 
-**Memcache::delete()** видаляє елемент із зазначеним ключем `key`.
+**Memcache::delete()** видаляє елемент із зазначеним ключем `key`
 
 ### Список параметрів
 
 `key`
+
 Ключ елемента, що видаляється.
 
 `timeout`
-Це застарілий параметр і зараз не використовується. Значення по
-замовчуванням `0` секунд. Не використовуйте цей параметр.
+
+Це застарілий параметр і зараз не використовується. Значення за замовчуванням `0` секунд. Не використовуйте цей параметр.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія   | Опис                                                                                                                                                                                                                               |
-|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Невідомо | Не рекомендується використовувати параметр timeout. Поведінка відрізнятиметься в різних версіях memcache, проте його установка в 0 безпечна. Інші значення цього параметра можуть призвести до помилок під час видалення елемента. |
+| Версия | Описание |
+| --- | --- |
+| Невідомо | Не рекомендується використовувати параметр `timeout`. Поведінка буде різнитися в різних версіях memcache, однак його встановлення в `0` безпечна. Інші значення цього параметра можуть призвести до помилок під час видалення елемента. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcache::delete()****
 
-`<?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);/* елемент буде віддалений сервером */memcache_delete($memcache_ to = new Memcache;$memcache_obj->connect('memcache_host', 11211);$memcache_obj->delete('key_to_delete');?> `
+```php
+<?php
+
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+
+/* элемент будет удалён сервером */
+memcache_delete($memcache_obj, 'key_to_delete');
+
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+
+$memcache_obj->delete('key_to_delete');
+
+?>
+```
 
 ### Дивіться також
 
-- [Memcache::set()](memcache.set.md) - Зберегти дані на сервері
-- [Memcache::replace()](memcache.replace.md) - Замінити значення
-існуючого елемента
+-   [Memcache::set()](memcache.set.md) - Зберегти дані на сервері
+-   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента

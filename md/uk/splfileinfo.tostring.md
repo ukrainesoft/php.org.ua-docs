@@ -1,21 +1,24 @@
-- [« SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)
-- [SplFileObject »](class.splfileobject.md)
+---
+navigation:
+  - splfileinfo.setinfoclass.md: '« SplFileInfo::setInfoClass'
+  - class.splfileobject.md: SplFileObject »
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::toString'
+---
+# SplFileInfo::toString
 
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Повертає шлях до файлу у вигляді рядка
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-# SplFileInfo::\_\_toString
-
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
-
-SplFileInfo::\_\_toString — Повертає шлях до файлу у вигляді рядка
+SplFileInfo::toString — Повертає шлях до файлу у вигляді рядка
 
 ### Опис
 
-public **SplFileInfo::\_\_toString**(): string
+```methodsynopsis
+public SplFileInfo::__toString(): string
+```
 
-Цей метод поверне ім'я файлу.
+Цей метод поверне ім'я цього файлу.
 
 ### Список параметрів
 
@@ -27,13 +30,25 @@ public **SplFileInfo::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::\_\_toString()****
+**Приклад #1 Приклад використання **SplFileInfo::toString()****
 
-` <?php$info = new SplFileInfo('foo');var_dump($info->__toString());echo $info.PHP_EOL;$info = new SplFileInfo('/usr/bin/php');var_dump( $info->__toString());echo $info.PHP_EOL;?> `
+```php
+<?php
+$info = new SplFileInfo('foo');
+var_dump($info->__toString());
+echo $info.PHP_EOL;
+
+$info = new SplFileInfo('/usr/bin/php');
+var_dump($info->__toString());
+echo $info.PHP_EOL;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(3) "foo"
 foo
 string(12) "/usr/bin/php"
 /usr/bin/php
+```

@@ -1,26 +1,26 @@
-- [« Swoole\Server::stop](swoole-server.stop.md)
-- [Swoole\Server::taskwait »](swoole-server.taskwait.md)
+---
+navigation:
+  - swoole-server.stop.md: '« SwooleServer::stop'
+  - swoole-server.taskwait.md: 'SwooleServer::taskwait »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::task'
+---
+# SwooleServer::task
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Надсилає дані в робочі процеси завдання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::task
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::task — Надсилає дані в робочі процеси задачі
+SwooleServer::task — Надсилає дані в робочі процеси задачі
 
 ### Опис
 
-public **Swoole\Server::task**(string `$data`, int `$dst_worker_id` = ?,
-[callable](language.types.callable.md) `$callback` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Swoole\Server::task(string $data, int $dst_worker_id = ?, callable $callback = ?): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,49 +1,58 @@
-- [«gmp_neg](function.gmp-neg.md)
-- [gmp_or »](function.gmp-or.md)
+---
+navigation:
+  - function.gmp-neg.md: « gmpneg
+  - function.gmp-or.md: gmpor »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpnextprime
+---
+# gmpnextprime
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Пошук наступного простого числа
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-# gmp_nextprime
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-gmp_nextprime — Пошук наступного простого числа
+gmpnextprime — Пошук наступного простого числа
 
 ### Опис
 
-**gmp_nextprime**([GMP](class.gmp.md)\|int\|string `$num`):
-[GMP](class.gmp.md)
+```methodsynopsis
+gmp_nextprime(GMP|int|string $num): GMP
+```
 
-Шукає таке просте число
+Шукає наступне просте число
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Повертає наступне просте число, більше, ніж num у вигляді GMP числа.
+Повертає наступне просте число більше, ніж `num` як GMP числа.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_nextprime()****
+**Приклад #1 Приклад використання **gmpnextprime()****
 
-`<?php$prime1 = gmp_nextprime(10); // найближче просте число, наступне за 10$prime2 = gmp_nextprime(-1000); // найближче просте число, наступне за -1000echo gmp_strval($prime1) . "
-";echo gmp_strval($prime2) . "
-";?> `
+```php
+<?php
+$prime1 = gmp_nextprime(10); // ближайшее простое число, следующее за 10
+$prime2 = gmp_nextprime(-1000); // ближайшее простое число, следующее за -1000
+
+echo gmp_strval($prime1) . "\n";
+echo gmp_strval($prime2) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 11
 2
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція використовує ймовірнісний алгоритм визначення простих
-> Чисел та шанси отримати складову кількість надзвичайно малі.
+> **Зауваження**
+> 
+> Функція використовує ймовірнісний алгоритм визначення простих чисел і шанси отримати складове число надзвичайно малі.

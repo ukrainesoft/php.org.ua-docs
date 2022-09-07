@@ -1,19 +1,22 @@
-- [« SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.md)
-- [SolrCollapseFunction::getHint »](solrcollapsefunction.gethint.md)
-
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Повертає згорнуте поле
-
+---
+navigation:
+  - solrcollapsefunction.construct.md: '« SolrCollapseFunction::construct'
+  - solrcollapsefunction.gethint.md: 'SolrCollapseFunction::getHint »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::getField'
+---
 # SolrCollapseFunction::getField
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrCollapseFunction::getField — Повертає згорнуте поле
 
 ### Опис
 
-public **SolrCollapseFunction::getField**(): string
+```methodsynopsis
+public SolrCollapseFunction::getField(): string
+```
 
 Повертає згорнуте поле.
 
@@ -25,5 +28,4 @@ public **SolrCollapseFunction::getField**(): string
 
 ### Дивіться також
 
-- [SolrCollapseFunction::setField()](solrcollapsefunction.setfield.md) -
-Встановлює поле для згортання
+-   [SolrCollapseFunction::setField()](solrcollapsefunction.setfield.md) - Встановлює поле для згортання

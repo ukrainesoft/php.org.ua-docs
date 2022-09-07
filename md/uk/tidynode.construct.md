@@ -1,20 +1,20 @@
-- [« tidyNode](class.tidynode.md)
-- [tidyNode::getParent »](tidynode.getparent.md)
-
-- [PHP Manual](index.md)
-- [tidyNode](class.tidynode.md)
-- Приватний конструктор, який унеможливлює пряме створення об'єкта
-
-# tidyNode::\_\_construct
+---
+navigation:
+  - class.tidynode.md: « tidyNode
+  - tidynode.getparent.md: 'tidyNode::getParent »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::construct'
+---
+# tidyNode::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-tidyNode::\_\_construct — Приватний конструктор, який унеможливлює
-пряме створення об'єкта
+tidyNode::construct — Приватний конструктор, який унеможливлює пряме створення об'єкта
 
 ### Опис
 
-private **tidyNode::\_\_construct**()
+private **tidyNode::construct**
 
 ### Список параметрів
 

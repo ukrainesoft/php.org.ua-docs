@@ -1,36 +1,35 @@
-- [« eio_get_event_stream](function.eio-get-event-stream.md)
-- [eio_grp_add »](function.eio-grp-add.md)
+---
+navigation:
+  - function.eio-get-event-stream.md: « eiogeteventstream
+  - function.eio-grp-add.md: eiogrpadd »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogetlasterror
+---
+# eiogetlasterror
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Повертає останню помилку, пов'язану із вказівником на ресурс
+(PECL eio >= 1.0.0)
 
-#eio_get_last_error
-
-(PECL eio \>= 1.0.0)
-
-eio_get_last_error — Повертає останню помилку, пов'язану з вказівником
-на ресурс
+eiogetlasterror — Повертає останню помилку, пов'язану із вказівником на ресурс
 
 ### Опис
 
-**eio_get_last_error**(resource `$req`): string
+```methodsynopsis
+eio_get_last_error(resource $req): string
+```
 
-**eio_get_last_error()** повертає останню помилку, пов'язану з
-вказівником на ресурс `req`.
+**eiogetlasterror()** повертає останню помилку, пов'язану із вказівником на ресурс `req`
 
 ### Список параметрів
 
 `req`
+
 Покажчик на ресурс
 
 ### Значення, що повертаються
 
-**eio_get_last_error()** повертає рядок, що містить останню помилку,
-пов'язану з вказівником на ресурс `req`.
+**eiogetlasterror()** повертає рядок, що містить останню помилку, пов'язану з вказівником на ресурс `req`
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

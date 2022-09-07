@@ -1,18 +1,17 @@
-- [«socket_set_option](function.socket-set-option.md)
-- [socket_shutdown »](function.socket-shutdown.md)
+---
+navigation:
+  - function.socket-set-option.md: « socketsetoption
+  - function.socket-shutdown.md: socketshutdown »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketsetopt
+---
+# socketsetopt
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Псевдонім socket_set_option
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# socket_setopt
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-socket_setopt - Псевдонім
-[socket_set_option()](function.socket-set-option.md)
+socketsetopt - Псевдонім [socketsetoption()](function.socket-set-option.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[socket_set_option()](function.socket-set-option.md).
+Ця функція є псевдонімом: [socketsetoption()](function.socket-set-option.md)

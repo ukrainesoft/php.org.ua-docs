@@ -1,19 +1,22 @@
-- [«ZMQPoll::clear](zmqpoll.clear.md)
-- [ZMQPoll::getLastErrors »](zmqpoll.getlasterrors.md)
-
-- [PHP Manual](index.md)
-- [ZMQPoll](class.zmqpoll.md)
-- Кількість елементів у пулі опитування
-
+---
+navigation:
+  - zmqpoll.clear.md: '« ZMQPoll::clear'
+  - zmqpoll.getlasterrors.md: 'ZMQPoll::getLastErrors »'
+  - index.md: PHP Manual
+  - class.zmqpoll.md: ZMQPoll
+title: 'ZMQPoll::count'
+---
 # ZMQPoll::count
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQPoll::count — Кількість елементів у пулі опитування
 
 ### Опис
 
-public **ZMQPoll::count**(): int
+```methodsynopsis
+public ZMQPoll::count(): int
+```
 
 Кількість елементів у пулі опитування.
 
@@ -23,5 +26,4 @@ public **ZMQPoll::count**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле значення (int), рівне кількості елементів у
-кулі опитування.
+Повертає ціле значення (int), рівне кількості елементів в пулі опитування.

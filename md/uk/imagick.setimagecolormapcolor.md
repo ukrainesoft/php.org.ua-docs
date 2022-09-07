@@ -1,33 +1,34 @@
-- [« Imagick::setImageClipMask](imagick.setimageclipmask.md)
-- [Imagick::setImageColorspace »](imagick.setimagecolorspace.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює колір вказаного індексу картки
-
+---
+navigation:
+  - imagick.setimageclipmask.md: '« Imagick::setImageClipMask'
+  - imagick.setimagecolorspace.md: 'Imagick::setImageColorspace »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageColormapColor'
+---
 # Imagick::setImageColormapColor
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageColormapColor — Встановлює колір вказаного індексу
-колірної картки
+Imagick::setImageColormapColor — Встановлює колір вказаного індексу картки
 
 ### Опис
 
-public **Imagick::setImageColormapColor**(int `$index`,
-[ImagickPixel](class.imagickpixel.md) `$color`): bool
+```methodsynopsis
+public Imagick::setImageColormapColor(int $index, ImagickPixel $color): bool
+```
 
-Встановлює колір зазначеного індексу картки.
+Встановлює колір зазначеного індексу карти кольорів.
 
 ### Список параметрів
 
 `index`
 
-`col`
+`color`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

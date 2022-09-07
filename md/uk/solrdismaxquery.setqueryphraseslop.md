@@ -1,35 +1,31 @@
-- [«SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.md)
-- [SolrDisMaxQuery::setTieBreaker »](solrdismaxquery.settiebreaker.md)
-
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- визначає коефіцієнт відхилення, дозволений для фразових
-запитів, явно включених до рядка запиту користувача (параметр
-qf)
-
-# SolrDisMaxQuery::setQueryPhraseSlop
+---
+navigation:
+  - solrdismaxquery.setqueryalt.md: '« SolrDisMaxQuery::setQueryAlt'
+  - solrdismaxquery.settiebreaker.md: 'SolrDisMaxQuery::setTieBreaker »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::getQuery Phrase Slop'
+---
+# Solr DisMax Query::getQuery Phrase Slop
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::setQueryPhraseSlop — Визначає коефіцієнт відхилення,
-дозволений для фразових запитів, явно включених до рядка запиту
-користувача (параметр qf)
+SolrDisMaxQuery::setQueryPhraseSlop — Визначає коефіцієнт відхилення, дозволений для фразових запитів, явно включених до рядка запиту користувача (параметр qf)
 
 ### Опис
 
-public **SolrDisMaxQuery::setQueryPhraseSlop**(string `$slop`):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::setQueryPhraseSlop(string $slop): SolrDisMaxQuery
+```
 
-Визначає коефіцієнт відхилення, дозволений для фразових запитів,
-явно включених до рядка запиту користувача (параметр *qf*).
+Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр *кф*
 
-Коефіцієнт відхилення відноситься до кількості позицій, на які
-необхідно перемістити один токен по відношенню до іншого токену, щоб
-відповідати фразі, вказаній у запиті.
+Коефіцієнт відхилення відноситься до кількості позицій, на які необхідно перемістити один токен по відношенню до іншого токену, щоб відповідати фразі, зазначеній у запиті.
 
 ### Список параметрів
 
 `slop`
+
 Коефіцієнт відхилення.
 
 ### Значення, що повертаються
@@ -38,11 +34,19 @@ public **SolrDisMaxQuery::setQueryPhraseSlop**(string `$slop`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrDisMaxQuery::setQueryPhraseSlop()****
+**Приклад #1 Приклад використання **Solr DisMax Query::getQuery Phrase Slop()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->setQueryPhraseSlop(3);echo $dismaxQuery;?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery();
+$dismaxQuery->setQueryPhraseSlop(3);
+echo $dismaxQuery;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 defType=edismax&qs=3
+```

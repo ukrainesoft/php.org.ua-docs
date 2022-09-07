@@ -1,22 +1,24 @@
-- [« RarEntry::getFileTime](rarentry.getfiletime.md)
-- [RarEntry::getMethod »](rarentry.getmethod.md)
-
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Повертає оригінальну ОС елемента
-
+---
+navigation:
+  - rarentry.getfiletime.md: '« RarEntry::getFileTime'
+  - rarentry.getmethod.md: 'RarEntry::getMethod »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getHostOs'
+---
 # RarEntry::getHostOs
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
 RarEntry::getHostOs — Повертає оригінальну ОС елемента
 
 ### Опис
 
-public **RarEntry::getHostOs**(): int
+```methodsynopsis
+public RarEntry::getHostOs(): int
+```
 
-Повертає код оригінальної операційної системи, в якій було створено
-елемент архіву.
+Повертає код оригінальної операційної системи, у якій було створено елемент архіву.
 
 ### Список параметрів
 
@@ -28,29 +30,72 @@ public **RarEntry::getHostOs**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarEntry::getHostOs()**(версії \>=
-2.0.0)**
+**Приклад #1 Приклад використання **RarEntry::getHostOs()**(версії >= 2.0.0)**
 
-` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");switch ($entry->getHostOs()) {    case RarEntry::HOST_MSDOS:        echo "MS-DOS
-";        break;    case RarEntry::HOST_OS2:        echo "OS2
-";       break;    case RarEntry::HOST_WIN32:        echo "Win32
-";        break;    case RarEntry::HOST_MACOS:        echo "MacOS
-";      break;   case RarEntry::HOST_UNIX:        echo "Unix/Linux
-";         break;    case RarEntry::HOST_BEOS:        echo "BeOS
-";        break;}?> `
+```php
+<?php
 
-**Приклад #2 **Приклад використання RarEntry::getHostOs()**(версії \<=
-1.0.0)**
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");switch ($entry->getHostOs()) {    case RAR_HOST_MSDOS:        echo "MS-DOS
-";        break;    case RAR_HOST_OS2:       echo "OS2
-";        break;    case RAR_HOST_WIN32:        echo "Win32
-";        break;    case RAR_HOST_MACOS:       echo "MacOS
-";     break;   case RAR_HOST_UNIX:       echo "Unix/Linux
-";        break;    case RAR_HOST_BEOS:       echo "BeOS
-";        break;}?> `
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+
+switch ($entry->getHostOs()) {
+    case RarEntry::HOST_MSDOS:
+        echo "MS-DOS\n";
+        break;
+    case RarEntry::HOST_OS2:
+        echo "OS2\n";
+        break;
+    case RarEntry::HOST_WIN32:
+        echo "Win32\n";
+        break;
+    case RarEntry::HOST_MACOS:
+        echo "MacOS\n";
+        break;
+    case RarEntry::HOST_UNIX:
+        echo "Unix/Linux\n";
+        break;
+    case RarEntry::HOST_BEOS:
+        echo "BeOS\n";
+        break;
+}
+
+?>
+```
+
+**Приклад #2 **Приклад використання RarEntry::getHostOs()**(версії <= 1.0.0)**
+
+```php
+<?php
+
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+
+switch ($entry->getHostOs()) {
+    case RAR_HOST_MSDOS:
+        echo "MS-DOS\n";
+        break;
+    case RAR_HOST_OS2:
+        echo "OS2\n";
+        break;
+    case RAR_HOST_WIN32:
+        echo "Win32\n";
+        break;
+    case RAR_HOST_MACOS:
+        echo "MacOS\n";
+        break;
+    case RAR_HOST_UNIX:
+        echo "Unix/Linux\n";
+        break;
+    case RAR_HOST_BEOS:
+        echo "BeOS\n";
+        break;
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [RarEntry::extract()](rarentry.extract.md) - Витягує елемент з
-архів
+-   [RarEntry::extract()](rarentry.extract.md) - Витягує елемент із архіву

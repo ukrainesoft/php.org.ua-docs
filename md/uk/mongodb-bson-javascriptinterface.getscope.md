@@ -1,21 +1,22 @@
-- [« MongoDB\BSON\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md)
-- [MongoDB\BSON\JavascriptInterface::\_\_toString »](mongodb-bson-javascriptinterface.tostring.md)
+---
+navigation:
+  - mongodb-bson-javascriptinterface.getcode.md: '« MongoDBBSONJavascriptInterface::getCode'
+  - mongodb-bson-javascriptinterface.tostring.md: 'MongoDBBSONJavascriptInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascriptinterface.md: MongoDBBSONJavascriptInterface
+title: 'MongoDBBSONJavascriptInterface::getScope'
+---
+# MongoDBBSONJavascriptInterface::getScope
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\JavascriptInterface](class.mongodb-bson-javascriptinterface.md)
-- Повертає область видимості документа JavascriptInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\JavascriptInterface::getScope
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\JavascriptInterface::getScope — Повертає області
-видимості документа JavascriptInterface
+MongoDBBSONJavascriptInterface::getScope — Повертає область видимості документа JavascriptInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\JavascriptInterface::getScope**():
-?object
+```methodsynopsis
+abstract public MongoDB\BSON\JavascriptInterface::getScope(): ?object
+```
 
 ### Список параметрів
 
@@ -27,5 +28,4 @@ abstract public **MongoDB\BSON\JavascriptInterface::getScope**():
 
 ### Дивіться також
 
-- [MongoDB\BSON\Javascript::getScope()](mongodb-bson-javascript.getscope.md) -
-Повертає область документа JavaScript
+-   [MongoDBBSONJavascript::getScope()](mongodb-bson-javascript.getscope.md) - Повертає область документа JavaScript

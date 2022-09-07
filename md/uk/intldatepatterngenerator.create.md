@@ -1,40 +1,35 @@
-- [« IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-- [IntlDatePatternGenerator::getBestPattern »](intldatepatterngenerator.getbestpattern.md)
-
-- [PHP Manual](index.md)
-- [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-- Створює новий екземпляр IntlDatePatternGenerator
-
+---
+navigation:
+  - class.intldatepatterngenerator.md: « IntlDatePatternGenerator
+  - intldatepatterngenerator.getbestpattern.md: 'IntlDatePatternGenerator::getBestPattern »'
+  - index.md: PHP Manual
+  - class.intldatepatterngenerator.md: IntlDatePatternGenerator
+title: 'IntlDatePatternGenerator::create'
+---
 # IntlDatePatternGenerator::create
 
-# IntlDatePatternGenerator::\_\_construct
+# IntlDatePatternGenerator::construct
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-IntlDatePatternGenerator::create --
-IntlDatePatternGenerator::\_\_construct — Створює новий екземпляр
-IntlDatePatternGenerator
+Intl Date Pattern Generator::create -- Intl Date Pattern Generator::construct — Створює новий екземпляр IntlDatePatternGenerator
 
 ### Опис
 
-public static **IntlDatePatternGenerator::create**(string `$locale` =
-**`null`**):
-?[IntlDatePatternGenerator](class.intldatepatterngenerator.md)
+```methodsynopsis
+public static IntlDatePatternGenerator::create(string $locale = null): ?IntlDatePatternGenerator
+```
 
-public **IntlDatePatternGenerator::\_\_construct**(string `$locale` =
-**`null`**)
+public **IntlDatePatternGenerator::construct**(string `$locale` **`null`**
 
-Створює новий екземпляр
-[IntlDatePatternGenerator](class.intldatepatterngenerator.md).
+Створює новий екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 
 ### Список параметрів
 
 `locale`
-Локаль. Якщо передано значення **`null`**, використовується ini-параметр
-[intl.default_locale](intl.configuration.md#ini.intl.default-locale).
+
+Локаль. Якщо передано значення **`null`**, використовується ini-параметр [intl.defaultlocale](intl.configuration.md#ini.intl.default-locale)
 
 ### Значення, що повертаються
 
-Повертає екземпляр
-[IntlDatePatternGenerator](class.intldatepatterngenerator.md) у разі
-успішного виконання або **`null`** у разі виникнення помилки.
+Повертає екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md) у разі успішного виконання або **`null`** у разі виникнення помилки.

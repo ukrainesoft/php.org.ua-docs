@@ -1,31 +1,33 @@
-- [«CachingIterator::next](cachingiterator.next.md)
-- [CachingIterator::offsetGet »](cachingiterator.offsetget.md)
-
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Призначення offsetExists
-
+---
+navigation:
+  - cachingiterator.next.md: '« CachingIterator::next'
+  - cachingiterator.offsetget.md: 'CachingIterator::offsetGet »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::offsetExists'
+---
 # CachingIterator::offsetExists
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::offsetExists — Призначення offsetExists
 
 ### Опис
 
-public **CachingIterator::offsetExists**(string `$key`): bool
+```methodsynopsis
+public CachingIterator::offsetExists(string $key): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `key`
-Індекс, який має бути перевірено.
+
+Індекс, який має бути перевірений.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо елемент із зазначеним зсувом існує,
-**`false`** - інакше.
+Повертає **`true`**, якщо елемент із зазначеним зсувом існує, **`false`** - в іншому випадку.

@@ -1,34 +1,35 @@
-- [« PDO::pgsqlCopyToFile](pdo.pgsqlcopytofile.md)
-- [PDO::pgsqlGetPid »](pdo.pgsqlgetpid.md)
-
-- [PHP Manual](index.md)
-- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
-- Отримати асинхронне повідомлення
-
+---
+navigation:
+  - pdo.pgsqlcopytofile.md: '« PDO::pgsqlCopyToFile'
+  - pdo.pgsqlgetpid.md: 'PDO::pgsqlGetPid »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
+title: 'PDO::pgsqlGetNotify'
+---
 # PDO::pgsqlGetNotify
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
 PDO::pgsqlGetNotify — Отримати асинхронне повідомлення
 
 ### Опис
 
-public **PDO::pgsqlGetNotify**(int `$result_type` =
-**`PDO::FETCH_USE_DEFAULT`**, int `$ms_timeout` = 0): array\|false
+```methodsynopsis
+public PDO::pgsqlGetNotify(int $result_type = PDO::FETCH_USE_DEFAULT, int $ms_timeout = 0): array|false
+```
 
-Повертає результуючий набір, що представляє очікування асинхронного
-повідомлення.
+Повертає результуючий набір, який представляє очікування асинхронного повідомлення.
 
 ### Список параметрів
 
 `result_type`
-Формат, у якому має повернутися результуючий набір, представлений
-як одна з констант [**`PDO::FETCH_*`**](pdostatement.fetch.md).
+
+Формат, в якому має повернутися результуючий набір, представлений як одна з констант [**`PDO::FETCH_*`**](pdostatement.fetch.md)
 
 `ms_timeout`
+
 Час очікування відповіді у мілісекундах.
 
 ### Значення, що повертаються
 
-Якщо одне або більше повідомлень знаходяться в режимі очікування, повертається
-один рядок з полями `message` та `pid`, інакше повертає **`false`**.
+Якщо одне або більше повідомлень знаходяться в режимі очікування, повертає один рядок з полями `message` і `pid`, інакше повертає **`false`**

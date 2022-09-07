@@ -1,22 +1,24 @@
-- [« SVMModel::getNrClass](svmmodel.getnrclass.md)
-- [SVMModel::getSvrProbability »](svmmodel.getsvrprobability.md)
-
-- [PHP Manual](index.md)
-- [SVMModel](class.svmmodel.md)
-- Отримати тип SVM, з яким навчалася модель
-
+---
+navigation:
+  - svmmodel.getnrclass.md: '« SVMModel::getNrClass'
+  - svmmodel.getsvrprobability.md: 'SVMModel::getSvrProbability »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::getSvmType'
+---
 # SVMModel::getSvmType
 
-(PECL svm = 0.1.5)
+(PECL svm >= 0.1.5)
 
 SVMModel::getSvmType — Отримати тип SVM, з яким навчалася модель
 
 ### Опис
 
-public **SVMModel::getSvmType**(): int
+```methodsynopsis
+public SVMModel::getSvmType(): int
+```
 
-Повертає ціле число, що представляє одну із констант класу SVM.
-Наприклад, SVM::C_SVC.
+Повертає ціле число, що представляє одну із констант класу SVM. Наприклад, SVM::CSVC.
 
 ### Список параметрів
 

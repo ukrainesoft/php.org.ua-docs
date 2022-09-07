@@ -1,32 +1,31 @@
-- [« SolrQuery::setHighlightRegexMaxAnalyzedChars](solrquery.sethighlightregexmaxanalyzedchars.md)
-- [SolrQuery::setHighlightRegexSlop »](solrquery.sethighlightregexslop.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Задає регулярний вираз для фрагментації
-
+---
+navigation:
+  - solrquery.sethighlightregexmaxanalyzedchars.md: '« SolrQuery::setHighlightRegexMaxAnalyzedChars'
+  - solrquery.sethighlightregexslop.md: 'SolrQuery::setHighlightRegexSlop »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightRegexPattern'
+---
 # SolrQuery::setHighlightRegexPattern
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightRegexPattern — Задає регулярний вираз для
-фрагментації
+SolrQuery::setHighlightRegexPattern — Задає регулярний вираз для фрагментації
 
 ### Опис
 
-public **SolrQuery::setHighlightRegexPattern**(string `$value`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightRegexPattern(string $value): SolrQuery
+```
 
-Задає регулярний вираз фрагментації. Можна використовувати для
-вилучення пропозицій
+Задає регулярний вираз фрагментації. Можна використовувати для отримання пропозицій
 
 ### Список параметрів
 
 `value`
-Регулярне вираження фрагментації. Можна використовувати для отримання
-пропозицій
+
+Регулярний вираз для фрагментації. Можна використовувати для отримання пропозицій
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

@@ -1,10 +1,11 @@
-- [«imagesx](function.imagesx.md)
-- [imagetruecolortopalette »](function.imagetruecolortopalette.md)
-
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Отримання висоти зображення
-
+---
+navigation:
+  - function.imagesx.md: « imagesx
+  - function.imagetruecolortopalette.md: imagetruecolortopalette »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagesy
+---
 # imagesy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,37 +14,45 @@ imagesy — Отримання висоти зображення
 
 ### Опис
 
-**imagesy**([GdImage](class.gdimage.md) `$image`): int
+```methodsynopsis
+imagesy(GdImage $image): int
+```
 
-Повертає висоту заданого зображення `image`.
+Повертає висоту заданого зображення `image`
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 
 Повертає висоту зображення `image` або **`false`** у разі помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagesy()****
 
-`<?php// Створення зображення 300*200$img = imagecreatetruecolor(300, 200);echo imagesy($img); // 200?> `
+```php
+<?php
+
+// Создание изображения 300*200
+$img = imagecreatetruecolor(300, 200);
+
+echo imagesy($img); // 200
+
+?>
+```
 
 ### Дивіться також
 
-- [imagecreatetruecolor()](function.imagecreatetruecolor.md) -
-Створення нового повнокольорового зображення
-- [getimagesize()](function.getimagesize.md) - Отримання розміру
-зображення
-- [imagesx()](function.imagesx.md) - Отримання ширини зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
+-   [imagesx()](function.imagesx.md) - Отримання ширини зображення

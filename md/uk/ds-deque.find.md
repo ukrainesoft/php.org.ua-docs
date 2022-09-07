@@ -1,48 +1,59 @@
-- [« Ds\Deque::filter](ds-deque.filter.md)
-- [Ds\Deque::first »](ds-deque.first.md)
+---
+navigation:
+  - ds-deque.filter.md: '« DsDeque::filter'
+  - ds-deque.first.md: 'ДсDeque::first »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::find'
+---
+# ДсDeque::find
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Пошук індексу за значенням
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::find
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::find — Пошук індексу за значенням
+ДсDeque::find — Пошук індексу за значенням
 
 ### Опис
 
-public
-**Ds\Deque::find**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::find(mixed $value): mixed
+```
 
-Повертає індекс значення `value` або **`false`**, якщо нічого не
-знайдено.
+Повертає індекс значення `value` або \*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
 `value`
+
 Шукане значення.
 
 ### Значення, що повертаються
 
-Індекс елемента або ** false , якщо значення не знайдено.
+Індекс елемента або \*\*`false`\*\*якщо значення не знайдено.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Елементи порівнюються суворо (за типом та значенням).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::find()****
+**Приклад #1 Приклад використання **ДсDeque::find()****
 
-` <?php$deque = new \Ds\Deque(["a", 1, true]);var_dump($deque->find("a")); // 0var_dump($deque->find("b")); //falsevar_dump($deque->find("1")); //falsevar_dump($deque->find(1)); // 1?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", 1, true]);
+
+var_dump($deque->find("a")); // 0
+var_dump($deque->find("b")); // false
+var_dump($deque->find("1")); // false
+var_dump($deque->find(1));   // 1
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(0)
 bool(false)
 bool(false)
 int(1)
+```

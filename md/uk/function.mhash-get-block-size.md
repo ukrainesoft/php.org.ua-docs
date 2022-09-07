@@ -1,45 +1,53 @@
-- [«mhash_count](function.mhash-count.md)
-- [mhash_get_hash_name »](function.mhash-get-hash-name.md)
-
-- [PHP Manual](index.md)
-- [Функції Mhash](ref.mhash.md)
-- Отримати розмір блоку для заданого хеша
-
-#mhash_get_block_size
+---
+navigation:
+  - function.mhash-count.md: « mhashcount
+  - function.mhash-get-hash-name.md: mhashgethashname »
+  - index.md: PHP Manual
+  - ref.mhash.md: Функции Mhash
+title: mhashgetblocksize
+---
+# mhashgetblocksize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-mhash_get_block_size — Отримати розмір блоку для заданого хеша
+mhashgetblocksize — Отримати розмір блоку для заданого хеша
 
 **Увага**
 
-Функція оголошена *УСТАРНІЙ*, починаючи з PHP 8.1.0. Використати цю
-функцію не рекомендується.
+Функція оголошена *застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mhash_get_block_size**(int `$algo`): int\|false
+```methodsynopsis
+mhash_get_block_size(int $algo): int|false
+```
 
-Повертає розмір блоку для заданого `algo`.
+Повертає розмір блоку для заданого `algo`
 
 ### Список параметрів
 
 `algo`
-Ідентифікатор хешу. Одна з констант **`MHASH_hashname`**.
+
+Ідентифікатор хешу. Одна з констант **`MHASH_hashname`**
 
 ### Значення, що повертаються
 
-Повертає розмір у байтах або **`false`**, якщо параметр `algo` заданий
-некоректно.
+Повертає розмір у байтах або **`false`**, якщо параметр `algo` заданий некоректно.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------- |
-| 8.1.0  | Функція оголошена застарілою. Використовуйте замість неї [функції hash_*()](ref.hash.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mhash_get_block_size()****
+**Приклад #1 Приклад використання **mhashgetblocksize()****
 
-`<?phpecho mhash_get_block_size(MHASH_MD5); // 16?> `
+```php
+<?php
+
+echo mhash_get_block_size(MHASH_MD5); // 16
+
+?>
+```

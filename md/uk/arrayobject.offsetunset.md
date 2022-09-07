@@ -1,10 +1,11 @@
-- [« ArrayObject::offsetSet](arrayobject.offsetset.md)
-- [ArrayObject::serialize »](arrayobject.serialize.md)
-
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Видаляє значення за вказаним індексом
-
+---
+navigation:
+  - arrayobject.offsetset.md: '« ArrayObject::offsetSet'
+  - arrayobject.serialize.md: 'ArrayObject::serialize »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::offsetUnset'
+---
 # ArrayObject::offsetUnset
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,15 +14,16 @@ ArrayObject::offsetUnset — Видаляє значення за вказани
 
 ### Опис
 
-public
-**ArrayObject::offsetUnset**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`): void
+```methodsynopsis
+public ArrayObject::offsetUnset(mixed $key): void
+```
 
 Видаляє значення за вказаним індексом.
 
 ### Список параметрів
 
 `key`
+
 Індекс, значення якого потрібно видалити.
 
 ### Значення, що повертаються
@@ -32,11 +34,19 @@ public
 
 **Приклад #1 Приклад використання **ArrayObject::offsetUnset()****
 
-` <?php$arrayobj = new ArrayObject(array(0=>'zero',2=>'two'));$arrayobj->offsetUnset(2);var_dump($arrayobj);?> `
+```php
+<?php
+$arrayobj = new ArrayObject(array(0=>'zero',2=>'two'));
+$arrayobj->offsetUnset(2);
+var_dump($arrayobj);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ArrayObject)#1 (1) {
-[0]=>
-string(4) "zero"
+  [0]=>
+  string(4) "zero"
 }
+```

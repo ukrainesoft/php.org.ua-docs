@@ -1,10 +1,11 @@
-- [« Типи ресурсів](gettext.resources.md)
-- [Функції gettext»](ref.gettext.md)
-
-- [PHP Manual](index.md)
-- [Gettext](book.gettext.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - gettext.resources.md: « Типи ресурсів
+  - ref.gettext.md: Функции gettext »
+  - index.md: PHP Manual
+  - book.gettext.md: Gettext
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

@@ -1,12 +1,13 @@
-- [«Зумовлені константи](fann.constants.md)
-- [Навчання XOR»](fann.examples-1.md)
-
-- [PHP Manual](index.md)
-- [FANN](book.fann.md)
-- Приклади
-
+---
+navigation:
+  - fann.constants.md: « Обумовлені константи
+  - fann.examples-1.md: Обучение XOR »
+  - index.md: PHP Manual
+  - book.fann.md: FANN
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Навчання XOR](fann.examples-1.md)
+-   [Обучение XOR](fann.examples-1.md)

@@ -1,10 +1,11 @@
-- [« Imagick::getImageWidth](imagick.getimagewidth.md)
-- [Imagick::getIteratorIndex »](imagick.getiteratorindex.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує схему стиснення зображення
-
+---
+navigation:
+  - imagick.getimagewidth.md: '« Imagick::getImageWidth'
+  - imagick.getiteratorindex.md: 'Imagick::getIteratorIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getInterlaceScheme'
+---
 # Imagick::getInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getInterlaceScheme — Отримує схему стиснення з�
 
 ### Опис
 
-public **Imagick::getInterlaceScheme**(): int
+```methodsynopsis
+public Imagick::getInterlaceScheme(): int
+```
 
 Отримує схему стиснення зображення.
 
@@ -23,7 +26,7 @@ public **Imagick::getInterlaceScheme**(): int
 
 ### Значення, що повертаються
 
-Отримує схему [стиснення зображення](imagick.constants.md#imagick.constants.interlace).
+Отримує схему [сжатия изображения](imagick.constants.md#imagick.constants.interlace)
 
 ### Помилки
 

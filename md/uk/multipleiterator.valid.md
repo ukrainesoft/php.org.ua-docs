@@ -1,26 +1,28 @@
-- [« MultipleIterator::setFlags](multipleiterator.setflags.md)
-- [NoRewindIterator »](class.norewinditerator.md)
-
-- [PHP Manual](index.md)
-- [MultipleIterator](class.multipleiterator.md)
-- Перевіряє коректність підитераторів
-
+---
+navigation:
+  - multipleiterator.setflags.md: '« MultipleIterator::setFlags'
+  - class.norewinditerator.md: NoRewindIterator »
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::valid'
+---
 # MultipleIterator::valid
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-MultipleIterator::valid — Перевіряє коректність підітераторів
+MultipleIterator::valid — Перевіряє коректність підитераторів
 
 ### Опис
 
-public **MultipleIterator::valid**(): bool
+```methodsynopsis
+public MultipleIterator::valid(): bool
+```
 
 Перевіряє коректність підітераторів.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +30,8 @@ public **MultipleIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** якщо один або всі (залежно від прапорів)
-підитератори дійсні; інакше - **`false`**
+Повертає **`true`** якщо один або всі (залежно від прапорів) підітератори є дійсними; в іншому випадку - **`false`**
 
 ### Дивіться також
 
-- [MultipleIterator::\_\_construct()](multipleiterator.construct.md) -
-Створює новий MultipleIterator
+-   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator

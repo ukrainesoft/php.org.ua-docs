@@ -1,46 +1,44 @@
-- [«ps_setflat](function.ps-setflat.md)
-- [ps_setgray »](function.ps-setgray.md)
+---
+navigation:
+  - function.ps-setflat.md: «pssetflat
+  - function.ps-setgray.md: псsetgray »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: пссетфонт
+---
+# пссетфонт
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює шрифт, який використовуватиметься для наступного
-висновку
+(PECL ps >= 1.1.0)
 
-#ps_setfont
-
-(PECL ps \>= 1.1.0)
-
-ps_setfont — Встановлює шрифт, який буде використовуватись для
-наступного висновку
+псsetfont — Встановлює шрифт, який буде використовуватись для наступного виводу
 
 ### Опис
 
-**ps_setfont**(resource `$psdoc`, int `$fontid`, float `$size`): bool
+```methodsynopsis
+ps_setfont(resource $psdoc, int $fontid, float $size): bool
+```
 
-Встановлює шрифт, який має бути завантажений раніше за допомогою
-[ps_findfont()](function.ps-findfont.md). Виведення тексту без встановлення
-шрифту призводить до помилки.
+Встановлює шрифт, який має бути завантажений раніше за допомогою [псfindfont()](function.ps-findfont.md). Виведення тексту без встановлення шрифту призводить до помилки.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `fontid`
-Ідентифікатор шрифту, повернутий
-[ps_findfont()](function.ps-findfont.md).
+
+Ідентифікатор шрифту, повернутий [псfindfont()](function.ps-findfont.md)
 
 `size`
+
 Розмір шрифту.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_findfont()](function.ps-findfont.md) - Завантажує шрифт
-- [ps_set_text_pos()](function.ps-set-text-pos.md) - Встановлює
-позицію для виведення тексту на приклад.
+-   [псfindfont()](function.ps-findfont.md) - Завантажує шрифт
+-   [псsettextpos()](function.ps-set-text-pos.md) - Встановлює позицію для виведення тексту на приклад.

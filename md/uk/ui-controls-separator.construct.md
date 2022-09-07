@@ -1,24 +1,25 @@
-- [«UI\Controls\Separator](class.ui-controls-separator.md)
-- [UI\Controls\Combo »](class.ui-controls-combo.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Separator](class.ui-controls-separator.md)
-- Створити новий об'єкт Separator
-
-# UI\Controls\Separator::\_\_construct
+---
+navigation:
+  - class.ui-controls-separator.md: « UIControlsSeparator
+  - class.ui-controls-combo.md: ОЙControlsCombo »
+  - index.md: PHP Manual
+  - class.ui-controls-separator.md: ОЙControlsSeparator
+title: 'ОЙControlsSeparator::construct'
+---
+# ОЙControlsSeparator::construct
 
 (UI 0.9.9)
 
-UI\Controls\Separator::\_\_construct — Створити новий об'єкт Separator
+ОЙControlsSeparator::construct — Створити новий об'єкт Separator
 
 ### Опис
 
-public **UI\Controls\Separator::\_\_construct**(int `$type` =
-UI\Controls\Separator::Horizontal)
+public **ОЙControlsSeparator::construct**(int `$type` = UIControlsSeparator::Horizontal)
 
 Створить новий об'єкт Separator заданого типу
 
 ### Список параметрів
 
 `type`
+
 Separator::Horizonal або Separator::Vertical

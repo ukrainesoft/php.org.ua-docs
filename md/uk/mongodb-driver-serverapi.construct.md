@@ -1,27 +1,24 @@
-- [« MongoDB\Driver\ServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md)
-- [MongoDB\Driver\ServerApi::serialize »](mongodb-driver-serverapi.serialize.md)
+---
+navigation:
+  - mongodb-driver-serverapi.bsonserialize.md: '« MongoDBDriverServerApi::bsonSerialize'
+  - mongodb-driver-serverapi.serialize.md: 'MongoDBDriverServerApi::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi
+title: 'MongoDBDriverServerApi::construct'
+---
+# MongoDBDriverServerApi::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)
-- Створює новий екземпляр ServerApi
+(mongodb >=1.10.0)
 
-# MongoDB\Driver\ServerApi::\_\_construct
-
-(mongodb \>=1.10.0)
-
-MongoDB\Driver\ServerApi::\_\_construct - Створює новий екземпляр
-ServerApi
+MongoDBDriverServerApi::construct — Створює новий екземпляр ServerApi
 
 ### Опис
 
-final public **MongoDB\Driver\ServerApi::\_\_construct**(string
-`$version`, bool `$strict` = **`null`**, bool `$deprecationErrors` =
-**`null`**)
+```methodsynopsis
+final public MongoDB\Driver\ServerApi::__construct(string $version, ?bool $strict = null, ?bool $deprecationErrors = null)
+```
 
-Створює новий екземпляр
-[MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)
-екземпляр, який використовується для оголошення версії API під час створення
-[MongoDB\Driver\Manager](class.mongodb-driver-manager.md).
+Створює новий екземпляр [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md) екземпляр, який використовується для оголошення версії API під час створення [MongoDBDriverManager](class.mongodb-driver-manager.md)
 
 ### Список параметрів
 

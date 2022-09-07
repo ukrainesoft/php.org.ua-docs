@@ -1,42 +1,41 @@
-- [« SplObserver::update](splobserver.update.md)
-- [SplSubject::attach »](splsubject.attach.md)
-
-- [PHP Manual](index.md)
-- [Різні класи та інтерфейси](spl.misc.md)
-- Інтерфейс SplSubject
-
+---
+navigation:
+  - splobserver.update.md: '« SplObserver::update'
+  - splsubject.attach.md: 'SplSubject::attach »'
+  - index.md: PHP Manual
+  - spl.misc.md: Різні класи та інтерфейси
+title: Інтерфейс SplSubject
+---
 # Інтерфейс SplSubject
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Інтерфейс **SplSubject** використовується спільно з
-[SplObserver](class.splobserver.md) для реалізації шаблону
-проектування Спостерігач (Observer).
+Інтерфейс **SplSubject** використовується спільно з [SplObserver](class.splobserver.md) для реалізації шаблону проектування Спостерігач (Observer).
 
 ## Огляд інтерфейсів
 
-interface **SplSubject** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[attach](splsubject.attach.md)([SplObserver](class.splobserver.md)
-`$observer`): void
+    
+     
+      interface SplSubject {
 
-public
-[detach](splsubject.detach.md)([SplObserver](class.splobserver.md)
-`$observer`): void
+    /* Методы */
+    
+   public attach(SplObserver $observer): void
+public detach(SplObserver $observer): void
+public notify(): void
 
-public [notify](splsubject.notify.md)(): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [SplSubject::attach](splsubject.attach.md) — Приєднати
-спостерігача (об'єкт класу SplObserver)
-- [SplSubject::detach](splsubject.detach.md) — Від'єднати
-спостерігача
-- [SplSubject::notify](splsubject.notify.md) — Повідомити спостерігача
+-   [SplSubject::attach](splsubject.attach.md) — Приєднати спостерігача (об'єкт класу SplObserver)
+-   [SplSubject::detach](splsubject.detach.md) — Від'єднати спостерігача
+-   [SplSubject::notify](splsubject.notify.md) — повідомити спостерігача

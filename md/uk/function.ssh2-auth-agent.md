@@ -1,42 +1,53 @@
-- [« Функції SSH2](ref.ssh2.md)
-- [ssh2_auth_hostbased_file »](function.ssh2-auth-hostbased-file.md)
+---
+navigation:
+  - ref.ssh2.md: « Функції SSH2
+  - function.ssh2-auth-hostbased-file.md: ssh2authhostbasedfile »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2authagent
+---
+# ssh2authagent
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Аутентифікація через SSH за допомогою агента ssh
+(PECL ssh2> = 0.12)
 
-# ssh2_auth_agent
-
-(PECL ssh2 \>= 0.12)
-
-ssh2_auth_agent — Аутентифікація через SSH за допомогою агента ssh
+ssh2authagent — Аутентифікація через SSH за допомогою агента ssh
 
 ### Опис
 
-**ssh2_auth_agent**(resource `$session`, string `$username`): bool
+```methodsynopsis
+ssh2_auth_agent(resource $session, string $username): bool
+```
 
 Аутентифікація через SSH за допомогою ssh.
 
-> **Примітка**: Функція **ssh2_auth_agent()** доступна, лише якщо
-> модуль зібраний із бібліотекою libssh \>= 1.2.3.
+> **Зауваження**: Функція **ssh2authagent()** доступна, лише якщо модуль зібраний із бібліотекою libssh >= 1.2.3.
 
 ### Список параметрів
 
 `session`
-Ідентифікатор з'єднання SSH, отриманий з
-[ssh2_connect()](function.ssh2-connect.md).
+
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `username`
+
 Ім'я користувача на віддаленому сервері.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Аутентифікація за допомогою агента ssh**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);if (ssh2_auth_agent($connection, 'username')) { echo "Успішна аутентифікація !
-";} else {  die('Невдала аутентифікація...');}?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+
+if (ssh2_auth_agent($connection, 'username')) {
+  echo "Успешная аутентификация !\n";
+} else {
+  die('Неудачная аутентификация...');
+}
+?>
+```

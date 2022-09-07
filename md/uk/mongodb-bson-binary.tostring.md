@@ -1,22 +1,24 @@
-- [« MongoDB\BSON\Binary::serialize](mongodb-bson-binary.serialize.md)
-- [MongoDB\BSON\Binary::unserialize »](mongodb-bson-binary.unserialize.md)
+---
+navigation:
+  - mongodb-bson-binary.serialize.md: '« MongoDBBSONBinary::serialize'
+  - mongodb-bson-binary.unserialize.md: 'MongoDBBSONBinary::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::toString'
+---
+# MongoDBBSONBinary::toString
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-- Повертає дані Binary
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\Binary::\_\_toString
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\Binary::\_\_toString — Повертає дані Binary
+MongoDBBSONBinary::toString — Повертає дані Binary
 
 ### Опис
 
-final public **MongoDB\BSON\Binary::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Binary::__toString(): string
+```
 
-Цей метод є псевдонімом:
-[MongoDB\BSON\Binary::getData()](mongodb-bson-binary.getdata.md).
+Цей метод є псевдонімом: [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md)
 
 ### Список параметрів
 
@@ -28,17 +30,23 @@ final public **MongoDB\BSON\Binary::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Binary::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONBinary::toString()****
 
-` <?phpvar_dump((string) new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC));?> `
+```php
+<?php
+
+var_dump((string) new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC));
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "foo"
+```
 
 ### Дивіться також
 
-- [MongoDB\BSON\Binary::getData()](mongodb-bson-binary.getdata.md) -
-Повертає дані Binary
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md) - Повертає дані Binary
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

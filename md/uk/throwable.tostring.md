@@ -1,20 +1,22 @@
-- [« Throwable::getPrevious](throwable.getprevious.md)
-- [ArrayAccess »](class.arrayaccess.md)
-
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- отримує рядкове подання викинутого об'єкта
-
-# Throwable::\_\_toString
+---
+navigation:
+  - throwable.getprevious.md: '« Throwable::getPrevious'
+  - class.arrayaccess.md: ArrayAccess »
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::toString'
+---
+# Throwable::toString
 
 (PHP 7, PHP 8)
 
-Throwable::\_\_toString — Отримує рядкову виставу викинутого
-об'єкта
+Throwable::toString — Отримує рядкову виставу викинутого об'єкта
 
 ### Опис
 
-abstract public **Throwable::\_\_toString**(): string
+```methodsynopsis
+abstract public Throwable::__toString(): string
+```
 
 ### Список параметрів
 
@@ -26,5 +28,4 @@ abstract public **Throwable::\_\_toString**(): string
 
 ### Дивіться також
 
-- [Exception::\_\_toString()](exception.tostring.md) - Строкове
-подання винятку
+-   [Exception::toString()](exception.tostring.md) - Строкове подання виключення

@@ -1,19 +1,22 @@
-- [«UI\Point::\_\_construct](ui-point.construct.md)
-- [UI\Point::getY »](ui-point.gety.md)
-
-- [PHP Manual](index.md)
-- [UI\Point](class.ui-point.md)
-- Отримує X
-
-# UI\Point::getX
+---
+navigation:
+  - ui-point.construct.md: '« UIPoint::construct'
+  - ui-point.gety.md: 'ОЙPoint::getY »'
+  - index.md: PHP Manual
+  - class.ui-point.md: ОЙPoint
+title: 'ОЙPoint::getX'
+---
+# ОЙPoint::getX
 
 (UI 0.9.9)
 
-UI\Point::getX — Отримує X
+ОЙPoint::getX — Отримує X
 
 ### Опис
 
-public **UI\Point::getX**(): float
+```methodsynopsis
+public UI\Point::getX(): float
+```
 
 Отримує X-координату
 

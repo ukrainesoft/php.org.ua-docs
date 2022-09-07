@@ -1,33 +1,33 @@
-- [«memory_get_peak_usage](function.memory-get-peak-usage.md)
-- [php_ini_loaded_file »](function.php-ini-loaded-file.md)
+---
+navigation:
+  - function.memory-get-peak-usage.md: « memorygetpeakusage
+  - function.php-ini-loaded-file.md: phpiniloadedfile »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: memorygetusage
+---
+# memorygetusage
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Повертає кількість пам'яті, виділену для PHP
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# memory_get_usage
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-memory_get_usage — Повертає кількість пам'яті, виділену для PHP
+memorygetusage — Повертає кількість пам'яті, виділену для PHP
 
 ### Опис
 
-**memory_get_usage**(bool `$real_usage` = **`false`**): int
+```methodsynopsis
+memory_get_usage(bool $real_usage = false): int
+```
 
-Повертає кількість пам'яті в байтах, яка була виділена PHP-скрипту
-на даний момент.
+Повертає кількість пам'яті в байтах, яка була виділена PHP-скрипту на даний момент.
 
 ### Список параметрів
 
 `real_usage`
-Передача **`true`** дозволяє дізнатися реальну кількість пам'яті,
-виділеною PHP скрипту системою, включаючи сторінки, що не використовуються. Якщо
-аргумент не заданий або дорівнює **`false`**, буде повернено лише
-кількість пам'яті, що використовується.
 
-> **Примітка**:
->
+Передача **`true`** дозволяє дізнатися реальну кількість пам'яті, виділеної PHP скрипту системою, включаючи сторінки, що не використовуються. Якщо аргумент не заданий чи дорівнює **`false`**, буде повернуто лише кількість пам'яті, що використовується.
+
+> **Зауваження**
+> 
 > PHP не відстежує пам'ять, яка виділялася не `emalloc()`
 
 ### Значення, що повертаються
@@ -36,15 +36,27 @@ memory_get_usage — Повертає кількість пам'яті, виді
 
 ### Приклади
 
-**Приклад #1 Приклад використання **memory_get_usage()****
+**Приклад #1 Приклад використання **memorygetusage()****
 
-` <?php// Це просто приклад, цифри нижче будуть// відрізнятися в залежності від вашої системиecho memory_get_usage() . "
-"; // 36640$a = str_repeat("Hello", 4242);echo memory_get_usage() . "
-"; // 57960unset($a);echo memory_get_usage() . "
-"; // 36744?> `
+```php
+<?php
+// Это просто пример, цифры ниже будут
+// отличаться в зависимости от вашей системы
+
+echo memory_get_usage() . "\n"; // 36640
+
+$a = str_repeat("Hello", 4242);
+
+echo memory_get_usage() . "\n"; // 57960
+
+unset($a);
+
+echo memory_get_usage() . "\n"; // 36744
+
+?>
+```
 
 ### Дивіться також
 
-- [memory_get_peak_usage()](function.memory-get-peak-usage.md) -
-Повертає пікове значення обсягу пам'яті, виділене PHP
-- [memory_limit](ini.core.md#ini.memory-limit)
+-   [memorygetpeakusage()](function.memory-get-peak-usage.md) - Повертає пікове значення об'єму пам'яті, виділене PHP
+-   [memorylimit](ini.core.md#ini.memory-limit)

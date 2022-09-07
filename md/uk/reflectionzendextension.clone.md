@@ -1,24 +1,26 @@
-- [« ReflectionZendExtension](class.reflectionzendextension.md)
-- [ReflectionZendExtension::\_\_construct »](reflectionzendextension.construct.md)
+---
+navigation:
+  - class.reflectionzendextension.md: « ReflectionZendExtension
+  - reflectionzendextension.construct.md: 'ReflectionZendExtension::construct »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::clone'
+---
+# ReflectionZendExtension::clone
 
-- [PHP Manual](index.md)
-- [ReflectionZendExtension](class.reflectionzendextension.md)
-- обробник клонування
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# ReflectionZendExtension::\_\_clone
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-ReflectionZendExtension::\_\_clone — Обробник клонування
+ReflectionZendExtension::clone - Обробник клонування
 
 ### Опис
 
-private **ReflectionZendExtension::\_\_clone**(): void
+```methodsynopsis
+private ReflectionZendExtension::__clone(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,8 +28,8 @@ private **ReflectionZendExtension::\_\_clone**(): void
 
 ### Значення, що повертаються
 
-### Список змін
+### список змін
 
-| Версія | Опис                           |
-| ------ | ------------------------------ |
-| 8.1.0  | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |

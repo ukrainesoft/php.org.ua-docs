@@ -1,19 +1,22 @@
-- [« DirectoryIterator::getCTime](directoryiterator.getctime.md)
-- [DirectoryIterator::getFilename »](directoryiterator.getfilename.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає розширення файлу
-
+---
+navigation:
+  - directoryiterator.getctime.md: '« DirectoryIterator::getCTime'
+  - directoryiterator.getfilename.md: 'DirectoryIterator::getFilename »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getExtension'
+---
 # DirectoryIterator::getExtension
 
-(PHP 5 \>= 5.3.6, PHP 7, PHP 8)
+(PHP 5> = 5.3.6, PHP 7, PHP 8)
 
 DirectoryIterator::getExtension — Повертає розширення файлу
 
 ### Опис
 
-public **DirectoryIterator::getExtension**(): string
+```methodsynopsis
+public DirectoryIterator::getExtension(): string
+```
 
 Повертає розширення файлу.
 
@@ -23,38 +26,48 @@ public **DirectoryIterator::getExtension**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок (string), який містить розширення файлу або порожній
-рядок (string), якщо файл не має.
+Повертає рядок (string), який містить розширення файлу або порожній рядок (string), якщо файл не має.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::getExtension()****
 
-` <?php$directory = new DirectoryIterator(__DIR__);foreach ($directory as $fileinfo) {    if ($fileinfo->isFile()) {        echo $file "
-";    }}?> `
+```php
+<?php
+
+$directory = new DirectoryIterator(__DIR__);
+foreach ($directory as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getExtension() . "\n";
+    }
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 php
 txt
 jpg
 gz
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Іншим доступним рішенням може бути функція
-> [pathinfo()](function.pathinfo.md).
->
-> ` <?php$extension = pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION);?> `
+> **Зауваження**
+> 
+> Іншим доступним рішенням може бути функція [pathinfo()](function.pathinfo.md)
+> 
+> ```php
+> <?php
+> $extension = pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION);
+> ?>
+> ```
 
 ### Дивіться також
 
-- [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) -
-Повертає ім'я файлу поточного елемента DirectoryIterator
-- [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) -
-Повертає ім'я файлу (без розширення) поточного елемента
-DirectoryIterator
-- [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях
-до файлу
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

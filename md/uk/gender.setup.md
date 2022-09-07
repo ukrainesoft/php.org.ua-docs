@@ -1,12 +1,13 @@
-- [«Вступ](intro.gender.md)
-- [Установка »](gender.installation.md)
-
-- [PHP Manual](index.md)
-- [Gender](book.gender.md)
--   Встановлення та налаштування
-
+---
+navigation:
+  - intro.gender.md: « Введение
+  - gender.installation.md: Установка »
+  - index.md: PHP Manual
+  - book.gender.md: Gender
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Установка](gender.installation.md)
+-   [Установка](gender.installation.md)

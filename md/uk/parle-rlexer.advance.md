@@ -1,22 +1,24 @@
-- [« Parle\RLexer](class.parle-rlexer.md)
-- [Parle\RLexer::build »](parle-rlexer.build.md)
+---
+navigation:
+  - class.parle-rlexer.md: « ParleRLexer
+  - parle-rlexer.build.md: 'ParleRLexer::build »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.md: ParleRLexer
+title: 'ParleRLexer::advance'
+---
+# ParleRLexer::advance
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- Обробка наступного правила лексера
+(PECL parle >= 0.5.1)
 
-# Parle\RLexer::advance
-
-(PECL parle \>= 0.5.1)
-
-Parle\RLexer::advance — Обробка наступного правила лексера
+ParleRLexer::advance - Обробка наступного правила лексера
 
 ### Опис
 
-public **Parle\RLexer::advance**(): void
+```methodsynopsis
+public Parle\RLexer::advance(): void
+```
 
-Обробляє таке правило та готує отримані дані
-токена.
+Обробляє таке правило та готує отримані дані токена.
 
 ### Список параметрів
 

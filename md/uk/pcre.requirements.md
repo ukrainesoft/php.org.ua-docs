@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](pcre.setup.md)
-- [Установка »](pcre.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](pcre.setup.md)
-- Вимоги
-
+---
+navigation:
+  - pcre.setup.md: « Встановлення та налаштування
+  - pcre.installation.md: Установка »
+  - index.md: PHP Manual
+  - pcre.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

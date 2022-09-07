@@ -1,24 +1,24 @@
-- [« Memcached::getOption](memcached.getoption.md)
-- [Memcached::getResultMessage »](memcached.getresultmessage.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Повертає результуючий код останньої виконаної операції
-
+---
+navigation:
+  - memcached.getoption.md: '« Memcached::getOption'
+  - memcached.getresultmessage.md: 'Memcached::getResultMessage »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getResultCode'
+---
 # Memcached::getResultCode
 
-(PECL memcached \>= 0.1.0)
+(PECL memcached >= 0.1.0)
 
-Memcached::getResultCode — Повертає результуючий код останньої
-виконаної операції
+Memcached::getResultCode — Повертає результуючий код останньої виконаної операції
 
 ### Опис
 
-public **Memcached::getResultCode**(): int
+```methodsynopsis
+public Memcached::getResultCode(): int
+```
 
-**Memcached::getResultCode()** повертає одну з констант
-**`Memcached::RES_*`**, що є результуючим кодом виконання
-останнього методу Memcached.
+**Memcached::getResultCode()** повертає одну з констант **`Memcached::RES_*`**, що є результуючим кодом виконання останнього методу Memcached.
 
 ### Список параметрів
 
@@ -32,4 +32,14 @@ public **Memcached::getResultCode**(): int
 
 **Приклад #1 Приклад використання **Memcached::getResultCode()****
 
-` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->add('foo', 'bar');if ($m->getResultCode() = = Memcached::RES_NOTSTORED) {    /* ... */}?> `
+```php
+<?php
+$m = new Memcached();
+$m->addServer('localhost', 11211);
+
+$m->add('foo', 'bar');
+if ($m->getResultCode() == Memcached::RES_NOTSTORED) {
+    /* ... */
+}
+?>
+```

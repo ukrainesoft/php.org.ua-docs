@@ -1,30 +1,32 @@
-- [« Swoole\Atomic::add](swoole-atomic.add.md)
-- [Swoole\Atomic::\_\_construct »](swoole-atomic.construct.md)
+---
+navigation:
+  - swoole-atomic.add.md: '« SwooleAtomic::add'
+  - swoole-atomic.construct.md: 'SwooleAtomic::construct »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.md: SwooleAtomic
+title: 'SwooleAtomic::cmpset'
+---
+# SwooleAtomic::cmpset
 
-- [PHP Manual](index.md)
-- [Swoole\Atomic](class.swoole-atomic.md)
-- Порівнює та встановлює значення атомарного об'єкта
+(PECL swoole >= 1.9.0)
 
-# Swoole\Atomic::cmpset
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Atomic::cmpset — Порівнює та встановлює значення атомарного
-об'єкта
+SwooleAtomic::cmpset — Порівнює та встановлює значення атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::cmpset**(int `$cmp_value`, int `$new_value`):
-int
+```methodsynopsis
+public Swoole\Atomic::cmpset(int $cmp_value, int $new_value): int
+```
 
 ### Список параметрів
 
 `cmp_value`
+
 Значення порівняння з поточним значенням атомарного об'єкта.
 
 `new_value`
-Значення для атомарного об'єкта, якщо значення
-cmp_value збігається із поточним значенням атомарного об'єкта.
+
+Значення для атомарного об'єкта, якщо значення cmpvalue збігається із поточним значенням атомарного об'єкта.
 
 ### Значення, що повертаються
 

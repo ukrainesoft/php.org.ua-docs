@@ -1,20 +1,22 @@
-- [« Yaf_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.md)
-- [Yaf_Dispatcher::getRequest »](yaf-dispatcher.getrequest.md)
+---
+navigation:
+  - yaf-dispatcher.getdefaultmodule.md: '« YafDispatcher::getDefaultModule'
+  - yaf-dispatcher.getrequest.md: 'YafDispatcher::getRequest »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::getInstance'
+---
+# YafDispatcher::getInstance
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- отримує екземпляр диспетчера
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::getInstance
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::getInstance — Отримує екземпляр диспетчера
+YafDispatcher::getInstance — Отримує екземпляр диспетчера
 
 ### Опис
 
-public static **Yaf_Dispatcher::getInstance**():
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public static Yaf_Dispatcher::getInstance(): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

@@ -1,60 +1,86 @@
-- [« IntlCalendar::set](intlcalendar.set.md)
-- [IntlCalendar::setLenient »](intlcalendar.setlenient.md)
-
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- Встановлює день, який є початком тижня
-
+---
+navigation:
+  - intlcalendar.set.md: '« IntlCalendar::set'
+  - intlcalendar.setlenient.md: 'IntlCalendar::setLenient »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::setFirstDayOfWeek'
+---
 # IntlCalendar::setFirstDayOfWeek
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlCalendar::setFirstDayOfWeek — Встановлює день, який є
-початком тижня
+IntlCalendar::setFirstDayOfWeek — Встановлює день, який є початком тижня
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::setFirstDayOfWeek**(int `$dayOfWeek`): bool
+```methodsynopsis
+public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): bool
+```
 
 Процедурний стиль
 
-**intlcal_set_first_day_of_week**([IntlCalendar](class.intlcalendar.md)
-`$calendar`, int `$dayOfWeek`): bool
+```methodsynopsis
+intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): bool
+```
 
-Визначає день тижня, що вважається початком тижня. Це впливає на
-поведінка полів, які залежать від концепції початку та кінця тижня,
-наприклад: **`IntlCalendar::FIELD_WEEK_OF_YEAR`** та
-**`IntlCalendar::FIELD_YEAR_WOY`**.
+Визначає день тижня, що вважається початком тижня. Це впливає на поведінку полів, які залежать від концепції початку та кінця тижня, наприклад: **`IntlCalendar::FIELD_WEEK_OF_YEAR`** і **`IntlCalendar::FIELD_YEAR_WOY`**
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `dayOfWeek`
-Одна з констант **`IntlCalendar::DOW_SUNDAY`**,
-**`IntlCalendar::DOW_MONDAY`**, …, **`IntlCalendar::DOW_SATURDAY`**.
+
+Одна з констант **`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
 
 ### Значення, що повертаються
 
-Функція завжди повертає **`true`**.
+Функція завжди повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlCalendar::setFirstDayOfWeek()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'es_ES');$cal = IntlCalendar::createInstance();$cal->set(2013, 5 /* Червень */, 30); // Неділяvar_dump($cal->getFirstDayOfWeek()); // 2 (Понеділок)echo IntlDateFormatter::formatObject($cal, <<<EOD'місний день тижня: 'cc'тиждень місяця    : 'W'тиждень року      :
-";$cal->setFirstDayOfWeek(IntlCalendar::DOW_SUNDAY);echo IntlDateFormatter::formatObject($cal, <<<EOD'місний день тижня: 'cc'тиждень місяця               
-";
+```php
+<?php
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'es_ES');
+
+$cal = IntlCalendar::createInstance();
+$cal->set(2013, 5 /* Июнь */, 30); // Воскресенье
+
+var_dump($cal->getFirstDayOfWeek()); // 2 (Понедельник)
+
+echo IntlDateFormatter::formatObject($cal, <<<EOD
+'местный день недели: 'cc'
+неделя месяца    : 'W'
+неделя года     : 'ww
+EOD
+), "\n";
+
+$cal->setFirstDayOfWeek(IntlCalendar::DOW_SUNDAY);
+
+echo IntlDateFormatter::formatObject($cal, <<<EOD
+'местный день недели: 'cc'
+неделя месяца    : 'W'
+неделя года     : 'ww
+EOD
+), "\n";
+```
 
 Результат виконання цього прикладу:
 
+```
 int(2)
-місцевий день тижня: 7
-тиждень місяця: 4
-тиждень року: 26
-місцевий день тижня: 1
-тиждень місяця: 5
-тиждень року: 27
+местный день недели: 7
+неделя месяца    : 4
+неделя года     : 26
+местный день недели: 1
+неделя месяца    : 5
+неделя года     : 27
+```

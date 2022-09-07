@@ -1,19 +1,19 @@
-- [« Ds\Vector::join](ds-vector.join.md)
-- [Ds\Vector::last »](ds-vector.last.md)
+---
+navigation:
+  - ds-vector.join.md: '« DsVector::join'
+  - ds-vector.last.md: 'ДсVector::last »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::jsonSerialize'
+---
+# ДсVector::jsonSerialize
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає вектор у JSON-виставі
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::jsonSerialize
+ДсVector::jsonSerialize — Повертає вектор у JSON-представництві
 
-(PECL ds \>= 1.0.0)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-Ds\Vector::jsonSerialize — Повертає вектор у JSON-представництві
-
-Дивіться
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
-
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ніколи не використовуйте цю функцію безпосередньо.

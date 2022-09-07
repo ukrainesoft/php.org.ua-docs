@@ -1,10 +1,11 @@
-- [« Типи ресурсів](tcpwrap.resources.md)
-- [Функції TCP»](ref.tcpwrap.md)
-
-- [PHP Manual](index.md)
-- [TCP](book.tcpwrap.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - tcpwrap.resources.md: « Типи ресурсів
+  - ref.tcpwrap.md: Функції TCP »
+  - index.md: PHP Manual
+  - book.tcpwrap.md: TCP
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

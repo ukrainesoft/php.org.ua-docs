@@ -1,54 +1,51 @@
-- [« streamWrapper::stream_truncate](streamwrapper.stream-truncate.md)
-- [streamWrapper::unlink »](streamwrapper.unlink.md)
+---
+navigation:
+  - streamwrapper.stream-truncate.md: '« streamWrapper::streamtruncate'
+  - streamwrapper.unlink.md: 'streamWrapper::unlink »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamwrite'
+---
+# streamWrapper::streamwrite
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Запис у потік
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# streamWrapper::stream_write
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-streamWrapper::stream_write — Запис до потоку
+streamWrapper::streamwrite — Запис до потоку
 
 ### Опис
 
-public **streamWrapper::stream_write**(string `$data`): int
+```methodsynopsis
+public streamWrapper::stream_write(string $data): int
+```
 
-Цей метод викликається в результаті запуску функції
-[fwrite()](function.fwrite.md).
+Цей метод викликається внаслідок запуску функції [fwrite()](function.fwrite.md)
 
-> **Примітка**:
->
-> Не забувайте змінювати поточну позицію потоку на кількість успішно
-> Записаних байт.
+> **Зауваження**
+> 
+> Не забувайте змінювати поточну позицію потоку кількість успішно записаних байт.
 
 ### Список параметрів
 
 `data`
-Ці дані повинні передаватись потоку рівнем нижче.
 
-> **Примітка**:
->
-> Якщо нижчий потік не здатний прийняти всі дані, передавайте
-> скільки можливо.
+Ці дані мають передаватися потоку рівнем нижче.
+
+> **Зауваження**
+> 
+> Якщо потік нижче здатний прийняти всі дані, передавайте скільки можливо.
 
 ### Значення, що повертаються
 
-Повинен повертати кількість успішно записаних байт або 0, якщо нічого
-записати не вдалося.
+Повинен повертати кількість успішно записаних байт або 0, якщо нічого не вдалося записати.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не
-удався (наприклад, не реалізований).
+Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не вдалося (наприклад, не реалізовано).
 
-> **Примітка**:
->
-> Якщо значення, що повертається, виявиться більше розміру даних `data`,
-> буде викликана помилка рівня **`E_WARNING`**, а значення, що повертається
-> буде усічено до цього розміру.
+> **Зауваження**
+> 
+> Якщо значення, що повертається, виявиться більше розміру даних `data`, буде викликана помилка рівня **`E_WARNING`**, а значення, що повертається, буде усічено до цього розміру.
 
 ### Дивіться також
 
-- [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

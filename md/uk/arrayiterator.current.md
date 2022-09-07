@@ -1,10 +1,11 @@
-- [«ArrayIterator::count](arrayiterator.count.md)
-- [ArrayIterator::getArrayCopy »](arrayiterator.getarraycopy.md)
-
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Повертає поточний елемент у масиві
-
+---
+navigation:
+  - arrayiterator.count.md: '« ArrayIterator::count'
+  - arrayiterator.getarraycopy.md: 'ArrayIterator::getArrayCopy »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::current'
+---
 # ArrayIterator::current
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,10 +14,11 @@ ArrayIterator::current — Повертає поточний елемент у �
 
 ### Опис
 
-public **ArrayIterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ArrayIterator::current(): mixed
+```
 
-Повертає поточний елемент масиву (array).
+Повертає поточний елемент у масиві (array).
 
 ### Список параметрів
 
@@ -24,17 +26,33 @@ public **ArrayIterator::current**():
 
 ### Значення, що повертаються
 
-Повертає поточний елемент масиву (array).
+Повертає поточний елемент у масиві (array).
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayIterator::current()****
 
-`<?ph=$array = array('1' => 'one',   y| iterator= $arrayobject->getIterator();   $iterator->valid();   $iterator->next()) {    echo $iterator->key() . ' => ' . $iterator->current() . "
-";}?> `
+```php
+<?php
+$array = array('1' => 'one',
+               '2' => 'two',
+               '3' => 'three');
+
+$arrayobject = new ArrayObject($array);
+
+for($iterator = $arrayobject->getIterator();
+    $iterator->valid();
+    $iterator->next()) {
+
+    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-1 => один
+```
+1 => one
 2 => two
 3 => three
+```

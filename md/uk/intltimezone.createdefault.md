@@ -1,34 +1,36 @@
-- [« IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md)
-- [IntlTimeZone::createEnumeration »](intltimezone.createenumeration.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Створити нову копію часового поясу за промовчанням для поточного хоста
-
+---
+navigation:
+  - intltimezone.countequivalentids.md: '« IntlTimeZone::countEquivalentIDs'
+  - intltimezone.createenumeration.md: 'IntlTimeZone::createEnumeration »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::createDefault'
+---
 # IntlTimeZone::createDefault
 
-# intltz_create_default
+# intltzcreatedefault
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::createDefault -- intltz_create_default — Створити нову
-копію часового поясу за промовчанням для поточного хоста
+IntlTimeZone::createDefault -- intltzcreatedefault — Створити нову копію часового поясу за промовчанням для поточного хоста
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::createDefault**():
-[IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+public static IntlTimeZone::createDefault(): IntlTimeZone
+```
 
 Процедурний стиль:
 
-**intltz_create_default**(): [IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+intltz_create_default(): IntlTimeZone
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

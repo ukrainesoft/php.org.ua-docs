@@ -1,19 +1,22 @@
-- [« Componere\Method::setProtected](componere-method.setprotected.md)
-- [Componere\Method::getReflector »](componere-method.getreflector.md)
+---
+navigation:
+  - componere-method.setprotected.md: '« ComponereMethod::setProtected'
+  - componere-method.getreflector.md: 'ComponereMethod::getReflector »'
+  - index.md: PHP Manual
+  - class.componere-method.md: ComponereMethod
+title: 'ComponereMethod::setStatic'
+---
+# ComponereMethod::setStatic
 
-- [PHP Manual](index.md)
-- [Componere\Method](class.componere-method.md)
-- Зміна доступності
+(Componere 2 >= 2.1.0)
 
-# Componere\Method::setStatic
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Method::setStatic — Зміна доступності
+ComponereMethod::setStatic — Зміна доступності
 
 ### Опис
 
-public **Componere\Method::setStatic**(): Method
+```methodsynopsis
+public Componere\Method::setStatic(): Method
+```
 
 ### Значення, що повертаються
 

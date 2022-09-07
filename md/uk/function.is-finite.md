@@ -1,37 +1,36 @@
-- [«intdiv](function.intdiv.md)
-- [is_infinite»](function.is-infinite.md)
+---
+navigation:
+  - function.intdiv.md: « intdiv
+  - function.is-infinite.md: ісinfinite »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: ісfinite
+---
+# ісfinite
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Перевіряє, чи є значення допустимим кінцевим числом
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#is_finite
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-is_finite — Перевіряє, чи є значення допустимим кінцевим числом
+ісfinite — Перевіряє, чи є значення допустимим кінцевим числом
 
 ### Опис
 
-**is_finite**(float `$num`): bool
+```methodsynopsis
+is_finite(float $num): bool
+```
 
-Перевіряє, чи є 'num' допустимим кінцевим числом на даній
-платформи.
+Перевіряє, чи є `num` допустимим кінцевим числом на цій платформі.
 
 ### Список параметрів
 
 `num`
+
 Перевірене значення
 
 ### Значення, що повертаються
 
-**`true`**, якщо `num` є допустимим кінцевим числом у дозволеному
-для типу PHP float діапазоні на даній платформі, **`false`** в
-інакше.
+**`true`**, якщо `num` є допустимим кінцевим числом у дозволеному для типу PHP float діапазоні на даній платформі, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [is_infinite()](function.is-infinite.md) - Перевіряє, чи є
-значення нескінченним
-- [is_nan()](function.is-nan.md) - Перевіряє, чи є значення
-"не числом"
+-   [ісinfinite()](function.is-infinite.md) - Перевіряє, чи є значення нескінченним
+-   [ісnan()](function.is-nan.md) - Перевіряє, чи є значення "не числом"

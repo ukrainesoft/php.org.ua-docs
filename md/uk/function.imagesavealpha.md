@@ -1,59 +1,72 @@
-- [«imagerotate](function.imagerotate.md)
-- [imagescale »](function.imagescale.md)
+---
+navigation:
+  - function.imagerotate.md: « imagerotate
+  - function.imagescale.md: imagescale »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagesavealpha
+---
+# imagesavealpha
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Чи зберігати повну інформацію альфа-каналу при збереженні
-зображень PNG
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-#imagesavealpha
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-imagesavealpha — Чи зберігати повну інформацію альфа-каналу при
-збереження зображень PNG
+imagesavealpha — Зберігати повну інформацію альфа-каналу при збереженні зображень PNG
 
 ### Опис
 
-**imagesavealpha**([GdImage](class.gdimage.md) `$image`, bool
-`$enable`): bool
+```methodsynopsis
+imagesavealpha(GdImage $image, bool $enable): bool
+```
 
-**imagesavealpha()** встановлює прапор, який визначає, чи буде
-зберігатися повна інформація альфа-каналу (на противагу однокольоровій
-прозорості) і зберігає PNG зображення
+**imagesavealpha()** встановлює прапор, що визначає, чи зберігатиметься повна інформація альфа-каналу (на противагу однокольоровій прозорості) та зберігає PNG зображення
 
-Альфа-змішування має бути відключено
-(`imagealphablending($im, false)`), щоб альфа-канал зберігався в
-першу чергу.
+Альфа-змішування має бути відключено ( `imagealphablending ($ im, false)` ), щоб альфа-канал зберігався насамперед.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `enable`
-Чи потрібно зберігати альфа канал чи ні. За промовчанням **false**.
+
+Чи потрібно зберігати альфа канал чи ні. За замовчуванням **`false`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagesavealpha()****
 
-` <?php// Завантаження png зображення с альфа каналом$png = imagecreatefrompng('./alphachannel_example.png');// Вимкнення альфа-змішенняimagealphablending($png, false);// Ка прапораimagesavealpha($png, true);// Виведення зображення і очищення пам'ятіheader('Content-Type: image/png');imagepng($png);imagedestroy($png);?> `
+```php
+<?php
+// Загрузка png изображения с альфа каналом
+$png = imagecreatefrompng('./alphachannel_example.png');
+
+// Выключение альфа-смешения
+imagealphablending($png, false);
+
+// Какие-то операции
+
+// Установка альфа-флага
+imagesavealpha($png, true);
+
+// Вывод изображения и очистка памяти
+header('Content-Type: image/png');
+
+imagepng($png);
+imagedestroy($png);
+?>
+```
 
 ### Дивіться також
 
-- [imagealphablending()](function.imagealphablending.md) - Завдання
-режиму сполучення кольорів для зображення
+-   [imagealphablending()](function.imagealphablending.md) - Встановлення режиму сполучення кольорів для зображення

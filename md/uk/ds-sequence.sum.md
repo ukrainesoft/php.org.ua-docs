@@ -1,24 +1,27 @@
-- [« Ds\Sequence::sorted](ds-sequence.sorted.md)
-- [Ds\Sequence::unshift »](ds-sequence.unshift.md)
+---
+navigation:
+  - ds-sequence.sorted.md: '« DsSequence::sorted'
+  - ds-sequence.unshift.md: 'ДсSequence::unshift »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::sum'
+---
+# ДсSequence::sum
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Повертає суму всіх значень колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::sum
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::sum — Повертає суму всіх значень колекції
+ДсSequence::sum — Повертає суму всіх значень колекції
 
 ### Опис
 
-abstract public **Ds\Sequence::sum**(): int\|float
+```methodsynopsis
+abstract public Ds\Sequence::sum(): int|float
+```
 
 Повертає суму всіх значень колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Масиви та об'єкти вважаються нулем.
 
 ### Список параметрів
@@ -27,25 +30,36 @@ abstract public **Ds\Sequence::sum**(): int\|float
 
 ### Значення, що повертаються
 
-Сума всіх значень колекції типів float чи int, залежно від
-значень колекції.
+Сума всіх значень колекції типу float або int, залежно від значень колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::sum()** з цілими
-значеннями**
+**Приклад #1 Приклад використання **ДсSequence::sum()** з цілими значеннями**
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->sum());?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+var_dump($sequence->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(6)
+```
 
-**Приклад #2 Приклад використання **Ds\Sequence::sum()** зі значеннями
-типу float**
+**Приклад #2 Приклад використання **ДсSequence::sum()** зі значеннями типу float**
 
-` <?php$sequence = new \Ds\Vector([1, 2.5, 3]);var_dump($sequence->sum());?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2.5, 3]);
+var_dump($sequence->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 float(6.5)
+```

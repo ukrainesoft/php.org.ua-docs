@@ -1,36 +1,38 @@
-- [« SplObjectStorage::offsetGet](splobjectstorage.offsetget.md)
-- [SplObjectStorage::offsetUnset »](splobjectstorage.offsetunset.md)
-
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Асоціює дані з об'єктом у контейнері
-
+---
+navigation:
+  - splobjectstorage.offsetget.md: '« SplObjectStorage::offsetGet'
+  - splobjectstorage.offsetunset.md: 'SplObjectStorage::offsetUnset »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::offsetSet'
+---
 # SplObjectStorage::offsetSet
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetSet — Асоціює дані з об'єктом у контейнері
 
 ### Опис
 
-public **SplObjectStorage::offsetSet**(object `$object`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$info` = **`null`**): void
+```methodsynopsis
+public SplObjectStorage::offsetSet(object $object, mixed $info = null): void
+```
 
-Асоціює дані з об'єктом object у контейнері.
+Асоціює дані з об'єктом об'єкта в контейнері.
 
-> **Примітка**:
->
-> **SplObjectStorage::offsetSet()** є псевдонімом методу
-> [SplObjectStorage::attach()](splobjectstorage.attach.md).
+> **Зауваження**
+> 
+> **SplObjectStorage::offsetSet()** є псевдонімом методу [SplObjectStorage::attach()](splobjectstorage.attach.md)
 
 ### Список параметрів
 
 `object`
-Об'єкт object, з яким потрібно зв'язати дані.
+
+Об'єкт об'єкта з яким потрібно зв'язати дані.
 
 `info`
-Дані, які слід зв'язати з об'єктом object.
+
+Дані, які потрібно зв'язати з об'єктом об'єкта.
 
 ### Значення, що повертаються
 
@@ -40,19 +42,27 @@ public **SplObjectStorage::offsetSet**(object `$object`,
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetSet()****
 
-` <?php$s = new SplObjectStorage;$o1 = new StdClass;$s->offsetSet($o1, "hello"); // $s[$o1] = "hello";var_dump($s[$o1]);?> `
+```php
+<?php
+$s = new SplObjectStorage;
+
+$o1 = new StdClass;
+
+$s->offsetSet($o1, "hello"); // $s[$o1] = "hello";
+
+var_dump($s[$o1]);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(5) "hello"
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::attach()](splobjectstorage.attach.md) -
-Додає об'єкт у контейнер
-- [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.md) -
-Повертає дані, асоційовані з об'єктом object
-- [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) -
-Перевіряє, чи існує об'єкт у контейнері
-- [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) -
-Видаляє об'єкт із контейнера
+-   [SplObjectStorage::attach()](splobjectstorage.attach.md) - Додає об'єкт у контейнер
+-   [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.md) - Повертає дані, асоційовані з об'єктом object
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) - Видаляє об'єкт із контейнера

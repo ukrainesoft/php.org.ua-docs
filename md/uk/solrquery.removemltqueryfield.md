@@ -1,30 +1,31 @@
-- [« SolrQuery::removeMltField](solrquery.removemltfield.md)
-- [SolrQuery::removeSortField »](solrquery.removesortfield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє одне з полів запиту moreLikeThis
-
+---
+navigation:
+  - solrquery.removemltfield.md: '« SolrQuery::removeMltField'
+  - solrquery.removesortfield.md: 'SolrQuery::removeSortField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeMltQueryField'
+---
 # SolrQuery::removeMltQueryField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::removeMltQueryField — Видаляє одне з полів запиту
-moreLikeThis
+SolrQuery::removeMltQueryField — Видаляє одне з полів запиту moreLikeThis
 
 ### Опис
 
-public **SolrQuery::removeMltQueryField**(string `$queryField`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeMltQueryField(string $queryField): SolrQuery
+```
 
-Видаляє одне з полів запитубільше.
+Видаляє одне з полів запиту більше.
 
 ### Список параметрів
 
 `queryField`
+
 Поле запиту
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

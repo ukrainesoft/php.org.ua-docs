@@ -1,20 +1,15 @@
-- [« Вимоги](var-representation.requirements.md)
-- [Предвизначені константи »](var-representation.constants.md)
+---
+navigation:
+  - var-representation.requirements.md: « Вимоги
+  - var-representation.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - var-representation.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](var-representation.setup.md)
-- Встановлення
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-## Установка
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/varrepresentation](https://pecl.php.net/package/var_representation)
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
-
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/var_representation](https://pecl.php.net/package/var_representation).
-
-Бінарні файли Windows (файли DLL) для цього модуля PECL доступні на
-сайті PECL.
+Бінарні файли Windows (DLL-файли) для цього модуля PECL доступні на сайті PECL.

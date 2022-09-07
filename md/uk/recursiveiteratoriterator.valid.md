@@ -1,10 +1,11 @@
-- [« RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)
-- [RecursiveRegexIterator »](class.recursiveregexiterator.md)
-
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Перевірка допустимості поточної позиції
-
+---
+navigation:
+  - recursiveiteratoriterator.setmaxdepth.md: '« RecursiveIteratorIterator::setMaxDepth'
+  - class.recursiveregexiterator.md: RecursiveRegexIterator »
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::valid'
+---
 # RecursiveIteratorIterator::valid
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,12 +14,13 @@ RecursiveIteratorIterator::valid — Перевірка допустимості
 
 ### Опис
 
-public **RecursiveIteratorIterator::valid**(): bool
+```methodsynopsis
+public RecursiveIteratorIterator::valid(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,5 +28,4 @@ public **RecursiveIteratorIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо поточна позиція допустима, **`false`** у протилежному
-випадку.
+**`true`**, якщо поточна позиція допустима, **`false`** в іншому випадку.

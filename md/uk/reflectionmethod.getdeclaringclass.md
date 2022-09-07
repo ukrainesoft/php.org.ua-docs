@@ -1,23 +1,24 @@
-- [« ReflectionMethod::getClosure](reflectionmethod.getclosure.md)
-- [ReflectionMethod::getModifiers »](reflectionmethod.getmodifiers.md)
-
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Отримує клас, що оголошує відбитий метод
-
+---
+navigation:
+  - reflectionmethod.getclosure.md: '« ReflectionMethod::getClosure'
+  - reflectionmethod.getmodifiers.md: 'ReflectionMethod::getModifiers »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::getDeclaringClass'
+---
 # ReflectionMethod::getDeclaringClass
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionMethod::getDeclaringClass — Отримує клас, який оголошує
-відбитий метод
+ReflectionMethod::getDeclaringClass — Отримує клас, що оголошує відбитий метод
 
 ### Опис
 
-public **ReflectionMethod::getDeclaringClass**():
-[ReflectionClass](class.reflectionclass.md)
+```methodsynopsis
+public ReflectionMethod::getDeclaringClass(): ReflectionClass
+```
 
-Отримує клас, який оголошує відбитий метод.
+Отримує клас, що оголошує відбитий метод.
 
 ### Список параметрів
 
@@ -25,24 +26,36 @@ public **ReflectionMethod::getDeclaringClass**():
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.md), частиною
-якого є відбитий метод.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md)частиною якого є відбитий метод.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionMethod::getDeclaringClass()****
+**Приклад #1 Приклад використання **ReflectionMethod::getDeclaringClass()****
 
-` <?phpclass HelloWorld {   protected function sayHelloTo($name) {        return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');var_dump($reflectionMethod->getDeclaringClass());?> `
+```php
+<?php
+class HelloWorld {
+
+    protected function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
+
+}
+
+$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');
+var_dump($reflectionMethod->getDeclaringClass());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ReflectionClass)#2 (1) {
-["name"]=>
-string(10) "HelloWorld"
+  ["name"]=>
+  string(10) "HelloWorld"
 }
+```
 
 ### Дивіться також
 
-- [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) -
-Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) - Перевіряє, чи є метод абстрактним

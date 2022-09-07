@@ -1,24 +1,26 @@
-- [« Swoole\MySQL::\_\_destruct](swoole-mysql.destruct.md)
-- [Swoole\MySQL::on »](swoole-mysql.on.md)
+---
+navigation:
+  - swoole-mysql.destruct.md: '« SwooleMySQL::destruct'
+  - swoole-mysql.on.md: 'SwooleMySQL::on »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.md: SwooleMySQL
+title: 'SwooleMySQL::getBuffer'
+---
+# SwooleMySQL::getBuffer
 
-- [PHP Manual](index.md)
-- [Swoole\MySQL](class.swoole-mysql.md)
-- Опис
+(PECL swoole >= 1.9.0)
 
-# Swoole\MySQL::getBuffer
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\MySQL::getBuffer — Опис
+SwooleMySQL::getBuffer — Опис
 
 ### Опис
 
-public **Swoole\MySQL::getBuffer**(): ReturnType
+```methodsynopsis
+public Swoole\MySQL::getBuffer(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

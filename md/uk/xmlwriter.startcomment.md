@@ -1,54 +1,52 @@
-- [« XMLWriter::startCdata](xmlwriter.startcdata.md)
-- [XMLWriter::startDocument »](xmlwriter.startdocument.md)
-
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Створює стартовий коментар
-
+---
+navigation:
+  - xmlwriter.startcdata.md: '« XMLWriter::startCdata'
+  - xmlwriter.startdocument.md: 'XMLWriter::startDocument »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startComment'
+---
 # XMLWriter::startComment
 
-#xmlwriter_start_comment
+# xmlwriterstartcomment
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8, PECL xmlwriter \>= 1.0.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 1.0.0)
 
-XMLWriter::startComment -- xmlwriter_start_comment — Створює стартовий
-коментар
+XMLWriter::startComment -- xmlwriterstartcomment — Створює стартовий коментар
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::startComment**(): bool
+```methodsynopsis
+public XMLWriter::startComment(): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_start_comment**([XMLWriter](class.xmlwriter.md)
-`$writer`): bool
+```methodsynopsis
+xmlwriter_start_comment(XMLWriter $writer): bool
+```
 
 Починає коментар.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::endComment()](xmlwriter.endcomment.md) - Завершити
-коментар
-- [XMLWriter::writeComment()](xmlwriter.writecomment.md) - Записати
-повний тег коментаря
+-   [XMLWriter::endComment()](xmlwriter.endcomment.md) - Завершити коментар
+-   [XMLWriter::writeComment()](xmlwriter.writecomment.md) - Записати повний тег коментаря

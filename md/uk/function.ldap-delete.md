@@ -1,52 +1,52 @@
-- [« ldap_delete_ext](function.ldap-delete-ext.md)
-- [ldap_dn2ufn »](function.ldap-dn2ufn.md)
-
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Видаляє запис із директорії LDAP
-
-#ldap_delete
+---
+navigation:
+  - function.ldap-delete-ext.md: « ldapdeleteext
+  - function.ldap-dn2ufn.md: ldapdn2ufn »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapdelete
+---
+# ldapdelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_delete — Видалення запису з директорії LDAP
+ldapdelete — Видалення запису з директорії LDAP
 
 ### Опис
 
-**ldap_delete**([LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`, ?array `$controls` = **`null`**): bool
+```methodsynopsis
+ldap_delete(LDAP\Connection $ldap, string $dn, ?array $controls = null): bool
+```
 
-Видалення певного запису з директорії LDAP.
+Видалення конкретного запису з директорії LDAP.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
+
 Унікальне ім'я запису LDAP.
 
 `controls`
-Масив [керуючих констант LDAP](ldap.controls.md) для надсилання в
-запит.
+
+Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 
-- [ldap_delete_ext()](function.ldap-delete-ext.md) - Видалити запис
-з директорії
-- [ldap_add()](function.ldap-add.md) - Додати запис до LDAP
-директорію
+-   [ldapdeleteext()](function.ldap-delete-ext.md) - Видалити запис із директорії
+-   [ldapadd()](function.ldap-add.md) - Додати запис до LDAP директорії

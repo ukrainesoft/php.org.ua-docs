@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](mail.configuration.md)
-- [Предвизначені константи »](mail.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mail.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - mail.configuration.md: « Налаштування під час виконання
+  - mail.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - mail.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

@@ -1,19 +1,17 @@
-- [« Нові глобальні константи](migration70.constants.md)
-- [Видалені модулі та SAPI »](migration70.removed-exts-sapis.md)
-
-- [PHP Manual](index.md)
-- [Міграція з PHP 5.6.x на PHP 7.0.x](migration70.md)
-- Зміни у модулях SAPI
-
-## Зміни в модулях SAPI
+---
+navigation:
+  - migration70.constants.md: « Нові глобальні константи
+  - migration70.removed-exts-sapis.md: Віддалені модулі та SAPI »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Зміни у модулях SAPI
+---
+## Зміни у модулях SAPI
 
 ### [FPM](book.fpm.md)
 
 #### Не повністю визначений порт [listen](install.fpm.configuration.md#listen) тепер слухає як IPv4, так і IPv6
 
-У PHP 5 директива [listen](install.fpm.configuration.md#listen)
-що містить тільки номер порту, призводила до прослуховування всіх
-інтерфейси, але тільки по IPv4. PHP 7 тепер буде приймати як з IPv4,
-так і з IPv6.
+У PHP 5 директива [listen](install.fpm.configuration.md#listen) що містить тільки номер порту, призводила до прослуховування всіх інтерфейсів, але тільки IPv4. PHP 7 тепер прийматиме як з IPv4, так і з IPv6.
 
-Це не впливає на директиви, що містять конкретні IP-адреси.
+Це не впливає на директиви, які містять конкретні IP-адреси.

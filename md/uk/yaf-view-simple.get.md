@@ -1,29 +1,33 @@
-- [« Yaf_View_Simple::eval](yaf-view-simple.eval.md)
-- [Yaf_View_Simple::getScriptPath »](yaf-view-simple.getscriptpath.md)
+---
+navigation:
+  - yaf-view-simple.eval.md: '« YafViewSimple::eval'
+  - yaf-view-simple.getscriptpath.md: 'YafViewSimple::getScriptPath »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
+title: 'YafViewSimple::get'
+---
+# YafViewSimple::get
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Отримує призначену змінну
+(Yaf >=1.0.0)
 
-# Yaf_View_Simple::\_\_get
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Simple::\_\_get — Отримує призначену змінну
+YafViewSimple::get — Отримує призначену змінну
 
 ### Опис
 
-public **Yaf_View_Simple::\_\_get**(string `$name` = ?): void
+```methodsynopsis
+public Yaf_View_Simple::__get(string $name = ?): void
+```
 
 Отримує призначену змінну
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Параметр може бути порожнім з 2.1.11
 
 ### Список параметрів
 
 `name`
+
 Надане ім'я змінної
 
 Якщо не вказано, буде повернено всі призначені змінні

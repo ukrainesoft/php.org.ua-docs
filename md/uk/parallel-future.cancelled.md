@@ -1,18 +1,19 @@
-- [« parallel\Future::cancel](parallel-future.cancel.md)
-- [parallel\Future::done »](parallel-future.done.md)
+---
+navigation:
+  - parallel-future.cancel.md: '« parallelFuture::cancel'
+  - parallel-future.done.md: 'parallelFuture::done »'
+  - index.md: PHP Manual
+  - class.parallel-future.md: parallelFuture
+title: 'parallelFuture::cancelled'
+---
+# parallelFuture::cancelled
 
-- [PHP Manual](index.md)
-- [parallel\Future](class.parallel-future.md)
-- Визначення стану
-
-# parallel\Future::cancelled
-
-(0.9.0)
-
-parallel\Future::cancelled — Визначення стану
+parallelFuture::cancelled — Визначення стану
 
 ### Опис
 
-public **parallel\Future::cancelled**(): bool
+```methodsynopsis
+public parallel\Future::cancelled(): bool
+```
 
 Вказує, чи завдання було скасовано.

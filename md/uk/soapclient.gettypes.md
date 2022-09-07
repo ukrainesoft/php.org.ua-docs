@@ -1,24 +1,27 @@
-- [« SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md)
-- [SoapClient::\_\_setCookie »](soapclient.setcookie.md)
-
-- [PHP Manual](index.md)
-- [SoapClient](class.soapclient.md)
-- Повертає список SOAP-типів
-
-# SoapClient::\_\_getTypes
+---
+navigation:
+  - soapclient.getlastresponseheaders.md: '« SoapClient::getLastResponseHeaders'
+  - soapclient.setcookie.md: 'SoapClient::setCookie »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::getTypes'
+---
+# SoapClient::getTypes
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::\_\_getTypes — Повертає список типів SOAP
+SoapClient::getTypes — Повертає список типів SOAP
 
 ### Опис
 
-public **SoapClient::\_\_getTypes**(): ?array
+```methodsynopsis
+public SoapClient::__getTypes(): ?array
+```
 
 Повертає масив типів, описаних у WSDL для веб-служби.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ця функція працює лише у режимі WSDL.
 
 ### Список параметрів
@@ -31,46 +34,52 @@ public **SoapClient::\_\_getTypes**(): ?array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::\_\_getTypes()****
+**Приклад #1 Приклад використання **SoapClient::getTypes()****
 
-` <?php$client = new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');var_dump($client->__getTypes());?> `
+```php
+<?php
+$client = new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');
+var_dump($client->__getTypes());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(88) {
-[0]=>
-string(30) "ProductLine ProductLineArray[]"
-[1]=>
-string(85) "struct ProductLine {
-string Mode;
-string RelevanceRank;
-ProductInfo ProductInfo;
+  [0]=>
+  string(30) "ProductLine ProductLineArray[]"
+  [1]=>
+  string(85) "struct ProductLine {
+ string Mode;
+ string RelevanceRank;
+ ProductInfo ProductInfo;
 }"
-[2]=>
-string(105) "struct ProductInfo {
-string TotalResults;
-string TotalPages;
-string ListName;
-DetailsArray Details;
+  [2]=>
+  string(105) "struct ProductInfo {
+ string TotalResults;
+ string TotalPages;
+ string ListName;
+ DetailsArray Details;
 }"
 ...
-[85] =>
-string(32) "ShortSummary ShortSummaryArray[]"
-[86] =>
-string(121) "struct GetTransactionDetailsRequest {
-string tag;
-string devtag;
-string key;
-OrderIdArray OrderIds;
-string locale;
+  [85]=>
+  string(32) "ShortSummary ShortSummaryArray[]"
+  [86]=>
+  string(121) "struct GetTransactionDetailsRequest {
+ string tag;
+ string devtag;
+ string key;
+ OrderIdArray OrderIds;
+ string locale;
 }"
-[87] =>
-string(75) "struct GetTransactionDetailsResponse {
-ShortSummaryArray ShortSummaries;
+  [87]=>
+  string(75) "struct GetTransactionDetailsResponse {
+ ShortSummaryArray ShortSummaries;
 }"
 }
+```
 
 ### Дивіться також
 
-- [SoapClient::\_\_construct()](soapclient.construct.md) -
-Конструктор класу SoapClient
+-   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient

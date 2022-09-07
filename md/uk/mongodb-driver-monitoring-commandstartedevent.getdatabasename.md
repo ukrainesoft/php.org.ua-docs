@@ -1,22 +1,22 @@
-- [« MongoDB\Driver\Monitoring\CommandStartedEvent::getCommandName](mongodb-driver-monitoring-commandstartedevent.getcommandname.md)
-- [MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId »](mongodb-driver-monitoring-commandstartedevent.getoperationid.md)
+---
+navigation:
+  - mongodb-driver-monitoring-commandstartedevent.getcommandname.md: '« MongoDBDriverMonitoringCommandStartedEvent::getCommandName'
+  - mongodb-driver-monitoring-commandstartedevent.getoperationid.md: 'MongoDBDriverMonitoringCommandStartedEvent::getOperationId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent
+title: 'MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName'
+---
+# MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
-- Повертає базу даних, на якій виконувалась команда
+(mongodb >=1.3.0)
 
-# MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName
-
-(mongodb \>=1.3.0)
-
-MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName
-Повертає базу даних, на якій виконувалась команда
+MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName — Повертає базу даних, на якій виконувалась команда
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName**():
-string
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName(): string
+```
 
 ### Список параметрів
 
@@ -28,10 +28,8 @@ string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

@@ -1,20 +1,22 @@
-- [« Yaf_Controller_Abstract::redirect](yaf-controller-abstract.redirect.md)
-- [Yaf_Controller_Abstract::setViewpath »](yaf-controller-abstract.setviewpath.md)
+---
+navigation:
+  - yaf-controller-abstract.redirect.md: '« YafControllerAbstract::redirect'
+  - yaf-controller-abstract.setviewpath.md: 'YafControllerAbstract::setViewpath »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::render'
+---
+# YafControllerAbstract::render
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Відображає шаблон представлення
+(Yaf >=1.0.0)
 
-# Yaf_Controller_Abstract::render
-
-(Yaf \>=1.0.0)
-
-Yaf_Controller_Abstract::render — Відображає шаблон представлення
+YafControllerAbstract::render — Відображає шаблон представлення
 
 ### Опис
 
-protected **Yaf_Controller_Abstract::render**(string `$tpl`, array
-`$parameters` = ?): string
+```methodsynopsis
+protected Yaf_Controller_Abstract::render(string $tpl, array $parameters = ?): string
+```
 
 ### Список параметрів
 

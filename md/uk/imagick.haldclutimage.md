@@ -1,39 +1,38 @@
-- [« Imagick::getVersion](imagick.getversion.md)
-- [Imagick::hasNextImage »](imagick.hasnextimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Замінює кольори у зображенні
-
+---
+navigation:
+  - imagick.getversion.md: '« Imagick::getVersion'
+  - imagick.hasnextimage.md: 'Imagick::hasNextImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::haldClutImage'
+---
 # Imagick::haldClutImage
 
 (PECL imagick 3)
 
-Imagick::haldClutImage — Замінює кольори зображення
+Imagick::haldClutImage — Замінює кольори зображення.
 
 ### Опис
 
-public **Imagick::haldClutImage**([Imagick](class.imagick.md) `$clut`,
-int `$channel` = Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::haldClutImage(Imagick $clut, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Замінює кольори зображення за допомогою таблиці пошуку Hald.
-Hald-зображення можуть бути створені за допомогою колірного кодера
-HALD.
+Замінює кольори зображення за допомогою таблиці пошуку Hald. Hald-зображення можуть бути створені за допомогою колірного кодера HALD.
 
 ### Список параметрів
 
 `clut`
-Об'єкт Imagick, який містить пошукове Hald-зображення.
+
+Об'єкт Imagick, що містить пошукове зображення Hald.
 
 `channel`
-Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
-побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
+
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -43,4 +42,16 @@ HALD.
 
 **Приклад #1 Приклад використання **Imagick::haldClutImage()****
 
-` <?phpfunction haldClutImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagickPalette = new \Imagick(realpath("images/hald/hald_8.png")); $imagickPalette->sepiatoneImage(55); $imagick->haldClutImage($imagickPalette); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function haldClutImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagickPalette = new \Imagick(realpath("images/hald/hald_8.png"));
+    $imagickPalette->sepiatoneImage(55);
+    $imagick->haldClutImage($imagickPalette);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

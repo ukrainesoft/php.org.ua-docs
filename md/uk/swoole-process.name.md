@@ -1,23 +1,27 @@
-- [« Swoole\Process::kill](swoole-process.kill.md)
-- [Swoole\Process::pop »](swoole-process.pop.md)
+---
+navigation:
+  - swoole-process.kill.md: '« SwooleProcess::kill'
+  - swoole-process.pop.md: 'SwooleProcess::pop »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::name'
+---
+# SwooleProcess::name
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Встановлює назву процесу
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::name
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::name — Встановлює назву процесу
+SwooleProcess::name — Встановлює назву процесу
 
 ### Опис
 
-public **Swoole\Process::name**(string `$process_name`): bool
+```methodsynopsis
+public Swoole\Process::name(string $process_name): bool
+```
 
 ### Список параметрів
 
 `process_name`
-Встановлює назву процесу.
+
+Встановлює ім'я процесу.
 
 ### Значення, що повертаються

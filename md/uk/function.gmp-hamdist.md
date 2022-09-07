@@ -1,57 +1,66 @@
-- [«gmp_gcdext](function.gmp-gcdext.md)
-- [gmp_import »](function.gmp-import.md)
+---
+navigation:
+  - function.gmp-gcdext.md: « gmpgcdext
+  - function.gmp-import.md: gmpimport »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmphamdist
+---
+# gmphamdist
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Відстань Хеммінга
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_hamdist
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_hamdist — Відстань Хеммінга
+gmphamdist — Відстань Хеммінга
 
 ### Опис
 
-**gmp_hamdist**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): int
+```methodsynopsis
+gmp_hamdist(GMP|int|string $num1, GMP|int|string $num2): int
+```
 
-Повертає відстань Хеммінга для чисел `num1` та `num2`. Обидва операнди
-мають бути неотрицательными.
+Повертає відстань Хеммінгу для чисел `num1` і `num2`. Обидва операнда мають бути невід'ємними.
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 Має бути невід'ємним.
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 Має бути невід'ємним.
 
 ### Значення, що повертаються
 
-Відстань Хеммінга між `num1` і `num2` у вигляді цілого числа (int).
+Відстань Хеммінга між `num1` і `num2` як цілого числа (int).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_hamdist()****
+**Приклад #1 Приклад використання **gmphamdist()****
 
-` <?php$ham1 = gmp_init("1001010011", 2);$ham2 = gmp_init("1011111100", 2);echo gmp_hamdist($ham1, $ham2) . "
-";/* відстань Хеммінга еквівалентно: */echo gmp_popcount(gmp_xor($ham1, $ham2)) . ""
-";?> `
+```php
+<?php
+$ham1 = gmp_init("1001010011", 2);
+$ham2 = gmp_init("1011111100", 2);
+echo gmp_hamdist($ham1, $ham2) . "\n";
+
+/* расстояние Хэмминга эквивалентно: */
+echo gmp_popcount(gmp_xor($ham1, $ham2)) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 6
 6
+```
 
 ### Дивіться також
 
-- [gmp_popcount()](function.gmp-popcount.md) - Кількість одиниць
-двійкового запису числа
-- [gmp_xor()](function.gmp-xor.md) - Побітове виключне АБО
+-   [gmppopcount()](function.gmp-popcount.md) - Кількість одиниць у двійковому записі числа
+-   [gmpxor()](function.gmp-xor.md) - Побітове що виключає АБО

@@ -1,71 +1,67 @@
-- [«eio_syncfs](function.eio-syncfs.md)
-- [eio_unlink »](function.eio-unlink.md)
+---
+navigation:
+  - function.eio-syncfs.md: « eiosyncfs
+  - function.eio-unlink.md: eiounlink »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiotruncate
+---
+# eiotruncate
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Урізує розмір файлу
+(PECL eio >= 0.0.1dev)
 
-#eio_truncate
-
-(PECL eio \>= 0.0.1dev)
-
-eio_truncate — Зменшує розмір файлу
+eiotruncate — Зменшує розмір файлу
 
 ### Опис
 
-**eio_truncate**(
-string `$path`,
-int `$offset` = 0,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_truncate(    string $path,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_truncate()** урізує файл, дескриптор якого вказаний у параметрі
-`fd` точно до `length` байт.
+**eiotruncate()** урізує файл, дескриптор якого вказаний у параметрі `fd` точно до `length` байт.
 
 ### Список параметрів
 
 `path`
+
 Шлях до файлу
 
 `offset`
+
 Зміщення від початку файлу
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-[eio_busy()](function.eio-busy.md) повертає покажчик на запит у
-у разі успішного виконання або **`false`** у разі виникнення
-помилки.
+[eiobusy()](function.eio-busy.md) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [eio_ftruncate()](function.eio-ftruncate.md) - Урізає розмір
-файлу
+-   [eioftruncate()](function.eio-ftruncate.md) - Урізує розмір файлу

@@ -1,29 +1,31 @@
-- [« SplHeap::extract](splheap.extract.md)
-- [SplHeap::isCorrupted »](splheap.iscorrupted.md)
-
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Вставляє елемент у купу та пересортує її
-
+---
+navigation:
+  - splheap.extract.md: '« SplHeap::extract'
+  - splheap.iscorrupted.md: 'SplHeap::isCorrupted »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::insert'
+---
 # SplHeap::insert
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::insert — Вставляє елемент у купу та пересортує її
 
 ### Опис
 
-public
-**SplHeap::insert**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+public SplHeap::insert(mixed $value): bool
+```
 
-Вставляє `value` у купу.
+Вставляє `value` в купу.
 
 ### Список параметрів
 
 `value`
+
 Значення, яке потрібно вставити.
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**.
+Завжди повертає **`true`**

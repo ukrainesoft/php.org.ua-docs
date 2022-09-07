@@ -1,22 +1,24 @@
-- [« XMLReader::moveToElement](xmlreader.movetoelement.md)
-- [XMLReader::moveToNextAttribute »](xmlreader.movetonextattribute.md)
-
-- [PHP Manual](index.md)
-- [XMLReader](class.xmlreader.md)
-- Перемістити позицію курсору на перший атрибут
-
+---
+navigation:
+  - xmlreader.movetoelement.md: '« XMLReader::moveToElement'
+  - xmlreader.movetonextattribute.md: 'XMLReader::moveToNextAttribute »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::moveToFirstAttribute'
+---
 # XMLReader::moveToFirstAttribute
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-XMLReader::moveToFirstAttribute — Перемістити позицію курсору на перший
-атрибут
+XMLReader::moveToFirstAttribute — Перемістити позицію курсору на перший атрибут
 
 ### Опис
 
-public **XMLReader::moveToFirstAttribute**(): bool
+```methodsynopsis
+public XMLReader::moveToFirstAttribute(): bool
+```
 
-Переміщення позиції курсора на перший атрибут.
+Переміщує позицію курсору перший атрибут.
 
 ### Список параметрів
 
@@ -24,18 +26,12 @@ public **XMLReader::moveToFirstAttribute**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [XMLReader::moveToElement()](xmlreader.movetoelement.md) -
-Позиціонувати курсор на батьківському елементі поточного атрибуту
-- [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) -
-Перемістити курсор до атрибуту із заданим ім'ям
-- [XMLReader::moveToAttributeNo()](xmlreader.movetoattributeno.md) -
-Перемістити курсор на атрибут за індексом
-- [XMLReader::moveToAttributeNs()](xmlreader.movetoattributens.md) -
-Перемістити курсор до іменованого атрибуту
-- [XMLReader::moveToNextAttribute()](xmlreader.movetonextattribute.md) -
-Перемістити позицію курсору на наступний атрибут
+-   [XMLReader::moveToElement()](xmlreader.movetoelement.md) - Позиціонувати курсор на батьківському елементі поточного атрибуту
+-   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) - Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::moveToAttributeNo()](xmlreader.movetoattributeno.md) - Перемістити курсор на атрибут за індексом
+-   [XMLReader::moveToAttributeNs()](xmlreader.movetoattributens.md) - Перемістити курсор до іменованого атрибуту
+-   [XMLReader::moveToNextAttribute()](xmlreader.movetonextattribute.md) - Перемістити позицію курсору на наступний атрибут

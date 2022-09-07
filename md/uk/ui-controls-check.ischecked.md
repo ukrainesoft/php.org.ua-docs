@@ -1,19 +1,22 @@
-- [«UI\Controls\Check::getText](ui-controls-check.gettext.md)
-- [UI\Controls\Check::onToggle »](ui-controls-check.ontoggle.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Check](class.ui-controls-check.md)
-- Визначення позначки
-
-# UI\Controls\Check::isChecked
+---
+navigation:
+  - ui-controls-check.gettext.md: '« UIControlsCheck::getText'
+  - ui-controls-check.ontoggle.md: 'ОЙControlsCheck::onToggle »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.md: ОЙControlsCheck
+title: 'ОЙControlsCheck::isChecked'
+---
+# ОЙControlsCheck::isChecked
 
 (UI 0.9.9)
 
-UI\Controls\Check::isChecked — Визначення позначки
+ОЙControlsCheck::isChecked — Визначення позначки
 
 ### Опис
 
-public **UI\Controls\Check::isChecked**(): bool
+```methodsynopsis
+public UI\Controls\Check::isChecked(): bool
+```
 
 Визначить статус вибору даного чекбоксу
 

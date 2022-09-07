@@ -1,29 +1,29 @@
-- [« variant_round](function.variant-round.md)
-- [variant_set »](function.variant-set.md)
-
-- [PHP Manual](index.md)
-- [Функції COM](ref.com.md)
-- Приведення варіанта до іншого типу "за місцем"
-
-# variant_set_type
+---
+navigation:
+  - function.variant-round.md: « variantround
+  - function.variant-set.md: variantset »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantsettype
+---
+# variantsettype
 
 (PHP 5, PHP 7, PHP 8)
 
-variant_set_type — Приведення варіанта до іншого типу "за місцем"
+variantsettype — Приведення варіанта до іншого типу "за місцем"
 
 ### Опис
 
-**variant_set_type**([variant](class.variant.md) `$variant`, int
-`$type`): void
+```methodsynopsis
+variant_set_type(variant $variant, int $type): void
+```
 
-Функція аналогічна [variant_cast()](function.variant-cast.md) за
-винятком те, що змінюється сам варіант, а чи не створюється новий.
-Функції, що передаються, ідентичні параметрам функції
-[variant_cast()](function.variant-cast.md).
+Функція аналогічна [variantcast()](function.variant-cast.md) крім того, що змінюється сам варіант, а чи не створюється новий. Функції, що передаються, ідентичні параметрам функції [variantcast()](function.variant-cast.md)
 
 ### Список параметрів
 
 `variant`
+
 Різновид.
 
 `type`
@@ -34,7 +34,5 @@ variant_set_type — Приведення варіанта до іншого т�
 
 ### Дивіться також
 
-- [variant_cast()](function.variant-cast.md) - Перетворення
-варіанти в новий варіант іншого типу
-- [variant_get_type()](function.variant-get-type.md) - Отримати тип
-варіанти
+-   [variantcast()](function.variant-cast.md) - Перетворення варіанта на новий варіант іншого типу
+-   [variantgettype()](function.variant-get-type.md) - Отримати тип варіанта

@@ -1,40 +1,51 @@
-- [« Ds\Map::hasKey](ds-map.haskey.md)
-- [Ds\Map::intersect »](ds-map.intersect.md)
+---
+navigation:
+  - ds-map.haskey.md: '« DsMap::hasKey'
+  - ds-map.intersect.md: 'ДсMap::intersect »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::hasValue'
+---
+# ДсMap::hasValue
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Перевіряє, чи колекція містить задане значення
+(PECL ds >= 1.0.0)
 
-# Ds\Map::hasValue
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::hasValue — Перевіряє, чи колекція містить задане значення
+ДсMap::hasValue — Перевіряє, чи колекція містить задане значення
 
 ### Опис
 
-public
-**Ds\Map::hasValue**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+public Ds\Map::hasValue(mixed $value): bool
+```
 
 Перевіряє, чи колекція містить задане значення.
 
 ### Список параметрів
 
 `value`
+
 Значення для перевірки.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо ключ знайдений, інакше **`false`**.
+Повертає \*\*`true`\*\*якщо ключ знайдений, інакше **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::hasValue()****
+**Приклад #1 Приклад використання **ДсMap::hasValue()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->hasValue(1)); // Truevar_dump ($ map-> has Value (4)); // false?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+
+var_dump($map->hasValue(1)); // true
+var_dump($map->hasValue(4)); // false
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(true)
 bool(false)
+```

@@ -1,74 +1,59 @@
-- [« fann_train_on_data](function.fann-train-on-data.md)
-- [fann_train »](function.fann-train.md)
+---
+navigation:
+  - function.fann-train-on-data.md: « fanntrainвінdata
+  - function.fann-train.md: fanntrain »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanntrainвінfile
+---
+# fanntrainвінfile
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Навчання на повному наборі даних, прочитаному з файлу, на тимчасовому
-інтервалі
+(PECL fann> = 1.0.0)
 
-# fann_train_on_file
-
-(PECL fann = 1.0.0)
-
-fann_train_on_file — Навчання на повному наборі даних, прочитаному з
-файлу, на тимчасовому інтервалі
+fanntrainвінfile — Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
 
 ### Опис
 
-**fann_train_on_file**(
-resource `$ann`,
-string `$filename`,
-int `$max_epochs`,
-int `$epochs_between_reports`,
-float `$desired_error`
-): bool
+```methodsynopsis
+fann_train_on_file(    resource $ann,    string $filename,    int $max_epochs,    int $epochs_between_reports,    float $desired_error): bool
+```
 
-Навчання на повному наборі даних, прочитаному з файлу, на тимчасовому
-інтервалі.
+Навчання на повному наборі даних, прочитаному із файлу, на часовому інтервалі.
 
-Це навчання використовує алгоритм, вибраний функцією
-[fann_set_training_algorithm()](function.fann-set-training-algorithm.md)
-та набір параметрів для цих алгоритмів.
+Це навчання використовує алгоритм, вибраний функцією [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) та набір параметрів для цих алгоритмів.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `filename`
+
 Файл, який містить навчальні дані
 
 `max_epochs`
+
 Максимальна кількість епох, яка має тривати навчання
 
 `epochs_between_reports`
-Кількість епох між викликами функції користувача. Якщо одно
-нулю, то функція не запускатиметься.
+
+Кількість епох між викликами користувальницької функції. Якщо дорівнює нулю, то функція не запускатиметься.
 
 `desired_error`
-Бажана [fann_get_MSE()](function.fann-get-mse.md) або
-[fann_get_bit_fail()](function.fann-get-bit-fail.md), в залежності від
-вибраної функції зупинки
-[fann_set_train_stop_function()](function.fann-set-train-stop-function.md)
+
+Бажана [fanngetMSE()](function.fann-get-mse.md) або [fanngetbitfail()](function.fann-get-bit-fail.md), залежно від обраної функції зупинки [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_train_on_data()](function.fann-train-on-data.md) - Навчання
-на всьому обсязі даних на часовому інтервалі
-- [fann_train_epoch()](function.fann-train-epoch.md) - Навчання в
-протягом однієї епохи
-- [fann_get_bit_fail()](function.fann-get-bit-fail.md) - Кількість
-бітів збою
-- [fann_get_MSE()](function.fann-get-mse.md) - Зчитує
-середньоквадратичну помилку мережі
-- [fann_set_train_stop_function()](function.fann-set-train-stop-function.md) -
-Встановлює функцію зупинки під час тренування.
-- [fann_set_training_algorithm()](function.fann-set-training-algorithm.md) -
-Встановлює алгоритм навчання
-- [fann_set_callback()](function.fann-set-callback.md) -
-Встановлює callback-функцію для використання під час навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanntrainepoch()](function.fann-train-epoch.md) - Навчання протягом однієї епохи
+-   [fanngetbitfail()](function.fann-get-bit-fail.md) - Кількість бітів збою
+-   [fanngetMSE()](function.fann-get-mse.md) - Зчитує середньоквадратичну помилку мережі
+-   [fannsettrainstopfunction()](function.fann-set-train-stop-function.md) - Встановлює функцію зупинки під час тренування.
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) - встановлює алгоритм навчання
+-   [fannsetcallback()](function.fann-set-callback.md) - Встановлює callback-функцію для використання під час навчання

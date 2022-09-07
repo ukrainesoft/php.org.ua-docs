@@ -1,19 +1,22 @@
-- [« MongoDB \ BSON \ MaxKey](class.mongodb-bson-maxkey.md)
-- [MongoDB\BSON\MaxKey::jsonSerialize »](mongodb-bson-maxkey.jsonserialize.md)
+---
+navigation:
+  - class.mongodb-bson-maxkey.md: « MongoDBBSONMaxKey
+  - mongodb-bson-maxkey.jsonserialize.md: 'MongoDBBSONMaxKey::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-maxkey.md: MongoDBBSONMaxKey
+title: 'MongoDBBSONMaxKey::construct'
+---
+# MongoDBBSONMaxKey::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)
-- Конструктор MaxKey
+(mongodb >=1.0.0)
 
-# MongoDB\BSON\MaxKey::\_\_construct
-
-(mongodb \>=1.0.0)
-
-MongoDB\BSON\MaxKey::\_\_construct - Конструктор MaxKey
+MongoDBBSONMaxKey::construct — Конструктор MaxKey
 
 ### Опис
 
-final public **MongoDB\BSON\MaxKey::\_\_construct**()
+```methodsynopsis
+final public MongoDB\BSON\MaxKey::__construct()
+```
 
 ### Список параметрів
 
@@ -21,21 +24,27 @@ final public **MongoDB\BSON\MaxKey::\_\_construct**()
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\MaxKey::\_\_construct()****
+**Приклад #1 Приклад використання **MongoDBBSONMaxKey::construct()****
 
-` <?phpvar_dump(new MongoDB\BSON\MaxKey());?> `
+```php
+<?php
+
+var_dump(new MongoDB\BSON\MaxKey());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(MongoDB\BSON\MaxKey)#1 (0) {
 }
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

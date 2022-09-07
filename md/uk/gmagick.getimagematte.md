@@ -1,22 +1,24 @@
-- [« Gmagick::getimageiterations](gmagick.getimageiterations.md)
-- [Gmagick::getimagemattecolor »](gmagick.getimagemattecolor.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Перевіряє, чи є на зображенні матовий канал
-
+---
+navigation:
+  - gmagick.getimageiterations.md: '« Gmagick::getimageiterations'
+  - gmagick.getimagemattecolor.md: 'Gmagick::getimagemattecolor »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagematte'
+---
 # Gmagick::getimagematte
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagematte — Перевіряє, чи є на зображенні матовий канал
+Gmagick::getimagematte — Перевіряє, чи на зображенні є матовий канал
 
 ### Опис
 
-public **Gmagick::getimagematte**(): int
+```methodsynopsis
+public Gmagick::getimagematte(): int
+```
 
-Повертає **`true`**, якщо у зображення є матовий канал,
-в іншому випадку повертає **`false`**.
+Повертає **`true`**, якщо зображення має матовий канал, в іншому випадку повертає **`false`**
 
 ### Список параметрів
 
@@ -24,8 +26,7 @@ public **Gmagick::getimagematte**(): int
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо у зображення є матовий канал,
-в іншому випадку повертає **`false`**.
+Повертає **`true`**, якщо зображення має матовий канал, в іншому випадку повертає **`false`**
 
 ### Помилки
 

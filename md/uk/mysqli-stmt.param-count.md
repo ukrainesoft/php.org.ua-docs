@@ -1,38 +1,38 @@
-- [« mysqli_stmt::$num_rows](mysqli-stmt.num-rows.md)
-- [mysqli_stmt::prepare »](mysqli-stmt.prepare.md)
+---
+navigation:
+  - mysqli-stmt.num-rows.md: '« mysqlistmt::$numrows'
+  - mysqli-stmt.prepare.md: 'mysqlistmt::prepare »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::$paramcount'
+---
+# mysqlistmt::$paramcount
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Повертає кількість параметрів у запиті
-
-# mysqli_stmt::$param_count
-
-# mysqli_stmt_param_count
+# mysqlistmtparamcount
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::$param_count -- mysqli_stmt_param_count -- Повертає
-кількість параметрів у запиті
+mysqlistmt::$paramcount - mysqlistmtparamcount — Повертає кількість параметрів у запиті
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli_stmt->param_count`;
+int [$mysqlistmt->paramcount](mysqli-stmt.param-count.md)
 
 Процедурний стиль
 
-**mysqli_stmt_param_count**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): int
+```methodsynopsis
+mysqli_stmt_param_count(mysqli_stmt $statement): int
+```
 
 Повертає кількість позначок параметрів у підготовленому запиті.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -42,21 +42,62 @@ int `$mysqli_stmt->param_count`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання|
-"|, mysqli_connect_error()); ("У запиті | %d" позначок.
-", $marker);   /* закриваємо запит */    $stmt->close();}/* закриваємо з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+if ($stmt = $mysqli->prepare("SELECT Name FROM Country WHERE Name=? OR Code=?")) {
+
+    $marker = $stmt->param_count;
+    printf("В запросе %d меток.\n", $marker);
+
+    /* закрываем запрос */
+    $stmt->close();
+}
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {     printf("Не 
-"|, mysqli_connect_error()); "У запиті %d меток.
-", $marker);   /* закриваємо запит */    mysqli_stmt_close($stmt);}/* закриваємо з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+if ($stmt = mysqli_prepare($link, "SELECT Name FROM Country WHERE Name=? OR Code=?")) {
+
+    $marker = mysqli_stmt_param_count($stmt);
+    printf("В запросе %d меток.\n", $marker);
+
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
+}
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-У запиті 2 міток.
+```
+В запросе 2 меток.
+```
 
 ### Дивіться також
 
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання

@@ -1,26 +1,29 @@
-- [«SolrUtils::getSolrVersion](solrutils.getsolrversion.md)
-- [SolrInputDocument »](class.solrinputdocument.md)
-
-- [PHP Manual](index.md)
-- [SolrUtils](class.solrutils.md)
-- готує фразу з неекранованого рядка запиту Lucene
-
+---
+navigation:
+  - solrutils.getsolrversion.md: '« SolrUtils::getSolrVersion'
+  - class.solrinputdocument.md: SolrInputDocument »
+  - index.md: PHP Manual
+  - class.solrutils.md: SolrUtils
+title: 'SolrUtils::queryPhrase'
+---
 # SolrUtils::queryPhrase
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrUtils::queryPhrase — Підготовка фрази з неекранованого рядка
-запиту Lucene
+SolrUtils::queryPhrase — Підготовка фрази з неекранованого рядка запиту Lucene
 
 ### Опис
 
-public static **SolrUtils::queryPhrase**(string `$str`): string
+```methodsynopsis
+public static SolrUtils::queryPhrase(string $str): string
+```
 
 Підготовка фрази з неекранованого рядка запиту Lucene.
 
 ### Список параметрів
 
 `str`
+
 Рядок запиту Lucene.
 
 ### Значення, що повертаються

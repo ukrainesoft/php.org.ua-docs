@@ -1,40 +1,41 @@
-- [« trader_cdlinneck](function.trader-cdlinneck.md)
-- [trader_cdlkicking »](function.trader-cdlkicking.md)
+---
+navigation:
+  - function.trader-cdlinneck.md: « tradercdlinneck
+  - function.trader-cdlkicking.md: tradercdlkicking »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlinvertedhammer
+---
+# tradercdlinvertedhammer
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Свічкова модель "Перевернутий молоток"
+(PECL trader >= 0.2.0)
 
-#trader_cdlinvertedhammer
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlinvertedhammer - Свічкова модель "Перевернутий молоток"
+tradercdlinvertedhammer - Свічкова модель "Перевернутий молоток"
 
 ### Опис
 
-**trader_cdlinvertedhammer**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlinvertedhammer(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

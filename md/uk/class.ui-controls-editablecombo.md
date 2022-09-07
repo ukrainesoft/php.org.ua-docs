@@ -1,68 +1,64 @@
-- [« UI\Controls\Combo::setSelected](ui-controls-combo.setselected.md)
-- [UI\Controls\EditableCombo::append »](ui-controls-editablecombo.append.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Редагований елемент управління "Комбо"
-
+---
+navigation:
+  - ui-controls-combo.setselected.md: '« UIControlsCombo::setSelected'
+  - ui-controls-editablecombo.append.md: 'ОЙControlsEditableCombo::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Редагований елемент управління "Комбо"
+---
 # Редагований елемент управління "Комбо"
 
 (UI 0.9.9)
 
 ## Вступ
 
-Редагований елемент управління "Комбо" дозволяє користувачеві вводити
-довільні опції
+Редагований елемент керування "Комбо" дозволяє користувачеві вводити довільні опції
 
 ## Огляд класів
 
-class **UI\Controls\EditableCombo** extends
-[UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [append](ui-controls-editablecombo.append.md)(string `$text`)
 
-public [getText](ui-controls-editablecombo.gettext.md)(): string
+    
+     
+      class UI\Controls\EditableCombo
+     
 
-protected [onChange](ui-controls-editablecombo.onchange.md)()
+     
+      extends
+       UI\Control
+     
+     {
 
-public [setText](ui-controls-editablecombo.settext.md)(string `$text`)
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public append(string $text)
+public getText(): string
+protected onChange()
+public setText(string $text)
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\EditableCombo::append](ui-controls-editablecombo.append.md)
-- Додати опцію
-- [UI\Controls\EditableCombo::getText](ui-controls-editablecombo.gettext.md)
-— Отримати текст
-- [UI\Controls\EditableCombo::onChange](ui-controls-editablecombo.onchange.md)
-- Обробник зміни
-- [UI\Controls\EditableCombo::setText](ui-controls-editablecombo.settext.md)
-- Встановити текст
+-   [ОЙControlsEditableCombo::append](ui-controls-editablecombo.append.md) - Додати опцію
+-   [ОЙControlsEditableCombo::getText](ui-controls-editablecombo.gettext.md) — Отримати текст
+-   [ОЙControlsEditableCombo::onChange](ui-controls-editablecombo.onchange.md) - Обробник зміни
+-   [ОЙControlsEditableCombo::setText](ui-controls-editablecombo.settext.md) — Встановити текст

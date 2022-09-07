@@ -1,52 +1,61 @@
-- [«Event::setTimer](event.settimer.md)
-- [Event::timer »](event.timer.md)
-
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- Створити об'єкт події сигналу
-
+---
+navigation:
+  - event.settimer.md: '« Event::setTimer'
+  - event.timer.md: 'Event::timer »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::signal'
+---
 # Event::signal
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 Event::signal — Створити об'єкт події сигналу
 
 ### Опис
 
-public static **Event::signal**(
-[EventBase](class.eventbase.md) `$base` ,
-int `$signum` ,
-[callable](language.types.callable.md) `$cb` ,
+```methodsynopsis
+public
+   static
+   Event::signal(    
+    EventBase
+     $base
+   ,    
+    int
+     $signum
+   ,    
+    callable
+     $cb
+   ,    
+    mixed
+     $arg
+    = ?): Event
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = ?
-): [Event](class.event.md)
-
-Створює об'єкт сигналу. Це полегшений метод для створення
-події сигналу. Зверніть увагу, що штатний конструктор
-[Event::\_\_construct()](event.construct.md) також може створювати
-події сигналу.
+Створює об'єкт події сигналу. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.md) може також створювати події сигналу.
 
 ### Список параметрів
 
 `base`
-Події, до якої необхідно прив'язати подію.
+
+Подієва база, до якої необхідно прив'язати подію.
 
 `signum`
+
 Номер сигналу.
 
 `cb`
-Функція зворотного дзвінка події сигналу. Дивіться [Функції зворотного виклику для подій](event.callbacks.md) .
+
+Функція зворотного дзвінка події сигналу. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
-Ці дані, пов'язані з подією. Вони будуть передані в
-функцію зворотного виклику, коли відбудеться подія.
+
+Ці дані, пов'язані з подією. Вони будуть передані у функцію зворотного виклику, коли відбудеться подія.
 
 ### Значення, що повертаються
 
-Повертає об'єкт Event. У разі виникнення помилки повертає
-**`false`**.
+Повертає об'єкт Event. У разі виникнення помилки повертає **`false`**
 
 ### Дивіться також
 
-- [Створення подій сигналу](event.constructing.signal.events.md)
+-   [Створення подій сигналу](event.constructing.signal.events.md)

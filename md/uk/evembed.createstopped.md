@@ -1,53 +1,63 @@
-- [« EvEmbed::\_\_construct](evembed.construct.md)
-- [EvEmbed::set »](evembed.set.md)
-
-- [PHP Manual](index.md)
-- [EvEmbed](class.evembed.md)
-- Створює зупинений об'єкт спостерігач EvEmbed
-
+---
+navigation:
+  - evembed.construct.md: '« EvEmbed::construct'
+  - evembed.set.md: 'EvEmbed::set »'
+  - index.md: PHP Manual
+  - class.evembed.md: EvEmbed
+title: 'EvEmbed::createStopped'
+---
 # EvEmbed::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvEmbed::createStopped — Створює зупинений об'єкт спостерігач
-EvEmbed
+EvEmbed::createStopped — Створює зупинений об'єкт спостерігач EvEmbed
 
 ### Опис
 
-final public static **EvEmbed::createStopped**(
-object `$other` ,
-[callable](language.types.callable.md) `$callback` = ?,
+```methodsynopsis
+final
+   public
+   static
+   EvEmbed::createStopped(    
+    object
+     $other
+   ,    
+    callable
+     $callback
+    = ?,    
+    mixed
+     $data
+    = ?,    
+    int
+     $priority
+    = ?): void
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-int `$priority` = ?
-): void
-
-Те ж саме, що і [EvEmbed::\_\_construct()](evembed.construct.md) ,
-але спостерігач не буде автоматично запущений.
+Те саме, що й [EvEmbed::construct()](evembed.construct.md) , але спостерігача не буде автоматично запущено.
 
 ### Список параметрів
 
 `other`
-Те саме, що й для [EvEmbed::\_\_construct()](evembed.construct.md)
+
+Те саме, що і для [EvEmbed::construct()](evembed.construct.md)
 
 `callback`
-Дивіться [функції спостерігачів callback](ev.watcher-callbacks.md) .
+
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
-Користувальницькі дані, асоційовані із спостерігачем.
+
+Дані користувача, асоційовані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає зупинений спостерігач
-EvEmbed.
+У разі успішного виконання повертає зупинений спостерігач EvEmbed.
 
 ### Дивіться також
 
-- [EvEmbed::\_\_construct()](evembed.construct.md) - Конструктор
-об'єкту EvEmbed
-- [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає
-набір бекендів, які можна вбудувати в інші цикли подій
+-   [EvEmbed::construct()](evembed.construct.md) - Конструктор об'єкту EvEmbed
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій

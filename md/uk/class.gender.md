@@ -1,167 +1,294 @@
-- [« Приклад використання](gender.example.admin.md)
-- [Gender\Gender::connect »](gender-gender.connect.md)
+---
+navigation:
+  - gender.example.admin.md: « Пример использования
+  - gender-gender.connect.md: 'GenderGender::connect »'
+  - index.md: PHP Manual
+  - book.gender.md: Gender
+title: Клас GenderGender
+---
+# Клас GenderGender
 
-- [PHP Manual](index.md)
-- [Gender](book.gender.md)
-- Клас Gender\Gender
-
-# Клас Gender\Gender
-
-(PECL gender \>= 0.6.0)
+(PECL gender >= 0.6.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Gender\Gender** {
+```classsynopsis
+
+
+    
+    
+     
+      class Gender\Gender
+     
+     {
+    
+    /* Константы */
+    
+     const
+     int
+      IS_FEMALE = 70;
+
+    const
+     int
+      IS_MOSTLY_FEMALE = 102;
+
+    const
+     int
+      IS_MALE = 77;
+
+    const
+     int
+      IS_MOSTLY_MALE = 109;
+
+    const
+     int
+      IS_UNISEX_NAME = 63;
+
+    const
+     int
+      IS_A_COUPLE = 67;
+
+    const
+     int
+      NAME_NOT_FOUND = 32;
+
+    const
+     int
+      ERROR_IN_NAME = 69;
+
+    const
+     int
+      ANY_COUNTRY = 0;
+
+    const
+     int
+      BRITAIN = 1;
+
+    const
+     int
+      IRELAND = 2;
+
+    const
+     int
+      USA = 3;
+
+    const
+     int
+      SPAIN = 4;
+
+    const
+     int
+      PORTUGAL = 5;
+
+    const
+     int
+      ITALY = 6;
+
+    const
+     int
+      MALTA = 7;
+
+    const
+     int
+      FRANCE = 8;
+
+    const
+     int
+      BELGIUM = 9;
+
+    const
+     int
+      LUXEMBOURG = 10;
+
+    const
+     int
+      NETHERLANDS = 11;
+
+    const
+     int
+      GERMANY = 12;
+
+    const
+     int
+      EAST_FRISIA = 13;
+
+    const
+     int
+      AUSTRIA = 14;
+
+    const
+     int
+      SWISS = 15;
+
+    const
+     int
+      ICELAND = 16;
+
+    const
+     int
+      DENMARK = 17;
+
+    const
+     int
+      NORWAY = 18;
+
+    const
+     int
+      SWEDEN = 19;
+
+    const
+     int
+      FINLAND = 20;
+
+    const
+     int
+      ESTONIA = 21;
+
+    const
+     int
+      LATVIA = 22;
+
+    const
+     int
+      LITHUANIA = 23;
+
+    const
+     int
+      POLAND = 24;
+
+    const
+     int
+      CZECH_REP = 25;
+
+    const
+     int
+      SLOVAKIA = 26;
+
+    const
+     int
+      HUNGARY = 27;
+
+    const
+     int
+      ROMANIA = 28;
+
+    const
+     int
+      BULGARIA = 29;
 
-/\* Константи \*/
+    const
+     int
+      BOSNIA = 30;
 
-const int `IS_FEMALE` = 70;
+    const
+     int
+      CROATIA = 31;
 
-const int `IS_MOSTLY_FEMALE` = 102;
+    const
+     int
+      KOSOVO = 32;
 
-const int `IS_MALE` = 77;
+    const
+     int
+      MACEDONIA = 33;
 
-const int `IS_MOSTLY_MALE` = 109;
+    const
+     int
+      MONTENEGRO = 34;
 
-const int `IS_UNISEX_NAME` = 63;
+    const
+     int
+      SERBIA = 35;
 
-const int `IS_A_COUPLE` = 67;
+    const
+     int
+      SLOVENIA = 36;
 
-const int `NAME_NOT_FOUND` = 32;
+    const
+     int
+      ALBANIA = 37;
 
-const int `ERROR_IN_NAME` = 69;
+    const
+     int
+      GREECE = 38;
 
-const int `ANY_COUNTRY` = 0;
+    const
+     int
+      RUSSIA = 39;
 
-const int `BRITAIN` = 1;
+    const
+     int
+      BELARUS = 40;
 
-const int `IRELAND` = 2;
+    const
+     int
+      MOLDOVA = 41;
 
-const int `USA` = 3;
+    const
+     int
+      UKRAINE = 42;
 
-const int `SPAIN` = 4;
+    const
+     int
+      ARMENIA = 43;
 
-const int `PORTUGAL` = 5;
+    const
+     int
+      AZERBAIJAN = 44;
 
-const int `ITALY` = 6;
+    const
+     int
+      GEORGIA = 45;
 
-const int `MALTA` = 7;
+    const
+     int
+      KAZAKH_UZBEK = 46;
 
-const int `FRANCE` = 8;
+    const
+     int
+      TURKEY = 47;
 
-const int `BELGIUM` = 9;
+    const
+     int
+      ARABIA = 48;
 
-const int `LUXEMBOURG` = 10;
+    const
+     int
+      ISRAEL = 49;
 
-const int `NETHERLANDS` = 11;
+    const
+     int
+      CHINA = 50;
 
-const int `GERMANY` = 12;
+    const
+     int
+      INDIA = 51;
 
-const int `EAST_FRISIA` = 13;
+    const
+     int
+      JAPAN = 52;
 
-const int `AUSTRIA` = 14;
+    const
+     int
+      KOREA = 53;
 
-const int `SWISS` = 15;
 
-const int `ICELAND` = 16;
+    /* Методы */
+    
+   public __construct(string $dsn = ?)
 
-const int `DENMARK` = 17;
+    public connect(string $dsn): bool
+public country(int $country): array|false
+public get(string $name, int $country = ?): int
+public isNick(string $name0, string $name1, int $country = ?): array
+public similarNames(string $name, int $country = ?): array
 
-const int `NORWAY` = 18;
+   }
+```
 
-const int `SWEDEN` = 19;
-
-const int `FINLAND` = 20;
-
-const int `ESTONIA` = 21;
-
-const int `LATVIA` = 22;
-
-const int `LITHUANIA` = 23;
-
-const int `POLAND` = 24;
-
-const int `CZECH_REP` = 25;
-
-const int `SLOVAKIA` = 26;
-
-const int `HUNGARY` = 27;
-
-const int `ROMANIA` = 28;
-
-const int `BULGARIA` = 29;
-
-const int `BOSNIA` = 30;
-
-const int `CROATIA` = 31;
-
-const int `KOSOVO` = 32;
-
-const int `MACEDONIA` = 33;
-
-const int `MONTENEGRO` = 34;
-
-const int `SERBIA` = 35;
-
-const int `SLOVENIA` = 36;
-
-const int `ALBANIA` = 37;
-
-const int `GREECE` = 38;
-
-const int `RUSSIA` = 39;
-
-const int `BELARUS` = 40;
-
-const int `MOLDOVA` = 41;
-
-const int `UKRAINE` = 42;
-
-const int `ARMENIA` = 43;
-
-const int `AZERBAIJAN` = 44;
-
-const int `GEORGIA` = 45;
-
-const int `KAZAKH_UZBEK` = 46;
-
-const int `TURKEY` = 47;
-
-const int `ARABIA` = 48;
-
-const int `ISRAEL` = 49;
-
-const int `CHINA` = 50;
-
-const int `INDIA` = 51;
-
-const int `JAPAN` = 52;
-
-const int `KOREA` = 53;
-
-/\* Методи \*/
-
-public [\_\_construct](gender-gender.construct.md)(string `$dsn` = ?)
-
-public [connect](gender-gender.connect.md)(string `$dsn`): bool
-
-public [country](gender-gender.country.md)(int `$country`):
-array\|false
-
-public [get](gender-gender.get.md)(string `$name`, int `$country` =
-?): int
-
-public [isNick](gender-gender.isnick.md)(string `$name0`, string
-`$name1`, int `$country` = ?): array
-
-public [similarNames](gender-gender.similarnames.md)(string `$name`,
-int `$country` = ?): array
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Gender\Gender::IS_FEMALE`**
 
@@ -289,14 +416,9 @@ int `$country` = ?): array
 
 ## Зміст
 
-- [Gender\Gender::connect](gender-gender.connect.md) — З'єднання з
-зовнішньою базою імен
-- [Gender\Gender::\_\_construct](gender-gender.construct.md) -
-Конструктор об'єкту класу Gender
-- [Gender\Gender::country](gender-gender.country.md) — Отримати
-текстове уявлення країни
-- [Gender\Gender::get](gender-gender.get.md) — Отримати підлогу на ім'я
-- [Gender\Gender::isNick](gender-gender.isnick.md) — Перевіряє,
-є name0 псевдонімом для name1
-- [Gender\Gender::similarNames](gender-gender.similarnames.md) -
-Отримати схожі імена
+-   [GenderGender::connect](gender-gender.connect.md) — З'єднання із зовнішньою базою імен
+-   [GenderGender::construct](gender-gender.construct.md) - Конструктор об'єкта класу Gender
+-   [GenderGender::country](gender-gender.country.md) — Отримати текстову виставу країни
+-   [GenderGender::get](gender-gender.get.md) — Отримати підлогу на ім'я
+-   [GenderGender::isNick](gender-gender.isnick.md) — Перевіряє, чи name0 є псевдонімом для name1
+-   [GenderGender::similarNames](gender-gender.similarnames.md) — Отримати схожі імена

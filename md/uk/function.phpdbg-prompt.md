@@ -1,25 +1,29 @@
-- [« phpdbg_get_executable](function.phpdbg-get-executable.md)
-- [phpdbg_start_oplog »](function.phpdbg-start-oplog.md)
+---
+navigation:
+  - function.phpdbg-get-executable.md: « phpdbggetexecutable
+  - function.phpdbg-start-oplog.md: phpdbgstartoplog »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgprompt
+---
+# phpdbgprompt
 
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- встановити запрошення командного рядка
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-# phpdbg_prompt
-
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
-
-phpdbg_prompt — Встановити запрошення командного рядка
+phpdbgprompt — Встановити запрошення командного рядка
 
 ### Опис
 
-**phpdbg_prompt**(string `$string`): void
+```methodsynopsis
+phpdbg_prompt(string $string): void
+```
 
-Встановлює запрошення командного рядка, як задано в `string`.
+Встановлює запрошення командного рядка як задано `string`
 
 ### Список параметрів
 
 `string`
+
 Рядок, який буде використаний як запрошення.
 
 ### Значення, що повертаються
@@ -28,5 +32,4 @@ phpdbg_prompt — Встановити запрошення командного
 
 ### Дивіться також
 
-- [phpdbg_color()](function.phpdbg-color.md) - Задати колір для
-елемента
+-   [phpdbgcolor()](function.phpdbg-color.md) - Задати колір елементу

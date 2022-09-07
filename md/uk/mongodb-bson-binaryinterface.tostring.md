@@ -1,23 +1,24 @@
-- [« MongoDB\BSON\BinaryInterface::getType](mongodb-bson-binaryinterface.gettype.md)
-- [MongoDB\BSON\Decimal128Interface »](class.mongodb-bson-decimal128interface.md)
+---
+navigation:
+  - mongodb-bson-binaryinterface.gettype.md: '« MongoDBBSONBinaryInterface::getType'
+  - class.mongodb-bson-decimal128interface.md: MongoDBBSONDecimal128Interface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
+title: 'MongoDBBSONBinaryInterface::function toString() { \[native code\] }'
+---
+# MongoDBBSONBinaryInterface::function toString() { \[native code\] }
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\BinaryInterface](class.mongodb-bson-binaryinterface.md)
-- Повертає дані BinaryInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\BinaryInterface::\_\_toString
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\BinaryInterface::\_\_toString — Повертає дані
-BinaryInterface
+MongoDBBSONBinaryInterface::toString — Повертає дані BinaryInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\BinaryInterface::\_\_toString**(): string
+```methodsynopsis
+abstract public MongoDB\BSON\BinaryInterface::__toString(): string
+```
 
-Цей метод є псевдонімом:
-[MongoDB\BSON\BinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md).
+Цей метод є псевдонімом: [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md)
 
 ### Список параметрів
 
@@ -29,7 +30,5 @@ abstract public **MongoDB\BSON\BinaryInterface::\_\_toString**(): string
 
 ### Дивіться також
 
-- [MongoDB\BSON\BinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md) -
-Повертає дані BinaryInterface
-- [MongoDB\BSON\Binary::\_\_toString()](mongodb-bson-binary.tostring.md) -
-Повертає дані Binary
+-   [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md) - Повертає дані BinaryInterface
+-   [MongoDBBSONBinary::toString()](mongodb-bson-binary.tostring.md) - Повертає дані Binary

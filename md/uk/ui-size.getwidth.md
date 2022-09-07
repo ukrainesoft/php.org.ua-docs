@@ -1,19 +1,22 @@
-- [« UI\Size::getHeight](ui-size.getheight.md)
-- [UI\Size::of »](ui-size.of.md)
-
-- [PHP Manual](index.md)
-- [UI\Size](class.ui-size.md)
-- Отримує ширину
-
-# UI\Size::getWidth
+---
+navigation:
+  - ui-size.getheight.md: '« UISize::getHeight'
+  - ui-size.of.md: 'ОЙSize::of »'
+  - index.md: PHP Manual
+  - class.ui-size.md: ОЙSize
+title: 'ОЙSize::getWidth'
+---
+# ОЙSize::getWidth
 
 (UI 0.9.9)
 
-UI\Size::getWidth — Отримує ширину
+ОЙSize::getWidth — Отримує ширину
 
 ### Опис
 
-public **UI\Size::getWidth**(): float
+```methodsynopsis
+public UI\Size::getWidth(): float
+```
 
 Отримує ширину
 

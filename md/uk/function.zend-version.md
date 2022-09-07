@@ -1,22 +1,24 @@
-- [« zend_thread_id](function.zend-thread-id.md)
-- [phpdbg »](book.phpdbg.md)
-
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Отримує версію двигуна Zend
-
-# zend_version
+---
+navigation:
+  - function.zend-thread-id.md: « zendthreadід
+  - book.phpdbg.md: phpdbg »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: zendversion
+---
+# zendversion
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-zend_version — Отримує версію двигуна Zend
+zendversion — Отримує версію двигуна Zend
 
 ### Опис
 
-**zend_version**(): string
+```methodsynopsis
+zend_version(): string
+```
 
-Повертає рядок з номером версії ядра, що працює в даний момент.
-Engine.
+Повертає рядок з номером версії ядра Zend Engine, що працює в даний момент.
 
 ### Список параметрів
 
@@ -24,23 +26,26 @@ Engine.
 
 ### Значення, що повертаються
 
-Повертає номер версії Zend Engine у вигляді рядка.
+Повертає номер версії Zend Engine у ​​вигляді рядка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **zend_version()****
+**Приклад #1 Приклад використання **zendversion()****
 
-`<?phpecho "Версія движка Zend: " . zend_version();?> `
+```php
+<?php
+echo "Версия движка Zend: " . zend_version();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Версія двигуна Zend: 2.2.0
+```
+Версия движка Zend: 2.2.0
+```
 
 ### Дивіться також
 
-- [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну
-конфігурації PHP
-- [phpcredits()](function.phpcredits.md) - Виводить список
-розробників PHP
-- [phpversion()](function.phpversion.md) - Отримує поточну версію
-PHP
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpcredits()](function.phpcredits.md) - Виводить список розробників PHP
+-   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP

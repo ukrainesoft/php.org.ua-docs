@@ -1,35 +1,34 @@
-- [« OAuthProvider::\_\_construct](oauthprovider.construct.md)
-- [OAuthProvider::generateToken »](oauthprovider.generatetoken.md)
-
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Встановити обробник consumerHandler
-
+---
+navigation:
+  - oauthprovider.construct.md: '« OAuthProvider::construct'
+  - oauthprovider.generatetoken.md: 'OAuthProvider::generateToken »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::consumerHandler'
+---
 # OAuthProvider::consumerHandler
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuthProvider::consumerHandler — Встановити обробник consumerHandler
 
 ### Опис
 
-public
-**OAuthProvider::consumerHandler**([callable](language.types.callable.md)
-`$callback_function`): void
+```methodsynopsis
+public OAuthProvider::consumerHandler(callable $callback_function): void
+```
 
-Задає callback-функцію обробника, яка надалі буде
-викликатися
-[OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md).
+Задає callback-функцію обробника, яка надалі викликатиметься [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `callback_function`
-Функція типу [callable](language.types.callable.md).
+
+Функція типу [callable](language.types.callable.md)
 
 ### Значення, що повертаються
 
@@ -39,9 +38,23 @@ public
 
 **Приклад #1 Приклад використання **OAuthProvider::consumerHandler()****
 
-` <?phpfunction lookupConsumer($provider) {    if ($provider->consumer_key === 'unknown') {        return OAUTH_CONSUMER_KEY_UN } else if($provider->consumer_key == 'blacklisted' || $provider->consumer_key === 'throttled') {        return OAUTH_CONSUMER_KEY; }   $provider->consumer_secret = "the_consumers_secret"; return OAUTH_OK;}?> `
+```php
+<?php
+function lookupConsumer($provider) {
+
+    if ($provider->consumer_key === 'unknown') {
+        return OAUTH_CONSUMER_KEY_UNKNOWN;
+    } else if($provider->consumer_key == 'blacklisted' || $provider->consumer_key === 'throttled') {
+        return OAUTH_CONSUMER_KEY_REFUSED;
+    }
+
+    $provider->consumer_secret = "the_consumers_secret";
+
+    return OAUTH_OK;
+}
+?>
+```
 
 ### Дивіться також
 
-- [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md) -
-Викликати callback-функцію consumerNonceHandler
+-   [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md) - Викликати callback-функцію consumerNonceHandler

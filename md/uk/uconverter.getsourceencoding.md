@@ -1,24 +1,26 @@
-- [« UConverter::getErrorMessage](uconverter.geterrormessage.md)
-- [UConverter::getSourceType »](uconverter.getsourcetype.md)
-
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати вихідне кодування
-
+---
+navigation:
+  - uconverter.geterrormessage.md: '« UConverter::getErrorMessage'
+  - uconverter.getsourcetype.md: 'UConverter::getSourceType »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::getSourceEncoding'
+---
 # UConverter::getSourceEncoding
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 UConverter::getSourceEncoding — Отримати вихідне кодування
 
 ### Опис
 
-public **UConverter::getSourceEncoding**(): string\|false\|null
+```methodsynopsis
+public UConverter::getSourceEncoding(): string|false|null
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

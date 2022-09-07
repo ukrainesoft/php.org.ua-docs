@@ -1,36 +1,33 @@
-- [«openal_device_open](function.openal-device-open.md)
-- [openal_listener_set »](function.openal-listener-set.md)
+---
+navigation:
+  - function.openal-device-open.md: « openaldeviceopen
+  - function.openal-listener-set.md: openallistenerset »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openallistenerget
+---
+# openallistenerget
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Отримати властивість прослуховувача
+(PECL openal >= 0.1.0)
 
-#openal_listener_get
-
-(PECL openal = 0.1.0)
-
-openal_listener_get — Отримати властивість прослуховувача
+openallistenerget — Отримати властивість прослуховувача
 
 ### Опис
 
-**openal_listener_get**(int `$property`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+openal_listener_get(int $property): mixed
+```
 
 ### Список параметрів
 
 `property`
-Запитана властивість, представлена однією з констант: **`AL_GAIN`**
-(float), **`AL_POSITION`** (array(float,float,float)), **`AL_VELOCITY`**
-(array(float,float,float)) і **`AL_ORIENTATION`**
-(array(float,float,float)).
+
+Запитувана властивість, представлена ​​однією з констант: **`AL_GAIN`** (float), **`AL_POSITION`** (array(float,float,float)), **`AL_VELOCITY`** (array(float,float,float)) та **`AL_ORIENTATION`** (array(float,float,float)).
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою або масив чисел із плаваючими
-точками (при необхідності) або **`false`** у разі виникнення
-помилки.
+Повертає число з плаваючою точкою або масив чисел з плаваючими точками (при необхідності) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_listener_set()](function.openal-listener-set.md) -
-Встановлення якості прослуховувача
+-   [openallistenerset()](function.openal-listener-set.md) - Встановлення якості прослуховувача

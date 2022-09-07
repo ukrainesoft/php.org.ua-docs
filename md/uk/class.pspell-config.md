@@ -1,21 +1,34 @@
-- [«PSpell\Dictionary](class.pspell-dictionary.md)
-- [Recode »](book.recode.md)
+---
+navigation:
+  - class.pspell-dictionary.md: « PSpellDictionary
+  - book.recode.md: Recode »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
+title: Клас PSpellConfig
+---
+# Клас PSpellConfig
 
-- [PHP Manual](index.md)
-- [Pspell](book.pspell.md)
-- Клас PSpell\Config
-
-# Клас PSpell\Config
-
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `pspell config` у PHP
-8.1.0.
+Повністю непрозорий клас, який замінює ресурс `pspell config` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **PSpell\Config** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class PSpell\Config
+     
+     {
+    
+
+   }
+```

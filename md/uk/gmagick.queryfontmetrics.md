@@ -1,24 +1,24 @@
-- [« Gmagick::quantizeimages](gmagick.quantizeimages.md)
-- [Gmagick::queryfonts »](gmagick.queryfonts.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає масив, що представляє метрики шрифту
-
+---
+navigation:
+  - gmagick.quantizeimages.md: '« Gmagick::quantizeimages'
+  - gmagick.queryfonts.md: 'Gmagick::queryfonts »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::queryfontmetrics'
+---
 # Gmagick::queryfontmetrics
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::queryfontmetrics — Повертає масив, що представляє метрики
-шрифту
+Gmagick::queryfontmetrics — Повертає масив, що представляє метрики шрифту
 
 ### Опис
 
-public
-**Gmagick::queryfontmetrics**([GmagickDraw](class.gmagickdraw.md)
-`$draw`, string `$text`): array
+```methodsynopsis
+public Gmagick::queryfontmetrics(GmagickDraw $draw, string $text): array
+```
 
-Повертає масив, що становить метрики шрифту.
+Повертає масив, який представляє метрики шрифту.
 
 ### Список параметрів
 

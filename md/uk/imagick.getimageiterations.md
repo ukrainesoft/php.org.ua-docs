@@ -1,10 +1,11 @@
-- [« Imagick::getImageInterpolateMethod](imagick.getimageinterpolatemethod.md)
-- [Imagick::getImageLength »](imagick.getimagelength.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає ітерації зображення
-
+---
+navigation:
+  - imagick.getimageinterpolatemethod.md: '« Imagick::getImageInterpolateMethod'
+  - imagick.getimagelength.md: 'Imagick::getImageLength »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageIterations'
+---
 # Imagick::getImageIterations
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getImageIterations — Повертає ітерацію зображе
 
 ### Опис
 
-public **Imagick::getImageIterations**(): int
+```methodsynopsis
+public Imagick::getImageIterations(): int
+```
 
 Повертає ітерацію зображення.
 

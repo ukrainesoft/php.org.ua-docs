@@ -1,27 +1,22 @@
-- [« Вимоги](parle.requirements.md)
-- [Предвизначені константи »](parle.constants.md)
+---
+navigation:
+  - parle.requirements.md: « Вимоги
+  - parle.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - parle.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](parle.setup.md)
-- Встановлення
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-## Установка
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/parle](https://pecl.php.net/package/parle)
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
-
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/parle](https://pecl.php.net/package/parle).
-
-DLL для модуля PECL доступна за посиланням
-[»http://windows.php.net/downloads/pecl/releases/parle/](http://windows.php.net/downloads/pecl/releases/parle/).
-
-| Опція                | Опис                                                           |
-| -------------------- | -------------------------------------------------------------- |
-| --enable-parle       | Увімкнути модуль parle.                                        |
-| --enable-parle-utf32 | Увімкнути внутрішню підтримку UTF-32. Доступно з версії 0.7.2. |
+DLL для модуля PECL доступна за посиланням [» http://windows.php.net/downloads/pecl/releases/parle/](http://windows.php.net/downloads/pecl/releases/parle/)
 
 **Доступні параметри**
+
+| Опция | Описание |
+| --- | --- |
+| \-enable-parle | Увімкнути модуль parle. |
+| \-enable-parle-utf32 | Увімкнути внутрішню підтримку UTF-32. Доступно з версії 0.7.2. |

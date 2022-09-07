@@ -1,24 +1,26 @@
-- [« Yaf_Loader::\_\_construct](yaf-loader.construct.md)
-- [Yaf_Loader::getLibraryPath »](yaf-loader.getlibrarypath.md)
+---
+navigation:
+  - yaf-loader.construct.md: '« YafLoader::construct'
+  - yaf-loader.getlibrarypath.md: 'YafLoader::getLibraryPath »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
+title: 'YafLoader::getInstance'
+---
+# YafLoader::getInstance
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Призначення getInstance
+(Yaf >=1.0.0)
 
-# Yaf_Loader::getInstance
-
-(Yaf \>=1.0.0)
-
-Yaf_Loader::getInstance — Призначення getInstance
+YafLoader::getInstance — Призначення getInstance
 
 ### Опис
 
-public static **Yaf_Loader::getInstance**(): void
+```methodsynopsis
+public static Yaf_Loader::getInstance(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

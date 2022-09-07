@@ -1,20 +1,22 @@
-- [« SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md)
-- [SolrInputDocument::merge »](solrinputdocument.merge.md)
-
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Повертає true, якщо документ має дочірні документи
-
+---
+navigation:
+  - solrinputdocument.getfieldnames.md: '« SolrInputDocument::getFieldNames'
+  - solrinputdocument.merge.md: 'SolrInputDocument::merge »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::hasChildDocuments'
+---
 # SolrInputDocument::hasChildDocuments
 
-(PECL solr \>= 2.3.0)
+(PECL solr> = 2.3.0)
 
-SolrInputDocument::hasChildDocuments — Повертає true, якщо документ має
-є дочірні документи
+SolrInputDocument::hasChildDocuments — Повертає true, якщо документ має дочірні документи
 
 ### Опис
 
-public **SolrInputDocument::hasChildDocuments**(): bool
+```methodsynopsis
+public SolrInputDocument::hasChildDocuments(): bool
+```
 
 Перевіряє, чи має документ дочірні документи
 
@@ -26,11 +28,7 @@ public **SolrInputDocument::hasChildDocuments**(): bool
 
 ### Дивіться також
 
-- [SolrInputDocument::addChildDocument()](solrinputdocument.addchilddocument.md) -
-Додає дочірній документ для блокової індексації
-- [SolrInputDocument::addChildDocuments()](solrinputdocument.addchilddocuments.md) -
-Додає масив дочірніх документів
-- [SolrInputDocument::getChildDocuments()](solrinputdocument.getchilddocuments.md) -
-Повертає масив дочірніх документів (SolrInputDocument)
-- [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.md) -
-Повертає кількість дочірніх документів
+-   [SolrInputDocument::addChildDocument()](solrinputdocument.addchilddocument.md) - Додає дочірній документ для блокової індексації
+-   [SolrInputDocument::addChildDocuments()](solrinputdocument.addchilddocuments.md) - додає масив дочірніх документів
+-   [SolrInputDocument::getChildDocuments()](solrinputdocument.getchilddocuments.md) - Повертає масив дочірніх документів (SolrInputDocument)
+-   [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.md) - Повертає кількість дочірніх документів

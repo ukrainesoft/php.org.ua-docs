@@ -1,25 +1,29 @@
-- [«mb_convert_variables](function.mb-convert-variables.md)
-- [mb_decode_numericentity »](function.mb-decode-numericentity.md)
+---
+navigation:
+  - function.mb-convert-variables.md: « mbconvertvariables
+  - function.mb-decode-numericentity.md: мбdecodenumericentity »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбdecodemimeheader
+---
+# мбdecodemimeheader
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Декодує рядок у MIME-заголовку
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#mb_decode_mimeheader
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-mb_decode_mimeheader — Декодує рядок у заголовку MIME
+мбdecodemimeheader — Декодує рядок у MIME-заголовку
 
 ### Опис
 
-**mb_decode_mimeheader**(string `$string`): string
+```methodsynopsis
+mb_decode_mimeheader(string $string): string
+```
 
 Декодує закодований рядок (string) `string` у MIME-заголовку.
 
 ### Список параметрів
 
 `string`
+
 Рядок (string) для декодування.
 
 ### Значення, що повертаються
@@ -28,5 +32,4 @@ mb_decode_mimeheader — Декодує рядок у заголовку MIME
 
 ### Дивіться також
 
-- [mb_encode_mimeheader()](function.mb-encode-mimeheader.md) -
-Кодує рядок для MIME-заголовка
+-   [мбencodemimeheader()](function.mb-encode-mimeheader.md) - Кодує рядок для MIME-заголовка

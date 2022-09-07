@@ -1,25 +1,24 @@
-- [« MongoDB\Driver\Monitoring\CommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId »](mongodb-driver-monitoring-commandsucceededevent.getoperationid.md)
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
+---
+# MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md)
-- Повертає тривалість команди у мікросекундах
+(mongodb >=1.3.0)
 
-# MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros
-
-(mongodb \>=1.3.0)
-
-MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros -
-Повертає тривалість команди у мікросекундах
+MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros — Повертає тривалість команди в мікросекундах
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros**():
-int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros(): int
+```
 
-Тривалість команди – це розраховане значення, яке включає час
-надсилання повідомлення та отримання відповіді від сервера.
+Тривалість команди - це розраховане значення, яке включає час надсилання повідомлення та отримання відповіді від сервера.
 
 ### Список параметрів
 
@@ -31,10 +30,8 @@ int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

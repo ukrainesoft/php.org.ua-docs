@@ -1,49 +1,47 @@
-- [« Функції gettext](ref.gettext.md)
-- [bindtextdomain »](function.bindtextdomain.md)
+---
+navigation:
+  - ref.gettext.md: « Функции gettext
+  - function.bindtextdomain.md: bindtextdomain »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: bindtextdomaincodeset
+---
+# bindtextdomaincodeset
 
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Встановлює або отримує кодування, в якому повертатимуться
-повідомлення з каталогу повідомлень домену
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-# bind_textdomain_codeset
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-bind_textdomain_codeset — Встановлює або отримує кодування в
-якій повертатимуться повідомлення з каталогу повідомлень домену
+bindtextdomaincodeset — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
 
 ### Опис
 
-**bind_textdomain_codeset**(string `$domain`, ?string `$codeset`):
-string\|false
+```methodsynopsis
+bind_textdomain_codeset(string $domain, ?string $codeset): string|false
+```
 
-Функція **bind_textdomain_codeset()** встановлює чи отримує
-кодування, в якому повертатимуться повідомлення з `domain`, такими
-функціями як [gettext()](function.gettext.md).
+Функція **bindtextdomaincodeset()** встановлює або отримує кодування, в якому повертатимуться повідомлення з `domain`, такими функціями як [gettext()](function.gettext.md)
 
 ### Список параметрів
 
 `domain`
+
 Домен.
 
 `codeset`
-Кодування. Якщо **`null`**, повертається поточна встановлена
-кодування.
+
+Кодування. Якщо **`null`**, повертається поточне встановлене кодування.
 
 ### Значення, що повертаються
 
 Рядок у разі успішного виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------|
-| 8.0.3  | codeset тепер допускає значення null. Раніше було неможливо отримати поточне встановлене кодування. |
+| Версия | Описание |
+| --- | --- |
+|  | `codeset` тепер допускає значення null. Раніше було неможливо отримати поточне встановлене кодування. |
 
 ### Примітки
 
-> **Примітка**:
->
-> Інформація **bind_textdomain_codeset()** зберігається для кожного
-> процесу, а чи не для потоку.
+> **Зауваження**
+> 
+> Інформація **bindtextdomaincodeset()** зберігається кожному за процесу, а чи не для потоку.

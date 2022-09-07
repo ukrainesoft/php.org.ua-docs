@@ -1,50 +1,48 @@
-- [« Приклади](solr.examples.md)
-- [SolrUtils::digestXmlResponse »](solrutils.digestxmlresponse.md)
-
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrUtils
-
+---
+navigation:
+  - solr.examples.md: « Приклади
+  - solrutils.digestxmlresponse.md: 'SolrUtils::digestXmlResponse »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrUtils
+---
 # Клас SolrUtils
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
-Містить службові методи для отримання поточної версії модуля та
-підготовки фраз запиту.
+Містить службові методи для отримання поточної версії модуля та підготовки фраз запиту.
 
-Також містить метод для екранування рядків запиту та аналізу відповідей
-XML.
+Також містить метод для екранування рядків запиту та аналізу відповідей XML.
 
 ## Огляд класів
 
-abstract class **SolrUtils** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static
-[digestXmlResponse](solrutils.digestxmlresponse.md)(string
-`$xmlresponse`, int `$parse_mode` = 0):
-[SolrObject](class.solrobject.md)
 
-public static [escapeQueryChars](solrutils.escapequerychars.md)(string
-`$str`): string\|false
+    
+     
+      abstract
+      class SolrUtils
+     
+     {
 
-public static [getSolrVersion](solrutils.getsolrversion.md)(): string
 
-public static [queryPhrase](solrutils.queryphrase.md)(string `$str`):
-string
+    /* Методы */
+    
+   public static digestXmlResponse(string $xmlresponse, int $parse_mode = 0): SolrObject
+public static escapeQueryChars(string $str): string|false
+public static getSolrVersion(): string
+public static queryPhrase(string $str): string
 
-}
+   }
+```
 
 ## Зміст
 
-- [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) -
-Перетворює XML-рядок відповіді на SolrObject
-- [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md) -
-Екранує рядок запиту Lucene
-- [SolrUtils::getSolrVersion](solrutils.getsolrversion.md) -
-Повертає поточну версію модуля Solr
-- [SolrUtils::queryPhrase](solrutils.queryphrase.md) -
-Підготовка фрази з неекранованого рядка запиту Lucene
+-   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) — Перетворює XML-рядок відповіді на SolrObject
+-   [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md) — Екранує рядок запиту Lucene
+-   [SolrUtils::getSolrVersion](solrutils.getsolrversion.md) — Повертає поточну версію модуля Solr
+-   [SolrUtils::queryPhrase](solrutils.queryphrase.md) — Підготовка фрази з неекранованого рядка запиту Lucene

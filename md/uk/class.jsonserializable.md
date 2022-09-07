@@ -1,32 +1,37 @@
-- [«JsonException](class.jsonexception.md)
-- [JsonSerializable::jsonSerialize »](jsonserializable.jsonserialize.md)
-
-- [PHP Manual](index.md)
-- [JSON](book.json.md)
-- Інтерфейс JsonSerializable
-
+---
+navigation:
+  - class.jsonexception.md: « JsonException
+  - jsonserializable.jsonserialize.md: 'JsonSerializable::jsonSerialize »'
+  - index.md: PHP Manual
+  - book.json.md: JSON
+title: Інтерфейс JsonSerializable
+---
 # Інтерфейс JsonSerializable
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Об'єкти, що реалізують інтерфейс **JsonSerializable**, можуть
-модифікувати своє JSON-подання при кодуванні за допомогою
-[json_encode()](function.json-encode.md).
+Об'єкти, що реалізують інтерфейс **JsonSerializable**, можуть модифікувати своє JSON-подання при кодуванні за допомогою [jsonencode()](function.json-encode.md)
 
 ## Огляд інтерфейсів
 
-interface **JsonSerializable** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [jsonSerialize](jsonserializable.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    
+     
+      interface JsonSerializable {
 
-}
+    /* Методы */
+    
+   public jsonSerialize(): mixed
+
+   }
+```
 
 ## Зміст
 
-- [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)
-— Задає дані, які мають бути серіалізовані у JSON
+-   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md) — Задає дані, які мають бути серіалізовані у JSON

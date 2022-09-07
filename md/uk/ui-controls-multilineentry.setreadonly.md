@@ -1,22 +1,24 @@
-- [« UI\Controls\MultilineEntry::onChange](ui-controls-multilineentry.onchange.md)
-- [UI\Controls\MultilineEntry::setText »](ui-controls-multilineentry.settext.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)
-- Встановити "тільки для читання"
-
-# UI\Controls\MultilineEntry::setReadOnly
+---
+navigation:
+  - ui-controls-multilineentry.onchange.md: '« UIControlsMultilineEntry::onChange'
+  - ui-controls-multilineentry.settext.md: 'ОЙControlsMultilineEntry::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::setReadOnly'
+---
+# ОЙControlsMultilineEntry::setReadOnly
 
 (UI 0.9.9)
 
-UI\Controls\MultilineEntry::setReadOnly — Встановити "тільки для читання"
+ОЙControlsMultilineEntry::setReadOnly — Встановити "тільки для читання"
 
 ### Опис
 
-public **UI\Controls\MultilineEntry::setReadOnly**(bool `$readOnly`)
+```methodsynopsis
+public UI\Controls\MultilineEntry::setReadOnly(bool $readOnly)
+```
 
-Увімкнути або вимкнути лише для читання в цьому керуючому елементі
-"Многорядкове введення"
+Увімкнути або вимкнути тільки для читання в цьому керуючому елементі "Багаторядкове введення"
 
 ### Список параметрів
 

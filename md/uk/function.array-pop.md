@@ -1,65 +1,64 @@
-- [«array_pad](function.array-pad.md)
-- [array_product »](function.array-product.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Витягує останній елемент масиву
-
-#array_pop
+---
+navigation:
+  - function.array-pad.md: « arraypad
+  - function.array-product.md: arrayproduct »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraypop
+---
+# arraypop
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-array_pop — Витягує останній елемент масиву
+arraypop — Витягує останній елемент масиву
 
 ### Опис
 
-**array_pop**(array `&$array`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+array_pop(array &$array): mixed
+```
 
-**array_pop()** витягує та повертає значення останнього елемента
-масиву `array`, зменшуючи розмір `array` на один елемент.
+**arraypop()** витягує та повертає значення останнього елемента масиву `array`зменшуючи розмір `array` на один елемент.
 
-> **Примітка**: Ця функція під час дзвінка
-> [скидає](function.reset.md) покажчик масиву, переданого
-> параметром.
+> **Зауваження**: Ця функція під час виклику [скидає](function.reset.md) вказівник масиву, переданого параметром.
 
 ### Список параметрів
 
 `array`
+
 Масив, з якого береться значення.
 
 ### Значення, що повертаються
 
-Повертає значення останнього елемента масиву `array`. Якщо `array`
-порожній (або не є масивом), буде повернутий **`null`**.
-
-### Помилки
-
-При виклику цієї функції з не масивом буде викликана помилка рівня
-[E_WARNING](errorfunc.constants.md).
+Повертає значення останнього елемента масиву `array`. Якщо `array` нехай, буде повернутий **`null`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_pop()****
+**Приклад #1 Приклад використання **arraypop()****
 
-` <?php$stack = array("orange", "banana", "apple", "raspberry");$fruit = array_pop($stack);print_r($stack);?> `
+```php
+<?php
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = array_pop($stack);
+print_r($stack);
+?>
+```
 
-Після цього в $ stack буде тільки 3 елементи:
+Після цього $stack буде лише 3 елемента:
 
+```
 Array
 (
-[0] => orange
-[1] => banana
-[2] => apple
+    [0] => orange
+    [1] => banana
+    [2] => apple
 )
+```
 
-і `raspberry` буде присвоєно змінною `$fruit`.
+і `raspberry` буде присвоєно змінною $fruit.
 
 ### Дивіться також
 
-- [array_push()](function.array-push.md) - Додає один або
-кілька елементів у кінець масиву
-- [array_shift()](function.array-shift.md) - Витягує перший
-елемент масиву
-- [array_unshift()](function.array-unshift.md) - Додає один або
-кілька елементів на початок масиву
+-   [arraypush()](function.array-push.md) - Додає один або кілька елементів у кінець масиву
+-   [arrayshift()](function.array-shift.md) - Витягує перший елемент масиву
+-   [arrayunshift()](function.array-unshift.md) - Додає один або кілька елементів на початок масиву

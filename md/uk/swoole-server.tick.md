@@ -1,21 +1,22 @@
-- [« Swoole\Server::taskWaitMulti](swoole-server.taskwaitmulti.md)
-- [Swoole\Table »](class.swoole-table.md)
+---
+navigation:
+  - swoole-server.taskwaitmulti.md: '« SwooleServer::taskWaitMulti'
+  - class.swoole-table.md: SwooleTable »
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::tick'
+---
+# SwooleServer::tick
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Повторює цю функцію у кожний заданий інтервал часу
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::tick
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::tick - Повторює цю функцію в кожен заданий
-інтервал часу
+SwooleServer::tick — Повторює цю функцію у кожний заданий інтервал часу
 
 ### Опис
 
-public **Swoole\Server::tick**(int `$interval_ms`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Server::tick(int $interval_ms, callable $callback): void
+```
 
 ### Список параметрів
 

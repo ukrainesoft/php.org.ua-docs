@@ -1,30 +1,30 @@
-- [« Gmagick::setimageredprimary](gmagick.setimageredprimary.md)
-- [Gmagick::setimageresolution »](gmagick.setimageresolution.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює спосіб рендерингу зображення
-
+---
+navigation:
+  - gmagick.setimageredprimary.md: '« Gmagick::setimageredprimary'
+  - gmagick.setimageresolution.md: 'Gmagick::setimageresolution »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagerenderingintent'
+---
 # Gmagick::setimagerenderingintent
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimagerenderingintent — Встановлює спосіб рендерингу
-зображення
+Gmagick::setimagerenderingintent — Встановлює спосіб рендерингу зображення
 
 ### Опис
 
-public **Gmagick::setimagerenderingintent**(int `$rendering_intent`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagerenderingintent(int $rendering_intent): Gmagick
+```
 
-Встановлює спосіб візуалізації зображення.
+Встановлює спосіб рендерингу зображення.
 
 ### Список параметрів
 
 `rendering_intent`
-Одна з констант
-відображення](gmagick.constants.md#gmagick.constants.renderingintent)
-(`Gmagick::RENDERINGINTENT_*`).
+
+Одна з констант [способа отображения](gmagick.constants.md#gmagick.constants.renderingintent) `Gmagick::RENDERINGINTENT_*`
 
 ### Значення, що повертаються
 

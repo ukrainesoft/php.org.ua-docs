@@ -1,10 +1,11 @@
-- [« Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.md)
-- [Schema::getCollectionAsTable »](mysql-xdevapi-schema.getcollectionastable.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- Отримати колекцію зі схеми
-
+---
+navigation:
+  - mysql-xdevapi-schema.existsindatabase.md: '« Schema::existsInDatabase'
+  - mysql-xdevapi-schema.getcollectionastable.md: 'Schema::getCollectionAsTable »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+title: 'Schema::getCollection'
+---
 # Schema::getCollection
 
 (No version information available, might only be in Git)
@@ -13,15 +14,17 @@ Schema::getCollection — Отримати колекцію зі схеми
 
 ### Опис
 
-public **mysql_xdevapi\Schema::getCollection**(string `$name`):
-[mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
+```methodsynopsis
+public mysql_xdevapi\Schema::getCollection(string $name): mysql_xdevapi\Collection
+```
 
 Отримати колекцію зі схеми.
 
 ### Список параметрів
 
 `name`
-Назва колекції для вилучення.
+
+Ім'я колекції для отримання.
 
 ### Значення, що повертаються
 
@@ -29,14 +32,30 @@ public **mysql_xdevapi\Schema::getCollection**(string `$name`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Schema::getCollection()****
+**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$schema = $session->getSchema("food");$schema->createCollection("trees");// ...$trees = $schema->getCollection ("trees"); var_dump($trees); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+
+$schema = $session->getSchema("food");
+$schema->createCollection("trees");
+
+// ...
+
+$trees = $schema->getCollection("trees");
+
+var_dump($trees);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(mysql_xdevapi\Collection)#3 (1) {
-["name"]=>
-string(5) "trees"
+  ["name"]=>
+  string(5) "trees"
 }
+```

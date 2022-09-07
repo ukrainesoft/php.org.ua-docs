@@ -1,68 +1,64 @@
-- [«set_exception_handler](function.set-exception-handler.md)
-- [user_error »](function.user-error.md)
+---
+navigation:
+  - function.set-exception-handler.md: « setexceptionhandler
+  - function.user-error.md: usererror »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: triggererror
+---
+# triggererror
 
-- [PHP Manual](index.md)
-- [Функції обробки помилок](ref.errorfunc.md)
-- Викликає помилку користувача/попередження/повідомлення
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
-#trigger_error
-
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
-
-trigger_error — Викликає користувача
-помилку/попередження/сповіщення
+triggererror — Викликає помилку користувача/попередження/сповіщення
 
 ### Опис
 
-**trigger_error**(string `$message`, int `$error_level` =
-**`E_USER_NOTICE`**): bool
+```methodsynopsis
+trigger_error(string $message, int $error_level = E_USER_NOTICE): bool
+```
 
-Використовується для виклику помилок користувача. Можна використовувати в
-зв'язці з вбудованим обробником помилок, а також з користувальницьким
-обробником, заданим функцією
-[set_error_handler()](function.set-error-handler.md).
+Використовується для виклику помилок користувача. Можна використовувати у зв'язці з вбудованим обробником помилок, а також з обробником користувача, заданим функцією [seterrorhandler()](function.set-error-handler.md)
 
-Ця функція може бути корисною, якщо потрібно згенерувати
-певну реакцію виняток під час виконання.
+Ця функція може бути корисною, якщо потрібно згенерувати певну реакцію на виняток під час виконання.
 
 ### Список параметрів
 
 `message`
-Повідомлення, що відповідає цій помилці. Обмежено 1024 байтами у довжину.
-Символи далі 1024 будуть обрізані.
+
+Повідомлення, що відповідає цій помилці. Обмежено 1024 байтами завдовжки. Символи далі 1024 будуть обрізані.
 
 `error_level`
-Визначений тип помилки. Працює лише з сімейством констант E_USER. за
-замовчуванням **`E_USER_NOTICE`**.
+
+Визначений тип помилки. Працює тільки з сімейством констант EUSER. За замовчуванням **`E_USER_NOTICE`**
 
 ### Значення, що повертаються
 
-Функція повертає **`false`**, якщо заданий неправильний `error_level`, та
-**`true`** в інших випадках.
+Функція повертає \*\*`false`\*\*якщо заданий неправильний `error_level`, і **`true`** в інших випадках.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **trigger_error()****
+**Приклад #1 Приклад використання **triggererror()****
 
-Докладніший приклад наведено в описі функції
-[set_error_handler()](function.set-error-handler.md).
+Докладніший приклад наведено в описі функції [seterrorhandler()](function.set-error-handler.md)
 
-` <?phpif ($divisor ===0) {    trigger_error("Не можу поділити на нуль", E_USER_ERROR);}?> `
+```php
+<?php
+if ($divisor == 0) {
+    trigger_error("Не могу поделить на ноль", E_USER_ERROR);
+}
+?>
+```
 
 ### Примітки
 
 **Увага**
 
-HTML-сутності в `message` не екрановані. Щоб повідомлення можна було
-відобразити у браузері, перетворіть його функцією
-[htmlentities()](function.mdentities.md).
+HTML-сутності в `message` не екрановані. Щоб відобразити повідомлення у браузері, перетворіть його функцією [htmlentities()](function.htmlentities.md)
 
 ### Дивіться також
 
-- [error_reporting()](function.error-reporting.md) - Задає, які
-помилки PHP потраплять у звіт
-- [set_error_handler()](function.set-error-handler.md) - Задає
-користувальницький обробник помилок
-- [restore_error_handler()](function.restore-error-handler.md) -
-Відновлює попередній обробник помилок
-- [Константи рівнів помилок](errorfunc.constants.md)
+-   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт
+-   [seterrorhandler()](function.set-error-handler.md) - Задає користувальницький обробник помилок
+-   [restoreerrorhandler()](function.restore-error-handler.md) - Відновлює попередній обробник помилок
+-   [Константи рівнів помилок](errorfunc.constants.md)

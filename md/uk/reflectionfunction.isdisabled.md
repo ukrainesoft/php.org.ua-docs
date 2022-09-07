@@ -1,27 +1,28 @@
-- [« ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md)
-- [ReflectionFunction::\_\_toString »](reflectionfunction.tostring.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunction](class.reflectionfunction.md)
-- Перевіряє, що функцію вимкнено
-
+---
+navigation:
+  - reflectionfunction.invokeargs.md: '« ReflectionFunction::invokeArgs'
+  - reflectionfunction.tostring.md: 'ReflectionFunction::toString »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
+title: 'ReflectionFunction::isDisabled'
+---
 # ReflectionFunction::isDisabled
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunction::isDisabled — Перевіряє, що функція вимкнена
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-public **ReflectionFunction::isDisabled**(): bool
+```methodsynopsis
+public ReflectionFunction::isDisabled(): bool
+```
 
-Перевіряє, чи функція вимкнена, за допомогою директиви
-[disable_functions](ini.core.md#ini.disable-functions).
+Перевіряє, чи функція вимкнена, за допомогою директиви [disablefunctions](ini.core.md#ini.disable-functions)
 
 ### Список параметрів
 
@@ -29,10 +30,9 @@ public **ReflectionFunction::isDisabled**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо функція відключена, **`false`** в іншому випадку.
+**`true`**, якщо функцію вимкнено, **`false`** інакше.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) -
-Перевіряє, чи функція є певною користувачем
-- [Директива disable_functions](ini.core.md#ini.disable-functions)
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) - Перевіряє, чи функція є певною користувачем
+-   [Директива disablefunctions](ini.core.md#ini.disable-functions)

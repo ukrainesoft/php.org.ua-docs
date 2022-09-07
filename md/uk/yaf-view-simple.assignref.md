@@ -1,54 +1,81 @@
-- [« Yaf_View_Simple::assign](yaf-view-simple.assign.md)
-- [Yaf_View_Simple::clear »](yaf-view-simple.clear.md)
+---
+navigation:
+  - yaf-view-simple.assign.md: '« YafViewSimple::assign'
+  - yaf-view-simple.clear.md: 'YafViewSimple::clear »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
+title: 'YafViewSimple::assignRef'
+---
+# YafViewSimple::assignRef
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Призначення assignRef
+(Yaf >=1.0.0)
 
-# Yaf_View_Simple::assignRef
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Simple::assignRef — Призначення assignRef
+YafViewSimple::assignRef — Призначення assignRef
 
 ### Опис
 
-public **Yaf_View_Simple::assignRef**(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$value`): bool
+```methodsynopsis
+public Yaf_View_Simple::assignRef(string $name, mixed &$value): bool
+```
 
-На відміну від [Yaf_View_Simple::assign()](yaf-view-simple.assign.md),
-цей спосіб надає значення ref движку.
+На відміну від [YafViewSimple::assign()](yaf-view-simple.assign.md), цей метод надає значення ref движку.
 
 ### Список параметрів
 
 `name`
-Строкове ім'я, яке використовуватиметься для доступу до значення в
-шаблон.
+
+Строкове ім'я, яке використовуватиметься для доступу до значення у шаблоні.
 
 `value`
+
 Різне значення
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_View_Simple::assignRef()****
+**Приклад #1 Приклад використання **YafViewSimple::assignRef()****
 
-`<?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $value = "bar"; $this->getView()->assign("foo", $value); /* зверніть увагу, що до Yaf 2.1.4 була помилка,         ** яка робить наступний висновок "bar"; */        $dummy = $this->getView()->render("index/index.phtml"); echo $value; // запобігти авто-рендерінг        Yaf_Dispatcher::getInstance()->autoRender(FALSE); }}?> `
+```php
+<?php
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $value = "bar";
+        $this->getView()->assign("foo", $value);
+
+        /* обратите внимание, что до Yaf 2.1.4 была ошибка,
+         * которая делает следующий вывод "bar";
+         */
+        $dummy = $this->getView()->render("index/index.phtml");
+        echo $value;
+
+        // предотвратить авто-рендеринг
+        Yaf_Dispatcher::getInstance()->autoRender(FALSE);
+    }
+}
+?>
+```
 
 **Приклад #2 Приклад використання **template()****
 
-`<html> <head>  <title><?php echo $foo; $foo=="changed"; ?></title> </head><body></body></html>`
+```php
+<html>
+ <head>
+  <title><?php echo $foo;  $foo = "changed"; ?></title>
+ </head>
+<body>
+</body>
+</html>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-/* доступ до IndexController: */
+```
+/* доступ к IndexController: */
 changed
+```
 
 ### Дивіться також
 
-- [Yaf_View_Simple::assign()](yaf-view-simple.assign.md) - Призначити
-значення
-- [Yaf_View_Simple::\_\_set()](yaf-view-simple.set.md) -
-Встановлює значення для двигуна
+-   [YafViewSimple::assign()](yaf-view-simple.assign.md) - Призначити значення
+-   [YafViewSimple::set()](yaf-view-simple.set.md) - Встановлює значення для двигуна

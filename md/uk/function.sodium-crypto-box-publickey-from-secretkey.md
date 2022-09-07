@@ -1,33 +1,31 @@
-- [« sodium_crypto_box_open](function.sodium-crypto-box-open.md)
-- [sodium_crypto_box_publickey »](function.sodium-crypto-box-publickey.md)
+---
+navigation:
+  - function.sodium-crypto-box-open.md: « sodiumcryptoboxopen
+  - function.sodium-crypto-box-publickey.md: sodiumcryptoboxpublickey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxpublickeyfromsecretkey
+---
+# sodiumcryptoboxpublickeyfromsecretkey
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Обчислює відкритий ключ із секретного ключа
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_box_publickey_from_secretkey
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_box_publickey_from_secretkey — Обчислює відкритий ключ з
-секретного ключа
+sodiumcryptoboxpublickeyfromsecretkey — Обчислює відкритий ключ із секретного ключа
 
 ### Опис
 
-**sodium_crypto_box_publickey_from_secretkey**(string `$secret_key`):
-string
+```methodsynopsis
+sodium_crypto_box_publickey_from_secretkey(string $secret_key): string
+```
 
 З огляду на секретний ключ обчислює відповідний відкритий ключ.
 
-Працює тільки з типом ключів, призначеним для використання з
-**crypto_box()** (який використовує еліптичну криву Діффі-Хеллмана
-на кривій Монтгомері, Curve25519; скорочено X25519), а не
-**crypto_sign()** (який використовує алгоритм цифрового підпису Едвардса
-за кривою Едвардса з відповідними параметрами; скорочено Ed25519).
+Працює тільки з типом ключів, призначеним для використання з **cryptobox()** (який використовує еліптичну криву Діффі-Хеллмана на кривій Монтгомері, Curve25519; скорочено X25519), а не **cryptosign()** (який використовує алгоритм цифрового підпису Едвардса по кривій Едвардса з відповідними параметрами; скорочено Ed25519).
 
 ### Список параметрів
 
 `secret_key`
+
 Секретний ключ X25519
 
 ### Значення, що повертаються

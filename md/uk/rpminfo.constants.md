@@ -1,18 +1,17 @@
-- [« Типи ресурсів](rpminfo.resources.md)
-- [Функції RpmInfo »](ref.rpminfo.md)
+---
+navigation:
+  - rpminfo.resources.md: « Типи ресурсів
+  - ref.rpminfo.md: Функції RpmInfo »
+  - index.md: PHP Manual
+  - book.rpminfo.md: RpmInfo
+title: Обумовлені константи
+---
+# Обумовлені константи
 
-- [PHP Manual](index.md)
-- [RpmInfo](book.rpminfo.md)
-- Обумовлені константи
-
-# Зумовлені константи
-
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
 **`RPMVERSION`** (string)
+
 Системна версія librpm.
 
 **`RPMSENSE_ANY`** (int)
@@ -62,25 +61,27 @@
 **`RPMSENSE_CONFIG`** (int)
 
 **`RPMMIRE_DEFAULT`** (int)
-Шаблон пошуку є виразом з додаванням \., .\* і
-^...$.
+
+Шаблон пошуку є виразом з додаванням та ^...$.
 
 **`RPMMIRE_STRCMP`** (int)
+
 Шаблон пошуку є рядком (string), використовуючи strcmp(3).
 
 **`RPMMIRE_REGEX`** (int)
-Шаблон пошуку є регулярним виразом, що використовує
-regcomp(3).
+
+Шаблон пошуку є регулярним виразом, що використовує regcomp(3).
 
 **`RPMMIRE_GLOB`** (int)
-Шаблон пошуку є глобальним виразом, що використовує
-fnmatch(3).
+
+Шаблон пошуку є глобальним виразом, що використовує fnmatch(3).
 
 **`RPMTAG_ARCH`** (int)
 
 **`RPMTAG_ARCHIVESIZE`** (int)
 
 **`RPMTAG_BASENAMES`** (int)
+
 Ім'я (не шлях) файлів з індексом бази даних.
 
 **`RPMTAG_BUGURL`** (int)
@@ -104,6 +105,7 @@ fnmatch(3).
 **`RPMTAG_CONFLICTFLAGS`** (int)
 
 **`RPMTAG_CONFLICTNAME`** (int)
+
 Конфліктуючі залежності із індексом бази даних.
 
 **`RPMTAG_CONFLICTNEVRS`** (int)
@@ -123,6 +125,7 @@ fnmatch(3).
 **`RPMTAG_DIRINDEXES`** (int)
 
 **`RPMTAG_DIRNAMES`** (int)
+
 Каталог файлів з індексом бази даних.
 
 **`RPMTAG_DISTRIBUTION`** (int)
@@ -140,7 +143,8 @@ fnmatch(3).
 **`RPMTAG_ENHANCEFLAGS`** (int)
 
 **`RPMTAG_ENHANCENAME`** (int)
-Слабкі залежності з індексом бази даних, потрібні librpm = 4.13.
+
+Слабкі залежності з індексом бази даних потрібні librpm >= 4.13.
 
 **`RPMTAG_ENHANCENEVRS`** (int)
 
@@ -221,7 +225,8 @@ fnmatch(3).
 **`RPMTAG_FILETRIGGERINDEX`** (int)
 
 **`RPMTAG_FILETRIGGERNAME`** (int)
-File trigger name, with index database, requires librpm \>= 4.13.
+
+File trigger name, with database index, requires librpm >= 4.13.
 
 **`RPMTAG_FILETRIGGERPRIORITIES`** (int)
 
@@ -244,7 +249,8 @@ File trigger name, with index database, requires librpm \>= 4.13.
 **`RPMTAG_GIF`** (int)
 
 **`RPMTAG_GROUP`** (int)
-Group of the package, with database index.
+
+Group of package, with database index.
 
 **`RPMTAG_HDRID`** (int)
 
@@ -265,11 +271,13 @@ Group of the package, with database index.
 **`RPMTAG_INSTALLCOLOR`** (int)
 
 **`RPMTAG_INSTALLTID`** (int)
+
 Ідентифікатор транзакції установки з індексом бази даних.
 
 **`RPMTAG_INSTALLTIME`** (int)
 
 **`RPMTAG_INSTFILENAMES`** (int)
+
 Шлях до файлів з індексом бази даних.
 
 **`RPMTAG_INSTPREFIXES`** (int)
@@ -289,6 +297,7 @@ Group of the package, with database index.
 **`RPMTAG_N`** (int)
 
 **`RPMTAG_NAME`** (int)
+
 Package name, with database index.
 
 **`RPMTAG_NEVR`** (int)
@@ -308,6 +317,7 @@ Package name, with database index.
 **`RPMTAG_OBSOLETEFLAGS`** (int)
 
 **`RPMTAG_OBSOLETENAME`** (int)
+
 Застарілі пакети з індексом бази даних.
 
 **`RPMTAG_OBSOLETENEVRS`** (int)
@@ -369,7 +379,8 @@ Package name, with database index.
 **`RPMTAG_PAYLOADDIGEST`** (int)
 
 **`RPMTAG_PAYLOADDIGESTALT`** (int)
-З librpm = 4.16.
+
+З librpm> = 4.16.
 
 **`RPMTAG_PAYLOADDIGESTALGO`** (int)
 
@@ -432,7 +443,8 @@ Package name, with database index.
 **`RPMTAG_PROVIDEFLAGS`** (int)
 
 **`RPMTAG_PROVIDENAME`** (int)
-Надані залежності, з індексом бази даних.
+
+Надані залежності з індексом бази даних.
 
 **`RPMTAG_PROVIDENEVRS`** (int)
 
@@ -447,8 +459,8 @@ Package name, with database index.
 **`RPMTAG_RECOMMENDFLAGS`** (int)
 
 **`RPMTAG_RECOMMENDNAME`** (int)
-Рекомендовані слабкі залежності з індексом бази даних, потрібні
-librpm = 4.13.
+
+Рекомендовані слабкі залежності з індексом бази даних потрібно librpm >= 4.13.
 
 **`RPMTAG_RECOMMENDNEVRS`** (int)
 
@@ -465,6 +477,7 @@ librpm = 4.13.
 **`RPMTAG_REQUIREFLAGS`** (int)
 
 **`RPMTAG_REQUIRENAME`** (int)
+
 Обов'язкові залежності із індексом бази даних.
 
 **`RPMTAG_REQUIRENEVRS`** (int)
@@ -478,6 +491,7 @@ librpm = 4.13.
 **`RPMTAG_RSAHEADER`** (int)
 
 **`RPMTAG_SHA1HEADER`** (int)
+
 Підпис SHA1 з індексом бази даних.
 
 **`RPMTAG_SHA256HEADER`** (int)
@@ -485,6 +499,7 @@ librpm = 4.13.
 **`RPMTAG_SIGGPG`** (int)
 
 **`RPMTAG_SIGMD5`** (int)
+
 Підпис MD5 з індексом бази даних.
 
 **`RPMTAG_SIGPGP`** (int)
@@ -504,8 +519,8 @@ librpm = 4.13.
 **`RPMTAG_SUGGESTFLAGS`** (int)
 
 **`RPMTAG_SUGGESTNAME`** (int)
-Пропоновані слабкі залежності з індексом бази даних, потрібні librpm
-\>= 4.13.
+
+Пропоновані слабкі залежності з індексом бази даних потрібно librpm >= 4.13.
 
 **`RPMTAG_SUGGESTNEVRS`** (int)
 
@@ -518,7 +533,8 @@ librpm = 4.13.
 **`RPMTAG_SUPPLEMENTFLAGS`** (int)
 
 **`RPMTAG_SUPPLEMENTNAME`** (int)
-Слабкі залежності, з індексом бази даних, потрібний librpm = 4.13.
+
+Слабкі залежності з індексом бази даних потрібно librpm >= 4.13.
 
 **`RPMTAG_SUPPLEMENTNEVRS`** (int)
 
@@ -533,8 +549,8 @@ librpm = 4.13.
 **`RPMTAG_TRANSFILETRIGGERINDEX`** (int)
 
 **`RPMTAG_TRANSFILETRIGGERNAME`** (int)
-Ім'я тригера файлу транзакції, з індексом бази даних, потрібне librpm
-\>= 4.13.
+
+Ім'я тригера файлу транзакції з індексом бази даних потрібно librpm >= 4.13.
 
 **`RPMTAG_TRANSFILETRIGGERPRIORITIES`** (int)
 
@@ -555,6 +571,7 @@ librpm = 4.13.
 **`RPMTAG_TRIGGERINDEX`** (int)
 
 **`RPMTAG_TRIGGERNAME`** (int)
+
 Trigger name, with database index.
 
 **`RPMTAG_TRIGGERSCRIPTFLAGS`** (int)
@@ -584,10 +601,12 @@ Trigger name, with database index.
 **`RPMTAG_VERIFYSCRIPTPROG`** (int)
 
 **`RPMTAG_VERITYSIGNATUREALGO`** (int)
-З librpm = 4.17.
+
+З librpm> = 4.17.
 
 **`RPMTAG_VERITYSIGNATURES`** (int)
-З librpm = 4.17.
+
+З librpm> = 4.17.
 
 **`RPMTAG_VERSION`** (int)
 

@@ -1,34 +1,35 @@
-- [« Parle\RParser::trace](parle-rparser.trace.md)
-- [Parle\Stack »](class.parle-stack.md)
+---
+navigation:
+  - parle-rparser.trace.md: '« ParleRParser::trace'
+  - class.parle-stack.md: ParleStack »
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
+title: 'ParleRParser::validate'
+---
+# ParleRParser::validate
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Перевіряє вхідні дані
+(PECL parle >= 0.7.0)
 
-# Parle\RParser::validate
-
-(PECL parle \>= 0.7.0)
-
-Parle\RParser::validate — Перевірка вхідних даних
+ParleRParser::validate — Перевіряє вхідні дані
 
 ### Опис
 
-public **Parle\RParser::validate**(string `$data`,
-[Parle\RLexer](class.parle-rlexer.md) `$lexer`): bool
+```methodsynopsis
+public Parle\RParser::validate(string $data, Parle\RLexer $lexer): bool
+```
 
-Перевіряє вхідний рядок. Рядок аналізується внутрішнім механізмом,
-тому метод корисний швидкої перевірки вхідних даних.
+Перевіряє вхідний рядок. Рядок аналізується внутрішнім механізмом, тому метод корисний швидкої перевірки вхідних даних.
 
 ### Список параметрів
 
 `data`
+
 Рядок для перевірки.
 
 `lexer`
-Об'єкт лексера, що містить правила лексування, підготовлені для
-конкретної граматики.
+
+Об'єкт лексера містить правила лексування, підготовлені для конкретної граматики.
 
 ### Значення, що повертаються
 
-Повертає логічне значення (bool) визначальне, чи відповідають
-вхідні дані заданим правилам чи ні.
+Повертає логічне значення (bool) визначальне, чи вхідні дані відповідають заданим правилам чи ні.

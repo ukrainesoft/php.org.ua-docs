@@ -1,12 +1,13 @@
-- [«Вступ](intro.zmq.md)
-- [Вимоги »](zmq.requirements.md)
-
-- [PHP Manual](index.md)
-- [Обмін повідомленнями 0MQ](book.zmq.md)
--   Встановлення та налаштування
-
+---
+navigation:
+  - intro.zmq.md: « Введение
+  - zmq.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](zmq.requirements.md)
+-   [Вимоги](zmq.requirements.md)

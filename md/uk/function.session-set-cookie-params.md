@@ -1,98 +1,79 @@
-- [« session_save_path](function.session-save-path.md)
-- [session_set_save_handler »](function.session-set-save-handler.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- Встановлює параметри сесійної cookie
-
-# session_set_cookie_params
+---
+navigation:
+  - function.session-save-path.md: « sessionsavepath
+  - function.session-set-save-handler.md: sessionsetsavehandler »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionsetcookieparams
+---
+# sessionsetcookieparams
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-session_set_cookie_params — Встановлює параметри сесійної cookie
+sessionsetcookieparams — Встановлює параметри сесійної cookie
 
 ### Опис
 
-**session_set_cookie_params**(
-int `$lifetime_or_options`,
-?string `$path` = **`null`**,
-?string `$domain` = **`null`**,
-?bool `$secure` = **`null`**,
-?bool `$httponly` = **`null`**
-): bool
+```methodsynopsis
+session_set_cookie_params(    int $lifetime_or_options,    ?string $path = null,    ?string $domain = null,    ?bool $secure = null,    ?bool $httponly = null): bool
+```
 
 Альтернативна сигнатура доступна з PHP 7.3.0:
 
-**session_set_cookie_params**(array `$lifetime_or_options`): bool
+```methodsynopsis
+session_set_cookie_params(array $lifetime_or_options): bool
+```
 
-**session_set_cookie_params**(array `$options`): bool
+```methodsynopsis
+session_set_cookie_params(array $options): bool
+```
 
-Встановлює параметри cookie, визначені у файлі `php.ini`. Ефект
-ця функція зберігається тільки на час виконання скрипта. Таким
-Таким чином, потрібно викликати **session_set_cookie_params()** для кожного
-запиту та перед кожним викликом
-[session_start()](function.session-start.md).
+Встановлює параметри cookie, визначені у php.ini. Ефект цієї функції зберігається лише під час виконання скрипта. Таким чином, потрібно викликати **sessionsetcookieparams()** для кожного запиту та перед кожним викликом [sessionstart()](function.session-start.md)
 
-Ця функція оновлює поточні ini-значення відповідних ключів
-конфігурації PHP ini, які можна отримати за допомогою
-[ini_get()](function.ini-get.md).
+Ця функція оновлює поточні ini-значення відповідних ключів конфігурації PHP ini, які можна отримати за допомогою [iniget()](function.ini-get.md)
 
 ### Список параметрів
 
 `lifetime_or_options`
-Якщо використовувати першу сигнатуру, [час життя](session.configuration.md#ini.session.cookie-lifetime)
-сесійної куки, задане в секундах.
 
-Якщо використовувати другу сигнатуру, асоціативний масив (array),
-який може мати будь-який з ключів `lifetime`, `path`, `domain`,
-`secure`, `httponly` та `samesite`. Значення мають той самий сенс, як
-описано у параметрах із відповідним ім'ям. Значення елемента
-`samesite` має бути або `Lax`, або `Strict`. Якщо якась із
-допустимих опцій не вказано, її значення за умовчанням збігаються з
-значення за промовчанням для явних параметрів. Якщо елемент `samesite` не
-вказано, cookie-атрибут SameSite не встановлено.
+Якщо використовувати першу сигнатуру, [время жизни](session.configuration.md#ini.session.cookie-lifetime) сесійної куки, задане в секундах.
+
+Якщо використовувати другу сигнатуру, то асоціативний масив (array), який може мати будь-який ключ `lifetime` `path` `domain` `secure` `httponly` і `samesite`. Значення мають той самий зміст, як описано у параметрах з відповідним ім'ям. Значення елемента `samesite` повинно бути або `Lax`, або `Strict`. Якщо жодна з допустимих опцій не вказана, її значення за умовчанням збігаються зі значеннями за промовчанням для явних параметрів. Якщо елемент `samesite` не вказано, атрибут cookie SameSite не встановлений.
 
 `path`
-[Шлях](session.configuration.md#ini.session.cookie-path) у домені, де
-cookie буде працювати. Використовуйте одну косу рису ('/') для всіх шляхів
-у домені.
+
+[Шлях](session.configuration.md#ini.session.cookie-path) в домені, де буде працювати cookie. Використовуйте одну косу ('/') для всіх шляхів у домені.
 
 `domain`
-[Домен](session.configuration.md#ini.session.cookie-domain) cookie,
-наприклад, 'www.php.net'. Щоб зробити cookies видимими для всіх
-піддоменів, перед ім'ям домену потрібно поставити крапку, наприклад
-'.php.net'.
+
+[Домен](session.configuration.md#ini.session.cookie-domain) cookie, наприклад '[www.php.net'](http://www.php.net'). Щоб зробити cookies видимими для всіх піддоменів, перед ім'ям домену потрібно встановити точку, наприклад '.php.net'.
 
 `secure`
-Якщо **`true`**, то cookies будуть передаватися лише через
-[захищені](session.configuration.md#ini.session.cookie-secure)
-з'єднання.
+
+Якщо **`true`**, то cookies будуть передаватися тільки через [захищені](session.configuration.md#ini.session.cookie-secure) з'єднання.
 
 `httponly`
-Якщо встановлено **`true`**, то PHP спробує надіслати прапорець
-[httponly](session.configuration.md#ini.session.cookie-httponly) при
-налаштування сесійної cookie.
+
+Якщо встановлено **`true`**, то PHP спробує відправити прапор [httponly](session.configuration.md#ini.session.cookie-httponly) при налаштуванні сесійної cookie.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | path, domain, secure та httponly тепер можуть бути **null**.                                                                                   |
-| 7.3.0  | Доданий альтернативний підпис, що підтримує масив опцій lifetime_or_options. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
-| 7.2.0  | Повертає **true** у разі успішного виконання або **false** у разі виникнення помилки. Раніше повертала тип void.                               |
+| Версия | Описание |
+| --- | --- |
+|  | `path` `domain` `secure` і `httponly` тепер можуть бути **`null`** |
+|  | Додано альтернативний підпис, що підтримує масив опцій `lifetime_or_options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
+|  | Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Раніше повертала тип void. |
 
 ### Дивіться також
 
-- [session.cookie_lifetime](session.configuration.md#ini.session.cookie-lifetime)
-- [session.cookie_path](session.configuration.md#ini.session.cookie-path)
-- [session.cookie_domain](session.configuration.md#ini.session.cookie-domain)
-- [session.cookie_secure](session.configuration.md#ini.session.cookie-secure)
-- [session.cookie_httponly](session.configuration.md#ini.session.cookie-httponly)
-- [session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)
-- [session_get_cookie_params()](function.session-get-cookie-params.md) -
-Повертає параметри cookie сесії
+-   [session.cookielifetime](session.configuration.md#ini.session.cookie-lifetime)
+-   [session.cookiepath](session.configuration.md#ini.session.cookie-path)
+-   [session.cookiedomain](session.configuration.md#ini.session.cookie-domain)
+-   [session.cookiesecure](session.configuration.md#ini.session.cookie-secure)
+-   [session.cookiehttponly](session.configuration.md#ini.session.cookie-httponly)
+-   [session.cookiesamesite](session.configuration.md#ini.session.cookie-samesite)
+-   [sessiongetcookieparams()](function.session-get-cookie-params.md) - Повертає параметри cookie сесії

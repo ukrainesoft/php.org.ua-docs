@@ -1,26 +1,26 @@
-- [«CommonMark\Node\Heading](class.commonmark-node-heading.md)
-- [CommonMark\Node\Paragraph »](class.commonmark-node-paragraph.md)
+---
+navigation:
+  - class.commonmark-node-heading.md: « CommonMarkNodeHeading
+  - class.commonmark-node-paragraph.md: CommonMarkNodeParagraph »
+  - index.md: PHP Manual
+  - class.commonmark-node-heading.md: CommonMarkNodeHeading
+title: 'CommonMarkNodeHeading::construct'
+---
+# CommonMarkNodeHeading::construct
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\Heading](class.commonmark-node-heading.md)
-- Конструктор класу Heading
+(cmark >= 1.0.0)
 
-# CommonMark\Node\Heading::\_\_construct
-
-(cmark \>= 1.0.0)
-
-CommonMark\Node\Heading::\_\_construct - Конструктор класу Heading
+CommonMarkNodeHeading::construct - Конструктор класу Heading
 
 ### Опис
 
-public **CommonMark\Node\Heading::\_\_construct**()
+public **CommonMarkNodeHeading::construct**
 
-public **CommonMark\Node\Heading::\_\_construct**(int `$level`)
+public **CommonMarkNodeHeading::construct**(int `$level`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

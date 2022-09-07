@@ -1,20 +1,22 @@
-- [«SolrQuery::getTerms](solrquery.getterms.md)
-- [SolrQuery::getTermsIncludeLowerBound »](solrquery.gettermsincludelowerbound.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає поле, з якого витягуються вирази
-
+---
+navigation:
+  - solrquery.getterms.md: '« SolrQuery::getTerms'
+  - solrquery.gettermsincludelowerbound.md: 'SolrQuery::getTermsIncludeLowerBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsField'
+---
 # SolrQuery::getTermsField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTermsField — Повертає поле, з якого витягуються
-вирази
+SolrQuery::getTermsField — Повертає поле, з якого витягуються вирази
 
 ### Опис
 
-public **SolrQuery::getTermsField**(): string
+```methodsynopsis
+public SolrQuery::getTermsField(): string
+```
 
 Повертає поле, з якого витягуються вирази.
 
@@ -24,5 +26,4 @@ public **SolrQuery::getTermsField**(): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає рядок і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає рядок та **`null`**, якщо значення не встановлено.

@@ -1,26 +1,28 @@
-- [«readgzfile](function.readgzfile.md)
-- [zlib_encode »](function.zlib-encode.md)
+---
+navigation:
+  - function.readgzfile.md: « readgzfile
+  - function.zlib-encode.md: zlibencode »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: zlibdecode
+---
+# zlibdecode
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Розпаковує будь-які закодовані дані raw/gzip/zlib
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# zlib_decode
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-zlib_decode — Розпаковує будь-які закодовані дані raw/gzip/zlib
+zlibdecode — Розпаковує будь-які закодовані дані raw/gzip/zlib
 
 ### Опис
 
-**zlib_decode**(string `$data`, int `$max_length` = 0): string\|false
+```methodsynopsis
+zlib_decode(string $data, int $max_length = 0): string|false
+```
 
 Розпаковує будь-які закодовані дані raw/gzip/zlib.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,10 +32,8 @@ zlib_decode — Розпаковує будь-які закодовані дан
 
 ### Значення, що повертаються
 
-Повертає розпаковані дані або **`false`** у разі виникнення
-помилки.
+Повертає розпаковані дані або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [zlib_encode()](function.zlib-encode.md) - Стиснення даних з
-зазначеним кодуванням
+-   [zlibencode()](function.zlib-encode.md) - Стиснення даних із зазначеним кодуванням

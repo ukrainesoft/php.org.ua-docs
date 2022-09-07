@@ -1,16 +1,15 @@
-- [« UI\Draw\Text\Font\Descriptor::getWeight](ui-draw-text-font-descriptor.getweight.md)
-- [UI\Draw\Text\Font ontFamilies »](function.ui-draw-text-font-fontfamilies.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Функції UI
-
+---
+navigation:
+  - ui-draw-text-font-descriptor.getweight.md: '« UIDrawTextFontDescriptor::getWeight'
+  - function.ui-draw-text-font-fontfamilies.md: ОЙDrawTextFontfontFamilies »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Функції UI
+---
 # Функції UI
 
 ## Зміст
 
-- [UI\Draw\Text\Font ontFamilies](function.ui-draw-text-font-fontfamilies.md)
-— Вийняти сімейство шрифтів
-- [UI\quit](function.ui-quit.md) - Вийти з циклу UI
-- [UI
-un](function.ui-run.md) — Увійти до циклу UI
+-   [ОЙDrawTextFontfontFamilies](function.ui-draw-text-font-fontfamilies.md) — Витягти сімейство шрифтів
+-   [ОЙquit](function.ui-quit.md) - Вийти з циклу UI
+-   [ОЙrun](function.ui-run.md) - Увійти в цикл UI

@@ -1,19 +1,22 @@
-- [« Componere\Value::setProtected](componere-value.setprotected.md)
-- [Componere\Value::isPrivate »](componere-value.isprivate.md)
+---
+navigation:
+  - componere-value.setprotected.md: '« ComponereValue::setProtected'
+  - componere-value.isprivate.md: 'ComponereValue::isPrivate »'
+  - index.md: PHP Manual
+  - class.componere-value.md: ComponereValue
+title: 'ComponereValue::setStatic'
+---
+# ComponereValue::setStatic
 
-- [PHP Manual](index.md)
-- [Componere\Value](class.componere-value.md)
-- Зміна доступності
+(Componere 2 >= 2.1.0)
 
-# Componere\Value::setStatic
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Value::setStatic — Зміна доступності
+ComponereValue::setStatic — Зміна доступності
 
 ### Опис
 
-public **Componere\Value::setStatic**(): Value
+```methodsynopsis
+public Componere\Value::setStatic(): Value
+```
 
 ### Значення, що повертаються
 

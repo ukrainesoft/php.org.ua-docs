@@ -1,17 +1,13 @@
-- [« Вимоги](ps.requirements.md)
-- [Налаштування під час виконання »](ps.configuration.md)
+---
+navigation:
+  - ps.requirements.md: « Вимоги
+  - ps.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - ps.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ps.setup.md)
-- Встановлення
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/ps](https://pecl.php.net/package/ps)
 
-## Установка
-
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/ps](https://pecl.php.net/package/ps).
-
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md).
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.md)

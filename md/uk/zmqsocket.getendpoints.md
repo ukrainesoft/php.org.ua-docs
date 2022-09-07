@@ -1,19 +1,22 @@
-- [«ZMQSocket::disconnect](zmqsocket.disconnect.md)
-- [ZMQSocket::getPersistentId »](zmqsocket.getpersistentid.md)
-
-- [PHP Manual](index.md)
-- [ZMQSocket](class.zmqsocket.md)
-- Отримати список кінцевих точок
-
+---
+navigation:
+  - zmqsocket.disconnect.md: '« ZMQSocket::disconnect'
+  - zmqsocket.getpersistentid.md: 'ZMQSocket::getPersistentId »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::getEndpoints'
+---
 # ZMQSocket::getEndpoints
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQSocket::getEndpoints — Отримати список кінцевих точок
 
 ### Опис
 
-public **ZMQSocket::getEndpoints**(): array
+```methodsynopsis
+public ZMQSocket::getEndpoints(): array
+```
 
 Повертає список кінцевих точок, з якими з'єднаний або пов'язаний сокет.
 

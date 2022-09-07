@@ -1,36 +1,37 @@
-- [«openal_buffer_destroy](function.openal-buffer-destroy.md)
-- [openal_buffer_loadwav »](function.openal-buffer-loadwav.md)
+---
+navigation:
+  - function.openal-buffer-destroy.md: « openalbufferdestroy
+  - function.openal-buffer-loadwav.md: openalbufferloadwav »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbufferget
+---
+# openalbufferget
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Отримати властивість буфера OpenAL
+(PECL openal >= 0.1.0)
 
-#openal_buffer_get
-
-(PECL openal = 0.1.0)
-
-openal_buffer_get — Отримати властивість буфера OpenAL
+openalbufferget — Отримати властивість буфера OpenAL
 
 ### Опис
 
-**openal_buffer_get**(resource `$buffer`, int `$property`): int\|false
+```methodsynopsis
+openal_buffer_get(resource $buffer, int $property): int|false
+```
 
 ### Список параметрів
 
 `buffer`
-Ресурс [Open AL(Buffer)](openal.resources.md) (заснований раніше з
-за допомогою [openal_buffer_create()](function.openal-buffer-create.md)).
+
+Ресурс [Open AL(Buffer)](openal.resources.md) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 `property`
-Одна з властивостей, задана у вигляді константи: **`AL_FREQUENCY`**,
-**`AL_BITS`**, **`AL_CHANNELS`** та **`AL_SIZE`**.
+
+Одна з властивостей, задана у вигляді константи: **`AL_FREQUENCY`** **`AL_BITS`** **`AL_CHANNELS`** і **`AL_SIZE`**
 
 ### Значення, що повертаються
 
-Повертає ціле значення, що відповідає запитаній властивості
-`property` або **`false`** у разі виникнення помилки.
+Повертає ціле значення, що відповідає запрошеному властивості `property` або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_buffer_create()](function.openal-buffer-create.md) -
-Згенерувати буфер OpenAL
+-   [openalbuffercreate()](function.openal-buffer-create.md) - Згенерувати буфер OpenAL

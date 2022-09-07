@@ -1,20 +1,20 @@
-- [« Yaf_Registry](class.yaf-registry.md)
-- [Yaf_Registry::del »](yaf-registry.del.md)
+---
+navigation:
+  - class.yaf-registry.md: « YafRegistry
+  - yaf-registry.del.md: 'YafRegistry::del »'
+  - index.md: PHP Manual
+  - class.yaf-registry.md: YafRegistry
+title: 'YafRegistry::construct'
+---
+# YafRegistry::construct
 
-- [PHP Manual](index.md)
-- [Yaf_Registry](class.yaf-registry.md)
-- Yaf_Registry реалізує шаблон проектування "Одиночка"
+(Yaf >=1.0.0)
 
-# Yaf_Registry::\_\_construct
-
-(Yaf \>=1.0.0)
-
-Yaf_Registry::\_\_construct - Yaf_Registry реалізує шаблон
-проектування "Одиночка"
+YafRegistry::construct - YafRegistry реалізує шаблон проектування "Одиночка"
 
 ### Опис
 
-private **Yaf_Registry::\_\_construct**()
+private **YafRegistry::construct**
 
 ### Список параметрів
 

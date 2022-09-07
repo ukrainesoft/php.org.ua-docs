@@ -1,28 +1,26 @@
-- [«SplStack](class.splstack.md)
-- [SplStack::setIteratorMode »](splstack.setiteratormode.md)
+---
+navigation:
+  - class.splstack.md: « SplStack
+  - splstack.setiteratormode.md: 'SplStack::setIteratorMode »'
+  - index.md: PHP Manual
+  - class.splstack.md: SplStack
+title: 'SplStack::construct'
+---
+# SplStack::construct
 
-- [PHP Manual](index.md)
-- [SplStack](class.splstack.md)
-- створює новий стек, реалізований з використанням двозв'язкового
-списку
+(PHP 5> = 5.3.0, PHP 7)
 
-# SplStack::\_\_construct
-
-(PHP 5 = 5.3.0, PHP 7)
-
-SplStack::\_\_construct — Створює новий стек, реалізований з
-використанням двозв'язкового списку
+SplStack::construct — Створює новий стек, реалізований за допомогою двозв'язкового списку
 
 ### Опис
 
-public **SplStack::\_\_construct**()
+public **SplStack::construct**
 
 Створює новий пустий стек.
 
-> **Примітка**:
->
-> Метод автоматично встановлює режим ітератора
-> SplDoublyLinkedList::IT_MODE_LIFO.
+> **Зауваження**
+> 
+> Метод автоматично встановлює режим ітератора SplDoublyLinkedList::ITMODELIFO.
 
 ### Список параметрів
 
@@ -30,13 +28,26 @@ public **SplStack::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplStack::\_\_construct()****
+**Приклад #1 Приклад використання **SplStack::construct()****
 
-` <?php$q = new SplStack();$q[] = 1;$q[] = 2;$q[] = 3;foreach ($q as $elem)  { echo $elem."
-";}?> `
+```php
+<?php
+$q = new SplStack();
+
+$q[] = 1;
+$q[] = 2;
+$q[] = 3;
+
+foreach ($q as $elem)  {
+ echo $elem."\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3
 2
 1
+```

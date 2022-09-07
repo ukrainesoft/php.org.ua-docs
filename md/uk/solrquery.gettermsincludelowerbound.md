@@ -1,24 +1,24 @@
-- [«SolrQuery::getTermsField](solrquery.gettermsfield.md)
-- [SolrQuery::getTermsIncludeUpperBound »](solrquery.gettermsincludeupperbound.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає, чи потрібно включати вираз нижньої межі до набору
-результатів
-
+---
+navigation:
+  - solrquery.gettermsfield.md: '« SolrQuery::getTermsField'
+  - solrquery.gettermsincludeupperbound.md: 'SolrQuery::getTermsIncludeUpperBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsIncludeLowerBound'
+---
 # SolrQuery::getTermsIncludeLowerBound
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTermsIncludeLowerBound — Повертає, чи потрібно вмикати
-вираз нижньої межі в набір результатів
+SolrQuery::getTermsIncludeLowerBound — Повертає, чи потрібно включати вираз нижньої межі до набору результатів
 
 ### Опис
 
-public **SolrQuery::getTermsIncludeLowerBound**(): bool
+```methodsynopsis
+public SolrQuery::getTermsIncludeLowerBound(): bool
+```
 
-Повертає, чи потрібно включати вираз нижньої межі до набору
-результатів
+Повертає, чи потрібно включати вираз нижньої межі до набору результатів
 
 ### Список параметрів
 
@@ -26,5 +26,4 @@ public **SolrQuery::getTermsIncludeLowerBound**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

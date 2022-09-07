@@ -1,24 +1,24 @@
-- [«MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
-- [MongoDB\BSON\Symbol::jsonSerialize »](mongodb-bson-symbol.jsonserialize.md)
+---
+navigation:
+  - class.mongodb-bson-symbol.md: « MongoDBBSONSymbol
+  - mongodb-bson-symbol.jsonserialize.md: 'MongoDBBSONSymbol::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::construct'
+---
+# MongoDBBSONSymbol::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
-- Створює новий Symbol (не використовується)
+(mongodb >=1.4.0)
 
-# MongoDB\BSON\Symbol::\_\_construct
-
-(mongodb \>=1.4.0)
-
-MongoDB\BSON\Symbol::\_\_construct — Створює новий Symbol (не
-використовується)
+MongoDBBSONSymbol::construct — Створює новий Symbol (не використовується)
 
 ### Опис
 
-final private **MongoDB\BSON\Symbol::\_\_construct**()
+```methodsynopsis
+final private MongoDB\BSON\Symbol::__construct()
+```
 
-Об'єкти [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md) створюються
-шляхом перетворення зі застарілого типу BSON і не можуть бути створені
-безпосередньо.
+Об'єкти [MongoDBBSONSymbol](class.mongodb-bson-symbol.md) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ final private **MongoDB\BSON\Symbol::\_\_construct**()
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

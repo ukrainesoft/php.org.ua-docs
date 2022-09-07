@@ -1,19 +1,22 @@
-- [« Ds\Queue::count](ds-queue.count.md)
-- [Ds\Queue::jsonSerialize »](ds-queue.jsonserialize.md)
+---
+navigation:
+  - ds-queue.count.md: '« DsQueue::count'
+  - ds-queue.jsonserialize.md: 'ДсQueue::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
+title: 'ДсQueue::isEmpty'
+---
+# ДсQueue::isEmpty
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Перевіряє, чи порожня колекція
+(PECL ds >= 1.0.0)
 
-# Ds\Queue::isEmpty
-
-(PECL ds \>= 1.0.0)
-
-Ds\Queue::isEmpty — Перевіряє, чи порожня колекція
+ДсQueue::isEmpty — Перевіряє, чи порожня колекція
 
 ### Опис
 
-public **Ds\Queue::isEmpty**(): bool
+```methodsynopsis
+public Ds\Queue::isEmpty(): bool
+```
 
 Перевіряє, чи колекція порожня.
 
@@ -23,16 +26,25 @@ public **Ds\Queue::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо колекція порожня, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::isEmpty()****
+**Приклад #1 Приклад використання **ДсQueue::isEmpty()****
 
-` <?php$a = new \Ds\Queue([1, 2, 3]);$b = new \Ds\Queue();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+```php
+<?php
+$a = new \Ds\Queue([1, 2, 3]);
+$b = new \Ds\Queue();
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

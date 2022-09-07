@@ -1,24 +1,24 @@
-- [« Swoole\Server::connection_list](swoole-server.connection-list.md)
-- [Swoole\Server::defer »](swoole-server.defer.md)
+---
+navigation:
+  - swoole-server.connection-list.md: '« SwooleServer::connectionlist'
+  - swoole-server.defer.md: 'SwooleServer::defer »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::construct'
+---
+# SwooleServer::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Створює сервер Swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::\_\_construct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::\_\_construct — Створює сервер Swoole
+SwooleServer::construct — Створює сервер Swoole
 
 ### Опис
 
-public **Swoole\Server::\_\_construct**(
-string `$host`,
-int `$port` = ?,
-int `$mode` = ?,
-int `$sock_type` = ?
-)
+public **SwooleServer::construct**  
+string `$host`  
+int `$port`  
+int `$mode`  
+int `$sock_type`
 
 ### Список параметрів
 

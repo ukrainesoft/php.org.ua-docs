@@ -1,30 +1,28 @@
-- [« GearmanTask::unique](gearmantask.unique.md)
-- [GearmanWorker »](class.gearmanworker.md)
-
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- отримання унікального ідентифікатора завдання (застарілий метод)
-
+---
+navigation:
+  - gearmantask.unique.md: '« GearmanTask::unique'
+  - class.gearmanworker.md: GearmanWorker »
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::uuid'
+---
 # GearmanTask::uuid
 
-(PECL gearman \<= 0.5.0)
+(PECL gearman <= 0.5.0)
 
-GearmanTask::uuid — Отримання унікального ідентифікатора задачі
-(застарілий метод)
+GearmanTask::uuid — Отримання унікального ідентифікатора завдання (застарілий метод)
 
 ### Опис
 
-public **GearmanTask::uuid**(): string
+```methodsynopsis
+public GearmanTask::uuid(): string
+```
 
-Повертає унікальний ідентифікатор цього завдання. Цей ідентифікатор
-привласнює [GearmanClient](class.gearmanclient.md), на відміну від
-ідентифікатор об'єкта завдання, який встановлює сервер завдань.
+Повертає унікальний ідентифікатор цього завдання. Цей ідентифікатор надає [GearmanClient](class.gearmanclient.md), на відміну ідентифікатора об'єкта завдання, який встановлює сервер завдань.
 
-> **Примітка**:
->
-> Цей метод було замінено на
-> [GearmanTask::unique()](gearmantask.unique.md) у версії 0.6.0 модуля
-> Gearman.
+> **Зауваження**
+> 
+> Цей метод було замінено на [GearmanTask::unique()](gearmantask.unique.md) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -32,12 +30,9 @@ public **GearmanTask::uuid**(): string
 
 ### Значення, що повертаються
 
-Унікальний ідентифікатор або **`false`**, якщо ідентифікатор не
-призначений.
+Унікальний ідентифікатор або \*\*`false`\*\*якщо ідентифікатор не призначений.
 
 ### Дивіться також
 
-- [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання
-і повертає результат [Застарілий метод]
-- [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати
-завдання, яке буде виконано в паралельному режимі
+-   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати завдання, яке буде виконано у паралельному режимі

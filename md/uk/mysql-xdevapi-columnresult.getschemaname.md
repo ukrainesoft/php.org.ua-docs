@@ -1,10 +1,11 @@
-- [« ColumnResult::getLength](mysql-xdevapi-columnresult.getlength.md)
-- [ColumnResult::getTableLabel »](mysql-xdevapi-columnresult.gettablelabel.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує назву схеми
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getlength.md: '« ColumnResult::getLength'
+  - mysql-xdevapi-columnresult.gettablelabel.md: 'ColumnResult::getTableLabel »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+title: 'ColumnResult::getSchemaName'
+---
 # ColumnResult::getSchemaName
 
 (No version information available, might only be in Git)
@@ -13,14 +14,15 @@ ColumnResult::getSchemaName — Отримує назву схеми
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getSchemaName**(): string
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getSchemaName(): string
+```
 
 Отримує ім'я схеми, де зберігається стовпець.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +32,12 @@ public **mysql_xdevapi\ColumnResult::getSchemaName**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getSchemaName()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getSchemaName()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

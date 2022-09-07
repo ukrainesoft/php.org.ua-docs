@@ -1,18 +1,21 @@
-- [«Componere\Patch::\_\_construct](componere-patch.construct.md)
-- [Componere\Patch::revert »](componere-patch.revert.md)
+---
+navigation:
+  - componere-patch.construct.md: '« ComponerePatch::construct'
+  - componere-patch.revert.md: 'ComponerePatch::revert »'
+  - index.md: PHP Manual
+  - class.componere-patch.md: ComponerePatch
+title: 'ComponerePatch::apply'
+---
+# ComponerePatch::apply
 
-- [PHP Manual](index.md)
-- [Componere\Patch](class.componere-patch.md)
--   Додаток
+(Componere 2 >= 2.1.0)
 
-# Componere\Patch::apply
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Patch::apply — Програма
+ComponerePatch::apply — Програма
 
 ### Опис
 
-public **Componere\Patch::apply**(): void
+```methodsynopsis
+public Componere\Patch::apply(): void
+```
 
 Застосовує поточний патч

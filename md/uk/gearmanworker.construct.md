@@ -1,23 +1,24 @@
-- [« GearmanWorker::clone](gearmanworker.clone.md)
-- [GearmanWorker::echo »](gearmanworker.echo.md)
+---
+navigation:
+  - gearmanworker.clone.md: '« GearmanWorker::clone'
+  - gearmanworker.echo.md: 'GearmanWorker::echo »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::construct'
+---
+# GearmanWorker::construct
 
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Створення об'єкту GearmanWorker
+(PECL gearman >= 0.5.0)
 
-# GearmanWorker::\_\_construct
-
-(PECL gearman = 0.5.0)
-
-GearmanWorker::\_\_construct — Створення об'єкту GearmanWorker
+GearmanWorker::construct — Створення об'єкту GearmanWorker
 
 ### Опис
 
-public **GearmanWorker::\_\_construct**()
+```methodsynopsis
+public GearmanWorker::__construct()
+```
 
-Створює об'єкт [GearmanWorker](class.gearmanworker.md), що представляє
-обробник, який підключається до сервера завдань та приймає завдання для
-виконання.
+Створює об'єкт [GearmanWorker](class.gearmanworker.md)представляє обробник, який підключається до сервера завдань і приймає завдання для виконання.
 
 ### Список параметрів
 
@@ -25,9 +26,8 @@ public **GearmanWorker::\_\_construct**()
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanWorker](class.gearmanworker.md).
+Об'єкт класу [GearmanWorker](class.gearmanworker.md)
 
 ### Дивіться також
 
-- [GearmanWorker::clone()](gearmanworker.clone.md) - Створення копії
-обробника
+-   [GearmanWorker::clone()](gearmanworker.clone.md) - Створення копії оброблювача

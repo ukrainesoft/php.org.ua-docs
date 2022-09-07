@@ -1,22 +1,24 @@
-- [« OCILob::free](ocilob.free.md)
-- [OCILob::import »](ocilob.import.md)
+---
+navigation:
+  - ocilob.free.md: '« OCILob::free'
+  - ocilob.import.md: 'OCILob::import »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::getBuffering'
+---
+# OCILob::getBuffering
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Повертає поточний стан буферизації великого об'єкта (LOB)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#OCILob::getBuffering
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-OCILob::getBuffering — Повертає поточний стан буферизації великого
-об'єкта (LOB)
+OCILob::getBuffering — Повертає поточний стан буферизації великого об'єкта (LOB)
 
 ### Опис
 
-public **OCILob::getBuffering**(): bool
+```methodsynopsis
+public OCILob::getBuffering(): bool
+```
 
-Повідомляє, чи увімкнено буферизацію для великого об'єкта (LOB).
+Повідомляє, чи увімкнена буферизація для великого об'єкта (LOB).
 
 ### Список параметрів
 
@@ -24,15 +26,14 @@ public **OCILob::getBuffering**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**, якщо буферизація відключена, та **`true`**, якщо
-увімкнено.
+Повертає **`false`**, якщо буферизація вимкнена, та **`true`**, якщо увімкнено.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCILob::setBuffering](ocilob.setbuffering.md)
+-   [OCILob::setBuffering](ocilob.setbuffering.md)

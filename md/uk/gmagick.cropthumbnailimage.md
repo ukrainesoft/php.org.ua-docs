@@ -1,36 +1,38 @@
-- [«Gmagick::cropimage](gmagick.cropimage.md)
-- [Gmagick::current »](gmagick.current.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Створення обрізаного зменшеного зображення
-
+---
+navigation:
+  - gmagick.cropimage.md: '« Gmagick::cropimage'
+  - gmagick.current.md: 'Gmagick::current »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::cropthumbnailimage'
+---
 # Gmagick::cropthumbnailimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::cropthumbnailimage — Створення обрізаного зменшеного
-зображення
+Gmagick::cropthumbnailimage — Створення обрізаного зменшеного зображення
 
 ### Опис
 
-public **Gmagick::cropthumbnailimage**(int `$width`, int `$height`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::cropthumbnailimage(int $width, int $height): Gmagick
+```
 
-Створює зменшене зображення фіксованого розміру, спочатку застосовуючи
-масштабування, а потім вирізуючи необхідну область із центру.
+Створює зменшене зображення фіксованого розміру, спочатку застосовуючи масштабування, а потім вирізаючи необхідну область із центру.
 
 ### Список параметрів
 
 `width`
+
 Ширина цільового зображення.
 
 `height`
+
 Висота цільового зображення.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md), що вийшов.
+Об'єкт, що вийшов [Gmagick](class.gmagick.md)
 
 ### Помилки
 

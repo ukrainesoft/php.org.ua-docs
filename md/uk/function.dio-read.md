@@ -1,37 +1,39 @@
-- [«dio_open](function.dio-open.md)
-- [dio_seek »](function.dio-seek.md)
+---
+navigation:
+  - function.dio-open.md: « dioopen
+  - function.dio-seek.md: dioseek »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
+title: dioread
+---
+# dioread
 
-- [PHP Manual](index.md)
-- [Функції прямого введення/виводу](ref.dio.md)
-- Прочитай байти із файлового дескриптора
+(PHP 4> = 4.2.0, PHP 5 <5.1.0)
 
-#dio_read
-
-(PHP 4 \>= 4.2.0, PHP 5 \< 5.1.0)
-
-dio_read — Прочитай байти із файлового дескриптора
+dioread — Прочитай байти із файлового дескриптора
 
 ### Опис
 
-**dio_read**(resource `$fd`, int `$len` = 1024): string
+```methodsynopsis
+dio_read(resource $fd, int $len = 1024): string
+```
 
-Функція **dio_read()** читає та повертає `len` байт із дескриптора
-`fd`.
+Функція **dioread()** читає та повертає `len` байт із дескриптора `fd`
 
 ### Список параметрів
 
 `fd`
-Файловий дескриптор, отриманий із [dio_open()](function.dio-open.md).
+
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `len`
-Кількість байт для читання. Якщо не поставлено, то **dio_read()** прочитає
-блок 1 кілобайт.
+
+Кількість байт для читання. Якщо не поставлено, то **dioread()** прочитає блок 1 кілобайт.
 
 ### Значення, що повертаються
 
-Байти читатимуться з `fd`.
+Байти читатимуться з `fd`
 
 ### Дивіться також
 
-- [dio_write()](function.dio-write.md) - Записує байти у файл,
-опціонально обрізаючи до вказаної довжини
+-   [diowrite()](function.dio-write.md) - Записує байти у файл, опціонально обрізаючи до вказаної довжини

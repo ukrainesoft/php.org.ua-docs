@@ -1,65 +1,61 @@
-- [«imap_set_quota](function.imap-set-quota.md)
-- [imap_setflag_full »](function.imap-setflag-full.md)
+---
+navigation:
+  - function.imap-set-quota.md: « imapsetquota
+  - function.imap-setflag-full.md: imapsetflagfull »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapsetacl
+---
+# imapsetacl
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Встановлення ACL для заданої поштової скриньки
+(PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
 
-# imap_setacl
-
-(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8)
-
-imap_setacl — Встановлення ACL для заданої поштової скриньки
+imapsetacl — Встановлення ACL для заданої поштової скриньки
 
 ### Опис
 
-**imap_setacl**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$mailbox`,
-string `$user_id`,
-string `$rights`
-): bool
+```methodsynopsis
+imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string $user_id,    string $rights): bool
+```
 
 Встановлює ACL для заданої поштової скриньки.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
-Ім'я поштової скриньки, докладніше дивіться в описі
-[imap_open()](function.imap-open.md)
+
+Ім'я поштової скриньки, докладніше дивіться в описі [imapopen()](function.imap-open.md)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `user_id`
+
 Ідентифікатор користувача, якому видаються права.
 
 `rights`
+
 Права для видачі. Передача порожнього рядка означає видалення всіх прав.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 
-В даний момент ця функція підтримується лише при використанні
-бібліотеки c-client2000 або новішої версії.
+На даний момент ця функція підтримується лише при використанні бібліотеки c-client2000 або новішої версії.
 
 ### Дивіться також
 
-- [imap_getacl()](function.imap-getacl.md) - Отримати ACL для
-заданої поштової скриньки
+-   [imapgetacl()](function.imap-getacl.md) - Отримати ACL для заданої поштової скриньки

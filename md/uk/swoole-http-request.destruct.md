@@ -1,19 +1,22 @@
-- [« Swoole \ Http \ Request](class.swoole-http-request.md)
-- [Swoole\Http\Request::rawcontent »](swoole-http-request.rawcontent.md)
+---
+navigation:
+  - class.swoole-http-request.md: « SwooleHttpRequest
+  - swoole-http-request.rawcontent.md: 'SwooleHttpRequest::rawcontent »'
+  - index.md: PHP Manual
+  - class.swoole-http-request.md: SwooleHttpRequest
+title: 'SwooleHttpRequest::destruct'
+---
+# SwooleHttpRequest::destruct
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Request](class.swoole-http-request.md)
-- Знищує HTTP-запит
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Request::\_\_destruct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Request::\_\_destruct — Знищує HTTP-запит
+SwooleHttpRequest::destruct — Знищує запит HTTP
 
 ### Опис
 
-public **Swoole\Http\Request::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Http\Request::__destruct(): void
+```
 
 ### Список параметрів
 

@@ -1,33 +1,32 @@
-- [« ReflectionParameter::isArray](reflectionparameter.isarray.md)
-- [ReflectionParameter::isDefaultValueAvailable »](reflectionparameter.isdefaultvalueavailable.md)
-
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Визначити, чи має параметр бути типу callable
-
+---
+navigation:
+  - reflectionparameter.isarray.md: '« ReflectionParameter::isArray'
+  - reflectionparameter.isdefaultvalueavailable.md: 'ReflectionParameter::isDefaultValueAvailable »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isCallable'
+---
 # ReflectionParameter::isCallable
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionParameter::isCallable — Визначити, чи має бути параметр бути
-типу callable
+ReflectionParameter::isCallable — Визначити, чи параметр має бути типу callable
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
-У наведеному нижче прикладі показаний альтернативний спосіб отримання цієї
-інформації.
+У наведеному нижче прикладі показаний альтернативний спосіб отримання цієї інформації.
 
 ### Опис
 
-public **ReflectionParameter::isCallable**(): bool
+```methodsynopsis
+public ReflectionParameter::isCallable(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -35,15 +34,27 @@ public **ReflectionParameter::isCallable**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо параметр
-[callable](language.types.callable.md), **`false`** у протилежному
-випадку. У разі виникнення помилки поверне **`null`**.
+Повертає **`true`**, якщо параметр [callable](language.types.callable.md) **`false`** в іншому випадку. У разі виникнення помилки поверне **`null`**
 
 ### Приклади
 
 **Приклад #1 Альтернатива у PHP 8.0.0**
 
-Починаючи з PHP 8.0.0, наступний код повідомить, чи підтримує тип
-викликані об'єкти, зокрема як частина об'єднання.
+Починаючи з PHP 8.0.0, наступний код повідомить, чи підтримує тип об'єкти, що викликаються, в тому числі як частина об'єднання.
 
-` <?phpfunction declaresCallable(ReflectionParameter $reflectionParameter): bool{    $reflectionType = $reflectionParameter->getType(); if (!$reflectionType) return false; $types = $reflectionType instanceof ReflectionUnionType        ?? $reflectionType->getTypes()         : [$reflectionType]; return in_array('callable', array_map(fn(ReflectionNamedType $t) => $t->getName(), $types));}?> `
+```php
+<?php
+function declaresCallable(ReflectionParameter $reflectionParameter): bool
+{
+    $reflectionType = $reflectionParameter->getType();
+
+    if (!$reflectionType) return false;
+
+    $types = $reflectionType instanceof ReflectionUnionType
+        ? $reflectionType->getTypes()
+        : [$reflectionType];
+
+   return in_array('callable', array_map(fn(ReflectionNamedType $t) => $t->getName(), $types));
+}
+?>
+```

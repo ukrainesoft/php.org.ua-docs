@@ -1,56 +1,47 @@
-- [« Imagick::oilPaintImage](imagick.oilpaintimage.md)
-- [Imagick::optimizeImageLayers »](imagick.optimizeimagelayers.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Змінює значення кольору будь-якого пікселя, що відповідає цільовому
-
+---
+navigation:
+  - imagick.oilpaintimage.md: '« Imagick::oilPaintImage'
+  - imagick.optimizeimagelayers.md: 'Imagick::optimizeImageLayers »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::opaquePaintImage'
+---
 # Imagick::opaquePaintImage
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
-Imagick::opaquePaintImage — Змінює значення кольору будь-якого пікселя,
-відповідного цільового
+Imagick::opaquePaintImage — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
 
 ### Опис
 
-public **Imagick::opaquePaintImage**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$target`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fill`,
-float `$fuzz`,
-bool `$invert`,
-int `$channel` = Imagick::CHANNEL_DEFAULT
-): bool
+```methodsynopsis
+public Imagick::opaquePaintImage(    mixed $target,    mixed $fill,    float $fuzz,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Змінює будь-який піксель, який відповідає кольору, на колір, визначений
-заливкою. Цей метод доступний, якщо Imagick був скомпільований з версією
-ImageMagick 6.3.8 або старше.
+Змінює будь-який піксель, який відповідає кольору, на колір, визначений заливкою. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
 
 ### Список параметрів
 
 `target`
+
 Об'єкт ImagickPixel або рядок, який містить колір, який потрібно змінити
 
 `fill`
+
 Колір заміни
 
 `fuzz`
-Міра заокруглення (fuzz). Наприклад, встановіть значення fuzz в 10 і
-червоний колір з інтенсивністю 100 та 102 буде інтерпретуватися як
-той самий колір.
+
+міра округлення (fuzz). Для прикладу, встановіть значення fuzz 10 і червоний колір з інтенсивністю 100 і 102 буде інтерпретуватися як один і той же колір.
 
 `invert`
-Якщо **`true`** зафарбовується будь-який піксель, що не відповідає цільовому
-кольору.
+
+Якщо **`true`** зафарбовується будь-який піксель, що не відповідає цільовому кольору.
 
 `channel`
-Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
-побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
+
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

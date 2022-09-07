@@ -1,24 +1,26 @@
-- [« SeasLog::debug](seaslog.debug.md)
-- [SeasLog::emergency »](seaslog.emergency.md)
+---
+navigation:
+  - seaslog.debug.md: '« SeasLog::debug'
+  - seaslog.emergency.md: 'SeasLog::emergency »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::destruct'
+---
+# SeasLog::destruct
 
-- [PHP Manual](index.md)
-- [SeasLog](class.seaslog.md)
-- Опис
+(PECL seaslog >=1.0.0)
 
-# SeasLog::\_\_destruct
-
-(PECL seaslog \>=1.0.0)
-
-SeasLog::\_\_destruct — Опис
+SeasLog::destruct — Опис
 
 ### Опис
 
-public **SeasLog::\_\_destruct**()
+```methodsynopsis
+public SeasLog::__destruct()
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +30,18 @@ public **SeasLog::\_\_destruct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::\_\_destruct()****
+**Приклад #1 Приклад використання **SeasLog::destruct()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```

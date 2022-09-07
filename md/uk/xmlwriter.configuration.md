@@ -1,10 +1,11 @@
-- [« Установка](xmlwriter.installation.md)
-- [Типи ресурсів »](xmlwriter.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xmlwriter.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - xmlwriter.installation.md: « Установка
+  - xmlwriter.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - xmlwriter.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Цей модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

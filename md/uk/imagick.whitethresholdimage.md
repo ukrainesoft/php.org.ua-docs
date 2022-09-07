@@ -1,25 +1,24 @@
-- [« Imagick::waveImage](imagick.waveimage.md)
-- [Imagick::writeImage »](imagick.writeimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Зафарбовує всі пікселі вище за поріг у білий
-
+---
+navigation:
+  - imagick.waveimage.md: '« Imagick::waveImage'
+  - imagick.writeimage.md: 'Imagick::writeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::whiteThresholdImage'
+---
 # Imagick::whiteThresholdImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::whiteThresholdImage — Зафарбовує всі пікселі вище порога
-білий
+Imagick::whiteThresholdImage — Зафарбовує всі пікселі вище за поріг у білий
 
 ### Опис
 
-public
-**Imagick::whiteThresholdImage**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$threshold`): bool
+```methodsynopsis
+public Imagick::whiteThresholdImage(mixed $threshold): bool
+```
 
-Схожий на Imagick::ThresholdImage(), але зафарбовує всі пікселі вище
-порога в білий колір, залишаючи всі пікселі нижче за поріг без змін.
+Схожий на Imagick::ThresholdImage(), але зафарбовує всі пікселі вище за поріг у білий колір, залишаючи всі пікселі нижче порога без змін.
 
 ### Список параметрів
 
@@ -27,16 +26,26 @@ public
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
-### Список змін
+### список змін
 
-| Версія                                                                                                                                            | Опис |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| PECL imagick 2.1.0 Тепер дозволяється передавати рядок, який представляє колір як параметр. Попередні версії допускають лише об'єкт ImagickPixel. |      |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Тепер дозволяється передавати рядок, який представляє колір як параметр. Попередні версії допускають лише об'єкт ImagickPixel. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::whiteThresholdImage()****
 
-` <?phpfunction whiteThresholdImage($imagePath, $color) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->whiteThresholdImage($color); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function whiteThresholdImage($imagePath, $color) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->whiteThresholdImage($color);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

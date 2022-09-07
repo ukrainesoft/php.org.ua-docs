@@ -1,68 +1,92 @@
-- [«Yar_Concurrent_Client::call](yar-concurrent-client.call.md)
-- [Yar_Concurrent_Client::reset »](yar-concurrent-client.reset.md)
+---
+navigation:
+  - yar-concurrent-client.call.md: '« YarConcurrentClient::call'
+  - yar-concurrent-client.reset.md: 'YarConcurrentClient::reset »'
+  - index.md: PHP Manual
+  - class.yar-concurrent-client.md: YarConcurrentClient
+title: 'YarConcurrentClient::loop'
+---
+# YarConcurrentClient::loop
 
-- [PHP Manual](index.md)
-- [Yar_Concurrent_Client](class.yar-concurrent-client.md)
-- Запуск усіх зареєстрованих викликів
+(PECL yar >= 1.0.0)
 
-# Yar_Concurrent_Client::loop
-
-(PECL yar \> = 1.0.0)
-
-Yar_Concurrent_Client::loop — Запуск усіх зареєстрованих викликів
+YarConcurrentClient::loop — Запуск усіх зареєстрованих дзвінків
 
 ### Опис
 
-public static
-**Yar_Concurrent_Client::loop**([callable](language.types.callable.md)
-`$callback` = ?, [callable](language.types.callable.md)
-`$error_callback` = ?): bool
+```methodsynopsis
+public static Yar_Concurrent_Client::loop(callable $callback = ?, callable $error_callback = ?): bool
+```
 
 Запускає всі зареєстровані дзвінки.
 
 ### Список параметрів
 
 `callback`
-Якщо задана функція зворотного дзвінка, вона буде запущена після
-запуску всіх запитів, але до отримання відповідей від них з параметром
-$callinfo дорівнює NULL.
 
-Далі, якщо функція зворотного дзвінка не була задана під час реєстрації
-виклику, то для обробки результату буде викликано цю функцію.
+Якщо задана функція зворотного дзвінка, то вона буде запущена після запуску всіх запитів, але до отримання відповідей від них з $callinfo рівним NULL.
+
+Далі, якщо функція зворотного дзвінка не була задана під час реєстрації дзвінка, то для обробки результату буде викликана ця функція.
 
 `error_callback`
-Якщо цей параметр заданий, Yar запустить цю функцію у випадку
-виникнення помилки.
+
+Якщо цей параметр заданий, Yar запустить цю функцію у разі виникнення помилки.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Concurrent_Client::loop()****
+**Приклад #1 Приклад використання **YarConcurrentClient::loop()****
 
-` <?phpfunction callback($retval, $callinfo) {     if ($callinfo == NULL) {       echo "Так, всі запити запущені, |
-";     }}else {        echo "Це відповідь від віддаленого запиту. Ім'я методу",$callinfo["method"],             ". Був зареєстрований " , $callinfo["sequence"] , "
-";     var_dump($retval);     }}function error_callback($type, $error, $callinfo) {    error_log($error);}Yar_Concurrent_Client::call(" array("parameters"), "callback");//якщо функція зворотного дзвінка не задана, буде використовується певна в циклі дзвінківYar_Concurrent_Client::call("http://host/api parameters"));//цей сервер приймає упаковку JSONYar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OP json"));//окремо заданий час очікуванняYar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_TIOUT );Yar_Concurrent_Client::loop("callback", "error_callback"); //запускаем запросы,                                                           //параметр error_callback не обязателен?> `
+```php
+<?php
+function callback($retval, $callinfo) {
+     if ($callinfo == NULL) {
+        echo "Так, все запросы запущены, но пока ни одного ответа\n";
+     } else {
+        echo "Это ответ от удалённого запроса. Имя метода", $callinfo["method"],
+             ". Был зарегистрирован " , $callinfo["sequence"] , "\n";
+        var_dump($retval);
+     }
+}
+
+function error_callback($type, $error, $callinfo) {
+    error_log($error);
+}
+
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback");
+
+//если функция обратного вызова не задана, то будет использована определённая в цикле вызовов
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"));
+
+//этот сервер принимает упаковку JSON
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_PACKAGER => "json"));
+
+//отдельно заданное время ожидания
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_TIMEOUT=>1));
+
+Yar_Concurrent_Client::loop("callback", "error_callback"); //запускаем запросы,
+                                                           //параметр error_callback не обязателен
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Так, всі запити запущені, але поки що жодної відповіді
-Це відповідь від віддаленого запиту. Назва методу issome_method. Було зареєстровано 4
+```
+Так, все запросы запущены, но пока ни одного ответа
+Это ответ от удалённого запроса. Имя метода issome_method. Был зарегистрирован 4
 string(11) "some_method"
-Це відповідь від віддаленого запиту. Назва методу issome_method. Був зареєстрований 1
+Это ответ от удалённого запроса. Имя метода issome_method. Был зарегистрирован 1
 string(11) "some_method"
-Це відповідь від віддаленого запиту. Назва методу issome_method. Було зареєстровано 2
+Это ответ от удалённого запроса. Имя метода issome_method. Был зарегистрирован 2
 string(11) "some_method"
-Це відповідь від віддаленого запиту. Назва методу issome_method. Було зареєстровано 3
+Это ответ от удалённого запроса. Имя метода issome_method. Был зарегистрирован 3
 string(11) "some_method"
+```
 
 ### Дивіться також
 
-- [Yar_Concurrent_Client::call()](yar-concurrent-client.call.md) -
-Зареєструвати конкурентний виклик
-- [Yar_Concurrent_Client::reset()](yar-concurrent-client.reset.md) -
-Очистити всі зареєстровані дзвінки
-- [Yar_Server::\_\_construct()](yar-server.construct.md) -
-Конструктор Yar_Server
-- [Yar_Server::handle()](yar-server.handle.md) - Запустити сервер
-RPC
+-   [YarConcurrentClient::call()](yar-concurrent-client.call.md) - Зареєструвати конкурентний виклик
+-   [YarConcurrentClient::reset()](yar-concurrent-client.reset.md) - Очистити всі зареєстровані дзвінки
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
+-   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC

@@ -1,75 +1,80 @@
-- [«mysql_insert_id](function.mysql-insert-id.md)
-- [mysql_list_fields »](function.mysql-list-fields.md)
-
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає список баз даних, доступних на сервері
-
-# mysql_list_dbs
+---
+navigation:
+  - function.mysql-insert-id.md: « mysqlinsertід
+  - function.mysql-list-fields.md: mysqllistfields »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqllistdbs
+---
+# mysqllistdbs
 
 (PHP 4, PHP 5)
 
-mysql_list_dbs — Повертає список баз даних, доступних на сервері
+mysqllistdbs — Повертає список баз даних, доступних на сервері
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 5.4.0 і разом з [модулем MySQL](book.mysql.md), видалена PHP в 7.0.0. Замість неї використовуйте
-модулі, що активно розвиваються [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
-- SQL запит: `SHOW DATABASES`
+-   SQL запит: `SHOW DATABASES`
 
 ### Опис
 
-**mysql_list_dbs**(resource `$link_identifier` = NULL): resource
+```methodsynopsis
+mysql_list_dbs(resource $link_identifier = NULL): resource
+```
 
-Повертає покажчик на результат, що містить список баз даних,
-доступних на вказаному сервері.
+Повертає покажчик на результат, що містить список баз даних, доступних на вказаному сервері.
 
 ### Список параметрів
 
 `link_identifier`
-З'єднання MySQL. Якщо ідентифікатор з'єднання не було вказано,
-використовується останнє з'єднання, відкрите
-[mysql_connect()](function.mysql-connect.md). Якщо таке з'єднання не
-було знайдено, функція спробує створити таке, якби
-[mysql_connect()](function.mysql-connect.md) була викликана без
-параметрів. Якщо з'єднання не було знайдено і не змогло бути створено,
-генерується помилка рівня **`E_WARNING`**.
+
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає resource результату у разі успішного виконання, або
-**`false`** у разі виникнення помилки. Використовуйте функцію
-[mysql_tablename()](function.mysql-tablename.md), щоб отримати
-дані з результату, або будь-яку іншу функцію, що працює з
-результатами запитів, наприклад
-[mysql_fetch_array()](function.mysql-fetch-array.md).
+Повертає resource результату у разі успішного виконання, або **`false`** у разі виникнення помилки. Використовуйте функцію [mysqltablename()](function.mysql-tablename.md), щоб отримати дані з результату, або будь-яку іншу функцію, що працює з результатами запитів, наприклад [mysqlfetcharray()](function.mysql-fetch-array.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_list_dbs()****
+**Приклад #1 Приклад використання **mysqllistdbs()****
 
-` <?php// Без використання mysql_list_dbs()$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$res = mysql_query("SHOW DATABASES")_sql($$ ) {    echo $row['Database'] . "
-";}// Застаріло, починаючи с PHP 5.4.0$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$db_list = mysql_list_dbs($link);while ($row ) {     echo $row->Database . "
-";}?> `
+```php
+<?php
+// Без использования mysql_list_dbs()
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$res = mysql_query("SHOW DATABASES");
+
+while ($row = mysql_fetch_assoc($res)) {
+    echo $row['Database'] . "\n";
+}
+
+// Устарело, начиная с PHP 5.4.0
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$db_list = mysql_list_dbs($link);
+
+while ($row = mysql_fetch_object($db_list)) {
+     echo $row->Database . "\n";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 database1
 database2
 database3
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_listdbs()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqllistdbs()**
 
 ### Дивіться також
 
-- [mysql_db_name()](function.mysql-db-name.md) - Повертає назву
-бази даних із виклику до mysql_list_dbs
-- [mysql_select_db()](function.mysql-select-db.md) - Вибирає базу
-даних MySQL
+-   [mysqlдбname()](function.mysql-db-name.md) - Повертає назву бази даних із виклику до mysqllistdbs
+-   [mysqlselectdb()](function.mysql-select-db.md) - Вибирає базу даних MySQL

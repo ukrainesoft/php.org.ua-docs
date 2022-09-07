@@ -1,15 +1,16 @@
-- [«Вступ](intro.ffi.md)
-- [Вимоги »](ffi.requirements.md)
-
-- [PHP Manual](index.md)
-- [FFI](book.ffi.md)
--   Встановлення та налаштування
-
+---
+navigation:
+  - intro.ffi.md: « Введение
+  - ffi.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ffi.requirements.md)
-- [Установка](ffi.installation.md)
-- [Налаштування під час виконання](ffi.configuration.md)
-- [Типи ресурсів](ffi.resources.md)
+-   [Вимоги](ffi.requirements.md)
+-   [Установка](ffi.installation.md)
+-   [Налаштування під час виконання](ffi.configuration.md)
+-   [Типи ресурсів](ffi.resources.md)

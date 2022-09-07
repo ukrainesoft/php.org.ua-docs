@@ -1,31 +1,33 @@
-- [« sodium_crypto_core_ristretto255_scalar_mul](function.sodium-crypto-core-ristretto255-scalar-mul.md)
-- [sodium_crypto_core_ristretto255_scalar_random »](function.sodium-crypto-core-ristretto255-scalar-random.md)
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-mul.md: « sodiumcryptocoreristretto255scalarmul
+  - function.sodium-crypto-core-ristretto255-scalar-random.md: sodiumcryptocoreristretto255scalarrandom »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255scalarnegate
+---
+# sodiumcryptocoreristretto255scalarnegate
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Скасує скалярне значення
+(PHP 8> = 8.1.0)
 
-# sodium_crypto_core_ristretto255_scalar_negate
-
-(PHP 8 \>= 8.1.0)
-
-sodium_crypto_core_ristretto255_scalar_negate — Скасовує скалярне
-значення
+sodiumcryptocoreristretto255scalarnegate — Скасує скалярне значення
 
 ### Опис
 
-**sodium_crypto_core_ristretto255_scalar_negate**(string `$s`): string
+```methodsynopsis
+sodium_crypto_core_ristretto255_scalar_negate(string $s): string
+```
 
-Скасовує скалярне значення. Доступно з libsodium 1.0.18.
+Скасує скалярне значення. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `s`
+
 Скалярне значення.
 
 ### Значення, що повертаються
@@ -34,16 +36,26 @@ sodium_crypto_core_ristretto255_scalar_negate — Скасовує скаляр�
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**sodium_crypto_core_ristretto255_scalar_negate()****
+**Приклад #1 Приклад використання **sodiumcryptocoreristretto255scalarnegate()****
 
-`<?php$foo = sodium_crypto_core_ristretto255_scalar_random();$negate = sodium_crypto_core_ristretto255_scalar_negate($foo);$reNegate = sodium_crypto_core_rise$$;
+```php
+<?php
+
+$foo = sodium_crypto_core_ristretto255_scalar_random();
+
+$negate = sodium_crypto_core_ristretto255_scalar_negate($foo);
+$reNegate = sodium_crypto_core_ristretto255_scalar_negate($negate);
+
+var_dump(hash_equals($foo, $reNegate));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
 ### Дивіться також
 
-- [sodium_crypto_core_ristretto255_scalar_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) -
-Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ

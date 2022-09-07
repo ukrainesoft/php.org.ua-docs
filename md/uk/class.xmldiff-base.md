@@ -1,13 +1,14 @@
-- [« Установка](xmldiff.installation.md)
-- [XMLDiff\Base::\_\_construct »](xmldiff-base.construct.md)
+---
+navigation:
+  - xmldiff.installation.md: « Установка
+  - xmldiff-base.construct.md: 'XMLDiffBase::construct »'
+  - index.md: PHP Manual
+  - book.xmldiff.md: XMLDiff
+title: Клас XMLDiffBase
+---
+# Клас XMLDiffBase
 
-- [PHP Manual](index.md)
-- [XMLDiff](book.xmldiff.md)
-- Клас XMLDiff\Base
-
-# Клас XMLDiff\Base
-
-(PECL xmldiff \>= 0.8.0)
+(PECL xmldiff >= 0.8.0)
 
 ## Вступ
 
@@ -15,33 +16,29 @@
 
 ## Огляд класів
 
-class **XMLDiff\Base** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](xmldiff-base.construct.md)(string `$nsname`)
+    
+    
+     
+      class XMLDiff\Base
+     
+     {
+    
 
-abstract public
-[diff](xmldiff-base.diff.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$to`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public __construct(string $nsname)
 
-abstract public
-[merge](xmldiff-base.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$src`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$diff`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    abstract public diff(mixed $from, mixed $to): mixed
+abstract public merge(mixed $src, mixed $diff): mixed
 
-}
+   }
+```
 
 ## Зміст
 
-- [XMLDiff\Base::\_\_construct](xmldiff-base.construct.md) -
-Конструктор
-- [XMLDiff\Base::diff](xmldiff-base.diff.md) — Порівняє
-двох документів XML
-- [XMLDiff\Base::merge](xmldiff-base.merge.md) — Створює новий
-документ XML, ґрунтуючись на інформації про його відмінність від іншого
+-   [XMLDiffBase::construct](xmldiff-base.construct.md) - Конструктор
+-   [XMLDiffBase::diff](xmldiff-base.diff.md) — Здійснює порівняння двох документів XML
+-   [XMLDiffBase::merge](xmldiff-base.merge.md) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого

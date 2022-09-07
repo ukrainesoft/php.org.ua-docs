@@ -1,44 +1,44 @@
-- [« yaz_record](function.yaz-record.md)
-- [yaz_scan »](function.yaz-scan.md)
+---
+navigation:
+  - function.yaz-record.md: « yazrecord
+  - function.yaz-scan.md: yazscan »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazscanresult
+---
+# yazscanresult
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Повертає результат запиту сканування
+(PHP 4> = 4.0.5, PECL yaz> = 0.9.0)
 
-# yaz_scan_result
-
-(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
-
-yaz_scan_result — Повернення результату запиту сканування
+yazscanresult — Повернення результату запиту сканування
 
 ### Опис
 
-**yaz_scan_result**(resource `$id`, array `&$result` = ?): array
+```methodsynopsis
+yaz_scan_result(resource $id, array &$result = ?): array
+```
 
-**yaz_scan_result()** повертає терми та асоційовану з ними
-інформацію, отриману з сервера останнім викликом функції
-[yaz_scan()](function.yaz-scan.md).
+**yazscanresult()** повертає терми та асоційовану з ними інформацію, отримані з сервера останнім викликом функції [yazscan()](function.yaz-scan.md)
 
 ### Список параметрів
 
 `id`
-Дескриптор з'єднання, повернутий
-[yaz_connect()](function.yaz-connect.md).
+
+Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `result`
-Якщо заданий, то цей масив міститиме додаткову інформацію з
-запиту сканування:
 
-- `number` - Кількість повернутих елементів
+Якщо заданий, цей масив міститиме додаткову інформацію із запиту сканування:
 
-- `stepsize` - Розмір кроку
-
-- `position` - Позиція терма
-
-- `status` - Статус сканування
+-   `number` - Кількість повернутих елементів
+    
+-   `stepsize` - Розмір кроку
+    
+-   `position` - Позиція терму
+    
+-   `status` - Статус сканування
+    
 
 ### Значення, що повертаються
 
-Повертає масив (0..n-1), де n – кількість повернутих термів.
-Кожне значення масиву є пара, перший елемент
-якої – терм, другий – кількість результатів.
+Повертає масив (0..n-1), де n - кількість повернутих термів. Кожне значення масиву є парою, перший елемент якої - терм, другий - кількість результатів.

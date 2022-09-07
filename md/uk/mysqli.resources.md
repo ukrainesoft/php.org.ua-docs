@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](mysqli.configuration.md)
-- [Модуль mysqli та постійні з'єднання »](mysqli.persistconns.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mysqli.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - mysqli.configuration.md: « Налаштування під час виконання
+  - mysqli.persistconns.md: Модуль mysqli та постійні з'єднання »
+  - index.md: PHP Manual
+  - mysqli.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

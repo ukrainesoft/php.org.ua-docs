@@ -1,69 +1,85 @@
-- [«MongoDB\Driver\Exception](mongodb.exceptions.md)
-- [MongoDB\Driver\Exception\BulkWriteException »](class.mongodb-driver-exception-bulkwriteexception.md)
+---
+navigation:
+  - mongodb.exceptions.md: « MongoDBDriverException
+  - class.mongodb-driver-exception-bulkwriteexception.md: MongoDBDriverExceptionBulkWriteException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Клас MongoDBDriverExceptionAuthenticationException
+---
+# Клас MongoDBDriverExceptionAuthenticationException
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Клас MongoDB\Driver\Exception\AuthenticationException
-
-# Клас MongoDB\Driver\Exception\AuthenticationException
-
-(mongodb \>= 1.0.0)
+(mongodb >= 1.0.0)
 
 ## Вступ
 
-Викидається, коли драйвер не може виконати аутентифікацію з
-сервером.
+Викидається, коли драйвер не може виконати автентифікацію із сервером.
 
 ## Огляд класів
 
-class **MongoDB\Driver\Exception\AuthenticationException** extends
-[MongoDB\Driver\Exception\ConnectionException](class.mongodb-driver-exception-connectionexception.md)
-implements
-[MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-{
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected ?array `$errorLabels`;
 
-protected string `$message` = "";
+    
+     
+      class MongoDB\Driver\Exception\AuthenticationException
+     
 
-private string `$string` = "";
+     
+      extends
+       MongoDB\Driver\Exception\ConnectionException
+     
 
-protected int `$code`;
+     implements 
+       MongoDB\Driver\Exception\Exception {
 
-protected string `$file` = "";
+    /* Наследуемые свойства */
+    
+    
+     protected
+     ?array
+      $errorLabels;
 
-protected int `$line`;
+    
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    
+    
+   final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $errorLabel): bool
 
-final public
-[MongoDB\Driver\Exception\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md)(string
-`$errorLabel`): bool
+    
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

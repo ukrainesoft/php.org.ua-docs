@@ -1,19 +1,22 @@
-- [« MongoDB\Driver\Server::getLatency](mongodb-driver-server.getlatency.md)
-- [MongoDB\Driver\Server::getServerDescription »](mongodb-driver-server.getserverdescription.md)
+---
+navigation:
+  - mongodb-driver-server.getlatency.md: '« MongoDBDriverServer::getLatency'
+  - mongodb-driver-server.getserverdescription.md: 'MongoDBDriverServer::getServerDescription »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
+title: 'MongoDBDriverServer::getPort'
+---
+# MongoDBDriverServer::getPort
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Повертає порт, який слухає сервер
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Server::getPort
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Server::getPort — Повертає порт, який слухає сервер
+MongoDBDriverServer::getPort — Повертає порт, який слухає сервер
 
 ### Опис
 
-final public **MongoDB\Driver\Server::getPort**(): int
+```methodsynopsis
+final public MongoDB\Driver\Server::getPort(): int
+```
 
 Повертає порт, який слухає сервер.
 
@@ -27,22 +30,32 @@ final public **MongoDB\Driver\Server::getPort**(): int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\Driver\Server::getPort()****
+**Приклад #1 Приклад використання **MongoDBDriverServer::getPort()****
 
-` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server = manager->selectServer($rp);var_dump($server->getPort());?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$server = $manager->selectServer($rp);
+
+var_dump($server->getPort());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(27017)
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
-- [MongoDB\Driver\ServerDescription::getPort()](mongodb-driver-serverdescription.getport.md) -
-Повертає порт, на якому прослуховується цей сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getPort()](mongodb-driver-serverdescription.getport.md) - Повертає порт, на якому прослуховується цей сервер

@@ -1,14 +1,15 @@
-- [« Ds\Set::copy](ds-set.copy.md)
-- [Ds\Set::diff »](ds-set.diff.md)
+---
+navigation:
+  - ds-set.copy.md: '« DsSet::copy'
+  - ds-set.diff.md: 'ДсSet::diff »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::count'
+---
+# ДсSet::count
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає кількість елементів колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Set::count
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::count — Повертає кількість елементів колекції
+ДсSet::count — Повертає кількість елементів колекції
 
 Дивіться опис функції [Countable::count()](countable.count.md)

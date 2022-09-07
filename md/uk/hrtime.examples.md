@@ -1,12 +1,13 @@
-- [« Встановлення](hrtime.installation.md)
-- [Основи використання »](hrtime.example.basic.md)
-
-- [PHP Manual](index.md)
-- [HRTime](book.hrtime.md)
-- Приклади
-
+---
+navigation:
+  - hrtime.installation.md: « Установка
+  - hrtime.example.basic.md: Основи використання »
+  - index.md: PHP Manual
+  - book.hrtime.md: HRTime
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Основи використання](hrtime.example.basic.md)
+-   [Основи використання](hrtime.example.basic.md)

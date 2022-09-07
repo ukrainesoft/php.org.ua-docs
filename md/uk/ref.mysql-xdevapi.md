@@ -1,15 +1,14 @@
-- [« Приклади](mysql-xdevapi.examples.md)
-- [expression »](function.mysql-xdevapi-expression.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Функції Mysql_xdevapi
-
-# Функції Mysql_xdevapi
+---
+navigation:
+  - mysql-xdevapi.examples.md: « Приклади
+  - function.mysql-xdevapi-expression.md: expression »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Функції Mysqlxdevapi
+---
+# Функції Mysqlxdevapi
 
 ## Зміст
 
-- [expression](function.mysql-xdevapi-expression.md) — Зв'язує
-підготовлені змінні затвердження як параметри
-- [getSession](function.mysql-xdevapi-getsession.md) — Підключається
-до сервера MySQL
+-   [expression](function.mysql-xdevapi-expression.md) — Зв'язує підготовлені змінні твердження як параметри
+-   [getSession](function.mysql-xdevapi-getsession.md) — Підключається до сервера MySQL

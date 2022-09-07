@@ -1,62 +1,72 @@
-- [«xdiff_file_merge3](function.xdiff-file-merge3.md)
-- [xdiff_file_patch »](function.xdiff-file-patch.md)
+---
+navigation:
+  - function.xdiff-file-merge3.md: xdifffilemerge3
+  - function.xdiff-file-patch.md: xdifffilepatch »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilepatchbinary
+---
+# xdifffilepatchbinary
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Псевдонім для xdiff_file_bpatch
+(PECL xdiff >= 0.2.0)
 
-#xdiff_file_patch_binary
-
-(PECL xdiff \>= 0.2.0)
-
-xdiff_file_patch_binary — Псевдонім для xdiff_file_bpatch
+xdifffilepatchbinary - Псевдонім для xdifffilebpatch
 
 ### Опис
 
-**xdiff_file_patch_binary**(string `$file`, string `$patch`, string
-`$dest`): bool
+```methodsynopsis
+xdiff_file_patch_binary(string $file, string $patch, string $dest): bool
+```
 
-Застосувати до файлу `file` патч `patch` і записати результат у файл
-`dest`. Ця функція приймає патчі створені як
-[xdiff_file_bdiff()](function.xdiff-file-bdiff.md) так і
-[xdiff_file_rabdiff()](function.xdiff-file-rabdiff.md) або їх
-копії.
+Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі створені як [xdifffilebdiff()](function.xdiff-file-bdiff.md) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) або їх копії.
 
-Починаючи з версії 1.5.0 ця функція є псевдонімом
-[xdiff_file_bpatch()](function.xdiff-file-bpatch.md).
+Починаючи з версії 1.5.0, ця функція є псевдонімом [xdifffilebpatch()](function.xdiff-file-bpatch.md)
 
 ### Список параметрів
 
 `file`
+
 Оригінальний файл.
 
 `patch`
+
 Файл бінарний патч.
 
 `dest`
+
 Підсумковий файл.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_file_patch_binary()****
+**Приклад #1 Приклад використання **xdifffilepatchbinary()****
 
-У цьому коді показано застосування бінарного патча до файлу.
+У наступному коді показано застосування бінарного патчу до файлу.
 
-` <?php$old_version = 'archive-1.0.tgz';$patch = 'archive.bpatch';$result = xdiff_file_patch_binary($old_version, $patch, 'archive-1.1.tgz');if ($result) echo "Файл пропатчений";} else {   echo "Файл не може бути пропатчений";}?> `
+```php
+<?php
+$old_version = 'archive-1.0.tgz';
+$patch = 'archive.bpatch';
+
+$result = xdiff_file_patch_binary($old_version, $patch, 'archive-1.1.tgz');
+if ($result) {
+   echo "Файл пропатчен";
+} else {
+   echo "Файл не может быть пропатчен";
+}
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Обидва файли (`file` і `patch`) будуть завантажені на згадку, отже
-> Переконайтеся, що параметр memory_limit налаштований коректно.
+> **Зауваження**
+> 
+> Обидва файли (`file` і `patch`) будуть завантажені в пам'ять, так що переконайтеся, що параметр memorylimit налаштовано коректно.
 
 ### Дивіться також
 
-- [xdiff_string_patch_binary()](function.xdiff-string-patch-binary.md) -
-Псевдонім для xdiff_string_bpatch
+-   [xdiffstringpatchbinary()](function.xdiff-string-patch-binary.md) - Псевдонім для xdiffstringbpatch

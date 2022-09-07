@@ -1,26 +1,29 @@
-- [«Gmagick::read](gmagick.read.md)
-- [Gmagick::readimageblob »](gmagick.readimageblob.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Читає зображення із файлу
-
+---
+navigation:
+  - gmagick.read.md: '« Gmagick::read'
+  - gmagick.readimageblob.md: 'Gmagick::readimageblob »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::readimage'
+---
 # Gmagick::readimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::readimage — Читає зображення з файлу
 
 ### Опис
 
-public **Gmagick::readimage**(string `$filename`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::readimage(string $filename): Gmagick
+```
 
 Читає зображення із файлу.
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу.
 
 ### Значення, що повертаються

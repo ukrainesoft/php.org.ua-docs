@@ -1,9 +1,10 @@
-- [« Авторські права](copyright.md)
-- [Предмова »](preface.md)
-
-- [PHP Manual](index.md)
-- Посібник з PHP
-
+---
+navigation:
+  - copyright.md: « Авторские права
+  - preface.md: Предисловие »
+  - index.md: PHP Manual
+title: Посібник з PHP
+---
 # Посібник з PHP
 
-- [Предмова](preface.md)
+-   [Предисловие](preface.md)

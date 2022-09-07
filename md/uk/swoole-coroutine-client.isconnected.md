@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Client::getsockname](swoole-coroutine-client.getsockname.md)
-- [Swoole\Coroutine\Client::recv »](swoole-coroutine-client.recv.md)
+---
+navigation:
+  - swoole-coroutine-client.getsockname.md: '« SwooleCoroutineClient::getsockname'
+  - swoole-coroutine-client.recv.md: 'SwooleCoroutineClient::recv »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineClient::isConnected'
+---
+# SwooleCoroutineClient::isConnected
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Client::isConnected
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Client::isConnected — Опис
+SwooleCoroutineClient::isConnected — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Client::isConnected**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Client::isConnected(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

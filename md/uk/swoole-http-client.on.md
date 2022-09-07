@@ -1,20 +1,22 @@
-- [« Swoole\Http\Client::isConnected](swoole-http-client.isconnected.md)
-- [Swoole\Http\Client::post »](swoole-http-client.post.md)
+---
+navigation:
+  - swoole-http-client.isconnected.md: '« SwooleHttpClient::isConnected'
+  - swoole-http-client.post.md: 'SwooleHttpClient::post »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::on'
+---
+# SwooleHttpClient::on
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Реєструє callback-функцію на ім'я події
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::on
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::on - Реєструє callback-функцію на ім'я події
+SwooleHttpClient::on — Реєструє callback-функцію на ім'я події
 
 ### Опис
 
-public **Swoole\Http\Client::on**(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Http\Client::on(string $event_name, callable $callback): void
+```
 
 ### Список параметрів
 

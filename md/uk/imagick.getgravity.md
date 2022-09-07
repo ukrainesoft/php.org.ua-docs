@@ -1,10 +1,11 @@
-- [« Imagick::getFormat](imagick.getformat.md)
-- [Imagick::getHomeURL »](imagick.gethomeurl.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає значення гравітації (тяжіння)
-
+---
+navigation:
+  - imagick.getformat.md: '« Imagick::getFormat'
+  - imagick.gethomeurl.md: 'Imagick::getHomeURL »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getGravity'
+---
 # Imagick::getGravity
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,11 +14,11 @@ Imagick::getGravity — Повертає значення гравітації (
 
 ### Опис
 
-public **Imagick::getGravity**(): int
+```methodsynopsis
+public Imagick::getGravity(): int
+```
 
-Повертає глобальне значення гравітації об'єкту Imagick. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.0 або
-старше.
+Повертає глобальне значення гравітації об'єкту Imagick. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.4.0 або старшим.
 
 ### Список параметрів
 
@@ -25,4 +26,4 @@ public **Imagick::getGravity**(): int
 
 ### Значення, що повертаються
 
-Повертає значення гравітації. Дивіться список [констант гравітації](imagick.constants.md#imagick.constants.gravity).
+Повертає значення гравітації. Дивіться список [констант гравитации](imagick.constants.md#imagick.constants.gravity)

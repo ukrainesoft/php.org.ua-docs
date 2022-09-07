@@ -1,48 +1,51 @@
-- [«chunk_split](function.chunk-split.md)
-- [convert_uudecode »](function.convert-uudecode.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Перетворює рядок з одного кирилічного кодування на інше
-
-#convert_cyr_string
+---
+navigation:
+  - function.chunk-split.md: « chunksplit
+  - function.convert-uudecode.md: convertuudecode »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: convertcyrstring
+---
+# convertcyrstring
 
 (PHP 4, PHP 5, PHP 7)
 
-convert_cyr_string — Перетворює рядок з одного коду кирилиці
-в іншу
+convertcyrstring — Перетворює рядок з одного кириличного кодування на інше
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.3.0 і була *Видалена*
-у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**convert_cyr_string**(string `$str`, string `$from`, string `$to`):
-string
+```methodsynopsis
+convert_cyr_string(string $str, string $from, string $to): string
+```
 
-Перетворює рядок з одного кирилічного кодування на інше.
+Перетворює рядок з одного кириличного кодування на інше.
 
 ### Список параметрів
 
 `str`
+
 Конвертований рядок.
 
 `from`
+
 Вихідне кириличне кодування, один символ.
 
 `to`
+
 Цільове кириличне кодування, один символ.
 
 Підтримуються такі символи:
 
-- k - koi8-r
-- w - windows-1251
-- i - iso8859-5
-- a - x-CP866
-- d - x-CP866
-- m - x-mac-cyrillic
+-   k - koi8-r
+-   w - windows-1251
+-   i - iso8859-5
+-   a - x-CP866
+-   d - x-CP866
+-   m - x-mac-cyrillic
 
 ### Значення, що повертаються
 
@@ -50,12 +53,9 @@ string
 
 ### Примітки
 
-> **Примітка**: Ця функція безпечна для обробки даних у двійковій
-> Формі.
+> **Зауваження**: Ця функція безпечна для обробки даних у двійковій формі.
 
 ### Дивіться також
 
-- [mb_convert_encoding()](function.mb-convert-encoding.md) -
-Перетворює рядок з одного кодування символів на інше
-- [iconv()](function.iconv.md) - Перетворює рядок з одного
-кодування символів в іншу
+-   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

@@ -1,10 +1,11 @@
-- [« Imagick::readImageFile](imagick.readimagefile.md)
-- [Imagick::recolorImage »](imagick.recolorimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Читає зображення з масиву імен файлів
-
+---
+navigation:
+  - imagick.readimagefile.md: '« Imagick::readImageFile'
+  - imagick.recolorimage.md: 'Imagick::recolorImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::readimages'
+---
 # Imagick::readimages
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,10 +14,11 @@ Imagick::readimages — Читає зображення з масиву імен
 
 ### Опис
 
-public **Imagick::readImages**(array `$filenames`): bool
+```methodsynopsis
+public Imagick::readImages(array $filenames): bool
+```
 
-Читає зображення із масиву імен файлів. Всі зображення зберігаються в
-одному об'єкті Imagick.
+Читає зображення із масиву імен файлів. Усі зображення зберігаються в одному об'єкті Imagick.
 
 ### Список параметрів
 
@@ -24,4 +26,4 @@ public **Imagick::readImages**(array `$filenames`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

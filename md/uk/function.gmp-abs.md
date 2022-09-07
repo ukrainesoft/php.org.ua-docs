@@ -1,28 +1,30 @@
-- [« GMP Функції](ref.gmp.md)
-- [gmp_add »](function.gmp-add.md)
+---
+navigation:
+  - ref.gmp.md: « GMP Функції
+  - function.gmp-add.md: gmpadd »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpabs
+---
+# gmpabs
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Абсолютна величина
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_abs
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_abs - Абсолютна величина
+gmpabs - Абсолютна величина
 
 ### Опис
 
-**gmp_abs**([GMP](class.gmp.md)\|int\|string `$num`):
-[GMP](class.gmp.md)
+```methodsynopsis
+gmp_abs(GMP|int|string $num): GMP
+```
 
 Отримання абсолютної величини числа.
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -30,13 +32,21 @@ gmp_abs - Абсолютна величина
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_abs()****
+**Приклад #1 Приклад використання **gmpabs()****
 
-$$abs1==gmp_abs("274982683358"); $abs2 = gmp_abs("-274982683358"); echo gmp_strval($abs1) . "
-";     echo gmp_strval($abs2) . "
-";     ?> `
+```php
+<?php
+     $abs1 = gmp_abs("274982683358");
+     $abs2 = gmp_abs("-274982683358");
+
+     echo gmp_strval($abs1) . "\n";
+     echo gmp_strval($abs2) . "\n";
+     ?>
+```
 
 Результат виконання цього прикладу:
 
+```
 274982683358
-274982683358
+     274982683358
+```

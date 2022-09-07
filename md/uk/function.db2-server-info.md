@@ -1,51 +1,137 @@
-- [«db2_rollback](function.db2-rollback.md)
-- [db2_set_option »](function.db2-set-option.md)
+---
+navigation:
+  - function.db2-rollback.md: « db2rollback
+  - function.db2-set-option.md: db2setoption »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
+title: db2serverinfo
+---
+# db2serverinfo
 
-- [PHP Manual](index.md)
-- [Функції IBM DB2](ref.ibm-db2.md)
-- Повертає об'єкт із властивостями, що описують сервер бази даних DB2
+(PECL ibmdb2> = 1.1.1)
 
-#db2_server_info
-
-(PECL ibm_db2 \>= 1.1.1)
-
-db2_server_info — Повертає об'єкт із властивостями, що описують сервер
-бази даних DB2
+db2serverinfo — Повертає об'єкт із властивостями, що описують сервер бази даних DB2
 
 ### Опис
 
-**db2_server_info**(resource `$connection`): object
+```methodsynopsis
+db2_server_info(resource $connection): object
+```
 
-Функція повертає об'єкт із властивостями лише для читання, які
-повертають інформацію про сервер баз даних IBM DB2, Cloudscape або
-Apache Derby. У наступній таблиці наведено властивості сервера бази
-даних:
-
-[TABLE]
+Функція повертає об'єкт із властивостями лише для читання, які повертають інформацію про сервер баз даних IBM DB2, Cloudscape або Apache Derby. У наступній таблиці наведено властивості сервера бази даних:
 
 **Властивості сервера бази даних**
+
+| Название свойства | Тип возвращаемого значения | Описание |
+| --- | --- | --- |
+| DBMSNAME | string | Ім'я сервера бази даних, до якого ви підключені. Для серверів DB2 це комбінація `DB2`, за якою слідує операційна система, в якій працює сервер бази даних. |
+| DBMSVER | string | Версія сервера бази даних у вигляді рядка "MM.mm.uuuu", де MM – це мажорна версія, mm – це мінорна версія, а uuuu – це патч-версія. Наприклад, "08.02.0001" означає мажорну версію 8, мінорну версію 2 та патч-версію 1. |
+| ДБCODEPAGE | int | Кодова сторінка бази даних, до якої ви підключені. |
+| ДБNAME | string | Назва бази даних, до якої ви підключені. |
+| DFTISOLATION | string |  |
+| Рівень ізоляції транзакції за промовчанням підтримується сервером: |  |  |
+
+УР
+
+Незавершене читання: зміни відразу видно всім паралельним транзакціям.
+
+КС
+
+Стабільність курсору: рядок, прочитаний однією транзакцією, може бути змінено та зафіксовано другою паралельною транзакцією.
+
+РС
+
+Стабільність читання: транзакція може додавати або видаляти рядки, що відповідають умові пошуку або транзакції, що очікує.
+
+РР
+
+Читання, що повторюються: дані, на які впливає очікувана транзакція, недоступні для інших транзакцій.
+
+НК
+
+Без фіксації: будь-які зміни видно наприкінці успішної операції. Явні комміти та відкати неприпустимі.
+
+| | IDENTIFIERQUOTECHAR | string | Символ, який використовується для позначення ідентифікатора. | | INSTNAME | string | Примірник на сервері бази даних містить базу даних. | | ISOLATIONOPTION | array | Масив параметрів ізоляції, які підтримує сервер бази даних. Параметри ізоляції описані як DFTISOLATION. | | KEYWORDS | array | Масив ключових слів зарезервованих сервером бази даних. | | LIKEESCAPECLAUSE | bool | \*\*`true`\*\*якщо сервер бази даних підтримує використання підстановочних знаків `%` і `_`. . **`false`**, якщо сервер бази даних не підтримує ці знаки підстановки. | | MAXCOLNAMELEN | int | Максимальна довжина імені стовпця, яку підтримує сервер бази даних, виражена в байтах. | | MAXIDENTIFIERLEN | int | Максимальна довжина SQL-ідентифікатора, яку підтримує сервер бази даних, виражена в символах. | | MAXINDEXSIZE | int | Максимальний розмір стовпців, об'єднаних в індекс, який підтримує сервер бази даних, виражений в байтах. | | MAXPROCNAMELEN | int | Максимальна довжина імені процедури, яку підтримує сервер бази даних, виражена в байтах. | | MAXROWSIZE | int | Максимальна довжина рядка в таблиці бази даних, яку підтримує сервер бази даних, виражена в байтах. | | MAXSCHEMANAMELEN | int | Максимальна довжина імені схеми, яку підтримує сервер бази даних, виражена в байтах. | | MAXSTATEMENTLEN | int | Максимальна довжина SQL-оператора, яку підтримує сервер бази даних, виражена в байтах. | | MAXTABLENAMELEN | int | Максимальна довжина імені таблиці, яку підтримує сервер бази даних, виражена в байтах. | | NONNULLABLECOLUMNS | bool | **`true`**, якщо сервер бази даних підтримує стовпці, які можна визначити як NOT NULL, \*\*`false`\*\*Якщо сервер бази даних не підтримує стовпці, визначені як NOT NULL. | | PROCEDURES | bool | **`true`**, якщо сервер бази даних підтримує використання оператора CALL для виклику збережених процедур, \*\*`false`\*\*якщо сервер бази даних не підтримує оператор CALL. | | SPECIALCHARS | string | Рядок, що містить усі символи, крім a-Z, 0-9 та підкреслення, які можна використовувати у імені ідентифікатора. | | SQLCONFORMANCE | string |
+
+Рівень відповідності специфікації ANSI/ISO SQL-92, який пропонує сервер бази даних:
+
+ENTRY
+
+Відповідність початковому рівню SQL-92.
+
+FIPS127
+
+Перехідна відповідність FIPS-127-2.
+
+FULL
+
+Повна відповідність стандарту SQL-92.
+
+INTERMEDIATE
+
+Відповідність до середнього рівня SQL-92.
 
 ### Список параметрів
 
 `connection`
-Встановлює активне з'єднання DB2.
+
+Встановлює активне з'єднання клієнта DB2.
 
 ### Значення, що повертаються
 
-Повертає об'єкт у разі успішного виклику функції. Повертає
-**`false`** у разі виникнення помилки.
+Повертає об'єкт у разі успішного виклику функції. Повертає **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **db2_server_info()****
+**Приклад #1 Приклад використання **db2serverinfo()****
 
-Щоб отримати інформацію про сервер, ви повинні передати дійсний
-ресурс підключення до бази даних **db2_server_info()**.
+Щоб отримати інформацію про сервер, ви повинні передати дійсний ресурс підключення до бази даних **db2serverinfo()**
 
-` <?php$conn = db2_connect('sample', 'db2inst1', 'ibmdb2');$server = db2_server_info( $conn );if ($server) {    echo "DBMS_NAME: var_dump($server->DBMS_NAME); echo "DBMS_VER: "; var_dump($server->DBMS_VER); echo "DB_CODEPAGE: "; var_dump($server->DB_CODEPAGE); echo "DB_NAME: "; var_dump($server->DB_NAME); echo "INST_NAME: "; var_dump($server->INST_NAME); echo "SPECIAL_CHARS:"; var_dump($server->SPECIAL_CHARS); echo "KEYWORDS: "; var_dump(sizeof($server->KEYWORDS)); echo "DFT_ISOLATION: "; var_dump($server->DFT_ISOLATION); echo "ISOLATION_OPTION: "; $il = ''; foreach( $server->ISOLATION_OPTION as $opt )    {       $il .= $opt." "; }   var_dump($$il ); echo "SQL_CONFORMANCE: "; var_dump($server->SQL_CONFORMANCE); echo "PROCEDURES: "; var_dump($server->PROCEDURES); echo "IDENTIFIER_QUOTE_CHAR: "; var_dump($server->IDENTIFIER_QUOTE_CHAR); echo "LIKE_ESCAPE_CLAUSE: "; var_dump($server->LIKE_ESCAPE_CLAUSE); echo "MAX_COL_NAME_LEN: "; var_dump($server->MAX_COL_NAME_LEN); echo "MAX_ROW_SIZE: "; var_dump($server->MAX_ROW_SIZE); echo "MAX_IDENTIFIER_LEN: "; var_dump($server->MAX_IDENTIFIER_LEN); echo "MAX_INDEX_SIZE: "; var_dump($server->MAX_INDEX_SIZE); echo "MAX_PROC_NAME_LEN: "; var_dump($server->MAX_PROC_NAME_LEN); echo "MAX_SCHEMA_NAME_LEN: "; var_dump($server->MAX_SCHEMA_NAME_LEN); echo "MAX_STATEMENT_LEN: "; var_dump($server->MAX_STATEMENT_LEN); echo "MAX_TABLE_NAME_LEN: "; var_dump($server->MAX_TABLE_NAME_LEN); echo "NON_NULLABLE_COLUMNS: "; var_dump($server->NON_NULLABLE_COLUMNS); db2_close($conn);}?> `
+```php
+<?php
+
+$conn = db2_connect('sample', 'db2inst1', 'ibmdb2');
+
+$server = db2_server_info( $conn );
+
+if ($server) {
+    echo "DBMS_NAME: ";                 var_dump( $server->DBMS_NAME );
+    echo "DBMS_VER: ";                  var_dump( $server->DBMS_VER );
+    echo "DB_CODEPAGE: ";               var_dump( $server->DB_CODEPAGE );
+    echo "DB_NAME: ";                   var_dump( $server->DB_NAME );
+    echo "INST_NAME: ";                 var_dump( $server->INST_NAME );
+    echo "SPECIAL_CHARS: ";             var_dump( $server->SPECIAL_CHARS );
+    echo "KEYWORDS: ";                  var_dump( sizeof($server->KEYWORDS) );
+    echo "DFT_ISOLATION: ";             var_dump( $server->DFT_ISOLATION );
+    echo "ISOLATION_OPTION: ";
+    $il = '';
+    foreach( $server->ISOLATION_OPTION as $opt )
+    {
+       $il .= $opt." ";
+    }
+    var_dump( $il );
+    echo "SQL_CONFORMANCE: ";           var_dump( $server->SQL_CONFORMANCE );
+    echo "PROCEDURES: ";                var_dump( $server->PROCEDURES );
+    echo "IDENTIFIER_QUOTE_CHAR: ";     var_dump( $server->IDENTIFIER_QUOTE_CHAR );
+    echo "LIKE_ESCAPE_CLAUSE: ";        var_dump( $server->LIKE_ESCAPE_CLAUSE );
+    echo "MAX_COL_NAME_LEN: ";          var_dump( $server->MAX_COL_NAME_LEN );
+    echo "MAX_ROW_SIZE: ";              var_dump( $server->MAX_ROW_SIZE );
+    echo "MAX_IDENTIFIER_LEN: ";        var_dump( $server->MAX_IDENTIFIER_LEN );
+    echo "MAX_INDEX_SIZE: ";            var_dump( $server->MAX_INDEX_SIZE );
+    echo "MAX_PROC_NAME_LEN: ";         var_dump( $server->MAX_PROC_NAME_LEN );
+    echo "MAX_SCHEMA_NAME_LEN: ";       var_dump( $server->MAX_SCHEMA_NAME_LEN );
+    echo "MAX_STATEMENT_LEN: ";         var_dump( $server->MAX_STATEMENT_LEN );
+    echo "MAX_TABLE_NAME_LEN: ";        var_dump( $server->MAX_TABLE_NAME_LEN );
+    echo "NON_NULLABLE_COLUMNS: ";      var_dump( $server->NON_NULLABLE_COLUMNS );
+
+    db2_close($conn);
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 DBMS_NAME: string(9) "DB2/LINUX"
 DBMS_VER: string(10) "08.02.0000"
 DB_CODEPAGE: int(1208)
@@ -54,7 +140,7 @@ INST_NAME: string(8) "db2inst1"
 SPECIAL_CHARS: string(2) "@#"
 KEYWORDS: int(179)
 DFT_ISOLATION: string(2) "CS"
-ISOLATION_OPTION: string(12) "UR CS RS RR"
+ISOLATION_OPTION: string(12) "UR CS RS RR "
 SQL_CONFORMANCE: string(7) "FIPS127"
 PROCEDURES: bool(true)
 IDENTIFIER_QUOTE_CHAR: string(1) """
@@ -68,8 +154,8 @@ MAX_SCHEMA_NAME_LEN: int(30)
 MAX_STATEMENT_LEN: int(2097152)
 MAX_TABLE_NAME_LEN: int(128)
 NON_NULLABLE_COLUMNS: bool(true)
+```
 
 ### Дивіться також
 
-- [db2_client_info()](function.db2-client-info.md) - Повертає
-об'єкт з властивостями, що описують клієнта DB2
+-   [db2clientinfo()](function.db2-client-info.md) - Повертає об'єкт із властивостями, що описують клієнта DB2

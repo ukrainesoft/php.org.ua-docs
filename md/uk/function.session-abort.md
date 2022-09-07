@@ -1,22 +1,24 @@
-- [« Функції для роботи з сесіями](ref.session.md)
-- [session_cache_expire »](function.session-cache-expire.md)
+---
+navigation:
+  - ref.session.md: « Функції для роботи з сесіями
+  - function.session-cache-expire.md: sessioncacheexpire »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionabort
+---
+# sessionabort
 
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- скасовує зміни в масиві сесії та завершує її
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-# session_abort
-
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
-
-session_abort — Скасує зміни в масиві сесії та завершує її
+sessionabort — Скасує зміни в масиві сесії та завершує її
 
 ### Опис
 
-**session_abort**(): bool
+```methodsynopsis
+session_abort(): bool
+```
 
-**session_abort()** завершує сесію без збереження даних. Таким
-Отже, зберігаються вихідні значення сесії.
+**sessionabort()** завершує сесію без збереження даних. Отже, зберігаються вихідні значення сесії.
 
 ### Список параметрів
 
@@ -24,23 +26,18 @@ session_abort — Скасує зміни в масиві сесії та зав
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                           |
-|--------|----------------------------------------------------------------|
-| 7.2.0  | Тепер тип цієї функції bool, що повертається. Раніше тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Дивіться також
 
-- `$_SESSION`
-- Директива конфігурації
-[session.auto_start](session.configuration.md#ini.session.auto-start)
-- [session_start()](function.session-start.md) - Стартує нову
-сесію, або відновлює існуючу
-- [session_reset()](function.session-reset.md) - Реініціалізує
-сесію оригінальними значеннями
-- [session_commit()](function.session-commit.md) - Псевдонім
-session_write_close
+-   [SESSION](reserved.variables.session.md)
+-   Директива конфігурації [session.autostart](session.configuration.md#ini.session.auto-start)
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
+-   [sessionreset()](function.session-reset.md) - реініціалізує сесію оригінальними значеннями
+-   [sessioncommit()](function.session-commit.md) - Псевдонім sessionwriteclose

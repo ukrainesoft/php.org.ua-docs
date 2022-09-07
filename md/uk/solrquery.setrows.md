@@ -1,27 +1,29 @@
-- [«SolrQuery::setQuery](solrquery.setquery.md)
-- [SolrQuery::setShowDebugInfo »](solrquery.setshowdebuginfo.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Задає максимальну кількість рядків, що повертаються в результаті
-
+---
+navigation:
+  - solrquery.setquery.md: '« SolrQuery::setQuery'
+  - solrquery.setshowdebuginfo.md: 'SolrQuery::setShowDebugInfo »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setRows'
+---
 # SolrQuery::setRows
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setRows — Задає максимальну кількість рядків, що повертаються
-в результаті
+SolrQuery::setRows — Задає максимальну кількість рядків, що повертаються в результаті
 
 ### Опис
 
-public **SolrQuery::setRows**(int `$rows`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setRows(int $rows): SolrQuery
+```
 
 Задає максимальну кількість рядків, що повертаються в результаті
 
 ### Список параметрів
 
 `rows`
+
 Максимальна кількість рядків, що повертаються
 
 ### Значення, що повертаються

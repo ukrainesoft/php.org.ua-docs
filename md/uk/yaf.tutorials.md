@@ -1,40 +1,50 @@
-- [«Зумовлені константи](yaf.constants.md)
-- [Конфігурація програми »](yaf.appconfig.md)
-
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Приклади
-
+---
+navigation:
+  - yaf.constants.md: « Обумовлені константи
+  - yaf.appconfig.md: Конфигурация приложения »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Класичний приклад каталогу для програми**
 
+```
 - index.php
 - .htaccess
 + conf
-|- application.ini //Файл налаштувань
+  |- application.ini //Файл настроек
 - application/
-- Bootstrap.php
-+ Controllers
-- Index.php //Контролер за замовчуванням
-+ views
-|+ index
-- index.phtml // Шаблон виводу для дії за замовчуванням
-+ modules
-- library
-- models
-- plugins
+  - Bootstrap.php
+  + controllers
+     - Index.php //Контроллер по умолчанию
+  + views
+     |+ index
+        - index.phtml //Шаблон вывода для действия по умолчанию
+  + modules
+  - library
+  - models
+  - plugins
+```
 
 **Приклад #2 Вступ**
 
-index.php єдина точка входу в додаток, всі запити ви повинні
-направляти через нього (наприклад, за допомогою .htaccess в Apache +
-php_mod)
+index.php єдина точка входу в додаток, всі запити ви повинні надсилати через нього (наприклад, за допомогою .htaccess в Apache + phpmod)
 
-` <?phpdefine("APPLICATION_PATH", dirname(__FILE__));$app == new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");$app->bootstrap() /Виконання| ->run();?> `
+```php
+<?php
+define("APPLICATION_PATH",  dirname(__FILE__));
+
+$app  = new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");
+$app->bootstrap() //Выполнение методов, опрделенных в Bootstrap.php
+ ->run();
+?>
+```
 
 **Приклад #3 Правила перенаправлення**
 
+```
 #для apache (.htaccess)
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -42,57 +52,73 @@ RewriteRule .* index.php
 
 #для nginx
 server {
-listen****;
-server_name domain.com;
-root document_root;
-index index.php index.md index.htm;
+  listen ****;
+  server_name  domain.com;
+  root   document_root;
+  index  index.php index.html index.htm;
 
-if (!-e $request_filename) {
-rewrite ^/(.*) /index.php$1 last;
-}
+  if (!-e $request_filename) {
+    rewrite ^/(.*)  /index.php$1 last;
+  }
 }
 
 #для lighttpd
 $HTTP["host"] =~ "(www.)?domain.com$" {
-url.rewrite = (
-"^/(.+)/?$" => "/index.php/$1",
-)
+  url.rewrite = (
+     "^/(.+)/?$"  => "/index.php/$1",
+  )
 }
+```
 
 **Приклад #4 Конфігурація програми**
 
-`` inicode
-[yaf]
-;APPLICATION_PATH повинна бути визначена в index.php
-application.directory=APPLICATION_PATH "/application/"
+yaf;APPLICATIONPATH має бути визначена в index.php application.directory=APPLICATIONPATH "/application/"
 
-;product секція повинна успадковувати yaf
-[product:yaf]
-foo=bar
-````
+;product секція повинна успадковувати yafproduct:yaffoo=bar
 
 **Приклад #5 Контролер за замовчуванням**
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {   /* дія за мовчанням */   public function indexAction() {       $this-> //або       // $this->getView()->word = "hello world"; }}?> `
+```php
+<?php
+class IndexController extends Yaf_Controller_Abstract {
+   /* действие по умолчанию */
+   public function indexAction() {
+       $this->_view->word = "hello world";
+       //или
+       // $this->getView()->word = "hello world";
+   }
+}
+?>
+```
 
 **Приклад #6 Шаблон виводу за замовчуванням**
 
-` <html> <head>   <title>Hello World</title> </head> <body>   <?php echo $word;?> </body></html>`
+```php
+<html>
+ <head>
+   <title>Hello World</title>
+ </head>
+ <body>
+   <?php echo $word;?>
+ </body>
+</html>
+```
 
 **Приклад #7 Запуск програми**
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 <html>
-<head>
-<title>Hello World</title>
-</head>
-<body>
-hello world
-</body>
+ <head>
+   <title>Hello World</title>
+ </head>
+ <body>
+   hello world
+ </body>
 </html>
+```
 
-> **Примітка**:
->
-> Приклад вище можна також створити за допомогою генератора коду Yaf
-> Тут можна знайти yaf@github.
+> **Зауваження**
+> 
+> Приклад вище можна створити за допомогою генератора коду Yaf який можна знайти тут yaf@github.

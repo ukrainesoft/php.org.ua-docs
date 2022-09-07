@@ -1,29 +1,31 @@
-- [« SolrQuery::removeFacetField](solrquery.removefacetfield.md)
-- [SolrQuery::removeField »](solrquery.removefield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє один із параметрів facet.query
-
+---
+navigation:
+  - solrquery.removefacetfield.md: '« SolrQuery::removeFacetField'
+  - solrquery.removefield.md: 'SolrQuery::removeField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeFacetQuery'
+---
 # SolrQuery::removeFacetQuery
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::removeFacetQuery — Видалення одного з параметрів facet.query
+SolrQuery::removeFacetQuery — Видаляє один із параметрів facet.query
 
 ### Опис
 
-public **SolrQuery::removeFacetQuery**(string `$value`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeFacetQuery(string $value): SolrQuery
+```
 
 Видаляє один із параметрів facet.query.
 
 ### Список параметрів
 
 `value`
+
 Значення
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

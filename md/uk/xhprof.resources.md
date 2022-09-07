@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](xhprof.configuration.md)
-- [Предвизначені константи »](xhprof.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xhprof.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - xhprof.configuration.md: « Налаштування під час виконання
+  - xhprof.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - xhprof.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

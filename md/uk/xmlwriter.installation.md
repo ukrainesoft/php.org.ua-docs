@@ -1,12 +1,11 @@
-- [« Вимоги](xmlwriter.requirements.md)
-- [Налаштування під час виконання »](xmlwriter.configuration.md)
+---
+navigation:
+  - xmlwriter.requirements.md: « Вимоги
+  - xmlwriter.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - xmlwriter.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xmlwriter.setup.md)
-- Установка
-
-## Установка
-
-Модуль XMLWriter поставляється з вихідним кодом PHP. Модуль
-увімкнено за замовчуванням. Він може бути вимкнений під час виконання з
-за допомогою наступної опції: **--disable-xmlwriter**
+Модуль XMLWriter поставляється з вихідним кодом PHP. Модуль увімкнено за замовчуванням. Він може бути вимкнений під час виконання за допомогою наступної опції: **\-disable-xmlwriter**

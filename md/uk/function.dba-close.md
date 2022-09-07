@@ -1,29 +1,30 @@
-- [« Функції DBA](ref.dba.md)
-- [dba_delete »](function.dba-delete.md)
-
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Закриває базу даних DBA
-
-#dba_close
+---
+navigation:
+  - ref.dba.md: « Функції DBA
+  - function.dba-delete.md: dbadelete »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbaclose
+---
+# dbaclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_close — Закриває базу даних DBA
+dbaclose — Закриває базу даних DBA
 
 ### Опис
 
-**dba_close**(resource `$dba`): void
+```methodsynopsis
+dba_close(resource $dba): void
+```
 
-**dba_close()** закриває встановлену базу даних та звільняє все
-пов'язані із нею ресурси.
+**dbaclose()** закриває встановлену базу даних та звільняє всі пов'язані з нею ресурси.
 
 ### Список параметрів
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -31,6 +32,5 @@ dba_close — Закриває базу даних DBA
 
 ### Дивіться також
 
-- [dba_open()](function.dba-open.md) - Відкриває базу даних
-- [dba_popen()](function.dba-popen.md) - Встановити постійний
-екземпляр бази даних
+-   [dbaopen()](function.dba-open.md) - Відкриває базу даних
+-   [dbapopen()](function.dba-popen.md) - встановити постійний екземпляр бази даних

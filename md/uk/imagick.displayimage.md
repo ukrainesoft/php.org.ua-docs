@@ -1,10 +1,11 @@
-- [« Imagick::destroy](imagick.destroy.md)
-- [Imagick::displayImages »](imagick.displayimages.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Виводить зображення
-
+---
+navigation:
+  - imagick.destroy.md: '« Imagick::destroy'
+  - imagick.displayimages.md: 'Imagick::displayImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::displayImage'
+---
 # Imagick::displayImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,18 +14,21 @@ Imagick::displayImage — Виводить зображення
 
 ### Опис
 
-public **Imagick::displayImage**(string `$servername`): bool
+```methodsynopsis
+public Imagick::displayImage(string $servername): bool
+```
 
 Даний метод виводить зображення на сервер X.
 
 ### Список параметрів
 
 `servername`
+
 Ім'я X сервера
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

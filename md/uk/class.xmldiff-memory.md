@@ -1,50 +1,50 @@
-- [« XMLDiff\DOM::merge](xmldiff-dom.merge.md)
-- [XMLDiff\Memory::diff »](xmldiff-memory.diff.md)
+---
+navigation:
+  - xmldiff-dom.merge.md: '« XMLDiffDOM::merge'
+  - xmldiff-memory.diff.md: 'XMLDiffMemory::diff »'
+  - index.md: PHP Manual
+  - book.xmldiff.md: XMLDiff
+title: Клас XMLDiffMemory
+---
+# Клас XMLDiffMemory
 
-- [PHP Manual](index.md)
-- [XMLDiff](book.xmldiff.md)
-- Клас XMLDiff\Memory
-
-# Клас XMLDiff\Memory
-
-(PECL xmldiff \>= 0.8.0)
+(PECL xmldiff >= 0.8.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **XMLDiff\Memory** extends [XMLDiff\Base](class.xmldiff-base.md)
-{
+```classsynopsis
 
-/\* Методи \*/
 
-public [diff](xmldiff-memory.diff.md)(string `$from`, string `$to`):
-string
+    
+    
+     
+      class XMLDiff\Memory
+     
 
-public [merge](xmldiff-memory.merge.md)(string `$src`, string
-`$diff`): string
+     
+      extends
+       XMLDiff\Base
+     
+     {
+    
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public diff(string $from, string $to): string
+public merge(string $src, string $diff): string
 
-abstract public
-[XMLDiff\Base::diff](xmldiff-base.diff.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$to`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-abstract public
-[XMLDiff\Base::merge](xmldiff-base.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$src`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$diff`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Наследуемые методы */
+    abstract public XMLDiff\Base::diff(mixed $from, mixed $to): mixed
+abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
-}
+
+   }
+```
 
 ## Зміст
 
-- [XMLDiff\Memory::diff](xmldiff-memory.diff.md) — Порівняння двох
-документів XML
-- [XMLDiff\Memory::merge](xmldiff-memory.merge.md) — Застосувати
-зміни до документа XML
+-   [XMLDiffMemory::diff](xmldiff-memory.diff.md) — Порівняння двох документів XML
+-   [XMLDiffMemory::merge](xmldiff-memory.merge.md) — Застосувати зміни до документа XML

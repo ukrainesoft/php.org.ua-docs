@@ -1,23 +1,24 @@
-- [« MongoDB\Driver\Server::isArbiter](mongodb-driver-server.isarbiter.md)
-- [MongoDB\Driver\Server::isPassive »](mongodb-driver-server.ispassive.md)
+---
+navigation:
+  - mongodb-driver-server.isarbiter.md: '« MongoDBDriverServer::isArbiter'
+  - mongodb-driver-server.ispassive.md: 'MongoDBDriverServer::isPassive »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
+title: 'MongoDBDriverServer::isHidden'
+---
+# MongoDBDriverServer::isHidden
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Перевіряє, чи сервер прихованим членом набору реплік
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Server::isHidden
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Server::isHidden — Перевіряє, чи сервер прихований
-членом набору реплік
+MongoDBDriverServer::isHidden — Перевіряє, чи є сервер прихованим членом набору реплік
 
 ### Опис
 
-final public **MongoDB\Driver\Server::isHidden**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Server::isHidden(): bool
+```
 
-Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member)
-набір реплік.
+Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member) набір реплік.
 
 ### Список параметрів
 
@@ -25,15 +26,12 @@ final public **MongoDB\Driver\Server::isHidden**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цей сервер є прихованим членом набору
-реплік, і **`false`** інакше.
+Повертає **`true`**, якщо цей сервер є прихованим членом набору реплік, та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер

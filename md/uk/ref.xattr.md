@@ -1,21 +1,17 @@
-- [«Зумовлені константи](xattr.constants.md)
-- [xattr_get »](function.xattr-get.md)
-
-- [PHP Manual](index.md)
-- [xattr](book.xattr.md)
-- xattr Функції
-
+---
+navigation:
+  - xattr.constants.md: « Обумовлені константи
+  - function.xattr-get.md: xattrget »
+  - index.md: PHP Manual
+  - book.xattr.md: xattr
+title: xattr Функції
+---
 # xattr Функції
 
 ## Зміст
 
-- [xattr_get](function.xattr-get.md) — Отримання розширених
-атрибутів файлу
-- [xattr_list](function.xattr-list.md) — Перегляд списку розширених
-атрибутів файлу
-- [xattr_remove](function.xattr-remove.md) — Видалення розширених
-атрибутів файлу
-- [xattr_set](function.xattr-set.md) — Налаштування розширених
-атрибутів файлу
-- [xattr_supported](function.xattr-supported.md) — Перевірка
-підтримки розширених атрибутів
+-   [xattrget](function.xattr-get.md) — Отримання розширених атрибутів файлу
+-   [xattrlist](function.xattr-list.md) — Перегляд списку розширених атрибутів файлу
+-   [xattrremove](function.xattr-remove.md) — Видалення розширених атрибутів файлу
+-   [xattrset](function.xattr-set.md) — Встановлення розширених атрибутів файлу
+-   [xattrsupported](function.xattr-supported.md) — Перевірка підтримки розширених атрибутів

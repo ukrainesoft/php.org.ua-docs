@@ -1,34 +1,36 @@
-- [« IntlTimeZone::getGMT](intltimezone.getgmt.md)
-- [IntlTimeZone::getIDForWindowsID »](intltimezone.getidforwindowsid.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати ідентифікатор часового поясу
-
+---
+navigation:
+  - intltimezone.getgmt.md: '« IntlTimeZone::getGMT'
+  - intltimezone.getidforwindowsid.md: 'IntlTimeZone::getIDForWindowsID »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getID'
+---
 # IntlTimeZone::getID
 
-# intltz_get_id
+# intltzgetід
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getID -- intltz_get_id — Отримати ідентифікатор вартового
-пояси
+IntlTimeZone::getID -- intltzgetid — Отримати ідентифікатор часового поясу
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::getID**(): string\|false
+```methodsynopsis
+public IntlTimeZone::getID(): string|false
+```
 
 Процедурний стиль:
 
-**intltz_get_id**([IntlTimeZone](class.intltimezone.md) `$timezone`):
-string\|false
+```methodsynopsis
+intltz_get_id(IntlTimeZone $timezone): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

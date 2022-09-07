@@ -1,36 +1,37 @@
-- [«finfo_buffer](function.finfo-buffer.md)
-- [finfo_file »](function.finfo-file.md)
+---
+navigation:
+  - function.finfo-buffer.md: « finfobuffer
+  - function.finfo-file.md: finfofile »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
+title: finfoclose
+---
+# finfoclose
 
-- [PHP Manual](index.md)
-- [Функції модуля Fileinfo](ref.fileinfo.md)
-- Закриває екземпляр finfo
+(PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-#finfo_close
-
-(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
-
-finfo_close — Закриває екземпляр finfo
+finfoclose — Закриває екземпляр finfo
 
 ### Опис
 
-**finfo_close**([finfo](class.finfo.md) `$finfo`): bool
+```methodsynopsis
+finfo_close(finfo $finfo): bool
+```
 
-Функція закриває екземпляр, який було відкрито функцією
-[finfo_open()](function.finfo-open.md).
+Функція закриває екземпляр, який було відкрито функцією [finfoopen()](function.finfo-open.md)
 
 ### Список параметрів
 
 `finfo`
-Примірник [finfo](class.finfo.md), що повертається функцією
-[finfo_open()](function.finfo-open.md).
+
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр finfo тепер чекає на екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

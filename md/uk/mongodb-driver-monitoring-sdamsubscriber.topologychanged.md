@@ -1,29 +1,29 @@
-- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed »](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md)
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.serveropening.md: '« MongoDBDriverMonitoringSDAMSubscriber::serverOpening'
+  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md: 'MongoDBDriverMonitoringSDAMSubscriber::topologyClosed »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::topologyChanged'
+---
+# MongoDBDriverMonitoringSDAMSubscriber::topologyChanged
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
-- Метод повідомлення про зміну опису топології
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged - Метод
-повідомлення про зміну опису топології
+MongoDBDriverMonitoringSDAMSubscriber::topologyChanged — Метод сповіщення про зміну опису топології
 
 ### Опис
 
-abstract public
-**MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged**([MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
-`$event`): void
+```methodsynopsis
+abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged(MongoDB\Driver\Monitoring\TopologyChangedEvent $event): void
+```
 
-Якщо передплатник був зареєстрований, драйвер викличе цей метод, якщо
-Опис топології зміниться.
+Якщо передплатник був зареєстрований, драйвер викличе цей метод, якщо опис топології зміниться.
 
 ### Список параметрів
 
-`event` ([MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md))
+`event` [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
+
 Об'єкт події, що містить інформацію про змінений опис топології.
 
 ### Значення, що повертаються
@@ -32,14 +32,10 @@ abstract public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
-- [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) -
-Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) -
-Реєструє передплатника на подію моніторингу в даному об'єкті
-Manager
+-   [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

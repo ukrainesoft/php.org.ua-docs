@@ -1,47 +1,60 @@
-- [«Memcache::set](memcache.set.md)
-- [Memcache::setServerParams »](memcache.setserverparams.md)
-
-- [PHP Manual](index.md)
-- [Memcache](class.memcache.md)
-- Увімкнути автоматичне стискування для великих значень
-
+---
+navigation:
+  - memcache.set.md: '« Memcache::set'
+  - memcache.setserverparams.md: 'Memcache::setServerParams »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::setCompressThreshold'
+---
 # Memcache::setCompressThreshold
 
-(PECL memcache \>= 2.0.0)
+(PECL memcache >= 2.0.0)
 
-Memcache::setCompressThreshold — Увімкнути автоматичне стиснення для
-великих значень
+Memcache::setCompressThreshold — Увімкнути автоматичний стиск для великих значень.
 
 ### Опис
 
-**Memcache::setCompressThreshold**(int `$threshold`, float
-`$min_savings` = ?): bool
+```methodsynopsis
+Memcache::setCompressThreshold(int $threshold, float $min_savings = ?): bool
+```
 
-**Memcache::setCompressThreshold()** включає автоматичне стиснення для
-великих значень. Ви також можете використати функцію
-**memcache_set_compress_threshold()**.
+**Memcache::setCompressThreshold()** включає автоматичне стиск для великих значень. Ви також можете використати функцію **memcachesetcompressthreshold()**
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ця функція була додана до Memcache версії 2.0.0.
 
 ### Список параметрів
 
 `threshold`
-Задає мінімальний розмір елементів спроб автоматичного стиснення.
+
+Встановлює мінімальний розмір елементів для спроб автоматичного стиснення.
 
 `min_saving`
-Вказує мінімальний розмір заощадженого розміру. Передане значення
-має бути в межах від 0 до 1. Значення за умовчанням 0.2, що задає
-мінімальний розмір зекономленого розміру 20%.
+
+Вказує мінімальний розмір заощадженого розміру. Передане значення має бути в межах від 0 до 1. Значення за умовчанням 0.2, що задає мінімальний розмір заощадженого розміру 20%.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcache::setCompressThreshold()****
 
-`<?php/* об'єктно-орієнтоване API */$memcache_obj = new Memcache;$memcache_obj->addServer('memcache_host', 11211);$memcache_obj->setCompressThres$ = memcache_connect('memcache_host', 11211); memcache_set_compress_threshold($memcache_obj, 20000, 0.2);?> `
+```php
+<?php
+
+/* объектно-ориентированное API */
+
+$memcache_obj = new Memcache;
+$memcache_obj->addServer('memcache_host', 11211);
+$memcache_obj->setCompressThreshold(20000, 0.2);
+
+/* процедурное API */
+
+$memcache_obj = memcache_connect('memcache_host', 11211);
+memcache_set_compress_threshold($memcache_obj, 20000, 0.2);
+
+?>
+```

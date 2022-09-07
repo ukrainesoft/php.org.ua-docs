@@ -1,21 +1,24 @@
-- [« Ds\PriorityQueue::capacity](ds-priorityqueue.capacity.md)
-- [Ds\PriorityQueue::\_\_construct »](ds-priorityqueue.construct.md)
+---
+navigation:
+  - ds-priorityqueue.capacity.md: '« DsPriorityQueue::capacity'
+  - ds-priorityqueue.construct.md: 'ДсPriorityQueue::construct »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::clear'
+---
+# ДсPriorityQueue::clear
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Видаляє всі значення
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::clear
-
-(PECL ds \>= 1.0.0)
-
-Ds\PriorityQueue::clear — Видаляє всі значення
+ДсPriorityQueue::clear — Видаляє всі значення
 
 ### Опис
 
-public **Ds\PriorityQueue::clear**(): void
+```methodsynopsis
+public Ds\PriorityQueue::clear(): void
+```
 
-Видаляє всі значення із черги.
+Видаляє всі значення з черги.
 
 ### Список параметрів
 
@@ -27,12 +30,25 @@ public **Ds\PriorityQueue::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::clear()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::clear()****
 
-` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);$queue->clear();print_r($queue);?> `
+```php
+<?php
+$queue = new \Ds\PriorityQueue();
+
+$queue->push("a",  5);
+$queue->push("b", 15);
+$queue->push("c", 10);
+
+$queue->clear();
+print_r($queue);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\PriorityQueue Object
 (
 )
+```

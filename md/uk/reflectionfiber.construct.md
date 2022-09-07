@@ -1,24 +1,25 @@
-- [«ReflectionFiber](class.reflectionfiber.md)
-- [ReflectionFiber::getCallable »](reflectionfiber.getcallable.md)
+---
+navigation:
+  - class.reflectionfiber.md: « ReflectionFiber
+  - reflectionfiber.getcallable.md: 'ReflectionFiber::getCallable »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::construct'
+---
+# ReflectionFiber::construct
 
-- [PHP Manual](index.md)
-- [ReflectionFiber](class.reflectionfiber.md)
-- Створює об'єкт ReflectionFiber
+(PHP 8> = 8.1.0)
 
-# ReflectionFiber::\_\_construct
-
-(PHP 8 \>= 8.1.0)
-
-ReflectionFiber::\_\_construct — Створює об'єкт ReflectionFiber
+ReflectionFiber::construct — Створює об'єкт ReflectionFiber
 
 ### Опис
 
-public **ReflectionFiber::\_\_construct**([Fiber](class.fiber.md)
-`$fiber`)
+public **ReflectionFiber::construct**[Fiber](class.fiber.md) `$fiber`
 
-Створює об'єкт [ReflectionFiber](class.reflectionfiber.md).
+Створює об'єкт [ReflectionFiber](class.reflectionfiber.md)
 
 ### Список параметрів
 
 `fiber`
-Клас [Fiber](class.fiber.md) для відображення.
+
+Клас [Fiber](class.fiber.md) для відбиття.

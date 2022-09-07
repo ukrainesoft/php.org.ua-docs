@@ -1,30 +1,28 @@
-- [« Imagick::compositeImage](imagick.compositeimage.md)
-- [Imagick::contrastImage »](imagick.contrastimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Конструктор об'єкту Imagick
-
-# Imagick::\_\_construct
+---
+navigation:
+  - imagick.compositeimage.md: '« Imagick::compositeImage'
+  - imagick.contrastimage.md: 'Imagick::contrastImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::construct'
+---
+# Imagick::construct
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::\_\_construct — Конструктор об'єкту Imagick
+Imagick::construct — Конструктор об'єкту Imagick
 
 ### Опис
 
-public
-**Imagick::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$files` = ?)
+public **Imagick::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$files`
 
-Створює екземпляр Imagick для окремого зображення чи групи
-зображень.
+Створює екземпляр Imagick для окремого зображення чи групи зображень.
 
 ### Список параметрів
 
 `files`
-Шлях до зображення для завантаження чи масив таких шляхів. Шляхи можуть
-містити групові символи для імен файлів або можуть бути URL.
+
+Шлях до зображення для завантаження чи масив таких шляхів. Шляхи можуть містити групові символи для імен файлів або можуть бути URL-адресою.
 
 ### Помилки
 

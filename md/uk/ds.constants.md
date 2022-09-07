@@ -1,10 +1,11 @@
-- [« Установка](ds.installation.md)
-- [Приклади »](ds.examples.md)
-
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - ds.installation.md: « Установка
+  - ds.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

@@ -1,19 +1,22 @@
-- [« FANNConnection::getToNeuron](fannconnection.gettoneuron.md)
-- [FANNConnection::setWeight »](fannconnection.setweight.md)
-
-- [PHP Manual](index.md)
-- [FANNConnection](class.fannconnection.md)
-- Повертає вагу зв'язку
-
+---
+navigation:
+  - fannconnection.gettoneuron.md: '« FANNConnection::getToNeuron'
+  - fannconnection.setweight.md: 'FANNConnection::setWeight »'
+  - index.md: PHP Manual
+  - class.fannconnection.md: FANNConnection
+title: 'FANNConnection::getWeight'
+---
 # FANNConnection::getWeight
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
 FANNConnection::getWeight — Повертає вагу зв'язку
 
 ### Опис
 
-public **FANNConnection::getWeight**(): void
+```methodsynopsis
+public FANNConnection::getWeight(): void
+```
 
 Повертає вагу зв'язку.
 

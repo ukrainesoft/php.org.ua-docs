@@ -1,21 +1,23 @@
-- [«CommonMark\CQL](class.commonmark-cql.md)
-- [CommonMark\CQL::\_\_invoke »](commonmark-cql.invoke.md)
+---
+navigation:
+  - class.commonmark-cql.md: « CommonMarkCQL
+  - commonmark-cql.invoke.md: 'CommonMarkCQL::invoke »'
+  - index.md: PHP Manual
+  - class.commonmark-cql.md: CommonMarkCQL
+title: 'CommonMarkCQL::construct'
+---
+# CommonMarkCQL::construct
 
-- [PHP Manual](index.md)
-- [CommonMark\CQL](class.commonmark-cql.md)
-- Конструктор класу CQL
+(cmark >= 1.1.0)
 
-# CommonMark\CQL::\_\_construct
-
-(cmark \>= 1.1.0)
-
-CommonMark\CQL::\_\_construct - Конструктор класу CQL
+CommonMarkCQL::construct - Конструктор класу CQL
 
 ### Опис
 
-public **CommonMark\CQL::\_\_construct**(string `$query`)
+public **CommonMarkCQL::construct**(string `$query`
 
 ### Список параметрів
 
 `query`
+
 Рядок CQL

@@ -1,23 +1,25 @@
-- [«EventDnsBase::addSearch](eventdnsbase.addsearch.md)
-- [EventDnsBase::\_\_construct »](eventdnsbase.construct.md)
-
-- [PHP Manual](index.md)
-- [EventDnsBase](class.eventdnsbase.md)
-- Видаляє всі поточні суфікси пошуку
-
+---
+navigation:
+  - eventdnsbase.addsearch.md: '« EventDnsBase::addSearch'
+  - eventdnsbase.construct.md: 'EventDnsBase::construct »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::clearSearch'
+---
 # EventDnsBase::clearSearch
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventDnsBase::clearSearch — Видалення всіх поточних суфіксів пошуку
 
 ### Опис
 
-public **EventDnsBase::clearSearch**(): void
+```methodsynopsis
+public
+   EventDnsBase::clearSearch(): void
+```
 
-Видаляє всі поточні пошукові суфікси з бази DNS; функція
-[EventDnsBase::addSearch()](eventdnsbase.addsearch.md) додає
-суфікс.
+Видаляє всі поточні пошукові суфікси з бази DNS; функція [EventDnsBase::addSearch()](eventdnsbase.addsearch.md) додає суфікс.
 
 ### Список параметрів
 
@@ -29,5 +31,4 @@ public **EventDnsBase::clearSearch**(): void
 
 ### Дивіться також
 
-- [EventDnsBase::addSearch()](eventdnsbase.addsearch.md) - Додає
-домен до списку пошукових доменів
+-   [EventDnsBase::addSearch()](eventdnsbase.addsearch.md) - Додає домен до списку пошукових доменів

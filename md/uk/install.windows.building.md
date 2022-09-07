@@ -1,15 +1,13 @@
-- [« Самостійне встановлення PHP в Windows](install.windows.manual.md)
-- [Командний рядок PHP у Microsoft Windows »](install.windows.commandline.md)
-
-- [PHP Manual](index.md)
-- [Установка Windows](install.windows.md)
-- Складання з вихідних кодів
-
+---
+navigation:
+  - install.windows.manual.md: « Самостійне встановлення PHP у Windows
+  - install.windows.commandline.md: Командний рядок PHP у Microsoft Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Складання з вихідних кодів
+---
 ## Складання з вихідних кодів
 
-У цьому розділі розповідається, як скомпілювати PHP з вихідних кодів
-Windows за допомогою інструментів Microsoft. Щоб скомпілювати PHP з
-за допомогою cygwin, зверніться до [Установка на Unix-системи](install.unix.md).
+У цьому розділі розповідається, як скомпілювати PHP з вихідних кодів у Windows за допомогою інструментів Microsoft. Щоб скомпілювати PHP за допомогою cygwin, зверніться до [Встановлення на Unix-системи](install.unix.md)
 
-Дивіться Wiki-документацію за адресою:
-[»https://wiki.php.net/internals/windows/stepbystepbuild](https://wiki.php.net/internals/windows/stepbystepbuild)
+Дивіться Wiki-документацію за адресою: [» https://wiki.php.net/internals/windows/stepbystepbuild](https://wiki.php.net/internals/windows/stepbystepbuild)

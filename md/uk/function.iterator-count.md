@@ -1,59 +1,83 @@
-- [« iterator_apply](function.iterator-apply.md)
-- [iterator_to_array »](function.iterator-to-array.md)
+---
+navigation:
+  - function.iterator-apply.md: « iteratorapply
+  - function.iterator-to-array.md: iteratorтоarray »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: iteratorcount
+---
+# iteratorcount
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Підраховує кількість елементів в ітераторі
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-#iterator_count
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-iterator_count — Підраховує кількість елементів в ітераторі
+iteratorcount — Підраховує кількість елементів в ітераторі
 
 ### Опис
 
-**iterator_count**([Traversable](class.traversable.md) `$iterator`):
-int
+```methodsynopsis
+iterator_count(Traversable $iterator): int
+```
 
-Підраховує кількість елементів в ітераторі. **iterator_count()** не
-гарантує збереження поточної позиції `iterator`.
+Підраховує кількість елементів в ітераторі . **iteratorcount()** не гарантує збереження поточної позиції `iterator`
 
 ### Список параметрів
 
 `iterator`
+
 Ітератор, у якому провадиться підрахунок.
 
 ### Значення, що повертаються
 
-Кількість елементів в ітераторі (iterator).
+Кількість елементів в ітераторі (`iterator`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **iterator_count()****
+**Приклад #1 Приклад використання **iteratorcount()****
 
-` <?php$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));var_dump(iterator_count($iterator));?> `
+```php
+<?php
+$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));
+var_dump(iterator_count($iterator));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(4)
+```
 
-**Приклад #2 **iterator_count()** модифікує позицію**
+**Приклад #2 **iteratorcount()** модифікує позицію**
 
-` <?php$iterator = new ArrayIterator(['one', 'two', 'three']);var_dump($iterator->current());var_dump(iterator_count($iterator));var_dump($iterator- >current());?> `
+```php
+<?php
+$iterator = new ArrayIterator(['one', 'two', 'three']);
+var_dump($iterator->current());
+var_dump(iterator_count($iterator));
+var_dump($iterator->current());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "one"
 int(3)
 NULL
+```
 
-**Приклад #3 **iterator_count()** у циклі
-[foreach](control-structures.foreach.md)**
+**Приклад #3 **iteratorcount()** у циклі [foreach](control-structures.foreach.md)**
 
-` <?php$iterator = new ArrayIterator(['one', 'two', 'three']);foreach ($iterator as $key => $value) {    echo "$key: $u $iterator), ")
-";}?> `
+```php
+<?php
+$iterator = new ArrayIterator(['one', 'two', 'three']);
+foreach ($iterator as $key => $value) {
+    echo "$key: $value (", iterator_count($iterator), ")\n";
+}?>
+```
 
 Результат виконання цього прикладу:
 
-0: один (3)
+```
+0: one (3)
+```

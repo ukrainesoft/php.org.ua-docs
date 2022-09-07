@@ -1,36 +1,34 @@
-- [« ImagickDraw::setFontStretch](imagickdraw.setfontstretch.md)
-- [ImagickDraw::setFontWeight »](imagickdraw.setfontweight.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює стиль шрифту для використання під час анотування
-текстом
-
+---
+navigation:
+  - imagickdraw.setfontstretch.md: '« ImagickDraw::setFontStretch'
+  - imagickdraw.setfontweight.md: 'ImagickDraw::setFontWeight »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setFontStyle'
+---
 # ImagickDraw::setFontStyle
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::setFontStyle — Встановлює стиль шрифту для використання
-при анотуванні текстом
+ImagickDraw::setFontStyle — Встановлює стиль шрифту для використання при анотуванні текстом
 
 ### Опис
 
-public **ImagickDraw::setFontStyle**(int `$style`): bool
+```methodsynopsis
+public ImagickDraw::setFontStyle(int $style): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Встановлює стиль шрифту, який буде використовуватись при
-анотування тексту. Використання AnyStyle діє як "будь-який".
+Встановлює стиль шрифту, який буде використовуватися під час анотування тексту. Використання AnyStyle діє як "будь-який".
 
 ### Список параметрів
 
 `style`
-Одна з констант
-[STYLE](imagick.constants.md#imagick.constants.styles)
-(`imagick::STYLE_*`).
+
+Одна з констант [STYLE](imagick.constants.md#imagick.constants.styles) `imagick::STYLE_*`
 
 ### Значення, що повертаються
 
@@ -40,4 +38,31 @@ public **ImagickDraw::setFontStyle**(int `$style`): bool
 
 **Приклад #1 Приклад використання **ImagickDraw::setFontStyle()****
 
-` <?phpfunction setFontStyle($fillColor, $strokeColor, $backgroundColor) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(1); $draw->setFontSize(36); $draw->setFontStyle(\Imagick::STYLE_NORMAL); $draw->annotation(50, 50, "Lorem Ipsum!"); $draw->setFontStyle(\Imagick::STYLE_ITALIC); $draw->annotation(50, 100, "Lorem Ipsum!"); $draw->setFontStyle(\Imagick::STYLE_OBLIQUE); $draw->annotation(50, 150, "Lorem Ipsum!"); $imagick==newImagick(); $imagick->newImage(350, 300, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function setFontStyle($fillColor, $strokeColor, $backgroundColor) {
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(1);
+    $draw->setFontSize(36);
+    $draw->setFontStyle(\Imagick::STYLE_NORMAL);
+    $draw->annotation(50, 50, "Lorem Ipsum!");
+
+    $draw->setFontStyle(\Imagick::STYLE_ITALIC);
+    $draw->annotation(50, 100, "Lorem Ipsum!");
+
+    $draw->setFontStyle(\Imagick::STYLE_OBLIQUE);
+    $draw->annotation(50, 150, "Lorem Ipsum!");
+
+    $imagick = new \Imagick();
+    $imagick->newImage(350, 300, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

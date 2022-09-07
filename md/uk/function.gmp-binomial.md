@@ -1,28 +1,30 @@
-- [«gmp_and](function.gmp-and.md)
-- [gmp_clrbit »](function.gmp-clrbit.md)
+---
+navigation:
+  - function.gmp-and.md: « gmpand
+  - function.gmp-clrbit.md: gmpclrbit »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpbinomial
+---
+# gmpbinomial
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- обчислює біноміальний коефіцієнт
+(PHP 7> = 7.3.0, PHP 8)
 
-#gmp_binomial
-
-(PHP 7 \>= 7.3.0, PHP 8)
-
-gmp_binomial — обчислює біноміальний коефіцієнт
+gmpbinomial - обчислює біноміальний коефіцієнт
 
 ### Опис
 
-**gmp_binomial**([GMP](class.gmp.md)\|int\|string `$n`, int `$k`):
-[GMP](class.gmp.md)
+```methodsynopsis
+gmp_binomial(GMP|int|string $n, int $k): GMP
+```
 
 Обчислює біноміальний коефіцієнт C(n, k).
 
 ### Список параметрів
 
 `n`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `k`
 
@@ -32,11 +34,10 @@ gmp_binomial — обчислює біноміальний коефіцієнт
 
 ### Помилки
 
-Викидає [ValueError](class.valueerror.md), якщо `k` негативний.
-До PHP 8.0.0 видавалася помилка рівня **`E_WARNING`**.
+Викидає [ValueError](class.valueerror.md), якщо `k` від'ємний. До PHP 8.0.0 видавалася помилка рівня **`E_WARNING`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                            |
-|--------|-----------------------------------------------------------------|
-| 8.0.0  | Функція більше не повертає **false** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |

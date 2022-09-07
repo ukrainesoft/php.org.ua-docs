@@ -1,19 +1,22 @@
-- [« Gmagick::getimagescene](gmagick.getimagescene.md)
-- [Gmagick::getimagetype »](gmagick.getimagetype.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Створює підпис повідомлення SHA-256
-
+---
+navigation:
+  - gmagick.getimagescene.md: '« Gmagick::getimagescene'
+  - gmagick.getimagetype.md: 'Gmagick::getimagetype »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagesignature'
+---
 # Gmagick::getimagesignature
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagesignature — Створює підпис до повідомлення SHA-256
+Gmagick::getimagesignature — Створює підпис повідомлення SHA-256
 
 ### Опис
 
-public **Gmagick::getimagesignature**(): string
+```methodsynopsis
+public Gmagick::getimagesignature(): string
+```
 
 Створює підпис повідомлення SHA-256 потоку пікселів зображення.
 
@@ -23,7 +26,7 @@ public **Gmagick::getimagesignature**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, який містить хеш SHA-256 файлу.
+Повертає рядок, що містить хеш SHA-256 файлу.
 
 ### Помилки
 

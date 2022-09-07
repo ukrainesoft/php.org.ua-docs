@@ -1,24 +1,26 @@
-- [« FFI\CType::getArrayElementType](ffi-ctype.getarrayelementtype.md)
-- [FFI\CType::getAttributes »](ffi-ctype.getattributes.md)
+---
+navigation:
+  - ffi-ctype.getarrayelementtype.md: '« FFICType::getArrayElementType'
+  - ffi-ctype.getattributes.md: 'FFICType::getAttributes »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
+title: 'FFICType::getArrayLength'
+---
+# FFICType::getArrayLength
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+(PHP 8> = 8.1.0)
 
-# FFI\CType::getArrayLength
-
-(PHP 8 \>= 8.1.0)
-
-FFI\CType::getArrayLength — Опис
+FFICType::getArrayLength — Опис
 
 ### Опис
 
-public **FFI\CType::getArrayLength**(): int
+```methodsynopsis
+public FFI\CType::getArrayLength(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

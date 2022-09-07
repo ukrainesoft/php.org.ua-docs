@@ -1,22 +1,24 @@
-- [« SQLite3Stmt::getSQL](sqlite3stmt.getsql.md)
-- [SQLite3Stmt::readOnly »](sqlite3stmt.readonly.md)
-
-- [PHP Manual](index.md)
-- [SQLite3Stmt](class.sqlite3stmt.md)
-- Повертає кількість параметрів у підготовленому запиті
-
+---
+navigation:
+  - sqlite3stmt.getsql.md: '« SQLite3Stmt::getSQL'
+  - sqlite3stmt.readonly.md: 'SQLite3Stmt::readOnly »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::paramCount'
+---
 # SQLite3Stmt::paramCount
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SQLite3Stmt::paramCount — Повертає кількість параметрів у
-підготовленому запиті
+SQLite3Stmt::paramCount — Повертає кількість параметрів у підготовленому запиті
 
 ### Опис
 
-public **SQLite3Stmt::paramCount**(): int
+```methodsynopsis
+public SQLite3Stmt::paramCount(): int
+```
 
-Повертає кількість параметрів у підготовленому запиті.
+Повертає кількість параметрів у запиті.
 
 ### Список параметрів
 
@@ -24,9 +26,8 @@ public **SQLite3Stmt::paramCount**(): int
 
 ### Значення, що повертаються
 
-Повертає кількість параметрів у підготовленому запиті.
+Повертає кількість параметрів у запиті.
 
 ### Дивіться також
 
-- [SQLite3::prepare()](sqlite3.prepare.md) - Підготовка
-SQL-запит для виконання
+-   [SQLite3::prepare()](sqlite3.prepare.md) - готує SQL-запит для виконання

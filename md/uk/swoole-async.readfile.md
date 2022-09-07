@@ -1,32 +1,39 @@
-- [« Swoole\Async::read](swoole-async.read.md)
-- [Swoole\Async::set »](swoole-async.set.md)
+---
+navigation:
+  - swoole-async.read.md: '« SwooleAsync::read'
+  - swoole-async.set.md: 'SwooleAsync::set »'
+  - index.md: PHP Manual
+  - class.swoole-async.md: SwooleAsync
+title: 'SwooleAsync::readFile'
+---
+# SwooleAsync::readFile
 
-- [PHP Manual](index.md)
-- [Swoole\Async](class.swoole-async.md)
-- Асинхронне читання файлу
+(PECL swoole >= 1.9.0)
 
-# Swoole\Async::readFile
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Async::readFile — Асинхронне читання файлу
+SwooleAsync::readFile - Асинхронне читання файлу
 
 ### Опис
 
-public static **Swoole\Async::readFile**(string `$filename`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public static Swoole\Async::readFile(string $filename, callable $callback): void
+```
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу, що читається.
 
 `callback`
-callback(string `$filename`, string `$content`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+
+```methodsynopsis
+callback(string $filename, string $content): mixed
+```
 
 `filename`
+
 Ім'я файлу, що читається.
 
 `content`
+
 Зміст, прочитаний із файлу.

@@ -1,27 +1,29 @@
-- [« PharData::offsetUnset](phardata.offsetunset.md)
-- [PharData::setDefaultStub »](phardata.setdefaultstub.md)
-
-- [PHP Manual](index.md)
-- [PharData](class.phardata.md)
-- Функція заглушка (Phar::setAlias не можна використовувати для PharData)
-
+---
+navigation:
+  - phardata.offsetunset.md: '« PharData::offsetUnset'
+  - phardata.setdefaultstub.md: 'PharData::setDefaultStub »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::setAlias'
+---
 # PharData::setAlias
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::setAlias — Функція заглушка (Phar::setAlias не можна
-використовувати для PharData)
+PharData::setAlias ​​— Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
 
 ### Опис
 
-public **PharData::setAlias**(string `$alias`): bool
+```methodsynopsis
+public PharData::setAlias(string $alias): bool
+```
 
-Незапускані tar/zip-архіви не можуть мати псевдоніма, тому цей
-Метод просто викидає виняток.
+Незапускаються tar/zip-архіви не можуть мати псевдоніма, тому цей метод просто викидає виняток.
 
 ### Список параметрів
 
 `alias`
+
 Параметр ігнорується.
 
 ### Значення, що повертаються
@@ -32,5 +34,4 @@ public **PharData::setAlias**(string `$alias`): bool
 
 ### Дивіться також
 
-- [Phar::setAlias()](phar.setalias.md) - Встановити псевдонім для
-Phar-архіву
+-   [Phar::setAlias()](phar.setalias.md) - Встановити псевдонім для Phar-архіву

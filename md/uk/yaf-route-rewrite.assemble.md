@@ -1,20 +1,22 @@
-- [« Yaf_Route_Rewrite](class.yaf-route-rewrite.md)
-- [Yaf_Route_Rewrite::\_\_construct »](yaf-route-rewrite.construct.md)
+---
+navigation:
+  - class.yaf-route-rewrite.md: « YafRouteRewrite
+  - yaf-route-rewrite.construct.md: 'YafRouteRewrite::construct »'
+  - index.md: PHP Manual
+  - class.yaf-route-rewrite.md: YafRouteRewrite
+title: 'YafRouteRewrite::assemble'
+---
+# YafRouteRewrite::assemble
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Rewrite](class.yaf-route-rewrite.md)
-- Збирає URL
+(Yaf >=2.3.0)
 
-# Yaf_Route_Rewrite::assemble
-
-(Yaf \> = 2.3.0)
-
-Yaf_Route_Rewrite::assemble — Збирає URL
+YafRouteRewrite::assemble — Збирає URL
 
 ### Опис
 
-public **Yaf_Route_Rewrite::assemble**(array `$info`, array `$query` =
-?): string
+```methodsynopsis
+public Yaf_Route_Rewrite::assemble(array $info, array $query = ?): string
+```
 
 Збирає URL-адресу.
 
@@ -30,10 +32,37 @@ public **Yaf_Route_Rewrite::assemble**(array `$info`, array `$query` =
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Route_Rewrite::assemble()****
+**Приклад #1 Приклад використання **YafRouteRewrite::assemble()****
 
-` router = new Yaf_Router();$route  = new Yaf_Route_Rewrite(                "/product/:name/:id/*",                array(                        'controller' => "product",                ),                array());$router->addRoute ("rewrite", $route);var_dump($router->getRoute('rewrite')->assemble(                        array(                                ':name' => 'foo',                                ':id' => 'bar',                                ':tmpkey1 ' => 'tmpval1'                        ),                        array(                                'tkey1' => 'tval1',                                'tkey2' => 'tval2'                             )                        ));`
+```php
+router = new Yaf_Router();
+
+$route  = new Yaf_Route_Rewrite(
+                "/product/:name/:id/*",
+                array(
+                        'controller' => "product",
+                ),
+                array()
+);
+
+$router->addRoute("rewrite", $route);
+
+var_dump($router->getRoute('rewrite')->assemble(
+                        array(
+                                ':name' => 'foo',
+                                ':id' => 'bar',
+                                ':tmpkey1' => 'tmpval1'
+                        ),
+                        array(
+                                'tkey1' => 'tval1',
+                                'tkey2' => 'tval2'
+                             )
+                        )
+);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(57) "/product/foo/bar/tmpkey1/tmpval1/?tkey1=tval1&tkey2=tval2"
+```

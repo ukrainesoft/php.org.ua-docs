@@ -1,11 +1,12 @@
-- [« mysqli_stmt::store_result](mysqli-stmt.store-result.md)
-- [mysqli_result::\_\_construct »](mysqli-result.construct.md)
-
-- [PHP Manual](index.md)
-- [MySQLi](book.mysqli.md)
-- Клас mysqli_result
-
-# Клас mysqli_result
+---
+navigation:
+  - mysqli-stmt.store-result.md: '« mysqlistmt::storeresult'
+  - mysqli-result.construct.md: 'mysqliresult::construct »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqliresult
+---
+# Клас mysqliresult
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -15,118 +16,98 @@
 
 ## Огляд класів
 
-class **mysqli_result** implements
-[IteratorAggregate](class.iteratoraggregate.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly int `$current_field`;
+    
+     
+      class mysqli_result
+     
 
-public readonly int `$field_count`;
+     implements 
+       IteratorAggregate {
 
-public readonly ?array `$ lengths`;
+    /* Свойства */
+    
+     public
+     readonly
+     int
+      $current_field;
 
-public readonly int\|string `$num_rows`;
+    public
+     readonly
+     int
+      $field_count;
 
-public int `$type`;
+    public
+     readonly
+     ?array
+      $lengths;
 
-/\* Методи \*/
+    public
+     readonly
+     int|string
+      $num_rows;
 
-public
-[\_\_construct](mysqli-result.construct.md)([mysqli](class.mysqli.md)
-`$mysql`, int `$result_mode` = **`MYSQLI_STORE_RESULT`**)
+    public
+     int
+      $type;
 
-public [data_seek](mysqli-result.data-seek.md)(int `$offset`): bool
 
-public [fetch_all](mysqli-result.fetch-all.md)(int `$mode` =
-**`MYSQLI_NUM`**): array
+    /* Методы */
+    
+   public __construct(mysqli $mysql, int $result_mode = MYSQLI_STORE_RESULT)
 
-public [fetch_array](mysqli-result.fetch-array.md)(int `$mode` =
-**`MYSQLI_BOTH`**): array\|null\|false
+    public data_seek(int $offset): bool
+public fetch_all(int $mode = MYSQLI_NUM): array
+public fetch_array(int $mode = MYSQLI_BOTH): array|null|false
+public fetch_assoc(): array|null|false
+public fetch_column(int $column = 0): null|int|float|string|false
+public fetch_field_direct(int $index): object|false
+public fetch_field(): object|false
+public fetch_fields(): array
+public fetch_object(string $class = "stdClass", array $constructor_args = []): object|null|false
+public fetch_row(): array|null|false
+public field_seek(int $index): bool
+public free(): void
+public close(): void
+public free_result(): void
+public getIterator(): Iterator
 
-public [fetch_assoc](mysqli-result.fetch-assoc.md)():
-array\|null\|false
-
-public [fetch_column](mysqli-result.fetch-column.md)(int `$column` =
-0): null\|int\|float\|string\|false
-
-public [fetch_field_direct](mysqli-result.fetch-field-direct.md)(int
-`$index`): object\|false
-
-public [fetch_field](mysqli-result.fetch-field.md)(): object\|false
-
-public [fetch_fields](mysqli-result.fetch-fields.md)(): array
-
-public [fetch_object](mysqli-result.fetch-object.md)(string `$class` =
-"stdClass", array `$constructor_args` = []): object\|null\|false
- public [fetch_row](mysqli-result.fetch-row.md)(): array\|null\|false
-
-public [field_seek](mysqli-result.field-seek.md)(int `$index`): bool
-
-public [free](mysqli-result.free.md)(): void
-
-public [close](mysqli-result.free.md)(): void
-
-public [free_result](mysqli-result.free.md)(): void
-
-public [getIterator](mysqli-result.getiterator.md)():
-[Iterator](class.iterator.md)
-
-}
+   }
+```
 
 ## Властивості
 
-`type`
-Зберігає буферизований або небуферизований результат у вигляді цілого
-числа (int) (**`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
-відповідно).
+type
 
-## Список змін
+Зберігає буферизований чи небуферизований результат як цілого числа (int) (**`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`** відповідно).
 
-| Версія | Опис                                                                                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Клас **mysqli_result** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.md). |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Клас **mysqliresult** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 
-- [mysqli_result::\_\_construct](mysqli-result.construct.md) -
-Конструктор об'єкту mysqli_result
-- [mysqli_result::$current_field](mysqli-result.current-field.md)
-Отримує зміщення вказівника по відношенню до поточного поля
-- [mysqli_result::data_seek](mysqli-result.data-seek.md)
-Переміщує покажчик результату на вибраний рядок
-- [mysqli_result::fetch_all](mysqli-result.fetch-all.md) — Вибирає
-всі рядки з результуючого набору та поміщає їх в асоціативний
-масив, звичайний масив або в обидва
-- [mysqli_result::fetch_array](mysqli-result.fetch-array.md)
-Вибирає наступний рядок з набору результатів і поміщає їх у
-асоціативний масив, звичайний масив або обидва
-- [mysqli_result::fetch_assoc](mysqli-result.fetch-assoc.md)
-Вибирає наступний рядок з набору результатів і поміщає їх у
-асоціативний масив
-- [mysqli_result::fetch_column](mysqli-result.fetch-column.md)
-Отримує один стовпець з наступного рядка набору результатів
-- [mysqli_result::fetch_field_direct](mysqli-result.fetch-field-direct.md)
-— Отримання метаданих конкретного поля
-- [mysqli_result::fetch_field](mysqli-result.fetch-field.md)
-Повертає наступне поле результуючого набору
-- [mysqli_result::fetch_fields](mysqli-result.fetch-fields.md)
-Повертає масив об'єктів, що становлять поля результуючого
-набору
-- [mysqli_result::fetch_object](mysqli-result.fetch-object.md)
-Вибирає наступний рядок із набору результатів у вигляді об'єкта
-- [mysqli_result::fetch_row](mysqli-result.fetch-row.md) — Вибирає
-наступний рядок з набору результатів та поміщає її у звичайний
-масив
-- [mysqli_result::$field_count](mysqli-result.field-count.md)
-Отримує кількість полів у наборі результатів
-- [mysqli_result::field_seek](mysqli-result.field-seek.md)
-Встановити вказівник поля на певне усунення
-- [mysqli_result::free](mysqli-result.free.md) — Звільняє пам'ять,
-зайняту результатами запиту
-- [mysqli_result::getIterator](mysqli-result.getiterator.md)
-Витягує зовнішній ітератор
-- [mysqli_result::$lengths](mysqli-result.lengths.md) — Повертає
-довжини полів поточного рядка результуючого набору
-- [mysqli_result::$num_rows](mysqli-result.num-rows.md) — Отримує
-кількість рядків у наборі результатів
+-   [mysqliresult::construct](mysqli-result.construct.md) - Конструктор об'єкта mysqliresult
+-   [mysqliresult::$currentfield](mysqli-result.current-field.md) — Отримує зміщення вказівника щодо поточного поля
+-   [mysqliresult::dataseek](mysqli-result.data-seek.md) — Переміщує покажчик результату на вибраний рядок
+-   [mysqliresult::fetchall](mysqli-result.fetch-all.md) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
+-   [mysqliresult::fetcharray](mysqli-result.fetch-array.md) — Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqliresult::fetchassoc](mysqli-result.fetch-assoc.md) — Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqliresult::fetchcolumn](mysqli-result.fetch-column.md) — Отримує один стовпець із наступного рядка набору результатів
+-   [mysqliresult::fetchfielddirect](mysqli-result.fetch-field-direct.md) — Отримання метаданих конкретного поля
+-   [mysqliresult::fetchfield](mysqli-result.fetch-field.md) — Повертає наступне поле результуючого набору
+-   [mysqliresult::fetchfields](mysqli-result.fetch-fields.md) — Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqliresult::fetchobject](mysqli-result.fetch-object.md) — Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqliresult::fetchrow](mysqli-result.fetch-row.md) — Вибирає наступний рядок із набору результатів та поміщає його у звичайний масив
+-   [mysqliresult::$fieldcount](mysqli-result.field-count.md) — Отримує кількість полів у наборі результатів
+-   [mysqliresult::fieldseek](mysqli-result.field-seek.md) — Встановити покажчик поля на певне усунення
+-   [mysqliresult::free](mysqli-result.free.md) - Звільняє пам'ять, зайняту результатами запиту
+-   [mysqliresult::getIterator](mysqli-result.getiterator.md) - Витягує зовнішній ітератор
+-   [mysqliresult::$lengths](mysqli-result.lengths.md) — Повертає довжини полів поточного рядка результуючого набору
+-   [mysqliresult::$numrows](mysqli-result.num-rows.md) — Отримує кількість рядків у наборі результатів

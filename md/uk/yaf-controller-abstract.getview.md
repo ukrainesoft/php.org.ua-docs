@@ -1,20 +1,22 @@
-- [« Yaf_Controller_Abstract::getResponse](yaf-controller-abstract.getresponse.md)
-- [Yaf_Controller_Abstract::getViewpath »](yaf-controller-abstract.getviewpath.md)
+---
+navigation:
+  - yaf-controller-abstract.getresponse.md: '« YafControllerAbstract::getResponse'
+  - yaf-controller-abstract.getviewpath.md: 'YafControllerAbstract::getViewpath »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::getView'
+---
+# YafControllerAbstract::getView
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Отримує двигун відображення
+(Yaf >=1.0.0)
 
-# Yaf_Controller_Abstract::getView
-
-(Yaf \>=1.0.0)
-
-Yaf_Controller_Abstract::getView — Отримує двигун відображення
+YafControllerAbstract::getView — Отримує двигун відображення
 
 ### Опис
 
-public **Yaf_Controller_Abstract::getView**():
-[Yaf_View_Interface](class.yaf-view-interface.md)
+```methodsynopsis
+public Yaf_Controller_Abstract::getView(): Yaf_View_Interface
+```
 
 Отримує двигун відображення
 

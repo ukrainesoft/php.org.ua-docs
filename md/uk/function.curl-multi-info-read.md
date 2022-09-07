@@ -1,98 +1,130 @@
-- [«curl_multi_getcontent](function.curl-multi-getcontent.md)
-- [curl_multi_init »](function.curl-multi-init.md)
-
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Повертає інформацію про поточні операції
-
-#curl_multi_info_read
+---
+navigation:
+  - function.curl-multi-getcontent.md: « curlmultigetcontent
+  - function.curl-multi-init.md: curlmultiinit »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlmultiinforead
+---
+# curlmultiinforead
 
 (PHP 5, PHP 7, PHP 8)
 
-curl_multi_info_read — Повертає інформацію про поточні операції
+curlmultiinforead — Повертає інформацію про поточні операції
 
 ### Опис
 
-**curl_multi_info_read**([CurlMultiHandle](class.curlmultihandle.md)
-`$multi_handle`, int `&$queued_messages` = **`null`**): array\|false
+```methodsynopsis
+curl_multi_info_read(CurlMultiHandle $multi_handle, int &$queued_messages = null): array|false
+```
 
-Опитує набір дескрипторів про наявність повідомлень чи інформації від
-індивідуальні передачі. Повідомлення можуть включати таку інформацію як
-код помилки передачі або просто факт завершення передачі.
+Запитує набір дескрипторів про наявність повідомлень або інформації від індивідуальних передач. Повідомлення можуть включати таку інформацію як код помилки передачі або просто факт завершення передачі.
 
-Виклики цієї функції, що повторюються, щоразу повертатимуть новий
-результат, поки не буде повернено **`false`** як сигнал
-закінчення повідомлень. Ціле число, що міститься в `queued_messages`,
-вказує кількість повідомлень, що залишилися після виклику цієї функції.
+Виклики цієї функції, що повторюються, щоразу повертатимуть новий результат, доки не буде повернено **`false`** як сигнал закінчення повідомлень. Ціле число, що міститься в `queued_messages`, вказує кількість повідомлень, що залишилися після виклику цієї функції.
 
 **Увага**
 
-Дані, на які вказує ресурс, що повертається, будуть затерті викликом
-[curl_multi_remove_handle()](function.curl-multi-remove-handle.md).
+Дані, на які вказує ресурс, що повертається, будуть затерті викликом [curlmultiremovehandle()](function.curl-multi-remove-handle.md)
 
 ### Список параметрів
 
 `multi_handle`
-Мультидескриптор cURL, отриманий з
-[curl_multi_init()](function.curl-multi-init.md).
+
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 `queued_messages`
+
 Кількість повідомлень, що залишилися в черзі
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає асоціативний масив повідомлень
-або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає асоціативний масив повідомлень або **`false`** у разі виникнення помилки.
 
-| Ключ:  | Значення:                                                                            |
-|--------|--------------------------------------------------------------------------------------|
-| msg    | Константа **CURLMSG_DONE**. Інші значення, що повертаються, поки недоступні.         |
-| result | Одна із констант **CURLE_***. Якщо все добре, результат буде константа **CURLE_OK**. |
-| handle | Ресурс типу curl, що вказує на дескриптор, якого він належить.                       |
+**Вміст масиву, що повертається**
 
-**Вміст повертається масиву**
+| Ключ: | Значение: |
+| --- | --- |
+| `msg` | Константа **`CURLMSG_DONE`**. Інші значення, що повертаються, поки недоступні. |
+| `result` | Одна з констант **`CURLE_*`**. Якщо все добре, результатом буде константа **`CURLE_OK`** |
+| `handle` | Ресурс типу curl, що вказує на дескриптор, до якого належить. |
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                      |
-|--------|---------------------------------------------------------------------------|
-| 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curl_multi_info_read()****
+**Приклад #1 Приклад використання **curlmultiinforead()****
 
-` <?php$urls = array(  "http://www.cnn.com/",  "http://www.bbc.co.uk/",  "http://www.yahoo.com/") ;$mh = curl_multi_init();foreach ($urls as $i => $url) {    $conn[$i] = curl_init($url); curl_setopt($conn[$i], CURLOPT_RETURNTRANSFER, 1); curl_multi_add_handle($mh, $conn[$i]);}do {    $status = curl_multi_exec($mh, $active); if ($active) {        curl_multi_select($mh); }   while (false !== ($info = curl_multi_info_read($mh))) {        var_dump($info); }} while ($active && $status ===CURLM_OK);foreach ($urls as $i => $url) {    $res[$i] = curl_multi_getcontent($conn[$ curl_close($conn[$i]);}var_dump(curl_multi_info_read($mh));?> `
+```php
+<?php
+
+$urls = array(
+   "http://www.cnn.com/",
+   "http://www.bbc.co.uk/",
+   "http://www.yahoo.com/"
+);
+
+$mh = curl_multi_init();
+
+foreach ($urls as $i => $url) {
+    $conn[$i] = curl_init($url);
+    curl_setopt($conn[$i], CURLOPT_RETURNTRANSFER, 1);
+    curl_multi_add_handle($mh, $conn[$i]);
+}
+
+do {
+    $status = curl_multi_exec($mh, $active);
+    if ($active) {
+        curl_multi_select($mh);
+    }
+    while (false !== ($info = curl_multi_info_read($mh))) {
+        var_dump($info);
+    }
+} while ($active && $status == CURLM_OK);
+
+foreach ($urls as $i => $url) {
+    $res[$i] = curl_multi_getcontent($conn[$i]);
+    curl_close($conn[$i]);
+}
+
+var_dump(curl_multi_info_read($mh));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(3) {
-["msg"]=>
-int(1)
-["result"]=>
-int(0)
-["handle"]=>
-resource(5) of type (curl)
+  ["msg"]=>
+  int(1)
+  ["result"]=>
+  int(0)
+  ["handle"]=>
+  resource(5) of type (curl)
 }
 array(3) {
-["msg"]=>
-int(1)
-["result"]=>
-int(0)
-["handle"]=>
-resource(7) of type (curl)
+  ["msg"]=>
+  int(1)
+  ["result"]=>
+  int(0)
+  ["handle"]=>
+  resource(7) of type (curl)
 }
 array(3) {
-["msg"]=>
-int(1)
-["result"]=>
-int(0)
-["handle"]=>
-resource(6) of type (curl)
+  ["msg"]=>
+  int(1)
+  ["result"]=>
+  int(0)
+  ["handle"]=>
+  resource(6) of type (curl)
 }
 bool(false)
+```
 
 ### Дивіться також
 
-- [curl_multi_init()](function.curl-multi-init.md) - Створює набір
-CURL-дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів

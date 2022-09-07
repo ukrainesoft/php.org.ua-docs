@@ -1,58 +1,68 @@
-- [« geoip_asnum_by_name](function.geoip-asnum-by-name.md)
-- [geoip_country_code_by_name »](function.geoip-country-code-by-name.md)
+---
+navigation:
+  - function.geoip-asnum-by-name.md: « geoipasnumбname
+  - function.geoip-country-code-by-name.md: geoipcountrycodeбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipcontinentcodeбname
+---
+# geoipcontinentcodeбname
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Отримати двосимвольний код континенту
+(PECL geoip >= 1.0.3)
 
-# geoip_continent_code_by_name
-
-(PECL geoip \>= 1.0.3)
-
-geoip_continent_code_by_name — Отримати двосимвольний код континенту
+geoipcontinentcodeбname — Отримати двосимвольний код континенту
 
 ### Опис
 
-**geoip_continent_code_by_name**(string `$hostname`): string
+```methodsynopsis
+geoip_continent_code_by_name(string $hostname): string
+```
 
-Функція **geoip_continent_code_by_name()** повертає двосимвольний код
-континенту, який відповідає імені хоста або IP-адреси.
+Функція **geoipcontinentcodeбname()** повертає двосимвольний код континенту, який відповідає імені хоста або IP-адреси.
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста або IP-адреса, за якою вестиметься пошук.
 
 ### Значення, що повертаються
 
-Повертає два символи, що містять код континенту, при знаходженні адреси
-у базі даних, інакше **`false`**.
-
-| Код  | Ім'я континенту  |
-| ---- | ---------------- |
-| AF   | Африка           |                  
-| AN   | Антарктика       |
-| AS   | Азія             |
-| 'EU' | Європа           |
-| NA   | Північна Америка |
-| OC   | Океанія          |
-| SA   | Південна Америка |
+Повертає два символи, що містять код континенту, при знаходженні адреси в базі даних, інакше **`false`**
 
 **Константи кодів**
 
+| Код | Имя континента |
+| --- | --- |
+| `AF` | Африка |
+| `AN` | Антарктика |
+| `AS` | Азія |
+| `EU` | Європа |
+| `NA` | Північна Америка |
+| `OC` | Океанія |
+| `SA` | Південна Америка |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_continent_code_by_name()****
+**Приклад #1 Приклад використання **geoipcontinentcodeбname()****
 
 Цей приклад виведе розташування хоста example.com.
 
-` <?php$continent = geoip_continent_code_by_name('www.example.com');if ($continent) {    echo 'Даний хост розташований в ' . $continent;}?> `
+```php
+<?php
+$continent = geoip_continent_code_by_name('www.example.com');
+if ($continent) {
+    echo 'Данный хост расположен в ' . $continent;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Цей хост розташований у NA
+```
+Данный хост расположен в NA
+```
 
 ### Дивіться також
 
-- [geoip_country_code_by_name()](function.geoip-country-code-by-name.md) -
-Отримати двосимвольний код країни
+-   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни

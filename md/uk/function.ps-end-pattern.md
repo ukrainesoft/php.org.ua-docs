@@ -1,36 +1,35 @@
-- [«ps_end_page](function.ps-end-page.md)
-- [ps_end_template »](function.ps-end-template.md)
+---
+navigation:
+  - function.ps-end-page.md: «psendpage
+  - function.ps-end-template.md: псendtemplate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псendpattern
+---
+# псendpattern
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Завершує шаблон
+(PECL ps >= 1.2.0)
 
-#ps_end_pattern
-
-(PECL ps \>= 1.2.0)
-
-ps_end_pattern — Завершує шаблон
+псendpattern — Завершує шаблон
 
 ### Опис
 
-**ps_end_pattern**(resource `$psdoc`): bool
+```methodsynopsis
+ps_end_pattern(resource $psdoc): bool
+```
 
-Завершує шаблон, який було розпочато з
-[ps_begin_pattern()](function.ps-begin-pattern.md). Коли шаблон
-закінчено, його можна використовувати як колір для заливання областей.
+Завершує шаблон, який було розпочато з [псbeginpattern()](function.ps-begin-pattern.md). Коли шаблон закінчено, його можна використовувати як колір заливки областей.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_begin_pattern()](function.ps-begin-pattern.md) - Починає
-новий візерунок
+-   [псbeginpattern()](function.ps-begin-pattern.md) - Починає новий візерунок

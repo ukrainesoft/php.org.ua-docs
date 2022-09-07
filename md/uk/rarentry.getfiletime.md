@@ -1,19 +1,22 @@
-- [« RarEntry::getCrc](rarentry.getcrc.md)
-- [RarEntry::getHostOs »](rarentry.gethostos.md)
-
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Повертає останнім часом зміни елемента
-
+---
+navigation:
+  - rarentry.getcrc.md: '« RarEntry::getCrc'
+  - rarentry.gethostos.md: 'RarEntry::getHostOs »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getFileTime'
+---
 # RarEntry::getFileTime
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
 RarEntry::getFileTime — Повертає останнім часом зміни елемента
 
 ### Опис
 
-public **RarEntry::getFileTime**(): string
+```methodsynopsis
+public RarEntry::getFileTime(): string
+```
 
 Останнім часом повертає зміни елемента.
 
@@ -23,5 +26,4 @@ public **RarEntry::getFileTime**(): string
 
 ### Значення, що повертаються
 
-Останнім часом повертає зміни елемента у вигляді рядка у форматі
-`YYYY-MM-DD HH:II:SS`, або **`false`** у разі виникнення помилки.
+Останнім часом повертає зміни елемента у вигляді рядка у форматі `YYYY-MM-DD HH:II:SS`, або **`false`** у разі виникнення помилки.

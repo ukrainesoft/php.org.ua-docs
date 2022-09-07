@@ -1,37 +1,34 @@
-- [« Функції var_representation](ref.var-representation.md)
-- [Інші служби »](refs.remote.other.md)
+---
+navigation:
+  - ref.var-representation.md: « Функции varrepresentation
+  - refs.remote.other.md: Інші служби »
+  - index.md: PHP Manual
+  - ref.var-representation.md: Функции varrepresentation
+title: varrepresentation
+---
+# varrepresentation
 
-- [PHP Manual](index.md)
-- [Функції var_representation](ref.var-representation.md)
-- Повертає коротку, читаючу, розбірливу рядкову виставу
-змінної
+(PECL varrepresentation >= 0.1.0)
 
-# var_representation
-
-(PECL var_representation \>= 0.1.0)
-
-var_representation - Повертає коротке, читане, розбірливе
-рядкове подання змінної
+varrepresentation - Повертає коротке, читане, розбірливе рядкове уявлення змінної
 
 ### Опис
 
-**var_representation**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$flags` = 0): string
+```methodsynopsis
+var_representation(mixed $value, int $flags = 0): string
+```
 
-**var_representation()** (модуль PECL var_representation) повертає
-рядок зі структурованою інформацією про цю змінну. Функція
-схожа на [var_export()](function.var-export.md) з відмінностями у
-відступах, екрануванні рядків та уявленнях масиву.
+**varrepresentation()** (модуль PECL varrepresentation) повертає рядок із структурованою інформацією про цю змінну. Функція схожа на [varexport()](function.var-export.md) з відмінностями у відступах, екрануванні рядків та уявленнях масиву.
 
 ### Список параметрів
 
 `value`
+
 Змінна, на яку створюється уявлення.
 
 `flags`
-Бітова маска, що складається з: **`VAR_REPRESENTATION_SINGLE_LINE`**,
-**`VAR_REPRESENTATION_UNESCAPED`**. Поведінка цих констант описано на
-сторінці [константи var_representation](var-representation.constants.md).
+
+Бітова маска, що складається з: **`VAR_REPRESENTATION_SINGLE_LINE`** **`VAR_REPRESENTATION_UNESCAPED`**. Поведінка цих констант описана на сторінці [константи вarrepresentation](var-representation.constants.md)
 
 ### Значення, що повертаються
 
@@ -39,69 +36,122 @@ var_representation - Повертає коротке, читане, розбір
 
 ### Приклади
 
-**Приклад #1 Приклад використання **var_representation()****
+**Приклад #1 Приклад використання **varrepresentation()****
 
-` <?php$a = [1, 2, ['key' => 'value']];echo var_representation($a), "
-";echo var_representation($a, VAR_REPRESENTATION_SINGLE_LINE), "
-";?> `
+```php
+<?php
+$a = [1, 2, ['key' => 'value']];
+echo var_representation($a), "\n";
+echo var_representation($a, VAR_REPRESENTATION_SINGLE_LINE), "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 [
-1,
-2,
-[
-'key' => 'value',
-],
+  1,
+  2,
+  [
+    'key' => 'value',
+  ],
 ]
 [1, 2, ['key' => 'value']]
+```
 
 **Приклад #2 Екранування символів керування**
 
-`<?phpecho var_representation("Content-Length: 123
-");
+```php
+<?php
+echo var_representation("Content-Length: 123\r\n");
+```
 
 Результат виконання цього прикладу:
 
-"Content-Length: 123
-"
+```
+"Content-Length: 123\r\n"
+```
 
 **Приклад #3 Експорт **stdClass****
 
-` <?php$person = new stdClass;$person->name = 'ElePHPant ElePHPantsdotter';$person->website = 'https://php.net/elephpant.php';echo var_representation($person); `
+```php
+<?php
+$person = new stdClass;
+$person->name = 'ElePHPant ElePHPantsdotter';
+$person->website = 'https://php.net/elephpant.php';
+
+echo var_representation($person);
+```
 
 Результат виконання цього прикладу:
 
+```
 (object) [
-'name' => 'ElePHPant ElePHPantsdotter',
-'website' => 'https://php.net/elephpant.php',
+  'name' => 'ElePHPant ElePHPantsdotter',
+  'website' => 'https://php.net/elephpant.php',
 ]
+```
 
 **Приклад #4 Експортування класів**
 
-`<?phpclass A { public $var; }$a = new A;$a->var = 5;echo var_representation($a);?> `
+```php
+<?php
+class A { public $var; }
+$a = new A;
+$a->var = 5;
+echo var_representation($a);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 \A::__set_state([
-'var' => 5,
+  'var' => 5,
 ])
+```
 
-**Приклад #5 Приклад використання
-[\_\_set_state()](language.oop5.magic.md#object.set-state)**
+**Приклад #5 Приклад використання [setstate()](language.oop5.magic.md#object.set-state)**
 
-`<?phpclass A{    public $var1; public $var2; public static function __set_state($an_array)    {        $obj = new A; $obj->var1 = $an_array['var1']; $obj->var2 = $an_array['var2']; return $obj; }}$a = new A;$a->var1 = 5;$a->var2 = 'foo';eval('$b = ' . var_representation($a) . ';'); // $b = \A::__set_state([                                              //   'var1' => 5,                                              //   'var2' => 'foo',                                              // ]);var_dump($b);?> `
+```php
+<?php
+class A
+{
+    public $var1;
+    public $var2;
+
+    public static function __set_state($an_array)
+    {
+        $obj = new A;
+        $obj->var1 = $an_array['var1'];
+        $obj->var2 = $an_array['var2'];
+        return $obj;
+    }
+}
+
+$a = new A;
+$a->var1 = 5;
+$a->var2 = 'foo';
+
+eval('$b = ' . var_representation($a) . ';'); // $b = \A::__set_state([
+                                              //   'var1' => 5,
+                                              //   'var2' => 'foo',
+                                              // ]);
+var_dump($b);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(A)#2 (2) {
-["var1"]=>
-int(5)
-["var2"]=>
-string(3) "foo"
+  ["var1"]=>
+  int(5)
+  ["var2"]=>
+  string(3) "foo"
 }
+```
 
 ### Дивіться також
 
-- [var_export()](function.var-export.md) - Виводить або повертає
-інтерпретоване рядкове подання змінної
+-   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної

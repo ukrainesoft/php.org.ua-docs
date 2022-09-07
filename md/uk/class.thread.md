@@ -1,103 +1,83 @@
-- [« Threaded::wait](threaded.wait.md)
-- [Thread::getCreatorId »](thread.getcreatorid.md)
-
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
-- Клас Thread
-
+---
+navigation:
+  - threaded.wait.md: '« Threaded::wait'
+  - thread.getcreatorid.md: 'Thread::getCreatorId »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Thread
+---
 # Клас Thread
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 ## Вступ
 
-Коли викликаний стартовий метод Thread, код методу run буде запущений у
-окремому потоці, паралельно.
+Коли викликаний стартовий метод Thread, код методу run буде запущений окремому потоці, паралельно.
 
-Після відпрацювання методу run, Thread відразу ж завершить роботу. Він буде
-приєднаний шляхом створення Thread у потрібний час.
+Після відпрацювання методу run, Thread відразу завершить роботу. Він буде приєднаний шляхом створення Thread у потрібний час.
 
 **Увага**
 
-Якщо покладатися на двигун для визначення, коли Thread буде
-приєднаний, можна зіткнутися з несподіваною поведінкою. Тому
-необхідно, по можливості, керувати приєднанням у явному вигляді.
+Якщо покладатися на двигун визначення, коли Thread буде приєднаний, можна зіткнутися з несподіваним поведінкою. Тому необхідно, по можливості, керувати приєднанням у явному вигляді.
 
 ## Огляд класів
 
-class **Thread** extends [Threaded](class.threaded.md) implements
-[Countable](class.countable.md),
-[Traversable](class.traversable.md),
-[ArrayAccess](class.arrayaccess.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [getCreatorId](thread.getcreatorid.md)(): int
+    
+    
+     
+      class Thread
+     
 
-public static [getCurrentThread](thread.getcurrentthread.md)():
-[Thread](class.thread.md)
+     
+      extends
+       Threaded
+     
 
-public static [getCurrentThreadId](thread.getcurrentthreadid.md)():
-int
+     implements 
+       Countable,  Traversable,  ArrayAccess {
+    
 
-public [getThreadId](thread.getthreadid.md)(): int
+    /* Методы */
+    
+   public getCreatorId(): int
+public static getCurrentThread(): Thread
+public static getCurrentThreadId(): int
+public getThreadId(): int
+public isJoined(): bool
+public isStarted(): bool
+public join(): bool
+public start(int $options = ?): bool
 
-public [isJoined](thread.isjoined.md)(): bool
 
-public [isStarted](thread.isstarted.md)(): bool
+    /* Наследуемые методы */
+    public Threaded::chunk(int $size, bool $preserve): array
+public Threaded::count(): int
+public Threaded::extend(string $class): bool
+public Threaded::isRunning(): bool
+public Threaded::isTerminated(): bool
+public Threaded::merge(mixed $from, bool $overwrite = ?): bool
+public Threaded::notify(): bool
+public Threaded::notifyOne(): bool
+public Threaded::pop(): bool
+public Threaded::run(): void
+public Threaded::shift(): mixed
+public Threaded::synchronized(Closure $block, mixed ...$args): mixed
+public Threaded::wait(int $timeout = ?): bool
 
-public [join](thread.join.md)(): bool
 
-public [start](thread.start.md)(int `$options` = ?): bool
-
-/\* Наслідувані методи \*/
-
-public [Threaded::chunk](threaded.chunk.md)(int `$size`, bool
-`$preserve`): array
-
-public [Threaded::count](threaded.count.md)(): int
-
-public [Threaded::extend](threaded.extend.md)(string `$class`): bool
-
-public [Threaded::isRunning](thread.isrunning.md)(): bool
-
-public [Threaded::isTerminated](threaded.isterminated.md)(): bool
-
-public
-[Threaded::merge](threaded.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` = ?): bool
-
-public [Threaded::notify](threaded.notify.md)(): bool
-
-public [Threaded::notifyOne](threaded.notifyone.md)(): bool
-
-public [Threaded::pop](threaded.pop.md)(): bool
-
-public [Threaded::run](threaded.run.md)(): void
-
-public [Threaded::shift](threaded.shift.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[Threaded::synchronized](threaded.synchronized.md)([Closure](class.closure.md)
-`$block`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [Threaded::wait](threaded.wait.md)(int `$timeout` = ?): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [Thread::getCreatorId](thread.getcreatorid.md) - Ідентифікація
-- [Thread::getCurrentThread](thread.getcurrentthread.md) -
-Ідентифікація
-- [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) -
-Ідентифікація
-- [Thread::getThreadId](thread.getthreadid.md) - Ідентифікація
-- [Thread::isJoined](thread.isjoined.md) — Визначення стану
-- [Thread::isStarted](thread.isstarted.md) — Визначення стану
-- [Thread::join](thread.join.md) - Синхронізація
-- [Thread::start](thread.start.md) - Виконання
+-   [Thread::getCreatorId](thread.getcreatorid.md) - Ідентифікація
+-   [Thread::getCurrentThread](thread.getcurrentthread.md) - Ідентифікація
+-   [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) - Ідентифікація
+-   [Thread::getThreadId](thread.getthreadid.md) - Ідентифікація
+-   [Thread::isJoined](thread.isjoined.md) — Визначення стану
+-   [Thread::isStarted](thread.isstarted.md) — Визначення стану
+-   [Thread::join](thread.join.md) - Синхронізація
+-   [Thread::start](thread.start.md) - Виконання

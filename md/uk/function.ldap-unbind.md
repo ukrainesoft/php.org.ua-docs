@@ -1,40 +1,41 @@
-- [« ldap_t61_to_8859](function.ldap-t61-to-8859.md)
-- [LDAP\Connection »](class.ldap-connection.md)
-
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Розірвати прив'язку до директорії LDAP
-
-#ldap_unbind
+---
+navigation:
+  - function.ldap-t61-to-8859.md: « ldapt61то
+  - class.ldap-connection.md: LDAPConnection »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapunbind
+---
+# ldapunbind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_unbind — Розірвати прив'язку до директорії LDAP
+ldapunbind — Розірвати прив'язку до директорії LDAP
 
 ### Опис
 
-**ldap_unbind**([LDAP\Connection](class.ldap-connection.md) `$ldap`):
-bool
+```methodsynopsis
+ldap_unbind(LDAP\Connection $ldap): bool
+```
 
 Розриває прив'язку до LDAP-директорії.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
-- [ldap_bind()](function.ldap-bind.md) - Прив'язати до директорії LDAP
+-   [ldapbind()](function.ldap-bind.md) - Прив'язати до LDAP директорії

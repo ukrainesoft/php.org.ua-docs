@@ -1,46 +1,65 @@
-- [« Ds\Set::isEmpty](ds-set.isempty.md)
-- [Ds\Set::jsonSerialize »](ds-set.jsonserialize.md)
+---
+navigation:
+  - ds-set.isempty.md: '« DsSet::isEmpty'
+  - ds-set.jsonserialize.md: 'ДсSet::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::join'
+---
+# ДсSet::join
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Склеює всі значення в рядок
+(PECL ds >= 1.0.0)
 
-# Ds\Set::join
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::join — Склеює всі значення в рядок
+ДсSet::join — Склеює всі значення в рядок
 
 ### Опис
 
-public **Ds\Set::join**(string `$glue` = ?): string
+```methodsynopsis
+public Ds\Set::join(string $glue = ?): string
+```
 
-Склеює всі значення в рядок, опціонально використовуючи заданий
-роздільник.
+Склеює всі значення в рядок, опціонально використовуючи заданий роздільник.
 
 ### Список параметрів
 
 `glue`
+
 Необов'язковий параметр, який визначає роздільник між значеннями.
 
 ### Значення, що повертаються
 
-Усі значення колекції, склеєні в один рядок.
+Усі значення колекції склеєні в один рядок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::join()** з роздільником**
+**Приклад #1 Приклад використання **ДсSet::join()** з роздільником**
 
-` <?php$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);var_dump($set->join("|"));?> `
+```php
+<?php
+$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);
+
+var_dump($set->join("|"));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "a|b|c|1|2|3"
+```
 
-**Приклад #2 Приклад використання **Ds\Set::join()** без роздільника**
+**Приклад #2 Приклад використання **ДсSet::join()** без роздільника**
 
-` <?php$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);var_dump($set->join());?> `
+```php
+<?php
+$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);
+
+var_dump($set->join());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "abc123"
+```

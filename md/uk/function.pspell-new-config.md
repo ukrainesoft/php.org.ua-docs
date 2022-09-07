@@ -1,53 +1,51 @@
-- [« pspell_config_save_repl](function.pspell-config-save-repl.md)
-- [pspell_new_personal »](function.pspell-new-personal.md)
+---
+navigation:
+  - function.pspell-config-save-repl.md: « pspellconfigsaverepl
+  - function.pspell-new-personal.md: pspellnewpersonal »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellnewconfig
+---
+# pspellnewconfig
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Завантажує новий словник із установками на основі заданої
-конфігурації
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-#pspell_new_config
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
-
-pspell_new_config — Завантажує новий словник із установками на основі
-заданої конфігурації
+pspellnewconfig — Завантажує новий словник із установками на основі заданої конфігурації
 
 ### Опис
 
-**pspell_new_config**([PSpell\Config](class.pspell-config.md)
-`$config`): [PSpell\Dictionary](class.pspell-dictionary.md)\|false
+```methodsynopsis
+pspell_new_config(PSpell\Config $config): PSpell\Dictionary|false
+```
 
-**pspell_new_config()** відкриває новий словник із параметрами, заданими
-в `config`, створеній за допомогою
-[pspell_config_create()](function.pspell-config-create.md) та
-модифікованою за допомогою функцій **pspell_config\_\*()**. Цей метод
-дає найбільшу гнучкість і має всі функціональні можливості,
-надані [pspell_new()](function.pspell-new.md) та
-[pspell_new_personal()](function.pspell-new-personal.md).
+**pspellnewconfig()** відкриває новий словник з параметрами, заданими в `config`, створеної за допомогою [pspellconfigcreate()](function.pspell-config-create.md) та модифікованою за допомогою функцій **pspellconfig**. Цей метод дає найбільшу гнучкість і має всі функціональні можливості, що надаються [pspellnew()](function.pspell-new.md) і [pspellnewpersonal()](function.pspell-new-personal.md)
 
 ### Список параметрів
 
 `config`
-Параметр `config` - це параметр, повернутий функцією
-[pspell_config_create()](function.pspell-config-create.md) після того,
-як конфігурація була створена.
+
+Параметр `config` - це параметр повернутий функцією [pspellconfigcreate()](function.pspell-config-create.md) після того, як конфігурацію було створено.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PSpell\Dictionary](class.pspell-dictionary.md)
-у разі успішного виконання або **`false`** у разі виникнення
-помилки.
+Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше повертався ресурс ([resource](language.types.resource.md)).               |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_new_config()****
+**Приклад #1 Приклад використання **pspellnewconfig()****
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");pspell_config_repl($pspell_config, "/var/dictionaries/custom. = pspell_new_config($pspell_config);?> `
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+pspell_config_repl($pspell_config, "/var/dictionaries/custom.repl");
+$pspell = pspell_new_config($pspell_config);
+?>
+```

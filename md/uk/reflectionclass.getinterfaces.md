@@ -1,10 +1,11 @@
-- [« ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md)
-- [ReflectionClass::getMethod »](reflectionclass.getmethod.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає інтерфейси
-
+---
+navigation:
+  - reflectionclass.getinterfacenames.md: '« ReflectionClass::getInterfaceNames'
+  - reflectionclass.getmethod.md: 'ReflectionClass::getMethod »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getInterfaces'
+---
 # ReflectionClass::getInterfaces
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ReflectionClass::getInterfaces — Повертає інтерфейси
 
 ### Опис
 
-public **ReflectionClass::getInterfaces**(): array
+```methodsynopsis
+public ReflectionClass::getInterfaces(): array
+```
 
 Повертає інтерфейси.
 
@@ -23,33 +26,44 @@ public **ReflectionClass::getInterfaces**(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив (array) інтерфейсів, у якому ключами є
-імена інтерфейсів, а значеннями – об'єкти
-[ReflectionClass](class.reflectionclass.md).
+Асоціативний масив (array) інтерфейсів, у якому ключами є імена інтерфейсів, а значеннями – об'єкти [ReflectionClass](class.reflectionclass.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::getInterfaces()****
 
-`<?phpinterface Foo { }interface Bar { }class Baz implements Foo, Bar { }$rc1 = new ReflectionClass("Baz");print_r($rc1->getInterfaces());?>
+```php
+<?php
+interface Foo { }
+
+interface Bar { }
+
+class Baz implements Foo, Bar { }
+
+$rc1 = new ReflectionClass("Baz");
+
+print_r($rc1->getInterfaces());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[Foo] => ReflectionClass Object
-(
-[name] => Foo
-)
+    [Foo] => ReflectionClass Object
+        (
+            [name] => Foo
+        )
 
-[Bar] => ReflectionClass Object
-(
-[name] => Bar
-)
+    [Bar] => ReflectionClass Object
+        (
+            [name] => Bar
+        )
 
 )
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getInterfaceNames()](reflectionclass.getinterfacenames.md) -
-Повертає імена інтерфейсів
+-   [ReflectionClass::getInterfaceNames()](reflectionclass.getinterfacenames.md) - Повертає імена інтерфейсів

@@ -1,25 +1,29 @@
-- [« fann_get_cascade_weight_multiplier](function.fann-get-cascade-weight-multiplier.md)
-- [fann_get_connection_rate »](function.fann-get-connection-rate.md)
+---
+navigation:
+  - function.fann-get-cascade-weight-multiplier.md: « fanngetcascadeweightmultiplier
+  - function.fann-get-connection-rate.md: fanngetconnectionrate »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetconnectionarray
+---
+# fanngetconnectionarray
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Отримує з'єднання в мережі
+(PECL fann> = 1.0.0)
 
-# fann_get_connection_array
-
-(PECL fann = 1.0.0)
-
-fann_get_connection_array — Отримує з'єднання в мережі
+fanngetconnectionarray — Отримує з'єднання в мережі
 
 ### Опис
 
-**fann_get_connection_array**(resource `$ann`): array
+```methodsynopsis
+fann_get_connection_array(resource $ann): array
+```
 
 Отримує з'єднання в мережі.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються

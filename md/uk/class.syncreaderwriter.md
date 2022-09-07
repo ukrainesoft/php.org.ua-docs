@@ -1,54 +1,49 @@
-- [«SyncEvent::wait](syncevent.wait.md)
-- [SyncReaderWriter::\_\_construct »](syncreaderwriter.construct.md)
-
-- [PHP Manual](index.md)
-- [Sync](book.sync.md)
-- Клас SyncReaderWriter
-
+---
+navigation:
+  - syncevent.wait.md: '« SyncEvent::wait'
+  - syncreaderwriter.construct.md: 'SyncReaderWriter::construct »'
+  - index.md: PHP Manual
+  - book.sync.md: Sync
+title: Клас SyncReaderWriter
+---
 # Клас SyncReaderWriter
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 ## Вступ
 
-Кросплатформова, нативна реалізація іменованих та безіменних
-об'єктів читання-запису.
+Кросплатформова, нативна реалізація іменованих та безіменних об'єктів читання-запису.
 
-Об'єкт читач-письменник дозволяє багатьом читачам чи одному письменнику
-отримати доступ до ресурсів. Це ефективне рішення для управління
-ресурсами, де доступ буде головним чином лише для читання, але іноді
-потрібний ексклюзивний доступ для запису.
+Об'єкт читач-письменник дозволяє багатьом читачам чи одному письменнику отримати доступом до ресурсу. Це ефективне рішення для управління ресурсами, де доступ буде головним чином тільки для читання, але іноді потрібний ексклюзивний доступ для запису.
 
 ## Огляд класів
 
-class **SyncReaderWriter** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](syncreaderwriter.construct.md)(string `$name` =
-?, int `$autounlock` = 1)
 
-public [readlock](syncreaderwriter.readlock.md)(int `$wait` = -1):
-bool
+    
+     
+      class SyncReaderWriter
+     
+     {
 
-public [readunlock](syncreaderwriter.readunlock.md)(): bool
 
-public [writelock](syncreaderwriter.writelock.md)(int `$wait` = -1):
-bool
+    /* Методы */
+    
+   public __construct(string $name = ?, int $autounlock = 1)
+public readlock(int $wait = -1): bool
+public readunlock(): bool
+public writelock(int $wait = -1): bool
+public writeunlock(): bool
 
-public [writeunlock](syncreaderwriter.writeunlock.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [SyncReaderWriter::\_\_construct](syncreaderwriter.construct.md) -
-Створює новий об'єкт SyncReaderWriter
-- [SyncReaderWriter::readlock](syncreaderwriter.readlock.md) -
-Чекає на блокування читання
-- [SyncReaderWriter::readunlock](syncreaderwriter.readunlock.md) -
-Знімає блокування читання
-- [SyncReaderWriter::writelock](syncreaderwriter.writelock.md) -
-Чекає ексклюзивного блокування запису
-- [SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.md) -
-Знімає блокування запису
+-   [SyncReaderWriter::construct](syncreaderwriter.construct.md) — Створює новий об'єкт SyncReaderWriter
+-   [SyncReaderWriter::readlock](syncreaderwriter.readlock.md) — Чекає на блокування читання
+-   [SyncReaderWriter::readunlock](syncreaderwriter.readunlock.md) — Знімає блокування читання
+-   [SyncReaderWriter::writelock](syncreaderwriter.writelock.md) — Чекає на ексклюзивне блокування запису
+-   [SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.md) - Знімає блокування запису

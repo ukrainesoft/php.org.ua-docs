@@ -1,25 +1,24 @@
-- [«SolrCollapseFunction::setHint](solrcollapsefunction.sethint.md)
-- [SolrCollapseFunction::setMin »](solrcollapsefunction.setmin.md)
-
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Вибирає заголовки групи за максимальним значенням числового поля
-або запит функції
-
+---
+navigation:
+  - solrcollapsefunction.sethint.md: '« SolrCollapseFunction::setHint'
+  - solrcollapsefunction.setmin.md: 'SolrCollapseFunction::setMin »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::setMax'
+---
 # SolrCollapseFunction::setMax
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
-SolrCollapseFunction::setMax — Вибирає заголовки групи за
-максимальному значенню числового поля або запиту функції
+SolrCollapseFunction::setMax — Вибір заголовків групи за максимальним значенням числового поля або запитом функції
 
 ### Опис
 
-public **SolrCollapseFunction::setMax**(string `$max`):
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+```methodsynopsis
+public SolrCollapseFunction::setMax(string $max): SolrCollapseFunction
+```
 
-Вибирає заголовки групи за максимальним значенням числового поля або
-запиту функції.
+Вибирає заголовки групи за максимальним значенням числового поля або запиту функції.
 
 ### Список параметрів
 
@@ -33,4 +32,16 @@ public **SolrCollapseFunction::setMax**(string `$max`):
 
 **Приклад #1 Приклад використання **SolrCollapseFunction::setMax()****
 
-` <?php$func = new SolrCollapseFunction('field_name');$func->setMax('sum(cscore(),field(some_field))');$query = new SolrQuery('*:*');$ query->collapse($func);?> `
+```php
+<?php
+
+$func = new SolrCollapseFunction('field_name');
+
+$func->setMax('sum(cscore(),field(some_field))');
+
+$query = new SolrQuery('*:*');
+
+$query->collapse($func);
+
+?>
+```

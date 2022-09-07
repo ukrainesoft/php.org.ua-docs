@@ -1,19 +1,22 @@
-- [« swoole_cpu_num](function.swoole-cpu-num.md)
-- [swoole_error_log »](function.swoole-error-log.md)
+---
+navigation:
+  - function.swoole-cpu-num.md: « swoolecpunum
+  - function.swoole-error-log.md: swooleerrorlog »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleerrno
+---
+# swooleerrno
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Отримати код помилки останнього системного виклику
+(PECL swoole >= 1.9.0)
 
-# swoole_errno
-
-(PECL swoole \>= 1.9.0)
-
-swoole_errno — Отримати код помилки останнього системного виклику
+swooleerrno — Отримати код помилки останнього системного виклику
 
 ### Опис
 
-**swoole_errno**(): int
+```methodsynopsis
+swoole_errno(): int
+```
 
 ### Список параметрів
 

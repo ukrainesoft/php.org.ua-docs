@@ -1,51 +1,70 @@
-- [«imageinterlace](function.imageinterlace.md)
-- [imagejpeg »](function.imagejpeg.md)
+---
+navigation:
+  - function.imageinterlace.md: « imageinterlace
+  - function.imagejpeg.md: imagejpeg »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageistruecolor
+---
+# imageistruecolor
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Визначає, чи є зображення повнокольоровим
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-#imageistruecolor
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-imageistruecolor — Визначає, чи є зображення повнокольоровим
+imageistruecolor — Визначає, чи зображення є повнокольоровим.
 
 ### Опис
 
-**imageistruecolor**([GdImage](class.gdimage.md) `$image`): bool
+```methodsynopsis
+imageistruecolor(GdImage $image): bool
+```
 
-**imageistruecolor()** визначає, чи є зображення `image`
-повнокольоровим.
+**imageistruecolor()** визначає, чи є зображення `image` повнокольоровим.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `image` повнокольорове, **`false`** в
-інакше.
+Повертає **`true`**, якщо `image` повнокольорове, **`false`** в іншому випадку.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Просте визначення повнокольорових зображень за допомогою
-**imageistruecolor()****
+**Приклад #1 Просте визначення повнокольорових зображень за допомогою **imageistruecolor()****
 
-` <?php// $im - зображення// Перевірка, є або зображення повнокольоровимif(!imageistruecolor($im)){    // Створення truecolor-зображення    $tcimage ; //копіювання з точки    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im)); imagedestroy($im); $im = $tc; $tc==NULL; // або використовуйте imagepalettetotruecolor()}// Continue working with image instance?> `
+```php
+<?php
+// $im - изображение
+
+// Проверка, является ли изображение полноцветным
+if(!imageistruecolor($im))
+{
+    // Создание truecolor-изображения
+    $tc = imagecreatetruecolor(imagesx($im), imagesy($im));
+
+    // копирование из точки
+    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im));
+    imagedestroy($im);
+
+    $im = $tc;
+    $tc = NULL;
+
+    // или используйте imagepalettetotruecolor()
+}
+
+// Continue working with image instance
+?>
+```
 
 ### Дивіться також
 
-- [imagecreatetruecolor()](function.imagecreatetruecolor.md) -
-Створення нового повнокольорового зображення
-- [imagepalettetotruecolor()](function.imagepalettetotruecolor.md) -
-Перетворює зображення на основі палітри на справжній колір
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [imagepalettetotruecolor()](function.imagepalettetotruecolor.md) - Перетворює зображення на основі палітри на справжній колір

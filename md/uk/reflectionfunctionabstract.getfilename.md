@@ -1,19 +1,22 @@
-- [« ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md)
-- [ReflectionFunctionAbstract::getName »](reflectionfunctionabstract.getname.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує ім'я файлу
-
+---
+navigation:
+  - reflectionfunctionabstract.getextensionname.md: '« ReflectionFunctionAbstract::getExtensionName'
+  - reflectionfunctionabstract.getname.md: 'ReflectionFunctionAbstract::getName »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getFileName'
+---
 # ReflectionFunctionAbstract::getFileName
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getFileName — Отримує ім'я файлу
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getFileName**(): string\|false
+```methodsynopsis
+public ReflectionFunctionAbstract::getFileName(): string|false
+```
 
 Отримує ім'я файлу з певною функцією користувача.
 
@@ -23,10 +26,8 @@ public **ReflectionFunctionAbstract::getFileName**(): string\|false
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу, в якому було визначено функцію. Повертає
-**`false`**, якщо клас визначено в ядрі PHP або в модулі PHP.
+Повертає ім'я файлу, в якому було визначено функцію. Повертає **`false`**, якщо клас визначений у ядрі PHP або модулі PHP.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) -
-Отримання імені простору імен
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) - Отримання імені простору імен

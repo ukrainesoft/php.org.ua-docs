@@ -1,26 +1,28 @@
-- [« MongoDB\BSON\UTCDateTime::\_\_toString](mongodb-bson-utcdatetime.tostring.md)
-- [MongoDB\BSON\Type »](class.mongodb-bson-type.md)
+---
+navigation:
+  - mongodb-bson-utcdatetime.tostring.md: '« MongoDBBSONUTCDateTime::toString'
+  - class.mongodb-bson-type.md: MongoDBBSONType »
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
+title: 'MongoDBBSONUTCDateTime::unserialize'
+---
+# MongoDBBSONUTCDateTime::unserialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
-- Десеріалізує UTCDateTime
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\UTCDateTime::unserialize
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\UTCDateTime::unserialize — Десеріалізує UTCDateTime
+MongoDBBSONUTCDateTime::unserialize — Десеріалізує UTCDateTime
 
 ### Опис
 
-final public **MongoDB\BSON\UTCDateTime::unserialize**(string
-`$serialized`): void
+```methodsynopsis
+final public MongoDB\BSON\UTCDateTime::unserialize(string $serialized): void
+```
 
 ### Список параметрів
 
 `serialized`
-Серіалізований
-[MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md).
+
+Серіалізований [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md)
 
 ### Значення, що повертаються
 
@@ -28,21 +30,12 @@ final public **MongoDB\BSON\UTCDateTime::unserialize**(string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Видає
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md),
-якщо властивості не можуть бути не серіалізовані (наприклад, `serialized`
-був неправильно сформований).
-- Видає
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md),
-якщо властивості неприпустимі (наприклад, відсутні поля або
-неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути не серіалізовані (наприклад, `serialized` був неправильно сформований).
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
 
 ### Дивіться також
 
-- [MongoDB\BSON\UTCDateTime::serialize()](mongodb-bson-utcdatetime.serialize.md) -
-Серіалізує UTCDateTime
-- [unserialize()](function.unserialize.md) - Створює PHP-значення з
-збереженого уявлення
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONUTCDateTime::serialize()](mongodb-bson-utcdatetime.serialize.md) - Серіалізує UTCDateTime
+-   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

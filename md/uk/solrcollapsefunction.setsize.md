@@ -1,25 +1,24 @@
-- [« SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.md)
-- [SolrCollapseFunction::\_\_toString »](solrcollapsefunction.tostring.md)
-
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Встановлює початковий розмір структур даних, що згортаються, тільки
-при згортанні по числовому полю
-
+---
+navigation:
+  - solrcollapsefunction.setnullpolicy.md: '« SolrCollapseFunction::setNullPolicy'
+  - solrcollapsefunction.tostring.md: 'SolrCollapseFunction::toString »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::setSize'
+---
 # SolrCollapseFunction::setSize
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
-SolrCollapseFunction::setSize — Встановлює початковий розмір
-структур даних, що згортаються, тільки при згортанні по числовому полю
+SolrCollapseFunction::setSize — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
 
 ### Опис
 
-public **SolrCollapseFunction::setSize**(int `$size`):
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+```methodsynopsis
+public SolrCollapseFunction::setSize(int $size): SolrCollapseFunction
+```
 
-Встановлює початковий розмір структур даних, що згортаються, тільки при
-згортання по числовому полю
+Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
 
 ### Список параметрів
 

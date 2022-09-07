@@ -1,29 +1,28 @@
-- [« ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md)
-- [ImagickDraw::line »](imagickdraw.line.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає рядок, що містить векторну графіку
-
+---
+navigation:
+  - imagickdraw.gettextundercolor.md: '« ImagickDraw::getTextUnderColor'
+  - imagickdraw.line.md: 'ImagickDraw::line »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getVectorGraphics'
+---
 # ImagickDraw::getVectorGraphics
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::getVectorGraphics — Повертає рядок, який містить векторний
-графіку
+ImagickDraw::getVectorGraphics — Повертає рядок, що містить векторну графіку
 
 ### Опис
 
-public **ImagickDraw::getVectorGraphics**(): string
+```methodsynopsis
+public ImagickDraw::getVectorGraphics(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає рядок, який визначає векторну графіку, згенеровану
-будь-якими графічними викликами, зробленими з моменту створення об'єкта
-[ImagickDraw](class.imagickdraw.md).
+Повертає рядок, який визначає векторну графіку, згенеровану будь-якими графічними викликами, зробленими з моменту створення об'єкта [ImagickDraw](class.imagickdraw.md)
 
 ### Значення, що повертаються
 

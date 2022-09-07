@@ -1,19 +1,20 @@
-- [« parallel\Channel::send](parallel-channel.send.md)
-- [parallel\Events »](class.parallel-events.md)
+---
+navigation:
+  - parallel-channel.send.md: '« parallelChannel::send'
+  - class.parallel-events.md: parallelEvents »
+  - index.md: PHP Manual
+  - class.parallel-channel.md: parallelChannel
+title: 'parallelChannel::close'
+---
+# parallelChannel::close
 
-- [PHP Manual](index.md)
-- [parallel\Channel](class.parallel-channel.md)
-- Закриття
-
-# parallel\Channel::close
-
-(0.9.0)
-
-parallel\Channel::close — Закриття
+parallelChannel::close — Закриття
 
 ### Опис
 
-public **parallel\Channel::close**(): void
+```methodsynopsis
+public parallel\Channel::close(): void
+```
 
 Закриває канал.
 
@@ -21,4 +22,4 @@ public **parallel\Channel::close**(): void
 
 **Увага**
 
-Викидає parallel\Channel\Error\Closed, якщо канал був закритий.
+Викидає parallelChannelErrorClosed, якщо канал вже був закритий.

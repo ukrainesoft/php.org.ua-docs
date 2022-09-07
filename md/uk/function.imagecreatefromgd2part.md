@@ -1,76 +1,87 @@
-- [«imagecreatefromgd2](function.imagecreatefromgd2.md)
-- [imagecreatefromgd »](function.imagecreatefromgd.md)
+---
+navigation:
+  - function.imagecreatefromgd2.md: « imagecreatefromgd2
+  - function.imagecreatefromgd.md: imagecreatefromgd »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromgd2part
+---
+# imagecreatefromgd2part
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Створення нового зображення на основі частини файлу GD2 або URL
+(PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
 
-#imagecreatefromgd2part
-
-(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8)
-
-imagecreatefromgd2part — Створення нового зображення на основі GD2
-файлу або URL
+imagecreatefromgd2part — Створення нового зображення на основі GD2 файлу або URL
 
 ### Опис
 
-**imagecreatefromgd2part**(
-string `$filename`,
-int `$x`,
-int `$y`,
-int `$width`,
-int `$height`
-): [GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagecreatefromgd2part(    string $filename,    int $x,    int $y,    int $width,    int $height): GdImage|false
+```
 
 Створення нового зображення на основі GD2 файлу або URL.
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо
-була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
-докладнішу інформацію про визначення імені файлу в описі функції
-[fopen()](function.fopen.md). Дивіться також список підтримуваних
-оберток URL, їх можливості, зауваження щодо використання та список
-визначених констант у розділі [Підтримувані протоколи та обертки](wrappers.md).
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Список параметрів
 
 `filename`
+
 Шлях до GD2 зображення.
 
 `x`
+
 x-координата точки вихідного зображення.
 
 `y`
+
 y-координата точки вихідного зображення.
 
 `width`
+
 Ширина вихідного зображення.
 
 `height`
+
 Висота вихідного зображення.
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecreatefromgd2part()****
 
-` <?php// Для цього прикладу нам спочатку потрібно дізнатися розмір зображення$image = getimagesize('./test.gd2');// Створення зображення$im = imagecreatefromgd   ($image[0] / 2) - 6, ($image[1] / 2) - 6);// Додамо рельєф на зображенняif(function_exists('imagefilter')){    imagefilter($im, / збереження зображенняimagegd2($im, './test_emboss.gd2');imagedestroy($im);?> `
+```php
+<?php
+// Для этого примера нам сначала потребуется узнать размер изображения
+$image = getimagesize('./test.gd2');
+
+// Создание изображения
+$im = imagecreatefromgd2part('./test.gd2', 4, 4, ($image[0] / 2) - 6, ($image[1] / 2) - 6);
+
+// Добавим рельеф на изображение
+if(function_exists('imagefilter'))
+{
+    imagefilter($im, IMG_FILTER_EMBOSS);
+}
+
+// сохранение изображения
+imagegd2($im, './test_emboss.gd2');
+imagedestroy($im);
+?>
+```
 
 ### Примітки
 
 **Увага**
 
-Формати зображень GD та GD2 є пропрієтарними форматами
-зображень libgd. Вони повинні розглядатися як застарілі і повинні
-використовуватися тільки з метою розробки та тестування.
+Формати зображень GD та GD2 є пропрієтарними форматами зображень libgd. Вони повинні розглядатися як *застарілі* і повинні використовуватися тільки з метою розробки та тестування.

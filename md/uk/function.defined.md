@@ -1,53 +1,57 @@
-- [«define](function.define.md)
-- [die»](function.die.md)
-
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- перевіряє існування зазначеної іменованої константи
-
+---
+navigation:
+  - function.define.md: « define
+  - function.die.md: die »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: defined
+---
 # defined
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-defined — Перевіряє існування вказаної константи
+defined — Перевіряє існування вказаної константи.
 
 ### Опис
 
-**defined**(string `$constant_name`): bool
+```methodsynopsis
+defined(string $constant_name): bool
+```
 
 Перевіряє існування та наявність значення зазначеної константи.
 
-> **Примітка**:
->
-> Якщо необхідно дізнатися про існування змінної, використовуйте
-> [isset()](function.isset.md), тому що **defined()** застосовна лише
-> для [констант](language.constants.md). Якщо вам необхідно дізнатися про
-> існування функції, то використовуйте
-> [function_exists()](function.function-exists.md).
+> **Зауваження**
+> 
+> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.md), так як **defined()** застосовна лише для [констант](language.constants.md). Якщо вам необхідно дізнатися про існування функції, використовуйте [functionexists()](function.function-exists.md)
 
 ### Список параметрів
 
 `constant_name`
+
 Ім'я константи.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо іменована константа, зазначена у параметрі
-`constant_name`, була визначена, **`false`** інакше.
+Повертає **`true`**, якщо іменована константа, зазначена у параметрі `constant_name`, була визначена, **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Перевірка констант**
 
-`<?php/* Важливо врахувати необхідність використання лапок. Даний приклад перевіряє, * є ли рядок 'TEST' іменем константи TEST. */if(defined('TEST')) {    echo TEST;}?> `
+```php
+<?php
+/* Важно учесть необходимость использования кавычек. Данный пример проверяет,
+ * является ли строка 'TEST' именем константы TEST. */
+if (defined('TEST')) {
+    echo TEST;
+}
+?>
+```
 
 ### Дивіться також
 
-- [define()](function.define.md) - Визначає іменовану константу
-- [constant()](function.constant.md) - Повертає значення константи
-- [get_defined_constants()](function.get-defined-constants.md) -
-Повертає асоціативний масив з іменами всіх констант та їх
-значень
-- [function_exists()](function.function-exists.md) - Повертає
-true, якщо зазначена функція визначена
-- Дивіться розділ [Константи](language.constants.md)
+-   [define()](function.define.md) - визначає іменовану константу
+-   [constant()](function.constant.md) - Повертає значення константи
+-   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   Дивіться розділ [Константи](language.constants.md)

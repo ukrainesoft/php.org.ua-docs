@@ -1,74 +1,90 @@
-- [« MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md)
-- [MongoDB\Driver\Exception\UnexpectedValueException »](class.mongodb-driver-exception-unexpectedvalueexception.md)
+---
+navigation:
+  - class.mongodb-driver-exception-serverexception.md: « MongoDBDriverExceptionServerException
+  - class.mongodb-driver-exception-unexpectedvalueexception.md: MongoDBDriverExceptionUnexpectedValueException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Клас MongoDBDriverExceptionSSLConnectionException (застарілий)
+---
+# Клас MongoDBDriverExceptionSSLConnectionException (застарілий)
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Клас MongoDB\Driver\Exception\SSLConnectionException (застарілий)
-
-# Клас MongoDB\Driver\Exception\SSLConnectionException (застарілий)
-
-(mongodb \>= 1.0.0)
+(mongodb >= 1.0.0)
 
 **Увага**
 
-Цей клас винятків застарів і може бути вилучений у майбутній основний
-версії. Драйвер ніколи не викине цей виняток.
+Цей клас винятків застарів і може бути вилучений у майбутній основній версії. Драйвер ніколи не викине цей виняток.
 
 ## Вступ
 
-Викидається, коли драйверу не вдається встановити з'єднання SSL з
-сервером.
+Викидається, коли драйверу не вдається встановити з'єднання SSL з сервером.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Exception\SSLConnectionException** extends
-[MongoDB\Driver\Exception\ConnectionException](class.mongodb-driver-exception-connectionexception.md)
-implements
-[MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-{
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected ?array `$errorLabels`;
+    
+    
+     final
+     
+      class MongoDB\Driver\Exception\SSLConnectionException
+     
 
-protected string `$message` = "";
+     
+      extends
+       MongoDB\Driver\Exception\ConnectionException
+     
 
-private string `$string` = "";
+     implements 
+       MongoDB\Driver\Exception\Exception {
+    
+    /* Наследуемые свойства */
+    
+    
+     protected
+     ?array
+      $errorLabels;
 
-protected int `$code`;
+    
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+    
+   final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $errorLabel): bool
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-/\* Наслідувані методи \*/
 
-final public
-[MongoDB\Driver\Exception\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md)(string
-`$errorLabel`): bool
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

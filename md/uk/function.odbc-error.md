@@ -1,47 +1,44 @@
-- [«odbc_do](function.odbc-do.md)
-- [odbc_errormsg »](function.odbc-errormsg.md)
+---
+navigation:
+  - function.odbc-do.md: « odbcдо
+  - function.odbc-errormsg.md: odbcerrormsg »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcerror
+---
+# odbcerror
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Повертає останній код помилки
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-#odbc_error
-
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
-
-odbc_error — Повертає останній код помилки
+odbcerror — Повертає останній код помилки
 
 ### Опис
 
-**odbc_error**(?resource `$odbc` = **`null`**): string
+```methodsynopsis
+odbc_error(?resource $odbc = null): string
+```
 
-Повертає шестизначний стан ODBC або порожній рядок, якщо помилок не
-виникло.
+Повертає шестизначний стан ODBC або порожній рядок, якщо помилок не виникло.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 
-Якщо вказано параметр `odbc`, повертається останній стан цього
-з'єднання, інакше повертається останній стан будь-якої сполуки.
+Якщо вказано параметр `odbc`, повертається останній стан цієї сполуки, інакше повертається останній стан будь-якої сполуки.
 
-Ця функція повертає осмислене значення, лише якщо останній
-запит ODBC завершився невдало (тобто функція
-[odbc_exec()](function.odbc-exec.md) повернула **`false`**).
+Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbcexec()](function.odbc-exec.md) повернула **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                               |
-|--------|------------------------------------|
-| 8.0.0  | odbc тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `odbc` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [odbc_errormsg()](function.odbc-errormsg.md) - Повертає
-останнє повідомлення про помилку
-- [odbc_exec()](function.odbc-exec.md) - Виконує інструкцію SQL
-безпосередньо
+-   [odbcerrormsg()](function.odbc-errormsg.md) - Повертає останнє повідомлення про помилку
+-   [odbcexec()](function.odbc-exec.md) - Виконує інструкцію SQL безпосередньо

@@ -1,10 +1,11 @@
-- [«Зумовлені константи](openssl.constants.md)
-- [Прапори заповнення для асиметричного шифрування »](openssl.padding.md)
-
-- [PHP Manual](index.md)
-- [Предвизначені константи](openssl.constants.md)
-- Прапори перевірки
-
+---
+navigation:
+  - openssl.constants.md: « Обумовлені константи
+  - openssl.padding.md: Флаги заполнения для ассиметричного шифрования »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
+title: Прапори перевірки
+---
 ## Прапори перевірки
 
 **`X509_PURPOSE_SSL_CLIENT`** (int)

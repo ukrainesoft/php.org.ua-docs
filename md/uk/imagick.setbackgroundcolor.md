@@ -1,24 +1,24 @@
-- [« Imagick::sepiaToneImage](imagick.sepiatoneimage.md)
-- [Imagick::setColorspace »](imagick.setcolorspace.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює колір фону за замовчуванням об'єкта
-
+---
+navigation:
+  - imagick.sepiatoneimage.md: '« Imagick::sepiaToneImage'
+  - imagick.setcolorspace.md: 'Imagick::setColorspace »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setBackgroundColor'
+---
 # Imagick::setBackgroundColor
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setBackgroundColor — Встановлює колір фону об'єкта
-замовчуванням
+Imagick::setBackgroundColor — Встановлює колір тла об'єкта за промовчанням
 
 ### Опис
 
-public
-**Imagick::setBackgroundColor**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$background`): bool
+```methodsynopsis
+public Imagick::setBackgroundColor(mixed $background): bool
+```
 
-Встановлює за замовчуванням колір фону об'єкта.
+Встановлює колір тла об'єкта за промовчанням.
 
 ### Список параметрів
 
@@ -26,10 +26,10 @@ public
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
-### Список змін
+### список змін
 
-| Версія                                                                                                                                                           | Опис |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL imagick 2.1.0 Тепер дозволяє використовувати рядок, що представляє колір, як параметр. Попередні версії дозволяли використовувати лише об'єкт ImagickPixel. |      |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Тепер дозволяє використовувати рядок, що представляє колір, як параметр. Попередні версії дозволяли використовувати лише об'єкт ImagickPixel. |

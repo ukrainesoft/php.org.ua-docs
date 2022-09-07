@@ -1,35 +1,54 @@
-- [«HRTime\StopWatch::stop](hrtime-stopwatch.stop.md)
-- [Модулі для роботи з файловою системою »](refs.fileprocess.file.md)
+---
+navigation:
+  - hrtime-stopwatch.stop.md: '« HRTimeStopWatch::stop'
+  - refs.fileprocess.file.md: Модулі для роботи з файловою системою
+  - index.md: PHP Manual
+  - book.hrtime.md: HRTime
+title: Клас HRTimeUnit
+---
+# Клас HRTimeUnit
 
-- [PHP Manual](index.md)
-- [HRTime](book.hrtime.md)
-- Клас HRTime\Unit
-
-# Клас HRTime\Unit
-
-(PECL hrtime \>= 0.4.3)
+(PECL hrtime >= 0.4.3)
 
 ## Вступ
 
 ## Огляд класів
 
-class **HRTime\Unit** {
+```synopsis
 
-/\* Константи \*/
 
-const int `SECOND` = 0;
+    
+    
+     
+      class HRTime\Unit
+     
+     {
+    
+    /* Константы */
+    
+     const
+     int
+      SECOND = 0;
 
-const int `MILLISECOND` = 1;
+    const
+     int
+      MILLISECOND = 1;
 
-const int `MICROSECOND` = 2;
+    const
+     int
+      MICROSECOND = 2;
 
-const int `NANOSECOND` = 3;
+    const
+     int
+      NANOSECOND = 3;
 
-/\* Методи \*/
 
-}
+    /* Методы */
+    
+   }
+```
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`HRTime\Unit::SECOND`**
 

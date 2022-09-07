@@ -1,29 +1,29 @@
-- [«Gmagick::readimageblob](gmagick.readimageblob.md)
-- [Gmagick::reducenoiseimage »](gmagick.reducenoiseimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Читає зображення або послідовність зображень із файлового
-дескриптора
-
+---
+navigation:
+  - gmagick.readimageblob.md: '« Gmagick::readimageblob'
+  - gmagick.reducenoiseimage.md: 'Gmagick::reducenoiseimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::readimagefile'
+---
 # Gmagick::readimagefile
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::readimagefile — Читає зображення або послідовність
-зображень із файлового дескриптора
+Gmagick::readimagefile — Читає зображення або послідовність зображень із файлового дескриптора
 
 ### Опис
 
-public **Gmagick::readimagefile**(resource `$fp`, string `$filename` =
-?): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::readimagefile(resource $fp, string $filename = ?): Gmagick
+```
 
-Читає зображення або послідовність зображень із файлового
-дескриптора.
+Читає зображення або послідовність зображень із файлового дескриптора.
 
 ### Список параметрів
 
 `fp`
+
 Дескриптор файлу.
 
 ### Значення, що повертаються

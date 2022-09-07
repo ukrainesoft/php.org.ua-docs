@@ -1,38 +1,33 @@
-- [« Fiber::\_\_construct](fiber.construct.md)
-- [Fiber::resume »](fiber.resume.md)
-
-- [PHP Manual](index.md)
-- [Fiber](class.fiber.md)
-- Починає виконання волокна
-
+---
+navigation:
+  - fiber.construct.md: '« Fiber::construct'
+  - fiber.resume.md: 'Fiber::resume »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::start'
+---
 # Fiber::start
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 Fiber::start — Починає виконання волокна
 
 ### Опис
 
-public
-**Fiber::start**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Fiber::start(mixed ...$args): mixed
+```
 
-Перемінний список аргументів, що передається об'єкту, що викликається,
-використовується при побудові файбер.
+Змінний список аргументів, що передається об'єкту, що викликається, використовується при побудові файбера.
 
-Якщо під час виклику методу файбер вже було запущено, буде викинуто
-[FiberError](class.fibererror.md).
+Якщо під час виклику методу файбер вже було запущено, буде викинуто [FiberError](class.fibererror.md)
 
 ### Список параметрів
 
 `args`
-Аргументи, які слід використовувати при викликі об'єкта, що викликається,
-переданого конструктору файбер.
+
+Аргументи, які слід використовувати при викликі об'єкта, що викликається, що передається конструктору файбера.
 
 ### Значення, що повертаються
 
-Значення, надане під час першого виклику
-[Fiber::suspend()](fiber.suspend.md) або **`null`** у разі повернення
-файбер. Якщо файбер викинув виняток перед зупинкою, воно буде
-викинуто із виклику цього методу.
+Значення, надане під час першого виклику [Fiber::suspend()](fiber.suspend.md) або **`null`** у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.

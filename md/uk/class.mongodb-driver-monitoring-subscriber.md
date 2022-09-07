@@ -1,29 +1,33 @@
-- [« MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.md)
-- [MongoDB\Driver\Exception »](mongodb.exceptions.md)
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.topologyopening.md: '« MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
+  - mongodb.exceptions.md: MongoDBDriverException »
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Інтерфейс MongoDBDriverMonitoringSubscriber
+---
+# Інтерфейс MongoDBDriverMonitoringSubscriber
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Інтерфейс MongoDB\Driver\Monitoring\Subscriber
-
-# Інтерфейс MongoDB\Driver\Monitoring\Subscriber
-
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
 ## Вступ
 
-Базовий інтерфейс для передплатників подій Використовується як тип
-параметра у функціях
-[MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md)
-і
-[MongoDB\Driver\Monitoring
-emoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md),
-і не має реалізовуватися безпосередньо.
+Базовий інтерфейс для передплатників подій Використовується як тип параметра у функціях [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) і [MongoDBDriverMonitoringremoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md), і має реалізовуватися напряму.
 
 ## Огляд інтерфейсів
 
-class **MongoDB\Driver\Monitoring\Subscriber** {
+```synopsis
 
-}
 
-Цей інтерфейс немає методів. Його єдина мета – бути базовим
-інтерфейс для всіх передплатників подій.
+    
+    
+     
+      class MongoDB\Driver\Monitoring\Subscriber
+     
+     {
+    
+
+   }
+```
+
+Цей інтерфейс немає методів. Його єдина мета – бути базовим інтерфейсом для всіх передплатників подій.

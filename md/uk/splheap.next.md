@@ -1,19 +1,22 @@
-- [« SplHeap::key](splheap.key.md)
-- [SplHeap::recoverFromCorruption »](splheap.recoverfromcorruption.md)
-
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Перехід до наступного вузла
-
+---
+navigation:
+  - splheap.key.md: '« SplHeap::key'
+  - splheap.recoverfromcorruption.md: 'SplHeap::recoverFromCorruption »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::next'
+---
 # SplHeap::next
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::next — Перехід до наступного сайту
 
 ### Опис
 
-public **SplHeap::next**(): void
+```methodsynopsis
+public SplHeap::next(): void
+```
 
 Перехід до наступного вузла. Також видалить вузол на вершині купи.
 

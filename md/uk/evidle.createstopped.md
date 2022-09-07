@@ -1,36 +1,50 @@
-- [«Evidle::\_\_construct](evidle.construct.md)
-- [EvIo »](class.evio.md)
-
-- [PHP Manual](index.md)
-- [EvIdle](class.evidle.md)
-- Створити об'єкт класу EvIdle, але не стартувати його
-
+---
+navigation:
+  - evidle.construct.md: '« EvIdle::construct'
+  - class.evio.md: EvIo »
+  - index.md: PHP Manual
+  - class.evidle.md: EvIdle
+title: 'EvIdle::createStopped'
+---
 # EvIdle::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvIdle::createStopped — Створити об'єкт класу EvIdle, але не стартувати
-його
+EvIdle::createStopped — Створити об'єкт класу EvIdle, але не стартувати його
 
 ### Опис
 
-final public static **EvIdle::createStopped**( string `$callback` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?, int `$priority` = ?): object
+```methodsynopsis
+final
+   public
+   static
+   EvIdle::createStopped(
+    string
+     $callback
+   , 
+    mixed
+     $data
+    = ?, 
+    int
+     $priority
+    = ?): object
+```
 
-Те саме, що і [EvIdle::\_\_construct()](evidle.construct.md) , але
-не здійснює автоматичного старту спостерігача.
+Те саме, що й [EvIdle::construct()](evidle.construct.md) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
 `callback`
-Дивіться [функції зворотного дзвінка спостерігачів](ev.watcher-callbacks.md).
+
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.md)
 
 `data`
+
 Довільні дані, асоційовані із спостерігачем
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -38,7 +52,5 @@ final public static **EvIdle::createStopped**( string `$callback` ,
 
 ### Дивіться також
 
-- [EvIdle::\_\_construct()](evidle.construct.md) - Конструктор
-спостерігача EvIdle
-- [EvLoop::idle()](evloop.idle.md) - Створює об'єкт спостерігача
-EvIdle, пов'язаний з поточним екземпляром циклу подій
+-   [EvIdle::construct()](evidle.construct.md) - Конструктор спостерігача EvIdle
+-   [EvLoop::idle()](evloop.idle.md) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій

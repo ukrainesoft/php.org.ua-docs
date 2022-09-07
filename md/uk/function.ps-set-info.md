@@ -1,66 +1,52 @@
-- [«ps_set_border_style](function.ps-set-border-style.md)
-- [ps_set_parameter »](function.ps-set-parameter.md)
+---
+navigation:
+  - function.ps-set-border-style.md: «pssetborderstyle
+  - function.ps-set-parameter.md: псsetparameter »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetinfo
+---
+# псsetinfo
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює інформаційні поля документа
+(PECL ps >= 1.1.0)
 
-#ps_set_info
-
-(PECL ps \>= 1.1.0)
-
-ps_set_info — Встановлює інформаційні поля документа
+псsetinfo — Встановлює інформаційні поля документа
 
 ### Опис
 
-**ps_set_info**(resource `$p`, string `$key`, string `$val`): bool
+```methodsynopsis
+ps_set_info(resource $p, string $key, string $val): bool
+```
 
-Встановлює певні інформаційні поля документа. Ці поля будуть
-відображатись у вигляді коментаря у заголовку файлу PostScript. Якщо
-документ конвертується в pdf, ці поля також будуть використовуватися для
-інформації про документ.
+Встановлює певні інформаційні поля документа. Ці поля відображатимуться як коментар у заголовку файлу PostScript. Якщо документ конвертується у PDF, ці поля також будуть використовуватися для інформації про документ.
 
-Для `BoundingBox` зазвичай встановлюється значення, надане першою
-сторінці. Це працює тільки якщо
-[ps_findfont()](function.ps-findfont.md) не викликалася раніше. У таких
-випадках BoundingBox не буде встановлений, якщо ви не встановите його явно
-за допомогою цієї функції.
+Для `BoundingBox` зазвичай встановлюється значення, яке присвоєно першій сторінці. Це працює тільки якщо [псfindfont()](function.ps-findfont.md) не викликалася раніше. У таких випадках BoundingBox не буде встановлений, якщо ви не встановите його за допомогою цієї функції.
 
-Функція більше не працюватиме, якщо заголовок файлу postscript вже
-записаний. Вона має викликатися перед першою сторінкою або першим викликом
-[ps_findfont()](function.ps-findfont.md).
+Функція більше не працюватиме, якщо заголовок файлу postscript вже записаний. Вона повинна викликатись перед першою сторінкою або першим викликом [псfindfont()](function.ps-findfont.md)
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `key`
-Ім'я інформаційного поля, що настроюється. Можна встановити такі
-значення: `Keywords`, `Subject`, `Title`, `Creator`, `Author`,
-`BoundingBox` та `Orientation`. Майте на увазі, що деякі з них мають
-значення для програм перегляду документів PostScript.
+
+Ім'я інформаційного поля, що настроюється. Можна встановити такі значення: `Keywords` `Subject` `Title` `Creator` `Author` `BoundingBox` і `Orientation`. Майте на увазі, що деякі з них мають значення для перегляду документів PostScript.
 
 `value`
-Значення інформаційного поля. Поле `Orientation` може бути встановлене
-як `Portrait` або `Landscape`. В `BoundingBox` - це рядок, що складається
-із чотирьох чисел. Перші два числа – координати лівого нижнього кута.
-сторінки. Останні два числа – координати верхнього правого кута.
 
-> **Примітка**:
->
-> До версії 0.2.6 pslib BoundingBox та Orientation будуть перезаписані
-> функцією [ps_begin_page()](function.ps-begin-page.md), якщо функція
-> [ps_findfont()](function.ps-findfont.md) не була викликана раніше.
+Значення інформаційного поля. Поле `Orientation` може бути встановлено як `Portrait` або `Landscape`. У `BoundingBox` - Це рядок, що складається із чотирьох чисел. Перші два числа – координати лівого нижнього кута сторінки. Останні два числа – координати верхнього правого кута.
+
+> **Зауваження**
+> 
+> До версії 0.2.6 pslib BoundingBox та Orientation будуть перезаписані функцією [псbeginpage()](function.ps-begin-page.md), якщо функція [псfindfont()](function.ps-findfont.md) не була викликана раніше.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_findfont()](function.ps-findfont.md) - Завантажує шрифт
-- [ps_begin_page()](function.ps-begin-page.md) - Починає нову
-сторінку
+-   [псfindfont()](function.ps-findfont.md) - Завантажує шрифт
+-   [псbeginpage()](function.ps-begin-page.md) - Починає нову сторінку

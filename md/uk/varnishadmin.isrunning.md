@@ -1,21 +1,22 @@
-- [« VarnishAdmin::getParams](varnishadmin.getparams.md)
-- [VarnishAdmin::setCompat »](varnishadmin.setcompat.md)
-
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Перевірити, чи виконується зараз підпорядкований процес
-varnish
-
+---
+navigation:
+  - varnishadmin.getparams.md: '« VarnishAdmin::getParams'
+  - varnishadmin.setcompat.md: 'VarnishAdmin::setCompat »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::isRunning'
+---
 # VarnishAdmin::isRunning
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
-VarnishAdmin::isRunning — Перевірити, чи виконується зараз
-підлеглий процес varnish
+Varnish Admin::is Running — Перевірити, чи виконується зараз підпорядкований процес varnish
 
 ### Опис
 
-public **VarnishAdmin::isRunning**(): bool
+```methodsynopsis
+public VarnishAdmin::isRunning(): bool
+```
 
 ### Список параметрів
 
@@ -23,5 +24,4 @@ public **VarnishAdmin::isRunning**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

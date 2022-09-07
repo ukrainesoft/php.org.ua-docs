@@ -1,40 +1,41 @@
-- [« trader_cdltasukigap](function.trader-cdltasukigap.md)
-- [trader_cdltristar »](function.trader-cdltristar.md)
+---
+navigation:
+  - function.trader-cdltasukigap.md: « tradercdltasukigap
+  - function.trader-cdltristar.md: tradercdltristar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlthrusting
+---
+# tradercdlthrusting
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Свічкова модель "Поштовх"
+(PECL trader >= 0.2.0)
 
-#trader_cdlthrusting
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlthrusting - Свічкова модель "Поштовх"
+tradercdlthrusting - Свічкова модель "Поштовх"
 
 ### Опис
 
-**trader_cdlthrusting**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlthrusting(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

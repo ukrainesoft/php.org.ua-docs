@@ -1,32 +1,63 @@
-- [« ibase_service_attach](function.ibase-service-attach.md)
-- [ibase_set_event_handler »](function.ibase-set-event-handler.md)
+---
+navigation:
+  - function.ibase-service-attach.md: « ibaseserviceattach
+  - function.ibase-set-event-handler.md: ibaseseteventhandler »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseservicedetach
+---
+# ibaseservicedetach
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- відключається від диспетчера служб
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_service_detach
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_service_detach — Вимикається від диспетчера служб
+ibaseservicedetach — Вимикається від диспетчера служб
 
 ### Опис
 
-**ibase_service_detach**(resource `$service_handle`): bool
+```methodsynopsis
+ibase_service_detach(resource $service_handle): bool
+```
 
 ### Список параметрів
 
 `service_handle`
+
 Раніше створене з'єднання із сервером бази даних.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_service_detach()****
+**Приклад #1 Приклад використання **ibaseservicedetach()****
 
-` <?php    // Присоединение к удаленному серверу Firebird по IP-адресу    if (($service = ibase_service_attach('10.1.1.199', 'sysdba', 'masterkey')) != FALSE) {        // Присоединение прошло успешно. // Повернення версії сервера (щось на зразок 'LI-V3.0.4.33054 Firebird 3.0')       $server_version  = ibase_server_info($SERVE,VC // Повернення реалізації сервера (щось на зразок'Firebird/Linux/AMD/Intel/x64')        $server_implementation = ibase_server_info($service, IBASE_SVC_IMP; // Від'єднання від сервера (відключення)        if(ibase_service_detach($service) == FALSE) {             echo "|| }|||||||||||| }    }   else {         // Висновок повідомлення в випадку виникнення помилки         $conn_error =| die($conn_error); }?> `
+```php
+<?php
+    // Присоединение к удаленному серверу Firebird по IP-адресу
+    if (($service = ibase_service_attach('10.1.1.199', 'sysdba', 'masterkey')) != FALSE) {
+
+        // Присоединение прошло успешно.
+        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
+        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
+
+        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
+        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
+
+        // Отсоединение от сервера (отключение)
+        if(ibase_service_detach($service) == FALSE) {
+            echo "Ошибка при отсоединении от службы.";
+        }
+        else {
+            echo "Отсоединение от службы прошло успешно.";
+        }
+
+    }
+    else {
+        // Вывод сообщения в случае возникновения ошибки
+        $conn_error = ibase_errmsg();
+        die($conn_error);
+    }
+
+?>
+```

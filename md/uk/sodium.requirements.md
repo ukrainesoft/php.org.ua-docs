@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](sodium.setup.md)
-- [Установка »](sodium.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sodium.setup.md)
-- Вимоги
-
+---
+navigation:
+  - sodium.setup.md: « Встановлення та налаштування
+  - sodium.installation.md: Установка »
+  - index.md: PHP Manual
+  - sodium.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Для модуля потрібен [> libsodium](https://libsodium.org/) ≥ 1.0.8.
+Для модуля потрібно [» libsodium](https://libsodium.org/)

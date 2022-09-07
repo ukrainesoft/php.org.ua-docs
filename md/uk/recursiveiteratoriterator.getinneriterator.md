@@ -1,28 +1,28 @@
-- [« RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.md)
-- [RecursiveIteratorIterator::getMaxDepth »](recursiveiteratoriterator.getmaxdepth.md)
-
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Отримання посилання на внутрішній ітератор
-
+---
+navigation:
+  - recursiveiteratoriterator.getdepth.md: '« RecursiveIteratorIterator::getDepth'
+  - recursiveiteratoriterator.getmaxdepth.md: 'RecursiveIteratorIterator::getMaxDepth »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::getInnerIterator'
+---
 # RecursiveIteratorIterator::getInnerIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::getInnerIterator — Отримання посилання на
-внутрішній ітератор
+RecursiveIteratorIterator::getInnerIterator — Отримання посилання на внутрішній ітератор
 
 ### Опис
 
-public **RecursiveIteratorIterator::getInnerIterator**():
-[RecursiveIterator](class.recursiveiterator.md)
+```methodsynopsis
+public RecursiveIteratorIterator::getInnerIterator(): RecursiveIterator
+```
 
 Отримує посилання на активний внутрішній ітератор.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,4 +30,4 @@ public **RecursiveIteratorIterator::getInnerIterator**():
 
 ### Значення, що повертаються
 
-Посилання на внутрішній об'єкт-ітератор.
+Посилання на внутрішній ітератор.

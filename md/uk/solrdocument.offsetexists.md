@@ -1,29 +1,31 @@
-- [«SolrDocument::next](solrdocument.next.md)
-- [SolrDocument::offsetGet »](solrdocument.offsetget.md)
-
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Перевіряє, чи існує конкретне поле
-
+---
+navigation:
+  - solrdocument.next.md: '« SolrDocument::next'
+  - solrdocument.offsetget.md: 'SolrDocument::offsetGet »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::offsetExists'
+---
 # SolrDocument::offsetExists
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::offsetExists — Перевіряє, чи конкретне поле існує
+SolrDocument::offsetExists — Перевіряє, чи існує конкретне поле
 
 ### Опис
 
-public **SolrDocument::offsetExists**(string `$fieldName`): bool
+```methodsynopsis
+public SolrDocument::offsetExists(string $fieldName): bool
+```
 
-Перевіряє, чи є певне поле. Використовується, коли об'єкт
-обробляється як масив.
+Перевіряє, чи існує певне поле. Використовується, коли об'єкт обробляється масивом.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

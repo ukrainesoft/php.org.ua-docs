@@ -1,42 +1,38 @@
-- [« session_id](function.session-id.md)
-- [session_name »](function.session-name.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- Повертає та/або встановлює модуль поточної сесії
-
-# session_module_name
+---
+navigation:
+  - function.session-id.md: « sessionід
+  - function.session-name.md: sessionname »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionmodulename
+---
+# sessionmodulename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-session_module_name — Повертає та/або встановлює модуль поточної
-сесії
+sessionmodulename — Повертає та/або встановлює модуль поточної сесії
 
 ### Опис
 
-**session_module_name**(?string `$module` = **`null`**): string\|false
+```methodsynopsis
+session_module_name(?string $module = null): string|false
+```
 
-**session_module_name()** повертає назву поточного модуля сесії,
-яке також відомий як
-[session.save_handler](session.configuration.md#ini.session.save-handler).
+**sessionmodulename()** повертає назву поточного модуля сесії, яка також відома як [session.savehandler](session.configuration.md#ini.session.save-handler)
 
 ### Список параметрів
 
 `module`
-Якщо вказано параметр `module` і не дорівнює **`null`**, цей модуль буде
-використаний замість поточного. Передача значення 'user' у цей параметр
-заборонено. Натомість має викликатися функція
-[session_set_save_handler()](function.session-set-save-handler.md) для
-установки користувальницького обробника.
+
+Якщо вказано параметр `module` і не дорівнює **`null`**, даний модуль буде використаний замість поточного. Передача значення `"user"` у цей параметр заборонено. Натомість має викликатися функція [sessionsetsavehandler()](function.session-set-save-handler.md) для встановлення користувальницького оброблювача.
 
 ### Значення, що повертаються
 
-Повертає назву поточного модуля сесії або **`false`** у разі
-виникнення помилки.
+Повертає назву поточного модуля сесії або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------|
-| 8.0.0  | module тепер може бути **null**.                                                                |
-| 7.2.0  | В даний момент заборонено встановлювати ім'я модуля на значення "user". Раніше це ігнорувалося. |
+| Версия | Описание |
+| --- | --- |
+|  | `module` тепер може бути **`null`** |
+|  | На даний момент заборонено встановлювати ім'я модуля на значення `"user"`. Раніше це ігнорувалося. |

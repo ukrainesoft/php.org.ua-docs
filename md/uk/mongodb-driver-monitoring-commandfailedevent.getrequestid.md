@@ -1,27 +1,24 @@
-- [« MongoDB\Driver\Monitoring\CommandFailedEvent::getReply](mongodb-driver-monitoring-commandfailedevent.getreply.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getServer »](mongodb-driver-monitoring-commandfailedevent.getserver.md)
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getreply.md: '« MongoDBDriverMonitoringCommandFailedEvent::getReply'
+  - mongodb-driver-monitoring-commandfailedevent.getserver.md: 'MongoDBDriverMonitoringCommandFailedEvent::getServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getRequestId'
+---
+# MongoDBDriverMonitoringCommandFailedEvent::getRequestId
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-- Повертає ідентифікатор запиту команди
+(mongodb >=1.3.0)
 
-# MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId
-
-(mongodb \>=1.3.0)
-
-MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId — Повертає
-ідентифікатор запиту команди
+MongoDBDriverMonitoringCommandFailedEvent::getRequestId — Повертає ідентифікатор запиту команди
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId**(): string
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId(): string
+```
 
-Ідентифікатор запиту генерується драйвером і може використовуватись для
-зв'язування
-[MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-з попереднім
-[MongoDB\Driver\Monitoring\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md).
+Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md) з попереднім [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
 
 ### Список параметрів
 
@@ -33,12 +30,9 @@ final public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId()](mongodb-driver-monitoring-commandstartedevent.getrequestid.md) -
-Повертає ідентифікатор запиту команди
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [MongoDBDriverMonitoringCommandStartedEvent::getRequestId()](mongodb-driver-monitoring-commandstartedevent.getrequestid.md) - Повертає ідентифікатор запиту команди
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

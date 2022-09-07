@@ -1,31 +1,33 @@
-- [«stream_bucket_new](function.stream-bucket-new.md)
-- [stream_context_create »](function.stream-context-create.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Додати відро на початок бригади
-
-#stream_bucket_prepend
+---
+navigation:
+  - function.stream-bucket-new.md: « streambucketnew
+  - function.stream-context-create.md: streamcontextcreate »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streambucketprepend
+---
+# streambucketprepend
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_bucket_prepend — Додати відро на початок бригади
+streambucketprepend — Додати відро на початок бригади
 
 ### Опис
 
-**stream_bucket_prepend**(resource `$brigade`, object `$bucket`): void
+```methodsynopsis
+stream_bucket_prepend(resource $brigade, object $bucket): void
+```
 
-Ця функція може використовуватися для додавання відра на початок бригади
-відер. Зазвичай вона викликається з
-[php_user_filter::filter()](php-user-filter.filter.md).
+Ця функція може використовуватися для додавання відра на початок бригади відер. Зазвичай вона викликається з [phpuserfilter::filter()](php-user-filter.filter.md)
 
 ### Список параметрів
 
 `brigade`
-`brigade` - ресурс, що вказує на `бригаду вёдер`, що містить
-один чи кілька об'єктів `bucket`.
+
+`brigade` - Ресурс, що вказує на `бригаду вёдер`яка містить один або кілька об'єктів `bucket`
 
 `bucket`
+
 Відро.
 
 ### Значення, що повертаються
@@ -34,6 +36,25 @@ stream_bucket_prepend — Додати відро на початок брига
 
 ### Приклади
 
-**Приклад #1 Приклади використання **stream_bucket_prepend()****
+**Приклад #1 Приклади використання **streambucketprepend()****
 
-`<?phpclass foo extends php_user_filter {  protected $calls = 0; public function filter($in, $out, &$consumed, $closing) {    while ($bucket = stream_bucket_make_writeable($in)) {      $consumed if ($this->calls++ == 2) {         // Це відро знову з'явиться перед любим іншим відром. stream_bucket_prepend($in, $bucket); }    }   return PSFS_FEED_ME; }}stream_filter_register('test', 'foo');print  file_get_contents('php://filter/read=test/resource=foo');?> `
+```php
+<?php
+
+class foo extends php_user_filter {
+  protected $calls = 0;
+  public function filter($in, $out, &$consumed, $closing) {
+    while ($bucket = stream_bucket_make_writeable($in)) {
+      $consumed += $bucket->datalen;
+      if ($this->calls++ == 2) {
+        // Это ведро снова появится перед любым другим ведром.
+        stream_bucket_prepend($in, $bucket);
+      }
+    }
+    return PSFS_FEED_ME;
+  }
+}
+stream_filter_register('test', 'foo');
+print  file_get_contents('php://filter/read=test/resource=foo');
+?>
+```

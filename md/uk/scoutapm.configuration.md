@@ -1,10 +1,11 @@
-- [« Установка](scoutapm.installation.md)
-- [Предвизначені константи »](scoutapm.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](scoutapm.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - scoutapm.installation.md: « Установка
+  - scoutapm.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - scoutapm.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

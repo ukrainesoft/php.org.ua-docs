@@ -1,30 +1,40 @@
-- [«EventHttpConnection::getBase](eventhttpconnection.getbase.md)
-- [EventHttpConnection::makeRequest »](eventhttpconnection.makerequest.md)
-
-- [PHP Manual](index.md)
-- [EventHttpConnection](class.eventhttpconnection.md)
-- Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
-
+---
+navigation:
+  - eventhttpconnection.getbase.md: '« EventHttpConnection::getBase'
+  - eventhttpconnection.makerequest.md: 'EventHttpConnection::makeRequest »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::getPeer'
+---
 # EventHttpConnection::getPeer
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventHttpConnection::getPeer — Отримує віддалену адресу та порт,
-пов'язаний із з'єднанням
+EventHttpConnection::getPeer — Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
 
 ### Опис
 
-public **EventHttpConnection::getPeer**( string `&$address` , int
-`&$port` ): void
+```methodsynopsis
+public
+   EventHttpConnection::getPeer(
+    string
+     &$address
+   , 
+    int
+     &$port
+   ): void
+```
 
 Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
 
 ### Список параметрів
 
 `address`
+
 Адреса, пов'язана зі з'єднанням.
 
 `port`
+
 Порт, пов'язаний із з'єднанням.
 
 ### Значення, що повертаються

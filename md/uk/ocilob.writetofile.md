@@ -1,24 +1,24 @@
-- [« OCILob::writeTemporary](ocilob.writetemporary.md)
-- [Застарілі найменування та функції OCI8 »](oldaliases.oci8.md)
+---
+navigation:
+  - ocilob.writetemporary.md: '« OCILob::writeTemporary'
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8 »
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::writeToFile'
+---
+# OCILob::writeToFile
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Псевдонім OCILob::export
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#OCILob::writeToFile
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-OCILob::writeToFile — Псевдонім [OCILob::export()](ocilob.export.md)
+OCILob::writeToFile - Псевдонім [OCILob::export()](ocilob.export.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[OCILob::export()](ocilob.export.md).
+Ця функція є псевдонімом: [OCILob::export()](ocilob.export.md)
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | offset та length тепер допускають значення null.                                                      |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `offset` і `length` тепер допускають значення null. |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |

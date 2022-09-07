@@ -1,38 +1,37 @@
-- [«enchant_dict_describe](function.enchant-dict-describe.md)
-- [enchant_dict_is_added »](function.enchant-dict-is-added.md)
+---
+navigation:
+  - function.enchant-dict-describe.md: « enchantdictdescribe
+  - function.enchant-dict-is-added.md: enchantdictісadded »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictgeterror
+---
+# enchantdictgeterror
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Повертає останню помилку поточної сесії перевірки
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-#enchant_dict_get_error
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
-
-enchant_dict_get_error — Повертає останню помилку поточної сесії
-перевірки
+enchantdictgeterror — Повертає останню помилку поточної сесії перевірки
 
 ### Опис
 
-**enchant_dict_get_error**([EnchantDictionary](class.enchantdictionary.md)
-`$dictionary`): string\|false
+```methodsynopsis
+enchant_dict_get_error(EnchantDictionary $dictionary): string|false
+```
 
 Повертає останню помилку поточної сесії перевірки.
 
 ### Список параметрів
 
 `dictionary`
-Словник Enchant, що повертається
-[enchant_broker_request_dict()](function.enchant-broker-request-dict.md)
-або
-[enchant_broker_request_pwl_dict()](function.enchant-broker-request-pwl-dict.md).
+
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 ### Значення, що повертаються
 
-Повертає рядок з помилкою або **`false`**, якщо такого немає.
+Повертає рядок з помилкою або \*\*`false`\*\*якщо такої немає.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

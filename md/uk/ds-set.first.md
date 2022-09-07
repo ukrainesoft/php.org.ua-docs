@@ -1,20 +1,22 @@
-- [« Ds\Set::filter](ds-set.filter.md)
-- [Ds\Set::get »](ds-set.get.md)
+---
+navigation:
+  - ds-set.filter.md: '« DsSet::filter'
+  - ds-set.get.md: 'ДсSet::get »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::first'
+---
+# ДсSet::first
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає перший елемент колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Set::first
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::first — Повертає перший елемент колекції
+ДсSet::first — Повертає перший елемент колекції
 
 ### Опис
 
-public **Ds\Set::first**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Set::first(): mixed
+```
 
 Повертає перший елемент колекції.
 
@@ -28,16 +30,21 @@ public **Ds\Set::first**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::first()****
+**Приклад #1 Приклад використання **ДсSet::first()****
 
-` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->first());?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2, 3]);
+var_dump($set->first());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1)
+```

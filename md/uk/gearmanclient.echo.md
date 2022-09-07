@@ -1,31 +1,31 @@
-- [« GearmanClient::doStatus](gearmanclient.dostatus.md)
-- [GearmanClient::error »](gearmanclient.error.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Надсилає дані всім серверам завдань, щоб перевірити відгук
-[Застарілий метод]
-
+---
+navigation:
+  - gearmanclient.dostatus.md: '« GearmanClient::doStatus'
+  - gearmanclient.error.md: 'GearmanClient::error »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::echo'
+---
 # GearmanClient::echo
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanClient::echo — Надсилає дані всім серверам завдань, щоб
-перевірити відгук [Застарілий метод]
+GearmanClient::echo — Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
 
 ### Опис
 
-public **GearmanClient::echo**(string `$workload`): bool
+```methodsynopsis
+public GearmanClient::echo(string $workload): bool
+```
 
-Метод **GearmanClient::echo()** застарів з pecl/gearman 1.0.0.
-Використовуйте [GearmanClient::ping()](gearmanclient.ping.md).
+Метод **GearmanClient::echo()** застарів з pecl/gearman 1.0.0. Використовуйте [GearmanClient::ping()](gearmanclient.ping.md)
 
 ### Список параметрів
 
 `workload`
+
 Деякі довільні серіалізовані дані для отримання відгуку
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

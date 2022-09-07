@@ -1,19 +1,22 @@
-- [« swoole_event_set](function.swoole-event-set.md)
-- [swoole_event_write »](function.swoole-event-write.md)
+---
+navigation:
+  - function.swoole-event-set.md: « swooleeventset
+  - function.swoole-event-write.md: swooleeventwrite »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleeventwait
+---
+# swooleeventwait
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Запустити цикл подій
+(PECL swoole >= 1.9.0)
 
-# swoole_event_wait
-
-(PECL swoole \>= 1.9.0)
-
-swoole_event_wait — Запустити цикл подій
+swooleeventwait — Запустити цикл подій
 
 ### Опис
 
-**swoole_event_wait**(): void
+```methodsynopsis
+swoole_event_wait(): void
+```
 
 ### Список параметрів
 

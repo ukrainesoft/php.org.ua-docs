@@ -1,54 +1,93 @@
-- [« GearmanWorker::setOptions](gearmanworker.setoptions.md)
-- [GearmanWorker::timeout »](gearmanworker.timeout.md)
-
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Встановлення часу очікування на введення/виводу на сокеті
-
+---
+navigation:
+  - gearmanworker.setoptions.md: '« GearmanWorker::setOptions'
+  - gearmanworker.timeout.md: 'GearmanWorker::timeout »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::setTimeout'
+---
 # GearmanWorker::setTimeout
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
-GearmanWorker::setTimeout — Встановлення часу очікування на введення/виведення на
-сокеті
+GearmanWorker::setTimeout — Завдання часу очікування на введення/виведення на сокеті
 
 ### Опис
 
-public **GearmanWorker::setTimeout**(int `$timeout`): bool
+```methodsynopsis
+public GearmanWorker::setTimeout(int $timeout): bool
+```
 
 Встановлює час очікування на активність на сокеті.
 
 ### Список параметрів
 
 `timeout`
-Часовий інтервал у мілісекундах. Негативне значення вказує на
-відсутність обмежень.
+
+Тимчасовий інтервал у мілісекундах. Негативне значення вказує на відсутність обмежень.
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**.
+Завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Простий обробник з п'ятисекундним часом очікування**
+**Приклад #1 Простий обробник із п'ятисекундним часом очікування**
 
-`<?phpecho "Запуск
-";# створюємо об'єкт обробника.$gmworker= new GearmanWorker();# додаємо сервер за мовчанням (localhost).$gmworker->addServer();# реєструємо функцію "reverse "reverse_fn");# встановлюємо час очікування 5 секунд$gmworker->setTimeout(5000);echo "Чекання завдання...
-";while(@$gmworker->work() ||||$gmworker->returnCode() == GEARMAN_TIMEOUT){  if ($gmworker->returnCode() == GEARMAN_TIMEOUT)що         | ...   echo "Час вийшов. Очікування наступного завдання...
-";   continue;  }  if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {    echo "Код повернення: " . $gmworker->|
-";    break;  }}echo "Готово
-";function reverse_fn($job){ return strrev($job->workload());}?> `
+```php
+<?php
 
-Якщо запустити цей обробник і не передавати йому завдань, висновок буде
-приблизно таким:
+echo "Запуск\n";
 
+# создаём объект обработчика.
+$gmworker= new GearmanWorker();
+
+# добавляем сервер по умолчанию (localhost).
+$gmworker->addServer();
+
+# регистрируем функцию "reverse" на сервере
+$gmworker->addFunction("reverse", "reverse_fn");
+
+# устанавливаем время ожидания 5 секунд
+$gmworker->setTimeout(5000);
+
+echo "Ожидание задания...\n";
+while(@$gmworker->work() || $gmworker->returnCode() == GEARMAN_TIMEOUT)
+{
+  if ($gmworker->returnCode() == GEARMAN_TIMEOUT)
+  {
+    # Обычно хотелось бы сделать что-то полезное здесь ...
+    echo "Время вышло. Ожидание следующего задания...\n";
+    continue;
+  }
+
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "Код возврата: " . $gmworker->returnCode() . "\n";
+    break;
+  }
+}
+
+echo "Готово\n";
+
+function reverse_fn($job)
+{
+  return strrev($job->workload());
+}
+
+?>
+```
+
+Якщо запустити цей обробник і не передавати йому завдань, висновок буде таким:
+
+```
 Запуск
-Очікування завдання...
-Час вийшов. Очікування наступного завдання.
-Час вийшов. Очікування наступного завдання.
-Час вийшов. Очікування наступного завдання.
+Ожидание задания...
+Время вышло. Ожидание следующего задания...
+Время вышло. Ожидание следующего задания...
+Время вышло. Ожидание следующего задания...
+```
 
 ### Дивіться також
 
-- [GearmanWorker::timeout()](gearmanworker.timeout.md) - Отримання
-значення час очікування запитів на сокеті
+-   [GearmanWorker::timeout()](gearmanworker.timeout.md) - Отримання значення час очікування запитів на сокеті

@@ -1,20 +1,22 @@
-- [« IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)
-- [IteratorIterator::next »](iteratoriterator.next.md)
-
-- [PHP Manual](index.md)
-- [IteratorIterator](class.iteratoriterator.md)
-- Отримує ключ поточного елемента
-
+---
+navigation:
+  - iteratoriterator.getinneriterator.md: '« IteratorIterator::getInnerIterator'
+  - iteratoriterator.next.md: 'IteratorIterator::next »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::key'
+---
 # IteratorIterator::key
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::key — Отримує ключ поточного елемента
 
 ### Опис
 
-public **IteratorIterator::key**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public IteratorIterator::key(): mixed
+```
 
 Отримує ключ поточного елемента.
 
@@ -28,5 +30,4 @@ public **IteratorIterator::key**():
 
 ### Дивіться також
 
-- [IteratorIterator::current()](iteratoriterator.current.md) -
-Отримує поточне значення
+-   [IteratorIterator::current()](iteratoriterator.current.md) - Отримує поточне значення

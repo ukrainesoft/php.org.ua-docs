@@ -1,19 +1,22 @@
-- [« Ds\Sequence::apply](ds-sequence.apply.md)
-- [Ds\Sequence::contains »](ds-sequence.contains.md)
+---
+navigation:
+  - ds-sequence.apply.md: '« DsSequence::apply'
+  - ds-sequence.contains.md: 'ДсSequence::contains »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::capacity'
+---
+# ДсSequence::capacity
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Повертає поточну місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::capacity
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::capacity — Повертає поточну місткість
+ДсSequence::capacity — Повертає поточну місткість
 
 ### Опис
 
-abstract public **Ds\Sequence::capacity**(): int
+```methodsynopsis
+abstract public Ds\Sequence::capacity(): int
+```
 
 Повертає поточну місткість.
 
@@ -27,12 +30,25 @@ abstract public **Ds\Sequence::capacity**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::capacity()****
+**Приклад #1 Приклад використання **ДсSequence::capacity()****
 
-` <?php$sequence = new \Ds\Vector();var_dump($sequence->capacity());$sequence->push(...range(1, 50));var_dump($sequence->capacity ());$sequence[] = "a";var_dump($sequence->capacity());?> `
+```php
+<?php
+$sequence = new \Ds\Vector();
+var_dump($sequence->capacity());
+
+$sequence->push(...range(1, 50));
+var_dump($sequence->capacity());
+
+$sequence[] = "a";
+var_dump($sequence->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(10)
 int(50)
 int(75)
+```

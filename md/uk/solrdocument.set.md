@@ -1,33 +1,35 @@
-- [« SolrDocument::serialize](solrdocument.serialize.md)
-- [SolrDocument::sort »](solrdocument.sort.md)
+---
+navigation:
+  - solrdocument.serialize.md: '« SolrDocument::serialize'
+  - solrdocument.sort.md: 'SolrDocument::sort »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::set'
+---
+# SolrDocument::set
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Додає ще одне поле до документа
+(PECL solr> = 0.9.2)
 
-# SolrDocument::\_\_set
-
-(PECL solr \> = 0.9.2)
-
-SolrDocument::\_\_set — Додає ще одне поле до документа
+SolrDocument::set — Додає ще одне поле до документа
 
 ### Опис
 
-public **SolrDocument::\_\_set**(string `$fieldName`, string
-`$fieldValue`): bool
+```methodsynopsis
+public SolrDocument::__set(string $fieldName, string $fieldValue): bool
+```
 
-Додає ще одне поле документа. Використовується для встановлення полів у
-якість нових властивостей.
+Додає ще одне поле до документа. Використовується для встановлення полів як нові властивості.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 `fieldValue`
+
 Значення поля.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

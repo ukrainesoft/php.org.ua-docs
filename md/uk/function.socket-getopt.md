@@ -1,18 +1,17 @@
-- [«socket_get_option](function.socket-get-option.md)
-- [socket_getpeername »](function.socket-getpeername.md)
+---
+navigation:
+  - function.socket-get-option.md: « socketgetoption
+  - function.socket-getpeername.md: socketgetpeername »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketgetopt
+---
+# socketgetopt
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Псевдонім socket_get_option
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# socket_getopt
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-socket_getopt - Псевдонім
-[socket_get_option()](function.socket-get-option.md)
+socketgetopt - Псевдонім [socketgetoption()](function.socket-get-option.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[socket_get_option()](function.socket-get-option.md).
+Ця функція є псевдонімом: [socketgetoption()](function.socket-get-option.md)

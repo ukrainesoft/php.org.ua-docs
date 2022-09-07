@@ -1,34 +1,34 @@
-- [« Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md)
-- [Imagick::setImageCompose »](imagick.setimagecompose.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює колірний простір зображення
-
+---
+navigation:
+  - imagick.setimagecolormapcolor.md: '« Imagick::setImageColormapColor'
+  - imagick.setimagecompose.md: 'Imagick::setImageCompose »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageColorspace'
+---
 # Imagick::setImageColorspace
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageColorspace — Встановлює колірний простір
-зображення
+Imagick::setImageColorspace — Встановлює колірний простір зображення
 
 ### Опис
 
-public **Imagick::setImageColorspace**(int `$colorspace`): bool
+```methodsynopsis
+public Imagick::setImageColorspace(int $colorspace): bool
+```
 
-Встановлює колірний простір зображення. Метод слідує
-використовувати під час створення нових зображень. Щоб змінити колір
-простір існуючого зображення, ви повинні використовувати
-[Imagick::transformImageColorspace()](imagick.transformimagecolorspace.md).
+Встановлює колірний простір зображення. Метод слід використовувати під час створення нових зображень. Щоб змінити колірний простір існуючого зображення, потрібно використовувати [Imagick::transformImageColorspace()](imagick.transformimagecolorspace.md)
 
 ### Список параметрів
 
 `colorspace`
+
 Одна з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

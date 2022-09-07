@@ -1,97 +1,127 @@
-- [«cubrid_fetch_lengths](function.cubrid-fetch-lengths.md)
-- [cubrid_fetch_row »](function.cubrid-fetch-row.md)
+---
+navigation:
+  - function.cubrid-fetch-lengths.md: « cubridfetchlengths
+  - function.cubrid-fetch-row.md: cubridfetchrow »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfetchobject
+---
+# cubridfetchobject
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Витягти наступний рядок як об'єкт
+(PECL CUBRID >= 8.3.0)
 
-# cubrid_fetch_object
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_fetch_object — Витягти наступний рядок як об'єкт
+cubridfetchobject — Витягти наступний рядок як об'єкт
 
 ### Опис
 
-**cubrid_fetch_object**(
-resource `$result`,
-string `$class_name` = ?,
-array `$params` = ?,
-int `$type` = ?
-): object
+```methodsynopsis
+cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $params = ?,    int $type = ?): object
+```
 
-Функція повертає об'єкт із властивостями, імена яких дорівнюють іменам
-стовпців результуючого набору, а значення відповідно значенням.
+Функція повертає об'єкт з властивостями, імена яких дорівнюють іменам стовпців результуючого набору, а значення відповідно значенням.
 
 ### Список параметрів
 
 `result`
-`Result` отриманий з [cubrid_execute()](function.cubrid-execute.md)
+
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `class_name`
-Назва класу, який буде використаний для створення об'єкта. Якщо не
-задано, то буде використаний **stdClass** (stdClass - базовий, порожній,
-клас PHP, який використовується при перетворенні інших типів
-об'єкти).
+
+Назва класу, який буде використаний для створення об'єкта. Якщо не задано, то буде використано **stdClass** (stdClass - базовий, порожній клас PHP, який використовується при перетворенні інших типів в об'єкти).
 
 `params`
-Необов'язковий масив параметрів передачі в конструктор
-`class_name`.
+
+Необов'язковий масив параметрів передачі в конструктор `class_name`
 
 `type`
-Може містити лише CUBRID_LOB. Використовується під час роботи з об'єктами
-типу LOB.
+
+Може містити лише CUBRIDLOB. Використовується під час роботи з об'єктами типу LOB.
 
 ### Значення, що повертаються
 
 Об'єкт у разі успішного виконання.
 
-**`false`**, якщо рядків більше немає; **`null`**, коли процес
-завершується з помилкою.
+\*\*`false`\*\*якщо рядків більше немає; \*\*`null`\*\*коли процес завершується з помилкою.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_fetch_object()****
+**Приклад #1 Приклад використання **cubridfetchobject()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$res = cubrid_execute($conn, "SELECT * FROM code");var_dump(cubrid_fetch_object| з LOB використовуйте cubrid_fetch_object($res, CUBRID_LOB)class demodb_code {    public $s_name = null; public $f_name = = null; public function toString() {        var_dump($this); }}var_dump(cubrid_fetch_object($res, "demodb_code"));// В случае работы с LOB используйте cubrid_fetch_object($res, "demodb_code", CUBRID_LOB)class demodb_code_construct extends demodb_code {    public function __construct($s, $f) { $this->s_name = $s; $this->f_name = $f; }}var_dump(cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name'))); f_name'), CUBRID_LOB)var_dump(cubrid_fetch_object($res));cubrid_close_request($res);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$res = cubrid_execute($conn, "SELECT * FROM code");
+
+var_dump(cubrid_fetch_object($res));
+
+// В случае работы с LOB используйте cubrid_fetch_object($res, CUBRID_LOB)
+
+class demodb_code {
+    public $s_name = null;
+    public $f_name = null;
+
+    public function toString() {
+        var_dump($this);
+    }
+}
+
+var_dump(cubrid_fetch_object($res, "demodb_code"));
+
+// В случае работы с LOB используйте cubrid_fetch_object($res, "demodb_code", CUBRID_LOB)
+
+class demodb_code_construct extends demodb_code {
+    public function __construct($s, $f) {
+        $this->s_name = $s;
+        $this->f_name = $f;
+    }
+}
+
+var_dump(cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name')));
+
+// В случае работы с LOB используйте cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name'), CUBRID_LOB)
+
+
+var_dump(cubrid_fetch_object($res));
+
+cubrid_close_request($res);
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(stdClass)#1 (2) {
-["s_name"]=>
-string(1) "X"
-["f_name"]=>
-string(5) "Mixed"
+  ["s_name"]=>
+  string(1) "X"
+  ["f_name"]=>
+  string(5) "Mixed"
 }
 object(demodb_code)#1 (2) {
-["s_name"]=>
-string(1) "W"
-["f_name"]=>
-string(5) "Woman"
+  ["s_name"]=>
+  string(1) "W"
+  ["f_name"]=>
+  string(5) "Woman"
 }
 object(demodb_code_construct)#1 (2) {
-["s_name"]=>
-string(6) "s_name"
-["f_name"]=>
-string(6) "f_name"
+  ["s_name"]=>
+  string(6) "s_name"
+  ["f_name"]=>
+  string(6) "f_name"
 }
 object(stdClass)#1 (2) {
-["s_name"]=>
-string(1) "B"
-["f_name"]=>
-string(6) "Bronze"
+  ["s_name"]=>
+  string(1) "B"
+  ["f_name"]=>
+  string(6) "Bronze"
 }
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
-- [cubrid_fetch()](function.cubrid-fetch.md) - Вибирає наступну
-рядок із набору результатів
-- [cubrid_fetch_array()](function.cubrid-fetch-array.md) -
-Вилучення рядка з результуючого набору у вигляді асоціативного
-масиву, індексованого масиву або обох відразу
-- [cubrid_fetch_assoc()](function.cubrid-fetch-assoc.md) - Вийняти
-рядок із результуючого набору у вигляді асоціативного масиву
-- [cubrid_fetch_row()](function.cubrid-fetch-row.md) - Вийняти
-рядок із результуючого набору у вигляді індексованого масиву
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridfetch()](function.cubrid-fetch.md) - Вибирає наступний рядок із набору результатів
+-   [cubridfetcharray()](function.cubrid-fetch-array.md) - Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
+-   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubridfetchrow()](function.cubrid-fetch-row.md) - Витягти рядок із результуючого набору у вигляді індексованого масиву

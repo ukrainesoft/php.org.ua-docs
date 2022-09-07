@@ -1,14 +1,15 @@
-- [«Зумовлені константи](phar.constants.md)
-- [Використання Phar-архівів: Вступ »](phar.using.intro.md)
-
-- [PHP Manual](index.md)
-- [Phar](book.phar.md)
-- Використання Phar-архівів
-
+---
+navigation:
+  - phar.constants.md: « Обумовлені константи
+  - phar.using.intro.md: 'Использование Phar-архивов: Введение »'
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Використання Phar-архівів
+---
 # Використання Phar-архівів
 
 ## Зміст
 
-- [Використання Phar-архівів: Вступ](phar.using.intro.md)
-- [Використання Phar-архівів: обгортка потоку phar](phar.using.stream.md)
-- [Використання Phar-архівів: класи Phar та PharData](phar.using.object.md)
+-   [Использование Phar-архивов: Введение](phar.using.intro.md)
+-   [Использование Phar-архивов: обёртка потока phar](phar.using.stream.md)
+-   [Використання Phar-архівів: класи Phar та PharData](phar.using.object.md)

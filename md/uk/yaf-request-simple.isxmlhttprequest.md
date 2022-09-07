@@ -1,20 +1,22 @@
-- [« Yaf_Request_Simple::getRequest](yaf-request-simple.getrequest.md)
-- [Yaf_Response_Abstract »](class.yaf-response-abstract.md)
+---
+navigation:
+  - yaf-request-simple.getrequest.md: '« YafRequestSimple::getRequest'
+  - class.yaf-response-abstract.md: YafResponseAbstract »
+  - index.md: PHP Manual
+  - class.yaf-request-simple.md: YafRequestSimple
+title: 'YafRequestSimple::isXmlHttpRequest'
+---
+# YafRequestSimple::isXmlHttpRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Simple](class.yaf-request-simple.md)
-- Визначає, чи є запит AJAX-запитом
+(Yaf >=1.0.0)
 
-# Yaf_Request_Simple::isXmlHttpRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Simple::isXmlHttpRequest — Визначає запитання.
-AJAX-запитом
+YafRequestSimple::isXmlHttpRequest — Визначає, чи є запит AJAX-запитом
 
 ### Опис
 
-public **Yaf_Request_Simple::isXmlHttpRequest**(): void
+```methodsynopsis
+public Yaf_Request_Simple::isXmlHttpRequest(): void
+```
 
 ### Список параметрів
 
@@ -22,12 +24,9 @@ public **Yaf_Request_Simple::isXmlHttpRequest**(): void
 
 ### Значення, що повертаються
 
-Завжди повертає false для
-[Yaf_Request_Simple](class.yaf-request-simple.md)
+Завжди повертає false для [YafRequestSimple](class.yaf-request-simple.md)
 
 ### Дивіться також
 
-- [Yaf_Request_Abstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.md) -
-Визначає, чи є запит AJAX-запитом
-- [Yaf_Request_Http::isXmlHTTPRequest()](yaf-request-http.isxmlhttprequest.md) -
-Визначає, чи є запит Ajax-запитом
+-   [YafRequestAbstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом
+-   [YafRequestHttp::isXmlHTTPRequest()](yaf-request-http.isxmlhttprequest.md) - Визначає, чи є запит Ajax-запитом

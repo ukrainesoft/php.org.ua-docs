@@ -1,36 +1,35 @@
-- [« yaz_connect](function.yaz-connect.md)
-- [yaz_element »](function.yaz-element.md)
+---
+navigation:
+  - function.yaz-connect.md: « yazconnect
+  - function.yaz-element.md: yazelement »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazdatabase
+---
+# yazdatabase
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Визначає бази даних у сеансі
+(PHP 4> = 4.0.6, PECL yaz> = 0.9.0)
 
-# yaz_database
-
-(PHP 4 = 4.0.6, PECL yaz = 0.9.0)
-
-yaz_database — Визначає бази даних у сеансі
+yazdatabase — Визначає бази даних у сеансі
 
 ### Опис
 
-**yaz_database**(resource `$id`, string `$databases`): bool
+```methodsynopsis
+yaz_database(resource $id, string $databases): bool
+```
 
-Функція дозволяє змінювати бази даних протягом сеансу, вказавши одну або
-кілька баз даних, які будуть використовуватися при пошуку, пошуку та
-і т.д. - перевизначення баз даних, вказаних у виклику
-[yaz_connect()](function.yaz-connect.md).
+Функція дозволяє змінювати бази даних протягом сеансу, вказавши одну або кілька баз даних, які будуть використовуватися для пошуку, пошуку і т.д. - перевизначення баз даних, вказаних у виклику [yazconnect()](function.yaz-connect.md)
 
 ### Список параметрів
 
 `id`
-Ресурс з'єднання, повернутий
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `databases`
-Рядок, що містить одну або кілька баз даних. Декілька баз даних,
-розділені знаком плюс `+`.
+
+Рядок, що містить одну або кілька баз даних. Декілька баз даних, розділені знаком плюс `+`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

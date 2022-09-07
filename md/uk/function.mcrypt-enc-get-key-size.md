@@ -1,33 +1,35 @@
-- [« mcrypt_enc_get_iv_size](function.mcrypt-enc-get-iv-size.md)
-- [mcrypt_enc_get_modes_name »](function.mcrypt-enc-get-modes-name.md)
+---
+navigation:
+  - function.mcrypt-enc-get-iv-size.md: « mcryptencgetвербsize
+  - function.mcrypt-enc-get-modes-name.md: mcryptencgetmodesname »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptencgetkeysize
+---
+# mcryptencgetkeysize
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає максимальну допустиму довжину ключа алгоритму
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_enc_get_key_size
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_enc_get_key_size — Повертає максимальну допустиму довжину ключа
-алгоритму
+mcryptencgetkeysize — Повертає максимальну допустиму довжину ключа алгоритму
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_enc_get_key_size**(resource `$td`): int
+```methodsynopsis
+mcrypt_enc_get_key_size(resource $td): int
+```
 
-Повертає максимальну допустиму довжину ключа алгоритму байтах.
+Повертає максимальну допустиму довжину ключа алгоритму в байтах.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
 
-Повертає максимальну допустиму довжину ключа алгоритму байтах.
+Повертає максимальну допустиму довжину ключа алгоритму в байтах.

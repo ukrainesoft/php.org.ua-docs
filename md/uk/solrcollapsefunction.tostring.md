@@ -1,20 +1,22 @@
-- [«SolrCollapseFunction::setSize](solrcollapsefunction.setsize.md)
-- [SolrException »](class.solrexception.md)
+---
+navigation:
+  - solrcollapsefunction.setsize.md: '« SolrCollapseFunction::setSize'
+  - class.solrexception.md: SolrException »
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::toString'
+---
+# SolrCollapseFunction::toString
 
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Повертає рядок, що представляє побудовану функцію згортання
+(PECL solr> = 2.2.0)
 
-# SolrCollapseFunction::\_\_toString
-
-(PECL solr \>= 2.2.0)
-
-SolrCollapseFunction::\_\_toString — Повертає рядок, що представляє
-побудовану функцію згортання
+SolrCollapseFunction::toString - Повертає рядок, що представляє побудовану функцію згортання
 
 ### Опис
 
-public **SolrCollapseFunction::\_\_toString**(): string
+```methodsynopsis
+public SolrCollapseFunction::__toString(): string
+```
 
 Повертає рядок, що представляє побудовану функцію згортання
 

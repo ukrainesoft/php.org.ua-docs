@@ -1,40 +1,41 @@
-- [«trader_wclprice](function.trader-wclprice.md)
-- [trader_wma »](function.trader-wma.md)
+---
+navigation:
+  - function.trader-wclprice.md: « traderwclprice
+  - function.trader-wma.md: traderwma »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderwillr
+---
+# traderwillr
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Відсотковий діапазон Вільямса
+(PECL trader >= 0.2.0)
 
-#trader_willr
-
-(PECL trader \>= 0.2.0)
-
-trader_willr — Відсотковий діапазон Вільямса
+traderwillr - Відсотковий діапазон Вільямса
 
 ### Опис
 
-**trader_willr**(
-array `$high`,
-array `$low`,
-array `$close`,
-int `$timePeriod` = ?
-): array
+```methodsynopsis
+trader_willr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

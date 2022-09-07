@@ -1,23 +1,24 @@
-- [« RegexIterator::getMode](regexiterator.getmode.md)
-- [RegexIterator::getRegex »](regexiterator.getregex.md)
-
-- [PHP Manual](index.md)
-- [RegexIterator](class.regexiterator.md)
-- Повертає прапори регулярного вираження
-
+---
+navigation:
+  - regexiterator.getmode.md: '« RegexIterator::getMode'
+  - regexiterator.getregex.md: 'RegexIterator::getRegex »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
+title: 'RegexIterator::getPregFlags'
+---
 # RegexIterator::getPregFlags
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getPregFlags — Повертає прапори регулярного виразу
 
 ### Опис
 
-public **RegexIterator::getPregFlags**(): int
+```methodsynopsis
+public RegexIterator::getPregFlags(): int
+```
 
-Повертає прапори регулярного вираження. Список можливих прапорів наведено
-в описі методу
-[RegexIterator::\_\_construct()](regexiterator.construct.md).
+Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.md)
 
 ### Список параметрів
 
@@ -31,13 +32,30 @@ public **RegexIterator::getPregFlags**(): int
 
 **Приклад #1 Приклад використання **RegexIterator::getPregFlags()****
 
-` <?php$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');$arrayIterator = new Ar $regexIterator = new RegexIterator($arrayIterator, '/\s/', RegexIterator::SPLIT);$regexIterator->setPregFlags(PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {    echo 'Не принимать на увагу порожні ділянки';} else {   echo ''Розглядати пусті ділянки';}?> `
+```php
+<?php
+
+$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
+
+$arrayIterator = new ArrayIterator($test);
+$regexIterator = new RegexIterator($arrayIterator, '/\s/', RegexIterator::SPLIT);
+$regexIterator->setPregFlags(PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);
+
+if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {
+    echo 'Не принимать во внимание пустые участки';
+} else {
+    echo 'Рассматривать пустые участки';
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-Не брати до уваги порожні ділянки
+```
+Не принимать во внимание пустые участки
+```
 
 ### Дивіться також
 
-- [RegexIterator::setPregFlags()](regexiterator.setpregflags.md) -
-Завдання прапорів регулярного вираження
+-   [RegexIterator::setPregFlags()](regexiterator.setpregflags.md) - Завдання прапорів регулярного вираження

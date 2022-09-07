@@ -1,30 +1,41 @@
-- [« wkhtmltox\PDF\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md)
-- [wkhtmltox\PDF\Object::\_\_construct »](wkhtmltox-pdf-object.construct.md)
+---
+navigation:
+  - wkhtmltox-pdf-converter.getversion.md: '« wkhtmltoxPDFConverter::getVersion'
+  - wkhtmltox-pdf-object.construct.md: 'wkhtmltoxPDFObject::construct »'
+  - index.md: PHP Manual
+  - book.wkhtmltox.md: wkhtmltox
+title: Клас wkhtmltoxPDFObject
+---
+# Клас wkhtmltoxPDFObject
 
-- [PHP Manual](index.md)
-- [wkhtmltox](book.wkhtmltox.md)
-- Клас wkhtmltox\PDF\Object
-
-# Клас wkhtmltox\PDF\Object
-
-(wkhtmltox \>= 0.1.0)
+(wkhtmltox >= 0.1.0)
 
 ## Вступ
 
-Представляє HTML-документ, вхід у PDF-конвертер
+Представляє HTML-документ, вхід до PDF-конвертера
 
 ## Огляд класів
 
-class **wkhtmltox\PDF\Object** {
+```synopsis
 
-/\* Constructor \*/
 
-public [\_\_construct](wkhtmltox-pdf-object.construct.md)(string
-`$buffer`, array `$settings` = ?)
 
-}
+    
+     
+      class wkhtmltox\PDF\Object
+     
+     {
+
+
+    /* Constructor */
+    
+   public __construct(string $buffer, array $settings = ?)
+
+
+   
+   }
+```
 
 ## Зміст
 
-- [wkhtmltox\PDF\Object::\_\_construct](wkhtmltox-pdf-object.construct.md)
-— Створити новий об'єкт PDF
+-   [wkhtmltoxPDFObject::construct](wkhtmltox-pdf-object.construct.md) — Створити новий об'єкт PDF

@@ -1,13 +1,14 @@
-- [« wkhtmltox\PDF\Object::\_\_construct](wkhtmltox-pdf-object.construct.md)
-- [wkhtmltox\Image\Converter::\_\_construct »](wkhtmltox-image-converter.construct.md)
+---
+navigation:
+  - wkhtmltox-pdf-object.construct.md: '« wkhtmltoxPDFObject::construct'
+  - wkhtmltox-image-converter.construct.md: 'wkhtmltoxImageConverter::construct »'
+  - index.md: PHP Manual
+  - book.wkhtmltox.md: wkhtmltox
+title: Клас wkhtmltoxImageConverter
+---
+# Клас wkhtmltoxImageConverter
 
-- [PHP Manual](index.md)
-- [wkhtmltox](book.wkhtmltox.md)
-- Клас wkhtmltox\Image\Converter
-
-# Клас wkhtmltox\Image\Converter
-
-(wkhtmltox \>= 0.1.0)
+(wkhtmltox >= 0.1.0)
 
 ## Вступ
 
@@ -15,26 +16,31 @@
 
 ## Огляд класів
 
-class **wkhtmltox\Image\Converter** {
+```classsynopsis
 
-/\* Constructor \*/
 
-public [\_\_construct](wkhtmltox-image-converter.construct.md)(string
-`$buffer` = ?, array `$settings` = ?)
 
-/\* Методи \*/
+    
+     
+      class wkhtmltox\Image\Converter
+     
+     {
 
-public [convert](wkhtmltox-image-converter.convert.md)(): ?string
 
-public [getVersion](wkhtmltox-image-converter.getversion.md)(): string
+    /* Constructor */
+    
+   public __construct(string $buffer = ?, array $settings = ?)
 
-}
+
+    /* Методы */
+    public convert(): ?string
+public getVersion(): string
+
+   }
+```
 
 ## Зміст
 
-- [wkhtmltox\Image\Converter::\_\_construct](wkhtmltox-image-converter.construct.md)
-— Створити новий конвертер зображень
-- [wkhtmltox\Image\Converter::convert](wkhtmltox-image-converter.convert.md)
-— Виконати перетворення зображень
-- [wkhtmltox\Image\Converter::getVersion](wkhtmltox-image-converter.getversion.md)
-— Визначити версію конвертера
+-   [wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.md) — Створити новий конвертер зображень
+-   [wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.md) — Виконати перетворення зображень
+-   [wkhtmltoxImageConverter::getVersion](wkhtmltox-image-converter.getversion.md) — Визначити версію конвертера

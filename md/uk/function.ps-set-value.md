@@ -1,60 +1,64 @@
-- [«ps_set_text_pos](function.ps-set-text-pos.md)
-- [ps_setcolor »](function.ps-setcolor.md)
+---
+navigation:
+  - function.ps-set-text-pos.md: «pssettextpos
+  - function.ps-setcolor.md: псsetcolor »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetvalue
+---
+# псsetvalue
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює певні значення
+(PECL ps >= 1.1.0)
 
-#ps_set_value
-
-(PECL ps \>= 1.1.0)
-
-ps_set_value — Встановлює певні значення
+псsetvalue — Встановлює певні значення
 
 ### Опис
 
-**ps_set_value**(resource `$psdoc`, string `$name`, float `$value`):
-bool
+```methodsynopsis
+ps_set_value(resource $psdoc, string $name, float $value): bool
+```
 
-Встановлює кілька значень, що використовуються багатьма
-функціями. Параметри за визначенням є значеннями з плаваючою
-точкою.
+Встановлює декілька значень, що використовуються багатьма функціями. Параметри визначення є значеннями з плаваючою точкою.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `name`
-Значення `name` може бути одним із наступного:
+
+Значення `name` може бути одне з наступного:
 
 textrendering
+
 Спосіб відображення тексту.
 
 textx
+
 Координата X для виведення тексту.
 
 texty
-Координати Y для виведення тексту.
+
+Координата Y для виведення тексту.
 
 wordspacing
+
 Відстань між словами щодо ширини пробілу.
 
 leading
+
 Відстань між рядками у пікселях.
 
 `value`
+
 Значення параметру.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_get_value()](function.ps-get-value.md) - Отримує певні
-значення
-- [ps_set_parameter()](function.ps-set-parameter.md) - Встановлює
-певні параметри
+-   [псgetvalue()](function.ps-get-value.md) - Отримує певні значення
+-   [псsetparameter()](function.ps-set-parameter.md) - Встановлює певні параметри

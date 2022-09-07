@@ -1,34 +1,31 @@
-- [«DOMNode](class.domnode.md)
-- [DOMNode::C14N »](domnode.c14n.md)
-
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- Додає новий дочірній вузол до кінця списку нащадків
-
+---
+navigation:
+  - class.domnode.md: « DOMNode
+  - domnode.c14n.md: 'DOMNode::C14N »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::appendChild'
+---
 # DOMNode::appendChild
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMNode::appendChild — Додає новий дочірній вузол до кінця списку
-нащадків
+DOMNode::appendChild — Додає новий дочірній вузол до кінця списку нащадків.
 
 ### Опис
 
-public **DOMNode::appendChild**([DOMNode](class.domnode.md) `$node`):
-[DOMNode](class.domnode.md)\|false
+```methodsynopsis
+public DOMNode::appendChild(DOMNode $node): DOMNode|false
+```
 
-Функція додає дочірній вузол до існуючого списку нащадків або
-створює новий перелік дочірніх елементів. Дочірній вузол може бути створений
-за допомогою
-[DOMDocument::createElement()](domdocument.createelement.md),
-[DOMDocument::createTextNode()](domdocument.createtextnode.md) і т.д.,
-або може бути використаний будь-який інший вузол.
+Функція додає дочірній вузол до існуючого списку нащадків або створює новий список дочірніх елементів. Дочірній вузол може бути створений за допомогою [DOMDocument::createElement()](domdocument.createelement.md) [DOMDocument::createTextNode()](domdocument.createtextnode.md) і т.д., або може бути використаний будь-який інший вузол.
 
-У разі використання існуючого вузла він буде переміщений.
+При використанні існуючого вузла його буде переміщено.
 
 ### Список параметрів
 
 `node`
+
 Дочірній вузол, що додається.
 
 ### Значення, що повертаються
@@ -38,17 +35,16 @@ public **DOMNode::appendChild**([DOMNode](class.domnode.md) `$node`):
 ### Помилки
 
 **`DOM_NO_MODIFICATION_ALLOWED_ERR`**
-Виникає, якщо вузол доступний лише для читання або попередній батько
-вузла, що вставляється, доступний тільки для читання.
+
+Виникає, якщо вузол доступний тільки для читання або попередній батько вузла, що вставляється, доступний тільки для читання.
 
 **`DOM_HIERARCHY_REQUEST_ERR`**
-Виникає, якщо тип вузла не підтримує нащадків типу, що має
-вузол `node`, або якщо вузол, що додається, є одним з предком
-цільового вузла чи ним самим.
+
+Виникає, якщо тип вузла не підтримує нащадків типу, що має вузол `node`, або якщо вузол, що додається, є одним з предком цільового вузла або ним самим.
 
 **`DOM_WRONG_DOCUMENT_ERR`**
-Виникає, якщо `node` створено в іншому документі, відмінному від того,
-якому було створено цей вузол.
+
+Виникає, якщо `node` створено іншому документі, відмінному від цього, у якому було створено цей вузол.
 
 ### Приклади
 
@@ -56,19 +52,38 @@ public **DOMNode::appendChild**([DOMNode](class.domnode.md) `$node`):
 
 **Приклад #1 Додавання дочірнього вузла**
 
-` <?php$doc = new DOMDocument;$node = $doc->createElement("para");$newnode = $doc->appendChild($node);echo $doc->saveXML();?> `
+```php
+<?php
+
+$doc = new DOMDocument;
+
+$node = $doc->createElement("para");
+$newnode = $doc->appendChild($node);
+
+echo $doc->saveXML();
+?>
+```
 
 **Приклад #2 Вкладені дочірні вузли**
 
-` <?php$doc = new DOMDocument;$headNode = $doc->createElement("head");$doc->appendChild($headNode);$titleNode = $doc->createElement("title");$headNode ->appendChild($titleNode);echo $doc->saveXML();?> `
+```php
+<?php
+
+$doc = new DOMDocument;
+
+$headNode = $doc->createElement("head");
+$doc->appendChild($headNode);
+
+$titleNode = $doc->createElement("title");
+$headNode->appendChild($titleNode);
+
+echo $doc->saveXML();
+?>
+```
 
 ### Дивіться також
 
-- [DOMChildNode::after()](domchildnode.after.md) - Додає вузли
-після вузла
-- [DOMNode::insertBefore()](domnode.insertbefore.md) - Додає
-новий дочірній вузол перед вказаним вузлом
-- [DOMNode::removeChild()](domnode.removechild.md) - Видаляє
-дочірній вузол зі списку нащадків
-- [DOMNode::replaceChild()](domnode.replacechild.md) - Замінює
-дочірній вузол
+-   [DOMChildNode::after()](domchildnode.after.md) - Додає вузли після вузла
+-   [DOMNode::insertBefore()](domnode.insertbefore.md) - Додає новий дочірній вузол перед вказаним вузлом
+-   [DOMNode::removeChild()](domnode.removechild.md) - видаляє дочірній вузол зі списку нащадків
+-   [DOMNode::replaceChild()](domnode.replacechild.md) - Замінює дочірній вузол

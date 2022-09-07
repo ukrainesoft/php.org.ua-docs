@@ -1,36 +1,36 @@
-- [«ps_fill_stroke](function.ps-fill-stroke.md)
-- [ps_findfont »](function.ps-findfont.md)
+---
+navigation:
+  - function.ps-fill-stroke.md: «psfillstroke
+  - function.ps-findfont.md: псfindfont »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псfill
+---
+# псfill
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Заповнює поточний шлях
+(PECL ps >= 1.1.0)
 
-#ps_fill
-
-(PECL ps \>= 1.1.0)
-
-ps_fill — Заповнює поточний шлях
+псfill — Заповнює поточний шлях
 
 ### Опис
 
-**ps_fill**(resource `$psdoc`): bool
+```methodsynopsis
+ps_fill(resource $psdoc): bool
+```
 
-Заповнює шлях, створений за допомогою раніше викликаних функцій малювання,
-таких як [ps_lineto()](function.ps-lineto.md).
+Заповнює шлях, створений за допомогою раніше викликаних функцій малювання, таких як [псlineto()](function.ps-lineto.md)
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_fill_stroke()](function.ps-fill-stroke.md) - Заповнює та
-обводить поточний шлях
-- [ps_stroke()](function.ps-stroke.md) - Малює поточний шлях
+-   [псfillstroke()](function.ps-fill-stroke.md) - Заповнює та обводить поточний шлях
+-   [псstroke()](function.ps-stroke.md) - Малює поточний шлях

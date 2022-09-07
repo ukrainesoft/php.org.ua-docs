@@ -1,22 +1,24 @@
-- [« Gmagick::getfilename](gmagick.getfilename.md)
-- [Gmagick::getimageblueprimary »](gmagick.getimageblueprimary.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає колір фону зображення
-
+---
+navigation:
+  - gmagick.getfilename.md: '« Gmagick::getfilename'
+  - gmagick.getimageblueprimary.md: 'Gmagick::getimageblueprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagebackgroundcolor'
+---
 # Gmagick::getimagebackgroundcolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagebackgroundcolor — Повертає колір тла зображення
 
 ### Опис
 
-public **Gmagick::getimagebackgroundcolor**():
-[GmagickPixel](class.gmagickpixel.md)
+```methodsynopsis
+public Gmagick::getimagebackgroundcolor(): GmagickPixel
+```
 
-Повертає колір зображення фону.
+Повертає колір тла зображення.
 
 ### Список параметрів
 
@@ -24,7 +26,7 @@ public **Gmagick::getimagebackgroundcolor**():
 
 ### Значення, що повертаються
 
-Повертає колір фону зображення як об'єкт GmagickPixel.
+Повертає колір тла зображення як об'єкт GmagickPixel.
 
 ### Помилки
 

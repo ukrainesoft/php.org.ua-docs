@@ -1,19 +1,22 @@
-- [« Ds\Set::intersect](ds-set.intersect.md)
-- [Ds\Set::join »](ds-set.join.md)
+---
+navigation:
+  - ds-set.intersect.md: '« DsSet::intersect'
+  - ds-set.join.md: 'ДсSet::join »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::isEmpty'
+---
+# ДсSet::isEmpty
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Перевіряє, чи порожня колекція
+(PECL ds >= 1.0.0)
 
-# Ds\Set::isEmpty
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::isEmpty — Перевіряє, чи порожня колекція
+ДсSet::isEmpty — Перевіряє, чи колекція порожня.
 
 ### Опис
 
-public **Ds\Set::isEmpty**(): bool
+```methodsynopsis
+public Ds\Set::isEmpty(): bool
+```
 
 Перевіряє, чи колекція порожня.
 
@@ -23,16 +26,25 @@ public **Ds\Set::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо колекція порожня, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::isEmpty()****
+**Приклад #1 Приклад використання **ДсSet::isEmpty()****
 
-` <?php$a = new \Ds\Set([1, 2, 3]);$b = new \Ds\Set();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+```php
+<?php
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set();
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

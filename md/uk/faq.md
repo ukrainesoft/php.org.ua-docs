@@ -1,21 +1,20 @@
-- [« UI\Exception\RuntimeException](class.ui-exception-runtimeexception.md)
-- [Загальна інформація »](faq.general.md)
+---
+navigation:
+  - class.ui-exception-runtimeexception.md: « UIExceptionRuntimeException
+  - faq.general.md: Загальна інформація "
+  - index.md: PHP Manual
+title: 'ЧАВО: Часті питання та відповіді на них'
+---
+# ЧАВО: Часті питання та відповіді на них
 
-- [PHP Manual](index.md)
-- ЧАВО: Часті питання та Відповіді на них
-
-# ЧАВО: Часті питання та Відповіді на них
-
-- [Загальна інформація](faq.general.md)
-- [Списки розсилки](faq.mailinglist.md)
-- [Отримання PHP](faq.obtaining.md)
-- [Питання з баз даних](faq.databases.md) — Питання по Базам
-даних
-- [Установка](faq.installation.md)
-- [Проблеми складання](faq.build.md)
-- [Використання PHP](faq.using.md)
-- [Хешування паролів](faq.passwords.md) — Безпечне хешування
-паролів
-- [PHP та HTML](faq.md.md)
-- [PHP та COM](faq.com.md)
-- [Різні питання](faq.misc.md)
+-   [Загальна інформація](faq.general.md)
+-   [Списки розсилки](faq.mailinglist.md)
+-   [Получение PHP](faq.obtaining.md)
+-   [Питання щодо баз даних](faq.databases.md) — Питання щодо Баз даних
+-   [Установка](faq.installation.md)
+-   [Проблеми збирання](faq.build.md)
+-   [Использование PHP](faq.using.md)
+-   [Хеширование паролей](faq.passwords.md) - Безпечне хешування паролів
+-   [PHP и HTML](faq.html.md)
+-   [PHP и COM](faq.com.md)
+-   [Різні питання](faq.misc.md)

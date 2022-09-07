@@ -1,11 +1,11 @@
-- [« Встановлення та налаштування](gnupg.setup.md)
-- [Установка »](gnupg.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gnupg.setup.md)
-- Вимоги
-
+---
+navigation:
+  - gnupg.setup.md: « Встановлення та налаштування
+  - gnupg.installation.md: Установка »
+  - index.md: PHP Manual
+  - gnupg.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Для роботи модуля необхідна Бібліотека
-gpgme](http://www.gnupg.org/related_software/gpgme/)
+Для роботи модуля необхідна [» библиотека gpgme](http://www.gnupg.org/related_software/gpgme/)

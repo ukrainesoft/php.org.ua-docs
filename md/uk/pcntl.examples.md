@@ -1,12 +1,13 @@
-- [«Зумовлені константи](pcntl.constants.md)
-- [Базове застосування»](pcntl.example.md)
-
-- [PHP Manual](index.md)
-- [PCNTL](book.pcntl.md)
-- Приклади
-
+---
+navigation:
+  - pcntl.constants.md: « Обумовлені константи
+  - pcntl.example.md: Базовое применение »
+  - index.md: PHP Manual
+  - book.pcntl.md: PCNTL
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Базове застосування](pcntl.example.md)
+-   [Базовое применение](pcntl.example.md)

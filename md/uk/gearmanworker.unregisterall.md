@@ -1,24 +1,24 @@
-- [« GearmanWorker::unregister](gearmanworker.unregister.md)
-- [GearmanWorker::wait »](gearmanworker.wait.md)
-
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Видалення реєстрації всіх імен функцій на серверах завдань
-
+---
+navigation:
+  - gearmanworker.unregister.md: '« GearmanWorker::unregister'
+  - gearmanworker.wait.md: 'GearmanWorker::wait »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::unregisterAll'
+---
 # GearmanWorker::unregisterAll
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
-GearmanWorker::unregisterAll — Видалення реєстрації всіх імен функцій на
-сервери завдань
+GearmanWorker::unregisterAll — Видалення реєстрації всіх імен функцій на серверах завдань
 
 ### Опис
 
-public **GearmanWorker::unregisterAll**(): bool
+```methodsynopsis
+public GearmanWorker::unregisterAll(): bool
+```
 
-Знімає реєстрацію всіх раніше зареєстрованих функцій на всіх
-сервери завдань. Це означає, що цього оброблювача більше не будуть
-надходити жодні завдання.
+Знімає реєстрацію всіх зареєстрованих функцій на всіх серверах завдань. Це означає, що цьому обробнику більше не надходитиме жодних завдань.
 
 ### Список параметрів
 
@@ -30,7 +30,5 @@ public **GearmanWorker::unregisterAll**(): bool
 
 ### Дивіться також
 
-- [GearmanWorker::register()](gearmanworker.register.md) -
-Реєстрація функції на сервері завдань
-- [GearmanWorker::unregister()](gearmanworker.unregister.md) -
-Видалити реєстрацію імені функції на всіх серверах завдань
+-   [GearmanWorker::register()](gearmanworker.register.md) - Реєстрація функції на сервері завдань
+-   [GearmanWorker::unregister()](gearmanworker.unregister.md) - Видалити реєстрацію імені функції на всіх серверах завдань

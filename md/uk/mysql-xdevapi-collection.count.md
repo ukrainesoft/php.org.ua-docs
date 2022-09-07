@@ -1,10 +1,11 @@
-- [« Collection::\_\_construct](mysql-xdevapi-collection.construct.md)
-- [Collection::createIndex »](mysql-xdevapi-collection.createindex.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Отримує кількість документів
-
+---
+navigation:
+  - mysql-xdevapi-collection.construct.md: '« Collection::construct'
+  - mysql-xdevapi-collection.createindex.md: 'Collection::createIndex »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+title: 'Collection::count'
+---
 # Collection::count
 
 (No version information available, might only be in Git)
@@ -13,11 +14,11 @@ Collection::count — Отримує кількість документів
 
 ### Опис
 
-public **mysql_xdevapi\Collection::count**(): int
+```methodsynopsis
+public mysql_xdevapi\Collection::count(): int
+```
 
-Функціонал аналогічний операції SQL `SELECT COUNT(*)` на сервері MySQL
-для поточної схеми та колекції. Іншими словами, метод підраховує
-кількість документів у колекції.
+Функціонал аналогічний операції SQL `SELECT COUNT(*)` на сервері MySQL для поточної схеми та колекції. Іншими словами, метод підраховує кількість документів у колекції.
 
 ### Список параметрів
 
@@ -29,10 +30,41 @@ public **mysql_xdevapi\Collection::count**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Collection::count()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::count()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$collection = $schema->get people "); "Father","Salary":0}    ],   "hobbies": ["Sports","Making cupcakes"]}',  '{"name": "Jane",    "jobs": [  | Scientist","Salary":18000},     {"title":"Mother","Salary":0}    ],   "hobbies": ["Walking","Making pies"]}') var_dump($collection->count());?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
+
+$collection = $schema->getCollection("people");
+
+$result = $collection
+  ->add(
+  '{"name": "Bernie",
+    "jobs": [
+      {"title":"Cat Herder","Salary":42000},
+      {"title":"Father","Salary":0}
+    ],
+    "hobbies": ["Sports","Making cupcakes"]}',
+  '{"name": "Jane",
+    "jobs": [
+      {"title":"Scientist","Salary":18000},
+      {"title":"Mother","Salary":0}
+    ],
+    "hobbies": ["Walking","Making pies"]}')
+  ->execute();
+
+var_dump($collection->count());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(2)
+```

@@ -1,34 +1,35 @@
-- [« SVMModel::getSvrProbability](svmmodel.getsvrprobability.md)
-- [SVMModel::predict_probability »](svmmodel.predict-probability.md)
-
-- [PHP Manual](index.md)
-- [SVMModel](class.svmmodel.md)
-- Завантажує збережену модель SVM
-
+---
+navigation:
+  - svmmodel.getsvrprobability.md: '« SVMModel::getSvrProbability'
+  - svmmodel.predict-probability.md: 'SVMModel::predictprobability »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::load'
+---
 # SVMModel::load
 
-(PECL svm \>= 0.1.00.1.0)
+(PECL svm >= 0.1.00.1.0)
 
 SVMModel::load — Завантажує збережену модель SVM
 
 ### Опис
 
-public **SVMModel::load**(string `$filename`): bool
+```methodsynopsis
+public SVMModel::load(string $filename): bool
+```
 
-Завантажує збережену модель SVM із файлу, готову до класифікації та
-регресу.
+Завантажує збережену модель SVM із файлу, готову до класифікації та регресу.
 
 ### Список параметрів
 
 `filename`
-Назва файлу для завантаження.
+
+Ім'я файлу для завантаження.
 
 ### Значення, що повертаються
 
-У разі виникнення помилки викидає SVMException. В разі
-успішного виконання повертає **`true`**.
+У разі виникнення помилки викидає SVMException. У разі успішного виконання повертає **`true`**
 
 ### Дивіться також
 
-- [SVMModel::save()](svmmodel.save.md) - Зберегти готову модель в
-файл
+-   [SVMModel::save()](svmmodel.save.md) - Зберегти готову модель у файл

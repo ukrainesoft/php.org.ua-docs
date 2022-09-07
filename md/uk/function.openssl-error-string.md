@@ -1,24 +1,24 @@
-- [« openssl_encrypt](function.openssl-encrypt.md)
-- [openssl_free_key »](function.openssl-free-key.md)
+---
+navigation:
+  - function.openssl-encrypt.md: « opensslencrypt
+  - function.openssl-free-key.md: opensslfreekey »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslerrorstring
+---
+# opensslerrorstring
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Повертає повідомлення про помилку openSSL
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#openssl_error_string
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-openssl_error_string — Повертає повідомлення про помилку openSSL
+opensslerrorstring — Повертає повідомлення про помилку openSSL
 
 ### Опис
 
-**openssl_error_string**(): string\|false
+```methodsynopsis
+openssl_error_string(): string|false
+```
 
-**openssl_error_string()** повертає повідомлення останньої події
-помилки бібліотеки OpenSSL. Повідомлення про помилки перебувають у черзі, так
-що цю функцію можна викликати кілька разів для отримання всієї
-інформації. При цьому останнє повідомлення найсвіжіше.
+**opensslerrorstring()** повертає повідомлення останньої помилки бібліотеки openSSL, що відбулася. Повідомлення про помилки знаходяться в черзі, тому цю функцію можна викликати кілька разів для отримання всієї інформації. При цьому останнє повідомлення найсвіжіше.
 
 ### Список параметрів
 
@@ -26,12 +26,16 @@ openssl_error_string — Повертає повідомлення про пом
 
 ### Значення, що повертаються
 
-Повертає рядок з повідомленням про помилку або **`false`**, якщо повідомлення
-більше немає.
+Повертає рядок з повідомленням про помилку або \*\*`false`\*\*якщо повідомлень більше немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **openssl_error_string()****
+**Приклад #1 Приклад використання **opensslerrorstring()****
 
-`<?php// Припустимо, що ви викликали функцію openssl, завершилася невдачеюwhile ($msg = openssl_error_string())    echo $msg . "<br />
-";?> `
+```php
+<?php
+// Предположим, что вы вызвали функцию openssl, которая завершилась неудачей
+while ($msg = openssl_error_string())
+    echo $msg . "<br />\n";
+?>
+```

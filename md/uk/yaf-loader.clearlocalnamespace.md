@@ -1,24 +1,26 @@
-- [« Yaf_Loader::autoload](yaf-loader.autoload.md)
-- [Yaf_Loader::\_\_construct »](yaf-loader.construct.md)
+---
+navigation:
+  - yaf-loader.autoload.md: '« YafLoader::autoload'
+  - yaf-loader.construct.md: 'YafLoader::construct »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
+title: 'YafLoader::clearLocalNamespace'
+---
+# YafLoader::clearLocalNamespace
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Призначення clearLocalNamespace
+(Yaf >=1.0.0)
 
-# Yaf_Loader::clearLocalNamespace
-
-(Yaf \>=1.0.0)
-
-Yaf_Loader::clearLocalNamespace — Призначення clearLocalNamespace
+YafLoader::clearLocalNamespace — Призначення clearLocalNamespace
 
 ### Опис
 
-public **Yaf_Loader::clearLocalNamespace**(): void
+```methodsynopsis
+public Yaf_Loader::clearLocalNamespace(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

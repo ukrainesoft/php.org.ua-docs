@@ -1,66 +1,77 @@
-- [«ob_start](function.ob-start.md)
-- [output_reset_rewrite_vars »](function.output-reset-rewrite-vars.md)
+---
+navigation:
+  - function.ob-start.md: « obstart
+  - function.output-reset-rewrite-vars.md: outputresetrewritevars »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: outputaddrewritevar
+---
+# outputaddrewritevar
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Додати значення в обробник URL
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#output_add_rewrite_var
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-output_add_rewrite_var — Додати значення до обробника URL
+outputaddrewritevar — Додати значення до обробника URL
 
 ### Опис
 
-**output_add_rewrite_var**(string `$name`, string `$value`): bool
+```methodsynopsis
+output_add_rewrite_var(string $name, string $value): bool
+```
 
-Ця функція додає ще одну пару ім'я/значення механізму перезапису
-URL. Ім'я та значення будуть додані до URL (як GET-параметрів) та
-форм (як приховані поля введення) так само, як і ідентифікатор сесії, якщо
-включений прозорий перезапис посилань з використанням
-[session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid).
+Ця функція додає ще одну пару ім'я/значення механізму перезапису URL. Ім'я та значення будуть додані до URL (як GET-параметрів) та форм (як приховані поля введення) так само, як і ідентифікатор сесії, якщо включено прозоре перезаписування посилань з використанням [session.usetranssid](session.configuration.md#ini.session.use-trans-sid)
 
-Поведінка цієї функції контролюється параметрами `php.ini`
-[url_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)
-і
-[url_rewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts).
+Поведінка цієї функції контролюється параметрами php.ini [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags) і [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)
 
-Зверніть увагу, що функція може бути успішно викликана не більше
-одного разу на запит.
+Зауважте, що функція може бути успішно викликана не більше одного разу за запит.
 
-> **Примітка**: Виклик цієї функції неявно запустить буферизацію виводу,
-> якщо вона ще активна.
+> **Зауваження**: Виклик цієї функції неявно запустить буферизацію виводу, якщо вона ще не активна.
 
 ### Список параметрів
 
 `name`
+
 Назва параметра.
 
 `value`
+
 Значення параметру.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7.1.0  | До PHP 7.1.0 змінні перезаписи, встановлені функцією **output_add_rewrite_var()**, використовують той самий буфер модуля сесії "trans sid". Починаючи з PHP 7.1.0, використовується окремий буфер [url_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags) використовується тільки для функцій виведення, доданий [url_rewriter.hosts](outcontrol.configuration.md# ini.url-rewriter.tags). |
+| Версия | Описание |
+| --- | --- |
+|  | До PHP 7.1.0 змінні перезаписи, встановлені функцією **outputaddrewritevar()**, використовують той самий буфер модуля сесії "trans sid". Починаючи з PHP 7.1.0, використовується окремий буфер, [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags) використовується тільки для функцій виведення, доданий [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.tags) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **output_add_rewrite_var()****
+**Приклад #1 Приклад використання функції **outputaddrewritevar()****
 
-` <?phpoutput_add_rewrite_var('var', 'value');//Кілька посиланьecho '<a href="file.php">посилання</a><a href="http://example.com">посилання2< /a>';// формаecho '<form action="script.php" method="post"><input type="text" name="var2" /></form>';print_r(ob_list_handlers()) ;?> `
+```php
+<?php
+output_add_rewrite_var('var', 'value');
+
+// несколько ссылок
+echo '<a href="file.php">ссылка</a>
+<a href="http://example.com">ссылка2</a>';
+
+// форма
+echo '<form action="script.php" method="post">
+<input type="text" name="var2" />
+</form>';
+
+print_r(ob_list_handlers());
+?>
+```
 
 Результат виконання цього прикладу:
 
-<a href="file.php?var=value">посилання</a>
-<a href="http://example.com">посилання2</a>
+```
+<a href="file.php?var=value">ссылка</a>
+<a href="http://example.com">ссылка2</a>
 
 <form action="script.php" method="post">
 <input type="hidden" name="var" value="value" />
@@ -69,18 +80,16 @@ URL. Ім'я та значення будуть додані до URL (як GET-
 
 Array
 (
-[0] => URL-Rewriter
+    [0] => URL-Rewriter
 )
+```
 
 ### Дивіться також
 
-- [output_reset_rewrite_vars()](function.output-reset-rewrite-vars.md) -
-Скинути значення обробника URL
-- [ob_flush()](function.ob-flush.md) - Скинути (надіслати) буфер
-висновку
-- [ob_list_handlers()](function.ob-list-handlers.md) - Список всіх
-використовуваних обробників виводу
-- [url_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)
-- [url_rewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)
-- [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags)
-- [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts)
+-   [outputresetrewritevars()](function.output-reset-rewrite-vars.md) - Скинути значення обробника URL
+-   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу
+-   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу
+-   [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)
+-   [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)
+-   [session.transsidtags](session.configuration.md#ini.session.trans-sid-tags)
+-   [session.transsidhosts](session.configuration.md#ini.session.trans-sid-hosts)

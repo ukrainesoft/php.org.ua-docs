@@ -1,32 +1,33 @@
-- [«openal_context_create](function.openal-context-create.md)
-- [openal_context_destroy »](function.openal-context-destroy.md)
+---
+navigation:
+  - function.openal-context-create.md: « openalcontextcreate
+  - function.openal-context-destroy.md: openalcontextdestroy »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalcontextcurrent
+---
+# openalcontextcurrent
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Зробити вказаний контекст поточним
+(PECL openal >= 0.1.0)
 
-#openal_context_current
-
-(PECL openal = 0.1.0)
-
-openal_context_current — Зробити вказаний контекст поточним
+openalcontextcurrent — Зробити вказаний контекст поточним
 
 ### Опис
 
-**openal_context_current**(resource `$context`): bool
+```methodsynopsis
+openal_context_current(resource $context): bool
+```
 
 ### Список параметрів
 
 `context`
-Ресурс [Open AL(Context)](openal.resources.md) (заснований раніше з
-за допомогою [openal_context_create()](function.openal-context-create.md)).
+
+Ресурс [Open AL(Context)](openal.resources.md) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_context_create()](function.openal-context-create.md) -
-Створити контекст обробки звуку
+-   [openalcontextcreate()](function.openal-context-create.md) - Створити контекст обробки звуку

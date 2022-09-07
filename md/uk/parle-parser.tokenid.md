@@ -1,27 +1,30 @@
-- [« Parle\Parser::token](parle-parser.token.md)
-- [Parle\Parser::trace »](parle-parser.trace.md)
+---
+navigation:
+  - parle-parser.token.md: '« ParleParser::token'
+  - parle-parser.trace.md: 'ParleParser::trace »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::tokenId'
+---
+# ParleParser::tokenId
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- отримує ідентифікатор токена
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::tokenId
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::tokenId — Отримує ідентифікатор токена
+ParleParser::tokenId — Отримує ідентифікатор токена
 
 ### Опис
 
-public **Parle\Parser::tokenId**(string `$tok`): int
+```methodsynopsis
+public Parle\Parser::tokenId(string $tok): int
+```
 
 Отримує ідентифікатор вказаного токена.
 
 ### Список параметрів
 
 `tok`
-Ім'я токена, що використовується в
-[Parle\Parser::token()](parle-parser.token.md).
+
+Ім'я токена, що використовується в [ParleParser::token()](parle-parser.token.md)
 
 ### Значення, що повертаються
 

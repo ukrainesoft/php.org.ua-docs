@@ -1,24 +1,24 @@
-- [« ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md)
-- [ReflectionZendExtension::export »](reflectionzendextension.export.md)
+---
+navigation:
+  - reflectionzendextension.clone.md: '« ReflectionZendExtension::clone'
+  - reflectionzendextension.export.md: 'ReflectionZendExtension::export »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::construct'
+---
+# ReflectionZendExtension::construct
 
-- [PHP Manual](index.md)
-- [ReflectionZendExtension](class.reflectionzendextension.md)
-- Конструктор
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# ReflectionZendExtension::\_\_construct
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-ReflectionZendExtension::\_\_construct — Конструктор
+ReflectionZendExtension::construct — Конструктор
 
 ### Опис
 
-public **ReflectionZendExtension::\_\_construct**(string `$name`)
+public **ReflectionZendExtension::construct**(string `$name`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

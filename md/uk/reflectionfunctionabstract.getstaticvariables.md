@@ -1,20 +1,22 @@
-- [« ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md)
-- [ReflectionFunctionAbstract::getTentativeReturnType »](reflectionfunctionabstract.gettentativereturntype.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- отримує статичні змінні
-
+---
+navigation:
+  - reflectionfunctionabstract.getstartline.md: '« ReflectionFunctionAbstract::getStartLine'
+  - reflectionfunctionabstract.gettentativereturntype.md: 'ReflectionFunctionAbstract::getTentativeReturnType »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getStaticVariables'
+---
 # ReflectionFunctionAbstract::getStaticVariables
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getStaticVariables — Отримує статичні
-змінні
+ReflectionFunctionAbstract::getStaticVariables — Отримує статичні змінні
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getStaticVariables**(): array
+```methodsynopsis
+public ReflectionFunctionAbstract::getStaticVariables(): array
+```
 
 Отримання статичних змінних.
 
@@ -28,5 +30,4 @@ public **ReflectionFunctionAbstract::getStaticVariables**(): array
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) -
-Отримує параметри
+-   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) - Отримує параметри

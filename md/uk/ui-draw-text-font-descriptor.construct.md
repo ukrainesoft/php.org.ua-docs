@@ -1,42 +1,46 @@
-- [« UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)
-- [UI\Draw\Text\Font\Descriptor::getFamily »](ui-draw-text-font-descriptor.getfamily.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)
-- Конструктор класу Font Descriptor
-
-# UI\Draw\Text\Font\Descriptor::\_\_construct
+---
+navigation:
+  - class.ui-draw-text-font-descriptor.md: « UIDrawTextFontDescriptor
+  - ui-draw-text-font-descriptor.getfamily.md: 'ОЙDrawTextFontDescriptor::getFamily »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font-descriptor.md: ОЙDrawTextFontDescriptor
+title: 'ОЙDrawTextFontDescriptor::construct'
+---
+# ОЙDrawTextFontDescriptor::construct
 
 (UI 0.9.9)
 
-UI\Draw\Text\Font\Descriptor::\_\_construct - Конструктор класу Font
-Descriptor
+ОЙDrawTextFontDescriptor::construct - Конструктор класу Font Descriptor
 
 ### Опис
 
-public **UI\Draw\Text\Font\Descriptor::\_\_construct**(
-string `$family`,
-float `$size`,
-int `$weight` = UI\Draw\Text\Font\Weight::Normal,
-int `$italic` = UI\Draw\Text\Font\Italic::Normal,
-int `$stretch` = UI\Draw\Text\Font\Stretch::Normal
-)
+public **ОЙDrawTextFontDescriptor::construct**  
+string `$family`  
+float `$size`  
+int `$weight` = UIDrawTextFontWeight::Normal,  
+int `$italic` = UIDrawTextFontItalic::Normal,  
+int `$stretch` = UIDrawTextFontStretch::Normal
 
 Створює новий Font Descriptor
 
 ### Список параметрів
 
 `family`
-Назва допустимого сімейства шрифтів.
+
+Назва припустимого сімейства шрифтів.
 
 `size`
+
 Переважний розмір
 
 `weight`
-Константа UI\Draw\Text\Font\Weight
+
+Константа UIDrawTextFontWeight
 
 `italic`
-Константа UI\Draw\Text\Font\Italic
+
+Константа UIDrawTextFontItalic
 
 `stretch`
-Константа UI\Draw\Text\Font\Stretch
+
+Константа UIDrawTextFontStretch

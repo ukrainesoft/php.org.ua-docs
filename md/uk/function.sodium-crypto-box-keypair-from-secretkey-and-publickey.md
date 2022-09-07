@@ -1,33 +1,33 @@
-- [« sodium_crypto_auth](function.sodium-crypto-auth.md)
-- [sodium_crypto_box_keypair »](function.sodium-crypto-box-keypair.md)
+---
+navigation:
+  - function.sodium-crypto-auth.md: « sodiumcryptoauth
+  - function.sodium-crypto-box-keypair.md: sodiumcryptoboxkeypair »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxkeypairfromsecretkeyandpublickey
+---
+# sodiumcryptoboxkeypairfromsecretkeyandpublickey
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює уніфікований рядок ключової пари із секретного та
-відкритого ключів
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_box_keypair_from_secretkey_and_publickey
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_box_keypair_from_secretkey_and_publickey — Створює
-уніфікований рядок ключової пари із секретного та відкритого ключів
+sodiumcryptoboxkeypairfromsecretkeyandpublickey — Створює уніфікований рядок ключової пари із секретного та відкритого ключів
 
 ### Опис
 
-**sodium_crypto_box_keypair_from_secretkey_and_publickey**(string
-`$secret_key`, string `$public_key`): string
+```methodsynopsis
+sodium_crypto_box_keypair_from_secretkey_and_publickey(string $secret_key, string $public_key): string
+```
 
-Функція існує для задоволення вимог API, наприклад
-**crypto_box()**. Передайте секретний ключ однієї сторони та відкритий ключ
-інший і ви отримаєте ключову пару для спілкування.
+Функція існує для задоволення вимог API, наприклад **cryptobox()**. Передайте секретний ключ однієї сторони та відкритий ключ інший, і ви отримаєте ключову пару для комунікації.
 
 ### Список параметрів
 
 `secret_key`
+
 Секретний ключ.
 
 `public_key`
+
 Відкритий ключ.
 
 ### Значення, що повертаються

@@ -1,10 +1,11 @@
-- [« Imagick::addImage](imagick.addimage.md)
-- [Imagick::affineTransformImage »](imagick.affinetransformimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Накладає випадковий шум на зображення
-
+---
+navigation:
+  - imagick.addimage.md: '« Imagick::addImage'
+  - imagick.affinetransformimage.md: 'Imagick::affineTransformImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::addNoiseImage'
+---
 # Imagick::addNoiseImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,28 +14,38 @@ Imagick::addNoiseImage — Накладає випадковий шум на з�
 
 ### Опис
 
-public **Imagick::addNoiseImage**(int `$noise_type`, int `$channel` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
 Накладає випадковий шум зображення.
 
 ### Список параметрів
 
 `noise_type`
-Тип шуму. Зверніться до списку [констант шума](imagick.constants.md#imagick.constants.noise).
+
+Тип шуму. Зверніться до списку [констант шума](imagick.constants.md#imagick.constants.noise)
 
 `channel`
-Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
-побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
+
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::addNoiseImage()****
 
-` <?phpfunction addNoiseImage($noiseType, $imagePath, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->addNoiseImage($noiseType, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function addNoiseImage($noiseType, $imagePath, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->addNoiseImage($noiseType, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

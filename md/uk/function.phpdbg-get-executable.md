@@ -1,24 +1,26 @@
-- [«phpdbg_exec](function.phpdbg-exec.md)
-- [phpdbg_prompt »](function.phpdbg-prompt.md)
-
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- Опис
-
-# phpdbg_get_executable
+---
+navigation:
+  - function.phpdbg-exec.md: « phpdbgexec
+  - function.phpdbg-prompt.md: phpdbgprompt »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbggetexecutable
+---
+# phpdbggetexecutable
 
 (PHP 7, PHP 8)
 
-phpdbg_get_executable
+phpdbggetexecutable -
 
 ### Опис
 
-**phpdbg_get_executable**(array `$options` = []): array
+```methodsynopsis
+phpdbg_get_executable(array $options = []): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

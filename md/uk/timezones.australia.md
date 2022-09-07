@@ -1,16 +1,13 @@
-- [«Атлантика](timezones.atlantic.md)
-- [Європа »](timezones.europe.md)
-
-- [PHP Manual](index.md)
-- [Список підтримуваних часових поясів](timezones.md)
-- Австралія
-
+---
+navigation:
+  - timezones.atlantic.md: « Атлантика
+  - timezones.europe.md: Європа »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
+title: Австралія
+---
 ## Австралія
 
-|                     |                    |                       |                     |
-| ------------------- | ------------------ | --------------------- | ------------------- |
-| Australia/Adelaide  | Australia/Brisbane | Australia/Broken_Hill | Australia/Darwin    |
-| Australia/Eucla     | Australia/Hobart   | Australia/Lindeman    | Australia/Lord_Howe |
-| Australia/Melbourne | Australia/Perth    | Australia/Sydney      |                     |
+< td>Australia/Sydney
 
-**Австралія**
+<table class="doctable table"><caption><strong>Австралія</strong></caption><tbody class="tbody"><tr><td>Australia/Adelaide</td><td>Australia/ Brisbane</td><td>Australia/Broken_Hill</td><td>Australia/Darwin</td></tr><tr><td>Australia/Eucla</td><td>Australia/Hobart</td><td>Australia/Lindeman</td><td>Australia/Lord_Howe</td></tr><tr><td>Australia/Melbourne</td><td>Australia/Perth</td><td class="empty">&nbsp;</td></tr></tbody></table>

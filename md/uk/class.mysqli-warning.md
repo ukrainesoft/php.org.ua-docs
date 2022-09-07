@@ -1,11 +1,12 @@
-- [« mysqli_driver::$report_mode](mysqli-driver.report-mode.md)
-- [mysqli_warning::\_\_construct »](mysqli-warning.construct.md)
-
-- [PHP Manual](index.md)
-- [MySQLi](book.mysqli.md)
-- Клас mysqli_warning
-
-# Клас mysqli_warning
+---
+navigation:
+  - mysqli-driver.report-mode.md: '« mysqlidriver::$reportmode'
+  - mysqli-warning.construct.md: 'mysqliwarning::construct »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqliwarning
+---
+# Клас mysqliwarning
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -15,38 +16,57 @@
 
 ## Огляд класів
 
-final class **mysqli_warning** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$message`;
+    
+     
+      final
+      class mysqli_warning
+     
+     {
 
-public string `$sqlstate`;
+    /* Свойства */
+    
+     public
+     string
+      $message;
 
-public int `$errno`;
+    public
+     string
+      $sqlstate;
 
-/\* Методи \*/
+    public
+     int
+      $errno;
 
-private [\_\_construct](mysqli-warning.construct.md)()
 
-public [next](mysqli-warning.next.md)(): bool
+    /* Методы */
+    
+   private __construct()
 
-}
+    public next(): bool
+
+   }
+```
 
 ## Властивості
 
-`message`
+message
+
 Рядок повідомлення
 
-`sqlstate`
+sqlstate
+
 Код SQLstate
 
-`errno`
+errno
+
 Номер помилки
 
 ## Зміст
 
-- [mysqli_warning::\_\_construct](mysqli-warning.construct.md) -
-Закритий конструктор для заборони прямого створення екземпляра
-- [mysqli_warning::next](mysqli-warning.next.md) — Отримує
-наступне попередження
+-   [mysqliwarning::construct](mysqli-warning.construct.md) — Закритий конструктор для заборони прямого створення екземпляра
+-   [mysqliwarning::next](mysqli-warning.next.md) — Отримує таке попередження

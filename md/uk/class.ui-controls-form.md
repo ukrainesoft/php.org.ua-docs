@@ -1,78 +1,76 @@
-- [« UI\Controls\Picker::\_\_construct](ui-controls-picker.construct.md)
-- [UI\Controls\Form::append »](ui-controls-form.append.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Форма" (розташування)
-
+---
+navigation:
+  - ui-controls-picker.construct.md: '« UIControlsPicker::construct'
+  - ui-controls-form.append.md: 'ОЙControlsForm::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Форма" (розташування)
+---
 # Елемент управління "Форма" (розташування)
 
 (UI 0.9.9)
 
 ## Вступ
 
-Форма - це елемент керування, що дозволяє розміщувати інші елементи
-управління у макеті (формі).
+Форма - це елемент управління, що дозволяє розміщувати інші елементи управління у макеті (формі).
 
 ## Огляд класів
 
-class **UI\Controls\Form** extends [UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$controls`;
 
-/\* Методи \*/
+    
+     
+      class UI\Controls\Form
+     
 
-public [append](ui-controls-form.append.md)(string `$label`,
-[UI\Control](class.ui-control.md) `$control`, bool `$stretchy` =
-**`false`**): int
+     
+      extends
+       UI\Control
+     
+     {
 
-public [delete](ui-controls-form.delete.md)(int `$index`): bool
 
-public [isPadded](ui-controls-form.ispadded.md)(): bool
+    /* Свойства */
+    
+     protected
+      $controls;
 
-public [setPadded](ui-controls-form.setpadded.md)(bool `$padded`)
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public append(string $label, UI\Control $control, bool $stretchy = false): int
+public delete(int $index): bool
+public isPadded(): bool
+public setPadded(bool $padded)
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Властивості
 
-`controls`
+controls
+
 Містить елементи керування, не варто змінювати напряму
 
 ## Зміст
 
-- [UI\Controls\Form::append](ui-controls-form.append.md) — Додати
-керуючий елемент
-- [UI\Controls\Form::delete](ui-controls-form.delete.md) — Видалити
-елемент управління
-- [UI\Controls\Form::isPadded](ui-controls-form.ispadded.md) -
-Визначення заповнення
-- [UI\Controls\Form::setPadded](ui-controls-form.setpadded.md) -
-Встановити наповнення
+-   [ОЙControlsForm::append](ui-controls-form.append.md) — Додати елемент керування
+-   [ОЙControlsForm::delete](ui-controls-form.delete.md) — Видалити елемент керування
+-   [ОЙControlsForm::isPadded](ui-controls-form.ispadded.md) - Визначення заповнення
+-   [ОЙControlsForm::setPadded](ui-controls-form.setpadded.md) - Встановити заповнення

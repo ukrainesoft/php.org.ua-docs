@@ -1,10 +1,11 @@
-- [« TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.md)
-- [TableInsert::values »](mysql-xdevapi-tableinsert.values.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableInsert](class.mysql-xdevapi-tableinsert.md)
-- Виконує запит вставки
-
+---
+navigation:
+  - mysql-xdevapi-tableinsert.construct.md: '« TableInsert::construct'
+  - mysql-xdevapi-tableinsert.values.md: 'TableInsert::values »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert
+title: 'TableInsert::execute'
+---
 # TableInsert::execute
 
 (No version information available, might only be in Git)
@@ -13,10 +14,11 @@ TableInsert::execute — Виконує запит на вставку
 
 ### Опис
 
-public **mysql_xdevapi\TableInsert::execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\TableInsert::execute(): mysql_xdevapi\Result
+```
 
-Виконує затвердження.
+Виконує твердження.
 
 ### Список параметрів
 
@@ -28,7 +30,23 @@ public **mysql_xdevapi\TableInsert::execute**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableInsert::execute()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableInsert::execute()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 33)")->execute();$schema = $session->getSchema("addressbook");$table  ==$schema->getTable("names ");$table  ->insert("name", "age") ->values(["Suzanne", 31],["Julie", 43]) ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$table
+  ->insert("name", "age")
+  ->values(["Suzanne", 31],["Julie", 43])
+  ->execute();
+?>
+```

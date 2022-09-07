@@ -1,19 +1,22 @@
-- [« ReflectionExtension::getConstants](reflectionextension.getconstants.md)
-- [ReflectionExtension::getFunctions »](reflectionextension.getfunctions.md)
-
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Отримання залежностей
-
+---
+navigation:
+  - reflectionextension.getconstants.md: '« ReflectionExtension::getConstants'
+  - reflectionextension.getfunctions.md: 'ReflectionExtension::getFunctions »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getDependencies'
+---
 # ReflectionExtension::getDependencies
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
 ReflectionExtension::getDependencies — Отримання залежностей
 
 ### Опис
 
-public **ReflectionExtension::getDependencies**(): array
+```methodsynopsis
+public ReflectionExtension::getDependencies(): array
+```
 
 Отримує список необхідних та конфліктуючих залежностей.
 
@@ -23,24 +26,30 @@ public **ReflectionExtension::getDependencies**(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив array, ключами якого є залежності,
-значеннями наступні рядки: `Required`, `Optional` або `Conflicts`.
+Асоціативний масив array, ключами якого є залежності, а значеннями є наступні рядки: `Required` `Optional` або `Conflicts`
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionExtension::getDependencies()****
+**Приклад #1 Приклад використання **ReflectionExtension::getDependencies()****
 
-` <?php$dom = new ReflectionExtension('dom');print_r($dom->getDependencies());?> `
+```php
+<?php
+$dom = new ReflectionExtension('dom');
+
+print_r($dom->getDependencies());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[libxml] => Required
-[domxml] => Conflicts
+    [libxml] => Required
+    [domxml] => Conflicts
 )
+```
 
 ### Дивіться також
 
-- **ReflectionClass::getVersion()**
+-   **ReflectionClass::getVersion()**

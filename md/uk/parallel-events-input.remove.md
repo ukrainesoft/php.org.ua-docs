@@ -1,19 +1,20 @@
-- [« parallel\Events\Input::clear](parallel-events-input.clear.md)
-- [parallel\Events\Event »](class.parallel-events-event.md)
+---
+navigation:
+  - parallel-events-input.clear.md: '« parallelEventsInput::clear'
+  - class.parallel-events-event.md: parallelEventsEvent »
+  - index.md: PHP Manual
+  - class.parallel-events-input.md: parallelEventsInput
+title: 'parallelEventsInput::remove'
+---
+# parallelEventsInput::remove
 
-- [PHP Manual](index.md)
-- [parallel\Events\Input](class.parallel-events-input.md)
-- Входи
-
-# parallel\Events\Input::remove
-
-(0.9.0)
-
-parallel\Events\Input::remove — Вхід
+parallelEventsInput::remove — Вхід
 
 ### Опис
 
-public **parallel\Events\Input::remove**(string `$target`): void
+```methodsynopsis
+public parallel\Events\Input::remove(string $target): void
+```
 
 Видаляє вхід для цієї мети
 
@@ -21,5 +22,4 @@ public **parallel\Events\Input::remove**(string `$target`): void
 
 **Увага**
 
-Викидає parallel\Events\Input\Error\Existence, якщо вхід для цілі не
-існує.
+Викидає parallelEventsInputErrorExistence, якщо вхід до мети не існує.

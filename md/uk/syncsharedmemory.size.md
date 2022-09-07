@@ -1,23 +1,24 @@
-- [« SyncSharedMemory::read](syncsharedmemory.read.md)
-- [SyncSharedMemory::write »](syncsharedmemory.write.md)
+---
+navigation:
+  - syncsharedmemory.read.md: '« SyncSharedMemory::read'
+  - syncsharedmemory.write.md: 'SyncSharedMemory::write »'
+  - index.md: PHP Manual
+  - class.syncsharedmemory.md: SyncSharedMemory
+title: 'Sync Shared Memory::size'
+---
+# Sync Shared Memory::size
 
-- [PHP Manual](index.md)
-- [SyncSharedMemory](class.syncsharedmemory.md)
-- Повертає розмір іменованої пам'яті, що розділяється
+(PECL sync >= 1.1.0)
 
-# SyncSharedMemory::size
-
-(PECL sync \>= 1.1.0)
-
-SyncSharedMemory::size — Повертає розмір іменованої розділяється
-пам'яті
+SyncSharedMemory::size — Повертає розмір іменованої пам'яті, що розділяється.
 
 ### Опис
 
-public **SyncSharedMemory::size**(): int
+```methodsynopsis
+public SyncSharedMemory::size(): int
+```
 
-Виймає розмір пам'яті об'єкта, що розділяється.
-[SyncSharedMemory](class.syncsharedmemory.md).
+Витягує розмір пам'яті об'єкта, що розділяється. [SyncSharedMemory](class.syncsharedmemory.md)
 
 ### Список параметрів
 
@@ -25,24 +26,27 @@ public **SyncSharedMemory::size**(): int
 
 ### Значення, що повертаються
 
-Ціле число, що містить розмір пам'яті, що розділяється. Це буде той самий
-розмір, який було передано конструктору.
+Ціле число, що містить розмір пам'яті, що розділяється. Це буде той самий розмір, який було передано конструктору.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSharedMemory::size()****
+**Приклад #1 Приклад використання **Sync Shared Memory::size()****
 
-` <?php$mem = new SyncSharedMemory("AppReportName", 1024);var_dump($mem->size());?> `
+```php
+<?php
+$mem = new SyncSharedMemory("AppReportName", 1024);
+var_dump($mem->size());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1024)
+```
 
 ### Дивіться також
 
-- [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md) -
-Створює новий об'єкт SyncSharedMemory
-- [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює
-дані в іменовану пам'ять, що розділяється
-- [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює
-дані з іменованої пам'яті
+-   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється

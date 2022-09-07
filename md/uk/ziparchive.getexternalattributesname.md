@@ -1,46 +1,43 @@
-- [« ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.md)
-- [ZipArchive::getFromIndex »](ziparchive.getfromindex.md)
-
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- Витягти зовнішні атрибути запису на її ім'я
-
+---
+navigation:
+  - ziparchive.getexternalattributesindex.md: '« ZipArchive::getExternalAttributesIndex'
+  - ziparchive.getfromindex.md: 'ZipArchive::getFromIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::getExternalAttributesName'
+---
 # ZipArchive::getExternalAttributesName
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL zip \>= 1.12.4)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8, PECL zip >= 1.12.4)
 
-ZipArchive::getExternalAttributesName — Вийняти зовнішні атрибути запису
-на її ім'я
+ZipArchive::getExternalAttributesName — Вийняти зовнішні атрибути запису на ім'я
 
 ### Опис
 
-public **ZipArchive::getExternalAttributesName**(
-string `$name`,
-int `&$opsys`,
-int `&$attr`,
-int `$flags` = 0
-): bool
+```methodsynopsis
+public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,    int &$attr,    int $flags = 0): bool
+```
 
 Витягує зовнішні атрибути запису на її ім'я.
 
 ### Список параметрів
 
 `name`
+
 Назва запису.
 
 `opsys`
-У разі успішного виконання сюди записується код операційної
-системи, заданий однією із констант ZipArchive::OPSYS\_.
+
+У разі успішного виконання сюди записується код операційної системи, заданий однією із констант ZipArchive::OPSYS
 
 `attr`
-У разі успішного виконання записуються зовнішні атрибути.
-Значення залежить від операційної системи.
+
+У разі успішного виконання записуються сюди зовнішні атрибути. Значення залежить від операційної системи.
 
 `flags`
-Якщо подано як **`ZipArchive::FL_UNCHANGED`**, буде повернено
-оригінальні незмінені атрибути.
+
+Якщо поставлено як **`ZipArchive::FL_UNCHANGED`**, буде повернено оригінальні незмінені атрибути.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

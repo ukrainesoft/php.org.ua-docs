@@ -1,41 +1,50 @@
-- [«Event::signal](event.signal.md)
-- [EventBase »](class.eventbase.md)
-
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- Створити об'єкт події таймера
-
+---
+navigation:
+  - event.signal.md: '« Event::signal'
+  - class.eventbase.md: EventBase »
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::timer'
+---
 # Event::timer
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 Event::timer — Створити об'єкт події таймера
 
 ### Опис
 
-public static **Event::timer**( [EventBase](class.eventbase.md)
-`$base` , [callable](language.types.callable.md) `$cb` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = ?): [Event](class.event.md)
+```methodsynopsis
+public
+   static
+   Event::timer(
+    EventBase
+     $base
+   , 
+    callable
+     $cb
+   , 
+    mixed
+     $arg
+    = ?): Event
+```
 
-Створює об'єкт таймера. Це полегшений метод для створення
-події сигналу. Зверніть увагу, що штатний конструктор
-[Event::\_\_construct()](event.construct.md) також може створювати
-таймер події.
+Створює об'єкт таймера. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.md) може також створювати події таймера.
 
 ### Список параметрів
 
 `base`
-Події, до якої необхідно прив'язати подію.
+
+Подієва база, до якої необхідно прив'язати подію.
 
 `cb`
-Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного виклику для подій](event.callbacks.md) .
+
+Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.md)
 
 `arg`
-Ці дані, пов'язані з подією. Вони будуть передані в
-функцію зворотного виклику, коли відбудеться подія.
+
+Ці дані, пов'язані з подією. Вони будуть передані у функцію зворотного виклику, коли відбудеться подія.
 
 ### Значення, що повертаються
 
-Повертає об'єкт Event. У разі виникнення помилки повертає
-**`false`**.
+Повертає об'єкт Event. У разі виникнення помилки повертає **`false`**

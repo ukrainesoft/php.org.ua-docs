@@ -1,19 +1,22 @@
-- [« Ds\Map::ksorted](ds-map.ksorted.md)
-- [Ds\Map::map »](ds-map.map.md)
+---
+navigation:
+  - ds-map.ksorted.md: '« DsMap::ksorted'
+  - ds-map.map.md: 'ДсMap::map »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::last'
+---
+# ДсMap::last
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає останню пару колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Map::last
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::last — Повертає останню пару колекції
+ДсMap::last — Повертає останню пару колекції
 
 ### Опис
 
-public **Ds\Map::last**(): [Ds\Pair](class.ds-pair.md)
+```methodsynopsis
+public Ds\Map::last(): Ds\Pair
+```
 
 Повертає останню пару колекції.
 
@@ -27,21 +30,26 @@ public **Ds\Map::last**(): [Ds\Pair](class.ds-pair.md)
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::last()****
+**Приклад #1 Приклад використання **ДсMap::last()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);var_dump($map->last());?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+var_dump($map->last());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Pair)#2 (2) {
-["key"]=>
-string(1) "c"
-["value"]=>
-int(3)
+  ["key"]=>
+  string(1) "c"
+  ["value"]=>
+  int(3)
 }
+```

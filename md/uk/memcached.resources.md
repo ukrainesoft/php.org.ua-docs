@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](memcached.configuration.md)
-- [Предвизначені константи »](memcached.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](memcached.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - memcached.configuration.md: « Налаштування під час виконання
+  - memcached.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - memcached.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

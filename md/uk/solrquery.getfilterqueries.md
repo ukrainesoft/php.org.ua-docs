@@ -1,23 +1,24 @@
-- [«SolrQuery::getFields](solrquery.getfields.md)
-- [SolrQuery::getGroup »](solrquery.getgroup.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає масив запитів фільтра
-
+---
+navigation:
+  - solrquery.getfields.md: '« SolrQuery::getFields'
+  - solrquery.getgroup.md: 'SolrQuery::getGroup »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFilterQueries'
+---
 # SolrQuery::getFilterQueries
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getFilterQueries — Повертає масив запитів фільтра
 
 ### Опис
 
-public **SolrQuery::getFilterQueries**(): array
+```methodsynopsis
+public SolrQuery::getFilterQueries(): array
+```
 
-Повертає масив запитів фільтра. Це запити, які можна
-використовувати для обмеження розширеного набору документів, які
-можуть бути повернуті, не впливаючи на оцінку.
+Повертає масив запитів фільтру. Це запити, які можна використовувати для обмеження розширеного набору документів, які можна повернути, не впливаючи на оцінку.
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **SolrQuery::getFilterQueries**(): array
 
 ### Значення, що повертаються
 
-Повертає масив у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає масив у разі успішного виконання та **`null`**, якщо значення не встановлено

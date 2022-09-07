@@ -1,47 +1,61 @@
-- [ZipArchive](class.ziparchive.md)
-- [ZipArchive::addFile »](ziparchive.addfile.md)
-
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- Додає нову директорію
-
+---
+navigation:
+  - class.ziparchive.md: « ZipArchive
+  - ziparchive.addfile.md: 'ZipArchive::addFile »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::addEmptyDir'
+---
 # ZipArchive::addEmptyDir
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.8.0)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.8.0)
 
 ZipArchive::addEmptyDir — Додає нову директорію
 
 ### Опис
 
-public **ZipArchive::addEmptyDir**(string `$dirname`, int `$flags` = 0):
-bool
+```methodsynopsis
+public ZipArchive::addEmptyDir(string $dirname, int $flags = 0): bool
+```
 
 Додає порожню директорію до архіву.
 
 ### Список параметрів
 
 `dirname`
+
 Директорія додавання.
 
 `flags`
-Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`**,
-**`ZipArchive::FL_ENC_UTF_8`**, **`ZipArchive::FL_ENC_CP437`**.
-Поведінка констант описано на сторінці
-[ZIP-константи](zip.constants.md).
+
+Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія       | Опис                    |
-| ------------ | ----------------------- |
-| 8.0.0/1.18.0 | Доданий параметр flags. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 
-**Приклад #1 Створення нової директорії в архіві.**
+**Приклад #1 Створення нової директорії у архіві.**
 
-`<?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {    if($zip->addEmptyDir('newDirectory')) {           ; } else {        echo 'Неможливо створити директорію'; }   $zip->close();} else {   echo 'помилка';}?> `
+```php
+<?php
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    if($zip->addEmptyDir('newDirectory')) {
+        echo 'Создана новая директория';
+    } else {
+        echo 'Невозможно создать директорию';
+    }
+    $zip->close();
+} else {
+    echo 'ошибка';
+}
+?>
+```

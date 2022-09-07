@@ -1,94 +1,100 @@
-- [« Ds\Map::last](ds-map.last.md)
-- [Ds\Map::merge »](ds-map.merge.md)
+---
+navigation:
+  - ds-map.last.md: '« DsMap::last'
+  - ds-map.merge.md: 'ДсMap::merge »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::map'
+---
+# ДсMap::map
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає результат застосування callback-функції до всіх значень
-колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Map::map
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::map — Повертає результат застосування callback-функції до всіх
-значенням колекції
+ДсMap::map — Повертає результат застосування callback-функції до всіх значень колекції
 
 ### Опис
 
-public **Ds\Map::map**([callable](language.types.callable.md)
-`$callback`): [Ds\Map](class.ds-map.md)
+```methodsynopsis
+public Ds\Map::map(callable $callback): Ds\Map
+```
 
-Повертає результат застосування callback-функції, переданої в
-`callback`, до всіх значень колекції.
+Повертає результат застосування callback-функції, переданої в `callback`до всіх значень колекції.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Аргумент типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $key, mixed $value): mixed
+```
 
-Ця функція повинна повертати нове значення для кожного елемента
-колекції.
+Аргумент типу [callable](language.types.callable.md)
+
+Ця функція повинна повертати нове значення для кожного елемента колекції.
 
 ### Значення, що повертаються
 
 Результат застосування `callback` до кожного значення колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Значення поточної колекції залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::map()****
+**Приклад #1 Приклад використання **ДсMap::map()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);print_r($map->map(function($key, $value) { return $value * 2; }));print_r($map);?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+
+print_r($map->map(function($key, $value) { return $value * 2; }));
+print_r($map);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 (
-[0] => Ds\Pair Object
-(
-[key] => a
-[value] => 2
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 2
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 4
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 4
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => c
-[value] => 6
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 6
+        )
 
 )
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => a
-[value] => 1
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 1
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 2
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 2
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => c
-[value] => 3
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 3
+        )
 
 )
+```

@@ -1,26 +1,29 @@
-- [« Parle\Parser::push](parle-parser.push.md)
-- [Parle\Parser::right »](parle-parser.right.md)
+---
+navigation:
+  - parle-parser.push.md: '« ParleParser::push'
+  - parle-parser.right.md: 'ParleParser::right »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::reset'
+---
+# ParleParser::reset
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- скидає стан парсера
+(PECL parle >= 0.7.1)
 
-# Parle\Parser::reset
-
-(PECL parle \>= 0.7.1)
-
-Parle\Parser::reset — Скидає стан парсера
+ParleParser::reset — Скидає стан парсера
 
 ### Опис
 
-public **Parle\Parser::reset**(int `$tokenId` = ?): void
+```methodsynopsis
+public Parle\Parser::reset(int $tokenId = ?): void
+```
 
-Скидає стан парсера за допомогою заданого ідентифікатора
-токена.
+Скидає стан парсера за допомогою заданого ідентифікатора токена.
 
 ### Список параметрів
 
 `tokenId`
+
 Ідентифікатор токена.
 
 ### Значення, що повертаються

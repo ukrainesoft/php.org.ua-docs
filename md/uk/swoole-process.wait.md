@@ -1,19 +1,22 @@
-- [« Swoole\Process::useQueue](swoole-process.usequeue.md)
-- [Swoole\Process::write »](swoole-process.write.md)
+---
+navigation:
+  - swoole-process.usequeue.md: '« SwooleProcess::useQueue'
+  - swoole-process.write.md: 'SwooleProcess::write »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::wait'
+---
+# SwooleProcess::wait
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Очікує подій дочірніх процесів
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::wait
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::wait — Очікує на події дочірніх процесів
+SwooleProcess::wait — Очікує подій дочірніх процесів
 
 ### Опис
 
-public static **Swoole\Process::wait**(bool `$blocking` = ?): array
+```methodsynopsis
+public static Swoole\Process::wait(bool $blocking = ?): array
+```
 
 ### Список параметрів
 

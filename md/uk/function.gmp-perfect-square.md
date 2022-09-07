@@ -1,52 +1,64 @@
-- [«gmp_perfect_power](function.gmp-perfect-power.md)
-- [gmp_popcount »](function.gmp-popcount.md)
+---
+navigation:
+  - function.gmp-perfect-power.md: « gmpperfectpower
+  - function.gmp-popcount.md: gmppopcount »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpperfectsquare
+---
+# gmpperfectsquare
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Перевірка числа на точний квадрат
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_perfect_square
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_perfect_square — Перевірка числа на точний квадрат
+gmpperfectsquare - Перевірка числа на точний квадрат
 
 ### Опис
 
-**gmp_perfect_square**([GMP](class.gmp.md)\|int\|string `$num`): bool
+```methodsynopsis
+gmp_perfect_square(GMP|int|string $num): bool
+```
 
-Перевіряє, чи число точним квадратом, тобто. квадратом цілого
-числа.
+Перевіряє, чи число точним квадратом, тобто. квадратом цілого числа.
 
 ### Список параметрів
 
 `num`
+
 Перевірене на точний квадрат число.
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `num` є квадратом цілого числа,
-в іншому випадку повертає **`false`**.
+Повертає **`true`**, якщо `num` є квадратом цілого числа, інакше повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_perfect_square()****
+**Приклад #1 Приклад використання **gmpperfectsquare()****
 
-` <?php// 3 * 3, точный квадратvar_dump(gmp_perfect_square("9"));// не является точным квадратомvar_dump(gmp_perfect_square("7"));// 1234567890 * 1234567890, точный квадратvar_dump(gmp_perfect_square("1524157875019052100" ));?> `
+```php
+<?php
+// 3 * 3, точный квадрат
+var_dump(gmp_perfect_square("9"));
+
+// не является точным квадратом
+var_dump(gmp_perfect_square("7"));
+
+// 1234567890 * 1234567890, точный квадрат
+var_dump(gmp_perfect_square("1524157875019052100"));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [gmp_perfect_power()](function.gmp-perfect-power.md) - Перевірити,
-чи є число "досконалим ступенем"
-- [gmp_sqrt()](function.gmp-sqrt.md) - Обчислення квадратного кореня
-- [gmp_sqrtrem()](function.gmp-sqrtrem.md) - Квадратний корінь з
-залишком
+-   [gmpperfectpower()](function.gmp-perfect-power.md) - Перевірити, чи є число "досконалим ступенем"
+-   [gmpsqrt()](function.gmp-sqrt.md) - Обчислення квадратного кореня
+-   [gmpsqrtrem()](function.gmp-sqrtrem.md) - Квадратний корінь із залишком

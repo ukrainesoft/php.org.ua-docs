@@ -1,10 +1,11 @@
-- [« SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md)
-- [Модулі для роботи із серверами »](refs.utilspec.server.md)
-
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrMissingMandatoryParameterException
-
+---
+navigation:
+  - solrillegaloperationexception.getinternalinfo.md: '« SolrIllegalOperationException::getInternalInfo'
+  - refs.utilspec.server.md: Модулі для роботи із серверами »
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrMissingMandatoryParameterException
+---
 # Клас SolrMissingMandatoryParameterException
 
 (No version information available, might only be in Git)
@@ -13,55 +14,71 @@
 
 ## Огляд класів
 
-class **SolrMissingMandatoryParameterException** extends
-[SolrException](class.solrexception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class SolrMissingMandatoryParameterException
+     
 
-protected int `$code`;
+     
+      extends
+       SolrException
+     
+     {
 
-protected string `$file` = "";
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$line`;
+    protected
+     int
+      $sourceline;
+protected
+     string
+      $sourcefile;
+protected
+     string
+      $zif_name;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-protected int `$sourceline`;
+    
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-protected string `$sourcefile`;
+    public SolrException::getInternalInfo(): array
 
-protected string `$zif_name`;
 
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-public
-[SolrException::getInternalInfo](solrexception.getinternalinfo.md)():
-array
-
-}
+   }
+```

@@ -1,10 +1,11 @@
-- [« Imagick::deconstructImages](imagick.deconstructimages.md)
-- [Imagick::deleteImageProperty »](imagick.deleteimageproperty.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Видаляє артефакт зображення
-
+---
+navigation:
+  - imagick.deconstructimages.md: '« Imagick::deconstructImages'
+  - imagick.deleteimageproperty.md: 'Imagick::deleteImageProperty »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::deleteImageArtifact'
+---
 # Imagick::deleteImageArtifact
 
 (PECL imagick 3)
@@ -13,21 +14,21 @@ Imagick::deleteImageArtifact — Видаляє артефакт зображе�
 
 ### Опис
 
-public **Imagick::deleteImageArtifact**(string `$artifact`): bool
+```methodsynopsis
+public Imagick::deleteImageArtifact(string $artifact): bool
+```
 
-Видаляє артефакт, пов'язаний із зображенням. Різниця між властивостями
-зображення та артефактами зображення полягає в тому, що властивості
-є загальнодоступними, а артефакти – приватними. Цей метод доступний,
-якщо Imagick був скомпільований із версією ImageMagick 6.5.7 або старшим.
+Видаляє артефакт, пов'язаний із зображенням. Різниця між властивостями зображення та артефактами зображення полягає в тому, що властивості є загальнодоступними, а артефакти – приватними. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.5.7 або старшим.
 
 ### Список параметрів
 
 `artifact`
-Назва артефакту для видалення
+
+Назва артефакту видалення
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -35,7 +36,5 @@ public **Imagick::deleteImageArtifact**(string `$artifact`): bool
 
 ### Дивіться також
 
-- [Imagick::setImageArtifact()](imagick.setimageartifact.md) -
-Встановлює артефакт зображення
-- [Imagick::getImageArtifact()](imagick.getimageartifact.md) -
-Повертає артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.md) - Встановлює артефакт зображення
+-   [Imagick::getImageArtifact()](imagick.getimageartifact.md) - Повертає артефакт зображення

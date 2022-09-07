@@ -1,20 +1,22 @@
-- [« ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md)
-- [ReflectionClassConstant::getDocComment »](reflectionclassconstant.getdoccomment.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- Отримує клас, що оголошує
-
+---
+navigation:
+  - reflectionclassconstant.getattributes.md: '« ReflectionClassConstant::getAttributes'
+  - reflectionclassconstant.getdoccomment.md: 'ReflectionClassConstant::getDocComment »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::getDeclaringClass'
+---
 # ReflectionClassConstant::getDeclaringClass
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
 ReflectionClassConstant::getDeclaringClass — Отримує клас, що оголошує
 
 ### Опис
 
-public **ReflectionClassConstant::getDeclaringClass**():
-[ReflectionClass](class.reflectionclass.md)
+```methodsynopsis
+public ReflectionClassConstant::getDeclaringClass(): ReflectionClass
+```
 
 Отримує клас, що оголошує.
 
@@ -24,4 +26,4 @@ public **ReflectionClassConstant::getDeclaringClass**():
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionClass](class.reflectionclass.md).
+Об'єкт [ReflectionClass](class.reflectionclass.md)

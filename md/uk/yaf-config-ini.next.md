@@ -1,24 +1,26 @@
-- [« Yaf_Config_Ini::key](yaf-config-ini.key.md)
-- [Yaf_Config_Ini::offsetExists »](yaf-config-ini.offsetexists.md)
+---
+navigation:
+  - yaf-config-ini.key.md: '« YafConfigIni::key'
+  - yaf-config-ini.offsetexists.md: 'YafConfigIni::offsetExists »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
+title: 'YafConfigIni::next'
+---
+# YafConfigIni::next
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Просуває внутрішній покажчик
+(Yaf >=1.0.0)
 
-# Yaf_Config_Ini::next
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Ini::next — Просуває внутрішній покажчик
+YafConfigIni::next — Просуває внутрішній покажчик
 
 ### Опис
 
-public **Yaf_Config_Ini::next**(): void
+```methodsynopsis
+public Yaf_Config_Ini::next(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

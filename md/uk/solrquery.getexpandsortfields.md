@@ -1,19 +1,22 @@
-- [«SolrQuery::getExpandRows](solrquery.getexpandrows.md)
-- [SolrQuery::getFacet »](solrquery.getfacet.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає масив полів
-
+---
+navigation:
+  - solrquery.getexpandrows.md: '« SolrQuery::getExpandRows'
+  - solrquery.getfacet.md: 'SolrQuery::getFacet »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getExpandSortFields'
+---
 # SolrQuery::getExpandSortFields
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getExpandSortFields — Повертає масив полів
 
 ### Опис
 
-public **SolrQuery::getExpandSortFields**(): array
+```methodsynopsis
+public SolrQuery::getExpandSortFields(): array
+```
 
 Повертає масив полів
 

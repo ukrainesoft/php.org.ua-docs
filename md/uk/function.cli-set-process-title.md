@@ -1,48 +1,59 @@
-- [«cli_get_process_title](function.cli-get-process-title.md)
-- [dl »](function.dl.md)
+---
+navigation:
+  - function.cli-get-process-title.md: « cligetprocesstitle
+  - function.dl.md: dl »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: clisetprocesstitle
+---
+# clisetprocesstitle
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Встановлює заголовок процесу
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-#cli_set_process_title
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-cli_set_process_title — Встановлює заголовок процесу
+clisetprocesstitle — Встановлює заголовок процесу
 
 ### Опис
 
-**cli_set_process_title**(string `$title`): bool
+```methodsynopsis
+cli_set_process_title(string $title): bool
+```
 
-Встановлює заголовок процесу, видиме утилітами **top** та **ps**.
-Ця функція доступна лише у режимі [CLI](features.commandline.md).
+Встановлює заголовок процесу, видимий утилітами **top** і **пс**. Ця функція доступна лише в режимі [CLI](features.commandline.md)
 
 ### Список параметрів
 
 `title`
-Нове ім'я.
+
+Нове ім'я
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо команда не підтримується вашою операційною системою, буде
-викликана помилка рівня **`E_WARNING`**.
+Якщо команда не підтримується вашою операційною системою, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cli_set_process_title()****
+**Приклад #1 Приклад використання **clisetprocesstitle()****
 
-` <?php$title = "Мій приголомшливий PHP-скрипт";$pid = getmypid(); // ви можете використовувати це, щоб бачити заголовок процесу в psif (!cli_set_process_title($title)) {    echo "Не удалося встановити заголовок$ ...
-";   exit(1);} else {    echo "Заголовок процесу '$title' для PID $pid буввстановлений!
-";    sleep(5);}?> `
+```php
+<?php
+$title = "Мой потрясающий PHP-скрипт";
+$pid = getmypid(); // вы можете использовать это, чтобы увидеть заголовок процесса в ps
+
+if (!cli_set_process_title($title)) {
+    echo "Не удалось установить заголовок процесса для PID $pid...\n";
+    exit(1);
+} else {
+    echo "Заголовок процесса '$title' для PID $pid был установлен!\n";
+    sleep(5);
+}
+?>
+```
 
 ### Дивіться також
 
-- [cli_get_process_title()](function.cli-get-process-title.md) -
-Повертає заголовок поточного процесу
-- **setproctitle()**
+-   [cligetprocesstitle()](function.cli-get-process-title.md) - Повертає заголовок поточного процесу
+-   **setproctitle()**

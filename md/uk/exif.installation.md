@@ -1,16 +1,13 @@
-- [« Вимоги](exif.requirements.md)
-- [Налаштування під час виконання »](exif.configuration.md)
+---
+navigation:
+  - exif.requirements.md: « Вимоги
+  - exif.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - exif.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](exif.setup.md)
-- Установка
+Щоб увімкнути підтримку exif, налаштуйте PHP з опцією **\-enable-exif**
 
-## Установка
-
-Щоб увімкнути підтримку exif, налаштуйте PHP з опцією
-**--enable-exif**
-
-Користувачі Windows повинні увімкнути DLL-файли `php_mbstring.dll` та
-`php_exif.dll` в `php.ini`. DLL `php_mbstring.dll` повинна бути завантажена
-*до* DLL `php_exif.dll`, так що налаштуйте ваш `php.ini` відповідним
-чином.
+Користувачі Windows повинні увімкнути DLL-файли phpmbstring.dll та phpexif.dll у php.ini. DLL phpmbstring.dll повинна бути завантажена *до* DLL phpexif.dll, так що налаштуйте ваш php.ini відповідним чином.

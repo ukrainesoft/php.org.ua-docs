@@ -1,68 +1,68 @@
-- [« Swoole\Server::tick](swoole-server.tick.md)
-- [Swoole\Table::column »](swoole-table.column.md)
+---
+navigation:
+  - swoole-server.tick.md: '« SwooleServer::tick'
+  - swoole-table.column.md: 'SwooleTable::column »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleTable
+---
+# Клас SwooleTable
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Table
-
-# Клас Swoole\Table
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Table** implements [Iterator](class.iterator.md),
-[Countable](class.countable.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `TYPE_INT` = 1;
 
-const int `TYPE_STRING` = 7;
+    
+     
+      class Swoole\Table
+     
 
-const int `TYPE_FLOAT` = 6;
+     implements 
+       Iterator,  Countable {
 
-/\* Методи \*/
+    /* Константы */
+    
+     const
+     int
+      TYPE_INT = 1;
 
-public [column](swoole-table.column.md)(string `$name`, string
-`$type`, int `$size` = ?): ReturnType
+    const
+     int
+      TYPE_STRING = 7;
 
-public [count](swoole-table.count.md)(): int
+    const
+     int
+      TYPE_FLOAT = 6;
 
-public [create](swoole-table.create.md)(): void
 
-public [current](swoole-table.current.md)(): array
+    /* Методы */
+    
+   public column(string $name, string $type, int $size = ?): ReturnType
+public count(): int
+public create(): void
+public current(): array
+public decr(string $key, string $column, int $decrby = ?): ReturnType
+public del(string $key): void
+public destroy(): void
+public exist(string $key): bool
+public get(string $row_key, string $column_key): int
+public incr(string $key, string $column, int $incrby = ?): void
+public key(): string
+public next(): ReturnType
+public rewind(): void
+public set(string $key, array $value): VOID
+public valid(): bool
 
-public [decr](swoole-table.decr.md)(string `$key`, string `$column`,
-int `$decrby` = ?): ReturnType
+   }
+```
 
-public [del](swoole-table.del.md)(string `$key`): void
-
-public [destroy](swoole-table.destroy.md)(): void
-
-public [exist](swoole-table.exist.md)(string `$key`): bool
-
-public [get](swoole-table.get.md)(string `$row_key`, string
-`$column_key`): int
-
-public [incr](swoole-table.incr.md)(string `$key`, string `$column`,
-int `$incrby` = ?): void
-
-public [key](swoole-table.key.md)(): string
-
-public [next](swoole-table.next.md)(): ReturnType
-
-public [rewind](swoole-table.rewind.md)(): void
-
-public [set](swoole-table.set.md)(string `$key`, array `$value`): VOID
-
-public [valid](swoole-table.valid.md)(): bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Swoole\Table::TYPE_INT`**
 
@@ -72,35 +72,19 @@ public [valid](swoole-table.valid.md)(): bool
 
 ## Зміст
 
-- [Swoole\Table::column](swoole-table.column.md) — Встановлює тип
-даних та розмір стовпців
-- [Swoole\Table::\_\_construct](swoole-table.construct.md) - Створює
-таблицю пам'яті Swoole із фіксованим розміром
-- [Swoole\Table::count](swoole-table.count.md) — Підраховує рядки
-у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
-- [Swoole\Table::create](swoole-table.create.md) — Створює таблицю
-пам'яті swoole
-- [Swoole\Table::current](swoole-table.current.md) - Отримує
-поточний рядок
-- [Swoole\Table::decr](swoole-table.decr.md) — Зменшує значення
-таблиці Swoole за $row_key та $column_key
-- [Swoole\Table::del](swoole-table.del.md) — Видаляє рядок у
-таблиці Swoole за $row_key
-- [Swoole\Table::destroy](swoole-table.destroy.md) - Знищує
-таблицю Swoole
-- [Swoole\Table::exist](swoole-table.exist.md) — Перевіряє,
-чи існує рядок за $row_key
-- [Swoole\Table::get](swoole-table.get.md) — Отримує значення в
-таблиці Swoole за $row_key та $column_key
-- [Swoole\Table::incr](swoole-table.incr.md) — Збільшує значення
-за $row_key та $column_key
-- [Swoole\Table::key](swoole-table.key.md) — Отримує ключ поточної
-рядки
-- [Swoole\Table::next](swoole-table.next.md) - Переміщує ітератор
-на наступний рядок
-- [Swoole\Table::rewind](swoole-table.rewind.md) - Перемотує
-ітератор
-- [Swoole\Table::set](swoole-table.set.md) — Оновлює рядок
-таблиці за $row_key
-- [Swoole\Table::valid](swoole-table.valid.md) — Перевіряє, чи є
-чи поточний рядок коректним
+-   [SwooleTable::column](swoole-table.column.md) — Встановлює тип даних та розмір стовпців
+-   [SwooleTable::construct](swoole-table.construct.md) — Створює таблицю пам'яті Swoole із фіксованим розміром
+-   [SwooleTable::count](swoole-table.count.md) — Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
+-   [SwooleTable::create](swoole-table.create.md) - Створює таблицю пам'яті swoole
+-   [SwooleTable::current](swoole-table.current.md) — Отримує поточний рядок
+-   [SwooleTable::decr](swoole-table.decr.md) — Зменшує значення у таблиці Swoole за $rowkey та $columnkey
+-   [SwooleTable::del](swoole-table.del.md) — Видаляє рядок у таблиці Swoole за $rowkey
+-   [SwooleTable::destroy](swoole-table.destroy.md) - Знищує таблицю Swoole
+-   [SwooleTable::exist](swoole-table.exist.md) — Перевіряє, чи існує рядок $rowkey
+-   [SwooleTable::get](swoole-table.get.md) — Отримує значення у таблиці Swoole за $rowkey та $columnkey
+-   [SwooleTable::incr](swoole-table.incr.md) — Збільшує значення $rowkey та $columnkey
+-   [SwooleTable::key](swoole-table.key.md) — Отримує ключ поточного рядка
+-   [SwooleTable::next](swoole-table.next.md) — Переміщує ітератор на наступний рядок
+-   [SwooleTable::rewind](swoole-table.rewind.md) - Перемотує ітератор
+-   [SwooleTable::set](swoole-table.set.md) — Оновлює рядок таблиці $rowkey
+-   [SwooleTable::valid](swoole-table.valid.md) — Перевіряє, чи поточний рядок є коректним

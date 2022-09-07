@@ -1,23 +1,25 @@
-- [«EvLoop::timer](evloop.timer.md)
-- [EvPeriodic »](class.evperiodic.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Виконує внутрішні перевірки узгодженості (для налагодження)
-
+---
+navigation:
+  - evloop.timer.md: '« EvLoop::timer'
+  - class.evperiodic.md: EvPeriodic »
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::verify'
+---
 # EvLoop::verify
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::verify — Виконує внутрішні перевірки узгодженості (для
-налагодження)
+EvLoop::verify — Виконує внутрішні перевірки узгодженості (для налагодження)
 
 ### Опис
 
-public **EvLoop::verify**(): void
+```methodsynopsis
+public
+   EvLoop::verify(): void
+```
 
-Виконує внутрішні перевірки узгодженості (для налагодження *libev*) та
-перериває програму, якщо виявлено пошкоджені структури даних.
+Виконує внутрішні перевірки узгодженості (для налагодження *libev*) і перериває програму, якщо виявлено пошкоджені структури даних.
 
 ### Список параметрів
 
@@ -29,5 +31,4 @@ public **EvLoop::verify**(): void
 
 ### Дивіться також
 
-- [Ev::verify()](ev.verify.md) - Здійснює внутрішню перевірку
-цілісності (для налагодження)
+-   [Ev::verify()](ev.verify.md) - Здійснює внутрішню перевірку цілісності (для налагодження)

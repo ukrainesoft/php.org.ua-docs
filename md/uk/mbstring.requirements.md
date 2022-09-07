@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](mbstring.setup.md)
-- [Встановлення »](mbstring.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mbstring.setup.md)
-- Вимоги
-
+---
+navigation:
+  - mbstring.setup.md: « Встановлення та налаштування
+  - mbstring.installation.md: Установка »
+  - index.md: PHP Manual
+  - mbstring.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

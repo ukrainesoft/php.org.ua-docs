@@ -1,16 +1,17 @@
-- [«is_int](function.is-int.md)
-- [is_iterable »](function.is-iterable.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Псевдонім is_int
-
-#is_integer
+---
+navigation:
+  - function.is-int.md: « isint
+  - function.is-iterable.md: ісiterable »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісinteger
+---
+# ісinteger
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_integer - Псевдонім [is_int()](function.is-int.md)
+ісinteger - Псевдонім [ісint()](function.is-int.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [is_int()](function.is-int.md).
+Ця функція є псевдонімом: [ісint()](function.is-int.md)

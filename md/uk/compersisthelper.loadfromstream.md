@@ -1,10 +1,11 @@
-- [« COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)
-- [COMPersistHelper::SaveToFile »](compersisthelper.savetofile.md)
-
-- [PHP Manual](index.md)
-- [COMPersistHelper](class.compersisthelper.md)
-- Завантажує об'єкт із потоку
-
+---
+navigation:
+  - compersisthelper.loadfromfile.md: '« COMPersistHelper::LoadFromFile'
+  - compersisthelper.savetofile.md: 'COMPersistHelper::SaveToFile »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::LoadFromStream'
+---
 # COMPersistHelper::LoadFromStream
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,22 +14,22 @@ COMPersistHelper::LoadFromStream — Завантажує об'єкт із по�
 
 ### Опис
 
-public **COMPersistHelper::LoadFromStream**(resource `$stream`): bool
+```methodsynopsis
+public COMPersistHelper::LoadFromStream(resource $stream): bool
+```
 
 Завантажує об'єкт із потоку, де його спочатку було збережено.
 
 ### Список параметрів
 
 `stream`
-Струмовий ресурс для завантаження об'єкта.
+
+Потоковий ресурс для завантаження об'єкта.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md), якщо
-пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**, або
-якщо виклик **IPersistStream::Load()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Load()** завершився помилкою.

@@ -1,25 +1,24 @@
-- [« MongoDB\Driver\Server::getServerDescription](mongodb-driver-server.getserverdescription.md)
-- [MongoDB\Driver\Server::getType »](mongodb-driver-server.gettype.md)
+---
+navigation:
+  - mongodb-driver-server.getserverdescription.md: '« MongoDBDriverServer::getServerDescription'
+  - mongodb-driver-server.gettype.md: 'MongoDBDriverServer::getType »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
+title: 'MongoDBDriverServer::getTags'
+---
+# MongoDBDriverServer::getTags
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Повертає масив тегів, що описують сервер у наборі реплік
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Server::getTags
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Server::getTags - Повертає масив тегів, що описують
-сервер у наборі реплік
+MongoDBDriverServer::getTags — Повертає масив тегів, що описують сервер у наборі реплік
 
 ### Опис
 
-final public **MongoDB\Driver\Server::getTags**(): array
+```methodsynopsis
+final public MongoDB\Driver\Server::getTags(): array
+```
 
-Повертає array
-[» тегів](https://www.mongodb.com/docs/manual/reference/glossary/#term-tag),
-використовуються для опису цього сервера в наборі реплік. Масив буде
-містити нуль або більше пар string ключів та значень.
+Повертає array [»тегів](https://www.mongodb.com/docs/manual/reference/glossary/#term-tag), що використовуються для опису цього сервера в наборі реплік. Масив буде містити нуль або більше пар string ключів та значень.
 
 ### Список параметрів
 
@@ -27,15 +26,12 @@ final public **MongoDB\Driver\Server::getTags**(): array
 
 ### Значення, що повертаються
 
-Повертає array теги, що використовуються для опису сервера в наборі
-реплік.
+Повертає array теги, що використовуються для опису сервера в наборі реплік.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер

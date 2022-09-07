@@ -1,41 +1,38 @@
-- [« Ds\Sequence::slice](ds-sequence.slice.md)
-- [Ds\Sequence::sorted »](ds-sequence.sorted.md)
+---
+navigation:
+  - ds-sequence.slice.md: '« DsSequence::slice'
+  - ds-sequence.sorted.md: 'ДсSequence::sorted »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::sort'
+---
+# ДсSequence::sort
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Сортує колекцію
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::sort
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::sort — Сортує колекцію
+ДсSequence::sort — Сортує колекцію
 
 ### Опис
 
-abstract public
-**Ds\Sequence::sort**([callable](language.types.callable.md)
-`$comparator` = ?): void
+```methodsynopsis
+abstract public Ds\Sequence::sort(callable $comparator = ?): void
+```
 
-Сортує колекцію, опціонально використовуючи callback-функцію
-`Comparator`.
+Сортує колекцію, опціонально використовуючи callback-функцію `comparator`
 
 ### Список параметрів
 
 `comparator`
-Функція порівняння повинна повертати ціле, яке менше, або
-більше нуля, якщо перший аргумент є відповідно меншим,
-рівним чи більшим, ніж другий.
 
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$a`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$b`): int
+Функція порівняння повинна повертати ціле, яке менше, дорівнює чи більше нуля, якщо перший аргумент є відповідно меншим, рівним чи більшим, ніж другий.
+
+```methodsynopsis
+callback(mixed $a, mixed $b): int
+```
 
 **Застереження**
-*Не ціле* значення повернене з функції порівняння, такого як float,
-буде приведено до цілого числа (int). Так що значення типу 0.99 та 0.1
-будуть приведені до 0, що означатиме рівність порівнюваних значень.
+
+*Не ціле* значення, повернене з функції порівняння, такого як float, буде приведено до цілого числа (int). Отже значення типу 0.99 і 0.1 будуть наведені до 0, що означатиме рівність порівнюваних значень.
 
 ### Значення, що повертаються
 
@@ -43,33 +40,53 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::sort()****
+**Приклад #1 Приклад використання **ДсSequence::sort()****
 
-` <?php$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);$sequence->sort();print_r($sequence);?> `
+```php
+<?php
+$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
+$sequence->sort();
 
-Результатом виконання цього прикладу буде щось подібне:
-
-Ds\Vector Object
-(
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
-[4] => 5
-)
-
-**Приклад #2 Приклад використання **Ds\Sequence::sort()** з
-callback-функцією порівняння**
-
-` <?php$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);$sequence->sort(function($a, $b) {    return $b <=> $a; });print_r($sequence);?> `
+print_r($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 5
-[1] => 4
-[2] => 3
-[3] => 2
-[4] => 1
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
+    [4] => 5
 )
+```
+
+**Приклад #2 Приклад використання **ДсSequence::sort()** з callback-функцією порівняння**
+
+```php
+<?php
+$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
+
+$sequence->sort(function($a, $b) {
+    return $b <=> $a;
+});
+
+print_r($sequence);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+Ds\Vector Object
+(
+    [0] => 5
+    [1] => 4
+    [2] => 3
+    [3] => 2
+    [4] => 1
+)
+```

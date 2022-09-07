@@ -1,20 +1,22 @@
-- [« Imagick::getImageColorspace](imagick.getimagecolorspace.md)
-- [Imagick::getImageCompression »](imagick.getimagecompression.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає складовий оператор, пов'язаний із зображенням
-
+---
+navigation:
+  - imagick.getimagecolorspace.md: '« Imagick::getImageColorspace'
+  - imagick.getimagecompression.md: 'Imagick::getImageCompression »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageCompose'
+---
 # Imagick::getImageCompose
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageCompose — Повертає складовий оператор, пов'язаний з
-зображенням
+Imagick::getImageCompose — Повертає складовий оператор, пов'язаний із зображенням
 
 ### Опис
 
-public **Imagick::getImageCompose**(): int
+```methodsynopsis
+public Imagick::getImageCompose(): int
+```
 
 Повертає складовий оператор, пов'язаний із зображенням.
 
@@ -24,4 +26,4 @@ public **Imagick::getImageCompose**(): int
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

@@ -1,11 +1,12 @@
-- [« COMPersistHelper::SaveToStream](compersisthelper.savetostream.md)
-- [Функції COM»](ref.com.md)
-
-- [PHP Manual](index.md)
-- [COM](book.com.md)
-- Клас com_exception
-
-# Клас com_exception
+---
+navigation:
+  - compersisthelper.savetostream.md: '« COMPersistHelper::SaveToStream'
+  - ref.com.md: Функции COM »
+  - index.md: PHP Manual
+  - book.com.md: COM
+title: Клас comexception
+---
+# Клас comexception
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -13,45 +14,62 @@
 
 ## Огляд класів
 
-final class **com_exception** extends [Exception](class.exception.md)
-implements [Throwable](class.throwable.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      final
+      class com_exception
+     
 
-private string `$string` = "";
+     
+      extends
+       Exception
+     
 
-protected int `$code`;
+     implements 
+       Throwable {
 
-protected string `$file` = "";
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$line`;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-/\* Наслідувані методи \*/
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

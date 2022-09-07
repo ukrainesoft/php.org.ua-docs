@@ -1,83 +1,100 @@
-- [«RecursiveRegexIterator](class.recursiveregexiterator.md)
-- [RecursiveRegexIterator::getChildren »](recursiveregexiterator.getchildren.md)
+---
+navigation:
+  - class.recursiveregexiterator.md: « RecursiveRegexIterator
+  - recursiveregexiterator.getchildren.md: 'RecursiveRegexIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.recursiveregexiterator.md: RecursiveRegexIterator
+title: 'RecursiveRegexIterator::construct'
+---
+# RecursiveRegexIterator::construct
 
-- [PHP Manual](index.md)
-- [RecursiveRegexIterator](class.recursiveregexiterator.md)
-- Конструктор класу RecursiveRegexIterator
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-# RecursiveRegexIterator::\_\_construct
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-RecursiveRegexIterator::\_\_construct — Конструктор класу
-RecursiveRegexIterator
+RecursiveRegexIterator::construct - Конструктор класу RecursiveRegexIterator
 
 ### Опис
 
-public **RecursiveRegexIterator::\_\_construct**(
-[RecursiveIterator](class.recursiveiterator.md) `$iterator`,
-string `$pattern`,
-int `$mode` = RecursiveRegexIterator::MATCH,
-int `$flags` = 0,
-int `$pregFlags` = 0
-)
+public **RecursiveRegexIterator::construct**  
+[RecursiveIterator](class.recursiveiterator.md) `$iterator`  
+string `$pattern`  
+int `$mode` = RecursiveRegexIterator::MATCH,  
+int `$flags`  
+int `$pregFlags`
 
 Створює новий об'єкт-ітератор регулярного вираження.
 
 ### Список параметрів
 
 `iterator`
-Рекурсивний ітератор, до якого потрібно застосувати фільтр на основі
-регулярного вираження.
+
+Рекурсивний ітератор якого потрібно застосувати фільтр з урахуванням регулярного висловлювання.
 
 `pattern`
+
 Регулярний вираз.
 
 `mode`
-Режим роботи, список доступних режимів наведено в описі методу
-[RegexIterator::setMode()](regexiterator.setmode.md).
+
+Режим роботи, список доступних режимів наведено в описі методу [RegexIterator::setMode()](regexiterator.setmode.md)
 
 `flags`
-Спеціальні прапори. Список доступних прапорів наведено в описі методу
-[RegexIterator::setFlags()](regexiterator.setflags.md).
+
+Спеціальні прапори. Список доступних прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.md)
 
 `pregFlags`
+
 Прапори регулярного вираження. Список прапорів залежить від режиму роботи:
 
-| режим роботи прапори                |                                                          |
-|-------------------------------------|----------------------------------------------------------|
-| RecursiveRegexIterator::ALL_MATCHES | Дивіться [preg_match_all()](function.preg-match-all.md). |
-| RecursiveRegexIterator::GET_MATCH   | Дивіться [preg_match()](function.preg-match.md).         |
-| RecursiveRegexIterator::MATCH       | Дивіться [preg_match()](function.preg-match.md).         |
-| RecursiveRegexIterator::REPLACE     | ні                                                       |
-| RecursiveRegexIterator::SPLIT       | Дивіться [preg_split()](function.preg-split.md).         |
+**[RegexIterator](class.regexiterator.md) pregflags**
 
-**[RegexIterator](class.regexiterator.md) preg_flags**
+| режим работы | доступные флаги |
+| --- | --- |
+| RecursiveRegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.md) |
+| RecursiveRegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.md) |
+| RecursiveRegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.md) |
+| RecursiveRegexIterator::REPLACE | ні |
+| RecursiveRegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**RecursiveRegexIterator::\_\_construct()****
+**Приклад #1 Приклад використання **RecursiveRegexIterator::construct()****
 
-Створює новий об'єкт-ітератор RegexIterator, який вибирає все
-рядки, що починаються зі слова 'test'.
+Створює новий об'єкт-ітератор RegexIterator, який вибирає всі рядки, що починаються зі слова 'test'.
 
-` <?php$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));$rRegexIterator = new RecursiveRegexItera   ::ALL_MATCHES);foreach ($rRegexIterator as $key1 => $value1) {    if ($rRegexIterator->hasChildren()) {        // выведем все дочерние элементы        echo "Дочерние элементы: "; foreach ($rRegexIterator->getChildren() as $key => $value) {            echo $value . " "; }        echo "
-";    }}else {        echo "Немає|дочірніх елементів
-";    }}?> `
+```php
+<?php
+$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));
+$rRegexIterator = new RecursiveRegexIterator($rArrayIterator, '/^test/',
+    RecursiveRegexIterator::ALL_MATCHES);
+
+foreach ($rRegexIterator as $key1 => $value1) {
+
+    if ($rRegexIterator->hasChildren()) {
+
+        // выведем все дочерние элементы
+        echo "Дочерние элементы: ";
+        foreach ($rRegexIterator->getChildren() as $key => $value) {
+            echo $value . " ";
+        }
+        echo "\n";
+    } else {
+        echo "Нет дочерних элементов\n";
+    }
+
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Немає дочірніх елементів
-Дочірні елементи: test4 test5
+```
+Нет дочерних элементов
+Дочерние элементы: test4 test5
+```
 
 ### Дивіться також
 
-- [preg_match()](function.preg-match.md) - Виконує перевірку на
-відповідність регулярному виразу
-- [preg_match_all()](function.preg-match-all.md) - Виконує
-глобальний пошук шаблону в рядку
-- [preg_replace()](function.preg-replace.md) - Пошук та
-заміну за регулярним виразом
-- [preg_split()](function.preg-split.md) - Розбиває рядок по
-регулярному виразу
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом

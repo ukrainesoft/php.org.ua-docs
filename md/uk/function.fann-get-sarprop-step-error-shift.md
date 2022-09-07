@@ -1,27 +1,31 @@
-- [« fann_get_rprop_increase_factor](function.fann-get-rprop-increase-factor.md)
-- [fann_get_sarprop_step_error_threshold_factor »](function.fann-get-sarprop-step-error-threshold-factor.md)
+---
+navigation:
+  - function.fann-get-rprop-increase-factor.md: « fanngetrpropincreasefactor
+  - function.fann-get-sarprop-step-error-threshold-factor.md: fanngetsarpropsteperrorthresholdfactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetsarpropsteperrorshift
+---
+# fanngetsarpropsteperrorshift
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає зрушення помилки кроку sarprop
+(PECL fann> = 1.0.0)
 
-# fann_get_sarprop_step_error_shift
-
-(PECL fann = 1.0.0)
-
-fann_get_sarprop_step_error_shift — Повертає зрушення помилки кроку sarprop
+fanngetsarpropsteperrorshift — Повертає помилку зрушення кроку sarprop
 
 ### Опис
 
-**fann_get_sarprop_step_error_shift**(resource `$ann`): float
+```methodsynopsis
+fann_get_sarprop_step_error_shift(resource $ann): float
+```
 
 Повертає зрушення помилки кроку sarprop.
 
-Зсув помилки кроку за промовчанням становить 1.385.
+Зсув помилки кроку за умовчанням становить 1385.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
@@ -30,12 +34,10 @@ fann_get_sarprop_step_error_shift — Повертає зрушення поми
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_set_sarprop_step_error_shift()](function.fann-set-sarprop-step-error-shift.md) -
-Встановлює зрушення помилки кроку sarprop
+-   [fannsetsarpropsteperrorshift()](function.fann-set-sarprop-step-error-shift.md) - Встановлює зрушення помилки кроку sarprop

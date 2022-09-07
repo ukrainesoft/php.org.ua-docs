@@ -1,32 +1,34 @@
-- [« ssh2_fingerprint](function.ssh2-fingerprint.md)
-- [ssh2_forward_listen »](function.ssh2-forward-listen.md)
+---
+navigation:
+  - function.ssh2-fingerprint.md: « ssh2fingerprint
+  - function.ssh2-forward-listen.md: ssh2forwardlisten »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2forwardaccept
+---
+# ssh2forwardaccept
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- приймає з'єднання, створене слухачем
+(PECL ssh2> = 0.9.0)
 
-# ssh2_forward_accept
-
-(PECL ssh2 \>= 0.9.0)
-
-ssh2_forward_accept — Приймає з'єднання, створене слухачем
+ssh2forwardaccept — Приймає з'єднання, створене слухачем
 
 ### Опис
 
-**ssh2_forward_accept**(resource `$listener`): resource\|false
+```methodsynopsis
+ssh2_forward_accept(resource $listener): resource|false
+```
 
 Приймає з'єднання, створене слухачем.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `desc`
-Ресурс SSH2 Listener, отриманий через виклик
-[ssh2_forward_listen()](function.ssh2-forward-listen.md).
+
+Ресурс SSH2 Listener, отриманий у результаті виклику [ssh2forwardlisten()](function.ssh2-forward-listen.md)
 
 ### Значення, що повертаються
 

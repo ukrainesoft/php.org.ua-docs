@@ -1,52 +1,65 @@
-- [«cubrid_data_seek](function.cubrid-data-seek.md)
-- [cubrid_errno»](function.cubrid-errno.md)
+---
+navigation:
+  - function.cubrid-data-seek.md: « cubriddataseek
+  - function.cubrid-errno.md: cubriderrno »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridдбname
+---
+# cubridдбname
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Отримання імені бази даних із результату cubrid_list_dbs
+(PECL CUBRID >= 8.3.1)
 
-# cubrid_db_name
-
-(PECL CUBRID = 8.3.1)
-
-cubrid_db_name — Отримання імені бази даних із результату
-cubrid_list_dbs
+cubridдбname — Отримання імені бази даних із результату cubridlistdbs
 
 ### Опис
 
-**cubrid_db_name**(array `$result`, int `$index`): string
+```methodsynopsis
+cubrid_db_name(array $result, int $index): string
+```
 
-Виймає ім'я бази даних із результату виклику
-[cubrid_list_dbs()](function.cubrid-list-dbs.md).
+Витягує ім'я бази даних із результату виклику [cubridlistdbs()](function.cubrid-list-dbs.md)
 
 ### Список параметрів
 
 `result`
-Вказівник на результат виклику
-[cubrid_list_dbs()](function.cubrid-list-dbs.md).
+
+Вказівник на результат виклику [cubridlistdbs()](function.cubrid-list-dbs.md)
 
 `index`
-Індекс у результативному наборі.
+
+Індекс в набір.
 
 ### Значення, що повертаються
 
-Повертає ім'я бази даних у разі успішного виконання або **`false`**
-у разі виникнення помилки. Якщо повернулося **`false`**, використовуйте
-[cubrid_error()](function.cubrid-error.md) для точного визначення
-помилки, що відбулася.
+Повертає ім'я бази даних у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо повернулося **`false`**, використовуйте [cubriderror()](function.cubrid-error.md) для точного визначення помилки, що відбулася.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_db_name()****
+**Приклад #1 Приклад використання **cubridдбname()****
 
-` <?phperror_reporting(E_ALL);$conn==cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$db_list = cubrid_list_dbs($conn);$i = 0; $db_list);while($i < $cnt) {    echo cubrid_db_name($db_list, $i) . "
-";   $i++;}?> `
+```php
+<?php
+error_reporting(E_ALL);
+
+$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
+$db_list = cubrid_list_dbs($conn);
+
+$i = 0;
+$cnt = count($db_list);
+while ($i < $cnt) {
+    echo cubrid_db_name($db_list, $i) . "\n";
+    $i++;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 demodb
+```
 
 ### Дивіться також
 
-- [cubrid_list_dbs()](function.cubrid-list-dbs.md) - Отримати масив
-зі списком усіх баз даних CUBRID
+-   [cubridlistdbs()](function.cubrid-list-dbs.md) - Отримати масив зі списком усіх баз даних CUBRID

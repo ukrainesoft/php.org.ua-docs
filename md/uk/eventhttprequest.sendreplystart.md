@@ -1,38 +1,44 @@
-- [« EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md)
-- [EventListener »](class.eventlistener.md)
-
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Ініціює фрагментарну відповідь
-
+---
+navigation:
+  - eventhttprequest.sendreplyend.md: '« EventHttpRequest::sendReplyEnd'
+  - class.eventlistener.md: EventListener »
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::sendReplyStart'
+---
 # EventHttpRequest::sendReplyStart
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
 EventHttpRequest::sendReplyStart — Ініціює фрагментарну відповідь
 
 ### Опис
 
-public **EventHttpRequest::sendReplyStart**( int `$code` , string
-`$reason` ): void
+```methodsynopsis
+public
+   EventHttpRequest::sendReplyStart(
+    int
+     $code
+   , 
+    string
+     $reason
+   ): void
+```
 
-Ініціює відповідь, яку використовує `Transfer-Encoding` `chunked`.
+Ініціює відповідь, яку використовує `Transfer-Encoding` `chunked`
 
-Це дозволяє стороні передавати відповідь назад клієнту. Це
-буде корисно, коли не всі дані відповіді доступні відразу, або при
-надсилання дуже великих відповідей.
+Це дозволяє стороні передавати відповідь назад клієнту. Це буде корисно, коли не всі дані відповіді доступні відразу, або при надсиланні дуже великих відповідей.
 
-Викликаюча сторона повинна надати фрагменти даних за допомогою
-[EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md)
-і завершити відповідь, викликавши
-[EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md).
+Викликаюча сторона повинна надати фрагменти даних за допомогою [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) і завершити відповідь, викликавши [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md)
 
 ### Список параметрів
 
 `code`
+
 Код відповіді HTTP для надсилання.
 
 `reason`
+
 Коротке повідомлення, щоб надіслати код відповіді.
 
 ### Значення, що повертаються
@@ -41,8 +47,5 @@ public **EventHttpRequest::sendReplyStart**( int `$code` , string
 
 ### Дивіться також
 
-- [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) -
-Відправляє блок даних як частину поточної фрагментованої відповіді
-- [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md) -
-Заповнює фрагментарну відповідь, звільняючи запит відповідним
-чином
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) - Відправляє блок даних, як частина поточної фрагментованої відповіді
+-   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md) - заповнює фрагментарну відповідь, звільняючи запит відповідним чином

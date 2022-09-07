@@ -1,38 +1,38 @@
-- [«EvWatcher::invoke](evwatcher.invoke.md)
-- [EvWatcher::setCallback »](evwatcher.setcallback.md)
-
-- [PHP Manual](index.md)
-- [EvWatcher](class.evwatcher.md)
-- Налаштовує, чи повертатиметься цикл
-
+---
+navigation:
+  - evwatcher.invoke.md: '« EvWatcher::invoke'
+  - evwatcher.setcallback.md: 'EvWatcher::setCallback »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::keepalive'
+---
 # EvWatcher::keepalive
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvWatcher::keepalive — Налаштовує, чи повертатиметься цикл
 
 ### Опис
 
-public **EvWatcher::keepalive**( bool `$value` = ?): bool
+```methodsynopsis
+public
+   EvWatcher::keepalive(
+    bool
+     $value
+    = ?): bool
+```
 
-Налаштовує, чи повертатиметься цикл. Якщо `value` підтримки
-встановлено **`false`**, спостерігач не перешкоджатиме поверненню
-[Ev::run()](ev.run.md) / [EvLoop::run()](evloop.run.md), навіть якщо
-спостерігач активний.
+Налаштовує, чи повертатиметься цикл. Якщо `value` підтримки встановлено **`false`**, спостерігач не перешкоджатиме поверненню [Ev::run()](ev.run.md) [EvLoop::run()](evloop.run.md)навіть якщо спостерігач активний.
 
-Спостерігачі за замовчуванням мають `value` підтримки **`true`**.
+Спостерігачі за замовчуванням мають `value` підтримки **`true`**
 
-Очищення статусу підтримки корисне при поверненні з
-[Ev::run()](ev.run.md) / [EvLoop::run()](evloop.run.md) тільки
-тому що спостерігач небажаний. Це може бути довго працюючий
-спостерігач UDP-сокет або близько того.
+Очищення статусу підтримки корисне при поверненні з [Ev::run()](ev.run.md) [EvLoop::run()](evloop.run.md) лише тому, що спостерігач небажаний. Це може бути працюючий спостерігач UDP-сокету або близько того.
 
 ### Список параметрів
 
 `value`
-Якщо `value` підтримки встановлено **`false`**, спостерігач не буде
-перешкоджати поверненню [Ev::run()](ev.run.md) /
-[EvLoop::run()](evloop.run.md), навіть якщо спостерігач активний.
+
+Якщо `value` підтримки встановлено **`false`**, спостерігач не перешкоджатиме поверненню [Ev::run()](ev.run.md) [EvLoop::run()](evloop.run.md)навіть якщо спостерігач активний.
 
 ### Значення, що повертаються
 
@@ -40,8 +40,12 @@ public **EvWatcher::keepalive**( bool `$value` = ?): bool
 
 ### Приклади
 
-**Приклад #1 Реєструємо спостерігач введення-виводу для будь-якого
-UDP-сокету, але не перешкоджаємо запуску циклу подій лише через це
-спостерігача.
+**Приклад #1 Реєструємо спостерігач вводу-виводу для будь-якого UDP-сокету, але не перешкоджаємо запуску циклу подій тільки через цей спостерігач.**
 
-` <?php$udp_socket = ...$udp_watcher = new EvIo($udp_socket, Ev::READ, function () { /* ... */ });$udp_watcher->keepalive(FAL
+```php
+<?php
+$udp_socket = ...
+$udp_watcher = new EvIo($udp_socket, Ev::READ, function () { /* ... */ });
+$udp_watcher->keepalive(FALSE);
+?>
+```

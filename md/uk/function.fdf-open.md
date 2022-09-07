@@ -1,49 +1,58 @@
-- [«fdf_open_string](function.fdf-open-string.md)
-- [fdf_remove_item »](function.fdf-remove-item.md)
+---
+navigation:
+  - function.fdf-open-string.md: « fdfopenstring
+  - function.fdf-remove-item.md: fdfremoveitem »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfopen
+---
+# fdfopen
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Відкриває документ FDF
+(PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-#fdf_open
-
-(PHP 4, PHP 5 \< 5.3.0, PECL fdf SVN)
-
-fdf_open — Відкриває документ FDF
+fdfopen — Відкриває документ FDF
 
 ### Опис
 
-**fdf_open**(string `$filename`): resource
+```methodsynopsis
+fdf_open(string $filename): resource
+```
 
 Відкриває файл із даними форми.
 
-Ви також можете використати
-[fdf_open_string()](function.fdf-open-string.md) для обробки
-результатів POST-запиту PDF-форми.
+Ви також можете використовувати [fdfopenstring()](function.fdf-open-string.md) для обробки результатів POST-запиту PDF-форми.
 
 ### Список параметрів
 
 `filename`
-Шлях до файлу FDF. Файл повинен містити дані, повернені із PDF
-форми або створені за допомогою [fdf_create()](function.fdf-create.md) та
-[fdf_save()](function.fdf-save.md).
+
+Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdfcreate()](function.fdf-create.md) і [fdfsave()](function.fdf-save.md)
 
 ### Значення, що повертаються
 
-Повертає дескриптор документа FDF або **`false`** у разі
-виникнення помилки.
+Повертає дескриптор документа FDF або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Доступ до даних форми**
 
-` <?php// Збереження даних FDF во часовий файл$fdffp =fopen("test.fdf", "w");fwrite($fdffp, $HTTP_FDF_DATA, strlen($HTTP_FDF_df) / Відкриття тимчасового файлу і отримання даних$fdf = fdf_open("test.fdf");/* ... */fdf_close($fdf);?> `
+```php
+<?php
+// Сохранение данных FDF во временный файл
+$fdffp = fopen("test.fdf", "w");
+fwrite($fdffp, $HTTP_FDF_DATA, strlen($HTTP_FDF_DATA));
+fclose($fdffp);
+
+// Открытие временного файла и получение данных
+$fdf = fdf_open("test.fdf");
+/* ... */
+fdf_close($fdf);
+?>
+```
 
 ### Дивіться також
 
-- [fdf_open_string()](function.fdf-open-string.md) - Читає FDF
-документ з рядка
-- [fdf_close()](function.fdf-close.md) - Закриває FDF-документ
-- [fdf_create()](function.fdf-create.md) - Створює новий документ
-FDF
-- [fdf_save()](function.fdf-save.md) - Зберігає документ FDF
+-   [fdfopenstring()](function.fdf-open-string.md) - Читає FDF документ з рядка
+-   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
+-   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF

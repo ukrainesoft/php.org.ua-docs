@@ -1,24 +1,26 @@
-- [« V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md)
-- [V8JsException::getJsTrace »](v8jsexception.getjstrace.md)
-
-- [PHP Manual](index.md)
-- [V8JsException](class.v8jsexception.md)
-- Отримати вихідний рядок JavaScript
-
+---
+navigation:
+  - v8jsexception.getjslinenumber.md: '« V8JsException::getJsLineNumber'
+  - v8jsexception.getjstrace.md: 'V8JsException::getJsTrace »'
+  - index.md: PHP Manual
+  - class.v8jsexception.md: V8JsException
+title: 'V8JsException::getJsSourceLine'
+---
 # V8JsException::getJsSourceLine
 
-(PECL v8js \>= 0.1.0)
+(PECL v8js >= 0.1.0)
 
 V8JsException::getJsSourceLine — Отримати вихідний рядок JavaScript
 
 ### Опис
 
-final public **V8JsException::getJsSourceLine**(): string
+```methodsynopsis
+final public V8JsException::getJsSourceLine(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

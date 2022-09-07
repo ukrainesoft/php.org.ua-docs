@@ -1,20 +1,22 @@
-- [« Ds\Sequence::set](ds-sequence.set.md)
-- [Ds\Sequence::slice »](ds-sequence.slice.md)
+---
+navigation:
+  - ds-sequence.set.md: '« DsSequence::set'
+  - ds-sequence.slice.md: 'ДсSequence::slice »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::shift'
+---
+# ДсSequence::shift
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Видаляє та повертає перше значення
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::shift
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::shift — Видаляє та повертає перше значення
+ДсSequence::shift — Видаляє та повертає перше значення
 
 ### Опис
 
-abstract public **Ds\Sequence::shift**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract public Ds\Sequence::shift(): mixed
+```
 
 Видаляє та повертає перше значення.
 
@@ -28,18 +30,26 @@ abstract public **Ds\Sequence::shift**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::shift()****
+**Приклад #1 Приклад використання **ДсSequence::shift()****
 
-` <?php$sequence = new \Ds\Vector(["a", "b", "c"]);var_dump($sequence->shift());var_dump($sequence->shift()); var_dump($sequence->shift());?> `
+```php
+<?php
+$sequence = new \Ds\Vector(["a", "b", "c"]);
+
+var_dump($sequence->shift());
+var_dump($sequence->shift());
+var_dump($sequence->shift());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
 string(1) "b"
 string(1) "c"
+```

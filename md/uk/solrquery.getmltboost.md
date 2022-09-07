@@ -1,24 +1,24 @@
-- [«SolrQuery::getMlt](solrquery.getmlt.md)
-- [SolrQuery::getMltCount »](solrquery.getmltcount.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає, чи буде запит посилено релевантністю цікавого.
-вирази
-
+---
+navigation:
+  - solrquery.getmlt.md: '« SolrQuery::getMlt'
+  - solrquery.getmltcount.md: 'SolrQuery::getMltCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltBoost'
+---
 # SolrQuery::getMltBoost
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMltBoost — Повертає, чи буде посилено запит
-релевантністю виразу, що цікавить
+SolrQuery::getMltBoost — Повертає, чи буде запит посилено релевантністю виразу, що цікавить.
 
 ### Опис
 
-public **SolrQuery::getMltBoost**(): bool
+```methodsynopsis
+public SolrQuery::getMltBoost(): bool
+```
 
-Повертає, чи буде запит посилено релевантністю цікавого
-вирази
+Повертає, чи буде запит посилений релевантністю виразу, що цікавить.
 
 ### Список параметрів
 
@@ -26,5 +26,4 @@ public **SolrQuery::getMltBoost**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

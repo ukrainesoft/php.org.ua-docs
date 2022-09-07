@@ -1,62 +1,86 @@
-- [«oci_field_precision](function.oci-field-precision.md)
-- [oci_field_size »](function.oci-field-size.md)
+---
+navigation:
+  - function.oci-field-precision.md: « ocifieldprecision
+  - function.oci-field-size.md: ocifieldsize »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifieldscale
+---
+# ocifieldscale
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає масштаб поля
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_field_scale
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_field_scale — Повертає масштаб поля
+ocifieldscale — Повертає масштаб поля
 
 ### Опис
 
-**oci_field_scale**(resource `$statement`, string\|int `$column`):
-int\|false
+```methodsynopsis
+oci_field_scale(resource $statement, string|int $column): int|false
+```
 
-Повертає масштаб поля під номером column.
+Повертає масштаб поля під номером `column`
 
-Для полів типу FLOAT точність, що отримується за допомогою
-[oci_field_precision()](function.oci-field-precision.md), більше нуля,
-а масштаб дорівнює -127. Якщо точність поля дорівнює нулю, тип поля -
-NUMBER. Інакше ж, тип поля може бути описаний як NUMBER(precision,
-scale).
+Для полів типу FLOAT точність, що отримується за допомогою [ocifieldprecision()](function.oci-field-precision.md)більше нуля, а масштаб дорівнює -127. Якщо точність поля дорівнює нулю, тип поля - NUMBER. Інакше, тип поля може бути описаний як NUMBER(precision, scale).
 
 ### Список параметрів
 
 `statement`
+
 Ідентифікатор допустимого запиту OCI.
 
 `column`
+
 Може бути номер поля (нумерація починається з 1) або ім'ям.
 
 ### Значення, що повертаються
 
-Повертає масштаб у вигляді числа або **`false`** у разі виникнення
-помилки.
+Повертає масштаб у вигляді числа або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 **oci_field_scale()** Example**
+**Приклад #1 **ocifieldscale()** Example**
 
-` <?php// Створіть таблицю://   CREATE TABLE mytab (c1 NUMBER, c2 FLOAT, c3 NUMBER(4), c4 NUMBER(5,3));$conn = oci_connect| localhost/XE");if(!$conn) {   $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$ncols = oci_num_fields($stid);for ($i = 1; $i <= $ncols; $i++) {   " "         . oci_field_precision($stid, $i) . " "         . oci_field_scale($stid, $i) . "<br>
-";}// Виведе:// C1                                                      не»||
+```php
+<?php
+
+// Создайте таблицу:
+//   CREATE TABLE mytab (c1 NUMBER, c2 FLOAT, c3 NUMBER(4), c4 NUMBER(5,3));
+
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, "SELECT * FROM mytab");
+oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+
+$ncols = oci_num_fields($stid);
+for ($i = 1; $i <= $ncols; $i++) {
+    echo oci_field_name($stid, $i) . " "
+        . oci_field_precision($stid, $i) . " "
+        . oci_field_scale($stid, $i) . "<br>\n";
+}
+
+// Выведет:
+//   C1    0 -127
+//   C2  126 -127
+//   C3    4    0
+//   C4    5    3
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У версіях PHP нижче 5.0.0 ця функція називалася
-> [ocicolumnscale()](function.ocicolumnscale.md). У PHP 5.0.0 і вище
-> [ocicolumnscale()](function.ocicolumnscale.md) є аліасом
-> **oci_field_scale()**, тому ви можете продовжувати використовувати це
-> ім'я, але це не рекомендується.
+> **Зауваження**
+> 
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnscale()](function.ocicolumnscale.md). У PHP 5.0.0 і вище [ocicolumnscale()](function.ocicolumnscale.md) є аліасом \*\*ocifieldscale()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
-- [oci_field_precision()](function.oci-field-precision.md) -
-Повертає точність поля
-- [oci_field_type()](function.oci-field-type.md) - Повертає ім'я
-типу поля
+-   [ocifieldprecision()](function.oci-field-precision.md) - Повертає точність поля
+-   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля

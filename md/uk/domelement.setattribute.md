@@ -1,54 +1,60 @@
-- [« DOMElement::removeAttributeNS](domelement.removeattributens.md)
-- [DOMElement::setAttributeNode »](domelement.setattributenode.md)
-
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Додає новий або змінює наявний атрибут
-
+---
+navigation:
+  - domelement.removeattributens.md: '« DOMElement::removeAttributeNS'
+  - domelement.setattributenode.md: 'DOMElement::setAttributeNode »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::setAttribute'
+---
 # DOMElement::setAttribute
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::setAttribute — Додає новий або змінює наявний
-атрибут
+DOMElement::setAttribute — Додає новий або змінює існуючий атрибут
 
 ### Опис
 
-public **DOMElement::setAttribute**(string `$qualifiedName`, string
-`$value`): [DOMAttr](class.domattr.md)\|bool
+```methodsynopsis
+public DOMElement::setAttribute(string $qualifiedName, string $value): DOMAttr|bool
+```
 
-Встановлює атрибут під назвою `qualifiedName`. Якщо атрибут не
-існує, він буде створено.
+Встановлює атрибут з ім'ям `qualifiedName`. Якщо атрибут не існує, він буде створений.
 
 ### Список параметрів
 
 `qualifiedName`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 `value`
+
 Значення атрибуту.
 
 ### Значення, що повертаються
 
-Створений або змінений об'єкт класу [DOMAttr](class.domattr.md) або
-**`false`** у разі виникнення помилки.
+Створений чи змінений об'єкт класу [DOMAttr](class.domattr.md) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
 **`DOM_NO_MODIFICATION_ALLOWED_ERR`**
+
 Виникає, якщо вузол доступний лише читання.
 
 ### Приклади
 
-**Приклад #1 Встановлення атрибуту**
+**Приклад #1 Встановлення значення атрибута**
 
-` <?php$doc = new DOMDocument("1.0");$node = $doc->createElement("para");$newnode = $doc->appendChild($node);$newnode->setAttribute("align ", "left");?> `
+```php
+<?php
+$doc = new DOMDocument("1.0");
+$node = $doc->createElement("para");
+$newnode = $doc->appendChild($node);
+$newnode->setAttribute("align", "left");
+?>
+```
 
 ### Дивіться також
 
-- [DOMElement::hasAttribute()](domelement.hasattribute.md) -
-Перевіряє, чи існує атрибут
-- [DOMElement::getAttribute()](domelement.getattribute.md) -
-Повертає значення атрибуту
-- [DOMElement::removeAttribute()](domelement.removeattribute.md) -
-Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.md) - Повертає значення атрибуту
+-   [DOMElement::removeAttribute()](domelement.removeattribute.md) - Видаляє атрибут

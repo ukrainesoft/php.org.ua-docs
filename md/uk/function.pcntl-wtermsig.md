@@ -1,43 +1,37 @@
-- [« pcntl_wstopsig](function.pcntl-wstopsig.md)
-- [POSIX »](book.posix.md)
+---
+navigation:
+  - function.pcntl-wstopsig.md: pcntlwstopsig
+  - book.posix.md: POSIX »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwtermsig
+---
+# pcntlwtermsig
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Отримати сигнал, через який було примусово завершено дочірній
-процес
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-#pcntl_wtermsig
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-pcntl_wtermsig — Отримати сигнал, через який був примусово
-завершено дочірній процес
+pcntlwtermsig — Отримати сигнал, через який було примусово завершено дочірній процес
 
 ### Опис
 
-**pcntl_wtermsig**(int `$status`): int\|false
+```methodsynopsis
+pcntl_wtermsig(int $status): int|false
+```
 
-Повертає номер сигналу, через який було примусово завершено
-дочірній процес. Має сенс тільки якщо
-[pcntl_wifsignaled()](function.pcntl-wifsignaled.md) повернула
-**`true`**.
+Повертає номер сигналу, через який примусово завершили дочірній процес. Має сенс тільки якщо [pcntlwifsignaled()](function.pcntl-wifsignaled.md) повернула **`true`**
 
 ### Список параметрів
 
 `status`
-Параметр `status` - це параметр статусу, який передається для успішного
-виклик функції [pcntl_waitpid()](function.pcntl-waitpid.md).
+
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
-Повертає номер сигналу. Якщо ця функція не підтримується ОС,
-повертається **`false`**.
+Повертає номер сигналу. Якщо ця функція не підтримується ОС, повертається **`false`**
 
 ### Дивіться також
 
-- [pcntl_waitpid()](function.pcntl-waitpid.md) - Очікує або
-повертає статус породженого дочірнього процесу
-- [pcntl_signal()](function.pcntl-signal.md) - Встановлення обробника
-сигналу
-- [pcntl_wifsignaled()](function.pcntl-wifsignaled.md) - Перевірити,
-чи відповідає код завершення процесу завершення сигналу
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [pcntlwifsignaled()](function.pcntl-wifsignaled.md) - Перевірити, чи код завершення процесу завершення по сигналу

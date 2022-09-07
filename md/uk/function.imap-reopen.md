@@ -1,73 +1,72 @@
-- [« imap_renamemailbox](function.imap-renamemailbox.md)
-- [imap_rfc822_parse_adrlist »](function.imap-rfc822-parse-adrlist.md)
-
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Відкриває потік IMAP до нової скриньки
-
-#imap_reopen
+---
+navigation:
+  - function.imap-renamemailbox.md: « imaprenamemailbox
+  - function.imap-rfc822-parse-adrlist.md: imaprfc822parseadrlist »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapreopen
+---
+# imapreopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_reopen — Відкриває потік IMAP до нової скриньки
+imapreopen — Відкриває потік IMAP до нової скриньки
 
 ### Опис
 
-**imap_reopen**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$mailbox`,
-int `$flags` = 0,
-int `$retries` = 0
-): bool
+```methodsynopsis
+imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $flags = 0,    int $retries = 0): bool
+```
 
-Перевідкриває вказаний потік до ящика `mailbox` на сервері IMAP або
-NNTP.
+Перевідкриває вказаний потік до скриньки `mailbox` на сервері IMAP чи NNTP.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
-Ім'я поштової скриньки. Докладніше читайте у розділі про функцію
-[imap_open()](function.imap-open.md)
+
+Ім'я поштової скриньки. Докладніше читайте у розділі про функцію [imapopen()](function.imap-open.md)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `flags`
+
 `flags` - бітова маска з однієї або кількох констант:
 
-- **`OP_READONLY`** - відкрити поштову скриньку тільки для читання
-- **`OP_ANONYMOUS`** - не використовувати та не оновлювати `.newsrc` для
-новин (тільки NNTP)
-- **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до
-поштову скриньку для ім'я IMAP та NNTP.
-- **`OP_EXPUNGE`** - мовчки виконати видалення помічених для видалення
-повідомлень у потоці
-- **`CL_EXPUNGE`** - автоматично видаляти всі позначені для
-видалення повідомлення при закритті поштової скриньки (див.
-[imap_delete()](function.imap-delete.md) та
-[imap_expunge()](function.imap-expunge.md))
+-   **`OP_READONLY`** - відкрити поштову скриньку лише для читання
+-   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
+-   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
+-   **`OP_EXPUNGE`** - мовчки виконати видалення позначених для видалення повідомлень у потоці
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.md) і [imapexpunge()](function.imap-expunge.md)
 
 `retries`
+
 Максимальна кількість спроб з'єднання
 
 ### Значення, що повертаються
 
 Повертає **`true`**, якщо потік перевідкритий і **`false`**, якщо ні.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_reopen()****
+**Приклад #1 Приклад використання **imapreopen()****
 
-` <?php$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password") or die(implode(", ", imap_errors()));// ... imap_reopen($mbox, "{imap.example.org:143}INBOX.Sent") or die(implode(", ", imap_errors()));// ..?> `
+```php
+<?php
+$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password") or die(implode(", ", imap_errors()));
+// ...
+imap_reopen($mbox, "{imap.example.org:143}INBOX.Sent") or die(implode(", ", imap_errors()));
+// ..
+?>
+```

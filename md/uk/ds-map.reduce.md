@@ -1,50 +1,48 @@
-- [«Ds\Map::putAll](ds-map.putall.md)
-- [Ds\Map::remove »](ds-map.remove.md)
+---
+navigation:
+  - ds-map.putall.md: '« DsMap::putAll'
+  - ds-map.remove.md: 'ДсMap::remove »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::reduce'
+---
+# ДсMap::reduce
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Зменшує колекцію до одного значення, використовуючи callback-функцію
+(PECL ds >= 1.0.0)
 
-# Ds\Map::reduce
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::reduce — Зменшує колекцію до одного значення, використовуючи
-callback-функцію
+ДсMap::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
 
 ### Опис
 
-public **Ds\Map::reduce**([callable](language.types.callable.md)
-`$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Map::reduce(callable $callback, mixed $initial = ?): mixed
+```
 
 Зменшує колекцію до одного значення, використовуючи callback-функцію.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$carry`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+
+```methodsynopsis
+callback(mixed $carry, mixed $key, mixed $value): mixed
+```
 
 `carry`
-Значення, повернене попереднім запуском функції або initial, якщо
-функцію запущено вперше.
+
+Значення, повернене попереднім запуском функції або `initial`, якщо функцію запущено вперше.
 
 `key`
+
 Ключ поточної ітерації.
 
 `value`
+
 Значення поточної ітерації.
 
 `initial`
-Початкове значення для параметра carry. Можна вказати **`null`**.
+
+Початкове значення для параметра carry. Можна вказати **`null`**
 
 ### Значення, що повертаються
 
@@ -52,20 +50,56 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::reduce()** з початковим
-значенням**
+**Приклад #1 Приклад використання **ДсMap::reduce()** з початковим значенням**
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$callback = function($carry, $key, $value ) {    return $carry * $value;};var_dump($map->reduce($callback, 5));// Ітерації://// $carry = $initial = 5/// $carry * 1 =  5// $carry = $carry * 2 = 10//$$carry = $carry * 3 = 30?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+
+$callback = function($carry, $key, $value) {
+    return $carry * $value;
+};
+
+var_dump($map->reduce($callback, 5));
+
+// Итерации:
+//
+// $carry = $initial = 5
+//
+// $carry = $carry * 1 =  5
+// $carry = $carry * 2 = 10
+// $carry = $carry * 3 = 30
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(30)
+```
 
-**Приклад #2 Приклад використання **Ds\Map::reduce()** без початкового
-значення**
+**Приклад #2 Приклад використання **ДсMap::reduce()** без початкового значення**
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->reduce(function($carry, $key, $value) {   return $carry + $value + 5;}));// Ітерації://// $carry = $initial = null///// $carry = $car          // $carry = $carry + 2 + 5 = 13// $carry = $carry + 3 + 5 = 21?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+
+var_dump($map->reduce(function($carry, $key, $value) {
+    return $carry + $value + 5;
+}));
+
+// Итерации:
+//
+// $carry = $initial = null
+//
+// $carry = $carry + 1 + 5 =  6
+// $carry = $carry + 2 + 5 = 13
+// $carry = $carry + 3 + 5 = 21
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(21)
+```

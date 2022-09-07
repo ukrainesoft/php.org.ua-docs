@@ -1,94 +1,105 @@
-- [« Функції обробки помилок](ref.errorfunc.md)
-- [debug_print_backtrace »](function.debug-print-backtrace.md)
+---
+navigation:
+  - ref.errorfunc.md: « Функции обработки ошибок
+  - function.debug-print-backtrace.md: debugprintbacktrace »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: debugbacktrace
+---
+# debugbacktrace
 
-- [PHP Manual](index.md)
-- [Функції обробки помилок](ref.errorfunc.md)
-- Виводить стек викликів функцій у масив
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#debug_backtrace
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-debug_backtrace — Виводить стек викликів функцій у масив
+debugbacktrace — Виводить стек викликів функцій у масив
 
 ### Опис
 
-**debug_backtrace**(int `$options` =
-**`DEBUG_BACKTRACE_PROVIDE_OBJECT`**, int `$limit` = 0): array
+```methodsynopsis
+debug_backtrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT, int $limit = 0): array
+```
 
-**debug_backtrace()** виводить стек викликів функцій PHP у масив.
+**debugbacktrace()** виводить стек викликів функцій PHP масив.
 
 ### Список параметрів
 
 `options`
+
 Аргумент є бітовою маскою для наступних налаштувань:
 
-|                                |                                                                                                |
-| ------------------------------ | ---------------------------------------------------------------------------------------------- |
-| DEBUG_BACKTRACE_PROVIDE_OBJECT | Чи потрібно заповнювати дані ключа object.                                                     |
-| DEBUG_BACKTRACE_IGNORE_ARGS    | Чи потрібно виключити аргументи всіх функцій/методів у ключі "args" зменшення витрати пам'яті. |
-
-**Опції **debug_backtrace()****
+<table class="doctable table"><caption><strong>Опції <span class="function"><strong>debug_backtrace()</strong></span></strong></caption><tbody class="tbody"><tr><td>DEBUG_BACKTRACE_PROVIDE_OBJECT</td><td>Чи потрібно заповнювати дані для ключа object.</td></tr><tr><td>DEBUG_BACKTRACE_IGNORE_ARGS</td><td>Чи потрібно? виключити аргументи всіх функцій/методів у ключі "args" для зменшення витрати пам'яті.</td></tr></tbody></table>
 
 `limit`
-Аргумент використовується для обмеження кількості функцій викликів,
-які будуть виведені. За умовчанням (`limit`=`0`) буде виведено весь
-стек викликів.
+
+Аргумент використовується для обмеження кількості дзвінків функцій, які будуть виведені. За замовчуванням (`limit``0`) буде виведено весь стек викликів.
 
 ### Значення, що повертаються
 
-Повертає масив вкладених асоціативних масивів (array). Опис
-елементів масиву наведено нижче:
+Повертає масив вкладених асоціативних масивів (array). Опис елементів масиву наведено нижче:
 
-| Ім'я Тип | Опис   |                                                                                                                                                                                          |
-| -------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| функція  | string | Назва поточної функції. Дивіться також [\_\_FUNCTION\_\_](language.constants.predefined.md).                                                                                             |
-| line     | int    | Поточний номер рядка. Дивіться також [\_\_LINE\_\_](language.constants.predefined.md).                                                                                                   |
-| файли    | string | Назва поточного файлу. Дивіться також [\_\_FILE\_\_](language.constants.predefined.md).                                                                                                  |
-| class    | string | Ім'я поточного класу (language.oop5.md). Дивіться також [\_\_CLASS\_\_](language.constants.predefined.md)                                                                                |
-| об'єкт   | об'єкт | Поточний [об'єкт](language.oop5.md).                                                                                                                                                     |
-| тип      | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде виведено "-\>". Якщо це виклик статичного методу класу, то "::". Якщо це простий виклик функції, нічого не виводиться. |
-| args     | array  | При знаходженні всередині функції буде виведено список аргументів цієї функції. Якщо всередині файлу, буде виведено список файлів, що включаються.                                       |
+**Список можливих елементів масивів, що повертаються функцією **debugbacktrace()****
 
-**Список можливих елементів масивів, що повертаються функцією
-**debug_backtrace()****
+| Имя | Тип | Описание |
+| --- | --- | --- |
+| function | string | Ім'я поточної функції. Дивіться також [FUNCTION](language.constants.predefined.md) |
+| line | int | Поточний номер рядка. Дивіться також [LINE](language.constants.predefined.md) |
+| file | string | Назва поточного файлу. Дивіться також [FILE](language.constants.predefined.md) |
+| class | string | Ім'я поточного [класса](language.oop5.md). Дивіться також [CLASS](language.constants.predefined.md) |
+| object | object | Поточний [об'єкт](language.oop5.md) |
+| type | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде виведено "->". Якщо це виклик статичного методу класу, то "::". Якщо це простий виклик функції, нічого не виводиться. |
+| args | array | При знаходженні всередині функції буде виведено список аргументів цієї функції. Якщо всередині файлу буде виведено список файлів, що включаються. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **debug_backtrace()****
+**Приклад #1 Приклад використання **debugbacktrace()****
 
-` <?php// файл /tmp/a.phpfunction a_test($str){    echo "
-Привіт, $str";    var_dump(debug_backtrace());}a_test('друг');?><?php// файл /tmp/b.phpinclude_once '/tmp/a.php';?> `
+```php
+<?php
+// файл /tmp/a.php
 
-Результат аналогічний наведеному нижче, якщо запустити `/tmp/b.php`:
+function a_test($str)
+{
+    echo "\nПривет, $str";
+    var_dump(debug_backtrace());
+}
 
-Привіт друг
+a_test('друг');
+?>
+
+<?php
+// файл /tmp/b.php
+include_once '/tmp/a.php';
+?>
+```
+
+Результат аналогічний наведеному нижче, якщо запустити /tmp/b.php:
+
+```
+Привет, друг
 array(2) {
 [0]=>
 array(4) {
-["file"] => string(10) "/tmp/a.php"
-["line"] => int(10)
-["function"] => string(6) "a_test"
-["args"]=>
-array(1) {
-[0] => &string(8) "друг"
-}
+    ["file"] => string(10) "/tmp/a.php"
+    ["line"] => int(10)
+    ["function"] => string(6) "a_test"
+    ["args"]=>
+    array(1) {
+      [0] => &string(8) "друг"
+    }
 }
 [1]=>
 array(4) {
-["file"] => string(10) "/tmp/b.php"
-["line"] => int(2)
-["args"] =>
-array(1) {
-[0] => string(10) "/tmp/a.php"
+    ["file"] => string(10) "/tmp/b.php"
+    ["line"] => int(2)
+    ["args"] =>
+    array(1) {
+      [0] => string(10) "/tmp/a.php"
+    }
+    ["function"] => string(12) "include_once"
+  }
 }
-["function"] => string(12) "include_once"
-}
-}
+```
 
 ### Дивіться також
 
-- [trigger_error()](function.trigger-error.md) - Викликає
-помилку користувача/попередження/повідомлення
-- [debug_print_backtrace()](function.debug-print-backtrace.md) -
-Виводить стек викликів функцій
+-   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
+-   [debugprintbacktrace()](function.debug-print-backtrace.md) - Виводить стек викликів функцій

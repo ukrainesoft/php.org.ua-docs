@@ -1,10 +1,11 @@
-- [« Установка](password.installation.md)
-- [Типи ресурсів»](password.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](password.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - password.installation.md: « Установка
+  - password.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - password.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

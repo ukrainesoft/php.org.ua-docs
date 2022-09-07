@@ -1,18 +1,17 @@
-- [«Зумовлені константи](rpminfo.constants.md)
-- [rpmaddtag »](function.rpmaddtag.md)
-
-- [PHP Manual](index.md)
-- [RpmInfo](book.rpminfo.md)
-- Функції RpmInfo
-
+---
+navigation:
+  - rpminfo.constants.md: « Обумовлені константи
+  - function.rpmaddtag.md: rpmaddtag »
+  - index.md: PHP Manual
+  - book.rpminfo.md: RpmInfo
+title: Функції RpmInfo
+---
 # Функції RpmInfo
 
 ## Зміст
 
-- [rpmaddtag](function.rpmaddtag.md) — Додає тег, отриманий у
-запиті
-- [rpmdbinfo](function.rpmdbinfo.md) — Отримує інформацію від
-встановленого RPM
-- [rpmdbsearch](function.rpmdbsearch.md) — Пошук пакетів RPM
-- [rpminfo](function.rpminfo.md) — Вийняти інформацію з файлу RPM
-- [rpmvercmp](function.rpmvercmp.md) — Порівняння версій двох RPM
+-   [rpmaddtag](function.rpmaddtag.md) — Додає тег, отриманий у запиті
+-   [rpmdbinfo](function.rpmdbinfo.md) — Отримує інформацію від встановленого RPM
+-   [rpmdbsearch](function.rpmdbsearch.md) - Пошук RPM-пакетів
+-   [rpminfo](function.rpminfo.md) — Витягти інформацію з RPM-файлу
+-   [rpmvercmp](function.rpmvercmp.md) - Порівняння версій двох RPM

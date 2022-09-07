@@ -1,104 +1,106 @@
-- [« simplexml_load_file](function.simplexml-load-file.md)
-- [WDDX »](book.wddx.md)
-
-- [PHP Manual](index.md)
-- [Функції SimpleXML](ref.simplexml.md)
-- Інтерпретує рядок із XML в об'єкт
-
-# simplexml_load_string
+---
+navigation:
+  - function.simplexml-load-file.md: « simplexmlloadfile
+  - book.wddx.md: WDDX »
+  - index.md: PHP Manual
+  - ref.simplexml.md: Функции SimpleXML
+title: simplexmlloadstring
+---
+# simplexmlloadstring
 
 (PHP 5, PHP 7, PHP 8)
 
-simplexml_load_string — Інтерпретує рядок із XML в об'єкт
+simplexmlloadstring — Інтерпретує рядок з XML в об'єкт
 
 ### Опис
 
-**simplexml_load_string**(
-string `$data`,
-?string `$class_name` = SimpleXMLElement::class,
-int `$options` = 0,
-string `$namespace_or_prefix` = "",
-bool `$is_prefix` = **`false`**
-): [SimpleXMLElement](class.simplexmlelement.md)\|false
+```methodsynopsis
+simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
+```
 
 Отримує правильно сформований XML-рядок і повертає його як об'єкт.
 
 ### Список параметрів
 
 `data`
+
 Правильно сформований XML-рядок
 
 `class_name`
-Ви можете використовувати цей необов'язковий параметр для того, щоб
-функція **simplexml_load_string()** повертала об'єкт вказаного класу.
-Цей клас має розширювати клас
-[SimpleXMLElement](class.simplexmlelement.md).
+
+Ви можете використовувати цей необов'язковий параметр, щоб функція **simplexmlloadstring()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
 
 `options`
-Починаючи з Libxml 2.6.0, ви можете використовувати параметр `options`,
-щоб вказати [додаткові параметри Libxml](libxml.constants.md).
+
+Починаючи з Libxml 2.6.0, ви можете також використовувати параметр `options`, щоб вказати [додаткові параметри Libxml](libxml.constants.md)
 
 `namespace_or_prefix`
+
 Префікс простору імен або URI.
 
 `is_prefix`
-**`true`**, якщо `namespace_or_prefix` є префіксом, та
-**`false`**, якщо URI; за умовчанням дорівнює **`false`**.
+
+**`true`**, якщо `namespace_or_prefix` є префіксом, та \*\*`false`\*\*якщо URI; за умовчанням дорівнює **`false`**
 
 ### Значення, що повертаються
 
-Повертає об'єкт (object) класу
-[SimpleXMLElement](class.simplexmlelement.md) з властивостями,
-містять дані, які зберігаються всередині XML-документу або
-**`false`** у разі виникнення помилки.
+Повертає об'єкт (object) класу [SimpleXMLElement](class.simplexmlelement.md) з властивостями, що містять дані, що зберігаються всередині XML-документа або **`false`** у разі виникнення помилки.
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**, так і
-значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
-повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
-Генерує повідомлення про помилку рівня **`E_WARNING`** для кожної помилки,
-знайденої в XML-даних.
+Генерує повідомлення про помилку рівня **`E_WARNING`** для кожної помилки, знайденої в даних XML.
 
 **Підказка**
 
-Використовуйте функцію
-[libxml_use_internal_errors()](function.libxml-use-internal-errors.md)
-для того, щоб придушити всі помилки XML, і функцію
-[libxml_get_errors()](function.libxml-get-errors.md) для проходу по
-ним згодом.
+Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.md) для проходу ними згодом.
 
 ### Приклади
 
-**Приклад #1 Інтерпретація XML-рядка**
+**Приклад #1 Інтерпретація рядка XML**
 
-` <?php$string = <<<<XML<?xml version='1.0'?><document> <title>Що 40?</title> <from>Джо</from> <to>Джейн</to> <body>  Я знаю, що -відповідь. У чому полягає питання? </body></document>XML;$xml = simplexml_load_string($string);print_r($xml);?> `
+```php
+<?php
+$string = <<<XML
+<?xml version='1.0'?>
+<document>
+ <title>Что 40?</title>
+ <from>Джо</from>
+ <to>Джейн</to>
+ <body>
+  Я знаю, что это - ответ. В чем заключается вопрос?
+ </body>
+</document>
+XML;
+
+$xml = simplexml_load_string($string);
+
+print_r($xml);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 SimpleXMLElement Object
 (
-[title] => Що 40?
-[from] => Джо
-[to] => Джейн
-[body] =>
-Я знаю, що це відповідь. У чому питання?
+  [title] => Что 40?
+  [from] => Джо
+  [to] => Джейн
+  [body] =>
+   Я знаю, что это - ответ. В чем заключается вопрос?
 )
+```
 
-Тут можна використовувати $xml->body і т.д.
+Тут можна використати `$xml->body` і т.д.
 
 ### Дивіться також
 
-- [simplexml_load_file()](function.simplexml-load-file.md) -
-Інтерпретує файл XML в об'єкт
-- [SimpleXMLElement::\_\_construct()](simplexmlelement.construct.md) -
-Створення нового об'єкта SimpleXMLElement
-- [Робота з помилками XML](simplexml.examples-errors.md)
-- [libxml_use_internal_errors()](function.libxml-use-internal-errors.md) -
-Відключення помилок libxml та передача повноважень щодо вибірки та
-обробці інформації про помилки користувачеві
-- [Базове використання SimpleXML](simplexml.examples-basic.md)
+-   [simplexmlloadfile()](function.simplexml-load-file.md) - Інтерпретує файл XML в об'єкт
+-   [SimpleXMLElement::construct()](simplexmlelement.construct.md) - Створення нового об'єкта SimpleXMLElement
+-   [Робота з помилками XML](simplexml.examples-errors.md)
+-   [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)

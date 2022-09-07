@@ -1,19 +1,22 @@
-- [« Worker::stack](worker.stack.md)
-- [Collectable »](class.collectable.md)
-
-- [PHP Manual](index.md)
-- [Worker](class.worker.md)
-- Прибрати завдання зі стеку
-
+---
+navigation:
+  - worker.stack.md: '« Worker::stack'
+  - class.collectable.md: Collectable »
+  - index.md: PHP Manual
+  - class.worker.md: Worker
+title: 'Worker::unstack'
+---
 # Worker::unstack
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
-Worker::unstack — Прибрати завдання зі стеку
+Worker::unstack — Прибрати завдання зі стека
 
 ### Опис
 
-public **Worker::unstack**(): int
+```methodsynopsis
+public Worker::unstack(): int
+```
 
 Прибирає перше завдання (найстарішу) зі стека.
 
@@ -25,19 +28,28 @@ public **Worker::unstack**(): int
 
 Новий розмір стека.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------- |
-| v3     | Прибрано параметр, у якому вказувалося завдання видалення. Тепер завжди видаляється перше завдання. |
+| Версия | Описание |
+| --- | --- |
+| вз | Прибрано параметр, у якому вказувалося завдання видалення. Тепер завжди видаляється перше завдання. |
 
 ### Приклади
 
 **Приклад #1 Видалення об'єктів зі стека Worker**
 
-` <?php$my = new Worker();$work = new class extends Threaded {};var_dump($my->stack($work));var_dump($my->unstack()); `
+```php
+<?php
+$my = new Worker();
+$work = new class extends Threaded {};
+
+var_dump($my->stack($work));
+var_dump($my->unstack());
+```
 
 Результат виконання цього прикладу:
 
+```
 int(1)
 int(0)
+```

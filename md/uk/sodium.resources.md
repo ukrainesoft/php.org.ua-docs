@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](sodium.configuration.md)
-- [Предвизначені константи »](sodium.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sodium.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - sodium.configuration.md: « Налаштування під час виконання
+  - sodium.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - sodium.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

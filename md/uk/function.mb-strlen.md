@@ -1,53 +1,52 @@
-- [«mb_stristr](function.mb-stristr.md)
-- [mb_strpos »](function.mb-strpos.md)
+---
+navigation:
+  - function.mb-stristr.md: « mbstristr
+  - function.mb-strpos.md: мбstrpos »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrlen
+---
+# мбstrlen
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Отримує довжину рядка
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#mb_strlen
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-mb_strlen — Отримує довжину рядка
+мбstrlen — Отримує довжину рядка
 
 ### Опис
 
-**mb_strlen**(string `$string`, ?string `$encoding` = **`null`**): int
+```methodsynopsis
+mb_strlen(string $string, ?string $encoding = null): int
+```
 
 Отримує довжину рядка (string).
 
 ### Список параметрів
 
 `string`
+
 Рядок (string), на яку вимірюється довжина.
 
 `encoding`
-Параметр 'encoding' є символьним кодуванням. Якщо він
-опущений або дорівнює **`null`**, замість нього буде використано значення
-внутрішнього кодування.
+
+Параметр `encoding` є символьним кодуванням. Якщо він опущений або дорівнює **`null`**, замість нього буде використано значення внутрішнього кодування.
 
 ### Значення, що повертаються
 
-Повертає кількість символів у рядку (string) `string`, які мають
-кодування символів `encoding`. Багатобайтовий символ обчислюється як один.
+Повертає кількість символів у рядку (string) `string`, що мають кодування символів `encoding`. Багатобайтовий символ обчислюється як один.
 
 ### Помилки
 
-Якщо кодування невідоме, генерується помилка рівня **`E_WARNING`**.
+Якщо кодування невідоме, генерується помилка рівня **`E_WARNING`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-| ------ | -------------------------------------------------------- |
-| 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 
-- [mb_internal_encoding()](function.mb-internal-encoding.md) -
-Встановлення/отримання внутрішнього кодування скрипту
-- [grapheme_strlen()](function.grapheme-strlen.md) - Отримує довжину
-рядки в одиницях графеми
-- [iconv_strlen()](function.iconv-strlen.md) - Повертає кількість
-символів у рядку
-- [strlen()](function.strlen.md) - Повертає довжину рядка
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
+-   [graphemestrlen()](function.grapheme-strlen.md) - отримує довжину рядка в одиницях графеми
+-   [iconvstrlen()](function.iconv-strlen.md) - Повертає кількість символів у рядку
+-   [strlen()](function.strlen.md) - Повертає довжину рядка

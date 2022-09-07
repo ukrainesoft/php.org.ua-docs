@@ -1,24 +1,24 @@
-- [«posix_getsid](function.posix-getsid.md)
-- [posix_initgroups »](function.posix-initgroups.md)
-
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає фактичний ідентифікатор користувача поточного процесу
-UID
-
-#posix_getuid
+---
+navigation:
+  - function.posix-getsid.md: « posixgetsid
+  - function.posix-initgroups.md: posixinitgroups »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetuid
+---
+# posixgetuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getuid — Повертає фактичний ідентифікатор користувача
-поточного процесу UID
+posixgetuid — Повертає фактичний ідентифікатор користувача для поточного процесу UID
 
 ### Опис
 
-**posix_getuid**(): int
+```methodsynopsis
+posix_getuid(): int
+```
 
-Повертає число, що відповідає дійсному ID користувача
-поточного процесу.
+Повертає число, що відповідає дійсному ID користувача поточного процесу.
 
 ### Список параметрів
 
@@ -30,12 +30,15 @@ posix_getuid — Повертає фактичний ідентифікатор 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getuid()****
+**Приклад #1 Приклад використання **posixgetuid()****
 
-`<?phpecho posix_getuid(); //10000?> `
+```php
+<?php
+echo posix_getuid(); //10000
+?>
+```
 
 ### Дивіться також
 
-- [posix_getpwuid()](function.posix-getpwuid.md) - Повертає
-інформацію про користувача, використовуючи його ID
-- POSIX керівництво GETUID(2)
+-   [posixgetpwuid()](function.posix-getpwuid.md) - Повертає інформацію про користувача, використовуючи його ID
+-   POSIX керівництво GETUID(2)

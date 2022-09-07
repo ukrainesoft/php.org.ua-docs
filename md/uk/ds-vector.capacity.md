@@ -1,19 +1,22 @@
-- [« Ds\Vector::apply](ds-vector.apply.md)
-- [Ds\Vector::clear »](ds-vector.clear.md)
+---
+navigation:
+  - ds-vector.apply.md: '« DsVector::apply'
+  - ds-vector.clear.md: 'ДсVector::clear »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::capacity'
+---
+# ДсVector::capacity
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає поточну місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::capacity
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::capacity — Повертає поточну місткість
+ДсVector::capacity — Повертає поточну місткість
 
 ### Опис
 
-public **Ds\Vector::capacity**(): int
+```methodsynopsis
+public Ds\Vector::capacity(): int
+```
 
 Повертає поточну місткість.
 
@@ -27,12 +30,25 @@ public **Ds\Vector::capacity**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::capacity()****
+**Приклад #1 Приклад використання **ДсVector::capacity()****
 
-` <?php$vector = new \Ds\Vector();var_dump($vector->capacity());$vector->push(...range(1, 50));var_dump($vector->capacity ());$vector[] = "a";var_dump($vector->capacity());?> `
+```php
+<?php
+$vector = new \Ds\Vector();
+var_dump($vector->capacity());
+
+$vector->push(...range(1, 50));
+var_dump($vector->capacity());
+
+$vector[] = "a";
+var_dump($vector->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(10)
 int(50)
 int(75)
+```

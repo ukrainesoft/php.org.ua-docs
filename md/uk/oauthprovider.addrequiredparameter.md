@@ -1,39 +1,39 @@
-- [« OAuthProvider](class.oauthprovider.md)
-- [OAuthProvider::callconsumerHandler »](oauthprovider.callconsumerhandler.md)
-
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Додати необхідні параметри
-
+---
+navigation:
+  - class.oauthprovider.md: « OAuthProvider
+  - oauthprovider.callconsumerhandler.md: 'OAuthProvider::callconsumerHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::addRequiredParameter'
+---
 # OAuthProvider::addRequiredParameter
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuthProvider::addRequiredParameter — Додати необхідні параметри
 
 ### Опис
 
-final public **OAuthProvider::addRequiredParameter**(string
-`$req_params`): bool
+```methodsynopsis
+final public OAuthProvider::addRequiredParameter(string $req_params): bool
+```
 
-Додає потрібні параметри провайдера oauth.
+Додає необхідні параметри провайдера oauth.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `req_params`
+
 Параметри.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [OAuthProvider::removeRequiredParameter()](oauthprovider.removerequiredparameter.md) -
-Видалити потрібний параметр
+-   [OAuthProvider::removeRequiredParameter()](oauthprovider.removerequiredparameter.md) - Видалити потрібний параметр

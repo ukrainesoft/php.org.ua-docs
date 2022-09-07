@@ -1,20 +1,22 @@
-- [« Imagick::getImageGamma](imagick.getimagegamma.md)
-- [Imagick::getImageGravity »](imagick.getimagegravity.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає ширину та висоту у вигляді асоціативного масиву
-
+---
+navigation:
+  - imagick.getimagegamma.md: '« Imagick::getImageGamma'
+  - imagick.getimagegravity.md: 'Imagick::getImageGravity »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageGeometry'
+---
 # Imagick::getImageGeometry
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageGeometry — Повертає ширину та висоту у вигляді
-асоціативного масиву
+Imagick::getImageGeometry — Повертає ширину та висоту у вигляді асоціативного масиву
 
 ### Опис
 
-public **Imagick::getImageGeometry**(): array
+```methodsynopsis
+public Imagick::getImageGeometry(): array
+```
 
 Повертає ширину та висоту у вигляді асоціативного масиву.
 
@@ -34,12 +36,20 @@ public **Imagick::getImageGeometry**(): array
 
 **Приклад #1 Приклад використання **Imagick::getImageGeometry()****
 
-` <?php$imagick = new Imagick();$imagick->newImage(100, 200, "black");print_r($imagick->getImageGeometry());?> `
+```php
+<?php
+$imagick = new Imagick();
+$imagick->newImage(100, 200, "black");
+print_r($imagick->getImageGeometry());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[width] => 100
-[height] => 200
+    [width] => 100
+    [height] => 200
 )
+```

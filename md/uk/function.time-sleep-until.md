@@ -1,55 +1,62 @@
-- [«time_nanosleep](function.time-nanosleep.md)
-- [uniqid »](function.uniqid.md)
+---
+navigation:
+  - function.time-nanosleep.md: « timenanosleep
+  - function.uniqid.md: uniqid »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: timesleepuntil
+---
+# timesleepuntil
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Відкладає виконання скрипту до заданого часу
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-#time_sleep_until
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-time_sleep_until — Відкладає виконання скрипту до заданого часу
+timesleepuntil - Відкладає виконання скрипту до заданого часу
 
 ### Опис
 
-**time_sleep_until**(float `$timestamp`): bool
+```methodsynopsis
+time_sleep_until(float $timestamp): bool
+```
 
-Відкладає виконання скрипту до заданої тимчасової мітки, вказаної в
-параметрі `timestamp`.
+Відкладає виконання скрипту до заданої часової мітки, вказаної у параметрі `timestamp`
 
 ### Список параметрів
 
 `timestamp`
-Тимчасова позначка продовження виконання скрипта.
+
+Тимчасова мітка продовження виконання скрипту.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо зазначена часова мітка `timestamp` прострочена, то функція
-згенерує **`E_WARNING`**.
+Якщо вказана тимчасова мітка `timestamp` прострочена, то функція згенерує **`E_WARNING`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **time_sleep_until()****
+**Приклад #1 Приклад використання **timesleepuntil()****
 
-`<?php//повертає false і виводить попередження var_dump(time_sleep_until(time()-1));//може працювати тільки на швидкодійних комп'ютерах, виконання відкладено до| s| `
+```php
+<?php
+
+//возвращает false и выводит предупреждение
+var_dump(time_sleep_until(time()-1));
+
+// может работать только на быстродействующих компьютерах, выполнение отложено до 0.2 секунд
+var_dump(time_sleep_until(microtime(true)+0.2));
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**: Усі сигнали будуть доставлені після продовження
-> виконання скрипта.
+> **Зауваження**: Усі сигнали будуть доставлені після виконання скрипту.
 
 ### Дивіться також
 
-- [sleep()](function.sleep.md) - Затримка виконання
-- [usleep()](function.usleep.md) - Затримка виконання в
-мікросекундах
-- [time_nanosleep()](function.time-nanosleep.md) - Затримка на
-задане число секунд і наносекунд
-- [set_time_limit()](function.set-time-limit.md) - Обмеження
-часу виконання скрипту
+-   [sleep()](function.sleep.md) - затримка виконання
+-   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
+-   [timenanosleep()](function.time-nanosleep.md) - Затримка на задану кількість секунд та наносекунд
+-   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту

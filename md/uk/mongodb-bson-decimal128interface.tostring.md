@@ -1,21 +1,22 @@
-- [« MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md)
-- [MongoDB\BSON\JavascriptInterface »](class.mongodb-bson-javascriptinterface.md)
+---
+navigation:
+  - class.mongodb-bson-decimal128interface.md: « MongoDBBSONDecimal128Interface
+  - class.mongodb-bson-javascriptinterface.md: MongoDBBSONJavascriptInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-decimal128interface.md: MongoDBBSONDecimal128Interface
+title: 'MongoDBBSONDecimal128Interface::toString'
+---
+# MongoDBBSONDecimal128Interface::toString
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md)
-- Повертає рядкову виставу Decimal128Interface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\Decimal128Interface::\_\_toString
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\Decimal128Interface::\_\_toString — Повертає рядкове
-уявлення Decimal128Interface
+MongoDBBSONDecimal128Interface::toString — Повертає рядкову виставу Decimal128Interface
 
 ### Опис
 
-abstract public **MongoDB\BSON\Decimal128Interface::\_\_toString**():
-string
+```methodsynopsis
+abstract public MongoDB\BSON\Decimal128Interface::__toString(): string
+```
 
 ### Список параметрів
 
@@ -27,5 +28,4 @@ string
 
 ### Дивіться також
 
-- [MongoDB\BSON\Decimal128::\_\_toString()](mongodb-bson-decimal128.tostring.md) -
-Повертає рядкову виставу Decimal128
+-   [MongoDBBSONDecimal128::toString()](mongodb-bson-decimal128.tostring.md) - Повертає рядкову виставу Decimal128

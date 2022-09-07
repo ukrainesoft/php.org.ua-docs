@@ -1,18 +1,15 @@
-- [«include](function.include.md)
-- [include_once »](function.include-once.md)
-
-- [PHP Manual](index.md)
-- [Керування конструкції](language.control-structures.md)
-- require_once
-
-## require_once
+---
+navigation:
+  - function.include.md: « include
+  - function.include-once.md: includeonce »
+  - index.md: PHP Manual
+  - language.control-structures.md: Управляющие конструкции
+title: requireonce
+---
+## requireonce
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-Вираз `require_once` аналогічний [require](function.require.md) за
-виключенням того, що PHP перевірить, чи вже включався даний файл, і якщо
-так, не включатиме його ще раз.
+Вираз `require_once` аналогічно [require](function.require.md) за винятком того, що PHP перевірить, чи включався цей файл, і якщо так, не буде включати його ще раз.
 
-Дивіться документацію [include_once](function.include-once.md) для
-інформації з поведінки `_once` і чим він відрізняється від таких самих функцій,
-без `_once`.
+Дивіться документацію [includeonce](function.include-once.md) для інформації щодо поведінки `_once` і чим він відрізняється від таких самих функцій, без `_once`

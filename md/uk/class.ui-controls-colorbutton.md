@@ -1,68 +1,63 @@
-- [«UI\Controls\Button::setText](ui-controls-button.settext.md)
-- [UI\Controls\ColorButton::getColor »](ui-controls-colorbutton.getcolor.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Кнопка з палітрою кольорів"
-
+---
+navigation:
+  - ui-controls-button.settext.md: '« UIControlsButton::setText'
+  - ui-controls-colorbutton.getcolor.md: 'ОЙControlsColorButton::getColor »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Кнопка з палітрою кольорів"
+---
 # Елемент управління "Кнопка з палітрою кольорів"
 
 (UI 0.9.9)
 
 ## Вступ
 
-Кнопка з палітрою кольорів – це кнопка, яка відображає селектор кольору
-при натисканні
+Кнопка з палітрою кольорів – це кнопка, яка відображає селектор кольору при натисканні
 
 ## Огляд класів
 
-class **UI\Controls\ColorButton** extends
-[UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [getColor](ui-controls-colorbutton.getcolor.md)(): UI\Color
 
-protected [onChange](ui-controls-colorbutton.onchange.md)()
+    
+     
+      class UI\Controls\ColorButton
+     
 
-public
-[setColor](ui-controls-colorbutton.setcolor.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color`)
+     
+      extends
+       UI\Control
+     
+     {
 
-public [setColor](ui-controls-colorbutton.setcolor.md)(int `$color`)
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public getColor(): UI\Color
+protected onChange()
+public setColor(UI\Draw\Color $color)
+public setColor(int $color)
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\ColorButton::getColor](ui-controls-colorbutton.getcolor.md)
-— Отримати об'єкт Color
-- [UI\Controls\ColorButton::onChange](ui-controls-colorbutton.onchange.md)
-- Обробник зміни
-- [UI\Controls\ColorButton::setColor](ui-controls-colorbutton.setcolor.md)
-— Встановити об'єкт Color
+-   [ОЙControlsColorButton::getColor](ui-controls-colorbutton.getcolor.md) — Отримати об'єкт Color
+-   [ОЙControlsColorButton::onChange](ui-controls-colorbutton.onchange.md) - Обробник зміни
+-   [ОЙControlsColorButton::setColor](ui-controls-colorbutton.setcolor.md) — Встановити об'єкт Color

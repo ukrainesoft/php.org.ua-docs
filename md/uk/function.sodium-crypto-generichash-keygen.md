@@ -1,19 +1,22 @@
-- [« sodium_crypto_generichash_init](function.sodium-crypto-generichash-init.md)
-- [sodium_crypto_generichash_update »](function.sodium-crypto-generichash-update.md)
+---
+navigation:
+  - function.sodium-crypto-generichash-init.md: « sodiumcryptogenerichashinit
+  - function.sodium-crypto-generichash-update.md: sodiumcryptogenerichashupdate »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptogenerichashkeygen
+---
+# sodiumcryptogenerichashkeygen
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює випадковий загальний хеш-ключ
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_generichash_keygen
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_generichash_keygen — Створює випадковий загальний хеш-ключ
+sodiumcryptogenerichashkeygen — Створює випадковий загальний хеш-ключ
 
 ### Опис
 
-**sodium_crypto_generichash_keygen**(): string
+```methodsynopsis
+sodium_crypto_generichash_keygen(): string
+```
 
 Створює випадковий ключ для використання з API generichash.
 

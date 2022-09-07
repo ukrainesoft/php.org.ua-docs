@@ -1,29 +1,31 @@
-- [« trader_set_unstable_period](function.trader-set-unstable-period.md)
-- [trader_sinh »](function.trader-sinh.md)
+---
+navigation:
+  - function.trader-set-unstable-period.md: « tradersetunstableperiod
+  - function.trader-sinh.md: tradersinh »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersin
+---
+# tradersin
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Векторний тригонометричний синус
+(PECL trader >= 0.2.0)
 
-# trader_sin
-
-(PECL trader \>= 0.2.0)
-
-trader_sin - Векторний тригонометричний синус
+tradersin — Векторний тригонометричний синус
 
 ### Опис
 
-**trader_sin**(array `$real`): array
+```methodsynopsis
+trader_sin(array $real): array
+```
 
-Обчислює синус для кожного значення в `real` та повертає
-результуючий масив.
+Обчислює синус для кожного значення `real` та повертає результуючий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

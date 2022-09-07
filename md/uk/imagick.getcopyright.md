@@ -1,20 +1,22 @@
-- [« Imagick::getCompressionQuality](imagick.getcompressionquality.md)
-- [Imagick::getFilename »](imagick.getfilename.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає копірайт API ImageMagick у вигляді рядка
-
+---
+navigation:
+  - imagick.getcompressionquality.md: '« Imagick::getCompressionQuality'
+  - imagick.getfilename.md: 'Imagick::getFilename »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getCopyright'
+---
 # Imagick::getCopyright
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getCopyright — Повертає копірайт API ImageMagick у вигляді
-рядки
+Imagick::getCopyright — Повертає копірайт API ImageMagick у вигляді рядка
 
 ### Опис
 
-public static **Imagick::getCopyright**(): string
+```methodsynopsis
+public static Imagick::getCopyright(): string
+```
 
 Повертає копірайт API ImageMagick у вигляді рядка.
 
@@ -24,4 +26,4 @@ public static **Imagick::getCopyright**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить копірайт Imagemagick та Magickwand C API.
+Повертає рядок, що містить копірайт Imagemagick і Magickwand C API.

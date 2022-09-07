@@ -1,27 +1,29 @@
-- [«SolrObject::offsetExists](solrobject.offsetexists.md)
-- [SolrObject::offsetSet »](solrobject.offsetset.md)
-
-- [PHP Manual](index.md)
-- [SolrObject](class.solrobject.md)
-- Використовується для отримання якості
-
+---
+navigation:
+  - solrobject.offsetexists.md: '« SolrObject::offsetExists'
+  - solrobject.offsetset.md: 'SolrObject::offsetSet »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
+title: 'SolrObject::offsetGet'
+---
 # SolrObject::offsetGet
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrObject::offsetGet — Використовується для отримання якості
+SolrObject::offsetGet — Використовується для отримання властивості
 
 ### Опис
 
-public **SolrObject::offsetGet**(string `$property_name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SolrObject::offsetGet(string $property_name): mixed
+```
 
-Використовується для отримання якості. Використовується, коли об'єкт
-обробляється як масив.
+Використовується для отримання якості. Використовується, коли об'єкт обробляється масивом.
 
 ### Список параметрів
 
 `property_name`
+
 Ім'я якості.
 
 ### Значення, що повертаються

@@ -1,24 +1,26 @@
-- [« Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md)
-- [Transliterator »](class.transliterator.md)
-
-- [PHP Manual](index.md)
-- [Spoofchecker](class.spoofchecker.md)
-- встановити набір перевірок
-
+---
+navigation:
+  - spoofchecker.setallowedlocales.md: '« Spoofchecker::setAllowedLocales'
+  - class.transliterator.md: Transliterator »
+  - index.md: PHP Manual
+  - class.spoofchecker.md: Spoofchecker
+title: 'Spoofchecker::setChecks'
+---
 # Spoofchecker::setChecks
 
-(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
 Spoofchecker::setChecks — Встановити набір перевірок
 
 ### Опис
 
-public **Spoofchecker::setChecks**(int `$checks`): void
+```methodsynopsis
+public Spoofchecker::setChecks(int $checks): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

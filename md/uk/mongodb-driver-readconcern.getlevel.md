@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\ReadConcern::\_\_construct](mongodb-driver-readconcern.construct.md)
-- [MongoDB\Driver\ReadConcern::isDefault »](mongodb-driver-readconcern.isdefault.md)
+---
+navigation:
+  - mongodb-driver-readconcern.construct.md: '« MongoDBDriverReadConcern::construct'
+  - mongodb-driver-readconcern.isdefault.md: 'MongoDBDriverReadConcern::isDefault »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::getLevel'
+---
+# MongoDBDriverReadConcern::getLevel
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
-- Повертає опцію "level" ReadConcern
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\ReadConcern::getLevel
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\ReadConcern::getLevel - Повертає опцію "level"
-ReadConcern
+MongoDBDriverReadConcern::getLevel — Повертає опцію "level" ReadConcern
 
 ### Опис
 
-final public **MongoDB\Driver\ReadConcern::getLevel**(): ?string
+```methodsynopsis
+final public MongoDB\Driver\ReadConcern::getLevel(): ?string
+```
 
 ### Список параметрів
 
@@ -26,22 +28,35 @@ final public **MongoDB\Driver\ReadConcern::getLevel**(): ?string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\ReadConcern::getLevel()****
+**Приклад #1 Приклад використання **MongoDBDriverReadConcern::getLevel()****
 
-` <?php$rc = new MongoDB\Driver\ReadConcern();var_dump($rc->getLevel());$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);var_dump($ rc->getLevel());$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);var_dump($rc->getLevel());?> `
+```php
+<?php
+
+$rc = new MongoDB\Driver\ReadConcern();
+var_dump($rc->getLevel());
+
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
+var_dump($rc->getLevel());
+
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
+var_dump($rc->getLevel());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
 string(5) "local"
 string(8) "majority"
+```
 
 ### Дивіться також
 
-- [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

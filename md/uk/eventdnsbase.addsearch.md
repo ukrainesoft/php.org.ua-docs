@@ -1,26 +1,34 @@
-- [« EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md)
-- [EventDnsBase::clearSearch »](eventdnsbase.clearsearch.md)
-
-- [PHP Manual](index.md)
-- [EventDnsBase](class.eventdnsbase.md)
-- Додає домен до списку пошукових доменів
-
+---
+navigation:
+  - eventdnsbase.addnameserverip.md: '« EventDnsBase::addNameserverIp'
+  - eventdnsbase.clearsearch.md: 'EventDnsBase::clearSearch »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::addSearch'
+---
 # EventDnsBase::addSearch
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventDnsBase::addSearch — Додає домен до списку пошукових доменів
 
 ### Опис
 
-public **EventDnsBase::addSearch**( string `$domain` ): void
+```methodsynopsis
+public
+   EventDnsBase::addSearch(
+    string
+     $domain
+   ): void
+```
 
 Додає домен до списку пошукових доменів
 
 ### Список параметрів
 
 `domain`
-Пошуковий домен.
+
+Домен пошуку.
 
 ### Значення, що повертаються
 

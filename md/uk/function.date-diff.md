@@ -1,15 +1,16 @@
-- [« date_default_timezone_set](function.date-default-timezone-set.md)
-- [date_format »](function.date-format.md)
+---
+navigation:
+  - function.date-default-timezone-set.md: « datedefaulttimezoneset
+  - function.date-format.md: dateformat »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datediff
+---
+# datediff
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::diff
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-#date_diff
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-date_diff - Псевдонім [DateTime::diff()](datetime.diff.md)
+datediff - Псевдонім [DateTime::diff()](datetime.diff.md)
 
 ### Опис
 

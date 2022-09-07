@@ -1,24 +1,24 @@
-- [«MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
-- [MongoDB\BSON\Undefined::jsonSerialize »](mongodb-bson-undefined.jsonserialize.md)
+---
+navigation:
+  - class.mongodb-bson-undefined.md: « MongoDBBSONUndefined
+  - mongodb-bson-undefined.jsonserialize.md: 'MongoDBBSONUndefined::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::construct'
+---
+# MongoDBBSONUndefined::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
-- Створює новий Undefined (не використовується)
+(mongodb >=1.4.0)
 
-# MongoDB\BSON\Undefined::\_\_construct
-
-(mongodb \>=1.4.0)
-
-MongoDB\BSON\Undefined::\_\_construct — Створює новий Undefined (не
-використовується)
+MongoDBBSONUndefined::construct — Створює новий Undefined (не використовується)
 
 ### Опис
 
-final private **MongoDB\BSON\Undefined::\_\_construct**()
+```methodsynopsis
+final private MongoDB\BSON\Undefined::__construct()
+```
 
-Об'єкти [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
-створюються шляхом перетворення із застарілого типу BSON і не можуть бути
-створені безпосередньо.
+Об'єкти [MongoDBBSONUndefined](class.mongodb-bson-undefined.md) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ final private **MongoDB\BSON\Undefined::\_\_construct**()
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

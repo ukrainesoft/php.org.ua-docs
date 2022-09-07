@@ -1,80 +1,90 @@
-- [«mysql_field_table](function.mysql-field-table.md)
-- [mysql_free_result »](function.mysql-free-result.md)
-
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає тип вказаного поля із результату запиту
-
-# mysql_field_type
+---
+navigation:
+  - function.mysql-field-table.md: « mysqlfieldtable
+  - function.mysql-free-result.md: mysqlfreeresult »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfieldtype
+---
+# mysqlfieldtype
 
 (PHP 4, PHP 5)
 
-mysql_field_type — Повертає тип вказаного поля з результату запиту
+mysqlfieldtype — Повернення типу вказаного поля з результату запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
-- [mysqli_fetch_field_direct()](mysqli-result.fetch-field-direct.md)
-[type]
-- [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
-[driver:decl_type] або [pdo_type]
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) type
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) driver:decltype або pdotype
 
 ### Опис
 
-**mysql_field_type**(resource `$result`, int `$field_offset`): string
+```methodsynopsis
+mysql_field_type(resource $result, int $field_offset): string
+```
 
-Функція **mysql_field_type()** аналогічна функції
-[mysql_field_name()](function.mysql-field-name.md). Аргументи
-однакові, але замість імені колонки повертається її тип.
+Функція **mysqlfieldtype()** аналогічна функції [mysqlfieldname()](function.mysql-field-name.md). Аргументи однакові, але замість імені колонки повертається її тип.
 
 ### Список параметрів
 
 `result`
-Оброблюваний [результат запита](language.types.resource.md). Цей
-результат може бути отриманий за допомогою функції
-[mysql_query()](function.mysql-query.md).
+
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
-Числове усунення поля. `field_offset` починається з `0`. Якщо
-`field_offset` не існує, генерується помилка рівня
-**`E_WARNING`**.
+
+Числове усунення поля . `field_offset` починається з `0`. Якщо `field_offset` не існує, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Поля можуть бути наступних типів: 'int', 'real', 'string', 'blob'
-та інших, докладно описаних [» документації MySQL](http://dev.mysql.com/doc/).
+Поля можуть бути такі типи: `"int"` `"real"` `"string"` `"blob"` та інших, докладно описаних [» документации MySQL](http://dev.mysql.com/doc/)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_field_type()****
+**Приклад #1 Приклад використання **mysqlfieldtype()****
 
-` <?phpmysql_connect("localhost", "mysql_username", "mysql_password");mysql_select_db("mysql");$result = mysql_query("SELECT * FROM func");$fields = mysql_num_fields mysql_num_rows($result);$table = mysql_field_table($result, 0);echo "Ваша таблиця '" . $table . "'містить"". $fields . " поля і " . $rows . "запис
-";echo "У таблиці є наступні поля:
-";for ($i=0; $i < $fields; $i++) {    $type  = mysql_field_type($result, $i);   $name  = mysql_field_name($result, $  | , $i);   $flags = mysql_field_flags($result, $i);   echo $type . " " . $name . " " . $len . " | 
-";}mysql_free_result($result);mysql_close();?> `
+```php
+<?php
+mysql_connect("localhost", "mysql_username", "mysql_password");
+mysql_select_db("mysql");
+$result = mysql_query("SELECT * FROM func");
+$fields = mysql_num_fields($result);
+$rows   = mysql_num_rows($result);
+$table  = mysql_field_table($result, 0);
+echo "Ваша таблица '" . $table . "' содержит " . $fields . " поля и " . $rows . " запись\n";
+echo "В таблице есть следующие поля:\n";
+for ($i=0; $i < $fields; $i++) {
+    $type  = mysql_field_type($result, $i);
+    $name  = mysql_field_name($result, $i);
+    $len   = mysql_field_len($result, $i);
+    $flags = mysql_field_flags($result, $i);
+    echo $type . " " . $name . " " . $len . " " . $flags . "\n";
+}
+mysql_free_result($result);
+mysql_close();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Ваша таблиця 'func' містить 4 поля та 1 запис
-У таблиці є такі поля:
+```
+Ваша таблица 'func' содержит 4 поля и 1 запись
+В таблице есть следующие поля:
 string name 64 not_null primary_key binary
 int ret 1 not_null
 string dl 128 not_null
 string type 9 not_null enum
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_fieldtype()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlfieldtype()**
 
 ### Дивіться також
 
-- [mysql_field_name()](function.mysql-field-name.md) - Повертає
-назва вказаної колонки результату запиту
-- [mysql_field_len()](function.mysql-field-len.md) - Повертає
-довжину вказаного поля
+-   [mysqlfieldname()](function.mysql-field-name.md) - Повертає назву вказаної колонки результату запиту
+-   [mysqlfieldlen()](function.mysql-field-len.md) - Повертає довжину вказаного поля

@@ -1,33 +1,37 @@
-- [«cubrid_new_glo](function.cubrid-new-glo.md)
-- [cubrid_send_glo »](function.cubrid-send-glo.md)
+---
+navigation:
+  - function.cubrid-new-glo.md: « cubridnewglo
+  - function.cubrid-send-glo.md: cubridsendglo »
+  - index.md: PHP Manual
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
+title: cubridsaveтоglo
+---
+# cubridsaveтоglo
 
-- [PHP Manual](index.md)
-- [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-- Зберігає запитаний файл в екземплярі GLO
+(PECL CUBRID >= 8.3.0)
 
-#cubrid_save_to_glo
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_save_to_glo — Зберігає запитаний файл у примірнику GLO
+cubridsaveтоglo — Зберігає запитаний файл у примірнику GLO
 
 ### Опис
 
-**cubrid_save_to_glo**(resource `$conn_identifier`, string `$oid`,
-string `$file_name`): int
+```methodsynopsis
+cubrid_save_to_glo(resource $conn_identifier, string $oid, string $file_name): int
+```
 
-Функція **cubrid_save_to_glo()** використовується для збереження
-запитаного файлу в екземплярі glo.
+Функція **cubridsaveтоglo()** використовується для збереження запитаного файлу в екземплярі glo.
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `oid`
-Oid екземпляра glo у якому ви хочете зберегти файл.
+
+Oid екземпляра glo в якому ви хочете зберегти файл.
 
 `file_name`
+
 Ім'я файлу.
 
 ### Значення, що повертаються
@@ -38,26 +42,34 @@ Oid екземпляра glo у якому ви хочете зберегти ф
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_save_to_glo()****
+**Приклад #1 Приклад використання **cubridsaveтоglo()****
 
-` <?php$req = cubrid_execute ($con, "select image from person where id=1");if ($req) {   list ($oid) = cubrid_fetch($req); cubrid_close_request($req); $res = cubrid_save_to_glo ($con, $oid, "input.jpg"); if ($res) {      echo "зображення змінено"; }}?> `
+```php
+<?php
+$req = cubrid_execute ($con, "select image from person where id=1");
+if ($req) {
+   list ($oid) = cubrid_fetch($req);
+   cubrid_close_request($req);
+   $res = cubrid_save_to_glo ($con, $oid, "input.jpg");
+   if ($res) {
+      echo "изображение изменено";
+   }
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **cubrid_save_to_glo()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **cubridsaveтоglo()**
 
-> **Примітка**:
->
-> Функція видалена у CUBRID 3.1.
+> **Зауваження**
+> 
+> Функцію видалено в CUBRID 3.1.
 
 ### Дивіться також
 
-- [cubrid_new_glo()](function.cubrid-new-glo.md) - Створює екземпляр
-glo
-- [cubrid_load_from_glo()](function.cubrid-load-from-glo.md) -
-Читає дані з екземпляра GLO та записує їх у файл
-- [cubrid_send_glo()](function.cubrid-send-glo.md) - Читання даних
-з glo і виведення їх у стандартний пристрій виводу
+-   [cubridnewglo()](function.cubrid-new-glo.md) - Створює екземпляр glo
+-   [cubridloadfromglo()](function.cubrid-load-from-glo.md) - Читає дані з екземпляра GLO та записує їх у файл
+-   [cubridsendglo()](function.cubrid-send-glo.md) - Читання даних з glo та виведення їх у стандартний пристрій виведення

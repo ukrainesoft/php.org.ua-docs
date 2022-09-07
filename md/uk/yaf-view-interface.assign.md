@@ -1,28 +1,28 @@
-- [« Yaf_View_Interface](class.yaf-view-interface.md)
-- [Yaf_View_Interface::display »](yaf-view-interface.display.md)
+---
+navigation:
+  - class.yaf-view-interface.md: « YafViewInterface
+  - yaf-view-interface.display.md: 'YafViewInterface::display »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.md: YafViewInterface
+title: 'YafViewInterface::assign'
+---
+# YafViewInterface::assign
 
-- [PHP Manual](index.md)
-- [Yaf_View_Interface](class.yaf-view-interface.md)
-- Призначає значення для движка відображення
+(Yaf >=1.0.0)
 
-# Yaf_View_Interface::assign
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Interface::assign — Призначає значення для движка відображення
+YafViewInterface::assign — Призначає значення для движка відображення
 
 ### Опис
 
-abstract public **Yaf_View_Interface::assign**(string `$name`, string
-$value = ?): bool
+```methodsynopsis
+abstract public Yaf_View_Interface::assign(string $name, string $value = ?): bool
+```
 
-Надає значення движку відображення, після чого до значення можна
-звертатися безпосередньо на ім'я в шаблоні.
+Надає значення движку відображення, після чого до значення можна звертатися безпосередньо на ім'я в шаблоні.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

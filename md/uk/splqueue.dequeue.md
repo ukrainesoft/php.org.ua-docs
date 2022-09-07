@@ -1,27 +1,28 @@
-- [« SplQueue::\_\_construct](splqueue.construct.md)
-- [SplQueue::enqueue »](splqueue.enqueue.md)
-
-- [PHP Manual](index.md)
-- [SplQueue](class.splqueue.md)
-- Видаляє елемент із черги
-
+---
+navigation:
+  - splqueue.construct.md: '« SplQueue::construct'
+  - splqueue.enqueue.md: 'SplQueue::enqueue »'
+  - index.md: PHP Manual
+  - class.splqueue.md: SplQueue
+title: 'SplQueue::dequeue'
+---
 # SplQueue::dequeue
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplQueue::dequeue — Видаляє елемент із черги
 
 ### Опис
 
-public **SplQueue::dequeue**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplQueue::dequeue(): mixed
+```
 
-Видаляє `value` з початку черги.
+Видаляє `value` із початку черги.
 
-> **Примітка**:
->
-> **SplQueue::dequeue()** - псевдонім
-> [SplDoublyLinkedList::shift()](spldoublylinkedlist.shift.md).
+> **Зауваження**
+> 
+> **SplQueue::dequeue()** - псевдонім [SplDoublyLinkedList::shift()](spldoublylinkedlist.shift.md)
 
 ### Список параметрів
 
@@ -29,4 +30,4 @@ public **SplQueue::dequeue**():
 
 ### Значення, що повертаються
 
-Значення віддаленого із черги елемента.
+Значення видаленого із черги елемента.

@@ -1,36 +1,34 @@
-- [« OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md)
-- [OAuthProvider::tokenHandler »](oauthprovider.tokenhandler.md)
-
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Встановити обробник timestampNonceHandler
-
+---
+navigation:
+  - oauthprovider.setrequesttokenpath.md: '« OAuthProvider::setRequestTokenPath'
+  - oauthprovider.tokenhandler.md: 'OAuthProvider::tokenHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::timestampNonceHandler'
+---
 # OAuthProvider::timestampNonceHandler
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
-OAuthProvider::timestampNonceHandler — Встановити обробник
-timestampNonceHandler
+OAuthProvider::timestampNonceHandler — Встановити обробник timestampNonceHandler
 
 ### Опис
 
-public
-**OAuthProvider::timestampNonceHandler**([callable](language.types.callable.md)
-`$callback_function`): void
+```methodsynopsis
+public OAuthProvider::timestampNonceHandler(callable $callback_function): void
+```
 
-Встановлює callback-функцію, що використовується в
-[OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.md).
-У цьому обробнику будуть передані помилки, що стосуються timestamp/nonce.
+Встановлює callback-функцію, що використовується в [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.md). У цей обробник будуть передані помилки, що стосуються timestamp/nonce.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `callback_function`
-Функція типу [callable](language.types.callable.md).
+
+Функція типу [callable](language.types.callable.md)
 
 ### Значення, що повертаються
 
@@ -38,12 +36,23 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**OAuthProvider::timestampNonceHandler()****
+**Приклад #1 Приклад використання **OAuthProvider::timestampNonceHandler()****
 
-` <?phpfunction timestampNonceChecker($provider) {    if ($provider->nonce === 'bad') {        return OAUTH_BAD_NONCE; } elseif ($provider->timestamp == '0') {        return OAUTH_BAD_TIMESTAMP; }   return OAUTH_OK;}?> `
+```php
+<?php
+function timestampNonceChecker($provider) {
+
+    if ($provider->nonce === 'bad') {
+        return OAUTH_BAD_NONCE;
+    } elseif ($provider->timestamp == '0') {
+        return OAUTH_BAD_TIMESTAMP;
+    }
+
+    return OAUTH_OK;
+}
+?>
+```
 
 ### Дивіться також
 
-- [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.md) -
-Викликати callback-функцію timestampNonceHandler
+-   [OAuthProvider::callTimestampNonceHandler()](oauthprovider.calltimestampnoncehandler.md) - Викликати callback-функцію timestampNonceHandler

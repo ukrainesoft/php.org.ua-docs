@@ -1,49 +1,56 @@
-- [« DirectoryIterator::getATime](directoryiterator.getatime.md)
-- [DirectoryIterator::getCTime »](directoryiterator.getctime.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає ім'я файлу (без розширення) поточного елемента
-DirectoryIterator
-
+---
+navigation:
+  - directoryiterator.getatime.md: '« DirectoryIterator::getATime'
+  - directoryiterator.getctime.md: 'DirectoryIterator::getCTime »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getBasename'
+---
 # DirectoryIterator::getBasename
 
-(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
+(PHP 5> = 5.2.2, PHP 7, PHP 8)
 
-DirectoryIterator::getBasename — Повертає ім'я файлу (без розширення)
-поточний елемент DirectoryIterator
+DirectoryIterator::getBasename — Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getBasename**(string `$suffix` = ""): string
+```methodsynopsis
+public DirectoryIterator::getBasename(string $suffix = ""): string
+```
 
-Повертає ім'я файлу (без розширення) поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає ім'я файлу (без розширення) поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
 `suffix`
-Якщо ім'я файлу закінчується на `suffix`, він буде відкинуто.
+
+Якщо ім'я файлу закінчується на `suffix`, то він буде відкинутий.
 
 ### Значення, що повертаються
 
-Ім'я файлу поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::getBasename()****
 
-Приклад виведе список імен файлів директорії, що містить виконуваний
-скрипт. Якщо ім'я файлу закінчується на `.jpg`, цей суфікс буде
-відкинуто.
+Приклад виведе список імен файлів директорії, що містить скрипт. Якщо ім'я файлу закінчується на `.jpg`, цей суфікс буде відкинуто.
 
-` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if ($fileinfo->isFile()) {         echo "
-";        echo $fileinfo->getBasename('.jpg') . "
-";    }}?> `
+```php
+<?php
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getBasename() . "\n";
+        echo $fileinfo->getBasename('.jpg') . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apple.jpg
 apple
 banana.jpg
@@ -52,17 +59,12 @@ index.php
 index.php
 pear.jpg
 pear
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) -
-Повертає ім'я файлу поточного елемента DirectoryIterator
-- [DirectoryIterator::getPath()](directoryiterator.getpath.md) -
-Повертає шлях до поточного елементу DirectoryIterator без імені
-файлу
-- [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) -
-Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
-- [basename()](function.basename.md) - Повертає останній
-компонент імені із зазначеного шляху
-- [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях
-до файлу
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPath()](directoryiterator.getpath.md) - Повертає шлях до поточного елементу DirectoryIterator без імені файлу
+-   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
+-   [basename()](function.basename.md) - Повертає останній компонент імені із зазначеного шляху
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

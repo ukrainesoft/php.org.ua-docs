@@ -1,21 +1,22 @@
-- [« RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.md)
-- [RecursiveIteratorIterator::callHasChildren »](recursiveiteratoriterator.callhaschildren.md)
-
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Отримання дочірніх елементів
-
+---
+navigation:
+  - recursiveiteratoriterator.beginiteration.md: '« RecursiveIteratorIterator::beginIteration'
+  - recursiveiteratoriterator.callhaschildren.md: 'RecursiveIteratorIterator::callHasChildren »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::callGetChildren'
+---
 # RecursiveIteratorIterator::callGetChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::callGetChildren — Отримання дочірніх
-елементів
+RecursiveIteratorIterator::callGetChildren — Отримання дочірніх елементів
 
 ### Опис
 
-public **RecursiveIteratorIterator::callGetChildren**():
-?[RecursiveIterator](class.recursiveiterator.md)
+```methodsynopsis
+public RecursiveIteratorIterator::callGetChildren(): ?RecursiveIterator
+```
 
 Отримує дочірні елементи ітератора.
 
@@ -25,5 +26,4 @@ public **RecursiveIteratorIterator::callGetChildren**():
 
 ### Значення, що повертаються
 
-Об'єкт класу **RecursiveIterator()** у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Об'єкт класу **RecursiveIterator()** у разі успішного виконання або **`false`** у разі виникнення помилки.

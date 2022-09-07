@@ -1,90 +1,134 @@
-- [«ftp_nb_fput](function.ftp-nb-fput.md)
-- [ftp_nb_put »](function.ftp-nb-put.md)
+---
+navigation:
+  - function.ftp-nb-fput.md: « ftpнбfput
+  - function.ftp-nb-put.md: ftpнбput »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpнбget
+---
+# ftpнбget
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його в
-локальний файл
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#ftp_nb_get
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-ftp_nb_get — Завантажує файл із FTP-сервера в асинхронному режимі та
-зберігає його у локальний файл
+ftpнбget — Завантажує файл із FTP-сервера в асинхронному режимі та зберігає його у локальний файл
 
 ### Опис
 
-**ftp_nb_get**(
-[FTP\Connection](class.ftp-connection.md) `$ftp`,
-string `$local_filename`,
-string `$remote_filename`,
-int `$mode` = **`FTP_BINARY`**,
-int `$offset` = 0
-): int
+```methodsynopsis
+ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int
+```
 
-**ftp_nb_get()** завантажує віддалений файл з FTP-сервера та зберігає його
-у локальний файл.
+**ftpнбget()** завантажує віддалений файл з FTP-сервера та зберігає його у локальний файл.
 
-Різниця між цією функцією та [ftp_get()](function.ftp-get.md)
-полягає в тому, що ця функція отримує файл асинхронно, так що
-Ваша програма може здійснювати інші операції, поки файл завантажується.
+Різниця між цією функцією та [ftpget()](function.ftp-get.md) полягає в тому, що ця функція отримує файл асинхронно, так що ваша програма може здійснювати інші операції, поки файл завантажується.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `local_filename`
+
 Шлях до локального файлу (файл буде перезаписано, якщо існує).
 
 `remote_filename`
+
 Шлях до віддаленого файлу.
 
 `mode`
-Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**.
+
+Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**
 
 `offset`
+
 Позиція початку завантаження у віддаленому файлі.
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`**, **`FTP_FINISHED`** або **`FTP_MOREDATA`**.
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_nb_get()****
+**Приклад #1 Приклад використання **ftpнбget()****
 
-`<?php//Початок скачування$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);while ($ret == FTP_MOREDATA) { ...            ; // Продовження завантажування ...   $ret = ftp_nb_continue($ftp);}if ($ret != FTP_FINISHED) {   echo "При¦скачуванні файлу відбулася..."; exit(1);}?> `
+```php
+<?php
 
-**Приклад #2 Відновлення завантаження файлу за допомогою **ftp_nb_get()****
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-` <?php// Начало скачивания$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY,                      filesize("test"));// ИЛИ: $ret = ftp_nb_get($ftp, "test", "README",//   FTP_BINARY, FTP_AUTORESUME);while|($ret == FTP // Продовження завантажування ...   $ret = ftp_nb_continue($ftp);}if ($ret != FTP_FINISHED) {   echo "При¦скачуванні файлу відбулася..."; exit(1);}?> `
+   // Производим какие-то действия ...
+   echo ".";
 
-**Приклад #3 Завантаження файлу починаючи з позиції 100 в новий файл з
-допомогою **ftp_nb_get()****
+   // Продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
+}
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
+}
+?>
+```
 
-` <?php// Заборона FTP_AUTOSEEKftp_set_option($ftp, FTP_AUTOSEEK, false);// Початок завантаження {   /* ... */   // Продовження скачування ...   $ret = ftp_nb_continue($ftp);}?> `
+**Приклад #2 Відновлення завантаження файлу за допомогою **ftpнбget()****
 
-В останньому прикладі, `newfile` буде на 100 байт менше, ніж `README` на
-FTP-сервер, тому що завантаження починається зі зміщення 100. Якщо не
-заборонити **`FTP_AUTOSEEK`**, перші 100 байт файлу `newfile` будуть
-містити `````.
+```php
+<?php
+
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY,
+                      filesize("test"));
+// ИЛИ: $ret = ftp_nb_get($ftp, "test", "README",
+//                           FTP_BINARY, FTP_AUTORESUME);
+while ($ret == FTP_MOREDATA) {
+
+   // Производим какие-то действия ...
+   echo ".";
+
+   // Продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
+}
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
+}
+?>
+```
+
+**Приклад #3 Завантаження файлу починаючи з позиції 100 в новий файл за допомогою **ftpнбget()****
+
+```php
+<?php
+
+// Запрет FTP_AUTOSEEK
+ftp_set_option($ftp, FTP_AUTOSEEK, false);
+
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "newfile", "README", FTP_BINARY, 100);
+while ($ret == FTP_MOREDATA) {
+
+   /* ... */
+
+   // Продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
+}
+?>
+```
+
+В останньому прикладі, newfile буде на 100 байт менше, ніж README на FTP-сервері, тому що завантаження починається зі зміщення 100. Якщо не заборонити **`FTP_AUTOSEEK`**, перші 100 байт файлу newfile будуть містити `'\0'`
 
 ### Дивіться також
 
-- [ftp_nb_fget()](function.ftp-nb-fget.md) - Завантажує файл з
-FTP-сервера в асинхронному режимі і зберігає його попередньо
-відкритому файлі
-- [ftp_nb_continue()](function.ftp-nb-continue.md) - Продовжує
-асинхронну операцію
-- [ftp_fget()](function.ftp-fget.md) - Завантажує файл із FTP-сервера
-і зберігає його у попередньо відкритому файлі
-- [ftp_get()](function.ftp-get.md) - Завантажує файл із FTP-сервера
+-   [ftpнбfget()](function.ftp-nb-fget.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftpнбcontinue()](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
+-   [ftpfget()](function.ftp-fget.md) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
+-   [ftpget()](function.ftp-get.md) - Завантажує файл із FTP-сервера

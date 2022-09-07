@@ -1,32 +1,33 @@
-- [« ArrayAccess::offsetGet](arrayaccess.offsetget.md)
-- [ArrayAccess::offsetUnset »](arrayaccess.offsetunset.md)
-
-- [PHP Manual](index.md)
-- [ArrayAccess](class.arrayaccess.md)
-- Надає значення заданому зміщенню
-
+---
+navigation:
+  - arrayaccess.offsetget.md: '« ArrayAccess::offsetGet'
+  - arrayaccess.offsetunset.md: 'ArrayAccess::offsetUnset »'
+  - index.md: PHP Manual
+  - class.arrayaccess.md: ArrayAccess
+title: 'ArrayAccess::offsetSet'
+---
 # ArrayAccess::offsetSet
 
 (PHP 5, PHP 7, PHP 8)
 
-ArrayAccess::offsetSet — Надає значення заданому зсуву
+ArrayAccess::offsetSet — Надає значення заданому зміщенню
 
 ### Опис
 
-public
-**ArrayAccess::offsetSet**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$offset`,
+```methodsynopsis
+public ArrayAccess::offsetSet(mixed $offset, mixed $value): void
+```
 
-`$value`): void
-
-Надає значення зазначеному зсуву (ключу).
+Надає значення зазначеному зміщенню (ключу).
 
 ### Список параметрів
 
 `offset`
+
 Зміщення (ключ), якому присвоюватиметься значення.
 
 `value`
+
 Значення для присвоєння.
 
 ### Значення, що повертаються
@@ -35,28 +36,28 @@ public
 
 ### Примітки
 
-> **Примітка**:
->
-> Параметр `offset` буде встановлено в **`null`**, якщо інше значення
-> недоступно, як показано в наведеному нижче прикладі.
->
-> ` <?php$arrayaccess[] = "перше значення";$arrayaccess[] = "друге значення";print_r($arrayaccess);?> `
->
+> **Зауваження**
+> 
+> Параметр `offset` буде встановлений у **`null`**, якщо інше значення недоступне, як показано в наведеному нижче прикладі.
+> 
+> ```php
+> <?php
+> $arrayaccess[] = "первое значение";
+> $arrayaccess[] = "второе значение";
+> print_r($arrayaccess);
+> ?>
+> ```
+> 
 > Результат виконання цього прикладу:
->
+> 
+> ```
 > Array
 > (
-> [0] => first value
-> [1] => second value
+>     [0] => first value
+>     [1] => second value
 > )
+> ```
 
-> **Примітка**:
->
-> Даний метод не викликається при присвоєння за посиланням та інших
-> Непрямих змін величин масиву перевантаженого об'єкта > [ArrayAccess](class.arrayaccess.md) (непрямі тому, що вони
-> зроблено не прямою заміною величини, а шляхом зміни частина
-> елемента або властивості елемента масиву, або присвоєння елемента
-> масиву за посиланням іншою зміною). Натомість, викликається метод
-> [ArrayAccess::offsetGet()](arrayaccess.offsetget.md). Дана
-> операція буде успішною лише в тому випадку, якщо метод повертає по
-> Посилання.
+> **Зауваження**
+> 
+> Даний метод не викликається при присвоєння за посиланням та інших непрямих змін величин масиву перевантаженого об'єкта [ArrayAccess](class.arrayaccess.md) (Непрямі в тому сенсі, що вони зроблені не прямою заміною величини, а шляхом зміни частина елемента або властивості елемента масиву, або присвоєнням елемента масиву за посиланням іншою зміною). Натомість, викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.md). Ця операція буде успішною лише в тому випадку, якщо метод повертає за посиланням.

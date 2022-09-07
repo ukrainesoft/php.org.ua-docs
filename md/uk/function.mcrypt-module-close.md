@@ -1,38 +1,39 @@
-- [«mcrypt_list_modes](function.mcrypt-list-modes.md)
-- [mcrypt_module_get_algo_block_size »](function.mcrypt-module-get-algo-block-size.md)
+---
+navigation:
+  - function.mcrypt-list-modes.md: « mcryptlistmodes
+  - function.mcrypt-module-get-algo-block-size.md: mcryptmodulegetalgoblocksize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmoduleclose
+---
+# mcryptmoduleclose
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Закриває модуль mcrypt
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-#mcrypt_module_close
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_module_close — Закриває модуль mcrypt
+mcryptmoduleclose — Закриває модуль mcrypt
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_module_close**(resource `$td`): bool
+```methodsynopsis
+mcrypt_module_close(resource $td): bool
+```
 
 Закриває цей обробник шифрування.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [mcrypt_module_open()](function.mcrypt-module-open.md) - Відкриває
-модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcryptmoduleopen()](function.mcrypt-module-open.md) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

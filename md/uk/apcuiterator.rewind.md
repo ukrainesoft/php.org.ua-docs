@@ -1,19 +1,22 @@
-- [«APCUIterator::next](apcuiterator.next.md)
-- [APCUIterator::valid »](apcuiterator.valid.md)
-
-- [PHP Manual](index.md)
-- [APCUIterator](class.apcuiterator.md)
-- Перемотування ітератора
-
+---
+navigation:
+  - apcuiterator.next.md: '« APCUIterator::next'
+  - apcuiterator.valid.md: 'APCUIterator::valid »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::rewind'
+---
 # APCUIterator::rewind
 
-(PECL apcu \>= 5.0.0)
+(PECL apcu >= 5.0.0)
 
 APCUIterator::rewind — Перемотування ітератора
 
 ### Опис
 
-public **APCUIterator::rewind**(): void
+```methodsynopsis
+public APCUIterator::rewind(): void
+```
 
 Встановлює покажчик ітератора перший елемент.
 
@@ -27,7 +30,5 @@ public **APCUIterator::rewind**(): void
 
 ### Дивіться також
 
-- [APCUIterator::next()](apcuiterator.next.md) - Переміщує
-вказівник на наступний елемент
-- [Iterator::next()](iterator.next.md) - Переходить до наступного
-елементу
+-   [APCUIterator::next()](apcuiterator.next.md) - Переміщує покажчик на наступний елемент
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу

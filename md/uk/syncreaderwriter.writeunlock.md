@@ -1,22 +1,24 @@
-- [« SyncReaderWriter::writelock](syncreaderwriter.writelock.md)
-- [SyncSharedMemory »](class.syncsharedmemory.md)
-
-- [PHP Manual](index.md)
-- [SyncReaderWriter](class.syncreaderwriter.md)
-- Знімає блокування запису
-
+---
+navigation:
+  - syncreaderwriter.writelock.md: '« SyncReaderWriter::writelock'
+  - class.syncsharedmemory.md: SyncSharedMemory »
+  - index.md: PHP Manual
+  - class.syncreaderwriter.md: SyncReaderWriter
+title: 'SyncReaderWriter::writeunlock'
+---
 # SyncReaderWriter::writeunlock
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 SyncReaderWriter::writeunlock — Знімає блокування запису
 
 ### Опис
 
-public **SyncReaderWriter::writeunlock**(): bool
+```methodsynopsis
+public SyncReaderWriter::writeunlock(): bool
+```
 
-Знімає блокування запису об'єкта
-[SyncReaderWriter](class.syncreaderwriter.md).
+Знімає блокування запису об'єкта [SyncReaderWriter](class.syncreaderwriter.md)
 
 ### Список параметрів
 
@@ -24,16 +26,21 @@ public **SyncReaderWriter::writeunlock**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SyncReaderWriter::writeunlock()****
 
-` <?php$readwrite = new SyncReaderWriter("FileCacheLock");$readwrite->writelock();/* ... */$readwrite->writeunlock();?> `
+```php
+<?php
+$readwrite = new SyncReaderWriter("FileCacheLock");
+$readwrite->writelock();
+/* ... */
+$readwrite->writeunlock();
+?>
+```
 
 ### Дивіться також
 
-- [SyncReaderWriter::writelock()](syncreaderwriter.writelock.md) -
-Чекає ексклюзивного блокування запису
+-   [SyncReaderWriter::writelock()](syncreaderwriter.writelock.md) - Чекає на ексклюзивне блокування запису

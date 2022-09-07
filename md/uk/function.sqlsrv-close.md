@@ -1,42 +1,57 @@
-- [«sqlsrv_client_info](function.sqlsrv-client-info.md)
-- [sqlsrv_commit »](function.sqlsrv-commit.md)
-
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Закриває відкрите з'єднання та звільняє ресурси, пов'язані з
-цим з'єднанням
-
-#sqlsrv_close
+---
+navigation:
+  - function.sqlsrv-client-info.md: « sqlsrvclientinfo
+  - function.sqlsrv-commit.md: sqlsrvcommit »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvclose
+---
+# sqlsrvclose
 
 (No version information available, might only be in Git)
 
-sqlsrv_close — Закриває відкрите з'єднання та звільняє ресурси,
-пов'язані з цим з'єднанням
+sqlsrvclose — Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням.
 
 ### Опис
 
-**sqlsrv_close**(resource `$conn`): bool
+```methodsynopsis
+sqlsrv_close(resource $conn): bool
+```
 
-Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим
-з'єднанням.
+Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням.
 
 ### Список параметрів
 
 `conn`
+
 З'єднання, яке потрібно закрити.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_close()****
+**Приклад #1 Приклад використання **sqlsrvclose()****
 
-` <?php$serverName = "serverName\sqlexpres";$connOptions = array("UID"=>"username", "PWD"=>"password", "Database"=>"dbname");$conn = sqlsrv_connect ( $serverName, $connOptions );if( $conn === false ) {    die( print_r( sqlsrv_errors(), true));}//----------------- --------------------// Виконання операцій з базою даних.//-------------------- -----------------// Закриття з'єднання.sqlsrv_close( $conn );?> `
+```php
+<?php
+$serverName = "serverName\sqlexpres";
+$connOptions = array("UID"=>"username", "PWD"=>"password", "Database"=>"dbname");
+$conn = sqlsrv_connect( $serverName, $connOptions );
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+//-------------------------------------
+// Выполнение операций с базой данных.
+//-------------------------------------
+
+// Закрытие соединения.
+sqlsrv_close( $conn );
+?>
+```
 
 ### Дивіться також
 
-- [sqlsrv_connect()](function.sqlsrv-connect.md) - Відкриває
-з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrvconnect()](function.sqlsrv-connect.md) - Відкриває з'єднання з базою даних Microsoft SQL Server

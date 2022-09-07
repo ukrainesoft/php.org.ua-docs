@@ -1,19 +1,22 @@
-- [« Swoole\Client::on](swoole-client.on.md)
-- [Swoole\Client::pipe »](swoole-client.pipe.md)
+---
+navigation:
+  - swoole-client.on.md: '« SwooleClient::on'
+  - swoole-client.pipe.md: 'SwooleClient::pipe »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::pause'
+---
+# SwooleClient::pause
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Припиняє отримання даних
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::pause
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::pause — Зупиняє отримання даних
+SwooleClient::pause — Припиняє отримання даних
 
 ### Опис
 
-public **Swoole\Client::pause**(): void
+```methodsynopsis
+public Swoole\Client::pause(): void
+```
 
 ### Список параметрів
 

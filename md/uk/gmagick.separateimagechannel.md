@@ -1,31 +1,30 @@
-- [«Gmagick::scaleimage](gmagick.scaleimage.md)
-- [Gmagick::setCompressionQuality »](gmagick.setcompressionquality.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Відокремлює канал від зображення
-
+---
+navigation:
+  - gmagick.scaleimage.md: '« Gmagick::scaleimage'
+  - gmagick.setcompressionquality.md: 'Gmagick::setCompressionQuality »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::separateimagechannel'
+---
 # Gmagick::separateimagechannel
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::separateimagechannel — Відокремлює канал від зображення
+Gmagick::separateimagechannel — Відокремлює канал від зображення.
 
 ### Опис
 
-public **Gmagick::separateimagechannel**(int `$channel`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::separateimagechannel(int $channel): Gmagick
+```
 
-Відокремлює канал від зображення та повертає зображення у відтінках.
-сірого. Канал – це певний колірний компонент кожного пікселя
-зображення.
+Відокремлює канал від зображення та повертає зображення у відтінках сірого. Канал – це певний колірний компонент кожного пікселя зображення.
 
 ### Список параметрів
 
 `channel`
-Одна з констант
-[каналу](gmagick.constants.md#gmagick.constants.channel)
-(`Gmagick::CHANNEL_*`).
+
+Одна з констант [канала](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
 
 ### Значення, що повертаються
 

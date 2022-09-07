@@ -1,11 +1,11 @@
-- [« Вимоги](shmop.requirements.md)
-- [Налаштування під час виконання »](shmop.configuration.md)
+---
+navigation:
+  - shmop.requirements.md: « Вимоги
+  - shmop.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - shmop.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](shmop.setup.md)
-- Встановлення
-
-## Установка
-
-Для використання набору функцій `shmop` необхідно скомпілювати PHP з
-опцією **--enable-shmop** у рядку конфігурації.
+Для використання набору функцій `shmop` необхідно скомпілювати PHP з опцією **\-enable-shmop** у рядку конфігурації.

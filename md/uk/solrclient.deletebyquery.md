@@ -1,53 +1,67 @@
-- [« SolrClient::deleteByQueries](solrclient.deletebyqueries.md)
-- [SolrClient::\_\_destruct »](solrclient.destruct.md)
-
-- [PHP Manual](index.md)
-- [SolrClient](class.solrclient.md)
-- Видаляє всі документи, що відповідають заданому запиту
-
+---
+navigation:
+  - solrclient.deletebyqueries.md: '« SolrClient::deleteByQueries'
+  - solrclient.destruct.md: 'SolrClient::destruct »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::deleteByQuery'
+---
 # SolrClient::deleteByQuery
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrClient::deleteByQuery — Видаляє всі відповідні документи.
-заданому запиту
+SolrClient::deleteByQuery — Видаляє всі документи, які відповідають заданому запиту
 
 ### Опис
 
-public **SolrClient::deleteByQuery**(string `$query`):
-[SolrUpdateResponse](class.solrupdateresponse.md)
+```methodsynopsis
+public SolrClient::deleteByQuery(string $query): SolrUpdateResponse
+```
 
 Видаляє всі документи, які відповідають заданому запиту.
 
 ### Список параметрів
 
 `query`
+
 Запит
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrUpdateResponse](class.solrupdateresponse.md)
-або викидає виняток у разі помилки.
+Повертає об'єкт [SolrUpdateResponse](class.solrupdateresponse.md) або викидає виняток у разі помилки.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.md), якщо
-клієнт відмовив чи виникла проблема із підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.md), якщо
-сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SolrQuery::deleteByQuery()****
 
-` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);/ /Це соттре весь індекс$client->deleteByQuery("*:*");$client->commit();?> `
+```php
+<?php
+
+$options = array
+(
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
+);
+
+$client = new SolrClient($options);
+
+//Это сотрёт весь индекс
+$client->deleteByQuery("*:*");
+$client->commit();
+
+?>
+```
 
 ### Дивіться також
 
-- [SolrClient::deleteById()](solrclient.deletebyid.md) - Видаляє за
-ідентифікатору
-- [SolrClient::deleteByIds()](solrclient.deletebyids.md) - Видаляє
-за ідентифікаторами
-- [SolrClient::deleteByQueries()](solrclient.deletebyqueries.md) -
-Видаляє всі документи, що відповідають будь-якому запиту.
+-   [SolrClient::deleteById()](solrclient.deletebyid.md) - Видаляє за ідентифікатором
+-   [SolrClient::deleteByIds()](solrclient.deletebyids.md) - Видаляє за ідентифікаторами
+-   [SolrClient::deleteByQueries()](solrclient.deletebyqueries.md) - Видаляє всі документи, що відповідають будь-якому із запитів

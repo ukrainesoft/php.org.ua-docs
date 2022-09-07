@@ -1,93 +1,112 @@
-- [«sqlsrv_execute](function.sqlsrv-execute.md)
-- [sqlsrv_fetch_object »](function.sqlsrv-fetch-object.md)
-
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Повертає рядок як масив
-
-#sqlsrv_fetch_array
+---
+navigation:
+  - function.sqlsrv-execute.md: « sqlsrvexecute
+  - function.sqlsrv-fetch-object.md: sqlsrvfetchobject »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfetcharray
+---
+# sqlsrvfetcharray
 
 (No version information available, might only be in Git)
 
-sqlsrv_fetch_array — Повертає рядок як масив
+sqlsrvfetcharray — Повертає рядок як масив
 
 ### Опис
 
-**sqlsrv_fetch_array**(
-resource `$stmt`,
-int `$fetchType` = ?,
-int `$row` = ?,
-int `$offset` = ?
-): array
+```methodsynopsis
+sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int $row = ?,    int $offset = ?): array
+```
 
-Повертає наступний доступний рядок даних у вигляді асоціативного
-масиву, числового масиву або того й іншого (за замовчуванням).
+Повертає наступний доступний рядок даних у вигляді асоціативного масиву, числового масиву або й того й іншого (за умовчанням).
 
 ### Список параметрів
 
 `stmt`
-Ресурс оператора, який повертається sqlsrv_query або sqlsrv_prepare.
+
+Ресурс оператора, що повертається sqlsrvquery або sqlsrvprepare.
 
 `fetchType`
-Обумовлена константа, що вказує тип масиву, що повертається.
-Можливі значення: **`SQLSRV_FETCH_ASSOC`**, **`SQLSRV_FETCH_NUMERIC`**
-або **`SQLSRV_FETCH_BOTH`** (за замовчуванням).
 
-Тип вибірки SQLSRV_FETCH_ASSOC не слід використовувати під час використання
-набору результатів з кількома шпальтами з однаковим ім'ям.
+Обумовлена ​​константа, що вказує тип масива, що повертається. Можливі значення: **`SQLSRV_FETCH_ASSOC`** **`SQLSRV_FETCH_NUMERIC`** або **`SQLSRV_FETCH_BOTH`** (за замовчуванням).
+
+Тип вибірки SQLSRVFETCHASSOC не слід використовувати при використанні набору результатів із кількома стовпцями з однаковим ім'ям.
 
 `row`
-Задає рядок для доступу до результуючого набору, в якому
-використовується курсор, що прокручується. Можливі значення:
-**`SQLSRV_SCROLL_NEXT`**, **`SQLSRV_SCROLL_PRIOR`**,
-**`SQLSRV_SCROLL_FIRST`**, **`SQLSRV_SCROLL_LAST`**,
-**`SQLSRV_SCROLL_ABSOLUTE`** та **`SQLSRV_SCROLL_RELATIVE`** (за
-замовчуванням). Якщо цей параметр вказано, `fetchType` має бути явно
-визначено.
+
+Задає рядок для доступу в результуючому наборі, в якому використовується курсор, що прокручується. Можливі значення: **`SQLSRV_SCROLL_NEXT`** **`SQLSRV_SCROLL_PRIOR`** **`SQLSRV_SCROLL_FIRST`** **`SQLSRV_SCROLL_LAST`** **`SQLSRV_SCROLL_ABSOLUTE`** і **`SQLSRV_SCROLL_RELATIVE`** (за замовчуванням). Якщо цей параметр вказано, `fetchType` має бути явно визначений.
 
 `offset`
-Вказує рядок, до якого буде здійснюватися доступ, якщо для
-параметра рядка встановлено значення **`SQLSRV_SCROLL_ABSOLUTE`** або
-**`SQLSRV_SCROLL_RELATIVE`**. Зверніть увагу, що перший рядок у
-Набір результатів має індекс 0.
+
+Вказує рядок, до якого буде доступ, якщо для параметра рядка встановлено значення **`SQLSRV_SCROLL_ABSOLUTE`** або **`SQLSRV_SCROLL_RELATIVE`**. Зауважте, що перший рядок у наборі результатів має індекс 0.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив, **`null`**, якщо в
-наборі результатів більше немає рядків і **`false`** у разі виникнення
-помилки.
+У разі успішного виконання повертає масив, \*\*`null`\*\*якщо в наборі результатів більше немає рядків і **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Отримання асоціативного масиву.**
 
-` <?php$serverName = "serverName\instanceName";$connectionInfo== array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo );if( $conn === false ) {    die( print_r( sqlsrv_errors(), true)));}$sql = "SELECT FirstName, T| , $sql );if( $stmt === false) {    die( print_r( sqlsrv_errors(), true) );}while( $row = sqlsrv_fetch_array( $        ) .", ".$row['FirstName']."<br />";}sqlsrv_free_stmt( $stmt);?> `
+```php
+<?php
+$serverName = "serverName\instanceName";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo );
+if( $conn === false ) {
+    die( print_r( sqlsrv_errors(), true));
+}
+
+$sql = "SELECT FirstName, LastName FROM SomeTable";
+$stmt = sqlsrv_query( $conn, $sql );
+if( $stmt === false) {
+    die( print_r( sqlsrv_errors(), true) );
+}
+
+while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
+      echo $row['LastName'].", ".$row['FirstName']."<br />";
+}
+
+sqlsrv_free_stmt( $stmt);
+?>
+```
 
 **Приклад #2 Отримання числового масиву.**
 
-` <?php$serverName = "serverName\instanceName";$connectionInfo== array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo );if( $conn === false ) {    die( print_r( sqlsrv_errors(), true)));}$sql = "SELECT FirstName, T| , $sql );if( $stmt === false) {    die( print_r( sqlsrv_errors(), true) );}while( $row = sqlsrv_fetch_array( $         ) , ".$row[1]."<br />";}sqlsrv_free_stmt( $stmt);?> `
+```php
+<?php
+$serverName = "serverName\instanceName";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo );
+if( $conn === false ) {
+    die( print_r( sqlsrv_errors(), true));
+}
+
+$sql = "SELECT FirstName, LastName FROM SomeTable";
+$stmt = sqlsrv_query( $conn, $sql );
+if( $stmt === false) {
+    die( print_r( sqlsrv_errors(), true) );
+}
+
+while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
+      echo $row[0].", ".$row[1]."<br />";
+}
+
+sqlsrv_free_stmt( $stmt);
+?>
+```
 
 ### Примітки
 
-Не вказано `fetchType` або явне використання константи
-**`SQLSRV_FETCH_TYPE`** у наведених вище прикладах поверне масив, у
-якого ключі будуть як асоціативні, і числові.
+Не вказаний `fetchType` або явне використання константи **`SQLSRV_FETCH_TYPE`** у наведених вище прикладах поверне масив, у якого ключі будуть як асоціативні, і числові.
 
-Якщо більше одного стовпця повертається з тим самим ім'ям,
-останній стовпець матиме пріоритет. Щоб уникнути конфліктів імен
-полів, використовуйте псевдоніми.
+Якщо більше одного стовпця повертається з тим самим ім'ям, останній стовпець матиме пріоритет. Щоб уникнути конфліктів імен полів, використовуйте псевдоніми.
 
-Якщо стовпець повертається без імені, асоціативний ключ для елемента
-масиву буде порожнім рядком ("").
+Якщо стовпець повертається без імені, асоціативний ключ для елемента масиву буде порожнім рядком ("").
 
 ### Дивіться також
 
-- [sqlsrv_connect()](function.sqlsrv-connect.md) - Відкриває
-з'єднання з базою даних Microsoft SQL Server
-- [sqlsrv_query()](function.sqlsrv-query.md) - Підготовляє та
-виконує запит
-- [sqlsrv_errors()](function.sqlsrv-errors.md) - Повертає
-інформацію про помилку та попередження останньої виконаної операції
-SQLSRV
-- [sqlsrv_fetch()](function.sqlsrv-fetch.md) - Робить таку
-рядок у наборі результатів доступного для читання
+-   [sqlsrvconnect()](function.sqlsrv-connect.md) - Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
+-   [sqlsrverrors()](function.sqlsrv-errors.md) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+-   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання

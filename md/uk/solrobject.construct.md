@@ -1,19 +1,20 @@
-- [«SolrObject](class.solrobject.md)
-- [SolrObject::\_\_destruct »](solrobject.destruct.md)
+---
+navigation:
+  - class.solrobject.md: « SolrObject
+  - solrobject.destruct.md: 'SolrObject::destruct »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
+title: 'SolrObject::construct'
+---
+# SolrObject::construct
 
-- [PHP Manual](index.md)
-- [SolrObject](class.solrobject.md)
-- Створює об'єкт Solr
+(PECL solr> = 0.9.2)
 
-# SolrObject::\_\_construct
-
-(PECL solr \> = 0.9.2)
-
-SolrObject::\_\_construct — Створює об'єкт Solr
+SolrObject::construct — Створює об'єкт Solr
 
 ### Опис
 
-public **SolrObject::\_\_construct**()
+public **SolrObject::construct**
 
 Створює об'єкт Solr.
 
@@ -27,10 +28,16 @@ public **SolrObject::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrObject::\_\_construct()****
+**Приклад #1 Приклад використання **SolrObject::construct()****
 
-` <?php/* ... */?> `
+```php
+<?php
+/* ... */
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```

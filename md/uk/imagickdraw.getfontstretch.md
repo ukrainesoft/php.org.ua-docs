@@ -1,22 +1,24 @@
-- [« ImagickDraw::getFontSize](imagickdraw.getfontsize.md)
-- [ImagickDraw::getFontStyle »](imagickdraw.getfontstyle.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Опис
-
+---
+navigation:
+  - imagickdraw.getfontsize.md: '« ImagickDraw::getFontSize'
+  - imagickdraw.getfontstyle.md: 'ImagickDraw::getFontStyle »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFontStretch'
+---
 # ImagickDraw::getFontStretch
 
-(PECL imagick 2 \>=2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
 ImagickDraw::getFontStretch — Опис
 
 ### Опис
 
-public **ImagickDraw::getFontStretch**(): int
+```methodsynopsis
+public ImagickDraw::getFontStretch(): int
+```
 
-Отримує розтягування шрифту, що використовується під час анотації тексту.
-Повертає StretchType.
+Отримує розтягування шрифту, що використовується під час анотації тексту. Повертає StretchType.
 
 ### Список параметрів
 

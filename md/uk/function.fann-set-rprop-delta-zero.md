@@ -1,42 +1,41 @@
-- [« fann_set_rprop_delta_min](function.fann-set-rprop-delta-min.md)
-- [fann_set_rprop_increase_factor »](function.fann-set-rprop-increase-factor.md)
+---
+navigation:
+  - function.fann-set-rprop-delta-min.md: « fannsetrpropdeltamin
+  - function.fann-set-rprop-increase-factor.md: fannsetrpropincreasefactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetrpropdeltazero
+---
+# fannsetrpropdeltazero
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює початковий розмір кроку
+(PECL fann> = 1.0.0)
 
-# fann_set_rprop_delta_zero
-
-(PECL fann = 1.0.0)
-
-fann_set_rprop_delta_zero — Встановлює початковий розмір кроку
+fannsetrpropdeltazero — Встановлює початковий розмір кроку
 
 ### Опис
 
-**fann_set_rprop_delta_zero**(resource `$ann`, float
-`$rprop_delta_zero`): bool
+```methodsynopsis
+fann_set_rprop_delta_zero(resource $ann, float $rprop_delta_zero): bool
+```
 
-Початковий розмір кроку – це позитивне число, що визначає початковий
-Розмір кроку.
+Початковий розмір кроку - це позитивне число, що визначає початковий розмір кроку.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `rprop_delta_zero`
+
 Початковий розмір кроку.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_rprop_delta_zero()](function.fann-get-rprop-delta-zero.md) -
-Повертає початковий розмір кроку
-- [fann_get_rprop_delta_min()](function.fann-get-rprop-delta-min.md) -
-Повертає мінімальний розмір кроку
-- [fann_get_rprop_delta_max()](function.fann-get-rprop-delta-max.md) -
-Повертає максимальний розмір кроку
+-   [fanngetrpropdeltazero()](function.fann-get-rprop-delta-zero.md) - Повертає початковий розмір кроку
+-   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку
+-   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.md) - Повертає максимальний розмір кроку

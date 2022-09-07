@@ -1,29 +1,29 @@
-- [«EventBase::\_\_construct](eventbase.construct.md)
-- [EventBase::exit »](eventbase.exit.md)
-
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Відправляє очікувані події
-
+---
+navigation:
+  - eventbase.construct.md: '« EventBase::construct'
+  - eventbase.exit.md: 'EventBase::exit »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::dispatch'
+---
 # EventBase::dispatch
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventBase::dispatch — Відправляє події, що очікують.
 
 ### Опис
 
-public **EventBase::dispatch**(): void
+```methodsynopsis
+public
+   EventBase::dispatch(): void
+```
 
-Очікує, доки події стануть активними, і запускає їх callback-функції.
-Також, як [EventBase::loop()](eventbase.loop.md) без встановлених
-прапори.
+Очікує, доки події стануть активними, і запускає їх callback-функції. Так само як [EventBase::loop()](eventbase.loop.md) без встановлених прапорів.
 
 **Увага**
 
-*НЕ* руйнуйте об'єкт [EventBase](class.eventbase.md) доки
-звільнені пов'язані з `Event` ресурси. Інакше це призведе
-до непередбачуваних результатів!
+*НЕ* руйнуйте об'єкт [EventBase](class.eventbase.md) доки не звільнені пов'язані з `Event` ресурси. В іншому випадку це призведе до непередбачуваних результатів!
 
 ### Список параметрів
 
@@ -31,10 +31,8 @@ public **EventBase::dispatch**(): void
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBase::loop()](eventbase.loop.md) - Надсилання чекаючих
-подій
+-   [EventBase::loop()](eventbase.loop.md) - Відправлення очікуваних подій

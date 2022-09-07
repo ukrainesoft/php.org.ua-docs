@@ -1,19 +1,22 @@
-- [« Parle\Lexer::consume](parle-lexer.consume.md)
-- [Parle\Lexer::getToken »](parle-lexer.gettoken.md)
+---
+navigation:
+  - parle-lexer.consume.md: '« ParleLexer::consume'
+  - parle-lexer.gettoken.md: 'ParleLexer::getToken »'
+  - index.md: PHP Manual
+  - class.parle-lexer.md: ParleLexer
+title: 'ParleLexer::dump'
+---
+# ParleLexer::dump
 
-- [PHP Manual](index.md)
-- [Parle\Lexer](class.parle-lexer.md)
-- Виводить стан пристрою
+(PECL parle >= 0.5.1)
 
-# Parle\Lexer::dump
-
-(PECL parle \>= 0.5.1)
-
-Parle\Lexer::dump — Виводить стан пристрою
+ParleLexer::dump — Виводить стан пристрою
 
 ### Опис
 
-public **Parle\Lexer::dump**(): void
+```methodsynopsis
+public Parle\Lexer::dump(): void
+```
 
 Виводить поточний стан пристрою у стандартний висновок.
 

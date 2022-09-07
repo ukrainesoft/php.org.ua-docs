@@ -1,20 +1,22 @@
-- [« GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.md)
-- [GmagickDraw::getfont »](gmagickdraw.getfont.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає значення прозорості, що використовується при малюванні
-
+---
+navigation:
+  - gmagickdraw.getfillcolor.md: '« GmagickDraw::getfillcolor'
+  - gmagickdraw.getfont.md: 'GmagickDraw::getfont »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfillopacity'
+---
 # GmagickDraw::getfillopacity
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::getfillopacity — Повертає значення прозорості,
-використовуване при малюванні
+GmagickDraw::getfillopacity — Повертає значення прозорості для малювання.
 
 ### Опис
 
-public **GmagickDraw::getfillopacity**(): float
+```methodsynopsis
+public GmagickDraw::getfillopacity(): float
+```
 
 Повертає значення прозорості, що використовується під час малювання.
 
@@ -24,6 +26,4 @@ public **GmagickDraw::getfillopacity**(): float
 
 ### Значення, що повертаються
 
-Повертає прозорість, використовувану при малюванні з використанням
-кольору заливки або заливки текстури. Значення повністю непрозорого
-кольори – 1.0.
+Повертає прозорість, яка використовується при малюванні за допомогою кольору заливки або текстури заливки. Значення повністю непрозорого кольору – 1.0.

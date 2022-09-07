@@ -1,31 +1,31 @@
-- [« SolrQuery::getHighlightFragmenter](solrquery.gethighlightfragmenter.md)
-- [SolrQuery::getHighlightHighlightMultiTerm »](solrquery.gethighlighthighlightmultiterm.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає кількість символів фрагментів для виділення
-
+---
+navigation:
+  - solrquery.gethighlightfragmenter.md: '« SolrQuery::getHighlightFragmenter'
+  - solrquery.gethighlighthighlightmultiterm.md: 'SolrQuery::getHighlightHighlightMultiTerm »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightFragsize'
+---
 # SolrQuery::getHighlightFragsize
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightFragsize — Повертає кількість символів
-фрагментів для виділення
+SolrQuery::getHighlightFragsize — Повертає кількість фрагментів символів для виділення
 
 ### Опис
 
-public **SolrQuery::getHighlightFragsize**(string `$field_override` =
-?): int
+```methodsynopsis
+public SolrQuery::getHighlightFragsize(string $field_override = ?): int
+```
 
-Повертає кількість фрагментів символів для виділення. Нуль
-передбачає відсутність фрагментації. Використовуйте все поле.
+Повертає кількість символів фрагментів виділення. Нуль має на увазі відсутність фрагментації. Використовуйте все поле.
 
 ### Список параметрів
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає ціле число у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає ціле число у разі успішного виконання та **`null`**, якщо значення не встановлено

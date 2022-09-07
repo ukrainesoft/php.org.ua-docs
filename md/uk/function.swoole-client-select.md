@@ -1,25 +1,22 @@
-- [« swoole_clear_error](function.swoole-clear-error.md)
-- [swoole_cpu_num »](function.swoole-cpu-num.md)
+---
+navigation:
+  - function.swoole-clear-error.md: « swooleclearerror
+  - function.swoole-cpu-num.md: swoolecpunum »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleclientselect
+---
+# swooleclientselect
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Отримати опис файлу, готового до читання/запису чи помилки
+(PECL swoole >= 1.9.0)
 
-# swoole_client_select
-
-(PECL swoole \>= 1.9.0)
-
-swoole_client_select — Отримати опис, готовий до читання/запису
-чи помилці
+swooleclientselect — Отримати опис файлу, готового до читання/запису або помилки
 
 ### Опис
 
-**swoole_client_select**(
-array `&$read_array`,
-array `&$write_array`,
-array `&$error_array`,
-float `$timeout` = 0.5
-): int
+```methodsynopsis
+swoole_client_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = 0.5): int
+```
 
 ### Список параметрів
 

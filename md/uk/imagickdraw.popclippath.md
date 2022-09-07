@@ -1,25 +1,26 @@
-- [« ImagickDraw::pop](imagickdraw.pop.md)
-- [ImagickDraw::popDefs »](imagickdraw.popdefs.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Завершує визначення шляху відсічного контуру
-
+---
+navigation:
+  - imagickdraw.pop.md: '« ImagickDraw::pop'
+  - imagickdraw.popdefs.md: 'ImagickDraw::popDefs »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::popClipPath'
+---
 # ImagickDraw::popClipPath
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::popClipPath — Завершує визначення шляху відсічного
-контуру
+ImagickDraw::popClipPath — Завершує визначення шляху відсічного контуру
 
 ### Опис
 
-public **ImagickDraw::popClipPath**(): bool
+```methodsynopsis
+public ImagickDraw::popClipPath(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Завершує визначення шляху відсічного контуру.
 

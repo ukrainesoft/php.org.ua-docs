@@ -1,10 +1,11 @@
-- [« ArrayIterator::valid](arrayiterator.valid.md)
-- [CachingIterator::\_\_construct »](cachingiterator.construct.md)
-
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас CachingIterator
-
+---
+navigation:
+  - arrayiterator.valid.md: '« ArrayIterator::valid'
+  - cachingiterator.construct.md: 'CachingIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас CachingIterator
+---
 # Клас CachingIterator
 
 (PHP 5, PHP 7, PHP 8)
@@ -15,152 +16,132 @@
 
 ## Огляд класів
 
-class **CachingIterator** extends
-[IteratorIterator](class.iteratoriterator.md) implements
-[ArrayAccess](class.arrayaccess.md),
-[Countable](class.countable.md), [Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `CALL_TOSTRING` = 1;
+    
+     
+      class CachingIterator
+     
 
-const int `CATCH_GET_CHILD` = 16;
+     
+      extends
+       IteratorIterator
+     
 
-const int `TOSTRING_USE_KEY` = 2;
+     implements 
+       ArrayAccess,  Countable,  Stringable {
 
-const int `TOSTRING_USE_CURRENT` = 4;
+    /* Константы */
+    
+     const
+     int
+      CALL_TOSTRING = 1;
 
-const int `TOSTRING_USE_INNER` = 8;
+    const
+     int
+      CATCH_GET_CHILD = 16;
 
-const int `FULL_CACHE` = 256;
+    const
+     int
+      TOSTRING_USE_KEY = 2;
 
-/\* Методи \*/
+    const
+     int
+      TOSTRING_USE_CURRENT = 4;
 
-public
-[\_\_construct](cachingiterator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, int `$flags` = CachingIterator::CALL_TOSTRING)
+    const
+     int
+      TOSTRING_USE_INNER = 8;
 
-public [count](cachingiterator.count.md)(): int
+    const
+     int
+      FULL_CACHE = 256;
 
-public [current](cachingiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [getCache](cachingiterator.getcache.md)(): array
+    /* Методы */
+    
+   public __construct(Iterator $iterator, int $flags = CachingIterator::CALL_TOSTRING)
 
-public [getFlags](cachingiterator.getflags.md)(): void
+    public count(): int
+public current(): mixed
+public getCache(): array
+public getFlags(): void
+public getInnerIterator(): Iterator
+public hasNext(): bool
+public key(): scalar
+public next(): void
+public offsetExists(string $key): bool
+public offsetGet(string $key): mixed
+public offsetSet(string $key, mixed $value): void
+public offsetUnset(string $key): void
+public rewind(): void
+public setFlags(int $flags): void
+public __toString(): string
+public valid(): bool
 
-public [getInnerIterator](cachingiterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
 
-public [hasNext](cachingiterator.hasnext.md)(): bool
+    /* Наследуемые методы */
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [key](cachingiterator.key.md)(): scalar
+   }
+```
 
-public [next](cachingiterator.next.md)(): void
-
-public [offsetExists](cachingiterator.offsetexists.md)(string `$key`):
-bool
-
-public [offsetGet](cachingiterator.offsetget.md)(string `$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [offsetSet](cachingiterator.offsetset.md)(string `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [offsetUnset](cachingiterator.offsetunset.md)(string `$key`):
-void
-
-public [rewind](cachingiterator.rewind.md)(): void
-
-public [setFlags](cachingiterator.setflags.md)(int `$flags`): void
-
-public [\_\_toString](cachingiterator.tostring.md)(): string
-
-public [valid](cachingiterator.valid.md)(): bool
-
-/\* Наслідувані методи \*/
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`CachingIterator::CALL_TOSTRING`**
+
 Перетворює кожен елемент на рядок.
 
 **`CachingIterator::CATCH_GET_CHILD`**
+
 Не викидати виключення під час доступу до дочірніх елементів.
 
 **`CachingIterator::TOSTRING_USE_KEY`**
-Використовувати [ключ](cachingiterator.key.md) при перетворенні на
-рядок.
+
+Використати [ключ](cachingiterator.key.md) при перетворенні на рядок.
 
 **`CachingIterator::TOSTRING_USE_CURRENT`**
-Використовувати [поточний елемент](cachingiterator.current.md) при
-перетворення в рядок.
+
+Використати [поточний елемент](cachingiterator.current.md) при перетворенні на рядок.
 
 **`CachingIterator::TOSTRING_USE_INNER`**
-Використати [внутрішній ітератор](cachingiterator.getinneriterator.md) при перетворенні на
-рядок.
+
+Використати [внутренний итератор](cachingiterator.getinneriterator.md) при перетворенні на рядок.
 
 **`CachingIterator::FULL_CACHE`**
+
 Кешування всієї прочитаної інформації.
 
-## Список змін
+## список змін
 
-| Версія | Опис                                                                                 |
-| ------ | ------------------------------------------------------------------------------------ |
-| 8.0.0  | Клас **CachingIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **CachingIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
-- [CachingIterator::\_\_construct](cachingiterator.construct.md) -
-Створює новий об'єкт CachingIterator для ітератора
-- [CachingIterator::count](cachingiterator.count.md) - Повертає
-кількість елементів в ітераторі
-- [CachingIterator::current](cachingiterator.current.md) -
-Повертає поточний елемент
-- [CachingIterator::getCache](cachingiterator.getcache.md) -
-Отримання вмісту кешу
-- [CachingIterator::getFlags](cachingiterator.getflags.md) -
-Отримує прапори, що використовуються
-- [CachingIterator::getInnerIterator](cachingiterator.getinneriterator.md)
-- Повертає внутрішній ітератор
-- [CachingIterator::hasNext](cachingiterator.hasnext.md) -
-Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
-- [CachingIterator::key](cachingiterator.key.md) — Повертає ключ
-для поточного елемента
-- [CachingIterator::next](cachingiterator.next.md) — Переміщує
-ітератор до наступного елементу
-- [CachingIterator::offsetExists](cachingiterator.offsetexists.md)
-Призначення offsetExists
-- [CachingIterator::offsetGet](cachingiterator.offsetget.md) -
-Призначення offsetGet
-- [CachingIterator::offsetSet](cachingiterator.offsetset.md) -
-Призначення offsetSet
-- [CachingIterator::offsetUnset](cachingiterator.offsetunset.md) -
-Призначення offsetUnset
-- [CachingIterator::rewind](cachingiterator.rewind.md) - Повертає
-ітератор на початок
-- [CachingIterator::setFlags](cachingiterator.setflags.md)
-Встановлює прапори для об'єкту CachingIterator
-- [CachingIterator::\_\_toString](cachingiterator.tostring.md) -
-Повертає строкове представлення поточного елемента
-- [CachingIterator::valid](cachingiterator.valid.md) — Перевіряє,
-чи є поточний елемент допустимим
+-   [CachingIterator::construct](cachingiterator.construct.md) — Створює новий об'єкт CachingIterator для ітератора
+-   [CachingIterator::count](cachingiterator.count.md) — Повертає кількість елементів в ітераторі
+-   [CachingIterator::current](cachingiterator.current.md) — Повертає поточний елемент
+-   [CachingIterator::getCache](cachingiterator.getcache.md) — Отримання вмісту кешу
+-   [CachingIterator::getFlags](cachingiterator.getflags.md) — Отримує прапори, що використовуються.
+-   [CachingIterator::getInnerIterator](cachingiterator.getinneriterator.md) - Повертає внутрішній ітератор
+-   [CachingIterator::hasNext](cachingiterator.hasnext.md) — Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
+-   [CachingIterator::key](cachingiterator.key.md) — Повертає ключ до поточного елемента
+-   [CachingIterator::next](cachingiterator.next.md) — Переміщує ітератор до наступного елемента
+-   [CachingIterator::offsetExists](cachingiterator.offsetexists.md) — Призначення offsetExists
+-   [CachingIterator::offsetGet](cachingiterator.offsetget.md) - Призначення offsetGet
+-   [CachingIterator::offsetSet](cachingiterator.offsetset.md) - Призначення offsetSet
+-   [CachingIterator::offsetUnset](cachingiterator.offsetunset.md) - Призначення offsetUnset
+-   [CachingIterator::rewind](cachingiterator.rewind.md) — Повертає ітератор на початок
+-   [CachingIterator::setFlags](cachingiterator.setflags.md) — Встановлює прапори для об'єкта CachingIterator
+-   [CachingIterator::toString](cachingiterator.tostring.md) — Повертає строкове представлення поточного елемента
+-   [CachingIterator::valid](cachingiterator.valid.md) — Перевіряє, чи поточний елемент є допустимим

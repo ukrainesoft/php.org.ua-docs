@@ -1,28 +1,30 @@
-- [« HRTime\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md)
-- [HRTime\StopWatch::isRunning »](hrtime-stopwatch.isrunning.md)
+---
+navigation:
+  - hrtime-stopwatch.getlastelapsedticks.md: '« HRTimeStopWatch::getLastElapsedTicks'
+  - hrtime-stopwatch.isrunning.md: 'HRTimeStopWatch::isRunning »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
+title: 'HRTimeStopWatch::getLastElapsedTime'
+---
+# HRTimeStopWatch::getLastElapsedTime
 
-- [PHP Manual](index.md)
-- [HRTime\StopWatch](class.hrtime-stopwatch.md)
-- Отримати минулий час для останнього інтервалу
+(PECL hrtime >= 0.4.3)
 
-# HRTime\StopWatch::getLastElapsedTime
-
-(PECL hrtime \>= 0.4.3)
-
-HRTime\StopWatch::getLastElapsedTime — Отримати минулий час для
-останнього інтервалу
+HRTimeStopWatch::getLastElapsedTime — Отримати минулий час для останнього інтервалу
 
 ### Опис
 
-public **HRTime\StopWatch::getLastElapsedTime**(int `$unit` = ?): float
+```methodsynopsis
+public HRTime\StopWatch::getLastElapsedTime(int $unit = ?): float
+```
 
 Повертає час для раніше закритого інтервалу.
 
 ### Список параметрів
 
 `unit`
-Одиниця часу, задана однією із констант HRTime\Unit. За замовчуванням
-HRTime\Unit::SECOND.
+
+Одиниця часу, задана однією із констант HRTimeUnit. Типово HRTimeUnit::SECOND.
 
 ### Значення, що повертаються
 

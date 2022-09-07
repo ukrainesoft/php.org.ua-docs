@@ -1,88 +1,91 @@
-- [«odbc_statistics](function.odbc-statistics.md)
-- [odbc_tables »](function.odbc-tables.md)
-
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Перераховує таблиці та привілеї, пов'язані з кожною таблицею
-
-#odbc_tableprivileges
+---
+navigation:
+  - function.odbc-statistics.md: « odbcstatistics
+  - function.odbc-tables.md: odbctables »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbctableprivileges
+---
+# odbctableprivileges
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_tableprivileges — Перераховує таблиці та привілеї, пов'язані з
-кожною таблицею
+odbctableprivileges — Перераховує таблиці та привілеї, пов'язані з кожною таблицею
 
 ### Опис
 
-**odbc_tableprivileges**(
-resource `$odbc`,
-?string `$catalog`,
-string `$schema`,
-string `$table`
-): resource \ | false
+```methodsynopsis
+odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
+```
 
-Перелічує таблиці в запитаному діапазоні та привілеї, пов'язані з
-кожною таблицею.
+Перелічує таблиці у запитаному діапазоні та привілеї, пов'язані з кожною таблицею.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
+
 Каталог ('qualifier' мовою ODBC 2).
 
 `schema`
-Схема ('owner' мовою ODBC 2). Цей параметр приймає такі
-шаблони пошуку: `%` відповідний нулю або більше символів, та `_`
-відповідний рівно одному символу.
+
+Схема ('owner' мовою ODBC 2). Цей параметр приймає такі шаблони пошуку: `%` відповідний нулю або більше символів, та `_` відповідний рівно одному символу.
 
 `table`
-Ім'я таблиці. Цей параметр приймає такі шаблони пошуку: `%`
-відповідний нулю або більше символів, і `_` відповідний рівно
-один символ.
+
+Ім'я таблиці. Цей параметр приймає такі шаблони пошуку: `%` відповідний нулю або більше символів, та `_` відповідний рівно одному символу.
 
 ### Значення, що повертаються
 
-Ідентифікатор результату ODBC або **`false`** у разі виникнення
-помилки.
+Ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
 
 У результуючому наборі є такі стовпці:
 
-- `TABLE_CAT`
-- `TABLE_SCHEM`
-- `TABLE_NAME`
-- `GRANTOR`
-- `GRANTEE`
-- `PRIVILEGE`
-- `IS_GRANTABLE`
+-   `TABLE_CAT`
+-   `TABLE_SCHEM`
+-   `TABLE_NAME`
+-   `GRANTOR`
+-   `GRANTEE`
+-   `PRIVILEGE`
+-   `IS_GRANTABLE`
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за TABLE_CAT, TABLE_SCHEM,
-`TABLE_NAME`, `PRIVILEGE` та `GRANTEE`.
+Результуючий набір впорядковується за `TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` `PRIVILEGE` і `GRANTEE`
 
 ### Приклади
 
 **Приклад #1 Перелік привілеїв таблиці**
 
-` <?php$conn = odbc_connect($dsn, $user, $pass);$privileges = odbc_tableprivileges($conn, 'SalesOrders', 'dbo', 'Orders');while (($row =$ ))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+```php
+<?php
+$conn = odbc_connect($dsn, $user, $pass);
+$privileges = odbc_tableprivileges($conn, 'SalesOrders', 'dbo', 'Orders');
+while (($row = odbc_fetch_array($privileges))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[TABLE_CAT] => SalesOrders
-[TABLE_SCHEM] => dbo
-[TABLE_NAME] => Orders
-[GRANTOR] => dbo
-[GRANTEE] => dbo
-[PRIVILEGE] => DELETE
-[IS_GRANTABLE] => YES
+    [TABLE_CAT] => SalesOrders
+    [TABLE_SCHEM] => dbo
+    [TABLE_NAME] => Orders
+    [GRANTOR] => dbo
+    [GRANTEE] => dbo
+    [PRIVILEGE] => DELETE
+    [IS_GRANTABLE] => YES
 )
+```
 
 ### Дивіться також
 
-- [odbc_tables()](function.odbc-tables.md) - Отримує список імен
-таблиць, що зберігаються у певному джерелі даних
+-   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

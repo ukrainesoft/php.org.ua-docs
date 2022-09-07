@@ -1,41 +1,28 @@
-- [«MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md)
-- [MongoDB\BSON\Unserializable »](class.mongodb-bson-unserializable.md)
+---
+navigation:
+  - class.mongodb-bson-serializable.md: « MongoDBBSONSerializable
+  - class.mongodb-bson-unserializable.md: MongoDBBSONUnserializable »
+  - index.md: PHP Manual
+  - class.mongodb-bson-serializable.md: MongoDBBSONSerializable
+title: 'MongoDBBSONSerializable::bsonSerialize'
+---
+# MongoDBBSONSerializable::bsonSerialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md)
-- Надає масив або документ для серіалізації у BSON
+(mongodb >=1.0.0)
 
-# MongoDB\BSON\Serializable::bsonSerialize
-
-(mongodb \>=1.0.0)
-
-MongoDB\BSON\Serializable::bsonSerialize — Надає масив або
-документ для серіалізації у BSON
+MongoDBBSONSerializable::bsonSerialize — Надає масив або документ для серіалізації в BSON
 
 ### Опис
 
-abstract public **MongoDB\BSON\Serializable::bsonSerialize**():
-array\|object
+```methodsynopsis
+abstract public MongoDB\BSON\Serializable::bsonSerialize(): array|object
+```
 
-Викликається під час серіалізації об'єкта BSON. Метод має повертати
-array або **stdClass**.
+Викликається під час серіалізації об'єкта BSON. Метод повинен повертати array або **stdClass**
 
-Кореневі документи (наприклад,
-[MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md),
-передані в
-[MongoDB\BSON romPHP()](function.mongodb.bson-fromphp.md)) завжди
-будуть серіалізовані як документ BSON. Для значень полів асоціативні
-масиви та екземпляри **stdClass** будуть серіалізовані у вигляді документа
-BSON, а послідовні масиви (наприклад, послідовні числові
-індекси, що починаються з `0`), будуть серіалізовані у вигляді масиву BSON.
+Кореневі документи (наприклад, [MongoDBBSONSerializable](class.mongodb-bson-serializable.md), передані в [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.md)) завжди будуть серіалізовані як документ BSON. Для значень полів асоціативні масиви та екземпляри **stdClass** будуть серіалізовані у вигляді документа BSON, а послідовні масиви (наприклад, послідовні числові індекси, що починаються з `0`) будуть серіалізовані у вигляді масиву BSON.
 
-Користувачам рекомендується включати властивість \_id (наприклад,
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md),
-ініціалізований у вашому конструкторі) при поверненні даних для
-кореневий документ BSON; інакше драйвер або база даних
-повинні будуть згенерувати
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md) при вставці
-або злиття документа, відповідно.
+Користувачам рекомендується включати властивість id (наприклад, [MongoDBBSONObjectId](class.mongodb-bson-objectid.md), ініціалізований у вашому конструкторі) при поверненні даних для кореневого документа BSON; в іншому випадку драйвер або база даних повинні будуть згенерувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) при вставці чи злитті документа, відповідно.
 
 ### Список параметрів
 
@@ -43,54 +30,121 @@ BSON, а послідовні масиви (наприклад, послідов
 
 ### Значення, що повертаються
 
-array або **stdClass** для серіалізації у вигляді масиву чи документа
-BSON.
+array або **stdClass** для серіалізації у вигляді масиву чи документа BSON.
 
 ### Приклади
 
-**Приклад #1 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
-асоціативного масиву для кореневого документа**
+**Приклад #1 **MongoDBBSONSerializable::bsonSerialize()** повернення асоціативного масиву для кореневого документа**
 
-`<?phpclass MyDocument implements MongoDB\BSON\Serializable{    private $id; function __construct()    {        $this->id = new MongoDB\BSON\ObjectId; }   function bsonSerialize()    {        return ['_id' =>$this->id, 'foo' => 'bar']; }}$bson =MongoDB\BSON romPHP(new MyDocument);echo MongoDB\BSON oJSON($bson), "
-";?> `
+```php
+<?php
+
+class MyDocument implements MongoDB\BSON\Serializable
+{
+    private $id;
+
+    function __construct()
+    {
+        $this->id = new MongoDB\BSON\ObjectId;
+    }
+
+    function bsonSerialize(): array
+    {
+        return ['_id' => $this->id, 'foo' => 'bar'];
+    }
+}
+
+$bson = MongoDB\BSON\fromPHP(new MyDocument);
+echo MongoDB\BSON\toJSON($bson), "\n";
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 { "_id" : { "$oid" : "56cccdcada14d8755a58c591" }, "foo" : "bar" }
+```
 
-**Приклад #2 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
-послідовного масиву для кореневого документа**
+**Приклад #2 **MongoDBBSONSerializable::bsonSerialize()** повернення послідовного масиву для кореневого документа**
 
-`<?phpclass MyArray implements MongoDB\BSON\Serializable{    function bsonSerialize()    {       return [1, 2, 3]; }}$bson =MongoDB\BSON romPHP(new MyArray);echo MongoDB\BSON oJSON($bson), "
-";?> `
+```php
+<?php
+
+class MyArray implements MongoDB\BSON\Serializable
+{
+    function bsonSerialize(): array
+    {
+        return [1, 2, 3];
+    }
+}
+
+$bson = MongoDB\BSON\fromPHP(new MyArray);
+echo MongoDB\BSON\toJSON($bson), "\n";
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-{ "0": 1, "1": 2, "2": 3}
+```
+{ "0" : 1, "1" : 2, "2" : 3 }
+```
 
-**Приклад #3 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
-асоціативного масиву для поля документа**
+**Приклад #3 **MongoDBBSONSerializable::bsonSerialize()** повернення асоціативного масиву для поля документа**
 
-` <?phpclass MyDocument implements MongoDB\BSON\Serializable{; }}$value = ['document' => new MyDocument];$bson = MongoDB\BSON romPHP($value);echo MongoDB\BSON oJSON($bson), "
-";?> `
+```php
+<?php
+
+class MyDocument implements MongoDB\BSON\Serializable
+{
+    function bsonSerialize(): array
+    {
+        return ['foo' => 'bar'];
+    }
+}
+
+$value = ['document' => new MyDocument];
+$bson = MongoDB\BSON\fromPHP($value);
+echo MongoDB\BSON\toJSON($bson), "\n";
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 { "document" : { "foo" : "bar" } }
+```
 
-**Приклад #4 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
-послідовного масиву для поля документа**
+**Приклад #4 **MongoDBBSONSerializable::bsonSerialize()** повернення послідовного масиву для поля документа**
 
-`<?phpclass MyArray implements MongoDB\BSON\Serializable{    function bsonSerialize()    {       return [1, 2, 3]; }}$value = ['array' => new MyArray];$bson = MongoDB\BSON romPHP($value);echo MongoDB\BSON oJSON($bson), "
-";?> `
+```php
+<?php
+
+class MyArray implements MongoDB\BSON\Serializable
+{
+    function bsonSerialize(): array
+    {
+        return [1, 2, 3];
+    }
+}
+
+$value = ['array' => new MyArray];
+$bson = MongoDB\BSON\fromPHP($value);
+echo MongoDB\BSON\toJSON($bson), "\n";
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 { "array" : [ 1, 2, 3 ] }
+```
 
 ### Дивіться також
 
-- [MongoDB\BSON\Unserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md) -
-Створює об'єкт із масиву BSON або документа
-- [MongoDB\BSON\Persistable](class.mongodb-bson-persistable.md)
-- [Постійні дані](mongodb.persistence.md)
+-   [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md) - Створює об'єкт із масиву BSON або документа
+-   [MongoDBBSONPersistable](class.mongodb-bson-persistable.md)
+-   [Постійні дані](mongodb.persistence.md)

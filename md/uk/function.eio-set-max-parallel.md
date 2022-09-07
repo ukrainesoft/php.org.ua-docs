@@ -1,24 +1,27 @@
-- [« eio_set_max_idle](function.eio-set-max-idle.md)
-- [eio_set_max_poll_reqs »](function.eio-set-max-poll-reqs.md)
+---
+navigation:
+  - function.eio-set-max-idle.md: « eiosetmaxidle
+  - function.eio-set-max-poll-reqs.md: eiosetmaxpollreqs »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosetmaxparallel
+---
+# eiosetmaxparallel
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Встановлює максимальну кількість паралельних потоків
+(PECL eio >= 0.0.1dev)
 
-#eio_set_max_parallel
-
-(PECL eio \>= 0.0.1dev)
-
-eio_set_max_parallel — Встановлює максимальну кількість
-паралельних потоків
+eiosetmaxparallel — Встановлює максимальну кількість паралельних потоків
 
 ### Опис
 
-**eio_set_max_parallel**(int `$nthreads`): void
+```methodsynopsis
+eio_set_max_parallel(int $nthreads): void
+```
 
 ### Список параметрів
 
 `nthreads`
+
 Кількість паралельних потоків
 
 ### Значення, що повертаються
@@ -27,9 +30,6 @@ eio_set_max_parallel — Встановлює максимальну кільк�
 
 ### Дивіться також
 
-- [eio_nthreads()](function.eio-nthreads.md) - Повертає кількість
-використовуваних в даний момент потоків
-- [eio_set_max_idle()](function.eio-set-max-idle.md) - Встановлює
-максимальна кількість очікуваних потоків
-- [eio_set_min_parallel()](function.eio-set-min-parallel.md) -
-Встановлює мінімальну кількість паралельних потоків
+-   [eionthreads()](function.eio-nthreads.md) - Повертає кількість потоків, що використовуються в даний момент
+-   [eiosetmaxidle()](function.eio-set-max-idle.md) - Встановлює максимальну кількість очікуваних потоків
+-   [eiosetminparallel()](function.eio-set-min-parallel.md) - Встановлює мінімальну кількість паралельних потоків

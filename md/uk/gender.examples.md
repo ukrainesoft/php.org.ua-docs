@@ -1,12 +1,13 @@
-- [« Встановлення](gender.installation.md)
-- [Приклад використання »](gender.example.admin.md)
-
-- [PHP Manual](index.md)
-- [Gender](book.gender.md)
-- Приклади
-
+---
+navigation:
+  - gender.installation.md: « Установка
+  - gender.example.admin.md: Пример использования »
+  - index.md: PHP Manual
+  - book.gender.md: Gender
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Приклад використання](gender.example.admin.md)
+-   [Пример использования](gender.example.admin.md)

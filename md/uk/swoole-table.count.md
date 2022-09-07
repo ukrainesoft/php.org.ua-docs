@@ -1,21 +1,22 @@
-- [« Swoole\Table::\_\_construct](swoole-table.construct.md)
-- [Swoole\Table::create »](swoole-table.create.md)
+---
+navigation:
+  - swoole-table.construct.md: '« SwooleTable::construct'
+  - swoole-table.create.md: 'SwooleTable::create »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::count'
+---
+# SwooleTable::count
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Підраховує рядки в таблиці або підраховує всі елементи
-таблиці, якщо $mode = 1
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::count
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::count — Підраховує рядки у таблиці або підраховує всі
-елементи у таблиці, якщо $mode = 1
+SwooleTable::count — Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
 
 ### Опис
 
-public **Swoole\Table::count**(): int
+```methodsynopsis
+public Swoole\Table::count(): int
+```
 
 ### Список параметрів
 

@@ -1,40 +1,42 @@
-- [« Imagick::quantizeImages](imagick.quantizeimages.md)
-- [Imagick::queryFonts »](imagick.queryfonts.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає масив, що представляє метрики шрифту
-
+---
+navigation:
+  - imagick.quantizeimages.md: '« Imagick::quantizeImages'
+  - imagick.queryfonts.md: 'Imagick::queryFonts »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::queryFontMetrics'
+---
 # Imagick::queryFontMetrics
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::queryFontMetrics - Повертає масив, що представляє метрики
-шрифту
+Imagick::queryFontMetrics - Повертає масив, що представляє метрики шрифту
 
 ### Опис
 
-public
-**Imagick::queryFontMetrics**([ImagickDraw](class.imagickdraw.md)
-`$properties`, string `$text`, bool `$multiline` = ?): array
+```methodsynopsis
+public Imagick::queryFontMetrics(ImagickDraw $properties, string $text, bool $multiline = ?): array
+```
 
-Повертає багатовимірний масив, що становить метрики шрифту.
+Повертає багатовимірний масив, що представляє метрики шрифту.
 
 ### Список параметрів
 
 `properties`
+
 Об'єкт ImagickDraw, що містить властивості шрифту.
 
 `text`
+
 Текст.
 
 `multiline`
-Багаторядковий параметр. Якщо залишити порожнім, він визначається
-автоматично.
+
+Багаторядковий параметр. Якщо залишити пустим, він визначається автоматично.
 
 ### Значення, що повертаються
 
-Повертає багатовимірний масив, що становить метрики шрифту.
+Повертає багатовимірний масив, що представляє метрики шрифту.
 
 ### Помилки
 
@@ -42,8 +44,22 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::queryFontMetrics()**:**
+**Приклад #1 Приклад використання **Imagick::queryFontMetrics()****
 
 Запитує метрики для тексту та виводить результати на екран.
 
-` <?php/* Створення нового об'єкта Imagick */$im = new Imagick();/* Створення нового об'єкта Imagick */$draw = new ImagickDraw()| path/to/font.ttf');/* Висновок метрики шрифту, автоматичне визначення многорядкового параметра */var_dump($im->queryFontMetrics($draw, "Hello World!"));?> `
+```php
+<?php
+/* Создание нового объекта Imagick */
+$im = new Imagick();
+
+/* Создание нового объекта Imagick */
+$draw = new ImagickDraw();
+
+/* Установка шрифта */
+$draw->setFont('/path/to/font.ttf');
+
+/* Вывод метрики шрифта, автоматическое определение многострочного параметра */
+var_dump($im->queryFontMetrics($draw, "Hello World!"));
+?>
+```

@@ -1,20 +1,22 @@
-- [« ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)
-- [ReflectionFunctionAbstract::isInternal »](reflectionfunctionabstract.isinternal.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Перевіряє, чи є функція генератором
-
+---
+navigation:
+  - reflectionfunctionabstract.isdeprecated.md: '« ReflectionFunctionAbstract::isDeprecated'
+  - reflectionfunctionabstract.isinternal.md: 'ReflectionFunctionAbstract::isInternal »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isGenerator'
+---
 # ReflectionFunctionAbstract::isGenerator
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isGenerator — Перевіряє, чи є функція
-генератором
+ReflectionFunctionAbstract::isGenerator — Перевіряє, чи є функція генератором
 
 ### Опис
 
-public **ReflectionFunctionAbstract::isGenerator**(): bool
+```methodsynopsis
+public ReflectionFunctionAbstract::isGenerator(): bool
+```
 
 ### Список параметрів
 
@@ -22,5 +24,4 @@ public **ReflectionFunctionAbstract::isGenerator**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо функція є генератором, **`false`** в
-в іншому випадку або **`null`**, у разі виникнення помилки.
+Повертає **`true`**, якщо функція є генератором, **`false`** в іншому випадку або **`null`**, у разі виникнення помилки.

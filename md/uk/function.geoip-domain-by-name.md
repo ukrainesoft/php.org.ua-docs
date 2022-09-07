@@ -1,45 +1,56 @@
-- [« geoip_db_get_all_info](function.geoip-db-get-all-info.md)
-- [geoip_id_by_name »](function.geoip-id-by-name.md)
+---
+navigation:
+  - function.geoip-db-get-all-info.md: « geoipдбgetallinfo
+  - function.geoip-id-by-name.md: geoipідбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipdomainбname
+---
+# geoipdomainбname
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Отримати ім'я домену другого рівня
+(PECL geoip >= 1.1.0)
 
-# geoip_domain_by_name
-
-(PECL geoip \>= 1.1.0)
-
-geoip_domain_by_name — Отримати ім'я домену другого рівня
+geoipdomainбname — Отримати назву домену другого рівня
 
 ### Опис
 
-**geoip_domain_by_name**(string `$hostname`): string
+```methodsynopsis
+geoip_domain_by_name(string $hostname): string
+```
 
-Функція **geoip_domain_by_name()** повертає імена доменів другого
-рівня, пов'язаних з ім'ям хоста або IP-адресою.
+Функція **geoipdomainбname()** повертає домени другого рівня, пов'язані з ім'ям хоста або IP-адресою.
 
-Зараз ця функція доступна лише користувачам, які купили комерційну
-GeoIP Domain Edition. Якщо коректна база даних не
-буде знайдено, буде виведено попередження.
+Зараз ця функція доступна лише користувачам, які купили комерційну версію GeoIP Domain Edition. Якщо коректна база даних не буде знайдена, буде виведено попередження.
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста або IP-адреса.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ім'я домену. Якщо адреса не
-знайдений у базі, то повертається **`false`**.
+У разі успішного виконання повертає ім'я домену. Якщо адреса не знайдена в базі, то повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_domain_by_name()****
+**Приклад #1 Приклад використання **geoipdomainбname()****
 
 Знайдемо домен, пов'язаний із IP 61.106.139.1.
 
-` <?php$domain = geoip_domain_by_name('61.106.139.1');if ($domain) {   echo 'Домен: '. $domain;}?> `
+```php
+<?php
+$domain = geoip_domain_by_name('61.106.139.1');
+
+if ($domain) {
+    echo 'Домен: '. $domain;
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Домен: von.co.kr
+```

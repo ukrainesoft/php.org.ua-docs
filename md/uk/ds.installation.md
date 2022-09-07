@@ -1,40 +1,41 @@
-- [« Вимоги](ds.requirements.md)
-- [Предвизначені константи »](ds.constants.md)
+---
+navigation:
+  - ds.requirements.md: « Вимоги
+  - ds.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ds.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ds.setup.md)
-- Установка
+Найпростіший спосіб встановлення через [» PECL](https://pecl.php.net/package/ds)
 
-## Установка
-
-Найпростіший спосіб встановлення, через
-[»PECL](https://pecl.php.net/package/ds)
-
+```
 pecl install ds
+```
 
-Також ви можете самостійно зібрати його з вихідних джерел:
+Також ви можете самостійно зібрати його із вихідних джерел:
 
-# Залежності, які, можливо, доведеться встановити
+```
+# Зависимости, которые, возможно, придётся установить
 # sudo apt-get install git build-essential php7.0-dev
 
 git clone https://github.com/php-ds/extension "php-ds"
 cd php-ds
 
-# Складання та встановлення модуля
+# Сборка и установка модуля
 phpize
 ./configure
 make
 make install
 
-# Очищення артефактів, що залишилися
+# Очистка оставшихся артефактов
 make clean
 phpize --clean
+```
 
-Якщо ви використовуєте Windows, ви можете завантажити [» готову бібліотеку .dll з PECL](https://pecl.php.net/package/ds)
+Якщо ви використовуєте Windows, ви можете завантажити [» готовую библиотеку .dll из PECL](https://pecl.php.net/package/ds)
 
-> **Примітка**:
->
-> Якщо ви використовуєте Composer, рекомендується включити
-> [» php-ds/php-ds](https://packagist.org/packages/php-ds/php-ds) у ваш
-> проект, щоб ваш код залишався робочим, без того,
-> встановлено модуль чи ні.
+> **Зауваження**
+> 
+> Якщо ви використовуєте Composer, рекомендується включити [» php-ds/php-ds](https://packagist.org/packages/php-ds/php-ds) у ваш проект, щоб ваш код залишався робочим, без того, встановлено модуль чи ні.

@@ -1,55 +1,80 @@
-- [«imagecreatefromtga](function.imagecreatefromtga.md)
-- [imagecreatefromwebp »](function.imagecreatefromwebp.md)
+---
+navigation:
+  - function.imagecreatefromtga.md: « imagecreatefromtga
+  - function.imagecreatefromwebp.md: imagecreatefromwebp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefrombmp
+---
+# imagecreatefrombmp
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Створює нове зображення із файлу або URL
-
-#imagecreatefromwbmp
-
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromwbmp — Створення нового зображення з файлу або URL
 
 ### Опис
 
-**imagecreatefromwbmp**(string `$filename`):
-[GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagecreatefromwbmp(string $filename): GdImage|false
+```
 
-**imagecreatefromwbmp()** повертає ідентифікатор зображення,
-представляє зображення, отримане з файлу із заданим ім'ям.
+**imagecreatefrombmp()** повертає ідентифікатор зображення, що представляє зображення, отримане з файлу із заданим ім'ям.
 
-> **Примітка**: Зображення WBMP є Wireless Bitmaps, а
-> не Windows Bitmaps. Останні можуть бути завантажені за допомогою
-> [imagecreatefrombmp()](function.imagecreatefrombmp.md).
+> **Зауваження**: Зображення WBMP є Wireless Bitmaps, а не Windows Bitmaps. Останні можуть бути завантажені за допомогою [imagecreatefrombmp()](function.imagecreatefrombmp.md)
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо
-була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
-докладнішу інформацію про визначення імені файлу в описі функції
-[fopen()](function.fopen.md). Дивіться також список підтримуваних
-оберток URL, їх можливості, зауваження щодо використання та список
-визначених констант у розділі [Підтримувані протоколи та обертки](wrappers.md).
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Список параметрів
 
 `filename`
-Шлях до зображення WBMP.
+
+Шлях до WBMP.
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад обробки помилки під час завантаження WBMP**
 
-` <?phpfunction LoadWBMP($imgname){    /* Намагаємося відкрити */    $im = @imagecreatefromwbmp($imgname); /* Якщо не удалося */    if(!$im)    {        /* Створюємо пусте зображення */         $im              $bgc = imagecolorallocate($im, 255, 255, 255); $tc = imagecolorallocate($im, 0, 0, 0); imagefilledrectangle($im, 0, 0, 150, 30, $bgc); /* Виводимо повідомлення про помилки */        imagestring($im, 1, 5, 5, 'Помилка завантаження ' . $imgname, $tc); }   return $im;}header('Content-Type:image/vnd.wap.wbmp');$img = LoadWBMP('bogus.image');imagewbmp($img);imagedestroy($img);?> `
+```php
+<?php
+function LoadWBMP($imgname)
+{
+    /* Пытаемся открыть */
+    $im = @imagecreatefromwbmp($imgname);
+
+    /* Если не удалось */
+    if(!$im)
+    {
+        /* Создаём пустое изображение */
+        $im  = imagecreatetruecolor(150, 30);
+        $bgc = imagecolorallocate($im, 255, 255, 255);
+        $tc  = imagecolorallocate($im, 0, 0, 0);
+
+        imagefilledrectangle($im, 0, 0, 150, 30, $bgc);
+
+        /* Выводим сообщение об ошибке */
+        imagestring($im, 1, 5, 5, 'Ошибка загрузки ' . $imgname, $tc);
+    }
+
+    return $im;
+}
+
+header('Content-Type: image/vnd.wap.wbmp');
+
+$img = LoadWBMP('bogus.image');
+
+imagewbmp($img);
+imagedestroy($img);
+?>
+```

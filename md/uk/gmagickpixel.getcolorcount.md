@@ -1,20 +1,22 @@
-- [« GmagickPixel::getcolor](gmagickpixel.getcolor.md)
-- [GmagickPixel::getcolorvalue »](gmagickpixel.getcolorvalue.md)
-
-- [PHP Manual](index.md)
-- [GmagickPixel](class.gmagickpixel.md)
-- Отримати кількість пікселів зображення, які мають заданий колір
-
+---
+navigation:
+  - gmagickpixel.getcolor.md: '« GmagickPixel::getcolor'
+  - gmagickpixel.getcolorvalue.md: 'GmagickPixel::getcolorvalue »'
+  - index.md: PHP Manual
+  - class.gmagickpixel.md: GmagickPixel
+title: 'GmagickPixel::getcolorcount'
+---
 # GmagickPixel::getcolorcount
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickPixel::getcolorcount — Отримати кількість пікселів зображення,
-мають заданий колір
+GmagickPixel::getcolorcount — Отримати кількість пікселів зображення, які мають заданий колір
 
 ### Опис
 
-public **GmagickPixel::getcolorcount**(): int
+```methodsynopsis
+public GmagickPixel::getcolorcount(): int
+```
 
 Повертає кількість пікселів зображення, які мають заданий колір.
 
@@ -24,6 +26,4 @@ public **GmagickPixel::getcolorcount**(): int
 
 ### Значення, що повертаються
 
-Повертає кількість пікселів зображення, що мають заданий колір,
-у разі успішного виконання. У разі виникнення помилки викидає
-виняток **GmagickPixelException**.
+Повертає кількість пікселів зображення, що мають заданий колір у разі успішного виконання. У разі виникнення помилки викидає виняток **GmagickPixelException**

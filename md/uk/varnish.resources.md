@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](varnish.configuration.md)
-- [Предвизначені константи »](varnish.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](varnish.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - varnish.configuration.md: « Налаштування під час виконання
+  - varnish.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - varnish.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

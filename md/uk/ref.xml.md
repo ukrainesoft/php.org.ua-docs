@@ -1,55 +1,34 @@
-- [« Приклад використання зовнішніх сутностей XML](example.xml-external-entity.md)
-- [xml_error_string »](function.xml-error-string.md)
-
-- [PHP Manual](index.md)
-- [Розбір XML](book.xml.md)
-- Функції парсера XML
-
+---
+navigation:
+  - example.xml-external-entity.md: Приклад використання зовнішніх сутностей XML
+  - function.xml-error-string.md: xmlerrorstring »
+  - index.md: PHP Manual
+  - book.xml.md: Разбор XML
+title: Функції парсера XML
+---
 # Функції парсера XML
 
 ## Зміст
 
-- [xml_error_string](function.xml-error-string.md) — Отримання
-рядки помилки XML-аналізатора
-- [xml_get_current_byte_index](function.xml-get-current-byte-index.md)
-— Отримує байтовий індекс для XML-аналізатора
-- [xml_get_current_column_number](function.xml-get-current-column-number.md)
-— Отримує від XML-аналізатора номер поточного стовпця
-- [xml_get_current_line_number](function.xml-get-current-line-number.md)
-— Отримує від XML-аналізатора номер поточного рядка
-- [xml_get_error_code](function.xml-get-error-code.md) — Отримує
-код помилки XML-аналізатора
-- [xml_parse_into_struct](function.xml-parse-into-struct.md) -
-Розбір XML-даних та поміщення в масив
-- [xml_parse](function.xml-parse.md) - Запускає розбір
-XML-документ
-- [xml_parser_create_ns](function.xml-parser-create-ns.md) -
-Створення XML-аналізатора з підтримкою просторів імен
-- [xml_parser_create](function.xml-parser-create.md) — Створення
-XML-аналізатора
-- [xml_parser_free](function.xml-parser-free.md) — Визволення
-XML-аналізатора
-- [xml_parser_get_option](function.xml-parser-get-option.md)
-Отримання значення налаштування XML-аналізатора
-- [xml_parser_set_option](function.xml-parser-set-option.md)
-Встановлення значення налаштування XML-аналізатора
-- [xml_set_character_data_handler](function.xml-set-character-data-handler.md)
-— Встановлення обробника символьних даних
-- [xml_set_default_handler](function.xml-set-default-handler.md) -
-Установка за замовчуванням обробника
-- [xml_set_element_handler](function.xml-set-element-handler.md) -
-Установка обробника початкового та кінцевого елементів
-- [xml_set_end_namespace_decl_handler](function.xml-set-end-namespace-decl-handler.md)
-- Установка обробника виходу за межі простору імен
-- [xml_set_external_entity_ref_handler](function.xml-set-external-entity-ref-handler.md)
-- Установка обробника зовнішніх сутностей
-- [xml_set_notation_decl_handler](function.xml-set-notation-decl-handler.md)
-— Установка обробника оголошення умовних позначень
-- [xml_set_object](function.xml-set-object.md) — Використання
-XML-аналізатора всередині об'єкту
-- [xml_set_processing_instruction_handler](function.xml-set-processing-instruction-handler.md)
-- Встановлення обробника інструкцій препроцесора (PI)
-- [xml_set_start_namespace_decl_handler](function.xml-set-start-namespace-decl-handler.md)
-— Установка обробника входу в межі простору імен
-- [xml_set_unparsed_entity_decl_handler](function.xml-set-unparsed-entity-decl-handler.md)
-- Установка обробника нерозібраних оголошень сутностей
+-   [xmlerrorstring](function.xml-error-string.md) — Отримання рядка помилки XML-аналізатора
+-   [xmlgetcurrentbyteindex](function.xml-get-current-byte-index.md) — Отримує поточний для XML-аналізатора байтовий індекс
+-   [xmlgetcurrentcolumnnumber](function.xml-get-current-column-number.md) — Отримує від XML-аналізатора номер поточного стовпця
+-   [xmlgetcurrentlinenumber](function.xml-get-current-line-number.md) — Отримує від XML-аналізатора номер поточного рядка
+-   [xmlgeterrorcode](function.xml-get-error-code.md) — Отримує код помилки XML-аналізатора
+-   [xmlparseintostruct](function.xml-parse-into-struct.md) - Розбір XML-даних та поміщення в масив
+-   [xmlparse](function.xml-parse.md) — Запускає аналіз XML-документа
+-   [xmlparsercreateнс](function.xml-parser-create-ns.md) — Створення XML-аналізатора з підтримкою просторів імен
+-   [xmlparsercreate](function.xml-parser-create.md) — Створення XML-аналізатора
+-   [xmlparserfree](function.xml-parser-free.md) — Звільнення XML-аналізатора
+-   [xmlparsergetoption](function.xml-parser-get-option.md) — Отримати значення налаштування XML-аналізатора
+-   [xmlparsersetoption](function.xml-parser-set-option.md) — Встановити значення налаштування XML-аналізатора
+-   [xmlsetcharacterdatahandler](function.xml-set-character-data-handler.md) — Встановлення обробника символьних даних
+-   [xmlsetdefaulthandler](function.xml-set-default-handler.md) — Установка оброблювача за замовчуванням
+-   [xmlsetelementhandler](function.xml-set-element-handler.md) — Встановлення обробника початкового та кінцевого елементів
+-   [xmlsetendnamespacedeclhandler](function.xml-set-end-namespace-decl-handler.md) — Встановлення обробника виходу за межі простору імен
+-   [xmlsetexternalentityrefhandler](function.xml-set-external-entity-ref-handler.md) — Встановлення оброблювача зовнішніх сутностей
+-   [xmlsetnotationdeclhandler](function.xml-set-notation-decl-handler.md) — Встановлення обробника оголошення умовних позначень
+-   [xmlsetobject](function.xml-set-object.md) — Використання XML-аналізатора всередині об'єкта
+-   [xmlsetprocessinginstructionhandler](function.xml-set-processing-instruction-handler.md) - Встановлення обробника інструкцій препроцесора (PI)
+-   [xmlsetstartnamespacedeclhandler](function.xml-set-start-namespace-decl-handler.md) — Встановлення обробника входу у межі простору імен
+-   [xmlsetunparsedentitydeclhandler](function.xml-set-unparsed-entity-decl-handler.md) - Встановлення обробника нерозібраних оголошень сутностей

@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md)
-- [MongoDB\BSON\ObjectId::\_\_toString »](mongodb-bson-objectid.tostring.md)
+---
+navigation:
+  - mongodb-bson-objectid.jsonserialize.md: '« MongoDBBSONObjectId::jsonSerialize'
+  - mongodb-bson-objectid.tostring.md: 'MongoDBBSONObjectId::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::serialize'
+---
+# MongoDBBSONObjectId::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
-- Серіалізує ObjectId
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\ObjectId::serialize
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\ObjectId::serialize — Серіалізує ObjectId
+MongoDBBSONObjectId::serialize — Серіалізує ObjectId
 
 ### Опис
 
-final public **MongoDB\BSON\ObjectId::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\ObjectId::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\ObjectId::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md).
+Повертає серіалізовану виставу [MongoDBBSONObjectId](class.mongodb-bson-objectid.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\ObjectId::unserialize()](mongodb-bson-objectid.unserialize.md) -
-Десеріалізує ObjectId
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONObjectId::unserialize()](mongodb-bson-objectid.unserialize.md) - Десеріалізує ObjectId
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

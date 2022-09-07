@@ -1,27 +1,28 @@
-- [« Locale::acceptFromHttp](locale.acceptfromhttp.md)
-- [Locale::composeLocale »](locale.composelocale.md)
-
-- [PHP Manual](index.md)
-- [Locale](class.locale.md)
-- Канонізувати рядок локалі
-
+---
+navigation:
+  - locale.acceptfromhttp.md: '« Locale::acceptFromHttp'
+  - locale.composelocale.md: 'Locale::composeLocale »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::canonicalize'
+---
 # Locale::canonicalize
 
-#local_canonicalize
+# localecanonicalize
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::canonicalize -- locale_canonicalize — Канонізувати рядок
-локалі
+Locale::canonicalize -- localecanonicalize — Канонізувати рядок локалі
 
 ### Опис
 
-public static **Locale::canonicalize**(string `$locale`): ?string
+```methodsynopsis
+public static Locale::canonicalize(string $locale): ?string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -31,5 +32,4 @@ public static **Locale::canonicalize**(string `$locale`): ?string
 
 Канонізований рядок локалі.
 
-Повертає **`null`**, якщо довжина `locale` перевищує
-**`INTL_MAX_LOCALE_LEN`**.
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**

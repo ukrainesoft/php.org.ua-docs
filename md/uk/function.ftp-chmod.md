@@ -1,54 +1,75 @@
-- [«ftp_chdir](function.ftp-chdir.md)
-- [ftp_close »](function.ftp-close.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Встановлює права доступу до файлу
-
-#ftp_chmod
+---
+navigation:
+  - function.ftp-chdir.md: « ftpchdir
+  - function.ftp-close.md: ftpclose »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpchmod
+---
+# ftpchmod
 
 (PHP 5, PHP 7, PHP 8)
 
-ftp_chmod — Встановлює права доступу до файлу
+ftpchmod — Встановлює права доступу до файлу
 
 ### Опис
 
-**ftp_chmod**([FTP\Connection](class.ftp-connection.md) `$ftp`, int
-`$permissions`, string `$filename`): int\|false
+```methodsynopsis
+ftp_chmod(FTP\Connection $ftp, int $permissions, string $filename): int|false
+```
 
-Встановлює права доступу до зазначеного віддаленого файлу до значення
-`permissions`.
+Встановлює права доступу до зазначеного видаленого файлу до значення `permissions`
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `permissions`
-Нові права доступу, зазначені у вигляді вісімкового значення.
+
+Нові права доступу, зазначені у вигляді *восьмеричного* значення.
 
 `filename`
+
 Видалений файл.
 
 ### Значення, що повертаються
 
-Повертає нові права доступу до файлу у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає нові права доступу до файлу у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_chmod()****
+**Приклад #1 Приклад використання **ftpchmod()****
 
-` <?php$file = 'public_html/index.php';// установка з'єднання$ftp = ftp_connect($ftp_server);// вхід з ім'ям пользователя і паролем$login_result = ftp_$ ;// спроба змінити права доступу до файлу $file на 644if (ftp_chmod($ftp, 0644, $file) !== false) { echo "Права доступу |
-";} else { echo "Не удалося змінити права доступу до файлу $file
-";}// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+$file = 'public_html/index.php';
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// попытка изменить права доступа к файлу $file на 644
+if (ftp_chmod($ftp, 0644, $file) !== false) {
+ echo "Права доступа к файлу $file успешно изменены на 644\n";
+} else {
+ echo "Не удалось изменить права доступа к файлу $file\n";
+}
+
+// закрытие соединения
+ftp_close($ftp);
+?>
+```
 
 ### Дивіться також
 
-- [chmod()](function.chmod.md) - Змінює режим доступу до файлу
+-   [chmod()](function.chmod.md) - Змінює режим доступу до файлу

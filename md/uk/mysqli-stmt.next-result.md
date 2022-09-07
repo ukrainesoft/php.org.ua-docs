@@ -1,57 +1,56 @@
-- [« mysqli_stmt::more_results](mysqli-stmt.more-results.md)
-- [mysqli_stmt::$num_rows »](mysqli-stmt.num-rows.md)
+---
+navigation:
+  - mysqli-stmt.more-results.md: '« mysqlistmt::moreresults'
+  - mysqli-stmt.num-rows.md: 'mysqlistmt::$numrows »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::nextresult'
+---
+# mysqlistmt::nextresult
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Читає наступний набір рядків із мультизапиту
+# mysqlistmtnextresult
 
-# mysqli_stmt::next_result
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# mysqli_stmt_next_result
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-mysqli_stmt::next_result -- mysqli_stmt_next_result — Читає наступний
-набір рядків із мультизапиту
+mysqlistmt::nextresult -- mysqlistmtnextresult — Читає наступний набір рядків із мультизапиту
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::next_result**(): bool
+```methodsynopsis
+public mysqli_stmt::next_result(): bool
+```
 
 Процедурний стиль:
 
-**mysqli_stmt_next_result**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): bool
+```methodsynopsis
+mysqli_stmt_next_result(mysqli_stmt $statement): bool
+```
 
 Читає наступний набір рядків із мультизапиту.
 
-> **Примітка**:
->
-> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md).
+> **Зауваження**
+> 
+> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                |
-|--------|-----------------------------------------------------|
-| 8.1.0  | Тепер також доступно при збиранні з libmysqlclient. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Дивіться також
 
-- [mysqli_stmt::more_results()](mysqli-stmt.more-results.md) -
-Перевіряє, чи є ще набори рядків через мультизапит.
-- [mysqli::multi_query()](mysqli.multi-query.md) - Виконує один
-або кілька запитів до бази даних
+-   [mysqlistmt::moreresults()](mysqli-stmt.more-results.md) - Перевіряє, чи є ще набори рядків внаслідок мультизапиту
+-   [mysqli::multiquery()](mysqli.multi-query.md) - Виконує один або кілька запитів до бази даних

@@ -1,16 +1,19 @@
-- [« Componere\Value::isProtected](componere-value.isprotected.md)
-- [Componere\Value::hasDefault »](componere-value.hasdefault.md)
+---
+navigation:
+  - componere-value.isprotected.md: '« ComponereValue::isProtected'
+  - componere-value.hasdefault.md: 'ComponereValue::hasDefault »'
+  - index.md: PHP Manual
+  - class.componere-value.md: ComponereValue
+title: 'ComponereValue::isStatic'
+---
+# ComponereValue::isStatic
 
-- [PHP Manual](index.md)
-- [Componere\Value](class.componere-value.md)
-- Визначення доступності
+(Componere 2 >= 2.1.0)
 
-# Componere\Value::isStatic
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Value::isStatic — Визначення доступності
+ComponereValue::isStatic — Визначення доступності
 
 ### Опис
 
-public **Componere\Value::isStatic**(): bool
+```methodsynopsis
+public Componere\Value::isStatic(): bool
+```

@@ -1,10 +1,11 @@
-- [« Imagick::getImagesBlob](imagick.getimagesblob.md)
-- [Imagick::getImageSignature »](imagick.getimagesignature.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає сцену зображення
-
+---
+navigation:
+  - imagick.getimagesblob.md: '« Imagick::getImagesBlob'
+  - imagick.getimagesignature.md: 'Imagick::getImageSignature »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageScene'
+---
 # Imagick::getImageScene
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getImageScene — Повертає сцену зображення
 
 ### Опис
 
-public **Imagick::getImageScene**(): int
+```methodsynopsis
+public Imagick::getImageScene(): int
+```
 
 Повертає сцену зображення.
 

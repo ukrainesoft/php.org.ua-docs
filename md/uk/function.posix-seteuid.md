@@ -1,41 +1,37 @@
-- [«posix_setegid](function.posix-setegid.md)
-- [posix_setgid »](function.posix-setgid.md)
+---
+navigation:
+  - function.posix-setegid.md: « posixsetegid
+  - function.posix-setgid.md: posixsetgid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixseteuid
+---
+# posixseteuid
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Встановлює ефективний ідентифікатор користувача для поточного
-процесу EUID
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-#posix_seteuid
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
-
-posix_seteuid — Встановлює ефективний ідентифікатор користувача
-поточного процесу EUID
+posixseteuid — Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
 
 ### Опис
 
-**posix_seteuid**(int `$user_id`): bool
+```methodsynopsis
+posix_seteuid(int $user_id): bool
+```
 
-Встановлює ефективний ідентифікатор користувача. Це
-привілейована функція та потребує відповідних прав (як правило
-прав суперкористувача root) щоб мати можливість виконати її.
+Встановлює ефективний ідентифікатор користувача. Це привілейована функція і вимагає відповідних прав (як правило, прав суперкористувача root) щоб мати можливість виконати її.
 
 ### Список параметрів
 
 `user_id`
+
 Ідентифікатор користувача.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [posix_geteuid()](function.posix-geteuid.md) - Повертає
-ефективний ідентифікатор користувача поточного процесу EUID
-- [posix_setuid()](function.posix-setuid.md) - Встановлює UID
-поточного процесу
-- [posix_getuid()](function.posix-getuid.md) - Повертає
-фактичний ідентифікатор користувача поточного процесу UID
+-   [posixgeteuid()](function.posix-geteuid.md) - Повертає ефективний ідентифікатор користувача поточного процесу EUID
+-   [posixsetuid()](function.posix-setuid.md) - Встановлює UID поточного процесу
+-   [posixgetuid()](function.posix-getuid.md) - Повертає фактичний ідентифікатор користувача поточного процесу UID

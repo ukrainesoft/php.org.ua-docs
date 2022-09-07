@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Symbol::serialize](mongodb-bson-symbol.serialize.md)
-- [MongoDB\BSON\Symbol::unserialize »](mongodb-bson-symbol.unserialize.md)
+---
+navigation:
+  - mongodb-bson-symbol.serialize.md: '« MongoDBBSONSymbol::serialize'
+  - mongodb-bson-symbol.unserialize.md: 'MongoDBBSONSymbol::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::toString'
+---
+# MongoDBBSONSymbol::toString
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
-- Повертає Symbol у вигляді рядка
+(mongodb >=1.4.0)
 
-# MongoDB\BSON\Symbol::\_\_toString
-
-(mongodb \>=1.4.0)
-
-MongoDB\BSON\Symbol::\_\_toString — Повертає Symbol у вигляді рядка
+MongoDBBSONSymbol::toString — Повертає Symbol у вигляді рядка
 
 ### Опис
 
-final public **MongoDB\BSON\Symbol::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Symbol::__toString(): string
+```
 
 ### Список параметрів
 
@@ -25,4 +28,4 @@ final public **MongoDB\BSON\Symbol::\_\_toString**(): string
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

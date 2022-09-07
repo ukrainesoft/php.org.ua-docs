@@ -1,33 +1,36 @@
-- [« IntlBreakIterator::following](intlbreakiterator.following.md)
-- [IntlBreakIterator::getErrorMessage »](intlbreakiterator.geterrormessage.md)
-
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Повертає останній код помилки об'єкту
-
+---
+navigation:
+  - intlbreakiterator.following.md: '« IntlBreakIterator::following'
+  - intlbreakiterator.geterrormessage.md: 'IntlBreakIterator::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::getErrorCode'
+---
 # IntlBreakIterator::getErrorCode
 
-# intl_get_error_code
+# intlgeterrorcode
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::getErrorCode -- intl_get_error_code — Повертає
-останній код помилки об'єкта
+IntlBreakIterator::getErrorCode -- intlgeterrorcode — Повертає останній код помилки об'єкту
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlBreakIterator::getErrorCode**(): int
+```methodsynopsis
+public IntlBreakIterator::getErrorCode(): int
+```
 
 Процедурний стиль:
 
-[intl_get_error_code](function.intl-get-error-code.md)(): int
+```methodsynopsis
+intl_get_error_code(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

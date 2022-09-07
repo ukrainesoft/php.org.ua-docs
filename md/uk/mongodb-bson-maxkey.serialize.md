@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.md)
-- [MongoDB\BSON\MaxKey::unserialize »](mongodb-bson-maxkey.unserialize.md)
+---
+navigation:
+  - mongodb-bson-maxkey.jsonserialize.md: '« MongoDBBSONMaxKey::jsonSerialize'
+  - mongodb-bson-maxkey.unserialize.md: 'MongoDBBSONMaxKey::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-maxkey.md: MongoDBBSONMaxKey
+title: 'MongoDBBSONMaxKey::serialize'
+---
+# MongoDBBSONMaxKey::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)
-- Серіалізує MaxKey
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\MaxKey::serialize
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\MaxKey::serialize — Серіалізує MaxKey
+MongoDBBSONMaxKey::serialize — Серіалізує MaxKey
 
 ### Опис
 
-final public **MongoDB\BSON\MaxKey::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\MaxKey::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\MaxKey::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md).
+Повертає серіалізовану виставу [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\MaxKey::unserialize()](mongodb-bson-maxkey.unserialize.md) -
-Десеріалізує MaxKey
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONMaxKey::unserialize()](mongodb-bson-maxkey.unserialize.md) - Десеріалізує MaxKey
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

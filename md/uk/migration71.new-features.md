@@ -1,164 +1,274 @@
-- [« Міграція з PHP 7.0.x на PHP 7.1.x](migration71.md)
-- [Нові функції »](migration71.new-functions.md)
-
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.0.x на PHP 7.1.x](migration71.md)
--   Нові можливості
-
+---
+navigation:
+  - migration71.md: « Миграция с PHP 7.0.x на PHP 7.1.x
+  - migration71.new-functions.md: Нові функції »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Нові можливості
+---
 ## Нові можливості
 
-### Обнулювані типи
+### Типи, що обнулюються
 
-Типи для параметрів і значень, що повертаються, можуть бути позначені як
-обнулювані шляхом додавання префікса як знака питання. Це означає,
-що зазначені параметри та значення, що повертаються, можуть бути як
-зазначеного типу, так і **`null`**.
+Типи для параметрів і значень, що повертаються, можуть бути позначені як обнулювані шляхом додавання префікса у вигляді знака питання. Це означає, що зазначені параметри і значення, що повертаються, можуть бути як зазначеного типу, так і **`null`**
 
-` ? ){   var_dump($name);}test('elePHPant');test(null);test(); `
+```php
+<?php
+
+function testReturn(): ?string
+{
+    return 'elePHPant';
+}
+
+var_dump(testReturn());
+
+function testReturn(): ?string
+{
+    return null;
+}
+
+var_dump(testReturn());
+
+function test(?string $name)
+{
+    var_dump($name);
+}
+
+test('elePHPant');
+test(null);
+test();
+```
 
 Результат виконання цього прикладу:
 
+```
 string(10) "elePHPant"
 NULL
 string(10) "elePHPant"
 NULL
-Uncaught Error: Too few arguments для функцій test(), 0 passed in...
+Uncaught Error: Too few arguments to function test(), 0 passed in...
+```
 
 ### Функції, що нічого не повертають
 
-Був доданий тип значення, що повертається void. Функції з таким заданим
-типом значення, що повертається, не повинні нічого повертати. Тобто або
-взагалі не утримувати жодного оператора return, або використовувати його
-без параметра. **`null`** не є коректним значенням для повернення
-у таких функціях.
+Був доданий тип значення, що повертається void. Функції з таким заданим типом значення, що повертається, не повинні нічого повертати. Тобто або взагалі не містити жодного оператора return або використовувати його без параметра . **`null`** не є коректним значенням для повернення таких функцій.
 
-` <?phpfunction swap(&$left, &$right): void{    if ($left === $right) {        return; }   $tmp==$left; $left = $right; $right= $tmp;}$a = 1;$b = 2;var_dump(swap($a, $b), $a, $b); `
+```php
+<?php
+function swap(&$left, &$right): void
+{
+    if ($left === $right) {
+        return;
+    }
+
+    $tmp = $left;
+    $left = $right;
+    $right = $tmp;
+}
+
+$a = 1;
+$b = 2;
+var_dump(swap($a, $b), $a, $b);
+```
 
 Результат виконання цього прикладу:
 
+```
 null
 int(2)
 int(1)
+```
 
-Спроба використовувати такі функції, що повертаються, призведе до
-тому, що це значення вважатиметься за **`null`**, без висновку
-попередження. Причина цього в тому, що попередження будуть викликати
-загальних функцій найвищого порядку.
+Спроба використовувати значення таких функцій, що повертається, призведе до того, що це значення буде вважатися за \*\*`null`\*\*без виведення попередження. Причина цього в тому, що попередження викликатимуть спільні функції вищого порядку.
 
 ### Симетрична деструктуризація масиву
 
-Можна використовувати короткий синтаксис (`[]`) для деструктуризації
-масивів з метою присвоєння (у тому числі в `foreach`), як альтернатива
-функції [list()](function.list.md), яка, втім, все ще
-підтримується.
+Можна використовувати короткий синтаксис (`[]`) для деструктуризації масивів з метою присвоєння (у тому числі в `foreach`), як альтернатива функції [list()](function.list.md)яка, втім, все ще підтримується.
 
-` <?php$data = [    [1, 'Tom'],    [2, 'Fred'],];// використовуючи list()list($id1, $name1) = $data[0];// використання [][$id1, $name1] = $data[0];// використовуючи list()foreach ($data as list($id, $name)) {    // код, містить $id і $name}// використовуючи []foreach ($data as [$id, $name]) {    // код, містить $id і $name} `
+```php
+<?php
+$data = [
+    [1, 'Tom'],
+    [2, 'Fred'],
+];
+
+// используя list()
+list($id1, $name1) = $data[0];
+
+// используя []
+[$id1, $name1] = $data[0];
+
+// используя list()
+foreach ($data as list($id, $name)) {
+    // код, содержащий $id и $name
+}
+
+// используя []
+foreach ($data as [$id, $name]) {
+    // код, содержащий $id и $name
+}
+```
 
 ### Видимість констант класу
 
 Додано підтримку визначення області видимості для констант класу.
 
-`<?phpclass ConstDemo{    const PUBLIC_CONST_A = 1; public const PUBLIC_CONST_B = 2; protected const PROTECTED_CONST = 3; private const PRIVATE_CONST = 4;} `
- ### Псевдотип [iterable](language.types.iterable.md)
+```php
+<?php
+class ConstDemo
+{
+    const PUBLIC_CONST_A = 1;
+    public const PUBLIC_CONST_B = 2;
+    protected const PROTECTED_CONST = 3;
+    private const PRIVATE_CONST = 4;
+}
+```
 
-Було додано новий псевдотип (схожий на
-[callable](language.types.callable.md)), названий
-[iterable](language.types.iterable.md). Він може використовуватись як
-параметр, так і як значення, що повертається там, де використовується
-масив або об'єкт, що реалізує інтерфейс
-[Traversable](class.traversable.md). Що стосується підтипів, типи
-параметрів із дочірніх класів можуть розширити декларацію батьків типу
-array або [Traversable](class.traversable.md) до
-[iterable](language.types.iterable.md). Для типів повернення, дочірні
-класи можуть звужувати тип значення, що повертається з
-[iterable](language.types.iterable.md) до array або об'єкта
-реалізує [Traversable](class.traversable.md).
+### Псевдотип [iterable](language.types.iterable.md)
 
-` <?phpfunction iterator(iterable $iter){    foreach ($iter as $val) {         //    }} `
+Було додано новий псевдотип (схожий на [callable](language.types.callable.md)), названий [iterable](language.types.iterable.md). Він може використовуватися як параметр, так і як значення, що повертається там, де використовується масив або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.md). Що стосується підтипів, типи параметрів із дочірніх класів можуть розширити декларацію батьків типу array або [Traversable](class.traversable.md) до [iterable](language.types.iterable.md). Для типів повернення, дочірні класи можуть звужувати тип значення, що повертається з [iterable](language.types.iterable.md) до array або об'єкта реалізуючого [Traversable](class.traversable.md)
+
+```php
+<?php
+function iterator(iterable $iter)
+{
+    foreach ($iter as $val) {
+        //
+    }
+}
+```
 
 ### Обробка кількох винятків в одному блоці catch
 
-У блоці catch тепер можна обробляти кілька винятків, перераховуючи
-їх через символ вертикальної межі (`|`). Це може бути корисно, якщо
-різні винятки обробляються однаково.
+У блоці catch тепер можна обробляти кілька винятків, перераховуючи їх через символ вертикальної межі (`|`). Це може бути корисним, якщо різні винятки обробляються однаково.
 
-` <?phptry {    // Який то код} catch (FirstException | SecondException $e) {    // Обробляємо обидва виключення} `
+```php
+<?php
+try {
+    // Какой то код
+} catch (FirstException | SecondException $e) {
+    // Обрабатываем оба исключения
+}
+```
 
 ### Підтримка ключів у [list()](function.list.md)
 
-Тепер ви можете вказувати ключі оператора
-[list()](function.list.md) або в його новому короткому синтаксисі `[]`.
-Це дозволяє деструктурувати масиви з нечисловими або
-непослідовними ключами.
+Тепер ви можете вказувати ключі оператора [list()](function.list.md) або в його новому короткому синтаксисі `[]`. Це дозволяє деструктурувати масиви з нечисловими чи непослідовними ключами.
 
-` <?php$data == [    ["id" => 1, "name" => 'Tom'],    ["id" => 2, "name" => 'Fred'],];// стиль ()list("id" => $id1, "name" => $name1) = $data[0];// стиль []["id" => $id1, "name" => $name1] = $data[0];// стиль list()foreach ($data aslist("id" => $id, "name" => $name)) {    // logic here/with $id and $name} стиль []foreach ($data as ["id" => $id, "name" => $name]) {     // logic here with $id and$$name} `
+```php
+<?php
+$data = [
+    ["id" => 1, "name" => 'Tom'],
+    ["id" => 2, "name" => 'Fred'],
+];
+
+// стиль list()
+list("id" => $id1, "name" => $name1) = $data[0];
+
+// стиль []
+["id" => $id1, "name" => $name1] = $data[0];
+
+// стиль list()
+foreach ($data as list("id" => $id, "name" => $name)) {
+    // logic here with $id and $name
+}
+
+// стиль []
+foreach ($data as ["id" => $id, "name" => $name]) {
+    // logic here with $id and $name
+}
+```
 
 ### Підтримка негативних зсувів для рядків
 
-Підтримка негативних зсувів для рядків додано до [функції для роботи з рядками](book.strings.md), а також в [індексацію строк](language.types.string.md#language.types.string.substr) з
-допомогою `[]` або `{}`. У цих випадках негативні усунення
-інтерпретуються як усунення щодо кінця рядка.
+Підтримка негативних зсувів для рядків додана в [функції для роботи з рядками](book.strings.md), а також у [индексацию строк](language.types.string.md#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
 
-` <?phpvar_dump("abcdef"[-2]);var_dump(strpos("aabbcc", "b", -3)); `
+```php
+<?php
+var_dump("abcdef"[-2]);
+var_dump(strpos("aabbcc", "b", -3));
+```
 
 Результат виконання цього прикладу:
 
+```
 string (1) "e"
 int(3)
+```
 
-Тепер підтримуються негативні усунення в простому синтаксисі
-вказівки індексу у рядках та масивах.
+Тепер підтримуються негативні зміщення у простому синтаксисі вказівки індексу у рядках та масивах.
 
-` <?php$string = 'bar';echo "Останній символ '$string' - '$string[-1]'.
-";?> `
+```php
+<?php
+$string = 'bar';
+echo "Последний символ '$string' - '$string[-1]'.\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Останній символ 'bar' – 'r'.
+```
+Последний символ 'bar' - 'r'.
+```
 
 ### Підтримка AEAD в ext/openssl
 
-Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення
-функцій [openssl_encrypt()](function.openssl-encrypt.md) та
-[openssl_decrypt()](function.openssl-decrypt.md) додатковими
-параметрами.
+Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.md) і [openssldecrypt()](function.openssl-decrypt.md) додатковими параметрами.
 
-### Перетворення callable на [Closure](class.closure.md) за допомогою [Closure::fromCallable()](closure.fromcallable.md)
+### Перетворення callable в [Closure](class.closure.md) за допомогою [Closure::fromCallable()](closure.fromcallable.md)
 
-До класу [Closure](class.closure.md) додано новий статичний метод
-для можливості легко перетворити
-[callable](language.types.callable.md) до об'єктів типу
-[Closure](class.closure.md).
+В клас [Closure](class.closure.md) додано новий статичний метод для можливості легко перетворити [callable](language.types.callable.md) в об'єкти типу [Closure](class.closure.md)
 
-` <?phpclass Test{    public function exposeFunction()    {        return Closure::fromCallable([$this, 'privateFunction']); }   private function privateFunction($param)    {       var_dump($param); }}$privFunc==(new Test)->exposeFunction();$privFunc('значення'); `
+```php
+<?php
+class Test
+{
+    public function exposeFunction()
+    {
+        return Closure::fromCallable([$this, 'privateFunction']);
+    }
 
-Результат виконання цього прикладу:
+    private function privateFunction($param)
+    {
+        var_dump($param);
+    }
+}
 
-string(16) "значення"
-
-### Асинхронна обробка сигналів
-
-Нова функція [pcntl_async_signals()](function.pcntl-async-signals.md)
-була додана для дозволу асинхронної обробки сигналів без
-використання тиків (які виробляють багато накладних витрат).
-
-`<?phppcntl_async_signals(true); // включає асинхронні сигналиpcntl_signal(SIGHUP, function($sig) {   echo "SIGHUP
-";});posix_kill(posix_getpid(), SIGHUP); `
+$privFunc = (new Test)->exposeFunction();
+$privFunc('значение');
+```
 
 Результат виконання цього прикладу:
 
+```
+string(16) "значение"
+```
+
+### Асинхронне оброблення сигналів
+
+Нова функція [pcntlasyncsignals()](function.pcntl-async-signals.md) була додана для дозволу асинхронної обробки сигналів без використання тиків (які виробляють багато накладних витрат).
+
+```php
+<?php
+pcntl_async_signals(true); // включает асинхронные сигналы
+
+pcntl_signal(SIGHUP,  function($sig) {
+    echo "SIGHUP\n";
+});
+
+posix_kill(posix_getpid(), SIGHUP);
+```
+
+Результат виконання цього прикладу:
+
+```
 SIGHUP
+```
 
 ### Підтримка HTTP/2 server push в ext/curl
 
-Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та
-вище). Використовувати можна у функції
-[curl_multi_setopt()](function.curl-multi-setopt.md) з новою
-константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи
-**`CURL_PUSH_OK`** та **`CURL_PUSH_DENY`** для визначення, чи був прийнятий
-або відхилено "server push".
+Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curlmultisetopt()](function.curl-multi-setopt.md) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`** і **`CURL_PUSH_DENY`** для визначення, був прийнятий або відхилений "server push".
 
 ### Контекстні опції потоку
 
-Була додана опція контексту потоку
-[tcp_nodelay](context.socket.md#context.socket.tcp_nodelay).
+Додано опцію контексту потоку [tcpnodelay](context.socket.md#context.socket.tcp_nodelay)

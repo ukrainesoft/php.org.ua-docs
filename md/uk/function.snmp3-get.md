@@ -1,79 +1,87 @@
-- [« snmp2_walk](function.snmp2-walk.md)
-- [snmp3_getnext »](function.snmp3-getnext.md)
-
-- [PHP Manual](index.md)
-- [Функції SNMP](ref.snmp.md)
-- Отримує об'єкт SNMP
-
-# snmp3_get
+---
+navigation:
+  - function.snmp2-walk.md: « snmp2walk
+  - function.snmp3-getnext.md: snmpv3getnext »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpv3get
+---
+# snmpv3get
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-snmp3_get — Отримує об'єкт SNMP
+snmpv3get — Отримує об'єкт SNMP
 
 ### Опис
 
-**snmp3_get**(
-string `$hostname`,
-string `$security_name`,
-string `$security_level`,
-string `$auth_protocol`,
-string `$auth_passphrase`,
-string `$privacy_protocol`,
-string `$privacy_passphrase`,
-array\|string `$object_id`,
-int `$timeout` = -1,
-int `$retries` = -1
-):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+snmp3_get(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+```
 
-Функція **snmp3_get()** використовується для читання значення об'єкта SNMP,
-вказаного в `object_id`.
+Функція **snmpv3get()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста агента (сервера) SNMP.
 
 `security_name`
+
 Ім'я безпеки, зазвичай якесь ім'я користувача.
 
 `security_level`
-Рівень безпеки (noAuthNoPriv\|authNoPriv\|authPriv).
+
+Рівень безпеки (noAuthNoPriv|authNoPriv|authPriv).
 
 `auth_protocol`
-Протокол аутентифікації (MD5 чи SHA).
+
+Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"` або `"SHA512"`
 
 `auth_passphrase`
+
 Пароль для автентифікації.
 
 `privacy_protocol`
-Протокол конфіденційності (DES або AES).
+
+Протокол конфіденційності (DES чи AES).
 
 `privacy_passphrase`
+
 Пароль конфіденційності.
 
 `object_id`
+
 Ідентифікатор об'єкта SNMP.
 
 `timeout`
+
 Час очікування у мікросекундах.
 
 `retries`
+
 Кількість повторних спроб після закінчення часу очікування.
 
 ### Значення, що повертаються
 
-Повертає значення об'єкта SNMP у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки.
+
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmp3_get()****
+**Приклад #1 Приклад використання **snmpv3get()****
 
-` <?php$nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.' > `
+```php
+<?php
+$nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.2');
+?>
+```
 
 ### Дивіться також
 
-- [snmp3_set()](function.snmp3-set.md) - Встановлює значення
-об'єкта SNMP
+-   [snmpv3set()](function.snmp3-set.md) - Встановлює значення об'єкта SNMP

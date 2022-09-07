@@ -1,49 +1,51 @@
-- [« mysqli::reap_async_query](mysqli.reap-async-query.md)
-- [mysqli::release_savepoint »](mysqli.release-savepoint.md)
-
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Оновлення
-
+---
+navigation:
+  - mysqli.reap-async-query.md: '« mysqli::reapasyncquery'
+  - mysqli.release-savepoint.md: 'mysqli::releasesavepoint »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::refresh'
+---
 # mysqli::refresh
 
-# mysqli_refresh
+# mysqlirefresh
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-mysqli::refresh -- mysqli_refresh — Оновлення
+mysqli::refresh -- mysqlirefresh — Оновлення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::refresh**(int `$flags`): bool
+```methodsynopsis
+public mysqli::refresh(int $flags): bool
+```
 
 Процедурний стиль
 
-**mysqli_refresh**([mysqli](class.mysqli.md) `$mysql`, int `$flags`):
-bool
+```methodsynopsis
+mysqli_refresh(mysqli $mysql, int $flags): bool
+```
 
 Очищає таблиці або кеш або скидає копію серверної інформації.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `flags`
-Налаштування оновлення задаються константами MYSQLI_REFRESH\_\*, які
-описано в розділі документації [Константи MySQLi](mysqli.constants.md).
 
-Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md).
+Налаштування оновлення задаються константами MYSQLIREFRESH, які описані у розділі документації [Константи MySQLi](mysqli.constants.md)
+
+Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md)
 
 ### Значення, що повертаються
 
-**`true`** у разі успішного виконання, **`false`** у протилежному
-випадку.
+**`true`** у разі успішного виконання, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [mysqli_poll()](mysqli.poll.md) - Опитування підключень
+-   [mysqlipoll()](mysqli.poll.md) - Опитування підключень

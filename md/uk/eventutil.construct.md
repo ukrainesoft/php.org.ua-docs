@@ -1,23 +1,26 @@
-- [«EventUtil](class.eventutil.md)
-- [EventUtil::getLastSocketErrno »](eventutil.getlastsocketerrno.md)
+---
+navigation:
+  - class.eventutil.md: « EventUtil
+  - eventutil.getlastsocketerrno.md: 'EventUtil::getLastSocketErrno »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
+title: 'EventUtil::construct'
+---
+# EventUtil::construct
 
-- [PHP Manual](index.md)
-- [EventUtil](class.eventutil.md)
-- Абстрактний конструктор
+(PECL event >= 1.2.6-beta)
 
-# EventUtil::\_\_construct
-
-(PECL event \>= 1.2.6-beta)
-
-EventUtil::\_\_construct - Абстрактний конструктор
+EventUtil::construct - абстрактний конструктор
 
 ### Опис
 
-abstract public **EventUtil::\_\_construct**()
+```methodsynopsis
+abstract
+   public
+   EventUtil::__construct()
+```
 
-Клас [EventUtil](class.eventutil.md) є синглтоном.
-Отже, створити об'єкт цього класу за допомогою конструктора
-неможливо.
+Клас [EventUtil](class.eventutil.md) є сінглтоном. Отже створити об'єкт цього класу за допомогою конструктора неможливо.
 
 ### Список параметрів
 

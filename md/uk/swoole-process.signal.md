@@ -1,20 +1,22 @@
-- [« Swoole\Process::read](swoole-process.read.md)
-- [Swoole\Process::start »](swoole-process.start.md)
+---
+navigation:
+  - swoole-process.read.md: '« SwooleProcess::read'
+  - swoole-process.start.md: 'SwooleProcess::start »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::signal'
+---
+# SwooleProcess::signal
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Надсилає сигнал дочірнім процесам
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::signal
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::signal — Надсилає сигнал дочірнім процесам
+SwooleProcess::signal — Надсилає сигнал дочірнім процесам
 
 ### Опис
 
-public static **Swoole\Process::signal**(string `$signal_no`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public static Swoole\Process::signal(string $signal_no, callable $callback): void
+```
 
 ### Список параметрів
 
@@ -24,5 +26,4 @@ public static **Swoole\Process::signal**(string `$signal_no`,
 
 ### Значення, що повертаються
 
-У разі успішного відправлення сигналу, повертає TRUE, інакше
-повертає FALSE.
+У разі успішного відправлення сигналу, повертає TRUE, інакше повертає FALSE.

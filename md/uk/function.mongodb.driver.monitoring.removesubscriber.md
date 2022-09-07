@@ -1,33 +1,31 @@
-- [« MongoDB\Driver\Monitoring ddSubscriber](function.mongodb.driver.monitoring.addsubscriber.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent »](class.mongodb-driver-monitoring-commandfailedevent.md)
+---
+navigation:
+  - function.mongodb.driver.monitoring.addsubscriber.md: « MongoDBDriverMonitoringaddSubscriber
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent »
+  - index.md: PHP Manual
+  - ref.monitoring.functions.md: Функції
+title: MongoDBDriverMonitoringremoveSubscriber
+---
+# MongoDBDriverMonitoringremoveSubscriber
 
-- [PHP Manual](index.md)
-- [Функції](ref.monitoring.functions.md)
-- скасовує глобальну реєстрацію передплатника на подію моніторингу
+(mongodb >=1.3.0)
 
-# MongoDB\Driver\Monitoring
-emoveSubscriber
-
-(mongodb \>=1.3.0)
-
-MongoDB\Driver\Monitoring
-emoveSubscriber — Скасовує глобальну
-реєстрацію передплатника на подію моніторингу
+MongoDBDriverMonitoringremoveSubscriber — Скасує глобальну реєстрацію передплатника на подію моніторингу
 
 ### Опис
 
-**MongoDB\Driver\Monitoring
-emoveSubscriber**([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
-`$subscriber`): void
+```methodsynopsis
+MongoDB\Driver\Monitoring\removeSubscriber(MongoDB\Driver\Monitoring\Subscriber $subscriber): void
+```
 
 Скасує глобальну реєстрацію передплатника на подію моніторингу.
 
-> **Примітка**: Якщо `subscriber` ще не зареєстровано глобально,
-функція відпрацює без результату.
+> **Зауваження**: Якщо `subscriber` ще не зареєстровано глобально, функція відпрацює без результату.
 
 ### Список параметрів
 
-`subscriber` ([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md))
+`subscriber` [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md)
+
 Передплатник на подію моніторингу для глобального скасування реєстрації.
 
 ### Значення, що повертаються
@@ -36,17 +34,12 @@ emoveSubscriber**([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-mo
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) -
-Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
-- [MongoDB\Driver\Manager::removeSubscriber()](mongodb-driver-manager.removesubscriber.md) -
-Скасує реєстрацію передплатника на подію моніторингу в цьому
-об'єкті Manager
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md)
+-   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
+-   [MongoDBDriverManager::removeSubscriber()](mongodb-driver-manager.removesubscriber.md) - Скасує реєстрацію передплатника на подію моніторингу в даному об'єкті Manager
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

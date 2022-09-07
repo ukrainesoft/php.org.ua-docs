@@ -1,30 +1,33 @@
-- [« mcrypt_enc_get_key_size](function.mcrypt-enc-get-key-size.md)
-- [mcrypt_enc_get_supported_key_sizes »](function.mcrypt-enc-get-supported-key-sizes.md)
+---
+navigation:
+  - function.mcrypt-enc-get-key-size.md: « mcryptencgetkeysize
+  - function.mcrypt-enc-get-supported-key-sizes.md: mcryptencgetsupportedkeysizes »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptencgetmodesname
+---
+# mcryptencgetmodesname
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає ім'я режиму, що використовується
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_enc_get_modes_name
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_enc_get_modes_name — Повертає ім'я використовуваного режиму
+mcryptencgetmodesname — Повертає ім'я режиму, що використовується.
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_enc_get_modes_name**(resource `$td`): string
+```methodsynopsis
+mcrypt_enc_get_modes_name(resource $td): string
+```
 
 Повертає ім'я режиму.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
@@ -33,13 +36,21 @@ mcrypt_enc_get_modes_name — Повертає ім'я використовув�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcrypt_enc_get_modes_name()****
+**Приклад #1 Приклад використання **mcryptencgetmodesname()****
 
-` <?php$td = mcrypt_module_open (MCRYPT_CAST_256, '', MCRYPT_MODE_CFB, '');echo mcrypt_enc_get_modes_name($td). "
-";$td==mcrypt_module_open ('cast-256', '', 'ecb', '');echo mcrypt_enc_get_modes_name($td). "
-";?> `
+```php
+<?php
+$td = mcrypt_module_open (MCRYPT_CAST_256, '', MCRYPT_MODE_CFB, '');
+echo mcrypt_enc_get_modes_name($td). "\n";
+
+$td = mcrypt_module_open ('cast-256', '', 'ecb', '');
+echo mcrypt_enc_get_modes_name($td). "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 CFB
 ECB
+```

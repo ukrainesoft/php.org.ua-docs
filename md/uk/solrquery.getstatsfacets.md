@@ -1,20 +1,22 @@
-- [«SolrQuery::getStats](solrquery.getstats.md)
-- [SolrQuery::getStatsFields »](solrquery.getstatsfields.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі фасети статистики, встановлені
-
+---
+navigation:
+  - solrquery.getstats.md: '« SolrQuery::getStats'
+  - solrquery.getstatsfields.md: 'SolrQuery::getStatsFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getStatsFacets'
+---
 # SolrQuery::getStatsFacets
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getStatsFacets — Повертає всі фасети статистики, які
-були встановлені
+SolrQuery::getStatsFacets — Повертає всі фасети статистики, які були встановлені
 
 ### Опис
 
-public **SolrQuery::getStatsFacets**(): array
+```methodsynopsis
+public SolrQuery::getStatsFacets(): array
+```
 
 Повертає всі фасети статистики, встановлені
 
@@ -24,5 +26,4 @@ public **SolrQuery::getStatsFacets**(): array
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає масив та **`null`**, якщо значення не встановлено.

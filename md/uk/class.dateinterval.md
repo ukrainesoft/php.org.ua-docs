@@ -1,137 +1,153 @@
-- [« DateTimeZone::listIdentifiers](datetimezone.listidentifiers.md)
-- [DateInterval::\_\_construct »](dateinterval.construct.md)
-
-- [PHP Manual](index.md)
-- [Дата/час](book.datetime.md)
-- Клас DateInterval
-
+---
+navigation:
+  - datetimezone.listidentifiers.md: '« DateTimeZone::listIdentifiers'
+  - dateinterval.construct.md: 'DateInterval::construct »'
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Клас DateInterval
+---
 # Клас DateInterval
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Подає інтервали дат.
+Надає інтервали дат.
 
-Інтервал дат зберігає або певний фіксований час (у роках,
-місяцях, днях, годинах тощо) або відносний рядок часу у форматі,
-підтримуваний конструктором
-[DateTimeImmutable](class.datetimeimmutable.md) та
-[DateTime](class.datetime.md).
+Інтервал дат зберігає або певний фіксований час (у роках, місяцях, днях, годинах тощо) або відносний рядок часу у форматі, який підтримує конструктор [DateTimeImmutable](class.datetimeimmutable.md) і [DateTime](class.datetime.md)
 
-Більш конкретно, інформація в об'єкті класу **DateInterval** є
-інструкцією для переходу від однієї дати/часу до іншої дати/часу.
-Цей процес не завжди оборотний.
+Більш конкретно, інформація в об'єкті класу **DateInterval** є інструкцією для переходу від однієї дати/часу до іншої дати/часу. Цей процес не завжди оборотний.
 
-Поширеним способом створення об'єкта **DateInterval** є
-обчислення різниці між двома об'єктами дати/часу за допомогою
-[DateTimeInterface::diff()](datetime.diff.md).
+Найпоширенішим способом створення об'єкта **DateInterval** є обчислення різниці між двома об'єктами дати/часу за допомогою [DateTimeInterface::diff()](datetime.diff.md)
 
-Оскільки не існує чітко визначеного способу порівняння інтервалів
-дат, екземпляри **DateInterval** є
-[незрівнянними](language.operators.comparison.md#language.operators.comparison.incomparable).
+Оскільки не існує чітко визначеного способу порівняння інтервалів дат, екземпляри **DateInterval** є [незрівнянними](language.operators.comparison.md#language.operators.comparison.incomparable)
 
 ## Огляд класів
 
-class **DateInterval** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public int `$y`;
+    
+     
+      class DateInterval
+     
+     {
 
-public int `$m`;
+    /* Свойства */
+    
+     public
+     int
+      $y;
 
-public int `$d`;
+    public
+     int
+      $m;
 
-public int `$h`;
+    public
+     int
+      $d;
 
-public int `$i`;
+    public
+     int
+      $h;
 
-public int `$s`;
+    public
+     int
+      $i;
 
-public float `$f`;
+    public
+     int
+      $s;
 
-public int `$invert`;
+    public
+     float
+      $f;
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$days`;
+    public
+     int
+      $invert;
 
-public bool `$from_string`;
+    public
+     mixed
+      $days;
 
-public string `$date_string`;
+    public
+     bool
+      $from_string;
 
-/\* Методи \*/
+    public
+     string
+      $date_string;
 
-public [\_\_construct](dateinterval.construct.md)(string `$duration`)
 
-public static
-[createFromDateString](dateinterval.createfromdatestring.md)(string
-`$datetime`): [DateInterval](class.dateinterval.md)\|false
+    /* Методы */
+    
+   public __construct(string $duration)
 
-public [format](dateinterval.format.md)(string `$format`): string
+    public static createFromDateString(string $datetime): DateInterval|false
+public format(string $format): string
 
-}
+   }
+```
 
 ## Властивості
 
-`y`
+і
+
 Кількість років.
 
-`m`
+м
+
 Кількість місяців.
 
-`d`
+д
+
 Кількість днів.
 
-`h`
+х
+
 Кількість годин.
 
-`i`
+і
+
 Кількість хвилин.
 
-`s`
+з
+
 Кількість секунд.
 
-`f`
+ф
+
 Кількість мікросекунд у вигляді часток секунди.
 
-`invert`
-Приймає `1`, якщо інтервал представляє негативний період часу та
-`0` інакше. Дивіться
-[DateInterval::format()](dateinterval.format.md).
+invert
 
-`days`
-Якщо об'єкт DateInterval створено методом
-[DateTimeImmutable::diff()](datetime.diff.md) або
-[DateTime::diff()](datetime.diff.md), то це сумарне число днів
-між початковою та кінцевою датами. Інакше `days` прийме
-значення **`false`**.
+Приймає `1`, якщо інтервал представляє негативний період часу та `0` в іншому випадку. Дивіться [DateInterval::format()](dateinterval.format.md)
 
-`from_string`
-Якщо об'єкт DateInterval був створений методом
-[DateInterval::createFromDateString()](dateinterval.createfromdatestring.md),
-то значення властивості буде **`true`** і властивість `date_string` буде
-заповнено. Інакше значення властивості буде **`false`** та
-властивості від `y` до `f`, `invert` та `days` будуть заповнені.
+days
 
-`date_string`
-Рядок, що використовується як аргумент методу
-[DateInterval::createFromDateString()](dateinterval.createfromdatestring.md).
+Якщо об'єкт DateInterval створено методом [DateTimeImmutable::diff()](datetime.diff.md) або [DateTime::diff()](datetime.diff.md), то це сумарне число днів між початковою та кінцевою датами. В іншому випадку days прийме значення **`false`**
 
-## Список змін
+fromstring
 
-| Версія | Опис                                                                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.2.0  | Додані властивості from_string та date_string для екземплярів **DateInterval**, які були створені за допомогою методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md). |
-| 7.4.0  | Примірники **DateInterval** тепер незрівнянні; раніше всі екземпляри **DateInterval** вважалися рівними.                                                                                            |
-| 7.1.0  | Додано властивість f.                                                                                                                                                                               |
+Якщо об'єкт DateInterval був створений методом [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md), то значення властивості буде **`true`** і властивість datestring буде заповнено. В іншому випадку значення властивості буде **`false`** та властивості від y до f, invert та days будуть заповнені.
+
+datestring
+
+Рядок, що використовується як аргумент методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md)
+
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості fromstring та datestring для екземплярів **DateInterval**, які були створені за допомогою методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md) |
+|  | Примірники **DateInterval** тепер незрівнянні; раніше всі екземпляри **DateInterval** вважалися рівними. |
+|  | Додано властивість f. |
 
 ## Зміст
 
-- [DateInterval::\_\_construct](dateinterval.construct.md) - Створює
-новий об'єкт DateInterval
-- [DateInterval::createFromDateString](dateinterval.createfromdatestring.md)
-— Створює об'єкт класу DateInterval із дати у відносному форматі
-- [DateInterval::format](dateinterval.format.md) - Форматує
-інтервал
+-   [DateInterval::construct](dateinterval.construct.md) — Створює новий об'єкт DateInterval
+-   [DateInterval::createFromDateString](dateinterval.createfromdatestring.md) — Створює об'єкт класу DateInterval із дати у відносному форматі
+-   [DateInterval::format](dateinterval.format.md) - Форматує інтервал

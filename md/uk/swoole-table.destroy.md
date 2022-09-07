@@ -1,19 +1,22 @@
-- [« Swoole\Table::del](swoole-table.del.md)
-- [Swoole\Table::exist »](swoole-table.exist.md)
+---
+navigation:
+  - swoole-table.del.md: '« SwooleTable::del'
+  - swoole-table.exist.md: 'SwooleTable::exist »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::destroy'
+---
+# SwooleTable::destroy
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Знищує таблицю Swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::destroy
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::destroy — Знищує таблицю Swoole
+SwooleTable::destroy — Знищує таблицю Swoole
 
 ### Опис
 
-public **Swoole\Table::destroy**(): void
+```methodsynopsis
+public Swoole\Table::destroy(): void
+```
 
 ### Список параметрів
 

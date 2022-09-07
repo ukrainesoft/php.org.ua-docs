@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](yaml.setup.md)
-- [Встановлення »](yaml.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yaml.setup.md)
-- Вимоги
-
+---
+navigation:
+  - yaml.setup.md: « Встановлення та налаштування
+  - yaml.installation.md: Установка »
+  - index.md: PHP Manual
+  - yaml.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Для роботи модуля потрібна встановлена [» бібліотека C LibYAML](http://pyyaml.org/wiki/LibYAML) версії 0.1.0 або вище.
+Для роботи модуля необхідна встановлена [» библиотека C LibYAML](http://pyyaml.org/wiki/LibYAML) версії 0.1.0 чи вище.

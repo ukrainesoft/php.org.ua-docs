@@ -1,22 +1,24 @@
-- [« ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md)
-- [ReflectionEnum »](class.reflectionenum.md)
+---
+navigation:
+  - reflectionclassconstant.ispublic.md: '« ReflectionClassConstant::isPublic'
+  - class.reflectionenum.md: ReflectionEnum »
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::toString'
+---
+# ReflectionClassConstant::toString
 
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- Повертає рядкове представлення об'єкта ReflectionClassConstant
+(PHP 7> = 7.1.0, PHP 8)
 
-# ReflectionClassConstant::\_\_toString
-
-(PHP 7 \>= 7.1.0, PHP 8)
-
-ReflectionClassConstant::\_\_toString — Повертає рядкове
-представлення об'єкта ReflectionClassConstant
+ReflectionClassConstant::toString — Повертає строкове представлення об'єкта ReflectionClassConstant
 
 ### Опис
 
-public **ReflectionClassConstant::\_\_toString**(): string
+```methodsynopsis
+public ReflectionClassConstant::__toString(): string
+```
 
-Повертає строкове представлення об'єкта ReflectionClassConstant.
+Повертає рядкове представлення об'єкта ReflectionClassConstant.
 
 ### Список параметрів
 
@@ -24,11 +26,9 @@ public **ReflectionClassConstant::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Строкове представлення даного екземпляра
-[ReflectionClassConstant](class.reflectionclassconstant.md).
+Строкове подання цього екземпляра [ReflectionClassConstant](class.reflectionclassconstant.md)
 
 ### Дивіться також
 
-- [ReflectionClassConstant::export()](reflectionclassconstant.export.md) -
-Експорт
-- [\_\_toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionClassConstant::export()](reflectionclassconstant.export.md) - Експорт
+-   [toString()](language.oop5.magic.md#object.tostring)

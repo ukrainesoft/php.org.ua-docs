@@ -1,71 +1,62 @@
-- [« ldap_mod_replace_ext](function.ldap-mod_replace-ext.md)
-- [ldap_modify_batch »](function.ldap-modify-batch.md)
-
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Замінити значення атрибутів на нові
-
-#ldap_mod_replace
+---
+navigation:
+  - function.ldap-mod_replace-ext.md: « ldapmodreplaceext
+  - function.ldap-modify-batch.md: ldapmodifybatch »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapmodreplace
+---
+# ldapmodreplace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_mod_replace — Замінити значення атрибутів на нові
+ldapmodreplace — Замінити значення атрибутів на нові
 
 ### Опис
 
-**ldap_mod_replace**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`,
-array `$entry`,
-?array `$controls` = **`null`**
-): bool
+```methodsynopsis
+ldap_mod_replace(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+```
 
-Замінює один або більше атрибутів із зазначеного `dn`. Також її можна
-використовувати для видалення чи додавання атрибутів.
+Замінює один або більше атрибутів із зазначеного `dn`. Також її можна використовувати для видалення чи додавання атрибутів.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
+
 Відмінне ім'я об'єкта LDAP.
 
 `entry`
-Асоціативний масив зі списком атрибутів, що замінюються. Якщо поставити порожній
-масив, атрибут буде видалений. Якщо якийсь атрибут відсутній, то
-він буде додано.
+
+Асоціативний масив зі списком атрибутів, що замінюються. Якщо встановити порожній масив, то атрибут буде видалений. Якщо якийсь атрибут відсутній, він буде доданий.
 
 `controls`
-Масив [керуючих констант LDAP](ldap.controls.md) для надсилання в
-запит.
+
+Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Примітки
 
-> **Примітка**: Ця функція безпечна для обробки даних у двійковій
-> Формі.
+> **Зауваження**: Ця функція безпечна для обробки даних у двійковій формі.
 
 ### Дивіться також
 
-- [ldap_mod_replace_ext()](function.ldap-mod_replace-ext.md) -
-Замінити значення атрибута на нові
-- [ldap_mod_del()](function.ldap-mod-del.md) - Видалити значення
-атрибута із поточних атрибутів
-- [ldap_mod_add()](function.ldap-mod-add.md) - Додати значення
-атрибуту до поточних атрибутів
-- [ldap_modify_batch()](function.ldap-modify-batch.md) -
-Формування та запуск пакетної зміни запису LDAP
+-   [ldapmodreplaceext()](function.ldap-mod_replace-ext.md) - Замінити значення атрибута на нові
+-   [ldapmoddel()](function.ldap-mod-del.md) - Видалити значення атрибута із поточних атрибутів
+-   [ldapmodadd()](function.ldap-mod-add.md) - Додати значення атрибуту до поточних атрибутів
+-   [ldapmodifybatch()](function.ldap-modify-batch.md) - Формування та запуск пакетної зміни запису LDAP

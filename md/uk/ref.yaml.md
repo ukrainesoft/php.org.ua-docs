@@ -1,20 +1,17 @@
-- [« Публікуючі callback-функції](yaml.callbacks.emit.md)
-- [yaml_emit_file »](function.yaml-emit-file.md)
-
-- [PHP Manual](index.md)
-- [Yaml](book.yaml.md)
-- Функції Yaml
-
+---
+navigation:
+  - yaml.callbacks.emit.md: « Публікуючі callback-функції
+  - function.yaml-emit-file.md: yamlemitfile »
+  - index.md: PHP Manual
+  - book.yaml.md: Yaml
+title: Функції Yaml
+---
 # Функції Yaml
 
 ## Зміст
 
-- [yaml_emit_file](function.yaml-emit-file.md) - Надсилає
-YAML-представлення значення у файл
-- [yaml_emit](function.yaml-emit.md) — Повертає YAML-виставу
-значення
-- [yaml_parse_file](function.yaml-parse-file.md) - Розбирає
-YAML-потік із файлу
-- [yaml_parse_url](function.yaml-parse-url.md) - Розбирає
-YAML-потік з URL
-- [yaml_parse](function.yaml-parse.md) - Розбирає потік YAML
+-   [yamlemitfile](function.yaml-emit-file.md) — Відправляє YAML-подання значення файлу
+-   [yamlemit](function.yaml-emit.md) — Повертає YAML-подання значення
+-   [yamlparsefile](function.yaml-parse-file.md) — Розбирає YAML-потік із файлу
+-   [yamlparseurl](function.yaml-parse-url.md) — Розбирає YAML-потік із URL
+-   [yamlparse](function.yaml-parse.md) - Розбирає потік YAML

@@ -1,20 +1,22 @@
-- [« Thread::getCreatorId](thread.getcreatorid.md)
-- [Thread::getCurrentThreadId »](thread.getcurrentthreadid.md)
-
-- [PHP Manual](index.md)
-- [Thread](class.thread.md)
-- Ідентифікація
-
+---
+navigation:
+  - thread.getcreatorid.md: '« Thread::getCreatorId'
+  - thread.getcurrentthreadid.md: 'Thread::getCurrentThreadId »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::getCurrentThread'
+---
 # Thread::getCurrentThread
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Thread::getCurrentThread — Ідентифікація
 
 ### Опис
 
-public static **Thread::getCurrentThread**():
-[Thread](class.thread.md)
+```methodsynopsis
+public static Thread::getCurrentThread(): Thread
+```
 
 Повертає посилання на поточний потік, що виконується.
 
@@ -28,11 +30,23 @@ public static **Thread::getCurrentThread**():
 
 ### Приклади
 
-**Приклад #1 Повертає посилання на поточний потік**
+**Приклад #1 Повертає посилання на поточний потік, що виконується.**
 
-`<?phpclass My extends Thread {    public function run() {       var_dump(Thread::getCurrentThread()); }}$my = new My();$my->start();?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        var_dump(Thread::getCurrentThread());
+    }
+}
+$my = new My();
+$my->start();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(My)#2 (0) {
 }
+```

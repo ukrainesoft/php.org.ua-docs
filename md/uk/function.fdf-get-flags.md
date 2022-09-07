@@ -1,22 +1,23 @@
-- [«fdf_get_file](function.fdf-get-file.md)
-- [fdf_get_opt »](function.fdf-get-opt.md)
+---
+navigation:
+  - function.fdf-get-file.md: « fdfgetfile
+  - function.fdf-get-opt.md: fdfgetopt »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetflags
+---
+# fdfgetflags
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Отримує прапори поля
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
 
-#fdf_get_flags
-
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
-
-fdf_get_flags — Отримує прапори поля
+fdfgetflags — Отримує прапори поля
 
 ### Опис
 
-**fdf_get_flags**(resource `$fdf_document`, string `$fieldname`, int
-`$whichflags`): int
+```methodsynopsis
+fdf_get_flags(resource $fdf_document, string $fieldname, int $whichflags): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

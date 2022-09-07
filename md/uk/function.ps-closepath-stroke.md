@@ -1,34 +1,35 @@
-- [«ps_close](function.ps-close.md)
-- [ps_closepath »](function.ps-closepath.md)
+---
+navigation:
+  - function.ps-close.md: «psclose
+  - function.ps-closepath.md: псclosepath »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псclosepathstroke
+---
+# псclosepathstroke
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Замикає та обводить контур
+(PECL ps >= 1.1.0)
 
-#ps_closepath_stroke
-
-(PECL ps \>= 1.1.0)
-
-ps_closepath_stroke — Замикає та обводить контур
+псclosepathstroke — Замикає та обводить контур
 
 ### Опис
 
-**ps_closepath_stroke**(resource `$psdoc`): bool
+```methodsynopsis
+ps_closepath_stroke(resource $psdoc): bool
+```
 
-З'єднує останню точку з першою точкою шляху і малює отриману
-замкнуту лінію.
+З'єднує останню точку з першою точкою шляху і малює замкнуту лінію, що вийшла.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_closepath()](function.ps-closepath.md) - Замикає шлях
+-   [псclosepath()](function.ps-closepath.md) - Замикає шлях

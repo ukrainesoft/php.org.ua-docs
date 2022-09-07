@@ -1,46 +1,45 @@
-- [« openssl_x509_checkpurpose](function.openssl-x509-checkpurpose.md)
-- [openssl_x509_export »](function.openssl-x509-export.md)
+---
+navigation:
+  - function.openssl-x509-checkpurpose.md: « opensslx509checkpurpose
+  - function.openssl-x509-export.md: opensslx509export »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslx509exportтоfile
+---
+# opensslx509exportтоfile
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Експортує сертифікат у файл
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-# openssl_x509_export_to_file
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-openssl_x509_export_to_file — Експортує сертифікат у файл
+opensslx509exportтоfile — Експортує сертифікат у файл
 
 ### Опис
 
-**openssl_x509_export_to_file**([OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`, string `$output_filename`, bool `$no_text` =
-**`true`**): bool
+```methodsynopsis
+openssl_x509_export_to_file(OpenSSLCertificate|string $certificate, string $output_filename, bool $no_text = true): bool
+```
 
-**openssl_x509_export_to_file()** зберігає сертифікат `certificate` в
-файл `output_filename` у вигляді рядка у форматі PEM.
+**opensslx509exportтоfile()** зберігає сертифікат `certificate` у файл `output_filename` у вигляді рядка у форматі PEM.
 
 ### Список параметрів
 
 `x509`
-Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md).
+
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md)
 
 `output_filename`
+
 Шлях до файлу.
 
 `no_text`
-Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу;
-якщо він встановлений у **`false`**, то до висновку додається додаткова
-людиночитана інформація. Значення за умовчанням `notext` є
-**`true`**.
+
+Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людиночитана інформація. Значення за замовчуванням `notext` є **`true`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

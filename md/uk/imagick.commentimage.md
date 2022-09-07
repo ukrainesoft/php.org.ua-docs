@@ -1,10 +1,11 @@
-- [« Imagick::combineImages](imagick.combineimages.md)
-- [Imagick::compareImageChannels »](imagick.compareimagechannels.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Додає коментар до вашого зображення
-
+---
+navigation:
+  - imagick.combineimages.md: '« Imagick::combineImages'
+  - imagick.compareimagechannels.md: 'Imagick::compareImageChannels »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::commentImage'
+---
 # Imagick::commentImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,18 +14,21 @@ Imagick::commentImage — Додає коментар до вашого зобр
 
 ### Опис
 
-public **Imagick::commentImage**(string `$comment`): bool
+```methodsynopsis
+public Imagick::commentImage(string $comment): bool
+```
 
 Додає коментар до зображення.
 
 ### Список параметрів
 
 `comment`
+
 Коментар для додавання
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -32,8 +36,24 @@ public **Imagick::commentImage**(string `$comment`): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::commentImage()**:**
+**Приклад #1 Приклад використання **Imagick::commentImage()****
 
 Коментування зображення та отримання коментаря:
 
-` <?php/* Створити новий об'єкт Imagick */$im = new imagick();/* Створити порожнє зображення */$im->newImage(100, 100, new ImagickPixel; до зображення */$im->commentImage("Привіт, Світ!");/* Показати коментар */echo $im->getImageProperty("comment");?> `
+```php
+<?php
+
+/* Создать новый объект Imagick */
+$im = new imagick();
+
+/* Создать пустое изображение */
+$im->newImage(100, 100, new ImagickPixel("red"));
+
+/* Добавить комментарий к изображению */
+$im->commentImage("Привет, Мир!");
+
+/* Показать комментарий */
+echo $im->getImageProperty("comment");
+
+?>
+```

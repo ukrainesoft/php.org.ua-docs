@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md)
-- [MongoDB\BSON\MinKey::unserialize »](mongodb-bson-minkey.unserialize.md)
+---
+navigation:
+  - mongodb-bson-minkey.jsonserialize.md: '« MongoDBBSONMinKey::jsonSerialize'
+  - mongodb-bson-minkey.unserialize.md: 'MongoDBBSONMinKey::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-minkey.md: MongoDBBSONMinKey
+title: 'MongoDBBSONMinKey::serialize'
+---
+# MongoDBBSONMinKey::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
-- Серіалізує MinKey
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\MinKey::serialize
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\MinKey::serialize — Серіалізує MinKey
+MongoDBBSONMonKey::serialize — Серіалізує MonKey
 
 ### Опис
 
-final public **MongoDB\BSON\MinKey::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\MinKey::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\MinKey::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md).
+Повертає серіалізовану виставу [MongoDBBSONMinKey](class.mongodb-bson-minkey.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\MinKey::unserialize()](mongodb-bson-minkey.unserialize.md) -
-Десеріалізує MinKey
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONMinKey::unserialize()](mongodb-bson-minkey.unserialize.md) - Десеріалізує MinKey
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

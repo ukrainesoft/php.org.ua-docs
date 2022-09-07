@@ -1,26 +1,28 @@
-- [« RecursiveTreeIterator::key](recursivetreeiterator.key.md)
-- [RecursiveTreeIterator::nextElement »](recursivetreeiterator.nextelement.md)
-
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Перехід до наступного елементу
-
+---
+navigation:
+  - recursivetreeiterator.key.md: '« RecursiveTreeIterator::key'
+  - recursivetreeiterator.nextelement.md: 'RecursiveTreeIterator::nextElement »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::next'
+---
 # RecursiveTreeIterator::next
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-RecursiveTreeIterator::next — Перехід до наступного елемента
+RecursiveTreeIterator::next — Перехід до наступного елементу
 
 ### Опис
 
-public **RecursiveTreeIterator::next**(): void
+```methodsynopsis
+public RecursiveTreeIterator::next(): void
+```
 
 Перехід до наступного елемента.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

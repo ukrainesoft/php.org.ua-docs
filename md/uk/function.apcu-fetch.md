@@ -1,59 +1,65 @@
-- [«apcu_exists](function.apcu-exists.md)
-- [apcu_inc »](function.apcu-inc.md)
+---
+navigation:
+  - function.apcu-exists.md: « apcuexists
+  - function.apcu-inc.md: apcuinc »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcufetch
+---
+# apcufetch
 
-- [PHP Manual](index.md)
-- [Функції APCu](ref.apcu.md)
-- Витягує з кеша збережену змінну
+(PECL apcu >= 4.0.0)
 
-#apcu_fetch
-
-(PECL apcu \>= 4.0.0)
-
-apcu_fetch — Витягує з кеша змінну змінну
+apcufetch - Витягує з кеша збережену змінну
 
 ### Опис
 
-**apcu_fetch**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`, bool `&$success` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+apcu_fetch(mixed $key, bool &$success = ?): mixed
+```
 
-Витягує з кеша збережену змінну.
+Витягує з кеша змінну змінну.
 
 ### Список параметрів
 
 `key`
-Ключ `key`, під яким запис було збережено в кеш (за допомогою
-[apcu_store()](function.apcu-store.md)). Якщо заданий масив, то буде
-вилучено і повернено кожен елемент.
+
+Ключ `key`, під яким запис було збережено в кеш (за допомогою [apcustore()](function.apcu-store.md)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
 
 `success`
-Встановлюється в **`true`** у разі успішного виконання та **`false`**
-у разі виникнення помилки.
+
+Встановлюється в **`true`** у разі успішного виконання та **`false`** у разі виникнення помилки.
 
 ### Значення, що повертаються
 
-Збережена змінна чи масив; **`false`** у разі виникнення
-помилки
+Збережена змінна чи масив; **`false`** у разі виникнення помилки
 
-### Список змін
+### список змін
 
-| Версія                                     | Опис |
-|--------------------------------------------|------|
-| PECL apcu 3.0.17 Доданий параметр success. |      |
+| Версия | Описание |
+| --- | --- |
+| PECL apcu 3.0.17 | Доданий параметр `success` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcu_fetch()****
+**Приклад #1 Приклад використання **apcufetch()****
 
-` <?php$bar = 'BAR';apcu_store('foo', $bar);var_dump(apcu_fetch('foo'));?> `
+```php
+<?php
+$bar = 'BAR';
+apcu_store('foo', $bar);
+var_dump(apcu_fetch('foo'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "BAR"
+```
 
 ### Дивіться також
 
-- [apcu_store()](function.apcu-store.md) - Кешує змінну
-- [apcu_delete()](function.apcu-delete.md) - Видаляє збережене
-значення з кешу
-- [APCUIterator](class.apcuiterator.md)
+-   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу
+-   [APCUIterator](class.apcuiterator.md)

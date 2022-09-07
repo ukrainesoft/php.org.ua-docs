@@ -1,42 +1,51 @@
-- [«gmp_mul](function.gmp-mul.md)
-- [gmp_nextprime »](function.gmp-nextprime.md)
+---
+navigation:
+  - function.gmp-mul.md: « gmpmul
+  - function.gmp-nextprime.md: gmpnextprime »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpneg
+---
+# gmpneg
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Зміна знака числа
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_neg
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_neg — Зміна знака числа
+gmpneg - Зміна знака числа
 
 ### Опис
 
-**gmp_neg**([GMP](class.gmp.md)\|int\|string `$num`):
-[GMP](class.gmp.md)
+```methodsynopsis
+gmp_neg(GMP|int|string $num): GMP
+```
 
 Повертає протилежне щодо нуля число.
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Повертає - `num` як GMP числа.
+Повертає -`num` як GMP числа.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_neg()****
+**Приклад #1 Приклад використання **gmpneg()****
 
-` <?php$neg1 = gmp_neg("1");echo gmp_strval($neg1) . "
-";$neg2 = gmp_neg("-1");echo gmp_strval($neg2) . "
-";?> `
+```php
+<?php
+$neg1 = gmp_neg("1");
+echo gmp_strval($neg1) . "\n";
+$neg2 = gmp_neg("-1");
+echo gmp_strval($neg2) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 -1
 1
+```

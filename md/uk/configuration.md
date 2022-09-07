@@ -1,15 +1,16 @@
-- [« Повідомлення про баги](install.problems.bugs.md)
-- [Файл конфігурації »](configuration.file.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](install.md)
-- Конфігурація часу виконання
-
+---
+navigation:
+  - install.problems.bugs.md: « Повідомлення про баги
+  - configuration.file.md: Файл конфигурации »
+  - index.md: PHP Manual
+  - install.md: Встановлення та налаштування
+title: Конфігурація часу виконання
+---
 # Конфігурація часу виконання
 
 ## Зміст
 
-- [Файл конфігурації](configuration.file.md)
-- [Файли .user.ini](configuration.file.per-user.md)
-- [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
-- [Як змінити конфігураційні установки](configuration.changes.md)
+-   [Файл конфигурации](configuration.file.md)
+-   [Файли .user.ini](configuration.file.per-user.md)
+-   [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+-   [Як змінити налаштування конфігурації](configuration.changes.md)

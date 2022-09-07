@@ -1,70 +1,68 @@
-- [« PharData::buildFromIterator](phardata.buildfromiterator.md)
-- [PharData::compressFiles »](phardata.compressfiles.md)
-
-- [PHP Manual](index.md)
-- [PharData](class.phardata.md)
-- Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
-
+---
+navigation:
+  - phardata.buildfromiterator.md: '« PharData::buildFromIterator'
+  - phardata.compressfiles.md: 'PharData::compressFiles »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::compress'
+---
 # PharData::compress
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::compress — Стискає весь архів tar/zip, використовуючи стиснення Gzip
-або Bzip2
+PharData::compress — Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
 
 ### Опис
 
-public **PharData::compress**(int `$compression`, ?string `$extension` =
-**`null`**): ?[PharData](class.phardata.md)
+```methodsynopsis
+public PharData::compress(int $compression, ?string $extension = null): ?PharData
+```
 
-Для tar-архівів, цей метод здійснить стиснення всього архіву за допомогою
-gzip або bzip2. Результуючий файл можна розпакувати за допомогою команд
-gunzip або bunzip або використовувати безпосередньо через модуль Phar.
+Для tar-архівів, цей метод здійснить стиснення всього архіву за допомогою gzip або bzip2. Результуючий файл можна розпакувати за допомогою команд gunzip або bunzip, або безпосередньо використовувати через модуль Phar.
 
-Для zip-архівів цей метод викине виняток. Для gzip-стиснення повинен
-бути доступним модуль [zlib](ref.zlib.md). Для bzip2-стиснення має бути
-доступний модуль [bzip2](ref.bzip2.md).
+Для zip-архівів цей метод викине виняток. Для gzip-стиснення повинен бути доступний модуль [zlib](ref.zlib.md). Для bzip2-стиснення повинен бути доступний модуль [bzip2](ref.bzip2.md)
 
-Цей метод перейменовує архів, додаючи до імені розширення `.gz`,
-`.bz2` або навпаки, що прибирає його, якщо параметр типу стиснення заданий як
-`Phar::NONE`. Також можна явно вказати, яке розширення матиме
-файл.
+Цей метод перейменовує архів, додаючи до його імені розширення `.gz` `.bz2` або навпаки, що прибирає його, якщо параметр типу стиснення заданий як `Phar::NONE`. Також можна явно вказати, яке розширення матиме файл.
 
 ### Список параметрів
 
 `compression`
-Одна з констант: `Phar::GZ`, `Phar::BZ2`, або `Phar::NONE` для
-відключення компресії.
+
+Одна з констант: `Phar::GZ` `Phar::BZ2`, або `Phar::NONE` для відключення компресії.
 
 `extension`
-За промовчанням файлу призначається розширення `.tar.gz` або `.tar.bz2` для
-стиснення та `.tar`, якщо стиснення відключено.
+
+За промовчанням файлу призначається розширення `.tar.gz` або `.tar.bz2` для стиснення та `.tar`, якщо стиснення вимкнено.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [PharData](class.phardata.md) у разі успішного
-виконання або **`null`** у разі виникнення помилки.
+Повертає об'єкт [PharData](class.phardata.md) у разі успішного виконання або **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток
-[BadMethodCallException](class.badmethodcallexception.md), якщо
-недоступний модуль [zlib](ref.zlib.md) або вимкнено модуль
-[bzip2](ref.bzip2.md).
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md)якщо недоступний модуль [zlib](ref.zlib.md) або вимкнено модуль [bzip2](ref.bzip2.md)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                     |
-|--------|------------------------------------------|
-| 8.0.0  | extension  тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::compress()****
 
-` <?php$p = new PharData('/path/to/my.tar');$p['myfile.txt'] = 'hi';$p['myfile2.txt'] = 'hi'; $p1==$p->compress(Phar::GZ); // copies to /path/to/my.tar.gz$p2 = $p->compress(Phar::BZ2); // copies to /path/to/my.tar.bz2$p3 = $p2->compress(Phar::NONE); // exception: /path/to/my.tar already exists?> `
+```php
+<?php
+$p = new PharData('/path/to/my.tar');
+$p['myfile.txt'] = 'hi';
+$p['myfile2.txt'] = 'hi';
+$p1 = $p->compress(Phar::GZ); // copies to /path/to/my.tar.gz
+$p2 = $p->compress(Phar::BZ2); // copies to /path/to/my.tar.bz2
+$p3 = $p2->compress(Phar::NONE); // exception: /path/to/my.tar already exists
+?>
+```
 
 ### Дивіться також
 
-- [Phar::compress()](phar.compress.md) - Стискає весь Phar-архів з
-за допомогою Gzip- або Bzip2-стиснення
+-   [Phar::compress()](phar.compress.md) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення

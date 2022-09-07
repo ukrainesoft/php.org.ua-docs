@@ -1,22 +1,25 @@
-- [«EvWatcher::setCallback](evwatcher.setcallback.md)
-- [EvWatcher::stop »](evwatcher.stop.md)
-
-- [PHP Manual](index.md)
-- [EvWatcher](class.evwatcher.md)
-- Запускає спостерігача
-
+---
+navigation:
+  - evwatcher.setcallback.md: '« EvWatcher::setCallback'
+  - evwatcher.stop.md: 'EvWatcher::stop »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::start'
+---
 # EvWatcher::start
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvWatcher::start — Запускає спостерігача
 
 ### Опис
 
-public **EvWatcher::start**(): void
+```methodsynopsis
+public
+   EvWatcher::start(): void
+```
 
-Зазначає спостерігача як активного. Зверніть увагу, що тільки
-активні спостерігачі отримуватимуть події.
+Зазначає спостерігача як активного. Зверніть увагу, що лише активні спостерігачі отримуватимуть події.
 
 ### Список параметрів
 
@@ -28,4 +31,4 @@ public **EvWatcher::start**(): void
 
 ### Дивіться також
 
-- [EvWatcher::stop()](evwatcher.stop.md) - Зупиняє спостерігача
+-   [EvWatcher::stop()](evwatcher.stop.md) - зупиняє спостерігача

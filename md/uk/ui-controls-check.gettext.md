@@ -1,19 +1,22 @@
-- [« UI\Controls\Check::\_\_construct](ui-controls-check.construct.md)
-- [UI\Controls\Check::isChecked »](ui-controls-check.ischecked.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Check](class.ui-controls-check.md)
-- Отримати текст
-
-# UI\Controls\Check::getText
+---
+navigation:
+  - ui-controls-check.construct.md: '« UIControlsCheck::construct'
+  - ui-controls-check.ischecked.md: 'ОЙControlsCheck::isChecked »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.md: ОЙControlsCheck
+title: 'ОЙControlsCheck::getText'
+---
+# ОЙControlsCheck::getText
 
 (UI 0.9.9)
 
-UI\Controls\Check::getText — Отримати текст
+ОЙControlsCheck::getText — Отримати текст
 
 ### Опис
 
-public **UI\Controls\Check::getText**(): string
+```methodsynopsis
+public UI\Controls\Check::getText(): string
+```
 
 Отримує текст (мітку) для цього чекбокса
 
@@ -23,4 +26,4 @@ public **UI\Controls\Check::getText**(): string
 
 ### Значення, що повертаються
 
-Поточний текст (позначка)
+Поточний текст (мітка)

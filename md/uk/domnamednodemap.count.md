@@ -1,19 +1,22 @@
-- [« DOMNamedNodeMap](class.domnamednodemap.md)
-- [DOMNamedNodeMap::getNamedItem »](domnamednodemap.getnameditem.md)
-
-- [PHP Manual](index.md)
-- [DOMNamedNodeMap](class.domnamednodemap.md)
-- Кількість вузлів у відображенні
-
+---
+navigation:
+  - class.domnamednodemap.md: « DOMNamedNodeMap
+  - domnamednodemap.getnameditem.md: 'DOMNamedNodeMap::getNamedItem »'
+  - index.md: PHP Manual
+  - class.domnamednodemap.md: DOMNamedNodeMap
+title: 'DOMNamedNodeMap::count'
+---
 # DOMNamedNodeMap::count
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-DOMNamedNodeMap::count — Кількість вузлів відображається
+DOMNamedNodeMap::count — Кількість вузлів у відображенні
 
 ### Опис
 
-public **DOMNamedNodeMap::count**(): int
+```methodsynopsis
+public DOMNamedNodeMap::count(): int
+```
 
 Отримує кількість вузлів у відображенні.
 
@@ -23,5 +26,4 @@ public **DOMNamedNodeMap::count**(): int
 
 ### Значення, що повертаються
 
-Повертає кількість вузлів у відображенні, яке ідентичне властивості
-[length](class.domnamednodemap.md#domnamednodemap.props.length).
+Повертає кількість вузлів у відображенні, яке ідентичне властивості [length](class.domnamednodemap.md#domnamednodemap.props.length)

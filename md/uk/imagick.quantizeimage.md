@@ -1,10 +1,11 @@
-- [« Imagick::profileImage](imagick.profileimage.md)
-- [Imagick::quantizeImages »](imagick.quantizeimages.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Аналізує кольори еталонного зображення
-
+---
+navigation:
+  - imagick.profileimage.md: '« Imagick::profileImage'
+  - imagick.quantizeimages.md: 'Imagick::quantizeImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::quantizeImage'
+---
 # Imagick::quantizeImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,13 +14,9 @@ Imagick::quantizeImage — Аналізує кольори еталонного 
 
 ### Опис
 
-public **Imagick::quantizeImage**(
-int `$numberColors`,
-int `$colorspace`,
-int `$treedepth`,
-bool `$dither`,
-bool `$ measureError`
-): bool
+```methodsynopsis
+public Imagick::quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+```
 
 ### Список параметрів
 
@@ -35,7 +32,7 @@ bool `$ measureError`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -45,4 +42,15 @@ bool `$ measureError`
 
 **Приклад #1 Приклад використання **Imagick::quantizeImage()****
 
-` <?phpfunction quantizeImage($imagePath, $numberColors, $colorSpace, $treeDepth, $dither) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->quantizeImage($numberColors, $colorSpace, $treeDepth, $dither, false); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function quantizeImage($imagePath, $numberColors, $colorSpace, $treeDepth, $dither) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->quantizeImage($numberColors, $colorSpace, $treeDepth, $dither, false);
+    $imagick->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

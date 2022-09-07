@@ -1,31 +1,31 @@
-- [« sodium_crypto_box_secretkey](function.sodium-crypto-box-secretkey.md)
-- [sodium_crypto_box »](function.sodium-crypto-box.md)
+---
+navigation:
+  - function.sodium-crypto-box-secretkey.md: « sodiumcryptoboxsecretkey
+  - function.sodium-crypto-box.md: sodiumcryptobox »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxseedkeypair
+---
+# sodiumcryptoboxseedkeypair
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Детерміністичний висновок ключової пари з одного ключа
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_box_seed_keypair
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_box_seed_keypair - Детерміністичний висновок ключової пари
-з одного ключа
+sodiumcryptoboxseedkeypair - Детерміністичний висновок ключової пари з одного ключа
 
 ### Опис
 
-**sodium_crypto_box_seed_keypair**(string `$seed`): string
+```methodsynopsis
+sodium_crypto_box_seed_keypair(string $seed): string
+```
 
-Скріплює початкове значення для формування секретного ключа,
-витягує відкритий ключ та повертає їх у вигляді пари ключів.
+Скріплює початкове значення для формування секретного ключа, витягує відкритий ключ та повертає їх у вигляді пари ключів.
 
-Функції `*_seed_keypair` ідеально підходять для створення пари ключів з
-пароля та солі. Використовуйте результат як seed для генерації бажаних
-ключів.
+Функції `*_seed_keypair` ідеально підходять для створення пари ключів із паролю та солі. Використовуйте результат як `seed` для створення бажаних ключів.
 
 ### Список параметрів
 
 `seed`
+
 Якісь криптографічні дані. Має бути 32 байти.
 
 ### Значення, що повертаються

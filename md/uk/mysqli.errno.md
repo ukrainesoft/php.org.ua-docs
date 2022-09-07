@@ -1,71 +1,98 @@
-- [« mysqli::dump_debug_info](mysqli.dump-debug-info.md)
-- [mysqli::$error_list »](mysqli.error-list.md)
-
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає код помилки останнього виклику функції
-
+---
+navigation:
+  - mysqli.dump-debug-info.md: '« mysqli::dumpdebuginfo'
+  - mysqli.error-list.md: 'mysqli::$errorlist »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$errno'
+---
 # mysqli::$errno
 
-# mysqli_errno
+# mysqlierrno
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$errno -- mysqli_errno — Повертає код помилки останнього виклику
-функції
+mysqli::$errno -- mysqlierrno — Повернення коду помилки останнього виклику функції
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli->errno`;
+int [$mysqli->errno](mysqli.errno.md)
 
 Процедурний стиль
 
-**mysqli_errno**([mysqli](class.mysqli.md) `$mysql`): int
+```methodsynopsis
+mysqli_errno(mysqli $mysql): int
+```
 
-Повертає код помилки останнього виклику функції MySQLi, що завершилася
-успішним виконанням чи помилкою.
+Повертає код помилки останнього виклику MySQLi, що завершилася успішним виконанням або помилкою.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Код помилки останнього виклику функції у разі провалу. За відсутності
-помилок виводить 0.
+Код помилки останнього виклику функції у разі провалу. За відсутності помилок виводить 0.
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$mysqli->errno`**
+**Приклад #1 Приклад використання $mysqli->errno**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if ($mysqli->connect_errno) {  єднання| s
-", $mysqli->connect_error);   exit();}if (!$mysqli->query("SET a=1")) {    printf("Код помилки: %d
-", $mysqli->errno);}/* Закрити з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* Проверить соединение */
+if ($mysqli->connect_errno) {
+    printf("Соединение не удалось: %s\n", $mysqli->connect_error);
+    exit();
+}
+
+if (!$mysqli->query("SET a=1")) {
+    printf("Код ошибки: %d\n", $mysqli->errno);
+}
+
+/* Закрыть соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = Mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("З'єднання|
-", mysqli_connect_error());
-", mysqli_errno($link));}/* Закрити з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
+}
+
+if (!mysqli_query($link, "SET a=1")) {
+    printf("Код ошибки: %d\n", mysqli_errno($link));
+}
+
+/* Закрыть соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Код помилки: 1193
+```
+Код ошибки: 1193
+```
 
 ### Дивіться також
 
-- [mysqli_connect_errno()](mysqli.connect-errno.md) - Повертає код
-помилки останньої спроби з'єднання
-- [mysqli_connect_error()](mysqli.connect-error.md) - Повертає
-опис останньої помилки підключення
-- [mysqli_error()](mysqli.error.md) - Повертає рядок з описом
-останньої помилки
-- [mysqli_sqlstate()](mysqli.sqlstate.md) - Повертає код стану
-SQLSTATE останній MySQL операції
+-   [mysqliconnecterrno()](mysqli.connect-errno.md) - Повертає код помилки останньої спроби з'єднання
+-   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
+-   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

@@ -1,79 +1,101 @@
-- [« RarArchive::getEntries](rararchive.getentries.md)
-- [RarArchive::isBroken »](rararchive.isbroken.md)
-
-- [PHP Manual](index.md)
-- [RarArchive](class.rararchive.md)
-- Повертає об'єкт елемента з архіву RAR
-
+---
+navigation:
+  - rararchive.getentries.md: '« RarArchive::getEntries'
+  - rararchive.isbroken.md: 'RarArchive::isBroken »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
+title: 'RarArchive::getEntry'
+---
 # RarArchive::getEntry
 
-#rar_entry_get
+# rarentryget
 
-(PECL rar \>= 2.0.0)
+(PECL rar >= 2.0.0)
 
-RarArchive::getEntry -- rar_entry_get — Повертає об'єкт елемента з
-RAR архів
+RarArchive::getEntry -- rarentryget — Повертає об'єкт елемента з RAR архіву
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **RarArchive::getEntry**(string `$entryname`):
-[RarEntry](class.rarentry.md)\|false
+```methodsynopsis
+public RarArchive::getEntry(string $entryname): RarEntry|false
+```
 
 Процедурний стиль:
 
-**rar_entry_get**([RarArchive](class.rararchive.md) `$rarfile`, string
-`$entryname`): [RarEntry](class.rarentry.md)\|false
+```methodsynopsis
+rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
+```
 
 Повертає об'єкт елемента (файл або директорію) з архіву RAR
 
-> **Примітка**:
->
-> Ви також можете отримати об'єкти елементів за допомогою
-> [RarArchive::getEntries()](rararchive.getentries.md).
->
-> Зверніть увагу, що RAR архів може мати кілька елементів з однаковим
-> ім'ям. Даний метод поверне лише перший із них.
+> **Зауваження**
+> 
+> Ви також можете отримати об'єкти елементів за допомогою [RarArchive::getEntries()](rararchive.getentries.md)
+> 
+> Зверніть увагу, що RAR архів може мати кілька елементів з однаковим ім'ям. Цей метод поверне лише перший із них.
 
 ### Список параметрів
 
 `rarfile`
-Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою
-[rar_open()](rararchive.open.md).
+
+Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [raropen()](rararchive.open.md)
 
 `entryname`
-Шлях до архіву RAR.
 
-> **Примітка**:
->
-> Шлях має бути таким самим, як і повертається методом
-> [RarEntry::getName()](rarentry.getname.md).
+Дорога до елемента RAR архіву.
+
+> **Зауваження**
+> 
+> Шлях повинен бути таким же, як і методом, що повертається. [RarEntry::getName()](rarentry.getname.md)
 
 ### Значення, що повертаються
 
-Повертає знайдений об'єкт [RarEntry](class.rarentry.md) або
-**`false`** у разі виникнення помилки.
+Повертає знайдений об'єкт [RarEntry](class.rarentry.md) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$rar_arch = RarArchive::open('solid.rar');if ($rar_arch === FALSE)    die("Не зміг відкрити RAR архів.");$rar_entry = $rar_ar tese.txt');if($rar_entry === FALSE)    die("Не зміг дістати цей|об'єкт");echo get_class($rar_entry)."
-";echo $rar_entry;$rar_arch->close();?> `
+```php
+<?php
+$rar_arch = RarArchive::open('solid.rar');
+if ($rar_arch === FALSE)
+    die("Не смог открыть RAR архив.");
+$rar_entry = $rar_arch->getEntry('tese.txt');
+if ($rar_entry === FALSE)
+    die("Не смог достать этот объект");
+echo get_class($rar_entry)."\n";
+echo $rar_entry;
+$rar_arch->close();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 RarEntry
-RarEntry для файлу "tese.txt" (23b93a7a)
+RarEntry for file "tese.txt" (23b93a7a)
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$rar_arch = rar_open('solid.rar');if ($rar_arch === FALSE)   die("Не зміг відкрити RAR архів.");$rar_entry= rar_entry_get('t''t );if ($rar_entry === FALSE)    die("Не зміг дістати цей|об'єкт");echo get_class($rar_entry)."
-";echo $rar_entry;rar_close($rar_arch);?> `
+```php
+<?php
+$rar_arch = rar_open('solid.rar');
+if ($rar_arch === FALSE)
+    die("Не смог открыть RAR архив.");
+$rar_entry = rar_entry_get($rar_arch, 'tese.txt');
+if ($rar_entry === FALSE)
+    die("Не смог достать этот объект");
+echo get_class($rar_entry)."\n";
+echo $rar_entry;
+rar_close($rar_arch);
+?>
+```
 
 ### Дивіться також
 
-- [RarArchive::getEntries()](rararchive.getentries.md) - Повертає
-повний список елементів з RAR архіву
-- [`rar://` обробник (wrapper)](wrappers.rar.md)
+-   [RarArchive::getEntries()](rararchive.getentries.md) - Повертає повний список елементів із RAR архіву
+-   [`rar://`обработчик (wrapper)](wrappers.rar.md)

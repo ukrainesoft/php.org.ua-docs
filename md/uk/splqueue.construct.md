@@ -1,28 +1,26 @@
-- [« SplQueue](class.splqueue.md)
-- [SplQueue::dequeue »](splqueue.dequeue.md)
+---
+navigation:
+  - class.splqueue.md: « SplQueue
+  - splqueue.dequeue.md: 'SplQueue::dequeue »'
+  - index.md: PHP Manual
+  - class.splqueue.md: SplQueue
+title: 'SplQueue::construct'
+---
+# SplQueue::construct
 
-- [PHP Manual](index.md)
-- [SplQueue](class.splqueue.md)
-- створює нову чергу, реалізовану з використанням двозв'язкового
-списку
+(PHP 5> = 5.3.0, PHP 7)
 
-# SplQueue::\_\_construct
-
-(PHP 5 = 5.3.0, PHP 7)
-
-SplQueue::\_\_construct — Створює нову чергу, реалізовану з
-використанням двозв'язкового списку
+SplQueue::construct - Створює нову чергу, реалізовану з використанням двозв'язкового списку
 
 ### Опис
 
-public **SplQueue::\_\_construct**()
+public **SplQueue::construct**
 
 Створює нову порожню чергу.
 
-> **Примітка**:
->
-> Метод автоматично встановлює режим ітератора
-> SplDoublyLinkedList::IT_MODE_FIFO.
+> **Зауваження**
+> 
+> Метод автоматично встановлює режим ітератора SplDoublyLinkedList::ITMODEFIFO.
 
 ### Список параметрів
 
@@ -30,18 +28,46 @@ public **SplQueue::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplQueue::\_\_construct()****
+**Приклад #1 Приклад використання **SplQueue::construct()****
 
-` <?php$q = new SplQueue();$q[] = 1;$q[] = 2;$q[] = 3;foreach ($q as $elem)  { echo $elem."
-";}?> `
+```php
+<?php
+$q = new SplQueue();
+
+$q[] = 1;
+$q[] = 2;
+$q[] = 3;
+
+foreach ($q as $elem)  {
+ echo $elem."\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1
 2
 3
+```
 
-**Приклад #2 Ефективне оброблення завдань за допомогою
-[SplQueue](class.splqueue.md)**
+**Приклад #2 Ефективна обробка завдань за допомогою [SplQueue](class.splqueue.md)**
 
-` <?php$q = new SplQueue();$q->setIteratorMode(SplQueue::IT_MODE_DELETE);// ... поставити кілька задач в чергу ...// обробити ихforeach ($   / ... обробити $task ...     // додати нові завдання в чергу    $q[] = $newTask; // ...}?> `
+```php
+<?php
+$q = new SplQueue();
+$q->setIteratorMode(SplQueue::IT_MODE_DELETE);
+
+// ... поставить несколько задач в очередь ...
+
+// обработать их
+foreach ($q as $task) {
+    // ... обработать $task ...
+
+    // добавить новые задачи в очередь
+    $q[] = $newTask;
+    // ...
+}
+?>
+```

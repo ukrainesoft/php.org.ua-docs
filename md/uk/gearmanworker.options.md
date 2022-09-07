@@ -1,21 +1,24 @@
-- [« GearmanWorker::getErrno](gearmanworker.geterrno.md)
-- [GearmanWorker::register »](gearmanworker.register.md)
-
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Отримання налаштувань обробника
-
+---
+navigation:
+  - gearmanworker.geterrno.md: '« GearmanWorker::getErrno'
+  - gearmanworker.register.md: 'GearmanWorker::register »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::options'
+---
 # GearmanWorker::options
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanWorker::options — Отримання налаштувань обробника
 
 ### Опис
 
-public **GearmanWorker::options**(): int
+```methodsynopsis
+public GearmanWorker::options(): int
+```
 
-Отримує установки обробника, раніше встановлені для нього.
+Отримує налаштування оброблювача, раніше встановлені для нього.
 
 ### Список параметрів
 
@@ -23,9 +26,8 @@ public **GearmanWorker::options**(): int
 
 ### Значення, що повертаються
 
-Поточні налаштування обробника.
+Поточні параметри обробника.
 
 ### Дивіться також
 
-- [GearmanWorker::setOptions()](gearmanworker.setoptions.md) -
-Встановлення налаштувань обробника
+-   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) - Встановлення налаштувань обробника

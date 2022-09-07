@@ -1,10 +1,11 @@
-- [« Imagick::setImageResolution](imagick.setimageresolution.md)
-- [Imagick::setImageTicksPerSecond »](imagick.setimagetickspersecond.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює сцену зображення
-
+---
+navigation:
+  - imagick.setimageresolution.md: '« Imagick::setImageResolution'
+  - imagick.setimagetickspersecond.md: 'Imagick::setImageTicksPerSecond »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageScene'
+---
 # Imagick::setImageScene
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::setImageScene — Встановлює сцену зображення
 
 ### Опис
 
-public **Imagick::setImageScene**(int `$scene`): bool
+```methodsynopsis
+public Imagick::setImageScene(int $scene): bool
+```
 
 Встановлює сцену зображення.
 
@@ -23,7 +26,7 @@ public **Imagick::setImageScene**(int `$scene`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

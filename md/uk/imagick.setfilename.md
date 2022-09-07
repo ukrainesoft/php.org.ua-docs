@@ -1,20 +1,22 @@
-- [« Imagick::setCompressionQuality](imagick.setcompressionquality.md)
-- [Imagick::setFirstIterator »](imagick.setfirstiterator.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює ім'я файлу перед читанням або записуванням зображення
-
+---
+navigation:
+  - imagick.setcompressionquality.md: '« Imagick::setCompressionQuality'
+  - imagick.setfirstiterator.md: 'Imagick::setFirstIterator »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setFilename'
+---
 # Imagick::setFilename
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setFilename — Встановлює ім'я файлу перед читанням або записом
-зображення
+Imagick::setFilename — Встановлює ім'я файлу перед читанням або записуванням зображення.
 
 ### Опис
 
-public **Imagick::setFilename**(string `$filename`): bool
+```methodsynopsis
+public Imagick::setFilename(string $filename): bool
+```
 
 Встановлює ім'я файлу перед читанням або записуванням зображення.
 
@@ -24,4 +26,4 @@ public **Imagick::setFilename**(string `$filename`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

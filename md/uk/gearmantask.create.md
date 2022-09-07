@@ -1,26 +1,28 @@
-- [« GearmanTask::\_\_construct](gearmantask.construct.md)
-- [GearmanTask::data »](gearmantask.data.md)
-
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- створює завдання (застарілий метод)
-
+---
+navigation:
+  - gearmantask.construct.md: '« GearmanTask::construct'
+  - gearmantask.data.md: 'GearmanTask::data »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::create'
+---
 # GearmanTask::create
 
-(PECL gearman \<= 0.5.0)
+(PECL gearman <= 0.5.0)
 
 GearmanTask::create — Створює завдання (застарілий метод)
 
 ### Опис
 
-public **GearmanTask::create**():
-[GearmanTask](class.gearmantask.md)\|false
+```methodsynopsis
+public GearmanTask::create(): GearmanTask|false
+```
 
-Повертає новий об'єкт класу [GearmanTask](class.gearmantask.md).
+Повертає новий об'єкт класу [GearmanTask](class.gearmantask.md)
 
-> **Примітка**:
->
-> Цей метод видалено у версії 0.6.0 модуля Gearman.
+> **Зауваження**
+> 
+> Цей метод було видалено у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -28,5 +30,4 @@ public **GearmanTask::create**():
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanTask](class.gearmantask.md) або **`false`**
-у разі виникнення помилки.
+Об'єкт класу [GearmanTask](class.gearmantask.md) або **`false`** у разі виникнення помилки.

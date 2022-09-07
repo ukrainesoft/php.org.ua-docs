@@ -1,10 +1,11 @@
-- [« streamWrapper::stream_write](streamwrapper.stream-write.md)
-- [streamWrapper::url_stat »](streamwrapper.url-stat.md)
-
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Видалення файлу
-
+---
+navigation:
+  - streamwrapper.stream-write.md: '« streamWrapper::streamwrite'
+  - streamwrapper.url-stat.md: 'streamWrapper::urlstat »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::unlink'
+---
 # streamWrapper::unlink
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,41 +14,37 @@ streamWrapper::unlink — Видалення файлу
 
 ### Опис
 
-public **streamWrapper::unlink**(string `$path`): bool
+```methodsynopsis
+public streamWrapper::unlink(string $path): bool
+```
 
-Цей метод викликається у процесі виконання
-[unlink()](function.unlink.md).
+Цей метод викликається у процесі виконання [unlink()](function.unlink.md)
 
-> **Примітка**:
->
-> Щоб повідомлення про помилки відповідали реальним помилкам, цей
-> метод *не потрібно* визначати у випадках, коли обгортка не підтримує
-> Видалення файлів.
+> **Зауваження**
+> 
+> Щоб повідомлення про помилки відповідали реальним помилкам, цей метод *не потрібно* визначати у випадках, коли обгортка не підтримує видалення файлів.
 
 ### Список параметрів
 
 `path`
+
 URL файлу, що видаляється.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не
-удався (наприклад, не реалізований).
+Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не вдалося (наприклад, не реалізовано).
 
 ### Примітки
 
-> **Примітка**:
->
-> Властивість `streamWrapper::$context` буде оновлена, якщо коректна
-> контекст був переданий у функцію, що викликається.
+> **Зауваження**
+> 
+> Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
-- [unlink()](function.unlink.md) - Видаляє файл
-- [streamWrapper::rmdir()](streamwrapper.rmdir.md) - Видаляє
-директорію
+-   [unlink()](function.unlink.md) - Видаляє файл
+-   [streamWrapper::rmdir()](streamwrapper.rmdir.md) - видаляє директорію

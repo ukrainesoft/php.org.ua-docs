@@ -1,26 +1,27 @@
-- [«Ev::backend](ev.backend.md)
-- [Ev::embeddableBackends »](ev.embeddablebackends.md)
+---
+navigation:
+  - ev.backend.md: '« Ev::backend'
+  - ev.embeddablebackends.md: 'Ev::embeddableBackends »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::depth'
+---
+# Ev::depth
 
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Здобути глибину рекурсії
+(PECL ev >= 0.2.0)
 
-# Ev:: depth
-
-(PECL ev \>= 0.2.0)
-
-Ev::depth — Отримати глибину рекурсії
+Ev::depth — Здобути глибину рекурсії
 
 ### Опис
 
-final public static **Ev::depth**(): int
+```methodsynopsis
+final
+   public
+   static
+   Ev::depth(): int
+```
 
-Кількість запусків [Ev::run()](ev.run.md) мінус кількість нормальних
-виходів [Ev::run()](ev.run.md), іншими словами, глибина рекурсії. Поза
-[Ev::run()](ev.run.md) це число дорівнюватиме **`0`**. В
-callback-функції воно дорівнюватиме **`1`**, якщо [Ev::run()](ev.run.md)
-не викликалася рекурсивно (або іншому потоці), інакше воно
-буде більше.
+Кількість запусків [Ev::run()](ev.run.md) мінус кількість нормальних виходів [Ev::run()](ev.run.md), Іншими словами, глибина рекурсії. Поза [Ev::run()](ev.run.md) це число буде рівним **`0`**. У callback-функції воно буде рівним **`1`**, якщо [Ev::run()](ev.run.md) не викликалася рекурсивно (чи іншому потоці), інакше воно буде більше.
 
 ### Список параметрів
 
@@ -28,9 +29,8 @@ callback-функції воно дорівнюватиме **`1`**, якщо [E
 
 ### Значення, що повертаються
 
-**ev_depth()** повертає глибину рекурсії циклу за замовчуванням.
+**євdepth()** повертає глибину рекурсії циклу за умовчанням.
 
 ### Дивіться також
 
-- [Ev::iteration()](ev.iteration.md) - Отримати кількість
-проведених опитувань циклу за умовчанням щодо нових подій
+-   [Ev::iteration()](ev.iteration.md) - Отримати кількість проведених опитувань циклу за умовчанням щодо нових подій

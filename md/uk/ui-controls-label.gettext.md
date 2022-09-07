@@ -1,26 +1,28 @@
-- [« UI\Controls\Label::\_\_construct](ui-controls-label.construct.md)
-- [UI\Controls\Label::setText »](ui-controls-label.settext.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Label](class.ui-controls-label.md)
-- Отримати текст
-
-# UI\Controls\Label::getText
+---
+navigation:
+  - ui-controls-label.construct.md: '« UIControlsLabel::construct'
+  - ui-controls-label.settext.md: 'ОЙControlsLabel::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-label.md: ОЙControlsLabel
+title: 'ОЙControlsLabel::getText'
+---
+# ОЙControlsLabel::getText
 
 (UI 0.9.9)
 
-UI\Controls\Label::getText — Отримати текст
+ОЙControlsLabel::getText — Отримати текст
 
 ### Опис
 
-public **UI\Controls\Label::getText**(): string
+```methodsynopsis
+public UI\Controls\Label::getText(): string
+```
 
 Повертає поточний текст для цієї позначки
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

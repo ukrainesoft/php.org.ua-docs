@@ -1,54 +1,48 @@
-- [« mysqli::options](mysqli.options.md)
-- [mysqli::poll »](mysqli.poll.md)
-
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Перевіряє працездатність з'єднання чи намагається
-перепідключитися, якщо з'єднання розірвано
-
+---
+navigation:
+  - mysqli.options.md: '« mysqli::options'
+  - mysqli.poll.md: 'mysqli::poll »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::ping'
+---
 # mysqli::ping
 
-# mysqli_ping
+# mysqliping
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::ping -- mysqli_ping — Перевіряє працездатність з'єднання або
-намагається перепідключитися, якщо з'єднання розірвано
+mysqli::ping -- mysqliping — Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::ping**(): bool
+```methodsynopsis
+public mysqli::ping(): bool
+```
 
 Процедурний стиль
 
-**mysqli_ping**([mysqli](class.mysqli.md) `$mysql`): bool
+```methodsynopsis
+mysqli_ping(mysqli $mysql): bool
+```
 
-Перевіряє працездатність з'єднання із сервером. Якщо з'єднання
-розірвано, а глобальне налаштування
-[mysqli.reconnect](mysqli.configuration.md#ini.mysqli.reconnect)
-увімкнено, PHP спробує автоматично перепідключитися.
+Перевіряє працездатність з'єднання із сервером. Якщо з'єднання розірвано, а глобальне налаштування [mysqli.reconnect](mysqli.configuration.md#ini.mysqli.reconnect) увімкнена, PHP спробує автоматично перепідключитися.
 
-> **Примітка**: Налаштування `php.ini` mysqli.reconnect ігнорується
-> драйвером "mysqlnd", так що автоматичного переключення не
-> відбудеться.
+> **Зауваження**: Налаштування php.ini mysqli.reconnect ігнорується драйвером "mysqlnd", тому автоматичного перепідключення не відбудеться.
 
-Ця функція може використовуватися клієнтами, які простоюють без діла
-довгий час, щоб перевірити, що сервер їх не відключив, та
-перепідключитися у разі потреби.
+Ця функція може використовуватися клієнтами, які простоюють без діла довгий час, щоб перевірити, чи сервер їх не відключив, і перепідключитися у разі потреби.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -56,18 +50,54 @@ public **mysqli::ping**(): bool
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if ($mysqli->connect_errno) {   підключитися| s
-", $mysqli->connect_error);   exit();}/* перевіримо, жив ли сервер */if ($mysqli->ping()) {    printf ("Сполука впорядку!"
-");} else {    printf ("Помилка: %s
-", $mysqli->error);}/* закриваємо з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if ($mysqli->connect_errno) {
+    printf("Не удалось подключиться: %s\n", $mysqli->connect_error);
+    exit();
+}
+
+/* проверим, жив ли сервер */
+if ($mysqli->ping()) {
+    printf ("Соединение в порядке!\n");
+} else {
+    printf ("Ошибка: %s\n", $mysqli->error);
+}
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error());
-");} else {    printf ("Помилка: %s
-", mysqli_error($link));}/* закриваємо з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* проверим, жив ли сервер */
+if (mysqli_ping($link)) {
+    printf ("Соединение в порядке!\n");
+} else {
+    printf ("Ошибка: %s\n", mysqli_error($link));
+}
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 Our connection is ok!
+```

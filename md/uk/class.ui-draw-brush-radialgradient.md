@@ -1,10 +1,11 @@
-- [« UI\Draw\Brush\LinearGradient::\_\_construct](ui-draw-brush-lineargradient.construct.md)
-- [UI\Draw\Brush\RadialGradient::\_\_construct »](ui-draw-brush-radialgradient.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Радіальний градієнт
-
+---
+navigation:
+  - ui-draw-brush-lineargradient.construct.md: '« UIDrawBrushLinearGradient::construct'
+  - ui-draw-brush-radialgradient.construct.md: 'ОЙDrawBrushRadialGradient::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Радіальний градієнт
+---
 # Радіальний градієнт
 
 (UI 2.0.0)
@@ -13,41 +14,40 @@
 
 ## Огляд класів
 
-class **UI\Draw\Brush\RadialGradient** extends
-[UI\Draw\Brush\Gradient](class.ui-draw-brush-gradient.md) {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public
-[\_\_construct](ui-draw-brush-radialgradient.construct.md)([UI\Point](class.ui-point.md)
-`$start`, [UI\Point](class.ui-point.md) `$outer`, float `$radius`)
 
-/\* Наслідувані методи \*/
+    
+     
+      class UI\Draw\Brush\RadialGradient
+     
 
-public
-[UI\Draw\Brush\Gradient::addStop](ui-draw-brush-gradient.addstop.md)(float
-`$position`, [UI\Draw\Color](class.ui-draw-color.md) `$color`): int
+     
+      extends
+       UI\Draw\Brush\Gradient
+     
+     {
 
-public
-[UI\Draw\Brush\Gradient::addStop](ui-draw-brush-gradient.addstop.md)(float
-`$position`, int `$color`): int
 
-public
-[UI\Draw\Brush\Gradient::delStop](ui-draw-brush-gradient.delstop.md)(int
-`$index`): int
+    /* Конструктор */
+    
+   public __construct(UI\Point $start, UI\Point $outer, float $radius)
 
-public
-[UI\Draw\Brush\Gradient::setStop](ui-draw-brush-gradient.setstop.md)(int
-`$index`, float `$position`, [UI\Draw\Color](class.ui-draw-color.md)
-`$color`): bool
 
-public
-[UI\Draw\Brush\Gradient::setStop](ui-draw-brush-gradient.setstop.md)(int
-`$index`, float `$position`, int `$color`): bool
+    
 
-}
+    /* Наследуемые методы */
+    public UI\Draw\Brush\Gradient::addStop(float $position, UI\Draw\Color $color): int
+public UI\Draw\Brush\Gradient::addStop(float $position, int $color): int
+public UI\Draw\Brush\Gradient::delStop(int $index): int
+public UI\Draw\Brush\Gradient::setStop(int $index, float $position, UI\Draw\Color $color): bool
+public UI\Draw\Brush\Gradient::setStop(int $index, float $position, int $color): bool
+
+
+   }
+```
 
 ## Зміст
 
-- [UI\Draw\Brush\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.md)
-- Конструктор класу RadialGradient
+-   [ОЙDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.md) - Конструктор класу RadialGradient

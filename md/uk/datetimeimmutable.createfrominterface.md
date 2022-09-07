@@ -1,42 +1,44 @@
-- [« DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md)
-- [DateTimeImmutable::createFromMutable »](datetimeimmutable.createfrommutable.md)
-
-- [PHP Manual](index.md)
-- [DateTimeImmutable](class.datetimeimmutable.md)
-- Повертає новий об'єкт DateTimeImmutable, створений із переданого
-об'єкта, що реалізує інтерфейс DateTimeInterface
-
+---
+navigation:
+  - datetimeimmutable.createfromformat.md: '« DateTimeImmutable::createFromFormat'
+  - datetimeimmutable.createfrommutable.md: 'DateTimeImmutable::createFromMutable »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::createFromInterface'
+---
 # DateTimeImmutable::createFromInterface
 
 (PHP 8)
 
-DateTimeImmutable::createFromInterface — Повертає новий об'єкт
-DateTimeImmutable, створений з переданого об'єкта, що реалізує
-інтерфейс DateTimeInterface
+DateTimeImmutable::createFromInterface — Повертає новий об'єкт DateTimeImmutable, створений з переданого об'єкта, що реалізує інтерфейс DateTimeInterface
 
 ### Опис
 
-public static
-**DateTimeImmutable::createFromInterface**([DateTimeInterface](class.datetimeinterface.md)
-`$object`): [DateTimeImmutable](class.datetimeimmutable.md)
+```methodsynopsis
+public static DateTimeImmutable::createFromInterface(DateTimeInterface $object): DateTimeImmutable
+```
 
 ### Список параметрів
 
 `object`
-Об'єкт, що реалізує інтерфейс
-[DateTimeInterface](class.datetimeinterface.md), який необхідно
-конвертувати в іммутабельну версію. Сам об'єкт не змінюється. Замість
-цього повертається новий об'єкт
-[DateTimeImmutable](class.datetimeimmutable.md) з тими ж значеннями
-дати, часу та часового поясу.
+
+Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.md), який необхідно конвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з тими самими значеннями дати, часу та часового поясу.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт
-[DateTimeImmutable](class.datetimeimmutable.md).
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md)
 
 ### Приклади
 
 **Приклад #1 Створення іммутабельного об'єкта дати та часу**
 
-` <?php$date = new DateTime("2014-06-20 11:45 Europe/London");$immutable = DateTimeImmutable::createFromInterface($date);$date = new DateTimeI 0 :45 Europe/London");$also_immutable = DateTimeImmutable::createFromInterface($date);?> `
+```php
+<?php
+$date = new DateTime("2014-06-20 11:45 Europe/London");
+
+$immutable = DateTimeImmutable::createFromInterface($date);
+
+$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");
+$also_immutable = DateTimeImmutable::createFromInterface($date);
+?>
+```

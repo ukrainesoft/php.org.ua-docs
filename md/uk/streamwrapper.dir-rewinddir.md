@@ -1,30 +1,26 @@
-- [« streamWrapper::dir_readdir](streamwrapper.dir-readdir.md)
-- [streamWrapper::mkdir »](streamwrapper.mkdir.md)
+---
+navigation:
+  - streamwrapper.dir-readdir.md: '« streamWrapper::dirreaddir'
+  - streamwrapper.mkdir.md: 'streamWrapper::mkdir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::dirrewinddir'
+---
+# streamWrapper::dirrewinddir
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Дескриптор директорії переміщення на її початку
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# streamWrapper::dir_rewinddir
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-streamWrapper::dir_rewinddir - Дескриптор директорії переміщення на її в
-початок
+streamWrapper::dirrewinddir - Дескриптор директорії переміщення на її початок
 
 ### Опис
 
-public **streamWrapper::dir_rewinddir**(): bool
+```methodsynopsis
+public streamWrapper::dir_rewinddir(): bool
+```
 
-Цей метод викликається у процесі виконання
-[rewinddir()](function.rewinddir.md).
+Цей метод викликається у процесі виконання [rewinddir()](function.rewinddir.md)
 
-Повинен скидати поточний висновок, що генерується методом
-[streamWrapper::dir_readdir()](streamwrapper.dir-readdir.md). Тобто. при
-наступний виклик метод
-[streamWrapper::dir_readdir()](streamwrapper.dir-readdir.md) повинен
-повертати перший запис у директорії, визначеній методом
-[streamWrapper::dir_opendir()](streamwrapper.dir-opendir.md).
+Повинен скидати поточний висновок, що генерується методом [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.md). Тобто. при наступному виклику метод [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.md) повинен повертати перший запис у директорії, визначеній методом [streamWrapper::diropendir()](streamwrapper.dir-opendir.md)
 
 ### Список параметрів
 
@@ -32,12 +28,9 @@ public **streamWrapper::dir_rewinddir**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [rewinddir()](function.rewinddir.md) - Скинути дескриптор
-каталогу
-- [streamWrapper::dir_readdir()](streamwrapper.dir-readdir.md) -
-Читання запису з дескриптора директорії
+-   [rewinddir()](function.rewinddir.md) - Скинути дескриптор каталогу
+-   [streamWrapper::dirreaddir()](streamwrapper.dir-readdir.md) - Читання запису з дескриптора директорії

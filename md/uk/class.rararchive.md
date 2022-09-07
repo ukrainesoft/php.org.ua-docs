@@ -1,74 +1,60 @@
-- [«rar_wrapper_cache_stats](function.rar-wrapper-cache-stats.md)
-- [RarArchive::close »](rararchive.close.md)
-
-- [PHP Manual](index.md)
-- [Rar](book.rar.md)
-- Клас RarArchive
-
+---
+navigation:
+  - function.rar-wrapper-cache-stats.md: « rarwrappercachestats
+  - rararchive.close.md: 'RarArchive::close »'
+  - index.md: PHP Manual
+  - book.rar.md: Rar
+title: Клас RarArchive
+---
 # Клас RarArchive
 
-(PECL rar \>= 2.0.0)
+(PECL rar >= 2.0.0)
 
 ## Вступ
 
-Цей клас описує RAR архів, який може складатися з кількох
-томів (частин) і містити кілька RAR записів (файли,
-директорії та інші спеціальні об'єкти, такі як символічні
-посилання).
+Цей клас описує архів RAR, який може складатися з декількох томів (частин) і містити деяку кількість RAR записів (файли, директорії та інші спеціальні об'єкти, такі як символічні посилання).
 
-Об'єкти цього класу можуть бути заповнені перебором на основі записів,
-що зберігаються у відповідному RAR архіві. Ці записи можуть бути також
-отримані за допомогою методів
-[RarArchive::getEntry()](rararchive.getentry.md) та
-[RarArchive::getEntries()](rararchive.getentries.md).
+Об'єкти цього класу можуть бути заповнені перебором, виходячи з записів, що зберігаються у відповідному архіві RAR. Ці записи можуть бути отримані за допомогою методів [RarArchive::getEntry()](rararchive.getentry.md) і [RarArchive::getEntries()](rararchive.getentries.md)
 
 ## Огляд класів
 
-final class **RarArchive** implements
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [close](rararchive.close.md)(): bool
 
-public [getComment](rararchive.getcomment.md)(): string
+    
+     
+      final
+      class RarArchive
+     
 
-public [getEntries](rararchive.getentries.md)(): array\|false
+     implements 
+       Traversable {
 
-public [getEntry](rararchive.getentry.md)(string $entryname):
-[RarEntry](class.rarentry.md)\|false
 
-public [isBroken](rararchive.isbroken.md)(): bool
+    /* Методы */
+    
+   public close(): bool
+public getComment(): string
+public getEntries(): array|false
+public getEntry(string $entryname): RarEntry|false
+public isBroken(): bool
+public isSolid(): bool
+public static open(string $filename, string $password = NULL, callable $volume_callback = NULL): RarArchive|false
+public setAllowBroken(bool $allow_broken): bool
+public __toString(): string
 
-public [isSolid](rararchive.issolid.md)(): bool
-
-public static [open](rararchive.open.md)(string `$filename`, string
-`$password` = NULL, [callable](language.types.callable.md)
-`$volume_callback` = NULL): [RarArchive](class.rararchive.md)\|false
-
-public [setAllowBroken](rararchive.setallowbroken.md)(bool
-`$allow_broken`): bool
-
-public [\_\_toString](rararchive.tostring.md)(): string
-
-}
+   }
+```
 
 ## Зміст
 
-- [RarArchive::close](rararchive.close.md) - Закриває RAR архів та
-звільняє всі ресурси
-- [RarArchive::getComment](rararchive.getcomment.md) — Отримати
-текст коментаря з архіву RAR
-- [RarArchive::getEntries](rararchive.getentries.md) - Повертає
-повний список елементів з RAR архіву
-- [RarArchive::getEntry](rararchive.getentry.md) — Повертає об'єкт
-елемента з RAR архіву
-- [RarArchive::isBroken](rararchive.isbroken.md) — Перевіряє, чи не
-чи зламаний архів (не завершено)
-- [RarArchive::isSolid](rararchive.issolid.md) — Перевірити, чи є
-чи архів суцільним
-- [RarArchive::open](rararchive.open.md) - Відкриває архів RAR
-- [RarArchive::setAllowBroken](rararchive.setallowbroken.md)
-Чи відкривати пошкоджені архіви
-- [RarArchive::\_\_toString](rararchive.tostring.md) — Отримати
-текстове уявлення
+-   [RarArchive::close](rararchive.close.md) — Закриває RAR архів та звільняє всі ресурси
+-   [RarArchive::getComment](rararchive.getcomment.md) — Отримати текст коментаря з архіву RAR
+-   [RarArchive::getEntries](rararchive.getentries.md) — Повертає повний список елементів із RAR архіву
+-   [RarArchive::getEntry](rararchive.getentry.md) — Повертає об'єкт елемента з архіву RAR
+-   [RarArchive::isBroken](rararchive.isbroken.md) — Перевіряє, чи не зламано архів (не завершено)
+-   [RarArchive::isSolid](rararchive.issolid.md) — Перевірити, чи є архів суцільним
+-   [RarArchive::open](rararchive.open.md) — Відкриває архів RAR
+-   [RarArchive::setAllowBroken](rararchive.setallowbroken.md) — Чи відкривати пошкоджені архіви
+-   [RarArchive::toString](rararchive.tostring.md) — Отримати текстову виставу

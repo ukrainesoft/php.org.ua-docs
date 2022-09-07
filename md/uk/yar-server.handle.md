@@ -1,27 +1,28 @@
-- [«Yar_Server::\_\_construct](yar-server.construct.md)
-- [Yar_Client »](class.yar-client.md)
+---
+navigation:
+  - yar-server.construct.md: '« YarServer::construct'
+  - class.yar-client.md: YarClient »
+  - index.md: PHP Manual
+  - class.yar-server.md: YarServer
+title: 'YarServer::handle'
+---
+# YarServer::handle
 
-- [PHP Manual](index.md)
-- [Yar_Server](class.yar-server.md)
-- Запустити сервер RPC
+(PECL yar >= 1.0.0)
 
-# Yar_Server::handle
-
-(PECL yar \> = 1.0.0)
-
-Yar_Server::handle — Запустити сервер RPC
+YarServer::handle — Запустити сервер RPC
 
 ### Опис
 
-public **Yar_Server::handle**(): bool
+```methodsynopsis
+public Yar_Server::handle(): bool
+```
 
-Запустити сервер RPC HTTP та приготуватися приймати запити.
+Запустити сервер RPC HTTP і підготуватися приймати запити.
 
-> **Примітка**:
->
-> Зазвичай RPC-запити здійснюються за допомогою HTTP POST. Якщо буде
-> використано запит HTTP GET, то буде надрукована інформація про сервіс
-> (закоментована секція вище).
+> **Зауваження**
+> 
+> Зазвичай RPC-запити здійснюються за допомогою HTTP POST. Якщо буде використано запит HTTP GET, то буде надруковано інформацію про сервіс (закоментована секція вище).
 
 ### Список параметрів
 
@@ -33,13 +34,30 @@ boolean
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Server::handle()****
+**Приклад #1 Приклад використання **YarServer::handle()****
 
-` <?phpclass API {    /**    * the doc info will be generated automatically into service info page. * @params     * @return     */    public function some_method($parameter, $option = "foo") {    }    protected function client_can_not_see() {    }}$service = new Yar_Server(new API());$service->handle( );?> `
+```php
+<?php
+class API {
+    /**
+     * the doc info will be generated automatically into service info page.
+     * @params
+     * @return
+     */
+    public function some_method($parameter, $option = "foo") {
+    }
+
+    protected function client_can_not_see() {
+    }
+}
+
+$service = new Yar_Server(new API());
+$service->handle();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [Yar_Server::\_\_construct()](yar-server.construct.md) -
-Конструктор Yar_Server
+-   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer

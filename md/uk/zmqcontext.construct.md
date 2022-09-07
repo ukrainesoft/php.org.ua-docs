@@ -1,44 +1,60 @@
-- [«ZMQContext](class.zmqcontext.md)
-- [ZMQContext::getOpt »](zmqcontext.getopt.md)
+---
+navigation:
+  - class.zmqcontext.md: « ZMQContext
+  - zmqcontext.getopt.md: 'ZMQContext::getOpt »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
+title: 'ZMQContext::construct'
+---
+# ZMQContext::construct
 
-- [PHP Manual](index.md)
-- [ZMQContext](class.zmqcontext.md)
-- Конструктор ZMQContext
+(PECL zmq >= 0.5.0)
 
-# ZMQContext::\_\_construct
-
-(PECL zmq \>= 0.5.0)
-
-ZMQContext::\_\_construct - Конструктор ZMQContext
+ZMQContext::construct - Конструктор ZMQContext
 
 ### Опис
 
-public **ZMQContext::\_\_construct**(int `$io_threads` = 1, bool
-`$is_persistent` = **`true`**)
+```methodsynopsis
+public ZMQContext::__construct(int $io_threads = 1, bool $is_persistent = true)
+```
 
-Створює новий контекст ZMQ. Контекст використовується для ініціалізації
-сокетів. Для ініціалізації постійних сокетів потрібний постійний
-контекст.
+Створює новий контекст ZMQ. Контекст використовується для ініціалізації сокетів. Для ініціалізації постійних сокетів потрібен постійний контекст.
 
 ### Список параметрів
 
 `io_threads`
-Число потоків введення/виводу у контексті.
+
+Число потоків введення/виведення в контексті.
 
 `is_persistent`
-Визначає, чи контекст буде постійним. Постійний контекст
-зберігається протягом безлічі запитів і вимагається для постійних
-з'єднань.
+
+Визначає, чи контекст буде постійним. Постійний контекст зберігається протягом багатьох запитів і потрібен для постійних з'єднань.
 
 ### Помилки
 
-Викидає **ZMQContextException** у разі збою ініціалізації
-контексту.
+Викидає **ZMQ Context Exception** у разі збою ініціалізації контексту.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ZMQContext()****
 
-Створимо новий контекст і створимо сокети з нього
+Створимо новий контекст та створимо сокети з нього
 
-` <?php/* Створюємо новий контекст */$context = new ZMQContext();/* Створюємо новий сокет */$socket = $context->getSocket(ZMQ::SOCKET_REQ, '' сокетом */$socket->connect("tcp://example.com:1234");/* Посилаємо запрос */$socket->send("Hello there");/* Отримуємо відповідь */$message = $ socket->recv();?> `
+```php
+<?php
+/* Создаём новый контекст */
+$context = new ZMQContext();
+
+/* Создаём новый сокет */
+$socket = $context->getSocket(ZMQ::SOCKET_REQ, 'my sock');
+
+/* Соединяемся с сокетом */
+$socket->connect("tcp://example.com:1234");
+
+/* Посылаем запрос */
+$socket->send("Hello there");
+
+/* Получаем ответ */
+$message = $socket->recv();
+?>
+```

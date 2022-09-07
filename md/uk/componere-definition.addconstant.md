@@ -1,31 +1,34 @@
-- [« Componere\Definition::\_\_construct](componere-definition.construct.md)
-- [Componere\Definition::addProperty »](componere-definition.addproperty.md)
+---
+navigation:
+  - componere-definition.construct.md: '« ComponereDefinition::construct'
+  - componere-definition.addproperty.md: 'ComponereDefinition::addProperty »'
+  - index.md: PHP Manual
+  - class.componere-definition.md: ComponereDefinition
+title: 'ComponereDefinition::addConstant'
+---
+# ComponereDefinition::addConstant
 
-- [PHP Manual](index.md)
-- [Componere\Definition](class.componere-definition.md)
-- додає константу
+(Componere 2 >= 2.1.0)
 
-# Componere\Definition::addConstant
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Definition::addConstant — Додає константу
+ComponereDefinition::addConstant — Додає константу
 
 ### Опис
 
-public **Componere\Definition::addConstant**(string `$name`,
-[Componere\Value](class.componere-value.md) `$value`): Definition
+```methodsynopsis
+public Componere\Definition::addConstant(string $name, Componere\Value $value): Definition
+```
 
 Повинен оголосити константу класу у поточному визначенні
 
 ### Список параметрів
 
 `name`
+
 Реєстронезалежне ім'я константи
 
 `value`
-Значення константи не повинно бути невизначеним (undefined) або
-статичним
+
+Значення константи має бути невизначеним (undefined) чи статичним
 
 ### Значення, що повертаються
 
@@ -35,20 +38,16 @@ public **Componere\Definition::addConstant**(string `$name`,
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо `name` вже оголошено як константа
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` вже оголошено як константа
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо `value` є статичним
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `value` є статичним
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо `value` є невизначеним
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `value` є невизначеним

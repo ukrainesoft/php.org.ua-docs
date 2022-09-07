@@ -1,28 +1,31 @@
-- [« Imagick::setColorspace](imagick.setcolorspace.md)
-- [Imagick::setCompressionQuality »](imagick.setcompressionquality.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює тип стиснення об'єкта за замовчуванням
-
+---
+navigation:
+  - imagick.setcolorspace.md: '« Imagick::setColorspace'
+  - imagick.setcompressionquality.md: 'Imagick::setCompressionQuality »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setCompression'
+---
 # Imagick::setCompression
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setCompression — Встановлює тип стиснення об'єкта за промовчанням
+Imagick::setCompression — Встановлює тип стандартного стиснення об'єкта.
 
 ### Опис
 
-public **Imagick::setCompression**(int `$compression`): bool
+```methodsynopsis
+public Imagick::setCompression(int $compression): bool
+```
 
 Встановлює тип стиснення об'єкта за промовчанням.
 
 ### Список параметрів
 
 `compression`
-Тип стиску. Дивіться константи
-[Imagick::COMPRESSION\_\*](imagick.constants.md).
+
+Тип стиснення. Дивіться константи [Imagick::COMPRESSION](imagick.constants.md)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

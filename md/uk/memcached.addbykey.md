@@ -1,63 +1,49 @@
-- [«Memcached::add](memcached.add.md)
-- [Memcached::addServer »](memcached.addserver.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Додає новий елемент на заданий сервер
-
+---
+navigation:
+  - memcached.add.md: '« Memcached::add'
+  - memcached.addserver.md: 'Memcached::addServer »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::addByKey'
+---
 # Memcached::addByKey
 
-(PECL memcached \>= 0.1.0)
+(PECL memcached >= 0.1.0)
 
 Memcached::addByKey — Додає новий елемент на заданий сервер
 
 ### Опис
 
-public **Memcached::addByKey**(
-string `$server_key`,
-string `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value,
-int `$expiration` = ?
-): bool
+```methodsynopsis
+public Memcached::addByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
+```
 
-**Memcached::addByKey()** працює аналогічно
-[Memcached::add()](memcached.add.md), за винятком того, що
-довільний `server_key` може бути використаний для визначення сервера
-та встановлення значення з ключем `key` на конкретний сервер. Це корисно
-коли необхідно тримати кілька пов'язаних значень на конкретному
-сервер.
+**Memcached::addByKey()** працює аналогічно [Memcached::add()](memcached.add.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
 
 ### Список параметрів
 
 `server_key`
-Ключ, що ідентифікує сервер, де зберігається значення. Замість
-хешування за ключом самого елемента, ми хешуємо за ключом сервера при
-Вибір сервера, що підключається, memcached. Цей підхід дозволяє
-групувати пов'язані елементи разом на одному сервері, що покращує
-ефективність групових операцій.
+
+Ключ, що ідентифікує сервер, де зберігається значення. Замість хешування за ключем самого елемента, ми хешуємо по ключу сервера при виборі сервера, що підключається, memcached. Цей підхід дозволяє групувати зв'язані елементи разом на одному сервері, що покращує ефективність групових операцій.
 
 `key`
+
 Ключ, під яким зберігається значення.
 
 `value`
-Значення, що зберігається.
+
+Зберігається значення.
 
 `expiration`
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш докладної
-інформації дивіться [Час зберігання об'єкта](memcached.expiration.md).
+
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Метод
-[Memcached::getResultCode()](memcached.getresultcode.md) повертає
-**`Memcached::RES_NOTSTORED`**, якщо переданий ключ уже існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає \*\*`Memcached::RES_NOTSTORED`\*\*якщо переданий ключ вже існує.
 
 ### Дивіться також
 
-- [Memcached::add()](memcached.add.md) - Додає елемент із новим
-ключем
-- [Memcached::set()](memcached.set.md) - Зберігає запис
-- [Memcached::replace()](memcached.replace.md) - Замінює
-існуючий запис із зазначеним ключем
+-   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем
+-   [Memcached::set()](memcached.set.md) - Зберігає запис
+-   [Memcached::replace()](memcached.replace.md) - Замінює існуючий запис із зазначеним ключем

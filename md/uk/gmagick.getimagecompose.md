@@ -1,20 +1,22 @@
-- [« Gmagick::getimagecolorspace](gmagick.getimagecolorspace.md)
-- [Gmagick::getimagedelay »](gmagick.getimagedelay.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає складовий оператор, пов'язаний із зображенням
-
+---
+navigation:
+  - gmagick.getimagecolorspace.md: '« Gmagick::getimagecolorspace'
+  - gmagick.getimagedelay.md: 'Gmagick::getimagedelay »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagecompose'
+---
 # Gmagick::getimagecompose
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagecompose — Повертає складовий оператор, пов'язаний з
-зображенням
+Gmagick::getimagecompose — Повертає складовий оператор, пов'язаний із зображенням
 
 ### Опис
 
-public **Gmagick::getimagecompose**(): int
+```methodsynopsis
+public Gmagick::getimagecompose(): int
+```
 
 Повертає складовий оператор, пов'язаний із зображенням.
 

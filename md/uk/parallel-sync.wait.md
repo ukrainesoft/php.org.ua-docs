@@ -1,18 +1,19 @@
-- [« parallel\Sync::set](parallel-sync.set.md)
-- [parallel\Sync::notify »](parallel-sync.notify.md)
+---
+navigation:
+  - parallel-sync.set.md: '« parallelSync::set'
+  - parallel-sync.notify.md: 'parallelSync::notify »'
+  - index.md: PHP Manual
+  - class.parallel-sync.md: parallelSync
+title: 'parallelSync::wait'
+---
+# parallelSync::wait
 
-- [PHP Manual](index.md)
-- [parallel\Sync](class.parallel-sync.md)
-- Синхронізація
-
-# parallel\Sync::wait
-
-(1.1.0)
-
-parallel\Sync::wait — Синхронізація
+parallelSync::wait — Синхронізація
 
 ### Опис
 
-public **parallel\Sync::wait**()
+```methodsynopsis
+public parallel\Sync::wait()
+```
 
-Очікує повідомлення про цей об'єкт синхронізації.
+Очікує сповіщення про цей об'єкт синхронізації.

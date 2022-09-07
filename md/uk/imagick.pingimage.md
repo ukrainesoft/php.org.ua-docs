@@ -1,10 +1,11 @@
-- [« Imagick::paintTransparentImage](imagick.painttransparentimage.md)
-- [Imagick::pingImageBlob »](imagick.pingimageblob.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує основні атрибути зображення
-
+---
+navigation:
+  - imagick.painttransparentimage.md: '« Imagick::paintTransparentImage'
+  - imagick.pingimageblob.md: 'Imagick::pingImageBlob »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::pingImage'
+---
 # Imagick::pingImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,16 +14,18 @@ Imagick::pingImage — Отримує основні атрибути зобра
 
 ### Опис
 
-public **Imagick::pingImage**(string `$filename`): bool
+```methodsynopsis
+public Imagick::pingImage(string $filename): bool
+```
 
-Метод можна використовувати для запиту ширини, висоти, розміру та формату
-зображення без зчитування всього зображення на згадку.
+Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку.
 
 ### Список параметрів
 
 `filename`
-Ім'я файлу, з якого слід прочитати інформацію.
+
+Ім'я файлу, з якого потрібно прочитати інформацію.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

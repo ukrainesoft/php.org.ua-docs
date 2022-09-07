@@ -1,28 +1,42 @@
-- [« Yaf_Exception_LoadFailed_Module](class.yaf-exception-loadfailed-module.md)
-- [Yaf_Exception_LoadFailed_Action »](class.yaf-exception-loadfailed-action.md)
+---
+navigation:
+  - class.yaf-exception-loadfailed-module.md: « YafExceptionLoadFailedModule
+  - class.yaf-exception-loadfailed-action.md: YafExceptionLoadFailedAction »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafExceptionLoadFailedController
+---
+# Клас YafExceptionLoadFailedController
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Exception_LoadFailed_Controller
-
-# Клас Yaf_Exception_LoadFailed_Controller
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Yaf_Exception_LoadFailed_Controller** extends
-[Yaf_Exception_LoadFailed](class.yaf-exception-loadfailed.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-/\* Методи \*/
+    
+    
+     
+      class Yaf_Exception_LoadFailed_Controller
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       Yaf_Exception_LoadFailed
+     
+     {
+    
+    /* Свойства */
 
-public [Yaf_Exception::getPrevious](yaf-exception.getprevious.md)():
-void
+    /* Методы */
 
-}
+    /* Наследуемые методы */
+    
+   public Yaf_Exception::getPrevious(): void
+
+
+   }
+```

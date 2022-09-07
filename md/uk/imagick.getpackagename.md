@@ -1,10 +1,11 @@
-- [« Imagick::getOption](imagick.getoption.md)
-- [Imagick::getPage »](imagick.getpage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає ім'я ImageMagick
-
+---
+navigation:
+  - imagick.getoption.md: '« Imagick::getOption'
+  - imagick.getpage.md: 'Imagick::getPage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getPackageName'
+---
 # Imagick::getPackageName
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getPackageName — Повертає ім'я пакета ImageMagick
 
 ### Опис
 
-public static **Imagick::getPackageName**(): string
+```methodsynopsis
+public static Imagick::getPackageName(): string
+```
 
 Повертає ім'я ImageMagick.
 

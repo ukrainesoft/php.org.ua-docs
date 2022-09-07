@@ -1,41 +1,57 @@
-- [«parallel\Events\Event](class.parallel-events-event.md)
-- [parallel\Sync »](class.parallel-sync.md)
-
-- [PHP Manual](index.md)
-- [parallel](book.parallel.md)
-- Клас parallel\Events\Event\Type
-
-# Клас parallel\Events\Event\Type
-
-(0.9.0)
+---
+navigation:
+  - class.parallel-events-event.md: « parallelEventsEvent
+  - class.parallel-sync.md: parallelSync »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelEventsEventType
+---
+# Клас parallelEventsEventType
 
 ## Огляд класів
 
-final class **parallel\Events\Event\Type** {
+```synopsis
 
-/\* Event::$object був прочитаний в Event::$value \*/
 
-const `Read`;
 
-/\* Input for Event::$source записано в Event::$object \*/
+    
+     
+      final
+      class parallel\Events\Event\Type
+     
+     {
 
-const `Write`;
 
-/\* Event::$object (Канал) було закрито \*/
+    /* Event::$object был прочитан в Event::$value */
+    
+     const
+      Read;
 
-const `Close`;
 
-/\* Event::$object (Ф'ючерс) було припинено \*/
+    /* Input for Event::$source записан в Event::$object */
+    const
+      Write;
 
-const `Cancel`;
 
-/\* Середовище виконання, що виконує Event::$object (Ф'ючерс), було
-знищено \*/
+    /* Event::$object (Канал) был закрыт */
+    const
+      Close;
 
-const `Kill`;
 
-/\* Event::$object (ф'ючерс) видав помилку \*/
+    /* Event::$object (Фьючерс) был прекращён */
+    const
+      Cancel;
 
-const `Error`;
 
-}
+    /* Среда выполнения, выполняющая Event::$object (Фьючерс), была уничтожена */
+    const
+      Kill;
+
+
+    /* Event::$object (фьючерс) выдал ошибку */
+    const
+      Error;
+
+
+   }
+```

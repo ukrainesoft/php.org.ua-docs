@@ -1,19 +1,22 @@
-- [« SolrParams::getPreparedParams](solrparams.getpreparedparams.md)
-- [SolrParams::set »](solrparams.set.md)
-
-- [PHP Manual](index.md)
-- [SolrParams](class.solrparams.md)
-- Використовується для серіалізації користувача
-
+---
+navigation:
+  - solrparams.getpreparedparams.md: '« SolrParams::getPreparedParams'
+  - solrparams.set.md: 'SolrParams::set »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'SolrParams::serialize'
+---
 # SolrParams::serialize
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrParams::serialize — Використовується для серіалізації користувача.
 
 ### Опис
 
-final public **SolrParams::serialize**(): string
+```methodsynopsis
+final public SolrParams::serialize(): string
+```
 
 Використовується для серіалізації користувача
 

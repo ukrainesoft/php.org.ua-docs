@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\MySQL::getDefer](swoole-coroutine-mysql.getdefer.md)
-- [Swoole\Coroutine\MySQL::recv »](swoole-coroutine-mysql.recv.md)
+---
+navigation:
+  - swoole-coroutine-mysql.getdefer.md: '« SwooleCoroutineMySQL::getDefer'
+  - swoole-coroutine-mysql.recv.md: 'SwooleCoroutineMySQL::recv »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::query'
+---
+# SwooleCoroutineMySQL::query
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\MySQL::query
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\MySQL::query — Опис
+SwooleCoroutineMySQL::query — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\MySQL::query**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\MySQL::query(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

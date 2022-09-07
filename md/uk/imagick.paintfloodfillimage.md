@@ -1,65 +1,55 @@
-- [« Imagick::orderedPosterizeImage](imagick.orderedposterizeimage.md)
-- [Imagick::paintOpaqueImage »](imagick.paintopaqueimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Змінює значення кольору будь-якого пікселя, що відповідає меті
-
+---
+navigation:
+  - imagick.orderedposterizeimage.md: '« Imagick::orderedPosterizeImage'
+  - imagick.paintopaqueimage.md: 'Imagick::paintOpaqueImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::paintFloodfillImage'
+---
 # Imagick::paintFloodfillImage
 
-(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
+(PECL imagick 2> = 2.1.0, PECL imagick 3)
 
-Imagick::paintFloodfillImage — Змінює значення кольору будь-якого пікселя,
-відповідної мети
+Imagick::paintFloodfillImage — Змінює значення кольору будь-якого пікселя, що відповідає меті
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::paintFloodfillImage**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fill`,
-float `$fuzz`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$bordercolor,
-int `$x`,
-int `$y`,
-int `$channel` = Imagick::CHANNEL_DEFAULT
-): bool
+```methodsynopsis
+public Imagick::paintFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Змінює значення кольору будь-якого пікселя, який відповідає цілі та
-є найближчим сусідом. Починаючи з ImageMagick 6.3.8, цей метод
-застарів і замість нього слід використати
-[Imagick::floodfillPaintImage()](imagick.floodfillpaintimage.md).
+Змінює значення кольору будь-якого пікселя, який відповідає цілі та є найближчим сусідом. Починаючи з ImageMagick 6.3.8, цей метод застарів і замість нього слід використовувати [Imagick::floodfillPaintImage()](imagick.floodfillpaintimage.md)
 
 ### Список параметрів
 
 `fill`
+
 Об'єкт ImagickPixel або рядок, який містить колір заливки.
 
 `fuzz`
-Міра заокруглення (fuzz). Наприклад, встановіть значення fuzz в 10 і
-червоний колір з інтенсивністю 100 та 102 буде інтерпретуватися як
-той самий колір.
 
-'bordercolor'
+міра округлення (fuzz). Для прикладу, встановіть значення fuzz 10 і червоний колір з інтенсивністю 100 і 102 буде інтерпретуватися як один і той же колір.
+
+`bordercolor`
+
 Об'єкт ImagickPixel або рядок, який містить цільовий колір для малювання.
 
 `x`
-Початкова позиція заливки на осі X.
+
+Початкова позиція заливки осі X.
 
 `y`
-Початкова позиція заливки на осі Y.
+
+Початкова позиція заливки осі Y.
 
 `channel`
-Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
-побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
+
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

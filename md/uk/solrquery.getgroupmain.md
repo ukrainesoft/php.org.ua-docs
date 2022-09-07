@@ -1,19 +1,22 @@
-- [«SolrQuery::getGroupLimit](solrquery.getgrouplimit.md)
-- [SolrQuery::getGroupNGroups »](solrquery.getgroupngroups.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення group.main
-
+---
+navigation:
+  - solrquery.getgrouplimit.md: '« SolrQuery::getGroupLimit'
+  - solrquery.getgroupngroups.md: 'SolrQuery::getGroupNGroups »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupMain'
+---
 # SolrQuery::getGroupMain
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroupMain — Повертає значення group.main
 
 ### Опис
 
-public **SolrQuery::getGroupMain**(): bool
+```methodsynopsis
+public SolrQuery::getGroupMain(): bool
+```
 
 Повертає значення group.main
 
@@ -25,7 +28,4 @@ public **SolrQuery::getGroupMain**(): bool
 
 ### Дивіться також
 
-- [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо
-true, результат першої команди угруповання полів використовується в
-як основний список результатів у відповіді з використанням
-group.format=simple
+-   [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо true, результат першої команди угруповання полів використовується як основний список результатів у відповіді з використанням group.format=simple

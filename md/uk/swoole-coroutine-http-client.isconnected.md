@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Http\Client::getDefer](swoole-coroutine-http-client.getdefer.md)
-- [Swoole\Coroutine\Http\Client::post »](swoole-coroutine-http-client.post.md)
+---
+navigation:
+  - swoole-coroutine-http-client.getdefer.md: '« SwooleCoroutineHttpClient::getDefer'
+  - swoole-coroutine-http-client.post.md: 'SwooleCoroutineHttpClient::post »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::isConnected'
+---
+# SwooleCoroutineHttpClient::isConnected
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::isConnected
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::isConnected — Опис
+SwooleCoroutineHttpClient::isConnected — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::isConnected**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::isConnected(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

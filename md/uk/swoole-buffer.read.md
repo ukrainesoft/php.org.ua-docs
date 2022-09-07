@@ -1,27 +1,31 @@
-- [« Swoole\Buffer::expand](swoole-buffer.expand.md)
-- [Swoole\Buffer::recycle »](swoole-buffer.recycle.md)
+---
+navigation:
+  - swoole-buffer.expand.md: '« SwooleBuffer::expand'
+  - swoole-buffer.recycle.md: 'SwooleBuffer::recycle »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.md: SwooleBuffer
+title: 'SwooleBuffer::read'
+---
+# SwooleBuffer::read
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Читає дані з буфера пам'яті на основі усунення та довжини
+(PECL swoole >= 1.9.0)
 
-# Swoole\Buffer::read
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Buffer::read — Читає дані з буфера пам'яті на основі зміщення
-та довжини
+SwooleBuffer::read — Читає дані з буфера пам'яті на основі зміщення та довжини
 
 ### Опис
 
-public **Swoole\Buffer::read**(int `$offset`, int `$length`): string
+```methodsynopsis
+public Swoole\Buffer::read(int $offset, int $length): string
+```
 
 ### Список параметрів
 
 `offset`
+
 Зміщення.
 
 `length`
+
 довжина.
 
 ### Значення, що повертаються

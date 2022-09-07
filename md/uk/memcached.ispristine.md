@@ -1,23 +1,24 @@
-- [« Memcached::isPersistent](memcached.ispersistent.md)
-- [Memcached::prepend »](memcached.prepend.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Перевіряє чи вже створено екземпляр класу Memcached
-
+---
+navigation:
+  - memcached.ispersistent.md: '« Memcached::isPersistent'
+  - memcached.prepend.md: 'Memcached::prepend »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::isPristine'
+---
 # Memcached::isPristine
 
-(PECL memcached \>= 2.0.0)
+(PECL memcached >= 2.0.0)
 
-Memcached::isPristine — Перевіряє чи вже створено екземпляр класу
-Memcached
+Memcached::isPristine — Перевіряє чи вже створено екземпляр класу Memcached
 
 ### Опис
 
-public **Memcached::isPristine**(): bool
+```methodsynopsis
+public Memcached::isPristine(): bool
+```
 
-**Memcached::isPristine()** перевіряє чи створено екземпляр класу
-Memcache
+**Memcached::isPristine()** перевіряє чи створено екземпляр класу Memcache
 
 ### Список параметрів
 
@@ -25,10 +26,8 @@ Memcache
 
 ### Значення, що повертаються
 
-Повертає true якщо екземпляр класу вже створено та false у протилежному
-випадку.
+Повертає true якщо екземпляр класу вже створено і false інакше.
 
 ### Дивіться також
 
-- [Memcached::isPersistent()](memcached.ispersistent.md) - Перевіряє
-чи використовується стійке з'єднання з сервером memcache
+-   [Memcached::isPersistent()](memcached.ispersistent.md) - Перевіряє чи використовується стійке з'єднання з сервером memcache

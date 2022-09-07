@@ -1,30 +1,31 @@
-- [« fann_get_cascade_output_stagnation_epochs](function.fann-get-cascade-output-stagnation-epochs.md)
-- [fann_get_connection_array »](function.fann-get-connection-array.md)
+---
+navigation:
+  - function.fann-get-cascade-output-stagnation-epochs.md: « fanngetcascadeoutputstagnationepochs
+  - function.fann-get-connection-array.md: fanngetconnectionarray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadeweightmultiplier
+---
+# fanngetcascadeweightmultiplier
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає множник ваги
+(PECL fann> = 1.0.0)
 
-# fann_get_cascade_weight_multiplier
-
-(PECL fann = 1.0.0)
-
-fann_get_cascade_weight_multiplier — Повертає множник ваги
+fanngetcascadeweightmultiplier — Повертає множник ваги
 
 ### Опис
 
-**fann_get_cascade_weight_multiplier**(resource `$ann`): float
+```methodsynopsis
+fann_get_cascade_weight_multiplier(resource $ann): float
+```
 
-Множник ваги – це параметр, який використовується для множення ваги
-нейрона-кандидата перед додаванням нейрона до нейронної мережі. Цей
-параметр зазвичай знаходиться в діапазоні від 0 до 1 і використовується, щоб
-зробити тренування менш агресивним.
+Множник ваги - це параметр, який використовується для множення ваги нейрона-кандидата перед додаванням нейрона до нейронної мережі. Цей параметр зазвичай знаходиться в діапазоні від 0 до 1 і використовується, щоб зробити тренування менш агресивним.
 
 Множник ваги за промовчанням дорівнює 0.4.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
@@ -33,5 +34,4 @@ fann_get_cascade_weight_multiplier — Повертає множник ваги
 
 ### Дивіться також
 
-- [fann_set_cascade_weight_multiplier()](function.fann-set-cascade-weight-multiplier.md) -
-Встановлює множник ваги
+-   [fannsetcascadeweightmultiplier()](function.fann-set-cascade-weight-multiplier.md) - Встановлює множник ваги

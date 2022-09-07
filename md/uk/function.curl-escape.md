@@ -1,53 +1,73 @@
-- [«curl_error](function.curl-error.md)
-- [curl_exec »](function.curl-exec.md)
+---
+navigation:
+  - function.curl-error.md: « curlerror
+  - function.curl-exec.md: curlexec »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlescape
+---
+# curlescape
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Кодує заданий рядок як URL
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-#curl_escape
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-curl_escape — кодує заданий рядок як URL
+curlescape — Кодує заданий рядок як URL
 
 ### Опис
 
-**curl_escape**([CurlHandle](class.curlhandle.md) `$handle`, string
-`$string`): string\|false
+```methodsynopsis
+curl_escape(CurlHandle $handle, string $string): string|false
+```
 
-Кодує рядок згідно [RFC 3986](http://www.faqs.org/rfcs/rfc3986).
+Кодує рядок згідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 `string`
+
 Рядок для кодування.
 
 ### Значення, що повертаються
 
-Повертає екранований рядок або **`false`** у разі виникнення
-помилки.
+Повертає екранований рядок або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------- |
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curl_escape()****
+**Приклад #1 Приклад використання **curlescape()****
 
-` <?php// Створюємо обробник curl$ch = curl_init();// Екрануємо рядок, хочемо хотімо передати методом GET$location = curl_escape($ch, 'Hofbräu %20%2F%20M%C3%BCnchen// Збираємо URL по частям$url = "http://example.com/add_location.php?location={$location}";// Результат: http://example. com/add_location.php?location=Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen// Посилаємо запрос HTTP і закриваємо обробникcurl_setopt($ch, CURLOPT_URL, $R ;curl_exec($ch);curl_close($ch);?> `
+```php
+<?php
+// Создаём обработчик curl
+$ch = curl_init();
+
+// Экранируем строку, которую хотим передать методом GET
+$location = curl_escape($ch, 'Hofbräuhaus / München');
+// Результат: Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen
+
+// Собираем URL по частям
+$url = "http://example.com/add_location.php?location={$location}";
+// Результат: http://example.com/add_location.php?location=Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen
+
+// Посылаем запрос HTTP и закрываем обработчик
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_exec($ch);
+curl_close($ch);
+?>
+```
 
 ### Дивіться також
 
-- [curl_unescape()](function.curl-unescape.md) - Декодує
-закодований URL-рядок
-- [urlencode()](function.urlencode.md) - URL-кодування рядка
-- [rawurlencode()](function.rawurlencode.md) - URL-кодування
-рядки згідно з RFC 3986
-- [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [curlunescape()](function.curl-unescape.md) - Декодує закодований URL-рядок
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

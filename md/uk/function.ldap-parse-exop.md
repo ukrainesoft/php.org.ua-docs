@@ -1,59 +1,54 @@
-- [«ldap_next_reference](function.ldap-next-reference.md)
-- [ldap_parse_reference »](function.ldap-parse-reference.md)
+---
+navigation:
+  - function.ldap-next-reference.md: « ldapnextreference
+  - function.ldap-parse-reference.md: ldapparsereference »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapparseexop
+---
+# ldapparseexop
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Розбір результуючого об'єкта виконання розширеної операції LDAP
+(PHP 7> = 7.2.0, PHP 8)
 
-#ldap_parse_exop
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-ldap_parse_exop — Розбір результуючого об'єкта виконання розширеної
-операції LDAP
+ldapparseexop — Розбір результуючого об'єкта виконання розширеної операції LDAP
 
 ### Опис
 
-**ldap_parse_exop**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-[LDAP\Result](class.ldap-result.md) `$result`,
-string `&$response_data` = **`null`**,
-string `&$response_oid` = **`null`**
-): bool
+```methodsynopsis
+ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,    string &$response_data = null,    string &$response_oid = null): bool
+```
 
-Розбирає `result`, отриманий після виконання розширеної операції
-LDAP
+Розбирає `result`отриманий після виконання розширеної операції LDAP
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
-Примірник [LDAP\Result](class.ldap-result.md), що повертається
-[ldap_list()](function.ldap-list.md) або
-[ldap_search()](function.ldap-search.md).
+
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 `response_data`
+
 Буде заповнений розібраними даними.
 
 `response_oid`
+
 Буде заповнено поверненим OID.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
-- [ldap_exop()](function.ldap-exop.md) - Виконати розширену
-операцію
+-   [ldapexop()](function.ldap-exop.md) - Виконує розширену операцію

@@ -1,23 +1,24 @@
-- [« Swoole\MySQL::getBuffer](swoole-mysql.getbuffer.md)
-- [Swoole\MySQL::query »](swoole-mysql.query.md)
+---
+navigation:
+  - swoole-mysql.getbuffer.md: '« SwooleMySQL::getBuffer'
+  - swoole-mysql.query.md: 'SwooleMySQL::query »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.md: SwooleMySQL
+title: 'SwooleMySQL::on'
+---
+# SwooleMySQL::on
 
-- [PHP Manual](index.md)
-- [Swoole\MySQL](class.swoole-mysql.md)
-- реєструє callback-функцію на основі імені події
+(PECL swoole >= 1.9.0)
 
-# Swoole\MySQL::on
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\MySQL::on - Реєструє callback-функцію на основі імені події
+SwooleMySQL::on - Реєструє callback-функцію на основі імені події
 
 ### Опис
 
-public **Swoole\MySQL::on**(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\MySQL::on(string $event_name, callable $callback): void
+```
 
-Реєструє callback-функцію на основі імені події, на даний момент
-підтримується лише подія 'close'.
+Реєструє callback-функцію на основі імені події, на даний момент підтримується лише подія 'close'.
 
 ### Список параметрів
 

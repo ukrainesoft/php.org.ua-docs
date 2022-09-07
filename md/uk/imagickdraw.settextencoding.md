@@ -1,10 +1,11 @@
-- [« ImagickDraw::setTextDecoration](imagickdraw.settextdecoration.md)
-- [ImagickDraw::setTextInterlineSpacing »](imagickdraw.settextinterlinespacing.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Задає кодовий набір тексту
-
+---
+navigation:
+  - imagickdraw.settextdecoration.md: '« ImagickDraw::setTextDecoration'
+  - imagickdraw.settextinterlinespacing.md: 'ImagickDraw::setTextInterlineSpacing »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextEncoding'
+---
 # ImagickDraw::setTextEncoding
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,24 +14,20 @@ ImagickDraw::setTextEncoding — Задає кодовий набір текст
 
 ### Опис
 
-public **ImagickDraw::setTextEncoding**(string `$encoding`): bool
+```methodsynopsis
+public ImagickDraw::setTextEncoding(string $encoding): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Задає кодовий набір, який використовуватиметься для текстових
-анотацій. Єдине кодування символів, яке може бути вказане в
-В даний час - це "UTF-8" для представлення Unicode як
-послідовність байтів. Вкажіть порожній рядок, щоб встановити
-кодування тексту за промовчанням у системі. Для успішного анотування
-тексту з використанням Unicode можуть знадобитися шрифти,
-підтримують Unicode.
+Задає кодовий набір, який використовуватиметься для текстових анотацій. Єдине кодування символів, яке може бути вказане в даний час, це "UTF-8" для представлення Unicode як послідовності байтів. Вкажіть порожній рядок, щоб встановити кодування тексту за промовчанням у системі. Для успішного анотування тексту з Unicode можуть знадобитися шрифти, які підтримують Unicode.
 
 ### Список параметрів
 
 `encoding`
+
 Ім'я кодування.
 
 ### Значення, що повертаються

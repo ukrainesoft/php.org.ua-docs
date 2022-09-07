@@ -1,49 +1,60 @@
-- [«gmp_rootrem](function.gmp-rootrem.md)
-- [gmp_scan1 »](function.gmp-scan1.md)
+---
+navigation:
+  - function.gmp-rootrem.md: « gmprootrem
+  - function.gmp-scan1.md: gmpscan1 »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpscan0
+---
+# gmpscan0
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Пошук нуля в числі
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-# gmp_scan0
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_scan0 — Пошук нуля в числі
+gmpscan0 — Пошук нуля в числі
 
 ### Опис
 
-**gmp_scan0**([GMP](class.gmp.md)\|int\|string `$num1`, int `$start`):
-int
+```methodsynopsis
+gmp_scan0(GMP|int|string $num1, int $start): int
+```
 
-Сканує `num1`, починаючи з біту `start`, доки не знайде біт
-встановлений 0.
+Сканує `num1`, починаючи з біта `start`, Доки не знайде біт встановлений в 0.
 
 ### Список параметрів
 
 `num1`
-Число сканування.
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Число для сканування.
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `start`
+
 Біт початку сканування.
 
 ### Значення, що повертаються
 
-Повертає індекс знайденого біта як числа (int). Індексація
-починається з нуля.
+Повертає індекс знайденого біта як числа (int). Індексація починається із нуля.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_scan0()****
+**Приклад #1 Приклад використання **gmpscan0()****
 
-`<?php//""0" біт знайде на позиції 3. пошук починається с 0$s1 = gmp_init("10111", 2);echo gmp_scan0($s1, 0) . "
-";// "0" біт знайде на позиції 7. пошук починається з 5$s2 = gmp_init("101110000", 2);echo gmp_scan0($s2, 5) .
-";?> `
+```php
+<?php
+// "0" бит найдёт на позиции 3. поиск начинается с 0
+$s1 = gmp_init("10111", 2);
+echo gmp_scan0($s1, 0) . "\n";
+
+// "0" бит найдёт на позиции 7. поиск начинается с 5
+$s2 = gmp_init("101110000", 2);
+echo gmp_scan0($s2, 5) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3
 7
+```

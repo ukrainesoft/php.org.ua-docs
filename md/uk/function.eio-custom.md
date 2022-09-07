@@ -1,88 +1,115 @@
-- [«eio_close](function.eio-close.md)
-- [eio_dup2 »](function.eio-dup2.md)
+---
+navigation:
+  - function.eio-close.md: « eioclose
+  - function.eio-dup2.md: eiodup2 »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiocustom
+---
+# eiocustom
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Виконує запит користувача як будь-який інший eio\_\* виклик
+(PECL eio >= 0.0.1dev)
 
-#eio_custom
-
-(PECL eio \>= 0.0.1dev)
-
-eio_custom — Виконує запит користувача як будь-який інший
-*eio\_\** виклик
+eiocustom — Виконує запит користувача як будь-який інший *eio* виклик
 
 ### Опис
 
-**eio_custom**(
-[callable](language.types.callable.md) `$execute`,
-int `$pri`,
-[callable](language.types.callable.md) `$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_custom(    callable $execute,    int $pri,    callable $callback,    mixed $data = NULL): resource
+```
 
-**eio_custom()** виконує функцію користувача, визначену в
-параметрі `execute` як будь-який інший виклик запитів *eio\_\**.
+**eiocustom()** виконує функцію користувача, визначену в параметрі `execute` як будь-який інший виклик запитів *eio*
 
 ### Список параметрів
 
 `execute`
+
 Вказується функція, що відповідає нижченаведеному прототипу:
 
+```
 mixed execute(mixed data);
+```
 
-Параметр `callback` містить callback-функцію, що виконується за
-завершення виконання запиту. Функція повинна відповідати прототипу:
+Параметр `callback` містить callback-функцію, що виконується після завершення виконання запиту. Функція повинна відповідати прототипу:
 
+```
 void callback(mixed data, mixed result);
+```
 
-`data` - дані, що передаються в функцію, вказану в `execute` через
-аргумент `data`, без будь-яких змін. `result` - значення,
-повертається функцією у параметрі `execute`
+`data` - дані, що передаються у функцію, зазначену в `execute` через аргумент `data`, без будь-яких змін . `result` - значення, яке повертається функцією у параметрі `execute`
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-**eio_custom()** повертає вказівник на запит у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eiocustom()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eio_custom()****
+**Приклад #1 Приклад використання **eiocustom()****
 
-` <?php/* Користувацька callback-функція */function my_custom_callback($data, $result) {    var_dump($data); var_dump(count($result)); var_dump($result['data_modified']); var_dump($result['result']);}/* Користувацький запит */function my_custom($data) {    var_dump($data); $result  = array(         'result'        => 1001,       'data_modified' => "my custom data", || return $result;}$data=="my_custom_data";$req = eio_custom("my_custom", EIO_PRI_DEFAULT, "my_custom_callback", $data);var_dump($req);eio_event_lo>
+```php
+<?php
+/* Пользовательская callback-функция */
+function my_custom_callback($data, $result) {
+    var_dump($data);
+    var_dump(count($result));
+    var_dump($result['data_modified']);
+    var_dump($result['result']);
+}
+
+/* Пользовательский запрос */
+function my_custom($data) {
+    var_dump($data);
+
+    $result  = array(
+        'result'        => 1001,
+        'data_modified' => "my custom data",
+    );
+
+    return $result;
+}
+
+$data = "my_custom_data";
+$req = eio_custom("my_custom", EIO_PRI_DEFAULT, "my_custom_callback", $data);
+var_dump($req);
+eio_event_loop();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 resource(4) of type (EIO Request Descriptor)
 string(14) "my_custom_data"
 string(14) "my_custom_data"
 int(2)
 string(14) "my custom data"
 int(1001)
+```

@@ -1,87 +1,88 @@
-- [« geoip_org_by_name](function.geoip-org-by-name.md)
-- [geoip_region_by_name »](function.geoip-region-by-name.md)
+---
+navigation:
+  - function.geoip-org-by-name.md: « geoiporgбname
+  - function.geoip-region-by-name.md: geoipregionбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoiprecordбname
+---
+# geoiprecordбname
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Повертає докладну інформацію про адресу, знайдену в базі GeoIP
+(PECL geoip >= 0.2.0)
 
-# geoip_record_by_name
-
-(PECL geoip \>= 0.2.0)
-
-geoip_record_by_name — Повертає докладну інформацію про адресу,
-знайденому у базі GeoIP
+geoiprecordбname — Повертає детальну інформацію про адресу, знайдену в базі GeoIP
 
 ### Опис
 
-**geoip_record_by_name**(string `$hostname`): array
+```methodsynopsis
+geoip_record_by_name(string $hostname): array
+```
 
-Функція **geoip_record_by_name()** повертає інформацію про адресу,
-відповідне ім'я хоста або IP-адреси.
+Функція **geoiprecordбname()** повертає інформацію про адресу, що відповідає імені хоста або IP-адреси.
 
-Функція доступна для безкоштовної версії GeoLite City Edition та
-комерційної GeoIP City Edition. Якщо необхідних баз немає,
-виводиться попередження.
+Функція доступна для безкоштовної версії GeoLite City Edition та комерційної GeoIP City Edition. Якщо необхідних баз немає, виводиться попередження.
 
 Наступні імена ключів асоціативного масиву, що повертається:
 
-- "continent_code" - Дволітерний код континенту (з версії 1.0.4 с
-libgeoip 1.4.3 або новішої)
-- "country_code" -- Двохлітерний код країни (дивіться
-[geoip_country_code_by_name()](function.geoip-country-code-by-name.md))
-- "country_code3" -- Трилітерний код країни (дивіться
-[geoip_country_code3_by_name()](function.geoip-country-code3-by-name.md))
-- "country_name" -- Назва країни (дивіться
-[geoip_country_name_by_name()](function.geoip-country-name-by-name.md))
-- "region" -- Код регіону (наприклад, CA для Каліфорнії)
-- "City" - Місто.
-- "postal_code" -- Поштовий індекс, FSA або Zip-код
-- "latitude" - Широта, знакове речове число (signed double).
-- "longitude" - Довгота, знакове речове число (signed
-double).
-- "dma_code" -- Код ринкової зони (Designated Market Area, DMA),
-тільки для США та Канади
-- "area_code" -- Код телефонної мережі загального користування (PSTN),
-наприклад, 212
+-   "continentcode" - Дволітерний код континенту (з версії 1.0.4 з libgeoip 1.4.3 або новішої)
+-   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.md)
+-   " countrycode3" -- Трилітерний код країни (дивіться [geoipcountrycode3бname()](function.geoip-country-code3-by-name.md)
+-   " countryname" -- Назва країни (дивіться [geoipcountrynameбname()](function.geoip-country-name-by-name.md)
+-   "region" -- Код регіону (наприклад: CA для Каліфорнії)
+-   "City" - Місто.
+-   "postalcode" -- Поштовий індекс, FSA або Zip-код
+-   "latitude" - Широта, знакове речове число (signed double).
+-   "longitude" - Довгота, знакове речове число (signed double).
+-   "dmacode" -- Код ринкової зони (Designated Market Area, DMA), тільки для США та Канади
+-   "areacode" -- Код телефонної мережі загального користування (PSTN), наприклад, 212
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста або IP-адреса, дані за якою мають бути отримані.
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив у разі успішного виконання або
-**`false`**, якщо адреса не може бути знайдена в базі.
+Повертає асоціативний масив у разі успішного виконання або \*\*`false`\*\*Якщо адреса не може бути знайдена в базі.
 
-### Список змін
+### список змін
 
-| Версія           | Опис                                                                           |
-|------------------|--------------------------------------------------------------------------------|
-| PECL geoip 1.0.4 | Доданий код континенту (continent_code) із GeoIP Library 1.4.3 або новішими.   |
-| PECL geoip 1.0.3 | Доданий трилітерний код країни (country_code3) та назва країни (country_name). |
+| Версия | Описание |
+| --- | --- |
+| PECL geoip 1.0.4 | Додано код континенту (continentcode) з GeoIP Library 1.4.3 або новішими. |
+| PECL geoip 1.0.3 | Додано трилітерний код країни (countrycode3) та назва країни (countryname). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_record_by_name()****
+**Приклад #1 Приклад використання **geoiprecordбname()****
 
-Виведе масив, який містить запис про хост example.com.
+Виведе масив, що містить запис про хост example.com.
 
-` <?php$record = geoip_record_by_name('www.example.com');if ($record) {   print_r($record);}?> `
+```php
+<?php
+$record = geoip_record_by_name('www.example.com');
+if ($record) {
+    print_r($record);
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[continent_code] => NA
-[country_code] => US
-[country_code3] => USA
-[country_name] => United States
-[region] => CA
-[City] => Marina Del Rey
-[postal_code] =>
-[latitude] => 33.9776992798
-[longitude] => -118.435096741
-[dma_code] => 803
-[area_code] => 310
+    [continent_code] => NA
+    [country_code] => US
+    [country_code3] => USA
+    [country_name] => United States
+    [region] => CA
+    [city] => Marina Del Rey
+    [postal_code] =>
+    [latitude] => 33.9776992798
+    [longitude] => -118.435096741
+    [dma_code] => 803
+    [area_code] => 310
 )
+```

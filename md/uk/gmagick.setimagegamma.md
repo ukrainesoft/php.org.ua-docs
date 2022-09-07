@@ -1,26 +1,29 @@
-- [«Gmagick::setimageformat](gmagick.setimageformat.md)
-- [Gmagick::setimagegreenprimary »](gmagick.setimagegreenprimary.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює гаму зображення
-
+---
+navigation:
+  - gmagick.setimageformat.md: '« Gmagick::setimageformat'
+  - gmagick.setimagegreenprimary.md: 'Gmagick::setimagegreenprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagegamma'
+---
 # Gmagick::setimagegamma
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimagegamma — Встановлює гаму зображення
 
 ### Опис
 
-public **Gmagick::setimagegamma**(float `$gamma`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagegamma(float $gamma): Gmagick
+```
 
 Встановлює гаму зображення.
 
 ### Список параметрів
 
 `gamma`
+
 Гамма зображення.
 
 ### Значення, що повертаються

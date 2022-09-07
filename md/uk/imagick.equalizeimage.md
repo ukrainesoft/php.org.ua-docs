@@ -1,10 +1,11 @@
-- [« Imagick::enhanceImage](imagick.enhanceimage.md)
-- [Imagick::evaluateImage »](imagick.evaluateimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Вирівнює гістограму зображення
-
+---
+navigation:
+  - imagick.enhanceimage.md: '« Imagick::enhanceImage'
+  - imagick.evaluateimage.md: 'Imagick::evaluateImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::equalizeImage'
+---
 # Imagick::equalizeImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::equalizeImage — Вирівнює гістограму зображе�
 
 ### Опис
 
-public **Imagick::equalizeImage**(): bool
+```methodsynopsis
+public Imagick::equalizeImage(): bool
+```
 
 Вирівнює гістограму зображення.
 
@@ -23,7 +26,7 @@ public **Imagick::equalizeImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -33,4 +36,14 @@ public **Imagick::equalizeImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::equalizeImage()****
 
-`<?phpfunction equalizeImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->equalizeImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function equalizeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->equalizeImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

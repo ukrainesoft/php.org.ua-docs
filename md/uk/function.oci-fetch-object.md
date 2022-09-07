@@ -1,90 +1,163 @@
-- [«oci_fetch_assoc](function.oci-fetch-assoc.md)
-- [oci_fetch_row »](function.oci-fetch-row.md)
+---
+navigation:
+  - function.oci-fetch-assoc.md: « ocifetchassoc
+  - function.oci-fetch-row.md: ocifetchrow »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifetchobject
+---
+# ocifetchobject
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає наступний рядок із результату запиту у вигляді об'єкта
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_fetch_object
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_fetch_object — Повертає наступний рядок з результату запиту
-вигляді об'єкта
+ocifetchobject — Повертає наступний рядок із результату запиту як об'єкт
 
 ### Опис
 
-**oci_fetch_object**(resource `$statement`, int `$mode` = OCI_ASSOC \|
-OCI_RETURN_NULLS): stdClass\|false
+```methodsynopsis
+oci_fetch_object(resource $statement, int $mode = OCI_ASSOC | OCI_RETURN_NULLS): stdClass|false
+```
 
-Повертає об'єкт, що містить наступний рядок із результату запиту.
-Імена властивостей об'єкта відповідають іменам стовпців у рядку. Ця
-функція зазвичай викликається в циклі доки не повертає **`false`** коли
-більше немає лав.
+Повертає об'єкт, що містить наступний рядок із результату запиту. Імена властивостей об'єкта відповідають іменам стовпців у рядку. Ця функція зазвичай викликається в циклі доки не повертає **`false`** коли більше немає лав.
 
-За подробицями операції відображення типів даних, що здійснюється
-модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
+За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
 
 ### Список параметрів
 
 `statement`
-Коректний ідентифікатор виразу OCI8, отриманий з
-[oci_parse()](function.oci-parse.md) та виконаний функцією
-[oci_execute()](function.oci-execute.md), або ідентифікатор виразу
-`REF CURSOR`.
+
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 ### Значення, що повертаються
 
-Повертає об'єкт. Кожна властивість об'єкта відповідає іменам стовпців
-у рядку. Якщо в результаті `запиту` більше немає лав, то повертає
-**`false`**.
+Повертає об'єкт. Кожна властивість об'єкта відповідає іменам стовпців у рядку. Якщо в результаті `запроса` більше немає рядів, то повертає **`false`**
 
 Будь-який стовпець `LOB` повертається як дескриптор LOB.
 
-Стовпці `DATE` повертаються у вигляді рядків, форматованих відповідно
-з поточних форматів дати. Стандартний формат може бути змінено за допомогою
-змінних оточення Oracle, таких як `NLS_LANG` або за допомогою
-попередньо запущеною `ALTER SESSION SET NLS_DATE_FORMAT`
-команди.
+Стовпці `DATE` повертаються у вигляді рядків, форматованих відповідно до поточних форматів дати. Стандартний формат може бути змінений за допомогою змінних оточення Oracle, таких як `NLS_LANG` або за допомогою попередньо запущеної `ALTER SESSION SET NLS_DATE_FORMAT` команди.
 
-Вам не слід забувати про те, що Oracle повертає імена полів у
-ВЕРХНЕМ регістрі, тому імена атрибутів об'єкта будуть також у ВЕРХНОМУ
-регістрі. Використовуйте функцію [var_dump()](function.var-dump.md)
-по відношенню до отриманого об'єкта для доступу до атрибутів.
+Вам не слід забувати про те, що Oracle повертає імена полів у верхньому регістрі, тому імена атрибутів об'єкта будуть також у верхньому регістрі. Використовуйте функцію [vardump()](function.var-dump.md) по відношенню до отриманого об'єкта для доступу до атрибутів.
 
 Значення атрибутів відповідають **`null`** для будь-яких `NULL` полів.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_fetch_object()****
+**Приклад #1 Приклад використання **ocifetchobject()****
 
-`<?php/*  Перед запуском створіть таблицю:   CREATE TABLE mytab (id NUMBER, description VARCHAR2(30)); INSERT INTO mytab (id, description) values (1, 'Fish and Chips'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT id, description FROM mytab');oci_execute($stid);wh ($stid)) != false) {     // Використовуйте імена атрибутів у верхньому реєстрі для кожного стовпця Oracle    echo $row->ID . "<br>
-";   echo $row->DESCRIPTION . "<br>
-";}// Виведе: //    1//   Fish and Chipsoci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
 
-**Приклад #2 Приклад використання **oci_fetch_object()** з назвами
-стовпців у різних регістрах**
+/*
+  Перед запуском создайте таблицу:
+    CREATE TABLE mytab (id NUMBER, description VARCHAR2(30));
+    INSERT INTO mytab (id, description) values (1, 'Fish and Chips');
+    COMMIT;
+*/
 
-`<?php/*Перед запуском створіть таблицю з ім'ям стовпця в різних реєстрах:    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(3) INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');oci_execute($ = oci_fetch_object($stid)) != false) {    // Використання імен атрибутів в верхньому реєстрі для кожного стовпця Oracle    echo $row-> "<br>
-";    // Використання точного напису для імені стовпця з різними реєстрами    echo $row->MyDescription . "<br>
-";}// Виведе: //    1//   Iced Coffeeoci_free_statement($stid);oci_close($conn);?> `
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
 
-**Приклад #3 Приклад використання **oci_fetch_object()** з LOB**
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+oci_execute($stid);
 
-`<?php/*  Перед запуском створіть таблицю    CREATE TABLE mytab (id NUMBER, description CLOB); INSERT INTO mytab (id, description) values (1, 'A very long string'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT id, description FROM mytab');oci_execute($stid);wh ($stid)) != false) {    echo $row->ID . "<br>
-";    // Таким образом буде виведено перші 11 байт із DESCRIPTION    echo $row->DESCRIPTION->read(11) . "<br>
-";}// Виведе://    1//    A very longoci_free_statement($stid);oci_close($conn);?> `
+while (($row = oci_fetch_object($stid)) != false) {
+    // Используйте имена атрибутов в верхнем регистре для каждого столбца Oracle
+    echo $row->ID . "<br>\n";
+    echo $row->DESCRIPTION . "<br>\n";
+}
+
+// Выведет:
+//    1
+//    Fish and Chips
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #2 Приклад використання **ocifetchobject()** з назвами стовпців у різних регістрах**
+
+```php
+<?php
+
+/*
+Перед запуском создайте таблицу с именем столбца в различных регистрах:
+    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(30));
+    INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee');
+    COMMIT;
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');
+oci_execute($stid);
+
+while (($row = oci_fetch_object($stid)) != false) {
+    // Использование имён атрибутов в верхнем регистре для каждого столбца Oracle
+    echo $row->ID . "<br>\n";
+    // Использование точного написания для имени столбца с различными регистрами
+    echo $row->MyDescription . "<br>\n";
+}
+
+// Выведет:
+//    1
+//    Iced Coffee
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #3 Приклад використання **ocifetchobject()** з LOB**
+
+```php
+<?php
+
+/*
+  Перед запуском создайте таблицу
+    CREATE TABLE mytab (id NUMBER, description CLOB);
+    INSERT INTO mytab (id, description) values (1, 'A very long string');
+    COMMIT;
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+oci_execute($stid);
+
+while (($row = oci_fetch_object($stid)) != false) {
+    echo $row->ID . "<br>\n";
+    // Таким образом будет выведено первые 11 байт из DESCRIPTION
+    echo $row->DESCRIPTION->read(11) . "<br>\n";
+}
+
+// Выведет:
+//    1
+//    A very long
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Дивіться також
 
-- [oci_fetch()](function.oci-fetch.md) - Вибирає наступний рядок
-з результату в буфер
-- [oci_fetch_all()](function.oci-fetch-all.md) - Вибирає всі рядки
-з результату запиту до двомірного масиву
-- [oci_fetch_assoc()](function.oci-fetch-assoc.md) - Повертає
-наступний рядок з результату запиту у вигляді асоціативного масиву
-- [oci_fetch_array()](function.oci-fetch-array.md) - Повертає
-наступний рядок з результату запиту у вигляді асоціативного або
-нумерованого масиву
-- [oci_fetch_row()](function.oci-fetch-row.md) - Повертає
-наступний рядок з результату запиту у вигляді нумерованого масиву
+-   [ocifetch()](function.oci-fetch.md) - Вибирає наступний рядок із результату в буфер
+-   [ocifetchall()](function.oci-fetch-all.md) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [ocifetchassoc()](function.oci-fetch-assoc.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [ocifetcharray()](function.oci-fetch-array.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [ocifetchrow()](function.oci-fetch-row.md) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву

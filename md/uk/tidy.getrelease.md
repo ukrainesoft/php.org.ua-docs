@@ -1,28 +1,32 @@
-- [« tidy::getOptDoc](tidy.getoptdoc.md)
-- [tidy::getStatus »](tidy.getstatus.md)
-
-- [PHP Manual](index.md)
-- [Tidy](class.tidy.md)
-- Отримати дату релізу (версію) для бібліотеки Tidy
-
+---
+navigation:
+  - tidy.getoptdoc.md: '« tidy::getOptDoc'
+  - tidy.getstatus.md: 'tidy::getStatus »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::getRelease'
+---
 # tidy::getRelease
 
-# tidy_get_release
+# tidygetrelease
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy::getRelease -- tidy_get_release — Отримати дату релізу (версію) для
-бібліотеки Tidy
+tidy::getRelease -- tidygetrelease — Отримати дату випуску (версію) для бібліотеки Tidy
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **tidy::getRelease**(): string
+```methodsynopsis
+public tidy::getRelease(): string
+```
 
 Процедурний стиль
 
-**tidy_get_release**(): string
+```methodsynopsis
+tidy_get_release(): string
+```
 
 Отримує дату випуску для бібліотеки Tidy.
 
@@ -32,5 +36,4 @@ public **tidy::getRelease**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок з датою релізу бібліотеки Tidy, яка може бути
-``unknown'`.
+Повертає рядок з датою релізу бібліотеки Tidy, яка може бути `'unknown'`

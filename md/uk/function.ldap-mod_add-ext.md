@@ -1,51 +1,43 @@
-- [«ldap_list](function.ldap-list.md)
-- [ldap_mod_add »](function.ldap-mod-add.md)
+---
+navigation:
+  - function.ldap-list.md: « ldaplist
+  - function.ldap-mod-add.md: ldapmodadd »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapmodaddext
+---
+# ldapmodaddext
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Додати значення атрибуту до поточних атрибутів
+(PHP 7> = 7.3.0, PHP 8)
 
-#ldap_mod_add_ext
-
-(PHP 7 \>= 7.3.0, PHP 8)
-
-ldap_mod_add_ext — Додати значення атрибуту до поточних атрибутів
+ldapmodaddext — Додати значення атрибуту до поточних атрибутів
 
 ### Опис
 
-**ldap_mod_add_ext**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`,
-array `$entry`,
-?array `$controls` = **`null`**
-): [LDAP\Result](class.ldap-result.md)\|false
+```methodsynopsis
+ldap_mod_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+```
 
-Робить те саме, що й [ldap_mod_add()](function.ldap-mod-add.md),
-але повертає екземпляр [LDAP\Result](class.ldap-result.md) для
-розбору за допомогою
-[ldap_parse_result()](function.ldap-parse-result.md).
+Робить те саме, що й [ldapmodadd()](function.ldap-mod-add.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 
-Дивіться [ldap_mod_add()](function.ldap-mod-add.md)
+Дивіться [ldapmodadd()](function.ldap-mod-add.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Result](class.ldap-result.md) або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAPResult](class.ldap-result.md) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 
-- [ldap_mod_add()](function.ldap-mod-add.md) - Додати значення
-атрибуту до поточних атрибутів
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
+-   [ldapmodadd()](function.ldap-mod-add.md) - Додати значення атрибуту до поточних атрибутів
+-   [ldapparseresult()](function.ldap-parse-result.md) - Витягти інформацію з результату

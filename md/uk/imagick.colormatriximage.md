@@ -1,29 +1,24 @@
-- [« Imagick::colorizeImage](imagick.colorizeimage.md)
-- [Imagick::combineImages »](imagick.combineimages.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Застосовує перетворення кольору до зображення
-
+---
+navigation:
+  - imagick.colorizeimage.md: '« Imagick::colorizeImage'
+  - imagick.combineimages.md: 'Imagick::combineImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::colorMatrixImage'
+---
 # Imagick::colorMatrixImage
 
-(PECL imagick 3 \>= 3.3.0)
+(PECL imagick 3> = 3.3.0)
 
 Imagick::colorMatrixImage — Застосовує перетворення кольору до зображення
 
 ### Опис
 
-public **Imagick::colorMatrixImage**(array `$color_matrix` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::colorMatrixImage(array $color_matrix = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Застосовує перетворення кольору до зображення. Цей метод дозволяє
-змінювати насиченість, обертання відтінку, яскравість альфа-каналу та інші
-ефекти. Хоча можна використовувати матриці перетворення змінного
-розміру, зазвичай використовується матриця 5x5 для зображення RGBA та матриця
-6x6 для CMYKA (або RGBA зі зміщеннями). Матриця аналогічна матрицям,
-які використовуються в Adobe Flash, за винятком того, що зміщення
-вказано в стовпці 6, а не 5 (для підтримки зображень CMYKA), а
-усунення нормалізовані (зміщення Flash ділиться на 255).
+Застосовує перетворення кольору до зображення. Цей метод дозволяє змінювати насиченість, обертання відтінку, яскравість альфа-каналу та інші ефекти. Хоча можна використовувати матриці перетворення змінного розміру, зазвичай використовується матриця 5x5 для RGBA зображення і матриця 6x6 для CMYKA (або RGBA зі зміщеннями). Матриця аналогічна матрицям, які використовуються в Adobe Flash, за винятком того, що зміщення вказані в стовпці 6, а не 5 (для підтримки зображень CMYKA), а зміщення нормалізовані (зсув Flash ділиться на 255).
 
 ### Список параметрів
 
@@ -31,10 +26,41 @@ Imagick::CHANNEL_DEFAULT): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::colorMatrixImage()****
 
-`<?phpfunction colorMatrixImage($imagePath, $colorMatrix) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageOpacity(1); //Цветовая матрица должна выглядеть так:    //    $colorMatrix = [    //        1.5, 0.0, 0.0, 0.0, 0.0, -0.157,    //        0.0, 1.0, 0.5, 0.0, 0.0, -0.157,    //        0.0, 0.0, 1.5, 0.0, 0.0, -0.157,    //        0.0, 0.0, 0.0, 1.0, 0.0,  0.0,    //        0.0, 0.0, 0.0, 0.0, 1.0,  0.0,    //        0.0, 0.0, 0.0, 0.0, 0.0,  1.0 //    ]; $background=NewImagick(); $background->newPseudoImage($imagick->getImageWidth(), $imagick->getImageHeight(), "pattern:checkerboard"); $background->setImageFormat('png'); $imagick->setImageFormat('png'); $imagick->colorMatrixImage($colorMatrix); $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0); header("Content-Type: image/png"); echo $background->getImageBlob();}?> `
+```php
+<?php
+function colorMatrixImage($imagePath, $colorMatrix) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageOpacity(1);
+
+    //Цветовая матрица должна выглядеть так:
+    //    $colorMatrix = [
+    //        1.5, 0.0, 0.0, 0.0, 0.0, -0.157,
+    //        0.0, 1.0, 0.5, 0.0, 0.0, -0.157,
+    //        0.0, 0.0, 1.5, 0.0, 0.0, -0.157,
+    //        0.0, 0.0, 0.0, 1.0, 0.0,  0.0,
+    //        0.0, 0.0, 0.0, 0.0, 1.0,  0.0,
+    //        0.0, 0.0, 0.0, 0.0, 0.0,  1.0
+    //    ];
+
+    $background = new \Imagick();
+    $background->newPseudoImage($imagick->getImageWidth(), $imagick->getImageHeight(),  "pattern:checkerboard");
+
+    $background->setImageFormat('png');
+
+    $imagick->setImageFormat('png');
+    $imagick->colorMatrixImage($colorMatrix);
+
+    $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0);
+
+    header("Content-Type: image/png");
+    echo $background->getImageBlob();
+}
+
+?>
+```

@@ -1,13 +1,14 @@
-- [« Componere\Value::hasDefault](componere-value.hasdefault.md)
-- [Componer
- - [PHP Manual](index.md)
-- [Componere](book.componere.md)
-- Функції Componere
-
+---
+navigation:
+  - componere-value.hasdefault.md: '« ComponereValue::hasDefault'
+  - componere.cast.md: Componerecast »
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Функції Componere
+---
 # Функції Componere
 
 ## Зміст
 
-- [Componer
-- [Componer
-типу
+-   [Componerecast](componere.cast.md) - Приведення до типу
+-   [Componerecastбref](componere.cast_by_ref.md) - Приведення до типу

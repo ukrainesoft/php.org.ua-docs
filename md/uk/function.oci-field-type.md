@@ -1,61 +1,103 @@
-- [« oci_field_type_raw](function.oci-field-type-raw.md)
-- [oci_free_descriptor »](function.oci-free-descriptor.md)
+---
+navigation:
+  - function.oci-field-type-raw.md: « ocifieldtyperaw
+  - function.oci-free-descriptor.md: ocifreedescriptor »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifieldtype
+---
+# ocifieldtype
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає ім'я типу поля
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_field_type
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_field_type — Повертає назву типу поля
+ocifieldtype — Повертає назву типу поля
 
 ### Опис
 
-**oci_field_type**(resource `$statement`, string\|int `$column`):
-string\|int\|false
+```methodsynopsis
+oci_field_type(resource $statement, string|int $column): string|int|false
+```
 
 Повертає назву типу поля.
 
 ### Список параметрів
 
 `statement`
-Допустимий ідентифікатор виразу OCI.
+
+Допустимий ідентифікатор OCI-виразу.
 
 `column`
+
 Може бути задано індексом (починаючи з 1) або на ім'я.
 
 ### Значення, що повертаються
 
-Повертає тип поля як рядок (string) або як ціле число (int) або
-**`false`** у разі виникнення помилки.
+Повертає тип поля як рядок (string) або ціле число (int) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_field_type()****
+**Приклад #1 Приклад використання **ocifieldtype()****
 
-` <?php// Создайте таблицу://   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1),//                       clob_col CLOB, date_col DATE);$conn = oci_connect("hr", "hrpwd", "localhost/XE ");if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте данихecho "<table border=\"1\">
-";echo "<tr>";echo "<th>Ім'я</th>";echo "<th>Тип</th>";echo "<th>Довжина</th>";echo "</tr >
-";$ncols = oci_num_fields($stid);for ($i = 1; $i <= $ncols; $i++) {    $column_name  = oci_field_name($stid, $i)| $| i);   $column_size  = oci_field_size($stid, $i);   echo "<tr>";   echo "<td>$column_name</td>";   echo>  <td>$column_size</td>";    echo "</tr>
-";}echo "</table>
-";// Выведет://    Имя           Тип       Длина//    NUMBER_COL    NUMBER        22//    VARCHAR2_COL  VARCHAR2       1//    CLOB_COL      CLOB        4000//    DATE_COL      DATE           7oci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
+
+// Создайте таблицу:
+//   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1),
+//                       clob_col CLOB, date_col DATE);
+
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, "SELECT * FROM mytab");
+oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+
+echo "<table border=\"1\">\n";
+echo "<tr>";
+echo "<th>Имя</th>";
+echo "<th>Тип</th>";
+echo "<th>Длина</th>";
+echo "</tr>\n";
+
+$ncols = oci_num_fields($stid);
+
+for ($i = 1; $i <= $ncols; $i++) {
+    $column_name  = oci_field_name($stid, $i);
+    $column_type  = oci_field_type($stid, $i);
+    $column_size  = oci_field_size($stid, $i);
+
+    echo "<tr>";
+    echo "<td>$column_name</td>";
+    echo "<td>$column_type</td>";
+    echo "<td>$column_size</td>";
+    echo "</tr>\n";
+}
+
+echo "</table>\n";
+
+// Выведет:
+//    Имя           Тип       Длина
+//    NUMBER_COL    NUMBER        22
+//    VARCHAR2_COL  VARCHAR2       1
+//    CLOB_COL      CLOB        4000
+//    DATE_COL      DATE           7
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У версіях PHP нижче 5.0.0 ця функція називалася
-> [ocicolumntype()](function.ocicolumntype.md). У PHP 5.0.0 і вище
-> [ocicolumntype()](function.ocicolumntype.md) є аліасом
-> **oci_field_type()**, тому ви можете продовжувати використовувати це
-> ім'я, але це не рекомендується.
+> **Зауваження**
+> 
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumntype()](function.ocicolumntype.md). У PHP 5.0.0 і вище [ocicolumntype()](function.ocicolumntype.md) є аліасом \*\*ocifieldtype()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
-- [oci_num_fields()](function.oci-num-fields.md) - Повертає
-кількість полів у результаті запиту
-- [oci_field_name()](function.oci-field-name.md) - Повертає ім'я
-поля з результату запиту
-- [oci_field_size()](function.oci-field-size.md) - Повертає розмір
-поля
+-   [ocinumfields()](function.oci-num-fields.md) - Повертає кількість полів у результаті запиту
+-   [ocifieldname()](function.oci-field-name.md) - Повертає ім'я поля з результату запиту
+-   [ocifieldsize()](function.oci-field-size.md) - Повертає розмір поля

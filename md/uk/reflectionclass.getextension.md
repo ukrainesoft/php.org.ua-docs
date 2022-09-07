@@ -1,27 +1,24 @@
-- [« ReflectionClass::getEndLine](reflectionclass.getendline.md)
-- [ReflectionClass::getExtensionName »](reflectionclass.getextensionname.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає об'єкт класу ReflectionExtension для модуля,
-визначального клас
-
+---
+navigation:
+  - reflectionclass.getendline.md: '« ReflectionClass::getEndLine'
+  - reflectionclass.getextensionname.md: 'ReflectionClass::getExtensionName »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getExtension'
+---
 # ReflectionClass::getExtension
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getExtension — Повертає об'єкт класу
-[ReflectionExtension](class.reflectionextension.md) для модуля,
-визначального клас
+ReflectionClass::getExtension — Повертає об'єкт класу [ReflectionExtension](class.reflectionextension.md) для модуля, що визначає клас
 
 ### Опис
 
-public **ReflectionClass::getExtension**():
-?[ReflectionExtension](class.reflectionextension.md)
+```methodsynopsis
+public ReflectionClass::getExtension(): ?ReflectionExtension
+```
 
-Повертає об'єкт класу
-[ReflectionExtension](class.reflectionextension.md) для модуля,
-який визначає клас.
+Повертає об'єкт класу [ReflectionExtension](class.reflectionextension.md) для модуля, що визначає клас.
 
 ### Список параметрів
 
@@ -29,24 +26,29 @@ public **ReflectionClass::getExtension**():
 
 ### Значення, що повертаються
 
-Примірник класу [ReflectionExtension](class.reflectionextension.md),
-представляє модуль, що визначає клас, або **`null`** для
-користувальницьких класів.
+Екземпляр класу [ReflectionExtension](class.reflectionextension.md), Що представляє модуль, що визначає клас, або **`null`** для класів користувача.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::getExtension()****
 
-` <?php$class = new ReflectionClass('ReflectionClass');$extension = $class->getExtension();var_dump($extension);?> `
+```php
+<?php
+$class = new ReflectionClass('ReflectionClass');
+$extension = $class->getExtension();
+var_dump($extension);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ReflectionExtension)#2 (1) {
-["name"]=>
-string(10) "Reflection"
+  ["name"]=>
+  string(10) "Reflection"
 }
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) -
-Повертає ім'я модуля, що визначає клас
+-   [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) - Повертає ім'я модуля, що визначає клас

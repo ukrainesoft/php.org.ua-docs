@@ -1,10 +1,11 @@
-- [« Imagick::getCompression](imagick.getcompression.md)
-- [Imagick::getCopyright »](imagick.getcopyright.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає якість стиснення об'єкта
-
+---
+navigation:
+  - imagick.getcompression.md: '« Imagick::getCompression'
+  - imagick.getcopyright.md: 'Imagick::getCopyright »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getCompressionQuality'
+---
 # Imagick::getCompressionQuality
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getCompressionQuality — Повертає якість стиснен�
 
 ### Опис
 
-public **Imagick::getCompressionQuality**(): int
+```methodsynopsis
+public Imagick::getCompressionQuality(): int
+```
 
 Повертає якість стиснення об'єкта.
 

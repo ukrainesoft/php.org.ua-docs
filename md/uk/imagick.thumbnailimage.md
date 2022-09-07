@@ -1,10 +1,11 @@
-- [« Imagick::thresholdImage](imagick.thresholdimage.md)
-- [Imagick::tintImage »](imagick.tintimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Змінює розмір зображення
-
+---
+navigation:
+  - imagick.thresholdimage.md: '« Imagick::thresholdImage'
+  - imagick.tintimage.md: 'Imagick::tintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::thumbnailImage'
+---
 # Imagick::thumbnailImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,45 +14,31 @@ Imagick::thumbnailImage — Змінює розмір зображення
 
 ### Опис
 
-public **Imagick::thumbnailImage**(
-int `$columns`,
-int `$rows`,
-bool `$bestfit` = **`false`**,
-bool `$fill` = **`false`**,
-bool `$legacy` = **`false`**
-): bool
+```methodsynopsis
+public Imagick::thumbnailImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $fill = false,    bool $legacy = false): bool
+```
 
-Змінює розмір зображення до заданих розмірів та видаляє всі пов'язані
-профілі. Мета полягає в тому, щоб створювати мініатюри зображень,
-відповідні для відображення в Інтернеті. Якщо як третій
-параметра встановлено значення **`true`**, тоді параметри стовпців та
-рядки використовуються як максимальні для кожної сторони. Обидві сторони
-будуть зменшені доти, доки вони не стануть рівними або менше, ніж
-параметр, вказаний для сторони.
+Змінює розмір зображення до заданих розмірів та видаляє всі пов'язані профілі. Мета полягає в тому, щоб створювати мініатюри зображень, які підходять для відображення в Інтернеті. Якщо в якості третього параметра встановлено значення \*\*`true`\*\*тоді параметри стовпців і рядків використовуються як максимальні для кожної сторони. Обидві сторони будуть зменшені до тих пір, поки вони не стануть рівними або меншими, ніж параметр, вказаний для сторони.
 
-> **Примітка**: Поводження параметра `bestfit` було змінено в Imagick
->3.0.0. До цієї версії при зміні зображення розміром 200x150
-> 400×300 ніяких операцій не відбувалося. В Imagick 3.0.0 і далі
-> зображення буде масштабовано до розмірів 400x300, оскільки це
-> найкраще відповідає ("best fit") даним розмірам. Якщо
-> використовується параметр `bestfit`, то ширина та висота також повинні бути
-> визначено.
+> **Зауваження**: Поведінка параметра `bestfit` було змінено у Imagick 3.0.0. До цієї версії при зміні зображення розміром 200×150 до 400×300 жодних операцій не відбувалося. В Imagick 3.0.0 і далі зображення буде масштабовано до розмірів 400x300, оскільки це найкраще відповідає ("best fit") даним розмірам. Якщо використовується параметр `bestfit`, то ширина та висота також повинні бути визначені.
 
 ### Список параметрів
 
 `columns`
+
 Ширина зображення.
 
 `rows`
+
 Висота зображення.
 
 `bestfit`
-Визначає, чи слід примусово встановлювати максимальні
-значення.
+
+Визначає, чи примусово встановлювати максимальні значення.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -61,4 +48,15 @@ bool `$legacy` = **`false`**
 
 **Приклад #1 Приклад використання **Imagick::thumbnailImage()****
 
-` phpfunction thumbnailImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->setbackgroundcolor('rgb(64, 64, 64)'); $imagick->thumbnailImage(100, 100, true, true); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function thumbnailImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setbackgroundcolor('rgb(64, 64, 64)');
+    $imagick->thumbnailImage(100, 100, true, true);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

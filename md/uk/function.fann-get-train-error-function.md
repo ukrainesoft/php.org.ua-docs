@@ -1,38 +1,39 @@
-- [« fann_get_total_neurons](function.fann-get-total-neurons.md)
-- [fann_get_train_stop_function »](function.fann-get-train-stop-function.md)
+---
+navigation:
+  - function.fann-get-total-neurons.md: « fanngettotalneurons
+  - function.fann-get-train-stop-function.md: fanngettrainstopfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngettrainerrorfunction
+---
+# fanngettrainerrorfunction
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає функцію обробки помилок, що використовується під час навчання
+(PECL fann> = 1.0.0)
 
-# fann_get_train_error_function
-
-(PECL fann = 1.0.0)
-
-fann_get_train_error_function — Повертає функцію обробки помилок,
-використовується під час навчання
+fanngettrainerrorfunction — Повертає функцію обробки помилок, що використовується під час навчання
 
 ### Опис
 
-**fann_get_train_error_function**(resource `$ann`): int
+```methodsynopsis
+fann_get_train_error_function(resource $ann): int
+```
 
 Повертає функцію обробки помилок, яка використовується під час навчання.
 
-Функції обробки помилок описані далі у константах [функції обробки помилок](fann.constants.md#constants.fann-errorfunc).
+Функції обробки помилок описані далі у константах [функции обработки ошибок](fann.constants.md#constants.fann-errorfunc)
 
-Функції обробки помилок за промовчанням: **`FANN_ERRORFUNC_TANH`**.
+Функції обробки помилок за замовчуванням: **`FANN_ERRORFUNC_TANH`**
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Константа [функції обробки помилок](fann.constants.md#constants.fann-errorfunc) або **`false`**
-у разі виникнення помилки.
+Константа [функции обработки ошибок](fann.constants.md#constants.fann-errorfunc) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_train_error_function()](function.fann-set-train-error-function.md) -
-Встановлює функцію помилки, що використовується під час тренування
+-   [fannsettrainerrorfunction()](function.fann-set-train-error-function.md) - Встановлює функцію помилки, що використовується під час тренування

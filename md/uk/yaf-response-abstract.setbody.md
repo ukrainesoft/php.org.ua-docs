@@ -1,70 +1,80 @@
-- [« Yaf_Response_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.md)
-- [Yaf_Response_Abstract::setHeader »](yaf-response-abstract.setheader.md)
+---
+navigation:
+  - yaf-response-abstract.setallheaders.md: '« YafResponseAbstract::setAllHeaders'
+  - yaf-response-abstract.setheader.md: 'YafResponseAbstract::setHeader »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
+title: 'YafResponseAbstract::setBody'
+---
+# YafResponseAbstract::setBody
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- Встановлює вміст відповіді
+(Yaf >=1.0.0)
 
-# Yaf_Response_Abstract::setBody
-
-(Yaf \>=1.0.0)
-
-Yaf_Response_Abstract::setBody — Встановлює вміст відповіді
+YafResponseAbstract::setBody — Встановлює вміст відповіді
 
 ### Опис
 
-public **Yaf_Response_Abstract::setBody**(string `$content`, string
-`$key` = ?): bool
+```methodsynopsis
+public Yaf_Response_Abstract::setBody(string $content, string $key = ?): bool
+```
 
 Встановлює вміст відповіді
 
 ### Список параметрів
 
 `body`
+
 Рядок вмісту
 
 `key`
-Ключ вмісту, ви можете встановити вміст із ключем, якщо ви не
-вкажете, то використовуватиметься Yaf_Response_Abstract::DEFAULT_BODY
 
-> **Примітка**:
->
+Ключ вмісту, ви можете встановити вміст із ключем, якщо ви не вкажете, то буде використовуватися YafResponseAbstract::DEFAULTBODY
+
+> **Зауваження**
+> 
 > Параметр додано з 2.2.0
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Response_Abstract::setBody()****
+**Приклад #1 Приклад використання **YafResponseAbstract::setBody()****
 
-` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");print_r($response);echo $response;?> `
+```php
+<?php
+$response = new Yaf_Response_Http();
+
+$response->setBody("Привет")->setBody(", Мир", "footer");
+
+print_r($response);
+echo $response;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Yaf_Response_Http Object
 (
-[_header:protected] => Array
-(
-)
+    [_header:protected] => Array
+        (
+        )
 
-[_body:protected] => Array
-(
-[content] => Привіт
-[footer] => , Світ
-)
+    [_body:protected] => Array
+        (
+            [content] => Привет
+            [footer] => , Мир
+        )
 
-[_sendheader:protected] => 1
-[_response_code:protected] => 200
+    [_sendheader:protected] => 1
+    [_response_code:protected] => 200
 )
-Привіт світ
+Привет, Мир
+```
 
 ### Дивіться також
 
-- [Yaf_Response_Abstract::getBody()](yaf-response-abstract.getbody.md) -
-Отримує існуючий вміст
-- [Yaf_Response_Abstract::appendBody()](yaf-response-abstract.appendbody.md) -
-Додає вміст до тіла відповіді
-- [Yaf_Response_Abstract::prependBody()](yaf-response-abstract.prependbody.md) -
-Призначення prependBody
-- [Yaf_Response_Abstract::clearBody()](yaf-response-abstract.clearbody.md) -
-Скидає все існуюче тіло відповіді
+-   [YafResponseAbstract::getBody()](yaf-response-abstract.getbody.md) - Отримує наявний вміст
+-   [YafResponseAbstract::appendBody()](yaf-response-abstract.appendbody.md) - Додає вміст до тіла відповіді
+-   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.md) - Призначення prependBody
+-   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.md) - скидає все існуюче тіло відповіді

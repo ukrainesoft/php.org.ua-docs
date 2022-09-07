@@ -1,24 +1,26 @@
-- [« Yaf_Session::offsetGet](yaf-session.offsetget.md)
-- [Yaf_Session::offsetUnset »](yaf-session.offsetunset.md)
+---
+navigation:
+  - yaf-session.offsetget.md: '« YafSession::offsetGet'
+  - yaf-session.offsetunset.md: 'YafSession::offsetUnset »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::offsetSet'
+---
+# YafSession::offsetSet
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення offsetSet
+(Yaf >=1.0.0)
 
-# Yaf_Session::offsetSet
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::offsetSet — Призначення offsetSet
+YafSession::offsetSet — Призначення offsetSet
 
 ### Опис
 
-public **Yaf_Session::offsetSet**(string `$name`, string `$value`): void
+```methodsynopsis
+public Yaf_Session::offsetSet(string $name, string $value): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

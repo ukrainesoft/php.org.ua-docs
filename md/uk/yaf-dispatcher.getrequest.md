@@ -1,20 +1,22 @@
-- [« Yaf_Dispatcher::getInstance](yaf-dispatcher.getinstance.md)
-- [Yaf_Dispatcher::getRouter »](yaf-dispatcher.getrouter.md)
+---
+navigation:
+  - yaf-dispatcher.getinstance.md: '« YafDispatcher::getInstance'
+  - yaf-dispatcher.getrouter.md: 'YafDispatcher::getRouter »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::getRequest'
+---
+# YafDispatcher::getRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- отримує екземпляр запиту
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::getRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::getRequest — Отримує екземпляр запиту
+YafDispatcher::getRequest — Отримує екземпляр запиту
 
 ### Опис
 
-public **Yaf_Dispatcher::getRequest**():
-[Yaf_Request_Abstract](class.yaf-request-abstract.md)
+```methodsynopsis
+public Yaf_Dispatcher::getRequest(): Yaf_Request_Abstract
+```
 
 ### Список параметрів
 

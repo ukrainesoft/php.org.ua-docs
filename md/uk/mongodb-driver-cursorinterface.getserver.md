@@ -1,26 +1,24 @@
-- [« MongoDB\Driver\CursorInterface::getId](mongodb-driver-cursorinterface.getid.md)
-- [MongoDB\Driver\CursorInterface::isDead »](mongodb-driver-cursorinterface.isdead.md)
+---
+navigation:
+  - mongodb-driver-cursorinterface.getid.md: '« MongoDBDriverCursorInterface::getId'
+  - mongodb-driver-cursorinterface.isdead.md: 'MongoDBDriverCursorInterface::isDead »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorinterface.md: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::getServer'
+---
+# MongoDBDriverCursorInterface::getServer
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
-- Повертає сервер, з яким пов'язаний курсор
+(mongodb >=1.6.0)
 
-# MongoDB\Driver\CursorInterface::getServer
-
-(mongodb \>=1.6.0)
-
-MongoDB\Driver\CursorInterface::getServer — Повертає сервер, з яким
-пов'язаний курсор
+MongoDBDriverCursorInterface::getServer — Повертає сервер, з яким пов'язаний курсор
 
 ### Опис
 
-abstract public **MongoDB\Driver\CursorInterface::getServer**():
-[MongoDB\Driver\Server](class.mongodb-driver-server.md)
+```methodsynopsis
+abstract public MongoDB\Driver\CursorInterface::getServer(): MongoDB\Driver\Server
+```
 
-Повертає [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-пов'язаний із курсором. Це той сервер, на якому запущено
-[MongoDB\Driver\Query](class.mongodb-driver-query.md) або
-[MongoDB\Driver\Command](class.mongodb-driver-command.md).
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md) пов'язаний із курсором. Це той сервер, на якому запущено [MongoDBDriverQuery](class.mongodb-driver-query.md) або [MongoDBDriverCommand](class.mongodb-driver-command.md)
 
 ### Список параметрів
 
@@ -28,16 +26,13 @@ abstract public **MongoDB\Driver\CursorInterface::getServer**():
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-пов'язаний із курсором.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md) пов'язаний із курсором.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Cursor::getServer()](mongodb-driver-cursor.getserver.md) -
-Повертає сервер, пов'язаний із курсором
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
+-   [MongoDBDriverCursor::getServer()](mongodb-driver-cursor.getserver.md) - Повертає сервер, пов'язаний із курсором
+-   [MongoDBDriverServer](class.mongodb-driver-server.md)

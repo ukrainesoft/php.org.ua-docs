@@ -1,10 +1,11 @@
-- [« Типи ресурсів](classobj.resources.md)
-- [Приклади »](classobj.examples.md)
-
-- [PHP Manual](index.md)
-- [Класи та об'єкти](book.classobj.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - classobj.resources.md: « Типи ресурсів
+  - classobj.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.classobj.md: Класи та об'єкти
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

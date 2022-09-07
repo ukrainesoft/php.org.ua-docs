@@ -1,11 +1,12 @@
-- [«imagegrabwindow](function.imagegrabwindow.md)
-- [imageistruecolor »](function.imageistruecolor.md)
-
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Увімкнення або вимкнення інтерлейсингу
-
-#imageinterlace
+---
+navigation:
+  - function.imagegrabwindow.md: « imagegrabwindow
+  - function.imageistruecolor.md: imageistruecolor »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageinterlace
+---
+# imageinterlace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,41 +14,50 @@ imageinterlace — Увімкнення або вимкнення інтерле
 
 ### Опис
 
-**imageinterlace**([GdImage](class.gdimage.md) `$image`, ?bool
-`$enable` = **`null`**): bool
+```methodsynopsis
+imageinterlace(GdImage $image, ?bool $enable = null): bool
+```
 
 **imageinterlace()** перемикає стан біта інтерлейсингу.
 
-Якщо встановити біт інтерлейсингу, а зображення завантажити, як JPEG,
-це спричинить створення прогресивного JPEG.
+Якщо встановити біт інтерлейсингу, а зображення завантажити як JPEG, це призведе до створення прогресивного JPEG.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `interlace`
-Якщо значення **`true`**, зображення буде розбито на чергуються
-рядки, інакше біт інтерлейсингу буде встановлено в
-**`false`**.
+
+Якщо значення **`true`**, зображення буде розбито на рядки, що чергуються, в іншому випадку біт інтерлейсингу буде встановлений в **`false`**
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо біт інтерлейсингу встановлений, **`false`** в
-інакше.
+Повертає **`true`**, якщо біт інтерлейсингу встановлено, **`false`** в іншому випадку.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.5  | **imageinterlace()** тепер повертає логічне значення (bool); раніше вона повертала ціле число (int). (ненульове значення для зображень з інтерлейсингом, інакше - нуль). |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                                                             |
-| 8.0.0  | enable тепер очікує логічне значення (bool); раніше очікувалося ціле число (int).                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | **imageinterlace()** тепер повертає логічне значення (bool); раніше вона повертала ціле число (int). (Ненульове значення для зображень з інтерлейсингом, інакше - нуль). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | `enable` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
 
-**Приклад #1 Увімкнення інтерлейсингу, використовуючи **imageinterlace()****
+**Приклад #1 Увімкнення інтерлейсингу за допомогою **imageinterlace()****
 
-`<?php// Створення нового зображення$im = imagecreatefromgif('php.gif');// Включення інтерлейсингуimageinterlace($im, true);// Збереження зображенняimagegif($im, './php_inter; ($im);?> `
+```php
+<?php
+// Создание нового изображения
+$im = imagecreatefromgif('php.gif');
+
+// Включение интерлейсинга
+imageinterlace($im, true);
+
+// Сохранение изображения
+imagegif($im, './php_interlaced.gif');
+imagedestroy($im);
+?>
+```

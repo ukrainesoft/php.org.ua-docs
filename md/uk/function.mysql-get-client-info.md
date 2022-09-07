@@ -1,31 +1,31 @@
-- [« mysql_free_result](function.mysql-free-result.md)
-- [mysql_get_host_info »](function.mysql-get-host-info.md)
+---
+navigation:
+  - function.mysql-free-result.md: « mysqlfreeresult
+  - function.mysql-get-host-info.md: mysqlgethostinfo »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlgetclientinfo
+---
+# mysqlgetclientinfo
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає дані про MySQL-клієнт
+(PHP 4> = 4.0.5, PHP 5)
 
-# mysql_get_client_info
-
-(PHP 4 = 4.0.5, PHP 5)
-
-mysql_get_client_info — Повертає дані про MySQL-клієнт
+mysqlgetclientinfo — Повертає дані про MySQL-клієнт
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
-- [mysqli_get_client_info()](mysqli.get-client-info.md)
-- [PDO::getAttribute(PDO::ATTR_CLIENT_VERSION)](pdo.getattribute.md)
+-   [mysqligetclientinfo()](mysqli.get-client-info.md)
+-   [PDO::getAttribute(PDO::ATTRCLIENTVERSION)](pdo.getattribute.md)
 
 ### Опис
 
-**mysql_get_client_info**(): string
+```methodsynopsis
+mysql_get_client_info(): string
+```
 
-**mysql_get_client_info()** повертає рядок, що містить версію
-клієнтської бібліотеки.
+**mysqlgetclientinfo()** повертає рядок, який містить версію клієнтської бібліотеки.
 
 ### Список параметрів
 
@@ -33,24 +33,26 @@ mysql_get_client_info — Повертає дані про MySQL-клієнт
 
 ### Значення, що повертаються
 
-Версія клієнтської бібліотеки MySQL.
+Версія клієнтської бібліотеки MySQL
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_get_client_info()****
+**Приклад #1 Приклад використання **mysqlgetclientinfo()****
 
-` <?phpprintf("Версія клієнтської бібліотеки MySQL: %s
-", mysql_get_client_info());?> `
+```php
+<?php
+printf("Версия клиентской библиотеки MySQL: %s\n", mysql_get_client_info());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Версія клієнтської бібліотеки MySQL: 3.23.39
+```
+Версия клиентской библиотеки MySQL: 3.23.39
+```
 
 ### Дивіться також
 
-- [mysql_get_host_info()](function.mysql-get-host-info.md) -
-Повертає інформацію про з'єднання з MySQL
-- [mysql_get_proto_info()](function.mysql-get-proto-info.md) -
-Повертає інформацію про протокол MySQL
-- [mysql_get_server_info()](function.mysql-get-server-info.md) -
-Повертає інформацію про сервер MySQL
+-   [mysqlgethostinfo()](function.mysql-get-host-info.md) - Повертає інформацію про з'єднання з MySQL
+-   [mysqlgetprotoinfo()](function.mysql-get-proto-info.md) - Повертає інформацію про протокол MySQL
+-   [mysqlgetserverinfo()](function.mysql-get-server-info.md) - Повертає інформацію про сервер MySQL

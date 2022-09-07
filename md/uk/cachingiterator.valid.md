@@ -1,25 +1,26 @@
-- [«CachingIterator::\_\_toString](cachingiterator.tostring.md)
-- [CallbackFilterIterator »](class.callbackfilteriterator.md)
-
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Перевіряє, чи є поточний елемент допустимим
-
+---
+navigation:
+  - cachingiterator.tostring.md: '« CachingIterator::toString'
+  - class.callbackfilteriterator.md: CallbackFilterIterator »
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::valid'
+---
 # CachingIterator::valid
 
 (PHP 5, PHP 7, PHP 8)
 
-CachingIterator::valid — Перевіряє, чи є поточний елемент
-допустимим
+CachingIterator::valid — Перевіряє, чи поточний елемент є допустимим.
 
 ### Опис
 
-public **CachingIterator::valid**(): bool
+```methodsynopsis
+public CachingIterator::valid(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Перевіряє, чи поточний елемент є допустимим.
 
@@ -29,5 +30,4 @@ public **CachingIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

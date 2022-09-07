@@ -1,56 +1,68 @@
-- [« pg_lo_seek](function.pg-lo-seek.md)
-- [pg_lo_truncate »](function.pg-lo-truncate.md)
+---
+navigation:
+  - function.pg-lo-seek.md: « pgлоseek
+  - function.pg-lo-truncate.md: пглоtruncate »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоtell
+---
+# пглоtell
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає поточне положення внутрішнього покажчика великого об'єкту
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#pg_lo_tell
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-pg_lo_tell — Повертає поточне положення внутрішнього вказівника великого
-об'єкта
+пглоtell — Повертає поточне положення внутрішнього покажчика великого об'єкта
 
 ### Опис
 
-**pg_lo_tell**([PgSql\Lob](class.pgsql-lob.md) `$lob`): int
+```methodsynopsis
+pg_lo_tell(PgSql\Lob $lob): int
+```
 
-**pg_lo_tell()** повертає поточну позицію (відступ від початку)
-внутрішнього вказівника великого об'єкта.
+**пглоtell()** повертає поточну позицію (відступ від початку) внутрішнього покажчика великого об'єкта.
 
-Операції з використанням інтерфейсу великих об'єктів необхідно
-укладати блок транзакції.
+Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
 ### Список параметрів
 
 `lob`
-An [PgSql\Lob](class.pgsql-lob.md) instance, returned by
-[pg_lo_open()](function.pg-lo-open.md).
+
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 
-Поточна позиція внутрішнього покажчика (кількість байт від початку)
-великого об'єкта. У разі виникнення помилки функція поверне
-негативне значення.
+Поточна позиція внутрішнього покажчика (кількість байт від початку) великого об'єкта. У разі помилки функція поверне негативне значення.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр lob тепер чекає на екземпляр [PgSql\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_lo_tell()****
+**Приклад #1 Приклад використання **пглоtell()****
 
-`<?php  $doc_oid==189762345; $database==pg_connect("dbname=jacarta"); pg_query($database, "begin"); $handle = pg_lo_open($database, $doc_oid, "r"); // Пропустити перші 50000 байт   pg_lo_seek($handle, 50000, PGSQL_SEEK_SET); // Перевіримо, на скільки ми відступили   $offset = pg_lo_tell($handle); echo "Поточне становище внутрішнього вказівника: $offset"; pg_query($database, "commit");?> `
+```php
+<?php
+   $doc_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "r");
+   // Пропустить первые 50000 байт
+   pg_lo_seek($handle, 50000, PGSQL_SEEK_SET);
+   // Проверим, на сколько мы отступили
+   $offset = pg_lo_tell($handle);
+   echo "Текущее положение внутреннего указателя: $offset";
+   pg_query($database, "commit");
+?>
+```
 
 Результат виконання цього прикладу:
 
-Поточний стан внутрішнього покажчика: 50000
+```
+Текущее положение внутреннего указателя: 50000
+```
 
 ### Дивіться також
 
-- [pg_lo_seek()](function.pg-lo-seek.md) - Переміщує внутрішній
-вказівник великого об'єкта
+-   [пглоseek()](function.pg-lo-seek.md) - Переміщує внутрішній покажчик великого об'єкта

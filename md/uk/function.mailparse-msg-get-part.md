@@ -1,30 +1,31 @@
-- [« mailparse_msg_get_part_data](function.mailparse-msg-get-part-data.md)
-- [mailparse_msg_get_structure »](function.mailparse-msg-get-structure.md)
+---
+navigation:
+  - function.mailparse-msg-get-part-data.md: « mailparsemsggetpartdata
+  - function.mailparse-msg-get-structure.md: mailparsemsggetstructure »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsggetpart
+---
+# mailparsemsggetpart
 
-- [PHP Manual](index.md)
-- [Mailparse](ref.mailparse.md)
-- Повертає покажчик на задану секцію у mime-повідомленні
+(PECL mailparse >= 0.9.0)
 
-#mailparse_msg_get_part
-
-(PECL mailparse \>= 0.9.0)
-
-mailparse_msg_get_part — Повертає покажчик на задану секцію в
-mime-повідомленні
+mailparsemsggetpart — Повертає покажчик на задану секцію в mime-повідомленні
 
 ### Опис
 
-**mailparse_msg_get_part**(resource `$mimemail`, string `$mimesection`):
-resource
+```methodsynopsis
+mailparse_msg_get_part(resource $mimemail, string $mimesection): resource
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `mimemail`
-Коректний `MIME`-ресурс.
+
+Коректний `MIME`ресурс.
 
 `mimesection`

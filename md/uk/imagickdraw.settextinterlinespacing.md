@@ -1,27 +1,28 @@
-- [« ImagickDraw::setTextEncoding](imagickdraw.settextencoding.md)
-- [ImagickDraw::setTextInterwordSpacing »](imagickdraw.settextinterwordspacing.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює міжрядковий інтервал тексту
-
+---
+navigation:
+  - imagickdraw.settextencoding.md: '« ImagickDraw::setTextEncoding'
+  - imagickdraw.settextinterwordspacing.md: 'ImagickDraw::setTextInterwordSpacing »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextInterlineSpacing'
+---
 # ImagickDraw::setTextInterlineSpacing
 
-(PECL imagick 3 \>= 3.1.0)
+(PECL imagick 3> = 3.1.0)
 
-ImagickDraw::setTextInterlineSpacing — Встановлює міжрядковий
-інтервал тексту
+ImagickDraw::setTextInterlineSpacing — Встановлює міжрядковий інтервал тексту
 
 ### Опис
 
-public **ImagickDraw::setTextInterlineSpacing**(float `$spacing`): bool
+```methodsynopsis
+public ImagickDraw::setTextInterlineSpacing(float $spacing): bool
+```
 
 Встановлює міжрядковий інтервал тексту.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,4 +30,4 @@ public **ImagickDraw::setTextInterlineSpacing**(float `$spacing`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

@@ -1,29 +1,31 @@
-- [« Yaf_Config_Ini](class.yaf-config-ini.md)
-- [Yaf_Config_Ini::count »](yaf-config-ini.count.md)
+---
+navigation:
+  - class.yaf-config-ini.md: « YafConfigIni
+  - yaf-config-ini.count.md: 'YafConfigIni::count »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
+title: 'YafConfigIni::construct'
+---
+# YafConfigIni::construct
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Конструктор класу Yaf_Config_Ini
+(Yaf >=1.0.0)
 
-# Yaf_Config_Ini::\_\_construct
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Ini::\_\_construct - Конструктор класу Yaf_Config_Ini
+YafConfigIni::construct - Конструктор класу YafConfigIni
 
 ### Опис
 
-public **Yaf_Config_Ini::\_\_construct**(string `$config_file`, string
-`$section` = ?)
+public **YafConfigIni::construct**(string `$config_file`, string `$section`
 
-Конструктор класу [Yaf_Config_Ini](class.yaf-config-ini.md)
+Конструктор класу [YafConfigIni](class.yaf-config-ini.md)
 
 ### Список параметрів
 
 `config_file`
+
 Шлях до файлу конфігурації INI
 
 `section`
+
 Який розділ у цьому файлі INI ви хочете проаналізувати
 
 ### Значення, що повертаються

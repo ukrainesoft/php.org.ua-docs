@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\MySQL::setDefer](swoole-coroutine-mysql.setdefer.md)
-- [Swoole\Coroutine::resume »](swoole-coroutine.resume.md)
+---
+navigation:
+  - swoole-coroutine-mysql.setdefer.md: '« SwooleCoroutineMySQL::setDefer'
+  - swoole-coroutine.resume.md: 'SwooleCoroutine::resume »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutine::getuid'
+---
+# SwooleCoroutine::getuid
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine::getuid
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine::getuid — Опис
+SwooleCoroutine::getuid — Опис
 
 ### Опис
 
-public static **Swoole\Coroutine::getuid**(): ReturnType
+```methodsynopsis
+public static Swoole\Coroutine::getuid(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

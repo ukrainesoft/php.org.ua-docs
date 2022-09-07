@@ -1,24 +1,26 @@
-- [« Yaf_Session::current](yaf-session.current.md)
-- [Yaf_Session::\_\_get »](yaf-session.get.md)
+---
+navigation:
+  - yaf-session.current.md: '« YafSession::current'
+  - yaf-session.get.md: 'YafSession::get »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::del'
+---
+# YafSession::del
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення del
+(Yaf >=1.0.0)
 
-# Yaf_Session::del
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::del — Призначення del
+YafSession::del — Призначення del
 
 ### Опис
 
-public **Yaf_Session::del**(string `$name`): void
+```methodsynopsis
+public Yaf_Session::del(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

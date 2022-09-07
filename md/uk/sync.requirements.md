@@ -1,11 +1,11 @@
-- [« Встановлення та налаштування](sync.setup.md)
-- [Установка »](sync.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sync.setup.md)
-- Вимоги
-
+---
+navigation:
+  - sync.setup.md: « Встановлення та налаштування
+  - sync.installation.md: Установка »
+  - index.md: PHP Manual
+  - sync.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Система з підтримкою спільної пам'яті POSIX (shm_open()) або під керуванням
-Windows.
+Система із підтримкою спільної пам'яті POSIX (shmopen()) або під керуванням Windows.

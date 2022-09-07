@@ -1,32 +1,33 @@
-- [«openal_buffer_data](function.openal-buffer-data.md)
-- [openal_buffer_get »](function.openal-buffer-get.md)
+---
+navigation:
+  - function.openal-buffer-data.md: « openalbufferdata
+  - function.openal-buffer-get.md: openalbufferget »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbufferdestroy
+---
+# openalbufferdestroy
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Знищує буфер OpenAL
+(PECL openal >= 0.1.0)
 
-#openal_buffer_destroy
-
-(PECL openal = 0.1.0)
-
-openal_buffer_destroy — Знищує буфер OpenAL
+openalbufferdestroy — Знищує буфер OpenAL
 
 ### Опис
 
-**openal_buffer_destroy**(resource `$buffer`): bool
+```methodsynopsis
+openal_buffer_destroy(resource $buffer): bool
+```
 
 ### Список параметрів
 
 `buffer`
-Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений з
-за допомогою [openal_buffer_create()](function.openal-buffer-create.md)).
+
+Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_buffer_create()](function.openal-buffer-create.md) -
-Згенерувати буфер OpenAL
+-   [openalbuffercreate()](function.openal-buffer-create.md) - Згенерувати буфер OpenAL

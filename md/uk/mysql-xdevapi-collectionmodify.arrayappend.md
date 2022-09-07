@@ -1,10 +1,11 @@
-- [« mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- [CollectionModify::arrayInsert »](mysql-xdevapi-collectionmodify.arrayinsert.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- Додає елемент у поле масиву
-
+---
+navigation:
+  - class.mysql-xdevapi-collectionmodify.md: « mysqlxdevapiCollectionModify
+  - mysql-xdevapi-collectionmodify.arrayinsert.md: 'CollectionModify::arrayInsert »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+title: 'CollectionModify::arrayAppend'
+---
 # CollectionModify::arrayAppend
 
 (No version information available, might only be in Git)
@@ -13,49 +14,74 @@ CollectionModify::arrayAppend — Додає елемент до поля мас
 
 ### Опис
 
-public **mysql_xdevapi\CollectionModify::arrayAppend**(string
-`$collection_field`, string `$expression_or_literal`):
-[mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionModify::arrayAppend(string $collection_field, string $expression_or_literal): mysql_xdevapi\CollectionModify
+```
 
-Додає елемент до поля документа, коли кілька елементів поля
-представляються як масиву. На відміну від arrayInsert(), arrayAppend()
-завжди додає новий елемент до кінця масиву, тоді як arrayInsert()
-може визначати місцезнаходження.
+Додає елемент у поле документа, коли кілька елементів поля подаються як масиву. На відміну від arrayInsert(), arrayAppend() завжди додає новий елемент до кінця масиву, тоді як arrayInsert() може визначати місцезнаходження.
 
 ### Список параметрів
 
 `collection_field`
+
 Ідентифікатор поля, до якого вставляється новий елемент.
 
 `expression_or_literal`
+
 Новий елемент для додавання до кінця масиву полів документа.
 
 ### Значення, що повертаються
 
-Об'єкт CollectionModify, який можна використовувати для виконання
-команди або додавання додаткових операцій.
+Об'єкт CollectionModify, який можна використовувати для виконання команди або додавання додаткових операцій.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionModify::arrayAppend()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::arrayAppend()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result = {"name":   "Bernie",    "traits": ["Friend", "Brother", "Human"]}') ->execute();$collection  ->modify("name in ('Bernie', Jane')") ->arrayAppend('traits', 'Happy') ->execute();$result = $collection  ->find() ->execute();print_r($result->fetchAll()); ?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+$result = $collection
+  ->add(
+  '{"name":   "Bernie",
+    "traits": ["Friend", "Brother", "Human"]}')
+  ->execute();
+
+$collection
+  ->modify("name in ('Bernie', 'Jane')")
+  ->arrayAppend('traits', 'Happy')
+  ->execute();
+
+$result = $collection
+  ->find()
+  ->execute();
+
+print_r($result->fetchAll());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[_id] => 00005b6b536100000000000010c
-[name] => Bernie
-[traits] => Array
-(
-[0] => Friend
-[1] => Brother
-[2] => Human
-[3] => Happy
+    [0] => Array
+        (
+            [_id] => 00005b6b5361000000000000010c
+            [name] => Bernie
+            [traits] => Array
+                (
+                    [0] => Friend
+                    [1] => Brother
+                    [2] => Human
+                    [3] => Happy
+                )
+        )
 )
-)
-)
+```

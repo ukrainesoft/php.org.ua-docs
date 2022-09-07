@@ -1,22 +1,25 @@
-- [« EventConfig::avoidMethod](eventconfig.avoidmethod.md)
-- [EventConfig::requireFeatures »](eventconfig.requirefeatures.md)
+---
+navigation:
+  - eventconfig.avoidmethod.md: '« EventConfig::avoidMethod'
+  - eventconfig.requirefeatures.md: 'EventConfig::requireFeatures »'
+  - index.md: PHP Manual
+  - class.eventconfig.md: EventConfig
+title: 'EventConfig::construct'
+---
+# EventConfig::construct
 
-- [PHP Manual](index.md)
-- [EventConfig](class.eventconfig.md)
-- Створити об'єкт EventConfig
+(PECL event >= 1.2.6-beta)
 
-# EventConfig::\_\_construct
-
-(PECL event \>= 1.2.6-beta)
-
-EventConfig::\_\_construct — Створити об'єкт EventConfig
+EventConfig::construct — Створити об'єкт EventConfig
 
 ### Опис
 
-public **EventConfig::\_\_construct**()
+```methodsynopsis
+public
+   EventConfig::__construct()
+```
 
-Створює об'єкт EventConfig, який можна передати до конструктора
-[EventBase::\_\_construct()](eventbase.construct.md).
+Створює об'єкт EventConfig, який можна передати до конструктора [EventBase::construct()](eventbase.construct.md)
 
 ### Список параметрів
 
@@ -24,16 +27,27 @@ public **EventConfig::\_\_construct**()
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventConfig](class.eventconfig.md).
+Повертає об'єкт [EventConfig](class.eventconfig.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventConfig::\_\_construct()****
+**Приклад #1 Приклад використання **EventConfig::construct()****
 
-` <?php// Ігноруємо метод "select"$cfg = new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
-";}// Створюємо event_base, пов'язаний з цим конфігом $ base = = новий EventBase ($ cfg);
+```php
+<?php
+// Игнорируем метод "select"
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
+}
+
+// Создаём event_base, связанный с этим конфигом
+$base = new EventBase($cfg);
+
+/* Теперь $base настроен на игнорирование метода select (бэкенд) */
+?>
+```
 
 ### Дивіться також
 
-- [EventBase::\_\_construct()](eventbase.construct.md) - Конструктор
-об'єкта EventBase
+-   [EventBase::construct()](eventbase.construct.md) - Конструктор об'єкту EventBase

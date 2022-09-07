@@ -1,23 +1,24 @@
-- [« Gmagick::oilpaintimage](gmagick.oilpaintimage.md)
-- [Gmagick::profileimage »](gmagick.profileimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Здійснює перехід до попереднього зображення в об'єкті
-
+---
+navigation:
+  - gmagick.oilpaintimage.md: '« Gmagick::oilpaintimage'
+  - gmagick.profileimage.md: 'Gmagick::profileimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::previousimage'
+---
 # Gmagick::previousimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::previousimage — Здійснює перехід до попереднього зображення
-в об'єкті
+Gmagick::previousimage — Здійснює перехід до попереднього зображення в об'єкті
 
 ### Опис
 
-public **Gmagick::previousimage**(): bool
+```methodsynopsis
+public Gmagick::previousimage(): bool
+```
 
-Зв'язує попереднє зображення у списку зображень з об'єктом
-[Gmagick](class.gmagick.md).
+Зв'язує попереднє зображення у списку зображень з об'єктом [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 
@@ -25,8 +26,7 @@ public **Gmagick::previousimage**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 

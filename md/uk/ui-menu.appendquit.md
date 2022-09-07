@@ -1,26 +1,29 @@
-- [« UI\Menu::appendPreferences](ui-menu.appendpreferences.md)
-- [UI\Menu::appendSeparator »](ui-menu.appendseparator.md)
-
-- [PHP Manual](index.md)
-- [UI\Menu](class.ui-menu.md)
-- Додати пункт меню "Вихід" (Quit)
-
-# UI\Menu::appendQuit
+---
+navigation:
+  - ui-menu.appendpreferences.md: '« UIMenu::appendPreferences'
+  - ui-menu.appendseparator.md: 'ОЙMenu::appendSeparator »'
+  - index.md: PHP Manual
+  - class.ui-menu.md: ОЙMenu
+title: 'ОЙMenu::appendQuit'
+---
+# ОЙMenu::appendQuit
 
 (UI 0.9.9)
 
-UI\Menu::appendQuit — Додати пункт меню "Вихід" (Quit)
+ОЙMenu::appendQuit — Додати пункт меню "Вихід" (Quit)
 
 ### Опис
 
-public **UI\Menu::appendQuit**(string `$type` = UI\MenuItem::class):
-[UI\MenuItem](class.ui-menuitem.md)
+```methodsynopsis
+public UI\Menu::appendQuit(string $type = UI\MenuItem::class): UI\MenuItem
+```
 
-Додасть пункт меню "Вихід"
+Додати пункт меню "Вихід"
 
 ### Список параметрів
 
 `type`
+
 Тип нового пункту
 
 ### Значення, що повертаються

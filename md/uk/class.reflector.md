@@ -1,42 +1,54 @@
-- [« ReflectionAttribute::newInstance](reflectionattribute.newinstance.md)
-- [Reflector::export »](reflector.export.md)
-
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Інтерфейс Reflector
-
+---
+navigation:
+  - reflectionattribute.newinstance.md: '« ReflectionAttribute::newInstance'
+  - reflector.export.md: 'Reflector::export »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Інтерфейс Reflector
+---
 # Інтерфейс Reflector
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Інтерфейс **Reflector** реалізують усі експортовані Reflection-класи.
+Інтерфейс **Reflector** реалізують всі експортовані Reflection-класи.
 
 ## Огляд інтерфейсів
 
-interface **Reflector** extends [Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public static [export](reflector.export.md)(): string
+    
+     
+      interface Reflector
+      extends
+       Stringable
+     
+     {
 
-public [\_\_toString](reflector.tostring.md)(): string
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public static export(): string
+public __toString(): string
 
-public [Stringable::\_\_toString](stringable.tostring.md)(): string
 
-}
+    /* Наследуемые методы */
+    public Stringable::__toString(): string
 
-## Список змін
+   }
+```
 
-| Версія | Опис                                                                           |
-| ------ | ------------------------------------------------------------------------------ |
-| 8.0.0  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
-- [Reflector::export](reflector.export.md) — Експорт
-- [Reflector::\_\_toString](reflector.tostring.md) — Подання в
-вигляді рядка
+-   [Reflector::export](reflector.export.md) - Експорт
+-   [Reflector::toString](reflector.tostring.md) — Подання у вигляді рядка

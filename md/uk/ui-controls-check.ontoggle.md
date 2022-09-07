@@ -1,19 +1,22 @@
-- [« UI\Controls\Check::isChecked](ui-controls-check.ischecked.md)
-- [UI\Controls\Check::setChecked »](ui-controls-check.setchecked.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Check](class.ui-controls-check.md)
-- Функція зворотного виклику перемикання
-
-# UI\Controls\Check::onToggle
+---
+navigation:
+  - ui-controls-check.ischecked.md: '« UIControlsCheck::isChecked'
+  - ui-controls-check.setchecked.md: 'ОЙControlsCheck::setChecked »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.md: ОЙControlsCheck
+title: 'ОЙControlsCheck::onToggle'
+---
+# ОЙControlsCheck::onToggle
 
 (UI 0.9.9)
 
-UI\Controls\Check::onToggle — Функція зворотного виклику перемикання
+ОЙControlsCheck::onToggle — Функція зворотного виклику перемикання
 
 ### Опис
 
-protected **UI\Controls\Check::onToggle**()
+```methodsynopsis
+protected UI\Controls\Check::onToggle()
+```
 
 Виконується при зміні статусу цього чекбоксу.
 

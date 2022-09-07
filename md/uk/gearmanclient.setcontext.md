@@ -1,34 +1,35 @@
-- [« GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md)
-- [GearmanClient::setCreatedCallback »](gearmanclient.setcreatedcallback.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Встановити контекст програми
-
+---
+navigation:
+  - gearmanclient.setcompletecallback.md: '« GearmanClient::setCompleteCallback'
+  - gearmanclient.setcreatedcallback.md: 'GearmanClient::setCreatedCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setContext'
+---
 # GearmanClient::setContext
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanClient::setContext — Встановити контекст програми
 
 ### Опис
 
-public **GearmanClient::setContext**(string `$context`): bool
+```methodsynopsis
+public GearmanClient::setContext(string $context): bool
+```
 
-Встановлює довільний рядок для надання контексту
-програми, яка може бути пізніше отримана за допомогою
-[GearmanClient::context()](gearmanclient.context.md).
+Встановлює довільний рядок для надання контексту програми, яка може бути пізніше отримана за допомогою [GearmanClient::context()](gearmanclient.context.md)
 
 ### Список параметрів
 
 `context`
+
 Довільні дані контексту
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**.
+Завжди повертає **`true`**
 
 ### Дивіться також
 
-- [GearmanClient::context()](gearmanclient.context.md) - Повертає
-контекст програми
+-   [GearmanClient::context()](gearmanclient.context.md) - Повертає контекст програми

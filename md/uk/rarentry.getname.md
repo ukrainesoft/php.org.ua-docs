@@ -1,19 +1,22 @@
-- [« RarEntry::getMethod](rarentry.getmethod.md)
-- [RarEntry::getPackedSize »](rarentry.getpackedsize.md)
-
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Повертає ім'я елемента
-
+---
+navigation:
+  - rarentry.getmethod.md: '« RarEntry::getMethod'
+  - rarentry.getpackedsize.md: 'RarEntry::getPackedSize »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getName'
+---
 # RarEntry::getName
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
 RarEntry::getName — Повертає ім'я елемента
 
 ### Опис
 
-public **RarEntry::getName**(): string
+```methodsynopsis
+public RarEntry::getName(): string
+```
 
 Повертає ім'я елемента масиву (разом із шляхом).
 
@@ -23,17 +26,37 @@ public **RarEntry::getName**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я елемента у вигляді рядка, або **`false`** у випадку
-виникнення помилки.
+Повертає ім'я елемента у вигляді рядка, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія         | Опис                                                                    |
-|----------------|-------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 2.0.0 | Починаючи з версії 2.0.0, повертається рядок у кодуванні Unicode/UTF-8. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **RarEntry::getName()****
 
-`<?php// цей приклад працює, навіть сторінка не в кодуванні UTF-8// для перекодування в UTF-8 викликається mb_convert_encoding$rar_file = rar_open );$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалося найти такий запис");echo "Ім'яелемента: " . mb_convert_encoding(htmlentities(   htmlentities(        $entry->getName(),        ENT_COMPAT,                  |)
+```php
+<?php
+
+// этот пример работает, даже если страница не в кодировке UTF-8
+// для перекодирования в UTF-8 вызывается mb_convert_encoding
+
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+
+echo "Имя элемента: " . mb_convert_encoding(
+    htmlentities(
+        $entry->getName(),
+        ENT_COMPAT,
+        "UTF-8"
+    ),
+    "HTML-ENTITIES",
+    "UTF-8"
+);
+
+?>
+```

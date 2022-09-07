@@ -1,46 +1,60 @@
-- [«EvLoop::\_\_construct](evloop.construct.md)
-- [EvLoop::embed »](evloop.embed.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Повертає або створює цикл за замовчуванням
-
+---
+navigation:
+  - evloop.construct.md: '« EvLoop::construct'
+  - evloop.embed.md: 'EvLoop::embed »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::defaultLoop'
+---
 # EvLoop::defaultLoop
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::defaultLoop — Повертає або створює цикл стандартних подій
+EvLoop::defaultLoop — Повертає або створює цикл подій за промовчанням
 
 ### Опис
 
-public static **EvLoop::defaultLoop**(
-int `$flags` = Ev::FLAG_AUTO ,
+```methodsynopsis
+public
+   static
+   EvLoop::defaultLoop(    
+    int
+     $flags
+     = Ev::FLAG_AUTO
+   ,    
+    mixed
+     $data
+     = NULL
+   ,    
+    float
+     $io_interval
+     = 0.
+   ,    
+    float
+     $timeout_interval
+     = 0.
+   ): EvLoop
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = NULL ,
-float `$io_interval` = 0. ,
-float `$timeout_interval` = 0.
-): [EvLoop](class.evloop.md)
-
-Якщо цикл стандартних подій не створено, **EvLoop::defaultLoop()**
-створює його із зазначеними параметрами. Інакше він просто
-повертає об'єкт, який представляє раніше створений екземпляр, ігноруючи
-всі параметри.
+Якщо цикл стандартних подій не створено, **EvLoop::defaultLoop()** створює його із зазначеними параметрами. В іншому випадку він просто повертає об'єкт, який представляє раніше створений екземпляр, ігноруючи всі параметри.
 
 ### Список параметрів
 
 `flags`
-Один з [прапорів циклу подій](class.ev.md#ev.constants.loop-flags)
+
+Один з [прапори циклу подій](class.ev.md#ev.constants.loop-flags)
 
 `data`
-Дані користувача, пов'язані з циклом.
+
+Ці дані, пов'язані з циклом.
 
 `io_collect_interval`
-Дивіться [io_interval](class.evloop.md#evloop.props.io-interval)
+
+Дивіться [іоinterval](class.evloop.md#evloop.props.io-interval)
 
 `timeout_collect_interval`
-Дивіться
-[timeout_interval](class.evloop.md#evloop.props.timeout-interval)
+
+Дивіться [timeoutinterval](class.evloop.md#evloop.props.timeout-interval)
 
 ### Значення, що повертаються
 
@@ -48,5 +62,4 @@ float `$timeout_interval` = 0.
 
 ### Дивіться також
 
-- [EvLoop::\_\_construct()](evloop.construct.md) - Конструктор
-об'єкта циклу подій
+-   [EvLoop::construct()](evloop.construct.md) - Конструктор об'єкта циклу подій

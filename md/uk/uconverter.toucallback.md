@@ -1,29 +1,26 @@
-- [« UConverter::setSubstChars](uconverter.setsubstchars.md)
-- [UConverter::transcode »](uconverter.transcode.md)
-
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Callback-функція за промовчанням для "to"
-
+---
+navigation:
+  - uconverter.setsubstchars.md: '« UConverter::setSubstChars'
+  - uconverter.transcode.md: 'UConverter::transcode »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::toUCallback'
+---
 # UConverter::toUCallback
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 UConverter::toUCallback — Callback-функція за промовчанням для "to"
 
 ### Опис
 
-public **UConverter::toUCallback**(
-int `$reason`,
-string `$source`,
-string `$codeUnits`,
-int `&$error`
-): string\|int\|array\|null
+```methodsynopsis
+public UConverter::toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

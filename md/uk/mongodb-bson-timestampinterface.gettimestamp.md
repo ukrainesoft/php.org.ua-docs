@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\TimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.md)
-- [MongoDB\BSON\TimestampInterface::\_\_toString »](mongodb-bson-timestampinterface.tostring.md)
+---
+navigation:
+  - mongodb-bson-timestampinterface.getincrement.md: '« MongoDBBSONTimestampInterface::getIncrement'
+  - mongodb-bson-timestampinterface.tostring.md: 'MongoDBBSONTimestampInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface
+title: 'MongoDBBSONTimestampInterface::getTimestamp'
+---
+# MongoDBBSONTimestampInterface::getTimestamp
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\TimestampInterface](class.mongodb-bson-timestampinterface.md)
-- Повертає компонент позначки часу TimestampInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\TimestampInterface::getTimestamp
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\TimestampInterface::getTimestamp — Повертає компонент
-позначки часу TimestampInterface
+MongoDBBSONTimestampInterface::getTimestamp — Повертає компонент позначки часу TimestampInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\TimestampInterface::getTimestamp**(): int
+```methodsynopsis
+abstract public MongoDB\BSON\TimestampInterface::getTimestamp(): int
+```
 
 ### Список параметрів
 
@@ -26,12 +28,8 @@ abstract public **MongoDB\BSON\TimestampInterface::getTimestamp**(): int
 
 **Увага**
 
-У 32-бітових системах цей метод може повертати негативне число.
-Хоча частини прирощення та позначки часу типу позначки часу BSON
-складаються з двох 32-розрядних значень без знака, PHP не може
-представляти їх на 32-розрядних платформах.
+У 32-бітових системах цей метод може повертати негативне число. Хоча частини збільшення та позначки часу типу позначки часу BSON складаються з двох 32-розрядних значень без знака, PHP не може представляти їх на 32-розрядних платформах.
 
 ### Дивіться також
 
-- [MongoDB\BSON\Timestamp::getTimestamp()](mongodb-bson-timestamp.gettimestamp.md) -
-Повертає компонент позначки часу Timestamp
+-   [MongoDBBSONTimestamp::getTimestamp()](mongodb-bson-timestamp.gettimestamp.md) - Повертає компонент позначки часу Timestamp

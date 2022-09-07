@@ -1,23 +1,24 @@
-- [«SolrCollapseFunction::getSize](solrcollapsefunction.getsize.md)
-- [SolrCollapseFunction::setHint »](solrcollapsefunction.sethint.md)
-
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Встановлює поле для згортання
-
+---
+navigation:
+  - solrcollapsefunction.getsize.md: '« SolrCollapseFunction::getSize'
+  - solrcollapsefunction.sethint.md: 'SolrCollapseFunction::setHint »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::setField'
+---
 # SolrCollapseFunction::setField
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrCollapseFunction::setField — Встановлює поле для згортання
 
 ### Опис
 
-public **SolrCollapseFunction::setField**(string `$fieldName`):
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+```methodsynopsis
+public SolrCollapseFunction::setField(string $fieldName): SolrCollapseFunction
+```
 
-Ім'я поля для згортання. Щоб згорнути результат. Тип поля має бути
-однозначним: рядок, ціле число або число з плаваючою точкою.
+Ім'я поля для згортання. Щоб згорнути результат. Тип поля має бути однозначним: рядок, ціле число чи число з плаваючою точкою.
 
 ### Список параметрів
 

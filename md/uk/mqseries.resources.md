@@ -1,17 +1,15 @@
-- [« Налаштування під час виконання](mqseries.ini.md)
-- [Предвизначені константи »](mqseries.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mqseries.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - mqseries.ini.md: « Налаштування під час виконання
+  - mqseries.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - mqseries.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-Цей модуль оперує такими ресурсами: connection та object_handle.
+Цей модуль оперує такими ресурсами: connection та objecthandle.
 
-Функції [mqseries_conn()](function.mqseries-conn.md) та
-[mqseries_connx()](function.mqseries-connx.md) повертають обробники
-з'єднання.
+Функції [mqseriesconn()](function.mqseries-conn.md) і [mqseriesconnx()](function.mqseries-connx.md) повертають обробники з'єднання.
 
-Функція [mqseries_open()](function.mqseries-open.md) повертає
-обробник об'єкта.
+Функція [mqseriesopen()](function.mqseries-open.md) повертає оброблювач об'єкта.

@@ -1,22 +1,24 @@
-- [« streamWrapper::stream_set_option](streamwrapper.stream-set-option.md)
-- [streamWrapper::stream_tell »](streamwrapper.stream-tell.md)
+---
+navigation:
+  - streamwrapper.stream-set-option.md: '« streamWrapper::streamsetoption'
+  - streamwrapper.stream-tell.md: 'streamWrapper::streamtell »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamстати'
+---
+# streamWrapper::streamстати
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Отримання інформації про файловий ресурс
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# streamWrapper::stream_stat
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-streamWrapper::stream_stat — Отримання інформації про файловий ресурс
+streamWrapper::streamstat — Отримання інформації про файловий ресурс
 
 ### Опис
 
-public **streamWrapper::stream_stat**(): array\|false
+```methodsynopsis
+public streamWrapper::stream_stat(): array|false
+```
 
-Цей метод викликається внаслідок виклику функції
-[fstat()](function.fstat.md).
+Цей метод викликається внаслідок виклику функції [fstat()](function.fstat.md)
 
 ### Список параметрів
 
@@ -24,15 +26,13 @@ public **streamWrapper::stream_stat**(): array\|false
 
 ### Значення, що повертаються
 
-Дивіться [stat()](function.stat.md).
+Дивіться [stat()](function.stat.md)
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не
-удався (наприклад, не реалізований).
+Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не вдалося (наприклад, не реалізовано).
 
 ### Дивіться також
 
-- [stat()](function.stat.md) - Повертає інформацію про файл
-- [streamwrapper::url_stat()](streamwrapper.url-stat.md) - Отримання
-інформації про файл
+-   [stat()](function.stat.md) - Повертає інформацію про файл
+-   [streamwrapper::urlstat()](streamwrapper.url-stat.md) - Отримання інформації про файл

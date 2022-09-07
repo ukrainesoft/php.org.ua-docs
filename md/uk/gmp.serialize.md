@@ -1,24 +1,26 @@
-- [«GMP](class.gmp.md)
-- [GMP::\_\_unserialize »](gmp.unserialize.md)
+---
+navigation:
+  - class.gmp.md: « GMP
+  - gmp.unserialize.md: 'GMP::unserialize »'
+  - index.md: PHP Manual
+  - class.gmp.md: GMP
+title: 'GMP::serialize'
+---
+# GMP::serialize
 
-- [PHP Manual](index.md)
-- [GMP](class.gmp.md)
-- Серіалізує об'єкт GMP
+(PHP 8> = 8.1.0)
 
-# GMP::\_\_serialize
-
-(PHP 8 \>= 8.1.0)
-
-GMP::\_\_serialize — Серіалізує об'єкт GMP
+GMP::serialize — Серіалізує об'єкт GMP
 
 ### Опис
 
-public **GMP::\_\_serialize**(): array
+```methodsynopsis
+public GMP::__serialize(): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

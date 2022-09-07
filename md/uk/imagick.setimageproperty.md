@@ -1,10 +1,11 @@
-- [« Imagick::setImageProfile](imagick.setimageprofile.md)
-- [Imagick::setImageRedPrimary »](imagick.setimageredprimary.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює властивість зображення
-
+---
+navigation:
+  - imagick.setimageprofile.md: '« Imagick::setImageProfile'
+  - imagick.setimageredprimary.md: 'Imagick::setImageRedPrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageProperty'
+---
 # Imagick::setImageProperty
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,11 +14,11 @@ Imagick::setImageProperty — Встановлює властивість зоб
 
 ### Опис
 
-public **Imagick::setImageProperty**(string `$name`, string `$value`):
-bool
+```methodsynopsis
+public Imagick::setImageProperty(string $name, string $value): bool
+```
 
-Встановлює іменовану якість зображення. Цей метод доступний,
-якщо Imagick був скомпільований із версією ImageMagick 6.3.2 або старшим.
+Встановлює іменовану властивість зображення. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.2 або старшим.
 
 ### Список параметрів
 
@@ -27,7 +28,7 @@ bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -35,9 +36,16 @@ bool
 
 Встановлення та отримання властивостей зображення
 
-` <?php$image = new Imagick();$image->newImage(300, 200, "black");$image->setImageProperty('Exif:Make', 'Imagick');echo $image->getImageProperty ('Exif:Make');?> `
+```php
+<?php
+$image = new Imagick();
+$image->newImage(300, 200, "black");
+
+$image->setImageProperty('Exif:Make', 'Imagick');
+echo $image->getImageProperty('Exif:Make');
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::getImageProperty()](imagick.getimageproperty.md) -
-Повертає іменовану якість зображення
+-   [Imagick::getImageProperty()](imagick.getimageproperty.md) - Повертає іменовану властивість зображення

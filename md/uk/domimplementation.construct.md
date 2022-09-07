@@ -1,23 +1,22 @@
-- [« DOMImplementation](class.domimplementation.md)
-- [DOMImplementation::createDocument »](domimplementation.createdocument.md)
-
-- [PHP Manual](index.md)
-- [DOMImplementation](class.domimplementation.md)
-- Створює новий об'єкт класу DOMImplementation
-
-# DOMImplementation::\_\_construct
+---
+navigation:
+  - class.domimplementation.md: « DOMImplementation
+  - domimplementation.createdocument.md: 'DOMImplementation::createDocument »'
+  - index.md: PHP Manual
+  - class.domimplementation.md: DOMImplementation
+title: 'DOMImplementation::construct'
+---
+# DOMImplementation::construct
 
 (PHP 5, PHP 7)
 
-DOMImplementation::\_\_construct — Створює новий об'єкт класу
-DOMImplementation
+DOMImplementation::construct — Створює новий об'єкт класу DOMImplementation
 
 ### Опис
 
-**DOMImplementation::\_\_construct**()
+**DOMImplementation::construct**
 
-Створює екземпляр класу
-[DOMImplementation](class.domimplementation.md).
+Створює екземпляр класу [DOMImplementation](class.domimplementation.md)
 
 ### Список параметрів
 

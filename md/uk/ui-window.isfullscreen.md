@@ -1,19 +1,22 @@
-- [«UI\Window::hasMargin](ui-window.hasmargin.md)
-- [UI\Window::msg »](ui-window.msg.md)
-
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Визначення повного екрану
-
-# UI\Window::isFullScreen
+---
+navigation:
+  - ui-window.hasmargin.md: '« UIWindow::hasMargin'
+  - ui-window.msg.md: 'ОЙWindow::msg »'
+  - index.md: PHP Manual
+  - class.ui-window.md: ОЙWindow
+title: 'ОЙWindow::isFullScreen'
+---
+# ОЙWindow::isFullScreen
 
 (UI 0.9.9)
 
-UI\Window::isFullScreen — Визначення повного екрана
+ОЙWindow::isFullScreen — Визначення повного екрану
 
 ### Опис
 
-public **UI\Window::isFullScreen**(): bool
+```methodsynopsis
+public UI\Window::isFullScreen(): bool
+```
 
 Визначити, чи використовується це вікно на весь екран
 

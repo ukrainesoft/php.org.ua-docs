@@ -1,51 +1,62 @@
-- [« ImagickPixel::setColorCount](imagickpixel.setcolorcount.md)
-- [ImagickPixel::setColorValueQuantum »](imagickpixel.setcolorvaluequantum.md)
-
-- [PHP Manual](index.md)
-- [ImagickPixel](class.imagickpixel.md)
-- Встановлює нормалізоване значення одного з каналів
-
+---
+navigation:
+  - imagickpixel.setcolorcount.md: '« ImagickPixel::setColorCount'
+  - imagickpixel.setcolorvaluequantum.md: 'ImagickPixel::setColorValueQuantum »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::setColorValue'
+---
 # ImagickPixel::setColorValue
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixel::setColorValue — Встановлює нормалізоване значення
-одного з каналів
+ImagickPixel::setColorValue — Встановлює нормалізоване значення одного з каналів
 
 ### Опис
 
-public **ImagickPixel::setColorValue**(int `$color`, float `$value`):
-bool
+```methodsynopsis
+public ImagickPixel::setColorValue(int $color, float $value): bool
+```
 
-Встановлює значення вказаного каналу поточного об'єкта за умови
-те, що нове значення знаходиться між 0 і 1. Ця функція може бути
-використано для встановлення прозорості каналу об'єкта ImagickPixel.
+Встановлює значення зазначеного каналу поточного об'єкта за умови, що нове значення знаходиться між 0 і 1. Ця функція може бути використана для встановлення прозорості каналу об'єкта ImagickPixel.
 
 ### Список параметрів
 
-`col`
-Один із констант кольору Imagick, тобто. \Imagick::COLOR_GREEN або
-\Imagick::COLOR_ALPHA.
+`color`
+
+Один із констант кольору Imagick, тобто . Imagick::COLORGREEN або Imagick::COLORALPHA.
 
 `value`
+
 Значення для встановлення у цьому каналі, в межах від 0 до 1.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::setColorValue()****
 
-` <?php$color = new \ImagickPixel('firebrick');$color->setColorValue(Imagick::COLOR_ALPHA, 0.5);print_r($color->getcolor(true));?> `
+```php
+<?php
+
+$color  = new \ImagickPixel('firebrick');
+
+$color->setColorValue(Imagick::COLOR_ALPHA, 0.5);
+
+print_r($color->getcolor(true));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[r] => 0.69803921568627
-[g] => 0.13333333333333
-[b] => 0.13333333333333
-[a] => 0.50000762951095
+    [r] => 0.69803921568627
+    [g] => 0.13333333333333
+    [b] => 0.13333333333333
+    [a] => 0.50000762951095
 )
+```

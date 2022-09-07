@@ -1,103 +1,149 @@
-- [«EventBufferEvent::connect](eventbufferevent.connect.md)
-- [EventBufferEvent::\_\_construct »](eventbufferevent.construct.md)
-
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Підключається на ім'я хоста з можливістю асинхронного дозволу
-DNS
-
+---
+navigation:
+  - eventbufferevent.connect.md: '« EventBufferEvent::connect'
+  - eventbufferevent.construct.md: 'EventBufferEvent::construct »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::connectHost'
+---
 # EventBufferEvent::connectHost
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBufferEvent::connectHost — Підключається на ім'я хоста з
-можливістю асинхронного дозволу DNS
+EventBufferEvent::connectHost — Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
 
 ### Опис
 
-public **EventBufferEvent::connectHost**(
-[EventDnsBase](class.eventdnsbase.md) `$dns_base` ,
-string `$hostname`,
-int `$port` ,
-int `$family` = EventUtil::AF_UNSPEC
-): bool
+```methodsynopsis
+public
+   EventBufferEvent::connectHost(    
+    EventDnsBase
+     $dns_base
+   ,    
+    string
+     $hostname
+   ,    
+    int
+     $port
+   ,    
+    int
+     $family
+     = EventUtil::AF_UNSPEC
+   ): bool
+```
 
-Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (константи
-`EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити,
-викликає callback-функцію події з подією помилки. У разі успішного
-виконання робить спробу підключення так само, як
-[EventBufferEvent::connect()](eventbufferevent.connect.md).
+Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (Константи `EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити, викликає callback-функцію події з подією помилки. У разі успішного виконання робить спробу підключення так само, як [EventBufferEvent::connect()](eventbufferevent.connect.md)
 
-Параметр `dns_base` не обов'язковий. Він може мати значення
-**`null`** або посилатися на об'єкт, створений за допомогою
-[EventDnsBase::\_\_construct()](eventdnsbase.construct.md). Для
-асинхронного дозволу імені хоста необхідно передати дійсний
-базовий ресурс DNS-події В іншому випадку дозвіл імені хоста
-буде заблоковано.
+Параметр `dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::construct()](eventdnsbase.construct.md). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
 
-> **Примітка**:
->
-> [EventDnsBase](class.eventdnsbase.md) доступний, тільки якщо `Event`
-> налаштований з **--with-event-extra** (бібліотека `event_extra`,
-> *підтримка функцій протоколу libevent, включаючи HTTP, DNS та RPC*).
+> **Зауваження**
+> 
+> [EventDnsBase](class.eventdnsbase.md) доступний, тільки якщо `Event` налаштований з **\-with-event-extra** (бібліотека `event_extra` *підтримка функцій протоколу libevent, включаючи HTTP, DNS та RPC*
 
-> **Примітка**:
->
-> **EventBufferEvent::connectHost()** вимагає `libevent-2.0.3-alpha` або
-> вище.
+> **Зауваження**
+> 
+> **EventBufferEvent::connectHost()** вимагає `libevent-2.0.3-alpha` або вище.
 
 ### Список параметрів
 
 `dns_base`
-Об'єкт [EventDnsBase](class.eventdnsbase.md) у випадку, якщо потрібно DNS
-дозволити асинхронно. **`null`** інакше.
+
+Об'єкт [EventDnsBase](class.eventdnsbase.md) у випадку, якщо DNS потрібно дозволити асинхронно . **`null`** в іншому випадку.
 
 `hostname`
+
 Ім'я хоста для підключення. Формати, що розпізнаються:
 
-``` parameterscode
-www.example.com (hostname)
-1.2.3.4 (ipv4address)
-::1 (ipv6address)
-[::1]([ipv6address])
-````
+[www.example.com](http://www.example.com) (hostname) 1.2.3.4 (ipv4address) ::1 (ipv6address) ipv6address
 
 `port`
+
 Номер порту.
 
 `family`
-Сімейство адрес. **`EventUtil::AF_UNSPEC`**, **`EventUtil::AF_INET`**
-або **`EventUtil::AF_INET6`**. Зверніться до списку [констант EventUtil](class.eventutil.md#eventutil.constants).
+
+Сімейство адрес . **`EventUtil::AF_UNSPEC`** **`EventUtil::AF_INET`** або **`EventUtil::AF_INET6`**. Зверніться до списку [констант EventUtil](class.eventutil.md#eventutil.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 **Приклад використання EventBufferEvent::connectHost()****
 
-` <?php/* Callback-функція читання */function readcb($bev, $base) {    //$input = $bev->input; //$bev->getInput(); //$pos = $input->search("TTP"); $pos = $bev->input->search("TTP"); while(($n = $bev->input->remove($buf, 1024)) > 0) {        echo $buf; }}/* Callback-функція події */function eventcb($bev, $events, $base) {    if ($events & EventBufferEvent::CONNECTED) {                        
-";    } elseif ($events & (EventBufferEvent::ERROR | EventBufferEvent::EOF)) {        if ($events & EventBufferEvent::ERROR) {            echo "Ошибка DNS: ", $bev->getDnsErrorString(), PHP_EOL;        } echo "Закриття
-";        $base->exit();        exit("Виконано
-");    }}$base = new EventBase();$dns_base = new EventDnsBase($base, TRUE); // Використання асинхронного дозволу DNSif |   
-");}$bev = new EventBufferEvent($base, /* использование внутреннего сокета */ NULL,    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,    "readcb", /* writecb */ NULL, "eventcb", $base) ;if (!$bev) {   exit("Не удалося створити сокет bufferevent
-");}//$bev->setCallbacks("readcb", /* writecb */ NULL, "eventcb", $base);$bev->enable(Event::READ | Event::WRITE);$output = $bev->output; //$bev->getOutput();if (!$output->add(   "GET {$argv[2]} HTTP/1.0
-".    "Host: {$argv[1]}
-".    "Connection: Close
+```php
+<?php
+/* Callback-функция чтения */
+function readcb($bev, $base) {
+    //$input = $bev->input; //$bev->getInput();
 
-")) {    exit("Не удалося додати запит у вихідний буфер
-");}if (!$bev->connectHost($dns_base, $argv[1], 80, EventUtil::AF_UNSPEC)) {    exit("Не удалося підключитися до хосту {$argv[1]}
-");}$base->dispatch();?> `
+    //$pos = $input->search("TTP");
+    $pos = $bev->input->search("TTP");
+
+    while (($n = $bev->input->remove($buf, 1024)) > 0) {
+        echo $buf;
+    }
+}
+
+/* Callback-функция события */
+function eventcb($bev, $events, $base) {
+    if ($events & EventBufferEvent::CONNECTED) {
+        echo "Подключено.\n";
+    } elseif ($events & (EventBufferEvent::ERROR | EventBufferEvent::EOF)) {
+        if ($events & EventBufferEvent::ERROR) {
+            echo "Ошибка DNS: ", $bev->getDnsErrorString(), PHP_EOL;
+        }
+
+        echo "Закрытие\n";
+        $base->exit();
+        exit("Выполнено\n");
+    }
+}
+
+$base = new EventBase();
+
+$dns_base = new EventDnsBase($base, TRUE); // Использование асинхронного разрешения DNS
+if (!$dns_base) {
+    exit("Не удалось запустить базу DNS\n");
+}
+
+$bev = new EventBufferEvent($base, /* использование внутреннего сокета */ NULL,
+    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,
+    "readcb", /* writecb */ NULL, "eventcb", $base
+);
+if (!$bev) {
+    exit("Не удалось создать сокет bufferevent\n");
+}
+
+//$bev->setCallbacks("readcb", /* writecb */ NULL, "eventcb", $base);
+$bev->enable(Event::READ | Event::WRITE);
+
+$output = $bev->output; //$bev->getOutput();
+if (!$output->add(
+    "GET {$argv[2]} HTTP/1.0\r\n".
+    "Host: {$argv[1]}\r\n".
+    "Connection: Close\r\n\r\n"
+)) {
+    exit("Не удалось добавить запрос в выходной буфер\n");
+}
+
+if (!$bev->connectHost($dns_base, $argv[1], 80, EventUtil::AF_UNSPEC)) {
+    exit("Не удалось подключиться к хосту {$argv[1]}\n");
+}
+
+$base->dispatch();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Connected.
 HTTP/1.0 301 Moved Permanently
 Location: http://www.google.co.uk/
 Content-Type: text/html; charset=UTF-8
-Дата: Sat, 09 Mar 2013 12:21:19 GMT
+Date: Sat, 09 Mar 2013 12:21:19 GMT
 Expires: Mon, 08 Apr 2013 12:21:19 GMT
 Cache-Control: public, max-age=2592000
 Server: gws
@@ -113,9 +159,8 @@ The document has moved
 </BODY></HTML>
 Closing
 Done
+```
 
 ### Дивіться також
 
-- [EventBufferEvent::connect()](eventbufferevent.connect.md) -
-Підключає файловий дескриптор події буфера до вказаної адреси
-або сокету UNIX
+-   [EventBufferEvent::connect()](eventbufferevent.connect.md) - Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX

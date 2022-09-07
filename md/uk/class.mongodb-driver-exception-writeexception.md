@@ -1,100 +1,113 @@
-- [« MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
-- [MongoDB\Driver\Exception\WriteException::getWriteResult »](mongodb-driver-writeexception.getwriteresult.md)
+---
+navigation:
+  - class.mongodb-driver-exception-unexpectedvalueexception.md: « MongoDBDriverExceptionUnexpectedValueException
+  - mongodb-driver-writeexception.getwriteresult.md: 'MongoDBDriverExceptionWriteException::getWriteResult »'
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Клас MongoDBDriverExceptionWriteException
+---
+# Клас MongoDBDriverExceptionWriteException
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Клас MongoDB\Driver\Exception\WriteException
-
-# Клас MongoDB\Driver\Exception\WriteException
-
-(mongodb \>= 1.0.0)
+(mongodb >= 1.0.0)
 
 ## Вступ
 
-Базовий клас для винятків, спричинених невдалою операцією запису. Це
-виняток містить об'єкт
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md).
+Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
 
 ## Огляд класів
 
-abstract class **MongoDB\Driver\Exception\WriteException** extends
-[MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md)
-implements
-[MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-{
+```classsynopsis
 
-/\* Властивості \*/
 
+    
+    
+     
+      abstract
+      class MongoDB\Driver\Exception\WriteException
+     
+
+     
+      extends
+       MongoDB\Driver\Exception\ServerException
+     
+
+     implements 
+       MongoDB\Driver\Exception\Exception {
+    
+    /* Свойства */
+    
+     protected
+     MongoDB\Driver\WriteResult
+      $writeResult;
+
+
+    /* Наследуемые свойства */
+    
+    protected
+     ?array
+      $errorLabels;
+
+    
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
 protected
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-`$writeResult`;
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-/\* Наслідувані властивості \*/
 
-protected ?array `$errorLabels`;
+    /* Методы */
+    
+   final public getWriteResult(): MongoDB\Driver\WriteResult
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    /* Наследуемые методы */
+    
+    final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $errorLabel): bool
 
-protected int `$code`;
+    
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-protected string `$file` = "";
 
-protected int `$line`;
-
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Методи \*/
-
-final public
-[getWriteResult](mongodb-driver-writeexception.getwriteresult.md)():
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-
-/\* Наслідувані методи \*/
-
-final public
-[MongoDB\Driver\Exception\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md)(string
-`$errorLabel`): bool
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`writeResult`
-Об'єкт
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md),
-пов'язаний із невдалою операцією запису.
+writeResult
 
-## Список змін
+Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md), пов'язаний із невдалою операцією запису.
 
-| Версія                                                                                                                                                                                                                                                  | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL mongodb 1.5.0 Тепер клас успадковується від [MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md). |      |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.5.0 |  |
+| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
 
 ## Зміст
 
-- [MongoDB\Driver\Exception\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md)
-— Повертає WriteResult для операції запису помилкою, що закінчилася.
+-   [MongoDBDriverExceptionWriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md) — Повертає WriteResult для операції запису помилкою, що закінчилася.

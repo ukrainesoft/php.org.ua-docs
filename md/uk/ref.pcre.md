@@ -1,35 +1,23 @@
-- [« Відмінності від Perl](reference.pcre.pattern.differences.md)
-- [preg_filter»](function.preg-filter.md)
-
-- [PHP Manual](index.md)
-- [PCRE](book.pcre.md)
-- Функції PCRE
-
+---
+navigation:
+  - reference.pcre.pattern.differences.md: « Отличия от Perl
+  - function.preg-filter.md: pregfilter »
+  - index.md: PHP Manual
+  - book.pcre.md: PCRE
+title: Функції PCRE
+---
 # Функції PCRE
 
 ## Зміст
 
-- [preg_filter](function.preg-filter.md) — Здійснює пошук та заміну
-за регулярним виразом
-- [preg_grep](function.preg-grep.md) - Повертає масив входжень,
-які відповідають шаблону
-- [preg_last_error_msg](function.preg-last-error-msg.md) -
-Повертає повідомлення про помилку останньої запущеної функції PCRE
-- [preg_last_error](function.preg-last-error.md) — Повертає код
-помилки виконання останнього регулярного вираження PCRE
-- [preg_match_all](function.preg-match-all.md) — Виконує
-глобальний пошук шаблону в рядку
-- [preg_match](function.preg-match.md) — Виконує перевірку на
-відповідність регулярному виразу
-- [preg_quote](function.preg-quote.md) - Екранує символи в
-регулярних виразах
-- [preg_replace_callback_array](function.preg-replace-callback-array.md)
-— Виконує пошук та заміну за регулярним виразом з використанням
-функцій зворотного виклику
-- [preg_replace_callback](function.preg-replace-callback.md) -
-Виконує пошук за регулярним виразом та заміною з використанням
-callback-функції
-- [preg_replace](function.preg-replace.md) — Пошук та
-заміну за регулярним виразом
-- [preg_split](function.preg-split.md) — Розбиває рядок по
-регулярному виразу
+-   [pregfilter](function.preg-filter.md) — Здійснює пошук та заміну за регулярним виразом
+-   [preggrep](function.preg-grep.md) — Повертає масив входжень, які відповідають шаблону
+-   [preglasterrormsg](function.preg-last-error-msg.md) — Повертає повідомлення про помилку останньої запущеної функції PCRE
+-   [preglasterror](function.preg-last-error.md) — Повертає код помилки виконання останнього регулярного виразу PCRE
+-   [pregmatchall](function.preg-match-all.md) — Виконує глобальний пошук шаблону у рядку
+-   [pregmatch](function.preg-match.md) — Виконує перевірку на відповідність регулярному виразу
+-   [pregquote](function.preg-quote.md) — Екранує символи у регулярних виразах
+-   [pregreplacecallbackarray](function.preg-replace-callback-array.md) — Здійснює пошук та заміну за регулярним виразом за допомогою функцій зворотного дзвінка.
+-   [pregreplacecallback](function.preg-replace-callback.md) — Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+-   [pregreplace](function.preg-replace.md) — Виконує пошук та заміну за регулярним виразом
+-   [pregsplit](function.preg-split.md) — Розбиває рядок за регулярним виразом

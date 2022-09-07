@@ -1,20 +1,22 @@
-- [« Swoole\Event::del](swoole-event.del.md)
-- [Swoole\Event::set »](swoole-event.set.md)
+---
+navigation:
+  - swoole-event.del.md: '« SwooleEvent::del'
+  - swoole-event.set.md: 'SwooleEvent::set »'
+  - index.md: PHP Manual
+  - class.swoole-event.md: SwooleEvent
+title: 'SwooleEvent::exit'
+---
+# SwooleEvent::exit
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Виходить із циклу подій, доступно лише на стороні клієнта
+(PECL swoole >= 1.9.0)
 
-# Swoole\Event::exit
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Event::exit — Виходить із циклу подій, доступне лише на
-стороні клієнта
+SwooleEvent::exit — Виходить із циклу подій, доступно лише на стороні клієнта
 
 ### Опис
 
-public static **Swoole\Event::exit**(): void
+```methodsynopsis
+public static Swoole\Event::exit(): void
+```
 
 ### Список параметрів
 

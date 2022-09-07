@@ -1,19 +1,22 @@
-- [«LimitIterator::key](limititerator.key.md)
-- [LimitIterator::rewind »](limititerator.rewind.md)
-
-- [PHP Manual](index.md)
-- [LimitIterator](class.limititerator.md)
-- Переміщення до наступної позиції
-
+---
+navigation:
+  - limititerator.key.md: '« LimitIterator::key'
+  - limititerator.rewind.md: 'LimitIterator::rewind »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::next'
+---
 # LimitIterator::next
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 LimitIterator::next — Переміщення до наступної позиції
 
 ### Опис
 
-public **LimitIterator::next**(): void
+```methodsynopsis
+public LimitIterator::next(): void
+```
 
 Переміщення ітератора до наступної позиції.
 
@@ -27,13 +30,8 @@ public **LimitIterator::next**(): void
 
 ### Дивіться також
 
-- [LimitIterator::current()](limititerator.current.md) - Отримання
-поточного елемента
-- [LimitIterator::key()](limititerator.key.md) - Отримання поточного
-ключа
-- [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує
-вказівник на початкову позицію
-- [LimitIterator::seek()](limititerator.seek.md) - Переміщує
-ітератор на задану позицію
-- [LimitIterator::valid()](limititerator.valid.md) - Перевіряє
-валідність поточного елемента
+-   [LimitIterator::current()](limititerator.current.md) - Отримання поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує покажчик на початкову позицію
+-   [LimitIterator::seek()](limititerator.seek.md) - переміщує ітератор на задану позицію
+-   [LimitIterator::valid()](limititerator.valid.md) - Перевіряє валідність поточного елемента

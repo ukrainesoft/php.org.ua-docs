@@ -1,35 +1,32 @@
-- [« Phar::offsetUnset](phar.offsetunset.md)
-- [Phar::setAlias »](phar.setalias.md)
-
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Отримати повний шлях на диску або повний URL запущеного
-Phar-архіву
-
+---
+navigation:
+  - phar.offsetunset.md: '« Phar::offsetUnset'
+  - phar.setalias.md: 'Phar::setAlias »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::running'
+---
 # Phar::running
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-Phar::running — Отримати повний шлях на диску або повний URL
-запущеного Phar-архіву
+Phar::running — Отримати повний шлях на диску або повний URL запущеного Phar-архіву
 
 ### Опис
 
-final public static **Phar::running**(bool `$returnPhar` = **`true`**):
-string
+```methodsynopsis
+final public static Phar::running(bool $returnPhar = true): string
+```
 
-Повертає повний шлях запущеного архіву. Використовується для того
-ж, для чого використовується константа `__FILE__` і працює тільки всередині
-запущеного phar-архіву.
+Повертає повний шлях запущеного архіву. Використовується для того ж, для чого використовується константа `__FILE__` і працює лише всередині запущеного phar-архіву.
 
-При запуску **Phar::running()** із завантажувача результат буде `````.
-Всередині завантажувача використовуйте константу **`__FILE__`**.
+При запуску **Phar::running()** із завантажувача результат буде `""`. Всередині завантажувача використовуйте константу **`__FILE__`**
 
 ### Список параметрів
 
 `returnPhar`
-Якщо **`false`**, то буде повернутий повний дисковий шлях до phar-архіву.
-Якщо **`true`**, то буде повернено повну URL-адресу.
+
+Якщо **`false`**, буде повернуто повний дисковий шлях до phar-архіву. Якщо **`true`**, то буде повернено повну URL-адресу.
 
 ### Значення, що повертаються
 
@@ -39,7 +36,11 @@ string
 
 **Приклад #1 Приклад використання **Phar::running()****
 
-Для наступного прикладу припустимо, що архів знаходиться на шляху
-`/path/to/phar/my.phar`.
+Для наступного прикладу припустимо, що архів знаходиться на шляху `/path/to/phar/my.phar`
 
-` <?php$a = Phar::running(); // $a рівно "phar:///path/to/my.phar"$b = Phar::running(false); // $b рівно "/path/to/my.phar"?> `
+```php
+<?php
+$a = Phar::running(); // $a равно "phar:///path/to/my.phar"
+$b = Phar::running(false); // $b равно "/path/to/my.phar"
+?>
+```

@@ -1,52 +1,56 @@
-- [«imagecreatefromwebp](function.imagecreatefromwebp.md)
-- [imagecreatefromxpm »](function.imagecreatefromxpm.md)
+---
+navigation:
+  - function.imagecreatefromwebp.md: « imagecreatefromwebp
+  - function.imagecreatefromxpm.md: imagecreatefromxpm »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromxbm
+---
+# imagecreatefromxbm
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Створює нове зображення із файлу або URL
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
-#imagecreatefromxbm
-
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
-
-imagecreatefromxbm — Створення нового зображення з файлу або URL
+imagecreatefromxbm — Створює нове зображення з файлу чи URL
 
 ### Опис
 
-**imagecreatefromxbm**(string `$filename`):
-[GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagecreatefromxbm(string $filename): GdImage|false
+```
 
-**imagecreatefromxbm()** повертає ідентифікатор зображення,
-представляє зображення, отримане з файлу із заданим ім'ям.
+**imagecreatefromxbm()** повертає ідентифікатор зображення, що представляє зображення, отримане з файлу із заданим ім'ям.
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо
-була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
-докладнішу інформацію про визначення імені файлу в описі функції
-[fopen()](function.fopen.md). Дивіться також список підтримуваних
-оберток URL, їх можливості, зауваження щодо використання та список
-визначених констант у розділі [Підтримувані протоколи та обертки](wrappers.md).
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Список параметрів
 
 `filename`
+
 Шлях до зображення XBM.
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Перетворення XBM зображення на png, використовуючи
-**imagecreatefromxbm()****
+**Приклад #1 Перетворення XBM зображення на png, використовуючи **imagecreatefromxbm()****
 
-` <?php// завантаження xbm файла$xbm = imagecreatefromxbm('./example.xbm');// Перетворення в png файлimagepng($xbm, './example.png');imagedestroy($> `
+```php
+<?php
+// загрузка xbm файла
+$xbm = imagecreatefromxbm('./example.xbm');
+
+// Преобразование в png файл
+imagepng($xbm, './example.png');
+imagedestroy($xbm);
+?>
+```

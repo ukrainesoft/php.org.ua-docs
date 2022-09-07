@@ -1,19 +1,22 @@
-- [« Ds\Stack::count](ds-stack.count.md)
-- [Ds\Stack::jsonSerialize »](ds-stack.jsonserialize.md)
+---
+navigation:
+  - ds-stack.count.md: '« DsStack::count'
+  - ds-stack.jsonserialize.md: 'ДсStack::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
+title: 'ДсStack::isEmpty'
+---
+# ДсStack::isEmpty
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Перевіряє, чи порожня колекція
+(PECL ds >= 1.0.0)
 
-# Ds\Stack::isEmpty
-
-(PECL ds \>= 1.0.0)
-
-Ds\Stack::isEmpty — Перевіряє, чи порожня колекція
+ДсStack::isEmpty — Перевіряє, чи порожня колекція
 
 ### Опис
 
-public **Ds\Stack::isEmpty**(): bool
+```methodsynopsis
+public Ds\Stack::isEmpty(): bool
+```
 
 Перевіряє, чи колекція порожня.
 
@@ -23,16 +26,25 @@ public **Ds\Stack::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, та **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо колекція порожня, та **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::isEmpty()****
+**Приклад #1 Приклад використання **ДсStack::isEmpty()****
 
-` <?php$a = new \Ds\Stack([1, 2, 3]);$b = new \Ds\Stack();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+```php
+<?php
+$a = new \Ds\Stack([1, 2, 3]);
+$b = new \Ds\Stack();
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

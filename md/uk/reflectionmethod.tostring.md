@@ -1,22 +1,24 @@
-- [« ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md)
-- [ReflectionNamedType »](class.reflectionnamedtype.md)
-
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Повертає рядкове представлення об'єкта ReflectionMethod
-
-# ReflectionMethod::\_\_toString
+---
+navigation:
+  - reflectionmethod.setaccessible.md: '« ReflectionMethod::setAccessible'
+  - class.reflectionnamedtype.md: ReflectionNamedType »
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::toString'
+---
+# ReflectionMethod::toString
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionMethod::\_\_toString — Повертає рядкову виставу
-об'єкта ReflectionMethod
+ReflectionMethod::toString — Повертає строкове представлення об'єкта ReflectionMethod
 
 ### Опис
 
-public **ReflectionMethod::\_\_toString**(): string
+```methodsynopsis
+public ReflectionMethod::__toString(): string
+```
 
-Повертає строкове представлення об'єкта ReflectionMethod.
+Повертає рядкову виставу об'єкта ReflectionMethod.
 
 ### Список параметрів
 
@@ -24,27 +26,40 @@ public **ReflectionMethod::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Строкове представлення об'єкта
-[ReflectionMethod](class.reflectionmethod.md).
+Строкове представлення об'єкта [ReflectionMethod](class.reflectionmethod.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::\_\_toString()****
+**Приклад #1 Приклад використання **ReflectionMethod::toString()****
 
-`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');echo $reflectionMethod;?> `
+```php
+<?php
+class HelloWorld {
+
+    public function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
+
+}
+
+$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');
+echo $reflectionMethod;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Method [ <user> public method sayHelloTo ] {
-@@ /var/www/examples/reflection.php 16 - 18
+  @@ /var/www/examples/reflection.php 16 - 18
 
-- Parameters [1] {
-Parameter #0 [ <required> $name ]
+  - Parameters [1] {
+    Parameter #0 [ <required> $name ]
+  }
 }
-}
+```
 
 ### Дивіться також
 
-- [ReflectionMethod::export()](reflectionmethod.export.md) - Експорт
-відбитого методу
-- [\_\_toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionMethod::export()](reflectionmethod.export.md) - Експорт відбитого методу
+-   [toString()](language.oop5.magic.md#object.tostring)

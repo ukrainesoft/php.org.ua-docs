@@ -1,22 +1,24 @@
-- [« ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md)
-- [ReflectionClassConstant::isPublic »](reflectionclassconstant.ispublic.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- Перевіряє, чи константа захищена
-
+---
+navigation:
+  - reflectionclassconstant.isprivate.md: '« ReflectionClassConstant::isPrivate'
+  - reflectionclassconstant.ispublic.md: 'ReflectionClassConstant::isPublic »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::isProtected'
+---
 # ReflectionClassConstant::isProtected
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-ReflectionClassConstant::isProtected — Перевіряє, чи є константа
-захищеною
+ReflectionClassConstant::isProtected — Перевіряє, чи константа захищена
 
 ### Опис
 
-public **ReflectionClassConstant::isProtected**(): bool
+```methodsynopsis
+public ReflectionClassConstant::isProtected(): bool
+```
 
-Перевіряє, чи є константа захищеною.
+Перевіряє, чи константа захищена.
 
 ### Список параметрів
 
@@ -24,14 +26,10 @@ public **ReflectionClassConstant::isProtected**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо константа класу є захищеною, **`false`** в
-інакше
+\*\*`true`\*\*якщо константа класу є захищеною, **`false`** в іншому випадку
 
 ### Дивіться також
 
-- [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) -
-Перевіряє, чи є константа класу остаточною
-- [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) -
-Перевіряє, чи є константа загальнодоступною
-- [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) -
-Перевіряє, чи є константа закритою
+-   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) - Перевіряє, чи є константа класу остаточною
+-   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) - Перевіряє, чи константа є загальнодоступною
+-   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) - Перевіряє, чи є константа закритою

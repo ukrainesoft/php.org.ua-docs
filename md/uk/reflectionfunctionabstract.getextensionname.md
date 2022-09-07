@@ -1,19 +1,22 @@
-- [« ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md)
-- [ReflectionFunctionAbstract::getFileName »](reflectionfunctionabstract.getfilename.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримання імені модуля
-
+---
+navigation:
+  - reflectionfunctionabstract.getextension.md: '« ReflectionFunctionAbstract::getExtension'
+  - reflectionfunctionabstract.getfilename.md: 'ReflectionFunctionAbstract::getFileName »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getExtensionName'
+---
 # ReflectionFunctionAbstract::getExtensionName
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getExtensionName — Отримання імені модуля
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getExtensionName**(): string\|false
+```methodsynopsis
+public ReflectionFunctionAbstract::getExtensionName(): string|false
+```
 
 Отримання імені модуля.
 
@@ -27,5 +30,4 @@ public **ReflectionFunctionAbstract::getExtensionName**(): string\|false
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getExtension()](reflectionfunctionabstract.getextension.md) -
-Отримує інформацію про модуль
+-   [ReflectionFunctionAbstract::getExtension()](reflectionfunctionabstract.getextension.md) - Отримує інформацію про модуль

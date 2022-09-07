@@ -1,23 +1,27 @@
-- [« UI\Controls\Progress::getValue](ui-controls-progress.getvalue.md)
-- [UI\Controls\Separator »](class.ui-controls-separator.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Progress](class.ui-controls-progress.md)
-- Встановити значення
-
-# UI\Controls\Progress::setValue
+---
+navigation:
+  - ui-controls-progress.getvalue.md: '« UIControlsProgress::getValue'
+  - class.ui-controls-separator.md: ОЙControlsSeparator »
+  - index.md: PHP Manual
+  - class.ui-controls-progress.md: ОЙControlsProgress
+title: 'ОЙControlsProgress::setValue'
+---
+# ОЙControlsProgress::setValue
 
 (UI 0.9.9)
 
-UI\Controls\Progress::setValue — Встановити значення
+ОЙControlsProgress::setValue — Встановити значення
 
 ### Опис
 
-public **UI\Controls\Progress::setValue**(int `$value`)
+```methodsynopsis
+public UI\Controls\Progress::setValue(int $value)
+```
 
 Встановити значення даному індикатору виконання
 
 ### Список параметрів
 
 `value`
+
 Ціле число між 0 та 100 (включно)

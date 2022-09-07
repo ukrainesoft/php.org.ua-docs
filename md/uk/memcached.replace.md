@@ -1,49 +1,45 @@
-- [«Memcached::quit](memcached.quit.md)
-- [Memcached::replaceByKey »](memcached.replacebykey.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Замінює існуючий запис із зазначеним ключем
-
+---
+navigation:
+  - memcached.quit.md: '« Memcached::quit'
+  - memcached.replacebykey.md: 'Memcached::replaceByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::replace'
+---
 # Memcached::replace
 
-(PECL memcached \>= 0.1.0)
+(PECL memcached >= 0.1.0)
 
 Memcached::replace — Замінює існуючий запис із зазначеним ключем
 
 ### Опис
 
-public **Memcached::replace**(string `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` = ?): bool
+```methodsynopsis
+public Memcached::replace(string $key, mixed $value, int $expiration = ?): bool
+```
 
-**Memcached::replace()** схожий на метод
-[Memcached::set()](memcached.set.md), але операція завершиться невдачею
-якщо ключ `key` відсутній на сервері.
+**Memcached::replace()** схожий на метод [Memcached::set()](memcached.set.md), але операція завершиться невдачею у випадку, якщо ключ `key` відсутня на сервері.
 
 ### Список параметрів
 
 `key`
+
 Ключ, під яким зберігається значення.
 
 `value`
-Значення, що зберігається.
+
+Зберігається значення.
 
 `expiration`
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш докладної
-інформації дивіться [Час зберігання об'єкта](memcached.expiration.md).
+
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Метод
-[Memcached::getResultCode()](memcached.getresultcode.md) повертає
-**`Memcached::RES_NOTSTORED`** якщо вказаного ключа немає.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTSTORED`** якщо вказаного ключа немає.
 
 ### Дивіться також
 
-- [Memcached::replaceByKey()](memcached.replacebykey.md) - Замінює
-існуючий запис із заданим ключем на вказаному сервері
-- [Memcached::set()](memcached.set.md) - Зберігає запис
-- [Memcached::add()](memcached.add.md) - Додає елемент із новим
-ключем
+-   [Memcached::replaceByKey()](memcached.replacebykey.md) - Замінює існуючий запис із заданим ключем на вказаному сервері
+-   [Memcached::set()](memcached.set.md) - Зберігає запис
+-   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем

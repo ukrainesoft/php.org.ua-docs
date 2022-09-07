@@ -1,19 +1,22 @@
-- [« Yaf_View_Simple::\_\_set](yaf-view-simple.set.md)
-- [Yaf_Loader »](class.yaf-loader.md)
+---
+navigation:
+  - yaf-view-simple.set.md: '« YafViewSimple::set'
+  - class.yaf-loader.md: YafLoader »
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
+title: 'YafViewSimple::setScriptPath'
+---
+# YafViewSimple::setScriptPath
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Встановлює каталог шаблонів
+(Yaf >=1.0.0)
 
-# Yaf_View_Simple::setScriptPath
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Simple::setScriptPath — Встановлює каталог шаблонів
+YafViewSimple::setScriptPath — Встановлює каталог шаблонів
 
 ### Опис
 
-public **Yaf_View_Simple::setScriptPath**(string `$template_dir`): bool
+```methodsynopsis
+public Yaf_View_Simple::setScriptPath(string $template_dir): bool
+```
 
 ### Список параметрів
 

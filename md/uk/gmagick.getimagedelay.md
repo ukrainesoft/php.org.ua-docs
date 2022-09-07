@@ -1,19 +1,22 @@
-- [« Gmagick::getimagecompose](gmagick.getimagecompose.md)
-- [Gmagick::getimagedepth »](gmagick.getimagedepth.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує затримку зображення
-
+---
+navigation:
+  - gmagick.getimagecompose.md: '« Gmagick::getimagecompose'
+  - gmagick.getimagedepth.md: 'Gmagick::getimagedepth »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagedelay'
+---
 # Gmagick::getimagedelay
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagedelay — Отримує затримку зображення
 
 ### Опис
 
-public **Gmagick::getimagedelay**(): int
+```methodsynopsis
+public Gmagick::getimagedelay(): int
+```
 
 Отримує затримку зображення
 

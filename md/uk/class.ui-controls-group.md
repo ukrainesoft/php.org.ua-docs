@@ -1,10 +1,11 @@
-- [« UI\Controls\Grid::setPadded](ui-controls-grid.setpadded.md)
-- [UI\Controls\Group::append »](ui-controls-group.append.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- елемент управління "Група" (розміщення)
-
+---
+navigation:
+  - ui-controls-grid.setpadded.md: '« UIControlsGrid::setPadded'
+  - ui-controls-group.append.md: 'ОЙControlsGroup::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Група" (розміщення)
+---
 # Елемент управління "Група" (розміщення)
 
 (UI 0.9.9)
@@ -15,75 +16,68 @@
 
 ## Огляд класів
 
-class **UI\Controls\Group** extends [UI\Control](class.ui-control.md)
-{
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$controls`;
 
-/\* Конструктор \*/
+    
+     
+      class UI\Controls\Group
+     
 
-public [\_\_construct](ui-controls-group.construct.md)(string
-`$title`)
+     
+      extends
+       UI\Control
+     
+     {
 
-/\* Методи \*/
 
-public
-[append](ui-controls-group.append.md)([UI\Control](class.ui-control.md)
-`$control`)
+    /* Свойства */
+    
+     protected
+      $controls;
 
-public [getTitle](ui-controls-group.gettitle.md)(): string
 
-public [hasMargin](ui-controls-group.hasmargin.md)(): bool
+    /* Конструктор */
+    
+   public __construct(string $title)
 
-public [setMargin](ui-controls-group.setmargin.md)(bool `$margin`)
 
-public [setTitle](ui-controls-group.settitle.md)(string `$title`)
+    /* Методы */
+    public append(UI\Control $control)
+public getTitle(): string
+public hasMargin(): bool
+public setMargin(bool $margin)
+public setTitle(string $title)
 
-/\* Наслідувані методи \*/
 
-public [UI\Control::destroy](ui-control.destroy.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::disable](ui-control.disable.md)()
 
-public [UI\Control::enable](ui-control.enable.md)()
-
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Властивості
 
-`controls`
+controls
+
 Містить елементи керування, не варто змінювати напряму
 
 ## Зміст
 
-- [UI\Controls\Group::append](ui-controls-group.append.md) -
-Додати керуючий елемент
-- [UI\Controls\Group::\_\_construct](ui-controls-group.construct.md)
-- Створити новий об'єкт Group
-- [UI\Controls\Group::getTitle](ui-controls-group.gettitle.md) -
-Отримати заголовок
-- [UI\Controls\Group::hasMargin](ui-controls-group.hasmargin.md) -
-Визначення поля
-- [UI\Controls\Group::setMargin](ui-controls-group.setmargin.md) -
-Встановити поле
-- [UI\Controls\Group::setTitle](ui-controls-group.settitle.md) -
-Встановити заголовок
+-   [ОЙControlsGroup::append](ui-controls-group.append.md) — Додати елемент керування
+-   [ОЙControlsGroup::construct](ui-controls-group.construct.md) — Створити новий об'єкт Group
+-   [ОЙControlsGroup::getTitle](ui-controls-group.gettitle.md) - Отримати заголовок
+-   [ОЙControlsGroup::hasMargin](ui-controls-group.hasmargin.md) - Визначення поля
+-   [ОЙControlsGroup::setMargin](ui-controls-group.setmargin.md) - Встановити поле
+-   [ОЙControlsGroup::setTitle](ui-controls-group.settitle.md) - Встановити заголовок

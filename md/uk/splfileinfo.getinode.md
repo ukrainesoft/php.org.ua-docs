@@ -1,19 +1,22 @@
-- [« SplFileInfo::getGroup](splfileinfo.getgroup.md)
-- [SplFileInfo::getLinkTarget »](splfileinfo.getlinktarget.md)
-
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Отримує індексний дескриптор для файлу
-
+---
+navigation:
+  - splfileinfo.getgroup.md: '« SplFileInfo::getGroup'
+  - splfileinfo.getlinktarget.md: 'SplFileInfo::getLinkTarget »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getInode'
+---
 # SplFileInfo::getInode
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getInode — Отримує індексний дескриптор для файлу
 
 ### Опис
 
-public **SplFileInfo::getInode**(): int\|false
+```methodsynopsis
+public SplFileInfo::getInode(): int|false
+```
 
 Отримує номер індексного дескриптора об'єкта файлової системи.
 
@@ -23,16 +26,12 @@ public **SplFileInfo::getInode**(): int\|false
 
 ### Значення, що повертаються
 
-Повертає номер індексного дескриптора для об'єкта файлової системи
-у разі успішного виконання або **`false`** у разі виникнення
-помилки.
+Повертає номер індексного дескриптора для об'єкта файлової системи у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-У разі виникнення помилки викидає виняток
-[RuntimeException](class.runtimeexception.md).
+У разі виникнення помилки викидає виняток [RuntimeException](class.runtimeexception.md)
 
 ### Дивіться також
 
-- [fileinode()](function.fileinode.md) - Повертає індексний
-дескриптор файлу
+-   [fileinode()](function.fileinode.md) - Повертає індексний дескриптор файлу

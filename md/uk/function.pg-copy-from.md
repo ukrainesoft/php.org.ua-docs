@@ -1,70 +1,73 @@
-- [«pg_convert](function.pg-convert.md)
-- [pg_copy_to »](function.pg-copy-to.md)
+---
+navigation:
+  - function.pg-convert.md: « pgconvert
+  - function.pg-copy-to.md: пгcopyto »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгcopyfrom
+---
+# пгcopyfrom
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Вставляє записи з масиву до таблиці
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#pg_copy_from
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-pg_copy_from — Вставляє записи з масиву до таблиці
+пгcopyfrom — Вставляє записи з масиву до таблиці
 
 ### Опис
 
-**pg_copy_from**(
-[PgSql\Connection](class.pgsql-connection.md) `$connection`,
-string `$table_name`,
-array `$rows`,
-string `$separator` = " ",
-string `$null_as` = "\\\N"
-): bool
+```methodsynopsis
+pg_copy_from(    PgSql\Connection $connection,    string $table_name,    array $rows,    string $separator = "\t",    string $null_as = "\\\\N"): bool
+```
 
-**pg_copy_from()** вставляє записи в таблицю з масиву `rows`. В ході
-виконання викликає SQL-команду `COPY FROM` для вставлення записів.
+**пгcopyfrom()** вставляє записи в таблицю з масиву `rows`. У ході виконання викликає SQL-команду `COPY FROM` для вставлення записів.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `table_name`
-Ім'я таблиці, в яку копіюються значення "rows".
+
+Ім'я таблиці, в яку копіюються значення з `rows`
 
 `rows`
-Масив (array) даних для копіювання в `table_name`. Кожне значення в
-`rows` стає рядком у `table_name`. Кожне значення масиву `rows`
-має бути рядком з роздільником, що містить значення для вставки в
-кожне поле таблиці. Значення повинні закінчуватися символом перекладу
-рядки.
+
+Масив (array) даних для копіювання в `table_name`. Кожне значення у `rows` стає рядком у `table_name`. Кожне значення масиву `rows` має бути рядком із роздільником, що містить значення для вставки у кожне поле таблиці. Значення мають закінчуватися символом перекладу рядка.
 
 `separator`
-Символ, що відокремлює значення один від одного в кожному елементі масиву
-`rows`. За замовчуванням ``.
+
+Символ, що відокремлює значення один від одного в кожному елементі масиву `rows`. За замовчуванням `\t`
 
 `null_as`
-Визначає, яким чином значення SQL `NULL` представлені у масиві
-`rows`. За замовчуванням `\N` (`\N').
+
+Визначає, яким чином значення SQL `NULL` представлені в масиві `rows`. За замовчуванням `\\N` `"\\\\N"`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_copy_from()****
+**Приклад #1 Приклад використання **пгcopyfrom()****
 
-` <?php  $db = pg_connect("dbname=publisher") or die("Не удалося підключитися"); $rows==pg_copy_to($db,$table_name); pg_query($db, "DELETE FROM $table_name"); pg_copy_from($db, $table_name, $rows);?> `
+```php
+<?php
+   $db = pg_connect("dbname=publisher") or die("Не удалось подключиться");
+
+   $rows = pg_copy_to($db, $table_name);
+
+   pg_query($db, "DELETE FROM $table_name");
+
+   pg_copy_from($db, $table_name, $rows);
+?>
+```
 
 ### Дивіться також
 
-- [pg_copy_to()](function.pg-copy-to.md) - Копіює дані з
-таблиці в масив
+-   [пгcopyto()](function.pg-copy-to.md) - Копіює дані з таблиці до масиву

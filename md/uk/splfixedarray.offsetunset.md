@@ -1,25 +1,29 @@
-- [« SplFixedArray::offsetSet](splfixedarray.offsetset.md)
-- [SplFixedArray::rewind »](splfixedarray.rewind.md)
-
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Видаляє значення за індексом $index
-
+---
+navigation:
+  - splfixedarray.offsetset.md: '« SplFixedArray::offsetSet'
+  - splfixedarray.rewind.md: 'SplFixedArray::rewind »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::offsetUnset'
+---
 # SplFixedArray::offsetUnset
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::offsetUnset — Видаляє значення за індексом $index
 
 ### Опис
 
-public **SplFixedArray::offsetUnset**(int `$index`): void
+```methodsynopsis
+public SplFixedArray::offsetUnset(int $index): void
+```
 
 Видаляє значення за заданим індексом.
 
 ### Список параметрів
 
 `index`
+
 Індекс, яким видаляється значення.
 
 ### Значення, що повертаються
@@ -28,6 +32,4 @@ public **SplFixedArray::offsetUnset**(int `$index`): void
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-коли `index` перевищує заданий розмір масиву або коли `index` не можна
-розпізнати як ціле число.
+Викидає виняток [RuntimeException](class.runtimeexception.md), коли `index` перевищує заданий розмір масиву або коли `index` не можна розпізнати як ціле число.

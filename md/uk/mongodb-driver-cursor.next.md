@@ -1,19 +1,22 @@
-- [«MongoDB\Driver\Cursor::key](mongodb-driver-cursor.key.md)
-- [MongoDB\Driver\Cursor::rewind »](mongodb-driver-cursor.rewind.md)
+---
+navigation:
+  - mongodb-driver-cursor.key.md: '« MongoDBDriverCursor::key'
+  - mongodb-driver-cursor.rewind.md: 'MongoDBDriverCursor::rewind »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::next'
+---
+# MongoDBDriverCursor::next
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- Переміщує курсор на наступний результат
+(mongodb >=1.9.0)
 
-# MongoDB\Driver\Cursor::next
-
-(mongodb \>=1.9.0)
-
-MongoDB\Driver\Cursor::next — Переміщує курсор на наступний результат
+MongoDBDriverCursor::next — Переміщує курсор на наступний результат
 
 ### Опис
 
-public **MongoDB\Driver\Cursor::next**(): void
+```methodsynopsis
+public MongoDB\Driver\Cursor::next(): void
+```
 
 ### Список параметрів
 
@@ -25,15 +28,10 @@ public **MongoDB\Driver\Cursor::next**(): void
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- При невдалому з'єднанні з сервером (крім помилок автентифікації),
-кидає виняток
-[MongoDB\Driver\Exception\ConnectionException](class.mongodb-driver-exception-connectionexception.md).
-- За невдалої аутентифікації кидає виняток
-[MongoDB\Driver\Exception\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
 
 ### Дивіться також
 
-- [Iterator::next()](iterator.next.md) - Переходить до наступного
-елементу
+-   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу

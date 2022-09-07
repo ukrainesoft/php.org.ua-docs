@@ -1,24 +1,27 @@
-- [«imagegif](function.imagegif.md)
-- [imagegrabwindow »](function.imagegrabwindow.md)
+---
+navigation:
+  - function.imagegif.md: « imagegif
+  - function.imagegrabwindow.md: imagegrabwindow »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagegrabscreen
+---
+# imagegrabscreen
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Захоплює зображення з екрану
-
-#imagegrabscreen
-
-(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
+(PHP 5> = 5.2.2, PHP 7, PHP 8)
 
 imagegrabscreen — Захоплює зображення з екрану
 
 ### Опис
 
-**imagegrabscreen**(): [GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagegrabscreen(): GdImage|false
+```
 
 Робить скріншот.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Функція доступна лише у Windows.
 
 ### Список параметрів
@@ -27,25 +30,28 @@ imagegrabscreen — Захоплює зображення з екрану
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання, **`false`**
-у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання, **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagegrabscreen()****
 
-У цьому прикладі показано, як зробити знімок екрана та зберегти його як
-png зображення.
+У цьому прикладі показано, як зробити знімок екрана і зберегти його, як зображення png.
 
-` <?php$im = imagegrabscreen();imagepng($im, "myscreenshot.png");imagedestroy($im);?> `
+```php
+<?php
+$im = imagegrabscreen();
+imagepng($im, "myscreenshot.png");
+imagedestroy($im);
+?>
+```
 
 ### Дивіться також
 
-- [imagegrabwindow()](function.imagegrabwindow.md) - Захоплює
-зображення вікна
+-   [imagegrabwindow()](function.imagegrabwindow.md) - Захоплює зображення вікна

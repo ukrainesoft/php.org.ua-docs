@@ -1,19 +1,22 @@
-- [« SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md)
-- [SimpleXMLElement::getNamespaces »](simplexmlelement.getnamespaces.md)
-
-- [PHP Manual](index.md)
-- [SimpleXMLElement](class.simplexmlelement.md)
-- Отримує ім'я елемента XML
-
+---
+navigation:
+  - simplexmlelement.getdocnamespaces.md: '« SimpleXMLElement::getDocNamespaces'
+  - simplexmlelement.getnamespaces.md: 'SimpleXMLElement::getNamespaces »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::getName'
+---
 # SimpleXMLElement::getName
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
 SimpleXMLElement::getName — Отримує ім'я елемента XML
 
 ### Опис
 
-public **SimpleXMLElement::getName**(): string
+```methodsynopsis
+public SimpleXMLElement::getName(): string
+```
 
 Отримує ім'я елемента XML.
 
@@ -23,24 +26,34 @@ public **SimpleXMLElement::getName**(): string
 
 ### Значення, що повертаються
 
-Метод `getName` повертає ім'я тега XML у вигляді рядка (string), на
-який посилається на об'єкт SimpleXMLElement.
+Метод `getName` повертає ім'я XML тега у вигляді рядка (string), на який посилається об'єкт SimpleXMLElement.
 
 ### Приклади
 
-> **Примітка**:
->
-> Перелічені приклади можуть містити "example.php", в якому
-> визначається XML-рядок, розташована в першому прикладі посібника з
-> [базове використання](simplexml.examples-basic.md).
+> **Зауваження**
+> 
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
 
 **Приклад #1 Отримання імен XML-елемента**
 
-` <?phpinclude ''example.php';$sxe = new SimpleXMLElement($xmlstr);echo $sxe->getName() . "
-";foreach ($sxe->children() as $child){   echo $child->getName() . "
-";}?> `
+```php
+<?php
+include 'example.php';
+$sxe = new SimpleXMLElement($xmlstr);
+
+echo $sxe->getName() . "\n";
+
+foreach ($sxe->children() as $child)
+{
+    echo $child->getName() . "\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 movies
 movie
+```

@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](sockets.setup.md)
-- [Установка »](sockets.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sockets.setup.md)
-- Вимоги
-
+---
+navigation:
+  - sockets.setup.md: « Встановлення та налаштування
+  - sockets.installation.md: Установка »
+  - index.md: PHP Manual
+  - sockets.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

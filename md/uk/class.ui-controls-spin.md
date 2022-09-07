@@ -1,71 +1,67 @@
-- [« UI\Controls\MultilineEntry::setText](ui-controls-multilineentry.settext.md)
-- [UI\Controls\Spin::\_\_construct »](ui-controls-spin.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Спін"
-
+---
+navigation:
+  - ui-controls-multilineentry.settext.md: '« UIControlsMultilineEntry::setText'
+  - ui-controls-spin.construct.md: 'ОЙControlsSpin::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Спін"
+---
 # Елемент управління "Спін"
 
 (UI 0.9.9)
 
 ## Вступ
 
-Блок "Спін" представляє текстове поле з елементом керування "вгору",
-який змінює ціле значення в полі, в межах заданого
-діапазону
+Блок "Спин" представляє текстове поле з елементом управління "вгору", який змінює ціле значення в полі, в межах заданого діапазону
 
 ## Огляд класів
 
-class **UI\Controls\Spin** extends [UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-controls-spin.construct.md)(int `$min`, int
-`$max`)
 
-/\* Методи \*/
+    
+     
+      class UI\Controls\Spin
+     
 
-public [getValue](ui-controls-spin.getvalue.md)(): int
+     
+      extends
+       UI\Control
+     
+     {
 
-protected [onChange](ui-controls-spin.onchange.md)()
 
-public [setValue](ui-controls-spin.setvalue.md)(int `$value`)
+    /* Конструктор */
+    
+   public __construct(int $min, int $max)
 
-/\* Наслідувані методи \*/
 
-public [UI\Control::destroy](ui-control.destroy.md)()
+    /* Методы */
+    public getValue(): int
+protected onChange()
+public setValue(int $value)
 
-public [UI\Control::disable](ui-control.disable.md)()
 
-public [UI\Control::enable](ui-control.enable.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
 
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\Spin::\_\_construct](ui-controls-spin.construct.md) -
-Створює новий об'єкт Spin
-- [UI\Controls\Spin::getValue](ui-controls-spin.getvalue.md) -
-Отримати значення
-- [UI\Controls\Spin::onChange](ui-controls-spin.onchange.md) -
-Обробник зміни
-- [UI\Controls\Spin::setValue](ui-controls-spin.setvalue.md) -
-Встановити значення
+-   [ОЙControlsSpin::construct](ui-controls-spin.construct.md) - Створює новий об'єкт Spin
+-   [ОЙControlsSpin::getValue](ui-controls-spin.getvalue.md) — Отримати значення
+-   [ОЙControlsSpin::onChange](ui-controls-spin.onchange.md) - Обробник зміни
+-   [ОЙControlsSpin::setValue](ui-controls-spin.setvalue.md) — Встановити значення

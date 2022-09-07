@@ -1,170 +1,113 @@
-- [« AppendIterator::valid](appenditerator.valid.md)
-- [ArrayIterator::append »](arrayiterator.append.md)
-
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас ArrayIterator
-
+---
+navigation:
+  - appenditerator.valid.md: '« AppendIterator::valid'
+  - arrayiterator.append.md: 'ArrayIterator::append »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас ArrayIterator
+---
 # Клас ArrayIterator
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Цей ітератор дозволяє скидати та модифікувати значення та ключі в
-процесі ітерації за масивами та об'єктами.
+Цей ітератор дозволяє скидати та модифікувати значення та ключі в процесі ітерації за масивами та об'єктами.
 
-Коли ви хочете перебрати один і той самий масив кілька разів, вам потрібно
-створити екземпляр ArrayObject та створити для нього об'єкти ArrayIterator,
-посилаються на нього або за допомогою
-[foreach](control-structures.foreach.md) або під час виклику методу
-getIterator() вручну.
+Коли ви хочете перебрати один і той же масив кілька разів, вам потрібно створити екземпляр ArrayObject і створити для нього об'єкти ArrayIterator, які посилаються на нього або за допомогою [foreach](control-structures.foreach.md) або під час виклику методу getIterator() вручну.
 
 ## Огляд класів
 
-class **ArrayIterator** implements
-[SeekableIterator](class.seekableiterator.md),
-[ArrayAccess](class.arrayaccess.md),
-[Serializable](class.serializable.md),
-[Countable](class.countable.md) {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `STD_PROP_LIST` = 1;
+    
+     
+      class ArrayIterator
+     
 
-const int `ARRAY_AS_PROPS` = 2;
+     implements 
+       SeekableIterator,  ArrayAccess,  Serializable,  Countable {
 
-/\* Методи \*/
+    /* Константы */
+    
+     const
+     int
+      STD_PROP_LIST = 1;
 
-public [\_\_construct](arrayiterator.construct.md)(array\|object
-`$array` = [], int `$flags` = 0)
+    const
+     int
+      ARRAY_AS_PROPS = 2;
 
-public [append](arrayiterator.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
 
-public [asort](arrayiterator.asort.md)(int `$flags` =
-**`SORT_REGULAR`**): bool
+    /* Методы */
+    
+   public __construct(array|object $array = [], int $flags = 0)
 
-public [count](arrayiterator.count.md)(): int
+    public append(mixed $value): void
+public asort(int $flags = SORT_REGULAR): bool
+public count(): int
+public current(): mixed
+public getArrayCopy(): array
+public getFlags(): int
+public key(): string|int|null
+public ksort(int $flags = SORT_REGULAR): bool
+public natcasesort(): bool
+public natsort(): bool
+public next(): void
+public offsetExists(mixed $key): bool
+public offsetGet(mixed $key): mixed
+public offsetSet(mixed $key, mixed $value): void
+public offsetUnset(mixed $key): void
+public rewind(): void
+public seek(int $offset): void
+public serialize(): string
+public setFlags(int $flags): void
+public uasort(callable $callback): bool
+public uksort(callable $callback): bool
+public unserialize(string $data): void
+public valid(): bool
 
-public [current](arrayiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+   }
+```
 
-public [getArrayCopy](arrayiterator.getarraycopy.md)(): array
-
-public [getFlags](arrayiterator.getflags.md)(): int
-
-public [key](arrayiterator.key.md)(): string\|int\|null
-
-public [ksort](arrayiterator.ksort.md)(int `$flags` =
-**`SORT_REGULAR`**): bool
-
-public [natcasesort](arrayiterator.natcasesort.md)(): bool
-
-public [natsort](arrayiterator.natsort.md)(): bool
-
-public [next](arrayiterator.next.md)(): void
-
-public
-[offsetExists](arrayiterator.offsetexists.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`): bool
-
-public
-[offsetGet](arrayiterator.offsetget.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[offsetSet](arrayiterator.offsetset.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public
-[offsetUnset](arrayiterator.offsetunset.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`): void
-
-public [rewind](arrayiterator.rewind.md)(): void
-
-public [seek](arrayiterator.seek.md)(int `$offset`): void
-
-public [serialize](arrayiterator.serialize.md)(): string
-
-public [setFlags](arrayiterator.setflags.md)(int `$flags`): void
-
-public
-[uasort](arrayiterator.uasort.md)([callable](language.types.callable.md)
-`$callback`): bool
-
-public
-[uksort](arrayiterator.uksort.md)([callable](language.types.callable.md)
-`$callback`): bool
-
-public [unserialize](arrayiterator.unserialize.md)(string `$data`):
-void
-
-public [valid](arrayiterator.valid.md)(): bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 ## Прапори ArrayIterator
 
 **`ArrayIterator::STD_PROP_LIST`**
-Властивості мають звичайну функціональність при доступі у вигляді списку
-(var_dump, foreach тощо).
+
+Властивості мають звичайну функціональність при доступі у вигляді списку (vardump, foreach і т.д.).
 
 **`ArrayIterator::ARRAY_AS_PROPS`**
+
 Записи можуть бути доступні як властивості (читання та запис).
 
 ## Зміст
 
-- [ArrayIterator::append](arrayiterator.append.md) — Додати
-елемент
-- [ArrayIterator::asort](arrayiterator.asort.md) — Сортує
-елементи за значеннями
-- [ArrayIterator::\_\_construct](arrayiterator.construct.md) -
-Створює ArrayIterator
-- [ArrayIterator::count](arrayiterator.count.md) - Порахувати
-кількість елементів
-- [ArrayIterator::current](arrayiterator.current.md) - Повертає
-поточний елемент у масиві
-- [ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.md) -
-Повертає копію масиву
-- [ArrayIterator::getFlags](arrayiterator.getflags.md) — Отримує
-прапори поведінки
-- [ArrayIterator::key](arrayiterator.key.md) — Повертає ключ
-поточного елемента масиву
-- [ArrayIterator::ksort](arrayiterator.ksort.md) — Сортує
-елементи за ключами
-- [ArrayIterator::natcasesort](arrayiterator.natcasesort.md)
-Сортує елементи "натурально", з урахуванням регістру
-- [ArrayIterator::natsort](arrayiterator.natsort.md) — Сортує
-елементи "натурально"
-- [ArrayIterator::next](arrayiterator.next.md) — Переміщує
-покажчик за наступний запис
-- [ArrayIterator::offsetExists](arrayiterator.offsetexists.md) -
-Перевіряє, чи існує зсув
-- [ArrayIterator::offsetGet](arrayiterator.offsetget.md) — Отримує
-значення для зміщення
-- [ArrayIterator::offsetSet](arrayiterator.offsetset.md) -
-Встановлює значення для зміщення
-- [ArrayIterator::offsetUnset](arrayiterator.offsetunset.md) -
-Скидає значення зі зміщення
-- [ArrayIterator::rewind](arrayiterator.rewind.md) — Переміщує
-покажчик на початок масиву
-- [ArrayIterator::seek](arrayiterator.seek.md) — Переміщує
-вказівник на вибрану позицію
-- [ArrayIterator::serialize](arrayiterator.serialize.md)
-Серіалізує масив
-- [ArrayIterator::setFlags](arrayiterator.setflags.md) -
-Встановлює прапори, що змінюють поведінку.
-- [ArrayIterator::uasort](arrayiterator.uasort.md) — Сортування з
-допомогою заданої користувачем функції та збереженням ключів
-- [ArrayIterator::uksort](arrayiterator.uksort.md) — Сортування за
-ключам за допомогою заданої функції порівняння
-- [ArrayIterator::unserialize](arrayiterator.unserialize.md)
-Десеріалізація
-- [ArrayIterator::valid](arrayiterator.valid.md) — Перевіряє,
-містить масив ще записи
+-   [ArrayIterator::append](arrayiterator.append.md) - Додати елемент
+-   [ArrayIterator::asort](arrayiterator.asort.md) — Сортує елементи за значеннями
+-   [ArrayIterator::construct](arrayiterator.construct.md) - Створює ArrayIterator
+-   [ArrayIterator::count](arrayiterator.count.md) — Порахувати кількість елементів
+-   [ArrayIterator::current](arrayiterator.current.md) — Повертає поточний елемент у масиві
+-   [ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.md) — Повертає копію масиву
+-   [ArrayIterator::getFlags](arrayiterator.getflags.md) — Отримує прапори поведінки
+-   [ArrayIterator::key](arrayiterator.key.md) — Повертає ключ поточного елемента масиву
+-   [ArrayIterator::ksort](arrayiterator.ksort.md) — Сортує елементи за ключами
+-   [ArrayIterator::natcasesort](arrayiterator.natcasesort.md) - Сортує елементи "натурально", з урахуванням регістру
+-   [ArrayIterator::natsort](arrayiterator.natsort.md) - Сортує елементи "натурально"
+-   [ArrayIterator::next](arrayiterator.next.md) — Переміщує покажчик за наступний запис
+-   [ArrayIterator::offsetExists](arrayiterator.offsetexists.md) — Перевіряє, чи існує зміщення
+-   [ArrayIterator::offsetGet](arrayiterator.offsetget.md) — Отримує значення для усунення
+-   [ArrayIterator::offsetSet](arrayiterator.offsetset.md) — Встановлює значення для усунення
+-   [ArrayIterator::offsetUnset](arrayiterator.offsetunset.md) — Скидає значення зі зміщення
+-   [ArrayIterator::rewind](arrayiterator.rewind.md) — Переміщує покажчик на початок масиву
+-   [ArrayIterator::seek](arrayiterator.seek.md) — Переміщує курсор на вибрану позицію
+-   [ArrayIterator::serialize](arrayiterator.serialize.md) - Серіалізує масив
+-   [ArrayIterator::setFlags](arrayiterator.setflags.md) - Встановлює прапори, що змінюють поведінку ArrayIterator
+-   [ArrayIterator::uasort](arrayiterator.uasort.md) — Сортування за допомогою заданої користувачем функції та збереження ключів
+-   [ArrayIterator::uksort](arrayiterator.uksort.md) — Сортування за ключами за допомогою заданої функції порівняння
+-   [ArrayIterator::unserialize](arrayiterator.unserialize.md) - Десеріалізація
+-   [ArrayIterator::valid](arrayiterator.valid.md) — Перевіряє, чи масив містить ще записи

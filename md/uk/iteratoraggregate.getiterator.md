@@ -1,10 +1,11 @@
-- [«IteratorAggregate](class.iteratoraggregate.md)
-- [Throwable »](class.throwable.md)
-
-- [PHP Manual](index.md)
-- [IteratorAggregate](class.iteratoraggregate.md)
-- отримує зовнішній ітератор
-
+---
+navigation:
+  - class.iteratoraggregate.md: « IteratorAggregate
+  - class.throwable.md: Throwable »
+  - index.md: PHP Manual
+  - class.iteratoraggregate.md: IteratorAggregate
+title: 'IteratorAggregate::getIterator'
+---
 # IteratorAggregate::getIterator
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,8 +14,9 @@ IteratorAggregate::getIterator — Отримує зовнішній ітера�
 
 ### Опис
 
-public **IteratorAggregate::getIterator**():
-[Traversable](class.traversable.md)
+```methodsynopsis
+public IteratorAggregate::getIterator(): Traversable
+```
 
 Повертає зовнішній ітератор.
 
@@ -24,11 +26,8 @@ public **IteratorAggregate::getIterator**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр об'єкта, що реалізує
-[Iterator](class.iterator.md) або
-[Traversable](class.traversable.md)
+Повертає екземпляр об'єкта, що реалізує [Iterator](class.iterator.md) або [Traversable](class.traversable.md)
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.md) у разі
-виникнення помилки.
+Викидає виняток [Exception](class.exception.md) у разі виникнення помилки.

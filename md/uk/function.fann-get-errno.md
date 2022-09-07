@@ -1,27 +1,30 @@
-- [« fann_get_connection_rate](function.fann-get-connection-rate.md)
-- [fann_get_errstr »](function.fann-get-errstr.md)
+---
+navigation:
+  - function.fann-get-connection-rate.md: « fanngetconnectionrate
+  - function.fann-get-errstr.md: fanngeterrstr »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngeterrno
+---
+# fanngeterrno
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає останній номер помилки
+(PECL fann> = 1.0.0)
 
-# fann_get_errno
-
-(PECL fann = 1.0.0)
-
-fann_get_errno — Повертає останній номер помилки
+fanngeterrno — Повертає останній номер помилки
 
 ### Опис
 
-**fann_get_errno**(resource `$errdat`): int
+```methodsynopsis
+fann_get_errno(resource $errdat): int
+```
 
 Повертає останній номер помилки.
 
 ### Список параметрів
 
 `errdat`
-Або ресурс (resource) нейронної мережі, або ресурс (resource) учнів
-даних нейронної мережі.
+
+Або ресурс (resource) нейронної мережі, або ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
@@ -29,7 +32,5 @@ fann_get_errno — Повертає останній номер помилки
 
 ### Дивіться також
 
-- [fann_reset_errno()](function.fann-reset-errno.md) - Скидає
-номер останньої помилки
-- [fann_get_errstr()](function.fann-get-errstr.md) - Повертає
-останній рядок помилки
+-   [fannreseterrno()](function.fann-reset-errno.md) - скидає номер останньої помилки
+-   [fanngeterrstr()](function.fann-get-errstr.md) - Повертає останній рядок помилки

@@ -1,35 +1,43 @@
-- [« Memcached::casByKey](memcached.casbykey.md)
-- [Memcached::decrement »](memcached.decrement.md)
+---
+navigation:
+  - memcached.casbykey.md: '« Memcached::casByKey'
+  - memcached.decrement.md: 'Memcached::decrement »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::construct'
+---
+# Memcached::construct
 
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Створює екземпляр класу Memcached
+(PECL memcached >= 0.1.0)
 
-# Memcached::\_\_construct
-
-(PECL memcached \>= 0.1.0)
-
-Memcached::\_\_construct — Створює екземпляр класу Memcached
+Memcached::construct — Створює екземпляр класу Memcached
 
 ### Опис
 
-public **Memcached::\_\_construct**(string `$persistent_id` = ?)
+public **Memcached::construct**(string `$persistent_id`
 
-Створює екземпляр класу Memcached, який з'єднує з сервером
-memcache.
+Створює екземпляр класу Memcached, що з'єднує з сервером memcache.
 
 ### Список параметрів
 
 `persistent_id`
-За замовчуванням екземпляр класу Memcached знищується наприкінці запиту.
-Для створення екземпляра, який зберігається між запитами, необхідно
-використовувати `persistent_id`, щоб вказати унікальний ідентифікатор для
-екземпляра. Усі екземпляри класу, створені з використанням одного та
-той самий ідентифікатор `persistent_id` використовуватиме загальне
-з'єднання.
+
+За замовчуванням екземпляр класу Memcached знищується наприкінці запиту. Для створення екземпляра, який зберігається між запитами, потрібно використовувати `persistent_id`щоб вказати унікальний ідентифікатор для екземпляра. Усі екземпляри класу, створені з використанням одного і того ж ідентифікатора `persistent_id` будуть використовувати спільне з'єднання.
 
 ### Приклади
 
 **Приклад #1 Створення екземпляра класу Memcached**
 
-` <?php/* Створює звичайний примірник класу */$m = new Memcached();echo get_class($m);/* Створює стійкий примірник класу */$m2 = Memcached('story_pool');/* Тепер об'єкти $m2 і $m3 використовують загальне з'єднання */?> `
+```php
+<?php
+/* Создаёт обычный экземпляр класса */
+$m = new Memcached();
+echo get_class($m);
+
+/* Создаёт устойчивый экземпляр класса */
+$m2 = new Memcached('story_pool');
+$m3 = new Memcached('story_pool');
+
+/* Теперь объекты $m2 и $m3 используют общее соединение */
+?>
+```

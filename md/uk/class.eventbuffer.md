@@ -1,199 +1,262 @@
-- [«EventBase::stop](eventbase.stop.md)
-- [EventBuffer::add »](eventbuffer.add.md)
-
-- [PHP Manual](index.md)
-- [Event](book.event.md)
-- Клас EventBuffer
-
+---
+navigation:
+  - eventbase.stop.md: '« EventBase::stop'
+  - eventbuffer.add.md: 'EventBuffer::add »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventBuffer
+---
 # Клас EventBuffer
 
-(PECL event \>= 1.5.0)
+(PECL event >= 1.5.0)
 
 ## Вступ
 
-**EventBuffer** представляє подійний буфер бібліотеки Libevent -
-допоміжний функціонал для буферизованого вводу/виводу.
+**EventBuffer** представляє буфер бібліотеки Libevent - допоміжний функціонал для буферизованого вводу/виводу.
 
-Буфери подій зазвичай корисні для організації "буферної" частини
-буферизованого мережевого введення/виводу.
+Буфери подій зазвичай корисні організації "буферної" частини буферизованого мережевого вводу/вывода.
 
 ## Огляд класів
 
-class **EventBuffer** {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
+    
+    
+     
+      class EventBuffer
+     
+     {
+    
+    /* Константы */
+    
+     const
+     int
+      EOL_ANY = 0;
 
-const int `EOL_ANY` = 0;
+    const
+     int
+      EOL_CRLF = 1;
 
-const int `EOL_CRLF` = 1;
+    const
+     int
+      EOL_CRLF_STRICT = 2;
 
-const int `EOL_CRLF_STRICT` = 2;
+    const
+     int
+      EOL_LF = 3;
 
-const int `EOL_LF` = 3;
+    const
+     int
+      PTR_SET = 0;
 
-const int `PTR_SET` = 0;
+    const
+     int
+      PTR_ADD = 1;
 
-const int `PTR_ADD` = 1;
+    /* Свойства */
+    public
+     readonly
+     int
+      $length;
 
-/\* Властивості \*/
+    public
+     readonly
+     int
+      $contiguous_space;
 
-public readonly int `$length`;
+    /* Методы */
+    
+   public
+   add(
+    string
+     $data
+   ): bool
+public
+   addBuffer(
+    EventBuffer
+     $buf
+   ): bool
+public
+   appendFrom(
+    EventBuffer
+     $buf
+   , 
+    int
+     $len
+   ): int
+public
+   __construct()
+public
+   copyout(
+    string
+     &$data
+   , 
+    int
+     $max_bytes
+   ): int
+public
+   drain(
+    int
+     $len
+   ): bool
+public
+   enableLocking(): void
+public
+   expand(
+    int
+     $len
+   ): bool
+public
+   freeze(
+    bool
+     $at_front
+   ): bool
+public
+   lock(): void
+public
+   prepend(
+    string
+     $data
+   ): bool
+public
+   prependBuffer(
+    EventBuffer
+     $buf
+   ): bool
+public
+   pullup(
+    int
+     $size
+   ): string
+public
+   read(
+    int
+     $max_bytes
+   ): string
+public
+   read(
+    mixed
+     $fd
+   , 
+    int
+     $howmuch
+   ): int
+public
+   readLine(
+    int
+     $eol_style
+   ): string
+public
+   search(
+    string
+     $what
+   , 
+    int
+     $start
+     = -1
+   , 
+    int
+     $end
+     = -1
+   ): mixed
+public
+   searchEol(
+    int
+     $start
+     = -1
+   , 
+    int
+     $eol_style
+     = 
+     EventBuffer::EOL_ANY
+    
+   ): mixed
+public
+   substr(
+    int
+     $start
+   , 
+    int
+     $length
+    = ?): string
+public
+   unfreeze(
+    bool
+     $at_front
+   ): bool
+public
+   unlock(): bool
+public
+   write(
+    mixed
+     $fd
+   , 
+    int
+     $howmuch
+    = ?): int
 
-public readonly int `$contiguous_space`;
-
-/\* Методи \*/
-
-public [add](eventbuffer.add.md)( string `$data` ): bool
-
-public [addBuffer](eventbuffer.addbuffer.md)(
-[EventBuffer](class.eventbuffer.md) `$buf`): bool
-
-public [appendFrom](eventbuffer.appendfrom.md)(
-[EventBuffer](class.eventbuffer.md) `$buf`, int `$len`): int
-
-public [\_\_construct](eventbuffer.construct.md)()
-
-public [copyout](eventbuffer.copyout.md)( string `&$data` , int
-`$max_bytes` ): int
-
-public [drain](eventbuffer.drain.md)( int `$len` ): bool
-
-public [enableLocking](eventbuffer.enablelocking.md)(): void
-
-public [expand](eventbuffer.expand.md)( int `$len` ): bool
-
-public [freeze](eventbuffer.freeze.md)( bool `$at_front` ): bool
-
-public [lock](eventbuffer.lock.md)(): void
-
-public [prepend](eventbuffer.prepend.md)( string `$data` ): bool
-
-public [prependBuffer](eventbuffer.prependbuffer.md)(
-[EventBuffer](class.eventbuffer.md) `$buf`): bool
-
-public [pullup](eventbuffer.pullup.md)( int `$size` ): string
-
-public [read](eventbuffer.read.md)( int `$max_bytes` ): string
-
-public [read](eventbuffer.read.md)(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` , int `$howmuch` ): int
-
-public [readLine](eventbuffer.readline.md)( int `$eol_style` ): string
-
-public [search](eventbuffer.search.md)( string `$what` , int `$start`
-= -1 , int `$end` = -1 ):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [searchEol](eventbuffer.searcheol.md)( int `$start` = -1 , int
-`$eol_style` = **`EventBuffer::EOL_ANY`** ):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [substr](eventbuffer.substr.md)( int `$start` , int `$length` =
-?): string
-
-public [unfreeze](eventbuffer.unfreeze.md)( bool `$at_front` ): bool
-
-public [unlock](eventbuffer.unlock.md)(): bool
-
-public [write](eventbuffer.write.md)(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` , int `$howmuch` = ?): int
-
-}
+   }
+```
 
 ## Властивості
 
-`length`
+length
+
 Кількість байт у буфері подій.
 
-`contiguous_space`
-Кількість байтів, що зберігаються суміжно у передній частині буфера. Байти в
-буфер можуть розташовуватися в різних шматках пам'яті; властивість повертає
-кількість байт що знаходяться, в даний момент, у першому шматку.
+contiguousspace
 
-## Зумовлені константи
+Кількість байтів, що зберігаються суміжно у передній частині буфера. Байти в буфері можуть розташовуватися в різних шматках пам'яті; Якість повертає кількість байт що знаходяться, в даний момент, в першому шматку.
+
+## Обумовлені константи
 
 **`EventBuffer::EOL_ANY`**
-Кінець рядка є будь-якою послідовністю будь-якого числа символів
-перекладу рядка та повернення каретки. Цей формат не дуже корисний і
-існує лише забезпечення зворотної сумісності.
+
+Кінець рядка є будь-якою послідовністю будь-якого числа символів перекладу рядка та повернення каретки. Цей формат не є особливо корисним і існує лише для забезпечення зворотної сумісності.
 
 **`EventBuffer::EOL_CRLF`**
-Кінець рядка є послідовністю з необов'язкового повернення
-каретки та перекладу рядка. (Тобто або ``
-"або"
-"`.)
-Цей формат корисний при розборі текстових Інтернет-протоколів, оскільки
-стандарти зазвичай наказують позначати кінець рядка як `"
-", але
-багато клієнтів використовують просто ``
-"`.
+
+Кінець рядка є послідовністю з необов'язкового повернення каретки та перекладу рядка. (тобто або `"\r\n"` або `"\n"` .) Цей формат корисний при розборі текстових Інтернет-протоколів, оскільки стандарти зазвичай наказують позначати кінець рядка як `"\r\n"`, але багато клієнтів використовують просто `"\n"`
 
 **`EventBuffer::EOL_CRLF_STRICT`**
-Кінець рядка є послідовністю із символів повернення каретки та
-перекладу рядка. (Тобто ``
-ASCII-коди **`0x0D`** **`0x0A`** ).
+
+Кінець рядка є послідовністю із символів повернення каретки та перекладу рядка. (Тобто . `"\r\n"` . ASCII-коди **`0x0D`** **`0x0A`**
 
 **`EventBuffer::EOL_LF`**
-Кінець рядка є символом перекладу рядка. (Тобто.
-`"
-"` . ASCII-код **`0x0A`** .)
+
+Кінець рядка є символом перекладу рядка. (тобто . `"\n"` . ASCII-код **`0x0A`**
 
 **`EventBuffer::PTR_SET`**
-Прапор використовується як аргумент методу **EventBuffer::setPosition()**.
-Якщо прапорець встановлений, то вказівник позиції переміщується на абсолютну
-позицію у буфері.
+
+Прапор використовується як аргумент методу **EventBuffer::setPosition()**. Якщо прапор встановлений, то вказівник позиції переміщається на абсолютну позицію буфері.
 
 **`EventBuffer::PTR_ADD`**
-Те саме, що і **`EventBuffer::PTR_SET`** , за винятком, що прапор
-вказує методом **EventBuffer::setPosition()** перемістити позицію
-вперед на вказану кількість байт.
+
+Те саме, що і **`EventBuffer::PTR_SET`** , за винятком, що прапор вказує методом **EventBuffer::setPosition()** перемістити позицію вперед на вказану кількість байт.
 
 ## Зміст
 
-- [EventBuffer::add](eventbuffer.add.md) — Додає дані до кінця
-буфер подій
-- [EventBuffer::addBuffer](eventbuffer.addbuffer.md) — Переміщує
-всі дані з буфера екземпляру EventBuffer
-- [EventBuffer::appendFrom](eventbuffer.appendfrom.md) — Переміщує
-вказана кількість байтів з вихідного буфера до кінця поточного
-буфера
-- [EventBuffer::\_\_construct](eventbuffer.construct.md) - Створює
-об'єкт EventBuffer
-- [EventBuffer::copyout](eventbuffer.copyout.md) — Копіює
-вказана кількість байтів з початку буфера
-- [EventBuffer::drain](eventbuffer.drain.md) — Видаляє вказане
-кількість байтів з початку буфера, нікуди не копіюючи
-- [EventBuffer::enableLocking](eventbuffer.enablelocking.md) -
-Опис
-- [EventBuffer::expand](eventbuffer.expand.md) - Резервує
-простір у буфері
-- [EventBuffer::freeze](eventbuffer.freeze.md) — Запобігає
-виклики, які змінюють буфер подій у разі успішного виконання
-- [EventBuffer::lock](eventbuffer.lock.md) — Отримує блокування
-буфера
-- [EventBuffer::prepend](eventbuffer.prepend.md) — Записує дані
-на початок буфера
-- [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md) -
-Переміщує всі дані з вихідного буфера на початок поточного буфера
-- [EventBuffer::pullup](eventbuffer.pullup.md) — Лінеаризує дані
-у буфері та повертає їх вміст у вигляді рядка
-- [EventBuffer::read](eventbuffer.read.md) — Читає дані з
-evbuffer і виснажує прочитані байти
-- [EventBuffer::readFrom](eventbuffer.readfrom.md) — Читає дані
-з файлу до кінця буфера
-- [EventBuffer::readLine](eventbuffer.readline.md) - Витягує
-рядок із початку буфера
-- [EventBuffer::search](eventbuffer.search.md) — Сканує буфер на
-наявність рядка
-- [EventBuffer::searchEol](eventbuffer.searcheol.md) - Сканує
-буфер на наявність кінця рядка
-- [EventBuffer::substr](eventbuffer.substr.md) — Обрізає частину
-даних буфера
-- [EventBuffer::unfreeze](eventbuffer.unfreeze.md) - Повторно
-включає дзвінки, які змінюють буфер подій
-- [EventBuffer::unlock](eventbuffer.unlock.md) — Знімає блокування,
-встановлену EventBuffer::lock
-- [EventBuffer::write](eventbuffer.write.md) — Записує вміст
-буфера у файл або сокет
+-   [EventBuffer::add](eventbuffer.add.md) — Додає дані до кінця буфера подій
+-   [EventBuffer::addBuffer](eventbuffer.addbuffer.md) — Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::appendFrom](eventbuffer.appendfrom.md) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::construct](eventbuffer.construct.md) - Створює об'єкт EventBuffer
+-   [EventBuffer::copyout](eventbuffer.copyout.md) — Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain](eventbuffer.drain.md) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
+-   [EventBuffer::enableLocking](eventbuffer.enablelocking.md) - Опис
+-   [EventBuffer::expand](eventbuffer.expand.md) - Резервує простір у буфері
+-   [EventBuffer::freeze](eventbuffer.freeze.md) — Запобігає викликам, які змінюють буфер подій у разі успішного виконання
+-   [EventBuffer::lock](eventbuffer.lock.md) — Отримує блокування буфера
+-   [EventBuffer::prepend](eventbuffer.prepend.md) — Записує дані на початок буфера
+-   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md) — Переміщує всі дані з вихідного буфера на початок поточного буфера
+-   [EventBuffer::pullup](eventbuffer.pullup.md) — Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
+-   [EventBuffer::read](eventbuffer.read.md) — Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::readFrom](eventbuffer.readfrom.md) — Читає дані з файлу до кінця буфера
+-   [EventBuffer::readLine](eventbuffer.readline.md) — Витягує рядок із початку буфера
+-   [EventBuffer::search](eventbuffer.search.md) - Сканує буфер на наявність рядка
+-   [EventBuffer::searchEol](eventbuffer.searcheol.md) - Сканує буфер на наявність кінця рядка
+-   [EventBuffer::substr](eventbuffer.substr.md) - Обрізає частину даних буфера
+-   [EventBuffer::unfreeze](eventbuffer.unfreeze.md) — Повторно включає дзвінки, які змінюють буфер подій
+-   [EventBuffer::unlock](eventbuffer.unlock.md) — Знімає блокування, встановлене EventBuffer::lock
+-   [EventBuffer::write](eventbuffer.write.md) — Записує вміст буфера у файл чи сокет

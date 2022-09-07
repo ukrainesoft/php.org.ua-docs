@@ -1,26 +1,29 @@
-- [« Componere\Abstract\Definition](class.componere-abstract-definition.md)
-- [Componere\Abstract\Definition::addMethod »](componere-abstract-definition.addmethod.md)
+---
+navigation:
+  - class.componere-abstract-definition.md: « ComponereAbstractDefinition
+  - componere-abstract-definition.addmethod.md: 'ComponereAbstractDefinition::addMethod »'
+  - index.md: PHP Manual
+  - class.componere-abstract-definition.md: ComponereAbstractDefinition
+title: 'ComponereAbstractDefinition::addInterface'
+---
+# ComponereAbstractDefinition::addInterface
 
-- [PHP Manual](index.md)
-- [Componere\Abstract\Definition](class.componere-abstract-definition.md)
-- Додає інтерфейс
+(Componere 2 >= 2.1.0)
 
-# Componere\Abstract\Definition::addInterface
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Abstract\Definition::addInterface — Додає інтерфейс
+ComponereAbstractDefinition::addInterface — Додає інтерфейс
 
 ### Опис
 
-public **Componere\Abstract\Definition::addInterface**(string
-`$interface`): Definition
+```methodsynopsis
+public Componere\Abstract\Definition::addInterface(string $interface): Definition
+```
 
 Реалізує цей інтерфейс за поточним визначенням
 
 ### Список параметрів
 
 `interface`
+
 Ім'я інтерфейсу без урахування регістру
 
 ### Значення, що повертаються
@@ -31,5 +34,4 @@ The current Definition
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition був зареєстрований
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition було зареєстровано

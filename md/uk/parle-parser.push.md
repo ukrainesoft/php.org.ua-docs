@@ -1,30 +1,33 @@
-- [« Parle\Parser::precedence](parle-parser.precedence.md)
-- [Parle\Parser::reset »](parle-parser.reset.md)
+---
+navigation:
+  - parle-parser.precedence.md: '« ParleParser::precedence'
+  - parle-parser.reset.md: 'ParleParser::reset »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::push'
+---
+# ParleParser::push
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Додає граматичне правило
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::push
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::push — Додає граматичне правило
+ParleParser::push — Додає граматичне правило
 
 ### Опис
 
-public **Parle\Parser::push**(string `$name`, string `$rule`): int
+```methodsynopsis
+public Parle\Parser::push(string $name, string $rule): int
+```
 
-Додає граматичне правило. Повернутий виробничий
-ідентифікатор може бути використаний пізніше в процесі синтаксичного
-аналізу, щоб ідентифікувати відповідність до правила.
+Додає граматичне правило. Повернений виробничий ідентифікатор може бути використаний пізніше у процесі синтаксичного аналізу, щоб ідентифікувати відповідність правилу.
 
 ### Список параметрів
 
 `name`
+
 Ім'я правила.
 
 `rule`
+
 Правило, яке буде додано. Синтаксис сумісний із Bison.
 
 ### Значення, що повертаються

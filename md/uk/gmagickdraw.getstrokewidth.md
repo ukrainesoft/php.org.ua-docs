@@ -1,23 +1,24 @@
-- [« GmagickDraw::getstrokeopacity](gmagickdraw.getstrokeopacity.md)
-- [GmagickDraw::gettextdecoration »](gmagickdraw.gettextdecoration.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає ширину обведення, що використовується для відображення контурів.
-об'єкта
-
+---
+navigation:
+  - gmagickdraw.getstrokeopacity.md: '« GmagickDraw::getstrokeopacity'
+  - gmagickdraw.gettextdecoration.md: 'GmagickDraw::gettextdecoration »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getstrokewidth'
+---
 # GmagickDraw::getstrokewidth
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::getstrokewidth — Повертає ширину обведення, що використовується
-для відображення контурів об'єкта
+GmagickDraw::getstrokewidth — Повертає ширину обведення, що використовується для відображення контурів об'єкта.
 
 ### Опис
 
-public **GmagickDraw::getstrokewidth**(): float
+```methodsynopsis
+public GmagickDraw::getstrokewidth(): float
+```
 
-Повертає ширину обведення, яка використовується для відображення контурів об'єкта.
+Повертає ширину обведення, що використовується для відображення контурів об'єкта.
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **GmagickDraw::getstrokewidth**(): float
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою (double), що описує ширину
-обведення.
+Повертає число з плаваючою точкою (double), що описує ширину обведення.

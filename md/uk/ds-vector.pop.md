@@ -1,20 +1,22 @@
-- [« Ds\Vector::merge](ds-vector.merge.md)
-- [Ds\Vector::push »](ds-vector.push.md)
+---
+navigation:
+  - ds-vector.merge.md: '« DsVector::merge'
+  - ds-vector.push.md: 'ДсVector::push »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::pop'
+---
+# ДсVector::pop
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Видаляє та повертає останнє значення
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::pop
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::pop — Видаляє та повертає останнє значення
+ДсVector::pop — Видаляє та повертає останнє значення
 
 ### Опис
 
-public **Ds\Vector::pop**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Vector::pop(): mixed
+```
 
 Видаляє та повертає останнє значення.
 
@@ -28,17 +30,26 @@ public **Ds\Vector::pop**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо вектор порожній.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо вектор порожній.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::pop()****
+**Приклад #1 Приклад використання **ДсVector::pop()****
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->pop());var_dump($vector->pop());var_dump($vector-> pop());?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+
+var_dump($vector->pop());
+var_dump($vector->pop());
+var_dump($vector->pop());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(3)
 int(2)
 int(1)
+```

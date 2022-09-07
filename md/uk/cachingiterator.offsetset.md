@@ -1,34 +1,36 @@
-- [«CachingIterator::offsetGet](cachingiterator.offsetget.md)
-- [CachingIterator::offsetUnset »](cachingiterator.offsetunset.md)
-
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Призначення offsetSet
-
+---
+navigation:
+  - cachingiterator.offsetget.md: '« CachingIterator::offsetGet'
+  - cachingiterator.offsetunset.md: 'CachingIterator::offsetUnset »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::offsetSet'
+---
 # CachingIterator::offsetSet
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::offsetSet — Призначення offsetSet
 
 ### Опис
 
-public **CachingIterator::offsetSet**(string `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public CachingIterator::offsetSet(string $key, mixed $value): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `key`
+
 Індекс елемент.
 
 `value`
-Нове значення для елемента з індексом `key`.
+
+Нове значення для елемента з індексом`key`
 
 ### Значення, що повертаються
 

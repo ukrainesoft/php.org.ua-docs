@@ -1,21 +1,24 @@
-- [« SplObjectStorage::key](splobjectstorage.key.md)
-- [SplObjectStorage::offsetExists »](splobjectstorage.offsetexists.md)
-
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Перехід до наступного об'єкту
-
+---
+navigation:
+  - splobjectstorage.key.md: '« SplObjectStorage::key'
+  - splobjectstorage.offsetexists.md: 'SplObjectStorage::offsetExists »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::next'
+---
 # SplObjectStorage::next
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::next — Перехід до наступного об'єкта
 
 ### Опис
 
-public **SplObjectStorage::next**(): void
+```methodsynopsis
+public SplObjectStorage::next(): void
+```
 
-Переміщає ітератор на об'єкт наступного об'єкта в контейнері.
+Переміщує ітератор на наступний об'єкт об'єкта в контейнері.
 
 ### Список параметрів
 
@@ -29,18 +32,39 @@ public **SplObjectStorage::next**(): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::next()****
 
-` <?php$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {    $index  = $s->key(); $object = $s->current(); // аналогічно current($s)   var_dump($index); var_dump($object); $s->next();}?> `
+```php
+<?php
+$s = new SplObjectStorage();
+
+$o1 = new StdClass;
+$o2 = new StdClass;
+
+$s->attach($o1, "d1");
+$s->attach($o2, "d2");
+
+$s->rewind();
+while($s->valid()) {
+    $index  = $s->key();
+    $object = $s->current(); // аналогично current($s)
+
+    var_dump($index);
+    var_dump($object);
+    $s->next();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(0)
 object(stdClass)#2 (0) {
 }
 int(1)
 object(stdClass)#3 (0) {
 }
+```
 
 ### Дивіться також
 
-- [SPLObjectStorage::rewind()](splobjectstorage.rewind.md) -
-Переводить ітератор на перший елемент контейнера
+-   [SPLObjectStorage::rewind()](splobjectstorage.rewind.md) - перекладає ітератор на перший елемент контейнера

@@ -1,21 +1,24 @@
-- [« UI\MenuItem::isChecked](ui-menuitem.ischecked.md)
-- [UI\MenuItem::setChecked »](ui-menuitem.setchecked.md)
-
-- [PHP Manual](index.md)
-- [UI\MenuItem](class.ui-menuitem.md)
-- Обробник натискання
-
-# UI\MenuItem::onClick
+---
+navigation:
+  - ui-menuitem.ischecked.md: '« UIMenuItem::isChecked'
+  - ui-menuitem.setchecked.md: 'ОЙMenuItem::setChecked »'
+  - index.md: PHP Manual
+  - class.ui-menuitem.md: ОЙMenuItem
+title: 'ОЙMenuItem::onClick'
+---
+# ОЙMenuItem::onClick
 
 (UI 0.9.9)
 
-UI\MenuItem::onClick — Обробник натискання
+ОЙMenuItem::onClick — Обробник натискання
 
 ### Опис
 
-protected **UI\MenuItem::onClick**()
+```methodsynopsis
+protected UI\MenuItem::onClick()
+```
 
-Виконується при натисканні даного пункту меню
+Виконується при натисканні цього пункту меню
 
 ### Список параметрів
 

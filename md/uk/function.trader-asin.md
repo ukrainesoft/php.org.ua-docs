@@ -1,29 +1,31 @@
-- [«trader_aroonosc](function.trader-aroonosc.md)
-- [trader_atan »](function.trader-atan.md)
+---
+navigation:
+  - function.trader-aroonosc.md: « traderaroonosc
+  - function.trader-atan.md: traderatan »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderasin
+---
+# traderasin
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Векторний тригонометричний арксинус
+(PECL trader >= 0.2.0)
 
-# trader_asin
-
-(PECL trader \>= 0.2.0)
-
-trader_asin — Векторний тригонометричний арксинус
+traderasin - Векторний тригонометричний арксинус
 
 ### Опис
 
-**trader_asin**(array `$real`): array
+```methodsynopsis
+trader_asin(array $real): array
+```
 
-Обчислює арксинус для кожного значення в `real` та повертає
-результуючий масив.
+Обчислює арксинус для кожного значення `real` та повертає результуючий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

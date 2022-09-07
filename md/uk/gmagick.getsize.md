@@ -1,22 +1,24 @@
-- [« Gmagick::getsamplingfactors](gmagick.getsamplingfactors.md)
-- [Gmagick::getversion »](gmagick.getversion.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає розмір, пов'язаний із об'єктом Gmagick
-
+---
+navigation:
+  - gmagick.getsamplingfactors.md: '« Gmagick::getsamplingfactors'
+  - gmagick.getversion.md: 'Gmagick::getversion »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getsize'
+---
 # Gmagick::getsize
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getsize — Повертає розмір, пов'язаний із об'єктом Gmagick
 
 ### Опис
 
-public **Gmagick::getsize**(): array
+```methodsynopsis
+public Gmagick::getsize(): array
+```
 
-Повертає розмір, пов'язаний з об'єктом [Gmagick](class.gmagick.md)
-вигляді масиву з ключами "columns" та "rows".
+Повертає розмір, пов'язаний із об'єктом [Gmagick](class.gmagick.md) у вигляді масиву з ключами "columns" та "rows".
 
 ### Список параметрів
 
@@ -24,8 +26,7 @@ public **Gmagick::getsize**(): array
 
 ### Значення, що повертаються
 
-Повертає розмір, пов'язаний з об'єктом [Gmagick](class.gmagick.md)
-вигляді масиву з ключами "columns" та "rows".
+Повертає розмір, пов'язаний із об'єктом [Gmagick](class.gmagick.md) у вигляді масиву з ключами "columns" та "rows".
 
 ### Помилки
 

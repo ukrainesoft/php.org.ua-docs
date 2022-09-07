@@ -1,30 +1,33 @@
-- [«StompFrame](class.stompframe.md)
-- [StompException »](class.stompexception.md)
+---
+navigation:
+  - class.stompframe.md: « StompFrame
+  - class.stompexception.md: StompException »
+  - index.md: PHP Manual
+  - class.stompframe.md: StompFrame
+title: 'StompFrame::construct'
+---
+# StompFrame::construct
 
-- [PHP Manual](index.md)
-- [StompFrame](class.stompframe.md)
-- Конструктор
+(PECL stomp >= 0.1.0)
 
-# StompFrame::\_\_construct
-
-(PECL stomp \>= 0.1.0)
-
-StompFrame::\_\_construct - Конструктор
+StompFrame::construct — Конструктор
 
 ### Опис
 
-**StompFrame::\_\_construct**(string `$command` = ?, array `$headers` =
-?, string `$body` = ?)
+**StompFrame::construct**(string `$command` = ?, array `$headers` =?, string `$body`
 
 Конструктор.
 
 ### Список параметрів
 
 `command`
+
 Команда кадру.
 
 `headers`
+
 Заголовки кадру (array).
 
 `body`
+
 Тіло кадру.

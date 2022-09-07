@@ -1,11 +1,11 @@
-- [« Вимоги](filter.requirements.md)
-- [Налаштування під час виконання »](filter.configuration.md)
+---
+navigation:
+  - filter.requirements.md: « Вимоги
+  - filter.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - filter.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](filter.setup.md)
-- Установка
-
-## Установка
-
-Модуль filter увімкнено за замовчуванням. Для вимкнення модуля filter
-використовуйте **-disable-filter**.
+Модуль filter увімкнено за замовчуванням. Для вимкнення модуля filter використовуйте **\-disable-filter**

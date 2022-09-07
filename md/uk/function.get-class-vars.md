@@ -1,57 +1,110 @@
-- [«get_class_methods](function.get-class-methods.md)
-- [get_class »](function.get-class.md)
-
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Повертає оголошені за умовчанням властивості класу
-
-#get_class_vars
+---
+navigation:
+  - function.get-class-methods.md: « getclassmethods
+  - function.get-class.md: getclass »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getclassvars
+---
+# getclassvars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_class_vars — Повертає оголошені за умовчанням властивості класу
+getclassvars — Повертає оголошені за умовчанням властивості класу
 
 ### Опис
 
-**get_class_vars**(string `$class`): array
+```methodsynopsis
+get_class_vars(string $class): array
+```
 
 Повертає оголошені за умовчанням властивості зазначеного класу.
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив оголошених властивостей класу, видимих з
-поточної області видимості, з їх значенням за промовчанням. Отримані
-елементи масиву мають форму `varname=>value`. У разі виникнення
-помилки повертається **`false`**.
+Повертає асоціативний масив оголошених властивостей класу, видимих ​​із поточної області видимості, зі значенням за замовчуванням. Елементи масиву, що виходять, мають форму `varname => value`. У разі виникнення помилки повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_class_vars()****
+**Приклад #1 Приклад використання **getclassvars()****
 
-`<?phpclass myclass {    var $var1; // змінна не має початкового значення...    var $var2 = "xyz"; var$$var3=100; private$var4; // конструктор    function __construct() {         // змінимо значення деяких властивостей| $this->var2=="bar"; return true; }}$my_class = new myclass();$class_vars = get_class_vars(get_class($my_class));foreach ($class_vars as $name => $value) {    echo "$$ 
-";}?> `
+```php
+<?php
+
+class myclass {
+
+    var $var1; // переменная не имеет начального значения...
+    var $var2 = "xyz";
+    var $var3 = 100;
+    private $var4;
+
+    // конструктор
+    function __construct() {
+        // изменим значения некоторых свойств
+        $this->var1 = "foo";
+        $this->var2 = "bar";
+        return true;
+    }
+
+}
+
+$my_class = new myclass();
+
+$class_vars = get_class_vars(get_class($my_class));
+
+foreach ($class_vars as $name => $value) {
+    echo "$name : $value\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 var1 :
 var2 : xyz
 var3 : 100
+```
 
-**Приклад #2 **get_class_vars()** та поведінка області видимості**
+**Приклад #2 **getclassvars()** та поведінка області видимості**
 
-` <?phpfunction format($array){ return implode('|', array_keys($array)) . "
-";}class TestCase{    public $a    = 1;    protected $b = 2;    private $c   = 3;    public static function expose()    {        echo format(get_class_vars(__CLASS__));    }}TestCase::expose();echo format(get_class_vars('TestCase'));?> `
+```php
+<?php
+function format($array)
+{
+    return implode('|', array_keys($array)) . "\r\n";
+}
+
+class TestCase
+{
+    public $a    = 1;
+    protected $b = 2;
+    private $c   = 3;
+
+    public static function expose()
+    {
+        echo format(get_class_vars(__CLASS__));
+    }
+}
+
+TestCase::expose();
+echo format(get_class_vars('TestCase'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 // 5.0.0
-a| * b | TestCase c
-a| * b | TestCase c
+a| * b| TestCase c
+a| * b| TestCase c
 
 // 5.0.1 - 5.0.2
 a|b|c
@@ -60,10 +113,9 @@ a|b|c
 // 5.0.3 +
 a|b|c
 a
+```
 
 ### Дивіться також
 
-- [get_class_methods()](function.get-class-methods.md) - Повертає
-масив імен методів класу
-- [get_object_vars()](function.get-object-vars.md) - Повертає
-властивості вказаного об'єкта
+-   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
+-   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту

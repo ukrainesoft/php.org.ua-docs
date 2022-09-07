@@ -1,20 +1,20 @@
-- [«Componere\Method](class.componere-method.md)
-- [Componere\Method::setPrivate »](componere-method.setprivate.md)
+---
+navigation:
+  - class.componere-method.md: « ComponereMethod
+  - componere-method.setprivate.md: 'ComponereMethod::setPrivate »'
+  - index.md: PHP Manual
+  - class.componere-method.md: ComponereMethod
+title: 'ComponereMethod::construct'
+---
+# ComponereMethod::construct
 
-- [PHP Manual](index.md)
-- [Componere\Method](class.componere-method.md)
-- Конструктор класу Method
+(Componere 2 >= 2.1.0)
 
-# Componere\Method::\_\_construct
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Method::\_\_construct - Конструктор класу Method
+ComponereMethod::construct - Конструктор класу Method
 
 ### Опис
 
-public **Componere\Method::\_\_construct**([Closure](class.closure.md)
-`$closure`)
+public **ComponereMethod::construct**[Closure](class.closure.md) `$closure`
 
 ### Список параметрів
 

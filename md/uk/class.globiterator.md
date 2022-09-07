@@ -1,238 +1,154 @@
-- [« FilterIterator::valid](filteriterator.valid.md)
-- [GlobIterator::\_\_construct »](globiterator.construct.md)
-
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас GlobIterator
-
+---
+navigation:
+  - filteriterator.valid.md: '« FilterIterator::valid'
+  - globiterator.construct.md: 'GlobIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас GlobIterator
+---
 # Клас GlobIterator
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Ітерує через файлову систему схожим чином, як працює
-[glob()](function.glob.md).
+Ітерує через файлову систему схожим чином, як працює [glob()](function.glob.md)
 
 ## Огляд класів
 
-class **GlobIterator** extends
-[FilesystemIterator](class.filesystemiterator.md) implements
-[Countable](class.countable.md) {
+```classsynopsis
 
-/\* Успадковані константи \*/
+     
+    
 
-const int `FilesystemIterator::CURRENT_AS_PATHNAME` = 32;
+    
+     
+      class GlobIterator
+     
 
-const int `FilesystemIterator::CURRENT_AS_FILEINFO` = 0;
+     
+      extends
+       FilesystemIterator
+     
 
-const int `FilesystemIterator::CURRENT_AS_SELF` = 16;
+     implements 
+       Countable {
 
-const int `FilesystemIterator::CURRENT_MODE_MASK` = 240;
+    /* Наследуемые константы */
+    
+     const
+     int
+      FilesystemIterator::CURRENT_AS_PATHNAME = 32;
+const
+     int
+      FilesystemIterator::CURRENT_AS_FILEINFO = 0;
+const
+     int
+      FilesystemIterator::CURRENT_AS_SELF = 16;
+const
+     int
+      FilesystemIterator::CURRENT_MODE_MASK = 240;
+const
+     int
+      FilesystemIterator::KEY_AS_PATHNAME = 0;
+const
+     int
+      FilesystemIterator::KEY_AS_FILENAME = 256;
+const
+     int
+      FilesystemIterator::FOLLOW_SYMLINKS = 512;
+const
+     int
+      FilesystemIterator::KEY_MODE_MASK = 3840;
+const
+     int
+      FilesystemIterator::NEW_CURRENT_AND_KEY = 256;
+const
+     int
+      FilesystemIterator::SKIP_DOTS = 4096;
+const
+     int
+      FilesystemIterator::UNIX_PATHS = 8192;
 
-const int `FilesystemIterator::KEY_AS_PATHNAME` = 0;
 
-const int `FilesystemIterator::KEY_AS_FILENAME` = 256;
+    /* Методы */
+    
+   public __construct(string $pattern, int $flags = FilesystemIterator::KEY_AS_PATHNAME | FilesystemIterator::CURRENT_AS_FILEINFO)
 
-const int `FilesystemIterator::FOLLOW_SYMLINKS` = 512;
+    public count(): int
 
-const int `FilesystemIterator::KEY_MODE_MASK` = 3840;
 
-const int `FilesystemIterator::NEW_CURRENT_AND_KEY` = 256;
+    /* Наследуемые методы */
+    public FilesystemIterator::current(): string|SplFileInfo|FilesystemIterator
+public FilesystemIterator::getFlags(): int
+public FilesystemIterator::key(): string
+public FilesystemIterator::next(): void
+public FilesystemIterator::rewind(): void
+public FilesystemIterator::setFlags(int $flags): void
 
-const int `FilesystemIterator::SKIP_DOTS` = 4096;
-
-const int `FilesystemIterator::UNIX_PATHS` = 8192;
-
-/\* Методи \*/
-
-public [\_\_construct](globiterator.construct.md)(string `$pattern`,
-int `$flags` = FilesystemIterator::KEY_AS_PATHNAME \|
-FilesystemIterator::CURRENT_AS_FILEINFO)
-
-public [count](globiterator.count.md)(): int
-
-/\* Наслідувані методи \*/
-
-public [FilesystemIterator::current](filesystemiterator.current.md)():
-string\|[SplFileInfo](class.splfileinfo.md)\|[FilesystemIterator](class.filesystemiterator.md)
-
+    public DirectoryIterator::current(): mixed
+public DirectoryIterator::getATime(): int
+public DirectoryIterator::getBasename(string $suffix = ""): string
+public DirectoryIterator::getCTime(): int
+public DirectoryIterator::getExtension(): string
+public DirectoryIterator::getFilename(): string
+public DirectoryIterator::getGroup(): int
+public DirectoryIterator::getInode(): int
+public DirectoryIterator::getMTime(): int
+public DirectoryIterator::getOwner(): int
+public DirectoryIterator::getPath(): string
+public DirectoryIterator::getPathname(): string
+public DirectoryIterator::getPerms(): int
+public DirectoryIterator::getSize(): int
+public DirectoryIterator::getType(): string
+public DirectoryIterator::isDir(): bool
+public DirectoryIterator::isDot(): bool
+public DirectoryIterator::isExecutable(): bool
+public DirectoryIterator::isFile(): bool
+public DirectoryIterator::isLink(): bool
+public DirectoryIterator::isReadable(): bool
+public DirectoryIterator::isWritable(): bool
+public DirectoryIterator::key(): mixed
+public DirectoryIterator::next(): void
+public DirectoryIterator::rewind(): void
+public DirectoryIterator::seek(int $offset): void
 public
-[FilesystemIterator::getFlags](filesystemiterator.getflags.md)(): int
+   DirectoryIterator::__toString(): string
+public DirectoryIterator::valid(): bool
 
-public [FilesystemIterator::key](filesystemiterator.key.md)(): string
+    public SplFileInfo::getATime(): int|false
+public SplFileInfo::getBasename(string $suffix = ""): string
+public SplFileInfo::getCTime(): int|false
+public SplFileInfo::getExtension(): string
+public SplFileInfo::getFileInfo(?string $class = null): SplFileInfo
+public SplFileInfo::getFilename(): string
+public SplFileInfo::getGroup(): int|false
+public SplFileInfo::getInode(): int|false
+public SplFileInfo::getLinkTarget(): string|false
+public SplFileInfo::getMTime(): int|false
+public SplFileInfo::getOwner(): int|false
+public SplFileInfo::getPath(): string
+public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
+public SplFileInfo::getPathname(): string
+public SplFileInfo::getPerms(): int|false
+public SplFileInfo::getRealPath(): string|false
+public SplFileInfo::getSize(): int|false
+public SplFileInfo::getType(): string|false
+public SplFileInfo::isDir(): bool
+public SplFileInfo::isExecutable(): bool
+public SplFileInfo::isFile(): bool
+public SplFileInfo::isLink(): bool
+public SplFileInfo::isReadable(): bool
+public SplFileInfo::isWritable(): bool
+public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?resource $context = null): SplFileObject
+public SplFileInfo::setFileClass(string $class = SplFileObject::class): void
+public SplFileInfo::setInfoClass(string $class = SplFileInfo::class): void
+public SplFileInfo::__toString(): string
 
-public [FilesystemIterator::next](filesystemiterator.next.md)(): void
-
-public [FilesystemIterator::rewind](filesystemiterator.rewind.md)():
-void
-
-public
-[FilesystemIterator::setFlags](filesystemiterator.setflags.md)(int
-`$flags`): void
-
-public [DirectoryIterator::current](directoryiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [DirectoryIterator::getATime](directoryiterator.getatime.md)():
-int
-
-public
-[DirectoryIterator::getBasename](directoryiterator.getbasename.md)(string
-`$suffix` = ""): string
-
-public [DirectoryIterator::getCTime](directoryiterator.getctime.md)():
-int
-
-public
-[DirectoryIterator::getExtension](directoryiterator.getextension.md)():
-string
-
-public
-[DirectoryIterator::getFilename](directoryiterator.getfilename.md)():
-string
-
-public [DirectoryIterator::getGroup](directoryiterator.getgroup.md)():
-int
-
-public [DirectoryIterator::getInode](directoryiterator.getinode.md)():
-int
-
-public [DirectoryIterator::getMTime](directoryiterator.getmtime.md)():
-int
-
-public [DirectoryIterator::getOwner](directoryiterator.getowner.md)():
-int
-
-public [DirectoryIterator::getPath](directoryiterator.getpath.md)():
-string
-
-public
-[DirectoryIterator::getPathname](directoryiterator.getpathname.md)():
-string
-
-public [DirectoryIterator::getPerms](directoryiterator.getperms.md)():
-int
-
-public [DirectoryIterator::getSize](directoryiterator.getsize.md)():
-int
-
-public [DirectoryIterator::getType](directoryiterator.gettype.md)():
-string
-
-public [DirectoryIterator::isDir](directoryiterator.isdir.md)(): bool
-
-public [DirectoryIterator::isDot](directoryiterator.isdot.md)(): bool
-
-public
-[DirectoryIterator::isExecutable](directoryiterator.isexecutable.md)():
-bool
-
-public [DirectoryIterator::isFile](directoryiterator.isfile.md)():
-bool
-
-public [DirectoryIterator::isLink](directoryiterator.islink.md)():
-bool
-
-public
-[DirectoryIterator::isReadable](directoryiterator.isreadable.md)():
-bool
-
-public
-[DirectoryIterator::isWritable](directoryiterator.iswritable.md)():
-bool
-
-public [DirectoryIterator::key](directoryiterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [DirectoryIterator::next](directoryiterator.next.md)(): void
-
-public [DirectoryIterator::rewind](directoryiterator.rewind.md)():
-void
-
-public [DirectoryIterator::seek](directoryiterator.seek.md)(int
-`$offset`): void
-
-public
-[DirectoryIterator::\_\_toString](directoryiterator.tostring.md)():
-string
-
-public [DirectoryIterator::valid](directoryiterator.valid.md)(): bool
-
-public [SplFileInfo::getATime](splfileinfo.getatime.md)(): int\|false
-
-public [SplFileInfo::getBasename](splfileinfo.getbasename.md)(string
-`$suffix` = ""): string
-
-public [SplFileInfo::getCTime](splfileinfo.getctime.md)(): int\|false
-
-public [SplFileInfo::getExtension](splfileinfo.getextension.md)():
-string
-
-public [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)(?string
-`$class` = **`null`**): [SplFileInfo](class.splfileinfo.md)
-
-public [SplFileInfo::getFilename](splfileinfo.getfilename.md)():
-string
-
-public [SplFileInfo::getGroup](splfileinfo.getgroup.md)(): int\|false
-
-public [SplFileInfo::getInode](splfileinfo.getinode.md)(): int\|false
-
-public [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.md)():
-string\|false
-
-public [SplFileInfo::getMTime](splfileinfo.getmtime.md)(): int\|false
-
-public [SplFileInfo::getOwner](splfileinfo.getowner.md)(): int\|false
-
-public [SplFileInfo::getPath](splfileinfo.getpath.md)(): string
-
-public [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)(?string
-`$class` = **`null`**): ?[SplFileInfo](class.splfileinfo.md)
-
-public [SplFileInfo::getPathname](splfileinfo.getpathname.md)():
-string
-
-public [SplFileInfo::getPerms](splfileinfo.getperms.md)(): int\|false
-
-public [SplFileInfo::getRealPath](splfileinfo.getrealpath.md)():
-string\|false
-
-public [SplFileInfo::getSize](splfileinfo.getsize.md)(): int\|false
-
-public [SplFileInfo::getType](splfileinfo.gettype.md)(): string\|false
-
-public [SplFileInfo::isDir](splfileinfo.isdir.md)(): bool
-
-public [SplFileInfo::isExecutable](splfileinfo.isexecutable.md)():
-bool
-
-public [SplFileInfo::isFile](splfileinfo.isfile.md)(): bool
-
-public [SplFileInfo::isLink](splfileinfo.islink.md)(): bool
-
-public [SplFileInfo::isReadable](splfileinfo.isreadable.md)(): bool
-
-public [SplFileInfo::isWritable](splfileinfo.iswritable.md)(): bool
-
-public [SplFileInfo::openFile](splfileinfo.openfile.md)(string `$mode`
-= "r", bool `$useIncludePath` = **`false`**, ?resource `$context` =
-**`null`**): [SplFileObject](class.splfileobject.md)
-
-public [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)(string
-`$class` = SplFileObject::class): void
-
-public [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)(string
-`$class` = SplFileInfo::class): void
-
-public [SplFileInfo::\_\_toString](splfileinfo.tostring.md)(): string
-
-}
+   }
+```
 
 ## Зміст
 
-- [GlobIterator::\_\_construct](globiterator.construct.md) - Створює
-ітератор директорії, використовуючи glob-вираз
-- [GlobIterator::count](globiterator.count.md) — Визначає
-кількість директорій та файлів
+-   [GlobIterator::construct](globiterator.construct.md) - Створює ітератор директорії, використовуючи glob-вираз
+-   [GlobIterator::count](globiterator.count.md) — Визначає кількість директорій та файлів

@@ -1,19 +1,22 @@
-- [« Ds\Set::reverse](ds-set.reverse.md)
-- [Ds\Set::slice »](ds-set.slice.md)
+---
+navigation:
+  - ds-set.reverse.md: '« DsSet::reverse'
+  - ds-set.slice.md: 'ДсSet::slice »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::reversed'
+---
+# ДсSet::reversed
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає перегорнуту копію колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Set::reversed
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::reversed — Повертає перегорнуту копію колекції
+ДсSet::reversed — Повертає перегорнуту копію колекції
 
 ### Опис
 
-public **Ds\Set::reversed**(): [Ds\Set](class.ds-set.md)
+```methodsynopsis
+public Ds\Set::reversed(): Ds\Set
+```
 
 Повертає копію колекції.
 
@@ -25,27 +28,36 @@ public **Ds\Set::reversed**(): [Ds\Set](class.ds-set.md)
 
 Перегорнута копія колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточна колекція не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::reversed()****
+**Приклад #1 Приклад використання **ДсSet::reversed()****
 
-` <?php$set = new \Ds\Set(["a", "b", "c"]);print_r($set->reversed());print_r($set);?> `
+```php
+<?php
+$set = new \Ds\Set(["a", "b", "c"]);
+
+print_r($set->reversed());
+print_r($set);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Set Object
 (
-[0] => c
-[1] => b
-[2] => a
+    [0] => c
+    [1] => b
+    [2] => a
 )
 Ds\Set Object
 (
-[0] => a
-[1] => b
-[2] => c
+    [0] => a
+    [1] => b
+    [2] => c
 )
+```

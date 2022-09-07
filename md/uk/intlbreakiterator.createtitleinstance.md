@@ -1,27 +1,26 @@
-- [« IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md)
-- [IntlBreakIterator::createWordInstance »](intlbreakiterator.createwordinstance.md)
-
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- створює ітератор переривання для розривів заголовків
-
+---
+navigation:
+  - intlbreakiterator.createsentenceinstance.md: '« IntlBreakIterator::createSentenceInstance'
+  - intlbreakiterator.createwordinstance.md: 'IntlBreakIterator::createWordInstance »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::createTitleInstance'
+---
 # IntlBreakIterator::createTitleInstance
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::createTitleInstance — Створює ітератор переривання для
-розривів заголовків
+IntlBreakIterator::createTitleInstance — Створює ітератор переривання для розривів заголовків
 
 ### Опис
 
-public static **IntlBreakIterator::createTitleInstance**(?string
-`$locale` = **`null`**):
-?[IntlBreakIterator](class.intlbreakiterator.md)
+```methodsynopsis
+public static IntlBreakIterator::createTitleInstance(?string $locale = null): ?IntlBreakIterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

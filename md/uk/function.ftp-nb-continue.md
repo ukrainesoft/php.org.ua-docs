@@ -1,40 +1,58 @@
-- [«ftp_mlsd](function.ftp-mlsd.md)
-- [ftp_nb_fget »](function.ftp-nb-fget.md)
+---
+navigation:
+  - function.ftp-mlsd.md: « ftpmlsd
+  - function.ftp-nb-fget.md: ftpнбfget »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpнбcontinue
+---
+# ftpнбcontinue
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- продовжує асинхронну операцію
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#ftp_nb_continue
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-ftp_nb_continue — Продовжує асинхронну операцію
+ftpнбcontinue — Продовжує асинхронну операцію
 
 ### Опис
 
-**ftp_nb_continue**([FTP\Connection](class.ftp-connection.md) `$ftp`):
-int
+```methodsynopsis
+ftp_nb_continue(FTP\Connection $ftp): int
+```
 
 Продовжує надсилання або отримання файлу в асинхронному режимі.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`**, **`FTP_FINISHED`** або **`FTP_MOREDATA`**.
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_nb_continue()****
+**Приклад #1 Приклад використання **ftpнбcontinue()****
 
-`<?php//Початок скачування$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);while ($ret == FTP_MOREDATA) { f f| );}if ($ret !=FTP_FINISHED) {   echo "При завантаженні файлу відбулася помилка..."; exit(1);}?> `
+```php
+<?php
+
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
+
+   // Продолжение скачивания  ...
+   $ret = ftp_nb_continue($ftp);
+}
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
+}
+?>
+```

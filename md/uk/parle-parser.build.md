@@ -1,23 +1,24 @@
-- [« Parle\Parser::advance](parle-parser.advance.md)
-- [Parle\Parser::consume »](parle-parser.consume.md)
+---
+navigation:
+  - parle-parser.advance.md: '« ParleParser::advance'
+  - parle-parser.consume.md: 'ParleParser::consume »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::build'
+---
+# ParleParser::build
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Завершує граматичні правила
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::build
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::build — Завершує граматичні правила
+ParleParser::build — Завершує граматичні правила
 
 ### Опис
 
-public **Parle\Parser::build**(): void
+```methodsynopsis
+public Parle\Parser::build(): void
+```
 
-Усі раніше додані токени та граматичні правила завершуються. Набір
-правил стає доступним тільки для читання, і аналізатор готовий до
-запуску.
+Усі раніше додані токени та граматичні правила завершуються. Набір правил стає доступним лише читання, і аналізатор готовий до запуску.
 
 ### Список параметрів
 

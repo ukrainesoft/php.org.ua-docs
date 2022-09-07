@@ -1,37 +1,38 @@
-- [«openal_buffer_get](function.openal-buffer-get.md)
-- [openal_context_create »](function.openal-context-create.md)
+---
+navigation:
+  - function.openal-buffer-get.md: « openalbufferget
+  - function.openal-context-create.md: openalcontextcreate »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbufferloadwav
+---
+# openalbufferloadwav
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Завантажити файл у форматі wav у буфер
+(PECL openal >= 0.1.0)
 
-#openal_buffer_loadwav
-
-(PECL openal = 0.1.0)
-
-openal_buffer_loadwav — Завантажити файл у форматі wav у буфер
+openalbufferloadwav — Завантажити файл у форматі wav у буфер
 
 ### Опис
 
-**openal_buffer_loadwav**(resource `$buffer`, string `$wavfile`): bool
+```methodsynopsis
+openal_buffer_loadwav(resource $buffer, string $wavfile): bool
+```
 
 ### Список параметрів
 
 `buffer`
-Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений з
-за допомогою [openal_buffer_create()](function.openal-buffer-create.md)).
+
+Ресурс [Open AL(Buffer)](openal.resources.md) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 `wavfile`
-Шлях до файлу `.wav` у файловій системі *local*.
+
+Шлях до файлу .wav у файловій системі *local*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_buffer_data()](function.openal-buffer-data.md) - Завантаження
-буфера з даними
-- [openal_stream()](function.openal-stream.md) - Почати потокову
-передачу з джерела
+-   [openalbufferdata()](function.openal-buffer-data.md) - Завантаження буфера з даними
+-   [openalstream()](function.openal-stream.md) - Почати потокову передачу із джерела

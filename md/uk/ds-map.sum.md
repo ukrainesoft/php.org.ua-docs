@@ -1,24 +1,27 @@
-- [« Ds\Map::sorted](ds-map.sorted.md)
-- [Ds\Map::toArray »](ds-map.toarray.md)
-
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає суму всіх значень колекції
-
-# Ds\Map::sum
+---
+navigation:
+  - ds-map.sorted.md: '« DsMap::sorted'
+  - ds-map.toarray.md: 'ДсMap::toArray »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::sum'
+---
+# ДсMap::sum
 
 (No version information available, might only be in Git)
 
-Ds\Map::sum — Повертає суму всіх значень колекції
+ДсMap::sum — Повертає суму всіх значень колекції
 
 ### Опис
 
-public **Ds\Map::sum**(): int\|float
+```methodsynopsis
+public Ds\Map::sum(): int|float
+```
 
 Повертає суму всіх значень колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Масиви та об'єкти вважаються нулем.
 
 ### Список параметрів
@@ -27,25 +30,36 @@ public **Ds\Map::sum**(): int\|float
 
 ### Значення, що повертаються
 
-Сума всіх значень колекції типів float чи int, залежно від
-значень колекції.
+Сума всіх значень колекції типу float або int, залежно від значень колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::sum()** з цілими
-значеннями**
+**Приклад #1 Приклад використання **ДсMap::sum()** з цілими значеннями**
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->sum());?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+var_dump($map->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(6)
+```
 
-**Приклад #2 Приклад використання **Ds\Map::sum()** зі значеннями типу
-float**
+**Приклад #2 Приклад використання **ДсMap::sum()** зі значеннями типу float**
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2.5, c" => 3]);var_dump($map->sum());?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2.5, "c" => 3]);
+var_dump($map->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 float(6.5)
+```

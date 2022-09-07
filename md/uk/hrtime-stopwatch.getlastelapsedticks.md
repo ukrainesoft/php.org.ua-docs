@@ -1,22 +1,24 @@
-- [« HRTime\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.md)
-- [HRTime\StopWatch::getLastElapsedTime »](hrtime-stopwatch.getlastelapsedtime.md)
+---
+navigation:
+  - hrtime-stopwatch.getelapsedtime.md: '« HRTimeStopWatch::getElapsedTime'
+  - hrtime-stopwatch.getlastelapsedtime.md: 'HRTimeStopWatch::getLastElapsedTime »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
+title: 'HRTimeStopWatch::getLastElapsedTicks'
+---
+# HRTimeStopWatch::getLastElapsedTicks
 
-- [PHP Manual](index.md)
-- [HRTime\StopWatch](class.hrtime-stopwatch.md)
-- Отримати кількість минулих тиків за останній інтервал
+(PECL hrtime >= 0.4.3)
 
-# HRTime\StopWatch::getLastElapsedTicks
-
-(PECL hrtime \>= 0.4.3)
-
-HRTime\StopWatch::getLastElapsedTicks — Отримати кількість минулих
-тиків за останній інтервал
+HRTimeStopWatch::getLastElapsedTicks — Отримати кількість тиків, що пройшли, за останній інтервал
 
 ### Опис
 
-public **HRTime\StopWatch::getLastElapsedTicks**(): int
+```methodsynopsis
+public HRTime\StopWatch::getLastElapsedTicks(): int
+```
 
-Повертає кількість тиків за останній закритий інтервал.
+Повертає кількість тиків, що пройшли, за останній закритий інтервал.
 
 ### Список параметрів
 

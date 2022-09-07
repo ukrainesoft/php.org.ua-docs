@@ -1,19 +1,22 @@
-- [« Swoole\Process::exec](swoole-process.exec.md)
-- [Swoole\Process::freeQueue »](swoole-process.freequeue.md)
+---
+navigation:
+  - swoole-process.exec.md: '« SwooleProcess::exec'
+  - swoole-process.freequeue.md: 'SwooleProcess::freeQueue »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::exit'
+---
+# SwooleProcess::exit
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- зупиняє дочірні процеси
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::exit
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::exit - Зупиняє дочірні процеси
+SwooleProcess::exit - Зупиняє дочірні процеси
 
 ### Опис
 
-public **Swoole\Process::exit**(string `$exit_code` = ?): void
+```methodsynopsis
+public Swoole\Process::exit(string $exit_code = ?): void
+```
 
 ### Список параметрів
 

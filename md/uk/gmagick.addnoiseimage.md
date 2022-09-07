@@ -1,27 +1,30 @@
-- [«Gmagick::addimage](gmagick.addimage.md)
-- [Gmagick::annotateimage »](gmagick.annotateimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додає випадковий шум до зображення
-
+---
+navigation:
+  - gmagick.addimage.md: '« Gmagick::addimage'
+  - gmagick.annotateimage.md: 'Gmagick::annotateimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::addnoiseimage'
+---
 # Gmagick::addnoiseimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::addnoiseimage — Додає випадковий шум до зображення
 
 ### Опис
 
-public **Gmagick::addnoiseimage**(int `$noise_type`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::addnoiseimage(int $noise_type): Gmagick
+```
 
 Додає випадковий шум зображення.
 
 ### Список параметрів
 
 `noise_type`
-Тип шуму. Дивіться список [констант типу шума](gmagick.constants.md#gmagick.constants.noise).
+
+Тип шуму. Дивіться список [констант типа шума](gmagick.constants.md#gmagick.constants.noise)
 
 ### Значення, що повертаються
 

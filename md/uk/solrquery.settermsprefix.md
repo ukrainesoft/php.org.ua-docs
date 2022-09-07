@@ -1,30 +1,31 @@
-- [«SolrQuery::setTermsMinCount](solrquery.settermsmincount.md)
-- [SolrQuery::setTermsReturnRaw »](solrquery.settermsreturnraw.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Обмежує збіги виразами, що починаються з префіксу
-
+---
+navigation:
+  - solrquery.settermsmincount.md: '« SolrQuery::setTermsMinCount'
+  - solrquery.settermsreturnraw.md: 'SolrQuery::setTermsReturnRaw »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsPrefix'
+---
 # SolrQuery::setTermsPrefix
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setTermsPrefix — Обмежує збіги виразами,
-починаються з префіксу
+SolrQuery::setTermsPrefix — Обмежує збіги виразами, що починаються з префіксу
 
 ### Опис
 
-public **SolrQuery::setTermsPrefix**(string `$prefix`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTermsPrefix(string $prefix): SolrQuery
+```
 
 Обмежує збіги виразами, що починаються з префіксу
 
 ### Список параметрів
 
 `prefix`
+
 Обмежує збіги виразами, що починаються з префіксу
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

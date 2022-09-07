@@ -1,22 +1,24 @@
-- [« session_status](function.session-status.md)
-- [session_write_close »](function.session-write-close.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- Видалити всі змінні сесії
-
-# session_unset
+---
+navigation:
+  - function.session-status.md: « sessionstatus
+  - function.session-write-close.md: sessionwriteclose »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionunset
+---
+# sessionunset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-session_unset — Видалити всі змінні сесії
+sessionunset — Видалити всі змінні сесії
 
 ### Опис
 
-**session_unset**(): bool
+```methodsynopsis
+session_unset(): bool
+```
 
-Функція **session_unset()** видаляє всі зареєстровані змінні
-поточної сесії.
+Функція **sessionunset()** видаляє всі зареєстровані змінні поточної сесії.
 
 ### Список параметрів
 
@@ -24,30 +26,24 @@ session_unset — Видалити всі змінні сесії
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                           |
-| ------ | -------------------------------------------------------------- |
-| 7.2.0  | Тепер тип цієї функції bool, що повертається. Раніше тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Примітки
 
-> **Примітка**:
->
-> При використанні `$_SESSION` для видалення змінних сесії, то
-> Використовуйте [unset()](function.unset.md). Наприклад,
-> `unset ($_SESSION['varname']);`.
+> **Зауваження**
+> 
+> При використанні [SESSION](reserved.variables.session.md) для видалення змінних сесії, то використовуйте функцію [unset()](function.unset.md). Наприклад, `unset ($_SESSION['varname']);`
 
 **Застереження**
 
-НЕ видаляйте весь масив `$_SESSION` за допомогою `unset($_SESSION)`, так
-як це призведе до неможливості реєстрації нових змінних через
-суперглобальний масив `$_SESSION`
+НЕ видаляйте весь масив [SESSION](reserved.variables.session.md) за допомогою `unset($_SESSION)`, оскільки це призведе до неможливості реєстрації нових змінних через суперглобальний масив. [SESSION](reserved.variables.session.md)
 
-> **Примітка**:
->
-> Використовуйте **session_unset()** тільки для старого коду, який немає
-> використовує `$_SESSION`.
+> **Зауваження**
+> 
+> Використовуйте **sessionunset()** тільки для старого коду, який не використовує [SESSION](reserved.variables.session.md)

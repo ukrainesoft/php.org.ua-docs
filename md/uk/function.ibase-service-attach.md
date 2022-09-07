@@ -1,50 +1,103 @@
-- [« ibase_server_info](function.ibase-server-info.md)
-- [ibase_service_detach »](function.ibase-service-detach.md)
+---
+navigation:
+  - function.ibase-server-info.md: « ibaseserverinfo
+  - function.ibase-service-detach.md: ibaseservicedetach »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseserviceattach
+---
+# ibaseserviceattach
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- підключається до диспетчера служб
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_service_attach
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_service_attach — Підключається до диспетчера служб
+ibaseserviceattach — Підключається до диспетчера служб
 
 ### Опис
 
-**ibase_service_attach**(string `$host`, string `$dba_username`, string
-`$dba_password`): resource\|false
+```methodsynopsis
+ibase_service_attach(string $host, string $dba_username, string $dba_password): resource|false
+```
 
 ### Список параметрів
 
 `host`
-Ім'я або IP-адреса хоста бази даних. Ви можете вказати порт, додавши '/'
-та номер порту. Якщо порт не вказано, використовуватиметься порт 3050.
+
+Ім'я або IP-адреса хоста бази даних. Ви можете вказати порт, додавши '/' та номер порту. Якщо порт не вказано, використовуватиметься порт 3050.
 
 `dba_username`
+
 Ім'я будь-якого дійсного користувача.
 
 `dba_password`
+
 Пароль користувача.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор посилання Interbase / Firebird у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор посилання Interbase / Firebird у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_service_attach()****
+**Приклад #1 Приклад використання **ibaseserviceattach()****
 
-` <?php    // Присоединение к удаленному серверу Firebird по IP-адресу    if (($service = ibase_service_attach('10.1.1.199', 'sysdba', 'masterkey')) != FALSE) {        // Присоединение прошло успешно. // Повернення версії сервера (щось на зразок 'LI-V3.0.4.33054 Firebird 3.0')       $server_version  = ibase_server_info($SERVE,VC // Повернення реалізації сервера (щось на зразок'Firebird/Linux/AMD/Intel/x64')        $server_implementation = ibase_server_info($service, IBASE_SVC_IMP; // Від'єднання від сервера (відключення) ibase_service_detach ($ service); // Висновок інформації        echo "Версія сервера: " . $server_version . "<br/>"; echo "Реалізація сервера: " . $ server_implementation; }   else {         // Висновок повідомлення в випадку виникнення помилки        $conn_error = ibase_errms() die($conn_error); }?> `
+```php
+<?php
+    // Присоединение к удаленному серверу Firebird по IP-адресу
+    if (($service = ibase_service_attach('10.1.1.199', 'sysdba', 'masterkey')) != FALSE) {
 
-**Приклад #2 Приклад використання **ibase_service_attach()** з
-синтаксисом `hostname/port`**
+        // Присоединение прошло успешно.
+        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
+        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
 
-`<?php    // Приєднання до віддаленого серверу Firebird по імені. Використовується порт 3050. (                                            | // Повернення версії сервера (щось на зразок 'LI-V3.0.4.33054 Firebird 3.0')       $server_version  = ibase_server_info($SERVE,VC // Повернення реалізації сервера (щось на зразок'Firebird/Linux/AMD/Intel/x64')        $server_implementation = ibase_server_info($service, IBASE_SVC_IMP; // Від'єднання від сервера (відключення) ibase_service_detach ($ service); // Висновок інформації        echo "Версія сервера: " . $server_version . "<br/>"; echo "Реалізація сервера: " . $ server_implementation; }   else {         // Висновок повідомлення в випадку виникнення помилки        $conn_error = ibase_errms() die($conn_error); }?> `
+        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
+        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
+
+        // Отсоединение от сервера (отключение)
+        ibase_service_detach($service);
+
+        // Вывод информации
+        echo "Версия сервера: " . $server_version . "<br/>";
+        echo "Реализация сервера: " . $server_implementation;
+    }
+    else {
+        // Вывод сообщения в случае возникновения ошибки
+        $conn_error = ibase_errmsg();
+        die($conn_error);
+    }
+
+?>
+```
+
+**Приклад #2 Приклад використання **ibaseserviceattach()** із синтаксисом `hostname/port`**
+
+```php
+<?php
+    // Присоединение к удаленному серверу Firebird по имени. Используется порт 3050.
+    if (($service = ibase_service_attach('FB-SRV-01.contoso.local/3050', 'sysdba', 'masterkey')) != FALSE) {
+
+        // Присоединение прошло успешно.
+        // Возврат версии сервера (что-то вроде 'LI-V3.0.4.33054 Firebird 3.0')
+        $server_version  = ibase_server_info($service, IBASE_SVC_SERVER_VERSION);
+
+        // Возврат реализации сервера (что-то вроде 'Firebird/Linux/AMD/Intel/x64')
+        $server_implementation = ibase_server_info($service, IBASE_SVC_IMPLEMENTATION);
+
+        // Отсоединение от сервера (отключение)
+        ibase_service_detach($service);
+
+        // Вывод информации
+        echo "Версия сервера: " . $server_version . "<br/>";
+        echo "Реализация сервера: " . $server_implementation;
+    }
+    else {
+        // Вывод сообщения в случае возникновения ошибки
+        $conn_error = ibase_errmsg();
+        die($conn_error);
+    }
+
+?>
+```
 
 ### Дивіться також
 
-- [ibase_service_detach()](function.ibase-service-detach.md) -
-Відключається від диспетчера служб
+-   [ibaseservicedetach()](function.ibase-service-detach.md) - відключається від диспетчера служб

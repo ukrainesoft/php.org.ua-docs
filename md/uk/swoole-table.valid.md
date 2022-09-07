@@ -1,19 +1,22 @@
-- [« Swoole\Table::set](swoole-table.set.md)
-- [Swoole\Timer »](class.swoole-timer.md)
+---
+navigation:
+  - swoole-table.set.md: '« SwooleTable::set'
+  - class.swoole-timer.md: SwooleTimer »
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::valid'
+---
+# SwooleTable::valid
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Перевіряє, чи є поточний рядок коректним
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::valid
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::valid — Перевіряє, чи поточний рядок є коректним
+SwooleTable::valid — Перевіряє, чи є поточний рядок коректним
 
 ### Опис
 
-public **Swoole\Table::valid**(): bool
+```methodsynopsis
+public Swoole\Table::valid(): bool
+```
 
 ### Список параметрів
 

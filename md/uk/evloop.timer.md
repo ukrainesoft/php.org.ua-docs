@@ -1,37 +1,47 @@
-- [«EvLoop::suspend](evloop.suspend.md)
-- [EvLoop::verify »](evloop.verify.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром
-циклу подій
-
+---
+navigation:
+  - evloop.suspend.md: '« EvLoop::suspend'
+  - evloop.verify.md: 'EvLoop::verify »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::timer'
+---
 # EvLoop::timer
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::timer — Створення об'єкта спостерігача EvTimer, пов'язаного з поточним
-екземпляром циклу подій
+EvLoop::timer — Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром циклу подій
 
 ### Опис
 
-final public **EvLoop::timer**(
-float `$after`,
-float `$repeat`,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   EvLoop::timer(    
+    float
+     $after
+   ,    
+    float
+     $repeat
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvTimer
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvTimer](class.evtimer.md)
-
-Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром
-циклу подій.
+Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром циклу подій.
 
 ### Список параметрів
 
-Усі параметри, що й для
-[EvTimer::\_\_construct()](evtimer.construct.md)
+Усі параметри, що й для [EvTimer::construct()](evtimer.construct.md)
 
 ### Значення, що повертаються
 
@@ -39,5 +49,4 @@ int `$priority` = 0
 
 ### Дивіться також
 
-- [EvTimer::\_\_construct()](evtimer.construct.md) - Конструктор
-об'єкта спостерігача EvTimer
+-   [EvTimer::construct()](evtimer.construct.md) - Конструктор об'єкта спостерігача EvTimer

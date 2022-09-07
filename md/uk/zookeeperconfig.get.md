@@ -1,43 +1,41 @@
-- [« ZookeeperConfig::add](zookeeperconfig.add.md)
-- [ZookeeperConfig::remove »](zookeeperconfig.remove.md)
-
-- [PHP Manual](index.md)
-- [ZookeeperConfig](class.zookeeperconfig.md)
-- Синхронно отримує останню підтверджену конфігурацію кластера
-ZooKeeper, про яку відомо серверу, до якого підключений клієнт
-
+---
+navigation:
+  - zookeeperconfig.add.md: '« ZookeeperConfig::add'
+  - zookeeperconfig.remove.md: 'ZookeeperConfig::remove »'
+  - index.md: PHP Manual
+  - class.zookeeperconfig.md: ZookeeperConfig
+title: 'ZookeeperConfig::get'
+---
 # ZookeeperConfig::get
 
-(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
+(PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)
 
-ZookeeperConfig::get — Синхронно отримує останню підтверджену
-конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого
-підключений клієнт
+ZookeeperConfig::get — Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключений клієнт
 
 ### Опис
 
-public **ZookeeperConfig::get**([callable](language.types.callable.md)
-`$watcher_cb` = **`null`**, array `&$stat` = **`null`**): string
+```methodsynopsis
+public
+   ZookeeperConfig::get(callable $watcher_cb = null, array &$stat = null): string
+```
 
 ### Список параметрів
 
 `watcher_cb`
-Якщо не нуль, на сервері буде встановлено спостерігач, щоб повідомляти
-клієнта, коли вузол змінюється.
+
+Якщо не нуль, на сервері буде встановлено спостерігач, щоб повідомляти клієнта, коли вузол змінюється.
 
 `stat`
+
 Якщо не NULL, буде містити значення stat для шляху повернення.
 
 ### Значення, що повертаються
 
-Повертає рядок конфігурації у разі успішного виконання та false в
-у разі виникнення помилки.
+Повертає рядок конфігурації у разі успішного виконання та false у разі виникнення помилки.
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.md) та
-його похідні, коли кількість параметрів чи типи невірні чи не
-вдається отримати конфігурацію.
+Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні, коли кількість параметрів або типи неправильні або не вдається отримати конфігурацію.
 
 ### Приклади
 
@@ -45,19 +43,30 @@ public **ZookeeperConfig::get**([callable](language.types.callable.md)
 
 Отримання конфігурації.
 
-` <?php$zk = new Zookeeper();$zk->connect('localhost:2181');$zk->addAuth('digest', 'timandes:timandes');$zkConfig =$zk->getConfig ();$r = $zkConfig->get();if ($r) echo $r;else  echo 'Помилка';?> `
+```php
+<?php
+$zk = new Zookeeper();
+$zk->connect('localhost:2181');
+$zk->addAuth('digest', 'timandes:timandes');
+$zkConfig = $zk->getConfig();
+$r = $zkConfig->get();
+if ($r)
+  echo $r;
+else
+  echo 'Ошибка';
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 server.1=localhost:2888:3888:participant;0.0.0.0:2181
 version=0xca01e881a2
+```
 
 ### Дивіться також
 
-- [ZookeeperConfig::set()](zookeeperconfig.set.md) - Змінює склад
-ансамблю ZK та ролі його учасників
-- [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає
-сервери в ансамбль
-- [ZookeeperConfig::remove()](zookeeperconfig.remove.md) - Видаляє
-сервери з ансамблю
-- [ZookeeperException](class.zookeeperexception.md)
+-   [ZookeeperConfig::set()](zookeeperconfig.set.md) - Змінює склад ансамблю ZK та ролі його учасників
+-   [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає сервери до ансамблю
+-   [ZookeeperConfig::remove()](zookeeperconfig.remove.md) - Видаляє сервери з ансамблю
+-   [ZookeeperException](class.zookeeperexception.md)

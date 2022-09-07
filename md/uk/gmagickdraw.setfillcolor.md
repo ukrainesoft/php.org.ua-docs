@@ -1,34 +1,31 @@
-- [« GmagickDraw::scale](gmagickdraw.scale.md)
-- [GmagickDraw::setfillopacity »](gmagickdraw.setfillopacity.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Встановлює колір заливки, який використовуватиметься для
-малювання об'єктів із заливкою
-
+---
+navigation:
+  - gmagickdraw.scale.md: '« GmagickDraw::scale'
+  - gmagickdraw.setfillopacity.md: 'GmagickDraw::setfillopacity »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setfillcolor'
+---
 # GmagickDraw::setfillcolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::setfillcolor — Встановлює колір заливки, який буде
-використовуватися для малювання об'єктів із заливкою
+ImagickDraw::setfillcolor — Встановлює колір заливки, який використовуватиметься для малювання об'єктів із заливкою
 
 ### Опис
 
-public
-**GmagickDraw::setfillcolor**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$color`): [GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::setfillcolor(mixed $color): GmagickDraw
+```
 
-Встановлює колір заливки, який використовуватиметься для малювання
-об'єктів із заливкою.
+Встановлює колір заливки, який використовуватиметься для малювання об'єктів із заливкою.
 
 ### Список параметрів
 
-`col`
-[GmagickPixel](class.gmagickpixel.md) або рядок (string), що вказує
-колір, який використовується для заливки.
+`color`
+
+[GmagickPixel](class.gmagickpixel.md) або рядок (string), що вказує колір, що використовується для заливання.
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.md) у разі успішного
-виконання.
+Об'єкт [GmagickDraw](class.gmagickdraw.md) у разі успішного виконання.

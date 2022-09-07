@@ -1,24 +1,24 @@
-- [« Gmagick::hasnextimage](gmagick.hasnextimage.md)
-- [Gmagick::implodeimage »](gmagick.implodeimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Перевіряє, чи є ще зображення в об'єкті під час ітерації назад
-
+---
+navigation:
+  - gmagick.hasnextimage.md: '« Gmagick::hasnextimage'
+  - gmagick.implodeimage.md: 'Gmagick::implodeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::haspreviousimage'
+---
 # Gmagick::haspreviousimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::haspreviousimage — Перевіряє, чи є ще зображення в об'єкті
-при ітерації тому
+Gmagick::haspreviousimage — Перевіряє, чи є ще зображення в об'єкті під час ітерації назад
 
 ### Опис
 
-public **Gmagick::haspreviousimage**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Gmagick::haspreviousimage(): mixed
+```
 
-Повертає **`true`**, якщо при ітерації назад за списком є
-зображення.
+Повертає **`true`**, якщо при ітерації назад у списку є зображення.
 
 ### Список параметрів
 
@@ -26,8 +26,7 @@ public **Gmagick::haspreviousimage**():
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо при ітерації назад за списком є
-зображення і **`false`**, якщо ні.
+Повертає **`true`**, якщо при ітерації назад за списком є ​​зображення та **`false`**, якщо ні.
 
 ### Помилки
 

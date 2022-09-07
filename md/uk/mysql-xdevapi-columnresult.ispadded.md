@@ -1,10 +1,11 @@
-- [« ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.md)
-- [mysql_xdevapi\CrudOperationBindable »](class.mysql-xdevapi-crudoperationbindable.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Перевіряє, чи доповнюється
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.isnumbersigned.md: '« ColumnResult::isNumberSigned'
+  - class.mysql-xdevapi-crudoperationbindable.md: mysqlxdevapiCrudOperationBindable »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+title: 'ColumnResult::isPadded'
+---
 # ColumnResult::isPadded
 
 (No version information available, might only be in Git)
@@ -13,12 +14,13 @@ ColumnResult::isPadded — Перевіряє, чи доповнюється
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::isPadded**(): int
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::isPadded(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,11 +28,16 @@ public **mysql_xdevapi\ColumnResult::isPadded**(): int
 
 ### Значення, що повертаються
 
-**`true`**, якщо заданий стовпець доповнюється.
+\*\*`true`\*\*якщо заданий стовпець доповнюється.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::isPadded()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::isPadded()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

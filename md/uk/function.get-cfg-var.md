@@ -1,42 +1,40 @@
-- [«gc_status](function.gc-status.md)
-- [get_current_user »](function.get-current-user.md)
-
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Виймає значення налаштування конфігурації PHP
-
-#get_cfg_var
+---
+navigation:
+  - function.gc-status.md: « gcstatus
+  - function.get-current-user.md: getcurrentuser »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getcfgvar
+---
+# getcfgvar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_cfg_var — Встановлює налаштування конфігурації PHP.
+getcfgvar — Витягує налаштування конфігурації PHP
 
 ### Опис
 
-**get_cfg_var**(string `$option`): string\|array\|false
+```methodsynopsis
+get_cfg_var(string $option): string|array|false
+```
 
-Витягує значення конфігурації PHP `option`.
+Витягує значення налаштування конфігурації PHP `option`
 
-Функція не поверне жодної інформації, заданої при складанні PHP або
-вказаною у конфігураційному файлі Apache.
+Функція не поверне жодної інформації, заданої під час складання PHP або вказаної в конфігураційному файлі Apache.
 
-Щоб перевірити, що система використовує [файл конфігурації](configuration.file.md), спробуйте отримати значення
-налаштування конфігурації cfg_file_path. Якщо це налаштування доступне,
-отже використовується файл конфігурації.
+Щоб перевірити, що система використовує [файл конфигурации](configuration.file.md)спробуйте отримати значення налаштування конфігурації cfgfilepath. Якщо це налаштування доступне, використовується файл конфігурації.
 
 ### Список параметрів
 
 `option`
-Ім'я конфігурації.
+
+Ім'я конфігураційної установки.
 
 ### Значення, що повертаються
 
-Повертає поточне значення конфігурації PHP `option` або
-**`false`** у разі виникнення помилки.
+Повертає поточне значення конфігурації PHP `option` або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ini_get()](function.ini-get.md) - Отримує значення налаштування
-конфігурації
-- [ini_get_all()](function.ini-get-all.md) - Отримує всі налаштування
-конфігурації
+-   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації

@@ -1,37 +1,37 @@
-- [« SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md)
-- [SolrQuery::setHighlightSnippets »](solrquery.sethighlightsnippets.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює текст, який з'являється перед виділеним виразом
-
+---
+navigation:
+  - solrquery.sethighlightsimplepost.md: '« SolrQuery::setHighlightSimplePost'
+  - solrquery.sethighlightsnippets.md: 'SolrQuery::setHighlightSnippets »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightSimplePre'
+---
 # SolrQuery::setHighlightSimplePre
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightSimplePre — Встановлює текст, який
-з'являється перед виділеним виразом
+SolrQuery::setHighlightSimplePre — Встановлює текст, який з'являється перед виділеним виразом
 
 ### Опис
 
-public **SolrQuery::setHighlightSimplePre**(string `$simplePre`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightSimplePre(string $simplePre, string $field_override = ?): SolrQuery
+```
 
-Встановлює текст, який з'являється перед виділеним виразом
+Встановлює текст, що з'являється перед виділеним виразом
 
-`` descriptioncode
-За замовчуванням <em>
-````
+За замовчуванням
 
 ### Список параметрів
 
 `simplePre`
+
 Текст, що з'являється перед виділеним виразом
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

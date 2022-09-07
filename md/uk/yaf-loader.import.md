@@ -1,24 +1,26 @@
-- [« Yaf_Loader::getLocalNamespace](yaf-loader.getnamespaces.md)
-- [Yaf_Loader::isLocalName »](yaf-loader.islocalname.md)
+---
+navigation:
+  - yaf-loader.getnamespaces.md: '« YafLoader::getLocalNamespace'
+  - yaf-loader.islocalname.md: 'YafLoader::isLocalName »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
+title: 'YafLoader::import'
+---
+# YafLoader::import
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Призначення import
+(Yaf >=1.0.0)
 
-# Yaf_Loader::import
-
-(Yaf \>=1.0.0)
-
-Yaf_Loader::import — Призначення import
+YafLoader::import — Призначення import
 
 ### Опис
 
-public static **Yaf_Loader::import**(): void
+```methodsynopsis
+public static Yaf_Loader::import(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

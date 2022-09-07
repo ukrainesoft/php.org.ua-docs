@@ -1,24 +1,24 @@
-- [«LimitIterator::current](limititerator.current.md)
-- [LimitIterator::getPosition »](limititerator.getposition.md)
-
-- [PHP Manual](index.md)
-- [LimitIterator](class.limititerator.md)
-- Отримання внутрішнього об'єкта-ітератора
-
+---
+navigation:
+  - limititerator.current.md: '« LimitIterator::current'
+  - limititerator.getposition.md: 'LimitIterator::getPosition »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::getInnerIterator'
+---
 # LimitIterator::getInnerIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-LimitIterator::getInnerIterator — Отримання внутрішнього
-об'єкта-ітератора
+LimitIterator::getInnerIterator — Отримання внутрішнього об'єкта-ітератора
 
 ### Опис
 
-public **LimitIterator::getInnerIterator**():
-[Iterator](class.iterator.md)
+```methodsynopsis
+public LimitIterator::getInnerIterator(): Iterator
+```
 
-Повертає об'єкт-ітератор [Iterator](class.iterator.md)
-всередині об'єкта.
+Повертає об'єкт-ітератор [Iterator](class.iterator.md) приховані всередині об'єкта.
 
 ### Список параметрів
 
@@ -26,12 +26,9 @@ public **LimitIterator::getInnerIterator**():
 
 ### Значення, що повертаються
 
-Внутрішній об'єкт-ітератор, переданий конструктору
-[LimitIterator::\_\_construct()](limititerator.construct.md).
+Внутрішній об'єкт-ітератор, переданий конструктору [LimitIterator::construct()](limititerator.construct.md)
 
 ### Дивіться також
 
-- [LimitIterator::\_\_construct()](limititerator.construct.md) -
-Конструктор класу LimitIterator
-- [IteratorIterator::getInnerIterator()](iteratoriterator.getinneriterator.md) -
-Отримує внутрішній ітератор
+-   [LimitIterator::construct()](limititerator.construct.md) - Конструктор класу LimitIterator
+-   [IteratorIterator::getInnerIterator()](iteratoriterator.getinneriterator.md) - отримує внутрішній ітератор

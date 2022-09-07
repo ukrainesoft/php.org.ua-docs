@@ -1,124 +1,110 @@
-- [« Phar::buildFromDirectory](phar.buildfromdirectory.md)
-- [Phar::canCompress »](phar.cancompress.md)
-
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Створює phar-архів із ітератора
-
+---
+navigation:
+  - phar.buildfromdirectory.md: '« Phar::buildFromDirectory'
+  - phar.cancompress.md: 'Phar::canCompress »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::buildFromIterator'
+---
 # Phar::buildFromIterator
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-Phar::buildFromIterator — Створює phar-архів з ітератора
+Phar::buildFromIterator - Створює phar-архів з ітератора
 
 ### Опис
 
-public **Phar::buildFromIterator**([Traversable](class.traversable.md)
-`$iterator`, ?string `$baseDirectory` = **`null`**): array
+```methodsynopsis
+public Phar::buildFromIterator(Traversable $iterator, ?string $baseDirectory = null): array
+```
 
-> **Примітка**:
->
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цим методом
-> необхідна установка значення `php.ini` `phar.readonly` у `0`. В
-> інакше, буде викинуто виняток
-> [PharException](class.pharexception.md).
+> **Зауваження**
+> 
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Заповнює phar-архів із ітератора. Підтримуються ітератори двох типів:
-такі, у яких відображається відповідність імені файлу всередині
-phar-архів до файлу на диску, і такі як DirectoryIterator, які
-повертають об'єкти SplFileInfo. Для ітераторів, які повертають
-об'єкти SplFileInfo, другий параметр є обов'язковим.
+Заповнює phar-архів із ітератора. Підтримуються ітератори двох типів: такі, де відображається відповідність імені файлу всередині phar-архіву до файлу на диску, і такі як DirectoryIterator, які повертають об'єкти SplFileInfo. Для ітераторів, які повертають об'єкти SplFileInfo, другий параметр є обов'язковим.
 
 ### Список параметрів
 
 `iterator`
-Будь-який ітератор, який або асоціативно відображає шляхи до файлів усередині
-phar-архів до файлів на диску, або повертає об'єкти SplFileInfo.
+
+Будь-який ітератор, який або асоціативно відображає шляхи до файлів усередині phar-архіву до файлів на диску, або повертає об'єкти SplFileInfo.
 
 `baseDirectory`
-Для ітераторів, що повертають об'єкти SplFileInfo, частина повного шляху
-кожного файлу, яка має бути видалена під час його додавання в
-phar-архів.
+
+Для ітераторів, які повертають об'єкти SplFileInfo, - частина повного шляху кожного файлу, яка має бути видалена під час його додавання до phar-архіву.
 
 ### Значення, що повертаються
 
-**Phar::buildFromIterator()** повертає асоціативний масив, в якому
-відображаються відповідності шляху до файлу всередині архіву до шляху до файлу
-файлової системи.
+**Phar::buildFromIterator()** повертає асоціативний масив, у якому відображаються відповідності шляху до файлу всередині архіву до шляху до файлу у файловій системі.
 
 ### Помилки
 
-Цей метод викидає виняток
-[UnexpectedValueException](class.unexpectedvalueexception.md), коли
-ітератор повертає некоректні значення, такі як цілісний ключ
-замість рядка. Виняток
-[BadMethodCallException](class.badmethodcallexception.md) буде
-кинуто, коли ітератор, що базується на SplFileInfo, використовується без
-параметра `baseDirectory`. Виняток
-[PharException](class.pharexception.md) викидається у разі помилок
-збереження phar-архіву.
+Цей метод викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md)коли ітератор повертає некоректні значення, такі як цілий ключ замість рядка. Виняток [BadMethodCallException](class.badmethodcallexception.md) буде кинуто, коли ітератор, що базується на SplFileInfo, використовується без параметра `baseDirectory`. Виняток [PharException](class.pharexception.md) викидається у разі помилок збереження phar-архіву.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                 |
-| ------ | -------------------------------------------------------------------- |
-| 8.1.0  | **Phar::buildFromIterator()** більше не повертає значення **false**. |
-| 8.0.0  | baseDirectory тепер допускає значення null.                          |
+| Версия | Описание |
+| --- | --- |
+|  | **Phar::buildFromIterator()** більше не повертає значення **`false`** |
+|  | `baseDirectory` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::buildFromIterator()** з
-об'єктами SplFileInfo**
+**Приклад #1 Приклад використання **Phar::buildFromIterator()** з об'єктами SplFileInfo**
 
-Для більшості phar-архівів, архів відображатиме фактичну структуру
-директорії, а другий тип ітератора буде найбільш корисним. Наприклад, він
-буде корисним для створення phar-архіву, що містить файли зі структурою
-директорій як у цьому прикладі:
+Для більшості phar-архівів, архів буде відображати фактичну структуру директорії, а другий тип ітератора буде найбільш корисним. Наприклад, він буде корисним для створення phar-архіву, що містить файли зі структурою директорій як у цьому прикладі:
 
-``` examplescode
-/шлях/до/проекту/
-config/
-dist.xml
-debug.xml
-lib/
-file1.php
-file2.php
-src/
-processthing.php
-www/
-index.php
-cli/
-index.php
-````
+/шлях/до/проекту/ config/ dist.xml debug.xml lib/ file1.php file2.php src/ processthing.php www/ index.php cli/ index.php
 
-Додавання цих файлів в phar-архів "project.phar" може бути
-використаний наступний код:
+Для додавання цих файлів до phar-архів "project.phar" може бути використаний наступний код:
 
-`<?php// створити з псевдонімом "project.phar"$phar = new Phar('project.phar', 0, 'project.phar');$phar->buildFromIterator( Itor(Retore /к/проекту')),   '/шлях/к/проекту');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+```php
+<?php
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
+$phar->buildFromIterator(
+    new RecursiveIteratorIterator(
+     new RecursiveDirectoryIterator('/путь/к/проекту')),
+    '/путь/к/проекту');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+?>
+```
 
-Після цього файл project.phar можна використовувати негайно. Такі
-значення як стиснення та метадані не встановлюються методом
-**Phar::buildFromIterator()** і можуть бути встановлені після створення
-phar-архіву.
+Після цього файл project.phar можна використовувати негайно. Такі значення як стиснення та метадані не встановлюються методом **Phar::buildFromIterator()** та можуть бути встановлені після створення phar-архіву.
 
-Як цікаве зауваження можна відзначити, що
-**Phar::buildFromIterator()** також може бути використаний для
-копіювання вмісту існуючого phar-архіву, оскільки клас Phar
-є нащадком [DirectoryIterator](class.directoryiterator.md):
+Як цікаве зауваження можна відзначити, що **Phar::buildFromIterator()** також може бути використаний для копіювання вмісту існуючого phar-архіву, оскільки клас Phar є нащадком [DirectoryIterator](class.directoryiterator.md)
 
-`<?php// створити з псевдонімом "project.phar"$phar==New Phar('project.phar', 0, 'project.phar'); /к/anotherphar.phar')),   'phar:///шлях/к/anotherphar.phar/шлях/к/проекту');$phar->setStub($phar->createDefaultStub('cli/index.php ', 'www/index.php'));?> `
+```php
+<?php
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
+$phar->buildFromIterator(
+    new RecursiveIteratorIterator(
+     new Phar('/путь/к/anotherphar.phar')),
+    'phar:///путь/к/anotherphar.phar/путь/к/проекту');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+?>
+```
 
-**Приклад #2 Приклад використання **Phar::buildFromIterator()** з іншими
-типами ітераторів**
+**Приклад #2 Приклад використання **Phar::buildFromIterator()** з іншими типами ітераторів**
 
-Другий тип передбачає використання будь-якого ітератора, що повертаються
-значення якого відображають відповідність імені файлу всередині phar-архіву
-до файлу на диску, як у випадку з
-[ArrayIterator](class.arrayiterator.md):
+Другий тип передбачає використання будь-якого ітератора, що повертаються значення якого відображають відповідність імені файлу всередині phar-архіву до файлу на диску, як у випадку з [ArrayIterator](class.arrayiterator.md)
 
-`<?php// створити с псевдонімом "project.phar"$phar = new Phar('project.phar', 0, 'project.phar');$phar->buildFromIterator(                         /архіва/file.php' => dirname(__FILE__) . '/somefile.php',       ''друг/шлях/всередині/архіву/file.jpg' => fopen('/шлях/к/bigfile.jpg', ' rb'),     )));$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+```php
+<?php
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
+$phar->buildFromIterator(
+    new ArrayIterator(
+     array(
+        'путь/внутри/архива/file.php' => dirname(__FILE__) . '/somefile.php',
+        'друго/путь/внутри/архива/file.jpg' => fopen('/путь/к/bigfile.jpg', 'rb'),
+     )));
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+?>
+```
 
 ### Дивіться також
 
-- [Phar::buildFromDirectory()](phar.buildfromdirectory.md) - Створює
-phar-архів із файлів, розташованих усередині директорії
+-   [Phar::buildFromDirectory()](phar.buildfromdirectory.md) - Створює phar-архів із файлів, розташованих усередині директорії

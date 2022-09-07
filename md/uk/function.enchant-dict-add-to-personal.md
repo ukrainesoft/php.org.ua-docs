@@ -1,21 +1,21 @@
-- [« enchant_broker_set_ordering](function.enchant-broker-set-ordering.md)
-- [enchant_dict_add_to_session »](function.enchant-dict-add-to-session.md)
+---
+navigation:
+  - function.enchant-broker-set-ordering.md: « enchantbrokersetordering
+  - function.enchant-dict-add-to-session.md: enchantdictaddтоsession »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictaddтоpersonal
+---
+# enchantdictaddтоpersonal
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Додати слово до списку персональних слів
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-#enchant_dict_add_to_personal
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
-
-enchant_dict_add_to_personal — Додати слово до списку персональних слів
+enchantdictaddтоpersonal — Додати слово до списку персональних слів
 
 **Увага**
 
-Псевдонім оголошений *ЗАСТАРІЛИМ* у PHP 8.0.0.
+Псевдонім оголошено *Застарілим* у PHP 8.0.0.
 
 ### Опис
 
-Ця функція є псевдонімом:
-[enchant_dict_add()](function.enchant-dict-add.md).
+Ця функція є псевдонімом: [enchantdictadd()](function.enchant-dict-add.md)

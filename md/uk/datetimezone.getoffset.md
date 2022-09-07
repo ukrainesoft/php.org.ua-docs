@@ -1,60 +1,77 @@
-- [« DateTimeZone::getName](datetimezone.getname.md)
-- [DateTimeZone::getTransitions »](datetimezone.gettransitions.md)
-
-- [PHP Manual](index.md)
-- [DateTimeZone](class.datetimezone.md)
-- Повертає зсув часового поясу від UTC (GMT)
-
+---
+navigation:
+  - datetimezone.getname.md: '« DateTimeZone::getName'
+  - datetimezone.gettransitions.md: 'DateTimeZone::getTransitions »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
+title: 'DateTimeZone::getOffset'
+---
 # DateTimeZone::getOffset
 
-#timezone_offset_get
+# timezoneoffsetget
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-DateTimeZone::getOffset -- timezone_offset_get — Повертає зсув
-часового поясу від UTC (GMT)
+DateTimeZone::getOffset -- timezoneoffsetget — Повертає зсув часового поясу від UTC (GMT)
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public
-**DateTimeZone::getOffset**([DateTimeInterface](class.datetimeinterface.md)
-`$datetime`): int
+```methodsynopsis
+public DateTimeZone::getOffset(DateTimeInterface $datetime): int
+```
 
 Процедурний стиль
 
-[timezone_offset_get](function.timezone-offset-get.md)([DateTimeZone](class.datetimezone.md)
-`$object`, [DateTimeInterface](class.datetimeinterface.md)
-`$datetime`): int
+```methodsynopsis
+timezone_offset_get(DateTimeZone $object, DateTimeInterface $datetime): int
+```
 
-Ця функція повертає зсув від GMT для дати/часу, зазначених у
-параметрі `datetime`. GMT-зміщення розраховується за допомогою інформації про
-часовому поясі, що міститься у об'єкті DateTimeZone.
+Ця функція повертає зсув від GMT для дати/часу, зазначених у параметрі `datetime`. GMT-зміщення розраховується за допомогою інформації про часовий пояс, що міститься у об'єкті DateTimeZone, що використовується.
 
 ### Список параметрів
 
 `object`
-Тільки для процедурного стилю: об'єкт
-[DateTimeZone](class.datetimezone.md), що повертається
-[timezone_open()](function.timezone-open.md).
+
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
 
 `datetime`
-DateTime, що містить дату/час, щодо яких обчислюється
-усунення.
+
+DateTime, що містить дату/час, щодо яких обчислюється зміщення.
 
 ### Значення, що повертаються
 
-Повертає зсув часового поясу за секунди.
+Повертає зміщення часового поясу за секунди.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                             |
-|--------|------------------------------------------------------------------|
-| 8.0.0  | До цієї версії, у разі виникнення помилки поверталося **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DateTimeZone::getOffset()****
 
-`<?php// Створення двох об'єктів timezone, один для Тайбей (Тайвань) і один для// Токіо (Японія)$dateTimeZoneTaipei = new DateTime );// Создание двух объектов DateTime, которые будут содержать одинаковые метки времени Unix, но// имеющих различные часовые пояса.$dateTimeTaipei = new DateTime("now", $dateTimeZoneTaipei);$dateTimeJapan = new DateTime("now", $ dateTimeZoneJapan);// Вычисление смещения от GMT для даты/времени, содержащихся в объекте $dateTimeTaipei,// но с использованием правил часового пояса, определённых для Токио// ($dateTimeZoneJapan).$timeOffset = $dateTimeZoneJapan->getOffset($dateTimeTaipei );// Повинен показати int(32400) (для дат після Sat Sep 8 01:00:00 1951 JST).var_dump($timeOffset);?> `
+```php
+<?php
+// Создание двух объектов timezone, один для Тайбэй (Тайвань) и один для
+// Токио (Япония)
+$dateTimeZoneTaipei = new DateTimeZone("Asia/Taipei");
+$dateTimeZoneJapan = new DateTimeZone("Asia/Tokyo");
+
+// Создание двух объектов DateTime, которые будут содержать одинаковые метки времени Unix, но
+// имеющих различные часовые пояса.
+$dateTimeTaipei = new DateTime("now", $dateTimeZoneTaipei);
+$dateTimeJapan = new DateTime("now", $dateTimeZoneJapan);
+
+// Вычисление смещения от GMT для даты/времени, содержащихся в объекте $dateTimeTaipei,
+// но с использованием правил часового пояса, определённых для Токио
+// ($dateTimeZoneJapan).
+$timeOffset = $dateTimeZoneJapan->getOffset($dateTimeTaipei);
+
+// Должен показать int(32400) (для дат после Sat Sep 8 01:00:00 1951 JST).
+var_dump($timeOffset);
+?>
+```

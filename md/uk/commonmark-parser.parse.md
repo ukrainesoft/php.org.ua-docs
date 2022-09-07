@@ -1,24 +1,26 @@
-- [« CommonMark\Parser::\_\_construct](commonmark-parser.construct.md)
-- [CommonMark\Parser::finish »](commonmark-parser.finish.md)
+---
+navigation:
+  - commonmark-parser.construct.md: '« CommonMarkParser::construct'
+  - commonmark-parser.finish.md: 'CommonMarkParser::finish »'
+  - index.md: PHP Manual
+  - class.commonmark-parser.md: CommonMarkParser
+title: 'CommonMarkParser::parse'
+---
+# CommonMarkParser::parse
 
-- [PHP Manual](index.md)
-- [CommonMark\Parser](class.commonmark-parser.md)
-- Розбір
+(cmark >= 1.0.0)
 
-# CommonMark\Parser::parse
-
-(cmark \>= 1.0.0)
-
-CommonMark\Parser::parse — Розбір
+CommonMarkParser::parse — Розбір
 
 ### Опис
 
-public **CommonMark\Parser::parse**(string `$buffer`): void
+```methodsynopsis
+public CommonMark\Parser::parse(string $buffer): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

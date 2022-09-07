@@ -1,33 +1,31 @@
-- [« SolrQuery::setMltMinDocFrequency](solrquery.setmltmindocfrequency.md)
-- [SolrQuery::setMltMinWordLength »](solrquery.setmltminwordlength.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює частоту, нижче за яку вирази будуть ігноруватися в
-вихідної документації
-
+---
+navigation:
+  - solrquery.setmltmindocfrequency.md: '« SolrQuery::setMltMinDocFrequency'
+  - solrquery.setmltminwordlength.md: 'SolrQuery::setMltMinWordLength »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltMinTermFrequency'
+---
 # SolrQuery::setMltMinTermFrequency
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setMltMinTermFrequency — Встановлює частоту, нижче за яку
-вирази ігноруватимуться у вихідній документації
+SolrQuery::setMltMinTermFrequency — Встановлює частоту, нижче за яку вирази будуть ігноруватися у вихідній документації
 
 ### Опис
 
-public **SolrQuery::setMltMinTermFrequency**(int `$minTermFrequency`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setMltMinTermFrequency(int $minTermFrequency): SolrQuery
+```
 
-Встановлює частоту, нижче за яку вирази будуть ігноруватися в
-вихідної документації
+Встановлює частоту, нижче за яку вирази ігноруватимуться у вихідній документації
 
 ### Список параметрів
 
 `minTermFrequency`
-Частота, нижче якої вирази ігноруватимуться у вихідній
-документації.
+
+Частота, нижче за яку вирази будуть ігноруватися у вихідній документації.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

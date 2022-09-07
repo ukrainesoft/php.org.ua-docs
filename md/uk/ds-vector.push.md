@@ -1,27 +1,29 @@
-- [« Ds\Vector::pop](ds-vector.pop.md)
-- [Ds\Vector::reduce »](ds-vector.reduce.md)
+---
+navigation:
+  - ds-vector.pop.md: '« DsVector::pop'
+  - ds-vector.reduce.md: 'ДсVector::reduce »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::push'
+---
+# ДсVector::push
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Додає значення до кінця вектора
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::push
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::push — Додає значення до кінця вектора
+ДсVector::push — Додає значення до кінця вектора.
 
 ### Опис
 
-public
-**Ds\Vector::push**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+public Ds\Vector::push(mixed ...$values): void
+```
 
 Додає значення до кінця вектора.
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
 ### Значення, що повертаються
@@ -30,18 +32,31 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::push()****
+**Приклад #1 Приклад використання **ДсVector::push()****
 
-` <?php$vector = new \Ds\Vector();$vector->push("a");$vector->push("b");$vector->push("c", "d" );$vector->push(...["e", "f"]);print_r($vector);?> `
+```php
+<?php
+$vector = new \Ds\Vector();
+
+$vector->push("a");
+$vector->push("b");
+$vector->push("c", "d");
+$vector->push(...["e", "f"]);
+
+print_r($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => a
-[1] => b
-[2] => c
-[3] => d
-[4] => e
-[5] => f
+    [0] => a
+    [1] => b
+    [2] => c
+    [3] => d
+    [4] => e
+    [5] => f
 )
+```

@@ -1,20 +1,22 @@
-- [« Yaf_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.md)
-- [Yaf_Dispatcher::setDefaultController »](yaf-dispatcher.setdefaultcontroller.md)
+---
+navigation:
+  - yaf-dispatcher.returnresponse.md: '« YafDispatcher::returnResponse'
+  - yaf-dispatcher.setdefaultcontroller.md: 'YafDispatcher::setDefaultController »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::setDefaultAction'
+---
+# YafDispatcher::setDefaultAction
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Змінює ім'я стандартної дії
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::setDefaultAction
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::setDefaultAction — Змінює ім'я стандартної дії
+YafDispatcher::setDefaultAction — Змінює ім'я стандартної дії
 
 ### Опис
 
-public **Yaf_Dispatcher::setDefaultAction**(string `$action`):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::setDefaultAction(string $action): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

@@ -1,30 +1,31 @@
-- [«SolrQuery::removeStatsField](solrquery.removestatsfield.md)
-- [SolrQuery::setEchoParams »](solrquery.setechoparams.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Перемикає параметр echoHandler
-
+---
+navigation:
+  - solrquery.removestatsfield.md: '« SolrQuery::removeStatsField'
+  - solrquery.setechoparams.md: 'SolrQuery::setEchoParams »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setEchoHandler'
+---
 # SolrQuery::setEchoHandler
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::setEchoHandler — Перемикає параметр echoHandler
 
 ### Опис
 
-public **SolrQuery::setEchoHandler**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setEchoHandler(bool $flag): SolrQuery
+```
 
-Якщо встановлено значення true, Solr поміщає ім'я дескриптора,
-використовуваного у відповіді, клієнту з метою налагодження.
+Якщо встановлено значення true, Solr поміщає ім'я дескриптора, який використовується у відповіді, клієнту з метою налагодження.
 
 ### Список параметрів
 
 `flag`
+
 **`true`** або **`false`**
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

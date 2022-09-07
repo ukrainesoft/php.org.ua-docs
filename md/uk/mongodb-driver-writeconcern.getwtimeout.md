@@ -1,21 +1,22 @@
-- [« MongoDB\Driver\WriteConcern::getW](mongodb-driver-writeconcern.getw.md)
-- [MongoDB\Driver\WriteConcern::isDefault »](mongodb-driver-writeconcern.isdefault.md)
+---
+navigation:
+  - mongodb-driver-writeconcern.getw.md: '« MongoDBDriverWriteConcern::getW'
+  - mongodb-driver-writeconcern.isdefault.md: 'MongoDBDriverWriteConcern::isDefault »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::getWtimeout'
+---
+# MongoDBDriverWriteConcern::getWtimeout
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- Повертає опцію "wtimeout" WriteConcern
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\WriteConcern::getWtimeout
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\WriteConcern::getWtimeout — Повертає опцію "wtimeout"
-WriteConcern
+MongoDBDriverWriteConcern::getWtimeout — Повертає опцію "wtimeout" WriteConcern
 
 ### Опис
 
-final public **MongoDB\Driver\WriteConcern::getWtimeout**():
-int\|[MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
+```methodsynopsis
+final public MongoDB\Driver\WriteConcern::getWtimeout(): int
+```
 
 ### Список параметрів
 
@@ -27,27 +28,37 @@ int\|[MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
-### Список змін
+### список змін
 
-| Версія             | Опис                                                                                                                                                                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| PECL mongodb 1.7.0 | У 32-розрядних системах цей метод повертатиме екземпляр [MongoDB\BSON\Int64](class.mongodb-bson-int64.md), якщо об'єкт WriteConcern був створений з wTimeout, що перевищує 32-розрядний діапазон. У 64-розрядних системах цей метод завжди повертає ціле значення. |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.7.0 | У 32-розрядних системах метод завжди буде усікати значення `wTimeout`якщо воно виходить за межі 32-бітного діапазону. У цьому випадку буде видано попередження. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteConcern::getWtimeout()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteConcern::getWtimeout()****
 
-` <?php$wc = new MongoDB\Driver\WriteConcern(1);var_dump($wc->getWtimeout());$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern:;MA var_dump($wc->getWtimeout());?> `
+```php
+<?php
+
+$wc = new MongoDB\Driver\WriteConcern(1);
+var_dump($wc->getWtimeout());
+
+$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 3000);
+var_dump($wc->getWtimeout());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(0)
 int(3000)
+```
 
 ### Дивіться також
 
-- [»Керівництво по гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

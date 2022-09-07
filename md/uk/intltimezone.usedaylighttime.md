@@ -1,34 +1,36 @@
-- [« IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.md)
-- [IntlDateFormatter »](class.intldateformatter.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Перевірити, що в даному часовому поясі використовується літній час
-
+---
+navigation:
+  - intltimezone.todatetimezone.md: '« IntlTimeZone::toDateTimeZone'
+  - class.intldateformatter.md: IntlDateFormatter »
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::useDaylightTime'
+---
 # IntlTimeZone::useDaylightTime
 
-# intltz_use_daylight_time
+# intltzusedaylighttime
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::useDaylightTime -- intltz_use_daylight_time — Перевірити,
-що в даному часовому поясі використовується літній час
+IntlTimeZone::useDaylightTime -- intltzusedaylighttime — Перевірити, чи використовується час цього поясу влітку.
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::useDaylightTime**(): bool
+```methodsynopsis
+public IntlTimeZone::useDaylightTime(): bool
+```
 
 Процедурний стиль:
 
-**intltz_use_daylight_time**([IntlTimeZone](class.intltimezone.md)
-`$timezone`): bool
+```methodsynopsis
+intltz_use_daylight_time(IntlTimeZone $timezone): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

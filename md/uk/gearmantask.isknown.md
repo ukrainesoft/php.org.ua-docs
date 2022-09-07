@@ -1,19 +1,22 @@
-- [« GearmanTask::functionName](gearmantask.functionname.md)
-- [GearmanTask::isRunning »](gearmantask.isrunning.md)
-
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Визначення, чи відомо серверу про це завдання
-
+---
+navigation:
+  - gearmantask.functionname.md: '« GearmanTask::functionName'
+  - gearmantask.isrunning.md: 'GearmanTask::isRunning »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::isKnown'
+---
 # GearmanTask::isKnown
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanTask::isKnown — Визначення, чи відомо серверу про це завдання
 
 ### Опис
 
-public **GearmanTask::isKnown**(): bool
+```methodsynopsis
+public GearmanTask::isKnown(): bool
+```
 
 Визначає, чи відомо серверу завдань про це завдання.
 

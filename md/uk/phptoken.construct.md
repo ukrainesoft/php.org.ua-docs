@@ -1,44 +1,45 @@
-- [«PhpToken](class.phptoken.md)
-- [PhpToken::getTokenName »](phptoken.gettokenname.md)
-
-- [PHP Manual](index.md)
-- [PhpToken](class.phptoken.md)
-- Створює об'єкт PhpToken
-
-# PhpToken::\_\_construct
+---
+navigation:
+  - class.phptoken.md: « PhpToken
+  - phptoken.gettokenname.md: 'PhpToken::getTokenName »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
+title: 'PhpToken::construct'
+---
+# PhpToken::construct
 
 (PHP 8)
 
-PhpToken::\_\_construct — Створює об'єкт PhpToken
+PhpToken::construct — Створює об'єкт PhpToken
 
 ### Опис
 
-final public **PhpToken::\_\_construct**(
-int `$id`,
-string `$text`,
-int `$line` = -1,
-int `$pos` = -1
-)
+final public **PhpToken::construct**  
+int `$id`  
+string `$text`  
+int `$line`  
+int `$pos`
 
 Повертає новий об'єкт PhpToken.
 
 ### Список параметрів
 
 `id`
-Одна з констант T\_\* (дивіться [Список тегів (tokens)
-парсера](tokens.md)), або символ ASCII, що представляє односимвольний
-токен.
+
+Одна з констант T (дивіться [Список меток (tokens) парсера](tokens.md)), або символ ASCII, що представляє односимвольний токен.
 
 `text`
-Текстове вміст токена.
+
+Текстовий вміст токена.
 
 `line`
+
 Номер рядка (починаючи з 1), з якого починається токен.
 
 `pos`
+
 Початкова позиція (починаючи з 0) токена у рядку.
 
 ### Дивіться також
 
-- [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає задану
-рядок, що містить програму на PHP, на масив об'єктів PhpToken
+-   [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken

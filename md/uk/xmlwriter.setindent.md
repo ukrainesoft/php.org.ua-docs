@@ -1,76 +1,91 @@
-- [« XMLWriter::outputMemory](xmlwriter.outputmemory.md)
-- [XMLWriter::setIndentString »](xmlwriter.setindentstring.md)
-
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Включити або вимкнути відступи
-
+---
+navigation:
+  - xmlwriter.outputmemory.md: '« XMLWriter::outputMemory'
+  - xmlwriter.setindentstring.md: 'XMLWriter::setIndentString »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::setIndent'
+---
 # XMLWriter::setIndent
 
-#xmlwriter_set_indent
+# xmlwritersetindent
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::setIndent -- xmlwriter_set_indent — Увімкнути або вимкнути
-відступи
+XMLWriter::setIndent -- xmlwritersetindent — Увімкнути або вимкнути відступи
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::setIndent**(bool `$enable`): bool
+```methodsynopsis
+public XMLWriter::setIndent(bool $enable): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_set_indent**([XMLWriter](class.xmlwriter.md) `$writer`,
-bool `$enable`): bool
+```methodsynopsis
+xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
+```
 
 Вмикає або вимикає відступи.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `enable`
-Визначає, чи додано відступ.
+
+Визначає, чи додавання відступу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 **XMLWriter::setIndent()** та змішаний вміст**
+**Приклад #1 **XMLWriter::setIndent()** і змішаний вміст**
 
-Увімкнення відступу не підходить для змішаного вмісту, оскільки
-рядок відступу також вставляється перед інтегрованими елементами.
+Увімкнення відступу не підходить для змішаного вмісту, оскільки рядок відступу також вставляється перед вбудованими елементами.
 
-` <?php$writer = new XMLWriter();$writer->openMemory();$writer->setIndent(2);$writer->startDocument();$writer->startElement('p');$writer ->text('до');$writer->writeElement('a', 'елемента');$writer->text('після');$writer->endElement();$writer->endDocument() ;echo $writer->outputMemory();?> `
+```php
+<?php
+$writer = new XMLWriter();
+$writer->openMemory();
+$writer->setIndent(2);
+$writer->startDocument();
+$writer->startElement('p');
+$writer->text('до');
+$writer->writeElement('a', 'элемента');
+$writer->text('после');
+$writer->endElement();
+$writer->endDocument();
+echo $writer->outputMemory();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <?xml version="1.0"?>
-<p>до <a>елемена</a>
-після</p>
+<p>до <a>элемена</a>
+после</p>
+```
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Відступ скидається при відкритті xmlwriter.
 
 ### Дивіться також
 
-- [XMLWriter::setIndentString()](xmlwriter.setindentstring.md) -
-Встановити рядок, який використовується для відступів
+-   [XMLWriter::setIndentString()](xmlwriter.setindentstring.md) - Встановити рядок, який використовується для відступів

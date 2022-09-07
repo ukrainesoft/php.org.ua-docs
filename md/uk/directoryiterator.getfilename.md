@@ -1,23 +1,24 @@
-- [« DirectoryIterator::getExtension](directoryiterator.getextension.md)
-- [DirectoryIterator::getGroup »](directoryiterator.getgroup.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає ім'я файлу поточного елемента DirectoryIterator
-
+---
+navigation:
+  - directoryiterator.getextension.md: '« DirectoryIterator::getExtension'
+  - directoryiterator.getgroup.md: 'DirectoryIterator::getGroup »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getFilename'
+---
 # DirectoryIterator::getFilename
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::getFilename — Повертає ім'я файлу поточного елемента
-DirectoryIterator
+DirectoryIterator::getFilename — Повертає ім'я файлу поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getFilename**(): string
+```methodsynopsis
+public DirectoryIterator::getFilename(): string
+```
 
-Повертає ім'я файлу поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -25,37 +26,37 @@ public **DirectoryIterator::getFilename**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::getFilename()****
 
-Приклад виведе список вмісту директорії, що містить виконуваний
-скрипт.
+Приклад виведе список вмісту директорії, що містить скрипт.
 
-` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    echo $fileinfo->getFilename() . "
-";}?> `
+```php
+<?php
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    echo $fileinfo->getFilename() . "\n";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 .
 ..
 apple.jpg
 banana.jpg
 index.php
 pear.jpg
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) -
-Повертає ім'я файлу (без розширення) поточного елемента
-DirectoryIterator
-- [DirectoryIterator::getPath()](directoryiterator.getpath.md) -
-Повертає шлях до поточного елементу DirectoryIterator без імені
-файлу
-- [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) -
-Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
-- [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях
-до файлу
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
+-   [DirectoryIterator::getPath()](directoryiterator.getpath.md) - Повертає шлях до поточного елементу DirectoryIterator без імені файлу
+-   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу

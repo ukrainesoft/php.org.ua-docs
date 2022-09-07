@@ -1,10 +1,11 @@
-- [« Встановлення](funchand.installation.md)
-- [Типи ресурсів»](funchand.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](funchand.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - funchand.installation.md: « Установка
+  - funchand.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - funchand.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Цей модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

@@ -1,21 +1,15 @@
-- [« mqseries](book.mqseries.md)
-- [Встановлення та налаштування »](mqseries.setup.md)
-
-- [PHP Manual](index.md)
-- [mqseries](book.mqseries.md)
--   Вступ
-
+---
+navigation:
+  - book.mqseries.md: « mqseries
+  - mqseries.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.mqseries.md: mqseries
+title: Вступ
+---
 # Вступ
 
-Цей модуль служить для взаємодії з менеджерами черг IBM
-WebSphere MQ series.
+Цей модуль використовується для взаємодії з менеджерами черг IBM WebSphere MQ series.
 
-Інтерфейс намагається повторити клієнтський C-API інтерфейс WebSphere MQ
-Series настільки точно, як це можливо. Використовуються ті ж
-самі домовленості за назвою і функціональність C-API. Для
-розуміння принципів роботи цього модуля необхідно розуміти
-роботи C-API.
+Інтерфейс намагається повторити клієнтський C-API інтерфейс WebSphere MQ Series настільки точно, як це можливо. Використовуються ті самі домовленості щодо іменування та функціональність C-API. Для розуміння принципів цього модуля необхідно розуміти принципи роботи C-API.
 
-Для MQ-options, MQ-structures, MQ-results і т.д. читайте "WebSphere MQ
-Application Programming Guide" та "WebSphere MQ Application Programming"
-Reference.
+Для MQ-options, MQ-structures, MQ-results і т.д., читайте "WebSphere MQ Application Programming Guide" та "WebSphere MQ Application Programming" Reference.

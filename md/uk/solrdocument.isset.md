@@ -1,28 +1,31 @@
-- [« SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md)
-- [SolrDocument::key »](solrdocument.key.md)
+---
+navigation:
+  - solrdocument.haschilddocuments.md: '« SolrDocument::hasChildDocuments'
+  - solrdocument.key.md: 'SolrDocument::key »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::isset'
+---
+# SolrDocument::isset
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Перевіряє, чи існує поле
+(PECL solr> = 0.9.2)
 
-# SolrDocument::\_\_isset
-
-(PECL solr \> = 0.9.2)
-
-SolrDocument::\_\_isset — Перевіряє, чи існує поле
+SolrDocument::isset — Перевіряє, чи є поле
 
 ### Опис
 
-public **SolrDocument::\_\_isset**(string `$fieldName`): bool
+```methodsynopsis
+public SolrDocument::__isset(string $fieldName): bool
+```
 
 Перевіряє, чи існує поле
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

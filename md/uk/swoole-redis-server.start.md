@@ -1,24 +1,26 @@
-- [« Swoole\Redis\Server::setHandler](swoole-redis-server.sethandler.md)
-- [Swoole\Serialize »](class.swoole-serialize.md)
+---
+navigation:
+  - swoole-redis-server.sethandler.md: '« SwooleRedisServer::setHandler'
+  - class.swoole-serialize.md: SwooleSerialize »
+  - index.md: PHP Manual
+  - class.swoole-redis-server.md: SwooleRedisServer
+title: 'SwooleRedisServer::start'
+---
+# SwooleRedisServer::start
 
-- [PHP Manual](index.md)
-- [Swoole\Redis\Server](class.swoole-redis-server.md)
-- Опис
+(PECL swoole >= 1.9.0)
 
-# Swoole\Redis\Server::start
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Redis\Server::start — Опис
+SwooleRedisServer::start — Опис
 
 ### Опис
 
-public **Swoole\Redis\Server::start**(): ReturnType
+```methodsynopsis
+public Swoole\Redis\Server::start(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,24 +1,24 @@
-- [« ReflectionEnum::\_\_construct](reflectionenum.construct.md)
-- [ReflectionEnum::getCase »](reflectionenum.getcase.md)
-
-- [PHP Manual](index.md)
-- [ReflectionEnum](class.reflectionenum.md)
-- Отримує тип перерахування, якщо є
-
+---
+navigation:
+  - reflectionenum.construct.md: '« ReflectionEnum::construct'
+  - reflectionenum.getcase.md: 'ReflectionEnum::getCase »'
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
+title: 'ReflectionEnum::getBackingType'
+---
 # ReflectionEnum::getBackingType
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionEnum::getBackingType — Отримує тип перерахунку, якщо є
+ReflectionEnum::getBackingType — Отримує тип переліку, якщо є
 
 ### Опис
 
-public **ReflectionEnum::getBackingType**():
-?[ReflectionType](class.reflectiontype.md)
+```methodsynopsis
+public ReflectionEnum::getBackingType(): ?ReflectionType
+```
 
-Якщо перерахування є типовим, цей метод поверне екземпляр
-[ReflectionType](class.reflectiontype.md) типу перерахунку. Якщо це
-не типізований перелік, метод поверне `null`.
+Якщо перелік типизований, цей метод поверне екземпляр [ReflectionType](class.reflectiontype.md) типу перерахування. Якщо це не типізований перелік, метод поверне `null`
 
 ### Список параметрів
 
@@ -26,21 +26,37 @@ public **ReflectionEnum::getBackingType**():
 
 ### Значення, що повертаються
 
-Примірник [ReflectionType](class.reflectiontype.md) або `null`, якщо
-перерахування не типизоване.
+Екземпляр [ReflectionType](class.reflectiontype.md) або `null`, якщо перелік не типизований.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionEnum::getBackingType()****
 
-`<?phpenum Suit: string{   case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}$rEnum = new ReflectionEnum(Suit::class);$rBackingType = $rEnum->getBackingType();var_dump((string)$rBackingType);?> `
+```php
+<?php
+enum Suit: string
+{
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
+}
+
+$rEnum = new ReflectionEnum(Suit::class);
+
+$rBackingType = $rEnum->getBackingType();
+
+var_dump((string)$rBackingType);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(6) "string"
+```
 
 ### Дивіться також
 
-- [Перерахування](language.enumerations.md)
-- [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) -
-Визначає, чи є перерахування типовим
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим

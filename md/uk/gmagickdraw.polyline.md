@@ -1,29 +1,31 @@
-- [« GmagickDraw::polygon](gmagickdraw.polygon.md)
-- [GmagickDraw::rectangle »](gmagickdraw.rectangle.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Малює ламану лінію
-
+---
+navigation:
+  - gmagickdraw.polygon.md: '« GmagickDraw::polygon'
+  - gmagickdraw.rectangle.md: 'GmagickDraw::rectangle »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::polyline'
+---
 # GmagickDraw::polyline
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::polyline — Малює ламану лінію
 
 ### Опис
 
-public **GmagickDraw::polyline**(array `$coordinate_array`):
-[GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::polyline(array $coordinate_array): GmagickDraw
+```
 
-Малює ламану лінію з використанням поточної обведення, її ширини, кольору.
-заливки або текстури за допомогою вказаного масиву координат.
+Малює ламану лінію з використанням поточної обведення, її ширини, кольору заливки або текстури з використанням масиву координат.
 
 ### Список параметрів
 
 `coordinate_array`
+
 Масив координат.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.md)

@@ -1,24 +1,24 @@
-- [« GearmanClient::doHighBackground](gearmanclient.dohighbackground.md)
-- [GearmanClient::doLow »](gearmanclient.dolow.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Отримати дескриптор завдання, що виконується
-
+---
+navigation:
+  - gearmanclient.dohighbackground.md: '« GearmanClient::doHighBackground'
+  - gearmanclient.dolow.md: 'GearmanClient::doLow »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::doJobHandle'
+---
 # GearmanClient::doJobHandle
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanClient::doJobHandle — Отримати дескриптор завдання, що виконується
 
 ### Опис
 
-public **GearmanClient::doJobHandle**(): string
+```methodsynopsis
+public GearmanClient::doJobHandle(): string
+```
 
-Отримує дескриптор завдання для завдання, що виконується. Цей метод винен
-використовуватися між повторними викликами
-[GearmanClient::doNormal()](gearmanclient.donormal.md). Дескриптор
-Завдання може використовуватися для отримання інформації про завдання.
+Отримує дескриптор завдання для завдання, що виконується. Цей метод повинен використовуватися між повторними викликами [GearmanClient::doNormal()](gearmanclient.donormal.md). Дескриптор завдання може використовуватися отримання інформації про завдання.
 
 ### Список параметрів
 
@@ -30,5 +30,4 @@ public **GearmanClient::doJobHandle**(): string
 
 ### Дивіться також
 
-- [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) -
-Набуття статусу виконання фонового завдання
+-   [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) - Набуття статусу виконання фонового завдання

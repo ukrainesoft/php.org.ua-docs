@@ -1,29 +1,31 @@
-- [«SolrQuery::setRows](solrquery.setrows.md)
-- [SolrQuery::setStart »](solrquery.setstart.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Прапор для відображення налагоджувальної інформації
-
+---
+navigation:
+  - solrquery.setrows.md: '« SolrQuery::setRows'
+  - solrquery.setstart.md: 'SolrQuery::setStart »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setShowDebugInfo'
+---
 # SolrQuery::setShowDebugInfo
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::setShowDebugInfo — Прапор для відображення налагоджувальної інформації
 
 ### Опис
 
-public **SolrQuery::setShowDebugInfo**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setShowDebugInfo(bool $flag): SolrQuery
+```
 
 Чи показувати налагоджувальну інформацію
 
 ### Список параметрів
 
 `flag`
-Чи показувати налагоджувальну інформацію. **`true`** або **`false`**
+
+Чи показувати налагоджувальну інформацію . **`true`** або **`false`**
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

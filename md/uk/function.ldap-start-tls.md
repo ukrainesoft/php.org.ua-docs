@@ -1,22 +1,23 @@
-- [«ldap_sort](function.ldap-sort.md)
-- [ldap_t61_to_8859 »](function.ldap-t61-to-8859.md)
+---
+navigation:
+  - function.ldap-sort.md: « ldapsort
+  - function.ldap-t61-to-8859.md: ldapt61то
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapstarttls
+---
+# ldapstarttls
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Запускає TLS
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#ldap_start_tls
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-ldap_start_tls — Запускає TLS
+ldapstarttls — Запускає TLS
 
 ### Опис
 
-**ldap_start_tls**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`): bool
+```methodsynopsis
+ldap_start_tls(LDAP\Connection $ldap): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

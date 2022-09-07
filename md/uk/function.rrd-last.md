@@ -1,28 +1,31 @@
-- [«rrd_info](function.rrd-info.md)
-- [rrd_lastupdate »](function.rrd-lastupdate.md)
+---
+navigation:
+  - function.rrd-info.md: « rrdinfo
+  - function.rrd-lastupdate.md: rrdlastupdate »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdlast
+---
+# rrdlast
 
-- [PHP Manual](index.md)
-- [Функції RRD](ref.rrd.md)
-- Повертає позначку часу unix останнього зразка
+(PECL rrd >= 0.9.0)
 
-#rrd_last
-
-(PECL rrd \>= 0.9.0)
-
-rrd_last — Повертає позначку часу unix останнього зразка
+rrdlast — Повертає позначку часу unix останнього зразка
 
 ### Опис
 
-**rrd_last**(string `$filename`): int
+```methodsynopsis
+rrd_last(string $filename): int
+```
 
 Повертає позначку часу UNIX останнього оновлення бази даних RRD.
 
 ### Список параметрів
 
 `filename`
+
 Назва файлу бази даних RRD.
 
 ### Значення, що повертаються
 
-Ціло число, що представляє позначку часу unix останніх даних
-бази даних RRD.
+Ціле число, що представляє позначку часу unix останніх даних з бази даних RRD.

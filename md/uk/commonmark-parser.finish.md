@@ -1,25 +1,26 @@
-- [«CommonMark\Parser::parse](commonmark-parser.parse.md)
-- [CommonMark\CQL »](class.commonmark-cql.md)
+---
+navigation:
+  - commonmark-parser.parse.md: '« CommonMarkParser::parse'
+  - class.commonmark-cql.md: CommonMarkCQL »
+  - index.md: PHP Manual
+  - class.commonmark-parser.md: CommonMarkParser
+title: 'CommonMarkParser::finish'
+---
+# CommonMarkParser::finish
 
-- [PHP Manual](index.md)
-- [CommonMark\Parser](class.commonmark-parser.md)
-- Розбір
+(cmark >= 1.0.0)
 
-# CommonMark\Parser::finish
-
-(cmark \>= 1.0.0)
-
-CommonMark\Parser::finish — Розбір
+CommonMarkParser::finish — Розбір
 
 ### Опис
 
-public **CommonMark\Parser::finish**():
-[CommonMark\Node](class.commonmark-node.md)
+```methodsynopsis
+public CommonMark\Parser::finish(): CommonMark\Node
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

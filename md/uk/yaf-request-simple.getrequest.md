@@ -1,24 +1,26 @@
-- [« Yaf_Request_Simple::getQuery](yaf-request-simple.getquery.md)
-- [Yaf_Request_Simple::isXmlHttpRequest »](yaf-request-simple.isxmlhttprequest.md)
+---
+navigation:
+  - yaf-request-simple.getquery.md: '« YafRequestSimple::getQuery'
+  - yaf-request-simple.isxmlhttprequest.md: 'YafRequestSimple::isXmlHttpRequest »'
+  - index.md: PHP Manual
+  - class.yaf-request-simple.md: YafRequestSimple
+title: 'YafRequestSimple::getRequest'
+---
+# YafRequestSimple::getRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Simple](class.yaf-request-simple.md)
-- Призначення getRequest
+(Yaf >=1.0.0)
 
-# Yaf_Request_Simple::getRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Simple::getRequest — Призначення getRequest
+YafRequestSimple::getRequest — Призначення getRequest
 
 ### Опис
 
-public **Yaf_Request_Simple::getRequest**(): void
+```methodsynopsis
+public Yaf_Request_Simple::getRequest(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

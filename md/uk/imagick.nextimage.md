@@ -1,19 +1,22 @@
-- [« Imagick::newPseudoImage](imagick.newpseudoimage.md)
-- [Imagick::normalizeImage »](imagick.normalizeimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Переходить до наступного зображення
-
+---
+navigation:
+  - imagick.newpseudoimage.md: '« Imagick::newPseudoImage'
+  - imagick.normalizeimage.md: 'Imagick::normalizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::nextImage'
+---
 # Imagick::nextImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::nextImage — Перейти до наступного зображення
+Imagick::nextImage — Перехід до наступного зображення
 
 ### Опис
 
-public **Imagick::nextImage**(): bool
+```methodsynopsis
+public Imagick::nextImage(): bool
+```
 
 Зв'язує наступне зображення у списку зображень із об'єктом Imagick.
 
@@ -23,4 +26,4 @@ public **Imagick::nextImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

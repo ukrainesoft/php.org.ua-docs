@@ -1,19 +1,22 @@
-- [«UI\Draw\Stroke::getJoin](ui-draw-stroke.getjoin.md)
-- [UI\Draw\Stroke::getThickness »](ui-draw-stroke.getthickness.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Stroke](class.ui-draw-stroke.md)
-- Отримати межу зрізу
-
-# UI\Draw\Stroke::getMiterLimit
+---
+navigation:
+  - ui-draw-stroke.getjoin.md: '« UIDrawStroke::getJoin'
+  - ui-draw-stroke.getthickness.md: 'ОЙDrawStroke::getThickness »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.md: ОЙDrawStroke
+title: 'ОЙDrawStroke::getMiterLimit'
+---
+# ОЙDrawStroke::getMiterLimit
 
 (UI 0.9.9)
 
-UI\Draw\Stroke::getMiterLimit — Отримати межу зрізу
+ОЙDrawStroke::getMiterLimit — Отримати межу зрізу
 
 ### Опис
 
-public **UI\Draw\Stroke::getMiterLimit**(): float
+```methodsynopsis
+public UI\Draw\Stroke::getMiterLimit(): float
+```
 
 Отримає межу зрізу даної обведення
 

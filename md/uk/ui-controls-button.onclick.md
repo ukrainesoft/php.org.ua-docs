@@ -1,19 +1,22 @@
-- [«UI\Controls\Button::getText](ui-controls-button.gettext.md)
-- [UI\Controls\Button::setText »](ui-controls-button.settext.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Button](class.ui-controls-button.md)
-- Обробник кліку
-
-# UI\Controls\Button::onClick
+---
+navigation:
+  - ui-controls-button.gettext.md: '« UIControlsButton::getText'
+  - ui-controls-button.settext.md: 'ОЙControlsButton::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-button.md: ОЙControlsButton
+title: 'ОЙControlsButton::onClick'
+---
+# ОЙControlsButton::onClick
 
 (UI 0.9.9)
 
-UI\Controls\Button::onClick — Обробник кліка
+ОЙControlsButton::onClick — Обробник кліку
 
 ### Опис
 
-protected **UI\Controls\Button::onClick**()
+```methodsynopsis
+protected UI\Controls\Button::onClick()
+```
 
 Виконується при натисканні цього об'єкта Button
 

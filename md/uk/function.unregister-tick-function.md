@@ -1,29 +1,29 @@
-- [« register_tick_function](function.register-tick-function.md)
-- [Reflection »](book.reflection.md)
+---
+navigation:
+  - function.register-tick-function.md: « registertickfunction
+  - book.quickhash.md: Quickhash »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: unregistertickfunction
+---
+# unregistertickfunction
 
-- [PHP Manual](index.md)
-- [Функції керування функціями](ref.funchand.md)
-- Видаляє функцію зі списку зареєстрованих для виконання на
-кожному тиці
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-#unregister_tick_function
-
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
-
-unregister_tick_function — Видалення функції зі списку зареєстрованих
-для виконання на кожному тику
+unregistertickfunction — Видалення функції зі списку зареєстрованих для виконання на кожному тику
 
 ### Опис
 
-**unregister_tick_function**([callable](language.types.callable.md)
-`$callback`): void
+```methodsynopsis
+unregister_tick_function(callable $callback): void
+```
 
-Видаляє `function` зі списку функцій, тому вона більше не виконується
-при кожному тику (дивіться [tick](control-structures.declare.md)).
+Видаляє `function` зі списку функцій, так що вона більше не виконується при кожному тику (дивіться [tick](control-structures.declare.md)
 
 ### Список параметрів
 
 `callback`
+
 Функція, що видаляється.
 
 ### Значення, що повертаються
@@ -32,5 +32,4 @@ unregister_tick_function — Видалення функції зі списку
 
 ### Дивіться також
 
-- [register_tick_function()](function.register-tick-function.md) -
-Реєструє функцію для виконання при кожному тику
+-   [registertickfunction()](function.register-tick-function.md) - Реєструє функцію для виконання при кожному тику

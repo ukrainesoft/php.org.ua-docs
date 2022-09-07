@@ -1,29 +1,31 @@
-- [« GmagickDraw::point](gmagickdraw.point.md)
-- [GmagickDraw::polyline »](gmagickdraw.polyline.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Малює багатокутник
-
+---
+navigation:
+  - gmagickdraw.point.md: '« GmagickDraw::point'
+  - gmagickdraw.polyline.md: 'GmagickDraw::polyline »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::polygon'
+---
 # GmagickDraw::polygon
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::polygon — Малює багатокутник
+GmagickDraw::polygon — Малює багатокутник.
 
 ### Опис
 
-public **GmagickDraw::polygon**(array `$coordinates`):
-[GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::polygon(array $coordinates): GmagickDraw
+```
 
-Малює багатокутник з використанням поточної обведення, її ширини, кольору.
-заливки або текстури за допомогою вказаного масиву координат.
+Малює багатокутник з використанням поточного обведення, його ширини, кольору заливки або текстури з використанням вказаного масиву координат.
 
 ### Список параметрів
 
 `coordinates`
+
 Масив координат.
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.md).
+Об'єкт [GmagickDraw](class.gmagickdraw.md)

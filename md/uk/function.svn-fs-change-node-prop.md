@@ -1,39 +1,31 @@
-- [« svn_fs_begin_txn2](function.svn-fs-begin-txn2.md)
-- [svn_fs_check_path »](function.svn-fs-check-path.md)
+---
+navigation:
+  - function.svn-fs-begin-txn2.md: « svnфсbegintxn2
+  - function.svn-fs-check-path.md: svnфсcheckpath »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсchangenodeprop
+---
+# svnфсchangenodeprop
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Повертає true, якщо операція пройшла успішно або false у протилежному
-випадку
+(PECL svn >= 0.2.0)
 
-# svn_fs_change_node_prop
-
-(PECL svn \>= 0.2.0)
-
-svn_fs_change_node_prop — Повертає **`true`**, якщо операція пройшла
-успішно або **`false`** інакше
+svnфсchangenodeprop — Повертає **`true`**, якщо операція пройшла успішно або **`false`** в іншому випадку
 
 ### Опис
 
-**svn_fs_change_node_prop**(
-resource `$root`,
-string `$path`,
-string `$name`,
-string `$value`
-): bool
+```methodsynopsis
+svn_fs_change_node_prop(    resource $root,    string $path,    string $name,    string $value): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає **`true`**, якщо операція пройшла успішно або **`false`** в
-інакше.
+Повертає **`true`**, якщо операція пройшла успішно або **`false`** в іншому випадку.
 
 ### Примітки
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

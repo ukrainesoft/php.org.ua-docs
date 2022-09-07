@@ -1,10 +1,11 @@
-- [« Imagick::removeImageProfile](imagick.removeimageprofile.md)
-- [Imagick::resampleImage »](imagick.resampleimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Відображає усі попередні команди малювання
-
+---
+navigation:
+  - imagick.removeimageprofile.md: '« Imagick::removeImageProfile'
+  - imagick.resampleimage.md: 'Imagick::resampleImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::render'
+---
 # Imagick::render
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,9 +14,11 @@ Imagick::render — Показує всі попередні команди ма
 
 ### Опис
 
-public **Imagick::render**(): bool
+```methodsynopsis
+public Imagick::render(): bool
+```
 
-Відображає попередні команди малювання.
+Відображає всі попередні малюнки.
 
 ### Список параметрів
 
@@ -23,4 +26,4 @@ public **Imagick::render**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

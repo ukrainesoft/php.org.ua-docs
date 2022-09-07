@@ -1,32 +1,34 @@
-- [« Parle\RLexer::build](parle-rlexer.build.md)
-- [Parle\RLexer::consume »](parle-rlexer.consume.md)
+---
+navigation:
+  - parle-rlexer.build.md: '« ParleRLexer::build'
+  - parle-rlexer.consume.md: 'ParleRLexer::consume »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.md: ParleRLexer
+title: 'ParleRLexer::callout'
+---
+# ParleRLexer::callout
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- визначає callback-функцію токена
+(PECL parle >= 0.7.2)
 
-# Parle\RLexer::callout
-
-(PECL parle \>= 0.7.2)
-
-Parle\RLexer::callout — Визначає callback-функцію токена
+ParleRLexer::callout - Визначає callback-функцію токена
 
 ### Опис
 
-public **Parle\RLexer::callout**(int `$id`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Parle\RLexer::callout(int $id, callable $callback): void
+```
 
-Визначає callback-функцію, яка буде викликатись, коли лексер
-зустрічає певний ток.
+Визначає callback-функцію, яка буде викликатись, коли лексер зустрічає певний токен.
 
 ### Список параметрів
 
 `id`
-Token ID.
+
+Token id.
 
 `callback`
-Callable-функція. Об'єкт, що викликається, не отримує аргументів, а його
-значення, що повертається, ігнорується.
+
+Callable-функція. Об'єкт, що викликається, не отримує аргументів, а його значення, що повертається, ігнорується.
 
 ### Значення, що повертаються
 

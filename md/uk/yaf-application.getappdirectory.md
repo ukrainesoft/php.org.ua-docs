@@ -1,20 +1,22 @@
-- [« Yaf_Application::execute](yaf-application.execute.md)
-- [Yaf_Application::getConfig »](yaf-application.getconfig.md)
+---
+navigation:
+  - yaf-application.execute.md: '« YafApplication::execute'
+  - yaf-application.getconfig.md: 'YafApplication::getConfig »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
+title: 'YafApplication::getAppDirectory'
+---
+# YafApplication::getAppDirectory
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Отримати директорію програми
+(Yaf> = 2.1.4)
 
-# Yaf_Application::getAppDirectory
-
-(Yaf \> = 2.1.4)
-
-Yaf_Application::getAppDirectory — Отримати каталог програми
+YafApplication::getAppDirectory — Отримати директорію програми
 
 ### Опис
 
-public **Yaf_Application::getAppDirectory**():
-[Yaf_Application](class.yaf-application.md)
+```methodsynopsis
+public Yaf_Application::getAppDirectory(): Yaf_Application
+```
 
 ### Список параметрів
 

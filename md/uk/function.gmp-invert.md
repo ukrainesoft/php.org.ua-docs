@@ -1,46 +1,53 @@
-- [«gmp_intval](function.gmp-intval.md)
-- [gmp_jacobi »](function.gmp-jacobi.md)
+---
+navigation:
+  - function.gmp-intval.md: « gmpintval
+  - function.gmp-jacobi.md: gmpjacobi »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpinvert
+---
+# gmpinvert
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Інверсія залишку від розподілу
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_invert
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_invert - Інверсія залишку від розподілу
+gmpinvert — Інверсія залишку від розподілу
 
 ### Опис
 
-**gmp_invert**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`):
-[GMP](class.gmp.md)\|false
+```methodsynopsis
+gmp_invert(GMP|int|string $num1, GMP|int|string $num2): GMP|false
+```
 
-Обчислює інверсію залишку від розподілу числа `num1` на число `num2`.
+Обчислює інверсію залишку від поділу числа `num1` на число `num2`
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-GMP число у разі успішного виконання або **`false`**, якщо інверсія
-не існує.
+GMP число у разі успішного виконання або \*\*`false`\*\*якщо інверсія не існує.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_invert()****
+**Приклад #1 Приклад використання **gmpinvert()****
 
-`<?phpecho gmp_invert("5", "10"); // ні інверсії, не виводить нічого, результат FALSE$invert = gmp_invert("5", "11");echo gmp_strval($invert) . "
-";?> `
+```php
+<?php
+echo gmp_invert("5", "10"); // нет инверсии, не выводит ничего, результат FALSE
+$invert = gmp_invert("5", "11");
+echo gmp_strval($invert) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 9
+```

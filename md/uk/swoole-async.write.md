@@ -1,34 +1,35 @@
-- [« Swoole\Async::set](swoole-async.set.md)
-- [Swoole\Async::writeFile »](swoole-async.writefile.md)
+---
+navigation:
+  - swoole-async.set.md: '« SwooleAsync::set'
+  - swoole-async.writefile.md: 'SwooleAsync::writeFile »'
+  - index.md: PHP Manual
+  - class.swoole-async.md: SwooleAsync
+title: 'SwooleAsync::write'
+---
+# SwooleAsync::write
 
-- [PHP Manual](index.md)
-- [Swoole\Async](class.swoole-async.md)
-- Асинхронно записує дані у файловий потік
+(PECL swoole >= 1.9.0)
 
-# Swoole\Async::write
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Async::write — Асинхронно записує дані у файловий потік
+SwooleAsync::write — Асинхронно записує дані у файловий потік
 
 ### Опис
 
-public static **Swoole\Async::write**(
-string `$filename`,
-string `$content`,
-int `$offset` = ?,
-[callable](language.types.callable.md) `$callback` = ?
-): void
+```methodsynopsis
+public static Swoole\Async::write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): void
+```
 
 ### Список параметрів
 
 `filename`
+
 Назва файлу для запису.
 
 `content`
+
 Зміст для запису файлу.
 
 `offset`
+
 Зміщення.
 
 `callback`

@@ -1,21 +1,24 @@
-- [« dba_key_split](function.dba-key-split.md)
-- [dba_nextkey »](function.dba-nextkey.md)
+---
+navigation:
+  - function.dba-key-split.md: « dbakeysplit
+  - function.dba-nextkey.md: dbanextkey »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbalist
+---
+# dbalist
 
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Список всіх відкритих файлів бази даних
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#dba_list
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-dba_list — Список усіх відкритих файлів бази даних
+dbalist — Список усіх відкритих файлів бази даних
 
 ### Опис
 
-**dba_list**(): array
+```methodsynopsis
+dba_list(): array
+```
 
-**dba_list()** повертає список усіх відкритих файлів бази даних.
+**dbalist()** повертає список усіх відкритих файлів бази даних.
 
 ### Список параметрів
 
@@ -23,4 +26,4 @@ dba_list — Список усіх відкритих файлів бази да
 
 ### Значення, що повертаються
 
-Асоціативний масив типу `resourceid=>filename`.
+Асоціативний масив типу `resourceid => filename`

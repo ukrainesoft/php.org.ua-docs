@@ -1,30 +1,33 @@
-- [« Parle\RLexer::getToken](parle-rlexer.gettoken.md)
-- [Parle\RLexer::push »](parle-rlexer.push.md)
+---
+navigation:
+  - parle-rlexer.gettoken.md: '« ParleRLexer::getToken'
+  - parle-rlexer.push.md: 'ParleRLexer::push »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.md: ParleRLexer
+title: 'ParleRLexer::insertMacro'
+---
+# ParleRLexer::insertMacro
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- Вставляє макрос регулярного виразу
+(PECL parle >= 0.5.1)
 
-# Parle\RLexer::insertMacro
-
-(PECL parle \>= 0.5.1)
-
-Parle\RLexer::insertMacro — Вставляє макрос регулярного виразу
+ParleRLexer::insertMacro — Вставляє макрос регулярного виразу
 
 ### Опис
 
-public **Parle\RLexer::insertMacro**(string `$name`, string `$regex`):
-void
+```methodsynopsis
+public Parle\RLexer::insertMacro(string $name, string $regex): void
+```
 
-Вставляє макрос регулярного виразу, який згодом можна.
-використовувати як ярлик і включати до інших регулярних виразів.
+Вставляє макрос регулярного виразу, який згодом можна використовувати як ярлик і включати до інших регулярних виразів.
 
 ### Список параметрів
 
 `name`
+
 Ім'я макросу
 
 `regex`
+
 Регулярний вираз.
 
 ### Значення, що повертаються

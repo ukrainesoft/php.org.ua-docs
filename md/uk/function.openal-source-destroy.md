@@ -1,32 +1,33 @@
-- [«openal_source_create](function.openal-source-create.md)
-- [openal_source_get »](function.openal-source-get.md)
+---
+navigation:
+  - function.openal-source-create.md: « openalsourcecreate
+  - function.openal-source-get.md: openalsourceget »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourcedestroy
+---
+# openalsourcedestroy
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Знищення ресурсу джерела
+(PECL openal >= 0.1.0)
 
-#openal_source_destroy
-
-(PECL openal = 0.1.0)
-
-openal_source_destroy - Знищення ресурсу джерела
+openalsourcedestroy - Знищення ресурсу джерела
 
 ### Опис
 
-**openal_source_destroy**(resource `$source`): bool
+```methodsynopsis
+openal_source_destroy(resource $source): bool
+```
 
 ### Список параметрів
 
 `source`
-Ресурс [Open AL(Source)](openal.resources.md) (створений раніше з
-за допомогою [openal_source_create()](function.openal-source-create.md)).
+
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_source_create()](function.openal-source-create.md) -
-Згенерувати джерело ресурсу
+-   [openalsourcecreate()](function.openal-source-create.md) - Згенерувати джерело ресурсу

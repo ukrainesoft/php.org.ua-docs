@@ -1,86 +1,108 @@
-- [« mysqli_result::$num_rows](mysqli-result.num-rows.md)
-- [mysqli_driver::embedded_server_end »](mysqli-driver.embedded-server-end.md)
-
-- [PHP Manual](index.md)
-- [MySQLi](book.mysqli.md)
-- Клас mysqli_driver
-
-# Клас mysqli_driver
+---
+navigation:
+  - mysqli-result.num-rows.md: '« mysqliresult::$numrows'
+  - mysqli-driver.embedded-server-end.md: 'mysqlidriver::embeddedserverend »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqlidriver
+---
+# Клас mysqlidriver
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас **mysqli_driver** є екземпляром шаблону monostate, тобто
-є лише один драйвер, до якого можна отримати доступ через
-довільна кількість екземплярів **mysqli_driver**.
+Клас **mysqlidriver** є екземпляром шаблону monostate, тобто є лише один драйвер, до якого можна отримати доступ через довільну кількість екземплярів **mysqlidriver**
 
 ## Огляд класів
 
-final class **mysqli_driver** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly string `$client_info`;
+    
+     
+      final
+      class mysqli_driver
+     
+     {
 
-public readonly int `$client_version`;
+    /* Свойства */
+    
+     public
+     readonly
+     string
+      $client_info;
 
-public readonly int `$driver_version`;
+    public
+     readonly
+     int
+      $client_version;
 
-public readonly bool `$embedded`;
+    public
+     readonly
+     int
+      $driver_version;
 
-public bool `$reconnect` = false;
+    public
+     readonly
+     bool
+      $embedded;
 
-public int `$report_mode`;
+    public
+     bool
+      $reconnect = false;
 
-/\* Методи \*/
+    public
+     int
+      $report_mode;
 
-public [embedded_server_end](mysqli-driver.embedded-server-end.md)():
-void
 
-public
-[embedded_server_start](mysqli-driver.embedded-server-start.md)(int
-`$start`, array `$arguments`, array `$groups`): bool
+    /* Методы */
+    
+   public embedded_server_end(): void
+public embedded_server_start(int $start, array $arguments, array $groups): bool
 
-}
+   }
+```
 
 ## Властивості
 
-`client_info`
+clientinfo
+
 Версія заголовка Client API
 
-`client_version`
+clientversion
+
 Версія Client
 
-`driver_version`
+driverversion
+
 Версія MySQLi Driver
 
 **Увага**
-Властивість оголошено *застарілим* у PHP 8.1.0. Покладатися на властивість
-украй не рекомендується.
 
-`embedded`
+Властивість оголошено *застарілим* у PHP 8.1.0. Покладатися на властивість не рекомендується.
+
+embedded
+
 Статус підтримки MySQLi Embedded
 
 **Увага**
-Властивість *віддалено* у PHP 8.0.0.
 
-`reconnect`
-Дозволити або заборонити перепідключення (дивіться INI-директиву
-mysqli.reconnect)
+Властивість *видалено* у PHP 8.0.0.
 
-`report_mode`
-Встановити **`MYSQLI_REPORT_OFF`**, **`MYSQLI_REPORT_ALL`** або будь-яку
-комбінацію з **`MYSQLI_REPORT_STRICT`** (виклик винятків для помилок),
-**`MYSQLI_REPORT_ERROR`** (повідомлення про помилки) та
-**`MYSQLI_REPORT_INDEX`** (помилки, пов'язані з індексами). Дивіться
-також [mysqli_report()](function.mysqli-report.md).
+reconnect
+
+Дозволити або заборонити перепідключення (дивіться INI-директиву mysqli.reconnect)
+
+reportmode
+
+Встановити **`MYSQLI_REPORT_OFF`** **`MYSQLI_REPORT_ALL`** або будь-яку комбінацію з **`MYSQLI_REPORT_STRICT`** (виклик винятків для помилок), **`MYSQLI_REPORT_ERROR`** (повідомлення про помилки) та **`MYSQLI_REPORT_INDEX`** (Помилки, пов'язані з індексами). Дивіться також [mysqlireport()](function.mysqli-report.md)
 
 ## Зміст
 
-- [mysqli_driver::embedded_server_end](mysqli-driver.embedded-server-end.md)
-- Зупиняє вбудований сервер
-- [mysqli_driver::embedded_server_start](mysqli-driver.embedded-server-start.md)
-— Ініціалізує та запускає вбудований сервер
-- [mysqli_driver::$report_mode](mysqli-driver.report-mode.md) -
-Встановлює режим звіту про помилки mysqli
+-   [mysqlidriver::embeddedserverend](mysqli-driver.embedded-server-end.md) - Зупиняє вбудований сервер
+-   [mysqlidriver::embeddedserverstart](mysqli-driver.embedded-server-start.md) — Ініціалізує та запускає вбудований сервер
+-   [mysqlidriver::$reportmode](mysqli-driver.report-mode.md) — Встановлює режим звіту про помилки mysqli

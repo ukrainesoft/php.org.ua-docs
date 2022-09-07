@@ -1,20 +1,20 @@
-- [« Swoole\Table::column](swoole-table.column.md)
-- [Swoole\Table::count »](swoole-table.count.md)
+---
+navigation:
+  - swoole-table.column.md: '« SwooleTable::column'
+  - swoole-table.count.md: 'SwooleTable::count »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::construct'
+---
+# SwooleTable::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Створює таблицю пам'яті Swoole із фіксованим розміром
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::\_\_construct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::\_\_construct — Створює таблицю пам'яті Swoole з
-фіксованим розміром
+SwooleTable::construct — Створює таблицю пам'яті Swoole із фіксованим розміром
 
 ### Опис
 
-public **Swoole\Table::\_\_construct**(int `$table_size`)
+public **SwooleTable::construct**(int `$table_size`
 
 ### Список параметрів
 

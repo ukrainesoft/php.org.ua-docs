@@ -1,40 +1,56 @@
-- [« Yaf_Application::environ](yaf-application.environ.md)
-- [Yaf_Application::getAppDirectory »](yaf-application.getappdirectory.md)
+---
+navigation:
+  - yaf-application.environ.md: '« YafApplication::environ'
+  - yaf-application.getappdirectory.md: 'YafApplication::getAppDirectory »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
+title: 'YafApplication::execute'
+---
+# YafApplication::execute
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Запустити callback-функцію
+(Yaf >=1.0.0)
 
-# Yaf_Application::execute
-
-(Yaf \>=1.0.0)
-
-Yaf_Application::execute - Запустити callback-функцію
+YafApplication::execute — Запустити callback-функцію
 
 ### Опис
 
-public
-**Yaf_Application::execute**([callable](language.types.callable.md)
-`$entry`, string `...$args`): void
+```methodsynopsis
+public Yaf_Application::execute(callable $entry, string ...$args): void
+```
 
-Цей метод зазвичай використовується для запуску Yaf_Application через
-планувальник (Crontab). Завдання у crontab також може використовувати
-механізми autoloader та Bootstrap.
+Цей метод зазвичай використовується для запуску YafApplication через планувальник (crontab). Завдання crontab також може використовувати механізми autoloader і Bootstrap.
 
 ### Список параметрів
 
 `entry`
+
 Callback-функція
 
 `args`
+
 Параметри, які потрібно передати в цю функцію
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Application::execute()****
+**Приклад #1 Приклад використання **YafApplication::execute()****
 
-`<?phpfunction main($argc, $argv) {}$config = array(   "application" => array(        "directory" =>| ),  |  | * Yaf_Application */$application = new Yaf_Application($config);$application->execute("main", $argc, $argv);?> `
+```php
+<?php
+function main($argc, $argv) {
+}
+
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
+);
+
+/** Yaf_Application */
+$application = new Yaf_Application($config);
+$application->execute("main", $argc,  $argv);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:

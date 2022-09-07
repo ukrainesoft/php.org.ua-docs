@@ -1,10 +1,11 @@
-- [«Imagick::labelImage](imagick.labelimage.md)
-- [Imagick::linearStretchImage »](imagick.linearstretchimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Регулює рівні зображення
-
+---
+navigation:
+  - imagick.labelimage.md: '« Imagick::labelImage'
+  - imagick.linearstretchimage.md: 'Imagick::linearStretchImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::levelImage'
+---
 # Imagick::levelImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,42 +14,33 @@ Imagick::levelImage — Регулює рівні зображення
 
 ### Опис
 
-public **Imagick::levelImage**(
-float `$blackPoint`,
-float `$gamma`,
-float `$whitePoint`,
-int `$channel` = Imagick::CHANNEL_DEFAULT
-): bool
+```methodsynopsis
+public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Регулює рівні зображення, масштабуючи кольори, що потрапляють між
-зазначеними білими та чорними точками, до повного доступного квантового
-діапазону. Надані параметри є чорними, середніми.
-та білі точки. Чорна точка визначає найтемніший колір зображення.
-Кольори темніші за крапки чорного встановлюються на нуль. Середня точка
-визначає гамма-корекцію, що застосовується до зображення. Біла точка
-визначає найсвітліший колір зображення. Для квітів яскравіша за крапку білого
-встановлюється максимальне квантове значення.
+Регулює рівні зображення, масштабуючи кольори, що потрапляють між зазначеними білими та чорними точками, до доступного квантового діапазону. Надані параметри є чорними, середніми і білими точками. Чорна точка визначає темний колір зображення. Кольори темніші за крапку чорного встановлюються на нуль. Середня точка визначає гамма-корекцію, що застосовується до зображення. Біла точка визначає найсвітліший колір зображення. Для кольорів яскравіше крапки білого встановлюється максимальне квантове значення.
 
 ### Список параметрів
 
 `blackPoint`
+
 Чорна точка зображення.
 
 `gamma`
+
 Значення гами.
 
 `whitePoint`
+
 Білий точки зображення.
 
 `channel`
-Вкажіть будь-яку константу каналу, яка відповідає вашому режиму
-каналу. Щоб застосувати до одного каналу, об'єднайте константи
-типу каналу за допомогою бітових операторів. Зверніться до цього списку
-[констант каналу](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант канала](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -58,4 +50,19 @@ int `$channel` = Imagick::CHANNEL_DEFAULT
 
 **Приклад #1 Приклад використання **Imagick::levelImage()****
 
-` <?phpfunction levelImage($blackPoint, $gamma, $whitePoint) {    $imagick = new \Imagick(); $imagick->newPseudoimage(500, 500, 'gradient:black-white'); $imagick->setFormat('png'); $quantum==$imagick->getQuantum(); $imagick->levelImage($blackPoint / 100 , $gamma, $quantum * $whitePoint / 100); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function levelImage($blackPoint, $gamma, $whitePoint) {
+    $imagick = new \Imagick();
+    $imagick->newPseudoimage(500, 500, 'gradient:black-white');
+
+    $imagick->setFormat('png');
+    $quantum = $imagick->getQuantum();
+    $imagick->levelImage($blackPoint / 100 , $gamma, $quantum * $whitePoint / 100);
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

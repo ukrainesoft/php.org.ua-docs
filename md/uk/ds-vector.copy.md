@@ -1,19 +1,22 @@
-- [« Ds\Vector::contains](ds-vector.contains.md)
-- [Ds\Vector::count »](ds-vector.count.md)
+---
+navigation:
+  - ds-vector.contains.md: '« DsVector::contains'
+  - ds-vector.count.md: 'ДсVector::count »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::copy'
+---
+# ДсVector::copy
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає поверхневу копію вектора
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::copy
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::copy — Повертає поверхневу копію вектора
+ДсVector::copy — Повертає поверхневу копію вектора
 
 ### Опис
 
-public **Ds\Vector::copy**(): [Ds\Vector](class.ds-vector.md)
+```methodsynopsis
+public Ds\Vector::copy(): Ds\Vector
+```
 
 Повертає поверхневу копію вектора.
 
@@ -27,22 +30,35 @@ public **Ds\Vector::copy**(): [Ds\Vector](class.ds-vector.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::copy()****
+**Приклад #1 Приклад використання **ДсVector::copy()****
 
-` <?php$a = new \Ds\Vector([1, 2, 3]);$b = $a->copy();// Зміна копії не відбивається на оригіналі$b->push(4); print_r($a);print_r($b);?> `
+```php
+<?php
+$a = new \Ds\Vector([1, 2, 3]);
+$b = $a->copy();
+
+// Изменение копии не отражается на оригинале
+$b->push(4);
+
+print_r($a);
+print_r($b);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
 )
+```

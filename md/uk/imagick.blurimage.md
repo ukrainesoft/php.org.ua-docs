@@ -1,10 +1,11 @@
-- [« Imagick::blueShiftImage](imagick.blueshiftimage.md)
-- [Imagick::borderImage »](imagick.borderimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Додає фільтр розмиття до зображення
-
+---
+navigation:
+  - imagick.blueshiftimage.md: '« Imagick::blueShiftImage'
+  - imagick.borderimage.md: 'Imagick::borderImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::blurImage'
+---
 # Imagick::blurImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,28 +14,29 @@ Imagick::blurImage — Додає фільтр розмиття до зобра�
 
 ### Опис
 
-public **Imagick::blurImage**(float `$radius`, float `$sigma`, int
-`$channel` = ?): bool
+```methodsynopsis
+public Imagick::blurImage(float $radius, float $sigma, int $channel = ?): bool
+```
 
-Додає фільтр розмиття до зображення. Необов'язковий третій параметр
-служить для розмиття певного каналу.
+Додає фільтр розмиття до зображення. Необов'язковий третій параметр використовується для розмиття певного каналу.
 
 ### Список параметрів
 
 `radius`
+
 Радіус розмиття
 
 `sigma`
+
 Стандартне відхилення
 
 `channel`
-Константа
-[Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не
-вказано, що будуть розмиті всі канали.
+
+Константа [Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, будуть розмиті всі канали.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -42,17 +44,25 @@ public **Imagick::blurImage**(float `$radius`, float `$sigma`, int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::blurImage()**:**
+**Приклад #1 Приклад використання **Imagick::blurImage()****
 
 Розмиття зображення та надсилання його до браузера.
 
-` <?phpheader('Content-type: image/jpeg');$image = new Imagick('test.jpg');$image->blurImage(5,3);echo $image;?> `
+```php
+<?php
+
+header('Content-type: image/jpeg');
+
+$image = new Imagick('test.jpg');
+
+$image->blurImage(5,3);
+echo $image;
+
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) -
-Додає адаптивний фільтр розмиття до зображення
-- [Imagick::motionBlurImage()](imagick.motionblurimage.md) -
-Імітує розмиття у русі
-- [Imagick::radialBlurImage()](imagick.radialblurimage.md) -
-Радіальне розмиття зображення
+-   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) - Додає адаптивний фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення

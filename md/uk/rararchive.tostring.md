@@ -1,27 +1,26 @@
-- [« RarArchive::setAllowBroken](rararchive.setallowbroken.md)
-- [RarEntry »](class.rarentry.md)
+---
+navigation:
+  - rararchive.setallowbroken.md: '« RarArchive::setAllowBroken'
+  - class.rarentry.md: RarEntry »
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
+title: 'RarArchive::function toString() { \[native code\] }'
+---
+# RarArchive::function toString() { \[native code\] }
 
-- [PHP Manual](index.md)
-- [RarArchive](class.rararchive.md)
-- Отримати текстове уявлення
+(PECL rar >= 2.0.0)
 
-# RarArchive::\_\_toString
-
-(PECL rar \>= 2.0.0)
-
-RarArchive::\_\_toString — Отримати текстове уявлення
+RarArchive::toString — Отримати текстове уявлення
 
 ### Опис
 
-public **RarArchive::\_\_toString**(): string
+```methodsynopsis
+public RarArchive::__toString(): string
+```
 
-Повертає рядок, який представляє об'єкт
-[RarArchive](class.rararchive.md). Вона містить повний шлях до
-поточного відкритого тому архіву та інформацію про те, чи коректний ресурс
-або вже закрито за допомогою [RarArchive::close()](rararchive.close.md).
+Повертає рядок, що представляє об'єкт [RarArchive](class.rararchive.md). Вона містить повний шлях до поточного відкритого тому архіву та інформацію про те, чи коректний ресурс чи вже закритий за допомогою [RarArchive::close()](rararchive.close.md)
 
-Даний метод призначений тільки для налагодження, тому що немає жодного
-гарантії з чого складатиметься відповідь і як вона буде відформатована.
+Даний метод призначений тільки для налагодження, тому що немає жодної гарантії, з чого складатиметься відповідь і як він буде відформатований.
 
 ### Список параметрів
 
@@ -29,18 +28,24 @@ public **RarArchive::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Текстове представлення об'єкта [RarArchive](class.rararchive.md).
-Контент не визначено.
+Текстове подання об'єкта [RarArchive](class.rararchive.md). Контент не визначено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarArchive::\_\_toString()****
+**Приклад #1 Приклад використання **RarArchive::toString()****
 
-` <?php$rar_arch = RarArchive::open('latest_winrar.rar');echo $rar_arch."
-";$rar_arch->close();echo $rar_arch."
-";?> `
+```php
+<?php
+$rar_arch = RarArchive::open('latest_winrar.rar');
+echo $rar_arch."\n";
+$rar_arch->close();
+echo $rar_arch."\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-RAR Archive "D:\php_rar runk ests\latest_winrar.rar"
-RAR Archive "D:\php_rar runk ests\latest_winrar.rar" (closed)
+```
+RAR Archive "D:\php_rar\trunk\tests\latest_winrar.rar"
+RAR Archive "D:\php_rar\trunk\tests\latest_winrar.rar" (closed)
+```

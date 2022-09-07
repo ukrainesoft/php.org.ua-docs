@@ -1,97 +1,100 @@
-- [«odbc_procedurecolumns](function.odbc-procedurecolumns.md)
-- [odbc_result_all »](function.odbc-result-all.md)
-
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Отримує список процедур, що зберігаються у певному джерелі даних
-
-#odbc_procedures
+---
+navigation:
+  - function.odbc-procedurecolumns.md: « odbcprocedurecolumns
+  - function.odbc-result-all.md: odbcresultall »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcprocedures
+---
+# odbcprocedures
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_procedures — Отримує список процедур, що зберігаються у певному
-джерелі даних
+odbcprocedures — Отримує список процедур, які зберігаються у певному джерелі даних
 
 ### Опис
 
-**odbc_procedures**(
-resource `$odbc`,
-?string `$catalog` = **`null`**,
-?string `$schema` = **`null`**,
-?string `$procedure` = **`null`**
-): resource \ | false
+```methodsynopsis
+odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null): resource|false
+```
 
-Перелічує всі процедури в діапазоні.
+Перелічує всі процедури у запрошеному діапазоні.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
+
 Каталог ('qualifier' мовою ODBC 2).
 
 `schema`
-Схема ('owner' мовою ODBC 2). Цей параметр приймає такі
-шаблони пошуку: `%` відповідний нулю або більше символів, та `_`
-відповідний рівно одному символу.
+
+Схема ('owner' мовою ODBC 2). Цей параметр приймає такі шаблони пошуку: `%` відповідний нулю або більше символів, та `_` відповідний рівно одному символу.
 
 `procedure`
-Ім'я процедури. Цей параметр приймає такі шаблони пошуку: `%`
-відповідний нулю або більше символів, і `_` відповідний рівно
-один символ.
+
+Ім'я процедури. Цей параметр приймає такі шаблони пошуку: `%` відповідний нулю або більше символів, та `_` відповідний рівно одному символу.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC, який містить інформацію або
-**`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC, який містить інформацію або **`false`** у разі виникнення помилки.
 
 У результуючому наборі є такі стовпці:
 
-- `PROCEDURE_CAT`
-- `PROCEDURE_SCHEM`
-- `PROCEDURE_NAME`
-- `NUM_INPUT_PARAMS`
-- `NUM_OUTPUT_PARAMS`
-- `NUM_RESULT_SETS`
-- `REMARKS`
-- `PROCEDURE_TYPE`
+-   `PROCEDURE_CAT`
+-   `PROCEDURE_SCHEM`
+-   `PROCEDURE_NAME`
+-   `NUM_INPUT_PARAMS`
+-   `NUM_OUTPUT_PARAMS`
+-   `NUM_RESULT_SETS`
+-   `REMARKS`
+-   `PROCEDURE_TYPE`
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за PROCEDURE_CAT,
-`PROCEDURE_SCHEMA` та `PROCEDURE_NAME`.
+Результуючий набір впорядковується за `PROCEDURE_CAT` `PROCEDURE_SCHEMA` і `PROCEDURE_NAME`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                              |
-| ------ | --------------------------------------------------------------------------------- |
-| 8.0.0  | До цієї версії функцію можна було викликати лише з одним або чотирма аргументами. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії функцію можна було викликати лише з одним чи чотирма аргументами. |
 
 ### Приклади
 
-**Приклад #1 Перелік процедур бази даних**
+**Приклад #1 Перелік процедур бази даних, що зберігаються**
 
-` <?php$conn==odbc_connect($dsn, $user, $pass);$procedures = odbc_procedures($conn, $catalog, $schema, '%');while(($row = odbc_fetch_arra ) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+```php
+<?php
+$conn = odbc_connect($dsn, $user, $pass);
+$procedures = odbc_procedures($conn, $catalog, $schema, '%');
+while (($row = odbc_fetch_array($procedures))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[PROCEDURE_CAT] => TutorialDB
-[PROCEDURE_SCHEM] => dbo
-[PROCEDURE_NAME] => GetEmployeeSalesYTD;1
-[NUM_INPUT_PARAMS] => -1
-[NUM_OUTPUT_PARAMS] => -1
-[NUM_RESULT_SETS] => -1
-[REMARKS] =>
-[PROCEDURE_TYPE] => 2
+    [PROCEDURE_CAT] => TutorialDB
+    [PROCEDURE_SCHEM] => dbo
+    [PROCEDURE_NAME] => GetEmployeeSalesYTD;1
+    [NUM_INPUT_PARAMS] => -1
+    [NUM_OUTPUT_PARAMS] => -1
+    [NUM_RESULT_SETS] => -1
+    [REMARKS] =>
+    [PROCEDURE_TYPE] => 2
 )
+```
 
 ### Дивіться також
 
-- [odbc_procedurecolumns()](function.odbc-procedurecolumns.md) -
-Отримує інформацію про параметри процедур
-- [odbc_tables()](function.odbc-tables.md) - Отримує список імен
-таблиць, що зберігаються у певному джерелі даних
+-   [odbcprocedurecolumns()](function.odbc-procedurecolumns.md) - Отримує інформацію про параметри процедур
+-   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

@@ -1,13 +1,14 @@
-- [«Зумовлені константи](xsl.constants.md)
-- [Файли collection.xml та collection.xsl для прикладів »](xsl.examples-collection.md)
-
-- [PHP Manual](index.md)
-- [XSL](book.xsl.md)
-- Приклади
-
+---
+navigation:
+  - xsl.constants.md: « Обумовлені константи
+  - xsl.examples-collection.md: Файли collection.xml та collection.xsl для прикладів »
+  - index.md: PHP Manual
+  - book.xsl.md: XSL
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.md)
-- [Обробка помилок за допомогою функцій обробки помилок libxml](xsl.examples-errors.md)
+-   [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.md)
+-   [Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.md)

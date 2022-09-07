@@ -1,10 +1,11 @@
-- [« ReflectionMethod::isPrivate](reflectionmethod.isprivate.md)
-- [ReflectionMethod::isPublic »](reflectionmethod.ispublic.md)
-
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Перевіряє, чи є метод захищеним
-
+---
+navigation:
+  - reflectionmethod.isprivate.md: '« ReflectionMethod::isPrivate'
+  - reflectionmethod.ispublic.md: 'ReflectionMethod::isPublic »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::isProtected'
+---
 # ReflectionMethod::isProtected
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ReflectionMethod::isProtected — Перевіряє, чи є метод зах�
 
 ### Опис
 
-public **ReflectionMethod::isProtected**(): bool
+```methodsynopsis
+public ReflectionMethod::isProtected(): bool
+```
 
 Перевіряє, чи є метод захищеним.
 
@@ -23,9 +26,8 @@ public **ReflectionMethod::isProtected**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо метод захищений, **`false`** інакше.
+**`true`**, якщо метод захищений, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) -
-Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) - Перевіряє, чи є метод закритим

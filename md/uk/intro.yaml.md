@@ -1,12 +1,11 @@
-- [« Yaml](book.yaml.md)
-- [Встановлення та налаштування »](yaml.setup.md)
-
-- [PHP Manual](index.md)
-- [Yaml](book.yaml.md)
--   Вступ
-
+---
+navigation:
+  - book.yaml.md: « Yaml
+  - yaml.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.yaml.md: Yaml
+title: Вступ
+---
 # Вступ
 
-Модуль реалізує стандарт серіалізації даних [» YAML Ain't Markup
-Language (YAML)](http://www.yaml.org/). Для обробки даних
-використовується [Бібліотека LibYAML](http://pyyaml.org/wiki/LibYAML) .
+Модуль реалізує стандарт серіалізації даних [» YAML Ain't Markup Language (YAML)](http://www.yaml.org/). Для обробки даних використовується [» библиотека LibYAML](http://pyyaml.org/wiki/LibYAML)

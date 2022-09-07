@@ -1,25 +1,26 @@
-- [« Yaf_Loader::getInstance](yaf-loader.getinstance.md)
-- [Yaf_Loader::getLocalNamespace »](yaf-loader.getlocalnamespace.md)
+---
+navigation:
+  - yaf-loader.getinstance.md: '« YafLoader::getInstance'
+  - yaf-loader.getlocalnamespace.md: 'YafLoader::getLocalNamespace »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
+title: 'YafLoader::getLibraryPath'
+---
+# YafLoader::getLibraryPath
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Отримує шлях до бібліотеки
+(Yaf> = 2.1.4)
 
-# Yaf_Loader::getLibraryPath
-
-(Yaf \> = 2.1.4)
-
-Yaf_Loader::getLibraryPath — Отримує шлях до бібліотеки
+YafLoader::getLibraryPath — Отримує шлях до бібліотеки
 
 ### Опис
 
-public **Yaf_Loader::getLibraryPath**(bool `$is_global` = **`false`**):
-[Yaf_Loader](class.yaf-loader.md)
+```methodsynopsis
+public Yaf_Loader::getLibraryPath(bool $is_global = false): Yaf_Loader
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

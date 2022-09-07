@@ -1,30 +1,34 @@
-- [«EvWatcher::getLoop](evwatcher.getloop.md)
-- [EvWatcher::keepalive »](evwatcher.keepalive.md)
-
-- [PHP Manual](index.md)
-- [EvWatcher](class.evwatcher.md)
-- Викликає callback-функцію спостерігача із заданою бітовою маскою
-прийнятих подій
-
+---
+navigation:
+  - evwatcher.getloop.md: '« EvWatcher::getLoop'
+  - evwatcher.keepalive.md: 'EvWatcher::keepalive »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::invoke'
+---
 # EvWatcher::invoke
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvWatcher::invoke — Викликає callback-функцію спостерігача із заданою
-бітовою маскою прийнятих подій
+EvWatcher::invoke — Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій
 
 ### Опис
 
-public **EvWatcher::invoke**( int `$revents` ): void
+```methodsynopsis
+public
+   EvWatcher::invoke(
+    int
+     $revents
+   ): void
+```
 
-Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих
-подій.
+Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій.
 
 ### Список параметрів
 
 `revents`
-Бітова маска спостерігача
-подій](class.ev.md#ev.constants.watcher-revents).
+
+Бітова маска спостерігача [прийнятих подій](class.ev.md#ev.constants.watcher-revents)
 
 ### Значення, що повертаються
 

@@ -1,10 +1,11 @@
-- [«Client::\_\_construct](mysql-xdevapi-client.construct.md)
-- [mysql_xdevapi\Collection »](class.mysql-xdevapi-collection.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Client](class.mysql-xdevapi-client.md)
-- отримує сеанс клієнта
-
+---
+navigation:
+  - mysql-xdevapi-client.construct.md: '« Client::construct'
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-client.md: mysqlxdevapiClient
+title: 'Client::getClient'
+---
 # Client::getClient
 
 (No version information available, might only be in Git)
@@ -13,8 +14,9 @@ Client::getClient — Отримує сеанс клієнта
 
 ### Опис
 
-public **mysql_xdevapi\Client::getSession**():
-[mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
+```methodsynopsis
+public mysql_xdevapi\Client::getSession(): mysql_xdevapi\Session
+```
 
 Отримує сеанс, пов'язаний із клієнтом.
 

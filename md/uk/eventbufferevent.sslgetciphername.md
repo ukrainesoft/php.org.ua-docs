@@ -1,27 +1,29 @@
-- [« EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md)
-- [EventBufferEvent::sslGetCipherVersion »](eventbufferevent.sslgetcipherversion.md)
-
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Повертає поточне ім'я шифру з'єднання SSL
-
+---
+navigation:
+  - eventbufferevent.sslgetcipherinfo.md: '« EventBufferEvent::sslGetCipherInfo'
+  - eventbufferevent.sslgetcipherversion.md: 'EventBufferEvent::sslGetCipherVersion »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::sslGetCipherName'
+---
 # EventBufferEvent::sslGetCipherName
 
-(PECL event \>= 1.10.0)
+(PECL event >= 1.10.0)
 
-EventBufferEvent::sslGetCipherName — Повертає поточне ім'я шифру
-з'єднання SSL
+EventBufferEvent::sslGetCipherName — Повертає поточне ім'я шифру з'єднання SSL
 
 ### Опис
 
-public **EventBufferEvent::sslGetCipherName**(): string
+```methodsynopsis
+public
+   EventBufferEvent::sslGetCipherName(): string
+```
 
-Отримує ім'я шифру, який використовує поточне з'єднання SSL.
+Отримує ім'я шифру, який використовується поточним з'єднанням SSL.
 
-> **Примітка**:
->
-> Функція доступна, тільки якщо `Event` скомпільовано з підтримкою
-> OpenSSL.
+> **Зауваження**
+> 
+> Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
 ### Список параметрів
 
@@ -29,5 +31,4 @@ public **EventBufferEvent::sslGetCipherName**(): string
 
 ### Значення, що повертаються
 
-Повертає поточне ім'я шифру SSL-з'єднання або **`false`** у разі
-виникнення помилки.
+Повертає поточне ім'я шифру SSL-з'єднання або **`false`** у разі виникнення помилки.

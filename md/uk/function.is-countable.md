@@ -1,54 +1,56 @@
-- [«is_callable](function.is-callable.md)
-- [is_double »](function.is-double.md)
+---
+navigation:
+  - function.is-callable.md: « iscallable
+  - function.is-double.md: ісdouble »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісcountable
+---
+# ісcountable
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевірити, що вміст змінної є лічильним значенням
+(PHP 7> = 7.3.0, PHP 8)
 
-#is_countable
-
-(PHP 7 \>= 7.3.0, PHP 8)
-
-is_countable — Перевірити, чи є вміст змінною.
-значенням
+ісcountable — Перевірити, що вміст змінної є лічильним значенням
 
 ### Опис
 
-**is_countable**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_countable(mixed $value): bool
+```
 
-Перевірте, що вміст змінної масив (array) або об'єкт,
-реалізує [Countable](class.countable.md)
+Перевірити, чи вміст змінної масив (array) або об'єкт, що реалізує [Countable](class.countable.md)
 
 ### Список параметрів
 
 `value`
+
 Значення для перевірки
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` лічильна або **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо `value` лічильна або **`false`** в іншому випадку.
 
-### Список змін
+### список змін
 
-| Версія | Опис                               |
-|--------|------------------------------------|
-| 7.3.0  | Додано функцію **is_countable()**. |
+| Версия | Описание |
+| --- | --- |
+|  | Додана функція **ісcountable()** |
 
 ### Приклади
 
-**Приклад #1 Приклади використання **is_countable()****
+**Приклад #1 Приклади використання **ісcountable()****
 
-`<?phpvar_dump(is_countable([1, 2, 3])); //bool(true)var_dump(is_countable(newArrayIterator(['foo', 'bar','baz'])))); //bool(true)var_dump(is_countable(newArrayIterator())); //bool(true)var_dump(is_countable(newstdClass())); //bool(false) `
+```php
+<?php
+var_dump(is_countable([1, 2, 3])); // bool(true)
+var_dump(is_countable(new ArrayIterator(['foo', 'bar', 'baz']))); // bool(true)
+var_dump(is_countable(new ArrayIterator())); // bool(true)
+var_dump(is_countable(new stdClass())); // bool(false)
+```
 
 ### Дивіться також
 
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
-- [is_iterable()](function.is-iterable.md) - Перевіряє, чи є
-змінна ітерована
-- [is_bool()](function.is-bool.md) - Перевіряє, чи є
-змінна булева
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
+-   [ісiterable()](function.is-iterable.md) - Перевіряє, чи є змінна, що ітерується.
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою

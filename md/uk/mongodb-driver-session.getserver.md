@@ -1,31 +1,26 @@
-- [« MongoDB\Driver\Session::getOperationTime](mongodb-driver-session.getoperationtime.md)
-- [MongoDB\Driver\Session::getTransactionOptions »](mongodb-driver-session.gettransactionoptions.md)
+---
+navigation:
+  - mongodb-driver-session.getoperationtime.md: '« MongoDBDriverSession::getOperationTime'
+  - mongodb-driver-session.gettransactionoptions.md: 'MongoDBDriverSession::getTransactionOptions »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
+title: 'MongoDBDriverSession::getServer'
+---
+# MongoDBDriverSession::getServer
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Повертає сервер, до якого прив'язана поточна сесія
+(mongodb >=1.6.0)
 
-# MongoDB\Driver\Session::getServer
-
-(mongodb \>=1.6.0)
-
-MongoDB\Driver\Session::getServer - Повертає сервер до якого
-прив'язана поточна сесія
+MongoDBDriverSession::getServer — Повертає сервер, до якого прив'язана поточна сесія.
 
 ### Опис
 
-final public **MongoDB\Driver\Session::getServer**():
-?[MongoDB\Driver\Server](class.mongodb-driver-server.md)
+```methodsynopsis
+final public MongoDB\Driver\Session::getServer(): ?MongoDB\Driver\Server
+```
 
-Повертає [MongoDB\Driver\Server](class.mongodb-driver-server.md), до
-котрому прив'язана поточна сесія. Якщо сесія не прив'язана до сервера,
-то буде повернено **`null`**.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md)до якого прив'язана поточна сесія. Якщо сесія не прив'язана до сервера, то буде повернено **`null`**
 
-Прив'язка сесії в основному використовується для шардованих транзакцій,
-тому що всі команди повинні йти на один і той самий екземпляр mongos. Цей
-метод призначений для використання в бібліотеках, побудованих поверх
-модуля, щоб можна було закріпити сервер, а не вибирати сервер для
-кожної наступної команди.
+Прив'язка сесії в основному використовується для шардованих транзакцій, тому що всі команди повинні йти на той самий екземпляр mongos. Цей метод призначений для використання в бібліотеках, побудованих поверх модуля, щоб можна було закріпити сервер, а не вибирати сервер кожної наступної команди.
 
 ### Список параметрів
 
@@ -33,11 +28,8 @@ final public **MongoDB\Driver\Session::getServer**():
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\Driver\Server](class.mongodb-driver-server.md) до
-якому прикріплено сесію. Або **`null`**, якщо сесія не прикріплена
-ні до якого сервера.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md) до якого прикріплено сесію. Або **`null`**, якщо сесія не прикріплена до жодного сервера.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

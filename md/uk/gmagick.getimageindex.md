@@ -1,23 +1,24 @@
-- [« Gmagick::getimagehistogram](gmagick.getimagehistogram.md)
-- [Gmagick::getimageinterlacescheme »](gmagick.getimageinterlacescheme.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає індекс поточного активного зображення
-
+---
+navigation:
+  - gmagick.getimagehistogram.md: '« Gmagick::getimagehistogram'
+  - gmagick.getimageinterlacescheme.md: 'Gmagick::getimageinterlacescheme »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimageindex'
+---
 # Gmagick::getimageindex
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimageindex — Повертає індекс поточного активного
-зображення
+Gmagick::getimageindex — Повертає індекс активного поточного зображення.
 
 ### Опис
 
-public **Gmagick::getimageindex**(): int
+```methodsynopsis
+public Gmagick::getimageindex(): int
+```
 
-Повертає індекс активного поточного зображення в об'єкті
-[Gmagick](class.gmagick.md).
+Повертає індекс активного поточного зображення в об'єкті [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 

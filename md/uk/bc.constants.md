@@ -1,10 +1,11 @@
-- [« Типи ресурсів](bc.resources.md)
-- [Функції BC Math »](ref.bc.md)
-
-- [PHP Manual](index.md)
-- [BC Math](book.bc.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - bc.resources.md: « Типи ресурсів
+  - ref.bc.md: Функции BC Math »
+  - index.md: PHP Manual
+  - book.bc.md: BC Math
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

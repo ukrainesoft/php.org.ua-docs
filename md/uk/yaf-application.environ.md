@@ -1,22 +1,24 @@
-- [« Yaf_Application::\_\_destruct](yaf-application.destruct.md)
-- [Yaf_Application::execute »](yaf-application.execute.md)
+---
+navigation:
+  - yaf-application.destruct.md: '« YafApplication::destruct'
+  - yaf-application.execute.md: 'YafApplication::execute »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
+title: 'YafApplication::environ'
+---
+# YafApplication::environ
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Отримати значення оточення
+(Yaf >=1.0.0)
 
-# Yaf_Application::environ
-
-(Yaf \>=1.0.0)
-
-Yaf_Application::environ — Отримати значення оточення
+YafApplication::environ — Отримати значення оточення
 
 ### Опис
 
-public **Yaf_Application::environ**(): void
+```methodsynopsis
+public Yaf_Application::environ(): void
+```
 
-Отримати значення оточення з yaf.environ, яке за умовчанням дорівнює
-"product".
+Отримати значення оточення з yaf.environ, яке за умовчанням дорівнює "product".
 
 ### Список параметрів
 
@@ -26,10 +28,24 @@ public **Yaf_Application::environ**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Application::environ()****
+**Приклад #1 Приклад використання **YafApplication::environ()****
 
-`<?php$config = array(   ""application" => array(       "directory" =>>realpath(dirname(__FILE__)) . "/application", Y $config);print_r($application->environ());?> `
+```php
+<?php
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
+);
+
+/** Yaf_Application */
+$application = new Yaf_Application($config);
+print_r($application->environ());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 product
+```

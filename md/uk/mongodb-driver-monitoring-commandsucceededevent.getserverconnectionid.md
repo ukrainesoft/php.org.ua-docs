@@ -1,28 +1,24 @@
-- [« MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer](mongodb-driver-monitoring-commandsucceededevent.getserver.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId »](mongodb-driver-monitoring-commandsucceededevent.getserviceid.md)
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getserver.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getServer'
+  - mongodb-driver-monitoring-commandsucceededevent.getserviceid.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getServiceId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId'
+---
+# MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md)
-- Повертає ідентифікатор з'єднання із сервером для команди
+(mongodb >=1.14.0)
 
-# MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId
-
-(mongodb \>=1.14.0)
-
-MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId -
-Повертає ідентифікатор з'єднання із сервером для команди
+MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId — Повертає ідентифікатор з'єднання з сервером для команди
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId**():
-?int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId(): ?int
+```
 
-Повертає ідентифікатор з'єднання із сервером для команди.
-Ідентифікатор з'єднання із сервером відрізняється від сервера (тобто.
-[MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer()](mongodb-driver-monitoring-commandsucceededevent.getserver.md))
-і повертається в поле "connectionId" з відповіді команди `hello` до MongoDB
-4.2+.
+Повертає ідентифікатор з'єднання із сервером для команди. Ідентифікатор з'єднання з сервером відрізняється від сервера (тобто . [MongoDBDriverMonitoringCommandSucceededEvent::getServer()](mongodb-driver-monitoring-commandsucceededevent.getserver.md)) і повертається у поле "connectionId" з відповіді команди `hello` у MongoDB 4.2+.
 
 ### Список параметрів
 
@@ -30,10 +26,8 @@ final public
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор з'єднання із сервером або **`null`**, якщо він
-недоступний.
+Повертає ідентифікатор з'єднання із сервером або \*\*`null`\*\*якщо він недоступний.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

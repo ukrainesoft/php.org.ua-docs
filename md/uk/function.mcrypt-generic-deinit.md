@@ -1,44 +1,40 @@
-- [«mcrypt_encrypt](function.mcrypt-encrypt.md)
-- [mcrypt_generic_init »](function.mcrypt-generic-init.md)
+---
+navigation:
+  - function.mcrypt-encrypt.md: « mcryptencrypt
+  - function.mcrypt-generic-init.md: mcryptgenericinit »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptgenericdeinit
+---
+# mcryptgenericdeinit
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Ця функція деініціалізує модуль шифрування
+(PHP 4 >= 4.0.7, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_generic_deinit
-
-(PHP 4 \>= 4.0.7, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_generic_deinit — Ця функція деініціалізує модуль шифрування
+mcryptgenericdeinit — Ця функція деініціалізує модуль шифрування
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_generic_deinit**(resource `$td`): bool
+```methodsynopsis
+mcrypt_generic_deinit(resource $td): bool
+```
 
-Ця функція перериває шифрування, задане дескриптором шифрування
-(`td`). Вона очищає всі буфери, але не закриває модуль. Для закриття
-модуля ви повинні самостійно викликати
-[mcrypt_module_close()](function.mcrypt-module-close.md), або він
-буде автоматично закрито після завершення роботи скрипта.
+Ця функція перериває шифрування, задане дескриптором шифрування (`td`). Вона очищує всі буфери, але не закриває модуль. Для закриття модуля ви повинні самостійно викликати [mcryptmoduleclose()](function.mcrypt-module-close.md), або його буде автоматично закрито після завершення роботи скрипта.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [mcrypt_module_open()](function.mcrypt-module-open.md) - Відкриває
-модуль шифрування з використанням вказаних алгоритму та режиму
-- [mcrypt_generic_init()](function.mcrypt-generic-init.md) - Функція
-ініціалізує всі буфери, необхідні для шифрування
+-   [mcryptmoduleopen()](function.mcrypt-module-open.md) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcryptgenericinit()](function.mcrypt-generic-init.md) - Функція ініціалізує всі буфери, необхідні для шифрування

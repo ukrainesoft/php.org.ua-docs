@@ -1,32 +1,28 @@
-- [«ob_flush](function.ob-flush.md)
-- [ob_get_contents »](function.ob-get-contents.md)
+---
+navigation:
+  - function.ob-flush.md: « obflush
+  - function.ob-get-contents.md: проgetcontents »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проgetclean
+---
+# проgetclean
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Отримати вміст поточного буфера та видалити його
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#ob_get_clean
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-ob_get_clean — Отримати вміст поточного буфера та видалити його
+проgetclean — Отримати вміст поточного буфера та видалити його.
 
 ### Опис
 
-**ob_get_clean**(): string\|false
+```methodsynopsis
+ob_get_clean(): string|false
+```
 
 Отримує вміст поточного буфера, а потім видаляє поточний буфер.
 
-**ob_get_clean()** по суті виконує
-[ob_get_contents()](function.ob-get-contents.md) та
-[ob_end_clean()](function.ob-end-clean.md).
+**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.md) і [проendclean()](function.ob-end-clean.md)
 
-Буфер виводу має запускатися функцією
-[ob_start()](function.ob-start.md) із прапорами
-[PHP_OUTPUT_HANDLER_CLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable)
-і
-[PHP_OUTPUT_HANDLER_REMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable).
-Інакше **ob_get_clean()** не спрацює.
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
 
 ### Список параметрів
 
@@ -34,22 +30,33 @@ ob_get_clean — Отримати вміст поточного буфера т�
 
 ### Значення, що повертаються
 
-Повертає вміст буфера виводу та закінчує буферизацію виводу.
-Якщо буферизація виводу не активована, то функція поверне ** false **.
+Повертає вміст буфера виводу та закінчує буферизацію виводу. Якщо буферизація виводу не активована, то функція поверне **`false`**
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання функції **ob_get_clean()****
+**Приклад #1 Простий приклад використання функції **проgetclean()****
 
-` <?phpob_start();echo "Привіт світ";$out = ob_get_clean();$out = strtolower($out);var_dump($out);?> `
+```php
+<?php
+
+ob_start();
+
+echo "Привет мир";
+
+$out = ob_get_clean();
+$out = strtolower($out);
+
+var_dump($out);
+?>
+```
 
 Результат виконання цього прикладу:
 
-
-string(11) "привіт світ"
+```
+string(11) "привет мир"
+```
 
 ### Дивіться також
 
-- [ob_get_contents()](function.ob-get-contents.md) - Повертає
-вміст буфера виводу
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу

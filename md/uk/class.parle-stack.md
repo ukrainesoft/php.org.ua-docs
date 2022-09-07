@@ -1,56 +1,70 @@
-- [« Parle\RParser::validate](parle-rparser.validate.md)
-- [Parle\Stack::pop »](parle-stack.pop.md)
+---
+navigation:
+  - parle-rparser.validate.md: '« ParleRParser::validate'
+  - parle-stack.pop.md: 'ParleStack::pop »'
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleStack
+---
+# Клас ParleStack
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
-- Клас Parle\Stack
-
-# Клас Parle\Stack
-
-(PECL parle \>= 0.7.0)
+(PECL parle >= 0.7.0)
 
 ## Вступ
 
-**Parle\Stack** - це стек LIFO. Елементи додаються та видаляються тільки
-з одного кінця.
+**ParleStack** - Це стек LIFO. Елементи додаються та видаляються лише з одного кінця.
 
 ## Огляд класів
 
-class **Parle\Stack** {
+```classsynopsis
 
-/\* Властивості \*/
 
-public bool `$empty` = **`true`**;
 
-public int `$size` = 0;
+    
+     
+      class Parle\Stack
+     
+     {
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$top`;
 
-/\* Методи \*/
+    /* Свойства */
+    
+     public
+     bool
+      $empty = true;
 
-public [pop](parle-stack.pop.md)(): void
+    public
+     int
+      $size = 0;
 
-public
-[push](parle-stack.push.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$item`): void
+    public
+     mixed
+      $top;
 
-}
+
+    /* Методы */
+    
+   public pop(): void
+public push(mixed $item): void
+
+   }
+```
 
 ## Властивості
 
-`empty`
+empty
+
 Чи є стек порожнім, лише читання.
 
-`size`
-Розмір стека, тільки читання.
+size
 
-`top`
+Розмір стека тільки для читання.
+
+top
+
 Елемент на початку стеку.
 
 ## Зміст
 
-- [Parle\Stack::pop](parle-stack.pop.md) — Витягує предмет з
-стеку
-- [Parle\Stack::push](parle-stack.push.md) — Поміщає елемент у стек
+-   [ParleStack::pop](parle-stack.pop.md) — Витягує предмет із стеку
+-   [ParleStack::push](parle-stack.push.md) — Поміщає елемент у стек

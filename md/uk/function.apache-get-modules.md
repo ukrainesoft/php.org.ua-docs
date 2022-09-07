@@ -1,20 +1,22 @@
-- [«apache_child_terminate](function.apache-child-terminate.md)
-- [apache_get_version »](function.apache-get-version.md)
+---
+navigation:
+  - function.apache-child-terminate.md: « apachechildterminate
+  - function.apache-get-version.md: apachegetversion »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apachegetmodules
+---
+# apachegetmodules
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Повертає список завантажених модулів сервера Apache
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-#apache_get_modules
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-apache_get_modules — Повертає список завантажених модулів сервера
-Apache
+apachegetmodules — Повертає список завантажених модулів сервера Apache
 
 ### Опис
 
-**apache_get_modules**(): array
+```methodsynopsis
+apache_get_modules(): array
+```
 
 Повертає список завантажених модулів сервера Apache.
 
@@ -28,18 +30,24 @@ Apache
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apache_get_modules()****
+**Приклад #1 Приклад використання **apachegetmodules()****
 
-` <?phpprint_r(apache_get_modules());?> `
+```php
+<?php
+print_r(apache_get_modules());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => core
-[1] => http_core
-[2] => mod_so
-[3] => sapi_apache2
-[4] => mod_mime
-[5] => mod_rewrite
+    [0] => core
+    [1] => http_core
+    [2] => mod_so
+    [3] => sapi_apache2
+    [4] => mod_mime
+    [5] => mod_rewrite
 )
+```

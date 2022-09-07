@@ -1,25 +1,29 @@
-- [« Parle\Parser::errorInfo](parle-parser.errorinfo.md)
-- [Parle\Parser::nonassoc »](parle-parser.nonassoc.md)
+---
+navigation:
+  - parle-parser.errorinfo.md: '« ParleParser::errorInfo'
+  - parle-parser.nonassoc.md: 'ParleParser::nonassoc »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::left'
+---
+# ParleParser::left
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Оголошує токен з лівою асоціативністю
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::left
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::left — Оголошує токен з лівою асоціативністю
+ParleParser::left - Оголошує токен з лівою асоціативністю
 
 ### Опис
 
-public **Parle\Parser::left**(string `$tok`): void
+```methodsynopsis
+public Parle\Parser::left(string $tok): void
+```
 
 Оголошує токен з лівою асоціативністю.
 
 ### Список параметрів
 
 `tok`
+
 Ім'я токена.
 
 ### Значення, що повертаються

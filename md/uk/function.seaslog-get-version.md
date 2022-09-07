@@ -1,19 +1,22 @@
-- [«seaslog_get_author](function.seaslog-get-author.md)
-- [SeasLog »](class.seaslog.md)
+---
+navigation:
+  - function.seaslog-get-author.md: « seasloggetauthor
+  - class.seaslog.md: SeasLog »
+  - index.md: PHP Manual
+  - ref.seaslog.md: Функции Seaslog
+title: seasloggetversion
+---
+# seasloggetversion
 
-- [PHP Manual](index.md)
-- [Функції Seaslog](ref.seaslog.md)
-- Отримує версію SeasLog
+(PECL seaslog >=1.0.0)
 
-# seaslog_get_version
-
-(PECL seaslog \>=1.0.0)
-
-seaslog_get_version — Отримує версію SeasLog
+seasloggetversion — Отримує версію SeasLog
 
 ### Опис
 
-**seaslog_get_version**(): string
+```methodsynopsis
+seaslog_get_version(): string
+```
 
 ### Список параметрів
 
@@ -21,14 +24,22 @@ seaslog_get_version — Отримує версію SeasLog
 
 ### Значення, що повертаються
 
-Повертає версію SeasLog (SEASLOG_VERSION) у вигляді рядка.
+Повертає версію SeasLog (SEASLOGVERSION) у вигляді рядка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **seaslog_get_version()****
+**Приклад #1 Приклад використання **seasloggetversion()****
 
-` <?phpvar_dump(seaslog_get_version());?> `
+```php
+<?php
+
+var_dump(seaslog_get_version());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(5) "1.8.4"
+```

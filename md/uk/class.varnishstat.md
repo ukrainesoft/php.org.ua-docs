@@ -1,31 +1,39 @@
-- [« VarnishAdmin::stop](varnishadmin.stop.md)
-- [VarnishStat::\_\_construct »](varnishstat.construct.md)
-
-- [PHP Manual](index.md)
-- [Varnish](book.varnish.md)
-- Клас VarnishStat
-
+---
+navigation:
+  - varnishadmin.stop.md: '« VarnishAdmin::stop'
+  - varnishstat.construct.md: 'VarnishStat::construct »'
+  - index.md: PHP Manual
+  - book.varnish.md: Varnish
+title: Клас VarnishStat
+---
 # Клас VarnishStat
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
 ## Вступ
 
 ## Огляд класів
 
-class **VarnishStat** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](varnishstat.construct.md)(array `$args` = ?)
 
-public [getSnapshot](varnishstat.getsnapshot.md)(): array
+    
+     
+      class VarnishStat
+     
+     {
 
-}
+
+    /* Методы */
+    
+   public __construct(array $args = ?)
+public getSnapshot(): array
+
+   }
+```
 
 ## Зміст
 
-- [VarnishStat::\_\_construct](varnishstat.construct.md) -
-Конструктор VarnishStat
-- [VarnishStat::getSnapshot](varnishstat.getsnapshot.md) — Отримати
-знімок статистики поточного екземпляра varnish
+-   [VarnishStat::construct](varnishstat.construct.md) - Конструктор VarnishStat
+-   [VarnishStat::getSnapshot](varnishstat.getsnapshot.md) — Отримати фотографію статистики поточного екземпляра varnish

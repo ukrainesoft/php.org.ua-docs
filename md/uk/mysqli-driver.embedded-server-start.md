@@ -1,36 +1,37 @@
-- [« mysqli_driver::embedded_server_end](mysqli-driver.embedded-server-end.md)
-- [mysqli_driver::$report_mode »](mysqli-driver.report-mode.md)
+---
+navigation:
+  - mysqli-driver.embedded-server-end.md: '« mysqlidriver::embeddedserverend'
+  - mysqli-driver.report-mode.md: 'mysqlidriver::$reportmode »'
+  - index.md: PHP Manual
+  - class.mysqli-driver.md: mysqlidriver
+title: 'mysqlidriver::embeddedserverstart'
+---
+# mysqlidriver::embeddedserverstart
 
-- [PHP Manual](index.md)
-- [mysqli_driver](class.mysqli-driver.md)
-- Ініціалізує та запускає вбудований сервер
+# mysqliembeddedserverstart
 
-# mysqli_driver::embedded_server_start
+(PHP 5> = 5.1.0, PHP 7 <7.4.0)
 
-# mysqli_embedded_server_start
-
-(PHP 5 \>= 5.1.0, PHP 7 \< 7.4.0)
-
-mysqli_driver::embedded_server_start -- mysqli_embedded_server_start --
-Ініціалізує та запускає вбудований сервер
+mysqlidriver::embeddedserverstart - mysqliembeddedserverstart — Ініціалізує та запускає вбудований сервер
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 7.4.0.
+Ця функція була *ВИДАЛЕНО* у PHP 7.4.0.
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_driver::embedded_server_start**(int `$start`, array
-`$arguments`, array `$groups`): bool
+```methodsynopsis
+public mysqli_driver::embedded_server_start(int $start, array $arguments, array $groups): bool
+```
 
 Процедурний стиль
 
-**mysqli_embedded_server_start**(int `$start`, array `$arguments`, array
-`$groups`): bool
+```methodsynopsis
+mysqli_embedded_server_start(int $start, array $arguments, array $groups): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

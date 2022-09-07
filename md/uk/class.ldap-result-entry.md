@@ -1,21 +1,34 @@
-- [«LDAP\Result](class.ldap-result.md)
-- [Memcache »](book.memcache.md)
+---
+navigation:
+  - class.ldap-result.md: « LDAPResult
+  - book.memcache.md: Memcache »
+  - index.md: PHP Manual
+  - book.ldap.md: LDAP
+title: Клас LDAPResultEntry
+---
+# Клас LDAPResultEntry
 
-- [PHP Manual](index.md)
-- [LDAP](book.ldap.md)
-- Клас LDAP\ResultEntry
-
-# Клас LDAP\ResultEntry
-
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `ldap result entry` в
-PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `ldap result entry` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **LDAP\ResultEntry** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class LDAP\ResultEntry
+     
+     {
+    
+
+   }
+```

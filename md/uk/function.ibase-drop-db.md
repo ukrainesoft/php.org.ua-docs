@@ -1,39 +1,36 @@
-- [« ibase_delete_user](function.ibase-delete-user.md)
-- [ibase_errcode »](function.ibase-errcode.md)
+---
+navigation:
+  - function.ibase-delete-user.md: « ibasedeleteuser
+  - function.ibase-errcode.md: ibaseerrcode »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasedropдб
+---
+# ibasedropдб
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Видаляє базу даних
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_drop_db
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_drop_db — Видаляє базу даних
+ibasedropdb — Видалення бази даних
 
 ### Опис
 
-**ibase_drop_db**(resource `$connection` = **`null`**): bool
+```methodsynopsis
+ibase_drop_db(resource $connection = null): bool
+```
 
-Функція видаляє базу даних, яка була відкрита або за допомогою
-[ibase_connect()](function.ibase-connect.md), або
-[ibase_pconnect()](function.ibase-pconnect.md). База даних
-закривається та видаляється з сервера.
+Функція видаляє базу даних, яка була відкрита або за допомогою [ibaseconnect()](function.ibase-connect.md), або [ibasepconnect()](function.ibase-pconnect.md). База даних закривається та видаляється з сервера.
 
 ### Список параметрів
 
 `connection`
-Ідентифікатор посилання на InterBase. Якщо не вказано, передбачається остання
-відкрите посилання.
+
+Ідентифікатор посилання InterBase. Якщо не вказано, передбачається останнє відкрите посилання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ibase_connect()](function.ibase-connect.md) - Відкриває
-з'єднання з базою даних
-- [ibase_pconnect()](function.ibase-pconnect.md) - Відкриває
-постійне з'єднання з базою даних InterBase
+-   [ibaseconnect()](function.ibase-connect.md) - Відкриває з'єднання з базою даних
+-   [ibasepconnect()](function.ibase-pconnect.md) - Відкриває постійне з'єднання з базою даних InterBase

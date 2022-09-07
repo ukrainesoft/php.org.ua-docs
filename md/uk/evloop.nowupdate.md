@@ -1,26 +1,25 @@
-- [«EvLoop::now](evloop.now.md)
-- [EvLoop::periodic »](evloop.periodic.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Встановлює поточний час, запитуючи ядро, оновлюючи час,
-повертається EvLoop::now у процесі
-
+---
+navigation:
+  - evloop.now.md: '« EvLoop::now'
+  - evloop.periodic.md: 'EvLoop::periodic »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::nowUpdate'
+---
 # EvLoop::nowUpdate
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::nowUpdate — Встановлює поточний час, запитуючи ядро,
-оновлюючи час, що повертається EvLoop::now у процесі
+EvLoop::nowUpdate — Встановлює поточний час, запитуючи ядро, оновлюючи час, що повертається EvLoop::now у процесі
 
 ### Опис
 
-public **EvLoop::nowUpdate**(): void
+```methodsynopsis
+public
+   EvLoop::nowUpdate(): void
+```
 
-Встановлює поточний час, запитуючи ядро, оновлюючи час,
-повертається [EvLoop::now()](evloop.now.md) у процесі. Це
-дорога операція, яка зазвичай виконується автоматично в
-[EvLoop::run()](evloop.run.md).
+Встановлює поточний час, запитуючи ядро, оновлюючи час, що повертається [EvLoop::now()](evloop.now.md) в процесі. Це дорога операція, яка зазвичай виконується автоматично [EvLoop::run()](evloop.run.md)
 
 ### Список параметрів
 
@@ -32,7 +31,5 @@ public **EvLoop::nowUpdate**(): void
 
 ### Дивіться також
 
-- [EvLoop::now()](evloop.now.md) - Повертає поточний "event loop"
-time"
-- [Ev::nowUpdate()](ev.nowupdate.md) - Встановлює поточний час
-шляхом запиту до ядра в процесі оновлюючи час, що повертається Ev::now
+-   [EvLoop::now()](evloop.now.md) - Повертає поточний "event loop time"
+-   [Ev::nowUpdate()](ev.nowupdate.md) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now

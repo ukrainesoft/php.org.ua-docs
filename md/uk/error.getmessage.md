@@ -1,10 +1,11 @@
-- [«Error::\_\_construct](error.construct.md)
-- [Error::getPrevious »](error.getprevious.md)
-
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Отримує повідомлення про помилку
-
+---
+navigation:
+  - error.construct.md: '« Error::construct'
+  - error.getprevious.md: 'Error::getPrevious »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getMessage'
+---
 # Error::getMessage
 
 (PHP 7, PHP 8)
@@ -13,7 +14,9 @@ Error::getMessage — Отримує повідомлення про помил�
 
 ### Опис
 
-final public **Error::getMessage**(): string
+```methodsynopsis
+final public Error::getMessage(): string
+```
 
 Повертає повідомлення про помилку.
 
@@ -29,13 +32,22 @@ final public **Error::getMessage**(): string
 
 **Приклад #1 Приклад використання **Error::getMessage()****
 
-` <?phptry {    throw new Error("Страшна помилка");} catch(Error $e) {   echo $e->getMessage();}?> `
+```php
+<?php
+try {
+    throw new Error("Страшная ошибка");
+} catch(Error $e) {
+    echo $e->getMessage();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Страшна помилка
+```
+Страшная ошибка
+```
 
 ### Дивіться також
 
-- [Throwable::getMessage()](throwable.getmessage.md) - Отримує
-повідомлення помилки
+-   [Throwable::getMessage()](throwable.getmessage.md) - Отримує повідомлення помилки

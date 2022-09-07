@@ -1,42 +1,45 @@
-- [«OCICollection::assign](ocicollection.assign.md)
-- [OCICollection::free »](ocicollection.free.md)
-
-- [PHP Manual](index.md)
-- [OCICollection](class.ocicollection.md)
-- Надає значення елементу колекції
-
+---
+navigation:
+  - ocicollection.assign.md: '« OCICollection::assign'
+  - ocicollection.free.md: 'OCICollection::free »'
+  - index.md: PHP Manual
+  - class.ocicollection.md: OCICollection
+title: 'OCICollection::assignElem'
+---
 # OCICollection::assignElem
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
 OCICollection::assignElem — Надає значення елементу колекції
 
 ### Опис
 
-public **OCICollection::assignElem**(int `$index`, string `$value`):
-bool
+```methodsynopsis
+public OCICollection::assignElem(int $index, string $value): bool
+```
 
-Надає значення елементу колекції з індексом `index`.
+Надає значення елементу колекції з індексом `index`
 
 ### Список параметрів
 
 `index`
+
 Індекс елемент. Перший індекс – нуль.
 
 `value`
+
 Може бути рядком чи числом.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                                       |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCICollection::getElem](ocicollection.getelem.md)
+-   [OCICollection::getElem](ocicollection.getelem.md)

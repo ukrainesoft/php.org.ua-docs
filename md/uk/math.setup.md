@@ -1,15 +1,16 @@
-- [«Вступ](intro.math.md)
-- [Вимоги »](math.requirements.md)
-
-- [PHP Manual](index.md)
-- [Math](book.math.md)
--   Встановлення та налаштування
-
+---
+navigation:
+  - intro.math.md: « Введение
+  - math.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.math.md: Math
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](math.requirements.md)
-- [Установка](math.installation.md)
-- [Налаштування під час виконання](math.configuration.md)
-- [Типи ресурсів](math.resources.md)
+-   [Вимоги](math.requirements.md)
+-   [Установка](math.installation.md)
+-   [Налаштування під час виконання](math.configuration.md)
+-   [Типи ресурсів](math.resources.md)

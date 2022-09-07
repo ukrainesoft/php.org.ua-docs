@@ -1,72 +1,46 @@
-- [«fdf_set_version](function.fdf-set-version.md)
-- [Вступ »](intro.gnupg.md)
-
-- [PHP Manual](index.md)
-- [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-- GNU Privacy Guard
-
+---
+navigation:
+  - function.fdf-set-version.md: « fdfsetversion
+  - intro.gnupg.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
+title: GNU Privacy Guard
+---
 # GNU Privacy Guard
 
-- [Вступ](intro.gnupg.md)
-- [Встановлення та налаштування](gnupg.setup.md)
-- [Вимоги](gnupg.requirements.md)
-- [Установка](gnupg.installation.md)
-- [Налаштування під час виконання](gnupg.configuration.md)
-- [Типи ресурсів](gnupg.resources.md)
-- [Предвизначені константи](gnupg.constants.md)
-- [Приклади](gnupg.examples.md)
-- [Прозоре підписування тексту](gnupg.examples-clearsign.md)
-- [GnuPG Функції](ref.gnupg.md)
-- [gnupg_adddecryptkey](function.gnupg-adddecryptkey.md) -
-Додати ключ для розшифровки
-- [gnupg_addencryptkey](function.gnupg-addencryptkey.md) -
-Додає ключ для шифрування
-- [gnupg_addsignkey](function.gnupg-addsignkey.md) — Додати
-ключ для підписання
-- [gnupg_cleardecryptkeys](function.gnupg-cleardecryptkeys.md) -
-Видаляє всі ключі, які були встановлені для розшифровки
-раніше
-- [gnupg_clearencryptkeys](function.gnupg-clearencryptkeys.md) -
-Видаляє всі ключі, встановлені для шифрування
-раніше
-- [gnupg_clearsignkeys](function.gnupg-clearsignkeys.md) -
-Видаляє всі ключі, які були встановлені для підписання
-раніше
-- [gnupg_decrypt](function.gnupg-decrypt.md) - Розшифровує
-переданий текст
-- [gnupg_decryptverify](function.gnupg-decryptverify.md) -
-Розшифровує та перевіряє підпис переданого тексту
-- [gnupg_deletekey](function.gnupg-deletekey.md) — Видаляє ключ
-із зв'язування ключів
-- [gnupg_encrypt](function.gnupg-encrypt.md) - Шифрує заданий
-текст
-- [gnupg_encryptsign](function.gnupg-encryptsign.md) — Шифрує та
-підписує переданий текст
-- [gnupg_export](function.gnupg-export.md) — Експортує ключ
-- [gnupg_getengineinfo](function.gnupg-getengineinfo.md) -
-Повертає інформацію про движок
-- [gnupg_geterror](function.gnupg-geterror.md) - Повертає
-текст повідомлення про помилку, якщо функція не була виконана
-- [gnupg_geterrorinfo](function.gnupg-geterrorinfo.md) -
-Повертає інформацію про помилку
-- [gnupg_getprotocol](function.gnupg-getprotocol.md) -
-Повертає поточний активний протокол для всіх операцій
-- [gnupg_gettrustlist](function.gnupg-gettrustlist.md) — Пошук
-довірчих елементів
-- [gnupg_import](function.gnupg-import.md) — Імпортує ключ
-- [gnupg_init](function.gnupg-init.md) - Ініціалізувати GnuPG
-- [gnupg_keyinfo](function.gnupg-keyinfo.md) - Повертає масив
-з інформацією про всі ключі, які відповідають заданому
-шаблоном
-- [gnupg_listsignatures](function.gnupg-listsignatures.md) -
-Перераховує підписи ключа
-- [gnupg_setarmor](function.gnupg-setarmor.md) — Перемикає
-виведення у текстовому чи бінарному режимі
-- [gnupg_seterrormode](function.gnupg-seterrormode.md) -
-Встановлює режим звітів про помилки (error_reporting)
-- [gnupg_setsignmode](function.gnupg-setsignmode.md) -
-Встановлює режим підписування
-- [gnupg_sign](function.gnupg-sign.md) — Підписує переданий
-текст
-- [gnupg_verify](function.gnupg-verify.md) — Перевірка підпису
-тексту
+-   [Введение](intro.gnupg.md)
+-   [Встановлення та налаштування](gnupg.setup.md)
+    -   [Вимоги](gnupg.requirements.md)
+    -   [Установка](gnupg.installation.md)
+    -   [Налаштування під час виконання](gnupg.configuration.md)
+    -   [Типи ресурсів](gnupg.resources.md)
+-   [Обумовлені константи](gnupg.constants.md)
+-   [Приклади](gnupg.examples.md)
+    -   [Прозоре підписування тексту](gnupg.examples-clearsign.md)
+-   [GnuPG Функції](ref.gnupg.md)
+    -   [gnupgadddecryptkey](function.gnupg-adddecryptkey.md) — Додати ключ для розшифровки
+    -   [gnupgaddencryptkey](function.gnupg-addencryptkey.md) — Додає ключ для шифрування
+    -   [gnupgaddsignkey](function.gnupg-addsignkey.md) — Додати ключ для підписання
+    -   [gnupgcleardecryptkeys](function.gnupg-cleardecryptkeys.md) — Видаляє всі ключі, які були встановлені для розшифровки раніше
+    -   [gnupgclearencryptkeys](function.gnupg-clearencryptkeys.md) — Видаляє всі ключі, які були встановлені для шифрування раніше
+    -   [gnupgclearsignkeys](function.gnupg-clearsignkeys.md) — Видаляє всі ключі, які були встановлені для підписання раніше
+    -   [gnupgdecrypt](function.gnupg-decrypt.md) - Розшифровує переданий текст
+    -   [gnupgdecryptverify](function.gnupg-decryptverify.md) — Розшифровує та перевіряє підпис переданого тексту
+    -   [gnupgdeletekey](function.gnupg-deletekey.md) — Видаляє ключ зі зв'язування ключів
+    -   [gnupgencrypt](function.gnupg-encrypt.md) - Шифрує заданий текст
+    -   [gnupgencryptsign](function.gnupg-encryptsign.md) — Шифрує та підписує переданий текст
+    -   [gnupgexport](function.gnupg-export.md) - Експортує ключ
+    -   [gnupggetengineinfo](function.gnupg-getengineinfo.md) — Повертає інформацію про двигун
+    -   [gnupggeterror](function.gnupg-geterror.md) — Повертає текст повідомлення про помилку, якщо функція не була виконана
+    -   [gnupggeterrorinfo](function.gnupg-geterrorinfo.md) — Повертає інформацію про помилку
+    -   [gnupggetprotocol](function.gnupg-getprotocol.md) — Повертає активний протокол для всіх операцій.
+    -   [gnupggettrustlist](function.gnupg-gettrustlist.md) - Пошук довірчих елементів
+    -   [gnupgimport](function.gnupg-import.md) - Імпортує ключ
+    -   [gnupginit](function.gnupg-init.md) - Ініціалізувати GnuPG
+    -   [gnupgkeyinfo](function.gnupg-keyinfo.md) — Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
+    -   [gnupglistsignatures](function.gnupg-listsignatures.md) - Перераховує підписи ключа
+    -   [gnupgsetarmor](function.gnupg-setarmor.md) — Перемикає висновок у текстовому чи бінарному режимі
+    -   [gnupgseterrormode](function.gnupg-seterrormode.md) — Встановлює режим звітування про помилки (errorreporting)
+    -   [gnupgsetsignmode](function.gnupg-setsignmode.md) — Встановлює режим підписування
+    -   [gnupgsign](function.gnupg-sign.md) — Підписує переданий текст
+    -   [gnupgverify](function.gnupg-verify.md) - Перевіряє підпис тексту

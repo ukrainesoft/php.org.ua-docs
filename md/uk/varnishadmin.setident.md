@@ -1,23 +1,27 @@
-- [« VarnishAdmin::setHost](varnishadmin.sethost.md)
-- [VarnishAdmin::setParam »](varnishadmin.setparam.md)
-
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- встановити параметр конфігурації ident класу
-
+---
+navigation:
+  - varnishadmin.sethost.md: '« VarnishAdmin::setHost'
+  - varnishadmin.setparam.md: 'VarnishAdmin::setParam »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::setIdent'
+---
 # VarnishAdmin::setIdent
 
-(PECL varnish \>= 0.8)
+(PECL varnish >= 0.8)
 
 VarnishAdmin::setIdent — Встановити параметр конфігурації ident класу
 
 ### Опис
 
-public **VarnishAdmin::setIdent**(string `$ident`): void
+```methodsynopsis
+public VarnishAdmin::setIdent(string $ident): void
+```
 
 ### Список параметрів
 
 `ident`
+
 Параметр конфігурації ident підключення.
 
 ### Значення, що повертаються

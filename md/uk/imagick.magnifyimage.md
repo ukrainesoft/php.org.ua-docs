@@ -1,23 +1,24 @@
-- [« Imagick::listRegistry](imagick.listregistry.md)
-- [Imagick::mapImage »](imagick.mapimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Пропорційно масштабує зображення вдвічі
-
+---
+navigation:
+  - imagick.listregistry.md: '« Imagick::listRegistry'
+  - imagick.mapimage.md: 'Imagick::mapImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::magnifyImage'
+---
 # Imagick::magnifyImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::magnifyImage — Пропорційно масштабує зображення на два
-рази
+Imagick::magnifyImage — Пропорційно масштабує зображення вдвічі
 
 ### Опис
 
-public **Imagick::magnifyImage**(): bool
+```methodsynopsis
+public Imagick::magnifyImage(): bool
+```
 
-Масштабує зображення вдвічі пропорційно до оригінального
-розміром.
+Масштабує зображення вдвічі пропорційно оригінальному розміру.
 
 ### Список параметрів
 
@@ -25,7 +26,7 @@ public **Imagick::magnifyImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -35,4 +36,14 @@ public **Imagick::magnifyImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::magnifyImage()****
 
-`<?phpfunction magnifyImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->magnifyImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function magnifyImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->magnifyImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

@@ -1,25 +1,24 @@
-- [« Yaf_Application](class.yaf-application.md)
-- [Yaf_Application::bootstrap »](yaf-application.bootstrap.md)
+---
+navigation:
+  - class.yaf-application.md: « YafApplication
+  - yaf-application.bootstrap.md: 'YafApplication::bootstrap »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
+title: 'YafApplication::app'
+---
+# YafApplication::app
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Вийняти екземпляр програми
+(Yaf >=1.0.0)
 
-# Yaf_Application::app
-
-(Yaf \>=1.0.0)
-
-Yaf_Application::app — Вийняти екземпляр програми
+YafApplication::app — Вийняти екземпляр програми
 
 ### Опис
 
-public static**Yaf_Application::app**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public staticYaf_Application::app(): mixed
+```
 
-Витягує екземпляр класу
-[Yaf_Application](class.yaf-application.md). Також для цього ви можете
-використовувати
-[Yaf_Dispatcher::getApplication()](yaf-dispatcher.getapplication.md).
+Витягує екземпляр класу [YafApplication](class.yaf-application.md). Також для цього ви можете використати [YafDispatcher::getApplication()](yaf-dispatcher.getapplication.md)
 
 ### Список параметрів
 
@@ -27,10 +26,8 @@ public static**Yaf_Application::app**():
 
 ### Значення, що повертаються
 
-Примірник класу Yaf_Application, якщо жодного Yaf_Application ще не
-ініціалізовано, буде повернено **`null`**.
+Примірник класу YafApplication, якщо жодного YafApplication ще не ініціалізовано, буде повернутий **`null`**
 
 ### Дивіться також
 
-- [Yaf_Dispatcher::getApplication()](yaf-dispatcher.getapplication.md) -
-Отримує програму
+-   [YafDispatcher::getApplication()](yaf-dispatcher.getapplication.md) - Отримує додаток

@@ -1,36 +1,35 @@
-- [« XMLDiff\Base::\_\_construct](xmldiff-base.construct.md)
-- [XMLDiff\Base::merge »](xmldiff-base.merge.md)
+---
+navigation:
+  - xmldiff-base.construct.md: '« XMLDiffBase::construct'
+  - xmldiff-base.merge.md: 'XMLDiffBase::merge »'
+  - index.md: PHP Manual
+  - class.xmldiff-base.md: XMLDiffBase
+title: 'XMLDiffBase::diff'
+---
+# XMLDiffBase::diff
 
-- [PHP Manual](index.md)
-- [XMLDiff\Base](class.xmldiff-base.md)
-- Здійснює порівняння двох документів XML
+(PECL xmldiff >= 0.8.0)
 
-# XMLDiff\Base::diff
-
-(PECL xmldiff \>= 0.8.0)
-
-XMLDiff\Base::diff — Порівняє два документи XML
+XMLDiffBase::diff — Порівняє два документи XML.
 
 ### Опис
 
-abstract public
-**XMLDiff\Base::diff**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$to`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract public XMLDiff\Base::diff(mixed $from, mixed $to): mixed
+```
 
 Абстрактний метод порівняння для реалізації у класах спадкоємців.
 
-Головне завдання цього - створення списку відмінностей двох документів.
-Порядок вхідних параметрів є важливим, оскільки від нього залежить результат.
+Головне завдання цього - створення списку відмінностей двох документів. Порядок вхідних параметрів є важливим, оскільки від нього залежить результат.
 
 ### Список параметрів
 
 `from`
+
 Початковий документ XML.
 
 `to`
+
 XML документ, з яким проводиться порівняння.
 
 ### Значення, що повертаються

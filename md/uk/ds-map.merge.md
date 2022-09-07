@@ -1,79 +1,83 @@
-- [«Ds\Map::map](ds-map.map.md)
-- [Ds\Map::pairs »](ds-map.pairs.md)
+---
+navigation:
+  - ds-map.map.md: '« DsMap::map'
+  - ds-map.pairs.md: 'ДсMap::pairs »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::merge'
+---
+# ДсMap::merge
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає результат додавання всіх заданих елементів до колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Map::merge
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::merge — Повертає результат додавання всіх заданих елементів
-у колекцію
+ДсMap::merge — Повертає результат додавання всіх заданих елементів до колекції
 
 ### Опис
 
-public
-**Ds\Map::merge**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$values`): [Ds\Map](class.ds-map.md)
+```methodsynopsis
+public Ds\Map::merge(mixed $values): Ds\Map
+```
 
-Повертає результат додавання всіх ключів переданого об'єкту класу
-[traversable](class.traversable.md) або масиву (array) з
-відповідними значеннями у поточну колекцію.
+Повертає результат додавання всіх ключів переданого об'єкта класу [traversable](class.traversable.md) або масиву (array) з відповідними значеннями поточної колекції.
 
-> **Примітка**:
->
-> Значення поточної колекції буде перезаписано, якщо передані ключі
-> вже є.
+> **Зауваження**
+> 
+> Значення поточної колекції буде перезаписано, якщо передані ключі вже існують.
 
 ### Список параметрів
 
 `values`
+
 Об'єкт класу [traversable](class.traversable.md) або array.
 
 ### Значення, що повертаються
 
-Повертає результат додавання всіх ключів переданого об'єкту класу
-[traversable](class.traversable.md) або масиву з відповідними
-значеннями у поточну колекцію
+Повертає результат додавання всіх ключів переданого об'єкта класу [traversable](class.traversable.md) або масиву з відповідними значеннями до поточної колекції
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточний екземпляр колекції залишиться недоторканим.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::merge()****
+**Приклад #1 Приклад використання **ДсMap::merge()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);print_r($map->merge(["a" = > 10, "e" => 50]));?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+
+print_r($map->merge(["a" => 10, "e" => 50]));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => a
-[value] => 10
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 10
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 2
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 2
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => c
-[value] => 3
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 3
+        )
 
-[3] => Ds\Pair Object
-(
-[key] => e
-[value] => 50
-)
+    [3] => Ds\Pair Object
+        (
+            [key] => e
+            [value] => 50
+        )
 
 )
+```

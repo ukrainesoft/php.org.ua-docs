@@ -1,12 +1,13 @@
-- [«Зумовлені константи](ftp.constants.md)
-- [Просте використання»](ftp.examples-basic.md)
-
-- [PHP Manual](index.md)
-- [FTP](book.ftp.md)
-- Приклади
-
+---
+navigation:
+  - ftp.constants.md: « Обумовлені константи
+  - ftp.examples-basic.md: Простое использование »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Просте використання](ftp.examples-basic.md)
+-   [Простое использование](ftp.examples-basic.md)

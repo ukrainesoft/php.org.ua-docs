@@ -1,25 +1,24 @@
-- [« MongoDB\Driver\Session::commitTransaction](mongodb-driver-session.committransaction.md)
-- [MongoDB\Driver\Session::endSession »](mongodb-driver-session.endsession.md)
+---
+navigation:
+  - mongodb-driver-session.committransaction.md: '« MongoDBDriverSession::commitTransaction'
+  - mongodb-driver-session.endsession.md: 'MongoDBDriverSession::endSession »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
+title: 'MongoDBDriverSession::construct'
+---
+# MongoDBDriverSession::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Створює новий сеанс (не використовується)
+(mongodb >=1.4.0)
 
-# MongoDB\Driver\Session::\_\_construct
-
-(mongodb \>=1.4.0)
-
-MongoDB\Driver\Session::\_\_construct - Створює новий сеанс (не
-використовується)
+MongoDBDriverSession::construct — Створення нового сеансу (не використовується)
 
 ### Опис
 
-final private **MongoDB\Driver\Session::\_\_construct**()
+```methodsynopsis
+final private MongoDB\Driver\Session::__construct()
+```
 
-[MongoDB\Driver\Session](class.mongodb-driver-session.md) об'єкти
-повертаються
-[MongoDB\Driver\Manager::startSession()](mongodb-driver-manager.startsession.md)
-і не можуть бути створені безпосередньо.
+[MongoDBDriverSession](class.mongodb-driver-session.md) об'єкти повертаються [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -27,5 +26,4 @@ final private **MongoDB\Driver\Session::\_\_construct**()
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::startSession()](mongodb-driver-manager.startsession.md) -
-Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) - Запуск нового клієнтського сеансу для використання з цим клієнтом

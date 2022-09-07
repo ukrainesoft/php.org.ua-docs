@@ -1,20 +1,22 @@
-- [« Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.md)
-- [Imagick::setImageBorderColor »](imagick.setimagebordercolor.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює кольоровість зображення блакитною основною точкою
-
+---
+navigation:
+  - imagick.setimagebiasquantum.md: '« Imagick::setImageBiasQuantum'
+  - imagick.setimagebordercolor.md: 'Imagick::setImageBorderColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageBluePrimary'
+---
 # Imagick::setImageBluePrimary
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageBluePrimary — Встановлює кольоровість зображення
-блакитний основний крапкою
+Imagick::setImageBluePrimary — Встановлює кольоровість зображення блакитною основною точкою
 
 ### Опис
 
-public **Imagick::setImageBluePrimary**(float `$x`, float `$y`): bool
+```methodsynopsis
+public Imagick::setImageBluePrimary(float $x, float $y): bool
+```
 
 Встановлює кольоровість зображення блакитною основною точкою.
 
@@ -26,7 +28,7 @@ public **Imagick::setImageBluePrimary**(float `$x`, float `$y`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

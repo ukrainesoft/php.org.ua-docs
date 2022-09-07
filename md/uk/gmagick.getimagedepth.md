@@ -1,19 +1,22 @@
-- [«Gmagick::getimagedelay](gmagick.getimagedelay.md)
-- [Gmagick::getimagedispose »](gmagick.getimagedispose.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує глибину зображення
-
+---
+navigation:
+  - gmagick.getimagedelay.md: '« Gmagick::getimagedelay'
+  - gmagick.getimagedispose.md: 'Gmagick::getimagedispose »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagedepth'
+---
 # Gmagick::getimagedepth
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagedepth — Отримує глибину зображення
 
 ### Опис
 
-public **Gmagick::getimagedepth**(): int
+```methodsynopsis
+public Gmagick::getimagedepth(): int
+```
 
 Отримує глибину зображення.
 

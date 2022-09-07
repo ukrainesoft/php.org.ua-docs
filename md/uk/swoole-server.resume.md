@@ -1,19 +1,22 @@
-- [« Swoole\Server::reload](swoole-server.reload.md)
-- [Swoole\Server::send »](swoole-server.send.md)
+---
+navigation:
+  - swoole-server.reload.md: '« SwooleServer::reload'
+  - swoole-server.send.md: 'SwooleServer::send »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::resume'
+---
+# SwooleServer::resume
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Починає отримувати дані із з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::resume
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::resume — Починає отримувати дані зі з'єднання
+SwooleServer::resume — Починає отримувати дані зі з'єднання
 
 ### Опис
 
-public **Swoole\Server::resume**(int `$fd`): void
+```methodsynopsis
+public Swoole\Server::resume(int $fd): void
+```
 
 ### Список параметрів
 

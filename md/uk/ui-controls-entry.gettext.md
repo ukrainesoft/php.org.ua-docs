@@ -1,19 +1,22 @@
-- [« UI\Controls\Entry::\_\_construct](ui-controls-entry.construct.md)
-- [UI\Controls\Entry::isReadOnly »](ui-controls-entry.isreadonly.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Entry](class.ui-controls-entry.md)
-- Отримати текст
-
-# UI\Controls\Entry::getText
+---
+navigation:
+  - ui-controls-entry.construct.md: '« UIControlsEntry::construct'
+  - ui-controls-entry.isreadonly.md: 'ОЙControlsEntry::isReadOnly »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.md: ОЙControlsEntry
+title: 'ОЙControlsEntry::getText'
+---
+# ОЙControlsEntry::getText
 
 (UI 0.9.9)
 
-UI\Controls\Entry::getText — Отримати текст
+ОЙControlsEntry::getText — Отримати текст
 
 ### Опис
 
-public **UI\Controls\Entry::getText**(): string
+```methodsynopsis
+public UI\Controls\Entry::getText(): string
+```
 
 Поверне поточний текст із керуючого елемента "Введення"
 

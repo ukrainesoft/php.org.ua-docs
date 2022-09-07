@@ -1,101 +1,60 @@
-- [« pcntl_wait](function.pcntl-wait.md)
-- [pcntl_wexitstatus »](function.pcntl-wexitstatus.md)
+---
+navigation:
+  - function.pcntl-wait.md: pcntlwait
+  - function.pcntl-wexitstatus.md: pcntlwexitstatus »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwaitpid
+---
+# pcntlwaitpid
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Очікує чи повертає статус породженого дочірнього процесу
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-#pcntl_waitpid
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-pcntl_waitpid — Очікує або повертає статус породженого дочірнього
-процесу
+pcntlwaitpid — Очікує чи повертає статус породженого дочірнього процесу
 
 ### Опис
 
-**pcntl_waitpid**(
-int `$process_id`,
-int `&$status`,
-int `$flags` = 0,
-array `&$resource_usage` = []
-): int
+```methodsynopsis
+pcntl_waitpid(    int $process_id,    int &$status,    int $flags = 0,    array &$resource_usage = []): int
+```
 
-Функція очікування призупиняє виконання поточного процесу
-поки дочірній процес, вказаний в аргументі `process_id`, не
-завершиться або поки не буде отримано сигнал, який завершує поточний
-процес чи викликає функцію обробки сигналу.
+Функція очікування призупиняє виконання поточного процесу доти, доки дочірній процес, зазначений у аргументі `process_id`, не завершиться або доки не буде отримано сигнал, який завершує поточний процес або викликає функцію обробки сигналу.
 
-Якщо дочірній процес, зазначений у аргументі `process_id`, вже
-завершився на час виклику (так звані "зомбі" процеси), функція
-негайно поверне управління. Будь-які системні ресурси, що використовуються
-дочірнім процесом буде звільнено. Зверніться до вашого системного
-керівництву waitpid(2) для уточнення специфіки роботи waitpid у вашій
-системі.
+Якщо дочірній процес, зазначений у аргументі `process_id`, вже завершився до часу виклику (так звані "зомбі" процеси), функція негайно поверне управління. Будь-які системні ресурси, що використовуються дочірнім процесом, будуть звільнені. Зверніться до вашого системного посібника waitpid(2) для уточнення специфіки роботи waitpid у вашій системі.
 
 ### Список параметрів
 
 `process_id`
+
 Аргумент `process_id` може приймати одне з наступних значень:
 
-|     |                                                                                                                                                     |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| <-1 | очікувати на будь-який дочірній процес, у якого значення ідентифікатор групи процесів (group ID) дорівнює модулю значення аргументу \|process_id\|. |
-| -1  | чекати на будь-який дочірній процес; це така ж поведінка, що й у функції wait.                                                                      |
-| 0   | очікувати будь-який дочірній процес, ідентифікатор групи процесів (group ID) якого дорівнює ідентифікатору поточного процесу.                       |
-| >0  | чекати дочірній процес ID якого дорівнює process_id.                                                                                                |
+<table class="doctable table"><caption><strong>можливі значення аргументу <code class="parameter">process_id</code></strong></caption><tbody class="tbody"><tr><td><code class="literal">&lt; -1</code></td><td>очікувати будь-який дочірній процес, у якого значення ідентифікатора групи процесів (group ID) дорівнює модулю значення аргументу |<code class=" parameter">process_id</code>|.</td></tr><tr><td><code class="literal">-1</code></td><td>очікувати будь-який дочірній процес; це така ж поведінка, що й у функції wait. ідентифікатор групи процесів (group ID) якого дорівнює ідентифікатору поточного процесу.</td><td>очікувати процес ID якого дорівнює <code class="parameter">process_id</code>.</td></tr></tbody></table>
 
-**можливі значення аргументу `process_id`**
-
-> **Примітка**:
->
-> Вказівка `-1` як `process_id` - це аналог функції
-> [pcntl_wait()](function.pcntl-wait.md) (мінус `flags`).
+> **Зауваження**
+> 
+> Вказівка `-1` в якості `process_id` - це аналог функції [pcntlwait()](function.pcntl-wait.md) (мінус `flags`
 
 `status`
-**pcntl_waitpid()** розмістить інформацію про статус за посиланням у аргументі
-`status`, який може бути переданий у такі функції:
-[pcntl_wifexited()](function.pcntl-wifexited.md),
-[pcntl_wifstopped()](function.pcntl-wifstopped.md),
-[pcntl_wifsignaled()](function.pcntl-wifsignaled.md),
-[pcntl_wexitstatus()](function.pcntl-wexitstatus.md),
-[pcntl_wtermsig()](function.pcntl-wtermsig.md) та
-[pcntl_wstopsig()](function.pcntl-wstopsig.md).
+
+**pcntlwaitpid()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.md) [pcntlwifstopped()](function.pcntl-wifstopped.md) [pcntlwifsignaled()](function.pcntl-wifsignaled.md) [pcntlwexitstatus()](function.pcntl-wexitstatus.md) [pcntlwtermsig()](function.pcntl-wtermsig.md) і [pcntlwstopsig()](function.pcntl-wstopsig.md)
 
 `flags`
-Значення аргументу `flags` – це бітова маска, яка може приймати
-значення нуль або більше шляхом логічного об'єднання наступних
-констант:
 
-|           |                                                                                     |
-|-----------|-------------------------------------------------------------------------------------|
-| WNOHANG   | Негайно повернути управління, якщо жоден із дочірніх процесів не завершено          |
-| WUNTRACED | Повернути управління для зупинених дочірніх процесів, статус яких ще не повідомлено |
+Значення аргументу `flags` - це бітова маска, яка може набувати значення нуль або більше шляхом логічного об'єднання наступних констант:
 
-**Можливі значення для `flags`**
+<table class="doctable table"><caption><strong>Можливі значення для <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><code class="literal">WNOHANG</code></td><td>Негайно повернути управління, якщо жоден з дочірніх процесів не завершено</td></tr><tr><td>&lt; code class="literal"&gt;WUNTRACED</td><td>Повернути управління для зупинених дочірніх процесів, про статус яких ще не повідомлено</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-[pcntl_wait()](function.pcntl-wait.md) повертає ID завершеного
-дочірнього процесу, -1 у разі виникнення помилки або нуль, якщо
-**`WNOHANG`** було передано в аргумент `flags` і не було доступних
-дочірніх процесів.
+[pcntlwait()](function.pcntl-wait.md) повертає ID завершеного дочірнього процесу, -1 у разі виникнення помилки або нуль, якщо **`WNOHANG`** було передано в аргумент `flags` і не було доступних дочірніх процесів.
 
 ### Дивіться також
 
-- [pcntl_fork()](function.pcntl-fork.md) - Розгалужити (fork) поточний
-запущений процес
-- [pcntl_signal()](function.pcntl-signal.md) - Встановлення обробника
-сигналу
-- [pcntl_wifexited()](function.pcntl-wifexited.md) - Перевіряє,
-чи відповідає код завершення процесу нормальному завершенню
-- [pcntl_wifstopped()](function.pcntl-wifstopped.md) - Перевірити,
-чи зупинено дочірній процес
-- [pcntl_wifsignaled()](function.pcntl-wifsignaled.md) - Перевірити,
-чи відповідає код завершення процесу завершення сигналу
-- [pcntl_wexitstatus()](function.pcntl-wexitstatus.md) - Отримати
-код повернення завершеного дочірнього процесу
-- [pcntl_wtermsig()](function.pcntl-wtermsig.md) - Отримати сигнал,
-через який було примусово завершено дочірній процес
-- [pcntl_wstopsig()](function.pcntl-wstopsig.md) - Отримати сигнал,
-через який було зупинено дочірній процес
+-   [pcntlfork()](function.pcntl-fork.md) - Розгалужити (fork) поточний запущений процес
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [pcntlwifexited()](function.pcntl-wifexited.md) - Перевіряє, чи код завершення процесу відповідає нормальному завершенню
+-   [pcntlwifstopped()](function.pcntl-wifstopped.md) - Перевірити, чи зупинено дочірній процес
+-   [pcntlwifsignaled()](function.pcntl-wifsignaled.md) - Перевірити, чи код завершення процесу завершення по сигналу
+-   [pcntlwexitstatus()](function.pcntl-wexitstatus.md) - Отримати код повернення завершеного дочірнього процесу
+-   [pcntlwtermsig()](function.pcntl-wtermsig.md) - Отримати сигнал, через який було примусово завершено дочірній процес
+-   [pcntlwstopsig()](function.pcntl-wstopsig.md) - Отримати сигнал, через який було зупинено дочірній процес

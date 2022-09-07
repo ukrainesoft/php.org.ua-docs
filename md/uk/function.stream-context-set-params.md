@@ -1,45 +1,46 @@
-- [« stream_context_set_option](function.stream-context-set-option.md)
-- [stream_copy_to_stream »](function.stream-copy-to-stream.md)
+---
+navigation:
+  - function.stream-context-set-option.md: « streamcontextsetoption
+  - function.stream-copy-to-stream.md: streamcopyтоstream »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextsetparams
+---
+# streamcontextsetparams
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Встановлює параметри потоку/обгортки/контексту
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#stream_context_set_params
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-stream_context_set_params — Встановлює параметри для
-потоку/обгортки/контексту
+streamcontextsetparams — Встановлює параметри потоку/обгортки/контексту
 
 ### Опис
 
-**stream_context_set_params**(resource `$context`, array `$params`):
-bool
+```methodsynopsis
+stream_context_set_params(resource $context, array $params): bool
+```
 
 Встановлює настройки для зазначеного контексту.
 
 ### Список параметрів
 
 `context`
+
 Потік або контекст, до якого будуть використані параметри.
 
 `params`
-Асоціативний масив параметрів, які будуть встановлені в наступному
-формат: $params['paramname'] = "paramvalue";`.
 
-| Параметр | Призначення                                        |
-|----------|----------------------------------------------------|
-| options  | Масив [опцій та параметрів контексту](context.md). |
+Асоціативний масив параметрів, які будуть встановлені у наступному форматі: `$params['paramname'] = "paramvalue";`
 
 **Підтримувані параметри**
 
+| Параметр | Назначение |
+| --- | --- |
+| `notification` | Назва певної користувачем callback-функції, яка буде викликана, коли потоком надсилається повідомлення. Підтримується тільки для обертання потоків [http://](wrappers.http.md) і [ftp://](wrappers.ftp.md) |
+| `options` | Масив [опций и параметров контекста](context.md) |
+
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [stream_notification_callback()](function.stream-notification-callback.md) -
-Callback-функція для параметра контексту notification
+-   [streamnotificationcallback()](function.stream-notification-callback.md) - Callback-функція для параметра контексту notification

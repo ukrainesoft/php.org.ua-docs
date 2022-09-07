@@ -1,19 +1,22 @@
-- [«Stringable](class.stringable.md)
-- [UnitEnum »](class.unitenum.md)
-
-- [PHP Manual](index.md)
-- [Stringable](class.stringable.md)
-- отримує рядкове представлення об'єкта
-
-# Stringable::\_\_toString
+---
+navigation:
+  - class.stringable.md: « Stringable
+  - class.unitenum.md: UnitEnum »
+  - index.md: PHP Manual
+  - class.stringable.md: Stringable
+title: 'Stringable::toString'
+---
+# Stringable::toString
 
 (PHP 8)
 
-Stringable::\_\_toString — Отримує рядкову виставу об'єкта
+Stringable::toString — Отримує рядкову виставу об'єкта
 
 ### Опис
 
-public **Stringable::\_\_toString**(): string
+```methodsynopsis
+public Stringable::__toString(): string
+```
 
 ### Список параметрів
 
@@ -25,4 +28,4 @@ public **Stringable::\_\_toString**(): string
 
 ### Дивіться також
 
-- [\_\_toString()](language.oop5.magic.md#object.tostring)
+-   [toString()](language.oop5.magic.md#object.tostring)

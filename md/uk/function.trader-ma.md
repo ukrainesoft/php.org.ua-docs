@@ -1,34 +1,37 @@
-- [ trader_log10](function.trader-log10.md)
-- [trader_macd »](function.trader-macd.md)
+---
+navigation:
+  - function.trader-log10.md: « traderlog10
+  - function.trader-macd.md: tradermacd »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderма
+---
+# traderма
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Змінна середня
+(PECL trader >= 0.2.0)
 
-# trader_ma
-
-(PECL trader \>= 0.2.0)
-
-trader_ma — Середня ковзна.
+traderma — Ковзна середня
 
 ### Опис
 
-**trader_ma**(array `$real`, int `$timePeriod` = ?, int `$mAType` = ?):
-array
+```methodsynopsis
+trader_ma(array $real, int $timePeriod = ?, int $mAType = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 `mAType`
-Тип ковзної середньої. Слід використовувати серію констант
-[TRADER_MA_TYPE\_\*](trader.constants.md).
+
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

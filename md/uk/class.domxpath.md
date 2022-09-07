@@ -1,10 +1,11 @@
-- [« DOMText::splitText](domtext.splittext.md)
-- [DOMXPath::\_\_construct »](domxpath.construct.md)
-
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMXPath
-
+---
+navigation:
+  - domtext.splittext.md: '« DOMText::splitText'
+  - domxpath.construct.md: 'DOMXPath::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMXPath
+---
 # Клас DOMXPath
 
 (PHP 5, PHP 7, PHP 8)
@@ -15,62 +16,60 @@
 
 ## Огляд класів
 
-class **DOMXPath** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly [DOMDocument](class.domdocument.md) `$document`;
+    
+     
+      class DOMXPath
+     
+     {
 
-public bool `$registerNodeNamespaces`;
+    /* Свойства */
+    
+     public
+     readonly
+     DOMDocument
+      $document;
 
-/\* Методи \*/
 
-public
-[\_\_construct](domxpath.construct.md)([DOMDocument](class.domdocument.md)
-`$document`, bool `$registerNodeNS` = **`true`**)
+    public
+     bool
+      $registerNodeNamespaces;
 
-public [evaluate](domxpath.evaluate.md)(string `$expression`,
-?[DOMNode](class.domnode.md) `$contextNode` = **`null`**, bool
-`$registerNodeNS` = **`true`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [query](domxpath.query.md)(string `$expression`,
-?[DOMNode](class.domnode.md) `$contextNode` = **`null`**, bool
-`$registerNodeNS` = **`true`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public __construct(DOMDocument $document, bool $registerNodeNS = true)
 
-public [registerNamespace](domxpath.registernamespace.md)(string
-`$prefix`, string `$namespace`): bool
+    public evaluate(string $expression, ?DOMNode $contextNode = null, bool $registerNodeNS = true): mixed
+public query(string $expression, ?DOMNode $contextNode = null, bool $registerNodeNS = true): mixed
+public registerNamespace(string $prefix, string $namespace): bool
+public registerPhpFunctions(string|array|null $restrict = null): void
 
-public
-[registerPhpFunctions](domxpath.registerphpfunctions.md)(string\|array\|null
-`$restrict` = **`null`**): void
-
-}
+   }
+```
 
 ## Властивості
 
-`document`
+document
 
-`registerNodeNamespaces`
-Якщо встановлено значення **`true`**, простори імен реєструються в
-вузлі.
+registerNodeNamespaces
 
-## Список змін
+Якщо встановлено значення **`true`**, простір імен реєструються у вузлі.
 
-| Версія | Опис                                       |
-|--------|--------------------------------------------|
-| 8.0.0  | Додано властивість registerNodeNamespaces. |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Додано властивість registerNodeNamespaces. |
 
 ## Зміст
 
-- [DOMXPath::\_\_construct](domxpath.construct.md) — Створює новий
-об'єкт класу DOMXPath
-- [DOMXPath::evaluate](domxpath.evaluate.md) — Обчислює передане
-вираз XPath і повертає типізований результат, якщо можливо
-- [DOMXPath::query](domxpath.query.md) — Виконує задане
-вираз XPath
-- [DOMXPath::registerNamespace](domxpath.registernamespace.md) -
-Реєструє простір імен з об'єктом DOMXPath
-- [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md)
-- Реєстрація PHP-функцій як функцій XPath
+-   [DOMXPath::construct](domxpath.construct.md) — Створює новий об'єкт класу DOMXPath
+-   [DOMXPath::evaluate](domxpath.evaluate.md) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+-   [DOMXPath::query](domxpath.query.md) — Виконує заданий вираз XPath
+-   [DOMXPath::registerNamespace](domxpath.registernamespace.md) — Реєструє простір імен з об'єктом DOMXPath
+-   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md) - Реєстрація PHP-функцій як функцій XPath

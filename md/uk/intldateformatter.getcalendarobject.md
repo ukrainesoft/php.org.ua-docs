@@ -1,36 +1,34 @@
-- [« IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.md)
-- [IntlDateFormatter::getTimeZone »](intldateformatter.gettimezone.md)
-
-- [PHP Manual](index.md)
-- [IntlDateFormatter](class.intldateformatter.md)
-- Отримує копію об'єкта календаря засобу форматування
-
+---
+navigation:
+  - intldateformatter.gettimezoneid.md: '« IntlDateFormatter::getTimeZoneId'
+  - intldateformatter.gettimezone.md: 'IntlDateFormatter::getTimeZone »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::getCalendarObject'
+---
 # IntlDateFormatter::getCalendarObject
 
-# datefmt_get_calendar_object
+# datefmtgetcalendarobject
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL intl >= 3.0.0)
 
-IntlDateFormatter::getCalendarObject -- datefmt_get_calendar_object --
-Отримує копію об'єкта календаря засобу форматування
+IntlDateFormatter::getCalendarObject -- datefmtgetcalendarobject — Отримує копію об'єкта календаря засобу форматування.
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlDateFormatter::getCalendarObject**():
-[IntlCalendar](class.intlcalendar.md)\|false\|null
+```methodsynopsis
+public IntlDateFormatter::getCalendarObject(): IntlCalendar|false|null
+```
 
 Процедурний стиль
 
-**datefmt_get_calendar_object**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`): [IntlCalendar](class.intlcalendar.md)\|false\|null
+```methodsynopsis
+datefmt_get_calendar_object(IntlDateFormatter $formatter): IntlCalendar|false|null
+```
 
-Отримує копію об'єкта календаря, який використовується для внутрішніх цілей
-засобом форматування. Календар матиме тип (наприклад,
-грегоріанський, японський, буддійський, рок, перська, ісламська і т.д.)
-та часовий пояс, які відповідають типу та часовому поясу,
-використовуваним засобом форматування. Дата та час об'єкта не вказано.
+Отримує копію об'єкта календаря, який використовується для внутрішніх цілей засобом форматування. Календар матиме тип (наприклад, грегоріанський, японський, буддійський, рок, перський, ісламський тощо) та часовий пояс, які відповідають типу та часовому поясу, що використовуються засобом форматування. Дата та час об'єкта не вказані.
 
 ### Список параметрів
 
@@ -38,36 +36,50 @@ public **IntlDateFormatter::getCalendarObject**():
 
 ### Значення, що повертаються
 
-Копія внутрішнього об'єкта календаря, використовуваного засобом
-форматування або **`null`**, якщо нічого не було встановлено або
-**`false`** у разі виникнення помилки.
+Копія внутрішнього об'єкта календаря, що використовується засобом форматування або \*\*`null`\*\*якщо нічого не було встановлено або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**IntlDateFormatter::getCalendarObject()****
+**Приклад #1 Приклад використання **IntlDateFormatter::getCalendarObject()****
 
-`<?php$formatter==IntlDateFormatter::create( | (   $cal->getType(),   $cal->getTimeZone(),   $cal->getLocale(Locale::VALID_LOCALE)); `
+```php
+<?php
+$formatter = IntlDateFormatter::create(
+    "fr_FR@calendar=islamic",
+    NULL,
+    NULL,
+    "GMT-01:00",
+    IntlDateFormatter::TRADITIONAL
+);
+
+$cal = $formatter->getCalendarObject();
+
+var_dump(
+    $cal->getType(),
+    $cal->getTimeZone(),
+    $cal->getLocale(Locale::VALID_LOCALE)
+);
+```
 
 Результат виконання цього прикладу:
 
+```
 string(7) "islamic"
 object(IntlTimeZone)#3 (4) {
-["valid"]=>
-bool(true)
-["id"]=>
-string(9) "GMT-01:00"
-["rawOffset"]=>
-int(-3600000)
-["currentOffset"]=>
-int(-3600000)
+  ["valid"]=>
+  bool(true)
+  ["id"]=>
+  string(9) "GMT-01:00"
+  ["rawOffset"]=>
+  int(-3600000)
+  ["currentOffset"]=>
+  int(-3600000)
 }
 string(5) "fr_FR"
+```
 
 ### Дивіться також
 
-- [IntlDateFormatter::getCalendar()](intldateformatter.getcalendar.md) -
-Отримує тип календаря, який використовується IntlDateFormatter
-- [IntlDateFormatter::setCalendar()](intldateformatter.setcalendar.md) -
-Встановлює тип календаря, який використовує засіб форматування
-- [IntlCalendar](class.intlcalendar.md)
+-   [IntlDateFormatter::getCalendar()](intldateformatter.getcalendar.md) - Отримує тип календаря, який використовується IntlDateFormatter
+-   [IntlDateFormatter::setCalendar()](intldateformatter.setcalendar.md) - Встановлює тип календаря, який використовується засобом форматування
+-   [IntlCalendar](class.intlcalendar.md)

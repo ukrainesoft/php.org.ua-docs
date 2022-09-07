@@ -1,29 +1,33 @@
-- [« Gmagick::annotateimage](gmagick.annotateimage.md)
-- [Gmagick::borderimage »](gmagick.borderimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додати розмиття зображення
-
+---
+navigation:
+  - gmagick.annotateimage.md: '« Gmagick::annotateimage'
+  - gmagick.borderimage.md: 'Gmagick::borderimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::blurimage'
+---
 # Gmagick::blurimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::blurimage — Додати розмиття зображення
 
 ### Опис
 
-public **Gmagick::blurimage**(float `$radius`, float `$sigma`, int
-`$channel` = ?): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::blurimage(float $radius, float $sigma, int $channel = ?): Gmagick
+```
 
 Додати розмиття зображення.
 
 ### Список параметрів
 
 `radius`
+
 Радіус розмиття
 
 `sigma`
+
 Стандартне відхилення
 
 ### Значення, що повертаються

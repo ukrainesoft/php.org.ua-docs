@@ -1,20 +1,22 @@
-- [« zlib_encode](function.zlib-encode.md)
-- [DeflateContext »](class.deflatecontext.md)
+---
+navigation:
+  - function.zlib-encode.md: « zlibencode
+  - class.deflatecontext.md: DeflateContext »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: zlibgetcodingtype
+---
+# zlibgetcodingtype
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Повертає спосіб кодування, який використовується для стиснення виводу
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# zlib_get_coding_type
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-zlib_get_coding_type — Повертає спосіб кодування, який використовується для
-стиснення виведення
+zlibgetcodingtype — Повертає спосіб кодування, який використовується для стиснення виводу.
 
 ### Опис
 
-**zlib_get_coding_type**(): string\|false
+```methodsynopsis
+zlib_get_coding_type(): string|false
+```
 
 Повертає спосіб кодування, який використовується для стиснення виводу.
 
@@ -24,9 +26,8 @@ zlib_get_coding_type — Повертає спосіб кодування, як�
 
 ### Значення, що повертаються
 
-Можливі значення: `gzip`, `deflate` або **`false`**.
+Можливі значення: `gzip` `deflate` або **`false`**
 
 ### Дивіться також
 
-- Директива
-[zlib.output_compression](zlib.configuration.md#ini.zlib.output-compression)
+-   Директива [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression)

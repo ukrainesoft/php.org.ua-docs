@@ -1,32 +1,26 @@
-- [« MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply »](mongodb-driver-monitoring-commandsucceededevent.getreply.md)
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
+  - mongodb-driver-monitoring-commandsucceededevent.getreply.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
+---
+# MongoDBDriverMonitoringCommandSucceededEvent::getOperationId
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md)
-- Повертає ідентифікатор операції команди
+(mongodb >=1.3.0)
 
-# MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId
-
-(mongodb \>=1.3.0)
-
-MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId -
-Повертає ідентифікатор операції команди
+MongoDBDriverMonitoringCommandSucceededEvent::getOperationId — Повертає ідентифікатор операції команди
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId**():
-string
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId(): string
+```
 
-Ідентифікатор операції генерується драйвером і може використовуватись для
-зв'язування подій разом, таких як операцій масового запису, які
-можуть бути поділені на кілька команд на рівні протоколу.
+Ідентифікатор операції генерується драйвером і може бути використаний для зв'язування подій разом, таких як операцій масового запису, які можуть бути розділені на кілька команд на рівні протоколу.
 
-> **Примітка**: Оскільки кілька команд можуть спільно використовувати
-> той самий ідентифікатор операції, недоцільно використовувати його
-> для зв'язування об'єктів подій між собою. Натомість слід
-> використовувати ідентифікатор запиту, повернутий
-> [MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId()](mongodb-driver-monitoring-commandsucceededevent.getrequestid.md).
+> **Зауваження**: Оскільки кілька команд можуть спільно використовувати той самий ідентифікатор операції, недоцільно використовувати його для зв'язування об'єктів подій один з одним. Натомість слід використовувати ідентифікатор запиту, повернутий [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId()](mongodb-driver-monitoring-commandsucceededevent.getrequestid.md)
 
 ### Список параметрів
 
@@ -38,14 +32,10 @@ string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId()](mongodb-driver-monitoring-commandstartedevent.getoperationid.md) -
-Повертає ідентифікатор операції команди
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId()](mongodb-driver-monitoring-commandsucceededevent.getrequestid.md) -
-Повертає ідентифікатор запиту команди
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [MongoDBDriverMonitoringCommandStartedEvent::getOperationId()](mongodb-driver-monitoring-commandstartedevent.getoperationid.md) - Повертає ідентифікатор операції команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId()](mongodb-driver-monitoring-commandsucceededevent.getrequestid.md) - Повертає ідентифікатор запиту команди
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

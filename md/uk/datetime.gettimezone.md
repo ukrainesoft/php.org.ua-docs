@@ -1,54 +1,56 @@
-- [« DateTime::getTimestamp](datetime.gettimestamp.md)
-- [DateTime::\_\_wakeup »](datetime.wakeup.md)
-
-- [PHP Manual](index.md)
-- [DateTimeInterface](class.datetimeinterface.md)
-- Повертає часовий пояс щодо поточного значення DateTime
-
-# DateTime::getTimezone
+---
+navigation:
+  - datetime.gettimestamp.md: '« DateTimeInterface::getTimestamp'
+  - datetime.wakeup.md: 'DateTime::wakeup »'
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
+title: 'DateTimeInterface::getTimezone'
+---
+# DateTimeInterface::getTimezone
 
 # DateTimeImmutable::getTimezone
 
-# DateTimeInterface::getTimezone
+# DateTime::getTimezone
 
-# date_timezone_get
+# datetimezoneget
 
-(PHP 5 \>= 5.2.1, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-DateTime::getTimezone -- DateTimeImmutable::getTimezone --
-DateTimeInterface::getTimezone -- date_timezone_get — Повертає вартовий
-пояс щодо поточного значення DateTime
+DateTimeInterface::getTimezone -- DateTimeImmutable::getTimezone -- DateTime::getTimezone -- datetimezoneget — Повертає часовий пояс щодо поточного значення DateTime
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **DateTime::getTimezone**():
-[DateTimeZone](class.datetimezone.md)\|false
+```methodsynopsis
+public DateTimeInterface::getTimezone(): DateTimeZone|false
+```
 
-public **DateTimeImmutable::getTimezone**():
-[DateTimeZone](class.datetimezone.md)\|false
+```methodsynopsis
+public DateTimeImmutable::getTimezone(): DateTimeZone|false
+```
 
-public **DateTimeInterface::getTimezone**():
-[DateTimeZone](class.datetimezone.md)\|false
+```methodsynopsis
+public DateTime::getTimezone(): DateTimeZone|false
+```
 
 Процедурний стиль
 
-[date_timezone_get](function.date-timezone-get.md)([DateTimeInterface](class.datetimeinterface.md)
-`$object`): [DateTimeZone](class.datetimezone.md)\|false
+```methodsynopsis
+date_timezone_get(DateTimeInterface $object): DateTimeZone|false
+```
 
 Повертає часовий пояс щодо поточного значення DateTime.
 
 ### Список параметрів
 
 `object`
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md),
-повертається [date_create()](function.date-create.md).
+
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateTimeZone](class.datetimezone.md) у випадку
-успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт [DateTimeZone](class.datetimezone.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -56,17 +58,30 @@ public **DateTimeInterface::getTimezone**():
 
 Об'єктно-орієнтований стиль
 
-` <?php$date = new DateTime(null, new DateTimeZone('Europe/London'));$tz = $date->getTimezone();echo $tz->getName();?> `
+```php
+<?php
+$date = new DateTimeImmutable(null, new DateTimeZone('Europe/London'));
+$tz = $date->getTimezone();
+echo $tz->getName();
+?>
+```
 
 Процедурний стиль
 
-` <?php$date = date_create(null, timezone_open('Europe/London'));$tz = date_timezone_get($date);echo timezone_name_get($tz);?> `
+```php
+<?php
+$date = date_create(null, timezone_open('Europe/London'));
+$tz = date_timezone_get($date);
+echo timezone_name_get($tz);
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 Europe/London
+```
 
 ### Дивіться також
 
-- [DateTime::setTimezone()](datetime.settimezone.md) - Встановлює
-часовий пояс для об'єкту класу DateTime
+-   [DateTime::setTimezone()](datetime.settimezone.md) - Встановлює часовий пояс для об'єкта класу DateTime

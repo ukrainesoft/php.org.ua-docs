@@ -1,22 +1,24 @@
-- [« SQLite3Stmt::readOnly](sqlite3stmt.readonly.md)
-- [SQLite3Result »](class.sqlite3result.md)
-
-- [PHP Manual](index.md)
-- [SQLite3Stmt](class.sqlite3stmt.md)
-- скидає підготовлений запит
-
+---
+navigation:
+  - sqlite3stmt.readonly.md: '« SQLite3Stmt::readOnly'
+  - class.sqlite3result.md: SQLite3Result »
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::reset'
+---
 # SQLite3Stmt::reset
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::reset — Скидає підготовлений запит
 
 ### Опис
 
-public **SQLite3Stmt::reset**(): bool
+```methodsynopsis
+public SQLite3Stmt::reset(): bool
+```
 
-Скидає підготовлений запит у стан до виконання. Після
-скидання всі прив'язки залишаються постійними.
+Скидає підготовлений запит до стану до його виконання. Після скидання всі прив'язки залишаються незмінними.
 
 ### Список параметрів
 
@@ -24,5 +26,4 @@ public **SQLite3Stmt::reset**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у випадку, якщо підготовлений запит був успішним
-скинутий або **`false`** у разі виникнення помилки.
+Повертає **`true`** у випадку, якщо підготовлений запит був успішно скинутий або **`false`** у разі виникнення помилки.

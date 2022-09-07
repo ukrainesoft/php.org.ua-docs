@@ -1,42 +1,39 @@
-- [« Функції OPcache](ref.opcache.md)
-- [opcache_get_configuration »](function.opcache-get-configuration.md)
+---
+navigation:
+  - ref.opcache.md: « Функции OPcache
+  - function.opcache-get-configuration.md: opcachegetconfiguration »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
+title: opcachecompilefile
+---
+# opcachecompilefile
 
-- [PHP Manual](index.md)
-- [Функції OPcache](ref.opcache.md)
-- Скомпілювати та закешувати, але не виконувати скрипт PHP
+(PHP 5> = 5.5.5, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)
 
-# opcache_compile_file
-
-(PHP 5 \>= 5.5.5, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
-
-opcache_compile_file — Скомпілювати та закешувати, але не виконувати
-скрипт PHP
+opcachecompilefile — Скомпілювати та закешувати, але не виконувати скрипт PHP
 
 ### Опис
 
-**opcache_compile_file**(string `$filename`): bool
+```methodsynopsis
+opcache_compile_file(string $filename): bool
+```
 
-Ця функція компілює PHP-скрипт і поміщає його в кеш опкодів, але не
-запускає його. Можна використовувати для прогрівання кеша після перезапуску
-веб-сервер.
+Ця функція компілює PHP-скрипт і поміщає його в кеш опкодів, але не запускає його. Ви можете використовувати для прогрівання кеша після перезапуску веб-сервера.
 
 ### Список параметрів
 
 `filename`
-Шлях до сценарію PHP.
+
+Шлях до скрипту PHP.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `filename` успішно скомпільовано або
-**`false`** у разі виникнення помилки.
+Повертає **`true`**, якщо `filename` успішно скомпільований або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо `filename` не може бути завантажений або скомпілюваний, буде видано
-помилка рівня **`E_WARNING`**. Для придушення попередження можна
-використовувати [@](language.operators.errorcontrol.md).
+Якщо `filename` не може бути завантажений або скомпільований, буде видана помилка рівня **`E_WARNING`**. Для придушення попередження можна використовувати[](language.operators.errorcontrol.md)
 
 ### Дивіться також
 
-- [opcache_invalidate()](function.opcache-invalidate.md) -
-Анулює закешований скрипт
+-   [opcacheinvalidate()](function.opcache-invalidate.md) - анулює закешований скрипт

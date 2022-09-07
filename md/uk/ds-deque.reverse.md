@@ -1,19 +1,22 @@
-- [« Ds\Deque::remove](ds-deque.remove.md)
-- [Ds\Deque::reversed »](ds-deque.reversed.md)
+---
+navigation:
+  - ds-deque.remove.md: '« DsDeque::remove'
+  - ds-deque.reversed.md: 'ДсDeque::reversed »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::reverse'
+---
+# ДсDeque::reverse
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Перевертає поточну двосторонню чергу
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::reverse
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::reverse — Перевертає поточну двосторонню чергу.
+ДсDeque::reverse — Перевертає поточну двосторонню чергу.
 
 ### Опис
 
-public **Ds\Deque::reverse**(): void
+```methodsynopsis
+public Ds\Deque::reverse(): void
+```
 
 Перевертає поточну двосторонню чергу.
 
@@ -27,15 +30,24 @@ public **Ds\Deque::reverse**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::reverse()****
+**Приклад #1 Приклад використання **ДсDeque::reverse()****
 
-` <?php$deque = new \Ds\Deque(["a", "b", "c"]);$deque->reverse();print_r($deque);?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque->reverse();
+
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => c
-[1] => b
-[2] => a
+    [0] => c
+    [1] => b
+    [2] => a
 )
+```

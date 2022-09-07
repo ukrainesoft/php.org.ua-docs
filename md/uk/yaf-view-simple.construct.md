@@ -1,38 +1,40 @@
-- [« Yaf_View_Simple::clear](yaf-view-simple.clear.md)
-- [Yaf_View_Simple::display »](yaf-view-simple.display.md)
+---
+navigation:
+  - yaf-view-simple.clear.md: '« YafViewSimple::clear'
+  - yaf-view-simple.display.md: 'YafViewSimple::display »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
+title: 'YafViewSimple::construct'
+---
+# YafViewSimple::construct
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Конструктор класу Yaf_View_Simple
+(Yaf >=1.0.0)
 
-# Yaf_View_Simple::\_\_construct
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Simple::\_\_construct - Конструктор класу Yaf_View_Simple
+YafViewSimple::construct - Конструктор класу YafViewSimple
 
 ### Опис
 
-final public **Yaf_View_Simple::\_\_construct**(string `$template_dir`,
-array `$options` = ?)
+final public **YafViewSimple::construct**(string `$template_dir`, array `$options`
 
 ### Список параметрів
 
 `template_dir`
-Базовий каталог шаблонів, за замовчуванням, це APPLICATOIN . "/views" для
-Yaf.
+
+Базовий каталог шаблонів за замовчуванням це APPLICATOIN . "/views" для Yaf.
 
 `options`
-``` parameterscode
-Опції для движка, починаючи з Yaf 2.1.13, можна використовувати short_tag
-"<?=$var?>" у своєму шаблоні (незалежно від "short_open_tag"),
-щоб запобігти використанню short_tag у шаблоні,
-є опція з ім'ям "short_tag", яку ви можете вимкнути.
-````
+
+Опції для двигуна, починаючи з Yaf 2.1.13, ви можете використовувати shorttag "" у своєму шаблоні (незалежно від " shortopentag"), щоб запобігти використанню shorttag у шаблоні, є опція з ім'ям "shorttag", яку ви можете вимкнути.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**Yaf_View_Simple::\_\_constructor()****
+**Приклад #1 Приклад використання **YafViewSimple::constructor()****
 
-` <?php   define ("TEMPLATE_DIRECTORY", APPLICATOIN_PATH . '/views'); $view = new Yaf_View_Simple(TEMPLATE_DIRECTORY, array(                            ...)
+```php
+<?php
+   define ("TEMPLATE_DIRECTORY", APPLICATOIN_PATH . '/views');
+   $view = new Yaf_View_Simple(TEMPLATE_DIRECTORY, array(
+                           'short_tag' => false //не позволяет использовать короткие теги в шаблоне
+   ));
+?>
+```

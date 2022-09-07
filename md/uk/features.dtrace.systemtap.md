@@ -1,39 +1,38 @@
-- [« Використання PHP та DTrace](features.dtrace.dtrace.md)
-- [Довідник функцій »](funcref.md)
-
-- [PHP Manual](index.md)
-- [Динамічна трасування DTrace](features.dtrace.md)
-- Використання SystemTap зі статичними зондами PHP DTrace
-
+---
+navigation:
+  - features.dtrace.dtrace.md: « Использование PHP и DTrace
+  - funcref.md: Справочник функций »
+  - index.md: PHP Manual
+  - features.dtrace.md: Динамічна трасування DTrace
+title: Використання SystemTap зі статичними зондами PHP DTrace
+---
 ## Використання SystemTap зі статичними зондами PHP DTrace
 
-У деяких дистрибутивах Linux можна використовувати утиліту трасування
-SystemTap для відстеження статичних зондів DTrace. Цей варіант
-доступний у PHP 5.4.20 та PHP 5.5.
+У деяких дистрибутивах Linux можна використовувати утиліту трасування SystemTap для відстеження статичних зондів DTrace. Цей варіант доступний у PHP 5.4.20 та PHP 5.5.
 
 ### Установка PHP з SystemTap
 
-Встановіть розробний пакет SystemTap SDT:
+Встановіть пакет SystemTap SDT:
 
-`` shellcode
-# yum install systemtap-sdt-devel
-````
+yum install systemtap-sdt-devel
 
 Встановіть PHP з DTrace:
 
-`` shellcode
-# ./configure --enable-dtrace ...
+./configure --enable-dtrace ...
+
 # make
-````
 
 ### Отримання списку статичних зондів за допомогою SystemTap
 
-Статичні зонди PHP можна подивитися, використовуючи `stap`:
+Статичні зонди PHP можна подивитися за допомогою stap:
 
+```
 # stap -l 'process.provider("php").mark("*")' -c 'sapi/cli/php -i'
+```
 
 Зразковий висновок:
 
+```
 process("sapi/cli/php").provider("php").mark("compile__file__entry")
 process("sapi/cli/php").provider("php").mark("compile__file__return")
 process("sapi/cli/php").provider("php").mark("error")
@@ -45,117 +44,16 @@ process("sapi/cli/php").provider("php").mark("function__entry")
 process("sapi/cli/php").provider("php").mark("function__return")
 process("sapi/cli/php").provider("php").mark("request__shutdown")
 process("sapi/cli/php").provider("php").mark("request__startup")
+```
 
 ### Приклад використання SystemTap з PHP
 
-**Приклад #1 `all_probes.stp` - трасування всіх статичних зондів PHP**
+**Приклад #1 allprobes.stp - трасування всіх статичних зондів PHP**
 
-`` shellcode
-probe process("sapi/cli/php").provider("php").mark("compile__file__entry") {
-printf("Probe compile__file__entry
-");
-printf(" compile_file %s
-", user_string($arg1));
-printf(" compile_file_translated %s
-", user_string($arg2));
-}
-probe process("sapi/cli/php").provider("php").mark("compile__file__return") {
-printf("Probe compile__file__return
-");
-printf(" compile_file %s
-", user_string($arg1));
-printf(" compile_file_translated %s
-", user_string($arg2));
-}
-probe process("sapi/cli/php").provider("php").mark("error") {
-printf("Probe error
-");
-printf(" errormsg %s
-", user_string($arg1));
-printf(" request_file %s
-", user_string($arg2));
-printf(" lineno %d
-", $ arg3);
-}
-probe process("sapi/cli/php").provider("php").mark("exception__caught") {
-printf("Probe exception__caught
-");
-printf(" classname %s
-", user_string($arg1));
-}
-probe process("sapi/cli/php").provider("php").mark("exception__thrown") {
-printf("Probe exception__thrown
-");
-printf(" classname %s
-", user_string($arg1));
-}
-probe process("sapi/cli/php").provider("php").mark("execute__entry") {
-printf("Probe execute__entry
-");
-printf(" request_file %s
-", user_string($arg1));
-printf(" lineno %d
-", $ arg2);
-}
-probe process("sapi/cli/php").provider("php").mark("execute__return") {
-printf("Probe execute__return
-");
-printf(" request_file %s
-", user_string($arg1));
-printf(" lineno %d
-", $ arg2);
-}
-probe process("sapi/cli/php").provider("php").mark("function__entry") {
-printf("Probe function__entry
-");
-printf(" function_name %s
-", user_string($arg1));
-printf(" request_file %s
-", user_string($arg2));
-printf(" lineno %d
-", $ arg3);
-printf(" classname %s
-", user_string($arg4));
-printf(" scope %s
-", user_string($arg5));
-}
-probe process("sapi/cli/php").provider("php").mark("function__return") {
-printf("Probe function__return: %s
-", user_string($arg1));
-printf(" function_name %s
-", user_string($arg1));
-printf(" request_file %s
-", user_string($arg2));
-printf(" lineno %d
-", $ arg3);
-printf(" classname %s
-", user_string($arg4));
-printf(" scope %s
-", user_string($arg5));
-}
-probe process("sapi/cli/php").provider("php").mark("request__shutdown") {
-printf("Probe request__shutdown
-");
-printf(" file %s
-", user_string($arg1));
-printf(" request_uri %s
-", user_string($arg2));
-printf(" request_method %s
-", user_string($arg3));
-}
-probe process("sapi/cli/php").provider("php").mark("request__startup") {
-printf("Probe request__startup
-");
-printf(" file %s
-", user_string($arg1));
-printf(" request_uri %s
-", user_string($arg2));
-printf(" request_method %s
-", user_string($arg3));
-}
-````
+probe process("sapi/cli/php").provider("php").mark("compilefileentry") { printf("Probe compilefileentryn"); printf(" compilefile %sn", userstring($arg1)); printf(" compilefiletranslated %sn", userstring($arg2)); } probe process("sapi/cli/php").provider("php").mark("compilefilereturn") { printf("Probe compilefilereturnn"); printf(" compilefile %sn", userstring($arg1)); printf(" compilefiletranslated %sn", userstring($arg2)); } probe process("sapi/cli/php").provider("php").mark("error") { printf("Probe errorn"); printf(" errormsg %sn", userstring($arg1)); printf(" requestfile %sn", userstring($arg2)); printf(" lineno %dn", $ arg3); } probe process("sapi/cli/php").provider("php").mark("exceptioncaught") { printf("Probe exceptioncaughtn"); printf(" classname %sn", userstring($arg1)); } probe process("sapi/cli/php").provider("php").mark("exceptionthrown") { printf("Probe exceptionthrownn"); printf(" classname %sn", userstring($arg1)); } probe process("sapi/cli/php").provider("php").mark("executeentry") { printf("Probe executeentryn"); printf(" requestfile %sn", userstring($arg1)); printf(" lineno %dn", $ arg2); } probe process("sapi/cli/php").provider("php").mark("executereturn") { printf("Probe executereturnn"); printf(" requestfile %sn", userstring($arg1)); printf(" lineno %dn", $ arg2); } probe process("sapi/cli/php").provider("php").mark("functionentry") { printf("Probe functionentryn"); printf(" functionname %sn", userstring($arg1)); printf(" requestfile %sn", userstring($arg2)); printf(" lineno %dn", $ arg3); printf(" classname %sn", userstring($arg4)); printf(" scope %sn", userstring($arg5)); } probe process("sapi/cli/php").provider("php").mark("functionreturn") { printf("Probe functionreturn: %sn", userstring($arg1)); printf(" functionname %sn", userstring($arg1)); printf(" requestfile %sn", userstring($arg2)); printf(" lineno %dn", $ arg3); printf(" classname %sn", userstring($arg4)); printf(" scope %sn", userstring($arg5)); } probe process("sapi/cli/php").provider("php").mark("requestshutdown") { printf("Probe requestshutdownn"); printf(" file %sn", userstring($arg1)); printf(" requesturi %sn", userstring($arg2)); printf(" requestmethod %sn", userstring($arg3)); } probe process("sapi/cli/php").provider("php").mark("requeststartup") { printf("Probe requeststartupn"); printf(" file %sn", userstring($arg1)); printf(" requesturi %sn", userstring($arg2)); printf(" requestmethod %sn", userstring($arg3)); }
 
-Наведений вище скрипт виводитиме дані статичних зондів PHP на
-протягом роботи PHP-скрипту:
+Наведений вище скрипт виводитиме дані статичних зондів PHP на всьому протязі роботи PHP-скрипту:
 
+```
 # stap -c 'sapi/cli/php test.php' all_probes.stp
+```

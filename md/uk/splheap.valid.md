@@ -1,21 +1,24 @@
-- [« SplHeap::top](splheap.top.md)
-- [SplMaxHeap »](class.splmaxheap.md)
-
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Перевіряє, чи містить купа ще елементи
-
+---
+navigation:
+  - splheap.top.md: '« SplHeap::top'
+  - class.splmaxheap.md: SplMaxHeap »
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::valid'
+---
 # SplHeap::valid
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::valid — Перевіряє, чи містить ще купа елементи
 
 ### Опис
 
-public **SplHeap::valid**(): bool
+```methodsynopsis
+public SplHeap::valid(): bool
+```
 
-Перевіряє, чи містить ще купа елементи.
+Перевіряє, чи містить купа ще елементи.
 
 ### Список параметрів
 
@@ -23,5 +26,4 @@ public **SplHeap::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо елементи в купі ще є, **`false`** в
-інакше.
+Повертає \*\*`true`\*\*якщо елементи в купі ще є, **`false`** в іншому випадку.

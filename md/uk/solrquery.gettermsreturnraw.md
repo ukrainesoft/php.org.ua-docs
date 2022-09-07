@@ -1,24 +1,24 @@
-- [« SolrQuery::getTermsPrefix](solrquery.gettermsprefix.md)
-- [SolrQuery::getTermsSort »](solrquery.gettermssort.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Чи слід повертати необроблені символи
-
+---
+navigation:
+  - solrquery.gettermsprefix.md: '« SolrQuery::getTermsPrefix'
+  - solrquery.gettermssort.md: 'SolrQuery::getTermsSort »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsReturnRaw'
+---
 # SolrQuery::getTermsReturnRaw
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTermsReturnRaw — Чи слід повертати необроблені
-символи
+SolrQuery::getTermsReturnRaw — Чи потрібно повертати необроблені символи
 
 ### Опис
 
-public **SolrQuery::getTermsReturnRaw**(): bool
+```methodsynopsis
+public SolrQuery::getTermsReturnRaw(): bool
+```
 
-Повертає логічне значення, яке вказує, чи слід повертати
-необроблені символи проіндексованого виразу, незалежно від
-того, чи людиночитане воно.
+Повертає логічне значення, що вказує, чи слід повертати необроблені символи проіндексованого виразу, незалежно від того, чи людина читається.
 
 ### Список параметрів
 
@@ -26,5 +26,4 @@ public **SolrQuery::getTermsReturnRaw**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

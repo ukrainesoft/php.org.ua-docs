@@ -1,28 +1,37 @@
-- [« CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.md)
-- [CrudOperationSkippable::skip »](mysql-xdevapi-crudoperationskippable.skip.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс CrudOperationSkippable
-
+---
+navigation:
+  - mysql-xdevapi-crudoperationlimitable.limit.md: '« CrudOperationLimitable::limit'
+  - mysql-xdevapi-crudoperationskippable.skip.md: 'CrudOperationSkippable::skip »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Інтерфейс CrudOperationSkippable
+---
 # Інтерфейс CrudOperationSkippable
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\CrudOperationSkippable** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **skip**(int `$skip`):
-[mysql_xdevapi\CrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.md)
 
-}
+    
+     
+      class mysql_xdevapi\CrudOperationSkippable
+     
+     {
+
+
+    /* Методы */
+    
+   abstract public skip(int $skip): mysql_xdevapi\CrudOperationSkippable
+
+   }
+```
 
 ## Зміст
 
-- [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md)
-- Кількість операцій для пропуску
+-   [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md) - Кількість операцій для пропуску

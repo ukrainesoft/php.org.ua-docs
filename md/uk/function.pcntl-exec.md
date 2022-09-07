@@ -1,39 +1,39 @@
-- [«pcntl_errno](function.pcntl-errno.md)
-- [pcntl_fork »](function.pcntl-fork.md)
+---
+navigation:
+  - function.pcntl-errno.md: pcntlerrno
+  - function.pcntl-fork.md: pcntlfork »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlexec
+---
+# pcntlexec
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Запустити вказану програму в галузі поточного процесу
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#pcntl_exec
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-pcntl_exec — Запустити цю програму в області поточного процесу
+pcntlexec — Запуск цієї програми в області поточного процесу
 
 ### Опис
 
-**pcntl_exec**(string `$path`, array `$args` = [], array `$env_vars` =
-[]): bool
+```methodsynopsis
+pcntl_exec(string $path, array $args = [], array $env_vars = []): bool
+```
 
-Запускає програму із переданими аргументами.
+Запускає програму з переданими аргументами.
 
 ### Список параметрів
 
 `path`
-`path` шлях до виконуваної програми або скрипта з коректною вказівкою
-шляхи до інтерпретатора у першому рядку (наприклад,
-#!/usr/local/bin/perl). Для отримання додаткової інформації
-зверніться до системного посібника execve(2).
+
+`path` шлях до програми або скрипта з коректною вказівкою шляху до інтерпретатора в першому рядку (наприклад, #!/usr/local/bin/perl). Для отримання додаткової інформації зверніться до системного посібника execve(2).
 
 `args`
+
 `args` масив рядків аргументів переданих програмі
 
 `env_vars`
-`env_vars` масив рядків, які передані програмі як
-змінних оточення. Масив формату name =\> value, де name - ім'я
-Змінне оточення і значення - значення змінної оточення.
+
+`env_vars` масив рядків, які передані програмі як змінні оточення. Масив формату name => value, де name – ім'я змінної оточення та value – значення змінної оточення.
 
 ### Значення, що повертаються
 
-Повертає **`false`**.
+Повертає **`false`**

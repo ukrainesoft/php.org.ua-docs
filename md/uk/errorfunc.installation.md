@@ -1,11 +1,11 @@
-- [« Вимоги](errorfunc.requirements.md)
-- [Налаштування під час виконання »](errorfunc.configuration.md)
+---
+navigation:
+  - errorfunc.requirements.md: « Вимоги
+  - errorfunc.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - errorfunc.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](errorfunc.setup.md)
-- Установка
-
-## Установка
-
-Для використання цих функцій не потрібне проведення установки,
-оскільки вони є частиною ядра PHP.
+Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

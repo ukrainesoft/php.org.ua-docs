@@ -1,20 +1,17 @@
-- [« Список тегів (tokens) парсера](tokens.md)
-- [Глобальний простір імен »](userlandnaming.globalnamespace.md)
-
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Посібник з іменування
-
+---
+navigation:
+  - tokens.md: « Список меток (tokens) парсера
+  - userlandnaming.globalnamespace.md: Глобальний простір імен »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Посібник з іменування
+---
 # Посібник з іменування
 
 ## Зміст
 
-- [Глобальний простір імен](userlandnaming.globalnamespace.md)
-- [Правила](userlandnaming.rules.md)
-- [Поради](userlandnaming.tips.md)
+-   [Глобальний простір імен](userlandnaming.globalnamespace.md)
+-   [Правила](userlandnaming.rules.md)
+-   [Поради](userlandnaming.tips.md)
 
-Цей документ містить поради щодо вибору імен для ідентифікаторів
-PHP-код. При виборі імен для коду, що створює ідентифікатори
-глобальному просторі імен, важливо брати до уваги це
-керівництво, щоб уникнути колізій імен із майбутніх версій PHP з вашим
-кодом.
+Цей документ містить поради щодо вибору імен для ідентифікаторів PHP-коду. При виборі імен для коду, що створює ідентифікатори в глобальному просторі імен, важливо брати до уваги цей посібник, щоб уникнути колізій імен із майбутніх версій PHP з вашим кодом.

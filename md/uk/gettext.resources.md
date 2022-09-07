@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](gettext.configuration.md)
-- [Предвизначені константи »](gettext.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gettext.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - gettext.configuration.md: « Налаштування під час виконання
+  - gettext.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - gettext.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

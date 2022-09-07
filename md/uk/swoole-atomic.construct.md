@@ -1,31 +1,27 @@
-- [« Swoole\Atomic::cmpset](swoole-atomic.cmpset.md)
-- [Swoole\Atomic::get »](swoole-atomic.get.md)
+---
+navigation:
+  - swoole-atomic.cmpset.md: '« SwooleAtomic::cmpset'
+  - swoole-atomic.get.md: 'SwooleAtomic::get »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.md: SwooleAtomic
+title: 'SwooleAtomic::construct'
+---
+# SwooleAtomic::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Atomic](class.swoole-atomic.md)
-- Створює атомний об'єкт swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Atomic::\_\_construct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Atomic::\_\_construct - Створює атомарний об'єкт swoole
+SwooleAtomic::construct — Створює атомарний об'єкт swoole
 
 ### Опис
 
-public **Swoole\Atomic::\_\_construct**(int `$value` = ?)
+public **SwooleAtomic::construct**(int `$value`
 
-Атомарний об'єкт Swoole - це ціла змінна, яка
-дозволяє будь-якому процесору атомарно тестувати та модифікувати. Він
-реалізований з урахуванням атомарних інструкцій процесора. Атомарні
-Змінні Swoole повинні бути визначені до swoole_server-start.
+Атомарний об'єкт Swoole - це ціла змінна, яка дозволяє будь-якому процесору атомарно тестувати і модифікувати. Він реалізований з урахуванням атомарних інструкцій процесора. Атомарні змінні Swoole мають бути визначені до swooleserver->start.
 
-Порівняння та заміна (CAS) - це атомарна інструкція, яка використовується в
-багатопоточності для досягнення синхронізації. Вона порівнює вміст
-області пам'яті із заданим значенням і, тільки якщо вони збігаються,
-змінює вміст цієї області пам'яті на нове значення.
+Порівняння та заміна (CAS) - це атомарна інструкція, яка використовується в багатопоточності для досягнення синхронізації. Вона порівнює вміст області пам'яті із заданим значенням і, тільки якщо вони збігаються, змінює вміст цієї області пам'яті на нове значення.
 
 ### Список параметрів
 
 `value`
+
 Значення атомарного об'єкта.

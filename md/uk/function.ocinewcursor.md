@@ -1,22 +1,21 @@
-- [«ocinewcollection](function.ocinewcollection.md)
-- [ocinewdescriptor »](function.ocinewdescriptor.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_new_cursor
-
+---
+navigation:
+  - function.ocinewcollection.md: « ocinewcollection
+  - function.ocinewdescriptor.md: ocinewdescriptor »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocinewcursor
+---
 # ocinewcursor
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocinewcursor - Псевдонім
-[oci_new_cursor()](function.oci-new-cursor.md)
+ocinewcursor - Псевдонім [ocinewcursor()](function.oci-new-cursor.md)
 
 ### Опис
 
-Псевдонім [oci_new_cursor()](function.oci-new-cursor.md)
+Псевдонім [ocinewcursor()](function.oci-new-cursor.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

@@ -1,20 +1,22 @@
-- [« VarnishStat::\_\_construct](varnishstat.construct.md)
-- [VarnishLog »](class.varnishlog.md)
-
-- [PHP Manual](index.md)
-- [VarnishStat](class.varnishstat.md)
-- Отримати знімок статистики поточного екземпляра varnish
-
+---
+navigation:
+  - varnishstat.construct.md: '« VarnishStat::construct'
+  - class.varnishlog.md: VarnishLog »
+  - index.md: PHP Manual
+  - class.varnishstat.md: VarnishStat
+title: 'VarnishStat::getSnapshot'
+---
 # VarnishStat::getSnapshot
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
-VarnishStat::getSnapshot — Отримати фотографію статистики поточного
-екземпляра varnish
+VarnishStat::getSnapshot — Отримати фотографію статистики поточного екземпляра varnish
 
 ### Опис
 
-public **VarnishStat::getSnapshot**(): array
+```methodsynopsis
+public VarnishStat::getSnapshot(): array
+```
 
 ### Список параметрів
 
@@ -22,5 +24,4 @@ public **VarnishStat::getSnapshot**(): array
 
 ### Значення, що повертаються
 
-Масив зі знімком статистики varnish. Ключі масиву ідентичні ключам у
-команді varnishstat.
+Масив зі знімком varnish статистики. Ключі масиву ідентичні ключам у команді varnishstat.

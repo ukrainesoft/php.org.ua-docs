@@ -1,43 +1,45 @@
-- [« MongoDB\BSON\RegexInterface::\_\_toString](mongodb-bson-regexinterface.tostring.md)
-- [MongoDB\BSON\TimestampInterface::getIncrement »](mongodb-bson-timestampinterface.getincrement.md)
+---
+navigation:
+  - mongodb-bson-regexinterface.tostring.md: '« MongoDBBSONRegexInterface::toString'
+  - mongodb-bson-timestampinterface.getincrement.md: 'MongoDBBSONTimestampInterface::getIncrement »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONTimestampInterface
+---
+# Інтерфейс MongoDBBSONTimestampInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\TimestampInterface
-
-# Інтерфейс MongoDB\BSON\TimestampInterface
-
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
 ## Вступ
 
-Цей інтерфейс реалізований за допомогою
-[MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md), але також
-може використовуватися як параметр, що повертається значення або
-типу якості у класах користувальницького простору.
+Цей інтерфейс реалізований за допомогою [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
-class **MongoDB\BSON\TimestampInterface** {
+```classsynopsis
 
-/\* Методи \*/
+    
+     
+      class MongoDB\BSON\TimestampInterface
+     
+     {
+    /* Методы */
+    
+   abstract public getIncrement(): int
+abstract public getTimestamp(): int
+abstract public __toString(): string
 
-abstract public
-[getIncrement](mongodb-bson-timestampinterface.getincrement.md)(): int
+   }
+```
 
-abstract public
-[getTimestamp](mongodb-bson-timestampinterface.gettimestamp.md)(): int
+## список змін
 
-abstract public
-[\_\_toString](mongodb-bson-timestampinterface.tostring.md)(): string
-
-}
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\BSON\TimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.md)
-- Повертає інкрементний компонент TimestampInterface
-- [MongoDB\BSON\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.md)
-- Повертає компонент позначки часу TimestampInterface
-- [MongoDB\BSON\TimestampInterface::\_\_toString](mongodb-bson-timestampinterface.tostring.md)
-— Повертає рядкову виставу TimestampInterface
+-   [MongoDBBSONTimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.md) - Повертає інкрементний компонент TimestampInterface
+-   [MongoDBBSONTimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.md) — Повертає компонент позначки часу TimestampInterface
+-   [MongoDBBSONTimestampInterface::toString](mongodb-bson-timestampinterface.tostring.md) — Повертає строкову виставу TimestampInterface

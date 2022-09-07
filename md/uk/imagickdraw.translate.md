@@ -1,10 +1,11 @@
-- [« ImagickDraw::skewY](imagickdraw.skewy.md)
-- [ImagickPixel »](class.imagickpixel.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Застосовує перенесення до поточної системи координат
-
+---
+navigation:
+  - imagickdraw.skewy.md: '« ImagickDraw::skewY'
+  - class.imagickpixel.md: ImagickPixel »
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::translate'
+---
 # ImagickDraw::translate
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,22 +14,24 @@ ImagickDraw::translate — Застосовує перенесення до по
 
 ### Опис
 
-public **ImagickDraw::translate**(float `$x`, float `$y`): bool
+```methodsynopsis
+public ImagickDraw::translate(float $x, float $y): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Застосовує перенесення до поточної системи координат, що переміщує початок
-системи координат у зазначену координату.
+Застосовує перенесення до поточної системи координат, яка переміщає початок системи координат у зазначену координату.
 
 ### Список параметрів
 
 `x`
+
 Горизонтальне перенесення.
 
 `y`
+
 Вертикальне перенесення.
 
 ### Значення, що повертаються
@@ -39,4 +42,30 @@ public **ImagickDraw::translate**(float `$x`, float `$y`): bool
 
 **Приклад #1 Приклад використання **ImagickDraw::translate()****
 
-` <?phpfunction translate($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,                   $startX, $startY, $endX, $endY, $translateX, $translateY) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->rectangle($startX, $startY, $endX, $endY); $draw->setFillColor($fillModifiedColor); $draw->translate($translateX, $translateY); $draw->rectangle($startX, $startY, $endX, $endY); $image = new \Imagick(); $image->newImage(500, 500, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+```php
+<?php
+function translate($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,
+                   $startX, $startY, $endX, $endY, $translateX, $translateY) {
+
+    $draw = new \ImagickDraw();
+
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle($startX, $startY, $endX, $endY);
+
+    $draw->setFillColor($fillModifiedColor);
+    $draw->translate($translateX, $translateY);
+    $draw->rectangle($startX, $startY, $endX, $endY);
+
+    $image = new \Imagick();
+    $image->newImage(500, 500, $backgroundColor);
+    $image->setImageFormat("png");
+
+    $image->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
+}
+
+?>
+```

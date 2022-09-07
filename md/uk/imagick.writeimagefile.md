@@ -1,42 +1,39 @@
-- [« Imagick::writeImage](imagick.writeimage.md)
-- [Imagick::writeImages »](imagick.writeimages.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Записує зображення у файл
-
+---
+navigation:
+  - imagick.writeimage.md: '« Imagick::writeImage'
+  - imagick.writeimages.md: 'Imagick::writeImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::writeImageFile'
+---
 # Imagick::writeImageFile
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
-Imagick::writeImageFile — Записує зображення у файл
+Imagick::writeImageFile — Записує зображення до файлу
 
 ### Опис
 
-public **Imagick::writeImageFile**(resource `$filehandle`, string
-`$format` = ?): bool
+```methodsynopsis
+public Imagick::writeImageFile(resource $filehandle, string $format = ?): bool
+```
 
-Записує зображення у заданий файловий дескриптор. Дескриптор повинен
-бути попередньо відкритий, наприклад, за допомогою fopen. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.6 або
-старше.
+Записує зображення у заданий файловий дескриптор. Дескриптор має бути попередньо відкритий, наприклад, за допомогою fopen. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.6 або старшим.
 
 ### Список параметрів
 
 `filehandle`
+
 Файловий дескриптор.
 
 `format`
-Формат зображення. Список допустимих специфікаторів формату залежить від
-скомпілованого набору функцій програми ImageMagick і можливо
-запитаний під час виконання за допомогою методу
-[Imagick::queryFormats()](imagick.queryformats.md).
+
+Формат зображення. Список допустимих специфікаторів формату залежить від скомпілюваного набору функцій програми ImageMagick і може бути запитаний під час виконання за допомогою методу [Imagick::queryFormats()](imagick.queryformats.md)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Дивіться також
 
-- [Imagick::queryFormats()](imagick.queryformats.md) - Повертає
-формати, що підтримуються Imagick
+-   [Imagick::queryFormats()](imagick.queryformats.md) - Повертає формати, що підтримуються Imagick

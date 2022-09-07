@@ -1,10 +1,11 @@
-- [«ArrayIterator](class.arrayiterator.md)
-- [ArrayIterator::asort »](arrayiterator.asort.md)
-
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Додати елемент
-
+---
+navigation:
+  - class.arrayiterator.md: « ArrayIterator
+  - arrayiterator.asort.md: 'ArrayIterator::asort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::append'
+---
 # ArrayIterator::append
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,20 +14,20 @@ ArrayIterator::append — Додати елемент
 
 ### Опис
 
-public
-**ArrayIterator::append**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public ArrayIterator::append(mixed $value): void
+```
 
 Додає значення значення, як останній елемент масиву.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `value`
+
 Значення, яке потрібно додати.
 
 ### Значення, що повертаються
@@ -35,12 +36,10 @@ public
 
 ### Примітки
 
-> **Примітка**:
->
-> Цей метод може бути викликаний, якщо
-> [ArrayIterator](class.arrayiterator.md) вказує на об'єкт.
+> **Зауваження**
+> 
+> Цей метод не може бути викликаний, якщо [ArrayIterator](class.arrayiterator.md) вказує на об'єкт.
 
 ### Дивіться також
 
-- [ArrayIterator::next()](arrayiterator.next.md) - Переміщує
-покажчик за наступний запис
+-   [ArrayIterator::next()](arrayiterator.next.md) - Переміщує покажчик за наступний запис

@@ -1,21 +1,22 @@
-- [« Swoole\Table::exist](swoole-table.exist.md)
-- [Swoole\Table::incr »](swoole-table.incr.md)
+---
+navigation:
+  - swoole-table.exist.md: '« SwooleTable::exist'
+  - swoole-table.incr.md: 'SwooleTable::incr »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::get'
+---
+# SwooleTable::get
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Отримує значення в таблиці Swoole за $row_key та $column_key
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::get
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::get — Отримує значення у таблиці Swoole за $row_key та
-$column_key
+SwooleTable::get — Отримує значення в таблиці Swoole $rowkey та $columnkey
 
 ### Опис
 
-public **Swoole\Table::get**(string `$row_key`, string `$column_key`):
-int
+```methodsynopsis
+public Swoole\Table::get(string $row_key, string $column_key): int
+```
 
 ### Список параметрів
 

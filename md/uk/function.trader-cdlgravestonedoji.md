@@ -1,40 +1,41 @@
-- [« trader_cdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.md)
-- [trader_cdlhammer »](function.trader-cdlhammer.md)
+---
+navigation:
+  - function.trader-cdlgapsidesidewhite.md: « tradercdlgapsidesidewhite
+  - function.trader-cdlhammer.md: tradercdlhammer »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlgravestonedoji
+---
+# tradercdlgravestonedoji
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Дожі-надгробки
+(PECL trader >= 0.2.0)
 
-# trader_cdlgravestonedoji
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlgravestonedoji — Дожі-надгробки
+tradercdlgravestonedoji — Дожі-надгробки
 
 ### Опис
 
-**trader_cdlgravestonedoji**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlgravestonedoji(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

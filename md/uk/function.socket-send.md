@@ -1,66 +1,55 @@
-- [«socket_select](function.socket-select.md)
-- [socket_sendmsg »](function.socket-sendmsg.md)
+---
+navigation:
+  - function.socket-select.md: « socketselect
+  - function.socket-sendmsg.md: socketsendmsg »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketsend
+---
+# socketsend
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Надсилає дані в приєднаний сокет
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# socket_send
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-socket_send — Надсилає дані в приєднаний сокет
+socketsend — Надсилає дані в приєднаний сокет
 
 ### Опис
 
-**socket_send**(
-[Socket](class.socket.md) `$socket`,
-string `$data`,
-int `$length`,
-int `$flags`
-): int\|false
+```methodsynopsis
+socket_send(    Socket $socket,    string $data,    int $length,    int $flags): int|false
+```
 
-Функція **socket_send()** відправляє `length` байт у сокет `socket` з
-буфера `data`.
+Функція **socketsend()** відправляє `length` байт у сокет `socket` з буфера `data`
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функції
-[socket_create()](function.socket-create.md) або
-[socket_accept()](function.socket-accept.md).
+
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 `data`
-Буфер, який містить дані, які будуть відправлені на віддалений хост.
+
+Буфер містить дані, які будуть відправлені на віддалений хост.
 
 `length`
-Число байт, яке буде відправлено на віддалений хост із буфера `data`.
+
+Число байт, яке буде відправлено на віддалений хост з буфера `data`
 
 `flags`
-Значення параметра `flags` може бути будь-якою комбінацією наступних
-прапорів, з'єднаних за допомогою бінарного оператора OR (`|`).
 
-|                   |                                                                                                                                              |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **MSG_OOB**       | Надіслати дані OOB (out-of-band, позасмугові).                                                                                               |                                                                                                                                              
-| **MSG_EOR**       | Вказує на позначку запису. Надіслані дані завершують запис.                                                                                  |
-| **MSG_EOF**       | Закриває відправну сторону сокету і додає відповідне сповіщення про це на кінці даних, що відправляються. Надані дані завершують транзакцію. |
-| **MSG_DONTROUTE** | Не використовувати роутинг, використовувати прямий інтерфейс.                                                                                |
+Значення параметру `flags` може бути будь-якою комбінацією наступних прапорів, з'єднаних за допомогою бінарного оператора OR (`|`
 
-**Можливі значення для параметра `flags`**
+<table class="doctable table"><caption><strong>Можливі значення для параметра <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>MSG_OOB</code></strong></td><td>Надіслати дані OOB (out-of-band, позасмугові).</td></tr><tr><td><strong><code>MSG_EOR</code></strong></td><td>Вказує на позначку запису. Надіслані дані завершують запис.</td></tr><tr><td><strong><code>MSG_EOF</code></strong></td><td>Закриває відправну сторону сокету і додає відповідне повідомлення про цьому на кінці даних, що відправляються. Надані дані завершують транзакцію.</td></tr><tr><td><strong><code>MSG_DONTROUTE</code></strong></td><td>Не використовувати роутинг, використовувати прямий інтерфейс.&lt; /td&gt;</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-**socket_send()** повертає кількість відправлених байтів або
-**`false`** у разі виникнення помилки.
+**socketsend()** повертає кількість відправлених байтів або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_sendto()](function.socket-sendto.md) - Відправляє
-повідомлення в сокет, незалежно від того, під'єднаний він чи ні
+-   [socketsendto()](function.socket-sendto.md) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні

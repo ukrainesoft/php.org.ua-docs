@@ -1,103 +1,73 @@
-- [« SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md)
-- [CommonMark »](book.cmark.md)
-
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Обробка тексту
-
+---
+navigation:
+  - sessionupdatetimestamphandlerinterface.validateid.md: '« SessionUpdateTimestampHandlerInterface::validateId'
+  - book.cmark.md: CommonMark »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Обробка тексту
+---
 # Обробка тексту
 
-- [CommonMark](book.cmark.md)
-- [Вступ](intro.cmark.md)
-- [Встановлення та налаштування](cmark.setup.md)
-- [CommonMark\Node\Document](class.commonmark-node-document.md)
-— Document успадковує CommonMark\Node
-- [CommonMark\Node\Heading](class.commonmark-node-heading.md) -
-Heading успадковує CommonMark\Node
-- [CommonMark\Node\Paragraph](class.commonmark-node-paragraph.md)
-— Paragraph успадковує CommonMark\Node
-- [CommonMark\Node\BlockQuote](class.commonmark-node-blockquote.md)
-— BlockQuote успадковує CommonMark\Node
-- [CommonMark\Node\BulletList](class.commonmark-node-bulletlist.md)
-— BulletList успадковує CommonMark\Node
-- [CommonMark\Node\OrderedList](class.commonmark-node-orderedlist.md)
-— OrderedList успадковує CommonMark\Node
-- [CommonMark\Node\Item](class.commonmark-node-item.md) - Item
-успадковує CommonMark\Node
-- [CommonMark\Node\Text](class.commonmark-node-text.md) - Text
-успадковує CommonMark\Node
-- [CommonMark\Node\Text\Strong](class.commonmark-node-text-strong.md)
-— Strong успадковує CommonMark\Node
-- [CommonMark\Node\Text\Emphasis](class.commonmark-node-text-emphasis.md)
-— Emphasis успадковує CommonMark\Node
-- [CommonMark\Node\ThematicBreak](class.commonmark-node-thematicbreak.md)
-- ThematicBreak успадковує CommonMark\Node
-- [CommonMark\Node\SoftBreak](class.commonmark-node-softbreak.md)
-- SoftBreak успадковує CommonMark\Node
-- [CommonMark\Node\LineBreak](class.commonmark-node-linebreak.md)
-- LineBreak успадковує CommonMark\Node
-- [CommonMark\Node\Code](class.commonmark-node-code.md) - Code
-успадковує CommonMark\Node
-- [CommonMark\Node\CodeBlock](class.commonmark-node-codeblock.md)
-- CodeBlock успадковує CommonMark\Node
-- [CommonMark\Node\HTMLBlock](class.commonmark-node-htmlblock.md)
-— HTMLBlock успадковує CommonMark\Node
-- [CommonMark\Node\HTMLInline](class.commonmark-node-htmlinline.md)
-— HTMLInline успадковує CommonMark\Node
-- [CommonMark\Node\Image](class.commonmark-node-image.md) -
-Image успадковує CommonMark\Node
-- [CommonMark\Node\Link](class.commonmark-node-link.md) - Link
-успадковує CommonMark\Node
-- [CommonMark\Node\CustomBlock](class.commonmark-node-customblock.md)
-— CustomBlock успадковує CommonMark\Node
-- [CommonMark\Node\CustomInline](class.commonmark-node-custominline.md)
-— CustomInline успадковує CommonMark\Node
-- [CommonMark\Node](class.commonmark-node.md) - Абстрактний
-клас CommonMark\Node
-- [CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-- Інтерфейс CommonMark \ Interfaces \ IVisitor
-- [CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md)
-- Інтерфейс CommonMark \ Interfaces \ IVisitable
-- [CommonMark\Parser](class.commonmark-parser.md) - Клас
-CommonMark\Parser
-- [CommonMark\CQL](class.commonmark-cql.md) - Клас
-CommonMark\CQL
-- [Функції CommonMark](ref.cmark.md)
-- [Parle](book.parle.md) - Розбір та лексування
-- [Вступ](intro.parle.md)
-- [Встановлення та налаштування](parle.setup.md)
-- [Предвизначені константи](parle.constants.md)
-- [Зіставлення з шаблоном](parle.pattern.matching.md) -
-Порівняння з шаблоном Parle
-- [Приклади](parle.examples.md)
-- [Parle\Lexer](class.parle-lexer.md) - Клас Parle\Lexer
-- [Parle\RLexer](class.parle-rlexer.md) - Клас Parle\RLexer
-- [Parle\Parser](class.parle-parser.md) - Клас Parle\Parser
-- [Parle\RParser](class.parle-rparser.md) - Клас Parle\RParser
-- [Parle\Stack](class.parle-stack.md) - Клас Parle\Stack
-- [Parle\Token](class.parle-token.md) - Клас Parle\Token
-- [Parle\ErrorInfo](class.parle-errorinfo.md) - Клас
-Parle\ErrorInfo
-- [Parle\LexerException](class.parle-lexerexception.md) - Клас
-Parle\LexerException
-- [Parle\ParserException](class.parle-parserexception.md) -
-Клас Parle\ParserException
-- [PCRE](book.pcre.md) — Функції для роботи з регулярними
-виразами (Perl-сумісні)
-- [Вступ](intro.pcre.md)
-- [Встановлення та налаштування](pcre.setup.md)
-- [Предвизначені константи](pcre.constants.md)
-- [Приклади](pcre.examples.md)
-- [Регулярні висловлювання PCRE](pcre.pattern.md)
-- [Функції PCRE](ref.pcre.md)
-- [ssdeep](book.ssdeep.md) - Нечітке хешування ssdeep
-- [Вступ](intro.ssdeep.md)
-- [Встановлення та налаштування](ssdeep.setup.md)
-- [Предвизначені константи](ssdeep.constants.md)
-- [Функції ssdeep](ref.ssdeep.md)
-- [Рядки](book.strings.md)
-- [Вступ](intro.strings.md)
-- [Встановлення та налаштування](strings.setup.md)
-- [Предвизначені константи](string.constants.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- [Список змін](changelog.strings.md)
+-   [CommonMark](book.cmark.md)
+    -   [Введение](intro.cmark.md)
+    -   [Встановлення та налаштування](cmark.setup.md)
+    -   [CommonMarkNodeDocument](class.commonmark-node-document.md) — Document успадковує CommonMarkNode
+    -   [CommonMarkNodeHeading](class.commonmark-node-heading.md) - Heading успадковує CommonMarkNode
+    -   [CommonMarkNodeParagraph](class.commonmark-node-paragraph.md) - Paragraph успадковує CommonMarkNode
+    -   [CommonMarkNodeBlockQuote](class.commonmark-node-blockquote.md) - BlockQuote успадковує CommonMarkNode
+    -   [CommonMarkNodeBulletList](class.commonmark-node-bulletlist.md) - BulletList успадковує CommonMarkNode
+    -   [CommonMarkNodeOrderedList](class.commonmark-node-orderedlist.md) - OrderedList успадковує CommonMarkNode
+    -   [CommonMarkNodeItem](class.commonmark-node-item.md) - Item успадковує CommonMarkNode
+    -   [CommonMarkNodeText](class.commonmark-node-text.md) — Text успадковує CommonMarkNode
+    -   [CommonMarkNodeTextStrong](class.commonmark-node-text-strong.md) - Strong успадковує CommonMarkNode
+    -   [CommonMarkNodeTextEmphasis](class.commonmark-node-text-emphasis.md) - Emphasis успадковує CommonMarkNode
+    -   [CommonMarkNodeThematicBreak](class.commonmark-node-thematicbreak.md) - ThematicBreak успадковує CommonMarkNode
+    -   [CommonMarkNodeSoftBreak](class.commonmark-node-softbreak.md) - SoftBreak успадковує CommonMarkNode
+    -   [CommonMarkNodeLineBreak](class.commonmark-node-linebreak.md) - LineBreak успадковує CommonMarkNode
+    -   [CommonMarkNodeCode](class.commonmark-node-code.md) - Code успадковує CommonMarkNode
+    -   [CommonMarkNodeCodeBlock](class.commonmark-node-codeblock.md) - CodeBlock успадковує CommonMarkNode
+    -   [CommonMarkNodeHTMLBlock](class.commonmark-node-htmlblock.md) - HTMLBlock успадковує CommonMarkNode
+    -   [CommonMarkNodeHTMLInline](class.commonmark-node-htmlinline.md) - HTMLInline успадковує CommonMarkNode
+    -   [CommonMarkNodeImage](class.commonmark-node-image.md) — Image успадковує CommonMarkNode
+    -   [CommonMarkNodeLink](class.commonmark-node-link.md) - Link успадковує CommonMarkNode
+    -   [CommonMarkNodeCustomBlock](class.commonmark-node-customblock.md) - CustomBlock успадковує CommonMarkNode
+    -   [CommonMarkNodeCustomInline](class.commonmark-node-custominline.md) - CustomInline успадковує CommonMarkNode
+    -   [CommonMarkNode](class.commonmark-node.md) - Абстрактний клас CommonMarkNode
+    -   [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.md) - Інтерфейс CommonMarkInterfacesIVisitor
+    -   [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.md) - Інтерфейс CommonMarkInterfacesIVisitable
+    -   [CommonMarkParser](class.commonmark-parser.md) - Клас CommonMarkParser
+    -   [CommonMarkCQL](class.commonmark-cql.md) - Клас CommonMarkCQL
+    -   [Функции CommonMark](ref.cmark.md)
+-   [Parle](book.parle.md) — Розбір та лексування
+    -   [Введение](intro.parle.md)
+    -   [Встановлення та налаштування](parle.setup.md)
+    -   [Обумовлені константи](parle.constants.md)
+    -   [Сопоставление с шаблоном](parle.pattern.matching.md) — Зіставлення із шаблоном Parle
+    -   [Приклади](parle.examples.md)
+    -   [ParleLexer](class.parle-lexer.md) - Клас ParleLexer
+    -   [ParleRLexer](class.parle-rlexer.md) - Клас ParleRLexer
+    -   [ParleParser](class.parle-parser.md) - Клас ParleParser
+    -   [ParleRParser](class.parle-rparser.md) - Клас ParleRParser
+    -   [ParleStack](class.parle-stack.md) - Клас ParleStack
+    -   [ParleToken](class.parle-token.md) - Клас ParleToken
+    -   [ParleErrorInfo](class.parle-errorinfo.md) - Клас ParleErrorInfo
+    -   [ParleLexerException](class.parle-lexerexception.md) - Клас ParleLexerException
+    -   [ParleParserException](class.parle-parserexception.md) - Клас ParleParserException
+-   [PCRE](book.pcre.md) — Функції для роботи з регулярними виразами (Perl-сумісні)
+    -   [Введение](intro.pcre.md)
+    -   [Встановлення та налаштування](pcre.setup.md)
+    -   [Обумовлені константи](pcre.constants.md)
+    -   [Приклади](pcre.examples.md)
+    -   [Регулярні вирази PCRE](pcre.pattern.md)
+    -   [Функции PCRE](ref.pcre.md)
+-   [ssdeep](book.ssdeep.md) - Нечітке хешування ssdeep
+    -   [Введение](intro.ssdeep.md)
+    -   [Встановлення та налаштування](ssdeep.setup.md)
+    -   [Обумовлені константи](ssdeep.constants.md)
+    -   [Функції ssdeep](ref.ssdeep.md)
+-   [Рядки](book.strings.md)
+    -   [Введение](intro.strings.md)
+    -   [Встановлення та налаштування](strings.setup.md)
+    -   [Обумовлені константи](string.constants.md)
+    -   [Функції для роботи з рядками](ref.strings.md)
+    -   [Список изменений](changelog.strings.md)

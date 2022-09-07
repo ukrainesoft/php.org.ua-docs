@@ -1,36 +1,38 @@
-- [« zlib_decode](function.zlib-decode.md)
-- [zlib_get_coding_type »](function.zlib-get-coding-type.md)
+---
+navigation:
+  - function.zlib-decode.md: « zlibdecode
+  - function.zlib-get-coding-type.md: zlibgetcodingtype »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: zlibencode
+---
+# zlibencode
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Стиснення даних із зазначеним кодуванням
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# zlib_encode
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-zlib_encode — Стиснення даних із зазначеним кодуванням
+zlibencode — Стиснення даних із зазначеним кодуванням
 
 ### Опис
 
-**zlib_encode**(string `$data`, int `$encoding`, int `$level` = -1):
-string\|false
+```methodsynopsis
+zlib_encode(string $data, int $encoding, int $level = -1): string|false
+```
 
 Стискає дані із зазначеним кодуванням.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `data`
+
 Дані для стиснення.
 
 `encoding`
-Алгоритм стиснення. Одна з констант **`ZLIB_ENCODING_RAW`**,
-**`ZLIB_ENCODING_DEFLATE`** або **`ZLIB_ENCODING_GZIP`**.
+
+Алгоритм стискування. Одна з констант **`ZLIB_ENCODING_RAW`** **`ZLIB_ENCODING_DEFLATE`** або **`ZLIB_ENCODING_GZIP`**
 
 `level`
 
@@ -38,15 +40,22 @@ string\|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **zlib_encode()****
+**Приклад #1 Приклад використання **zlibencode()****
 
-` <?php$str = 'hello world';$enc = zlib_encode($str, ZLIB_ENCODING_DEFLATE);echo bin2hex($enc);?> `
+```php
+<?php
+$str = 'hello world';
+$enc = zlib_encode($str, ZLIB_ENCODING_DEFLATE);
+echo bin2hex($enc);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 789ccb48cdc9c95728cf2fca4901001a0b045d
+```
 
 ### Дивіться також
 
-- [zlib_decode()](function.zlib-decode.md) - Розпаковує будь-які
-закодовані дані raw/gzip/zlib
+-   [zlibdecode()](function.zlib-decode.md) - Розпаковує будь-які закодовані дані raw/gzip/zlib

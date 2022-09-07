@@ -1,21 +1,21 @@
-- [«ocirollback](function.ocirollback.md)
-- [ocisavelob »](function.ocisavelob.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_num_rows
-
+---
+navigation:
+  - function.ocirollback.md: « ocirollback
+  - function.ocisavelob.md: ocisavelob »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocirowcount
+---
 # ocirowcount
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocirowcount - Псевдонім [oci_num_rows()](function.oci-num-rows.md)
+ocirowcount - Псевдонім [ocinumrows()](function.oci-num-rows.md)
 
 ### Опис
 
-Псевдонім [oci_num_rows()](function.oci-num-rows.md)
+Псевдонім [ocinumrows()](function.oci-num-rows.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

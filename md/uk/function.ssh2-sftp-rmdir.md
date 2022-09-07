@@ -1,46 +1,55 @@
-- [« ssh2_sftp_rename](function.ssh2-sftp-rename.md)
-- [ssh2_sftp_stat »](function.ssh2-sftp-stat.md)
+---
+navigation:
+  - function.ssh2-sftp-rename.md: « ssh2sftprename
+  - function.ssh2-sftp-stat.md: ssh2sftpstat »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftprmdir
+---
+# ssh2sftprmdir
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Видаляє директорію
+(PECL ssh2> = 0.9.0)
 
-# ssh2_sftp_rmdir
-
-(PECL ssh2 \>= 0.9.0)
-
-ssh2_sftp_rmdir — Видаляє директорію
+ssh2sftprmdir - Видаляє директорію
 
 ### Опис
 
-**ssh2_sftp_rmdir**(resource `$sftp`, string `$dirname`): bool
+```methodsynopsis
+ssh2_sftp_rmdir(resource $sftp, string $dirname): bool
+```
 
 Видаляє директорію на сервері.
 
-Працює аналогічно [rmdir()](function.rmdir.md) з обгорткою
-[ssh2.sftp://](wrappers.ssh2.md).
+Працює аналогічно [rmdir()](function.rmdir.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md)
 
 ### Список параметрів
 
 `sftp`
-Ресурс SSH2 SFTP, відкритий за допомогою
-[ssh2_sftp()](function.ssh2-sftp.md).
+
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `dirname`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Видалення директорії на сервері**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);ssh2_sftp_rmdir home/username/deltodel');/* Або так: rmdir("ssh2.sftp://$sftp/home/username/dirtodel"); */?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
+
+ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
+/* Или так:  rmdir("ssh2.sftp://$sftp/home/username/dirtodel"); */
+?>
+```
 
 ### Дивіться також
 
-- [rmdir()](function.rmdir.md) - Видаляє директорію
-- [ssh2_sftp_mkdir()](function.ssh2-sftp-mkdir.md) - Створити
-директорію
+-   [rmdir()](function.rmdir.md) - видаляє директорію
+-   [ssh2sftpmkdir()](function.ssh2-sftp-mkdir.md) - Створити директорію

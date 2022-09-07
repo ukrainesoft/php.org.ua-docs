@@ -1,33 +1,37 @@
-- [« ArrayObject::unserialize](arrayobject.unserialize.md)
-- [SplObserver::update »](splobserver.update.md)
-
-- [PHP Manual](index.md)
-- [Різні класи та інтерфейси](spl.misc.md)
-- Інтерфейс SplObserver
-
+---
+navigation:
+  - arrayobject.unserialize.md: '« ArrayObject::unserialize'
+  - splobserver.update.md: 'SplObserver::update »'
+  - index.md: PHP Manual
+  - spl.misc.md: Різні класи та інтерфейси
+title: Інтерфейс SplObserver
+---
 # Інтерфейс SplObserver
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Інтерфейс **SplObserver** використовується спільно з
-[SplSubject](class.splsubject.md) для реалізації шаблону
-проектування Спостерігач (Observer).
+Інтерфейс **SplObserver** використовується спільно з [SplSubject](class.splsubject.md) для реалізації шаблону проектування Спостерігач (Observer).
 
 ## Огляд інтерфейсів
 
-interface **SplObserver** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[update](splobserver.update.md)([SplSubject](class.splsubject.md)
-`$subject`): void
+    
+     
+      interface SplObserver {
 
-}
+    /* Методы */
+    
+   public update(SplSubject $subject): void
+
+   }
+```
 
 ## Зміст
 
-- [SplObserver::update](splobserver.update.md) — Отримати оновлення
-від суб'єкта
+-   [SplObserver::update](splobserver.update.md) - Отримати оновлення від суб'єкта

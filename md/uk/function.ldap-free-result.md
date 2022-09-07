@@ -1,45 +1,39 @@
-- [« ldap_first_reference](function.ldap-first-reference.md)
-- [ldap_get_attributes »](function.ldap-get-attributes.md)
-
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Звільнити пам'ять результату
-
-# ldap_free_result
+---
+navigation:
+  - function.ldap-first-reference.md: « ldapfirstreference
+  - function.ldap-get-attributes.md: ldapgetattributes »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapfreeresult
+---
+# ldapfreeresult
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_free_result — Звільнити пам'ять результату
+ldapfreeresult — Звільнити пам'ять результату
 
 ### Опис
 
-**ldap_free_result**([LDAP\Result](class.ldap-result.md) `$result`):
-bool
+```methodsynopsis
+ldap_free_result(LDAP\Result $result): bool
+```
 
-Звільняє пам'ять, внутрішньо виділену зберігання результату. Вся
-пам'ять результату буде автоматично звільнено, коли сценарій
-завершиться.
+Звільняє пам'ять, внутрішньо виділену зберігання результату. Вся пам'ять результату буде автоматично звільнена після завершення сценарію.
 
-Зазвичай вся пам'ять, виділена на результат LDAP, звільняється наприкінці
-сценарію. Якщо сценарій робить послідовні операції
-пошуку, які повертають великі набори результатів,
-**ldap_free_result()** може бути викликана, щоб зберегти невелике
-використання пам'яті під час виконання сценарію.
+Зазвичай вся пам'ять, виділена для результату LDAP, звільняється наприкінці сценарію. У випадку, якщо сценарій робить послідовні операції пошуку, які повертають великі набори результатів, **ldapfreeresult()** може бути викликана, щоб зберегти невелике використання пам'яті під час сценарію.
 
 ### Список параметрів
 
 `result`
-Примірник [LDAP\Result](class.ldap-result.md), що повертається
-[ldap_list()](function.ldap-list.md) або
-[ldap_search()](function.ldap-search.md).
+
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

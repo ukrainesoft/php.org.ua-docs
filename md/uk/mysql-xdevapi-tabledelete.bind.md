@@ -1,26 +1,29 @@
-- [«mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
-- [TableDelete::\_\_construct »](mysql-xdevapi-tabledelete.construct.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
-- Зв'язує параметри запиту на видалення
-
+---
+navigation:
+  - class.mysql-xdevapi-tabledelete.md: « mysqlxdevapiTableDelete
+  - mysql-xdevapi-tabledelete.construct.md: 'TableDelete::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
+title: 'TableDelete::bind'
+---
 # TableDelete::bind
 
 (No version information available, might only be in Git)
 
-TableDelete::bind — Зв'язує параметри запиту на видалення
+TableDelete::bind — Зв'язує параметри запиту видалення
 
 ### Опис
 
-public **mysql_xdevapi\TableDelete::bind**(array `$placeholder_values`):
-[mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
+```methodsynopsis
+public mysql_xdevapi\TableDelete::bind(array $placeholder_values): mysql_xdevapi\TableDelete
+```
 
 Прив'язує значення до певного наповнювача.
 
 ### Список параметрів
 
 `placeholder_values`
+
 Ім'я заповнювача та значення для прив'язки.
 
 ### Значення, що повертаються
@@ -29,6 +32,26 @@ public **mysql_xdevapi\TableDelete::bind**(array `$placeholder_values`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\TableDelete::bind()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::bind()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 33)")->execute();$schema = $session->getSchema("addressbook");$table  ==$schema->getTable("names ");$table->delete() ->where("name = :name")  ->bind(['name' => 'John']) ->orderby("age DESC") ->limit(1 )  ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$table->delete()
+  ->where("name = :name")
+  ->bind(['name' => 'John'])
+  ->orderby("age DESC")
+  ->limit(1)
+  ->execute();
+
+?>
+```

@@ -1,19 +1,22 @@
-- [«Parle\RParser](class.parle-rparser.md)
-- [Parle\RParser::build »](parle-rparser.build.md)
+---
+navigation:
+  - class.parle-rparser.md: « ParleRParser
+  - parle-rparser.build.md: 'ParleRParser::build »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
+title: 'ParleRParser::advance'
+---
+# ParleRParser::advance
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Обробка наступного правила парсера
+(PECL parle >= 0.7.0)
 
-# Parle\RParser::advance
-
-(PECL parle \>= 0.7.0)
-
-Parle\RParser::advance — Обробка наступного правила парсера
+ParleRParser::advance — Обробка наступного правила парсера
 
 ### Опис
 
-public **Parle\RParser::advance**(): void
+```methodsynopsis
+public Parle\RParser::advance(): void
+```
 
 Обробка наступного правила парсера.
 

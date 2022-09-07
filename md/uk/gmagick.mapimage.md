@@ -1,37 +1,38 @@
-- [« Gmagick::magnifyimage](gmagick.magnifyimage.md)
-- [Gmagick::medianfilterimage »](gmagick.medianfilterimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Замінює кольори зображення на найближчий колір із еталонного
-зображення
-
+---
+navigation:
+  - gmagick.magnifyimage.md: '« Gmagick::magnifyimage'
+  - gmagick.medianfilterimage.md: 'Gmagick::medianfilterimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::mapimage'
+---
 # Gmagick::mapimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::mapimage — Замінює кольори зображення на найближчий колір
-еталонного зображення
+Gmagick::mapimage — Замінює кольори зображення на найближчий колір із еталонного зображення
 
 ### Опис
 
-public **Gmagick::mapimage**([gmagick](class.gmagick.md) `$gmagick`,
-bool `$dither`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::mapimage(gmagick $gmagick, bool $dither): Gmagick
+```
 
 Замінює кольори зображення на найближчий колір із еталонного зображення.
 
 ### Список параметрів
 
 `gmagick`
+
 Еталонне зображення.
 
 `dither`
-Встановіть для цього цілого числа значення, відмінне від нуля, щоб
-розмити зображення, що відображається.
+
+Встановіть для цього цілого числа значення, відмінне від нуля, щоб розмити зображення, що відображається.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

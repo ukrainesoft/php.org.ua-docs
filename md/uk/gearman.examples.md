@@ -1,14 +1,15 @@
-- [«Зумовлені константи](gearman.constants.md)
-- [Базове використання»](gearman.examples-reverse.md)
-
-- [PHP Manual](index.md)
-- [Gearman](book.gearman.md)
-- Приклади
-
+---
+navigation:
+  - gearman.constants.md: « Обумовлені константи
+  - gearman.examples-reverse.md: Базовое использование »
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Базове використання](gearman.examples-reverse.md)
-- [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.md)
-- [Базові клієнт та обробник Gearman, відправка задач](gearman.examples-reverse-task.md)
+-   [Базовое использование](gearman.examples-reverse.md)
+-   [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.md)
+-   [Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.md)

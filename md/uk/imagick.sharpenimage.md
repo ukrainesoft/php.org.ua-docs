@@ -1,10 +1,11 @@
-- [« Imagick::shadowImage](imagick.shadowimage.md)
-- [Imagick::shaveImage »](imagick.shaveimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Підвищує різкість зображення
-
+---
+navigation:
+  - imagick.shadowimage.md: '« Imagick::shadowImage'
+  - imagick.shaveimage.md: 'Imagick::shaveImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::sharpenImage'
+---
 # Imagick::sharpenImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,14 +14,11 @@ Imagick::sharpenImage — Підвищує різкість зображення
 
 ### Опис
 
-public **Imagick::sharpenImage**(float `$radius`, float `$sigma`, int
-`$channel` = Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::sharpenImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Підвищує різкість зображення. Згортання зображення за допомогою
-гаусівського оператора заданого радіусу та стандартного відхилення
-(Сігма). Для розумних результатів радіус має бути більшим за сигму.
-Використовуйте радіус 0, і **Imagick::sharpenImage()** вибере відповідний
-для вас радіус.
+Підвищує різкість зображення. Згортання зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для розумних результатів радіус має бути більшим за сигму. Використовуйте радіус 0, та **Imagick::sharpenImage()** вибере відповідний вам радіус.
 
 ### Список параметрів
 
@@ -32,10 +30,20 @@ public **Imagick::sharpenImage**(float `$radius`, float `$sigma`, int
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::sharpenImage()****
 
-` <?phpfunction sharpenImage($imagePath, $radius, $sigma, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->sharpenimage($radius, $sigma, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function sharpenImage($imagePath, $radius, $sigma, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->sharpenimage($radius, $sigma, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

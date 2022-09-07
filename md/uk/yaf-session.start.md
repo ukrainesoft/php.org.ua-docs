@@ -1,24 +1,26 @@
-- [« Yaf_Session::\_\_set](yaf-session.set.md)
-- [Yaf_Session::\_\_unset »](yaf-session.unset.md)
+---
+navigation:
+  - yaf-session.set.md: '« YafSession::set'
+  - yaf-session.unset.md: 'YafSession::unset »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::start'
+---
+# YafSession::start
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення start
+(Yaf >=1.0.0)
 
-# Yaf_Session::start
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::start - Призначення start
+YafSession::start — Призначення start
 
 ### Опис
 
-public **Yaf_Session::start**(): void
+```methodsynopsis
+public Yaf_Session::start(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

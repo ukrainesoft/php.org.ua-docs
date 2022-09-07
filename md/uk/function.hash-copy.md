@@ -1,46 +1,61 @@
-- [«hash_algos](function.hash-algos.md)
-- [hash_equals »](function.hash-equals.md)
+---
+navigation:
+  - function.hash-algos.md: « hashalgos
+  - function.hash-equals.md: hashequals »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashcopy
+---
+# hashcopy
 
-- [PHP Manual](index.md)
-- [Функції Hash](ref.hash.md)
-- Копіює контекст хешування
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# hash_copy
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-hash_copy — Копіює контекст хешування
+hashcopy — Копіює контекст хешування
 
 ### Опис
 
-**hash_copy**([HashContext](class.hashcontext.md) `$context`):
-[HashContext](class.hashcontext.md)
+```methodsynopsis
+hash_copy(HashContext $context): HashContext
+```
 
 ### Список параметрів
 
 `context`
-Контекст хешування, повернутий
-[hash_init()](function.hash-init.md).
+
+Контекст хешування, повернутий [hashinit()](function.hash-init.md)
 
 ### Значення, що повертаються
 
 Повертає копію контексту хешування.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                  |
-|--------|-----------------------------------------------------------------------|
-| 7.2.0  | Приймає та повертає [HashContext](class.hashcontext.md), а не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає та повертає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hash_copy()****
+**Приклад #1 Приклад використання **hashcopy()****
 
-` <?php$context = hash_init("md5");hash_update($context, "data");/* копія контексту для подальшого використання */$copy_context = hash_copy($context);
-";hash_update($copy_context, "data");echo hash_final($copy_context), "
-";?> `
+```php
+<?php
+$context = hash_init("md5");
+hash_update($context, "data");
+
+/* копия контекста для дальнейшего использования */
+$copy_context = hash_copy($context);
+
+echo hash_final($context), "\n";
+
+hash_update($copy_context, "data");
+echo hash_final($copy_context), "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 8d777f385d3dfec8815d20f7496026dc
 511ae0b1c13f95e5f08f1a0dd3da3d93
+```

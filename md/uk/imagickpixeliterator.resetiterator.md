@@ -1,36 +1,80 @@
-- [« ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.md)
-- [ImagickPixelIterator::setIteratorFirstRow »](imagickpixeliterator.setiteratorfirstrow.md)
-
-- [PHP Manual](index.md)
-- [ImagickPixelIterator](class.imagickpixeliterator.md)
-- скидає ітератор пікселів
-
-# ImagickPixelIterator::resetIterator
+---
+navigation:
+  - imagickpixeliterator.newpixelregioniterator.md: '« ImagickPixelIterator::newPixelRegionIterator'
+  - imagickpixeliterator.setiteratorfirstrow.md: 'ImagickPixelIterator::setIteratorFirstRow »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixel Iterator::reset Iterator'
+---
+# ImagickPixel Iterator::reset Iterator
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixelIterator::resetIterator — Скидає ітератор пікселів
+ImagickPixel Iterator::reset Iterator — Скидає ітератор пікселів
 
 ### Опис
 
-public **ImagickPixelIterator::resetIterator**(): bool
+```methodsynopsis
+public ImagickPixelIterator::resetIterator(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Скидає ітератор пікселів. Використовуйте спільно з
-ImagickPixelIterator::getNextIteratorRow() для перебору всіх пікселів у
-контейнер пікселів.
+Скидає ітератор пікселів. Використовуйте разом із ImagickPixelIterator::getNextIteratorRow() для перебору всіх пікселів у контейнері пікселів.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ImagickPixelIterator::resetIterator()****
+**Приклад #1 Приклад використання **ImagickPixel Iterator::reset Iterator()****
 
-` <?phpfunction resetIterator($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imageIterator==$imagick->getPixelIterator(); /* Походим по строкам пикселей */    foreach ($imageIterator as $pixels) {        /* Походим по пикселям в строке (столбцы) */        foreach ($pixels as $column => $pixel) {            /** @var $pixel \ ImagickPixel */            if ($column % 2) {                /* Делаем каждый второй пиксель на 25% красным*/                $pixel->setColorValue(\Imagick::COLOR_RED, 64); }         }         /* Синхронізуємо ітератор. Це необхідно для робити на кожній ітерації */        $imageIterator->syncIterator(); }   $imageIterator->resetiterator(); /* Походим по строкам пикселей */    foreach ($imageIterator as $pixels) {        /* Походим по пикселям в строке (столбцы) */        foreach ($pixels as $column => $pixel) {            /** @var $pixel \ ImagickPixel */            if ($column % 3) {               |$pixel->setColorValue(|ImagickPixel: /* Робимо кожний другий піксель трохи синім*/                  //$pixel->setColor("rgba(0, 0, 128, 0)"); /* Paint every second pixel black*/           }        } }      |$imageIterator->syncIterator(); /* Синхронізуємо ітератор. Це необхідно для робити на кожній ітерації */    }   $imageIterator->clear(); header("Content-Type: image/jpg"); echo $imagick;}?> `
+```php
+<?php
+function resetIterator($imagePath) {
+
+    $imagick = new \Imagick(realpath($imagePath));
+
+    $imageIterator = $imagick->getPixelIterator();
+
+    /* Походим по строкам пикселей */
+    foreach ($imageIterator as $pixels) {
+        /* Походим по пикселям в строке (столбцы) */
+        foreach ($pixels as $column => $pixel) {
+            /** @var $pixel \ImagickPixel */
+            if ($column % 2) {
+
+                /* Делаем каждый второй пиксель на 25% красным*/
+                $pixel->setColorValue(\Imagick::COLOR_RED, 64);
+            }
+        }
+        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+        $imageIterator->syncIterator();
+    }
+
+    $imageIterator->resetiterator();
+
+    /* Походим по строкам пикселей */
+    foreach ($imageIterator as $pixels) {
+        /* Походим по пикселям в строке (столбцы) */
+        foreach ($pixels as $column => $pixel) {
+            /** @var $pixel \ImagickPixel */
+            if ($column % 3) {
+                $pixel->setColorValue(\Imagick::COLOR_BLUE, 64); /* Делаем каждый второй пиксель немного синим*/
+                //$pixel->setColor("rgba(0, 0, 128, 0)"); /* Paint every second pixel black*/
+            }
+        }
+        $imageIterator->syncIterator(); /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+    }
+
+    $imageIterator->clear();
+
+    header("Content-Type: image/jpg");
+    echo $imagick;
+}
+
+?>
+```

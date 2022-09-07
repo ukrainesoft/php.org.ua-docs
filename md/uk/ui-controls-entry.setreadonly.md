@@ -1,22 +1,24 @@
-- [«UI\Controls\Entry::onChange](ui-controls-entry.onchange.md)
-- [UI\Controls\Entry::setText »](ui-controls-entry.settext.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Entry](class.ui-controls-entry.md)
-- Встановити "тільки для читання"
-
-# UI\Controls\Entry::setReadOnly
+---
+navigation:
+  - ui-controls-entry.onchange.md: '« UIControlsEntry::onChange'
+  - ui-controls-entry.settext.md: 'ОЙControlsEntry::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.md: ОЙControlsEntry
+title: 'ОЙControlsEntry::setReadOnly'
+---
+# ОЙControlsEntry::setReadOnly
 
 (UI 0.9.9)
 
-UI\Controls\Entry::setReadOnly - Встановити "тільки для читання"
+ОЙControlsEntry::setReadOnly — Встановити "тільки для читання"
 
 ### Опис
 
-public **UI\Controls\Entry::setReadOnly**(bool `$readOnly`)
+```methodsynopsis
+public UI\Controls\Entry::setReadOnly(bool $readOnly)
+```
 
-Увімкнути або вимкнути лише для читання в цьому керуючому елементі
-"Введення"
+Увімкнути або вимкнути лише для читання в цьому керуючому елементі "Введення"
 
 ### Список параметрів
 

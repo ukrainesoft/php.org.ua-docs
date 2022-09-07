@@ -1,42 +1,52 @@
-- [« Yaf_View_Simple::assignRef](yaf-view-simple.assignref.md)
-- [Yaf_View_Simple::\_\_construct »](yaf-view-simple.construct.md)
+---
+navigation:
+  - yaf-view-simple.assignref.md: '« YafViewSimple::assignRef'
+  - yaf-view-simple.construct.md: 'YafViewSimple::construct »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
+title: 'YafViewSimple::clear'
+---
+# YafViewSimple::clear
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- скидає призначені значення
+(Yaf> = 2.2.0)
 
-# Yaf_View_Simple::clear
-
-(Yaf \> = 2.2.0)
-
-Yaf_View_Simple::clear — Скидає призначені значення
+YafViewSimple::clear — Скидає призначені значення
 
 ### Опис
 
-public **Yaf_View_Simple::clear**(string `$name` = ?): bool
+```methodsynopsis
+public Yaf_View_Simple::clear(string $name = ?): bool
+```
 
 Скидає призначені значення
 
 ### Список параметрів
 
 `name`
+
 Надане ім'я змінної
 
-Якщо не вказано, очистить всі призначені змінні
+Якщо не вказано, очистить усі призначені змінні
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_View_Simple::clear()****
+**Приклад #1 Приклад використання **YafViewSimple::clear()****
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $this->getView()->clear("foo")->clear("bar // очистити "foo" і "bar"        $this->_view->clear(); //очистити все призначені змінні    }}?> `
+```php
+<?php
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $this->getView()->clear("foo")->clear("bar"); // очистить "foo" и "bar"
+        $this->_view->clear(); //очистить все назначенные переменные
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [Yaf_View_Simple::assignRef()](yaf-view-simple.assignref.md) -
-Призначення assignRef
-- [Yaf_View_Interface::assign()](yaf-view-interface.assign.md) -
-Призначає значення для движка відображення
-- [Yaf_View_Simple::\_\_set()](yaf-view-simple.set.md) -
-Встановлює значення для двигуна
+-   [YafViewSimple::assignRef()](yaf-view-simple.assignref.md) - Призначення assignRef
+-   [YafViewInterface::assign()](yaf-view-interface.assign.md) - Призначає значення для движка відображення
+-   [YafViewSimple::set()](yaf-view-simple.set.md) - Встановлює значення для двигуна

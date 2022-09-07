@@ -1,67 +1,79 @@
-- [«getservbyport](function.getservbyport.md)
-- [header_remove »](function.header-remove.md)
+---
+navigation:
+  - function.getservbyport.md: « getservbyport
+  - function.header-remove.md: headerremove »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: headerregistercallback
+---
+# headerregistercallback
 
-- [PHP Manual](index.md)
-- [Мережні функції](ref.network.md)
-- Викликає функцію заголовка
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# header_register_callback
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-header_register_callback — Викликає функцію заголовка
+headerregistercallback — Викликає функцію заголовка
 
 ### Опис
 
-**header_register_callback**([callable](language.types.callable.md)
-`$callback`): bool
+```methodsynopsis
+header_register_callback(callable $callback): bool
+```
 
-Реєструє функцію, яка буде викликана, коли PHP почне відправляти
-висновок.
+Реєструє функцію, яка буде викликана, коли PHP почне відправляти висновок.
 
-Параметр `callback` запускається одразу після того, як PHP були
-підготовлені всі заголовки, що відправляються, і перед відправкою будь-якого
-іншого висновку, створюючи можливість для керування вихідними
-заголовками перед відправкою.
+Параметр `callback` запускається відразу після того, як PHP були підготовлені всі заголовки, що відправляються, і перед відправкою будь-якого іншого висновку, створюючи можливість для управління вихідними заголовками перед відправкою.
 
 ### Список параметрів
 
 `callback`
-Функція викликається безпосередньо перед відправкою заголовків, не
-отримує параметри і значення, що повертається, ігнорується.
+
+Функція викликається безпосередньо перед відправкою заголовків, не отримує параметрів і значення, що повертається, ігнорується.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **header_register_callback()****
+**Приклад #1 Приклад використання **headerregistercallback()****
 
-` <?phpheader('Content-Type:text/plain');header('X-Test:foo');function foo() { foreach (headers_list() as $header) {   if (strpos($header, ) X-Powered-By:') !== false) {    header_remove('X-Powered-By'); }   header_remove('X-Test'); }}$result = header_register_callback('foo');echo "a";?> `
+```php
+<?php
+
+header('Content-Type: text/plain');
+header('X-Test: foo');
+
+function foo() {
+ foreach (headers_list() as $header) {
+   if (strpos($header, 'X-Powered-By:') !== false) {
+     header_remove('X-Powered-By');
+   }
+   header_remove('X-Test');
+ }
+}
+
+$result = header_register_callback('foo');
+echo "a";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Content-Type: text/plain
 
 a
+```
 
 ### Примітки
 
-Функція **header_register_callback()** запускається за готовністю
-надсилання заголовків, так що будь-який висновок з цієї функції може перервати
-висновок.
+Функція **headerregistercallback()** запускається по готовності відправлення заголовків, так що будь-який висновок із цієї функції може перервати висновок.
 
-> **Примітка**:
->
-> Доступ до заголовків та їх виведення здійснюватиметься лише у випадку,
-> якщо у SAPI є їх підтримка.
+> **Зауваження**
+> 
+> Доступ до заголовків та їх висновок здійснюватиметься лише у випадку, якщо у SAPI є їх підтримка.
 
 ### Дивіться також
 
-- [headers_list()](function.headers-list.md) - Повертає список
-переданих заголовків (або готових до відправлення)
-- [header_remove()](function.header-remove.md) - Видаляє раніше
-встановлені заголовки
-- [header()](function.header.md) - Надсилання HTTP-заголовка
+-   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)
+-   [headerremove()](function.header-remove.md) - Видаляє раніше встановлені заголовки
+-   [header()](function.header.md) - Надсилання HTTP-заголовка

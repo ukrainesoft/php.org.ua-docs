@@ -1,18 +1,19 @@
-- [« RegexIterator::setPregFlags](regexiterator.setpregflags.md)
-- [Countable »](class.countable.md)
-
-- [PHP Manual](index.md)
-- [SPL](book.spl.md)
-- Інтерфейси
-
+---
+navigation:
+  - regexiterator.setpregflags.md: '« RegexIterator::setPregFlags'
+  - class.countable.md: Countable »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Інтерфейси
+---
 # Інтерфейси
 
 ## Зміст
 
-- [Countable](class.countable.md)
-- [OuterIterator](class.outeriterator.md)
-- [RecursiveIterator](class.recursiveiterator.md)
-- [SeekableIterator](class.seekableiterator.md)
+-   [Countable](class.countable.md)
+-   [OuterIterator](class.outeriterator.md)
+-   [RecursiveIterator](class.recursiveiterator.md)
+-   [SeekableIterator](class.seekableiterator.md)
 
 SPL забезпечує набір інтерфейсів.
 
@@ -20,9 +21,9 @@ SPL забезпечує набір інтерфейсів.
 
 ## Список інтерфейсів
 
-- [Countable](class.countable.md)
-- [OuterIterator](class.outeriterator.md)
-- [RecursiveIterator](class.recursiveiterator.md)
-- [SeekableIterator](class.seekableiterator.md)
-- [SplObserver](class.splobserver.md)
-- [SplSubject](class.splsubject.md)
+-   [Countable](class.countable.md)
+-   [OuterIterator](class.outeriterator.md)
+-   [RecursiveIterator](class.recursiveiterator.md)
+-   [SeekableIterator](class.seekableiterator.md)
+-   [SplObserver](class.splobserver.md)
+-   [SplSubject](class.splsubject.md)

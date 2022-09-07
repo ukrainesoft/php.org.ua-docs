@@ -1,24 +1,26 @@
-- [« V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md)
-- [Yaml »](book.yaml.md)
-
-- [PHP Manual](index.md)
-- [V8JsException](class.v8jsexception.md)
-- Отримати стек викликів
-
+---
+navigation:
+  - v8jsexception.getjssourceline.md: '« V8JsException::getJsSourceLine'
+  - book.yaml.md: Yaml »
+  - index.md: PHP Manual
+  - class.v8jsexception.md: V8JsException
+title: 'V8JsException::getJsTrace'
+---
 # V8JsException::getJsTrace
 
-(PECL v8js \>= 0.1.0)
+(PECL v8js >= 0.1.0)
 
 V8JsException::getJsTrace — Отримати стек викликів
 
 ### Опис
 
-final public **V8JsException::getJsTrace**(): string
+```methodsynopsis
+final public V8JsException::getJsTrace(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

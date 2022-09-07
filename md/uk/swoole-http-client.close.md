@@ -1,19 +1,22 @@
-- [« Swoole\Http\Client::addFile](swoole-http-client.addfile.md)
-- [Swoole\Http\Client::\_\_construct »](swoole-http-client.construct.md)
+---
+navigation:
+  - swoole-http-client.addfile.md: '« SwooleHttpClient::addFile'
+  - swoole-http-client.construct.md: 'SwooleHttpClient::construct »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::close'
+---
+# SwooleHttpClient::close
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Закриває http-з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::close
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::close - Закриває http-з'єднання
+SwooleHttpClient::close — Закриває http-з'єднання
 
 ### Опис
 
-public **Swoole\Http\Client::close**(): void
+```methodsynopsis
+public Swoole\Http\Client::close(): void
+```
 
 ### Список параметрів
 

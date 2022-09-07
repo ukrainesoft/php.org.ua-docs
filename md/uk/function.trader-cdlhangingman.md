@@ -1,40 +1,41 @@
-- [« trader_cdlhammer](function.trader-cdlhammer.md)
-- [trader_cdlharami »](function.trader-cdlharami.md)
+---
+navigation:
+  - function.trader-cdlhammer.md: « tradercdlhammer
+  - function.trader-cdlharami.md: tradercdlharami »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhangingman
+---
+# tradercdlhangingman
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Вісельник
+(PECL trader >= 0.2.0)
 
-# trader_cdlhangingman
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlhangingman — Вісельник
+tradercdlhangingman — Вісельник
 
 ### Опис
 
-**trader_cdlhangingman**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlhangingman(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

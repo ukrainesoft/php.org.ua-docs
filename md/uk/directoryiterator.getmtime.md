@@ -1,25 +1,24 @@
-- [« DirectoryIterator::getInode](directoryiterator.getinode.md)
-- [DirectoryIterator::getOwner »](directoryiterator.getowner.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає час останньої зміни поточного елемента
-DirectoryIterator
-
+---
+navigation:
+  - directoryiterator.getinode.md: '« DirectoryIterator::getInode'
+  - directoryiterator.getowner.md: 'DirectoryIterator::getOwner »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getMTime'
+---
 # DirectoryIterator::getMTime
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::getMTime — Повертає час останньої зміни
-поточний елемент DirectoryIterator
+DirectoryIterator::getMTime — Повертає час останньої зміни поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getMTime**(): int
+```methodsynopsis
+public DirectoryIterator::getMTime(): int
+```
 
-Повертає час останньої зміни поточного елемента
-[DirectoryIterator](class.directoryiterator.md) у форматі позначки
-часу Unix.
+Повертає час останньої зміни поточного елемента [DirectoryIterator](class.directoryiterator.md) у форматі позначки часу Unix.
 
 ### Список параметрів
 
@@ -27,32 +26,36 @@ public **DirectoryIterator::getMTime**(): int
 
 ### Значення, що повертаються
 
-Час останньої зміни файлу у форматі позначки часу Unix.
+Час останньої зміни файлу у форматі відмітки Unix.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::getMTime()****
 
-Приклад виведе список файлів директорії, що містить скрипт і
-час їхньої останньої модифікації.
+Приклад виведе список файлів директорії, що містить скрипт і час їх останньої модифікації.
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " " . $fileinfo->getMTime() . "
-";    }}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getFilename() . " " . $fileinfo->getMTime() . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apple.jpg 1240047118
 banana.jpg 1240065176
 index.php 1240047208
 pear.jpg 12240047979
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getATime()](directoryiterator.getatime.md) -
-Повертає час останнього доступу до поточного елемента
-DirectoryIterator
-- [DirectoryIterator::getCTime()](directoryiterator.getctime.md) -
-Повертає час останньої зміни inode поточного елемента
-DirectoryIterator
-- [filemtime()](function.filemtime.md) - Повертає час останнього
-зміни файлу
+-   [DirectoryIterator::getATime()](directoryiterator.getatime.md) - Повертає час останнього доступу до поточного елементу DirectoryIterator
+-   [DirectoryIterator::getCTime()](directoryiterator.getctime.md) - Повертає час останньої зміни inode поточного елемента DirectoryIterator
+-   [filemtime()](function.filemtime.md) - Повертає час останньої зміни файлу

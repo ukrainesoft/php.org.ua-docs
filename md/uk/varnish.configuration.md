@@ -1,10 +1,11 @@
-- [« Установка](varnish.installation.md)
-- [Типи ресурсів»](varnish.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](varnish.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - varnish.installation.md: « Установка
+  - varnish.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - varnish.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

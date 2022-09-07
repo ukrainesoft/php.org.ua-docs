@@ -1,23 +1,23 @@
-- [« ldap_first_entry](function.ldap-first-entry.md)
-- [ldap_free_result »](function.ldap-free-result.md)
+---
+navigation:
+  - function.ldap-first-entry.md: « ldapfirstentry
+  - function.ldap-free-result.md: ldapfreeresult »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapfirstreference
+---
+# ldapfirstreference
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Повертає першу довідку
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-#ldap_first_reference
-
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
-
-ldap_first_reference — Повертає першу довідку
+ldapfirstreference — Повертає першу довідку
 
 ### Опис
 
-**ldap_first_reference**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, [LDAP\Result](class.ldap-result.md) `$result`):
-LDAP\ResultEntry\|false
+```methodsynopsis
+ldap_first_reference(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEntry|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

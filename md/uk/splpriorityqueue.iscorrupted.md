@@ -1,21 +1,22 @@
-- [« SplPriorityQueue::insert](splpriorityqueue.insert.md)
-- [SplPriorityQueue::isEmpty »](splpriorityqueue.isempty.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Вказує, чи є пріоритетна черга у пошкодженому
-стані
-
+---
+navigation:
+  - splpriorityqueue.insert.md: '« SplPriorityQueue::insert'
+  - splpriorityqueue.isempty.md: 'SplPriorityQueue::isEmpty »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::isCorrupted'
+---
 # SplPriorityQueue::isCorrupted
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplPriorityQueue::isCorrupted — Вказує, чи є пріоритетна
-черга у пошкодженому стані
+SplPriorityQueue::isCorrupted — Вказує, чи є пріоритетна черга у пошкодженому стані
 
 ### Опис
 
-public **SplPriorityQueue::isCorrupted**(): bool
+```methodsynopsis
+public SplPriorityQueue::isCorrupted(): bool
+```
 
 ### Список параметрів
 
@@ -23,5 +24,4 @@ public **SplPriorityQueue::isCorrupted**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо стан пріоритетної черги пошкоджено, та
-**`false`** інакше.
+Повертає **`true`**, якщо стан пріоритетної черги пошкоджено, та **`false`** в іншому випадку.

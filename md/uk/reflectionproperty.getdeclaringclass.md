@@ -1,10 +1,11 @@
-- [« ReflectionProperty::getAttributes](reflectionproperty.getattributes.md)
-- [ReflectionProperty::getDefaultValue »](reflectionproperty.getdefaultvalue.md)
-
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Отримання класу, що оголошує
-
+---
+navigation:
+  - reflectionproperty.getattributes.md: '« ReflectionProperty::getAttributes'
+  - reflectionproperty.getdefaultvalue.md: 'ReflectionProperty::getDefaultValue »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getDeclaringClass'
+---
 # ReflectionProperty::getDeclaringClass
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,8 +14,9 @@ ReflectionProperty::getDeclaringClass — Отримання класу, що о
 
 ### Опис
 
-public **ReflectionProperty::getDeclaringClass**():
-[ReflectionClass](class.reflectionclass.md)
+```methodsynopsis
+public ReflectionProperty::getDeclaringClass(): ReflectionClass
+```
 
 Отримання класу, що оголошує.
 
@@ -24,9 +26,8 @@ public **ReflectionProperty::getDeclaringClass**():
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.md).
+Об'єкт класу [ReflectionClass](class.reflectionclass.md)
 
 ### Дивіться також
 
-- [ReflectionProperty::getName()](reflectionproperty.getname.md) -
-Отримання імені властивості
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості

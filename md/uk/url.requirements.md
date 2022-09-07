@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](url.setup.md)
-- [Установка »](url.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](url.setup.md)
-- Вимоги
-
+---
+navigation:
+  - url.setup.md: « Встановлення та налаштування
+  - url.installation.md: Установка »
+  - index.md: PHP Manual
+  - url.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

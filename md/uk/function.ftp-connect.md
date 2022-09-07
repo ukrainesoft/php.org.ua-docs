@@ -1,62 +1,65 @@
-- [«ftp_close](function.ftp-close.md)
-- [ftp_delete »](function.ftp-delete.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Встановлює з'єднання з сервером FTP
-
-#ftp_connect
+---
+navigation:
+  - function.ftp-close.md: « ftpclose
+  - function.ftp-delete.md: ftpdelete »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpconnect
+---
+# ftpconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_connect — Встановлює з'єднання з сервером FTP
+ftpconnect — Встановлює з'єднання з сервером FTP
 
 ### Опис
 
-**ftp_connect**(string `$hostname`, int `$port` = 21, int `$timeout` =
-90): [FTP\Connection](class.ftp-connection.md)\|false
+```methodsynopsis
+ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection|false
+```
 
-**ftp_connect()** встановлює FTP-з'єднання із вказаним сервером
-`hostname`.
+**ftpconnect()** встановлює FTP-з'єднання із вказаним сервером `hostname`
 
 ### Список параметрів
 
 `hostname`
-Адреса FTP-сервера. Цей аргумент не повинен містити слішків наприкінці
-префіксу `ftp://` на початку.
+
+Адреса FTP-сервера. Цей аргумент не повинен містити слішів наприкінці та префіксу `ftp://` на початку.
 
 `port`
-Цей аргумент вказує на альтернативний порт для підключення. Якщо він
-опущений або встановлений в нуль, то буде використаний FTP порт
-замовчуванням - 21.
+
+Цей аргумент вказує на альтернативний порт для підключення. Якщо він опущений або встановлений у нуль, то буде використано FTP порт за замовчуванням - 21.
 
 `timeout`
-Цей аргумент вказує час очікування в секундах для всіх наступних
-мережевих операцій. Якщо опущено, використовується значення за промовчанням - 90
-секунд. Час очікування може бути змінено та отримано у будь-який момент при
-за допомогою функцій [ftp_set_option()](function.ftp-set-option.md) та
-[ftp_get_option()](function.ftp-get-option.md) відповідно.
+
+Цей аргумент вказує час очікування в секундах всіх наступних мережевих операцій. Якщо опущено, використовується значення за промовчанням - 90 секунд. Час очікування може бути змінено та отримано у будь-який момент за допомогою функцій [ftpsetoption()](function.ftp-set-option.md) і [ftpgetoption()](function.ftp-get-option.md) відповідно.
 
 ### Значення, що повертаються
 
-Повертає [FTP\Connection](class.ftp-connection.md) у разі
-успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [FTPConnection](class.ftp-connection.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Повертає екземпляр [FTP\Connection](class.ftp-connection.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [FTPConnection](class.ftp-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_connect()****
+**Приклад #1 Приклад використання **ftpconnect()****
 
-`<?php$ftp_server = "ftp.example.com";// встановлює з'єднання або виходить$ftp = ftp_connect($ftp_server) or die("Не удалося встановити з'єднання$ftp_server")
+```php
+<?php
+
+$ftp_server = "ftp.example.com";
+
+// устанавливает соединение или выходит
+$ftp = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server");
+
+?>
+```
 
 ### Дивіться також
 
-- [ftp_close()](function.ftp-close.md) - Закриває з'єднання з
-FTP-сервером
-- [ftp_ssl_connect()](function.ftp-ssl-connect.md) - Встановлює
-з'єднання з FTP-сервером через SSL
+-   [ftpclose()](function.ftp-close.md) - Закриває з'єднання з FTP-сервером
+-   [ftpsslconnect()](function.ftp-ssl-connect.md) - Встановлює з'єднання з FTP-сервером через SSL

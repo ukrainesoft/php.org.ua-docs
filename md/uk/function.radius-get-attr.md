@@ -1,53 +1,58 @@
-- [«radius_demangle](function.radius-demangle.md)
-- [radius_get_tagged_attr_data »](function.radius-get-tagged-attr-data.md)
+---
+navigation:
+  - function.radius-demangle.md: « radiusdemangle
+  - function.radius-get-tagged-attr-data.md: radiusgettaggedattrdata »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusgetattr
+---
+# radiusgetattr
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Витягує атрибут
+(PECL radius >= 1.1.0)
 
-#radius_get_attr
-
-(PECL radius \>= 1.1.0)
-
-radius_get_attr — Витягує атрибут
+radiusgetattr — Витягує атрибут
 
 ### Опис
 
-**radius_get_attr**(resource `$radius_handle`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+radius_get_attr(resource $radius_handle): mixed
+```
 
-Як і запити Radius, кожна відповідь може містити нуль або більше
-атрибутів. Після того, як відповідь була успішно отримана від
-[radius_send_request()](function.radius-send-request.md), його атрибути
-можуть бути витягнуті один за одним за допомогою **radius_get_attr()**.
-Щоразу, коли викликається **radius_get_attr()**, функція отримує
-наступний атрибут із поточної відповіді.
+Як і запити Radius, кожна відповідь може містити нуль або більше атрибутів. Після того, як відповідь була успішно отримана від [radiussendrequest()](function.radius-send-request.md), його атрибути можуть бути витягнуті один за одним за допомогою **radiusgetattr()**. Щоразу, коли викликається **radiusgetattr()**, функція отримує наступний атрибут із поточної відповіді.
 
 ### Список параметрів
 
 `radius_handle`
+
 Ресурс RADIUS
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, що містить тип атрибуту та дані або
-номер помилки \<=0.
+Повертає асоціативний масив, що містить тип атрибуту та дані чи номер помилки <= 0.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radius_get_attr()****
+**Приклад #1 Приклад використання **radiusgetattr()****
 
-` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {        printf("Помилка при отриманні атрибуту: |
-",  radius_strerror($res));         exit;    }   $attr = $resa['attr'];    $data = $resa['data']   |
-", $attr, strlen($data), bin2hex($data));}?> `
+```php
+<?php
+while ($resa = radius_get_attr($res)) {
+
+    if (!is_array($resa)) {
+        printf("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
+
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+    printf("Получен атрибут: %d %d байт %s\n", $attr, strlen($data), bin2hex($data));
+}
+?>
+```
 
 ### Дивіться також
 
-- [radius_put_attr()](function.radius-put-attr.md) - Приєднує
-бінарний атрибут
-- [radius_get_vendor_attr()](function.radius-get-vendor-attr.md) -
-Виймає атрибут, що залежить від постачальника
-- [radius_put_vendor_attr()](function.radius-put-vendor-attr.md) -
-Приєднує бінарний атрибут, що залежить від постачальника
-- [radius_send_request()](function.radius-send-request.md) -
-Відправляє запит і чекає відповіді
+-   [radiusputattr()](function.radius-put-attr.md) - приєднує бінарний атрибут
+-   [radiusgetvendorattr()](function.radius-get-vendor-attr.md) - Витягує атрибут, що залежить від постачальника
+-   [radiusputvendorattr()](function.radius-put-vendor-attr.md) - Приєднує бінарний атрибут, що залежить від постачальника
+-   [radiussendrequest()](function.radius-send-request.md) - Відправляє запит і чекає на відповідь

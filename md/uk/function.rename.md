@@ -1,10 +1,11 @@
-- [«realpath](function.realpath.md)
-- [rewind»](function.rewind.md)
-
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Перейменовує файл або директорію
-
+---
+navigation:
+  - function.realpath.md: « realpath
+  - function.rewind.md: rewind »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: rename
+---
 # rename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,48 +14,48 @@ rename — Перейменує файл або директорію
 
 ### Опис
 
-**rename**(string `$from`, string `$to`, ?resource `$context` =
-**`null`**): bool
+```methodsynopsis
+rename(string $from, string $to, ?resource $context = null): bool
+```
 
-Намагається перейменувати `from` на `to`, переносячи файл між директоріями,
-якщо необхідно. Якщо `to` існує, він буде перезаписаний. При
-перейменування директорії з існуючим `to` буде виведено
-попередження.
+Намагається перейменувати `from` в `to`, переносячи файл між директоріями, якщо потрібно. Якщо `to` існує, він буде перезаписаний. При перейменуванні директорії з існуючим `to` буде виведено попередження.
 
 ### Список параметрів
 
 `from`
+
 Старе ім'я.
 
-> **Примітка**:
->
-> Обгортка, що використовується в `from` * повинна * збігатися з обгорткою,
-> що використовується в `to`.
+> **Зауваження**
+> 
+> Обгортка, що використовується в `from` *повинна* збігатися з обгорткою, що використовується в `to`
 
 `to`
-Нове ім'я.
 
-> **Примітка**: У Windows, якщо `to` вже існує, він має бути
-> Доступний для запису. Інакше **rename()** завершиться
-> помилкою та видасть **`E_WARNING`**.
+Нове ім'я
+
+> **Зауваження**: У Windows, якщо `to` вже існує, він має бути доступним для запису. В іншому випадку **rename()** завершиться помилкою та видасть **`E_WARNING`**
 
 `context`
-Ресурс (resource) із [контекстом потоку](stream.contexts.md).
+
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання функції **rename()****
 
-` <?phprename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");?> `
+```php
+<?php
+rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
+?>
+```
 
 ### Дивіться також
 
-- [copy()](function.copy.md) - Копіює файл
-- [unlink()](function.unlink.md) - Видаляє файл
-- [move_uploaded_file()](function.move-uploaded-file.md) -
-Переміщує завантажений файл у нове місце
+-   [copy()](function.copy.md) - Копіює файл
+-   [unlink()](function.unlink.md) - Видаляє файл
+-   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце

@@ -1,32 +1,33 @@
-- [« SolrDisMaxQuery::removeTrigramPhraseField](solrdismaxquery.removetrigramphrasefield.md)
-- [SolrDisMaxQuery::setBigramPhraseFields »](solrdismaxquery.setbigramphrasefields.md)
-
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Видаляє поле з параметра користувацьких полів (uf)
-
-# SolrDisMaxQuery::removeUserField
+---
+navigation:
+  - solrdismaxquery.removetrigramphrasefield.md: '« SolrDisMaxQuery::removeTrigramPhraseField'
+  - solrdismaxquery.setbigramphrasefields.md: 'SolrDisMaxQuery::setBigramPhraseFields »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::remove User Field'
+---
+# Solr DisMax Query::remove User Field
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::removeUserField — Видалення поля з параметра
-користувацьких полів (uf)
+Solr DisMax Query::remove UserField — Видалення поля з параметра поля користувача (uf)
 
 ### Опис
 
-public **SolrDisMaxQuery::removeUserField**(string `$field`):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::removeUserField(string $field): SolrDisMaxQuery
+```
 
-Видаляє поле з параметра користувацьких полів (uf)
+Видаляє поле з параметра поля користувача (uf)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `field`
+
 Ім'я поля
 
 ### Значення, що повертаються
@@ -35,19 +36,35 @@ public **SolrDisMaxQuery::removeUserField**(string `$field`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrDisMaxQuery::removeUserField()****
+**Приклад #1 Приклад використання **Solr DisMax Query::remove User Field()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->addUserField('cat')->addUserField('text')->addUserField('*_dt');echo $dismaxQuery.PHP_EOL / видалити поле 'text'$dismaxQuery->removeUserField('text');echo $dismaxQuery.PHP_EOL;?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery
+->addUserField('cat')
+->addUserField('text')
+->addUserField('*_dt')
+;
+echo $dismaxQuery.PHP_EOL;
+
+// удалить поле 'text'
+$dismaxQuery
+->removeUserField('text');
+echo $dismaxQuery.PHP_EOL;
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 q=lucene&defType=%s&uf=cat text *_dt
 q=lucene&defType=%s&uf=cat *_dt
+```
 
 ### Дивіться також
 
-- [SolrDisMaxQuery::addUserField()](solrdismaxquery.adduserfield.md) -
-Додає поле до параметра полів користувача (uf)
-- [SolrDisMaxQuery::setUserFields()](solrdismaxquery.setuserfields.md) -
-Встановлює параметр полів користувача (uf)
+-   [SolrDisMaxQuery::addUserField()](solrdismaxquery.adduserfield.md) - Додає поле до параметра користувача полів (uf)
+-   [SolrDisMaxQuery::setUserFields()](solrdismaxquery.setuserfields.md) - Встановлює параметр полів користувача (uf)

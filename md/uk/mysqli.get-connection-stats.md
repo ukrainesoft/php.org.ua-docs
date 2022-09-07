@@ -1,42 +1,44 @@
-- [« mysqli::$client_version](mysqli.get-client-version.md)
-- [mysqli::$host_info »](mysqli.get-host-info.md)
+---
+navigation:
+  - mysqli.get-client-version.md: '« mysqli::$clientversion'
+  - mysqli.get-host-info.md: 'mysqli::$hostinfo »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::getconnectionstats'
+---
+# mysqli::getconnectionstats
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає статистику з'єднання із клієнтом
+# mysqligetconnectionstats
 
-# mysqli::get_connection_stats
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# mysqli_get_connection_stats
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-mysqli::get_connection_stats -- mysqli_get_connection_stats -- Повертає
-статистику з'єднання з клієнтом
+mysqli::getconnectionstats - mysqligetconnectionstats — Повертає статистику з'єднання з клієнтом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::get_connection_stats**(): array
+```methodsynopsis
+public mysqli::get_connection_stats(): array
+```
 
 Процедурний стиль
 
-**mysqli_get_connection_stats**([mysqli](class.mysqli.md) `$mysql`):
-array
+```methodsynopsis
+mysqli_get_connection_stats(mysqli $mysql): array
+```
 
 Повертає статистику з'єднання із клієнтом.
 
-> **Примітка**:
->
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.md).
+> **Зауваження**
+> 
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -44,134 +46,142 @@ array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli_get_connection_stats()****
+**Приклад #1 Приклад використання **mysqligetconnectionstats()****
 
-` <?php$link = mysqli_connect();print_r(mysqli_get_connection_stats($link));?> `
+```php
+<?php
+$link = mysqli_connect();
+print_r(mysqli_get_connection_stats($link));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[bytes_sent] => 43
-[bytes_received] => 80
-[packets_sent] => 1
-[packets_received] => 2
-[protocol_overhead_in] => 8
-[protocol_overhead_out] => 4
-[bytes_received_ok_packet] => 11
-[bytes_received_eof_packet] => 0
-[bytes_received_rset_header_packet] => 0
-[bytes_received_rset_field_meta_packet] => 0
-[bytes_received_rset_row_packet] => 0
-[bytes_received_prepare_response_packet] => 0
-[bytes_received_change_user_packet] => 0
-[packets_sent_command] => 0
-[packets_received_ok] => 1
-[packets_received_eof] => 0
-[packets_received_rset_header] => 0
-[packets_received_rset_field_meta] => 0
-[packets_received_rset_row] => 0
-[packets_received_prepare_response] => 0
-[packets_received_change_user] => 0
-[result_set_queries] => 0
-[non_result_set_queries] => 0
-[no_index_used] => 0
-[bad_index_used] => 0
-[slow_queries] => 0
-[buffered_sets] => 0
-[unbuffered_sets] => 0
-[ps_buffered_sets] => 0
-[ps_unbuffered_sets] => 0
-[flushed_normal_sets] => 0
-[flushed_ps_sets] => 0
-[ps_prepared_never_executed] => 0
-[ps_prepared_once_executed] => 0
-[rows_fetched_from_server_normal] => 0
-[rows_fetched_from_server_ps] => 0
-[rows_buffered_from_client_normal] => 0
-[rows_buffered_from_client_ps] => 0
-[rows_fetched_from_client_normal_buffered] => 0
-[rows_fetched_from_client_normal_unbuffered] => 0
-[rows_fetched_from_client_ps_buffered] => 0
-[rows_fetched_from_client_ps_unbuffered] => 0
-[rows_fetched_from_client_ps_cursor] => 0
-[rows_skipped_normal] => 0
-[rows_skipped_ps] => 0
-[copy_on_write_saved] => 0
-[copy_on_write_performed] => 0
-[command_buffer_too_small] => 0
-[connect_success] => 1
-[connect_failure] => 0
-[connection_reused] => 0
-[reconnect] => 0
-[pconnect_success] => 0
-[active_connections] => 1
-[active_persistent_connections] => 0
-[explicit_close] => 0
-[implicit_close] => 0
-[disconnect_close] => 0
-[in_middle_of_command_close] => 0
-[explicit_free_result] => 0
-[implicit_free_result] => 0
-[explicit_stmt_close] => 0
-[implicit_stmt_close] => 0
-[mem_emalloc_count] => 0
-[mem_emalloc_ammount] => 0
-[mem_ecalloc_count] => 0
-[mem_ecalloc_ammount] => 0
-[mem_erealloc_count] => 0
-[mem_erealloc_ammount] => 0
-[mem_efree_count] => 0
-[mem_malloc_count] => 0
-[mem_malloc_ammount] => 0
-[mem_calloc_count] => 0
-[mem_calloc_ammount] => 0
-[mem_realloc_count] => 0
-[mem_realloc_ammount] => 0
-[mem_free_count] => 0
-[proto_text_fetched_null] => 0
-[proto_text_fetched_bit] => 0
-[proto_text_fetched_tinyint] => 0
-[proto_text_fetched_short] => 0
-[proto_text_fetched_int24] => 0
-[proto_text_fetched_int] => 0
-[proto_text_fetched_bigint] => 0
-[proto_text_fetched_decimal] => 0
-[proto_text_fetched_float] => 0
-[proto_text_fetched_double] => 0
-[proto_text_fetched_date] => 0
-[proto_text_fetched_year] => 0
-[proto_text_fetched_time] => 0
-[proto_text_fetched_datetime] => 0
-[proto_text_fetched_timestamp] => 0
-[proto_text_fetched_string] => 0
-[proto_text_fetched_blob] => 0
-[proto_text_fetched_enum] => 0
-[proto_text_fetched_set] => 0
-[proto_text_fetched_geometry] => 0
-[proto_text_fetched_other] => 0
-[proto_binary_fetched_null] => 0
-[proto_binary_fetched_bit] => 0
-[proto_binary_fetched_tinyint] => 0
-[proto_binary_fetched_short] => 0
-[proto_binary_fetched_int24] => 0
-[proto_binary_fetched_int] => 0
-[proto_binary_fetched_bigint] => 0
-[proto_binary_fetched_decimal] => 0
-[proto_binary_fetched_float] => 0
-[proto_binary_fetched_double] => 0
-[proto_binary_fetched_date] => 0
-[proto_binary_fetched_year] => 0
-[proto_binary_fetched_time] => 0
-[proto_binary_fetched_datetime] => 0
-[proto_binary_fetched_timestamp] => 0
-[proto_binary_fetched_string] => 0
-[proto_binary_fetched_blob] => 0
-[proto_binary_fetched_enum] => 0
-[proto_binary_fetched_set] => 0
-[proto_binary_fetched_geometry] => 0
-[proto_binary_fetched_other] => 0
+    [bytes_sent] => 43
+    [bytes_received] => 80
+    [packets_sent] => 1
+    [packets_received] => 2
+    [protocol_overhead_in] => 8
+    [protocol_overhead_out] => 4
+    [bytes_received_ok_packet] => 11
+    [bytes_received_eof_packet] => 0
+    [bytes_received_rset_header_packet] => 0
+    [bytes_received_rset_field_meta_packet] => 0
+    [bytes_received_rset_row_packet] => 0
+    [bytes_received_prepare_response_packet] => 0
+    [bytes_received_change_user_packet] => 0
+    [packets_sent_command] => 0
+    [packets_received_ok] => 1
+    [packets_received_eof] => 0
+    [packets_received_rset_header] => 0
+    [packets_received_rset_field_meta] => 0
+    [packets_received_rset_row] => 0
+    [packets_received_prepare_response] => 0
+    [packets_received_change_user] => 0
+    [result_set_queries] => 0
+    [non_result_set_queries] => 0
+    [no_index_used] => 0
+    [bad_index_used] => 0
+    [slow_queries] => 0
+    [buffered_sets] => 0
+    [unbuffered_sets] => 0
+    [ps_buffered_sets] => 0
+    [ps_unbuffered_sets] => 0
+    [flushed_normal_sets] => 0
+    [flushed_ps_sets] => 0
+    [ps_prepared_never_executed] => 0
+    [ps_prepared_once_executed] => 0
+    [rows_fetched_from_server_normal] => 0
+    [rows_fetched_from_server_ps] => 0
+    [rows_buffered_from_client_normal] => 0
+    [rows_buffered_from_client_ps] => 0
+    [rows_fetched_from_client_normal_buffered] => 0
+    [rows_fetched_from_client_normal_unbuffered] => 0
+    [rows_fetched_from_client_ps_buffered] => 0
+    [rows_fetched_from_client_ps_unbuffered] => 0
+    [rows_fetched_from_client_ps_cursor] => 0
+    [rows_skipped_normal] => 0
+    [rows_skipped_ps] => 0
+    [copy_on_write_saved] => 0
+    [copy_on_write_performed] => 0
+    [command_buffer_too_small] => 0
+    [connect_success] => 1
+    [connect_failure] => 0
+    [connection_reused] => 0
+    [reconnect] => 0
+    [pconnect_success] => 0
+    [active_connections] => 1
+    [active_persistent_connections] => 0
+    [explicit_close] => 0
+    [implicit_close] => 0
+    [disconnect_close] => 0
+    [in_middle_of_command_close] => 0
+    [explicit_free_result] => 0
+    [implicit_free_result] => 0
+    [explicit_stmt_close] => 0
+    [implicit_stmt_close] => 0
+    [mem_emalloc_count] => 0
+    [mem_emalloc_ammount] => 0
+    [mem_ecalloc_count] => 0
+    [mem_ecalloc_ammount] => 0
+    [mem_erealloc_count] => 0
+    [mem_erealloc_ammount] => 0
+    [mem_efree_count] => 0
+    [mem_malloc_count] => 0
+    [mem_malloc_ammount] => 0
+    [mem_calloc_count] => 0
+    [mem_calloc_ammount] => 0
+    [mem_realloc_count] => 0
+    [mem_realloc_ammount] => 0
+    [mem_free_count] => 0
+    [proto_text_fetched_null] => 0
+    [proto_text_fetched_bit] => 0
+    [proto_text_fetched_tinyint] => 0
+    [proto_text_fetched_short] => 0
+    [proto_text_fetched_int24] => 0
+    [proto_text_fetched_int] => 0
+    [proto_text_fetched_bigint] => 0
+    [proto_text_fetched_decimal] => 0
+    [proto_text_fetched_float] => 0
+    [proto_text_fetched_double] => 0
+    [proto_text_fetched_date] => 0
+    [proto_text_fetched_year] => 0
+    [proto_text_fetched_time] => 0
+    [proto_text_fetched_datetime] => 0
+    [proto_text_fetched_timestamp] => 0
+    [proto_text_fetched_string] => 0
+    [proto_text_fetched_blob] => 0
+    [proto_text_fetched_enum] => 0
+    [proto_text_fetched_set] => 0
+    [proto_text_fetched_geometry] => 0
+    [proto_text_fetched_other] => 0
+    [proto_binary_fetched_null] => 0
+    [proto_binary_fetched_bit] => 0
+    [proto_binary_fetched_tinyint] => 0
+    [proto_binary_fetched_short] => 0
+    [proto_binary_fetched_int24] => 0
+    [proto_binary_fetched_int] => 0
+    [proto_binary_fetched_bigint] => 0
+    [proto_binary_fetched_decimal] => 0
+    [proto_binary_fetched_float] => 0
+    [proto_binary_fetched_double] => 0
+    [proto_binary_fetched_date] => 0
+    [proto_binary_fetched_year] => 0
+    [proto_binary_fetched_time] => 0
+    [proto_binary_fetched_datetime] => 0
+    [proto_binary_fetched_timestamp] => 0
+    [proto_binary_fetched_string] => 0
+    [proto_binary_fetched_blob] => 0
+    [proto_binary_fetched_enum] => 0
+    [proto_binary_fetched_set] => 0
+    [proto_binary_fetched_geometry] => 0
+    [proto_binary_fetched_other] => 0
 )
+```
 
 ### Дивіться також
- - [Опис статистики](mysqlnd.stats.md)
+
+-   [Описание статистики](mysqlnd.stats.md)

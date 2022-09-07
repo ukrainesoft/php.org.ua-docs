@@ -1,80 +1,86 @@
-- [« imap_alerts](function.imap-alerts.md)
-- [imap_base64 »](function.imap-base64.md)
-
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Додає рядкове повідомлення у вказану поштову скриньку
-
-#imap_append
+---
+navigation:
+  - function.imap-alerts.md: « imapalerts
+  - function.imap-base64.md: imapbase64 »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapappend
+---
+# imapappend
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_append — Додає рядкове повідомлення до вказаної поштової скриньки
+imapappend — Додає рядкове повідомлення до вказаної поштової скриньки
 
 ### Опис
 
-**imap_append**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$folder`,
-string `$message`,
-?string `$options` = **`null`**,
-?string `$internal_date` = **`null`**
-): bool
+```methodsynopsis
+imap_append(    IMAP\Connection $imap,    string $folder,    string $message,    ?string $options = null,    ?string $internal_date = null): bool
+```
 
-Додає рядок `message` у вказаний `folder`.
+Додає рядок `message` у вказаний `folder`
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `folder`
-Ім'я поштової скриньки. Дивіться [imap_open()](function.imap-open.md) для
-Детальна інформація.
+
+Ім'я поштової скриньки. Дивіться [imapopen()](function.imap-open.md) для детальної інформації.
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `message`
-Додане повідомлення у вигляді рядка
 
-При зверненні до сервера Cyrus IMAP слід використовувати "
-як
-завершальний символ рядка замість "
-"Інакше операція буде невдала.
+Повідомлення, що додається у вигляді рядка
+
+При зверненні до сервера Cyrus IMAP слід використовувати "рn" як завершальний символ рядка замість "n", інакше операція буде невдалою.
 
 `options`
-Якщо вказано, то параметр `options` також буде записаний у `folder`
+
+Якщо вказано, то параметр `options` також буде записано в `folder`
 
 `internal_date`
-Якщо цей параметр вказано, він встановить INTERNALDATE у доданому
-повідомленні. Параметр повинен містити дату, подану рядком,
-яка відповідає специфікації rfc2060 значення date_time.
+
+Якщо цей параметр вказано, він встановить INTERNALDATE у повідомленні, що додається. Параметр повинен містити дату, подану рядком, що відповідає специфікації rfc2060 для значення datetime.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | options та internal_date тепер допускають значення null.                                                                                               |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `options` і `internal_date` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_append()****
+**Приклад #1 Приклад використання **imapappend()****
 
-` <?php$imap = imap_open("{imap.example.org}INBOX.Drafts", "username", "password");$check = imap_check($imap);echo "Кількість повідомлень до додавання: " . $check->Nmsgs . "
-";imap_append($imap, "{imap.example.org}INBOX.Drafts"                    , "From: me@example.com
-"                     . "To: you@example.com
-"                     ..""Subject: test
-"                     . ."
-                      . "це перевірочне повідомлення, будь ласка, ігноруйте його
-"                      );$check = imap_check($imap);echo "Кількість повідомлень після додавання :: ". $check>.
-";imap_close($imap);?> `
+```php
+<?php
+$imap = imap_open("{imap.example.org}INBOX.Drafts", "username", "password");
+
+$check = imap_check($imap);
+echo "Кол-во сообщений до добавления: ". $check->Nmsgs . "\n";
+
+imap_append($imap, "{imap.example.org}INBOX.Drafts"
+                   , "From: me@example.com\r\n"
+                   . "To: you@example.com\r\n"
+                   . "Subject: test\r\n"
+                   . "\r\n"
+                   . "это проверочное сообщение, пожалуйста, игнорируйте его\r\n"
+                   );
+
+$check = imap_check($imap);
+echo "Кол-во сообщений после добавления : ". $check->Nmsgs . "\n";
+
+imap_close($imap);
+?>
+```

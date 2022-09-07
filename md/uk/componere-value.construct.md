@@ -1,19 +1,20 @@
-- [«Componere\Value](class.componere-value.md)
-- [Componere\Value::setPrivate »](componere-value.setprivate.md)
+---
+navigation:
+  - class.componere-value.md: « ComponereValue
+  - componere-value.setprivate.md: 'ComponereValue::setPrivate »'
+  - index.md: PHP Manual
+  - class.componere-value.md: ComponereValue
+title: 'ComponereValue::construct'
+---
+# ComponereValue::construct
 
-- [PHP Manual](index.md)
-- [Componere\Value](class.componere-value.md)
-- Конструктор класу Value
+(Componere 2 >= 2.1.0)
 
-# Componere\Value::\_\_construct
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Value::\_\_construct - Конструктор класу Value
+ComponereValue::construct - Конструктор класу Value
 
 ### Опис
 
-public **Componere\Value::\_\_construct**( `$default` = ?)
+public **ComponereValue::construct** `$default`
 
 ### Список параметрів
 
@@ -23,6 +24,4 @@ public **Componere\Value::\_\_construct**( `$default` = ?)
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-`default` не має відповідного значення
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), якщо `default` не має відповідного значення

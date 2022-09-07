@@ -1,22 +1,24 @@
-- [«ZMQ](class.zmq.md)
-- [ZMQContext »](class.zmqcontext.md)
+---
+navigation:
+  - class.zmq.md: « ZMQ
+  - class.zmqcontext.md: ZMQContext »
+  - index.md: PHP Manual
+  - class.zmq.md: ZMQ
+title: 'ZMQ::construct'
+---
+# ZMQ::construct
 
-- [PHP Manual](index.md)
-- [ZMQ](class.zmq.md)
-- Конструктор ZMQ
+(PECL zmq >= 0.5.0)
 
-# ZMQ::\_\_construct
-
-(PECL zmq \>= 0.5.0)
-
-ZMQ::\_\_construct - Конструктор ZMQ
+ZMQ::construct — Конструктор ZMQ
 
 ### Опис
 
-private **ZMQ::\_\_construct**()
+```methodsynopsis
+private ZMQ::__construct()
+```
 
-Приватний конструктор для запобігання прямій ініціалізації. Цей
-Клас містить константи для модуля ZMQ.
+Приватний конструктор для запобігання прямій ініціалізації. Цей клас містить константи для модуля ZMQ.
 
 ### Список параметрів
 

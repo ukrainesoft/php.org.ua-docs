@@ -1,27 +1,29 @@
-- [« Ds\Deque::pop](ds-deque.pop.md)
-- [Ds\Deque::reduce »](ds-deque.reduce.md)
+---
+navigation:
+  - ds-deque.pop.md: '« DsDeque::pop'
+  - ds-deque.reduce.md: 'ДсDeque::reduce »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::push'
+---
+# ДсDeque::push
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Додає значення на кінець двосторонньої черги
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::push
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::push — Додає значення до кінця двосторонньої черги
+ДсDeque::push — Додає значення до кінця двосторонньої черги
 
 ### Опис
 
-public
-**Ds\Deque::push**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+public Ds\Deque::push(mixed ...$values): void
+```
 
-Додає значення на кінець двосторонньої черги.
+Додає значення до кінця двосторонньої черги.
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
 ### Значення, що повертаються
@@ -30,18 +32,31 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::push()****
+**Приклад #1 Приклад використання **ДсDeque::push()****
 
-` <?php$deque = new \Ds\Deque();$deque->push("a");$deque->push("b");$deque->push("c", "d" );$deque->push(...["e", "f"]);print_r($deque);?> `
+```php
+<?php
+$deque = new \Ds\Deque();
+
+$deque->push("a");
+$deque->push("b");
+$deque->push("c", "d");
+$deque->push(...["e", "f"]);
+
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => a
-[1] => b
-[2] => c
-[3] => d
-[4] => e
-[5] => f
+    [0] => a
+    [1] => b
+    [2] => c
+    [3] => d
+    [4] => e
+    [5] => f
 )
+```

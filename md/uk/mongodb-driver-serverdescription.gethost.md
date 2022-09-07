@@ -1,19 +1,22 @@
-- [« MongoDB\Driver\ServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.md)
-- [MongoDB\Driver\ServerDescription::getLastUpdateTime »](mongodb-driver-serverdescription.getlastupdatetime.md)
+---
+navigation:
+  - mongodb-driver-serverdescription.gethelloresponse.md: '« MongoDBDriverServerDescription::getHelloResponse'
+  - mongodb-driver-serverdescription.getlastupdatetime.md: 'MongoDBDriverServerDescription::getLastUpdateTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getHost'
+---
+# MongoDBDriverServerDescription::getHost
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-- Повертає ім'я сервера хоста
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\ServerDescription::getHost
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\ServerDescription::getHost — Повертає ім'я хоста сервера
+MongoDBDriverServerDescription::getHost — Повертає ім'я сервера.
 
 ### Опис
 
-final public **MongoDB\Driver\ServerDescription::getHost**(): string
+```methodsynopsis
+final public MongoDB\Driver\ServerDescription::getHost(): string
+```
 
 Повертає ім'я сервера хоста.
 
@@ -27,10 +30,8 @@ final public **MongoDB\Driver\ServerDescription::getHost**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getHost()](mongodb-driver-server.gethost.md) -
-Повертає ім'я сервера хоста
+-   [MongoDBDriverServer::getHost()](mongodb-driver-server.gethost.md) - Повертає ім'я сервера хоста

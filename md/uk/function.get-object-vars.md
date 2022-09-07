@@ -1,66 +1,88 @@
-- [«get_mangled_object_vars](function.get-mangled-object-vars.md)
-- [get_parent_class »](function.get-parent-class.md)
-
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Повертає властивості вказаного об'єкту
-
-#get_object_vars
+---
+navigation:
+  - function.get-mangled-object-vars.md: « getmangledobjectvars
+  - function.get-parent-class.md: getparentclass »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getobjectvars
+---
+# getobjectvars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_object_vars — Повертає властивості вказаного об'єкту
+getobjectvars — Повертає властивості вказаного об'єкта
 
 ### Опис
 
-**get_object_vars**(object `$object`): array
+```methodsynopsis
+get_object_vars(object $object): array
+```
 
-Повертає видимі нестатичні властивості зазначеного об'єкту `object`
-відповідно до області видимості.
+Повертає видимі нестатичні властивості вказаного об'єкта `object` відповідно до області видимості.
 
 ### Список параметрів
 
 `object`
-Примірник об'єкту
+
+Примірник об'єкта
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив нестатичних властивостей об'єкту `object`,
-доступних у цій галузі видимості.
+Повертає асоціативний масив нестатичних властивостей об'єкту `object`, доступні в даній області видимості.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_object_vars()****
+**Приклад #1 Приклад використання **getobjectvars()****
 
-`<?phpclass foo {    private $a; public $b = 1; public $c; private$d; static $e; public function test() {         var_dump(get_object_vars($this)); }}$test = new foo;var_dump(get_object_vars($test));$test->test();?> `
+```php
+<?php
+
+class foo {
+    private $a;
+    public $b = 1;
+    public $c;
+    private $d;
+    static $e;
+
+    public function test() {
+        var_dump(get_object_vars($this));
+    }
+}
+
+$test = new foo;
+var_dump(get_object_vars($test));
+
+$test->test();
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(2) {
-["b"]=>
-int(1)
-["c"]=>
-NULL
+  ["b"]=>
+  int(1)
+  ["c"]=>
+  NULL
 }
 array(4) {
-["a"]=>
-NULL
-["b"]=>
-int(1)
-["c"]=>
-NULL
-["d"]=>
-NULL
+  ["a"]=>
+  NULL
+  ["b"]=>
+  int(1)
+  ["c"]=>
+  NULL
+  ["d"]=>
+  NULL
 }
+```
 
-> **Примітка**:
->
-> Неініціалізовані властивості вважаються недоступними і тому
-> включаються до масиву.
+> **Зауваження**
+> 
+> Неініціалізовані властивості вважаються недоступними і тому не включаються до масиву.
 
 ### Дивіться також
 
-- [get_class_methods()](function.get-class-methods.md) - Повертає
-масив імен методів класу
-- [get_class_vars()](function.get-class-vars.md) - Повертає
-оголошені за замовчуванням властивості класу
+-   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
+-   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу

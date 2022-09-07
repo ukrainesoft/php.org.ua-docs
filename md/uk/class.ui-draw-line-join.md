@@ -1,10 +1,11 @@
-- [«UI\Draw\Line\Cap](class.ui-draw-line-cap.md)
-- [UI\Key »](class.ui-key.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Налаштування з'єднання ліній
-
+---
+navigation:
+  - class.ui-draw-line-cap.md: « UIDrawLineCap
+  - class.ui-key.md: ОЙKey »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Налаштування з'єднання ліній
+---
 # Налаштування з'єднання ліній
 
 (UI 0.9.9)
@@ -13,14 +14,31 @@
 
 ## Огляд класів
 
-final class **UI\Draw\Line\Join** {
+```synopsis
 
-/\* Константи \*/
 
-const int `Miter`;
 
-const int `Round`;
+    
+     
+      final
+      class UI\Draw\Line\Join
+     
+     {
 
-const int `Bevel`;
+    /* Константы */
+    
+     const
+     int
+      Miter;
 
-}
+    const
+     int
+      Round;
+
+    const
+     int
+      Bevel;
+
+
+   }
+```

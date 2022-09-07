@@ -1,22 +1,24 @@
-- [«SolrPingResponse::\_\_destruct](solrpingresponse.destruct.md)
-- [SolrGenericResponse »](class.solrgenericresponse.md)
-
-- [PHP Manual](index.md)
-- [SolrPingResponse](class.solrpingresponse.md)
-- Повертає відповідь від сервера
-
+---
+navigation:
+  - solrpingresponse.destruct.md: '« SolrPingResponse::destruct'
+  - class.solrgenericresponse.md: SolrGenericResponse »
+  - index.md: PHP Manual
+  - class.solrpingresponse.md: SolrPingResponse
+title: 'SolrPingResponse::getResponse'
+---
 # SolrPingResponse::getResponse
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrPingResponse::getResponse — Повертає відповідь від сервера
 
 ### Опис
 
-public **SolrPingResponse::getResponse**(): string
+```methodsynopsis
+public SolrPingResponse::getResponse(): string
+```
 
-Повертає відповідь від сервера. Він має бути порожнім, тому що є
-HEAD-запитом.
+Повертає відповідь від сервера. Він має бути порожнім, тому що є HEAD-запитом.
 
 ### Список параметрів
 

@@ -1,130 +1,129 @@
-- [« imap_scanmailbox](function.imap-scanmailbox.md)
-- [imap_set_quota »](function.imap-set-quota.md)
-
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати повідомлення, які відповідають заданим критеріям
-
-#imap_search
+---
+navigation:
+  - function.imap-scanmailbox.md: « imapscanmailbox
+  - function.imap-set-quota.md: imapsetquota »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapsearch
+---
+# imapsearch
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_search — Отримати повідомлення, які відповідають заданим критеріям
+imapsearch — Отримати повідомлення, які відповідають заданим критеріям
 
 ### Опис
 
-**imap_search**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$criteria`,
-int `$flags` = **`SE_FREE`**,
-string `$charset` = ""
-): array\|false
+```methodsynopsis
+imap_search(    IMAP\Connection $imap,    string $criteria,    int $flags = SE_FREE,    string $charset = ""): array|false
+```
 
-Ця функція здійснює пошук у поточній поштовій скриньці відкритій у потоці
-IMAP.
+Ця функція здійснює пошук у поточній поштовій скриньці, відкритій у потоці IMAP.
 
-Наприклад, щоб знайти всі невідповідні повідомлення надіслані від мами
-(Mom) потрібно буде використовувати "UNANSWERED FROM mom". Пошук
-реєстронезалежний. Наведений список критеріїв вилучено із вихідних
-кодів UW c-client і може бути неповним або не зовсім точним
-(додатково дивіться [RFC1176](http://www.faqs.org/rfcs/rfc1176),
-секція "tag SEARCH (search_criteria").
+Наприклад, щоб знайти всі невідповідні повідомлення надіслані від мами (Mom), потрібно буде використовувати "UNANSWERED FROM mom". Пошук реєстронезалежний. Наведений список критеріїв вилучено із вихідних кодів UW c-client і може бути неповним або не зовсім точним (додатково дивіться [» RFC1176](http://www.faqs.org/rfcs/rfc1176), секція "tag SEARCH searchcriteria").
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `criteria`
-Рядок, розділений пробілами, в якому можна використовувати
-такі ключові слова. Будь-які аргументи, що складаються з кількох слів,
-повинні бути укладені в подвійні лапки (наприклад, `FROM "joey smith"`).
-Результат співпадатиме з усіма заданими в параметрі `criteria`
-критеріями.
 
-- ALL - повертати всі повідомлення, що відповідають іншим критеріям
-- ANSWERED - повідомлення з виставленим прапором \\ANSWERED
-- BCC "string" - повідомлення у полі Bcc: яких присутній "string"
-- BEFORE "date" - повідомлення з Date: до "date"
-- BODY "string" - повідомлення, що містять "string" в тілі
-- CC "string" - повідомлення у полі Cc: яких присутній "string"
-- DELETED - видалені повідомлення
-- FLAGGED - повідомлення з встановленим прапором \\FLAGGED (іноді
-називають "Термінове" або "Важливе")
-- FROM "string" - повідомлення у полі From: яких присутні
-"string"
-- KEYWORD "string" - повідомлення із ключовим словом "string"
-- NEW - нові повідомлення
-- OLD - старі повідомлення
-- ON "date" - повідомлення з Date: рівним "date"
-- RECENT - означає повідомлення з виставленим прапором \\RECENT
-- SEEN - прочитані повідомлення (встановлений прапор \\SEEN)
-- SINCE "date" - повідомлення з Date: після "date"
-- SUBJECT "string" - повідомлення в полі Subject: яких присутні
-"string"
-- TEXT "string" - повідомлення з текстом "string"
-- TO "string" - повідомлення в полі To: яких присутній "string"
-- UNANSWERED - невідповідні повідомлення
-- UNDELETED - не видалені повідомлення
-- UNFLAGGED – повідомлення без встановлених прапорів
-- UNKEYWORD "string" - повідомлення, що не мають ключового слова "string"
-- UNSEEN - непрочитані повідомлення
+Рядок, розділений пробілами, в якому можна використовувати наступні ключові слова. Будь-які аргументи, що складаються з кількох слів, повинні бути поміщені в подвійні лапки (наприклад `FROM "joey smith"`). Результат співпадатиме з усіма заданими в параметрі `criteria` критеріями.
+
+-   ALL - повертати всі повідомлення, що відповідають іншим критеріям
+-   ANSWERED - повідомлення з виставленим прапором ANSWERED
+-   BCC "string" - повідомлення в полі Bcc: яких є "string"
+-   BEFORE "date" - повідомлення з Date: до "date"
+-   BODY "string" - повідомлення, що містять "string" в тілі
+-   CC "string" - повідомлення у полі Cc: яких є "string"
+-   DELETED - видалені повідомлення
+-   FLAGGED - повідомлення із встановленим прапором FLAGGED (іноді називають "Термінове" або "Важливе")
+-   FROM "string" - повідомлення в полі From: яких є "string"
+-   KEYWORD "string" - повідомлення із ключовим словом "string"
+-   NEW - нові повідомлення
+-   OLD - старі повідомлення
+-   ON "date" - повідомлення з Date: рівним "date"
+-   RECENT означає повідомлення з виставленим прапором RECENT
+-   SEEN - прочитані повідомлення (встановлений прапор SEEN)
+-   SINCE "date" - повідомлення з Date: після "date"
+-   SUBJECT "string" - повідомлення в полі Subject: яких є "string"
+-   TEXT "string" - повідомлення з текстом "string"
+-   TO "string" - повідомлення в полі To: яких є присутнім "string"
+-   UNANSWERED - невідповідні повідомлення
+-   UNDELETED - не видалені повідомлення
+-   UNFLAGGED - повідомлення без встановлених прапорів
+-   UNKEYWORD "string" - повідомлення, що не мають ключового слова "string"
+-   UNSEEN - непрочитані повідомлення
 
 `flags`
-Коректні значення `flags` - це **`SE_UID`**, що призведе до того, що
-у поверненому масиві замість номерів повідомлень утримуватимуться їх
-UID.
+
+Коректні значення `flags` - це **`SE_UID`**, що призведе до того, що у поверненому масиві замість номерів повідомлень будуть міститися їх UID.
 
 `charset`
+
 Кодування MIME, у якому відбуватиметься пошук.
 
 ### Значення, що повертаються
 
 Повертає номери повідомлень або їх UID.
 
-Повертає **`false`**, якщо повідомлення не знайдені, або критерії
-вказані в `criteria` некоректні.
+Повертає **`false`**, якщо повідомлення не знайдені, або критерії зазначені в `criteria` некоректні.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_search()****
+**Приклад #1 Приклад використання **imapsearch()****
 
-` <?php$imap   = imap_open('{imap.example.com:993/imap/ssl}INBOX', 'foo@example.com', 'pass123', OP_READONLY);$some  = imap_search(' SUBJECT "HOWTO be Awesome" SINCE "8 August 2008"', SE_UID);$msgnos = imap_search($imap, 'ALL');$uids   = imap_search($imap| ;print_r($msgnos);print_r($uids);?> `
+```php
+<?php
+$imap   = imap_open('{imap.example.com:993/imap/ssl}INBOX', 'foo@example.com', 'pass123', OP_READONLY);
+
+$some   = imap_search($imap, 'SUBJECT "HOWTO be Awesome" SINCE "8 August 2008"', SE_UID);
+$msgnos = imap_search($imap, 'ALL');
+$uids   = imap_search($imap, 'ALL', SE_UID);
+
+print_r($some);
+print_r($msgnos);
+print_r($uids);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => 4
-[1] => 6
-[2] => 11
+    [0] => 4
+    [1] => 6
+    [2] => 11
 )
 Array
 (
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
-[4] => 5
-[5] => 6
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
+    [4] => 5
+    [5] => 6
 )
 Array
 (
-[0] => 1
-[1] => 4
-[2] => 6
-[3] => 8
-[4] => 11
-[5] => 12
+    [0] => 1
+    [1] => 4
+    [2] => 6
+    [3] => 8
+    [4] => 11
+    [5] => 12
 )
+```
 
 ### Дивіться також
 
-- [imap_listscan()](function.imap-listscan.md) - Отримати список
-поштових скриньок, імена яких містять заданий рядок
+-   [imaplistscan()](function.imap-listscan.md) - Отримати список поштових скриньок, імена яких містять заданий рядок

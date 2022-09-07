@@ -1,59 +1,43 @@
-- [« SessionHandlerInterface::read](sessionhandlerinterface.read.md)
-- [SessionIdInterface »](class.sessionidinterface.md)
-
-- [PHP Manual](index.md)
-- [SessionHandlerInterface](class.sessionhandlerinterface.md)
-- Записати дані сесії
-
+---
+navigation:
+  - sessionhandlerinterface.read.md: '« SessionHandlerInterface::read'
+  - class.sessionidinterface.md: SessionIdInterface »
+  - index.md: PHP Manual
+  - class.sessionhandlerinterface.md: SessionHandlerInterface
+title: 'SessionHandlerInterface::write'
+---
 # SessionHandlerInterface::write
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::write — Записати дані сесії
 
 ### Опис
 
-public **SessionHandlerInterface::write**(string `$id`, string `$data`):
-bool
+```methodsynopsis
+public SessionHandlerInterface::write(string $id, string $data): bool
+```
 
-Записує дані сесії у сховище сесій. Викликається функцією
-[session_write_close()](function.session-write-close.md), коли
-невдало завершується функція
-[session_register_shutdown()](function.session-register-shutdown.md)
-або під час нормального завершення роботи. Увага:
-[SessionHandlerInterface::close()](sessionhandlerinterface.close.md)
-викликається відразу після цієї функції.
+Записує дані сесії у сховище сесій. Викликається функцією [sessionwriteclose()](function.session-write-close.md), коли невдало завершується функція [sessionregistershutdown()](function.session-register-shutdown.md) або під час нормального завершення роботи. Увага: [SessionHandlerInterface::close()](sessionhandlerinterface.close.md) викликається відразу після цієї функції.
 
-PHP викликає цей метод, коли сесія готова для збереження та закриття.
-Кодуються дані сесії із суперглобального масиву `$_SESSION` в
-серіалізований рядок та передаються разом з ідентифікатором сесії
-даним методом для зберігання. Використовуваний метод серіалізації вказано в
-опції
-[session.serialize_handler](session.configuration.md#ini.session.serialize-handler).
+PHP викликає цей метод, коли сесія готова для збереження та закриття. Кодуються дані сесії із суперглобального масиву [SESSION](reserved.variables.session.md) серіалізований рядок і передаються разом з ідентифікатором сесії даним методом для зберігання. Метод серіалізації, що використовується, вказаний в опції [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 
-Зверніть увагу, що цей метод зазвичай викликається PHP після закриття
-буферів виведення, якщо явно не викликається
-[session_write_close()](function.session-write-close.md).
+Зауважте, що цей метод зазвичай викликається PHP після закриття буферів виводу, якщо явно не викликається [sessionwriteclose()](function.session-write-close.md)
 
 ### Список параметрів
 
 `id`
+
 Ідентифікатор сесії
 
 `data`
-Закодовані дані сесії. Ці дані є результатом
-внутрішнього кодування PHP суперглобального масиву `$_SESSION`
-серіалізований рядок та передачі її як цей параметр.
-Зверніть увагу, що сесії використовують альтернативний метод
-серіалізації.
+
+Закодовані дані сесії. Ці дані є результатом внутрішнього кодування PHP суперглобального масиву. [SESSION](reserved.variables.session.md) в серіалізований рядок та передачі її як цей параметр. Зауважте, що сесії використовують альтернативний метод серіалізації.
 
 ### Значення, що повертаються
 
-Значення сесійного сховища, що повертається (зазвичай **`true`** у випадку
-успішного виконання, **`false`** у разі виникнення помилки). Це
-значення повертається назад до PHP для внутрішньої обробки.
+Значення сесійного сховища, що повертається (зазвичай **`true`** у разі успішного виконання, **`false`** у разі виникнення помилки). Це значення повертається назад до PHP для внутрішньої обробки.
 
 ### Дивіться також
 
-- Директива конфігурації
-[session.serialize_handler](session.configuration.md#ini.session.serialize-handler)
+-   Директива конфігурації [session.serializehandler](session.configuration.md#ini.session.serialize-handler)

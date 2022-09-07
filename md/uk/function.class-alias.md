@@ -1,49 +1,74 @@
-- [«\_\_autoload](function.autoload.md)
-- [class_exists »](function.class-exists.md)
+---
+navigation:
+  - function.autoload.md: autoload
+  - function.class-exists.md: classexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: classalias
+---
+# classalias
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- створює псевдонім для зазначеного класу
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-#class_alias
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-class_alias — Створює псевдонім для вказаного класу
+classalias — Створює псевдонім для вказаного класу
 
 ### Опис
 
-**class_alias**(string `$class`, string `$alias`, bool `$autoload` =
-**`true`**): bool
+```methodsynopsis
+class_alias(string $class, string $alias, bool $autoload = true): bool
+```
 
-Створює псевдонім `alias` для користувача класу `class`. новий
-клас із псевдонімом буде таким самим, як і оригінальний клас.
+Створює псевдонім `alias` для класу користувача `class`. Новий клас із псевдонімом буде таким самим, як і оригінальний клас.
 
 ### Список параметрів
 
 `class`
+
 Оригінальний клас.
 
 `alias`
+
 Ім'я псевдоніму для класу.
 
 `autoload`
-Чи потрібно автоматично підвантажувати оригінальний клас, якщо він не був
-знайдено.
+
+Чи потрібно автоматично підвантажувати оригінальний клас, якщо його не було знайдено.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **class_alias()****
+**Приклад #1 Приклад використання **classalias()****
 
-` <?phpclass foo { }class_alias('foo', 'bar');$a = new foo;$b = new bar;// об'єкти однаковіvar_dump($a === $b, $a ==== ;var_dump($a instanceof $b);// класи однакові var_dump($a instanceof foo);var_dump($a instanceof bar);var_dump($b instanceof foo);var_dump($b 
+```php
+<?php
+
+class foo { }
+
+class_alias('foo', 'bar');
+
+$a = new foo;
+$b = new bar;
+
+// объекты одинаковы
+var_dump($a == $b, $a === $b);
+var_dump($a instanceof $b);
+
+// классы одинаковы
+var_dump($a instanceof foo);
+var_dump($a instanceof bar);
+
+var_dump($b instanceof foo);
+var_dump($b instanceof bar);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 bool(false)
 bool(true)
@@ -51,11 +76,9 @@ bool(true)
 bool(true)
 bool(true)
 bool(true)
+```
 
 ### Дивіться також
 
-- [get_parent_class()](function.get-parent-class.md) - Повертає
-ім'я батьківського класу для об'єкта чи класу
-- [is_subclass_of()](function.is-subclass-of.md) - Перевіряє,
-чи містить об'єкт у своєму дереві предків зазначений клас чи прямо
-реалізує його
+-   [getparentclass()](function.get-parent-class.md) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

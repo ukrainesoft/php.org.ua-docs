@@ -1,43 +1,41 @@
-- [« pg_set_error_verbosity](function.pg-set-error-verbosity.md)
-- [pg_trace »](function.pg-trace.md)
+---
+navigation:
+  - function.pg-set-error-verbosity.md: « pgseterrorverbosity
+  - function.pg-trace.md: пгtrace »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгsocket
+---
+# пгsocket
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Отримати дескриптор тільки для читання на сокет, що лежить в основі
-з'єднання PostgreSQL
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-#pg_socket
-
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
-
-pg_socket — Отримати дескриптор тільки для читання на сокет, що лежить в
-основі з'єднання PostgreSQL
+пгsocket — Отримати дескриптор тільки для читання на сокет, що лежить в основі з'єднання PostgreSQL
 
 ### Опис
 
-**pg_socket**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`): resource\|false
+```methodsynopsis
+pg_socket(PgSql\Connection $connection): resource|false
+```
 
-**pg_socket()** повертає ресурс (resource) тільки для читання,
-відповідний сокету, що лежить в основі цієї сполуки PostgreSQL.
+**пгsocket()** повертає ресурс (resource) лише читання, відповідний сокету, лежачому основу даного з'єднання PostgreSQL.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-Ресурс сокету у разі успішного виконання або **`false`** у разі
-виникнення помилки.
+Ресурс сокету у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

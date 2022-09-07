@@ -1,19 +1,22 @@
-- [« SplFileObject::fgetcsv](splfileobject.fgetcsv.md)
-- [SplFileObject::fgetss »](splfileobject.fgetss.md)
-
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Отримує рядок із файлу
-
+---
+navigation:
+  - splfileobject.fgetcsv.md: '« SplFileObject::fgetcsv'
+  - splfileobject.fgetss.md: 'SplFileObject::fgetss »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fgets'
+---
 # SplFileObject::fgets
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgets — Отримує рядок із файлу
 
 ### Опис
 
-public **SplFileObject::fgets**(): string
+```methodsynopsis
+public SplFileObject::fgets(): string
+```
 
 Отримує рядок із файлу.
 
@@ -23,28 +26,30 @@ public **SplFileObject::fgets**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить наступний рядок із файлу, або **`false`**
-у разі виникнення помилки.
+Повертає рядок, що містить наступний рядок із файлу, або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.md), якщо файл
-не може бути прочитаним.
+Викидає [RuntimeException](class.runtimeexception.md)якщо файл не може бути прочитаний.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fgets()****
 
-Цей приклад рядково виводить вміст `file.txt`.
+Цей приклад построчно виводить вміст `file.txt`
 
-` <?php$file = new SplFileObject("file.txt");while (!$file->eof()) {    echo $file->fgets();}?> `
+```php
+<?php
+$file = new SplFileObject("file.txt");
+while (!$file->eof()) {
+    echo $file->fgets();
+}
+?>
+```
 
 ### Дивіться також
 
-- [fgets()](function.fgets.md) - Читає рядок із файлу
-- [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати
-рядок з файлу та видалити теги HTML
-- [SplFileObject::fgetc()](splfileobject.fgetc.md) - Отримує символ
-з файлу
-- [SplFileObject::current()](splfileobject.current.md) - Отримати
-поточний рядок файлу
+-   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати рядок із файлу та видалити теги HTML
+-   [SplFileObject::fgetc()](splfileobject.fgetc.md) - Отримує символ із файлу
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу

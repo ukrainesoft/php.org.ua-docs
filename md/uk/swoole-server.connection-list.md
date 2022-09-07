@@ -1,20 +1,22 @@
-- [« Swoole\Server::connection_info](swoole-server.connection-info.md)
-- [Swoole\Server::\_\_construct »](swoole-server.construct.md)
+---
+navigation:
+  - swoole-server.connection-info.md: '« SwooleServer::connectioninfo'
+  - swoole-server.construct.md: 'SwooleServer::construct »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::connectionlist'
+---
+# SwooleServer::connectionlist
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Отримує всі встановлені з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::connection_list
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::connection_list — Отримує всі встановлені з'єднання
+SwooleServer::connectionlist — Отримує всі встановлені з'єднання
 
 ### Опис
 
-public **Swoole\Server::connection_list**(int `$start_fd`, int
-`$pagesize` = ?): array
+```methodsynopsis
+public Swoole\Server::connection_list(int $start_fd, int $pagesize = ?): array
+```
 
 ### Список параметрів
 

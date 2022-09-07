@@ -1,45 +1,44 @@
-- [« mysqli::ssl_set](mysqli.ssl-set.md)
-- [mysqli::stmt_init »](mysqli.stmt-init.md)
-
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- отримання інформації про поточний стан системи
-
+---
+navigation:
+  - mysqli.ssl-set.md: '« mysqli::sslset'
+  - mysqli.stmt-init.md: 'mysqli::stmtinit »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::stat'
+---
 # mysqli::stat
 
-# mysqli_stat
+# mysqliстати
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::stat -- mysqli_stat — Отримання інформації про поточний стан
-системи
+mysqli::stat -- mysqlistat — Отримання інформації про поточний стан системи
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::stat**(): string\|false
+```methodsynopsis
+public mysqli::stat(): string|false
+```
 
 Процедурний стиль
 
-**mysqli_stat**([mysqli](class.mysqli.md) `$mysql`): string\|false
+```methodsynopsis
+mysqli_stat(mysqli $mysql): string|false
+```
 
-**mysqli_stat()** повертає рядок з інформацією, схожою на ту, що
-надає команду 'mysqladmin status'. Сюди включається час роботи
-з моменту завантаження в секундах, кількість запущених процесів,
-запитів, перезавантажень та відкритих таблиць.
+**mysqliстати()** повертає рядок з інформацією, схожою на ту, що надає команда 'mysqladmin status'. Сюди включається час роботи з моменту завантаження в секундах, кількість запущених процесів, запитів, перезавантажень та відкритих таблиць.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Рядок з інформацією про стан системи. **`false`** у разі
-виникнення помилки.
+Рядок з інформацією про стан системи . **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -47,23 +46,48 @@ public **mysqli::stat**(): string\|false
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
-"mysqli_connect_error());  exit();}printf ("Стан системи: %s
-", $mysqli->stat());$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+printf ("Состояние системы: %s\n", $mysqli->stat());
+
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
-"mysqli_connect_error());  exit();}printf("Стан системи: %s
-", mysqli_stat($link)); mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+printf("Состояние системы: %s\n", mysqli_stat($link));
+
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Стан системи: Uptime: 272 Threads: 1 Questions: 5340 Slow queries: 0
-Opens: 13 Flush tables: 1 Open tables: 0 Queries per second avg: 19.632
-Memory in use: 8496K Max memory used: 8560K
+```
+Состояние системы: Uptime: 272  Threads: 1  Questions: 5340  Slow queries: 0
+Opens: 13  Flush tables: 1  Open tables: 0  Queries per second avg: 19.632
+Memory in use: 8496K  Max memory used: 8560K
+```
 
 ### Дивіться також
 
-- [mysqli_get_server_info()](mysqli.get-server-info.md) - Повертає
-версію MySQL сервера
+-   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера

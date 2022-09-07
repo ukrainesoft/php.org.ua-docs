@@ -1,29 +1,31 @@
-- [ trader_cos](function.trader-cos.md)
-- [trader_dema »](function.trader-dema.md)
+---
+navigation:
+  - function.trader-cos.md: « tradercos
+  - function.trader-dema.md: traderdema »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercosh
+---
+# tradercosh
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Тригонометричний вектор гіперболічного косинуса
+(PECL trader >= 0.2.0)
 
-# trader_cosh
-
-(PECL trader \>= 0.2.0)
-
-trader_cosh — Тригонометричний вектор гіперболічного косинуса.
+tradercosh — тригонометричний вектор гіперболічного косинуса.
 
 ### Опис
 
-**trader_cosh**(array `$real`): array
+```methodsynopsis
+trader_cosh(array $real): array
+```
 
-Обчислює гіперболічний косинус для кожного значення в `real` та
-повертає отриманий масив.
+Обчислює гіперболічний косинус для кожного значення `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

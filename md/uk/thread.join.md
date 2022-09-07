@@ -1,22 +1,24 @@
-- [« Thread::isStarted](thread.isstarted.md)
-- [Thread::start »](thread.start.md)
-
-- [PHP Manual](index.md)
-- [Thread](class.thread.md)
-- Синхронізація
-
+---
+navigation:
+  - thread.isstarted.md: '« Thread::isStarted'
+  - thread.start.md: 'Thread::start »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::join'
+---
 # Thread::join
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Thread::join — Синхронізація
 
 ### Опис
 
-public **Thread::join**(): bool
+```methodsynopsis
+public Thread::join(): bool
+```
 
-Примушує викликаючий контекст чекати, доки вказаний потік завершить
-Виконання.
+Примушує викликаючий контекст чекати, поки вказаний потік завершить виконання.
 
 ### Список параметрів
 
@@ -24,15 +26,29 @@ public **Thread::join**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приєднання до зазначеного процесу**
 
-` <?phpclass My extends Thread {    public function run() {         /* ... */    }}$my = new My()|my; ->join());/* ... */?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        /* ... */
+    }
+}
+$my = new My();
+$my->start();
+/* ... */
+var_dump($my->join());
+/* ... */
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

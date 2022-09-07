@@ -1,10 +1,11 @@
-- [« Установка](tcpwrap.installation.md)
-- [Типи ресурсів»](tcpwrap.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tcpwrap.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - tcpwrap.installation.md: « Установка
+  - tcpwrap.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - tcpwrap.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

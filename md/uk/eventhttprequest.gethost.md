@@ -1,19 +1,23 @@
-- [« EventHttpRequest::getConnection](eventhttprequest.getconnection.md)
-- [EventHttpRequest::getInputBuffer »](eventhttprequest.getinputbuffer.md)
-
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Повертає хост запиту
-
+---
+navigation:
+  - eventhttprequest.getconnection.md: '« EventHttpRequest::getConnection'
+  - eventhttprequest.getinputbuffer.md: 'EventHttpRequest::getInputBuffer »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::getHost'
+---
 # EventHttpRequest::getHost
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::getHost — Повертає хост запиту
+EventHttpRequest::getHost — Повертає запит на хост
 
 ### Опис
 
-public **EventHttpRequest::getHost**(): string
+```methodsynopsis
+public
+   EventHttpRequest::getHost(): string
+```
 
 Повертає запит на хост.
 
@@ -27,7 +31,5 @@ public **EventHttpRequest::getHost**(): string
 
 ### Дивіться також
 
-- [EventHttpRequest::getUri()](eventhttprequest.geturi.md) -
-Повертає URI запиту
-- [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) -
-Повертає команду запиту (метод)
+-   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) - Повертає URI запиту
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)

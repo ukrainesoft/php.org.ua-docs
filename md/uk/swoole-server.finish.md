@@ -1,21 +1,22 @@
-- [« Swoole\Server::exist](swoole-server.exist.md)
-- [Swoole\Server::getClientInfo »](swoole-server.getclientinfo.md)
+---
+navigation:
+  - swoole-server.exist.md: '« SwooleServer::exist'
+  - swoole-server.getclientinfo.md: 'SwooleServer::getClientInfo »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::finish'
+---
+# SwooleServer::finish
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Використовується в процесі завдання для надсилання результату в робітник
-процес після завершення завдання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::finish
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::finish — Використовується в процесі завдання для надсилання
-результату в робочий процес після завершення завдання
+SwooleServer::finish — Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
 
 ### Опис
 
-public **Swoole\Server::finish**(string `$data`): void
+```methodsynopsis
+public Swoole\Server::finish(string $data): void
+```
 
 ### Список параметрів
 

@@ -1,19 +1,22 @@
-- [« Swoole\Client::getpeername](swoole-client.getpeername.md)
-- [Swoole\Client::isConnected »](swoole-client.isconnected.md)
+---
+navigation:
+  - swoole-client.getpeername.md: '« SwooleClient::getpeername'
+  - swoole-client.isconnected.md: 'SwooleClient::isConnected »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::getsockname'
+---
+# SwooleClient::getsockname
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Отримує локальне ім'я сокета з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::getsockname
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::getsockname — Отримує локальне ім'я сокета з'єднання
+SwooleClient::getsockname — Отримує локальне ім'я сокета з'єднання
 
 ### Опис
 
-public **Swoole\Client::getsockname**(): array
+```methodsynopsis
+public Swoole\Client::getsockname(): array
+```
 
 ### Список параметрів
 

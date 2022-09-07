@@ -1,104 +1,121 @@
-- [« RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md)
-- [RecursiveCallbackFilterIterator::\_\_construct »](recursivecallbackfilteriterator.construct.md)
-
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас RecursiveCallbackFilterIterator
-
+---
+navigation:
+  - recursivecachingiterator.haschildren.md: '« RecursiveCachingIterator::hasChildren'
+  - recursivecallbackfilteriterator.construct.md: 'RecursiveCallbackFilterIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveCallbackFilterIterator
+---
 # Клас RecursiveCallbackFilterIterator
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
 ## Огляд класів
 
-class **RecursiveCallbackFilterIterator** extends
-[CallbackFilterIterator](class.callbackfilteriterator.md) implements
-[RecursiveIterator](class.recursiveiterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](recursivecallbackfilteriterator.construct.md)([RecursiveIterator](class.recursiveiterator.md)
-`$iterator`, [callable](language.types.callable.md) `$callback`)
+    
+     
+      class RecursiveCallbackFilterIterator
+     
 
-public
-[getChildren](recursivecallbackfilteriterator.getchildren.md)():
-[RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md)
+     
+      extends
+       CallbackFilterIterator
+     
 
-public
-[hasChildren](recursivecallbackfilteriterator.haschildren.md)(): bool
+     implements 
+       RecursiveIterator {
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public __construct(RecursiveIterator $iterator, callable $callback)
 
-public
-[CallbackFilterIterator::accept](callbackfilteriterator.accept.md)():
-bool
+    public getChildren(): RecursiveCallbackFilterIterator
+public hasChildren(): bool
 
-public [FilterIterator::accept](filteriterator.accept.md)(): bool
 
-public [FilterIterator::current](filteriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Наследуемые методы */
+    public CallbackFilterIterator::accept(): bool
 
-public
-[FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
+    public FilterIterator::accept(): bool
+public FilterIterator::current(): mixed
+public FilterIterator::getInnerIterator(): Iterator
+public FilterIterator::key(): mixed
+public FilterIterator::next(): void
+public FilterIterator::rewind(): void
+public FilterIterator::valid(): bool
 
-public [FilterIterator::key](filteriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [FilterIterator::next](filteriterator.next.md)(): void
-
-public [FilterIterator::rewind](filteriterator.rewind.md)(): void
-
-public [FilterIterator::valid](filteriterator.valid.md)(): bool
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Приклади
 
-Callback-функція може приймати до трьох аргументів: поточний елемент,
-поточний ключ та ітератор, відповідно.
+Callback-функція може приймати до трьох аргументів: поточний елемент, поточний ключ та ітератор відповідно.
 
 **Приклад #1 Доступні аргументи callback-функції**
 
-` <?php/** * Callback-функция для RecursiveCallbackFilterIterator * * @param $current   Значение текущего элемента * @param $key       Ключ текущего элемента * @param $iterator  Итератор, который фильтруется * @return boolean   TRUE для приёма текущего элемента или FALSE - в іншому випадку. */function my_callback($current, $key, $iterator) {    // Тут ваш код фільтрації}?> `
+```php
+<?php
 
-Фільтрація рекурсивного ітератора зазвичай включає дві умови.
-Перше у тому, щоб дозволити рекурсію. Callback-функція
-повинна повертати **`true`**, якщо поточний елемент ітератора має
-нащадків. Друге – це нормальна умова фільтра, наприклад, перевірка
-розмір файлу або розширення, як у прикладі нижче.
+/**
+ * Callback-функция для RecursiveCallbackFilterIterator
+ *
+ * @param $current   Значение текущего элемента
+ * @param $key       Ключ текущего элемента
+ * @param $iterator  Итератор, который фильтруется
+ * @return boolean   TRUE для приёма текущего элемента или FALSE - в ином случае.
+ */
+function my_callback($current, $key, $iterator) {
+    // Здесь ваш код фильтрации
+}
+
+?>
+```
+
+Фільтрація рекурсивного ітератора зазвичай включає дві умови. Перше у тому, щоб дозволити рекурсію. Callback-функція має повертати \*\*`true`\*\*якщо поточний елемент ітератора має нащадків. Друге - це нормальна умова фільтра, наприклад, перевірка розміру файлу чи розширення, як у наведеному нижче прикладі.
 
 **Приклад #2 Простий приклад рекурсивного зворотного виклику**
 
-` <?php$dir = new RecursiveDirectoryIterator(__DIR__);// Фильтр больших файлов ( > 100MB)$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {    // Разрешить рекурсию    if ($ iterator->hasChildren()) {        return TRUE;    }    // Проверка больших файлов    if ($current->isFile() && $current->getSize() > 104857600) {        return TRUE;    }    return FALSE;});foreach ( new RecursiveIteratorIterator($files) as $file) {    echo $file->getPathname() . PHP_EOL;}?> `
+```php
+<?php
+
+$dir = new RecursiveDirectoryIterator(__DIR__);
+
+// Фильтр больших файлов ( > 100MB)
+$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
+    // Разрешить рекурсию
+    if ($iterator->hasChildren()) {
+        return TRUE;
+    }
+    // Проверка больших файлов
+    if ($current->isFile() && $current->getSize() > 104857600) {
+        return TRUE;
+    }
+    return FALSE;
+});
+
+foreach (new RecursiveIteratorIterator($files) as $file) {
+    echo $file->getPathname() . PHP_EOL;
+}
+
+?>
+```
 
 ## Зміст
 
-- [RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.md)
-— Створює об'єкт класу RecursiveCallbackFilterIterator на основі
-об'єкта RecursiveIterator
-- [RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.md)
-— Повертає дочірні елементи ітератора, що зберігається всередині
-RecursiveCallbackFilterIterator
-- [RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md)
-— Перевіряє, чи містить елемент внутрішнього ітератора.
-дочірні елементи
+-   [RecursiveCallbackFilterIterator::construct](recursivecallbackfilteriterator.construct.md) — Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.md) — Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
+-   [RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md) — Перевіряє, чи поточний елемент внутрішнього ітератора містить дочірні елементи.

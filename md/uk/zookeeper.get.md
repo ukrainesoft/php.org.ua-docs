@@ -1,57 +1,53 @@
-- [« Zookeeper::exists](zookeeper.exists.md)
-- [Zookeeper::getAcl »](zookeeper.getacl.md)
-
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- Синхронно отримує дані, пов'язані з вузлом
-
+---
+navigation:
+  - zookeeper.exists.md: '« Zookeeper::exists'
+  - zookeeper.getacl.md: 'Zookeeper::getAcl »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::get'
+---
 # Zookeeper::get
 
-(PECL zookeeper \>= 0.1.0)
+(PECL zookeeper >= 0.1.0)
 
 Zookeeper::get — Синхронно отримує дані, пов'язані з вузлом
 
 ### Опис
 
-public **Zookeeper::get**(
-string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` =
-**`null`**,
-array `&$stat` = **`null`**,
-int `$max_size` = 0
-): string
+```methodsynopsis
+public
+   Zookeeper::get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
+```
 
 ### Список параметрів
 
 `path`
-Ім'я вузла. Виражається як ім'я файлу з косою межею, що розділяє предків
-вузла.
+
+Ім'я вузла. Виражається як ім'я файлу з косою межею, що розділяє предків вузла.
 
 `watcher_cb`
-Якщо ненульове значення, на сервері буде встановлено спостереження, щоб
-повідомити клієнта про зміну вузла.
+
+Якщо ненульове значення на сервері буде встановлено спостереження, щоб повідомити клієнта про зміну вузла.
 
 `stat`
+
 Якщо не NULL, при поверненні буде збережено значення stat для шляху.
 
 `max_size`
-Максимальний обсяг даних. Якщо використовується 0, метод поверне все
-дані.
+
+Максимальний обсяг даних. Якщо використовується 0, метод поверне всі дані.
 
 ### Значення, що повертаються
 
-Повертає дані у разі успішного виконання та false у разі
-виникнення помилки.
+Повертає дані у разі успішного виконання та false у разі виникнення помилки.
 
 ### Помилки
 
-Метод видає помилку/попередження PHP, коли кількість параметрів або
-типи неправильні або не вдається отримати значення від вузла.
+Метод видає помилку/попередження PHP, коли кількість параметрів або типи неправильні або не вдається отримати значення від вузла.
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає
-[ZookeeperException](class.zookeeperexception.md) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -59,47 +55,71 @@ int `$max_size` = 0
 
 Набуття значення від вузла.
 
-` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$value = 'nodevalue';$zookeeper->set($path, $value);$ r = $zookeeper->get($path);if ($r) echo $r;else echo 'Помилка';?> `
+```php
+<?php
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$value = 'nodevalue';
+$zookeeper->set($path, $value);
+
+$r = $zookeeper->get($path);
+if ($r)
+  echo $r;
+else
+  echo 'Ошибка';
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 nodevalue
+```
 
 **Приклад #2 Приклад використання stat **Zookeeper::get()****
 
 Отримання інформації про статистику сайту.
 
-` <?php$zookeeper = new Zookeeper('localhost:2181');$path = '/path/to/node';$stat = [];$zookeeper->get($path, null, $stat); var_dump($stat);?> `
+```php
+<?php
+$zookeeper = new Zookeeper('localhost:2181');
+$path = '/path/to/node';
+$stat = [];
+$zookeeper->get($path, null, $stat);
+var_dump($stat);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(11) {
-["czxid"]=>
-float(0)
-["mzxid"]=>
-float(0)
-["ctime"]=>
-float(0)
-["mtime"]=>
-float(0)
-["version"]=>
-int(0)
-["cversion"]=>
-int(-2)
-["aversion"]=>
-int(0)
-["ephemeralOwner"]=>
-float(0)
-["dataLength"]=>
-int(0)
-["numChildren"]=>
-int(2)
-["pzxid"]=>
-float(0)
+  ["czxid"]=>
+  float(0)
+  ["mzxid"]=>
+  float(0)
+  ["ctime"]=>
+  float(0)
+  ["mtime"]=>
+  float(0)
+  ["version"]=>
+  int(0)
+  ["cversion"]=>
+  int(-2)
+  ["aversion"]=>
+  int(0)
+  ["ephemeralOwner"]=>
+  float(0)
+  ["dataLength"]=>
+  int(0)
+  ["numChildren"]=>
+  int(2)
+  ["pzxid"]=>
+  float(0)
 }
+```
 
 ### Дивіться також
 
-- [Zookeeper::set()](zookeeper.set.md) - Встановлює дані,
-пов'язані з вузлом
-- [ZookeeperException](class.zookeeperexception.md)
+-   [Zookeeper::set()](zookeeper.set.md) - Встановлює дані, пов'язані з вузлом
+-   [ZookeeperException](class.zookeeperexception.md)

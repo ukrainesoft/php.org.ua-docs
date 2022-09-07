@@ -1,36 +1,40 @@
-- [«Stomp::error](stomp.error.md)
-- [Stomp::getSessionId »](stomp.getsessionid.md)
-
-- [PHP Manual](index.md)
-- [Stomp](class.stomp.md)
-- Повертає час максимального очікування операції читання
-
+---
+navigation:
+  - stomp.error.md: '« Stomp::error'
+  - stomp.getsessionid.md: 'Stomp::getSessionId »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::getReadTimeout'
+---
 # Stomp::getReadTimeout
 
-#stomp_get_read_timeout
+# stompgetreadtimeout
 
-(PECL stomp \>= 0.3.0)
+(PECL stomp >= 0.3.0)
 
-Stomp::getReadTimeout -- stomp_get_read_timeout -- Повертає час
-максимального очікування операції читання
+Stomp::getReadTimeout -- stompgetreadtimeout — Повертає час максимального очікування операції читання
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::getReadTimeout**(): array
+```methodsynopsis
+public Stomp::getReadTimeout(): array
+```
 
 Процедурний стиль:
 
-**stomp_get_read_timeout**(resource `$link`): array
+```methodsynopsis
+stomp_get_read_timeout(resource $link): array
+```
 
 Повертає час максимального очікування операції читання
 
 ### Список параметрів
 
 `link`
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp,
-отриманий із [stomp_connect()](stomp.construct.md).
+
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 ### Значення, що повертаються
 
@@ -40,26 +44,63 @@ public **Stomp::getReadTimeout**(): array
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}var_dump($stomp->getReadTimeout());/* закриття з'єднання*/unset($stomp);?> `
+```php
+<?php
+
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
+}
+
+var_dump($stomp->getReadTimeout());
+
+/* закрытие соединения */
+unset($stomp);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(2) {
-["sec"]=>
-int(2)
-["usec"]=>
-int(0)
+  ["sec"]=>
+  int(2)
+  ["usec"]=>
+  int(0)
 }
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}var_dump(stomp_get_read_timeout($link));/* закриття з'єднання*/stomp_close($link);?> `
+```php
+<?php
+
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
+
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
+}
+
+var_dump(stomp_get_read_timeout($link));
+
+/* закрытие соединения */
+stomp_close($link);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(2) {
-["sec"]=>
-int(2)
-["usec"]=>
-int(0)
+  ["sec"]=>
+  int(2)
+  ["usec"]=>
+  int(0)
 }
+```

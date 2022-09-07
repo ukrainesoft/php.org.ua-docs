@@ -1,25 +1,26 @@
-- [«SolrQuery::setExpand](solrquery.setexpand.md)
-- [SolrQuery::setExpandRows »](solrquery.setexpandrows.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює параметр expand.q
-
+---
+navigation:
+  - solrquery.setexpand.md: '« SolrQuery::setExpand'
+  - solrquery.setexpandrows.md: 'SolrQuery::setExpandRows »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setExpandQuery'
+---
 # SolrQuery::setExpandQuery
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::setExpandQuery — Встановлює параметр expand.q
 
 ### Опис
 
-public **SolrQuery::setExpandQuery**(string `$q`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setExpandQuery(string $q): SolrQuery
+```
 
 Встановлює параметр expand.q
 
-Перевизначає основний параметр q, визначає, які документи увімкнути
-у основну групу.
+Перевизначає основний параметр q, визначає, які документи включити до основної групи.
 
 ### Список параметрів
 
@@ -31,17 +32,9 @@ public **SolrQuery::setExpandQuery**(string `$q`):
 
 ### Дивіться також
 
-- [SolrQuery::setExpand()](solrquery.setexpand.md) -
-Включає/вимикає компонент Expand
-- [SolrQuery::addExpandSortField()](solrquery.addexpandsortfield.md) -
-Впорядковує документи у розширених групах (параметр expand.sort)
-- [SolrQuery::removeExpandSortField()](solrquery.removeexpandsortfield.md) -
-Видаляє розширене поле сортування за допомогою параметра expand.sort
-- [SolrQuery::setExpandRows()](solrquery.setexpandrows.md) -
-Встановлює кількість рядків для відображення у кожній групі
-(expand.rows). Типово 5
-- [SolrQuery::addExpandFilterQuery()](solrquery.addexpandfilterquery.md) -
-Перевизначає запит основного фільтра, визначає, які документи
-включити до основної групи
-- [SolrQuery::removeExpandFilterQuery()](solrquery.removeexpandfilterquery.md) -
-Видаляє запит розширеного фільтра
+-   [SolrQuery::setExpand()](solrquery.setexpand.md) - Вмикає/вимикає компонент Expand
+-   [SolrQuery::addExpandSortField()](solrquery.addexpandsortfield.md) - Упорядковує документи у розширених групах (параметр expand.sort)
+-   [SolrQuery::removeExpandSortField()](solrquery.removeexpandsortfield.md) - Видаляє розширене поле сортування за допомогою параметра expand.sort
+-   [SolrQuery::setExpandRows()](solrquery.setexpandrows.md) - Встановлює кількість рядків для відображення кожної групи (expand.rows). Типово 5
+-   [SolrQuery::addExpandFilterQuery()](solrquery.addexpandfilterquery.md) - Перевизначає запит основного фільтра, визначає, які документи включити до основної групи
+-   [SolrQuery::removeExpandFilterQuery()](solrquery.removeexpandfilterquery.md) - Видаляє запит розширеного фільтра

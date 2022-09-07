@@ -1,34 +1,36 @@
-- [« mailparse_msg_extract_part_file](function.mailparse-msg-extract-part-file.md)
-- [mailparse_msg_extract_whole_part_file »](function.mailparse-msg-extract-whole-part-file.md)
+---
+navigation:
+  - function.mailparse-msg-extract-part-file.md: « mailparsemsgextractpartfile
+  - function.mailparse-msg-extract-whole-part-file.md: mailparsemsgextractwholepartfile »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsgextractpart
+---
+# mailparsemsgextractpart
 
-- [PHP Manual](index.md)
-- [Mailparse](ref.mailparse.md)
-- Вийняти/декодувати секцію із повідомленням
+(PECL mailparse >= 0.9.0)
 
-#mailparse_msg_extract_part
-
-(PECL mailparse \>= 0.9.0)
-
-mailparse_msg_extract_part — Вийняти/декодувати секцію з повідомленням
+mailparsemsgextractpart — Вийняти/декодувати розділ із повідомленням
 
 ### Опис
 
-**mailparse_msg_extract_part**(resource `$mimemail`, string `$msgbody`,
-[callable](language.types.callable.md) `$callbackfunc` = ?): void
+```methodsynopsis
+mailparse_msg_extract_part(resource $mimemail, string $msgbody, callable $callbackfunc = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `mimemail`
-Коректний `MIME`-ресурс
+
+Коректний `MIME`ресурс
 
 `msgbody`
 
-callbackfunc
+`callbackfunc`
 
 ### Значення, що повертаються
 
@@ -36,7 +38,5 @@ callbackfunc
 
 ### Дивіться також
 
-- [mailparse_msg_extract_part_file()](function.mailparse-msg-extract-part-file.md) -
-Вийняти/декодувати секцію з повідомленням із файлу
-- [mailparse_msg_extract_whole_part_file()](function.mailparse-msg-extract-whole-part-file.md) -
-Вийняти секцію повідомлення разом із заголовками без декодування
+-   [mailparsemsgextractpartfile()](function.mailparse-msg-extract-part-file.md) - Вийняти/декодувати секцію з повідомленням із файлу
+-   [mailparsemsgextractwholepartfile()](function.mailparse-msg-extract-whole-part-file.md) - Витягти секцію повідомлення разом із заголовками без декодування

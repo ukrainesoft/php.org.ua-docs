@@ -1,29 +1,33 @@
-- [«trader_sinh](function.trader-sinh.md)
-- [trader_sqrt »](function.trader-sqrt.md)
+---
+navigation:
+  - function.trader-sinh.md: « tradersinh
+  - function.trader-sqrt.md: tradersqrt »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersma
+---
+# tradersma
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Просте ковзне середнє
+(PECL trader >= 0.2.0)
 
-# trader_sma
-
-(PECL trader \>= 0.2.0)
-
-trader_sma — Просте ковзне середнє
+tradersma — Просте ковзне середнє
 
 ### Опис
 
-**trader_sma**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_sma(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

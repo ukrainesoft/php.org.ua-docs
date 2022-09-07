@@ -1,22 +1,24 @@
-- [« Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.md)
-- [Gmagick::cyclecolormapimage »](gmagick.cyclecolormapimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повернути самого себе
-
+---
+navigation:
+  - gmagick.cropthumbnailimage.md: '« Gmagick::cropthumbnailimage'
+  - gmagick.cyclecolormapimage.md: 'Gmagick::cyclecolormapimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::current'
+---
 # Gmagick::current
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::current — Повернути себе
+Gmagick::current - Повернути самого себе
 
 ### Опис
 
-public **Gmagick::current**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::current(): Gmagick
+```
 
-Повертає посилання на поточний об'єкт gmagick із встановленим покажчиком
-зображення у правильній послідовності.
+Повертає посилання на поточний об'єкт gmagick із встановленим покажчиком зображення у правильній послідовності.
 
 ### Список параметрів
 

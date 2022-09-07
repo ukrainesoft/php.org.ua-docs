@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](misc.configuration.md)
-- [Предвизначені константи »](misc.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](misc.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - misc.configuration.md: « Налаштування під час виконання
+  - misc.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - misc.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

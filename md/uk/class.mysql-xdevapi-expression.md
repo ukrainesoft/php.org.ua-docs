@@ -1,35 +1,47 @@
-- [« ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.md)
-- [Expression::\_\_construct »](mysql-xdevapi-expression.construct.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас Expression
-
+---
+navigation:
+  - mysql-xdevapi-executionstatus.construct.md: '« ExecutionStatus::construct'
+  - mysql-xdevapi-expression.construct.md: 'Expression::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Клас Expression
+---
 # Клас Expression
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\Expression** {
+```synopsis
 
-/\* Властивості \*/
 
-public `$name`;
 
-/\* Конструктор \*/
+    
+     
+      class mysql_xdevapi\Expression
+     
+     {
 
-public **\_\_construct**(string `$expression`)
+    /* Свойства */
+    
+     public
+      $name;
 
-}
+
+
+    /* Конструктор */
+    
+   public __construct(string $expression)
+
+   }
+```
 
 ## Властивості
 
-`name`
+name
 
 ## Зміст
 
-- [Expression::\_\_construct](mysql-xdevapi-expression.construct.md)
-- Конструктор класу Expression
+-   [Expression::construct](mysql-xdevapi-expression.construct.md) - Конструктор класу Expression

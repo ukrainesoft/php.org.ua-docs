@@ -1,10 +1,11 @@
-- [« ImagickDraw::circle](imagickdraw.circle.md)
-- [ImagickDraw::clone »](imagickdraw.clone.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Очищає ImagickDraw
-
+---
+navigation:
+  - imagickdraw.circle.md: '« ImagickDraw::circle'
+  - imagickdraw.clone.md: 'ImagickDraw::clone »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::clear'
+---
 # ImagickDraw::clear
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,16 +14,16 @@ ImagickDraw::clear — Очищає ImagickDraw
 
 ### Опис
 
-public **ImagickDraw::clear**(): bool
+```methodsynopsis
+public ImagickDraw::clear(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Очищає об'єкт ImagickDraw від усіх накопичених команд та скидає
-параметри, що містяться в ньому, до їх значень за замовчуванням.
+Очищає об'єкт ImagickDraw від усіх накопичених команд і скидає параметри, що містяться в ньому, до їх значень за замовчуванням.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ImagickDraw](class.imagickdraw.md).
+Повертає об'єкт [ImagickDraw](class.imagickdraw.md)

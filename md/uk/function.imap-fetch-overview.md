@@ -1,81 +1,90 @@
-- [« imap_expunge](function.imap-expunge.md)
-- [imap_fetchbody »](function.imap-fetchbody.md)
-
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Огляд інформації, що міститься в заголовках повідомлень
-
-#imap_fetch_overview
+---
+navigation:
+  - function.imap-expunge.md: « imapexpunge
+  - function.imap-fetchbody.md: imapfetchbody »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapfetchoverview
+---
+# imapfetchoverview
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_fetch_overview — Огляд інформації, що міститься в заголовках
-повідомлень
+imapfetchoverview — Огляд інформації, яка міститься в заголовках повідомлень
 
 ### Опис
 
-**imap_fetch_overview**([IMAP\Connection](class.imap-connection.md)
-`$imap`, string `$sequence`, int `$flags` = 0): array\|false
+```methodsynopsis
+imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): array|false
+```
 
-Ця функція читає заголовки повідомлень, заданих у `sequence` та
-повертає оглядову інформацію про їхній контент.
+Ця функція читає заголовки повідомлень, заданих у `sequence` та повертає оглядову інформацію про їх контент.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `sequence`
-Послідовність номерів повідомлень. Ви можете перерахувати кілька
-повідомлень, використовуючи як роздільник кому (`X,Y`), або задати
-інтервал повідомлень за допомогою двокрапки `X:Y`
+
+Послідовність номерів повідомлень. Ви можете перерахувати кілька повідомлень, використовуючи як роздільник кому (`X,Y`), або задати інтервал повідомлень за допомогою двокрапки `X:Y`
 
 `flags`
-Параметр `sequence` має містити номери повідомлень. Якщо ви хочете
-задати в ньому їх UID, цей параметр необхідно задати значенням
-**`FT_UID`**.
+
+Параметр `sequence` має містити номери повідомлень. Якщо ви хочете задати в ньому їх UID, цей параметр необхідно задати значенням **`FT_UID`**
 
 ### Значення, що повертаються
 
-Повертає масив об'єктів, кожен з яких описує заголовок одного
-повідомлення. Об'єкти містять відповідні властивості лише якщо вони
-присутні. Можливі властивості:
+Повертає масив об'єктів, кожен із яких визначає заголовок одного повідомлення. Об'єкти містять відповідні властивості, тільки якщо вони присутні. Можливі властивості:
 
-- `subject` - тема листа
-- `from` - хто його послав
-- `to` - одержувач
-- `date` - коли воно було надіслано
-- `message_id` - Ідентифікатор повідомлення
-- `references` - це посилання на цей ідентифікатор повідомлення
-- `in_reply_to` - є відповіддю на лист із цим ідентифікатором
-- `size` - розмір у байтах
-- `uid` - UID повідомлення в скриньці
-- `msgno` - номер повідомлення у скриньці
-- `recent` - лист позначений як новий
-- `flagged` - це повідомлення позначене (зазвичай є ознакою
-"важливості")
-- `answered` - повідомлення позначене як відповідь
-- `deleted` - позначено для видалення
-- `seen` - позначено як прочитане
-- `draft` - позначено як чернетка
-- `udate` - тимчасова мітка UNIX дати отримання
+-   `subject` - Тема листа
+-   `from` - хто його послав
+-   `to` - одержувач
+-   `date` - коли воно було надіслано
+-   `message_id` - Ідентифікатор повідомлення
+-   `references` - є посиланням на цей ідентифікатор повідомлення
+-   `in_reply_to` - є відповіддю на лист із цим ідентифікатором
+-   `size` - Розмір у байтах
+-   `uid` - UID повідомлення у скриньці
+-   `msgno` - номер повідомлення у скриньці
+-   `recent` - лист позначений як новий
+-   `flagged` - це повідомлення позначено (зазвичай є ознакою "важливості")
+-   `answered` - повідомлення позначене як відповідь
+-   `deleted` - позначено для видалення
+-   `seen` - позначено як прочитане
+-   `draft` - позначено як чернетка
+-   `udate` - тимчасова мітка UNIX дати отримання
 
 Функція повертає **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_fetch_overview()****
+**Приклад #1 Приклад використання **imapfetchoverview()****
 
-` <?php$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password")      or die("не вдалося підключитися: " . imap_last_error()); $mbox);// Отримаємо огляд всіх листів в INBOX$result = imap_fetch_overview($mbox,"1:{$MC->Nmsgs}",0);foreach ($result as $overview) {    ->msgno} ({$overview->date}) - From: {$overview->from}    {$overview->subject}
-";}imap_close($mbox);?> `
+```php
+<?php
+$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password")
+     or die("не удалось подключиться: " . imap_last_error());
+
+$MC = imap_check($mbox);
+
+// Получим обзор всех писем в INBOX
+$result = imap_fetch_overview($mbox,"1:{$MC->Nmsgs}",0);
+foreach ($result as $overview) {
+    echo "#{$overview->msgno} ({$overview->date}) - From: {$overview->from}
+    {$overview->subject}\n";
+}
+imap_close($mbox);
+?>
+```
 
 ### Дивіться також
 
-- [imap_fetchheader()](function.imap-fetchheader.md) - Отримати
-заголовок повідомлення
+-   [imapfetchheader()](function.imap-fetchheader.md) - Отримати заголовок повідомлення

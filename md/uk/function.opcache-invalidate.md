@@ -1,44 +1,40 @@
-- [« opcache_get_status](function.opcache-get-status.md)
-- [opcache_is_script_cached »](function.opcache-is-script-cached.md)
+---
+navigation:
+  - function.opcache-get-status.md: « opcachegetstatus
+  - function.opcache-is-script-cached.md: opcacheісscriptcached »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
+title: opcacheinvalidate
+---
+# opcacheinvalidate
 
-- [PHP Manual](index.md)
-- [Функції OPcache](ref.opcache.md)
-- анулює закешований скрипт
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache >= 7.0.0)
 
-# opcache_invalidate
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \>= 7.0.0)
-
-opcache_invalidate — Анулює закешований скрипт
+opcacheinvalidate — Анулює закешований скрипт
 
 ### Опис
 
-**opcache_invalidate**(string `$filename`, bool `$force` = **`false`**):
-bool
+```methodsynopsis
+opcache_invalidate(string $filename, bool $force = false): bool
+```
 
-Функція анулює закешований скрипт. Якщо параметр `force` не заданий
-або заданий як **`false`**, скрипт анулюється, тільки якщо скрипт був
-модифікований після поміщення в кеш. Функція анулює тільки кеш у
-пам'яті, не торкаючись файлового кешу.
+Функція анулює закешований скрипт. Якщо параметр `force` не заданий або заданий як **`false`**, скрипт анулюється тільки якщо скрипт був модифікований після приміщення в кеш. Функція анулює лише кеш у пам'яті, не торкаючись файлового кешу.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до сценарію.
 
 `force`
-Якщо встановлено як **`true`**, кеш скрипту буде примусово
-анульований незалежно від того, потрібно це чи ні
+
+Якщо встановлено як **`true`**, кеш скрипта буде примусово анульований незалежно від того, потрібно це чи ні
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо кеш опкодів для `filename` анульований, або
-якщо анулювати нічого. У випадку, якщо кеш опкодів вимкнено,
-повертається **`false`**.
+Повертає **`true`**, якщо кеш опкодів для `filename` анульований, або якщо анулювати нічого. У випадку, якщо кеш опкодів вимкнено, повертається **`false`**
 
 ### Дивіться також
 
-- [opcache_compile_file()](function.opcache-compile-file.md) -
-Скомпілювати та закешувати, але не виконувати скрипт PHP
-- [opcache_reset()](function.opcache-reset.md) - Скидає
-вміст кеша опкодів
+-   [opcachecompilefile()](function.opcache-compile-file.md) - Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcachereset()](function.opcache-reset.md) - скидає вміст кешу опкодів

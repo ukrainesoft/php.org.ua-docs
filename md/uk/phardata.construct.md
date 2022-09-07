@@ -1,53 +1,60 @@
-- [« PharData::compressFiles](phardata.compressfiles.md)
-- [PharData::convertToData »](phardata.converttodata.md)
+---
+navigation:
+  - phardata.compressfiles.md: '« PharData::compressFiles'
+  - phardata.converttodata.md: 'PharData::convertToData »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::construct'
+---
+# PharData::construct
 
-- [PHP Manual](index.md)
-- [PharData](class.phardata.md)
-- Конструктор об'єкта PharData
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-# PharData::\_\_construct
-
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
-
-PharData::\_\_construct — Конструктор об'єкта PharData
+PharData::construct — Конструктор об'єкта PharData
 
 ### Опис
 
-public **PharData::\_\_construct**(
-string `$filename`,
-int `$flags` = FilesystemIterator::SKIP_DOTS \|
-FilesystemIterator::UNIX_PATHS,
-?string `$alias` = **`null`**,
-int `$format` = 0
-)
+public **PharData::construct**  
+string `$filename`  
+int `$flags` = FilesystemIterator::SKIPDOTS | FilesystemIterator::UNIXPATHS,  
+?string `$alias` **`null`**  
+int `$format`
 
 ### Список параметрів
 
 `filename`
+
 Шлях або до існуючого tar/zip-архіву, або до новоствореного
 
 `flags`
-Прапори для передачі батьківського класу [Phar](class.phar.md)
-[RecursiveDirectoryIterator](class.recursivedirectoryiterator.md).
+
+Прапори для передачі батьківському класу [Phar](class.phar.md) [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
 
 `alias`
-Псевдонім, який необхідно призначити phar-архіву для використання в
-потокових обгортках.
+
+Псевдонім, який необхідно призначити phar-архіву для використання в потокових обгортках.
 
 `format`
-Одна з [констант формату файлів](phar.constants.md#phar.constants.fileformat) доступна для
-класу [Phar](class.phar.md).
+
+Одна з [констант формата файлов](phar.constants.md#phar.constants.fileformat) доступна для класу [Phar](class.phar.md)
 
 ### Помилки
 
-Викидає виняток
-[BadMethodCallException](class.badmethodcallexception.md), якщо викликаний
-двічі; Викидає виняток
-[UnexpectedValueException](class.unexpectedvalueexception.md), якщо
-Phar-архів неможливо відкрити.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо викликаний двічі; Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md)якщо Phar-архів неможливо відкрити.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::\_\_construct()****
+**Приклад #1 Приклад використання **PharData::construct()****
 
-`<?phptry {   $p = new PharData('/path/to/my.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);} catch (UnexpectedValue          ');} catch (BadMethodCallException $e) {    echo 'Технічно, ніколи не відбудеться';}echo file_get_contents('phar:///path/to/my.tar/'t'>?
+```php
+<?php
+try {
+    $p = new PharData('/path/to/my.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);
+} catch (UnexpectedValueException $e) {
+    die('Не удалось открыть my.tar');
+} catch (BadMethodCallException $e) {
+    echo 'Технически, это никогда не произойдёт';
+}
+echo file_get_contents('phar:///path/to/my.tar/example.txt');
+?>
+```

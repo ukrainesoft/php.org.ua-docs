@@ -1,81 +1,94 @@
-- [« SolrClientException::getInternalInfo](solrclientexception.getinternalinfo.md)
-- [SolrServerException::getInternalInfo »](solrserverexception.getinternalinfo.md)
-
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrServerException
-
+---
+navigation:
+  - solrclientexception.getinternalinfo.md: '« SolrClientException::getInternalInfo'
+  - solrserverexception.getinternalinfo.md: 'SolrServerException::getInternalInfo »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrServerException
+---
 # Клас SolrServerException
 
-(PECL Solr \>= 1.1.0, \>=2.0.0)
+(PECL Solr >= 1.1.0, >=2.0.0)
 
 ## Вступ
 
-Виняток, що виникає у разі виникнення помилки на сервері
-Solr.
+Виняток, що виникає у разі виникнення помилки на сервері Solr.
 
 ## Огляд класів
 
-class **SolrServerException** extends
-[SolrException](class.solrexception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class SolrServerException
+     
 
-protected int `$code`;
+     
+      extends
+       SolrException
+     
+     {
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    protected
+     int
+      $sourceline;
+protected
+     string
+      $sourcefile;
+protected
+     string
+      $zif_name;
 
-protected int `$sourceline`;
 
-protected string `$sourcefile`;
+    /* Методы */
+    
+   public getInternalInfo(): array
 
-protected string `$zif_name`;
 
-/\* Методи \*/
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-public [getInternalInfo](solrserverexception.getinternalinfo.md)():
-array
+    public SolrException::getInternalInfo(): array
 
-/\* Наслідувані методи \*/
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-public
-[SolrException::getInternalInfo](solrexception.getinternalinfo.md)():
-array
-
-}
+   }
+```
 
 ## Зміст
 
-- [SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md)
-— Повертає внутрішню інформацію про те, де було викинуто
-виняток
+-   [SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md) — Повертає внутрішню інформацію про те, де було викинуто виняток

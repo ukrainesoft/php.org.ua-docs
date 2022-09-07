@@ -1,22 +1,25 @@
-- [«EvLoop::prepare](evloop.prepare.md)
-- [EvLoop::run »](evloop.run.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Відновлює раніше призупинений цикл подій
-
+---
+navigation:
+  - evloop.prepare.md: '« EvLoop::prepare'
+  - evloop.run.md: 'EvLoop::run »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::resume'
+---
 # EvLoop::resume
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::resume — Відновлює зупинений раніше цикл подій
+EvLoop::resume — Відновлює раніше призупинений цикл подій
 
 ### Опис
 
-public **EvLoop::resume**(): void
+```methodsynopsis
+public
+   EvLoop::resume(): void
+```
 
-Методи [EvLoop::suspend()](evloop.suspend.md) та **EvLoop::resume()**
-зупиняють і відновлюють цикл відповідно.
+Методи [EvLoop::suspend()](evloop.suspend.md) і **EvLoop::resume()** зупиняють та відновлюють цикл відповідно.
 
 ### Список параметрів
 
@@ -28,6 +31,5 @@ public **EvLoop::resume**(): void
 
 ### Дивіться також
 
-- [EvLoop::suspend()](evloop.suspend.md) - Припиняє цикл
-- [Ev::resume()](ev.resume.md) - Відновити виконання
-призупиненого раніше циклу подій за умовчанням
+-   [EvLoop::suspend()](evloop.suspend.md) - Припиняє цикл
+-   [Ev::resume()](ev.resume.md) - Відновити виконання призупиненого раніше циклу подій за умовчанням

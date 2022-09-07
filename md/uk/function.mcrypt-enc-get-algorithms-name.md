@@ -1,30 +1,33 @@
-- [«mcrypt_decrypt](function.mcrypt-decrypt.md)
-- [mcrypt_enc_get_block_size »](function.mcrypt-enc-get-block-size.md)
+---
+navigation:
+  - function.mcrypt-decrypt.md: « mcryptdecrypt
+  - function.mcrypt-enc-get-block-size.md: mcryptencgetblocksize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptencgetalgorithmsname
+---
+# mcryptencgetalgorithmsname
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає ім'я алгоритму
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-# mcrypt_enc_get_algorithms_name
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
-
-mcrypt_enc_get_algorithms_name — Повертає ім'я алгоритму
+mcryptencgetalgorithmsname — Повертає ім'я алгоритму
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_enc_get_algorithms_name**(resource `$td`): string
+```methodsynopsis
+mcrypt_enc_get_algorithms_name(resource $td): string
+```
 
 Ця функція повертає назву алгоритму.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
@@ -33,13 +36,21 @@ mcrypt_enc_get_algorithms_name — Повертає ім'я алгоритму
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcrypt_enc_get_algorithms_name()****
+**Приклад #1 Приклад використання **mcryptencgetalgorithmsname()****
 
-` <?php$td = mcrypt_module_open(MCRYPT_CAST_256, '', MCRYPT_MODE_CFB, '');echo mcrypt_enc_get_algorithms_name($td). "
-";$td==mcrypt_module_open('cast-256', '', MCRYPT_MODE_CFB, '');echo mcrypt_enc_get_algorithms_name($td). "
-";?> `
+```php
+<?php
+$td = mcrypt_module_open(MCRYPT_CAST_256, '', MCRYPT_MODE_CFB, '');
+echo mcrypt_enc_get_algorithms_name($td). "\n";
+
+$td = mcrypt_module_open('cast-256', '', MCRYPT_MODE_CFB, '');
+echo mcrypt_enc_get_algorithms_name($td). "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 CAST-256
 CAST-256
+```

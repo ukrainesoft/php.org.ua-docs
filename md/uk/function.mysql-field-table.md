@@ -1,45 +1,41 @@
-- [« mysql_field_seek](function.mysql-field-seek.md)
-- [mysql_field_type »](function.mysql-field-type.md)
-
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає назву таблиці, до якої належить зазначене поле
-
-# mysql_field_table
+---
+navigation:
+  - function.mysql-field-seek.md: « mysqlfieldseek
+  - function.mysql-field-type.md: mysqlfieldtype »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfieldtable
+---
+# mysqlfieldtable
 
 (PHP 4, PHP 5)
 
-mysql_field_table — Повертає назву таблиці, якій належить
-вказане поле
+mysqlfieldtable — Повертає назву таблиці, якій належить вказане поле
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
-- [mysqli_fetch_field_direct()](mysqli-result.fetch-field-direct.md)
-[table] або [orgtable]
-- [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
-[table]
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) table або orgtable
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) table
 
 ### Опис
 
-**mysql_field_table**(resource `$result`, int `$field_offset`): string
+```methodsynopsis
+mysql_field_table(resource $result, int $field_offset): string
+```
 
 Повертає назву таблиці, до якої належить зазначене поле.
 
 ### Список параметрів
 
 `result`
-Оброблюваний [результат запита](language.types.resource.md). Цей
-результат може бути отриманий за допомогою функції
-[mysql_query()](function.mysql-query.md).
+
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
-Числове усунення поля. `field_offset` починається з `0`. Якщо
-`field_offset` не існує, генерується помилка рівня
-**`E_WARNING`**.
+
+Числове усунення поля . `field_offset` починається з `0`. Якщо `field_offset` не існує, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -47,19 +43,33 @@ mysql_field_table — Повертає назву таблиці, якій на�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_field_table()****
+**Приклад #1 Приклад використання **mysqlfieldtable()****
 
-`<?php$query = "SELECT account.*, country.*FROM account, country WHERE country.name = 'Portugal' AND account.country_id = накопичувачів.id" $query);// виводить ім'я таблиці і ім'я поляfor ($i = 0; $i < mysql_num_fields($result); ++$i) {    $table = mysql_field_table $field = mysql_field_name($result, $i); echo  "$table: $field
-";}?> `
+```php
+<?php
+
+$query = "SELECT account.*, country.* FROM account, country WHERE country.name = 'Portugal' AND account.country_id = country.id";
+
+// получаем результат из базы данных
+$result = mysql_query($query);
+
+// выводит имя таблицы и имя поля
+for ($i = 0; $i < mysql_num_fields($result); ++$i) {
+    $table = mysql_field_table($result, $i);
+    $field = mysql_field_name($result, $i);
+
+    echo  "$table: $field\n";
+}
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_fieldtable()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlfieldtable()**
 
 ### Дивіться також
 
-- [mysql_list_tables()](function.mysql-list-tables.md) - Повертає
-список таблиць бази даних MySQL
+-   [mysqllisttables()](function.mysql-list-tables.md) - Повертає список таблиць бази даних MySQL

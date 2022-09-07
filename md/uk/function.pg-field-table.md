@@ -1,78 +1,83 @@
-- [« pg_field_size](function.pg-field-size.md)
-- [pg_field_type_oid »](function.pg-field-type-oid.md)
+---
+navigation:
+  - function.pg-field-size.md: « pgfieldsize
+  - function.pg-field-type-oid.md: пгfieldtypeoid »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfieldtable
+---
+# пгfieldtable
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає назву або ідентифікатор таблиці, що містить
-задане поле
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#pg_field_table
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-pg_field_table — Повертає назву або ідентифікатор таблиці,
-містить задане поле
+пгfieldtable — Повертає назву або ідентифікатор таблиці, що містить задане поле
 
 ### Опис
 
-**pg_field_table**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$field`, bool `$oid_only` = **`false`**): string\|int\|false
+```methodsynopsis
+pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string|int|false
+```
 
-**pg_field_table()** повертає ім'я таблиці, якій належить
-задане поле. Якщо як аргумент `oid_only` передається
-**`true`**, функція поверне oid-ідентифікатор таблиці.
+**пгfieldtable()** повертає ім'я таблиці, до якої належить задане поле. Якщо як аргумент `oid_only` передається **`true`**, функція поверне oid-ідентифікатор таблиці
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
-Порядковий номер поля результату запиту, починаючи з нуля.
+
+Порядковий номер поля результату запиту з нуля.
 
 `oid_only`
-За замовчуванням функція повертає назву таблиці, що містить задану
-поле. Якщо параметр `oid_only` дорівнює **`true`**, то функція поверне oid
-таблиці.
+
+За замовчуванням функція повертає назву таблиці, що містить поле. Якщо параметр `oid_only` дорівнює \*\*`true`\*\*то функція поверне oid таблиці.
 
 ### Значення, що повертаються
 
-При успішному завершенні назва таблиці або її oid або **`false`**
-у разі виникнення помилки.
+При успішному завершенні назва таблиці або її oid або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поле вибірки**
 
-` <?php$dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з базою");$res = pg_query($dbconn, "SELECT bar FROM foo"); );echo pg_field_table($res, 0, true);$res = pg_query($dbconn, "SELECT version()");var_dump(pg_field_table($res, 0));?> `
+```php
+<?php
+$dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+
+$res = pg_query($dbconn, "SELECT bar FROM foo");
+
+echo pg_field_table($res, 0);
+echo pg_field_table($res, 0, true);
+
+$res = pg_query($dbconn, "SELECT version()");
+var_dump(pg_field_table($res, 0));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 foo
 14379580
 
 bool(false)
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Повернення oid таблиці значно швидше, ніж її назви, оскільки
-> визначення назви вимагає виконання додаткового запиту до
-> системної таблиці бази даних.
+> **Зауваження**
+> 
+> Повернення oid таблиці значно швидше, ніж назви, оскільки визначення назви вимагає виконання додаткового запиту до системної таблиці бази даних.
 
 ### Дивіться також
 
-- [pg_field_name()](function.pg-field-name.md) - Повертає
-найменування поля
-- [pg_field_type()](function.pg-field-type.md) - Повертає назву типу
-заданого поля
+-   [пгfieldname()](function.pg-field-name.md) - Повертає найменування поля
+-   [пгfieldtype()](function.pg-field-type.md) - Повертає ім'я типу заданого поля

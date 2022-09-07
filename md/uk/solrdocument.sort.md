@@ -1,50 +1,47 @@
-- [«SolrDocument::\_\_set](solrdocument.set.md)
-- [SolrDocument::toArray »](solrdocument.toarray.md)
-
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Сортує поля у документі
-
+---
+navigation:
+  - solrdocument.set.md: '« SolrDocument::set'
+  - solrdocument.toarray.md: 'SolrDocument::toArray »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::sort'
+---
 # SolrDocument::sort
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::sort — Сортує поля в документі
 
 ### Опис
 
-public **SolrDocument::sort**(int `$sortOrderBy`, int `$sortDirection` =
-SolrDocument::SORT_ASC): bool
+```methodsynopsis
+public SolrDocument::sort(int $sortOrderBy, int $sortDirection = SolrDocument::SORT_ASC): bool
+```
 
-`` descriptioncode
-Поля впорядковані відповідно до зазначених критеріїв та напряму сортування.
+Поля упорядковані відповідно до зазначених критеріїв та напряму сортування.
 
 Поля можуть бути відсортовані за значеннями підвищення, іменами полів та кількістю значень.
 
 Параметр sortOrderBy повинен бути одним з:
 
-* SolrDocument::SORT_FIELD_NAME
-* SolrDocument::SORT_FIELD_BOOST_VALUE
-* SolrDocument::SORT_FIELD_VALUE_COUNT
+SolrDocument::SORTFIELDNAME SolrDocument::SORTFIELDBOOSTVALUE SolrDocument::SORTFIELDVALUECOUNT
 
 Напрямок sortDirection може бути одним з :
 
-* SolrDocument::SORT_DEFAULT
-* SolrDocument::SORT_ASC
-* SolrDocument::SORT_DESC
+SolrDocument::SORTDEFAULT SolrDocument::SORTASC SolrDocument::SORTDESC
 
-Спосіб за замовчуванням – сортування у порядку зростання.
-````
+Спосіб за замовчуванням - сортування у порядку зростання.
 
 ### Список параметрів
 
 `sortOrderBy`
+
 Критерій сортування.
 
 `sortDirection`
+
 Напрямок сортування.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

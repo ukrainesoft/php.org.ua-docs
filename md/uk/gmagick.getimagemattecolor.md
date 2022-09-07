@@ -1,23 +1,24 @@
-- [« Gmagick::getimagematte](gmagick.getimagematte.md)
-- [Gmagick::getimageprofile »](gmagick.getimageprofile.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає зображення матового кольору
-
+---
+navigation:
+  - gmagick.getimagematte.md: '« Gmagick::getimagematte'
+  - gmagick.getimageprofile.md: 'Gmagick::getimageprofile »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagemattecolor'
+---
 # Gmagick::getimagemattecolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagemattecolor — Повертає зображення матового кольору
 
 ### Опис
 
-public **Gmagick::getimagemattecolor**():
-[GmagickPixel](class.gmagickpixel.md)
+```methodsynopsis
+public Gmagick::getimagemattecolor(): GmagickPixel
+```
 
-Повертає об'єкт GmagickPixel у разі успішного виконання.
-Викидає GmagickException у разі виникнення помилки.
+Повертає об'єкт GmagickPixel у разі успішного виконання. Викидає GmagickException у разі виникнення помилки.
 
 ### Список параметрів
 

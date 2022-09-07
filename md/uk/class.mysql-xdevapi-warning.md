@@ -1,43 +1,57 @@
-- [«TableUpdate::where](mysql-xdevapi-tableupdate.where.md)
-- [Warning::\_\_construct »](mysql-xdevapi-warning.construct.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас Warning
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.where.md: '« TableUpdate::where'
+  - mysql-xdevapi-warning.construct.md: 'Warning::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Клас Warning
+---
 # Клас Warning
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\Warning** {
+```synopsis
 
-/\* Властивості \*/
 
-public `$message`;
 
-public `$level`;
+    
+     
+      class mysql_xdevapi\Warning
+     
+     {
 
-public `$code`;
+    /* Свойства */
+    
+     public
+      $message;
 
-/\* Конструктор \*/
+    public
+      $level;
 
-private **\_\_construct**()
+    public
+      $code;
 
-}
+
+
+    /* Конструктор */
+    
+   private __construct()
+
+   }
+```
 
 ## Властивості
 
-`message`
+message
 
-`level`
+level
 
-`code`
+code
 
 ## Зміст
 
-- [Warning::\_\_construct](mysql-xdevapi-warning.construct.md) -
-Конструктор класу Warning
+-   [Warning::construct](mysql-xdevapi-warning.construct.md) - Конструктор класу Warning

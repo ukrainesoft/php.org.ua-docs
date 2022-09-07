@@ -1,38 +1,39 @@
-- [« ArrayObject::serialize](arrayobject.serialize.md)
-- [ArrayObject::setIteratorClass »](arrayobject.setiteratorclass.md)
-
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Встановлює прапори поведінки
-
+---
+navigation:
+  - arrayobject.serialize.md: '« ArrayObject::serialize'
+  - arrayobject.setiteratorclass.md: 'ArrayObject::setIteratorClass »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::setFlags'
+---
 # ArrayObject::setFlags
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::setFlags — Встановлює прапори поведінки
 
 ### Опис
 
-public **ArrayObject::setFlags**(int `$flags`): void
+```methodsynopsis
+public ArrayObject::setFlags(int $flags): void
+```
 
-Встановлює прапори, що впливають на поведінку ArrayObject.
+Встановлює прапори, які впливають на поведінку ArrayObject.
 
 ### Список параметрів
 
 `flags`
-Нова поведінка ArrayObject. Допускається або битова маска, або
-іменовані константи. Використання іменованих констант наполегливо
-рекомендується для сумісності з майбутніми версіями.
 
-Доступні прапори поведінки наведені нижче. Фактичні значення цих
-прапорів описані в розділі [передбачені константи](class.arrayobject.md#arrayobject.constants).
+Нова поведінка ArrayObject. Допускається або бітова маска, або названі константи. Використання іменованих констант рекомендується для забезпечення сумісності з майбутніми версіями.
 
-| Значення | Константа                                                                                |
-|----------|------------------------------------------------------------------------------------------|
-| 1        | [ArrayObject::STD_PROP_LIST](class.arrayobject.md#arrayobject.constants.std-prop-list)   |
-| 2        | [ArrayObject::ARRAY_AS_PROPS](class.arrayobject.md#arrayobject.constants.array-as-props) |
+Доступні прапори поведінки наведені нижче. Фактичні значення цих прапорів описані у розділі [Обумовлені константи](class.arrayobject.md#arrayobject.constants)
 
 **Прапори поведінки ArrayObject**
+
+| Значение | Константа |
+| --- | --- |
+|  | [ArrayObject::STDPROPLIST](class.arrayobject.md#arrayobject.constants.std-prop-list) |
+|  | [ArrayObject::ARRAYАСPROPS](class.arrayobject.md#arrayobject.constants.array-as-props) |
 
 ### Значення, що повертаються
 
@@ -42,9 +43,25 @@ public **ArrayObject::setFlags**(int `$flags`): void
 
 **Приклад #1 Приклад використання **ArrayObject::setFlags()****
 
-`<?php// Масив з доступними фруктами$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);$fruAr $fruits);// Спроба використовувати ключ масиву як властивістьvar_dump($fruitsArrayObject->lemons); fruitsArrayObject->lemons);?> `
+```php
+<?php
+// Масив с доступными фруктами
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+
+$fruitsArrayObject = new ArrayObject($fruits);
+
+// Попытка использовать ключ Масива как свойство
+var_dump($fruitsArrayObject->lemons);
+// Установка флага, позволяющего использовать ключи Масива как свойства ArrayObject
+$fruitsArrayObject->setFlags(ArrayObject::ARRAY_AS_PROPS);
+// Новая попытка
+var_dump($fruitsArrayObject->lemons);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
 int(1)
+```

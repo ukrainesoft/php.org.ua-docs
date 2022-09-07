@@ -1,45 +1,57 @@
-- [«gnupg_listsignatures](function.gnupg-listsignatures.md)
-- [gnupg_seterrormode »](function.gnupg-seterrormode.md)
+---
+navigation:
+  - function.gnupg-listsignatures.md: « gnupglistsignatures
+  - function.gnupg-seterrormode.md: gnupgseterrormode »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgsetarmor
+---
+# gnupgsetarmor
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Перемикає висновок у текстовому або бінарному режимі
+(PECL gnupg >= 0.1)
 
-#gnupg_setarmor
-
-(PECL gnupg \>= 0.1)
-
-gnupg_setarmor — Перемикає вивод у текстовому або бінарному режимі
+gnupgsetarmor — Переключає виведення текстового або бінарного режиму.
 
 ### Опис
 
-**gnupg_setarmor**(resource `$identifier`, int `$armor`): bool
+```methodsynopsis
+gnupg_setarmor(resource $identifier, int $armor): bool
+```
 
 Перемикає висновок у текстовому або бінарному режимі.
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `armor`
-У разі не нульового цілого числа, функція включає текстовий режим
-виводу (за замовчуванням). У разі 0 виведення в бінарному режимі.
+
+У разі ненульового цілого числа, функція включає текстовий режим виводу (за умовчанням). У разі 0 виведення в бінарному режимі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_setarmor()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupgsetarmor()** у процедурному стилі**
 
-` <?php$res = gnupg_init();gnupg_setarmor($res,1); // текстовий режим висновку;gnupg_setarmor($res,0); // бінарний режим висновку;?> `
+```php
+<?php
+$res = gnupg_init();
+gnupg_setarmor($res,1); // текстовый режим вывода;
+gnupg_setarmor($res,0); // бинарный режим вывода;
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_setarmor()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgsetarmor()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$gpg->setarmor(1); // текстовий режим висновку;$gpg->setarmor(0); // бінарний режим висновку;?> `
+```php
+<?php
+$gpg = new gnupg();
+$gpg->setarmor(1); // текстовый режим вывода;
+$gpg->setarmor(0); // бинарный режим вывода;
+?>
+```

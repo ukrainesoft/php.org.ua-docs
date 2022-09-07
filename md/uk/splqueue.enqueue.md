@@ -1,32 +1,33 @@
-- [« SplQueue::dequeue](splqueue.dequeue.md)
-- [SplQueue::setIteratorMode »](splqueue.setiteratormode.md)
-
-- [PHP Manual](index.md)
-- [SplQueue](class.splqueue.md)
-- Додає елемент у чергу
-
+---
+navigation:
+  - splqueue.dequeue.md: '« SplQueue::dequeue'
+  - splqueue.setiteratormode.md: 'SplQueue::setIteratorMode »'
+  - index.md: PHP Manual
+  - class.splqueue.md: SplQueue
+title: 'SplQueue::enqueue'
+---
 # SplQueue::enqueue
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplQueue::enqueue — Додає елемент до черги
 
 ### Опис
 
-public
-**SplQueue::enqueue**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public SplQueue::enqueue(mixed $value): void
+```
 
 Додає `value` на кінець черги.
 
-> **Примітка**:
->
-> **SplQueue::enqueue()** - псевдонім
-> [SplDoublyLinkedList::push()](spldoublylinkedlist.push.md).
+> **Зауваження**
+> 
+> **SplQueue::enqueue()** - псевдонім [SplDoublyLinkedList::push()](spldoublylinkedlist.push.md)
 
 ### Список параметрів
 
 `value`
+
 Значення для постановки на чергу.
 
 ### Значення, що повертаються

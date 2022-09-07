@@ -1,18 +1,17 @@
-- [«date_format](function.date-format.md)
-- [date_interval_create_from_date_string »](function.date-interval-create-from-date-string.md)
+---
+navigation:
+  - function.date-format.md: « dateformat
+  - function.date-interval-create-from-date-string.md: dateintervalcreatefromdatestring »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: dategetlasterrors
+---
+# dategetlasterrors
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::getLastErrors
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# date_get_last_errors
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-date_get_last_errors - Псевдонім
-[DateTime::getLastErrors()](datetime.getlasterrors.md)
+dategetlasterrors - Псевдонім [DateTime::getLastErrors()](datetime.getlasterrors.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTime::getLastErrors()](datetime.getlasterrors.md)
+Ця функція є псевдонімом: [DateTime::getLastErrors()](datetime.getlasterrors.md)

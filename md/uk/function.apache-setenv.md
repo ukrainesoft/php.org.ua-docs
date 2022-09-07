@@ -1,63 +1,63 @@
-- [« apache_response_headers](function.apache-response-headers.md)
-- [getallheaders »](function.getallheaders.md)
+---
+navigation:
+  - function.apache-response-headers.md: « apacheresponseheaders
+  - function.getallheaders.md: getallheaders »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apachesetenv
+---
+# apachesetenv
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Встановлює змінну subprocess_env Apache
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#apache_setenv
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-apache_setenv — Встановлює змінну subprocess_env Apache
+apachesetenv - Встановлює змінну subprocessenv Apache
 
 ### Опис
 
-**apache_setenv**(string `$variable`, string `$value`, bool
-`$walk_to_top` = **`false`**): bool
+```methodsynopsis
+apache_setenv(string $variable, string $value, bool $walk_to_top = false): bool
+```
 
-**apache_setenv()** встановлює значення змінної оточення Apache,
-визначеної як `variable`.
+**apachesetenv()** встановлює значення змінної оточення Apache, визначеної як `variable`
 
-> **Примітка**:
->
-> У разі встановлення змінної оточення Apache, відповідна їй
-> змінна `$_SERVER` не змінюється.
+> **Зауваження**
+> 
+> При установці змінної оточення Apache, відповідна їй змінна [SERVER](reserved.variables.server.md) не змінюється.
 
 ### Список параметрів
 
 `variable`
+
 Змінне оточення, яке потрібно встановити.
 
 `value`
-Нове значення змінної `variable`.
+
+Нове значення змінної `variable`
 
 `walk_to_top`
+
 Чи робити доступною змінну для всіх рівнів Apache.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apache_setenv()** для встановлення
-змінної оточення Apache.**
+**Приклад #1 Приклад використання **apachesetenv()** для встановлення змінного оточення Apache.**
 
-` <?phpapache_setenv("EXAMPLE_VAR", "Яке-небудь значення");?> `
+```php
+<?php
+apache_setenv("EXAMPLE_VAR", "Какое-либо значение");
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **apache_setenv()** можна використовувати разом з
-> [apache_getenv()](function.apache-getenv.md) на різних сторінках або
-> визначення змінних, які потрібно передати включенням на
-> стороні сервера SSI (.shtml), які, у свою чергу, були включені в
-> PHP-скрипти.
+> **Зауваження**
+> 
+> **apachesetenv()** можна використовувати разом з [apachegetenv()](function.apache-getenv.md) на різних сторінках або визначення змінних, які потрібно передати включенням на стороні сервера SSI (.shtml), які, у свою чергу, були включені в PHP-скрипти.
 
 ### Дивіться також
 
-- [apache_getenv()](function.apache-getenv.md) - Повертає
-змінну оточення підпроцесу сервера Apache
+-   [apachegetenv()](function.apache-getenv.md) - Повертає змінну оточення підпроцесу сервера Apache

@@ -1,44 +1,42 @@
-- [«curl_share_close](function.curl-share-close.md)
-- [curl_share_init »](function.curl-share-init.md)
+---
+navigation:
+  - function.curl-share-close.md: « curlshareclose
+  - function.curl-share-init.md: curlshareinit »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlshareerrno
+---
+# curlshareerrno
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Повертає код останньої помилки оброблюваного curl
+(PHP 7> = 7.1.0, PHP 8)
 
-#curl_share_errno
-
-(PHP 7 \>= 7.1.0, PHP 8)
-
-curl_share_errno — Повертає код останньої помилки розділеного
-обробника curl
+curlshareerrno — Повертає код останньої помилки оброблюваного обробника curl
 
 ### Опис
 
-**curl_share_errno**([CurlShareHandle](class.curlsharehandle.md)
-`$share_handle`): int
+```methodsynopsis
+curl_share_errno(CurlShareHandle $share_handle): int
+```
 
-Повертає код останньої помилки curl, що розділяється, у вигляді
-цілого числа.
+Повертає код останньої помилки оброблюваного curl, що розділяється, у вигляді цілого числа.
 
 ### Список параметрів
 
 `share_handle`
-Обробник, що розділяється, cURL, що повертається
-[curl_share_init()](function.curl-share-init.md).
+
+Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
 
 ### Значення, що повертаються
 
-Повертає код останньої помилки curl, що розділяється, у вигляді
-цілого числа або **`false`** у разі виникнення помилки.
+Повертає код останньої помилки curl, що розділяється, у вигляді цілого числа або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція більше не повертає **false** у разі виникнення помилки.                                                       |
-| 8.0.0  | share_handle expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
+|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Дивіться також
 
-- [curl_errno()](function.curl-errno.md) - Повертає код останнього
-помилки
+-   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки

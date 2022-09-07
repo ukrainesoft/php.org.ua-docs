@@ -1,22 +1,24 @@
-- [«SolrQuery::getSortFields](solrquery.getsortfields.md)
-- [SolrQuery::getStats »](solrquery.getstats.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає зсув у повному наборі результатів
-
+---
+navigation:
+  - solrquery.getsortfields.md: '« SolrQuery::getSortFields'
+  - solrquery.getstats.md: 'SolrQuery::getStats »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getStart'
+---
 # SolrQuery::getStart
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getStart — Повертає зсув у повному наборі результатів
 
 ### Опис
 
-public **SolrQuery::getStart**(): int
+```methodsynopsis
+public SolrQuery::getStart(): int
+```
 
-Повертає усунення в повному наборі результатів для запитів, з яких
-має починатися набір повернутих документів.
+Повертає усунення в повному наборі результатів для запитів, з яких повинен починатися набір повернутих документів.
 
 ### Список параметрів
 
@@ -24,5 +26,4 @@ public **SolrQuery::getStart**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

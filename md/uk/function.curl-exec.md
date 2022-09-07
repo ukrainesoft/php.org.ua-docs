@@ -1,66 +1,72 @@
-- [«curl_escape](function.curl-escape.md)
-- [curl_file_create »](function.curl-file-create.md)
+---
+navigation:
+  - function.curl-escape.md: « curlescape
+  - function.curl-file-create.md: curlfilecreate »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlexec
+---
+# curlexec
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Виконує запит cURL
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-#curl_exec
-
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
-
-curl_exec — Виконує запит cURL
+curlexec — Виконує запит cURL
 
 ### Опис
 
-**curl_exec**([CurlHandle](class.curlhandle.md) `$handle`):
-string\|bool
+```methodsynopsis
+curl_exec(CurlHandle $handle): string|bool
+```
 
-Запитує cURL.
+Запрошує cURL.
 
-Ця функція повинна викликатися після ініціалізації сеансу та встановлення
-всі необхідні параметри.
+Ця функція повинна викликатись після ініціалізації сеансу та встановлення всіх необхідних параметрів.
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Однак, якщо
-[встановлена](function.curl-setopt.md) опція
-**`CURLOPT_RETURNTRANSFER`**, при успішному завершенні буде повернено
-результат, а при невдачі - "false".
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Однак, якщо [установлена](function.curl-setopt.md) опція **`CURLOPT_RETURNTRANSFER`**, при успішному завершенні буде повернено результат, а при невдачі - **`false`**
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**, так і
-значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
-повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
-> **Примітка**:
->
-> Зверніть увагу, що коди стану відповіді, що вказують на помилки
-> (наприклад, `404 Not found`), не розглядаються як невдача. Функція
-> [curl_getinfo()](function.curl-getinfo.md) може використовуватися для
-> Перевірка таких помилок.
+> **Зауваження**
+> 
+> Зверніть увагу, що коди стану відповіді, що вказують на помилки (наприклад, `404 Not found`), не розглядаються як невдача. Функція [curlgetinfo()](function.curl-getinfo.md) може використовуватись для перевірки таких помилок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Завантаження веб-сторінки**
 
-`<?php// створення нового cURL ресурсу$ch = curl_init();// установка URL і інших необхідних параметрівcurl_setopt($ch, CURLOPT_URL, "http://www.example.com CURLOPT_HEADER, 0);// завантаження сторінки і видача еї браузеруcurl_exec($ch);// завершення сеансу і звільнення ресурсовcurl_close($ch);?> `
+```php
+<?php
+// создание нового cURL ресурса
+$ch = curl_init();
+
+// установка URL и других необходимых параметров
+curl_setopt($ch, CURLOPT_URL, "http://www.example.com/");
+curl_setopt($ch, CURLOPT_HEADER, 0);
+
+// загрузка страницы и выдача её браузеру
+curl_exec($ch);
+
+// завершение сеанса и освобождение ресурсов
+curl_close($ch);
+?>
+```
 
 ### Дивіться також
 
-- [curl_multi_exec()](function.curl-multi-exec.md) - Запускає
-приєднання поточного дескриптора cURL
+-   [curlmultiexec()](function.curl-multi-exec.md) - Запускає приєднання поточного дескриптора cURL

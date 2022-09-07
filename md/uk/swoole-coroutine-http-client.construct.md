@@ -1,24 +1,24 @@
-- [« Swoole\Coroutine\Http\Client::close](swoole-coroutine-http-client.close.md)
-- [Swoole\Coroutine\Http\Client::\_\_destruct »](swoole-coroutine-http-client.destruct.md)
+---
+navigation:
+  - swoole-coroutine-http-client.close.md: '« SwooleCoroutineHttpClient::close'
+  - swoole-coroutine-http-client.destruct.md: 'SwooleCoroutineHttpClient::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::construct'
+---
+# SwooleCoroutineHttpClient::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::\_\_construct
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::\_\_construct — Опис
+SwooleCoroutineHttpClient::construct — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::\_\_construct**()
+public **SwooleCoroutineHttpClient::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

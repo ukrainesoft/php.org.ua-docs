@@ -1,10 +1,11 @@
-- [« DOMNodeList::count](domnodelist.count.md)
-- [DOMNotation »](class.domnotation.md)
-
-- [PHP Manual](index.md)
-- [DOMNodeList](class.domnodelist.md)
-- Отримує вузол із заданим індексом
-
+---
+navigation:
+  - domnodelist.count.md: '« DOMNodeList::count'
+  - class.domnotation.md: DOMNotation »
+  - index.md: PHP Manual
+  - class.domnodelist.md: DOMNodeList
+title: 'DOMNodeList::item'
+---
 # DOMNodeList::item
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,43 +14,60 @@ DOMNodeList::item — Отримує вузол із заданим індекс
 
 ### Опис
 
-public **DOMNodeList::item**(int `$index`):
-[DOMNode](class.domnode.md)\|DOMNameSpaceNode\|null
+```methodsynopsis
+public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
+```
 
-Витягує вузол із заданим індексом `index` з об'єкта класу
-[DOMNodeList](class.domnodelist.md).
+Витягує вузол із заданим індексом `index` з об'єкту класу [DOMNodeList](class.domnodelist.md)
 
 **Підказка**
 
-Якщо потрібно дізнатися кількість вузлів у колекції, використовуйте властивість
-`length` об'єкта класу [DOMNodeList](class.domnodelist.md).
+Якщо потрібно дізнатися кількість вузлів у колекції, використовуйте властивість `length` об'єкта класу [DOMNodeList](class.domnodelist.md)
 
 ### Список параметрів
 
 `index`
+
 Індекс вузла в колекції.
 
 ### Значення, що повертаються
 
-Вузол, що знаходиться в позиції `index` об'єкту
-[DOMNodeList](class.domnodelist.md), або **`null`**, якщо цей індекс
-неприпустимий.
+Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.md), або \*\*`null`\*\*якщо цей індекс неприпустимий.
 
 ### Приклади
 
 **Приклад #1 Виведення вмісту таблиці**
 
-` <?php$doc = new DOMDocument;$doc->load('book.xml');$items = $doc->getElementsByTagName('entry');for ($i = 0; $i < $items- >length; $i++) {   echo $items->item($i)->nodeValue . "
-";}?> `
+```php
+<?php
 
-Крім того, можна скористатися
-[foreach](control-structures.foreach.md);, що буде набагато зручніше:
+$doc = new DOMDocument;
+$doc->load('book.xml');
 
-` <?phpforeach ($items as $item) {   echo $item->nodeValue . "
-";}?> `
+$items = $doc->getElementsByTagName('entry');
+
+for ($i = 0; $i < $items->length; $i++) {
+    echo $items->item($i)->nodeValue . "\n";
+}
+
+?>
+```
+
+Крім того, можна скористатися [foreach](control-structures.foreach.md);, що буде набагато зручніше:
+
+```php
+<?php
+
+foreach ($items as $item) {
+    echo $item->nodeValue . "\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Title
 Author
 Language
@@ -66,3 +84,4 @@ Samarcande
 Amine Maalouf
 fr
 2253051209
+```

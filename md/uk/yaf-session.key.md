@@ -1,24 +1,26 @@
-- [« Yaf_Session::\_\_isset](yaf-session.isset.md)
-- [Yaf_Session::next »](yaf-session.next.md)
+---
+navigation:
+  - yaf-session.isset.md: '« YafSession::isset'
+  - yaf-session.next.md: 'YafSession::next »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::key'
+---
+# YafSession::key
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення key
+(Yaf >=1.0.0)
 
-# Yaf_Session::key
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::key — Призначення key
+YafSession::key — Призначення key
 
 ### Опис
 
-public **Yaf_Session::key**(): void
+```methodsynopsis
+public Yaf_Session::key(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

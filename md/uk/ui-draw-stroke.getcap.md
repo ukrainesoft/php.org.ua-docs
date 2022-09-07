@@ -1,21 +1,24 @@
-- [« UI\Draw\Stroke::\_\_construct](ui-draw-stroke.construct.md)
-- [UI\Draw\Stroke::getJoin »](ui-draw-stroke.getjoin.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Stroke](class.ui-draw-stroke.md)
-- Отримати кінець лінії
-
-# UI\Draw\Stroke::getCap
+---
+navigation:
+  - ui-draw-stroke.construct.md: '« UIDrawStroke::construct'
+  - ui-draw-stroke.getjoin.md: 'ОЙDrawStroke::getJoin »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.md: ОЙDrawStroke
+title: 'ОЙDrawStroke::getCap'
+---
+# ОЙDrawStroke::getCap
 
 (UI 0.9.9)
 
-UI\Draw\Stroke::getCap — Отримати кінець лінії
+ОЙDrawStroke::getCap — Отримати кінець лінії
 
 ### Опис
 
-public **UI\Draw\Stroke::getCap**(): int
+```methodsynopsis
+public UI\Draw\Stroke::getCap(): int
+```
 
-Отримає налаштування кінця лінії даної обведення
+Отримає налаштування кінця лінії цієї обведення
 
 ### Список параметрів
 
@@ -23,5 +26,4 @@ public **UI\Draw\Stroke::getCap**(): int
 
 ### Значення, що повертаються
 
-UI\Draw\Line\Cap::Flat, UI\Draw\Line\Cap::Round або
-UI\Draw\Line\Cap::Square
+ОЙDrawLineCap::Flat, UIDrawLineCap::Round або UIDrawLineCap::Square

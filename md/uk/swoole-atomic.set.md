@@ -1,30 +1,33 @@
-- [« Swoole\Atomic::get](swoole-atomic.get.md)
-- [Swoole\Atomic::sub »](swoole-atomic.sub.md)
+---
+navigation:
+  - swoole-atomic.get.md: '« SwooleAtomic::get'
+  - swoole-atomic.sub.md: 'SwooleAtomic::sub »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.md: SwooleAtomic
+title: 'SwooleAtomic::set'
+---
+# SwooleAtomic::set
 
-- [PHP Manual](index.md)
-- [Swoole\Atomic](class.swoole-atomic.md)
-- Встановлює нове значення для атомарного об'єкту
+(PECL swoole >= 1.9.0)
 
-# Swoole\Atomic::set
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Atomic::set — Встановлює нове значення для атомарного об'єкта
+SwooleAtomic::set — Встановлює нове значення для атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::set**(int `$value`): int
+```methodsynopsis
+public Swoole\Atomic::set(int $value): int
+```
 
 Встановлює нове значення атомарного об'єкта.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `value`
+
 Значення для атомарного об'єкта.
 
 ### Значення, що повертаються

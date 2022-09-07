@@ -1,20 +1,31 @@
-- [«curl_version](function.curl-version.md)
-- [CurlMultiHandle »](class.curlmultihandle.md)
-
-- [PHP Manual](index.md)
-- [cURL](book.curl.md)
-- Клас CurlHandle
-
+---
+navigation:
+  - function.curl-version.md: « curlversion
+  - class.curlmultihandle.md: CurlMultiHandle »
+  - index.md: PHP Manual
+  - book.curl.md: cURL
+title: Клас CurlHandle
+---
 # Клас CurlHandle
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `curl` у PHP 8.0.0.
+Повністю непрозорий клас, який замінює ресурси `curl` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **CurlHandle** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class CurlHandle
+     
+     {
+   }
+```

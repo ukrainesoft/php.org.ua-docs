@@ -1,20 +1,34 @@
-- [«ftp_systype](function.ftp-systype.md)
-- [Gearman »](book.gearman.md)
+---
+navigation:
+  - function.ftp-systype.md: « ftpsystype
+  - book.gearman.md: Gearman »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
+title: Клас FTPConnection
+---
+# Клас FTPConnection
 
-- [PHP Manual](index.md)
-- [FTP](book.ftp.md)
-- Клас FTP\Connection
-
-# Клас FTP\Connection
-
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `ftp` у PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `ftp` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **FTP\Connection** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class FTP\Connection
+     
+     {
+    
+
+   }
+```

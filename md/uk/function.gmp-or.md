@@ -1,32 +1,34 @@
-- [«gmp_nextprime](function.gmp-nextprime.md)
-- [gmp_perfect_power »](function.gmp-perfect-power.md)
+---
+navigation:
+  - function.gmp-nextprime.md: « gmpnextprime
+  - function.gmp-perfect-power.md: gmpperfectpower »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpор
+---
+# gmpор
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Побітове АБО
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#gmp_or
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_or - Побітове АБО
+gmpor — Побітове АБО
 
 ### Опис
 
-**gmp_or**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_or(GMP|int|string $num1, GMP|int|string $num2): GMP
+```
 
 Обчислює побітове АБО двох GMP чисел.
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -34,13 +36,20 @@ gmp_or - Побітове АБО
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_or()****
+**Приклад #1 Приклад використання **gmpor()****
 
-` <?php$or1 = gmp_or("0xfffffff2", "4");echo gmp_strval($or1, 16) . "
-";$or2 = gmp_or("0xfffffff2", "2");echo gmp_strval($or2, 16) . "
-";?> `
+```php
+<?php
+$or1 = gmp_or("0xfffffff2", "4");
+echo gmp_strval($or1, 16) . "\n";
+$or2 = gmp_or("0xfffffff2", "2");
+echo gmp_strval($or2, 16) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 fffffff6
 fffffff2
+```

@@ -1,10 +1,11 @@
-- [« Throwable::getTraceAsString](throwable.gettraceasstring.md)
-- [Throwable::\_\_toString »](throwable.tostring.md)
-
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- Повертає попередній Throwable
-
+---
+navigation:
+  - throwable.gettraceasstring.md: '« Throwable::getTraceAsString'
+  - throwable.tostring.md: 'Throwable::toString »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getPrevious'
+---
 # Throwable::getPrevious
 
 (PHP 7, PHP 8)
@@ -13,10 +14,11 @@ Throwable::getPrevious — Повертає попередній Throwable
 
 ### Опис
 
-public **Throwable::getPrevious**(): ?[Throwable](class.throwable.md)
+```methodsynopsis
+public Throwable::getPrevious(): ?Throwable
+```
 
-Повертає будь-який попередній Throwable (для прикладу, передане третім
-параметром [Exception::\_\_construct()](exception.construct.md)).
+Повертає будь-який попередній Throwable (для прикладу, передане третім параметром [Exception::construct()](exception.construct.md)
 
 ### Список параметрів
 
@@ -24,10 +26,8 @@ public **Throwable::getPrevious**(): ?[Throwable](class.throwable.md)
 
 ### Значення, що повертаються
 
-Повертає попередній [Throwable](class.throwable.md), якщо він
-доступний, або **`null`** в іншому випадку.
+Повертає попередній [Throwable](class.throwable.md), якщо він доступний, або **`null`** в іншому випадку.
 
 ### Дивіться також
 
-- [Exception::getPrevious()](exception.getprevious.md) - Повертає
-попередній об'єкт, що реалізує Throwable
+-   [Exception::getPrevious()](exception.getprevious.md) - Повертає попередній об'єкт, що реалізує Throwable

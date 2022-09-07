@@ -1,10 +1,11 @@
-- [« ReflectionClass::getConstants](reflectionclass.getconstants.md)
-- [ReflectionClass::getDefaultProperties »](reflectionclass.getdefaultproperties.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає конструктор класу
-
+---
+navigation:
+  - reflectionclass.getconstants.md: '« ReflectionClass::getConstants'
+  - reflectionclass.getdefaultproperties.md: 'ReflectionClass::getDefaultProperties »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getConstructor'
+---
 # ReflectionClass::getConstructor
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,8 +14,9 @@ ReflectionClass::getConstructor — Повертає конструктор кл
 
 ### Опис
 
-public **ReflectionClass::getConstructor**():
-?[ReflectionMethod](class.reflectionmethod.md)
+```methodsynopsis
+public ReflectionClass::getConstructor(): ?ReflectionMethod
+```
 
 Повертає конструктор відбитого класу.
 
@@ -24,25 +26,31 @@ public **ReflectionClass::getConstructor**():
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionMethod](class.reflectionmethod.md), що відбиває
-конструктор класу, або **`null`** якщо клас не має конструктора.
+Об'єкт [ReflectionMethod](class.reflectionmethod.md), що відображає конструктор класу, або **`null`** якщо клас не має конструктора.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::getConstructor()****
 
-` <?php$class = new ReflectionClass('ReflectionClass');$constructor = $class->getConstructor();var_dump($constructor);?> `
+```php
+<?php
+$class = new ReflectionClass('ReflectionClass');
+$constructor = $class->getConstructor();
+var_dump($constructor);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ReflectionMethod)#2 (2) {
-["name"]=>
-string(11) "__construct"
-["class"]=>
-string(15) "ReflectionClass"
+  ["name"]=>
+  string(11) "__construct"
+  ["class"]=>
+  string(15) "ReflectionClass"
 }
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getName()](reflectionclass.getname.md) -
-Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу

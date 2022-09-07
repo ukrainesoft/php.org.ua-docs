@@ -1,24 +1,24 @@
-- [« openssl_free_key](function.openssl-free-key.md)
-- [openssl_get_cipher_methods »](function.openssl-get-cipher-methods.md)
+---
+navigation:
+  - function.openssl-free-key.md: « opensslfreekey
+  - function.openssl-get-cipher-methods.md: opensslgetciphermethods »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslgetcertlocations
+---
+# opensslgetcertlocations
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Отримати доступні розташування сертифікатів
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-# openssl_get_cert_locations
-
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
-
-openssl_get_cert_locations — Отримати доступні місця розташування
-сертифікатів
+opensslgetcertlocations — Отримати доступні місця розташування сертифікатів
 
 ### Опис
 
-**openssl_get_cert_locations**(): array
+```methodsynopsis
+openssl_get_cert_locations(): array
+```
 
-**openssl_get_cert_locations()** повертає масив з інформацією про
-доступних сховищах, в яких відбуватиметься пошук SSL
-сертифікати.
+**opensslgetcertlocations()** повертає масив з інформацією про доступні сховища, в яких відбуватиметься пошук SSL сертифікатів.
 
 ### Список параметрів
 
@@ -26,31 +26,37 @@ openssl_get_cert_locations — Отримати доступні місця ро
 
 ### Значення, що повертаються
 
-Повертає масив з розташуванням сховищ сертифікатів.
+Повертає масив із місцезнаходженням сховищ сертифікатів.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **openssl_get_cert_locations()****
+**Приклад #1 Приклад використання **opensslgetcertlocations()****
 
-` <?phpvar_dump(openssl_get_cert_locations());?> `
+```php
+<?php
+var_dump(openssl_get_cert_locations());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(8) {
-["default_cert_file"]=>
-string(21) "/usr/lib/ssl/cert.pem"
-["default_cert_file_env"]=>
-string(13) "SSL_CERT_FILE"
-["default_cert_dir"]=>
-string(18) "/usr/lib/ssl/certs"
-["default_cert_dir_env"]=>
-string(12) "SSL_CERT_DIR"
-["default_private_dir"]=>
-string(20) "/usr/lib/ssl/private"
-["default_default_cert_area"]=>
-string(12) "/usr/lib/ssl"
-["ini_cafile"]=>
-string(0) ""
-["ini_capath"]=>
-string(0) ""
+  ["default_cert_file"]=>
+  string(21) "/usr/lib/ssl/cert.pem"
+  ["default_cert_file_env"]=>
+  string(13) "SSL_CERT_FILE"
+  ["default_cert_dir"]=>
+  string(18) "/usr/lib/ssl/certs"
+  ["default_cert_dir_env"]=>
+  string(12) "SSL_CERT_DIR"
+  ["default_private_dir"]=>
+  string(20) "/usr/lib/ssl/private"
+  ["default_default_cert_area"]=>
+  string(12) "/usr/lib/ssl"
+  ["ini_cafile"]=>
+  string(0) ""
+  ["ini_capath"]=>
+  string(0) ""
 }
+```

@@ -1,32 +1,31 @@
-- [«SolrQuery::setMltCount](solrquery.setmltcount.md)
-- [SolrQuery::setMltMaxNumTokens »](solrquery.setmltmaxnumtokens.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює максимальну кількість виразів запиту, що включаються.
-
+---
+navigation:
+  - solrquery.setmltcount.md: '« SolrQuery::setMltCount'
+  - solrquery.setmltmaxnumtokens.md: 'SolrQuery::setMltMaxNumTokens »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltMaxNumQueryTerms'
+---
 # SolrQuery::setMltMaxNumQueryTerms
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setMltMaxNumQueryTerms — Встановлює максимальне
-кількість виразів запиту, що включаються
+SolrQuery::setMltMaxNumQueryTerms — Встановлює максимальну кількість запитів, що включаються.
 
 ### Опис
 
-public **SolrQuery::setMltMaxNumQueryTerms**(int `$value`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setMltMaxNumQueryTerms(int $value): SolrQuery
+```
 
-Встановлює максимальну кількість запитів, які будуть
-включені у будь-який згенерований запит.
+Встановлює максимальну кількість запитів, які будуть включені в будь-який згенерований запит.
 
 ### Список параметрів
 
 `value`
-Максимальна кількість виразів запиту, які будуть включені до
-будь-який згенерований запит
+
+Максимальна кількість виразів запиту, які будуть включені до будь-якого згенерованого запиту
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

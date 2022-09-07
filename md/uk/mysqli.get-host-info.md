@@ -1,38 +1,38 @@
-- [« mysqli::get_connection_stats](mysqli.get-connection-stats.md)
-- [mysqli::$protocol_version »](mysqli.get-proto-info.md)
+---
+navigation:
+  - mysqli.get-connection-stats.md: '« mysqli::getconnectionstats'
+  - mysqli.get-proto-info.md: 'mysqli::$protocolversion »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$hostinfo'
+---
+# mysqli::$hostinfo
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає рядок, що містить тип використовуваного з'єднання
-
-# mysqli::$host_info
-
-# mysqli_get_host_info
+# mysqligethostinfo
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$host_info -- mysqli_get_host_info — Повертає рядок,
-містить тип використовуваного з'єднання
+mysqli::$hostinfo -- mysqligethostinfo — Повертає рядок, що містить тип використовуваного з'єднання
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string `$mysqli->host_info`;
+string [$mysqli->hostinfo](mysqli.get-host-info.md)
 
 Процедурний стиль
 
-**mysqli_get_host_info**([mysqli](class.mysqli.md) `$mysql`): string
+```methodsynopsis
+mysqli_get_host_info(mysqli $mysql): string
+```
 
-Повертає рядок, що описує з'єднання, яке позначено в
-параметрі `mysql` (включно з ім'ям хоста сервера).
+Повертає рядок, який описує з'єднання, яке позначено у параметрі `mysql` (включаючи ім'я сервера).
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -40,25 +40,54 @@ string `$mysqli->host_info`;
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$mysqli->host_info`**
+**Приклад #1 Приклад використання $mysqli->hostinfo**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {     printf("не
-", mysqli_connect_error());  exit();}/* виведення інформації про хосте */printf("Інформація про хосте: %s
-", $mysqli->host_info);/* закриття з'єднання */$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* вывод информации о хосте */
+printf("Информация о хосте: %s\n", $mysqli->host_info);
+
+/* закрытие соединения */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Подключення|
-", mysqli_connect_error());  exit();}/* виведення інформації про хосте */printf("Інформація про хосте: %s
-", mysqli_get_host_info($link));/* закриття з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* вывод информации о хосте */
+printf("Информация о хосте: %s\n", mysqli_get_host_info($link));
+
+/* закрытие соединения */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Інформація про хост: Localhost via UNIX socket
+```
+Информация о хосте: Localhost via UNIX socket
+```
 
 ### Дивіться також
 
-- [mysqli_get_proto_info()](mysqli.get-proto-info.md) - Повертає
-версію використовуваного MySQL протоколу
+-   [mysqligetprotoinfo()](mysqli.get-proto-info.md) - Повертає версію використовуваного MySQL протоколу

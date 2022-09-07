@@ -1,14 +1,15 @@
-- [«Зумовлені константи](xmlwriter.constants.md)
-- [Створення простого документа XML »](example.xmlwriter-simple.md)
-
-- [PHP Manual](index.md)
-- [XMLWriter](book.xmlwriter.md)
-- Приклади
-
+---
+navigation:
+  - xmlwriter.constants.md: « Обумовлені константи
+  - example.xmlwriter-simple.md: Створення простого XML-документу
+  - index.md: PHP Manual
+  - book.xmlwriter.md: XMLWriter
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Створення простого документа XML](example.xmlwriter-simple.md)
-- [Робота з просторами імен XML](example.xmlwriter-namespace.md)
-- [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.md)
+-   [Створення простого XML-документа](example.xmlwriter-simple.md)
+-   [Робота з просторами імен XML](example.xmlwriter-namespace.md)
+-   [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.md)

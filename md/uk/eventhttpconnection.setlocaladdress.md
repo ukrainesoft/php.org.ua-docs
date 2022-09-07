@@ -1,27 +1,33 @@
-- [« EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.md)
-- [EventHttpConnection::setLocalPort »](eventhttpconnection.setlocalport.md)
-
-- [PHP Manual](index.md)
-- [EventHttpConnection](class.eventhttpconnection.md)
-- Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання
-
+---
+navigation:
+  - eventhttpconnection.setclosecallback.md: '« EventHttpConnection::setCloseCallback'
+  - eventhttpconnection.setlocalport.md: 'EventHttpConnection::setLocalPort »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::setLocalAddress'
+---
 # EventHttpConnection::setLocalAddress
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventHttpConnection::setLocalAddress — Встановлює IP-адресу, з
-якого відбуваються HTTP-з'єднання
+EventHttpConnection::setLocalAddress — Встановлює IP-адресу, з якої відбуваються з'єднання HTTP.
 
 ### Опис
 
-public **EventHttpConnection::setLocalAddress**( string `$address` ):
-void
+```methodsynopsis
+public
+   EventHttpConnection::setLocalAddress(
+    string
+     $address
+   ): void
+```
 
-Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання.
+Встановлює IP-адресу, з якої відбуваються з'єднання HTTP.
 
 ### Список параметрів
 
 `address`
+
 IP-адреса, з якої відбуваються HTTP-з'єднання.
 
 ### Значення, що повертаються
@@ -30,5 +36,4 @@ IP-адреса, з якої відбуваються HTTP-з'єднання.
 
 ### Дивіться також
 
-- [EventHttpConnection::setLocalPort()](eventhttpconnection.setlocalport.md) -
-Встановлює локальний порт, з якого виробляються з'єднання
+-   [EventHttpConnection::setLocalPort()](eventhttpconnection.setlocalport.md) - Встановлює локальний порт, з якого виробляються з'єднання

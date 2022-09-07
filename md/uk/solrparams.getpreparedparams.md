@@ -1,22 +1,24 @@
-- [«SolrParams::getParams](solrparams.getparams.md)
-- [SolrParams::serialize »](solrparams.serialize.md)
+---
+navigation:
+  - solrparams.getparams.md: '« SolrParams::getParams'
+  - solrparams.serialize.md: 'SolrParams::serialize »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'Solr Params::get Prepared Params'
+---
+# Solr Params::get Prepared Params
 
-- [PHP Manual](index.md)
-- [SolrParams](class.solrparams.md)
-- Повертає масив параметрів у URL-закодованому вигляді
+(PECL solr> = 0.9.2)
 
-# SolrParams::getPreparedParams
-
-(PECL solr \> = 0.9.2)
-
-SolrParams::getPreparedParams — Повертає масив параметрів у
-URL-закодованому вигляді
+SolrParams::getPreparedParams — Повертає масив параметрів в URL-адресі
 
 ### Опис
 
-final public **SolrParams::getPreparedParams**(): array
+```methodsynopsis
+final public SolrParams::getPreparedParams(): array
+```
 
-Повертає масив параметрів в URL-коді
+Повертає масив параметрів у URL-закодованому вигляді
 
 ### Список параметрів
 
@@ -24,4 +26,4 @@ final public **SolrParams::getPreparedParams**(): array
 
 ### Значення, що повертаються
 
-Повертає масив параметрів в URL-коді
+Повертає масив параметрів у URL-закодованому вигляді

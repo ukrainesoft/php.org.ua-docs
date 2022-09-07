@@ -1,19 +1,22 @@
-- [« tidyNode::getParent](tidynode.getparent.md)
-- [tidyNode::hasSiblings »](tidynode.hassiblings.md)
-
-- [PHP Manual](index.md)
-- [tidyNode](class.tidynode.md)
-- Перевіряє існування нащадків у вузла
-
+---
+navigation:
+  - tidynode.getparent.md: '« tidyNode::getParent'
+  - tidynode.hassiblings.md: 'tidyNode::hasSiblings »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::hasChildren'
+---
 # tidyNode::hasChildren
 
 (PHP 5, PHP 7, PHP 8)
 
-tidyNode::hasChildren — Перевіряє існування нащадків у вузла
+tidyNode::hasChildren — Перевіряє існування нащадків біля вузла
 
 ### Опис
 
-public **tidyNode::hasChildren**(): bool
+```methodsynopsis
+public tidyNode::hasChildren(): bool
+```
 
 Повідомляє, чи має заданий вузл нащадки.
 
@@ -23,16 +26,57 @@ public **tidyNode::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо у вузла є нащадки, інакше
-повертає **`false`**.
+Повертає **`true`**, якщо у вузла є нащадки, інакше повертає **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання функції **tidyNode::hasChildren()****
 
-` <?php$html = <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE-код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт мир!';?><%  /* ASP код */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy = tidy_parse_string($html);$num 0;// тег headvar_dump($tidy->html()->child[0]->hasChildren());// php всередині тега headvar_dump($tidy->html()->child[0]->child [0]->hasChildren());?> `
+```php
+<?php
+
+$html = <<< HTML
+<html><head>
+<?php echo '<title>заголовок</title>'; ?>
+<#
+  /* JSTE-код */
+  alert('Привет Мир');
+#>
+</head>
+<body>
+
+<?php
+  // PHP-код
+  echo 'привет мир!';
+?>
+
+<%
+  /* ASP код */
+  response.write("Привет Мир!")
+%>
+
+<!-- Комментарии -->
+Привет Мир
+</body></html>
+За пределами HTML кода
+HTML;
+
+
+$tidy = tidy_parse_string($html);
+$num = 0;
+
+// тег head
+var_dump($tidy->html()->child[0]->hasChildren());
+
+// php внутри тега head
+var_dump($tidy->html()->child[0]->child[0]->hasChildren());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 bool(false)
+```

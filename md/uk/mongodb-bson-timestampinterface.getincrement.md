@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\TimestampInterface](class.mongodb-bson-timestampinterface.md)
-- [MongoDB\BSON\TimestampInterface::getTimestamp »](mongodb-bson-timestampinterface.gettimestamp.md)
+---
+navigation:
+  - class.mongodb-bson-timestampinterface.md: « MongoDBBSONTimestampInterface
+  - mongodb-bson-timestampinterface.gettimestamp.md: 'MongoDBBSONTimestampInterface::getTimestamp »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface
+title: 'MongoDBBSONTimestampInterface::getIncrement'
+---
+# MongoDBBSONTimestampInterface::getIncrement
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\TimestampInterface](class.mongodb-bson-timestampinterface.md)
-- Повертає інкрементний компонент TimestampInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\TimestampInterface::getIncrement
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\TimestampInterface::getIncrement — Повертає інкрементний
-компонент TimestampInterface
+MongoDBBSONTimestampInterface::getIncrement — Повертає інкрементний компонент TimestampInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\TimestampInterface::getIncrement**(): int
+```methodsynopsis
+abstract public MongoDB\BSON\TimestampInterface::getIncrement(): int
+```
 
 ### Список параметрів
 
@@ -26,12 +28,8 @@ abstract public **MongoDB\BSON\TimestampInterface::getIncrement**(): int
 
 **Увага**
 
-У 32-бітових системах цей метод може повертати негативне число.
-Хоча частини прирощення та позначки часу типу позначки часу BSON
-складаються з двох 32-розрядних значень без знака, PHP не може
-представляти їх на 32-розрядних платформах.
+У 32-бітових системах цей метод може повертати негативне число. Хоча частини збільшення та позначки часу типу позначки часу BSON складаються з двох 32-розрядних значень без знака, PHP не може представляти їх на 32-розрядних платформах.
 
 ### Дивіться також
 
-- [MongoDB\BSON\Timestamp::getIncrement()](mongodb-bson-timestamp.getincrement.md) -
-Повертає компонент збільшення Timestamp
+-   [MongoDBBSONTimestamp::getIncrement()](mongodb-bson-timestamp.getincrement.md) - Повертає компонент збільшення Timestamp

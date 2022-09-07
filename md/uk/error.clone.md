@@ -1,22 +1,24 @@
-- [«Error::\_\_toString](error.tostring.md)
-- [ArgumentCountError »](class.argumentcounterror.md)
-
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Клонує помилку
-
-# Error::\_\_clone
+---
+navigation:
+  - error.tostring.md: '« Error::toString'
+  - class.argumentcounterror.md: ArgumentCountError »
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::clone'
+---
+# Error::clone
 
 (PHP 7, PHP 8)
 
-Error::\_\_clone - Клонує помилку
+Error::clone - Клонує помилку
 
 ### Опис
 
-private **Error::\_\_clone**(): void
+```methodsynopsis
+private Error::__clone(): void
+```
 
-Об'єкт класу Error не можна клонувати, тому ця функція викличе
-фатальну помилку.
+Об'єкт класу Error не можна клонувати, тому ця функція викликає фатальну помилку.
 
 ### Список параметрів
 
@@ -30,8 +32,8 @@ private **Error::\_\_clone**(): void
 
 Об'єкт класу Error *не можна* клонувати.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                         |
-| ------ | ------------------------------------------------------------ |
-| 8.1.0  | Метод **Error::\_\_clone()** більше не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **Error::clone()** більше не є остаточним (final). |

@@ -1,79 +1,55 @@
-- [«mysql_thread_id](function.mysql-thread-id.md)
-- [Mysqlnd »](book.mysqlnd.md)
+---
+navigation:
+  - function.mysql-thread-id.md: « mysqlthreadід
+  - book.mysqlnd.md: Mysqlnd »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlunbufferedquery
+---
+# mysqlunbufferedquery
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Надсилає запит MySQL без авто-обробки результату та його
-буферизації
+(PHP 4> = 4.0.6, PHP 5)
 
-# mysql_unbuffered_query
-
-(PHP 4 \>= 4.0.6, PHP 5)
-
-mysql_unbuffered_query — Надсилає запит MySQL без авто-обробки
-результату та його буферизації
+mysqlunbufferedquery — Надсилає запит MySQL без авто-обробки результату та його буферизації
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
-- See: [Буферизовані та не буферизовані запити](mysqlinfo.concepts.buffering.md)
+-   See: [Буферизовані та не буферизовані запити](mysqlinfo.concepts.buffering.md)
 
 ### Опис
 
-**mysql_unbuffered_query**(string `$query`, resource `$link_identifier`
-= NULL): resource
+```methodsynopsis
+mysql_unbuffered_query(string $query, resource $link_identifier = NULL): resource
+```
 
-**mysql_unbuffered_query()** посилає запит MySQL `query` без
-автоматичної обробки та буферизації її результату, на відміну від
-функції [mysql_query()](function.mysql-query.md). Це дозволяє
-зберегти досить велику кількість пам'яті для SQL-запитів,
-що повертають велику кількість даних. Крім того, ви можете почати
-роботу з отриманими даними відразу після того, як перший ряд був
-отримано: вам не доведеться чекати до кінця SQL-запиту. При використанні
-**mysql_unbuffered_query()** з кількома з'єднаннями MySQL, ви повинні
-вказати необов'язковий параметр `link_identifier`.
+**mysqlunbufferedquery()** посилає запит MySQL `query` без автоматичної обробки та буферизації її результату, на відміну від функції [mysqlquery()](function.mysql-query.md). Це дозволяє зберегти досить велику кількість пам'яті для SQL-запитів, які повертають велику кількість даних. Крім того, ви можете почати роботу з отриманими даними відразу після того, як перший ряд був отриманий: вам не доводиться чекати до кінця SQL-запиту. При використанні **mysqlunbufferedquery()** з кількома з'єднаннями MySQL, ви повинні вказати необов'язковий параметр `link_identifier`
 
 ### Список параметрів
 
 `query`
+
 SQL-запит, що запускається.
 
-Дані у запиті мають бути [коректно проекрановані](function.mysql-real-escape-string.md).
+Дані у запиті мають бути [коректно проекрановано](function.mysql-real-escape-string.md)
 
 `link_identifier`
-З'єднання MySQL. Якщо ідентифікатор з'єднання не було вказано,
-використовується останнє з'єднання, відкрите
-[mysql_connect()](function.mysql-connect.md). Якщо таке з'єднання не
-було знайдено, функція спробує створити таке, якби
-[mysql_connect()](function.mysql-connect.md) була викликана без
-параметрів. Якщо з'єднання не було знайдено і не змогло бути створено,
-генерується помилка рівня **`E_WARNING`**.
+
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Для SELECT, SHOW, DESCRIBE та EXPLAIN запитів
-**mysql_unbuffered_query()** повертає resource у разі успішного
-виконання, або **`false`** у разі виникнення помилки.
+Для SELECT, SHOW, DESCRIBE та EXPLAIN запитів **mysqlunbufferedquery()** повертає resource у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
-Для інших типів SQL-запитів, UPDATE, DELETE, DROP і т.д.
-**mysql_unbuffered_query()** повертає **`true`** у разі успіху та
-**`false`** у разі виникнення помилки.
+Для інших типів SQL-запитів, UPDATE, DELETE, DROP і т.д. **mysqlunbufferedquery()** повертає **`true`** у разі успіху та **`false`** у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**:
->
-> Однак плюси використання **mysql_unbuffered_query()** мають свою
-> ціна: ви не можете використовувати функції
-> [mysql_num_rows()](function.mysql-num-rows.md) та
-> [mysql_data_seek()](function.mysql-data-seek.md) з результатом
-> запиту, повернутим цією функцією, доки не будуть отримані всі ряди.
-> Крім того, ви повинні обробити всі ряди запиту до відправки
-> нового запиту, використовуючи той самий `link_identifier`.
+> **Зауваження**
+> 
+> Однак, плюси використання **mysqlunbufferedquery()** мають свою ціну: ви не можете використовувати функції [mysqlnumrows()](function.mysql-num-rows.md) і [mysqldataseek()](function.mysql-data-seek.md) з результатом запиту, повернутим цією функцією, доки не будуть отримані всі ряди. Крім того, ви повинні будете обробити всі ряди запиту до відправки нового запиту, використовуючи той же `link_identifier`
 
 ### Дивіться також
 
-- [mysql_query()](function.mysql-query.md) - Надсилає запит MySQL
+-   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL

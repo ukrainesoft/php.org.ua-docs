@@ -1,21 +1,22 @@
-- [« mysql_xdevapi\Table](class.mysql-xdevapi-table.md)
-- [Table::count »](mysql-xdevapi-table.count.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Table](class.mysql-xdevapi-table.md)
-- Конструктор Table
-
-# Table::\_\_construct
+---
+navigation:
+  - class.mysql-xdevapi-table.md: « mysqlxdevapiTable
+  - mysql-xdevapi-table.count.md: 'Table::count »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+title: 'Table::construct'
+---
+# Table::construct
 
 (No version information available, might only be in Git)
 
-Table::\_\_construct — Конструктор Table
+Table::construct — Конструктор Table
 
 ### Опис
 
-private **mysql_xdevapi\Table::\_\_construct**()
+private **mysqlxdevapiTable::construct**
 
-Створити об'єкт таблиці.
+Створити об'єкти таблиці.
 
 ### Список параметрів
 
@@ -23,7 +24,13 @@ private **mysql_xdevapi\Table::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Table::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiTable::construct()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+?>
+```

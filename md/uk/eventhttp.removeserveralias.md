@@ -1,34 +1,39 @@
-- [«EventHttp::\_\_construct](eventhttp.construct.md)
-- [EventHttp::setAllowedMethods »](eventhttp.setallowedmethods.md)
-
-- [PHP Manual](index.md)
-- [EventHttp](class.eventhttp.md)
-- Видаляє псевдонім сервера
-
+---
+navigation:
+  - eventhttp.construct.md: '« EventHttp::construct'
+  - eventhttp.setallowedmethods.md: 'EventHttp::setAllowedMethods »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::removeServerAlias'
+---
 # EventHttp::removeServerAlias
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttp::removeServerAlias — Видаляє псевдонім сервера
+EventHttp::removeServerAlias ​​— Видаляє псевдонім сервера
 
 ### Опис
 
-public **EventHttp::removeServerAlias**( string `$alias` ): bool
+```methodsynopsis
+public
+   EventHttp::removeServerAlias(
+    string
+     $alias
+   ): bool
+```
 
-Видаляє псевдонім сервера, доданий за допомогою
-[EventHttp::addServerAlias()](eventhttp.addserveralias.md)
+Видаляє псевдонім сервера, доданий за допомогою [EventHttp::addServerAlias()](eventhttp.addserveralias.md)
 
 ### Список параметрів
 
 `alias`
+
 Псевдонім для видалення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventHttp::addServerAlias()](eventhttp.addserveralias.md) -
-Додає псевдонім сервера до об'єкта HTTP-сервера
+-   [EventHttp::addServerAlias()](eventhttp.addserveralias.md) - Додає псевдонім сервера до об'єкта HTTP-сервера

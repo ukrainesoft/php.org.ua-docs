@@ -1,47 +1,58 @@
-- [«is_float](function.is-float.md)
-- [is_integer »](function.is-integer.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевіряє, чи є змінна цілим числом
-
-#is_int
+---
+navigation:
+  - function.is-float.md: « isfloat
+  - function.is-integer.md: ісinteger »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісint
+---
+# ісint
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_int — Перевіряє, чи змінна є цілим числом
+ісint — Перевіряє, чи є змінна цілим числом
 
 ### Опис
 
-**is_int**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_int(mixed $value): bool
+```
 
 Перевіряє, чи тип змінної є цілим.
 
-> **Примітка**:
->
-> Щоб перевірити, чи змінна є числом або рядком,
-> містить число (як поле введення у формі, яке завжди є
-> рядком), використовуйте [is_numeric()](function.is-numeric.md).
+> **Зауваження**
+> 
+> Щоб перевірити, чи змінна є числом або рядком, що містить число (як поле введення у формі, яке завжди є рядком), використовуйте [ісnumeric()](function.is-numeric.md)
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є цілим числом (int), або
-**`false`** інакше.
+Повертає **`true`**, якщо `value` є цілим числом (int), або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_int()****
+**Приклад #1 Приклад використання **ісint()****
 
-`<?php$values = array(23, "23", 23.5, "23.5", null, true, false);foreach ($values as $value) {           ") = "; var_dump(is_int($value));}?> `
+```php
+<?php
+$values = array(23, "23", 23.5, "23.5", null, true, false);
+foreach ($values as $value) {
+    echo "is_int(";
+    var_export($value);
+    echo ") = ";
+    var_dump(is_int($value));
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 is_int(23) = bool(true)
 is_int('23') = bool(false)
 is_int(23.5) = bool(false)
@@ -49,18 +60,13 @@ is_int('23.5') = bool(false)
 is_int(NULL) = bool(false)
 is_int(true) = bool(false)
 is_int(false) = bool(false)
+```
 
 ### Дивіться також
 
-- [is_bool()](function.is-bool.md) - Перевіряє, чи є
-змінна булева
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_numeric()](function.is-numeric.md) - Перевіряє, чи є
-змінна числом або рядком, що містить число
-- [is_string()](function.is-string.md) - Перевіряє, чи є
-змінним рядком
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом

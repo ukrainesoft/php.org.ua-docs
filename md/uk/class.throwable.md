@@ -1,77 +1,69 @@
-- [« IteratorAggregate::getIterator](iteratoraggregate.getiterator.md)
-- [Throwable::getMessage »](throwable.getmessage.md)
-
-- [PHP Manual](index.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- Throwable
-
+---
+navigation:
+  - iteratoraggregate.getiterator.md: '« IteratorAggregate::getIterator'
+  - throwable.getmessage.md: 'Throwable::getMessage »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Throwable
+---
 # Throwable
 
 (PHP 7, PHP 8)
 
 ## Вступ
 
-**Throwable** є батьківським інтерфейсом для всіх об'єктів,
-що викидаються за допомогою виразу [`throw`](language.exceptions.md),
-включаючи класи [Error](class.error.md) та
-[Exception](class.exception.md).
+**Throwable** є батьківським інтерфейсом для всіх об'єктів, що викидаються за допомогою виразу [`throw`](language.exceptions.md), включаючи класи [Error](class.error.md) і [Exception](class.exception.md)
 
-> **Примітка**:
->
-> Класи PHP не можуть реалізувати інтерфейс **Throwable**.
-> Натомість вони можуть успадковувати підклас
-> [Exception](class.exception.md).
+> **Зауваження**
+> 
+> Класи PHP не можуть безпосередньо реалізувати інтерфейс **Throwable**. Натомість вони можуть успадковувати підклас [Exception](class.exception.md)
 
 ## Огляд інтерфейсів
 
-interface **Throwable** extends [Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getMessage](throwable.getmessage.md)(): string
+    
+     
+      interface Throwable
+      extends
+       Stringable
+     
+     {
 
-public [getCode](throwable.getcode.md)(): int
+    /* Методы */
+    
+   public getMessage(): string
+public getCode(): int
+public getFile(): string
+public getLine(): int
+public getTrace(): array
+public getTraceAsString(): string
+public getPrevious(): ?Throwable
+abstract public __toString(): string
 
-public [getFile](throwable.getfile.md)(): string
 
-public [getLine](throwable.getline.md)(): int
+    /* Наследуемые методы */
+    public Stringable::__toString(): string
 
-public [getTrace](throwable.gettrace.md)(): array
+   }
+```
 
-public [getTraceAsString](throwable.gettraceasstring.md)(): string
+## список змін
 
-public [getPrevious](throwable.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-abstract public [\_\_toString](throwable.tostring.md)(): string
-
-/\* Наслідувані методи \*/
-
-public [Stringable::\_\_toString](stringable.tostring.md)(): string
-
-}
-
-## Список змін
-
-| Версія | Опис                                                                             |
-| ------ | -------------------------------------------------------------------------------- |
-| 8.0.0  | Клас ** Throwable ** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **Throwable** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
-- [Throwable::getMessage](throwable.getmessage.md) — Отримує
-повідомлення помилки
-- [Throwable::getCode](throwable.getcode.md) — Повертає код
-винятки
-- [Throwable::getFile](throwable.getfile.md) — Повертає файл,
-якому викинуто виняток
-- [Throwable::getLine](throwable.getline.md) — Отримує рядок
-скрипта, в якій цей об'єкт був викинутий
-- [Throwable::getTrace](throwable.gettrace.md) — Повертає
-трасування стеку
-- [Throwable::getTraceAsString](throwable.gettraceasstring.md) -
-Отримує результати трасування стека у вигляді рядка
-- [Throwable::getPrevious](throwable.getprevious.md) - Повертає
-попередній Throwable
-- [Throwable::\_\_toString](throwable.tostring.md) — Отримує
-рядкове уявлення викинутого об'єкта
+-   [Throwable::getMessage](throwable.getmessage.md) — Отримує повідомлення помилки
+-   [Throwable::getCode](throwable.getcode.md) — Повертає код виключення
+-   [Throwable::getFile](throwable.getfile.md) — Повертає файл, у якому викинуто виняток
+-   [Throwable::getLine](throwable.getline.md) — Отримує рядок скрипта, в якому цей об'єкт було викинуто
+-   [Throwable::getTrace](throwable.gettrace.md) — Повертає трасування стека
+-   [Throwable::getTraceAsString](throwable.gettraceasstring.md) — Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getPrevious](throwable.getprevious.md) — Повертає попередній Throwable
+-   [Throwable::toString](throwable.tostring.md) — Отримує рядкову виставу викинутого об'єкта

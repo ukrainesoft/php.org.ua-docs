@@ -1,32 +1,33 @@
-- [« sodium_crypto_scalarmult_base](function.sodium-crypto-scalarmult-base.md)
-- [sodium_crypto_scalarmult_ristretto255 »](function.sodium-crypto-scalarmult-ristretto255.md)
+---
+navigation:
+  - function.sodium-crypto-scalarmult-base.md: « sodiumcryptoscalarmultbase
+  - function.sodium-crypto-scalarmult-ristretto255.md: sodiumcryptoscalarmultristretto255 »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoscalarmultristretto255base
+---
+# sodiumcryptoscalarmultristretto255base
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Обчислює відкритий ключ із закритого ключа
+(PHP 8> = 8.1.1)
 
-# sodium_crypto_scalarmult_ristretto255_base
-
-(PHP 8 \>= 8.1.1)
-
-sodium_crypto_scalarmult_ristretto255_base — Обчислює відкритий ключ з
-закритого ключа
+sodiumcryptoscalarmultristretto255base — Обчислює відкритий ключ із закритого ключа
 
 ### Опис
 
-**sodium_crypto_scalarmult_ristretto255_base**(string `$n`): string
+```methodsynopsis
+sodium_crypto_scalarmult_ristretto255_base(string $n): string
+```
 
-З огляду на закритий ключ обчислює відповідний відкритий ключ.
-Доступно з libsodium 1.0.18.
+З огляду на закритий ключ обчислює відповідний відкритий ключ. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `n`
+
 Закритий ключ.
 
 ### Значення, що повертаються
@@ -35,5 +36,4 @@ sodium_crypto_scalarmult_ristretto255_base — Обчислює відкрити
 
 ### Дивіться також
 
-- [sodium_crypto_scalarmult_ristretto255()](function.sodium-crypto-scalarmult-ristretto255.md) -
-Обчислює загальний секрет
+-   [sodiumcryptoscalarmultristretto255()](function.sodium-crypto-scalarmult-ristretto255.md) - обчислює загальний секрет

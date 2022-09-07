@@ -1,19 +1,22 @@
-- [« GearmanWorker::addServers](gearmanworker.addservers.md)
-- [GearmanWorker::\_\_construct »](gearmanworker.construct.md)
-
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Створення копії обробника
-
+---
+navigation:
+  - gearmanworker.addservers.md: '« GearmanWorker::addServers'
+  - gearmanworker.construct.md: 'GearmanWorker::construct »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::clone'
+---
 # GearmanWorker::clone
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanWorker::clone — Створення копії обробника
+GearmanWorker::clone — Створення копії оброблювача
 
 ### Опис
 
-public **GearmanWorker::clone**(): void
+```methodsynopsis
+public GearmanWorker::clone(): void
+```
 
 Створює копію обробника.
 
@@ -23,4 +26,4 @@ public **GearmanWorker::clone**(): void
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanWorker](class.gearmanworker.md).
+Об'єкт класу [GearmanWorker](class.gearmanworker.md)

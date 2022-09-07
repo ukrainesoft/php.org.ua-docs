@@ -1,62 +1,70 @@
-- [« IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md)
-- [IntlPartsIterator::getBreakIterator »](intlpartsiterator.getbreakiterator.md)
-
-- [PHP Manual](index.md)
-- [intl](book.intl.md)
-- Клас IntlPartsIterator
-
+---
+navigation:
+  - intldatepatterngenerator.getbestpattern.md: '« IntlDatePatternGenerator::getBestPattern'
+  - intlpartsiterator.getbreakiterator.md: 'IntlPartsIterator::getBreakIterator »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас IntlPartsIterator
+---
 # Клас IntlPartsIterator
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Об'єкти цього класу можна отримати з об'єктів
-[IntlBreakIterator](class.intlbreakiterator.md). Поки що ітератор
-переривання надає послідовність обмежувачів, можна
-отримати **IntlPartsIterator** для зручності отримання текстових
-фрагментів між двома обмежувачами.
+Об'єкти цього класу можна отримати з об'єктів [IntlBreakIterator](class.intlbreakiterator.md). Поки ітератор переривання надає послідовність обмежувачів, можна отримати **IntlPartsIterator** для зручності одержання текстових фрагментів між двома обмежувачами.
 
-Ключі можуть являти собою усунення від лівого або правого
-обмежувача або можуть бути просто послідовністю натуральних
-чисел. Дивіться
-[IntlBreakIterator::getPartsIterator()](intlbreakiterator.getpartsiterator.md).
+Ключі можуть бути зміщення від лівого або правого обмежувача або можуть бути просто послідовністю натуральних чисел. Дивіться [IntlBreakIterator::getPartsIterator()](intlbreakiterator.getpartsiterator.md)
 
 ## Огляд класів
 
-class **IntlPartsIterator** extends
-[IntlIterator](class.intliterator.md) {
+```classsynopsis
 
-/\* Constants \*/
+     
+    
 
-const int `KEY_SEQUENTIAL` = 0;
+    
+     
+      class IntlPartsIterator
+     
 
-const int `KEY_LEFT` = 1;
+     
+      extends
+       IntlIterator
+     
+     {
 
-const int `KEY_RIGHT` = 2;
+    /* Constants */
+    
+     const
+     int
+      KEY_SEQUENTIAL = 0;
 
-/\* Методи \*/
+    const
+     int
+      KEY_LEFT = 1;
 
-public [getBreakIterator](intlpartsiterator.getbreakiterator.md)():
-[IntlBreakIterator](class.intlbreakiterator.md)
+    const
+     int
+      KEY_RIGHT = 2;
 
-/\* Наслідувані методи \*/
 
-public [IntlIterator::current](intliterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public getBreakIterator(): IntlBreakIterator
 
-public [IntlIterator::key](intliterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [IntlIterator::next](intliterator.next.md)(): void
+    /* Наследуемые методы */
+    public IntlIterator::current(): mixed
+public IntlIterator::key(): mixed
+public IntlIterator::next(): void
+public IntlIterator::rewind(): void
+public IntlIterator::valid(): bool
 
-public [IntlIterator::rewind](intliterator.rewind.md)(): void
+   }
+```
 
-public [IntlIterator::valid](intliterator.valid.md)(): bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`IntlPartsIterator::KEY_SEQUENTIAL`**
 
@@ -66,5 +74,4 @@ public [IntlIterator::valid](intliterator.valid.md)(): bool
 
 ## Зміст
 
-- [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md)
-— Отримати IntlBreakIterator, зберігаючи ітератор цієї частини
+-   [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md) — Отримати IntlBreakIterator, зберігаючи ітератор цієї частини

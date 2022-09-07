@@ -1,33 +1,35 @@
-- [«DOMNotation](class.domnotation.md)
-- [DOMParentNode::append »](domparentnode.append.md)
-
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Інтерфейс DOMParentNode
-
+---
+navigation:
+  - class.domnotation.md: « DOMNotation
+  - domparentnode.append.md: 'DOMParentNode::append »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Інтерфейс DOMParentNode
+---
 # Інтерфейс DOMParentNode
 
 (PHP 8)
 
 ## Огляд інтерфейсів
 
-interface **DOMParentNode** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[append](domparentnode.append.md)([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
+    
+     
+      interface DOMParentNode {
 
-public
-[prepend](domparentnode.prepend.md)([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
+    /* Методы */
+    
+   public append(DOMNode|string ...$nodes): void
+public prepend(DOMNode|string ...$nodes): void
 
-}
+   }
+```
 
 ## Зміст
 
-- [DOMParentNode::append](domparentnode.append.md) — Додає вузли
-після останнього дочірнього вузла
-- [DOMParentNode::prepend](domparentnode.prepend.md) — Додає
-вузли перед першим дочірнім вузлом
+-   [DOMParentNode::append](domparentnode.append.md) - Додає вузли після останнього дочірнього вузла
+-   [DOMParentNode::prepend](domparentnode.prepend.md) - Додає вузли перед першим дочірнім вузлом

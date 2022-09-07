@@ -1,27 +1,29 @@
-- [«Gmagick::drawimage](gmagick.drawimage.md)
-- [Gmagick::embossimage »](gmagick.embossimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Збільшує краї зображення.
-
+---
+navigation:
+  - gmagick.drawimage.md: '« Gmagick::drawimage'
+  - gmagick.embossimage.md: 'Gmagick::embossimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::edgeimage'
+---
 # Gmagick::edgeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::edgeimage — Збільшує краї зображення.
 
 ### Опис
 
-public **Gmagick::edgeimage**(float `$radius`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::edgeimage(float $radius): Gmagick
+```
 
-Збільшує краї зображення за допомогою фільтра згортки даного
-радіусу. Використовуйте радіус 0, і його буде обрано автоматично.
+Збільшує краї зображення за допомогою фільтра згортки даного радіуса. Використовуйте радіус 0, і його буде обрано автоматично.
 
 ### Список параметрів
 
 `radius`
+
 Радіус операції.
 
 ### Значення, що повертаються

@@ -1,98 +1,79 @@
-- [« Yaf_View_Interface::setScriptPath](yaf-view-interface.setscriptpath.md)
-- [Yaf_View_Simple::assign »](yaf-view-simple.assign.md)
+---
+navigation:
+  - yaf-view-interface.setscriptpath.md: '« YafViewInterface::setScriptPath'
+  - yaf-view-simple.assign.md: 'YafViewSimple::assign »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafViewSimple
+---
+# Клас YafViewSimple
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_View_Simple
-
-# Клас Yaf_View_Simple
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-**Yaf_View_Simple** - це вбудований шаблонний движок Yaf. Він простий,
-але швидкий і підтримує лише шаблони PHP-скриптів.
+**YafViewSimple** - Це вбудований шаблонний двигун Yaf. Він простий, але швидкий та підтримує лише шаблони PHP-скриптів.
 
 ## Огляд класів
 
-class **Yaf_View_Simple** implements
-[Yaf_View_Interface](class.yaf-view-interface.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_tpl_vars`;
+    
+    
+     
+      class Yaf_View_Simple
+     
 
-protected `$_tpl_dir`;
+     implements 
+       Yaf_View_Interface {
+    
+    /* Свойства */
+    
+     protected
+      $_tpl_vars;
 
-/\* Методи \*/
+    protected
+      $_tpl_dir;
 
-final public [\_\_construct](yaf-view-simple.construct.md)(string
-`$template_dir`, array `$options` = ?)
 
-public [assign](yaf-view-simple.assign.md)(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value = ?): bool
 
-public [assignRef](yaf-view-simple.assignref.md)(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$value`): bool
+    /* Методы */
+    
+   final public __construct(string $template_dir, array $options = ?)
 
-public [clear](yaf-view-simple.clear.md)(string `$name` = ?): bool
+    public assign(string $name, mixed $value = ?): bool
+public assignRef(string $name, mixed &$value): bool
+public clear(string $name = ?): bool
+public display(string $tpl, array $tpl_vars = ?): bool
+public eval(string $tpl_content, array $tpl_vars = ?): string
+public __get(string $name = ?): void
+public getScriptPath(): string
+public __isset(string $name): void
+public render(string $tpl, array $tpl_vars = ?): string
+public __set(string $name, mixed $value): void
+public setScriptPath(string $template_dir): bool
 
-public [display](yaf-view-simple.display.md)(string `$tpl`, array
-`$tpl_vars` = ?): bool
-
-public [eval](yaf-view-simple.eval.md)(string `$tpl_content`, array
-`$tpl_vars` = ?): string
-
-public [\_\_get](yaf-view-simple.get.md)(string `$name` = ?): void
-
-public [getScriptPath](yaf-view-simple.getscriptpath.md)(): string
-
-public [\_\_isset](yaf-view-simple.isset.md)(string `$name`): void
-
-public [render](yaf-view-simple.render.md)(string `$tpl`, array
-`$tpl_vars` = ?): string
-
-public [\_\_set](yaf-view-simple.set.md)(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [setScriptPath](yaf-view-simple.setscriptpath.md)(string
-`$template_dir`): bool
-
-}
+   }
+```
 
 ## Властивості
 
-`_tpl_vars`
+tplvars
 
-`_tpl_dir`
+tpldir
 
 ## Зміст
 
-- [Yaf_View_Simple::assign](yaf-view-simple.assign.md) — Призначити
-значення
-- [Yaf_View_Simple::assignRef](yaf-view-simple.assignref.md) -
-Призначення assignRef
-- [Yaf_View_Simple::clear](yaf-view-simple.clear.md) - Скидає
-призначені значення
-- [Yaf_View_Simple::\_\_construct](yaf-view-simple.construct.md) -
-Конструктор класу Yaf_View_Simple
-- [Yaf_View_Simple::display](yaf-view-simple.display.md) -
-Відмальовує та відображає
-- [Yaf_View_Simple::eval](yaf-view-simple.eval.md) - Малює
-шаблон
-- [Yaf_View_Simple::\_\_get](yaf-view-simple.get.md) - Отримує
-призначену змінну
-- [Yaf_View_Simple::getScriptPath](yaf-view-simple.getscriptpath.md)
-— Отримує каталог шаблонів
-- [Yaf_View_Simple::\_\_isset](yaf-view-simple.isset.md) -
-Призначення \_\_isset
-- [Yaf_View_Simple::render](yaf-view-simple.render.md) -
-Малює шаблон
-- [Yaf_View_Simple::\_\_set](yaf-view-simple.set.md) - Встановлює
-значення для двигуна
-- [Yaf_View_Simple::setScriptPath](yaf-view-simple.setscriptpath.md)
-— Встановлює каталог шаблонів
+-   [YafViewSimple::assign](yaf-view-simple.assign.md) - Призначити значення
+-   [YafViewSimple::assignRef](yaf-view-simple.assignref.md) — Призначення assignRef
+-   [YafViewSimple::clear](yaf-view-simple.clear.md) - Скидає призначені значення
+-   [YafViewSimple::construct](yaf-view-simple.construct.md) - Конструктор класу YafViewSimple
+-   [YafViewSimple::display](yaf-view-simple.display.md) — Малює та відображає
+-   [YafViewSimple::eval](yaf-view-simple.eval.md) — Малює шаблон
+-   [YafViewSimple::get](yaf-view-simple.get.md) — Отримує призначену змінну
+-   [YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.md) — Отримує каталог шаблонів
+-   [YafViewSimple::isset](yaf-view-simple.isset.md) - Призначення isset
+-   [YafViewSimple::render](yaf-view-simple.render.md) — Малює шаблон
+-   [YafViewSimple::set](yaf-view-simple.set.md) - Встановлює значення для двигуна
+-   [YafViewSimple::setScriptPath](yaf-view-simple.setscriptpath.md) — Встановлює каталог шаблонів

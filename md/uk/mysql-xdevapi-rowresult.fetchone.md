@@ -1,26 +1,28 @@
-- [« RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.md)
-- [RowResult::getColumnsCount »](mysql-xdevapi-rowresult.getcolumncount.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)
-- отримує рядок з результату
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.fetchall.md: '« RowResult::fetchAll'
+  - mysql-xdevapi-rowresult.getcolumncount.md: 'RowResult::getColumnsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
+title: 'RowResult::fetchOne'
+---
 # RowResult::fetchOne
 
 (No version information available, might only be in Git)
 
-RowResult::fetchOne — Отримує рядок із результату
+RowResult::fetchOne — Отримує рядок з результату
 
 ### Опис
 
-public **mysql_xdevapi\RowResult::fetchOne**(): array
+```methodsynopsis
+public mysql_xdevapi\RowResult::fetchOne(): array
+```
 
 Витягує один результат із набору результатів.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,20 +30,35 @@ public **mysql_xdevapi\RowResult::fetchOne**(): array
 
 ### Значення, що повертаються
 
-Результат у вигляді асоціативного масиву або **`null`**, якщо ні
-результатів.
+Результат у вигляді асоціативного масиву або \*\*`null`\*\*якщо немає результатів.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\RowResult::fetchOne()****
+**Приклад #1 Приклад використання **mysqlxdevapiRowResult::fetchOne()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE addressbook")->execute();$session->sql("CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names") ;$row = $table->select('name', 'age')->where('age < 40')->execute()->fetchOne();print_r($row); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$row = $table->select('name', 'age')->where('age < 40')->execute()->fetchOne();
+
+print_r($row);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[name] => Sam
-[age] => 33
+    [name] => Sam
+    [age] => 33
 )
+```

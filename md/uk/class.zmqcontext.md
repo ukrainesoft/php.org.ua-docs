@@ -1,49 +1,45 @@
-- [«ZMQ::\_\_construct](zmq.construct.md)
-- [ZMQContext::\_\_construct »](zmqcontext.construct.md)
-
-- [PHP Manual](index.md)
-- [Обмін повідомленнями 0MQ](book.zmq.md)
-- Клас ZMQContext
-
+---
+navigation:
+  - zmq.construct.md: '« ZMQ::construct'
+  - zmqcontext.construct.md: 'ZMQContext::construct »'
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
+title: Клас ZMQContext
+---
 # Клас ZMQContext
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **ZMQContext** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](zmqcontext.construct.md)(int `$io_threads` = 1,
-bool `$is_persistent` = **`true`**)
+    
+    
+     
+      class ZMQContext
+     
+     {
+    
 
-public [getOpt](zmqcontext.getopt.md)(string `$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public __construct(int $io_threads = 1, bool $is_persistent = true)
+public getOpt(string $key): mixed
+public getSocket(int $type, string $persistent_id = null, callable $on_new_socket = null): ZMQSocket
+public isPersistent(): bool
+public setOpt(int $key, mixed $value): ZMQContext
 
-public [getSocket](zmqcontext.getsocket.md)(int `$type`, string
-`$persistent_id` = **`null`**, [callable](language.types.callable.md)
-`$on_new_socket` = **`null`**): [ZMQSocket](class.zmqsocket.md)
-
-public [isPersistent](zmqcontext.ispersistent.md)(): bool
-
-public [setOpt](zmqcontext.setopt.md)(int `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): [ZMQContext](class.zmqcontext.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [ZMQContext::\_\_construct](zmqcontext.construct.md) - Конструктор
-ZMQContext
-- [ZMQContext::getOpt](zmqcontext.getopt.md) — Отримати опцію
-контексту
-- [ZMQContext::getSocket](zmqcontext.getsocket.md) — Створює новий
-сокет
-- [ZMQContext::isPersistent](zmqcontext.ispersistent.md) — Є
-чи контекст постійним
-- [ZMQContext::setOpt](zmqcontext.setopt.md) — Встановити опцію
-сокету
+-   [ZMQContext::construct](zmqcontext.construct.md) - Конструктор ZMQContext
+-   [ZMQContext::getOpt](zmqcontext.getopt.md) — Отримати опцію контексту
+-   [ZMQContext::getSocket](zmqcontext.getsocket.md) - Створює новий сокет
+-   [ZMQContext::isPersistent](zmqcontext.ispersistent.md) — Чи контекст є постійним
+-   [ZMQContext::setOpt](zmqcontext.setopt.md) - Встановити опцію сокету

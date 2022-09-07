@@ -1,19 +1,22 @@
-- [« Swoole\Lock::trylock](swoole-lock.trylock.md)
-- [Swoole\Mmap »](class.swoole-mmap.md)
+---
+navigation:
+  - swoole-lock.trylock.md: '« SwooleLock::trylock'
+  - class.swoole-mmap.md: SwooleMmap »
+  - index.md: PHP Manual
+  - class.swoole-lock.md: SwooleLock
+title: 'SwooleLock::unlock'
+---
+# SwooleLock::unlock
 
-- [PHP Manual](index.md)
-- [Swoole\Lock](class.swoole-lock.md)
-- знімає блокування
+(PECL swoole >= 1.9.0)
 
-# Swoole\Lock::unlock
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Lock::unlock — Знімає блокування
+SwooleLock::unlock — Знімає блокування
 
 ### Опис
 
-public **Swoole\Lock::unlock**(): void
+```methodsynopsis
+public Swoole\Lock::unlock(): void
+```
 
 ### Список параметрів
 

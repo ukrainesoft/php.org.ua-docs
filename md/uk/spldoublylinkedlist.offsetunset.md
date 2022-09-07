@@ -1,27 +1,30 @@
-- [« SplDoublyLinkedList::offsetSet](spldoublylinkedlist.offsetset.md)
-- [SplDoublyLinkedList::pop »](spldoublylinkedlist.pop.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Видаляє значення за вказаним індексом $index
-
+---
+navigation:
+  - spldoublylinkedlist.offsetset.md: '« SplDoublyLinkedList::offsetSet'
+  - spldoublylinkedlist.pop.md: 'SplDoublyLinkedList::pop »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::offsetUnset'
+---
 # SplDoublyLinkedList::offsetUnset
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::offsetUnset — Видаляє значення за вказаним
-індексу $index
+SplDoublyLinkedList::offsetUnset — Видаляє значення за вказаним індексом $index
 
 ### Опис
 
-public **SplDoublyLinkedList::offsetUnset**(int `$index`): void
+```methodsynopsis
+public SplDoublyLinkedList::offsetUnset(int $index): void
+```
 
 Видаляє значення за вказаним індексом.
 
 ### Список параметрів
 
 `index`
-Індекс, котрий видаляється значення.
+
+Індекс, котрій видаляється значення.
 
 ### Значення, що повертаються
 
@@ -29,7 +32,4 @@ public **SplDoublyLinkedList::offsetUnset**(int `$index`): void
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md), коли `index`
-виходить за межі, або коли `index` не може бути представлений у вигляді
-цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.

@@ -1,52 +1,67 @@
-- [« enchant_dict_store_replacement](function.enchant-dict-store-replacement.md)
-- [EnchantBroker »](class.enchantbroker.md)
+---
+navigation:
+  - function.enchant-dict-store-replacement.md: « enchantdictstorereplacement
+  - class.enchantbroker.md: EnchantBroker »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictsuggest
+---
+# enchantdictsuggest
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Поверне список можливих варіантів для слова з помилкою
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-#enchant_dict_suggest
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
-
-enchant_dict_suggest — Поверне список можливих варіантів для слова з
-помилкою
+enchantdictsuggest — Поверне список можливих варіантів для слова з помилкою
 
 ### Опис
 
-**enchant_dict_suggest**([EnchantDictionary](class.enchantdictionary.md)
-`$dictionary`, string `$word`): array
+```methodsynopsis
+enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
+```
 
 ### Список параметрів
 
 `dictionary`
-Словник Enchant, що повертається
-[enchant_broker_request_dict()](function.enchant-broker-request-dict.md)
-або
-[enchant_broker_request_pwl_dict()](function.enchant-broker-request-pwl-dict.md).
+
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
+
 Слово для перевірки.
 
 ### Значення, що повертаються
 
 Поверне масив припущень для заданого помилкою слова.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enchant_dict_suggest()****
+**Приклад #1 Приклад використання **enchantdictsuggest()****
 
-` <?php$tag = 'en_US';$r = enchant_broker_init();if (enchant_broker_dict_exists($r,$tag)) {   $d = enchant_broker_request_dict($r, $ $wordcorrect==enchant_dict_check($d, "soong"); if (!$wordcorrect) {        $suggs = enchant_dict_suggest($d, "soong"); echo "Подказки для 'soong':"; print_r($suggs); }    enchant_broker_free_dict($d);}enchant_broker_free($r);?> `
+```php
+<?php
+$tag = 'en_US';
+$r = enchant_broker_init();
+if (enchant_broker_dict_exists($r,$tag)) {
+    $d = enchant_broker_request_dict($r, $tag);
+
+    $wordcorrect = enchant_dict_check($d, "soong");
+    if (!$wordcorrect) {
+        $suggs = enchant_dict_suggest($d, "soong");
+        echo "Подсказки для 'soong':";
+        print_r($suggs);
+    }
+    enchant_broker_free_dict($d);
+}
+enchant_broker_free($r);
+?>
+```
 
 ### Дивіться також
 
-- [enchant_dict_check()](function.enchant-dict-check.md) -
-Перевіряє, чи правильно задано слово
-- [enchant_dict_quick_check()](function.enchant-dict-quick-check.md) -
-Перевірити, чи правильно написано слово та запропонувати варіанти заміни
+-   [enchantdictcheck()](function.enchant-dict-check.md) - Перевіряє, чи правильно задано слово
+-   [enchantdictquickcheck()](function.enchant-dict-quick-check.md) - Перевірити, чи правильно написано слово та запропонувати варіанти заміни

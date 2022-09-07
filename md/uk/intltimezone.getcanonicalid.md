@@ -1,39 +1,36 @@
-- [« IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.md)
-- [IntlTimeZone::getDisplayName »](intltimezone.getdisplayname.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати канонічний системний ідентифікатор часового поясу або
-нормалізований ідентифікатор часового поясу
-заданому ідентифікатору часового поясу
-
+---
+navigation:
+  - intltimezone.fromdatetimezone.md: '« IntlTimeZone::fromDateTimeZone'
+  - intltimezone.getdisplayname.md: 'IntlTimeZone::getDisplayName »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getCanonicalID'
+---
 # IntlTimeZone::getCanonicalID
 
-# intltz_get_canonical_id
+# intltzgetcanonicalід
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getCanonicalID -- intltz_get_canonical_id — Отримати
-канонічний системний ідентифікатор часового поясу або нормалізований
-ідентифікатор часового поясу по заданому
-ідентифікатор часового поясу
+IntlTimeZone::getCanonicalID -- intltzgetcanonicalid — Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу по заданому ідентифікатору часового поясу
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::getCanonicalID**(string `$timezoneId`,
-bool `&$isSystemId` = **`null`**): string\|false
+```methodsynopsis
+public static IntlTimeZone::getCanonicalID(string $timezoneId, bool &$isSystemId = null): string|false
+```
 
 Процедурний стиль:
 
-**intltz_get_canonical_id**(string `$timezoneId`, bool `&$isSystemId` =
-**`null`**): string\|false
+```methodsynopsis
+intltz_get_canonical_id(string $timezoneId, bool &$isSystemId = null): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,20 +1,23 @@
-- [«EventDnsBase::\_\_construct](eventdnsbase.construct.md)
-- [EventDnsBase::loadHosts »](eventdnsbase.loadhosts.md)
-
-- [PHP Manual](index.md)
-- [EventDnsBase](class.eventdnsbase.md)
-- Отримує кількість налаштованих серверів імен
-
+---
+navigation:
+  - eventdnsbase.construct.md: '« EventDnsBase::construct'
+  - eventdnsbase.loadhosts.md: 'EventDnsBase::loadHosts »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::countNameservers'
+---
 # EventDnsBase::countNameservers
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventDnsBase::countNameservers — Отримує кількість налаштованих
-серверів імен
+EventDnsBase::countNameservers — Отримує кількість налаштованих серверів імен
 
 ### Опис
 
-public **EventDnsBase::countNameservers**(): int
+```methodsynopsis
+public
+   EventDnsBase::countNameservers(): int
+```
 
 Отримує кількість налаштованих серверів імен
 
@@ -24,7 +27,4 @@ public **EventDnsBase::countNameservers**(): int
 
 ### Значення, що повертаються
 
-Повертає кількість налаштованих серверів імен (необов'язково
-кількість запущених серверів імен). Це можна використовувати для
-додаткової перевірки того, чи були успішними виклики різних функцій
-конфігурації сервера імен.
+Повертає кількість налаштованих серверів імен (необов'язково запущених серверів імен). Це можна використовувати для додаткової перевірки того, були успішними виклики різних функцій конфігурації сервера імен.

@@ -1,43 +1,45 @@
-- [« MongoDB\BSON\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.md)
-- [MongoDB\BSON\JavascriptInterface::getCode »](mongodb-bson-javascriptinterface.getcode.md)
+---
+navigation:
+  - mongodb-bson-decimal128interface.tostring.md: '« MongoDBBSONDecimal128Interface::toString'
+  - mongodb-bson-javascriptinterface.getcode.md: 'MongoDBBSONJavascriptInterface::getCode »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONJavascriptInterface
+---
+# Інтерфейс MongoDBBSONJavascriptInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\JavascriptInterface
-
-# Інтерфейс MongoDB\BSON\JavascriptInterface
-
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
 ## Вступ
 
-Цей інтерфейс реалізовано
-[MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md), але також
-може використовуватися як параметр, що повертається значення або
-типу якості у класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONJavascript](class.mongodb-bson-javascript.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
-class **MongoDB\BSON\JavascriptInterface** {
+```classsynopsis
 
-/\* Методи \*/
+    
+     
+      class MongoDB\BSON\JavascriptInterface
+     
+     {
+    /* Методы */
+    
+   abstract public getCode(): string
+abstract public getScope(): ?object
+abstract public __toString(): string
 
-abstract public
-[getCode](mongodb-bson-javascriptinterface.getcode.md)(): string
+   }
+```
 
-abstract public
-[getScope](mongodb-bson-javascriptinterface.getscope.md)(): ?object
+## список змін
 
-abstract public
-[\_\_toString](mongodb-bson-javascriptinterface.tostring.md)(): string
-
-}
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\BSON\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md)
-— Повертає код JavascriptInterface
-- [MongoDB\BSON\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md)
-— Повертає область видимості документа JavascriptInterface
-- [MongoDB\BSON\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.md)
-— Повертає код JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md) — Повертає код JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md) — Повертає область видимості документа JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::toString](mongodb-bson-javascriptinterface.tostring.md) — Повертає код JavascriptInterface

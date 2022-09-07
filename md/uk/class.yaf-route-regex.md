@@ -1,78 +1,82 @@
-- [« Yaf_Route_Map::route](yaf-route-map.route.md)
-- [Yaf_Route_Regex::assemble »](yaf-route-regex.assemble.md)
+---
+navigation:
+  - yaf-route-map.route.md: '« YafRouteMap::route'
+  - yaf-route-regex.assemble.md: 'YafRouteRegex::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteRegex
+---
+# Клас YafRouteRegex
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Route_Regex
-
-# Клас Yaf_Route_Regex
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-**Yaf_Route_Regex** - найгнуткіший маршрутизатор з усіх вбудованих
-маршрутизатори Yaf.
+**YafRouteRegex** - Гнучкий маршрутизатор з усіх вбудованих маршрутизаторів Yaf.
 
 ## Огляд класів
 
-class **Yaf_Route_Regex** extends
-[Yaf_Route_Interface](class.yaf-route-interface.md) implements
-[Yaf_Route_Interface](class.yaf-route-interface.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_route`;
+    
+    
+     
+      class Yaf_Route_Regex
+     
 
-protected `$_default`;
+     
+      extends
+       Yaf_Route_Interface
+     
 
-protected `$_maps`;
+     implements 
+       Yaf_Route_Interface {
+    
+    /* Свойства */
+    
+     protected
+      $_route;
 
-protected `$_verify`;
+    protected
+      $_default;
 
-/\* Методи \*/
+    protected
+      $_maps;
 
-public [\_\_construct](yaf-route-regex.construct.md)(
-string `$match`,
-array `$route`,
-array `$map` = ?,
-array `$verify` = ?,
-string `$reverse` = ?
-)
+    protected
+      $_verify;
 
-public [assemble](yaf-route-regex.assemble.md)(array `$info`, array
-`$query` = ?): ?string
 
-public
-[route](yaf-route-regex.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public __construct(    string $match,    array $route,    array $map = ?,    array $verify = ?,    string $reverse = ?)
 
-abstract public
-[Yaf_Route_Interface::assemble](yaf-route-interface.assemble.md)(array
-`$info`, array `$query` = ?): string
+    public assemble(array $info, array $query = ?): ?string
+public route(Yaf_Request_Abstract $request): bool
 
-abstract public
-[Yaf_Route_Interface::route](yaf-route-interface.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
 
-}
+    /* Наследуемые методы */
+    abstract public Yaf_Route_Interface::assemble(array $info, array $query = ?): string
+abstract public Yaf_Route_Interface::route(Yaf_Request_Abstract $request): bool
+
+
+   }
+```
 
 ## Властивості
 
-`_route`
+route
 
-`_default`
+default
 
-`_maps`
+maps
 
-`_verify`
+verify
 
 ## Зміст
 
-- [Yaf_Route_Regex::assemble](yaf-route-regex.assemble.md) -
-Сформувати URL-адресу
-- [Yaf_Route_Regex::\_\_construct](yaf-route-regex.construct.md) -
-Конструктор класу Yaf_Route_Regex
-- [Yaf_Route_Regex::route](yaf-route-regex.route.md) — Мета маршруту
+-   [YafRouteRegex::assemble](yaf-route-regex.assemble.md) — Сформувати URL-адресу
+-   [YafRouteRegex::construct](yaf-route-regex.construct.md) - Конструктор класу YafRouteRegex
+-   [YafRouteRegex::route](yaf-route-regex.route.md) - Мета маршруту

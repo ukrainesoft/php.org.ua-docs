@@ -1,26 +1,24 @@
-- [«posix_getegid](function.posix-getegid.md)
-- [posix_getgid »](function.posix-getgid.md)
-
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає ефективний ідентифікатор користувача поточного процесу
-EUID
-
-#posix_geteuid
+---
+navigation:
+  - function.posix-getegid.md: « posixgetegid
+  - function.posix-getgid.md: posixgetgid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgeteuid
+---
+# posixgeteuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_geteuid — Повертає ефективний ідентифікатор користувача
-поточного процесу EUID
+posixgeteuid — Повертає ефективний ідентифікатор користувача поточного процесу EUID
 
 ### Опис
 
-**posix_geteuid**(): int
+```methodsynopsis
+posix_geteuid(): int
+```
 
-Повертає число, що відповідає ефективному ідентифікатору
-користувача поточного процесу. Подивіться функцію
-[posix_getpwuid()](function.posix-getpwuid.md) для отримання
-інформації як перетворити це число на ім'я користувача.
+Повертає число, яке відповідає ефективному ідентифікатору користувача поточного процесу. Подивіться функцію [posixgetpwuid()](function.posix-getpwuid.md) для отримання інформації, як перетворити дане число в ім'я користувача.
 
 ### Список параметрів
 
@@ -32,25 +30,23 @@ posix_geteuid — Повертає ефективний ідентифікато
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_geteuid()****
+**Приклад #1 Приклад використання **posixgeteuid()****
 
-Цей приклад виводить ID поточного користувача, потім встановлює
-значення для ефективного ідентифікатора користувача за допомогою функції
-[posix_seteuid()](function.posix-seteuid.md), і показує різницю
-між дійсним та ефективним ідентифікаторами користувача.
+Даний приклад виводить ID поточного користувача, потім встановлює значення ефективного ідентифікатора користувача, використовуючи функцію [posixseteuid()](function.posix-seteuid.md), і показує різницю між дійсним та ефективним ідентифікаторами користувача.
 
-` <?phpecho posix_getuid()."
-"; //10001echo posix_geteuid()."
-"; //10001posix_seteuid(10000);echo posix_getuid()."
-"; //10001echo posix_geteuid()."
-"; //10000?> `
+```php
+<?php
+echo posix_getuid()."\n"; //10001
+echo posix_geteuid()."\n"; //10001
+posix_seteuid(10000);
+echo posix_getuid()."\n"; //10001
+echo posix_geteuid()."\n"; //10000
+?>
+```
 
 ### Дивіться також
 
-- [posix_getpwuid()](function.posix-getpwuid.md) - Повертає
-інформацію про користувача, використовуючи його ID
-- [posix_getuid()](function.posix-getuid.md) - Повертає
-фактичний ідентифікатор користувача поточного процесу UID
-- [posix_setuid()](function.posix-setuid.md) - Встановлює UID
-поточного процесу
-- POSIX керівництво GETEUID(2)
+-   [posixgetpwuid()](function.posix-getpwuid.md) - Повертає інформацію про користувача, використовуючи його ID
+-   [posixgetuid()](function.posix-getuid.md) - Повертає фактичний ідентифікатор користувача поточного процесу UID
+-   [posixsetuid()](function.posix-setuid.md) - Встановлює UID поточного процесу
+-   POSIX керівництво GETEUID(2)

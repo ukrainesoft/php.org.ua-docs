@@ -1,22 +1,24 @@
-- [«posix_getpid](function.posix-getpid.md)
-- [posix_getpwnam »](function.posix-getpwnam.md)
-
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає ідентифікатор батьківського процесу
-
-#posix_getppid
+---
+navigation:
+  - function.posix-getpid.md: « posixgetpid
+  - function.posix-getpwnam.md: posixgetpwnam »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetppid
+---
+# posixgetppid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getppid — Повертає ідентифікатор батьківського процесу
+posixgetppid — Повертає ідентифікатор батьківського процесу
 
 ### Опис
 
-**posix_getppid**(): int
+```methodsynopsis
+posix_getppid(): int
+```
 
-Повертає ідентифікатор батьківського процесу стосовно поточного
-процесу.
+Повертає ідентифікатор батьківського процесу стосовно поточного процесу.
 
 ### Список параметрів
 
@@ -28,6 +30,10 @@ posix_getppid — Повертає ідентифікатор батьківсь
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getppid()****
+**Приклад #1 Приклад використання **posixgetppid()****
 
-`<?phpecho posix_getppid(); // 8259?> `
+```php
+<?php
+echo posix_getppid(); //8259
+?>
+```

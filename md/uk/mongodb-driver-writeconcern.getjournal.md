@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\WriteConcern::\_\_construct](mongodb-driver-writeconcern.construct.md)
-- [MongoDB\Driver\WriteConcern::getW »](mongodb-driver-writeconcern.getw.md)
+---
+navigation:
+  - mongodb-driver-writeconcern.construct.md: '« MongoDBDriverWriteConcern::construct'
+  - mongodb-driver-writeconcern.getw.md: 'MongoDBDriverWriteConcern::getW »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::getJournal'
+---
+# MongoDBDriverWriteConcern::getJournal
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- Повертає опцію "journal" WriteConcern
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\WriteConcern::getJournal
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\WriteConcern::getJournal - Повертає опцію "journal"
-WriteConcern
+MongoDBDriverWriteConcern::getJournal - Повертає опцію "journal" WriteConcern
 
 ### Опис
 
-final public **MongoDB\Driver\WriteConcern::getJournal**(): ?bool
+```methodsynopsis
+final public MongoDB\Driver\WriteConcern::getJournal(): ?bool
+```
 
 ### Список параметрів
 
@@ -26,22 +28,35 @@ final public **MongoDB\Driver\WriteConcern::getJournal**(): ?bool
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteConcern::getJournal()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteConcern::getJournal()****
 
-` <?php$wc = new MongoDB\Driver\WriteConcern(1);var_dump($wc->getJournal());$wc = new MongoDB\Driver\WriteConcern(1, 0, true);var_dump$ >getJournal());$wc = new MongoDB\Driver\WriteConcern(1, 0, false);var_dump($wc->getJournal());?> `
+```php
+<?php
+
+$wc = new MongoDB\Driver\WriteConcern(1);
+var_dump($wc->getJournal());
+
+$wc = new MongoDB\Driver\WriteConcern(1, 0, true);
+var_dump($wc->getJournal());
+
+$wc = new MongoDB\Driver\WriteConcern(1, 0, false);
+var_dump($wc->getJournal());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [»Керівництво по гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

@@ -1,19 +1,22 @@
-- [«UI\Controls\ColorButton](class.ui-controls-colorbutton.md)
-- [UI\Controls\ColorButton::onChange »](ui-controls-colorbutton.onchange.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\ColorButton](class.ui-controls-colorbutton.md)
-- Отримати об'єкт Color
-
-# UI\Controls\ColorButton::getColor
+---
+navigation:
+  - class.ui-controls-colorbutton.md: « UIControlsColorButton
+  - ui-controls-colorbutton.onchange.md: 'ОЙControlsColorButton::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-colorbutton.md: ОЙControlsColorButton
+title: 'ОЙControlsColorButton::getColor'
+---
+# ОЙControlsColorButton::getColor
 
 (UI 0.9.9)
 
-UI\Controls\ColorButton::getColor — Отримати об'єкт Color
+ОЙControlsColorButton::getColor — Отримати об'єкт Color
 
 ### Опис
 
-public **UI\Controls\ColorButton::getColor**(): UI\Color
+```methodsynopsis
+public UI\Controls\ColorButton::getColor(): UI\Color
+```
 
 Отримати поточний вибраний об'єкт Color
 

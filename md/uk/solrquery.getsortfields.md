@@ -1,19 +1,22 @@
-- [«SolrQuery::getRows](solrquery.getrows.md)
-- [SolrQuery::getStart »](solrquery.getstart.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі поля сортування
-
+---
+navigation:
+  - solrquery.getrows.md: '« SolrQuery::getRows'
+  - solrquery.getstart.md: 'SolrQuery::getStart »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getSortFields'
+---
 # SolrQuery::getSortFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getSortFields — Повертає всі поля сортування
 
 ### Опис
 
-public **SolrQuery::getSortFields**(): array
+```methodsynopsis
+public SolrQuery::getSortFields(): array
+```
 
 Повертає всі поля сортування
 
@@ -23,5 +26,4 @@ public **SolrQuery::getSortFields**(): array
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив і **`null`**, якщо не
-один із параметрів не було встановлено.
+У разі успішного виконання повертає масив та **`null`**, якщо жодного з параметрів не було встановлено.

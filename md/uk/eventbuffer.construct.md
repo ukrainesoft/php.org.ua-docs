@@ -1,19 +1,23 @@
-- [«EventBuffer::appendFrom](eventbuffer.appendfrom.md)
-- [EventBuffer::copyout »](eventbuffer.copyout.md)
+---
+navigation:
+  - eventbuffer.appendfrom.md: '« EventBuffer::appendFrom'
+  - eventbuffer.copyout.md: 'EventBuffer::copyout »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::construct'
+---
+# EventBuffer::construct
 
-- [PHP Manual](index.md)
-- [EventBuffer](class.eventbuffer.md)
-- Створює об'єкт EventBuffer
+(PECL event >= 1.2.6-beta)
 
-# EventBuffer::\_\_construct
-
-(PECL event \>= 1.2.6-beta)
-
-EventBuffer::\_\_construct — Створює об'єкт EventBuffer
+EventBuffer::construct — Створює об'єкт EventBuffer
 
 ### Опис
 
-public **EventBuffer::\_\_construct**()
+```methodsynopsis
+public
+   EventBuffer::__construct()
+```
 
 Створює об'єкт EventBuffer
 

@@ -1,24 +1,26 @@
-- [« UConverter::getSourceEncoding](uconverter.getsourceencoding.md)
-- [UConverter::getStandards »](uconverter.getstandards.md)
-
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати тип конвертера джерела
-
+---
+navigation:
+  - uconverter.getsourceencoding.md: '« UConverter::getSourceEncoding'
+  - uconverter.getstandards.md: 'UConverter::getStandards »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::getSourceType'
+---
 # UConverter::getSourceType
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 UConverter::getSourceType — Отримати тип конвертера джерела
 
 ### Опис
 
-public **UConverter::getSourceType**(): int\|false\|null
+```methodsynopsis
+public UConverter::getSourceType(): int|false|null
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

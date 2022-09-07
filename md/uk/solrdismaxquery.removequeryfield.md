@@ -1,31 +1,31 @@
-- [« SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md)
-- [SolrDisMaxQuery::removeTrigramPhraseField »](solrdismaxquery.removetrigramphrasefield.md)
-
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Видаляє поле запиту (параметр qf)
-
-# SolrDisMaxQuery::removeQueryField
+---
+navigation:
+  - solrdismaxquery.removephrasefield.md: '« SolrDisMaxQuery::removePhraseField'
+  - solrdismaxquery.removetrigramphrasefield.md: 'SolrDisMaxQuery::removeTrigramPhraseField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::remove Query Field'
+---
+# Solr DisMax Query::remove Query Field
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::removeQueryField — Видаляє поле запиту (параметр qf)
+SolrDisMaxQuery::removeQueryField — Видалення поля запиту (параметр qf)
 
 ### Опис
 
-public **SolrDisMaxQuery::removeQueryField**(string `$field`):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::removeQueryField(string $field): SolrDisMaxQuery
+```
 
-Видаляє поле запиту (параметр qf) зі списку полів, доданих з
-допомогою
-[SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md)
+Видаляє поле запиту (параметр qf) зі списку полів, доданих за допомогою [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md)
 
-qf: При створенні DisjunctionMaxQueries з запиту користувача він
-вказує поля для пошуку та збільшує їх кількість.
+qf: При створенні DisjunctionMaxQueries з запиту користувача він вказує поля для пошуку і збільшує їх кількість.
 
 ### Список параметрів
 
 `field`
+
 Ім'я поля
 
 ### Значення, що повертаються
@@ -34,17 +34,29 @@ qf: При створенні DisjunctionMaxQueries з запиту корист
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrDisMaxQuery::removeQueryField()****
+**Приклад #1 Приклад використання **Solr DisMax Query::remove Query Field()****
 
-`<?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery    ->ad|Qued| PHP_EOL;//  видаліть поле 'second'echo $dismaxQuery->removeQueryField('second');?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery
+    ->addQueryField('first', 3)
+    ->addQueryField('second', 0.2)
+    ->addQueryField('cat');
+echo $dismaxQuery . PHP_EOL;
+// удалите поле 'second'
+echo $dismaxQuery->removeQueryField('second');
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 q=lucene&defType=edismax&qf=first^3 second^0.2 cat
 q=lucene&defType=edismax&qf=first^3 cat
+```
 
 ### Дивіться також
 
-- [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md) -
-Додає поле запиту з необов'язковим збільшенням (параметр qf)
+-   [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md) - Додає поле запиту із необов'язковим підвищенням (параметр qf)

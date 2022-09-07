@@ -1,19 +1,22 @@
-- [«SolrClient::system](solrclient.system.md)
-- [SolrResponse »](class.solrresponse.md)
-
-- [PHP Manual](index.md)
-- [SolrClient](class.solrclient.md)
-- Перевіряє статус тем
-
+---
+navigation:
+  - solrclient.system.md: '« SolrClient::system'
+  - class.solrresponse.md: SolrResponse »
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::threads'
+---
 # SolrClient::threads
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrClient::threads — Перевіряє статус тем
 
 ### Опис
 
-public **SolrClient::threads**(): void
+```methodsynopsis
+public SolrClient::threads(): void
+```
 
 Перевіряє статус тем
 
@@ -27,8 +30,6 @@ public **SolrClient::threads**(): void
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.md), якщо
-клієнт відмовив чи виникла проблема із підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.md), якщо
-сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.

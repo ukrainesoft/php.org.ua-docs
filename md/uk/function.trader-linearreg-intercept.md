@@ -1,30 +1,33 @@
-- [« trader_linearreg_angle](function.trader-linearreg-angle.md)
-- [trader_linearreg_slope »](function.trader-linearreg-slope.md)
+---
+navigation:
+  - function.trader-linearreg-angle.md: « traderlinearregangle
+  - function.trader-linearreg-slope.md: traderlinearregslope »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderlinearregintercept
+---
+# traderlinearregintercept
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- перехоплення лінійної регресії
+(PECL trader >= 0.2.0)
 
-#trader_linearreg_intercept
-
-(PECL trader \>= 0.2.0)
-
-trader_linearreg_intercept - Перехоплення лінійної регресії
+traderlinearregintercept - Перехоплення лінійної регресії
 
 ### Опис
 
-**trader_linearreg_intercept**(array `$real`, int `$timePeriod` = ?):
-array
+```methodsynopsis
+trader_linearreg_intercept(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

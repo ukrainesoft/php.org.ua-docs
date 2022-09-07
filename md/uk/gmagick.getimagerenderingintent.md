@@ -1,19 +1,22 @@
-- [« Gmagick::getimageredprimary](gmagick.getimageredprimary.md)
-- [Gmagick::getimageresolution »](gmagick.getimageresolution.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує мету рендерингу зображення
-
+---
+navigation:
+  - gmagick.getimageredprimary.md: '« Gmagick::getimageredprimary'
+  - gmagick.getimageresolution.md: 'Gmagick::getimageresolution »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagerenderingintent'
+---
 # Gmagick::getimagerenderingintent
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagerenderingintent — Отримує мету візуалізації зображення
+Gmagick::getimagerenderingintent — Отримує мету рендерингу зображення
 
 ### Опис
 
-public **Gmagick::getimagerenderingintent**(): int
+```methodsynopsis
+public Gmagick::getimagerenderingintent(): int
+```
 
 Отримує мету рендерингу зображення
 

@@ -1,19 +1,22 @@
-- [« GearmanJob::status](gearmanjob.status.md)
-- [GearmanJob::warning »](gearmanjob.warning.md)
-
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Отримання унікального ідентифікатора
-
+---
+navigation:
+  - gearmanjob.status.md: '« GearmanJob::status'
+  - gearmanjob.warning.md: 'GearmanJob::warning »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::unique'
+---
 # GearmanJob::unique
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanJob::unique — Отримання унікального ідентифікатора
 
 ### Опис
 
-public **GearmanJob::unique**(): string
+```methodsynopsis
+public GearmanJob::unique(): string
+```
 
 Повертає унікальний ідентифікатор завдання, наданий клієнтом.
 
@@ -27,7 +30,5 @@ public **GearmanJob::unique**(): string
 
 ### Дивіться також
 
-- [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання
-і повертає результат [Застарілий метод]
-- [GearmanTask::uuid()](gearmantask.uuid.md) - Отримання унікального
-ідентифікатора задачі (застарілий метод)
+-   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanTask::uuid()](gearmantask.uuid.md) - отримання унікального ідентифікатора завдання (застарілий метод)

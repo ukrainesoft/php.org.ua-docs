@@ -1,26 +1,24 @@
-- [« Memcached::get](memcached.get.md)
-- [Memcached::getByKey »](memcached.getbykey.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Отримує всі ключі, що зберігаються на серверах
-
+---
+navigation:
+  - memcached.get.md: '« Memcached::get'
+  - memcached.getbykey.md: 'Memcached::getByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getAllKeys'
+---
 # Memcached::getAllKeys
 
-(PECL memcached \>= 2.0.0)
+(PECL memcached >= 2.0.0)
 
 Memcached::getAllKeys — Отримує всі ключі, що зберігаються на серверах
 
 ### Опис
 
-public **Memcached::getAllKeys**(): array\|false
+```methodsynopsis
+public Memcached::getAllKeys(): array|false
+```
 
-**Memcached::getAllKeys()** відправляє запит на кожен сервер та
-отримує масив всіх ключів, що зберігаються на ньому на даний момент. Це не
-атомарна операція, так що це не по-справжньому несуперечливий знімок
-ключів на даний момент часу. Memcache не може гарантувати повернення
-всіх ключів, ви також не можете покладатися на те, що всі ключі були
-повернуто.
+**Memcached::getAllKeys()** відправляє запит на кожен сервер і отримує масив усіх ключів, що зберігаються на ньому в даний момент. Це не атомарна операція, тому це не по-справжньому несуперечливий знімок ключів в даний момент часу. Memcache не може гарантувати повернення всіх ключів, ви також не можете покладатися на те, що всі ключі повернуто.
 
 ### Список параметрів
 
@@ -28,5 +26,4 @@ public **Memcached::getAllKeys**(): array\|false
 
 ### Значення, що повертаються
 
-Повертає список ключів, що зберігаються на всіх серверах у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Повертає список ключів, що зберігаються на всіх серверах у разі успішного виконання або **`false`** у разі виникнення помилки.

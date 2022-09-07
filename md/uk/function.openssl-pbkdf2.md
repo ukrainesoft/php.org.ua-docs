@@ -1,65 +1,68 @@
-- [«openssl_open](function.openssl-open.md)
-- [openssl_pkcs12_export_to_file »](function.openssl-pkcs12-export-to-file.md)
+---
+navigation:
+  - function.openssl-open.md: « opensslopen
+  - function.openssl-pkcs12-export-to-file.md: opensslpkcs12exportтоfile »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpbkdf2
+---
+# opensslpbkdf2
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Генерує рядки PKCS5 v2 PBKDF2
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-# openssl_pbkdf2
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-openssl_pbkdf2 — Генерує рядки PKCS5 v2 PBKDF2
+opensslpbkdf2 — Генерує рядки PKCS5 v2 PBKDF2
 
 ### Опис
 
-**openssl_pbkdf2**(
-string `$password`,
-string `$salt`,
-int `$key_length`,
-int `$iterations`,
-string `$digest_algo` = "sha1"
-): string\|false
+```methodsynopsis
+openssl_pbkdf2(    string $password,    string $salt,    int $key_length,    int $iterations,    string $digest_algo = "sha1"): string|false
+```
 
-**openssl_pbkdf2()** обчислює PBKDF2 (Password-Based Key Derivation
-Function 2), функцію деривації ключа, визначену PKCS5 v2.
+**opensslpbkdf2()** обчислює PBKDF2 (Password-Based Key Derivation Function 2), функцію деривації ключа, визначену в PKCS5 v2.
 
 ### Список параметрів
 
 `password`
+
 Пароль, з якого буде згенеровано ключ.
 
 `salt`
-PBKDF2 рекомендує використовувати криптографічну сіль як мінімум 64
-біта (8 байт) завдовжки.
+
+PBKDF2 рекомендує використовувати криптографічну сіль як мінімум 64 біти (8 байт) завдовжки.
 
 `key_length`
-Довжина ключа, що генерується.
+
+Довжина генерованого ключа.
 
 `iterations`
-Кількість ітерацій. [» NIST рекомендує як мінімум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5).
+
+Кількість ітерацій . [» NIST рекомендует как минимум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5)
 
 `digest_algo`
-Опціональний алгоритм хешування отриманий з
-[openssl_get_md_methods()](function.openssl-get-md-methods.md). за
-замовчуванням SHA-1.
+
+Опціональний алгоритм хешування отриманий з [opensslgetмдmethods()](function.openssl-get-md-methods.md). Типово SHA-1.
 
 ### Значення, що повертаються
 
-Повертає необроблений бінарний рядок або **`false`** у разі
-виникнення помилки.
+Повертає необроблений бінарний рядок або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання openssl_pbkdf2()**
+**Приклад #1 Приклад використання opensslpbkdf2()**
 
-`<?php$password = 'yOuR-pAs5w0rd-hERe';$salt = openssl_random_pseudo_bytes(12);$keyLength = 40;$iterations = 10000;$generated_key $ $ 'sha256');echo bin2hex($generated_key)."
-";echo base64_encode($generated_key)."
-";?> `
+```php
+<?php
+$password = 'yOuR-pAs5w0rd-hERe';
+$salt = openssl_random_pseudo_bytes(12);
+$keyLength = 40;
+$iterations = 10000;
+$generated_key = openssl_pbkdf2($password, $salt, $keyLength, $iterations, 'sha256');
+echo bin2hex($generated_key)."\n";
+echo base64_encode($generated_key)."\n";
+?>
+```
 
 ### Дивіться також
 
-- [hash_pbkdf2()](function.hash-pbkdf2.md) - Формування ключа
-PBKDF2 для заданих вхідних даних
-- [openssl_get_md_methods()](function.openssl-get-md-methods.md) -
-Отримати список доступних методів хешування
+-   [hashpbkdf2()](function.hash-pbkdf2.md) - Формування ключа PBKDF2 для заданих вхідних даних
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування

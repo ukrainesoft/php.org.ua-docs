@@ -1,26 +1,26 @@
-- [« IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md)
-- [IntlTimeZone »](class.intltimezone.md)
-
-- [PHP Manual](index.md)
-- [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-- Встановлює дату зміни у григоріанському календарі
-
+---
+navigation:
+  - intlgregoriancalendar.isleapyear.md: '« IntlGregorianCalendar::isLeapYear'
+  - class.intltimezone.md: IntlTimeZone »
+  - index.md: PHP Manual
+  - class.intlgregoriancalendar.md: IntlGregorianCalendar
+title: 'IntlGregorianCalendar::setGregorianChange'
+---
 # IntlGregorianCalendar::setGregorianChange
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlGregorianCalendar::setGregorianChange — Встановлює дату зміни
-у григоріанському календарі
+IntlGregorianCalendar::setGregorianChange — Встановлює дату зміни у григоріанському календарі
 
 ### Опис
 
-public **IntlGregorianCalendar::setGregorianChange**(float
-`$timestamp`): bool
+```methodsynopsis
+public IntlGregorianCalendar::setGregorianChange(float $timestamp): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,5 +28,4 @@ public **IntlGregorianCalendar::setGregorianChange**(float
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,53 +1,64 @@
-- [«gmp_sub](function.gmp-sub.md)
-- [gmp_xor »](function.gmp-xor.md)
+---
+navigation:
+  - function.gmp-sub.md: « gmpsub
+  - function.gmp-xor.md: gmpxor »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmptestbit
+---
+# gmptestbit
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Перевірка, чи біт в 1
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-#gmp_testbit
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-gmp_testbit — Перевірте, чи встановлено біт в 1
+gmptestbit — Перевірка, чи біт 1
 
 ### Опис
 
-**gmp_testbit**([GMP](class.gmp.md)\|int\|string `$num`, int
-`$index`): bool
+```methodsynopsis
+gmp_testbit(GMP|int|string $num, int $index): bool
+```
 
 Перевіряє, чи встановлено заданий біт 1.
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `index`
+
 Перевірений біт
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо біт встановлений у `num`, інакше **`false`**.
+Повертає \*\*`true`\*\*якщо біт встановлено в `num`інакше **`false`**
 
 ### Помилки
 
-Викидається помилка рівня **`E_WARNING`**, якщо `index` менше нуля, та
-повертається **`false`**.
+Викидається помилка рівня **`E_WARNING`**, якщо `index` менше нуля, і повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_testbit()****
+**Приклад #1 Приклад використання **gmptestbit()****
 
-` <?php$n = gmp_init("1000000");var_dump(gmp_testbit($n, 1));gmp_setbit($n, 1);var_dump(gmp_testbit($n, 1));?> `
+```php
+<?php
+$n = gmp_init("1000000");
+var_dump(gmp_testbit($n, 1));
+gmp_setbit($n, 1);
+var_dump(gmp_testbit($n, 1));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [gmp_setbit()](function.gmp-setbit.md) - Встановлення біта
-- [gmp_clrbit()](function.gmp-clrbit.md) - Скидання біта
+-   [gmpsetbit()](function.gmp-setbit.md) - Встановлення біта
+-   [gmpclrbit()](function.gmp-clrbit.md) - Скидання біта

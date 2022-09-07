@@ -1,11 +1,11 @@
-- [« Налаштування під час виконання](imap.configuration.md)
-- [Предвизначені константи »](imap.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](imap.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - imap.configuration.md: « Налаштування під час виконання
+  - imap.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - imap.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-До PHP 8.1.0, ресурс `imap`, що повертається функцією
-[imap_open()](function.imap-open.md) посилався на відкритий потік IMAP.
+До PHP 8.1.0, ресурс `imap`, що повертається функцією [imapopen()](function.imap-open.md)посилався на відкритий потік IMAP.

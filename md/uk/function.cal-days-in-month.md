@@ -1,33 +1,37 @@
-- [«Календарь](ref.calendar.md)
-- [cal_from_jd »](function.cal-from-jd.md)
+---
+navigation:
+  - ref.calendar.md: « Календарь
+  - function.cal-from-jd.md: calfromjd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: caldaysінmonth
+---
+# caldaysінmonth
 
-- [PHP Manual](index.md)
-- [Календарь](ref.calendar.md)
-- Повертає кількість днів на місяць для заданого року та календаря
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-#cal_days_in_month
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-cal_days_in_month — Повертає кількість днів на місяць для заданого
-року та календаря
+caldaysінmonth — Повертає кількість днів на місяць для заданого року та календаря
 
 ### Опис
 
-**cal_days_in_month**(int `$calendar`, int `$month`, int `$year`): int
+```methodsynopsis
+cal_days_in_month(int $calendar, int $month, int $year): int
+```
 
-Ця функція повертає кількість днів на місяць `month` року `year` для
-заданого календаря `calendar`.
+Ця функція повертає кількість днів на місяць `month` року `year` для заданого календаря `calendar`
 
 ### Список параметрів
 
 `calendar`
+
 Календар для обчислення
 
 `month`
+
 Місяць у вибраному календарі
 
 `year`
+
 Рік у вибраному календарі
 
 ### Значення, що повертаються
@@ -36,6 +40,11 @@ cal_days_in_month — Повертає кількість днів на міся
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cal_days_in_month()****
+**Приклад #1 Приклад використання **caldaysінmonth()****
 
-`<?php$number = cal_days_in_month(CAL_GREGORIAN, 8, 2003); // 31echo "Усього {$number} днів в Серпні 2003 року";?> `
+```php
+<?php
+$number = cal_days_in_month(CAL_GREGORIAN, 8, 2003); // 31
+echo "Всего {$number} дней в Августе 2003 года";
+?>
+```

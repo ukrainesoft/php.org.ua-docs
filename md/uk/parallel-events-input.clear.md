@@ -1,18 +1,19 @@
-- [« parallel\Events\Input::add](parallel-events-input.add.md)
-- [parallel\Events\Input::remove »](parallel-events-input.remove.md)
+---
+navigation:
+  - parallel-events-input.add.md: '« parallelEventsInput::add'
+  - parallel-events-input.remove.md: 'parallelEventsInput::remove »'
+  - index.md: PHP Manual
+  - class.parallel-events-input.md: parallelEventsInput
+title: 'parallelEventsInput::clear'
+---
+# parallelEventsInput::clear
 
-- [PHP Manual](index.md)
-- [parallel\Events\Input](class.parallel-events-input.md)
-- Входи
-
-# parallel\Events\Input::clear
-
-(0.9.0)
-
-parallel\Events\Input::clear — Вхід
+parallelEventsInput::clear — Вхід
 
 ### Опис
 
-public **parallel\Events\Input::clear**(): void
+```methodsynopsis
+public parallel\Events\Input::clear(): void
+```
 
 Видаляє введення для всіх цілей

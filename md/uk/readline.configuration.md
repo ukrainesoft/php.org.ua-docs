@@ -1,25 +1,28 @@
-- [« Установка](readline.installation.md)
-- [Типи ресурсів»](readline.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](readline.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - readline.installation.md: « Установка
+  - readline.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - readline.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
-
-| Ім'я За замовчуванням                                  | Місце зміни | Список змін |
-| ------------------------------------------------------ | ----------- | ----------- |
-| [cli.pager](readline.configuration.md#ini.cli.pager)   | ""          | PHP_INI_ALL |
-| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "\\\>"      | PHP_INI_ALL |
+Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Readline**
+
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [cli.pager](readline.configuration.md#ini.cli.pager) | "" | PHPINIALL |  |
+| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "в > " | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 
 `cli.pager` string
-Зовнішня утиліта для відображення виведення в [командну рядок](features.commandline.md).
+
+Зовнішня утиліта для відображення висновку в [командную строку](features.commandline.md)
 
 `cli.prompt` string
-Підказка [командного рядка](features.commandline.md).
+
+Підказка [командного рядка](features.commandline.md)

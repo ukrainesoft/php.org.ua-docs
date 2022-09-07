@@ -1,21 +1,22 @@
-- [« Swoole\Process::start](swoole-process.start.md)
-- [Swoole\Process::useQueue »](swoole-process.usequeue.md)
+---
+navigation:
+  - swoole-process.start.md: '« SwooleProcess::start'
+  - swoole-process.usequeue.md: 'SwooleProcess::useQueue »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::statQueue'
+---
+# SwooleProcess::statQueue
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Отримує статистику черги повідомлень, що використовується як
-методу зв'язку між процесами
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::statQueue
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::statQueue — Отримує статистику черги повідомлень,
-використовується як метод зв'язку між процесами
+SwooleProcess::statQueue — Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
 
 ### Опис
 
-public **Swoole\Process::statQueue**(): array
+```methodsynopsis
+public Swoole\Process::statQueue(): array
+```
 
 ### Список параметрів
 

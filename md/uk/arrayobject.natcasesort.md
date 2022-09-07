@@ -1,35 +1,30 @@
-- [« ArrayObject::ksort](arrayobject.ksort.md)
-- [ArrayObject::natsort »](arrayobject.natsort.md)
-
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Сортувати масив, використовуючи реєстронезалежний алгоритм "natural"
-order"
-
+---
+navigation:
+  - arrayobject.ksort.md: '« ArrayObject::ksort'
+  - arrayobject.natsort.md: 'ArrayObject::natsort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::natcasesort'
+---
 # ArrayObject::natcasesort
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ArrayObject::natcasesort — Сортувати за допомогою масиву
-реєстронезалежний алгоритм "natural order"
+ArrayObject::natcasesort — Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
 
 ### Опис
 
-public **ArrayObject::natcasesort**(): bool
+```methodsynopsis
+public ArrayObject::natcasesort(): bool
+```
 
-Цей метод є реєстронезалежною версією
-[ArrayObject::natsort](arrayobject.natsort.md).
+Цей метод є реєстронезалежною версією [ArrayObject::natsort](arrayobject.natsort.md)
 
-Цей метод реалізує алгоритм сортування, за якого порядок
-буквено-цифрових рядків буде звичним для людини, зберігаючи при цьому
-зв'язок ключ/значення. Такий алгоритм називається "природний порядок"
-(Natural ordering).
+Цей метод реалізує алгоритм сортування, при якому порядок літерно-цифрових рядків буде звичним для людини, зберігаючи при цьому ключ/значення. Такий алгоритм називається "природний порядок" (natural ordering).
 
-> **Примітка**:
->
-> Якщо обидва порівнювані значення еквівалентні, вони зберігають свій
-> Початковий порядок. До PHP 8.0.0 їх відносний порядок
-> відсортованому масиві був визначений.
+> **Зауваження**
+> 
+> Якщо обидва порівнювані значення еквівалентні, вони зберігають свій початковий порядок. До PHP 8.0.0 їх відносний порядок у відсортованому масиві не було визначено.
 
 ### Список параметрів
 
@@ -43,50 +38,56 @@ public **ArrayObject::natcasesort**(): bool
 
 **Приклад #1 Приклад використання **ArrayObject::natcasesort()****
 
-` <?php$array = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');$arr1 = new ArrayObject($array);$arr2 = clone $arr1;$arr1->asort();echo "Стандартне сортування
-";print_r($arr1);$arr2->natcasesort();echo "
-Сортування в природному порядку (без обліку реєстру)
-";print_r($arr2);?> `
+```php
+<?php
+$array = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
+
+$arr1 = new ArrayObject($array);
+$arr2 = clone $arr1;
+
+$arr1->asort();
+echo "Стандартная сортировка\n";
+print_r($arr1);
+
+$arr2->natcasesort();
+echo "\nСортировка в естественном порядке (без учёта регистра)\n";
+print_r($arr2);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Стандартне сортування
+```
+Стандартная сортировка
 ArrayObject Object
 (
-[0] => IMG0.png
-[5] => IMG3.png
-[4] => img1.png
-[2] => img10.png
-[1] => img12.png
-[3] => img2.png
+    [0] => IMG0.png
+    [5] => IMG3.png
+    [4] => img1.png
+    [2] => img10.png
+    [1] => img12.png
+    [3] => img2.png
 )
 
-Сортування в природному порядку (без урахування регістру)
+Сортировка в естественном порядке (без учёта регистра)
 ArrayObject Object
 (
-[0] => IMG0.png
-[4] => img1.png
-[3] => img2.png
-[5] => IMG3.png
-[2] => img10.png
-[1] => img12.png
+    [0] => IMG0.png
+    [4] => img1.png
+    [3] => img2.png
+    [5] => IMG3.png
+    [2] => img10.png
+    [1] => img12.png
 )
+```
 
-Докладніше дивіться сторінку Мартіна Пула (Martin
-Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort).
+Для більш детальної інформації дивіться сторінку Мартіна Пула (Martin Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Дивіться також
 
-- [ArrayObject::asort()](arrayobject.asort.md) - Сортувати записи
-за значенням
-- [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи
-за ключами
-- [ArrayObject::natsort()](arrayobject.natsort.md) - Сортувати
-масив, використовуючи алгоритм "natural order"
-- [ArrayObject::uasort()](arrayobject.uasort.md) - Сортувати
-записи, використовуючи функцію користувача для порівняння елементів і
-зберігаючи при цьому зв'язок ключ/значення
-- [ArrayObject::uksort()](arrayobject.uksort.md) - Сортувати
-масив за ключами, використовуючи користувальницьку функцію для порівняння
-- [natcasesort()](function.natcasesort.md) - Сортує масив,
-використовуючи алгоритм "natural order" без урахування регістру символів
+-   [ArrayObject::asort()](arrayobject.asort.md) - Сортувати записи за значенням
+-   [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи за ключами
+-   [ArrayObject::natsort()](arrayobject.natsort.md) - Сортувати масив, використовуючи алгоритм "natural order"
+-   [ArrayObject::uasort()](arrayobject.uasort.md) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
+-   [ArrayObject::uksort()](arrayobject.uksort.md) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+-   [natcasesort()](function.natcasesort.md) - Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів

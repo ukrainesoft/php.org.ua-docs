@@ -1,20 +1,22 @@
-- [« Swoole\Http\Client::execute](swoole-http-client.execute.md)
-- [Swoole\Http\Client::isConnected »](swoole-http-client.isconnected.md)
+---
+navigation:
+  - swoole-http-client.execute.md: '« SwooleHttpClient::execute'
+  - swoole-http-client.isconnected.md: 'SwooleHttpClient::isConnected »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::get'
+---
+# SwooleHttpClient::get
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Надсилає HTTP-запит GET на віддалений сервер
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::get
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::get — Надсилає HTTP-запит GET на віддалений сервер
+SwooleHttpClient::get — Надсилає HTTP-запит GET на віддалений сервер
 
 ### Опис
 
-public **Swoole\Http\Client::get**(string `$path`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Http\Client::get(string $path, callable $callback): void
+```
 
 ### Список параметрів
 

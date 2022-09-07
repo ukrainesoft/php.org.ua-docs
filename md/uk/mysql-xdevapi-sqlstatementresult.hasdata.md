@@ -1,10 +1,11 @@
-- [« SqlStatementResult::getWarningsCount](mysql-xdevapi-sqlstatementresult.getwarningcount.md)
-- [SqlStatementResult::nextResult »](mysql-xdevapi-sqlstatementresult.nextresult.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)
-- Перевіряє, чи є у результату дані
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getwarningcount.md: '« SqlStatementResult::getWarningsCount'
+  - mysql-xdevapi-sqlstatementresult.nextresult.md: 'SqlStatementResult::nextResult »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::hasData'
+---
 # SqlStatementResult::hasData
 
 (No version information available, might only be in Git)
@@ -13,12 +14,13 @@ SqlStatementResult::hasData — Перевіряє, чи є у результа�
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatementResult::hasData**(): bool
+```methodsynopsis
+public mysql_xdevapi\SqlStatementResult::hasData(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,11 +28,16 @@ public **mysql_xdevapi\SqlStatementResult::hasData**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо у наборі результатів є дані.
+\*\*`true`\*\*якщо в наборі результатів є дані.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatementResult::hasData()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::hasData()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

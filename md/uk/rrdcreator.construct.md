@@ -1,33 +1,33 @@
-- [« RRDCreator::addDataSource](rrdcreator.adddatasource.md)
-- [RRDCreator::save »](rrdcreator.save.md)
+---
+navigation:
+  - rrdcreator.adddatasource.md: '« RRDCreator::addDataSource'
+  - rrdcreator.save.md: 'RRDCreator::save »'
+  - index.md: PHP Manual
+  - class.rrdcreator.md: RRDCreator
+title: 'RRDCreator::construct'
+---
+# RRDCreator::construct
 
-- [PHP Manual](index.md)
-- [RRDCreator](class.rrdcreator.md)
-- Створює новий екземпляр RRDCreator
+(PECL rrd >= 0.9.0)
 
-# RRDCreator::\_\_construct
-
-(PECL rrd \>= 0.9.0)
-
-RRDCreator::\_\_construct — Створює новий екземпляр
-[RRDCreator](class.rrdcreator.md)
+RRDCreator::construct — Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 
 ### Опис
 
-public **RRDCreator::\_\_construct**(string `$path`, string `$startTime`
-= ?, int `$step` = 0)
+public **RRDCreator::construct**(string `$path`, string `$startTime` =?, int `$step`
 
-Створює новий екземпляр [RRDCreator](class.rrdcreator.md).
+Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 
 ### Список параметрів
 
 `path`
-Дорога до створеного файлу бази даних RRD.
+
+Шлях до створеного файлу бази даних RRD.
 
 `startTime`
-Час для першого значення бази даних RRD. Параметр підтримує все
-формати, що підтримуються викликом rrd create.
+
+Час для першого значення бази даних RRD. Параметр підтримує всі формати, які підтримуються викликом rrd create.
 
 int`step`
-Базовий інтервал у секундах, з яким дані завантажуватимуться в базу
-даних RRD.
+
+Базовий інтервал у секундах, з яким дані завантажуватимуться в базу даних RRD.

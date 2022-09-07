@@ -1,10 +1,11 @@
-- [« Установка](csprng.installation.md)
-- [Типи ресурсів»](csprng.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](csprng.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - csprng.installation.md: « Установка
+  - csprng.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - csprng.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Цей модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

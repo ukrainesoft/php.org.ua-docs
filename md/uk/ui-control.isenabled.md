@@ -1,19 +1,22 @@
-- [«UI\Control::hide](ui-control.hide.md)
-- [UI\Control::isVisible »](ui-control.isvisible.md)
-
-- [PHP Manual](index.md)
-- [UI\Control](class.ui-control.md)
-- Визначити, чи включений елемент керування
-
-# UI\Control::isEnabled
+---
+navigation:
+  - ui-control.hide.md: '« UIControl::hide'
+  - ui-control.isvisible.md: 'ОЙControl::isVisible »'
+  - index.md: PHP Manual
+  - class.ui-control.md: ОЙControl
+title: 'ОЙControl::isEnabled'
+---
+# ОЙControl::isEnabled
 
 (UI 0.9.9)
 
-UI\Control::isEnabled — Визначити, чи увімкнено керуючий елемент
+ОЙControl::isEnabled — Визначити, чи увімкнено керуючий елемент
 
 ### Опис
 
-public **UI\Control::isEnabled**(): bool
+```methodsynopsis
+public UI\Control::isEnabled(): bool
+```
 
 Визначає, чи керуючий елемент включений
 

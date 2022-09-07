@@ -1,139 +1,164 @@
-- [« mysqli_stmt::attr_set](mysqli-stmt.attr-set.md)
-- [mysqli_stmt::bind_result »](mysqli-stmt.bind-result.md)
+---
+navigation:
+  - mysqli-stmt.attr-set.md: '« mysqlistmt::attrset'
+  - mysqli-stmt.bind-result.md: 'mysqlistmt::bindresult »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::bindparam'
+---
+# mysqlistmt::bindparam
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Прив'язка змінних до параметрів запиту
-
-# mysqli_stmt::bind_param
-
-# mysqli_stmt_bind_param
+# mysqlistmtbindparam
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::bind_param -- mysqli_stmt_bind_param -- Прив'язка змінних
-до параметрів запиту, що готується
+mysqlistmt::bindparam - mysqlistmtbindparam — Прив'язка змінних до параметрів запиту, що готується.
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::bind_param**(string `$types`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$var`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&...$vars`): bool
+```methodsynopsis
+public mysqli_stmt::bind_param(string $types, mixed &$var, mixed &...$vars): bool
+```
 
 Процедурний стиль
 
-**mysqli_stmt_bind_param**(
-[mysqli_stmt](class.mysqli-stmt.md) `$statement`,
-string `$types`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$var`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&...$vars`
-): bool
+```methodsynopsis
+mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
+```
 
-Прив'язує змінні до позначок параметрів у SQL-вираженні, яке було
-підготовлено функцією [mysqli_prepare()](mysqli.prepare.md) або
-[mysqli_stmt_prepare()](mysqli-stmt.prepare.md).
+Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.md) або [mysqlistmtprepare()](mysqli-stmt.prepare.md)
 
-> **Примітка**:
->
-> Якщо розмір даних змінної перевищує максимально допустимий розмір
-> пакета (max_allowed_packet), необхідно встановити значення `b` параметру
-> `types` та використовувати функцію
-> [mysqli_stmt_send_long_data()](mysqli-stmt.send-long-data.md),
-> яка передаватиме дані пакетами.
+> **Зауваження**
+> 
+> Якщо розмір даних змінної перевищує максимально допустимий розмір пакета (maxallowedpacket), необхідно задати значення `b` параметром `types` та використовувати функцію [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md), яка передаватиме дані пакетами.
 
-> **Примітка**:
->
-> При використанні **mysqli_stmt_bind_param()** спільно з
-> [call_user_func_array()](function.call-user-func-array.md)
-> необхідно дотримуватися особливої обережності. Потрібно брати до уваги,
-> що **mysqli_stmt_bind_param()** приймає як параметри
-> тільки посилання на значення, у той час як
-> [call_user_func_array()](function.call-user-func-array.md) приймає
-> список параметрів, які можуть передаватися як за посиланням, так і
-> значення.
+> **Зауваження**
+> 
+> При використанні **mysqlistmtbindparam()** спільно з [calluserfuncarray()](function.call-user-func-array.md) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqlistmtbindparam()** приймає як параметри лише посилання на значення, у той час як [calluserfuncarray()](function.call-user-func-array.md) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `types`
-Рядок, що містить один або більше символів, кожен з яких визначає тип
-значення змінної, що прив'язується:
 
-| Символ | Опис                                                                              |
-|--------|-----------------------------------------------------------------------------------|
-| i      | відповідна змінна має тип integer                                                 |
-| d      | відповідна змінна має тип double                                                  |
-| s      | відповідна змінна має тип string                                                  |
-| b      | відповідна змінна є великим двійковим об'єктом (blob) і пересилатиметься пакетами |
+Рядок, що містить один або більше символів, кожен з яких задає тип значення змінної, що прив'язується:
 
 **Символи, що задають тип**
 
+| Символ | Описание |
+| --- | --- |
+| і | відповідна змінна має тип integer |
+| д | відповідна змінна має тип double |
+| з | відповідна змінна має тип string |
+| в | відповідна змінна є великим двійковим об'єктом (blob) і пересилатиметься пакетами |
+
 `var`
+
 `vars`
-Кількість змінних і довжина рядка `types` повинні бути точно
-відповідати кількості параметрів у запиті.
+
+Кількість змінних та довжина рядка `types` повинні точно відповідати кількості параметрів у запиті.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli_stmt::bind_param()****
+**Приклад #1 Приклад використання **mysqlistmt::bindparam()****
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');$stmt = $my ?, ?, ?)");$stmt->bind_param('sssd', $code, $language, $official, $percent);$code = 'DEU';$language = 'Bavarian';$official = F";$percent = 11.2;$stmt->execute();printf("рядок додано: %d.
-", $stmt->affected_rows);/* Clean up table CountryLanguage */$mysqli->query("DELETE FROM CountryLanguage WHERE Language='Bavarian'");printf("рядок уда.
-", $mysqli->affected_rows); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
+
+$stmt = $mysqli->prepare("INSERT INTO CountryLanguage VALUES (?, ?, ?, ?)");
+$stmt->bind_param('sssd', $code, $language, $official, $percent);
+
+$code = 'DEU';
+$language = 'Bavarian';
+$official = "F";
+$percent = 11.2;
+
+$stmt->execute();
+
+printf("строк добавлено: %d.\n", $stmt->affected_rows);
+
+/* Clean up table CountryLanguage */
+$mysqli->query("DELETE FROM CountryLanguage WHERE Language='Bavarian'");
+printf("строк удалено: %d.\n", $mysqli->affected_rows);
+```
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world')|$? ?, ?)");mysqli_stmt_bind_param($stmt, 'sssd', $code, $language, $official, $percent);$code = 'DEU';$language = 'Bavarian';$official| $percent=11.2;mysqli_stmt_execute($stmt);printf("рядок|додано:%d.
-", Mysqli_stmt_affected_rows($stmt));
-"mysqli_affected_rows($link));
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world');
+
+$stmt = mysqli_prepare($link, "INSERT INTO CountryLanguage VALUES (?, ?, ?, ?)");
+mysqli_stmt_bind_param($stmt, 'sssd', $code, $language, $official, $percent);
+
+$code = 'DEU';
+$language = 'Bavarian';
+$official = "F";
+$percent = 11.2;
+
+mysqli_stmt_execute($stmt);
+
+printf("строк добавлено: %d.\n", mysqli_stmt_affected_rows($stmt));
+
+/* Clean up table CountryLanguage */
+mysqli_query($link, "DELETE FROM CountryLanguage WHERE Language='Bavarian'");
+printf("строк удалено: %d.\n", mysqli_affected_rows($link));
+```
 
 Результат виконання даних прикладів:
 
-рядків додано: 1.
+```
+строк добавлено: 1.
 1 row deleted.
+```
 
 **Приклад #2 Приклад використання `...` для надання аргументів**
 
-Оператор `...` може використовуватись для надання списку аргументів
-змінної довжини, наприклад, у конструкції `WHERE IN`.
+Оператор `...` може використовуватися для надання списку аргументів змінної довжини, наприклад, у конструкції `WHERE IN`
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world') (?, ?)");/* використання ... для надання аргументів */$stmt->bind_param('ss', ...['DEU', 'POL']);$stmt->execute() ;$stmt->store_result();printf("знайдено рядок: %d.
-", $stmt->num_rows());
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
+
+$stmt = $mysqli->prepare("SELECT Language FROM CountryLanguage WHERE CountryCode IN (?, ?)");
+/* использование ... для предоставления аргументов */
+$stmt->bind_param('ss', ...['DEU', 'POL']);
+$stmt->execute();
+$stmt->store_result();
+
+printf("найдено строк: %d.\n", $stmt->num_rows());
+```
 
 Результат виконання даних прикладів:
 
-знайдено рядків: 10
+```
+найдено строк: 10.
+```
 
 ### Дивіться також
 
-- [mysqli_stmt_bind_result()](mysqli-stmt.bind-result.md) - Прив'язка
-змінних до підготовленого запиту для розміщення результату
-- [mysqli_stmt_execute()](mysqli-stmt.execute.md) - Виконує
-підготовлене затвердження
-- [mysqli_stmt_fetch()](mysqli-stmt.fetch.md) - Зв'язує результати
-підготовленого виразу зі змінними
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
-- [mysqli_stmt_send_long_data()](mysqli-stmt.send-long-data.md) -
-Надсилання даних блоками
-- [mysqli_stmt_errno()](mysqli-stmt.errno.md) - Повертає код
-помилки виконання останнього запиту
-- [mysqli_stmt_error()](mysqli-stmt.error.md) - Повертає рядок з
-поясненням останньої помилки під час виконання запиту
+-   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.md) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md) - Відправлення даних блоками
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту

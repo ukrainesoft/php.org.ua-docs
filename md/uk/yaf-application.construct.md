@@ -1,88 +1,93 @@
-- [« Yaf_Application::clearLastError](yaf-application.clearlasterror.md)
-- [Yaf_Application::\_\_destruct »](yaf-application.destruct.md)
+---
+navigation:
+  - yaf-application.clearlasterror.md: '« YafApplication::clearLastError'
+  - yaf-application.destruct.md: 'YafApplication::destruct »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
+title: 'YafApplication::construct'
+---
+# YafApplication::construct
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Конструктор класу Yaf_Application
+(Yaf >=1.0.0)
 
-# Yaf_Application::\_\_construct
-
-(Yaf \>=1.0.0)
-
-Yaf_Application::\_\_construct - Конструктор класу Yaf_Application
+YafApplication::construct - Конструктор класу YafApplication
 
 ### Опис
 
-public
-**Yaf_Application::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$config`, string `$envrion` = ?)
+public **YafApplication::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$config`, string `$envrion`
 
-Примірник [Yaf_Application](class.yaf-application.md).
+Екземпляр [YafApplication](class.yaf-application.md)
 
 ### Список параметрів
 
 `config`
-Шлях до конфігураційного ini-файлу або масив із налаштуваннями
 
-Якщо це шлях до ini-файлу, то в ньому повинен бути розділ з
-ім'ям [yaf.environ](yaf.configuration.md#ini.yaf.environ), що є
-за промовчанням "product".
+Шлях до конфігураційного ini-файлу або масив з налаштуваннями
 
-> **Примітка**:
->
-> Якщо ви використовуєте ini-файл, то для покращення продуктивності,
-> дозвольте опцію
-> [yaf.cache_config](yaf.configuration.md#ini.yaf.cache-config).
+Якщо це шлях до ini-файлу, то в ньому має бути розділ з ім'ям [yaf.environ](yaf.configuration.md#ini.yaf.environ), що є за промовчанням "product".
 
-Параметри конфігурації (та їх значення за замовчуванням):
+> **Зауваження**
+> 
+> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cacheconfig](yaf.configuration.md#ini.yaf.cache-config)
+
+Параметри конфігурації (та їх значення за промовчанням):
 
 **Приклад #1 Приклад ini-файлу**
 
-`` inicode
-[product]
-;Ця опція не має значення за умовчанням і обов'язково має бути задана вами
-application.directory=APPLICATION_PATH
+product;Ця опція не має значення за умовчанням і обов'язково має бути задана вами application.directory=APPLICATIONPATH
 
-;Наступні параметри мають значення за замовчуванням, вам можна їх не чіпати
-application.library = APPLICATION_PATH . "/library"
-application.dispatcher.throwException=1
-application.dispatcher.catchException=1
+;Наступні параметри мають значення за замовчуванням, вам можна їх не чіпати application.library = APPLICATIONPATH. "/library" application.dispatcher.throwException=1 application.dispatcher.catchException=1
 
 application.baseUri=""
 
-;розширення php-скриптів
-ap.ext=php
+;розширення php-скриптів ap.ext=php
 
-;розширення файлів шаблонів
-ap.view.ext=phtml
+;розширення файлів шаблонів ap.view.ext=phtml
 
-ap.dispatcher.defaultModuel=Index
-ap.dispatcher.defaultController=Index
-ap.dispatcher.defaultAction=index
+ap.dispatcher.defaultModuel=Index ap.dispatcher.defaultController=Index ap.dispatcher.defaultAction=index
 
-;Певні модулі
-ap.modules=Index
-````
+;Певні модулі ap.modules=Index
 
 `envrion`
+
 Який розділ буде завантажено як остаточну конфігурацію
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #2 Приклад використання **Yaf_Application::\_\_construct()****
+**Приклад #2 Приклад використання **YafApplication::construct()****
 
-` <?phpdefined('APPLICATION_PATH')                   // APPLICATION_PATH will be used in the ini config file   | define('APPLICATION_PATH', __DIR__));$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');$application->bootstrap()->run();?> `
+```php
+<?php
+defined('APPLICATION_PATH')                  // APPLICATION_PATH will be used in the ini config file
+    || define('APPLICATION_PATH', __DIR__));
+
+$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');
+$application->bootstrap()->run();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-**Приклад #3 Приклад використання **Yaf_Application::\_\_construct()****
+**Приклад #3 Приклад використання **YafApplication::construct()****
 
-`<?php$config = array(    "application" => array(       "directory" => realpath(dirname(__FILE__)) . "/application", Y_ ) $config);$application->bootstrap()->run();?> `
+```php
+<?php
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
+);
+
+/** Yaf_Application */
+$application = new Yaf_Application($config);
+$application->bootstrap()->run();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
+-   [YafConfigIni](class.yaf-config-ini.md)

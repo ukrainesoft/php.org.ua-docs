@@ -1,87 +1,79 @@
-- [« Thread::start](thread.start.md)
-- [Worker::collect »](worker.collect.md)
-
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
-- Клас Worker
-
+---
+navigation:
+  - thread.start.md: '« Thread::start'
+  - worker.collect.md: 'Worker::collect »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Worker
+---
 # Клас Worker
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 ## Вступ
 
-Робочі потоки мають постійний контекст, тому здебільшого
-їх слід використовувати поверх потоків.
+Робочі потоки мають постійний контекст, тому в більшості випадків їх слід використовувати поверх потоків.
 
-Коли Worker запущено, буде виконано метод run, але Thread не завершиться,
-доки не буде виконано одну з наступних умов:
+Коли Worker запущено, буде виконано метод run, але Thread не завершиться, доки не буде виконано одну з наступних умов:
 
-- Worker зникне з області видимості (не залишиться жодного посилання
-на нього)
+-   Worker зникне з області видимості (не залишиться жодного посилання на нього)
+    
+-   програміст викличе функцію зупинки
+    
+-   скрипт завершить роботу
+    
 
-- програміст викличе функцію зупинки
-
-- скрипт завершить роботу
-
-Це означає, що програміст може перевикористовувати контекст під час
-виконання. Розміщення об'єкта на стек об'єкта Worker призведе до запуску
-методу run цього об'єкта.
+Це означає, що програміст може перевикористовувати контекст під час виконання. Розміщення об'єкта на стек об'єкта Worker призведе до запуску методу run цього об'єкта.
 
 ## Огляд класів
 
-class **Worker** extends [Thread](class.thread.md) implements
-[Traversable](class.traversable.md),
-[Countable](class.countable.md), [ArrayAccess](class.arrayaccess.md)
-{
+```classsynopsis
 
-/\* Методи \*/
 
-public
-[collect](worker.collect.md)([Callable](language.types.callable.md)
-`$collector` = ?): int
+    
+    
+     
+      class Worker
+     
 
-public [getStacked](worker.getstacked.md)(): int
+     
+      extends
+       Thread
+     
 
-public [isShutdown](worker.isshutdown.md)(): bool
+     implements 
+       Traversable,  Countable,  ArrayAccess {
+    
 
-public [shutdown](worker.shutdown.md)(): bool
+    /* Методы */
+    
+   public collect(Callable $collector = ?): int
+public getStacked(): int
+public isShutdown(): bool
+public shutdown(): bool
+public stack(Threaded &$work): int
+public unstack(): int
 
-public [stack](worker.stack.md)([Threaded](class.threaded.md)
-`&$work`): int
 
-public [unstack](worker.unstack.md)(): int
+    /* Наследуемые методы */
+    public Thread::getCreatorId(): int
+public static Thread::getCurrentThread(): Thread
+public static Thread::getCurrentThreadId(): int
+public Thread::getThreadId(): int
+public Thread::isJoined(): bool
+public Thread::isStarted(): bool
+public Thread::join(): bool
+public Thread::start(int $options = ?): bool
 
-/\* Наслідувані методи \*/
 
-public [Thread::getCreatorId](thread.getcreatorid.md)(): int
-
-public static
-[Thread::getCurrentThread](thread.getcurrentthread.md)():
-[Thread](class.thread.md)
-
-public static
-[Thread::getCurrentThreadId](thread.getcurrentthreadid.md)(): int
-
-public [Thread::getThreadId](thread.getthreadid.md)(): int
-
-public [Thread::isJoined](thread.isjoined.md)(): bool
-
-public [Thread::isStarted](thread.isstarted.md)(): bool
-
-public [Thread::join](thread.join.md)(): bool
-
-public [Thread::start](thread.start.md)(int `$options` = ?): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [Worker::collect](worker.collect.md) — Зібрати посилання на
-завершені завдання
-- [Worker::getStacked](worker.getstacked.md) — Повертає поточний
-розмір стеку
-- [Worker::isShutdown](worker.isshutdown.md) — Визначення стану
-- [Worker::shutdown](worker.shutdown.md) — Зупинити Worker
-- [Worker::stack](worker.stack.md) — Покласти завдання на стек
-- [Worker::unstack](worker.unstack.md) — Забрати завдання зі стеку
+-   [Worker::collect](worker.collect.md) — Зібрати посилання на завершені завдання
+-   [Worker::getStacked](worker.getstacked.md) — Повертає поточний розмір стека
+-   [Worker::isShutdown](worker.isshutdown.md) — Визначення стану
+-   [Worker::shutdown](worker.shutdown.md) - Зупинити Worker
+-   [Worker::stack](worker.stack.md) - Покласти завдання на стек
+-   [Worker::unstack](worker.unstack.md) — Забрати завдання зі стека

@@ -1,24 +1,26 @@
-- [« UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md)
-- [UConverter::getErrorCode »](uconverter.geterrorcode.md)
-
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати тип конвертера призначення
-
+---
+navigation:
+  - uconverter.getdestinationencoding.md: '« UConverter::getDestinationEncoding'
+  - uconverter.geterrorcode.md: 'UConverter::getErrorCode »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::getDestinationType'
+---
 # UConverter::getDestinationType
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 UConverter::getDestinationType — Отримати тип конвертера призначення
 
 ### Опис
 
-public **UConverter::getDestinationType**(): int\|false\|null
+```methodsynopsis
+public UConverter::getDestinationType(): int|false|null
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

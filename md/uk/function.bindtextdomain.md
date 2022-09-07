@@ -1,10 +1,11 @@
-- [« bind_textdomain_codeset](function.bind-textdomain-codeset.md)
-- [dcgettext »](function.dcgettext.md)
-
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Встановлює або отримує шлях для домену
-
+---
+navigation:
+  - function.bind-textdomain-codeset.md: « bindtextdomaincodeset
+  - function.dcgettext.md: dcgettext »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: bindtextdomain
+---
 # bindtextdomain
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,44 +14,53 @@ bindtextdomain — Встановлює або отримує шлях для д
 
 ### Опис
 
-**bindtextdomain**(string `$domain`, ?string `$directory`):
-string\|false
+```methodsynopsis
+bindtextdomain(string $domain, ?string $directory): string|false
+```
 
 Функція **bindtextdomain()** встановлює чи отримує шлях для домену.
 
 ### Список параметрів
 
 `domain`
+
 Домен.
 
 `directory`
-Шлях до директорії. Порожній рядок означає поточний каталог. Якщо
-**`null`**, повертається поточний встановлений каталог.
+
+Шлях до директорії. Порожній рядок означає поточний каталог. Якщо **`null`**, повертається поточний встановлений каталог.
 
 ### Значення, що повертаються
 
-Повний шлях для домену, встановленого параметром `domain` або
-**`false`** у разі виникнення помилки.
+Повний шлях для домену, встановленого параметром `domain` або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------|
-| 8.0.3  | directory тепер допускає значення null. Раніше неможливо було отримати поточний встановлений каталог. |
+| Версия | Описание |
+| --- | --- |
+|  | `directory` тепер допускає значення null. Раніше неможливо було отримати поточний встановлений каталог. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **bindtextdomain()****
 
-` <?php$domain = 'myapp';echo bindtextdomain($domain, '/usr/share/myapp/locale');?> `
+```php
+<?php
+
+$domain = 'myapp';
+echo bindtextdomain($domain, '/usr/share/myapp/locale');
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 /usr/share/myapp/locale
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Інформація **bindtextdomain()** зберігається для кожного процесу, а не
-> для потоку.
+> **Зауваження**
+> 
+> Інформація **bindtextdomain()** зберігається кожному за процесу, а чи не для потоку.

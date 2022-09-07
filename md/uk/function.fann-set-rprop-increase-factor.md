@@ -1,41 +1,39 @@
-- [« fann_set_rprop_delta_zero](function.fann-set-rprop-delta-zero.md)
-- [fann_set_sarprop_step_error_shift »](function.fann-set-sarprop-step-error-shift.md)
+---
+navigation:
+  - function.fann-set-rprop-delta-zero.md: « fannsetrpropdeltazero
+  - function.fann-set-sarprop-step-error-shift.md: fannsetsarpropsteperrorshift »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetrpropincreasefactor
+---
+# fannsetrpropincreasefactor
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює коефіцієнт збільшення, який використовується під час навчання
-Rprop
+(PECL fann> = 1.0.0)
 
-# fann_set_rprop_increase_factor
-
-(PECL fann = 1.0.0)
-
-fann_set_rprop_increase_factor — Встановлює коефіцієнт збільшення,
-використовується під час навчання Rprop
+fannsetrpropincreasefactor — Встановлює коефіцієнт збільшення, який використовується під час навчання Rprop
 
 ### Опис
 
-**fann_set_rprop_increase_factor**(resource `$ann`, float
-`$rprop_increase_factor`): bool
+```methodsynopsis
+fann_set_rprop_increase_factor(resource $ann, float $rprop_increase_factor): bool
+```
 
-Встановлює коефіцієнт збільшення, який використовується під час навчання
-Rprop
+Встановлює коефіцієнт збільшення під час навчання Rprop
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `rprop_increase_factor`
+
 Коефіцієнт збільшення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_rprop_increase_factor()](function.fann-get-rprop-increase-factor.md) -
-Повертає коефіцієнт збільшення, який використовується під час навчання
-RPROP
+-   [fanngetrpropincreasefactor()](function.fann-get-rprop-increase-factor.md) - Повертає коефіцієнт збільшення, який використовується під час навчання RPROP

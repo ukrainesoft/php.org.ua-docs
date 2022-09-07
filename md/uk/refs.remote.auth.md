@@ -1,15 +1,16 @@
-- [«openal_stream](function.openal-stream.md)
-- [Radius »](book.radius.md)
-
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Служби автентифікації
-
+---
+navigation:
+  - function.openal-stream.md: « openalstream
+  - book.radius.md: Radius »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Служби автентифікації
+---
 # Служби автентифікації
 
-- [Radius](book.radius.md)
-- [Вступ](intro.radius.md)
-- [Встановлення та налаштування](radius.setup.md)
-- [Предвизначені константи](radius.constants.md)
-- [Приклади](radius.examples.md)
-- [Функції Radius](ref.radius.md)
+-   [Radius](book.radius.md)
+    -   [Введение](intro.radius.md)
+    -   [Встановлення та налаштування](radius.setup.md)
+    -   [Обумовлені константи](radius.constants.md)
+    -   [Приклади](radius.examples.md)
+    -   [Функции Radius](ref.radius.md)

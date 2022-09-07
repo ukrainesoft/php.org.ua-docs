@@ -1,93 +1,107 @@
-- [«str_shuffle](function.str-shuffle.md)
-- [str_starts_with »](function.str-starts-with.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Перетворює рядок на масив
-
-#str_split
+---
+navigation:
+  - function.str-shuffle.md: « strshuffle
+  - function.str-starts-with.md: strstartswith »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strsplit
+---
+# strsplit
 
 (PHP 5, PHP 7, PHP 8)
 
-str_split — Перетворює рядок на масив
+strsplit — Перетворює рядок на масив
 
 ### Опис
 
-**str_split**(string `$string`, int `$length` = 1): array
+```methodsynopsis
+str_split(string $string, int $length = 1): array
+```
 
 Перетворює рядок на масив.
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 `length`
+
 Максимальна довжина фрагмента.
 
 ### Значення, що повертаються
 
-Якщо вказано необов'язковий аргумент `length`, масив, що повертається
-містити частини вихідного рядка довжиною `length` кожна, інакше кожен
-елемент міститиме один символ.
+Якщо вказано необов'язковий параметр `length`, що повертається масив буде розбитий на фрагменти, кожен з яких матиме довжину `length`, За винятком останнього фрагмента, який може бути коротшим, якщо рядок ділиться нерівномірно. За замовчуванням параметр `length` дорівнює `1`тобто розмір кожного фрагмента буде один байт.
 
-Якщо `length` менше 1, повертається **`false`**. Якщо `length` більше
-довжини рядка `string`, то весь рядок буде повернутий у першому та
-єдиний елемент масиву.
+### Помилки
+
+Якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.md)
+
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Тепер якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.md); раніше, натомість видавалася помилка рівня **`E_WARNING`**, а функція повертала **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **str_split()****
+**Приклад #1 Приклад використання **strsplit()****
 
-` <?php$str = "Hello Friend";$arr1 = str_split($str);$arr2 = str_split($str, 3);print_r($arr1);print_r($arr2);?> `
+```php
+<?php
+
+$str = "Hello Friend";
+
+$arr1 = str_split($str);
+$arr2 = str_split($str, 3);
+
+print_r($arr1);
+print_r($arr2);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[0] => H
-[1] => e
-[2] => l
-[3] => l
-[4] => o
-[5] =>
-[6] => F
-[7] => r
-[8] => i
-[9] => e
-[10] => n
-[11] => d
+    [0] => H
+    [1] => e
+    [2] => l
+    [3] => l
+    [4] => o
+    [5] =>
+    [6] => F
+    [7] => r
+    [8] => i
+    [9] => e
+    [10] => n
+    [11] => d
 )
 
 Array
 (
-[0] => Hel
-[1] => lo
-[2] => Fri
-[3] => end
+    [0] => Hel
+    [1] => lo
+    [2] => Fri
+    [3] => end
 )
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція **str_split()** розбиває по байтах, а не по
-> символів у разі використання рядків у багатобайтних кодуваннях.
-> Використовуйте [mb_str_split()](function.mb-str-split.md),
-> щоб розбити рядок на кодові точки.
+> **Зауваження**
+> 
+> Функція **strsplit()** здійснює розбивку за байтами, а не за символами, у разі використання рядків у багатобайтних кодуваннях. Використовуйте функцію [мбstrsplit()](function.mb-str-split.md), щоб розбити рядок кодових точок.
 
 ### Дивіться також
 
-- [mb_str_split()](function.mb-str-split.md) - Якщо задана
-багатобайтовий рядок повертає масив символів
-- [chunk_split()](function.chunk-split.md) - Розбиває рядок на
-фрагменти
-- [preg_split()](function.preg-split.md) - Розбиває рядок по
-регулярному виразу
-- [explode()](function.explode.md) - Розбиває рядок за допомогою
-роздільника
-- [count_chars()](function.count-chars.md) - Повертає інформацію про
-символи, що входять до рядка
-- [str_word_count()](function.str-word-count.md) - Повертає
-інформацію про слова, що входять до рядка
-- [for](control-structures.for.md)
+-   [мбstrsplit()](function.mb-str-split.md) - Якщо заданий багатобайтовий рядок повертає масив символів
+-   [chunksplit()](function.chunk-split.md) - Розбиває рядок на фрагменти
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
+-   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
+-   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
+-   [strwordcount()](function.str-word-count.md) - Повертає інформацію про слова, що входять до рядка
+-   [for](control-structures.for.md)

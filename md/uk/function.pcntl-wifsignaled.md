@@ -1,39 +1,36 @@
-- [« pcntl_wifexited](function.pcntl-wifexited.md)
-- [pcntl_wifstopped »](function.pcntl-wifstopped.md)
+---
+navigation:
+  - function.pcntl-wifexited.md: pcntlwifexited
+  - function.pcntl-wifstopped.md: pcntlwifstopped »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwifsignaled
+---
+# pcntlwifsignaled
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Перевірити, чи відповідає код завершення процесу завершення
-сигналу
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-#pcntl_wifsignaled
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-pcntl_wifsignaled — Перевірити, чи код завершення процесу відповідає
-завершення по сигналу
+pcntlwifsignaled — Перевірити, чи код завершення процесу завершення по сигналу відповідає
 
 ### Опис
 
-**pcntl_wifsignaled**(int `$status`): bool
+```methodsynopsis
+pcntl_wifsignaled(int $status): bool
+```
 
-Перевірити, чи відповідає код завершення процесу завершення
-сигналу.
+Перевірити, чи код завершення процесу завершення по сигналу.
 
 ### Список параметрів
 
 `status`
-Параметр `status` - це параметр статусу, який передається для успішного
-виклик функції [pcntl_waitpid()](function.pcntl-waitpid.md).
+
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо дочірній процес було завершено через
-неперехопленого сигналу. Якщо ні, то повертає **`false`**.
+Повертає **`true`**, якщо дочірній процес було завершено через неперехоплений сигнал. Якщо ні, то повертає **`false`**
 
 ### Дивіться також
 
-- [pcntl_waitpid()](function.pcntl-waitpid.md) - Очікує або
-повертає статус породженого дочірнього процесу
-- [pcntl_signal()](function.pcntl-signal.md) - Встановлення обробника
-сигналу
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу

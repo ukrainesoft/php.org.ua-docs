@@ -1,27 +1,30 @@
-- [« stream_context_get_default](function.stream-context-get-default.md)
-- [stream_context_get_params »](function.stream-context-get-params.md)
+---
+navigation:
+  - function.stream-context-get-default.md: « streamcontextgetdefault
+  - function.stream-context-get-params.md: streamcontextgetparams »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextgetoptions
+---
+# streamcontextgetoptions
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Отримує опції для потоку/обгортки/контексту
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-#stream_context_get_options
-
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
-
-stream_context_get_options — Отримує опції для потоку/обгортки/контексту
+streamcontextgetoptions — Отримує опції для потоку/обгортки/контексту
 
 ### Опис
 
-**stream_context_get_options**(resource `$stream_or_context`): array
+```methodsynopsis
+stream_context_get_options(resource $stream_or_context): array
+```
 
-Повертає масив опцій у зазначеному потоці чи контексті.
+Повертає масив опцій у вказаному потоці чи контексті.
 
 ### Список параметрів
 
 `stream_or_context`
-Потік (stream) або контекст (context), у якого будуть отримані
-налаштування
+
+Потік (stream) або контекст (context), у якого будуть отримані налаштування
 
 ### Значення, що повертаються
 
@@ -29,16 +32,27 @@ stream_context_get_options — Отримує опції для потоку/о�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_context_get_options()****
+**Приклад #1 Приклад використання **streamcontextgetoptions()****
 
-` <?php$params = array("method" => "POST");stream_context_set_default(array("http" => $params));var_dump(stream_context_get_options(stream_context_get_default()));?> `
+```php
+<?php
+$params = array("method" => "POST");
+
+stream_context_set_default(array("http" => $params));
+
+var_dump(stream_context_get_options(stream_context_get_default()));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-["http"]=>
-array(1) {
-["method"]=>
-string(4) "POST"
+  ["http"]=>
+  array(1) {
+    ["method"]=>
+    string(4) "POST"
+  }
 }
-}
+```

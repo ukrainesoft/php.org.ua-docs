@@ -1,49 +1,43 @@
-- [« fann_save_train](function.fann-save-train.md)
-- [fann_scale_input_train_data »](function.fann-scale-input-train-data.md)
+---
+navigation:
+  - function.fann-save-train.md: « fannsavetrain
+  - function.fann-scale-input-train-data.md: fannscaleinputtraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsave
+---
+# fannsave
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Зберігає всю мережу у файл конфігурації
+(PECL fann> = 1.0.0)
 
-# fann_save
-
-(PECL fann = 1.0.0)
-
-fann_save — Зберігає всю мережу у файлі конфігурації
+fannsave — Зберігає всю мережу у конфігураційному файлі
 
 ### Опис
 
-**fann_save**(resource `$ann`, string `$configuration_file`): bool
+```methodsynopsis
+fann_save(resource $ann, string $configuration_file): bool
+```
 
 Зберігає всю мережу файл конфігурації.
 
-Файл конфігурації містить всю інформацію про нейронну мережу і дозволяє
-функції [fann_create_from_file()](function.fann-create-from-file.md)
-створювати точну копію нейронної мережі та всіх параметрів, пов'язаних з
-нейронною мережею.
+Файл конфігурації містить всю інформацію про нейронну мережу і дозволяє функції [fanncreatefromfile()](function.fann-create-from-file.md) створювати точну копію нейронної мережі та всіх параметрів, пов'язаних з нейронною мережею.
 
-Три параметри ([fann_set_callback()](function.fann-set-callback.md),
-[fann_set_error_log()](function.fann-set-error-log.md),
-**fann_set_user_data()**) НЕ зберігаються у файл, тому що їх не можна
-безпечно перенести до іншого місця. Також не зберігаються тимчасові
-параметри, згенеровані під час навчання, такі як
-[fann_get_MSE()](function.fann-get-mse.md).
+Три параметри ([fannsetcallback()](function.fann-set-callback.md) [fannseterrorlog()](function.fann-set-error-log.md) **fannsetuserdata()**) НЕ зберігаються у файл, тому що їх не можна безпечно перенести в інше місце. Також не зберігаються часові параметри, згенеровані під час навчання, такі як [fanngetMSE()](function.fann-get-mse.md)
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `configuration_file`
+
 Шлях до конфігураційного файлу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_create_from_file()](function.fann-create-from-file.md) -
-Створює нейронну мережу зі зворотним поширенням помилки з
-конфігураційного файлу
+-   [fanncreatefromfile()](function.fann-create-from-file.md) - Створює нейронну мережу зі зворотним поширенням помилки з конфігураційного файлу

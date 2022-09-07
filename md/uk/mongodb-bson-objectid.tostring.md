@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\ObjectId::serialize](mongodb-bson-objectid.serialize.md)
-- [MongoDB\BSON\ObjectId::unserialize »](mongodb-bson-objectid.unserialize.md)
+---
+navigation:
+  - mongodb-bson-objectid.serialize.md: '« MongoDBBSONObjectId::serialize'
+  - mongodb-bson-objectid.unserialize.md: 'MongoDBBSONObjectId::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::function toString() { \[native code\] }'
+---
+# MongoDBBSONObjectId::function toString() { \[native code\] }
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
-- Повертає шістнадцяткову виставу ObjectId
+(mongodb >=1.0.0)
 
-# MongoDB\BSON\ObjectId::\_\_toString
-
-(mongodb \>=1.0.0)
-
-MongoDB\BSON\ObjectId::\_\_toString — Повертає шістнадцяткове
-уявлення ObjectId
+MongoDBBSONObjectId::toString — Повертає шістнадцяткову виставу ObjectId
 
 ### Опис
 
-final public **MongoDB\BSON\ObjectId::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\ObjectId::__toString(): string
+```
 
 ### Список параметрів
 
@@ -26,17 +28,25 @@ final public **MongoDB\BSON\ObjectId::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\ObjectId::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONObjectId::toString()****
 
-` <?phpvar_dump((string) new MongoDB\BSON\ObjectId());var_dump((string) new MongoDB\BSON\ObjectId('000000000000000000000001'));?> `
+```php
+<?php
+
+var_dump((string) new MongoDB\BSON\ObjectId());
+var_dump((string) new MongoDB\BSON\ObjectId('000000000000000000000001'));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(24) "56731b49da14d8747d701211"
-string(24) "0000000000000000000001"
+string(24) "000000000000000000000001"
+```
 
 ### Дивіться також
 
-- [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
-- [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

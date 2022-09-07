@@ -1,21 +1,31 @@
-- [« OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)
-- [Хешування паролів »](book.password.md)
-
-- [PHP Manual](index.md)
-- [OpenSSL](book.openssl.md)
-- Клас OpenSSLAsymmetricKey
-
+---
+navigation:
+  - class.opensslcertificatesigningrequest.md: « OpenSSLCertificateSigningRequest
+  - book.password.md: Хеширование паролей »
+  - index.md: PHP Manual
+  - book.openssl.md: OpenSSL
+title: Клас OpenSSLAsymmetricKey
+---
 # Клас OpenSSLAsymmetricKey
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `OpenSSL key` в PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `OpenSSL key` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **OpenSSLAsymmetricKey** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class OpenSSLAsymmetricKey
+     
+     {
+   }
+```

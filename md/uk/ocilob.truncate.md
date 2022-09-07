@@ -1,39 +1,41 @@
-- [« OCILob::tell](ocilob.tell.md)
-- [OCILob::write »](ocilob.write.md)
+---
+navigation:
+  - ocilob.tell.md: '« OCILob::tell'
+  - ocilob.write.md: 'OCILob::write »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::truncate'
+---
+# OCILob::truncate
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- обрізає великий об'єкт
-
-#OCILob::truncate
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
 OCILob::truncate — Обрізає великий об'єкт
 
 ### Опис
 
-public **OCILob::truncate**(int `$length` = 0): bool
+```methodsynopsis
+public OCILob::truncate(int $length = 0): bool
+```
 
 Обрізає об'єкт LOB.
 
 ### Список параметрів
 
 `length`
-Якщо зазначений, то LOB обрізається до вказаної в 'length' довжини в байтах.
-Інакше LOB повністю очищається.
+
+Якщо вказано, то LOB обрізається до вказаної в `length` довжини у байтах. Інакше LOB повністю очищається.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCILob::erase](ocilob.erase.md)
+-   [OCILob::erase](ocilob.erase.md)

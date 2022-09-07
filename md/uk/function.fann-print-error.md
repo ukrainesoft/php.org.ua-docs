@@ -1,27 +1,30 @@
-- [« fann_num_output_train_data](function.fann-num-output-train-data.md)
-- [fann_randomize_weights »](function.fann-randomize-weights.md)
+---
+navigation:
+  - function.fann-num-output-train-data.md: « fannnumoutputtraindata
+  - function.fann-randomize-weights.md: fannrandomizeweights »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannprinterror
+---
+# fannprinterror
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Виводить рядок помилки
+(PECL fann> = 1.0.0)
 
-# fann_print_error
-
-(PECL fann = 1.0.0)
-
-fann_print_error — Виводить рядок помилки
+fannprinterror — Виводить рядок помилки
 
 ### Опис
 
-**fann_print_error**(resource `$errdat`): void
+```methodsynopsis
+fann_print_error(resource $errdat): void
+```
 
 Виводить рядок помилки.
 
 ### Список параметрів
 
 `errdat`
-Або ресурс (resource) нейронної мережі, або ресурс (resource) учнів
-даних нейронної мережі.
+
+Або ресурс (resource) нейронної мережі, або ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
@@ -29,5 +32,4 @@ fann_print_error — Виводить рядок помилки
 
 ### Дивіться також
 
-- [fann_get_errstr()](function.fann-get-errstr.md) - Повертає
-останній рядок помилки
+-   [fanngeterrstr()](function.fann-get-errstr.md) - Повертає останній рядок помилки

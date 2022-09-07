@@ -1,86 +1,92 @@
-- [« Locale::getDisplayName](locale.getdisplayname.md)
-- [Locale::getDisplayScript »](locale.getdisplayscript.md)
-
-- [PHP Manual](index.md)
-- [Locale](class.locale.md)
-- Повертає відповідним чином локалізовану назву регіону
-для заданої локалі
-
+---
+navigation:
+  - locale.getdisplayname.md: '« Locale::getDisplayName'
+  - locale.getdisplayscript.md: 'Locale::getDisplayScript »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getDisplayRegion'
+---
 # Locale::getDisplayRegion
 
-#local_get_display_region
+# localegetdisplayregion
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getDisplayRegion -- locale_get_display_region — Повертає
-відповідним чином локалізована назва регіону для заданої
-локалі
+Locale::getDisplayRegion -- localegetdisplayregion — Повертає відповідним чином локалізовану назву регіону для заданої локалі
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public static **Locale::getDisplayRegion**(string `$locale`, ?string
-`$displayLocale` = **`null`**): string\|false
+```methodsynopsis
+public static Locale::getDisplayRegion(string $locale, ?string $displayLocale = null): string|false
+```
 
 Процедурний стиль
 
-**locale_get_display_region**(string `$locale`, ?string `$displayLocale`
-= **`null`**): string\|false
+```methodsynopsis
+locale_get_display_region(string $locale, ?string $displayLocale = null): string|false
+```
 
-Повертає відповідним чином локалізовану назву регіону для
-заданої локалі. Якщо **`null`**, то буде використано локаль по
-замовчуванням.
+Повертає відповідним чином локалізовану назву регіону для заданої локалі. Якщо **`null`**, то буде використано локаль за замовчуванням.
 
 ### Список параметрів
 
 `locale`
+
 Локаль.
 
 `displayLocale`
+
 Необов'язковий локаль для форматування
 
 ### Значення, що повертаються
 
-Назва регіону для `locale` у форматі локалі `displayLocale` або
-**`false`** у разі виникнення помилки.
+Назва регіону для `locale` у форматі локалі `displayLocale` або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                        |
-| ------ | ------------------------------------------- |
-| 8.0.0  | displayLocale тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **locale_get_display_region()****
+**Приклад #1 Приклад використання **localegetdisplayregion()****
 
-`<?phpecho locale_get_display_region('sl-Latn-IT-nedis', 'en');echo ";
-";echo locale_get_display_region('sl-Latn-IT-nedis', 'fr');echo ";
-";echo locale_get_display_region('sl-Latn-IT-nedis', 'de');?> `
+```php
+<?php
+echo locale_get_display_region('sl-Latn-IT-nedis', 'en');
+echo ";\n";
+echo locale_get_display_region('sl-Latn-IT-nedis', 'fr');
+echo ";\n";
+echo locale_get_display_region('sl-Latn-IT-nedis', 'de');
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?phpecho Locale::getDisplayRegion('sl-Latn-IT-nedis', 'en');echo ";
-";echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'fr');echo ";
-";echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'de');?> `
+```php
+<?php
+echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'en');
+echo ";\n";
+echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'fr');
+echo ";\n";
+echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'de');
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Italy;
 Italie;
 Italien
+```
 
 ### Дивіться також
 
-- [locale_get_display_name()](locale.getdisplayname.md) - Повертає
-відповідним чином локалізоване ім'я локалі
-- [locale_get_display_language()](locale.getdisplaylanguage.md) -
-Повертає відповідним чином локалізоване ім'я мови для
-заданої локалі
-- [locale_get_display_script()](locale.getdisplayscript.md) -
-Повертає відповідним чином локалізовану назву алфавіту
-для заданої локалі
-- [locale_get_display_variant()](locale.getdisplayvariant.md) -
-Повертає відповідним чином локалізовану назву варіанта
-для заданої локалі
+-   [localegetdisplayname()](locale.getdisplayname.md) - Повертає відповідним чином локалізоване ім'я локалі
+-   [localegetdisplaylanguage()](locale.getdisplaylanguage.md) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [localegetdisplayscript()](locale.getdisplayscript.md) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [localegetdisplayvariant()](locale.getdisplayvariant.md) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі

@@ -1,10 +1,11 @@
-- [« Встановлення](radius.installation.md)
-- [Типи ресурсів»](radius.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](radius.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - radius.installation.md: « Установка
+  - radius.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - radius.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

@@ -1,48 +1,98 @@
-- [« Визначення підпросторів імен](language.namespaces.nested.md)
-- [Використання простору імен: основи »](language.namespaces.basics.md)
-
-- [PHP Manual](index.md)
-- [Простори імен](language.namespaces.md)
-- Опис кількох просторів імен в одному файлі
-
+---
+navigation:
+  - language.namespaces.nested.md: « Определение подпространств имён
+  - language.namespaces.basics.md: 'Використання простору імен: основи »'
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: Опис кількох просторів імен в одному файлі
+---
 ## Опис кількох просторів імен в одному файлі
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-Декілька просторів імен також можна описати в одному файлі за допомогою
-двох допустимих синтаксичних конструкцій
+Декілька просторів імен також можна описати в одному файлі за допомогою двох допустимих синтаксичних конструкцій.
 
 **Приклад #1 Опис кількох просторів імен, простий синтаксис**
 
-` <?phpnamespace MyProject;const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }namespace AnotherProject;const CONNECT_OK   . */ }function connect() { /* ... */  }?> `
+```php
+<?php
+namespace MyProject;
 
-Цей синтаксис не рекомендується для комбінування просторів імен
-одному файлі. Натомість рекомендується використовувати альтернативний
-синтаксис із дужками.
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 
-**Приклад #2 Опис кількох просторів імен, синтаксис з
-дужками**
+namespace AnotherProject;
 
-` <?phpnamespace MyProject {const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }}namespace AnotherProject {const         ¦¦¦ .. */ }function connect() { /* ... */  }}?> `
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
+?>
+```
 
-Настійно не рекомендується при програмуванні комбінувати
-кілька просторів імен в один файл. Основним застосуванням цього може
-бути об'єднання кількох PHP-файлів в один файл.
+Цей синтаксис не рекомендується для комбінування просторів імен в одному файлі. Натомість рекомендується використовувати альтернативний синтаксис із дужками.
 
-Для об'єднання коду у глобальному просторі імен із кодом в інших
-в просторах імен, використовується тільки синтаксис з дужками.
-Глобальний код має бути поміщений у конструкцію опису простору
-імен без вказівки імені:
+**Приклад #2 Опис кількох просторів імен, синтаксис із дужками**
 
-**Приклад #3 Опис глобального та звичайного простору імен в одному
-файлі**
+```php
+<?php
+namespace MyProject {
 
-`<?phpnamespace MyProject {const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }}namespace { s| |
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
+}
 
-PHP-код не може знаходитися поза дужками конструкції простору імен,
-Крім початкового виразу розглянемо.
+namespace AnotherProject {
 
-**Приклад #4 Опис глобального та звичайного простору імен в одному
-файлі**
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
+}
+?>
+```
 
-`<?phpdeclare(encoding='UTF-8');namespace MyProject {const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }}   / глобальний кодsession_start();$a = MyProjec
+Настійно не рекомендується під час програмування комбінувати декілька просторів імен в один файл. Основним застосуванням цього може бути поєднання декількох PHP-файлів в один файл.
+
+Для об'єднання коду в глобальному просторі імен із кодом в інших просторах імен використовується тільки синтаксис із дужками. Глобальний код має бути поміщений у конструкцію опису простору імен без вказівки імені:
+
+**Приклад #3 Опис глобального та звичайного простору імен в одному файлі**
+
+```php
+<?php
+namespace MyProject {
+
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
+}
+
+namespace {       // глобальный код
+session_start();
+$a = MyProject\connect();
+echo MyProject\Connection::start();
+}
+?>
+```
+
+PHP-код не може перебувати поза дужками конструкції простору імен, крім початкового виразу declare.
+
+**Приклад #4 Опис глобального та звичайного простору імен в одному файлі**
+
+```php
+<?php
+declare(encoding='UTF-8');
+namespace MyProject {
+
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
+}
+
+namespace {      // глобальный код
+session_start();
+$a = MyProject\connect();
+echo MyProject\Connection::start();
+}
+?>
+```

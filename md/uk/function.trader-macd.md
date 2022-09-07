@@ -1,43 +1,41 @@
-- [ trader_ma](function.trader-ma.md)
-- [trader_macdext »](function.trader-macdext.md)
+---
+navigation:
+  - function.trader-ma.md: « traderма
+  - function.trader-macdext.md: tradermacdext »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermacd
+---
+# tradermacd
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Слизька середня збіжність/дивергенція
+(PECL trader >= 0.2.0)
 
-#trader_macd
-
-(PECL trader \>= 0.2.0)
-
-trader_macd — Змінна середня збіжність/дивергенція
+tradermacd — Змінна середня збіжність/дивергенція
 
 ### Опис
 
-**trader_macd**(
-array `$real`,
-int `$fastPeriod` = ?,
-int `$slowPeriod` = ?,
-int `$signalPeriod` = ?
-): array
+```methodsynopsis
+trader_macd(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $signalPeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `fastPeriod`
-Номер періоду для швидкого ковзного середнього. Допустимі значення від 2
-до 100 000.
+
+Номер періоду для швидкого ковзного середнього. Допустимі значення від 2 до 100000.
 
 `slowPeriod`
-Номер періоду для повільного ковзного середнього. Допустимі значення від
-2 до 100 000.
+
+Номер періоду для повільного ковзного середнього. Допустимі значення від 2 до 100000.
 
 `signalPeriod`
-Згладжування сигнальної лінії (номер періоду). Допустимі значення від
-1 до 100 000.
+
+Згладжування сигнальної лінії (номер періоду). Допустимі значення від 1 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

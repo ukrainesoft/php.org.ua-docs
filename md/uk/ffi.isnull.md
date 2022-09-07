@@ -1,29 +1,31 @@
-- [«FFI::free](ffi.free.md)
-- [FFI::load »](ffi.load.md)
-
-- [PHP Manual](index.md)
-- [FFI](class.ffi.md)
-- Перевіряє, чи FFI\CData є нульовим покажчиком
-
+---
+navigation:
+  - ffi.free.md: '« FFI::free'
+  - ffi.load.md: 'FFI::load »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::isNull'
+---
 # FFI::isNull
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
-FFI::isNull — Перевіряє, чи FFI\CData є нульовим покажчиком
+FFI::isNull — Перевіряє, чи є FFICData нульовим покажчиком
 
 ### Опис
 
-public static **FFI::isNull**([FFI\CData](class.ffi-cdata.md)
-`&$ptr`): bool
+```methodsynopsis
+public static FFI::isNull(FFI\CData &$ptr): bool
+```
 
-Перевіряє, чи FFI\CData є нульовим покажчиком.
+Перевіряє, чи є FFICData є нульовим покажчиком.
 
 ### Список параметрів
 
 `ptr`
+
 Вказівник на структуру даних C.
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** залежно від того, чи є
-FFICData нульовим покажчиком.
+Повертає **`true`** або **`false`** залежно від того, чи є FFICData є нульовим покажчиком.

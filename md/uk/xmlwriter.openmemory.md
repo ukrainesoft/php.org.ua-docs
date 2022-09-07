@@ -1,51 +1,49 @@
-- [« XMLWriter::fullEndElement](xmlwriter.fullendelement.md)
-- [XMLWriter::openUri »](xmlwriter.openuri.md)
-
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового
-висновку
-
+---
+navigation:
+  - xmlwriter.fullendelement.md: '« XMLWriter::fullEndElement'
+  - xmlwriter.openuri.md: 'XMLWriter::openUri »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::openMemory'
+---
 # XMLWriter::openMemory
 
-#xmlwriter_open_memory
+# xmlwriteropenmemory
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::openMemory -- xmlwriter_open_memory — Створити новий об'єкт
-XMLWriter, використовуючи пам'ять для рядкового виводу
+XMLWriter::openMemory -- xmlwriteropenmemory — Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::openMemory**(): bool
+```methodsynopsis
+public XMLWriter::openMemory(): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_open_memory**(): [XMLWriter](class.xmlwriter.md)\|false
+```methodsynopsis
+xmlwriter_open_memory(): XMLWriter|false
+```
 
-Створює новий об'єкт [XMLWriter](class.xmlwriter.md), використовуючи пам'ять
-для рядкового виведення.
+Створює новий об'єкт [XMLWriter](class.xmlwriter.md), використовуючи пам'ять для рядкового виводу.
 
 ### Список параметрів
 
 ### Значення, що повертаються
 
-Об'єктно-орієнтований стиль: Повертає **`true`** у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Об'єктно-орієнтований стиль: Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Процедурний стиль: Повертає новий [XMLWriter](class.xmlwriter.md)
-для подальшого використання функціями xmlwriter у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Процедурний стиль: Повертає новий [XMLWriter](class.xmlwriter.md) для подальшого використання функціями xmlwriter у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція повертає екземпляр [XMLWriter](class.xmlwriter.md) у разі успішного виконання. Раніше у цьому випадку повертався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.md) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
-- [XMLWriter::openUri()](xmlwriter.openuri.md) - Створити новий
-об'єкт XMLWriter, використовуючи вихідний URI для виводу
+-   [XMLWriter::openUri()](xmlwriter.openuri.md) - Створити новий об'єкт XMLWriter, використовуючи вихідний URI для виведення

@@ -1,10 +1,11 @@
-- [« Imagick::setImageWhitePoint](imagick.setimagewhitepoint.md)
-- [Imagick::setIteratorIndex »](imagick.setiteratorindex.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює стиснення зображення
-
+---
+navigation:
+  - imagick.setimagewhitepoint.md: '« Imagick::setImageWhitePoint'
+  - imagick.setiteratorindex.md: 'Imagick::setIteratorIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setInterlaceScheme'
+---
 # Imagick::setInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::setInterlaceScheme — Встановлює стиснення зобр
 
 ### Опис
 
-public **Imagick::setInterlaceScheme**(int `$interlace_scheme`): bool
+```methodsynopsis
+public Imagick::setInterlaceScheme(int $interlace_scheme): bool
+```
 
 Встановлює стиснення зображення.
 
@@ -23,4 +26,4 @@ public **Imagick::setInterlaceScheme**(int `$interlace_scheme`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

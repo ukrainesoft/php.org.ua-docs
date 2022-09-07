@@ -1,10 +1,11 @@
-- [« Throwable::getLine](throwable.getline.md)
-- [Throwable::getTraceAsString »](throwable.gettraceasstring.md)
-
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- Повертає трасування стека
-
+---
+navigation:
+  - throwable.getline.md: '« Throwable::getLine'
+  - throwable.gettraceasstring.md: 'Throwable::getTraceAsString »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getTrace'
+---
 # Throwable::getTrace
 
 (PHP 7, PHP 8)
@@ -13,9 +14,11 @@ Throwable::getTrace — Повертає трасування стека
 
 ### Опис
 
-public **Throwable::getTrace**(): array
+```methodsynopsis
+public Throwable::getTrace(): array
+```
 
-Повертає трасування стека як масиву.
+Повертає трасування стека у вигляді масиву.
 
 ### Список параметрів
 
@@ -23,10 +26,8 @@ public **Throwable::getTrace**(): array
 
 ### Значення, що повертаються
 
-Повертає трасування стека у вигляді масиву в такому ж форматі, що й
-[debug_backtrace()](function.debug-backtrace.md).
+Повертає трасування стека у вигляді масиву в такому ж форматі, що й [debugbacktrace()](function.debug-backtrace.md)
 
 ### Дивіться також
 
-- [Exception::getTrace()](exception.gettrace.md) - Отримує
-трасування стеку
+-   [Exception::getTrace()](exception.gettrace.md) - Отримує трасування стека

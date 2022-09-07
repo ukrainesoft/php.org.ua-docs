@@ -1,37 +1,39 @@
-- [« mqseries_connx](function.mqseries-connx.md)
-- [mqseries_get »](function.mqseries-get.md)
+---
+navigation:
+  - function.mqseries-connx.md: « mqseriesconnx
+  - function.mqseries-get.md: mqseriesget »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesdisc
+---
+# mqseriesdisc
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- MQSeries MQDISC
+(PECL mqseries >= 0.10.0)
 
-# mqseries_disc
-
-(PECL mqseries \>= 0.10.0)
-
-mqseries_disc — MQSeries MQDISC
+mqseriesdisc — MQSeries MQDISC
 
 ### Опис
 
-**mqseries_disc**(resource `$hconn`, resource `&$compCode`, resource
-`&$reason`): void
+```methodsynopsis
+mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
+```
 
-Функція **mqseries_disc()** (MQDISC) розриває з'єднання з менеджером
-черг. Вона є протилежною функцій
-[mqseries_conn()](function.mqseries-conn.md) (MQCONN) та
-[mqseries_connx()](function.mqseries-connx.md) (MQCONNX).
+Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseriesconn()](function.mqseries-conn.md) (MQCONN) та [mqseriesconnx()](function.mqseries-connx.md) (MQCONNX).
 
 ### Список параметрів
 
 `hConn`
-Обробник з'єднання.
+
+Оброблювач з'єднання.
 
 Є відкрите з'єднання з менеджером черг.
 
 `compCode`
+
 Код завершення.
 
 `reason`
+
 Код причини, що кваліфікує compCode.
 
 ### Значення, що повертаються
@@ -40,12 +42,18 @@ mqseries_disc — MQSeries MQDISC
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_disc()****
+**Приклад #1 Приклад використання **mqseriesdisc()****
 
-`<?php   mqseries_disc($conn, $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {        printf("disc CompCode:%d Reason:%d Text:%s<br>
-", $comp_code, $reason, mqseries_strerror($reason));    }?> `
+```php
+<?php
+    mqseries_disc($conn, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("disc CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
+?>
+```
 
 ### Дивіться також
 
-- [mqseries_conn()](function.mqseries-conn.md) - MQSeries MQCONN
-- [mqseries_connx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX

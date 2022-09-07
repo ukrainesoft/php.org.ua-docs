@@ -1,70 +1,91 @@
-- [ create_function](function.create-function.md)
-- [forward_static_call »](function.forward-static-call.md)
+---
+navigation:
+  - function.create-function.md: « createfunction
+  - function.forward-static-call.md: forwardstaticcall »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: forwardstaticcallarray
+---
+# forwardstaticcallarray
 
-- [PHP Manual](index.md)
-- [Функції керування функціями](ref.funchand.md)
-- Виклик статичного методу та передача параметрів у вигляді масиву
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-#forward_static_call_array
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-forward_static_call_array — виклик статичного методу та передача
-параметрів у вигляді масиву
+forwardstaticcallarray — Виклик статичного методу та передача параметрів у вигляді масиву
 
 ### Опис
 
-**forward_static_call_array**([callable](language.types.callable.md)
-`$callback`, array `$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+forward_static_call_array(callable $callback, array $args): mixed
+```
 
-Викликає функцію користувача або метод, задані в параметрі
-`callback`. Ця функція повинна викликатись у контексті методу і не може
-бути викликана поза класом. Вона використовує [пізніше статичне зв'язування](language.oop5.late-static-bindings.md). Усі аргументи
-пересилаються в метод за значенням та у вигляді масиву, аналогічно
-[call_user_func_array()](function.call-user-func-array.md).
+Викликає функцію користувача або метод, задані в параметрі `callback`. Ця функція повинна викликатись у контексті методу і не може бути викликана поза класом. Вона використовує [пізніше статичне зв'язування](language.oop5.late-static-bindings.md). Усі аргументи пересилаються в метод за значенням та у вигляді масиву, аналогічно [calluserfuncarray()](function.call-user-func-array.md)
 
 ### Список параметрів
 
 `callback`
-Функція або метод дзвінка. Цей параметр може бути масивом з ім'ям
-класу та методу, або рядком з ім'ям функції.
+
+Функція або метод дзвінка. Цей параметр може бути масивом з ім'ям класу та методу або рядком з ім'ям функції.
 
 `parameter`
+
 Масив, що містить усі аргументи виклику функції.
 
-> **Примітка**:
->
-> Пам'ятайте, що аргументи **forward_static_call_array()** не передаються
-> за посиланням.
+> **Зауваження**
+> 
+> Пам'ятайте, що аргументи **forwardstaticcallarray()** не передаються за посиланням.
 
 ### Значення, що повертаються
 
-Повертає результат функції або **`false`** у разі виникнення
-помилки.
+Повертає результат функції або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **forward_static_call_array()****
+**Приклад #1 Приклад використання **forwardstaticcallarray()****
 
-`<?phpclass A{    const NAME = 'A'; public static function test() {         $args = func_get_args(); echo static::NAME, " ".join(',', $args)."
-";    }}class B extends A{    const NAME = 'B';   public static function test() {         echo self::NAME
-";|                  ¦                                                                               ят test('foo');function test() {        $args = func_get_args();        echo "C ".join(',', $args)."
-";    }?> `
+```php
+<?php
+
+class A
+{
+    const NAME = 'A';
+    public static function test() {
+        $args = func_get_args();
+        echo static::NAME, " ".join(',', $args)." \n";
+    }
+}
+
+class B extends A
+{
+    const NAME = 'B';
+
+    public static function test() {
+        echo self::NAME, "\n";
+        forward_static_call_array(array('A', 'test'), array('more', 'args'));
+        forward_static_call_array( 'test', array('other', 'args'));
+    }
+}
+
+B::test('foo');
+
+function test() {
+        $args = func_get_args();
+        echo "C ".join(',', $args)." \n";
+    }
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 B
-B більше,args
+B more,args
 C other,args
+```
 
 ### Дивіться також
 
-- [forward_static_call()](function.forward-static-call.md) - Виклик
-статичного методу
-- [call_user_func()](function.call-user-func.md) - Викликає
-callback-функцію, задану у першому параметрі
-- [call_user_func_array()](function.call-user-func-array.md) -
-Викликає callback-функцію з масивом параметрів
-- [is_callable()](function.is-callable.md) - Перевіряє, що значення
-може бути викликано як функція у поточній області видимості
+-   [forwardstaticcall()](function.forward-static-call.md) - Виклик статичного методу
+-   [calluserfunc()](function.call-user-func.md) - Викликає callback-функцію, задану у першому параметрі
+-   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів
+-   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості

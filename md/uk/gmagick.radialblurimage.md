@@ -1,29 +1,33 @@
-- [« Gmagick::queryformats](gmagick.queryformats.md)
-- [Gmagick::raiseimage »](gmagick.raiseimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Застосовує радіальне розмиття до зображення
-
+---
+navigation:
+  - gmagick.queryformats.md: '« Gmagick::queryformats'
+  - gmagick.raiseimage.md: 'Gmagick::raiseimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::radialblurimage'
+---
 # Gmagick::radialblurimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::radialblurimage — Застосовує радіальне розмиття до зображення
 
 ### Опис
 
-public **Gmagick::radialblurimage**(float `$angle`, int `$channel` =
-Gmagick::CHANNEL_DEFAULT): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::radialblurimage(float $angle, int $channel = Gmagick::CHANNEL_DEFAULT): Gmagick
+```
 
 Застосовує радіальне розмиття зображення.
 
 ### Список параметрів
 
 `angle`
+
 Кут розмиття в градусах.
 
 `channel`
+
 Пов'язаний канал.
 
 ### Значення, що повертаються

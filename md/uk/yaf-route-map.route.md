@@ -1,26 +1,26 @@
-- [« Yaf_Route_Map::\_\_construct](yaf-route-map.construct.md)
-- [Yaf_Route_Regex »](class.yaf-route-regex.md)
+---
+navigation:
+  - yaf-route-map.construct.md: '« YafRouteMap::construct'
+  - class.yaf-route-regex.md: YafRouteRegex »
+  - index.md: PHP Manual
+  - class.yaf-route-map.md: YafRouteMap
+title: 'YafRouteMap::route'
+---
+# YafRouteMap::route
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Map](class.yaf-route-map.md)
-- Призначення route
+(Yaf >=1.0.0)
 
-# Yaf_Route_Map::route
-
-(Yaf \>=1.0.0)
-
-Yaf_Route_Map::route — Призначення route
+YafRouteMap::route — Призначення route
 
 ### Опис
 
-public
-**Yaf_Route_Map::route**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
+```methodsynopsis
+public Yaf_Route_Map::route(Yaf_Request_Abstract $request): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

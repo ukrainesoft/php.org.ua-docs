@@ -1,31 +1,31 @@
-- [« GmagickDraw::setstrokeopacity](gmagickdraw.setstrokeopacity.md)
-- [GmagickDraw::settextdecoration »](gmagickdraw.settextdecoration.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Встановлює ширину обведення, що використовується для відображення контурів.
-об'єкта
-
+---
+navigation:
+  - gmagickdraw.setstrokeopacity.md: '« GmagickDraw::setstrokeopacity'
+  - gmagickdraw.settextdecoration.md: 'GmagickDraw::settextdecoration »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setstrokewidth'
+---
 # GmagickDraw::setstrokewidth
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::setstrokewidth — Встановлює ширину обведення, що використовується
-для відображення контурів об'єкта
+GmagickDraw::setstrokewidth — Встановлює ширину обведення, що використовується для відображення контурів об'єкта.
 
 ### Опис
 
-public **GmagickDraw::setstrokewidth**(float `$width`):
-[GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::setstrokewidth(float $width): GmagickDraw
+```
 
-Встановлює ширину обведення, що використовується для відображення контурів.
-об'єкт.
+Встановлює ширину обведення, яка використовується для відображення контурів об'єкта.
 
 ### Список параметрів
 
 `width`
+
 Ширина обведення
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.md).
+Об'єкт [GmagickDraw](class.gmagickdraw.md)

@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\WriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.md)
-- [MongoDB\Driver\WriteError »](class.mongodb-driver-writeerror.md)
+---
+navigation:
+  - mongodb-driver-writeconcernerror.getinfo.md: '« MongoDBDriverWriteConcernError::getInfo'
+  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError »
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError
+title: 'MongoDBDriverWriteConcernError::getMessage'
+---
+# MongoDBDriverWriteConcernError::getMessage
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteConcernError](class.mongodb-driver-writeconcernerror.md)
-- Повертає повідомлення про помилку WriteConcernError
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\WriteConcernError::getMessage
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\WriteConcernError::getMessage — Повертає повідомлення про
-помилка WriteConcernError
+MongoDBDriverWriteConcernError::getMessage — Повертає повідомлення про помилку WriteConcernError
 
 ### Опис
 
-final public **MongoDB\Driver\WriteConcernError::getMessage**(): string
+```methodsynopsis
+final public MongoDB\Driver\WriteConcernError::getMessage(): string
+```
 
 ### Список параметрів
 
@@ -26,20 +28,37 @@ final public **MongoDB\Driver\WriteConcernError::getMessage**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteConcernError::getMessage()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteConcernError::getMessage()****
 
-` <?php$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");$bulk = new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' => 1]);$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {    var_dump($e->getWriteResult()->getWriteConcernError()->getMessage());}?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+
+$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);
+
+try {
+    $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
+} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteConcernError()->getMessage());
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(33) "waiting for replication timed out"
+```
 
 ### Дивіться також
 
-- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

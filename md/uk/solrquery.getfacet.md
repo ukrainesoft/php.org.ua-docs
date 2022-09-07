@@ -1,19 +1,22 @@
-- [« SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md)
-- [SolrQuery::getFacetDateEnd »](solrquery.getfacetdateend.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення параметра фасета
-
+---
+navigation:
+  - solrquery.getexpandsortfields.md: '« SolrQuery::getExpandSortFields'
+  - solrquery.getfacetdateend.md: 'SolrQuery::getFacetDateEnd »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacet'
+---
 # SolrQuery::getFacet
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getFacet — Повертає значення параметра фасета
+SolrQuery::getFacet — Повертає значення параметра фасету
 
 ### Опис
 
-public **SolrQuery::getFacet**(): bool
+```methodsynopsis
+public SolrQuery::getFacet(): bool
+```
 
 Повертає значення параметра фасета.
 
@@ -23,5 +26,4 @@ public **SolrQuery::getFacet**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено

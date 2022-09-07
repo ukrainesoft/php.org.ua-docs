@@ -1,28 +1,30 @@
-- [« eio_grp_add](function.eio-grp-add.md)
-- [eio_grp_limit »](function.eio-grp-limit.md)
+---
+navigation:
+  - function.eio-grp-add.md: « eiogrpadd
+  - function.eio-grp-limit.md: eiogrplimit »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogrpcancel
+---
+# eiogrpcancel
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Скасує групу запитів
+(PECL eio >= 0.0.1dev)
 
-#eio_grp_cancel
-
-(PECL eio \>= 0.0.1dev)
-
-eio_grp_cancel — Скасує групу запитів
+eiogrpcancel — Скасує групу запитів
 
 ### Опис
 
-**eio_grp_cancel**(resource `$grp`): void
+```methodsynopsis
+eio_grp_cancel(resource $grp): void
+```
 
-**eio_grp_cancel()** скасовує групу запитів, вказівник на яку
-визначений у `grp`.
+**eiogrpcancel()** скасовує групу запитів, покажчик на яку визначено в `grp`
 
 ### Список параметрів
 
 `grp`
-Вказівник на групу запитів, повернутий
-[eio_grp()](function.eio-grp.md).
+
+Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.md)
 
 ### Значення, що повертаються
 
@@ -30,6 +32,5 @@ eio_grp_cancel — Скасує групу запитів
 
 ### Дивіться також
 
-- [eio_grp()](function.eio-grp.md) - Створює групу запитів
-- [eio_grp_add()](function.eio-grp-add.md) - Додає запит у
-групу запитів
+-   [eiogrp()](function.eio-grp.md) - Створює групу запитів
+-   [eiogrpadd()](function.eio-grp-add.md) - Додає запит до групи запитів

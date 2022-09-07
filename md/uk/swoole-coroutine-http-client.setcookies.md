@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\Http\Client::set](swoole-coroutine-http-client.set.md)
-- [Swoole\Coroutine\Http\Client::setData »](swoole-coroutine-http-client.setdata.md)
+---
+navigation:
+  - swoole-coroutine-http-client.set.md: '« SwooleCoroutineHttpClient::set'
+  - swoole-coroutine-http-client.setdata.md: 'SwooleCoroutineHttpClient::setData »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::setCookies'
+---
+# SwooleCoroutineHttpClient::setCookies
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\Http\Client::setCookies
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\Http\Client::setCookies — Опис
+SwooleCoroutineHttpClient::setCookies — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::setCookies**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::setCookies(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

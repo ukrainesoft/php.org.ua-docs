@@ -1,19 +1,22 @@
-- [« SplFixedArray::fromArray](splfixedarray.fromarray.md)
-- [SplFixedArray::key »](splfixedarray.key.md)
-
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Отримує розмір масиву
-
+---
+navigation:
+  - splfixedarray.fromarray.md: '« SplFixedArray::fromArray'
+  - splfixedarray.key.md: 'SplFixedArray::key »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::getSize'
+---
 # SplFixedArray::getSize
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::getSize — Отримує розмір масиву
 
 ### Опис
 
-public **SplFixedArray::getSize**(): int
+```methodsynopsis
+public SplFixedArray::getSize(): int
+```
 
 Отримує розмір масиву.
 
@@ -29,23 +32,28 @@ public **SplFixedArray::getSize**(): int
 
 **Приклад #1 Приклад використання **SplFixedArray::getSize()****
 
-` <?php$array = new SplFixedArray(5);echo $array->getSize()."
-";$array->setSize(10);echo $array->getSize()."
-";?> `
+```php
+<?php
+$array = new SplFixedArray(5);
+echo $array->getSize()."\n";
+$array->setSize(10);
+echo $array->getSize()."\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 5
 10
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Даний метод еквівалентний
-> [SplFixedArray::count()](splfixedarray.count.md)
+> **Зауваження**
+> 
+> Даний метод еквівалентний [SplFixedArray::count()](splfixedarray.count.md)
 
 ### Дивіться також
 
-- [SplFixedArray::count()](splfixedarray.count.md) - Повертає
-розмір масиву
+-   [SplFixedArray::count()](splfixedarray.count.md) - Повертає розмір масиву

@@ -1,22 +1,24 @@
-- [« GlobIterator::\_\_construct](globiterator.construct.md)
-- [InfiniteIterator »](class.infiniteiterator.md)
-
-- [PHP Manual](index.md)
-- [GlobIterator](class.globiterator.md)
-- Визначає кількість директорій та файлів
-
+---
+navigation:
+  - globiterator.construct.md: '« GlobIterator::construct'
+  - class.infiniteiterator.md: InfiniteIterator »
+  - index.md: PHP Manual
+  - class.globiterator.md: GlobIterator
+title: 'GlobIterator::count'
+---
 # GlobIterator::count
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 GlobIterator::count — Визначає кількість директорій та файлів
 
 ### Опис
 
-public **GlobIterator::count**(): int
+```methodsynopsis
+public GlobIterator::count(): int
+```
 
-Визначає кількість директорій та файлів, що збігаються з
-glob-виразом.
+Визначає кількість директорій та файлів, що збігаються з glob-виразом.
 
 ### Список параметрів
 
@@ -30,18 +32,22 @@ glob-виразом.
 
 **Приклад #1 Приклад використання **GlobIterator::count()****
 
-` <?php$iterator = new GlobIterator('*.xml');printf("Знайдено елементів: %d
-", $iterator->count());?> `
+```php
+<?php
+$iterator = new GlobIterator('*.xml');
+
+printf("Найдено элементов: %d \r\n", $iterator->count());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Знайдено елементів: 8
+```
+Найдено элементов: 8
+```
 
 ### Дивіться також
 
-- [GlobIterator::\_\_construct()](globiterator.construct.md) -
-Створює ітератор директорії, використовуючи glob-вираз
-- [count()](function.count.md) - Підраховує кількість елементів
-масиву або Countable об'єкті
-- [glob()](function.glob.md) - Знаходить файлові шляхи, що збігаються з
-шаблоном
+-   [GlobIterator::construct()](globiterator.construct.md) - створює ітератор директорії, використовуючи glob-вираз
+-   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
+-   [glob()](function.glob.md) - Знаходить файлові шляхи, що збігаються із шаблоном

@@ -1,35 +1,30 @@
-- [« Установка](mcrypt.installation.md)
-- [Типи ресурсів»](mcrypt.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mcrypt.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - mcrypt.installation.md: « Установка
+  - mcrypt.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - mcrypt.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
-
-| Ім'я За замовчуванням                                                      | Місце зміни | Список змін |
-| -------------------------------------------------------------------------- | ----------- | ----------- |
-| [mcrypt.algorithms_dir](mcrypt.configuration.md#ini.mcrypt.algorithms-dir) | **null**    | PHP_INI_ALL |             
-| [mcrypt.modes_dir](mcrypt.configuration.md#ini.mcrypt.modes-dir)           | **null**    | PHP_INI_ALL |
+Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Mcrypt**
 
-Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mcrypt.algorithmsdir](mcrypt.configuration.md#ini.mcrypt.algorithms-dir) | **`null`** | PHPINIALL |  |
+| [mcrypt.modesdir](mcrypt.configuration.md#ini.mcrypt.modes-dir) | **`null`** | PHPINIALL |  |
+
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
 `mcrypt.algorithms_dir` string
-Директорія, яка містить алгоритми. За замовчуванням відповідає
-директоріям, скомпільованим разом з libmcrypt, зазвичай
-*/usr/local/lib/libmcrypt*. Дивіться
-[mcrypt_list_algorithms()](function.mcrypt-list-algorithms.md) для
-додаткову інформацію.
+
+Директорія, яка містить алгоритми. За замовчуванням відповідає директоріям, скомпільованим разом з libmcrypt, зазвичай */usr/local/lib/libmcrypt*. Дивіться [mcryptlistalgorithms()](function.mcrypt-list-algorithms.md) для додаткової інформації.
 
 `mcrypt.modes_dir` string
-Директорія, що містить режими. За замовчуванням відповідає директоріям,
-скомпільований разом з libmcrypt, зазвичай */usr/local/lib/libmcrypt*.
-Дивіться [mcrypt_list_modes()](function.mcrypt-list-modes.md) для
-додаткову інформацію.
+
+Директорія з режимами. За замовчуванням відповідає директоріям, скомпільованим разом з libmcrypt, зазвичай */usr/local/lib/libmcrypt*. Дивіться [mcryptlistmodes()](function.mcrypt-list-modes.md) для додаткової інформації.

@@ -1,19 +1,20 @@
-- [«SolrUpdateResponse](class.solrupdateresponse.md)
-- [SolrUpdateResponse::\_\_destruct »](solrupdateresponse.destruct.md)
+---
+navigation:
+  - class.solrupdateresponse.md: « SolrUpdateResponse
+  - solrupdateresponse.destruct.md: 'SolrUpdateResponse::destruct »'
+  - index.md: PHP Manual
+  - class.solrupdateresponse.md: SolrUpdateResponse
+title: 'SolrUpdateResponse::construct'
+---
+# SolrUpdateResponse::construct
 
-- [PHP Manual](index.md)
-- [SolrUpdateResponse](class.solrupdateresponse.md)
-- Конструктор
+(PECL solr> = 0.9.2)
 
-# SolrUpdateResponse::\_\_construct
-
-(PECL solr \> = 0.9.2)
-
-SolrUpdateResponse::\_\_construct — Конструктор
+SolrUpdateResponse::construct — Конструктор
 
 ### Опис
 
-public **SolrUpdateResponse::\_\_construct**()
+public **SolrUpdateResponse::construct**
 
 Конструктор
 

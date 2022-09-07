@@ -1,22 +1,24 @@
-- [« ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md)
-- [ImagickDraw::getTextKerning »](imagickdraw.gettextkerning.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає міжслівний інтервал тексту
-
+---
+navigation:
+  - imagickdraw.gettextinterlinespacing.md: '« ImagickDraw::getTextInterlineSpacing'
+  - imagickdraw.gettextkerning.md: 'ImagickDraw::getTextKerning »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getTextInterwordSpacing'
+---
 # ImagickDraw::getTextInterwordSpacing
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3 \>= 3.1.0)
+(PECL imagick 2> = 2.3.0, PECL imagick 3> = 3.1.0)
 
-ImagickDraw::getTextInterwordSpacing — Повертає міжмовний інтервал
-тексту
+ImagickDraw::getTextInterwordSpacing — Повертає міжмовний інтервал тексту
 
 ### Опис
 
-public **ImagickDraw::getTextInterwordSpacing**(): float
+```methodsynopsis
+public ImagickDraw::getTextInterwordSpacing(): float
+```
 
-Повертає міжслівний інтервал тексту.
+Повертає міжмовний інтервал тексту.
 
 ### Список параметрів
 

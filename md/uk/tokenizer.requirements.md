@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](tokenizer.setup.md)
-- [Встановлення »](tokenizer.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tokenizer.setup.md)
-- Вимоги
-
+---
+navigation:
+  - tokenizer.setup.md: « Встановлення та налаштування
+  - tokenizer.installation.md: Установка »
+  - index.md: PHP Manual
+  - tokenizer.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

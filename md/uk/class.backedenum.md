@@ -1,42 +1,46 @@
-- [« UnitEnum::cases](unitenum.cases.md)
-- [BackedEnum::from »](backedenum.from.md)
-
-- [PHP Manual](index.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- Інтерфейс BackedEnum
-
+---
+navigation:
+  - unitenum.cases.md: '« UnitEnum::cases'
+  - backedenum.from.md: 'BackedEnum::from »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Інтерфейс BackedEnum
+---
 # Інтерфейс BackedEnum
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Інтерфейс **BackedEnum** автоматично застосовується двигуном до
-типізованих перерахунків. Він не може бути реалізований
-користувальницькими класами. Переліки не можуть перевизначати його
-Способи, оскільки продажу за замовчуванням надаються двигуном.
-Доступний для перевірки типу.
+Інтерфейс **BackedEnum** автоматично застосовується двигуном до типізованих перерахувань. Він не може бути реалізований користувачами класами. Перерахування що неспроможні перевизначати його способи, оскільки продажу за замовчуванням надаються движком. Доступний лише для перевірки типу.
 
 ## Огляд інтерфейсів
 
-interface **BackedEnum** extends [UnitEnum](class.unitenum.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public static [from](backedenum.from.md)(int\|string `$value`): static
+    
+     interface BackedEnum
+      extends
+       UnitEnum
+     
+     {
 
-public static [tryFrom](backedenum.tryfrom.md)(int\|string `$value`):
-?static
+    /* Методы */
+    
+   public static from(int|string $value): static
+public static tryFrom(int|string $value): ?static
 
-/\* Наслідувані методи \*/
 
-public static [UnitEnum::cases](unitenum.cases.md)(): array
+    /* Наследуемые методы */
+    public static UnitEnum::cases(): array
 
-}
+   }
+```
 
 ## Зміст
 
-- [BackedEnum::from](backedenum.from.md) - Порівняє скаляр з
-екземпляром перерахування
-- [BackedEnum::tryFrom](backedenum.tryfrom.md) - Порівняє скаляр
-з екземпляром перерахування або null
+-   [BackedEnum::from](backedenum.from.md) - Зіставляє скаляр з екземпляром перерахування
+-   [BackedEnum::tryFrom](backedenum.tryfrom.md) — Порівнює скаляр з екземпляром перерахування чи null

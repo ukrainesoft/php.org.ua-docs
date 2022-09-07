@@ -1,29 +1,33 @@
-- [«trader_kama](function.trader-kama.md)
-- [trader_linearreg_intercept »](function.trader-linearreg-intercept.md)
+---
+navigation:
+  - function.trader-kama.md: « traderkama
+  - function.trader-linearreg-intercept.md: traderlinearregintercept »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderlinearregangle
+---
+# traderlinearregangle
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Лінійний регресійний кут
+(PECL trader >= 0.2.0)
 
-# trader_linearreg_angle
-
-(PECL trader \>= 0.2.0)
-
-trader_linearreg_angle - Лінійний регресійний кут
+traderlinearregangle - Лінійний регресійний кут
 
 ### Опис
 
-**trader_linearreg_angle**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_linearreg_angle(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

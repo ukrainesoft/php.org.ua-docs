@@ -1,20 +1,22 @@
-- [«SolrInputDocument::sort](solrinputdocument.sort.md)
-- [SolrDocument »](class.solrdocument.md)
-
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Повертає подання масиву вхідного документа
-
+---
+navigation:
+  - solrinputdocument.sort.md: '« SolrInputDocument::sort'
+  - class.solrdocument.md: SolrDocument »
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::toArray'
+---
 # SolrInputDocument::toArray
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrInputDocument::toArray — Повертає уявлення масиву вхідного
-документа
+SolrInputDocument::toArray — Повертає подання масиву вхідного документа
 
 ### Опис
 
-public **SolrInputDocument::toArray**(): array
+```methodsynopsis
+public SolrInputDocument::toArray(): array
+```
 
 Повертає подання масиву вхідного документа.
 
@@ -24,5 +26,4 @@ public **SolrInputDocument::toArray**(): array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить поля. Повертає **`false`** у разі
-виникнення помилки.
+Повертає масив, що містить поля. Повертає **`false`** у разі виникнення помилки.

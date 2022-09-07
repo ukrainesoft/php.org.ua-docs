@@ -1,31 +1,30 @@
-- [«ini_set](function.ini-set.md)
-- [memory_get_usage »](function.memory-get-usage.md)
+---
+navigation:
+  - function.ini-set.md: « iniset
+  - function.memory-get-usage.md: memorygetusage »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: memorygetpeakusage
+---
+# memorygetpeakusage
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Повертає пікове значення об'єму пам'яті, виділене PHP
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-# memory_get_peak_usage
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-memory_get_peak_usage — Повертає пікове значення обсягу пам'яті,
-виділене PHP
+memorygetpeakusage — Повертає пікове значення об'єму пам'яті, виділене PHP
 
 ### Опис
 
-**memory_get_peak_usage**(bool `$real_usage` = **`false`**): int
+```methodsynopsis
+memory_get_peak_usage(bool $real_usage = false): int
+```
 
-Повертає максимальний обсяг пам'яті в байтах, виділеному
-PHP-скрипт.
+Повертає максимальний обсяг пам'яті в байтах, виділений PHP-скрипту.
 
 ### Список параметрів
 
 `real_usage`
-Передача **`true`** як цей аргумент дозволяє отримати
-реальний обсяг пам'яті виділений системою. Якщо аргумент не заданий або
-дорівнює **`false`**, повертаються відомості лише про пам'ять, виділену
-функцією `emalloc()`.
+
+Передача **`true`** як цей аргумент дозволяє отримати реальний обсяг пам'яті, виділений системою. Якщо аргумент не заданий чи дорівнює **`false`**, повертаються відомості лише про пам'ять, виділену функцією `emalloc()`
 
 ### Значення, що повертаються
 
@@ -33,6 +32,5 @@ PHP-скрипт.
 
 ### Дивіться також
 
-- [memory_get_usage()](function.memory-get-usage.md) - Повертає
-кількість пам'яті, виділена для PHP
-- [memory_limit](ini.core.md#ini.memory-limit)
+-   [memorygetusage()](function.memory-get-usage.md) - Повертає кількість пам'яті, виділену для PHP
+-   [memorylimit](ini.core.md#ini.memory-limit)

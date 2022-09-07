@@ -1,23 +1,24 @@
-- [« ArrayObject::getFlags](arrayobject.getflags.md)
-- [ArrayObject::getIteratorClass »](arrayobject.getiteratorclass.md)
-
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Створити новий ітератор із екземпляра ArrayObject
-
+---
+navigation:
+  - arrayobject.getflags.md: '« ArrayObject::getFlags'
+  - arrayobject.getiteratorclass.md: 'ArrayObject::getIteratorClass »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::getIterator'
+---
 # ArrayObject::getIterator
 
 (PHP 5, PHP 7, PHP 8)
 
-ArrayObject::getIterator — Створити новий ітератор із екземпляра
-ArrayObject
+ArrayObject::getIterator — Створити новий ітератор із екземпляра ArrayObject
 
 ### Опис
 
-public **ArrayObject::getIterator**(): [Iterator](class.iterator.md)
+```methodsynopsis
+public ArrayObject::getIterator(): Iterator
+```
 
-Створити новий ітератор із екземпляра
-[ArrayObject](class.arrayobject.md).
+Створити новий ітератор із екземпляра [ArrayObject](class.arrayobject.md)
 
 ### Список параметрів
 
@@ -25,17 +26,34 @@ public **ArrayObject::getIterator**(): [Iterator](class.iterator.md)
 
 ### Значення, що повертаються
 
-Ітератор із [ArrayObject](class.arrayobject.md).
+Ітератор із [ArrayObject](class.arrayobject.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayObject::getIterator()****
 
-`<?ph=$              | $arrayobject->getIterator();while($iterator->valid()) {    echo $iterator->key() . ' => ' . $iterator->current() . "
-";   $iterator->next();}?> `
+```php
+<?php
+$array = array('1' => 'one',
+               '2' => 'two',
+               '3' => 'three');
+
+$arrayobject = new ArrayObject($array);
+
+$iterator = $arrayobject->getIterator();
+
+while($iterator->valid()) {
+    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
+
+    $iterator->next();
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-1 => один
+```
+1 => one
 2 => two
 3 => three
+```

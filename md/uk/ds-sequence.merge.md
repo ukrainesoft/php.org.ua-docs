@@ -1,66 +1,75 @@
-- [«Ds\Sequence::map](ds-sequence.map.md)
-- [Ds\Sequence::pop »](ds-sequence.pop.md)
+---
+navigation:
+  - ds-sequence.map.md: '« DsSequence::map'
+  - ds-sequence.pop.md: 'ДсSequence::pop »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::merge'
+---
+# ДсSequence::merge
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Повертає результат додавання всіх заданих значень до колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::merge
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::merge — Повертає результат додавання всіх даних
-значень у колекцію
+ДсSequence::merge — Повертає результат додавання всіх заданих значень до колекції
 
 ### Опис
 
-abstract public
-**Ds\Sequence::merge**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$values`): [Ds\Sequence](class.ds-sequence.md)
+```methodsynopsis
+abstract public Ds\Sequence::merge(mixed $values): Ds\Sequence
+```
 
 Повертає результат додавання всіх заданих значень до колекції.
 
 ### Список параметрів
 
 `values`
+
 Об'єкт класу [traversable](class.traversable.md) або array.
 
 ### Значення, що повертаються
 
-Результат додавання всіх переданих значень колекцію. Фактично
-робиться копія колекції, до якої додаються значення.
+Результат додавання всіх переданих значень до колекції. Фактично робиться копія колекції, до якої додаються значення.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточний екземпляр колекції залишиться недоторканим.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::merge()****
+**Приклад #1 Приклад використання **ДсSequence::merge()****
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->merge([4, 5, 6]));var_dump($sequence);?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+
+var_dump($sequence->merge([4, 5, 6]));
+var_dump($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Vector)#2 (6) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
-[3]=>
-int(4)
-[4]=>
-int(5)
-[5]=>
-int(6)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+  [3]=>
+  int(4)
+  [4]=>
+  int(5)
+  [5]=>
+  int(6)
 }
 object(Ds\Vector)#1 (3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

@@ -1,21 +1,22 @@
-- [« SplDoublyLinkedList::shift](spldoublylinkedlist.shift.md)
-- [SplDoublyLinkedList::unserialize »](spldoublylinkedlist.unserialize.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- отримує вузол, що знаходиться в кінці двозв'язкового списку
-
+---
+navigation:
+  - spldoublylinkedlist.shift.md: '« SplDoublyLinkedList::shift'
+  - spldoublylinkedlist.unserialize.md: 'SplDoublyLinkedList::unserialize »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::top'
+---
 # SplDoublyLinkedList::top
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::top — Отримує вузол, що знаходиться в кінці
-двозв'язного списку
+SplDoublyLinkedList::top — Отримує вузол, що знаходиться в кінці двозв'язкового списку
 
 ### Опис
 
-public **SplDoublyLinkedList::top**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplDoublyLinkedList::top(): mixed
+```
 
 ### Список параметрів
 
@@ -27,5 +28,4 @@ public **SplDoublyLinkedList::top**():
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

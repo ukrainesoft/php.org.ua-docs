@@ -1,21 +1,24 @@
-- [« HRTime\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)
-- [HRTime\StopWatch::start »](hrtime-stopwatch.start.md)
+---
+navigation:
+  - hrtime-stopwatch.getlastelapsedtime.md: '« HRTimeStopWatch::getLastElapsedTime'
+  - hrtime-stopwatch.start.md: 'HRTimeStopWatch::start »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
+title: 'HRTimeStopWatch::isRunning'
+---
+# HRTimeStopWatch::isRunning
 
-- [PHP Manual](index.md)
-- [HRTime\StopWatch](class.hrtime-stopwatch.md)
-- Перевірити, чи виконується вимір
+(PECL hrtime >= 0.4.3)
 
-# HRTime\StopWatch::isRunning
-
-(PECL hrtime \>= 0.4.3)
-
-HRTime\StopWatch::isRunning — Перевірити, чи вимірюється
+HRTimeStopWatch::isRunning — Перевірити, чи виконується вимір
 
 ### Опис
 
-public **HRTime\StopWatch::isRunning**(): bool
+```methodsynopsis
+public HRTime\StopWatch::isRunning(): bool
+```
 
-Перевіряє, чи розпочато вимір.
+Перевіряє, чи було розпочато вимір.
 
 ### Список параметрів
 
@@ -23,5 +26,4 @@ public **HRTime\StopWatch::isRunning**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**, залежно від того, запущено
-вимір у поточний момент.
+Повертає **`true`** або **`false`**, в залежності від того, чи запущено вимір у поточний момент.

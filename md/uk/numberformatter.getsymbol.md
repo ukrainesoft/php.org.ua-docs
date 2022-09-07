@@ -1,42 +1,44 @@
-- [«NumberFormatter::getPattern](numberformatter.getpattern.md)
-- [NumberFormatter::getTextAttribute »](numberformatter.gettextattribute.md)
-
-- [PHP Manual](index.md)
-- [NumberFormatter](class.numberformatter.md)
-- Отримує значення символу
-
+---
+navigation:
+  - numberformatter.getpattern.md: '« NumberFormatter::getPattern'
+  - numberformatter.gettextattribute.md: 'NumberFormatter::getTextAttribute »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getSymbol'
+---
 # NumberFormatter::getSymbol
 
-#numfmt_get_symbol
+# numfmtgetsymbol
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::getSymbol -- numfmt_get_symbol — Отримує значення
-символу
+NumberFormatter::getSymbol -- numfmtgetsymbol — Отримує значення символу
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **NumberFormatter::getSymbol**(int `$symbol`): string\|false
+```methodsynopsis
+public NumberFormatter::getSymbol(int $symbol): string|false
+```
 
 Процедурний стиль
 
-**numfmt_get_symbol**([NumberFormatter](class.numberformatter.md)
-`$formatter`, int `$symbol`): string\|false
+```methodsynopsis
+numfmt_get_symbol(NumberFormatter $formatter, int $symbol): string|false
+```
 
-Отримує символ, пов'язаний із засобом форматування. Засіб
-форматування використовує символи для представлення спеціальних
-символів, які залежать від мови, у числах, наприклад, знак відсотка. Цей
-API не підтримується для форматування на основі правил.
+Отримує символ, пов'язаний із засобом форматування. Засіб форматування використовує символи для представлення спеціальних символів, які залежать від мови, у числах, наприклад, знак відсотка. Цей API не підтримується для форматування на основі правил.
 
 ### Список параметрів
 
 `formatter`
-Об'єкт [NumberFormatter](class.numberformatter.md).
+
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `symbol`
-Специфікатор символу, одна із констант [символів форматирования](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol).
+
+Специфікатор символу, одна з констант [символів форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol)
 
 ### Значення, що повертаються
 
@@ -44,32 +46,42 @@ API не підтримується для форматування на осн�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmt_get_symbol()****
+**Приклад #1 Приклад використання **numfmtgetsymbol()****
 
-` <?php$fmt==numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Sep: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_)
-";echo numfmt_format($fmt, 1234567.891234567890000)."
-";numfmt_set_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");echo "Sep: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPAR)
-";echo numfmt_format($fmt, 1234567.891234567890000)."
-";?> `
+```php
+<?php
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+echo "Sep: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+numfmt_set_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");
+echo "Sep: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Розділювач: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL
-";echo $fmt->format(1234567.891234567890000)."
-";$fmt->setSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");echo "Розділювач: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."
-";echo $fmt->format(1234567.891234567890000)."
-";?> `
+```php
+<?php
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+echo "Разделитель: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
+$fmt->setSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");
+echo "Разделитель: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Розділювач: .
+```
+Разделитель: .
 1.234.567,891
-Розділювач: *
+Разделитель: *
 1*234*567,891
+```
 
 ### Дивіться також
 
-- [numfmt_get_error_code()](numberformatter.geterrorcode.md) -
-Отримує останній код помилки засобу форматування
-- [numfmt_set_symbol()](numberformatter.setsymbol.md) -
-Встановлює значення символу
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtsetsymbol()](numberformatter.setsymbol.md) - Встановлює значення символу

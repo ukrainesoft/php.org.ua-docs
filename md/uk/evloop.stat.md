@@ -1,37 +1,47 @@
-- [«EvLoop::signal](evloop.signal.md)
-- [EvLoop::stop »](evloop.stop.md)
-
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Створює об'єкт спостерігача EvStat, пов'язаний із поточним екземпляром
-циклу подій
-
+---
+navigation:
+  - evloop.signal.md: '« EvLoop::signal'
+  - evloop.stop.md: 'EvLoop::stop »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::stat'
+---
 # EvLoop::stat
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::stat — Створює об'єкт спостерігача EvStat, пов'язаний із поточним
-екземпляром циклу подій
+EvLoop::stat — Створює об'єкт спостерігача EvStat, пов'язаний із поточним екземпляром циклу подій
 
 ### Опис
 
-final public **EvLoop::stat**(
-string `$path`,
-float `$interval`,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   EvLoop::stat(    
+    string
+     $path
+   ,    
+    float
+     $interval
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvStat
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvStat](class.evstat.md)
-
-Створює об'єкт спостерігача EvStat, пов'язаний з поточним екземпляром циклу
-подій.
+Створює об'єкт спостерігача EvStat, пов'язаний із поточним екземпляром циклу подій.
 
 ### Список параметрів
 
-Усі параметри, що й для
-[EvSignal::\_\_construct()](evsignal.construct.md)
+Усі параметри, що й для [EvSignal::construct()](evsignal.construct.md)
 
 ### Значення, що повертаються
 
@@ -39,5 +49,4 @@ int `$priority` = 0
 
 ### Дивіться також
 
-- [EvSignal::\_\_construct()](evsignal.construct.md) - Конструктор
-об'єкта спостерігача EvSignal
+-   [EvSignal::construct()](evsignal.construct.md) - Конструктор об'єкта спостерігача EvSignal

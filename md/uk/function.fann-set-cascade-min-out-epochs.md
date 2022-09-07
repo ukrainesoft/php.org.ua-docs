@@ -1,45 +1,45 @@
-- [« fann_set_cascade_min_cand_epochs](function.fann-set-cascade-min-cand-epochs.md)
-- [fann_set_cascade_num_candidate_groups »](function.fann-set-cascade-num-candidate-groups.md)
+---
+navigation:
+  - function.fann-set-cascade-min-cand-epochs.md: « fannsetcascademincandepochs
+  - function.fann-set-cascade-num-candidate-groups.md: fannsetcascadenumcandidategroups »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascademinoutepochs
+---
+# fannsetcascademinoutepochs
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює мінімальні епохи вихідних даних
+(PECL fann> = 1.0.0)
 
-# fann_set_cascade_min_out_epochs
-
-(PECL fann = 1.0.0)
-
-fann_set_cascade_min_out_epochs - Встановлює мінімальні епохи
-вихідних даних
+fannsetcascademinoutepochs - Встановлює мінімальні епохи вихідних даних
 
 ### Опис
 
-**fann_set_cascade_min_out_epochs**(resource `$ann`, int
-`$cascade_min_out_epochs`): bool
+```methodsynopsis
+fann_set_cascade_min_out_epochs(resource $ann, int $cascade_min_out_epochs): bool
+```
 
-Встановлює мінімальні часи вихідних даних.
+Встановлює мінімальні доби вихідних даних.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `cascade_min_out_epochs`
+
 Мінімальні епохи вихідних даних.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_get_cascade_min_out_epochs()](function.fann-get-cascade-min-out-epochs.md) -
-Повертає мінімальну кількість періодів
+-   [fanngetcascademinoutepochs()](function.fann-get-cascade-min-out-epochs.md) - Повертає мінімальну кількість періодів

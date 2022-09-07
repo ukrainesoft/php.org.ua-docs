@@ -1,25 +1,26 @@
-- [« Yaf_Config_Abstract::readonly](yaf-config-abstract.readonly.md)
-- [Yaf_Config_Abstract::toArray »](yaf-config-abstract.toarray.md)
+---
+navigation:
+  - yaf-config-abstract.readonly.md: '« YafConfigAbstract::readonly'
+  - yaf-config-abstract.toarray.md: 'YafConfigAbstract::toArray »'
+  - index.md: PHP Manual
+  - class.yaf-config-abstract.md: YafConfigAbstract
+title: 'YafConfigAbstract::set'
+---
+# YafConfigAbstract::set
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Abstract](class.yaf-config-abstract.md)
-- Сеттер
+(Yaf >=1.0.0)
 
-# Yaf_Config_Abstract::set
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Abstract::set — Сеттер
+YafConfigAbstract::set — Сеттер
 
 ### Опис
 
-abstract public **Yaf_Config_Abstract::set**():
-[Yaf_Config_Abstract](class.yaf-config-abstract.md)
+```methodsynopsis
+abstract public Yaf_Config_Abstract::set(): Yaf_Config_Abstract
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

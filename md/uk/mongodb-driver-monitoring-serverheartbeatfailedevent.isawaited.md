@@ -1,26 +1,24 @@
-- [« MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent »](class.mongodb-driver-monitoring-serverheartbeatstartedevent.md)
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getport.md: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDBDriverMonitoringServerHeartbeatStartedEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDBDriverMonitoringServerHeartbeatFailedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited'
+---
+# MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-- Повертає, чи використовувався в heartbeat потоковий протокол
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited —
-Повертає, чи використовувався в heartbeat потоковий протокол
+MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited — Повертає, чи використовувався в heartbeat потоковий протокол
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited**():
-bool
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited(): bool
+```
 
-Повертає, чи використовувався в heartbeat потоковий протокол. Драйвер PHP
-не використовує потоковий протокол для моніторингу, тому цей метод
-завжди повертатиме **`false`**.
+Повертає, чи використовувався в heartbeat потоковий протокол. Драйвер PHP не використовує потоковий протокол для моніторингу, тому цей метод завжди повертатиметься **`false`**
 
 ### Список параметрів
 
@@ -28,9 +26,8 @@ bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**.
+Повертає **`false`**
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

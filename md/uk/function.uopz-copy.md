@@ -1,35 +1,41 @@
-- [«uopz_compose](function.uopz-compose.md)
-- [uopz_del_function »](function.uopz-del-function.md)
+---
+navigation:
+  - function.uopz-compose.md: « uopzcompose
+  - function.uopz-del-function.md: uopzdelfunction »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzcopy
+---
+# uopzcopy
 
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Скопіювати функцію
+(PECL uopz 1 >= 1.0.4, PECL uopz 2)
 
-#uopz_copy
-
-(PECL uopz 1 \>= 1.0.4, PECL uopz 2)
-
-uopz_copy — Скопіювати функцію
+uopzcopy — Копіювати функцію
 
 **Увага**
 
-Ця функція була *Видалена* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
 
 ### Опис
 
-**uopz_copy**(string `$function`): [Closure](class.closure.md)
+```methodsynopsis
+uopz_copy(string $function): Closure
+```
 
-**uopz_copy**(string `$class`, string `$function`):
-[Closure](class.closure.md)
+```methodsynopsis
+uopz_copy(string $class, string $function): Closure
+```
 
 Копіювати функцію на ім'я
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу, що містить функцію копіювання
 
 `function`
+
 Ім'я функції
 
 ### Значення, що повертаються
@@ -38,10 +44,23 @@ uopz_copy — Скопіювати функцію
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_copy()****
+**Приклад #1 Приклад використання **uopzcopy()****
 
-` <?php$strtotime = uopz_copy('strtotime');uopz_function("strtotime", function($arg1, $arg2) use($strtotime) {     /* зесь можна  викликати         ¦ });var_dump(strtotime('dummy'));?> `
+```php
+<?php
+$strtotime = uopz_copy('strtotime');
+
+uopz_function("strtotime", function($arg1, $arg2) use($strtotime) {
+    /* зесь можно вызвать оригинальную функцию strtotime */
+    var_dump($arg1);
+});
+
+var_dump(strtotime('dummy'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(5) "dummy"
+```

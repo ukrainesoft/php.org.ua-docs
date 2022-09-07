@@ -1,30 +1,31 @@
-- [«SolrQuery::setTermsLowerBound](solrquery.settermslowerbound.md)
-- [SolrQuery::setTermsMinCount »](solrquery.settermsmincount.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює максимальну частоту документів
-
+---
+navigation:
+  - solrquery.settermslowerbound.md: '« SolrQuery::setTermsLowerBound'
+  - solrquery.settermsmincount.md: 'SolrQuery::setTermsMinCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsMaxCount'
+---
 # SolrQuery::setTermsMaxCount
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setTermsMaxCount — Встановлює максимальну частоту
-документів
+SolrQuery::setTermsMaxCount — Встановлює максимальну частоту документів
 
 ### Опис
 
-public **SolrQuery::setTermsMaxCount**(int `$frequency`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTermsMaxCount(int $frequency): SolrQuery
+```
 
 Встановлює максимальну частоту документів.
 
 ### Список параметрів
 
 `frequency`
+
 Максимальна частота
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

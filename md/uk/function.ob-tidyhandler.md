@@ -1,30 +1,33 @@
-- [« Tidy](ref.tidy.md)
-- [tidy_access_count »](function.tidy-access-count.md)
-
-- [PHP Manual](index.md)
-- [Tidy](ref.tidy.md)
-- Функція зворотного виклику ob_start для відновлення буфера
-
-#ob_tidyhandler
+---
+navigation:
+  - ref.tidy.md: « Tidy
+  - function.tidy-access-count.md: tidyaccesscount »
+  - index.md: PHP Manual
+  - ref.tidy.md: Tidy
+title: проtidyhandler
+---
+# проtidyhandler
 
 (PHP 5, PHP 7, PHP 8)
 
-ob_tidyhandler — Функція зворотного виклику ob_start для відновлення
-буфера
+проtidyhandler — Функція зворотного дзвінка obstart для відновлення буфера
 
 ### Опис
 
-**ob_tidyhandler**(string `$input`, int `$mode` = ?): string
+```methodsynopsis
+ob_tidyhandler(string $input, int $mode = ?): string
+```
 
-Функція зворотного виклику [ob_start()](function.ob-start.md)
-відновлення буфера.
+Функція зворотного дзвінка [проstart()](function.ob-start.md) на відновлення буфера.
 
 ### Список параметрів
 
 `input`
+
 Буфер.
 
 `mode`
+
 Режим буфера
 
 ### Значення, що повертаються
@@ -33,12 +36,19 @@ ob_tidyhandler — Функція зворотного виклику ob_start �
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ob_tidyhandler()****
+**Приклад #1 Приклад використання **проtidyhandler()****
 
-` <?phpob_start('ob_tidyhandler');echo '<p>test</i>';?> `
+```php
+<?php
+ob_start('ob_tidyhandler');
+
+echo '<p>test</i>';
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html>
 <head>
@@ -48,7 +58,8 @@ ob_tidyhandler — Функція зворотного виклику ob_start �
 <p>test</p>
 </body>
 </html>
+```
 
 ### Дивіться також
 
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу

@@ -1,20 +1,22 @@
-- [« Swoole\Buffer::read](swoole-buffer.read.md)
-- [Swoole\Buffer::substr »](swoole-buffer.substr.md)
+---
+navigation:
+  - swoole-buffer.read.md: '« SwooleBuffer::read'
+  - swoole-buffer.substr.md: 'SwooleBuffer::substr »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.md: SwooleBuffer
+title: 'SwooleBuffer::recycle'
+---
+# SwooleBuffer::recycle
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Визволяє пам'ять для ОС, яка не використовується буфером пам'яті
+(PECL swoole >= 1.9.0)
 
-# Swoole\Buffer::recycle
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Buffer::recycle — Звільняє пам'ять для ОС, яка не
-використовується буфером пам'яті
+SwooleBuffer::recycle — Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
 
 ### Опис
 
-public **Swoole\Buffer::recycle**(): void
+```methodsynopsis
+public Swoole\Buffer::recycle(): void
+```
 
 ### Список параметрів
 

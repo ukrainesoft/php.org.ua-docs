@@ -1,24 +1,24 @@
-- [«posix_get_last_error](function.posix-get-last-error.md)
-- [posix_getegid »](function.posix-getegid.md)
-
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає шлях поточної директорії
-
-#posix_getcwd
+---
+navigation:
+  - function.posix-get-last-error.md: « posixgetlasterror
+  - function.posix-getegid.md: posixgetegid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetcwd
+---
+# posixgetcwd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getcwd — Повертає шлях поточної директорії
+posixgetcwd — Повертає шлях поточної директорії
 
 ### Опис
 
-**posix_getcwd**(): string\|false
+```methodsynopsis
+posix_getcwd(): string|false
+```
 
-Повертає абсолютний шлях робочої директорії скрипта. В
-у разі виникнення помилки буде встановлено її номер, який може
-бути оброблений за допомогою
-[posix_get_last_error()](function.posix-get-last-error.md)
+Повертає абсолютний шлях робочої директорії скрипта. У разі виникнення помилки буде встановлено її номер, який може бути оброблений за допомогою [posixgetlasterror()](function.posix-get-last-error.md)
 
 ### Список параметрів
 
@@ -26,25 +26,25 @@ posix_getcwd — Повертає шлях поточної директорії
 
 ### Значення, що повертаються
 
-Повертає string з абсолютним шляхом у разі успішного виконання. В
-у разі виникнення помилки буде повернено **`false`**, також буде
-встановлено номер помилки, який може бути оброблений за допомогою
-[posix_get_last_error()](function.posix-get-last-error.md).
+Повертає string з абсолютним шляхом у разі успішного виконання. У разі виникнення помилки буде повернено **`false`**, також буде встановлено номер помилки, який може бути оброблений за допомогою [posixgetlasterror()](function.posix-get-last-error.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getcwd()****
+**Приклад #1 Приклад використання **posixgetcwd()****
 
-У цьому прикладі повертається абсолютний шлях робочої директорії
-виконуваного скрипта.
+У цьому прикладі повертається абсолютний шлях робочої директорії скрипта, що виконується.
 
-`<?phpecho 'My current working directory is '.posix_getcwd();?> `
+```php
+<?php
+echo 'My current working directory is '.posix_getcwd();
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Функція завершиться помилкою у таких випадках
->
-> - Немає права на читання або пошук
-> - Даного шляху більше не існує
+> 
+> -   Відсутні права на читання чи пошук
+> -   Даного шляху більше не існує

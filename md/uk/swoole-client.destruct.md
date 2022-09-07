@@ -1,24 +1,26 @@
-- [« Swoole\Client::\_\_construct](swoole-client.construct.md)
-- [Swoole\Client::getpeername »](swoole-client.getpeername.md)
+---
+navigation:
+  - swoole-client.construct.md: '« SwooleClient::construct'
+  - swoole-client.getpeername.md: 'SwooleClient::getpeername »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::destruct'
+---
+# SwooleClient::destruct
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Знищує клієнт Swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::\_\_destruct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::\_\_destruct — Знищує клієнт Swoole
+SwooleClient::destruct — Знищує клієнт Swoole
 
 ### Опис
 
-public **Swoole\Client::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Client::__destruct(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

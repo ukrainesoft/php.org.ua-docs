@@ -1,38 +1,36 @@
-- [« Ds\Sequence::allocate](ds-sequence.allocate.md)
-- [Ds\Sequence::capacity »](ds-sequence.capacity.md)
+---
+navigation:
+  - ds-sequence.allocate.md: '« DsSequence::allocate'
+  - ds-sequence.capacity.md: 'ДсSequence::capacity »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::apply'
+---
+# ДсSequence::apply
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Оновлення всіх значень застосуванням до них переданої
-callback-функції
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::apply
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::apply — Оновлення всіх значень їх застосуванням
-переданої callback-функції
+ДсSequence::apply — Оновлення всіх значень застосуванням до них переданої callback-функції
 
 ### Опис
 
-abstract public
-**Ds\Sequence::apply**([callable](language.types.callable.md)
-`$callback`): void
+```methodsynopsis
+abstract public Ds\Sequence::apply(callable $callback): void
+```
 
-Оновлення всіх значень застосуванням до них переданої
-'callback'-функції.
+Оновлення всіх значень застосуванням до них переданої `callback`функції.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Об'єкт типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $value): mixed
+```
 
-Callback-функція має повертати нове значення, яке замінить
-поточний.
+Об'єкт типу [callable](language.types.callable.md)
+
+Callback-функція має повертати нове значення, яке замінить поточне.
 
 ### Значення, що повертаються
 
@@ -40,15 +38,24 @@ Callback-функція має повертати нове значення, я�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::apply()****
+**Приклад #1 Приклад використання **ДсSequence::apply()****
 
-` <?php$sequence = new \Ds\Sequence([1, 2, 3]);$sequence->apply(function($value) { return $value * 2; });print_r($sequence);? > `
+```php
+<?php
+$sequence = new \Ds\Sequence([1, 2, 3]);
+$sequence->apply(function($value) { return $value * 2; });
+
+print_r($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 2
-[1] => 4
-[2] => 6
+    [0] => 2
+    [1] => 4
+    [2] => 6
 )
+```

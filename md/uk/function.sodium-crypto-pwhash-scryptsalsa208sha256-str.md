@@ -1,26 +1,26 @@
-- [« sodium_crypto_pwhash_scryptsalsa208sha256_str_verify](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md)
-- [sodium_crypto_pwhash_scryptsalsa208sha256 »](function.sodium-crypto-pwhash-scryptsalsa208sha256.md)
+---
+navigation:
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md: « sodiumcryptopwhashscryptsalsa208sha256strverify
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256.md: sodiumcryptopwhashscryptsalsa208sha256 »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptopwhashscryptsalsa208sha256str
+---
+# sodiumcryptopwhashscryptsalsa208sha256str
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Отримати закодований в ASCII хеш
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_pwhash_scryptsalsa208sha256_str
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_pwhash_scryptsalsa208sha256_str — Отримати закодований
-в ASCII хеш
+sodiumcryptopwhashscryptsalsa208sha256str — Отримати закодований в ASCII хеш
 
 ### Опис
 
-**sodium_crypto_pwhash_scryptsalsa208sha256_str**(string `$password`,
-int `$opslimit`, int `$memlimit`): string
+```methodsynopsis
+sodium_crypto_pwhash_scryptsalsa208sha256_str(string $password, int $opslimit, int $memlimit): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

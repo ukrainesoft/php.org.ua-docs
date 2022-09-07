@@ -1,30 +1,33 @@
-- [« Функції роботи з класами та об'єктами](ref.classobj.md)
-- [class_alias »](function.class-alias.md)
-
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Спроба завантажити невизначений клас
-
-#\_\_autoload
+---
+navigation:
+  - ref.classobj.md: « Функції роботи з класами та об'єктами
+  - function.class-alias.md: classalias »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: autoload
+---
+# autoload
 
 (PHP 5, PHP 7)
 
-\_\_autoload — Спроба завантажити невизначений клас
+autoload — Спроба завантажити невизначений клас
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.2.0 і була *Видалена*
-у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.2.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**\_\_autoload**(string `$class`): void
+```methodsynopsis
+__autoload(string $class): void
+```
 
-Ви можете визначити цю функцію для [автозавантаження класів](language.oop5.autoload.md).
+Ви можете визначити цю функцію для [автозагрузки классов](language.oop5.autoload.md)
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу, що завантажується
 
 ### Значення, що повертаються
@@ -33,6 +36,4 @@
 
 ### Дивіться також
 
-- [spl_autoload_register()](function.spl-autoload-register.md) -
-Реєструє задану функцію як реалізацію методу
-\_\_autoload()
+-   [splautoloadregister()](function.spl-autoload-register.md) - Реєструє задану функцію як реалізацію методу autoload()

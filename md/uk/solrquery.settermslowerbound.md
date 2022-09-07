@@ -1,30 +1,31 @@
-- [«SolrQuery::setTermsLimit](solrquery.settermslimit.md)
-- [SolrQuery::setTermsMaxCount »](solrquery.settermsmaxcount.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- визначає вираз, з якого треба починати
-
+---
+navigation:
+  - solrquery.settermslimit.md: '« SolrQuery::setTermsLimit'
+  - solrquery.settermsmaxcount.md: 'SolrQuery::setTermsMaxCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsLowerBound'
+---
 # SolrQuery::setTermsLowerBound
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setTermsLowerBound — Визначає вираз, з якого потрібно
-починати
+SolrQuery::setTermsLowerBound - Визначає вираз, з якого потрібно починати
 
 ### Опис
 
-public **SolrQuery::setTermsLowerBound**(string `$lowerBound`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTermsLowerBound(string $lowerBound): SolrQuery
+```
 
 Визначає вираз, із якого треба починати
 
 ### Список параметрів
 
 `lowerBound`
-Нижня межа вираження
+
+Нижня межа виразу
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

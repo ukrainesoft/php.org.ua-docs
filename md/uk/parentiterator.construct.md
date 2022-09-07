@@ -1,31 +1,29 @@
-- [« ParentIterator::accept](parentiterator.accept.md)
-- [ParentIterator::getChildren »](parentiterator.getchildren.md)
+---
+navigation:
+  - parentiterator.accept.md: '« ParentIterator::accept'
+  - parentiterator.getchildren.md: 'ParentIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::construct'
+---
+# ParentIterator::construct
 
-- [PHP Manual](index.md)
-- [ParentIterator](class.parentiterator.md)
-- Конструктор класу ParentIterator
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-# ParentIterator::\_\_construct
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-ParentIterator::\_\_construct - Конструктор класу ParentIterator
+ParentIterator::construct - Конструктор класу ParentIterator
 
 ### Опис
 
-public
-**ParentIterator::\_\_construct**([RecursiveIterator](class.recursiveiterator.md)
-`$iterator`)
+public **ParentIterator::construct**[RecursiveIterator](class.recursiveiterator.md) `$iterator`
 
-Створює новий об'єкт класу [ParentIterator](class.parentiterator.md)
-на основі об'єкта-ітератора.
+Створює новий об'єкт класу [ParentIterator](class.parentiterator.md) на основі об'єкта-ітератора.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `iterator`
+
 Об'єкт-ітератор, основі якого створюється новий об'єкт.

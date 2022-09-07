@@ -1,27 +1,29 @@
-- [«UI\quit](function.ui-quit.md)
-- [UI\Draw\Text\Font\Weight »](class.ui-draw-text-font-weight.md)
-
-- [PHP Manual](index.md)
-- [Функції UI](ref.ui.md)
-- Увійти до циклу UI
-
-#UIun\run
+---
+navigation:
+  - function.ui-quit.md: « UIquit
+  - class.ui-draw-text-font-weight.md: ОЙDrawTextFontWeight »
+  - index.md: PHP Manual
+  - ref.ui.md: Функции UI
+title: ОЙrun
+---
+# ОЙrun
 
 (UI 2.0.0)
 
-UI\run — Увійти до циклу UII
+ОЙrun — Увійти до циклу UI
 
 ### Опис
 
-**UI\run**(int `$flags` = ?): voidd
+```methodsynopsis
+UI\run(int $flags = ?): void
+```
 
-Наказує PHP увійти до головного циклу, за замовчуванням контроль не
-повертається до ініціатора
+Наказує PHP увійти до головного циклу, за замовчуванням контроль не повертається до ініціатора
 
 ### Список параметрів
 
 `flags`
-Вимушує UI\Loop повернути управління, а UI\Wait повернути управління після
-очікування
+
+Вимушує UILoop повернути управління, а UIWait повернути керування після очікування
 
 ### Значення, що повертаються

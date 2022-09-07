@@ -1,43 +1,41 @@
-- [« DOMElement::getAttributeNode](domelement.getattributenode.md)
-- [DOMElement::getAttributeNS »](domelement.getattributens.md)
-
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Повертає вузол атрибуту
-
+---
+navigation:
+  - domelement.getattributenode.md: '« DOMElement::getAttributeNode'
+  - domelement.getattributens.md: 'DOMElement::getAttributeNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::getAttributeNodeNS'
+---
 # DOMElement::getAttributeNodeNS
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::getAttributeNodeNS — Повертає вузол атрибута
+DOMElement::getAttributeNodeNS — Повертає вузол атрибуту
 
 ### Опис
 
-public **DOMElement::getAttributeNodeNS**(?string `$namespace`, string
-`$localName`): [DOMAttr](class.domattr.md)\|DOMNameSpaceNode\|null
+```methodsynopsis
+public DOMElement::getAttributeNodeNS(?string $namespace, string $localName): DOMAttr|DOMNameSpaceNode|null
+```
 
-Повертає вузол атрибута у просторі імен `namespace` з локальним
-іменем `localName` для поточного вузла.
+Повертає вузол атрибута у просторі імен `namespace` з локальним ім'ям `localName` для поточного сайту.
 
 ### Список параметрів
 
 `namespace`
+
 URI простір імен.
 
 `localName`
+
 Місцеве ім'я.
 
 ### Значення, що повертаються
 
-Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен
-XML (атрибути `xmlns` та `xmlns:*`) повертається екземпляр
-**DOMNameSpaceNode**, а не об'єкт [DOMAttr](class.domattr.md).
+Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен XML (атрибути `xmlns` і `xmlns:*`) повертається екземпляр **DOMNameSpaceNode**, а не об'єкт [DOMAttr](class.domattr.md)
 
 ### Дивіться також
 
-- [DOMElement::hasAttributeNS()](domelement.hasattributens.md) -
-Перевіряє, чи існує заданий атрибут
-- [DOMElement::setAttributeNodeNS()](domelement.setattributenodens.md) -
-Додає новий атрибут елемент
-- [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) -
-Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::setAttributeNodeNS()](domelement.setattributenodens.md) - Додає новий атрибут елемент
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) - Видаляє атрибут

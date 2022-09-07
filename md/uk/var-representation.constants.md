@@ -1,23 +1,19 @@
-- [« Установка](var-representation.installation.md)
-- [Функції var_representation »](ref.var-representation.md)
+---
+navigation:
+  - var-representation.installation.md: « Установка
+  - ref.var-representation.md: Функции varrepresentation »
+  - index.md: PHP Manual
+  - book.var_representation.md: varrepresentation
+title: Обумовлені константи
+---
+# Обумовлені константи
 
-- [PHP Manual](index.md)
-- [var_representation](book.var_representation.md)
-- Обумовлені константи
-
-# Зумовлені константи
-
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
 **`VAR_REPRESENTATION_SINGLE_LINE`** (int)
-[var_representation()](function.var-representation.md) - прапорець,
-вказує, що символи нового рядка не повинні використовуватися для
-прогалин у уявленнях змінних.
+
+[varrepresentation()](function.var-representation.md) - прапор, що вказує на те, що символи нового рядка не повинні використовуватися для пробілів у поданнях змінних.
 
 **`VAR_REPRESENTATION_UNESCAPED`** (int)
-[var_representation()](function.var-representation.md) - прапорець,
-що вказує, що рядки повинні бути закодовані як рядки в одинарних
-лапки з неекранованими керуючими символами.
+
+[varrepresentation()](function.var-representation.md) - прапор, що вказує, що рядки мають бути закодовані як рядки в одинарних лапках з неекранованими символами, що управляють.

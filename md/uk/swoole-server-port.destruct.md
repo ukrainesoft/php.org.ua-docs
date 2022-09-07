@@ -1,19 +1,22 @@
-- [« Swoole\Server\Port::\_\_construct](swoole-server-port.construct.md)
-- [Swoole\Server\Port::on »](swoole-server-port.on.md)
+---
+navigation:
+  - swoole-server-port.construct.md: '« SwooleServerPort::construct'
+  - swoole-server-port.on.md: 'SwooleServerPort::on »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServerPort::destruct'
+---
+# SwooleServerPort::destruct
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Знищує порт сервера
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server\Port::\_\_destruct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server\Port::\_\_destruct — Знищує порт сервера
+SwooleServerPort::destruct — Знищує порт сервера
 
 ### Опис
 
-public **Swoole\Server\Port::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Server\Port::__destruct(): void
+```
 
 ### Список параметрів
 

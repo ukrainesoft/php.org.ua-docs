@@ -1,34 +1,35 @@
-- [« SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md)
-- [SolrQuery::setHighlightHighlightMultiTerm »](solrquery.sethighlighthighlightmultiterm.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- розмір фрагментів, які слід враховувати при виділенні
-
+---
+navigation:
+  - solrquery.sethighlightfragmenter.md: '« SolrQuery::setHighlightFragmenter'
+  - solrquery.sethighlighthighlightmultiterm.md: 'SolrQuery::setHighlightHighlightMultiTerm »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightFragsize'
+---
 # SolrQuery::setHighlightFragsize
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightFragsize — Розмір фрагментів, які слідують
-враховувати при виділенні
+SolrQuery::setHighlightFragsize — Розмір фрагментів, які слід враховувати при виділенні
 
 ### Опис
 
-public **SolrQuery::setHighlightFragsize**(int `$size`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightFragsize(int $size, string $field_override = ?): SolrQuery
+```
 
-Встановлює розмір символів фрагментів для виділення. "0" вказує,
-що слід використати всі значення поля (без фрагментації).
+Встановлює розмір символів фрагментів для виділення. "0" вказує на те, що слід використовувати всі значення поля (без фрагментації).
 
 ### Список параметрів
 
 `size`
-Розмір символів фрагментів, які слід враховувати при виділенні
+
+Розмір у символах фрагментів, які слід враховувати при виділенні
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

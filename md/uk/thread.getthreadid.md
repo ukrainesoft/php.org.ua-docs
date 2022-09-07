@@ -1,19 +1,22 @@
-- [« Thread::getCurrentThreadId](thread.getcurrentthreadid.md)
-- [Thread::isJoined »](thread.isjoined.md)
-
-- [PHP Manual](index.md)
-- [Thread](class.thread.md)
-- Ідентифікація
-
+---
+navigation:
+  - thread.getcurrentthreadid.md: '« Thread::getCurrentThreadId'
+  - thread.isjoined.md: 'Thread::isJoined »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::getThreadId'
+---
 # Thread::getThreadId
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Thread::getThreadId - Ідентифікація
 
 ### Опис
 
-public **Thread::getThreadId**(): int
+```methodsynopsis
+public Thread::getThreadId(): int
+```
 
 Повертає ідентифікатор вказаного потоку
 
@@ -29,9 +32,20 @@ public **Thread::getThreadId**(): int
 
 **Приклад #1 Повертає ідентифікатор вказаного потоку**
 
-` <?phpclass|
-", __CLASS__, $this->getThreadId());    }}$my = new My();$my->start();?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        printf("%s является потоком #%lu\n", __CLASS__, $this->getThreadId());
+    }
+}
+$my = new My();
+$my->start();
+?>
+```
 
 Результат виконання цього прикладу:
 
-My є потоком.
+```
+My является потоком #123456778899
+```

@@ -1,21 +1,22 @@
-- [« Swoole\Lock::trylock_read](swoole-lock.trylock-read.md)
-- [Swoole\Lock::unlock »](swoole-lock.unlock.md)
+---
+navigation:
+  - swoole-lock.trylock-read.md: '« SwooleLock::trylockread'
+  - swoole-lock.unlock.md: 'SwooleLock::unlock »'
+  - index.md: PHP Manual
+  - class.swoole-lock.md: SwooleLock
+title: 'SwooleLock::trylock'
+---
+# SwooleLock::trylock
 
-- [PHP Manual](index.md)
-- [Swoole\Lock](class.swoole-lock.md)
-- Намагається отримати блокування і одразу повертає, навіть якщо
-блокування недоступне
+(PECL swoole >= 1.9.0)
 
-# Swoole\Lock::trylock
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Lock::trylock — Намагається отримати блокування і відразу повертає,
-навіть якщо блокування недоступне
+SwooleLock::trylock — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
 
 ### Опис
 
-public **Swoole\Lock::trylock**(): void
+```methodsynopsis
+public Swoole\Lock::trylock(): void
+```
 
 ### Список параметрів
 

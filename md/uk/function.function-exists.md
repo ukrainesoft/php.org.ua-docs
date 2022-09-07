@@ -1,66 +1,63 @@
-- [«func_num_args](function.func-num-args.md)
-- [get_defined_functions »](function.get-defined-functions.md)
-
-- [PHP Manual](index.md)
-- [Функції керування функціями](ref.funchand.md)
-- Повертає true, якщо вказана функція визначена
-
-# function_exists
+---
+navigation:
+  - function.func-num-args.md: « funcnumargs
+  - function.get-defined-functions.md: getdefinedfunctions »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: functionexists
+---
+# functionexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-function_exists — Повертає **`true`**, якщо вказана функція
-визначено
+functionexists - Повертає \*\*`true`\*\*якщо зазначена функція визначена
 
 ### Опис
 
-**function_exists**(string `$function`): bool
+```methodsynopsis
+function_exists(string $function): bool
+```
 
-Перевіряє, чи є у списку певних функцій як вбудованих
-(Внутрішніх), так і користувальницьких, функція `function`.
+Перевіряє, чи є в списку певних функцій, як вбудованих (внутрішніх), так і функцій користувача, функція `function`
 
 ### Список параметрів
 
 `function`
+
 Ім'я функції у вигляді рядка.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `function` існує і є функцією,
-інакше повертається **`false`**.
+Повертає **`true`**, якщо `function` існує і є функцією, інакше повертається **`false`**
 
-> **Примітка**:
->
-> Ця функція повертає **`false`** для мовних конструкцій, таких як
-> [include_once](function.include-once.md) або
-> [Echo](function.echo.md).
+> **Зауваження**
+> 
+> Ця функція повертає **`false`** для мовних конструкцій, таких як [includeonce](function.include-once.md) або [echo](function.echo.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **function_exists()****
+**Приклад #1 Приклад використання **functionexists()****
 
-` <?phpif (function_exists('imap_open')) {   echo "Функції IMAP доступні.<br />
-";} else {    echo "Функції IMAP недоступні.<br />
-";}?> `
+```php
+<?php
+if (function_exists('imap_open')) {
+    echo "Функции IMAP доступны.<br />\n";
+} else {
+    echo "Функции IMAP недоступны.<br />\n";
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Зверніть увагу, що назва функції може бути навіть
-> якщо функцію неможливо використовувати через налаштування конфігурації
-> або опцій компіляції (наприклад, як для функцій
-> [image](ref.image.md)).
+> **Зауваження**
+> 
+> Зверніть увагу, що назва функції може бути присутня, навіть якщо саму функцію неможливо використовувати через налаштування конфігурації або опції компіляції (наприклад, як для функцій [image](ref.image.md)
 
 ### Дивіться також
 
-- [method_exists()](function.method-exists.md) - Перевіряє,
-чи існує метод у даному класі
-- [is_callable()](function.is-callable.md) - Перевіряє, що значення
-може бути викликано як функція у поточній області видимості
-- [get_defined_functions()](function.get-defined-functions.md) -
-Повертає масив усіх певних функцій
-- [class_exists()](function.class-exists.md) - Перевіряє, чи був він
-оголошено клас
-- [extension_loaded()](function.extension-loaded.md) - Визначає,
-чи завантажений модуль
+-   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі
+-   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [extensionloaded()](function.extension-loaded.md) - Визначає, чи завантажений модуль

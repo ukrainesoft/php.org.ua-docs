@@ -1,23 +1,24 @@
-- [« Swoole\Http\Server](class.swoole-http-server.md)
-- [Swoole\Http\Server::start »](swoole-http-server.start.md)
+---
+navigation:
+  - class.swoole-http-server.md: « SwooleHttpServer
+  - swoole-http-server.start.md: 'SwooleHttpServer::start »'
+  - index.md: PHP Manual
+  - class.swoole-http-server.md: SwooleHttpServer
+title: 'SwooleHttpServer::on'
+---
+# SwooleHttpServer::on
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Server](class.swoole-http-server.md)
-- Прив'язує callback-функцію до HTTP-сервера на ім'я події
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Server::on
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Server::on — Прив'язує callback-функцію до HTTP-сервера за
-імені події
+SwooleHttpServer::on — Прив'язує callback-функцію до HTTP-сервера на ім'я події
 
 ### Опис
 
-public **Swoole\Http\Server::on**(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Http\Server::on(string $event_name, callable $callback): void
+```
 
-Прив'язує callback-функцію до HTTP-серверу на ім'я події.
+Прив'язує callback-функцію до HTTP-сервера на ім'я події.
 
 ### Список параметрів
 

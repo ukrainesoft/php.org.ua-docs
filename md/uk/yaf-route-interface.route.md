@@ -1,47 +1,39 @@
-- [« Yaf_Route_Interface::assemble](yaf-route-interface.assemble.md)
-- [Yaf_Route_Map »](class.yaf-route-map.md)
+---
+navigation:
+  - yaf-route-interface.assemble.md: '« YafRouteInterface::assemble'
+  - class.yaf-route-map.md: YafRouteMap »
+  - index.md: PHP Manual
+  - class.yaf-route-interface.md: YafRouteInterface
+title: 'YafRouteInterface::route'
+---
+# YafRouteInterface::route
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Interface](class.yaf-route-interface.md)
-- Направлення запиту
+(Yaf >=1.0.0)
 
-# Yaf_Route_Interface::route
-
-(Yaf \>=1.0.0)
-
-Yaf_Route_Interface::route — Напрямок запиту
+YafRouteInterface::route — Надсилання запиту
 
 ### Опис
 
-abstract public
-**Yaf_Route_Interface::route**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
+```methodsynopsis
+abstract public Yaf_Route_Interface::route(Yaf_Request_Abstract $request): bool
+```
 
-**Yaf_Route_Interface::route()** - це єдиний метод, який
-повинен реалізовувати маршрут користувача.
+**YafRouteInterface::route()** - це єдиний метод, який повинен реалізовувати маршрут користувача.
 
-> **Примітка**:
->
-> починаючи з 2.3.0, має бути реалізований ще один метод, дивіться
-> [Yaf_Route_Interface::assemble()](yaf-route-interface.assemble.md).
+> **Зауваження**
+> 
+> починаючи з 2.3.0, має бути реалізований ще один метод, дивіться [YafRouteInterface::assemble()](yaf-route-interface.assemble.md)
 
-Якщо метод повертає **`true`**, тоді процес маршруту буде завершено.
-В іншому випадку [Yaf_Router](class.yaf-router.md) викличе наступний
-маршрут у стеку маршрутів для запиту маршруту.
+Якщо метод повертає **`true`**, Тоді процес маршруту буде завершено. В іншому випадку [YafRouter](class.yaf-router.md) Викликає наступний маршрут у стеку маршрутів для запиту маршруту.
 
-Цей метод встановить результат маршруту для запиту параметра, викликавши
-[Yaf_Request_Abstract::setControllerName()](yaf-request-abstract.setcontrollername.md),
-[Yaf_Request_Abstract::setActionName()](yaf-request-abstract.setactionname.md)
-і
-[Yaf_Request_Abstract::setModuleName()](yaf-request-abstract.setmodulename.md).
+Цей метод встановить результат маршруту для запиту параметра, викликавши [YafRequestAbstract::setControllerName()](yaf-request-abstract.setcontrollername.md) [YafRequestAbstract::setActionName()](yaf-request-abstract.setactionname.md) і [YafRequestAbstract::setModuleName()](yaf-request-abstract.setmodulename.md)
 
-Метод повинен також викликати
-[Yaf_Request_Abstract::setRouted()](yaf-request-abstract.setrouted.md),
-щоб запит нарешті був перенаправлений.
+Метод повинен також викликати [YafRequestAbstract::setRouted()](yaf-request-abstract.setrouted.md)щоб запит нарешті був перенаправлений.
 
 ### Список параметрів
 
 `request`
-Примірник [Yaf_Request_Abstract](class.yaf-request-abstract.md).
+
+Екземпляр [YafRequestAbstract](class.yaf-request-abstract.md)
 
 ### Значення, що повертаються

@@ -1,20 +1,37 @@
-- [« DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.md)
-- [mysql_xdevapi\Executable »](class.mysql-xdevapi-executable.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас Exception
-
+---
+navigation:
+  - mysql-xdevapi-docresult.getwarningscount.md: '« DocResult::getWarningsCount'
+  - class.mysql-xdevapi-executable.md: mysqlxdevapiExecutable »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Клас Exception
+---
 # Клас Exception
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\Exception** extends
-[RuntimeException](class.runtimeexception.md) implements
-[Throwable](class.throwable.md) {
+```synopsis
 
-}
+
+
+    
+     
+      class mysql_xdevapi\Exception
+     
+
+     
+      extends
+       RuntimeException
+     
+
+     implements 
+       Throwable {
+
+    
+
+   }
+```

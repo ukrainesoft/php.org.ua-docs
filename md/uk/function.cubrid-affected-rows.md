@@ -1,62 +1,81 @@
-- [« Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- [cubrid_client_encoding »](function.cubrid-client-encoding.md)
+---
+navigation:
+  - cubridmysql.cubrid.md: « Функції сумісності CUBRID MySQL
+  - function.cubrid-client-encoding.md: cubridclientencoding »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridaffectedrows
+---
+# cubridaffectedrows
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Кількість рядків, порушених останнім SQL-запитом
+(PECL CUBRID >= 8.3.0)
 
-#cubrid_affected_rows
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_affected_rows — Кількість рядків, зачеплених останнім
-SQL-запитом
+cubridaffectedrows — Кількість рядків, порушених останнім SQL-запитом
 
 ### Опис
 
-**cubrid_affected_rows**(resource `$conn_identifier` = ?): int
+```methodsynopsis
+cubrid_affected_rows(resource $conn_identifier = ?): int
+```
 
-**cubrid_affected_rows**(resource `$req_identifier` = ?): int
+```methodsynopsis
+cubrid_affected_rows(resource $req_identifier = ?): int
+```
 
-Функція **cubrid_affected_rows()** використовується для отримання кількості
-рядків, порушених останнім SQL-запитом типу INSERT, DELETE чи UPDATE.
+Функція **cubridaffectedrows()** використовується для отримання кількості рядків, які торкнулися останнім SQL-запитом типу INSERT, DELETE або UPDATE.
 
 ### Список параметрів
 
 `conn_identifier`
-Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься
-останнє відкрите за допомогою
-[cubrid_connect()](function.cubrid-connect.md) з'єднання.
+
+Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
 
 `req_identifier`
-Ідентифікатор запиту повинен бути повернутий функціями
-[cubrid_prepare()](function.cubrid-prepare.md) або
-[cubrid_execute()](function.cubrid-execute.md). Якщо не заданий, то
-буде використано останній запит, повернутий
-[cubrid_prepare()](function.cubrid-prepare.md) або
-[cubrid_execute()](function.cubrid-execute.md).
+
+Ідентифікатор запиту має бути повернутий функціями [cubridprepare()](function.cubrid-prepare.md) або [cubridexecute()](function.cubrid-execute.md). Якщо не заданий, буде використано останній запит, повернутий [cubridprepare()](function.cubrid-prepare.md) або [cubridexecute()](function.cubrid-execute.md)
 
 ### Значення, що повертаються
 
-Кількість рядків, порушених останнім SQL-запитом, у разі успішного
-виконання.
+Кількість рядків, які торкнулися останнім SQL-запитом, у разі успішного виконання.
 
--1, якщо запит не був типом INSERT, DELETE або UPDATE.
+1, якщо запит не був типом INSERT, DELETE або UPDATE.
 
-**`false`**, якщо ідентифікатор запиту не вказано та відсутні
-будь-які виконані запити.
+**`false`**, якщо ідентифікатор запиту не вказано та відсутні будь-які виконані запити.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_affected_rows()****
+**Приклад #1 Приклад використання **cubridaffectedrows()****
 
-` <?php$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');cubrid_execute($conn, "DROP TABLE IF EXISTS cubrid_test");cubrid (d varchar)");$sql_stmt=="INSERT INTO cubrid_test(d) VALUES('php-test')";$req = cubrid_prepare($conn, $sql_stmt);for ($i = 0; ; $i++) {    cubrid_execute($req);}cubrid_commit($conn);$req = cubrid_execute($conn, "DELETE FROM cubrid_test WHERE d='php-tes; var_dump(cubrid_affected_rows($conn));var_dump(cubrid_affected_rows($req));cubrid_disconnect($conn);print "done!";?> `
+```php
+<?php
+$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
+cubrid_execute($conn, "DROP TABLE IF EXISTS cubrid_test");
+cubrid_execute($conn, "CREATE TABLE cubrid_test (d varchar)");
+$sql_stmt = "INSERT INTO cubrid_test(d) VALUES('php-test')";
+$req = cubrid_prepare($conn, $sql_stmt);
+
+for ($i = 0; $i < 10; $i++) {
+    cubrid_execute($req);
+}
+cubrid_commit($conn);
+
+$req = cubrid_execute($conn, "DELETE FROM cubrid_test WHERE d='php-test'", CUBRID_ASYNC);
+var_dump(cubrid_affected_rows());
+var_dump(cubrid_affected_rows($conn));
+var_dump(cubrid_affected_rows($req));
+
+cubrid_disconnect($conn);
+
+print "done!";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Rows deleted: 5
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор

@@ -1,48 +1,45 @@
-- [« Ds\Collection::toArray](ds-collection.toarray.md)
-- [Ds\Hashable::equals »](ds-hashable.equals.md)
-
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Інтерфейс Hashable
-
+---
+navigation:
+  - ds-collection.toarray.md: '« DsCollection::toArray'
+  - ds-hashable.equals.md: 'ДсHashable::equals »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Інтерфейс Hashable
+---
 # Інтерфейс Hashable
 
 (No version information available, might only be in Git)
 
 ## Вступ
 
-Hashable - це інтерфейс, який дозволяє використовувати об'єкти в
-якість ключів. Це альтернатива функції
-[spl_object_hash()](function.spl-object-hash.md), яка обчислює
-хеш об'єкта відповідно до його обробника: це означає, що два
-об'єкти можуть бути однакові за своїм станом, але не вважаються
-однаковими через те, що є різними екземплярами одного класу.
+Hashable - це інтерфейс, який дозволяє використовувати об'єкти як ключі. Це альтернатива функції [splobjecthash()](function.spl-object-hash.md), яка обчислює хеш об'єкта відповідно до його обробником: це означає, що два об'єкти можуть бути однакові за своїм станом, але не вважаються однаковими через те, що є різними екземплярами одного класу.
 
-Функція [hash()](function.hash.md) використовується для обчислення
-скалярного значення, що характеризує хеш об'єкта та визначає його
-становище у хеш-таблиці. Хоча це значення необов'язково має бути
-унікальним, однакові об'єкти повинні мати те саме значення хеша.
+Функція [hash()](function.hash.md) використовується для обчислення скалярного значення, що характеризує хеш об'єкта та визначає його положення в хеш-таблиці. Хоча це значення необов'язково має бути унікальним, однакові об'єкти повинні мати те саме значення хеша.
 
-Функція **equals()** використовується для визначення ідентичності двох
-об'єктів. Вона гарантує, що два об'єкти є одним і тим же
-екземпляром класу.
+Функція **equals()** використовується визначення ідентичності двох об'єктів. Вона гарантує, що два об'єкти є одним і тим самим екземпляром класу.
 
 ## Огляд інтерфейсів
 
-class **Ds\Hashable** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public [equals](ds-hashable.equals.md)(object `$obj`): bool
+    
+    
+     
+      class Ds\Hashable
+     
+     {
+    
 
-abstract public [hash](ds-hashable.hash.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   abstract public equals(object $obj): bool
+abstract public hash(): mixed
 
-}
+   }
+```
 
 ## Зміст
 
-- [Ds\Hashable::equals](ds-hashable.equals.md) - Визначає, дорівнює
-чи поточний екземпляр переданому об'єкту
-- [Ds\Hashable::hash](ds-hashable.hash.md) — Повертає скалярне
-значення для використання як значення хешу
+-   [ДсHashable::equals](ds-hashable.equals.md) — Визначає, чи дорівнює поточний екземпляр переданому об'єкту
+-   [ДсHashable::hash](ds-hashable.hash.md) — Повертає скалярне значення для використання як значення хешу

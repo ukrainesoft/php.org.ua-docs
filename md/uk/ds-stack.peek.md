@@ -1,20 +1,22 @@
-- [« Ds\Stack::jsonSerialize](ds-stack.jsonserialize.md)
-- [Ds\Stack::pop »](ds-stack.pop.md)
+---
+navigation:
+  - ds-stack.jsonserialize.md: '« DsStack::jsonSerialize'
+  - ds-stack.pop.md: 'ДсStack::pop »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
+title: 'ДсStack::peek'
+---
+# ДсStack::peek
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Повертає значення з вершини стека
+(PECL ds >= 1.0.0)
 
-# Ds\Stack::peek
-
-(PECL ds \>= 1.0.0)
-
-Ds\Stack::peek — Повертає значення з вершини стека
+ДсStack::peek — Повертає значення з вершини стека
 
 ### Опис
 
-public **Ds\Stack::peek**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Stack::peek(): mixed
+```
 
 Повертає значення з вершини стека, але не видаляє його.
 
@@ -28,16 +30,26 @@ public **Ds\Stack::peek**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::peek()****
+**Приклад #1 Приклад використання **ДсStack::peek()****
 
-` <?php$stack = new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c");var_dump( $stack->peek());?> `
+```php
+<?php
+$stack = new \Ds\Stack();
+
+$stack->push("a");
+$stack->push("b");
+$stack->push("c");
+
+var_dump($stack->peek());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "c"
+```

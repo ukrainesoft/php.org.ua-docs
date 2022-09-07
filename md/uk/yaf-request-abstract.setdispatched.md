@@ -1,24 +1,26 @@
-- [« Yaf_Request_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md)
-- [Yaf_Request_Abstract::setModuleName »](yaf-request-abstract.setmodulename.md)
+---
+navigation:
+  - yaf-request-abstract.setcontrollername.md: '« YafRequestAbstract::setControllerName'
+  - yaf-request-abstract.setmodulename.md: 'YafRequestAbstract::setModuleName »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
+title: 'YafRequestAbstract::setDispatched'
+---
+# YafRequestAbstract::setDispatched
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Призначення setDispatched
+(Yaf >=1.0.0)
 
-# Yaf_Request_Abstract::setDispatched
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Abstract::setDispatched — Призначення setDispatched
+YafRequestAbstract::setDispatched — Призначення setDispatched
 
 ### Опис
 
-public **Yaf_Request_Abstract::setDispatched**(): void
+```methodsynopsis
+public Yaf_Request_Abstract::setDispatched(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

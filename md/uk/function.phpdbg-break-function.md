@@ -1,26 +1,30 @@
-- [«phpdbg_break_file](function.phpdbg-break-file.md)
-- [phpdbg_break_method »](function.phpdbg-break-method.md)
+---
+navigation:
+  - function.phpdbg-break-file.md: « phpdbgbreakfile
+  - function.phpdbg-break-method.md: phpdbgbreakmethod »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgbreakfunction
+---
+# phpdbgbreakfunction
 
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- Додати точку переривання на виклик функції
+(PHP 5> = 5.6.3, PHP 7, PHP 8)
 
-# phpdbg_break_function
-
-(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
-
-phpdbg_break_function — Додати точку переривання на виклик функції
+phpdbgbreakfunction — Додати точку переривання на дзвінок функції
 
 ### Опис
 
-**phpdbg_break_function**(string `$function`): void
+```methodsynopsis
+phpdbg_break_function(string $function): void
+```
 
-Додає точку переривання на виклик функції `function`.
+Додає точку переривання на виклик функції `function`
 
 ### Список параметрів
 
 `function`
-Назва функції.
+
+Ім'я функції.
 
 ### Значення, що повертаються
 
@@ -28,11 +32,7 @@ phpdbg_break_function — Додати точку переривання на в
 
 ### Дивіться також
 
-- [phpdbg_break_file()](function.phpdbg-break-file.md) - Додати
-точку переривання на конкретний рядок файлу
-- [phpdbg_break_method()](function.phpdbg-break-method.md) -
-Додати точку переривання на виклик методу класу
-- [phpdbg_break_next()](function.phpdbg-break-next.md) - Додати
-точку переривання на наступний опкод
-- [phpdbg_clear()](function.phpdbg-clear.md) - Забрати всі точки
-переривання
+-   [phpdbgbreakfile()](function.phpdbg-break-file.md) - Додати точку переривання на конкретний рядок файлу
+-   [phpdbgbreakmethod()](function.phpdbg-break-method.md) - Додати точку переривання на виклик методу класу
+-   [phpdbgbreaknext()](function.phpdbg-break-next.md) - Додати точку переривання на наступний опкод
+-   [phpdbgclear()](function.phpdbg-clear.md) - Прибрати всі точки переривання

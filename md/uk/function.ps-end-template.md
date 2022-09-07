@@ -1,36 +1,35 @@
-- [«ps_end_pattern](function.ps-end-pattern.md)
-- [ps_fill_stroke »](function.ps-fill-stroke.md)
+---
+navigation:
+  - function.ps-end-pattern.md: «psendpattern
+  - function.ps-fill-stroke.md: псfillstroke »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псendtemplate
+---
+# псendtemplate
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Завершує шаблон
+(PECL ps >= 1.2.0)
 
-#ps_end_template
-
-(PECL ps \>= 1.2.0)
-
-ps_end_template — Завершує шаблон
+псendtemplate — Завершує шаблон
 
 ### Опис
 
-**ps_end_template**(resource `$psdoc`): bool
+```methodsynopsis
+ps_end_template(resource $psdoc): bool
+```
 
-Завершує шаблон, який було розпочато за допомогою
-[ps_begin_template()](function.ps-begin-template.md). Після завершення
-шаблону можна використовувати як зображення.
+Завершує шаблон, який було розпочато за допомогою [псbegintemplate()](function.ps-begin-template.md). Після завершення шаблону його можна використовувати як зображення.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_begin_template()](function.ps-begin-template.md) - Починає
-новий шаблон
+-   [псbegintemplate()](function.ps-begin-template.md) - Починає новий шаблон

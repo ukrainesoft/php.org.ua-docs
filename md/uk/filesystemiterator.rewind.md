@@ -1,19 +1,22 @@
-- [«FilesystemIterator::next](filesystemiterator.next.md)
-- [FilesystemIterator::setFlags »](filesystemiterator.setflags.md)
-
-- [PHP Manual](index.md)
-- [FilesystemIterator](class.filesystemiterator.md)
-- Переміщення вказівника на початок
-
+---
+navigation:
+  - filesystemiterator.next.md: '« FilesystemIterator::next'
+  - filesystemiterator.setflags.md: 'FilesystemIterator::setFlags »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
+title: 'FilesystemIterator::rewind'
+---
 # FilesystemIterator::rewind
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-FilesystemIterator::rewind — Переміщення вказівника на початок
+FilesystemIterator::rewind — Переміщення покажчика на початок
 
 ### Опис
 
-public **FilesystemIterator::rewind**(): void
+```methodsynopsis
+public FilesystemIterator::rewind(): void
+```
 
 Перекладає покажчик початку директорії.
 
@@ -29,18 +32,28 @@ public **FilesystemIterator::rewind**(): void
 
 **Приклад #1 Приклад використання **FilesystemIterator::rewind()****
 
-` <?php$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);echo $iterator->key() . "
-";$iterator->next();echo $iterator->key() . "
-";$iterator->rewind();echo $iterator->key() . "
-";?> `
+```php
+<?php
+$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);
+
+echo $iterator->key() . "\n";
+
+$iterator->next();
+echo $iterator->key() . "\n";
+
+$iterator->rewind();
+echo $iterator->key() . "\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apple.jpg
 banana.jpg
 apple.jpg
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::rewind()](directoryiterator.rewind.md) -
-Встановлює вказівник на перший елемент DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator

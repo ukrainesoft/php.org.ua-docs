@@ -1,51 +1,51 @@
-- [«Ds\Map::xor](ds-map.xor.md)
-- [Ds\Pair::clear »](ds-pair.clear.md)
-
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Клас Pair
-
+---
+navigation:
+  - ds-map.xor.md: '« DsMap::xor'
+  - ds-pair.clear.md: 'ДсPair::clear »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас Pair
+---
 # Клас Pair
 
 (No version information available, might only be in Git)
 
 ## Вступ
 
-Пари використовуються класом **Ds\Map** для зберігання пар ключ-значення.
+Пара використовується класом **ДсMap** для зберігання пар ключ-значення.
 
 ## Огляд класів
 
-class **Ds\Pair** implements
-[JsonSerializable](class.jsonserializable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public
-[\_\_construct](ds-pair.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key` = ?,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` = ?)
+    
+    
+     
+      class Ds\Pair
+     
 
-public [clear](ds-pair.clear.md)(): void
+     implements 
+       JsonSerializable {
+    
 
-public [copy](ds-pair.copy.md)(): [Ds\Pair](class.ds-pair.md)
+    /* Методы */
+     
+   public __construct(mixed $key = ?, mixed $value = ?)
 
-public [isEmpty](ds-pair.isempty.md)(): bool
+     public clear(): void
+public copy(): Ds\Pair
+public isEmpty(): bool
+public toArray(): array
 
-public [toArray](ds-pair.toarray.md)(): array
-
-}
+    }
+```
 
 ## Зміст
 
-- [Ds\Pair::clear](ds-pair.clear.md) — Видалення всіх значень
-- [Ds\Pair::\_\_construct](ds-pair.construct.md) - Створює екземпляр
-класу
-- [Ds\Pair::copy](ds-pair.copy.md) — Повертає поверхневу копію
-пари
-- [Ds\Pair::isEmpty](ds-pair.isempty.md) — Перевіряє, чи є
-пара порожня
-- [Ds\Pair::jsonSerialize](ds-pair.jsonserialize.md) — Повертає
-пару в поданні JSON
-- [Ds\Pair::toArray](ds-pair.toarray.md) — Перетворює пару на масив
-(array)
+-   [ДсPair::clear](ds-pair.clear.md) - Видаляє всі значення
+-   [ДсPair::construct](ds-pair.construct.md) - Створює екземпляр класу
+-   [ДсPair::copy](ds-pair.copy.md) — Повертає поверхневу копію пари
+-   [ДсPair::isEmpty](ds-pair.isempty.md) — Перевіряє, чи пара порожня.
+-   [ДсPair::jsonSerialize](ds-pair.jsonserialize.md) — Повертає пару у виставі JSON
+-   [ДсPair::toArray](ds-pair.toarray.md) - Перетворює пару в масив (array)

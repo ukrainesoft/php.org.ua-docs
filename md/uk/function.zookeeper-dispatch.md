@@ -1,33 +1,30 @@
-- [« Функції ZooKeeper](ref.zookeeper.md)
-- [Zookeeper »](class.zookeeper.md)
+---
+navigation:
+  - ref.zookeeper.md: « Функции ZooKeeper
+  - class.zookeeper.md: Zookeeper »
+  - index.md: PHP Manual
+  - ref.zookeeper.md: Функции ZooKeeper
+title: zookeeperdispatch
+---
+# zookeeperdispatch
 
-- [PHP Manual](index.md)
-- [Функції ZooKeeper](ref.zookeeper.md)
-- Викликати callback-функції для операцій, що очікують
+(PECL zookeeper >= 0.4.0)
 
-# zookeeper_dispatch
-
-(PECL zookeeper \>= 0.4.0)
-
-zookeeper_dispatch — Викликати callback-функції для операцій, що очікують
+zookeeperdispatch — Викликати callback-функції для операцій, що очікують.
 
 ### Опис
 
-**zookeeper_dispatch**(): void
+```methodsynopsis
+zookeeper_dispatch(): void
+```
 
-Функція **zookeeper_dispatch()** викликає callback-функції, передані
-операціями, такими як [Zookeeper::get()](zookeeper.get.md) або
-[Zookeeper::exists()](zookeeper.exists.md).
+Функція **zookeeperdispatch()** викликає callback-функції, передані операціями, такими як [Zookeeper::get()](zookeeper.get.md) або [Zookeeper::exists()](zookeeper.exists.md)
 
 **Застереження**
 
-З версії 0.4.0 ця функція повинна викликатися вручну для асинхронних
-операцій. Якщо ви хочете, щоб це було зроблено автоматично, ви
-можете оголосити тики на початку скрипту, використовуючи директиву
-declare.
+З версії 0.4.0 ця функція має бути викликана вручну для асинхронних операцій. Якщо ви хочете, щоб це було зроблено автоматично, ви можете оголосити тики на початку скрипту, використовуючи директиву declare.
 
-Після PHP 7.1 можна ігнорувати цю функцію. Модуль використовує EG
-(vm_interrupt) для реалізації асинхронного виклику callback-функцій.
+Після PHP 7.1 можна ігнорувати цю функцію. Модуль використовує EG (vminterrupt) для реалізації асинхронного виклику callback-функцій.
 
 ### Список параметрів
 
@@ -39,36 +36,53 @@ declare.
 
 ### Помилки
 
-Ця функція викликає попередження PHP, якщо callback-функція не може
-бути викликано.
+Ця функція викликає попередження PHP, якщо callback-функція не може бути викликана.
 
 ### Приклади
 
-**Приклад #1 **zookeeper_dispatch()** example #1**
+**Приклад #1 **zookeeperdispatch()** example #1**
 
 Виклик callback-функцій вручну.
 
-` <?php$client = new Zookeeper();$client->connect('localhost:2181');$client->get('/zookeeper', function() {    echo "Була викликана"CALF-HP ;});while(true) {    sleep(1); zookeeper_dispatch();}?> `
+```php
+<?php
+$client = new Zookeeper();
+$client->connect('localhost:2181');
+$client->get('/zookeeper', function() {
+    echo "Была вызвана callback-функция".PHP_EOL;
+});
+while(true) {
+    sleep(1);
+    zookeeper_dispatch();
+}
+?>
+```
 
-**Приклад #2 Приклад використання **zookeeper_dispatch()** #2**
+**Приклад #2 Приклад використання **zookeeperdispatch()****
 
 Оголошення тиків.
 
-` <?phpdeclare(ticks=1);$client = new Zookeeper();$client->connect('localhost:2181');$client->get('/zookeeper', function() {    echo "Була| callback-функція".PHP_EOL;});while(true) {    sleep(1);}?> `
+```php
+<?php
+declare(ticks=1);
+
+$client = new Zookeeper();
+$client->connect('localhost:2181');
+$client->get('/zookeeper', function() {
+    echo "Была вызвана callback-функция".PHP_EOL;
+});
+while(true) {
+    sleep(1);
+}
+?>
+```
 
 ### Дивіться також
 
-- [Zookeeper::addAuth()](zookeeper.addauth.md) - Вказує облікові
-дані програми
-- [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор
-для спілкування з zookeeper
-- [Zookeeper::\_\_construct()](zookeeper.construct.md) - Створює
-дескриптор для спілкування з zookeeper
-- [Zookeeper::exists()](zookeeper.exists.md) - Синхронно перевіряє
-наявність вузла в zookeeper
-- [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані,
-пов'язані з вузлом
-- [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить
-список нащадків вузла синхронно
-- [Zookeeper::setWatcher()](zookeeper.setwatcher.md) - Встановлює
-функцію спостерігача
+-   [Zookeeper::addAuth()](zookeeper.addauth.md) - Вказує облікові дані програми
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::exists()](zookeeper.exists.md) - Синхронно перевіряє наявність вузла в zookeeper
+-   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
+-   [Zookeeper::setWatcher()](zookeeper.setwatcher.md) - Встановлює функцію спостерігача

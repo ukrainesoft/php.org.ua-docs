@@ -1,23 +1,24 @@
-- [« DirectoryIterator::getPerms](directoryiterator.getperms.md)
-- [DirectoryIterator::getType »](directoryiterator.gettype.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає розмір поточного елемента DirectoryIterator
-
+---
+navigation:
+  - directoryiterator.getperms.md: '« DirectoryIterator::getPerms'
+  - directoryiterator.gettype.md: 'DirectoryIterator::getType »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getSize'
+---
 # DirectoryIterator::getSize
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::getSize — Повертає розмір поточного елемента
-DirectoryIterator
+DirectoryIterator::getSize — Повертає розмір поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getSize**(): int
+```methodsynopsis
+public DirectoryIterator::getSize(): int
+```
 
-Повертає обсяг займаного дискового простору для поточного
-елемента [DirectoryIterator](class.directoryiterator.md).
+Повертає обсяг дискового простору для поточного елемента. [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -31,16 +32,26 @@ public **DirectoryIterator::getSize**(): int
 
 **Приклад #1 Приклад використання **DirectoryIterator::getSize()****
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " " . $fileinfo->getSize() . "
-";    }}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getFilename() . " " . $fileinfo->getSize() . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apple.jpg 15385
 banana.jpg 15190
 example.php 170
 pear.jpg 34406
+```
 
 ### Дивіться також
 
-- [filesize()](function.filesize.md) - Повертає розмір файлу
+-   [filesize()](function.filesize.md) - Повертає розмір файлу

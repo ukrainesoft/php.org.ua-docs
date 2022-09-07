@@ -1,38 +1,39 @@
-- [« fann_set_cascade_candidate_limit](function.fann-set-cascade-candidate-limit.md)
-- [fann_set_cascade_max_cand_epochs »](function.fann-set-cascade-max-cand-epochs.md)
+---
+navigation:
+  - function.fann-set-cascade-candidate-limit.md: « fannsetcascadecandidatelimit
+  - function.fann-set-cascade-max-cand-epochs.md: fannsetcascademaxcandepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascadecandidatestagnationepochs
+---
+# fannsetcascadecandidatestagnationepochs
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- встановлює кількість каскадних періодів застою кандидатів
+(PECL fann> = 1.0.0)
 
-# fann_set_cascade_candidate_stagnation_epochs
-
-(PECL fann = 1.0.0)
-
-fann_set_cascade_candidate_stagnation_epochs — Встановлює кількість
-каскадних періодів застою кандидатів
+fannsetcascadecandidatestagnationepochs - Встановлює кількість каскадних періодів застою кандидатів
 
 ### Опис
 
-**fann_set_cascade_candidate_stagnation_epochs**(resource `$ann`, int
-`$cascade_candidate_stagnation_epochs`): bool
+```methodsynopsis
+fann_set_cascade_candidate_stagnation_epochs(resource $ann, int $cascade_candidate_stagnation_epochs): bool
+```
 
 Встановлює кількість каскадних періодів застою кандидатів.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `cascade_candidate_stagnation_epochs`
+
 Кількість каскадних періодів застою кандидатів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_cascade_candidate_stagnation_epochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) -
-Повертає кількість періодів застою каскаду кандидата
+-   [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) - Повертає кількість періодів застою каскаду кандидата

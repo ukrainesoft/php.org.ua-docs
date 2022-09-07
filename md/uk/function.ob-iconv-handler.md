@@ -1,50 +1,49 @@
-- [« iconv](function.iconv.md)
-- [intl »](book.intl.md)
+---
+navigation:
+  - function.iconv.md: « iconv
+  - book.intl.md: intl »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
+title: проiconvhandler
+---
+# проiconvhandler
 
-- [PHP Manual](index.md)
-- [Функції iconv](ref.iconv.md)
-- Перетворює символи з поточного кодування на кодування вихідного
-буфера
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-#ob_iconv_handler
-
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
-
-ob_iconv_handler — Перетворює символи з поточного кодування на кодування
-вихідного буфера
+проiconvhandler — Перетворення символів із поточного кодування на кодування вихідного буфера
 
 ### Опис
 
-**ob_iconv_handler**(string `$contents`, int `$status`): string
+```methodsynopsis
+ob_iconv_handler(string $contents, int $status): string
+```
 
-Перетворює рядок, закодований в `internal_encoding`, у рядок,
-закодовану в `output_encoding`.
+Перетворює рядок, закодований у `internal_encoding`, у рядок, закодований у `output_encoding`
 
-`internal_encoding` та `output_encoding` повинні бути визначені в
-`php.ini` або функцією
-[iconv_set_encoding()](function.iconv-set-encoding.md).
+`internal_encoding` і `output_encoding` повинні бути визначені у php.ini або функцією [iconvsetencoding()](function.iconv-set-encoding.md)
 
 ### Список параметрів
 
-Інформацію про аргументи цього обробника можна переглянути в описі
-функції [ob_start()](function.ob-start.md).
+Інформацію про аргументи цього обробника можна переглянути в описі функції [проstart()](function.ob-start.md)
 
 ### Значення, що повертаються
 
-Інформацію про значення цього обробника, що повертаються, можна переглянути в
-опису функції [ob_start()](function.ob-start.md).
+Інформацію про значення цього обробника, що повертаються, можна переглянути в описі до функції [проstart()](function.ob-start.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ob_iconv_handler()****
+**Приклад #1 Приклад використання **проiconvhandler()****
 
-` <?phpiconv_set_encoding("internal_encoding", "UTF-8");iconv_set_encoding("output_encoding", "ISO-8859-1");ob_start("ob_iconv_handler"); // запуск буферизації висновку?> `
+```php
+<?php
+iconv_set_encoding("internal_encoding", "UTF-8");
+iconv_set_encoding("output_encoding", "ISO-8859-1");
+ob_start("ob_iconv_handler"); // запуск буферизации вывода
+?>
+```
 
 ### Дивіться також
 
-- [iconv_get_encoding()](function.iconv-get-encoding.md) - Отримує
-поточне значення параметрів перетворення кодувань
-- [iconv_set_encoding()](function.iconv-set-encoding.md) -
-Встановлює поточні налаштування для перетворення символів
-кодування
-- [Функції контролю виведення](ref.outcontrol.md)
+-   [iconvgetencoding()](function.iconv-get-encoding.md) - Отримує поточне значення налаштувань перетворення кодувань
+-   [iconvsetencoding()](function.iconv-set-encoding.md) - Встановлює поточні налаштування для перетворення символів кодування
+-   [Функції контролю виведення](ref.outcontrol.md)

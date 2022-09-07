@@ -1,21 +1,31 @@
-- [«CurlMultiHandle](class.curlmultihandle.md)
-- [CURLFile »](class.curlfile.md)
-
-- [PHP Manual](index.md)
-- [cURL](book.curl.md)
-- Клас CurlShareHandle
-
+---
+navigation:
+  - class.curlmultihandle.md: « CurlMultiHandle
+  - class.curlfile.md: CURLFile »
+  - index.md: PHP Manual
+  - book.curl.md: cURL
+title: Клас CurlShareHandle
+---
 # Клас CurlShareHandle
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `curl_share` у PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `curl_share` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **CurlShareHandle** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class CurlShareHandle
+     
+     {
+   }
+```

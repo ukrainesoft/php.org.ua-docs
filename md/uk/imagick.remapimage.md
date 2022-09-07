@@ -1,37 +1,38 @@
-- [« Imagick::reduceNoiseImage](imagick.reducenoiseimage.md)
-- [Imagick::removeImage »](imagick.removeimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Перезначає кольори зображення
-
+---
+navigation:
+  - imagick.reducenoiseimage.md: '« Imagick::reduceNoiseImage'
+  - imagick.removeimage.md: 'Imagick::removeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::remapImage'
+---
 # Imagick::remapImage
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
-Imagick::remapImage — Перезначення кольору зображення
+Imagick::remapImage — Визначає кольори зображення.
 
 ### Опис
 
-public **Imagick::remapImage**([Imagick](class.imagick.md)
-`$replacement`, int `$DITHER`): bool
+```methodsynopsis
+public Imagick::remapImage(Imagick $replacement, int $DITHER): bool
+```
 
-Замінює кольори зображення на ті, що визначені параметром
-`replacement`. Кольори замінюються найближчим із можливих. Цей
-метод доступний, якщо Imagick був скомпільований з версією ImageMagick
-6.4.5 чи старше.
+Замінює кольори зображення на ті, які визначені параметром `replacement`. Кольори замінюються найближчим із можливих. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.5 або старшим.
 
 ### Список параметрів
 
 `replacement`
+
 Об'єкт Imagick, що містить кольори, що замінюють.
 
 `DITHER`
-Зверніться до списку [констант DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod).
+
+Зверніться до списку [констант DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

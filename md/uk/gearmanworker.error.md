@@ -1,19 +1,22 @@
-- [« GearmanWorker::echo](gearmanworker.echo.md)
-- [GearmanWorker::getErrno »](gearmanworker.geterrno.md)
-
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Отримання останньої виявленої помилки
-
+---
+navigation:
+  - gearmanworker.echo.md: '« GearmanWorker::echo'
+  - gearmanworker.geterrno.md: 'GearmanWorker::getErrno »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::error'
+---
 # GearmanWorker::error
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanWorker::error — Отримання останньої виявленої помилки
 
 ### Опис
 
-public **GearmanWorker::error**(): string
+```methodsynopsis
+public GearmanWorker::error(): string
+```
 
 Повертає рядок із повідомленням про останню виявлену помилку.
 
@@ -27,5 +30,4 @@ public **GearmanWorker::error**(): string
 
 ### Дивіться також
 
-- [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання
-номери помилки
+-   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання номера помилки

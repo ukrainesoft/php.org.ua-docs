@@ -1,22 +1,24 @@
-- [« Ds\Queue::jsonSerialize](ds-queue.jsonserialize.md)
-- [Ds\Queue::pop »](ds-queue.pop.md)
+---
+navigation:
+  - ds-queue.jsonserialize.md: '« DsQueue::jsonSerialize'
+  - ds-queue.pop.md: 'ДсQueue::pop »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
+title: 'ДсQueue::peek'
+---
+# ДсQueue::peek
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Повертає значення із початку черги
+(PECL ds >= 1.0.0)
 
-# Ds\Queue::peek
-
-(PECL ds \>= 1.0.0)
-
-Ds\Queue::peek — Повертає значення з початку черги
+ДсQueue::peek — Повертає значення з початку черги
 
 ### Опис
 
-public **Ds\Queue::peek**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Queue::peek(): mixed
+```
 
-Повертає значення від початку черги, але не видаляє його.
+Повертає значення із початку черги, але не видаляє його.
 
 ### Список параметрів
 
@@ -28,16 +30,26 @@ public **Ds\Queue::peek**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::peek()****
+**Приклад #1 Приклад використання **ДсQueue::peek()****
 
-` <?php$queue = new \Ds\Queue();$queue->push("a");$queue->push("b");$queue->push("c");var_dump( $queue->peek());?> `
+```php
+<?php
+$queue = new \Ds\Queue();
+
+$queue->push("a");
+$queue->push("b");
+$queue->push("c");
+
+var_dump($queue->peek());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
+```

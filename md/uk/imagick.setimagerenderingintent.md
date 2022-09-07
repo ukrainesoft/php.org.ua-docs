@@ -1,21 +1,22 @@
-- [« Imagick::setImageRedPrimary](imagick.setimageredprimary.md)
-- [Imagick::setImageResolution »](imagick.setimageresolution.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює схему кольору зображення
-
+---
+navigation:
+  - imagick.setimageredprimary.md: '« Imagick::setImageRedPrimary'
+  - imagick.setimageresolution.md: 'Imagick::setImageResolution »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageRenderingIntent'
+---
 # Imagick::setImageRenderingIntent
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageRenderingIntent — Встановлює схему передачі кольору
-зображення
+Imagick::setImageRenderingIntent — Встановлює схему передачі кольору зображення
 
 ### Опис
 
-public **Imagick::setImageRenderingIntent**(int `$rendering_intent`):
-bool
+```methodsynopsis
+public Imagick::setImageRenderingIntent(int $rendering_intent): bool
+```
 
 Встановлює схему передачі кольору зображення.
 
@@ -25,7 +26,7 @@ bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

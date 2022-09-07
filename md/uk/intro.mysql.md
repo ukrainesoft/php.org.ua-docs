@@ -1,19 +1,15 @@
-- [«MySQL (Original)](book.mysql.md)
-- [Встановлення та налаштування »](mysql.setup.md)
-
-- [PHP Manual](index.md)
-- [MySQL (Original)](book.mysql.md)
--   Вступ
-
+---
+navigation:
+  - book.mysql.md: « MySQL (Original)
+  - mysql.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.mysql.md: MySQL (Original)
+title: Вступ
+---
 # Вступ
 
-Цей модуль застарів з версії PHP 5.5.0 та видалений у версії 7.0.0. Замість
-його використовуйте [mysqli](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Ознайомтеся також із [оглядом MySQL API](mysqlinfo.api.choosing.md) для більш детальної інформації
-вибір MySQL API.
+Цей модуль застарів з версії PHP 5.5.0 і видалено у версії 7.0.0. Замість нього використовуйте [mysqli](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Ознайомтеся також з [оглядом MySQL API](mysqlinfo.api.choosing.md) для більш детальної інформації щодо вибору MySQL API.
 
-Ці функції дозволяють працювати з MySQL. За інформацією про MySQL
-звертайтесь до [»http://www.mysql.com/](http://www.mysql.com/).
+Ці функції дозволяють працювати з MySQL. За інформацією про MySQL звертайтесь до [» http://www.mysql.com/](http://www.mysql.com/)
 
-Документація MySQL знаходиться за адресою
-[»http://dev.mysql.com/doc/](http://dev.mysql.com/doc/).
+Документація MySQL знаходиться за адресою [» http://dev.mysql.com/doc/](http://dev.mysql.com/doc/)

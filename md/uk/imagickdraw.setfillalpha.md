@@ -1,33 +1,33 @@
-- [« ImagickDraw::setClipUnits](imagickdraw.setclipunits.md)
-- [ImagickDraw::setFillColor »](imagickdraw.setfillcolor.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює непрозорість під час малювання з використанням кольору.
-або текстури заливки
-
+---
+navigation:
+  - imagickdraw.setclipunits.md: '« ImagickDraw::setClipUnits'
+  - imagickdraw.setfillcolor.md: 'ImagickDraw::setFillColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setFillAlpha'
+---
 # ImagickDraw::setFillAlpha
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::setFillAlpha — Встановлює непрозорість при малюванні з
-використанням кольору або текстури заливки
+ImagickDraw::setFillAlpha — Встановлює непрозорість під час малювання за допомогою кольору або текстури заливки.
 
 ### Опис
 
-public **ImagickDraw::setFillAlpha**(float `$opacity`): bool
+```methodsynopsis
+public ImagickDraw::setFillAlpha(float $opacity): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Встановлює непрозорість при малюванні за допомогою кольору або
-заливки текстури. Повністю непрозорий – 1.0.
+Встановлює непрозорість при малюванні за допомогою кольору або текстури заливки. Повністю непрозорий – 1.0.
 
 ### Список параметрів
 
 `opacity`
+
 Непрозорість заливання.
 
 ### Значення, що повертаються
@@ -38,4 +38,28 @@ public **ImagickDraw::setFillAlpha**(float `$opacity`): bool
 
 **Приклад #1 Приклад використання **ImagickDraw::setFillAlpha()****
 
-` <?phpfunction setFillAlpha($strokeColor, $fillColor, $backgroundColor) {   $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeOpacity(1); $draw->setStrokeWidth(2); $draw->rectangle(100, 200, 200, 300); @$draw->setFillAlpha(0.4); $draw->rectangle(300, 200, 400, 300); $imagick==newImagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function setFillAlpha($strokeColor, $fillColor, $backgroundColor) {
+
+    $draw = new \ImagickDraw();
+
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
+    $draw->rectangle(100, 200, 200, 300);
+    @$draw->setFillAlpha(0.4);
+    $draw->rectangle(300, 200, 400, 300);
+
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

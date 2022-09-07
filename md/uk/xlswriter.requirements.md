@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](xlswriter.setup.md)
-- [Установка »](xlswriter.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xlswriter.setup.md)
-- Вимоги
-
+---
+navigation:
+  - xlswriter.setup.md: « Встановлення та налаштування
+  - xlswriter.installation.md: Установка »
+  - index.md: PHP Manual
+  - xlswriter.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Для роботи XLSWriter необхідний PHP версії 7.0 та вище.
+Для роботи XLSWriter потрібний PHP версії 7.0 і вище.

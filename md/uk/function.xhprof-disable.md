@@ -1,19 +1,22 @@
-- [« Функції Xhprof](ref.xhprof.md)
-- [xhprof_enable »](function.xhprof-enable.md)
+---
+navigation:
+  - ref.xhprof.md: « Функции Xhprof
+  - function.xhprof-enable.md: xhprofenable »
+  - index.md: PHP Manual
+  - ref.xhprof.md: Функции Xhprof
+title: xhprofdisable
+---
+# xhprofdisable
 
-- [PHP Manual](index.md)
-- [Функції Xhprof](ref.xhprof.md)
-- Зупиняє профіль xhprof
+(PECL xhprof >= 0.9.0)
 
-#xhprof_disable
-
-(PECL xhprof \>= 0.9.0)
-
-xhprof_disable — Зупиняє профіль xhprof
+xhprofdisable — Зупиняє профіль xhprof
 
 ### Опис
 
-**xhprof_disable**(): array
+```methodsynopsis
+xhprof_disable(): array
+```
 
 Зупиняє профіль та повертає зібрані дані.
 
@@ -27,30 +30,42 @@ xhprof_disable — Зупиняє профіль xhprof
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xhprof_disable()****
+**Приклад #1 Приклад використання **xhprofdisable()****
 
-` <?phpxhprof_enable();$foo = strlen("foo bar");$xhprof_data = xhprof_disable();print_r($xhprof_data);?> `
+```php
+<?php
+xhprof_enable();
+
+$foo = strlen("foo bar");
+
+$xhprof_data = xhprof_disable();
+
+print_r($xhprof_data);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[main()==>strlen] => Array
-(
-[ct] => 1
-[wt] => 279
-)
+    [main()==>strlen] => Array
+        (
+            [ct] => 1
+            [wt] => 279
+        )
 
-[main()==>xhprof_disable] => Array
-(
-[ct] => 1
-[wt] => 9
-)
+    [main()==>xhprof_disable] => Array
+        (
+            [ct] => 1
+            [wt] => 9
+        )
 
-[main()] => Array
-(
-[ct] => 1
-[wt] => 610
-)
+    [main()] => Array
+        (
+            [ct] => 1
+            [wt] => 610
+        )
 
 )
+```

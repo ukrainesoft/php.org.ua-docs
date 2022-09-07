@@ -1,24 +1,24 @@
-- [« MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros »](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md)
+---
+navigation:
+  - class.mongodb-driver-monitoring-commandfailedevent.md: « MongoDBDriverMonitoringCommandFailedEvent
+  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md: 'MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getCommandName'
+---
+# MongoDBDriverMonitoringCommandFailedEvent::getCommandName
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-- Повертає ім'я команди
+(mongodb >=1.3.0)
 
-# MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName
-
-(mongodb \>=1.3.0)
-
-MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName
-Повертає ім'я команди
+MongoDBDriverMonitoringCommandFailedEvent::getCommandName — Повертає ім'я команди
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName**():
-string
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName(): string
+```
 
-Повертає ім'я команди (наприклад, 'find', 'aggregate').
+Повертає ім'я команди (наприклад, `"find"` `"aggregate"`
 
 ### Список параметрів
 
@@ -30,10 +30,8 @@ string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

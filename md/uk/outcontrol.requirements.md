@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](outcontrol.setup.md)
-- [Встановлення »](outcontrol.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](outcontrol.setup.md)
-- Вимоги
-
+---
+navigation:
+  - outcontrol.setup.md: « Встановлення та налаштування
+  - outcontrol.installation.md: Установка »
+  - index.md: PHP Manual
+  - outcontrol.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

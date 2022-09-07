@@ -1,20 +1,22 @@
-- [« Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.md)
-- [Imagick::getImageType »](imagick.getimagetype.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає загальну щільність чорнила зображення
-
+---
+navigation:
+  - imagick.getimagetickspersecond.md: '« Imagick::getImageTicksPerSecond'
+  - imagick.getimagetype.md: 'Imagick::getImageType »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageTotalInkDensity'
+---
 # Imagick::getImageTotalInkDensity
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageTotalInkDensity — Повертає загальну щільність чорнила
-зображення
+Imagick::getImageTotalInkDensity — Повертає загальну щільність чорнила зображення
 
 ### Опис
 
-public **Imagick::getImageTotalInkDensity**(): float
+```methodsynopsis
+public Imagick::getImageTotalInkDensity(): float
+```
 
 Повертає загальну щільність чорнила зображення.
 
@@ -24,5 +26,4 @@ public **Imagick::getImageTotalInkDensity**(): float
 
 ### Значення, що повертаються
 
-Повертає загальну щільність чорнила зображення. Викликає
-**ImagickException** у разі виникнення помилки.
+Повертає загальну щільність чорнила зображення. Викликає **ImagickException** у разі виникнення помилки.

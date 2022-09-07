@@ -1,40 +1,41 @@
-- [« Componere\Definition::isRegistered](componere-definition.isregistered.md)
-- [Componere\Definition::getClosures »](componere-definition.getclosures.md)
+---
+navigation:
+  - componere-definition.isregistered.md: '« ComponereDefinition::isRegistered'
+  - componere-definition.getclosures.md: 'ComponereDefinition::getClosures »'
+  - index.md: PHP Manual
+  - class.componere-definition.md: ComponereDefinition
+title: 'ComponereDefinition::getClosure'
+---
+# ComponereDefinition::getClosure
 
-- [PHP Manual](index.md)
-- [Componere\Definition](class.componere-definition.md)
-- Отримує замикання
+(Componere 2 >= 2.1.0)
 
-# Componere\Definition::getClosure
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Definition::getClosure — Отримує замикання
+ComponereDefinition::getClosure — Отримує замикання
 
 ### Опис
 
-public **Componere\Definition::getClosure**(string `$name`):
-[Closure](class.closure.md)
+```methodsynopsis
+public Componere\Definition::getClosure(string $name): Closure
+```
 
 Повинен повернути замикання для вказаного методу
 
 ### Список параметрів
 
 `name`
+
 Реєстронезалежне ім'я методу
 
 ### Значення, що повертаються
 
-Замикання, прив'язане до коректної області
+Замикання прив'язане до коректної області
 
 ### Винятки
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо `name` не знайдено
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` не знайдено

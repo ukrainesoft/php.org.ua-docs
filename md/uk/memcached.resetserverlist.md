@@ -1,22 +1,24 @@
-- [« Memcached::replaceByKey](memcached.replacebykey.md)
-- [Memcached::set »](memcached.set.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Очищає список серверів
-
+---
+navigation:
+  - memcached.replacebykey.md: '« Memcached::replaceByKey'
+  - memcached.set.md: 'Memcached::set »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::resetServerList'
+---
 # Memcached::resetServerList
 
-(PECL memcached \>= 2.0.0)
+(PECL memcached >= 2.0.0)
 
 Memcached::resetServerList — Очищає список серверів
 
 ### Опис
 
-public **Memcached::resetServerList**(): bool
+```methodsynopsis
+public Memcached::resetServerList(): bool
+```
 
-**Memcached::resetserverlist()** видаляє всі сервери memcache з пулу,
-роблячи його знову пустим.
+**Memcached::resetserverlist()** видаляє всі сервери memcache з пулу, роблячи його знову порожнім.
 
 ### Список параметрів
 
@@ -24,12 +26,9 @@ public **Memcached::resetServerList**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [Memcached::addServer()](memcached.addserver.md) - Додає
-сервер у пул
-- [Memcached::addServers()](memcached.addservers.md) - Додає
-кілька серверів у пул
+-   [Memcached::addServer()](memcached.addserver.md) - Додає сервер у пул
+-   [Memcached::addServers()](memcached.addservers.md) - Додає кілька серверів у пул

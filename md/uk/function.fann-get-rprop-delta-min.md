@@ -1,28 +1,31 @@
-- [« fann_get_rprop_delta_max](function.fann-get-rprop-delta-max.md)
-- [fann_get_rprop_delta_zero »](function.fann-get-rprop-delta-zero.md)
+---
+navigation:
+  - function.fann-get-rprop-delta-max.md: « fanngetrpropdeltamax
+  - function.fann-get-rprop-delta-zero.md: fanngetrpropdeltazero »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetrpropdeltamin
+---
+# fanngetrpropdeltamin
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає мінімальний розмір кроку
+(PECL fann> = 1.0.0)
 
-# fann_get_rprop_delta_min
-
-(PECL fann = 1.0.0)
-
-fann_get_rprop_delta_min — Повертає мінімальний розмір кроку
+fanngetrpropdeltamin — Повертає мінімальний розмір кроку
 
 ### Опис
 
-**fann_get_rprop_delta_min**(resource `$ann`): float
+```methodsynopsis
+fann_get_rprop_delta_min(resource $ann): float
+```
 
-Мінімальний розмір кроку - це невелике позитивне число,
-визначальне, наскільки невеликим може бути мінімальний розмір кроку.
+Мінімальний розмір кроку - це невелике позитивне число, що визначає, наскільки невеликим може бути мінімальний розмір кроку.
 
-Значення дельти за умовчанням min 0.0.
+Значення дельти за умовчанням min дорівнює 0.0.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
@@ -31,5 +34,4 @@ fann_get_rprop_delta_min — Повертає мінімальний розмі�
 
 ### Дивіться також
 
-- [fann_set_rprop_delta_min()](function.fann-set-rprop-delta-min.md) -
-Встановлює мінімальний розмір кроку
+-   [fannsetrpropdeltamin()](function.fann-set-rprop-delta-min.md) - Встановлює мінімальний розмір кроку

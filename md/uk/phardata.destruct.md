@@ -1,20 +1,20 @@
-- [« PharData::delete](phardata.delete.md)
-- [PharData::extractTo »](phardata.extractto.md)
+---
+navigation:
+  - phardata.delete.md: '« PharData::delete'
+  - phardata.extractto.md: 'PharData::extractTo »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::destruct'
+---
+# PharData::destruct
 
-- [PHP Manual](index.md)
-- [PharData](class.phardata.md)
-- Знищує нездійсненний об'єкт архіву tar або zip
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-# PharData::\_\_destruct
-
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
-
-PharData::\_\_destruct — Знищує невиконаний об'єкт архіву tar або
-zip
+PharData::destruct — Знищує об'єкт архіву tar або zip, що не виконується.
 
 ### Опис
 
-public **PharData::\_\_destruct**()
+public **PharData::destruct**
 
 ### Список параметрів
 

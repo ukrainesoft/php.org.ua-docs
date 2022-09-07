@@ -1,29 +1,33 @@
-- [« Componere\Definition::addConstant](componere-definition.addconstant.md)
-- [Componere\Definition::register »](componere-definition.register.md)
+---
+navigation:
+  - componere-definition.addconstant.md: '« ComponereDefinition::addConstant'
+  - componere-definition.register.md: 'ComponereDefinition::register »'
+  - index.md: PHP Manual
+  - class.componere-definition.md: ComponereDefinition
+title: 'ComponereDefinition::addProperty'
+---
+# ComponereDefinition::addProperty
 
-- [PHP Manual](index.md)
-- [Componere\Definition](class.componere-definition.md)
-- Додає властивість
+(Componere 2 >= 2.1.0)
 
-# Componere\Definition::addProperty
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Definition::addProperty — Додає властивість
+ComponereDefinition::addProperty — Додає властивість
 
 ### Опис
 
-public **Componere\Definition::addProperty**(string `$name`,
-[Componere\Value](class.componere-value.md) `$value`): Definition
+```methodsynopsis
+public Componere\Definition::addProperty(string $name, Componere\Value $value): Definition
+```
 
 Повинен оголосити властивість класу у поточному визначенні
 
 ### Список параметрів
 
 `name`
+
 Реєстронезалежне ім'я властивості
 
 `value`
+
 Значення якості за промовчанням
 
 ### Значення, що повертаються
@@ -34,10 +38,8 @@ public **Componere\Definition::addProperty**(string `$name`,
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition вже було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо `name` вже оголошено як властивість
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` вже оголошено як властивість

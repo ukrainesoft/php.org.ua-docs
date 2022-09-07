@@ -1,30 +1,29 @@
-- [« Yac::add](yac.add.md)
-- [Yac::delete »](yac.delete.md)
+---
+navigation:
+  - yac.add.md: '« Yac::add'
+  - yac.delete.md: 'Yac::delete »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::construct'
+---
+# Yac::construct
 
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Конструктор класу
+(PECL yac >= 1.0.0)
 
-# Yac::\_\_construct
-
-(PECL yac \>= 1.0.0)
-
-Yac::\_\_construct - Конструктор класу
+Yac::construct - Конструктор класу
 
 ### Опис
 
-public **Yac::\_\_construct**(string `$prefix` = "")
+public **Yac::construct**(string `$prefix` = "")
 
-Префікс використовується для додавання ключів, його можна використовувати для
-запобігання конфліктам між додатками.
+Префікс використовується для додавання ключів, його можна використовувати для запобігання конфліктам між додатками.
 
 ### Список параметрів
 
 `prefix`
+
 Префікс (string)
 
 ### Помилки
 
-Викидає [Exception](class.exception.md), якщо Yac не увімкнено.
-Викидає [Exception](class.exception.md), якщо 'prefix' перевищує
-максимальну довжину ключа 48 (**`YAC_MAX_KEY_LEN`**) байтів.
+Викидає [Exception](class.exception.md), якщо Yac не включено. Викидає [Exception](class.exception.md), якщо `prefix` перевищує максимальну довжину ключа 48 (**`YAC_MAX_KEY_LEN`**) байтів.

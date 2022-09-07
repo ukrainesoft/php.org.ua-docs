@@ -1,38 +1,39 @@
-- [« yaz_es](function.yaz-es.md)
-- [yaz_hits»](function.yaz-hits.md)
+---
+navigation:
+  - function.yaz-es.md: « yazес
+  - function.yaz-hits.md: yazhits »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazgetoption
+---
+# yazgetoption
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Повертає значення параметра для підключення
+(PECL yaz >= 0.9.0)
 
-# yaz_get_option
-
-(PECL yaz \>= 0.9.0)
-
-yaz_get_option — Повертає значення параметра для підключення
+yazgetoption — Повертає значення параметра для підключення
 
 ### Опис
 
-**yaz_get_option**(resource `$id`, string `$name`): string
+```methodsynopsis
+yaz_get_option(resource $id, string $name): string
+```
 
-Повертає значення параметра, вказаного в 'name'.
+Повертає значення параметра, вказаного в `name`
 
 ### Список параметрів
 
 `id`
-Ресурс підключення, що повертається
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 `name`
-Назва параметра.
+
+Назву параметра.
 
 ### Значення, що повертаються
 
-Повертає значення вказаної опції або порожній рядок, якщо опція не
-була встановлена.
+Повертає значення вказаної опції або порожній рядок, якщо опцію не було встановлено.
 
 ### Дивіться також
 
-- Опис [yaz_set_option()](function.yaz-set-option.md) -
-Встановлює установки для з'єднання для перегляду доступних
-параметрів
+-   Опис [yazsetoption()](function.yaz-set-option.md) - Встановлює параметри з'єднання для перегляду доступних параметрів

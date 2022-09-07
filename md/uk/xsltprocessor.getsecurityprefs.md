@@ -1,19 +1,22 @@
-- [« XSLTProcessor::getParameter](xsltprocessor.getparameter.md)
-- [XSLTProcessor::hasExsltSupport »](xsltprocessor.hasexsltsupport.md)
-
-- [PHP Manual](index.md)
-- [XSLTProcessor](class.xsltprocessor.md)
-- Отримати налаштування безпеки
-
+---
+navigation:
+  - xsltprocessor.getparameter.md: '« XSLTProcessor::getParameter'
+  - xsltprocessor.hasexsltsupport.md: 'XSLTProcessor::hasExsltSupport »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::getSecurityPrefs'
+---
 # XSLTProcessor::getSecurityPrefs
 
-(PHP \>= 5.4.0, PHP 7, PHP 8)
+(PHP >= 5.4.0, PHP 7, PHP 8)
 
 XSLTProcessor::getSecurityPrefs — Отримати налаштування безпеки
 
 ### Опис
 
-public **XSLTProcessor::getSecurityPrefs**(): int
+```methodsynopsis
+public XSLTProcessor::getSecurityPrefs(): int
+```
 
 Отримує налаштування безпеки.
 
@@ -23,6 +26,4 @@ public **XSLTProcessor::getSecurityPrefs**(): int
 
 ### Значення, що повертаються
 
-Бітова маска, що складається з **`XSL_SECPREF_READ_FILE`**,
-**`XSL_SECPREF_WRITE_FILE`**, **`XSL_SECPREF_CREATE_DIRECTORY`**,
-**`XSL_SECPREF_READ_NETWORK`**, **`XSL_SECPREF_WRITE_NETWORK`**.
+Бітова маска, що складається з **`XSL_SECPREF_READ_FILE`** **`XSL_SECPREF_WRITE_FILE`** **`XSL_SECPREF_CREATE_DIRECTORY`** **`XSL_SECPREF_READ_NETWORK`** **`XSL_SECPREF_WRITE_NETWORK`**

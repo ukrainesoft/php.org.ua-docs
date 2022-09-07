@@ -1,21 +1,24 @@
-- [« SplHeap::isEmpty](splheap.isempty.md)
-- [SplHeap::next »](splheap.next.md)
-
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Повертає індекс поточного вузла
-
+---
+navigation:
+  - splheap.isempty.md: '« SplHeap::isEmpty'
+  - splheap.next.md: 'SplHeap::next »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::key'
+---
 # SplHeap::key
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::key — Повертає індекс поточного сайту
 
 ### Опис
 
-public **SplHeap::key**(): int
+```methodsynopsis
+public SplHeap::key(): int
+```
 
-Повертає індекс поточного вузла.
+Повертає індекс поточного сайту.
 
 ### Список параметрів
 

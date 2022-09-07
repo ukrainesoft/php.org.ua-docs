@@ -1,65 +1,72 @@
-- [« Установка](ui.installation.md)
-- [UI\Point::at »](ui-point.at.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Представляє позицію (x,y)
-
-# Представляє позицію (x,y)
+---
+navigation:
+  - ui.installation.md: « Установка
+  - ui-point.at.md: 'ОЙPoint::at »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: 'Представляє позицію (x, y)'
+---
+# Представляє позицію (x, y)
 
 (UI 0.9.9)
 
 ## Вступ
 
-Точки використовуються у всьому інтерфейсі користувача для представлення
-координат на екрані, керуючому елементі чи області.
+Точки використовуються у всьому інтерфейсі користувача для представлення координат на екрані, керуючому елементі або області.
 
 ## Огляд класів
 
-final class **UI\Point** {
+```classsynopsis
 
-/\* Властивості \*/
 
-public `$x`;
 
-public `$y`;
+    
+     
+      final
+      class UI\Point
+     
+     {
 
-/\* Конструктор \*/
+    /* Свойства */
+    
+     public
+      $x;
 
-public [\_\_construct](ui-point.construct.md)(float `$x`, float `$y`)
+    public
+      $y;
 
-/\* Методи \*/
 
-public static [at](ui-point.at.md)(float `$point`):
-[UI\Point](class.ui-point.md)
+    /* Конструктор */
+    
+   public __construct(float $x, float $y)
 
-public static [at](ui-point.at.md)([UI\Size](class.ui-size.md)
-`$size`): [UI\Point](class.ui-point.md)
 
-public [getX](ui-point.getx.md)(): float
+    /* Методы */
+    public static at(float $point): UI\Point
+public static at(UI\Size $size): UI\Point
+public getX(): float
+public getY(): float
+public setX(float $point)
+public setY(float $point)
 
-public [getY](ui-point.gety.md)(): float
-
-public [setX](ui-point.setx.md)(float `$point`)
-
-public [setY](ui-point.sety.md)(float `$point`)
-
-}
+   }
+```
 
 ## Властивості
 
-`x`
+з
+
 Містить координату X, може бути прочитана/записана безпосередньо
 
-`y`
+і
+
 Містить координату Y, може бути прочитана/записана безпосередньо
 
 ## Зміст
 
-- [UI\Point::at](ui-point.at.md) - Приведення Size
-- [UI\Point::\_\_construct](ui-point.construct.md) - Створити новий
-об'єкт Point
-- [UI\Point::getX](ui-point.getx.md) — Отримує X
-- [UI\Point::getY](ui-point.gety.md) — Отримати Y
-- [UI\Point::setX](ui-point.setx.md) — Встановити X
-- [UI\Point::setY](ui-point.sety.md) — Встановити Y
+-   [ОЙPoint::at](ui-point.at.md) - Приведення Size
+-   [ОЙPoint::construct](ui-point.construct.md) — Створити новий об'єкт Point
+-   [ОЙPoint::getX](ui-point.getx.md) — Отримує X
+-   [ОЙPoint::getY](ui-point.gety.md) - Отримати Y
+-   [ОЙPoint::setX](ui-point.setx.md) - Встановити X
+-   [ОЙPoint::setY](ui-point.sety.md) - Встановити Y

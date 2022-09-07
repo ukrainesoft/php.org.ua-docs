@@ -1,47 +1,37 @@
-- [« SessionHandler::create_sid](sessionhandler.create-sid.md)
-- [SessionHandler::gc »](sessionhandler.gc.md)
-
-- [PHP Manual](index.md)
-- [SessionHandler](class.sessionhandler.md)
-- Знищує сесію
-
+---
+navigation:
+  - sessionhandler.create-sid.md: '« SessionHandler::createsid'
+  - sessionhandler.gc.md: 'SessionHandler::gc »'
+  - index.md: PHP Manual
+  - class.sessionhandler.md: SessionHandler
+title: 'SessionHandler::destroy'
+---
 # SessionHandler::destroy
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 SessionHandler::destroy — Знищує сесію
 
 ### Опис
 
-public **SessionHandler::destroy**(string `$id`): bool
+```methodsynopsis
+public SessionHandler::destroy(string $id): bool
+```
 
-Знищує сесію. Викликається зсередини PHP за допомогою функції
-[session_regenerate_id()](function.session-regenerate-id.md)
-(мається на увазі, що параметр `$destroy` встановлений у **`true`**,
-функції [session_destroy()](function.session-destroy.md) або коли
-виклик [session_decode()](function.session-decode.md) невдалий.
+Знищує сесію. Викликається зсередини PHP за допомогою функції [sessionregenerateid()](function.session-regenerate-id.md) (маю на увазі, що параметр `$destroy` встановлений в **`true`**, функції [sessiondestroy()](function.session-destroy.md) або коли виклик [sessiondecode()](function.session-decode.md) невдалий.
 
-Цей метод є обгорткою для внутрішнього обробника PHP,
-визначеного в налаштуванні ini-файлу
-[session.save_handler](session.configuration.md#ini.session.save-handler),
-який встановлюється до обробника викликом
-[session_set_save_handler()](function.session-set-save-handler.md).
+Цей метод є обгорткою для внутрішнього обробника PHP, визначеного в налаштуванні ini-файлу [session.savehandler](session.configuration.md#ini.session.save-handler), який встановлюється до оброблювача викликом [sessionsetsavehandler()](function.session-set-save-handler.md)
 
-Якщо цей клас розширюється шляхом успадкування, то виклик батьківського
-методу `destroy` виконає код обгортки, а отже код внутрішнього
-оброблювача. Це дозволяє методу бути перевизначеним, перехопленим
-або відфільтрованим.
+Якщо цей клас розширюється шляхом наслідування, то виклик батьківського методу `destroy` виконає код обгортки, а отже код внутрішнього оброблювача. Це дозволяє бути перевизначеним, перехопленим або відфільтрованим.
 
-Для додаткової інформації дивіться посібник з функції
-[SessionHandlerInterface::destroy()](sessionhandlerinterface.destroy.md).
+Для додаткової інформації дивіться посібник з функції [SessionHandlerInterface::destroy()](sessionhandlerinterface.destroy.md)
 
 ### Список параметрів
 
 `id`
+
 Ідентифікатор сесії, що знищується.
 
 ### Значення, що повертаються
 
-Значення сесійного сховища, що повертається (зазвичай **`true`** у випадку
-успішного виконання, **`false`** у разі виникнення помилки). Це
-значення повертається назад до PHP для внутрішньої обробки.
+Значення сесійного сховища, що повертається (зазвичай **`true`** у разі успішного виконання, **`false`** у разі виникнення помилки). Це значення повертається назад до PHP для внутрішньої обробки.

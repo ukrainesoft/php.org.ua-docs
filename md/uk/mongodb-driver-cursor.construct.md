@@ -1,24 +1,24 @@
-- [«MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- [MongoDB\Driver\Cursor::current »](mongodb-driver-cursor.current.md)
+---
+navigation:
+  - class.mongodb-driver-cursor.md: « MongoDBDriverCursor
+  - mongodb-driver-cursor.current.md: 'MongoDBDriverCursor::current »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::construct'
+---
+# MongoDBDriverCursor::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- Створює новий об'єкт Cursor (не використовується)
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Cursor::\_\_construct
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Cursor::\_\_construct — Створює новий об'єкт Cursor (не
-використовується)
+MongoDBDriverCursor::construct — Створення нового об'єкта Cursor (не використовується)
 
 ### Опис
 
-final private **MongoDB\Driver\Cursor::\_\_construct**()
+```methodsynopsis
+final private MongoDB\Driver\Cursor::__construct()
+```
 
-Об'єкти [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-повертаються в результаті виконання команди або запиту та не можуть бути
-створені безпосередньо.
+Об'єкти [MongoDBDriverCursor](class.mongodb-driver-cursor.md) повертаються в результаті виконання команди або запиту та не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,11 +26,7 @@ final private **MongoDB\Driver\Cursor::\_\_construct**()
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::executeCommand()](mongodb-driver-manager.executecommand.md) -
-Виконує команду бази даних
-- [MongoDB\Driver\Manager::executeQuery()](mongodb-driver-manager.executequery.md) -
-Виконує запит до бази даних
-- [MongoDB\Driver\Server::executeCommand()](mongodb-driver-server.executecommand.md) -
-Виконати команду бази даних на сервері
-- [MongoDB\Driver\Server::executeQuery()](mongodb-driver-server.executequery.md) -
-Виконує запит до бази даних на сервері
+-   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних
+-   [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md) - Виконує запит до бази даних
+-   [MongoDBDriverServer::executeCommand()](mongodb-driver-server.executecommand.md) - Виконати команду бази даних на сервері
+-   [MongoDBDriverServer::executeQuery()](mongodb-driver-server.executequery.md) - Виконує запит до бази даних на сервері

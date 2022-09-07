@@ -1,44 +1,45 @@
-- [« Gmagick::addnoiseimage](gmagick.addnoiseimage.md)
-- [Gmagick::blurimage »](gmagick.blurimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Підписати зображення текстом
-
+---
+navigation:
+  - gmagick.addnoiseimage.md: '« Gmagick::addnoiseimage'
+  - gmagick.blurimage.md: 'Gmagick::blurimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::annotateimage'
+---
 # Gmagick::annotateimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::annotateimage — Підписати зображення текстом
 
 ### Опис
 
-public **Gmagick::annotateimage**(
-[GmagickDraw](class.gmagickdraw.md) `$GmagickDraw`,
-float `$x`,
-float `$y`,
-float `$angle`,
-string `$text`
-): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
+```
 
 Підписати зображення тексту.
 
 ### Список параметрів
 
 `GmagickDraw`
-Об'єкт [GmagickDraw](class.gmagickdraw.md), що містить налаштування для
-тексту.
+
+Об'єкт [GmagickDraw](class.gmagickdraw.md), що містить параметри для відображення тексту.
 
 `x`
-Горизонтальне усунення лівого краю тексту в пікселях.
+
+Горизонтальне зміщення лівого краю тексту в пікселях.
 
 `y`
-Вертикальне усунення базової лінії тексту в пікселях.
+
+Вертикальне зміщення базової лінії тексту на пікселях.
 
 `angle`
+
 Кут під яким розміщувати текст.
 
 `text`
+
 Текст.
 
 ### Значення, що повертаються

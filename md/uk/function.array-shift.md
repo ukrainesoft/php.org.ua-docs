@@ -1,62 +1,64 @@
-- [«array_search](function.array-search.md)
-- [array_slice »](function.array-slice.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Витягує перший елемент масиву
-
-#array_shift
+---
+navigation:
+  - function.array-search.md: « arraysearch
+  - function.array-slice.md: arrayslice »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayshift
+---
+# arrayshift
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-array_shift — Витягує перший елемент масиву
+arrayshift — Витягує перший елемент масиву
 
 ### Опис
 
-**array_shift**(array `&$array`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+array_shift(array &$array): mixed
+```
 
-**array_shift()** отримує перше значення масиву `array` і повертає
-його, скорочуючи розмір `array` на один елемент. Усі числові ключі будуть
-змінені таким чином, що нумерація масиву почнеться з нуля,
-час як рядкові ключі залишаться незмінними.
+**arrayshift()** здобуває перше значення масиву `array` і повертає його, скорочуючи розмір `array` на один елемент. Усі числові ключі будуть змінені таким чином, що нумерація масиву розпочнеться з нуля, тоді як рядкові ключі залишаться незмінними.
 
-> **Примітка**: Ця функція під час дзвінка
-> [скидає](function.reset.md) покажчик масиву, переданого
-> параметром.
+> **Зауваження**: Ця функція під час виклику [скидає](function.reset.md) вказівник масиву, переданого параметром.
 
 ### Список параметрів
 
 `array`
-Вхідний масив.
+
+Вхідний масив
 
 ### Значення, що повертаються
 
-Повертає видобуте значення або **`null`**, якщо `array` порожній чи не
-є масивом.
+Повертає значення або **`null`**, якщо `array` порожній чи не є масивом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_shift()****
+**Приклад #1 Приклад використання **arrayshift()****
 
-` <?php$stack = array("orange", "banana", "apple", "raspberry");$fruit = array_shift($stack);print_r($stack);?> `
+```php
+<?php
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = array_shift($stack);
+print_r($stack);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[0] => banana
-[1] => apple
-[2] => raspberry
+    [0] => banana
+    [1] => apple
+    [2] => raspberry
 )
+```
 
-і значення `orange` буде присвоєно змінній `$fruit`.
+та значення `orange` буде присвоєно змінною $fruit.
 
 ### Дивіться також
 
-- [array_unshift()](function.array-unshift.md) - Додає один або
-кілька елементів на початок масиву
-- [array_push()](function.array-push.md) - Додає один або
-кілька елементів у кінець масиву
-- [array_pop()](function.array-pop.md) - Витягує останній елемент
-масиву
+-   [arrayunshift()](function.array-unshift.md) - Додає один або кілька елементів на початок масиву
+-   [arraypush()](function.array-push.md) - Додає один або кілька елементів у кінець масиву
+-   [arraypop()](function.array-pop.md) - Витягує останній елемент масиву

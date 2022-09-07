@@ -1,48 +1,59 @@
-- [« Ds\Vector::filter](ds-vector.filter.md)
-- [Ds\Vector::first »](ds-vector.first.md)
+---
+navigation:
+  - ds-vector.filter.md: '« DsVector::filter'
+  - ds-vector.first.md: 'ДсVector::first »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::find'
+---
+# ДсVector::find
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Пошук індексу за значенням
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::find
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::find — Пошук індексу за значенням
+ДсVector::find — Пошук індексу за значенням
 
 ### Опис
 
-public
-**Ds\Vector::find**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Vector::find(mixed $value): mixed
+```
 
-Повертає індекс значення `value` або **`false`**, якщо нічого не
-знайдено.
+Повертає індекс значення `value` або \*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
 `value`
+
 Шукане значення.
 
 ### Значення, що повертаються
 
-Індекс елемента або ** false , якщо значення не знайдено.
+Індекс елемента або \*\*`false`\*\*якщо значення не знайдено.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Елементи порівнюються суворо (за типом та значенням).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::find()****
+**Приклад #1 Приклад використання **ДсVector::find()****
 
-` <?php$vector = new \Ds\Vector(["a", 1, true]);var_dump($vector->find("a")); // 0var_dump($vector->find("b")); //falsevar_dump($vector->find("1")); //falsevar_dump($vector->find(1)); // 1?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", 1, true]);
+
+var_dump($vector->find("a")); // 0
+var_dump($vector->find("b")); // false
+var_dump($vector->find("1")); // false
+var_dump($vector->find(1));   // 1
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(0)
 bool(false)
 bool(false)
 int(1)
+```

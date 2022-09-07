@@ -1,103 +1,247 @@
-- [«oci_free_statement](function.oci-free-statement.md)
-- [oci_lob_copy »](function.oci-lob-copy.md)
+---
+navigation:
+  - function.oci-free-statement.md: « ocifreestatement
+  - function.oci-lob-copy.md: ocilobcopy »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocigetimplicitresultset
+---
+# ocigetimplicitresultset
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає наступний ресурс дочірнього запиту із ресурсу
-батьківського запиту, що має неявні результуючі набори Oracle
-Database
+(PHP 5> = 5.6.0, PHP 7, PHP 8, PECL OCI8> = 2.0.0)
 
-#oci_get_implicit_resultset
-
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL OCI8 \>= 2.0.0)
-
-oci_get_implicit_resultset — Повертає наступний ресурс дочірнього
-запиту з ресурсу батьківського запиту, що має неявні
-результуючі набори Oracle Database
+ocigetimplicitresultset — Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
 
 ### Опис
 
-**oci_get_implicit_resultset**(resource `$statement`): resource\|false
+```methodsynopsis
+oci_get_implicit_resultset(resource $statement): resource|false
+```
 
-Використовується для вибору послідовних наборів результатів запиту.
-після виконання збереженого або анонімного блоку Oracle PL/SQL, коли
-цей блок повертає результати запиту Oracle Database 12 (або новіше) з
-за допомогою PL/SQL функції *DBMS_SQL.RETURN_RESULT*. Це дозволять блокам
-PL/SQL повертає результати запиту.
+Використовується для вибірки послідовних наборів результатів запиту після виконання збереженого або анонімного блоку Oracle PL/SQL, коли цей блок повертає результати запиту Oracle Database 12 (або новіше) за допомогою функції PL/SQL *DBMSSQL.RETURNRESULT*. Це дозволить блокам PL/SQL повертати результати запиту.
 
-Дочірній запит може бути використаний з будь-якою видобувною функцією
-OCI8: [oci_fetch()](function.oci-fetch.md),
-[oci_fetch_all()](function.oci-fetch-all.md),
-[oci_fetch_array()](function.oci-fetch-array.md),
-[oci_fetch_object()](function.oci-fetch-object.md),
-[oci_fetch_assoc()](function.oci-fetch-assoc.md) або
-[oci_fetch_row()](function.oci-fetch-row.md)
+Дочірній запит може бути використаний з будь-якою функцією OCI8: [ocifetch()](function.oci-fetch.md) [ocifetchall()](function.oci-fetch-all.md) [ocifetcharray()](function.oci-fetch-array.md) [ocifetchobject()](function.oci-fetch-object.md) [ocifetchassoc()](function.oci-fetch-assoc.md) або [ocifetchrow()](function.oci-fetch-row.md)
 
-Дочірній запит успадковує батьківське значення передвиборки, чи можна
-вказати його явно за допомогою
-[oci_set_prefetch()](function.oci-set-prefetch.md).
+Дочірній запит успадковує батьківське значення передвиборки, або можна вказати його за допомогою [ocisetprefetch()](function.oci-set-prefetch.md)
 
 ### Список параметрів
 
 `statement`
-Коректний ідентифікатор запиту OCI8, створений за допомогою
-[oci_parse()](function.oci-parse.md) та запущений за допомогою
-[oci_execute()](function.oci-execute.md). Ідентифікатор запиту може
-бути, а може і не бути пов'язаний із SQL-запитом, який повертає
-неявні результуючі набори (Implicit Result Set).
+
+Коректний ідентифікатор запиту OCI8, створений за допомогою [ociparse()](function.oci-parse.md) та запущений за допомогою [ociexecute()](function.oci-execute.md). Ідентифікатор запиту може бути, а може і не бути пов'язаний із SQL-запитом, який повертає неявні результуючі набори (Implicit Result Set).
 
 ### Значення, що повертаються
 
-Повертає обробник запиту для наступного доступного для `statement`
-дочірнього запиту. Повертає **`false`** якщо такого немає чи все
-дочірні запити вже повернуто попередніми викликами
-**oci_get_implicit_resultset()**.
+Повертає обробник запиту для наступного доступного для `statement` дочірній запит. Повертає **`false`** якщо такого немає або всі дочірні запити вже повернуто попередніми викликами **ocigetimplicitresultset()**
 
 ### Приклади
 
 **Приклад #1 Вилучення неявних результуючих наборів у циклі**
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'DECLARE             c1 SYS_REFCURSOR; BEGIN            OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city; DBMS_SQL.RETURN_RESULT(c1); OPENc1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BYcity; DBMS_SQL.RETURN_RESULT(c1); END;';$stid = oci_parse($conn, $sql);oci_execute($stid);while (($stid_c = oci_get_implicit_resultset($stid))) {    echo "<h2>Новий
-";    echo "<table>
-";   while (($row = oci_fetch_array($stid_c, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {         echo "<tr>
-";        foreach ($row as $item) {            echo "  <td>".($item!==null?htmlentities($ITem,|
-";        }}        echo "</tr>
-";    }    echo "</table>
-";}// Вывод://    Новый неявный результирующий набор://     Beijing 190518//     Bern    3095//     Bombay  490231//    New Implicit Result Set://     CN//     CH//     INoci_free_statement($stid);oci_close($ conn);?> `
+```php
+<?php
 
-**Приклад #2 Вилучення обробників дочірніх запитів в індивідуальному
-порядку**
+$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'DECLARE             c1 SYS_REFCURSOR; BEGIN            OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city; DBMS_SQL.RETURN_RESULT(c1); OPENc1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BYcity; DBMS_SQL.RETURN_RESULT(c1); END;';$stid = oci_parse($conn, $sql);oci_execute($stid);$stid_1 = oci_get_implicit_resultset($stid);$stid_2 = oci_get_implicit_resultset($stid); OCI_RETURN_NULLS);var_dump($row);$row = oci_fetch_array($stid_2, OCI_ASSOC+OCI_RETURN_NULLS);var_dump($row); oci_fetch_array($stid_2, OCI_ASSOC+OCI_RETURN_NULLS); var_dump($row); ]=>//                              {//     ["CITY"]=>//                                                                             "COUNTRY_ID"]=>//    string(2) "CH"//    }oci_free_statement($stid);oci_close($conn);?> `
+$sql = 'DECLARE
+            c1 SYS_REFCURSOR;
+        BEGIN
+           OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+           OPEN c1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+        END;';
 
-**Приклад #3 Явна вказівка величини передвиборки**
+$stid = oci_parse($conn, $sql);
+oci_execute($stid);
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'DECLARE             c1 SYS_REFCURSOR; BEGIN            OPEN c1 FOR SELECT city, postal_code FROM locations ORDER BY city; DBMS_SQL.RETURN_RESULT(c1); END;';$stid = oci_parse($conn, $sql);oci_execute($stid);$stid_c = oci_get_implicit_resultset($stid);oci_set_prefetch($stid_c, 200); // Встановлюємо величину передвиборки до того як починаємо витягувати пезультати з дочірнього запитуecho "<table>
-";while (($row = oci_fetch_array($stid_c, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {    echo ""<tr>
-";    foreach ($row as $item) {        echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"t"
-";    }    echo "</tr>
-";}echo "</table>
-";oci_free_statement($stid);oci_close($conn);?> `
+while (($stid_c = oci_get_implicit_resultset($stid))) {
+    echo "<h2>Новый неявный результирующий набор:</h2>\n";
+    echo "<table>\n";
+    while (($row = oci_fetch_array($stid_c, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
+        echo "<tr>\n";
+        foreach ($row as $item) {
+            echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"")."</td>\n";
+        }
+        echo "</tr>\n";
+    }
+    echo "</table>\n";
+}
 
-**Приклад #4 Приклад неявного результуючого набору без використання
-**oci_get_implicit_resultset()****
+// Вывод:
+//    Новый неявный результирующий набор:
+//     Beijing 190518
+//     Bern    3095
+//     Bombay  490231
+//    New Implicit Result Set:
+//     CN
+//     CH
+//     IN
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #2 Вилучення обробників дочірніх запитів в індивідуальному порядку**
+
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$sql = 'DECLARE
+            c1 SYS_REFCURSOR;
+        BEGIN
+           OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+           OPEN c1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+        END;';
+
+$stid = oci_parse($conn, $sql);
+oci_execute($stid);
+
+$stid_1 = oci_get_implicit_resultset($stid);
+$stid_2 = oci_get_implicit_resultset($stid);
+
+$row = oci_fetch_array($stid_1, OCI_ASSOC+OCI_RETURN_NULLS);
+var_dump($row);
+$row = oci_fetch_array($stid_2, OCI_ASSOC+OCI_RETURN_NULLS);
+var_dump($row);
+$row = oci_fetch_array($stid_1, OCI_ASSOC+OCI_RETURN_NULLS);
+var_dump($row);
+$row = oci_fetch_array($stid_2, OCI_ASSOC+OCI_RETURN_NULLS);
+var_dump($row);
+
+// Вывод:
+//    array(2) {
+//      ["CITY"]=>
+//      string(7) "Beijing"
+//      ["POSTAL_CODE"]=>
+//      string(6) "190518"
+//    }
+//    array(1) {
+//      ["COUNTRY_ID"]=>
+//      string(2) "CN"
+//    }
+//    array(2) {
+//      ["CITY"]=>
+//      string(4) "Bern"
+//      ["POSTAL_CODE"]=>
+//      string(4) "3095"
+//    }
+//    array(1) {
+//      ["COUNTRY_ID"]=>
+//      string(2) "CH"
+//    }
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #3 Явна вказівка ​​величини передвиборки**
+
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$sql = 'DECLARE
+            c1 SYS_REFCURSOR;
+        BEGIN
+           OPEN c1 FOR SELECT city, postal_code FROM locations ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+        END;';
+
+$stid = oci_parse($conn, $sql);
+oci_execute($stid);
+
+$stid_c = oci_get_implicit_resultset($stid);
+oci_set_prefetch($stid_c, 200);   // Устанавливаем величину предвыборки до того как начинаем извлекать пезультаты из дочернего запроса
+echo "<table>\n";
+while (($row = oci_fetch_array($stid_c, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"")."</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #4 Приклад неявного результуючого набору без використання **ocigetimplicitresultset()****
 
 Усі результати всіх запитів повертаються послідовно.
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'DECLARE             c1 SYS_REFCURSOR; BEGIN            OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city; DBMS_SQL.RETURN_RESULT(c1); OPENc1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BYcity; DBMS_SQL.RETURN_RESULT(c1); END; ';
-";while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {    echo ""<tr>
-";    foreach ($row as $item) {        echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"t"
-";    }    echo "</tr>
-";}echo "</table>
-";// Висновок://   Beijing 190518//    Bern 3095//    Bombay 490231//    CN//  |
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/pdborcl');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$sql = 'DECLARE
+            c1 SYS_REFCURSOR;
+        BEGIN
+           OPEN c1 FOR SELECT city, postal_code FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+           OPEN c1 FOR SELECT country_id FROM locations WHERE ROWNUM < 4 ORDER BY city;
+           DBMS_SQL.RETURN_RESULT(c1);
+        END;';
+
+$stid = oci_parse($conn, $sql);
+oci_execute($stid);
+
+// Обратите внимание: oci_fetch_all and oci_fetch() нельзя использовать таким образом
+echo "<table>\n";
+while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "  <td>".($item!==null?htmlentities($item, ENT_QUOTES|ENT_SUBSTITUTE):"")."</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+// Вывод:
+//    Beijing 190518
+//    Bern 3095
+//    Bombay 490231
+//    CN
+//    CH
+//    IN
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для запитів, що повертають велику кількість рядів,
-> продуктивність може бути значно збільшена за допомогою
-> збільшення значення опції
-> [oci8.default_prefetch](oci8.configuration.md#ini.oci8.default-prefetch)
-> або використання
-> [oci_set_prefetch()](function.oci-set-prefetch.md).
+> **Зауваження**
+> 
+> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.md#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.md)

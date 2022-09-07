@@ -1,22 +1,24 @@
-- [«stream_get_transports](function.stream-get-transports.md)
-- [stream_is_local »](function.stream-is-local.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Отримати список зареєстрованих потоків
-
-#stream_get_wrappers
+---
+navigation:
+  - function.stream-get-transports.md: « streamgettransports
+  - function.stream-is-local.md: streamісlocal »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamgetwrappers
+---
+# streamgetwrappers
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_get_wrappers — Отримати список зареєстрованих потоків
+streamgetwrappers — Отримати список зареєстрованих потоків
 
 ### Опис
 
-**stream_get_wrappers**(): array
+```methodsynopsis
+stream_get_wrappers(): array
+```
 
-Витягує список зареєстрованих потоків, доступних на запущеній
-системі.
+Витягує список зареєстрованих потоків на запущеній системі.
 
 ### Список параметрів
 
@@ -24,32 +26,45 @@ stream_get_wrappers — Отримати список зареєстровани
 
 ### Значення, що повертаються
 
-Повертає індексований масив, що містить назви всіх обгорток
-потоків доступних на запущеній системі.
+Повертає індексований масив, що містить назви всіх обертів потоків, доступних на запущеній системі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_get_wrappers()****
+**Приклад #1 Приклад використання **streamgetwrappers()****
 
-` <?phpprint_r(stream_get_wrappers());?> `
+```php
+<?php
+print_r(stream_get_wrappers());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => php
-[1] => file
-[2] => http
-[3] => ftp
-[4] => compress.bzip2
-[5] => compress.zlib
+    [0] => php
+    [1] => file
+    [2] => http
+    [3] => ftp
+    [4] => compress.bzip2
+    [5] => compress.zlib
 )
+```
 
 **Приклад #2 Перевірка існування обгортки потоку**
 
-`<?php// Перевіряє існування обгортки потоку bzip2if (in_array('compress.bzip2', stream_get_wrappers())) {   echo 'compress.bzip2:// b>2  підтримка не включена.';}?> `
+```php
+<?php
+// Проверяет существование обёртки потока bzip2
+if (in_array('compress.bzip2', stream_get_wrappers())) {
+    echo 'compress.bzip2:// поддержка включена.';
+} else {
+    echo 'compress.bzip2:// поддержка не включена.';
+}
+?>
+```
 
 ### Дивіться також
 
-- [stream_wrapper_register()](function.stream-wrapper-register.md) -
-Реєструє обгортку URL, реалізовану у вигляді PHP-класу
+-   [streamwrapperregister()](function.stream-wrapper-register.md) - реєструє обгортку URL, реалізовану у вигляді PHP-класу

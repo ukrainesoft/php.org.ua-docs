@@ -1,21 +1,22 @@
-- [« MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent::getNewDescription »](mongodb-driver-monitoring-serverchangedevent.getnewdescription.md)
+---
+navigation:
+  - class.mongodb-driver-monitoring-serverchangedevent.md: « MongoDBDriverMonitoringServerChangedEvent
+  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.md: 'MongoDBDriverMonitoringServerChangedEvent::getNewDescription »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent
+title: 'MongoDBDriverMonitoringServerChangedEvent::getHost'
+---
+# MongoDBDriverMonitoringServerChangedEvent::getHost
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
-- Повертає ім'я сервера хоста
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\ServerChangedEvent::getHost
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\ServerChangedEvent::getHost — Повертає ім'я
-хоста сервера
+MongoDBDriverMonitoringServerChangedEvent::getHost — Повертає ім'я сервера.
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerChangedEvent::getHost**(): string
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerChangedEvent::getHost(): string
+```
 
 ### Список параметрів
 
@@ -27,5 +28,4 @@ final public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

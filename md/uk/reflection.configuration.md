@@ -1,10 +1,11 @@
-- [« Встановлення](reflection.installation.md)
-- [Типи ресурсів»](reflection.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](reflection.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - reflection.installation.md: « Установка
+  - reflection.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - reflection.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

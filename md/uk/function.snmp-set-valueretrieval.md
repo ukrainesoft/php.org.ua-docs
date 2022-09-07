@@ -1,43 +1,75 @@
-- [« snmp_set_quick_print](function.snmp-set-quick-print.md)
-- [snmp2_get »](function.snmp2-get.md)
+---
+navigation:
+  - function.snmp-set-quick-print.md: « snmpsetquickprint
+  - function.snmp2-get.md: snmp2get »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpsetvalueretrieval
+---
+# snmpsetvalueretrieval
 
-- [PHP Manual](index.md)
-- [Функції SNMP](ref.snmp.md)
-- Визначає спосіб повернення значень SNMP
+(PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)
 
-#snmp_set_valueretrieval
-
-(PHP 4 \>= 4.3.3, PHP 5, PHP 7, PHP 8)
-
-snmp_set_valueretrieval — Визначає спосіб повернення значень SNMP
+snmpsetvalueretrieval — Визначає спосіб повернення значень SNMP
 
 ### Опис
 
-**snmp_set_valueretrieval**(int `$method`): bool
+```methodsynopsis
+snmp_set_valueretrieval(int $method): bool
+```
 
 ### Список параметрів
 
 `method`
-|                    |                                                                                                                                                                                                                                                                           |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SNMP_VALUE_LIBRARY | Значення, що повертаються, будуть такими ж, як повертаються бібліотекою Net-SNMP.                                                                                                                                                                                         |
-| SNMP_VALUE_PLAIN   | Значення, що повертаються, будуть простими значеннями без інформації про типи SNMP.                                                                                                                                                                                       |
-| SNMP_VALUE_OBJECT  | Значення, що повертаються будуть об'єктами з властивостями value and type, де останнє є однією з констант **SNMP_OCTET_STR**, **SNMP_COUNTER** і т.д. Спосіб повернення value залежить від того, яка з констант **SNMP_VALUE_LIBRARY**, **SNMP_VALUE_PLAIN** встановлена. |
 
-**Типи**
+<table class="doctable table"><caption><strong>Типи</strong></caption><tbody class="tbody"><tr><td>SNMP_VALUE_LIBRARY</td><td>Повертані значення будуть такими ж, як повертаються бібліотекою Net-SNMP.</td></tr><tr><td>SNMP_VALUE_OBJECT</td><td>Повертані значення будуть об'єктами з властивостями <code class="literal">value</code> and <code class="literal">type</code>, де останнє є однією з констант <strong><code>SNMP_OCTET_STR</code></strong>, <strong><code>SNMP_COUNTER</code></strong> і т.д. Спосіб повернення <code class="literal">value</code> залежить від того, яка з констант <strong><code>SNMP_VALUE_LIBRARY</code></strong>, <strong><code>SNMP_VALUE_PLAIN</code>&lt; /strong&gt; встановлено.</strong></td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-Функція завжди повертає **`true`**.
+Функція завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmp_set_valueretrieval()****
+**Приклад #1 Приклад використання **snmpsetvalueretrieval()****
 
-`<?php snmp_set_valueretrieval(SNMP_VALUE_LIBRARY); $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1'); // $ret = "STRING: lo" snmp_set_valueretrieval(SNMP_VALUE_PLAIN); $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1'); //$$ret=="lo"; snmp_set_valueretrieval(SNMP_VALUE_OBJECT); $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1'); // stdClass Object // ( //   [type] => 4        <-- SNMP_OCTET_STR, дивіться константи //   [value] => lo| $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1'); // stdClass Object // ( //   [type] => 4        <-- SNMP_OCTET_STR, дивіться константи //   [value] => lo| $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1'); // stdClass Object // ( //   [type] => 4        <-- SNMP_OCTET_STR, дивіться константи //   [value] => STRING:
+```php
+<?php
+ snmp_set_valueretrieval(SNMP_VALUE_LIBRARY);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // $ret = "STRING: lo"
+
+ snmp_set_valueretrieval(SNMP_VALUE_PLAIN);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // $ret = "lo";
+
+ snmp_set_valueretrieval(SNMP_VALUE_OBJECT);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // stdClass Object
+ // (
+ //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
+ //   [value] => lo
+ // )
+
+ snmp_set_valueretrieval(SNMP_VALUE_OBJECT | SNMP_VALUE_PLAIN);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // stdClass Object
+ // (
+ //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
+ //   [value] => lo
+ // )
+
+ snmp_set_valueretrieval(SNMP_VALUE_OBJECT | SNMP_VALUE_LIBRARY);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // stdClass Object
+ // (
+ //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
+ //   [value] => STRING: lo
+ // )
+
+?>
+```
 
 ### Дивіться також
 
-- [snmp_get_valueretrieval()](function.snmp-get-valueretrieval.md) -
-Повертає метод, як буде повернено значення SNMP
-- [Предвизначені константи](snmp.constants.md)
+-   [snmpgetvalueretrieval()](function.snmp-get-valueretrieval.md) - Повертає метод, як буде повернено значення SNMP
+-   [Обумовлені константи](snmp.constants.md)

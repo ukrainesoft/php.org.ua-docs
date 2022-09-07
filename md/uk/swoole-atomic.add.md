@@ -1,25 +1,29 @@
-- [« Swoole\Atomic](class.swoole-atomic.md)
-- [Swoole\Atomic::cmpset »](swoole-atomic.cmpset.md)
+---
+navigation:
+  - class.swoole-atomic.md: « SwooleAtomic
+  - swoole-atomic.cmpset.md: 'SwooleAtomic::cmpset »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.md: SwooleAtomic
+title: 'SwooleAtomic::add'
+---
+# SwooleAtomic::add
 
-- [PHP Manual](index.md)
-- [Swoole\Atomic](class.swoole-atomic.md)
-- Додає число значення атомарного об'єкта
+(PECL swoole >= 1.9.0)
 
-# Swoole\Atomic::add
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Atomic::add — Додає число значення атомарного об'єкта
+SwooleAtomic::add — Додає число значення атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::add**(int `$add_value` = ?): int
+```methodsynopsis
+public Swoole\Atomic::add(int $add_value = ?): int
+```
 
 Додає число значення атомарного об'єкта.
 
 ### Список параметрів
 
 `add_value`
+
 Значення, яке буде додано до поточного значення.
 
 ### Значення, що повертаються

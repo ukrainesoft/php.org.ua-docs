@@ -1,26 +1,24 @@
-- [« MongoDB\Driver\TopologyDescription::getType](mongodb-driver-topologydescription.gettype.md)
-- [MongoDB\Driver\TopologyDescription::hasWritableServer »](mongodb-driver-topologydescription.haswritableserver.md)
+---
+navigation:
+  - mongodb-driver-topologydescription.gettype.md: '« MongoDBDriverTopologyDescription::getType'
+  - mongodb-driver-topologydescription.haswritableserver.md: 'MongoDBDriverTopologyDescription::hasWritableServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-topologydescription.md: MongoDBDriverTopologyDescription
+title: 'MongoDBDriverTopologyDescription::hasReadableServer'
+---
+# MongoDBDriverTopologyDescription::hasReadableServer
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md)
-- Повертає, чи є у топології сервер, доступний для читання
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\TopologyDescription::hasReadableServer
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\TopologyDescription::hasReadableServer - Повертає, є
-чи в топології сервер, доступний для читання
+MongoDBDriverTopologyDescription::hasReadableServer — Повертає, чи є в топології сервер, доступний для читання
 
 ### Опис
 
-final public
-**MongoDB\Driver\TopologyDescription::hasReadableServer**(?[MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-`$readPreference` = **`null`**): bool
+```methodsynopsis
+final public MongoDB\Driver\TopologyDescription::hasReadableServer(?MongoDB\Driver\ReadPreference $readPreference = null): bool
+```
 
-Повертає, чи є в топології сервер, доступний для читання, або якщо
-вказано параметр `readPreference`, сервер, що відповідає вказаному
-перевагу читання.
+Повертає, чи є в топології сервер, доступний для читання, або якщо зазначено параметр `readPreference`, сервер, що відповідає вказаній перевагі читання.
 
 ### Список параметрів
 
@@ -28,11 +26,8 @@ final public
 
 ### Значення, що повертаються
 
-Повертає, чи є в топології сервер, доступний для читання, або якщо
-вказано параметр `readPreference`, сервер, що відповідає вказаному
-перевагу читання.
+Повертає, чи є в топології сервер, доступний для читання, або якщо зазначено параметр `readPreference`, сервер, що відповідає вказаній перевагі читання.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

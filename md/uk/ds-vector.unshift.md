@@ -1,32 +1,33 @@
-- [« Ds\Vector::toArray](ds-vector.toarray.md)
-- [Двостороння черга»](class.ds-deque.md)
+---
+navigation:
+  - ds-vector.toarray.md: '« DsVector::toArray'
+  - class.ds-deque.md: Двостороння черга »
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::unshift'
+---
+# ДсVector::unshift
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Додає значення на початок вектора
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::unshift
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::unshift — Додає значення на початок вектора
+ДсVector::unshift — Додає значення на початок вектора
 
 ### Опис
 
-public
-**Ds\Vector::unshift**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values = ?): void
+```methodsynopsis
+public Ds\Vector::unshift(mixed $values = ?): void
+```
 
-Додає значення на початок вектора, зсуваючи всі елементи вперед, щоб
-звільнити місце для нових.
+Додає значення початку вектора, зрушуючи всі елементи вперед, щоб звільнити місце для нових.
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Багато значень додаються в тому порядку, як вони були передані.
 
 ### Значення, що повертаються
@@ -35,18 +36,29 @@ $values = ?): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::unshift()****
+**Приклад #1 Приклад використання **ДсVector::unshift()****
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);$vector->unshift("a");$vector->unshift("b", "c");print_r( $vector);?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+
+$vector->unshift("a");
+$vector->unshift("b", "c");
+
+print_r($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => b
-[1] => c
-[2] => a
-[3] => 1
-[4] => 2
-[5] => 3
+    [0] => b
+    [1] => c
+    [2] => a
+    [3] => 1
+    [4] => 2
+    [5] => 3
 )
+```

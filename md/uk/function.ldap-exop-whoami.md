@@ -1,40 +1,41 @@
-- [« ldap_exop_refresh](function.ldap-exop-refresh.md)
-- [ldap_exop »](function.ldap-exop.md)
+---
+navigation:
+  - function.ldap-exop-refresh.md: « ldapexoprefresh
+  - function.ldap-exop.md: ldapexop »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapexopwhoami
+---
+# ldapexopwhoami
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Обертка для розширеної операції WHOAMI
+(PHP 7> = 7.2.0, PHP 8)
 
-#ldap_exop_whoami
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-ldap_exop_whoami — Обертка для розширеної операції WHOAMI
+ldapexopwhoami — Обертка для розширеної операції WHOAMI
 
 ### Опис
 
-**ldap_exop_whoami**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`): string\|false
+```methodsynopsis
+ldap_exop_whoami(LDAP\Connection $ldap): string|false
+```
 
 Виконує розширену операцію WHOAMI та повертає дані.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 
-Дані, повернені сервером, або ** false **.
+Дані, повернуті сервером, або **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
-- [ldap_exop()](function.ldap-exop.md) - Виконати розширену
-операцію
+-   [ldapexop()](function.ldap-exop.md) - Виконує розширену операцію

@@ -1,24 +1,24 @@
-- [«MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
-- [MongoDB\BSON\DBPointer::jsonSerialize »](mongodb-bson-dbpointer.jsonserialize.md)
+---
+navigation:
+  - class.mongodb-bson-dbpointer.md: « MongoDBBSONDBPointer
+  - mongodb-bson-dbpointer.jsonserialize.md: 'MongoDBBSONDBPointer::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer
+title: 'MongoDBBSONDBPointer::construct'
+---
+# MongoDBBSONDBPointer::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
-- Створює новий DBPointer (не використовується)
+(mongodb >=1.4.0)
 
-# MongoDB\BSON\DBPointer::\_\_construct
-
-(mongodb \>=1.4.0)
-
-MongoDB\BSON\DBPointer::\_\_construct — Створює новий DBPointer (не
-використовується)
+MongoDBBSONDBPointer::construct — Створює новий DBPointer (не використовується)
 
 ### Опис
 
-final private **MongoDB\BSON\DBPointer::\_\_construct**()
+```methodsynopsis
+final private MongoDB\BSON\DBPointer::__construct()
+```
 
-Об'єкти [MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
-створюються шляхом перетворення із застарілого типу BSON і не можуть бути
-створені безпосередньо.
+Об'єкти [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.md) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ final private **MongoDB\BSON\DBPointer::\_\_construct**()
 
 ### Дивіться також
 
-- [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)

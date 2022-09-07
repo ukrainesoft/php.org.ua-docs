@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](gearman.configuration.md)
-- [Предвизначені константи »](gearman.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gearman.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - gearman.configuration.md: « Налаштування під час виконання
+  - gearman.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - gearman.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

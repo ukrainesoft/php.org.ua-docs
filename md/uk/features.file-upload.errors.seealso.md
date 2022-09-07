@@ -1,10 +1,11 @@
-- [«Підтримка методу PUT](features.file-upload.put-method.md)
-- [Робота з віддаленими файлами »](features.remote-files.md)
-
-- [PHP Manual](index.md)
-- [Завантаження файлів на сервер](features.file-upload.md)
--   Дивіться також
-
+---
+navigation:
+  - features.file-upload.put-method.md: « Поддержка метода PUT
+  - features.remote-files.md: Робота з віддаленими файлами »
+  - index.md: PHP Manual
+  - features.file-upload.md: Загрузка файлов на сервер
+title: Дивіться також
+---
 ## Дивіться також
 
-- [Безпека файлової системи](security.filesystem.md)
+-   [Безпека файлової системи](security.filesystem.md)

@@ -1,36 +1,39 @@
-- [«posix_getuid](function.posix-getuid.md)
-- [posix_isatty »](function.posix-isatty.md)
+---
+navigation:
+  - function.posix-getuid.md: « posixgetuid
+  - function.posix-isatty.md: posixisatty »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixinitgroups
+---
+# posixinitgroups
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Визначає рівень доступу для групи
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#posix_initgroups
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-posix_initgroups — Визначає рівень доступу до групи
+posixinitgroups — Визначає рівень доступу для групи
 
 ### Опис
 
-**posix_initgroups**(string `$username`, int `$group_id`): bool
+```methodsynopsis
+posix_initgroups(string $username, int $group_id): bool
+```
 
-Визначає рівень доступу групи для користувача, зазначеного в
-параметри.
+Визначає рівень доступу групи користувача, зазначеного у параметрах.
 
 ### Список параметрів
 
 `username`
+
 Ім'я користувача, якого визначається рівень доступу.
 
 `group_id`
+
 Ідентифікатор базової групи із файлу password.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- Посібник Unix initgroups(3).
+-   Керівництво Unix initgroups(3).

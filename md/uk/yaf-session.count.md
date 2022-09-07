@@ -1,24 +1,26 @@
-- [« Yaf_Session::\_\_construct](yaf-session.construct.md)
-- [Yaf_Session::current »](yaf-session.current.md)
+---
+navigation:
+  - yaf-session.construct.md: '« YafSession::construct'
+  - yaf-session.current.md: 'YafSession::current »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::count'
+---
+# YafSession::count
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення count
+(Yaf >=1.0.0)
 
-# Yaf_Session::count
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::count — Призначення count
+YafSession::count — Призначення count
 
 ### Опис
 
-public **Yaf_Session::count**(): void
+```methodsynopsis
+public Yaf_Session::count(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

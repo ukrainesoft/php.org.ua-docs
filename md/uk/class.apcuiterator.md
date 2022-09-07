@@ -1,72 +1,58 @@
-- [«apcu_store](function.apcu-store.md)
-- [APCUIterator::\_\_construct »](apcuiterator.construct.md)
-
-- [PHP Manual](index.md)
-- [APCu](book.apcu.md)
-- Клас APCUIterator
-
+---
+navigation:
+  - function.apcu-store.md: « apcustore
+  - apcuiterator.construct.md: 'APCUIterator::construct »'
+  - index.md: PHP Manual
+  - book.apcu.md: APCu
+title: Клас APCUIterator
+---
 # Клас APCUIterator
 
-(PECL apcu \>= 5.0.0)
+(PECL apcu >= 5.0.0)
 
 ## Вступ
 
-Клас **APCUIterator** дозволяє з легкістю ітерувати великий APCu
-кеш. Це корисно, тому що дозволяє перебирати великий кеш по кроках,
-забираючи задану кількість записів використовуючи одне блокування, дозволяючи
-іншим активностям використовувати блокування, а не затримувати весь кеш
-для читання ста (за промовчанням) записів. Також, використання регулярних
-виразів ефективніше, оскільки виконується лише на рівні
-скомпілованого коду C.
+Клас **APCUIterator** дозволяє легко ітерувати великий APCu кеш. Це корисно, оскільки дозволяє перебирати великий кеш по кроках, забираючи задану кількість записів, використовуючи одне блокування, дозволяючи іншим активностям використовувати блокування, а не затримувати весь кеш для читання ста (за замовчуванням) записів. Також, використання регулярних виразів ефективніше, оскільки виконується лише на рівні скомпилированного коду C.
 
 ## Огляд класів
 
-class **APCUIterator** implements [Iterator](class.iterator.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](apcuiterator.construct.md)(
-array\|string\|null `$search` = **`null`**,
-int `$format` = APC_ITER_ALL,
-int `$chunk_size` = 100,
-int `$list` = APC_LIST_ACTIVE
-)
+    
+    
+     
+      class APCUIterator
+     
 
-public [current](apcuiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     implements 
+       Iterator {
+    
 
-public [getTotalCount](apcuiterator.gettotalcount.md)(): int
+    /* Методы */
+    
+   public __construct(    array|string|null $search = null,    int $format = APC_ITER_ALL,    int $chunk_size = 100,    int $list = APC_LIST_ACTIVE)
 
-public [getTotalHits](apcuiterator.gettotalhits.md)(): int
+    public current(): mixed
+public getTotalCount(): int
+public getTotalHits(): int
+public getTotalSize(): int
+public key(): string
+public next(): bool
+public rewind(): void
+public valid(): bool
 
-public [getTotalSize](apcuiterator.gettotalsize.md)(): int
-
-public [key](apcuiterator.key.md)(): string
-
-public [next](apcuiterator.next.md)(): bool
-
-public [rewind](apcuiterator.rewind.md)(): void
-
-public [valid](apcuiterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [APCUIterator::\_\_construct](apcuiterator.construct.md) — Створює
-об'єкт ітератор класу APCUIterator
-- [APCUIterator::current](apcuiterator.current.md) — Отримати
-поточний елемент
-- [APCUIterator::getTotalCount](apcuiterator.gettotalcount.md) -
-Отримати загальну кількість записів
-- [APCUIterator::getTotalHits](apcuiterator.gettotalhits.md) -
-Отримати загальну кількість влучень у кеш
-- [APCUIterator::getTotalSize](apcuiterator.gettotalsize.md) - Загальний
-розмір кешу
-- [APCUIterator::key](apcuiterator.key.md) — Отримати ключ ітератора
-- [APCUIterator::next](apcuiterator.next.md) — Переміщує вказівник
-на наступний елемент
-- [APCUIterator::rewind](apcuiterator.rewind.md) - Перемотування
-ітератора
-- [APCUIterator::valid](apcuiterator.valid.md) — Перевіряє,
-чи коректна поточна позиція ітератора
+-   [APCUIterator::construct](apcuiterator.construct.md) — Створює об'єкт ітератора класу APCUIterator
+-   [APCUIterator::current](apcuiterator.current.md) — Отримати поточний елемент
+-   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.md) — Отримати загальну кількість записів
+-   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.md) — Отримати загальну кількість попадань у кеш
+-   [APCUIterator::getTotalSize](apcuiterator.gettotalsize.md) - Загальний розмір кешу
+-   [APCUIterator::key](apcuiterator.key.md) - Отримати ключ ітератора
+-   [APCUIterator::next](apcuiterator.next.md) — Переміщує курсор на наступний елемент
+-   [APCUIterator::rewind](apcuiterator.rewind.md) - Перемотування ітератора
+-   [APCUIterator::valid](apcuiterator.valid.md) — Перевіряє, чи поточна позиція ітератора коректна.

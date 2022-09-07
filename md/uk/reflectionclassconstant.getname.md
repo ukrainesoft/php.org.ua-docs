@@ -1,19 +1,22 @@
-- [« ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md)
-- [ReflectionClassConstant::getValue »](reflectionclassconstant.getvalue.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- Отримати ім'я константи
-
+---
+navigation:
+  - reflectionclassconstant.getmodifiers.md: '« ReflectionClassConstant::getModifiers'
+  - reflectionclassconstant.getvalue.md: 'ReflectionClassConstant::getValue »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::getName'
+---
 # ReflectionClassConstant::getName
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-ReflectionClassConstant::getName — Отримати назву константи
+ReflectionClassConstant::getName — Отримати ім'я константи
 
 ### Опис
 
-public **ReflectionClassConstant::getName**(): string
+```methodsynopsis
+public ReflectionClassConstant::getName(): string
+```
 
 ### Список параметрів
 
@@ -23,8 +26,8 @@ public **ReflectionClassConstant::getName**(): string
 
 Повертає ім'я константи.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                          |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Викидає помилку [Error](class.error.md) у випадку, якщо властивість name не була ініціалізована. Раніше, у разі виникнення помилки, метод повертав **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | Викидає помилку [Error](class.error.md) якщо властивість name не була ініціалізована. Раніше, у разі помилки, метод повертав **`false`** |

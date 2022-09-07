@@ -1,19 +1,22 @@
-- [« Функції Solr](ref.solr.md)
-- [Приклади »](solr.examples.md)
+---
+navigation:
+  - ref.solr.md: « Функции Solr
+  - solr.examples.md: Приклади »
+  - index.md: PHP Manual
+  - ref.solr.md: Функции Solr
+title: solrgetversion
+---
+# solrgetversion
 
-- [PHP Manual](index.md)
-- [Функції Solr](ref.solr.md)
-- Повертає поточну версію Apache Solr
+(PECL solr> = 0.9.1)
 
-#solr_get_version
-
-(PECL solr \> = 0.9.1)
-
-solr_get_version — Повертає поточну версію модуля Apache Solr
+solrgetversion — Повертає поточну версію Apache Solr
 
 ### Опис
 
-**solr_get_version**(): string
+```methodsynopsis
+solr_get_version(): string
+```
 
 Функція повертає поточну версію модуля у вигляді рядка.
 
@@ -23,8 +26,7 @@ solr_get_version — Повертає поточну версію модуля A
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання та **`false`** у разі
-виникнення помилки.
+Повертає рядок у разі успішного виконання та **`false`** у разі виникнення помилки.
 
 ### Помилки
 
@@ -32,15 +34,24 @@ solr_get_version — Повертає поточну версію модуля A
 
 ### Приклади
 
-**Приклад #1 Приклад використання **solr_get_version()****
+**Приклад #1 Приклад використання **solrgetversion()****
 
-` <?php$solr_version = solr_get_version();print $solr_version;?> `
+```php
+<?php
+
+$solr_version = solr_get_version();
+
+print $solr_version;
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 0.9.6
+```
 
 ### Дивіться також
 
-- [SolrUtils::getSolrVersion()](solrutils.getsolrversion.md) -
-Повертає поточну версію модуля Solr
+-   [SolrUtils::getSolrVersion()](solrutils.getsolrversion.md) - Повертає поточну версію модуля Solr

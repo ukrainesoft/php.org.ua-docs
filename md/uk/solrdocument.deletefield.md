@@ -1,28 +1,31 @@
-- [«SolrDocument::current](solrdocument.current.md)
-- [SolrDocument::\_\_destruct »](solrdocument.destruct.md)
-
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Видаляє поле з документа
-
+---
+navigation:
+  - solrdocument.current.md: '« SolrDocument::current'
+  - solrdocument.destruct.md: 'SolrDocument::destruct »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::deleteField'
+---
 # SolrDocument::deleteField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::deleteField — Видаляє поле з документа
 
 ### Опис
 
-public **SolrDocument::deleteField**(string `$fieldName`): bool
+```methodsynopsis
+public SolrDocument::deleteField(string $fieldName): bool
+```
 
 Видаляє поле з документа.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

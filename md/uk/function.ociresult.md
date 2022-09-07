@@ -1,21 +1,21 @@
-- [«ociplogon](function.ociplogon.md)
-- [ocirollback »](function.ocirollback.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_result
-
+---
+navigation:
+  - function.ociplogon.md: « ociplogon
+  - function.ocirollback.md: ocirollback »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ociresult
+---
 # ociresult
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociresult - Псевдонім [oci_result()](function.oci-result.md)
+ociresult - Псевдонім [ociresult()](function.oci-result.md)
 
 ### Опис
 
-Псевдонім [oci_result()](function.oci-result.md)
+Псевдонім [ociresult()](function.oci-result.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

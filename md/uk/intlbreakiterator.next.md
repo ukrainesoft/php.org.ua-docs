@@ -1,24 +1,26 @@
-- [« IntlBreakIterator::last](intlbreakiterator.last.md)
-- [IntlBreakIterator::preceding »](intlbreakiterator.preceding.md)
-
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Переміщує ітератор до наступного кордону
-
+---
+navigation:
+  - intlbreakiterator.last.md: '« IntlBreakIterator::last'
+  - intlbreakiterator.preceding.md: 'IntlBreakIterator::preceding »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::next'
+---
 # IntlBreakIterator::next
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::next — Переміщує ітератор до наступного кордону
 
 ### Опис
 
-public **IntlBreakIterator::next**(?int `$offset` = **`null`**): int
+```methodsynopsis
+public IntlBreakIterator::next(?int $offset = null): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,24 +1,26 @@
-- [« Yaf_Config_Ini::count](yaf-config-ini.count.md)
-- [Yaf_Config_Ini::\_\_get »](yaf-config-ini.get.md)
+---
+navigation:
+  - yaf-config-ini.count.md: '« YafConfigIni::count'
+  - yaf-config-ini.get.md: 'YafConfigIni::get »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
+title: 'YafConfigIni::current'
+---
+# YafConfigIni::current
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Отримує поточне значення
+(Yaf >=1.0.0)
 
-# Yaf_Config_Ini::current
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Ini::current — Отримує поточне значення
+YafConfigIni::current — Отримує поточне значення
 
 ### Опис
 
-public **Yaf_Config_Ini::current**(): void
+```methodsynopsis
+public Yaf_Config_Ini::current(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

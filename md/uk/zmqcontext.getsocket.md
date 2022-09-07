@@ -1,44 +1,42 @@
-- [«ZMQContext::getOpt](zmqcontext.getopt.md)
-- [ZMQContext::isPersistent »](zmqcontext.ispersistent.md)
-
-- [PHP Manual](index.md)
-- [ZMQContext](class.zmqcontext.md)
-- Створює новий сокет
-
+---
+navigation:
+  - zmqcontext.getopt.md: '« ZMQContext::getOpt'
+  - zmqcontext.ispersistent.md: 'ZMQContext::isPersistent »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
+title: 'ZMQContext::getSocket'
+---
 # ZMQContext::getSocket
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQContext::getSocket — Створює новий сокет
 
 ### Опис
 
-public **ZMQContext::getSocket**(int `$type`, string `$persistent_id` =
-**`null`**, [callable](language.types.callable.md) `$on_new_socket` =
-**`null`**): [ZMQSocket](class.zmqsocket.md)
+```methodsynopsis
+public ZMQContext::getSocket(int $type, string $persistent_id = null, callable $on_new_socket = null): ZMQSocket
+```
 
-Метод створення сокету з контексту. Якщо контекст не є
-постійним, то параметр `persistent_id` буде проігнорований та сокет
-буде непостійним. Функція, задана в `on_new_socket`, буде викликана
-тільки якщо буде створено нову структуру сокету, що лежить в основі.
+Метод створення сокету з контексту. Якщо контекст не є постійним, то параметр `persistent_id` буде проігноровано та сокет буде непостійним. Функція, задана в `on_new_socket` буде викликана тільки якщо буде створено нову структуру сокету, що лежить в основі.
 
 ### Список параметрів
 
 `type`
-Константа **`ZMQ::SOCKET_*`**, яка задає тип сокету.
+
+Константа \*\*`ZMQ::SOCKET_*`\*\*задає тип сокету.
 
 `persistent_id`
-Якщо заданий параметр `persistent_id`, то сокет зберігатиметься між
-запитами.
+
+Якщо встановлено параметр `persistent_id`, то сокет зберігатиметься між запитами.
 
 `on_new_socket`
-Callback-функція, яка буде викликана під час створення нової структури
-сокет. Функція не буде викликана, якщо використовується постійний контекст.
-Функція приймає як аргументи ZMQSocket і persistent_id.
+
+Callback-функція, яка буде викликана під час створення нової структури сокету. Функція не буде викликана, якщо використовується постійний контекст. Функція приймає як аргументи ZMQSocket і persistentid.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ZMQSocket](class.zmqsocket.md).
+Повертає об'єкт [ZMQSocket](class.zmqsocket.md)
 
 ### Помилки
 
@@ -50,5 +48,22 @@ Callback-функція, яка буде викликана під час ств
 
 Основи
 
-` <?php/* Створюємо новий контекст */$context = new ZMQContext();/* Створюємо новий сокет */$socket = $context->getSocket(ZMQ::SOCKET_REQ, '' сокетом */$socket->connect("tcp://example.com:1234");/* Посилаємо запрос */$socket->send("Hello there");/* Отримуємо відповідь */$message = $ socket->recv();echo "Received message: {$message}
-";?> `
+```php
+<?php
+/* Создаём новый контекст */
+$context = new ZMQContext();
+
+/* Создаём новый сокет */
+$socket = $context->getSocket(ZMQ::SOCKET_REQ, 'my sock');
+
+/* Соединяемся с сокетом */
+$socket->connect("tcp://example.com:1234");
+
+/* Посылаем запрос */
+$socket->send("Hello there");
+
+/* Получаем ответ */
+$message = $socket->recv();
+echo "Received message: {$message}\n";
+?>
+```

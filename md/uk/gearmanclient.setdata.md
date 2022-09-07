@@ -1,28 +1,28 @@
-- [« GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.md)
-- [GearmanClient::setDataCallback »](gearmanclient.setdatacallback.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Встановити дані програми (застарілий метод)
-
+---
+navigation:
+  - gearmanclient.setcreatedcallback.md: '« GearmanClient::setCreatedCallback'
+  - gearmanclient.setdatacallback.md: 'GearmanClient::setDataCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setData'
+---
 # GearmanClient::setData
 
-(PECL gearman \<= 0.5.0)
+(PECL gearman <= 0.5.0)
 
 GearmanClient::setData — Встановити дані програми (застарілий метод)
 
 ### Опис
 
-public **GearmanClient::setData**(string `$data`): bool
+```methodsynopsis
+public GearmanClient::setData(string $data): bool
+```
 
-Встановлює деякі довільні дані програми, які
-згодом можуть бути вилучені
-[GearmanClient::data()](gearmanclient.data.md).
+Встановлює деякі довільні дані додатки, які згодом можуть бути вилучені [GearmanClient::data()](gearmanclient.data.md)
 
-> **Примітка**:
->
-> Цей метод було замінено на **GearmanCient::setContext()** у версії
-> 0.6.0 Gearman модуля.
+> **Зауваження**
+> 
+> Цей метод було замінено на **GearmanCient::setContext()** у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -30,9 +30,8 @@ public **GearmanClient::setData**(string `$data`): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**.
+Завжди повертає **`true`**
 
 ### Дивіться також
 
-- [GearmanClient::data()](gearmanclient.data.md) - Повертає дані
-програми (функція застаріла)
+-   [GearmanClient::data()](gearmanclient.data.md) - Повертає дані програми (функція застаріла)

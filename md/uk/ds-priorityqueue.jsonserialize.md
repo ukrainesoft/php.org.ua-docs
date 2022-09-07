@@ -1,20 +1,19 @@
-- [« Ds\PriorityQueue::isEmpty](ds-priorityqueue.isempty.md)
-- [Ds\PriorityQueue::peek »](ds-priorityqueue.peek.md)
+---
+navigation:
+  - ds-priorityqueue.isempty.md: '« DsPriorityQueue::isEmpty'
+  - ds-priorityqueue.peek.md: 'ДсPriorityQueue::peek »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::jsonSerialize'
+---
+# ДсPriorityQueue::jsonSerialize
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Повертає колекцію в JSON-виставу
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::jsonSerialize
+ДсPriorityQueue::jsonSerialize — Повертає колекцію в JSON-виставу
 
-(PECL ds \>= 1.0.0)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-Ds\PriorityQueue::jsonSerialize — Повертає колекцію в
-JSON-вистава
-
-Дивіться
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
-
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ніколи не використовуйте цю функцію безпосередньо.

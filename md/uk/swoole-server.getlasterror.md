@@ -1,19 +1,22 @@
-- [« Swoole\Server::getClientList](swoole-server.getclientlist.md)
-- [Swoole\Server::heartbeat »](swoole-server.heartbeat.md)
+---
+navigation:
+  - swoole-server.getclientlist.md: '« SwooleServer::getClientList'
+  - swoole-server.heartbeat.md: 'SwooleServer::heartbeat »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::getLastError'
+---
+# SwooleServer::getLastError
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Отримує код останньої помилки
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::getLastError
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::getLastError — Отримує код останньої помилки
+SwooleServer::getLastError — Отримує код останньої помилки
 
 ### Опис
 
-public **Swoole\Server::getLastError**(): int
+```methodsynopsis
+public Swoole\Server::getLastError(): int
+```
 
 ### Список параметрів
 

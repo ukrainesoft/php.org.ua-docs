@@ -1,32 +1,34 @@
-- [«gmp_kronecker](function.gmp-kronecker.md)
-- [gmp_legendre »](function.gmp-legendre.md)
+---
+navigation:
+  - function.gmp-kronecker.md: « gmpkronecker
+  - function.gmp-legendre.md: gmplegendre »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmplcm
+---
+# gmplcm
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- обчислює найменше загальне кратне
+(PHP 7> = 7.3.0, PHP 8)
 
-#gmp_lcm
-
-(PHP 7 \>= 7.3.0, PHP 8)
-
-gmp_lcm - Обчислює найменше загальне кратне
+gmplcm - Обчислює найменше загальне кратне
 
 ### Опис
 
-**gmp_lcm**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_lcm(GMP|int|string $num1, GMP|int|string $num2): GMP
+```
 
-Функція обчислює найменше загальне кратне для заданих `num1` та `num2`.
+Функція обчислює найменший загальний кратний для заданих `num1` і `num2`
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -34,5 +36,4 @@ gmp_lcm - Обчислює найменше загальне кратне
 
 ### Дивіться також
 
-- [gmp_gcd()](function.gmp-gcd.md) - Обчислення найбільшого загального
-дільника
+-   [gmpgcd()](function.gmp-gcd.md) - Обчислення найбільшого спільного дільника

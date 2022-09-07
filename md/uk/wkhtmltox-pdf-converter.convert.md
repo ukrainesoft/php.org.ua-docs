@@ -1,19 +1,22 @@
-- [« wkhtmltox\PDF\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.md)
-- [wkhtmltox\PDF\Converter::getVersion »](wkhtmltox-pdf-converter.getversion.md)
+---
+navigation:
+  - wkhtmltox-pdf-converter.construct.md: '« wkhtmltoxPDFConverter::construct'
+  - wkhtmltox-pdf-converter.getversion.md: 'wkhtmltoxPDFConverter::getVersion »'
+  - index.md: PHP Manual
+  - class.wkhtmltox-pdf-converter.md: wkhtmltoxPDFConverter
+title: 'wkhtmltoxPDFConverter::convert'
+---
+# wkhtmltoxPDFConverter::convert
 
-- [PHP Manual](index.md)
-- [wkhtmltox\PDF\Converter](class.wkhtmltox-pdf-converter.md)
-- Виконати перетворення PDF
+(wkhtmltox >= 0.1.0)
 
-# wkhtmltox\PDF\Converter::convert
-
-(wkhtmltox \>= 0.1.0)
-
-wkhtmltox\PDF\Converter::convert — Виконати перетворення PDF
+wkhtmltoxPDFConverter::convert — Виконати перетворення PDF
 
 ### Опис
 
-public **wkhtmltox\PDF\Converter::convert**(): ?string
+```methodsynopsis
+public wkhtmltox\PDF\Converter::convert(): ?string
+```
 
 Виконує перетворення всіх раніше доданих об'єктів
 
@@ -23,5 +26,4 @@ public **wkhtmltox\PDF\Converter::convert**(): ?string
 
 ### Значення, що повертаються
 
-Якщо використовується значення, що повертається, воно буде заповнене вмістом
-буфера перетворення
+Якщо використовується значення, що повертається, воно буде заповнене вмістом буфера перетворення

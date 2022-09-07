@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\RegexInterface::getFlags](mongodb-bson-regexinterface.getflags.md)
-- [MongoDB\BSON\RegexInterface::\_\_toString »](mongodb-bson-regexinterface.tostring.md)
+---
+navigation:
+  - mongodb-bson-regexinterface.getflags.md: '« MongoDBBSONRegexInterface::getFlags'
+  - mongodb-bson-regexinterface.tostring.md: 'MongoDBBSONRegexInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface
+title: 'MongoDBBSONRegexInterface::getPattern'
+---
+# MongoDBBSONRegexInterface::getPattern
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md)
-- Повертає шаблон RegexInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\RegexInterface::getPattern
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\RegexInterface::getPattern — Повертає шаблон
-RegexInterface
+MongoDBBSONRegexInterface::getPattern — Повертає шаблон RegexInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\RegexInterface::getPattern**(): string
+```methodsynopsis
+abstract public MongoDB\BSON\RegexInterface::getPattern(): string
+```
 
 ### Список параметрів
 
@@ -26,5 +28,4 @@ abstract public **MongoDB\BSON\RegexInterface::getPattern**(): string
 
 ### Дивіться також
 
-- [MongoDB\BSON\Regex::getPattern()](mongodb-bson-regex.getpattern.md) -
-Повертає шаблон Regex
+-   [MongoDBBSONRegex::getPattern()](mongodb-bson-regex.getpattern.md) - Повертає шаблон Regex

@@ -1,86 +1,120 @@
-- [«extract](function.extract.md)
-- [key_exists »](function.key-exists.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Перевіряє, чи є у масиві значення
-
-# in_array
+---
+navigation:
+  - function.extract.md: « extract
+  - function.key-exists.md: keyexists »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: інarray
+---
+# інarray
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-in_array — Перевіряє, чи є у масиві значення
+інarray — Перевіряє, чи є у масиві значення
 
 ### Опис
 
-**in_array**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$needle`, array `$haystack`, bool `$strict` = **`false`**): bool
+```methodsynopsis
+in_array(mixed $needle, array $haystack, bool $strict = false): bool
+```
 
-Шукає в `haystack` значення `needle`. Якщо `strict` не встановлений, то при
-пошуку буде використано не суворе порівняння.
+Шукає в `haystack` значення `needle`. Якщо `strict` не встановлений, то при пошуку буде використано не суворе порівняння.
 
 ### Список параметрів
 
 `needle`
+
 Шукане значення.
 
-> **Примітка**:
->
-> Якщо `needle` - рядок, порівняння буде проведено з урахуванням регістру.
+> **Зауваження**
+> 
+> Якщо `needle` - Рядок, порівняння буде зроблено з урахуванням регістру.
 
 `haystack`
+
 Масив.
 
 `strict`
-Якщо третій параметр `strict` встановлений у **`true`**, тоді функція
-**in_array()** також перевірить відповідність [типів](language.types.md)
-параметра `needle` та відповідного значення масиву `haystack`.
+
+Якщо третій параметр `strict` встановлений в \*\*`true`\*\*тоді функція **інarray()** також перевірить відповідність [типов](language.types.md) параметра `needle` та відповідного значення масиву `haystack`
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `needle` був знайдений у масиві, та **`false`**
-в іншому випадку.
+Повертає **`true`**, якщо `needle` був знайдений у масиві, та **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **in_array()****
+**Приклад #1 Приклад використання **інarray()****
 
-` <?php$os = array("Mac", "NT", "Irix", "Linux");if (in_array("Irix", $os)) {   echo "Знайшов Irix";}if (in_array( "mac", $os)) {   echo "Знайшов mac";}?> `
+```php
+<?php
+$os = array("Mac", "NT", "Irix", "Linux");
+if (in_array("Irix", $os)) {
+    echo "Нашёл Irix";
+}
+if (in_array("mac", $os)) {
+    echo "Нашёл mac";
+}
+?>
+```
 
-Другого збігу не буде, тому що **in_array()** реєстрозалежна,
-таким чином, програма виведе:
+Другого збігу не буде, бо **інarray()** реєстрозалежна, таким чином, програма виведе:
 
-Знайшов Irix
+```
+Нашёл Irix
+```
 
-**Приклад #2 Приклад використання **in_array()** з параметром strict**
+**Приклад #2 Приклад використання **інarray()** з параметром strict**
 
-` <?php$a = array('1.10', 12.4, 1.13);if (in_array('12.4', $a, true)) {    echo "'12.4' знайдено|
-";}if (in_array(1.13, $a, true)) {    echo "1.13 найдено зі строгою перевіркою
-";}?> `
+```php
+<?php
+$a = array('1.10', 12.4, 1.13);
+
+if (in_array('12.4', $a, true)) {
+    echo "'12.4' найдено со строгой проверкой\n";
+}
+
+if (in_array(1.13, $a, true)) {
+    echo "1.13 найдено со строгой проверкой\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-1.13 знайдено із суворою перевіркою
+```
+1.13 найдено со строгой проверкой
+```
 
-**Приклад #3 Приклад використання **in_array()** з масивом як
-параметра needle**
+**Приклад #3 Приклад використання **інarray()** з масивом як параметр needle**
 
-` <?php$a = array(array('p', 'h'), array('p', 'r'), 'o');if (in_array(array('p', 'h')) , $a)) {   echo "'ph' найдено
-";}if(in_array(array('f', 'i'), $a)) {    echo "'fi' найдено
-";}if (in_array('o', $a)) {   echo "'o' найдено
-";}?> `
+```php
+<?php
+$a = array(array('p', 'h'), array('p', 'r'), 'o');
+
+if (in_array(array('p', 'h'), $a)) {
+    echo "'ph' найдено\n";
+}
+
+if (in_array(array('f', 'i'), $a)) {
+    echo "'fi' найдено\n";
+}
+
+if (in_array('o', $a)) {
+    echo "'o' найдено\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-'ph' знайдено
-'o' знайдено
+```
+'ph' найдено
+  'o' найдено
+```
 
 ### Дивіться також
 
-- [array_search()](function.array-search.md) - Пошук
-даного значення в масиві та повертає ключ першого знайденого
-елемента у разі успішного виконання
-- [isset()](function.isset.md) - Визначає, чи було встановлено
-змінна значенням, відмінним від null
-- [array_key_exists()](function.array-key-exists.md) - Перевіряє,
-чи присутній у масиві зазначений ключ чи індекс
+-   [arraysearch()](function.array-search.md) - Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
+-   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [arraykeyexists()](function.array-key-exists.md) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс

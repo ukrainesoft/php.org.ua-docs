@@ -1,29 +1,33 @@
-- [«trader_rocr100](function.trader-rocr100.md)
-- [trader_rsi »](function.trader-rsi.md)
+---
+navigation:
+  - function.trader-rocr100.md: « traderrocr100
+  - function.trader-rsi.md: traderrsi »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderrocr
+---
+# traderrocr
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Коефіцієнт зміни курсу: (ціна/попередня ціна)
+(PECL trader >= 0.2.0)
 
-#trader_rocr
-
-(PECL trader \>= 0.2.0)
-
-trader_rocr — Коефіцієнт зміни курсу: (ціна/попередня ціна)
+traderrocr — Коефіцієнт зміни курсу: (ціна/попередня ціна)
 
 ### Опис
 
-**trader_rocr**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_rocr(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

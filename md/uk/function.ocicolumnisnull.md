@@ -1,22 +1,21 @@
-- [« ocicolltrim](function.ocicolltrim.md)
-- [ocicolumnname »](function.ocicolumnname.md)
-
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_field_is_null
-
+---
+navigation:
+  - function.ocicolltrim.md: « ocicolltrim
+  - function.ocicolumnname.md: ocicolumnname »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicolumnisnull
+---
 # ocicolumnisnull
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnisnull - Псевдонім
-[oci_field_is_null()](function.oci-field-is-null.md)
+ocicolumnisnull - Псевдонім [ocifieldісnull()](function.oci-field-is-null.md)
 
 ### Опис
 
-Псевдонім [oci_field_is_null()](function.oci-field-is-null.md)
+Псевдонім [ocifieldісnull()](function.oci-field-is-null.md)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

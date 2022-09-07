@@ -1,27 +1,25 @@
-- [« finfo::buffer](finfo.buffer.md)
-- [finfo::file »](finfo.file.md)
+---
+navigation:
+  - finfo.buffer.md: '« finfo::buffer'
+  - finfo.file.md: 'finfo::file »'
+  - index.md: PHP Manual
+  - class.finfo.md: finfo
+title: 'finfo::construct'
+---
+# finfo::construct
 
-- [PHP Manual](index.md)
-- [finfo](class.finfo.md)
-- Псевдонім finfo_open
+(PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-# finfo::\_\_construct
-
-(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
-
-finfo::\_\_construct - Псевдонім
-[finfo_open()](function.finfo-open.md)
+finfo::construct - Псевдонім [finfoopen()](function.finfo-open.md)
 
 ### Опис
 
-public **finfo::\_\_construct**(int `$flags` = **`FILEINFO_NONE`**,
-?string `$magic_database` = **`null`**)
+public **finfo::construct**(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
 
-Ця функція є псевдонімом:
-[finfo_open()](function.finfo-open.md)
+Ця функція є псевдонімом: [finfoopen()](function.finfo-open.md)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                         |
-| ------ | -------------------------------------------- |
-| 8.0.3  | magic_database тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `magic_database` тепер допускає значення null. |

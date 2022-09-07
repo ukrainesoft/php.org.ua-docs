@@ -1,18 +1,17 @@
-- [«in_array](function.in-array.md)
-- [key »](function.key.md)
+---
+navigation:
+  - function.in-array.md: « inarray
+  - function.key.md: key »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: keyexists
+---
+# keyexists
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Псевдонім array_key_exists
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#key_exists
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-key_exists - Псевдонім
-[array_key_exists()](function.array-key-exists.md)
+keyexists - Псевдонім [arraykeyexists()](function.array-key-exists.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[array_key_exists()](function.array-key-exists.md).
+Ця функція є псевдонімом: [arraykeyexists()](function.array-key-exists.md)

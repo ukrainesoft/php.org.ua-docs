@@ -1,51 +1,47 @@
-- [«xdiff_string_diff](function.xdiff-string-diff.md)
-- [xdiff_string_patch_binary »](function.xdiff-string-patch-binary.md)
+---
+navigation:
+  - function.xdiff-string-diff.md: xdiffstringdiff
+  - function.xdiff-string-patch-binary.md: xdiffstringpatchbinary »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdiffstringmerge3
+---
+# xdiffstringmerge3
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Об'єднати три рядки в один
+(PECL xdiff >= 0.2.0)
 
-#xdiff_string_merge3
-
-(PECL xdiff \>= 0.2.0)
-
-xdiff_string_merge3 — Об'єднати три рядки в один
+xdiffstringmerge3 — Об'єднати три рядки в один
 
 ### Опис
 
-**xdiff_string_merge3**(
-string `$old_data`,
-string `$new_data1`,
-string `$new_data2`,
-string `&$error` = ?
-):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+xdiff_string_merge3(    string $old_data,    string $new_data1,    string $new_data2,    string &$error = ?): mixed
+```
 
-Поєднує три рядки в один і повертає результат. У параметрі
-`old_data` задається оригінальний рядок, а в `new_data1` і
-`new_data2` – її модифіковані версії. Опціональний параметр `error`
-використовується для збереження помилок у процесі об'єднання.
+Поєднує три рядки в один і повертає результат. У параметрі `old_data` задається оригінальний рядок, а в `new_data1` і `new_data2` - Її модифіковані версії. Опціональний параметр `error` використовується для збереження помилок у процесі об'єднання.
 
 ### Список параметрів
 
 `old_data`
+
 Перший рядок із даними. Це будуть "старі" дані.
 
 `new_data1`
-Другий рядок із даними. Модифікована версія `old_data`.
+
+Другий рядок із даними. Модифікована версія `old_data`
 
 `new_data2`
-Третій рядок із даними. Модифікована версія `old_data`.
+
+Третій рядок із даними. Модифікована версія `old_data`
 
 `error`
-Якщо заданий, то сюди будуть записуватися помилки, що виникли.
+
+Якщо заданий, то сюди записуватимуться помилки, що виникли.
 
 ### Значення, що повертаються
 
-Повертає отриманий рядок, **`false`** у разі виникнення помилки
-або **`true`**, якщо отриманий рядок порожній.
+Повертає отриманий рядок, **`false`** у разі виникнення помилки або **`true`**, якщо отриманий рядок порожній.
 
 ### Дивіться також
 
-- [xdiff_file_merge3()](function.xdiff-file-merge3.md) - Об'єднання
-трьох файлів в один
+-   [xdifffilemerge3()](function.xdiff-file-merge3.md) - Об'єднання трьох файлів в один

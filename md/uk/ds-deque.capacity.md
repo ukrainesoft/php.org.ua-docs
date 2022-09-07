@@ -1,19 +1,22 @@
-- [« Ds\Deque::apply](ds-deque.apply.md)
-- [Ds\Deque::clear »](ds-deque.clear.md)
+---
+navigation:
+  - ds-deque.apply.md: '« DsDeque::apply'
+  - ds-deque.clear.md: 'ДсDeque::clear »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::capacity'
+---
+# ДсDeque::capacity
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає поточну місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::capacity
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::capacity — Повертає поточну місткість
+ДсDeque::capacity — Повертає поточну місткість
 
 ### Опис
 
-public **Ds\Deque::capacity**(): int
+```methodsynopsis
+public Ds\Deque::capacity(): int
+```
 
 Повертає поточну місткість.
 
@@ -27,11 +30,21 @@ public **Ds\Deque::capacity**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::capacity()****
+**Приклад #1 Приклад використання **ДсDeque::capacity()****
 
-` <?php$deque = new \Ds\Deque();var_dump($deque->capacity());$deque->push(...range(1, 50));var_dump($deque->capacity ());?> `
+```php
+<?php
+$deque = new \Ds\Deque();
+var_dump($deque->capacity());
+
+$deque->push(...range(1, 50));
+var_dump($deque->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(8)
 int(64)
+```

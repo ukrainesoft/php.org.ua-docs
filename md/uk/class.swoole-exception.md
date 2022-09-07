@@ -1,34 +1,60 @@
-- [« Swoole\Event::write](swoole-event.write.md)
-- [Swoole\Http\Client »](class.swoole-http-client.md)
+---
+navigation:
+  - swoole-event.write.md: '« SwooleEvent::write'
+  - class.swoole-http-client.md: SwooleHttpClient »
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleException
+---
+# Клас SwooleException
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Exception
-
-# Клас Swoole\Exception
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Exception** extends [Exception](class.exception.md)
-implements [Throwable](class.throwable.md) {
+```synopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class Swoole\Exception
+     
 
-protected int `$code`;
+     
+      extends
+       Exception
+     
 
-protected string `$file` = "";
+     implements 
+       Throwable {
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-}
+   }
+```

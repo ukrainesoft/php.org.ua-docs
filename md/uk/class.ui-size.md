@@ -1,66 +1,72 @@
-- [« UI\Point::setY](ui-point.sety.md)
-- [UI\Size::\_\_construct »](ui-size.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- представляє розміри (ширина, висота)
-
+---
+navigation:
+  - ui-point.sety.md: '« UIPoint::setY'
+  - ui-size.construct.md: 'ОЙSize::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: 'Представляє розміри (ширина, висота)'
+---
 # Представляє розміри (ширина, висота)
 
 (UI 0.9.9)
 
 ## Вступ
 
-Розміри використовуються в інтерфейсі користувача для подання
-розміру екрана, керуючого елемента чи області.
+Розміри використовуються в інтерфейсі користувача для представлення розміру екрана, керуючого елемента або області.
 
 ## Огляд класів
 
-final class **UI\Size** {
+```classsynopsis
 
-/\* Властивості \*/
 
-public `$width`;
 
-public `$height`;
+    
+     
+      final
+      class UI\Size
+     
+     {
 
-/\* Конструктор \*/
+    /* Свойства */
+    
+     public
+      $width;
 
-public [\_\_construct](ui-size.construct.md)(float `$width`, float
-`$height`)
+    public
+      $height;
 
-/\* Методи \*/
 
-public [getHeight](ui-size.getheight.md)(): float
+    /* Конструктор */
+    
+   public __construct(float $width, float $height)
 
-public [getWidth](ui-size.getwidth.md)(): float
 
-public static [of](ui-size.of.md)(float `$size`):
-[UI\Size](class.ui-size.md)
+    /* Методы */
+    public getHeight(): float
+public getWidth(): float
+public static of(float $size): UI\Size
+public static of(UI\Point $point): UI\Size
+public setHeight(float $size)
+public setWidth(float $size)
 
-public static [of](ui-size.of.md)([UI\Point](class.ui-point.md)
-`$point`): [UI\Size](class.ui-size.md)
-
-public [setHeight](ui-size.setheight.md)(float `$size`)
-
-public [setWidth](ui-size.setwidth.md)(float `$size`)
-
-}
+   }
+```
 
 ## Властивості
 
-`width`
+width
+
 Містить ширину, може бути прочитана/записана безпосередньо
 
-`height`
+height
+
 Містить висоту, може бути прочитана/записана безпосередньо
 
 ## Зміст
 
-- [UI\Size::\_\_construct](ui-size.construct.md) - Створити новий
-об'єкт Size
-- [UI\Size::getHeight](ui-size.getheight.md) - Отримує висоту
-- [UI\Size::getWidth](ui-size.getwidth.md) — Отримує ширину
-- [UI\Size::of](ui-size.of.md) - Приведення Point
-- [UI\Size::setHeight](ui-size.setheight.md) — Встановити висоту
-- [UI\Size::setWidth](ui-size.setwidth.md) — Встановити ширину
+-   [ОЙSize::construct](ui-size.construct.md) — Створити новий об'єкт Size
+-   [ОЙSize::getHeight](ui-size.getheight.md) — Отримує висоту
+-   [ОЙSize::getWidth](ui-size.getwidth.md) — Отримує ширину
+-   [ОЙSize::of](ui-size.of.md) - Приведення Point
+-   [ОЙSize::setHeight](ui-size.setheight.md) - Встановити висоту
+-   [ОЙSize::setWidth](ui-size.setwidth.md) - Встановити ширину

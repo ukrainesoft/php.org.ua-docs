@@ -1,44 +1,42 @@
-- [« svn_add](function.svn-add.md)
-- [svn_auth_set_parameter »](function.svn-auth-set-parameter.md)
+---
+navigation:
+  - function.svn-add.md: « svnadd
+  - function.svn-auth-set-parameter.md: svnauthsetparameter »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnauthgetparameter
+---
+# svnauthgetparameter
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Повертає параметр автентифікації
+(PECL svn >= 0.1.0)
 
-# svn_auth_get_parameter
-
-(PECL svn \>= 0.1.0)
-
-svn_auth_get_parameter — Повертає параметр автентифікації
+svnauthgetparameter — Повертає параметр автентифікації
 
 ### Опис
 
-**svn_auth_get_parameter**(string `$key`): string
+```methodsynopsis
+svn_auth_get_parameter(string $key): string
+```
 
-Повертає параметр аутентифікації за ключом `key`. Список можливих
-ключів та їх значень доступний у [списку констант аутентифікації](svn.constants.md#svn.constants.auth).
+Повертає параметр аутентифікації за ключем `key`. Список можливих ключів та їх значень доступний у [списке констант аутентификации](svn.constants.md#svn.constants.auth)
 
 ### Список параметрів
 
 `key`
-Ім'я ключа (рядок). Щоб вказати ключ, використовуйте [список констант аутентифікації](svn.constants.md#svn.constants.auth), визначений
-даним модулем.
+
+Ім'я ключа (рядок). Щоб вказати ключ, використовуйте [список констант аутентифікації](svn.constants.md#svn.constants.auth), Визначений даним модулем.
 
 ### Значення, що повертаються
 
-Повертає значення параметра за ключом `key` у вигляді рядка, або
-**`null`**, якщо параметр не існує.
+Повертає значення параметра за ключем `key` у вигляді рядка, або \*\*`null`\*\*якщо параметр не існує.
 
 ### Примітки
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 ### Дивіться також
 
-- [svn_auth_set_parameter()](function.svn-auth-set-parameter.md) -
-Встановлює параметр автентифікації
-- [Константи аутентифікації](svn.constants.md#svn.constants.auth)
+-   [svnauthsetparameter()](function.svn-auth-set-parameter.md) - Встановлює параметр автентифікації
+-   [Константи аутентифікації](svn.constants.md#svn.constants.auth)

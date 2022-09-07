@@ -1,10 +1,11 @@
-- [« ReflectionExtension::\_\_construct](reflectionextension.construct.md)
-- [ReflectionExtension::getClasses »](reflectionextension.getclasses.md)
-
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Експортує модуль
-
+---
+navigation:
+  - reflectionextension.construct.md: '« ReflectionExtension::construct'
+  - reflectionextension.getclasses.md: 'ReflectionExtension::getClasses »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::export'
+---
 # ReflectionExtension::export
 
 (PHP 5, PHP 7)
@@ -13,35 +14,31 @@ ReflectionExtension::export — Експортує модуль
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНА*, починаючи з
-PHP 8.0.0 Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-public static **ReflectionExtension::export**(string `$name`, string
-`$return` = **`false`**): string
+```methodsynopsis
+public static ReflectionExtension::export(string $name, string $return = false): string
+```
 
-Експортує відбитий модуль. Формат виведення цієї функції такий самий як
-і при CLI-параметрі `--re [extension]`.
+Експортує відбитий модуль. Формат виведення цієї функції такий самий як і при CLI-параметрі `--re [extension]`
 
 ### Список параметрів
 
 `name`
+
 Експортований об'єкт Reflection.
 
 `return`
-Установка в **`true`** поверне значення, що експортується, на відміну від
-поведінки, де цей параметр опущено. Установка в **`false`** (за
-замовчуванням) зробить протилежне.
+
+Встановлення в **`true`** поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
 
 ### Значення, що повертаються
 
-Якщо параметр `return` встановлений у **`true`**, тоді експортований
-об'єкт буде повернутий як string, інакше буде повернено **`null`**.
+Якщо параметр `return` встановлений в **`true`**, тоді експортований об'єкт буде повернутий як string, інакше буде повернутий **`null`**
 
 ### Дивіться також
 
-- [ReflectionExtension::info()](reflectionextension.info.md) - Висновок
-інформації про модуль
-- [ReflectionExtension::\_\_toString()](reflectionextension.tostring.md) -
-Перетворення на рядок
+-   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль
+-   [ReflectionExtension::toString()](reflectionextension.tostring.md) - Перетворення на рядок

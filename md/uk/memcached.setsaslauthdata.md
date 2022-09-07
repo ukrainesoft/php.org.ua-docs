@@ -1,35 +1,35 @@
-- [« Memcached::setOptions](memcached.setoptions.md)
-- [Memcached::touch »](memcached.touch.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Встановлює облікові дані для автентифікації
-
+---
+navigation:
+  - memcached.setoptions.md: '« Memcached::setOptions'
+  - memcached.touch.md: 'Memcached::touch »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::setSaslAuthData'
+---
 # Memcached::setSaslAuthData
 
-(PECL memcached \>= 2.0.0)
+(PECL memcached >= 2.0.0)
 
-Memcached::setSaslAuthData — Встановлює облікові дані для
-автентифікації
+Memcached::setSaslAuthData — Встановлює облікові дані для автентифікації
 
 ### Опис
 
-public **Memcached::setSaslAuthData**(string `$username`, string
-`$password`): void
+```methodsynopsis
+public Memcached::setSaslAuthData(string $username, string $password): void
+```
 
-**Memcached::setSaslAuthData()** встановлює ім'я користувача та
-пароль, які повинні бути використані для SASL аутентифікації з
-серверами memcache.
+**Memcached::setSaslAuthData()** встановлює ім'я користувача та пароль, які мають бути використані для SASL аутентифікації із серверами memcache.
 
-*Цей метод доступний тільки у випадку, якщо модуль memcached зібраний з
-підтримкою SASL.* Зверніться до розділу [Установка Memcached](memcached.setup.md), щоб дізнатися, як це зробити.
+*Цей метод доступний лише у випадку, якщо модуль memcached зібраний за допомогою SASL.* Зверніться до розділу [установка Memcached](memcached.setup.md), щоб дізнатися, як це зробити.
 
 ### Список параметрів
 
 `username`
+
 Ім'я користувача для автентифікації.
 
 `password`
+
 Пароль для автентифікації.
 
 ### Значення, що повертаються

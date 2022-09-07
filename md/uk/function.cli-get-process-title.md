@@ -1,26 +1,26 @@
-- [«assert](function.assert.md)
-- [cli_set_process_title »](function.cli-set-process-title.md)
+---
+navigation:
+  - function.assert.md: « assert
+  - function.cli-set-process-title.md: clisetprocesstitle »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: cligetprocesstitle
+---
+# cligetprocesstitle
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Повертає заголовок поточного процесу
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-#cli_get_process_title
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-cli_get_process_title — Повертає заголовок поточного процесу
+cligetprocesstitle — Повертає заголовок поточного процесу
 
 ### Опис
 
-**cli_get_process_title**(): ?string
+```methodsynopsis
+cli_get_process_title(): ?string
+```
 
-Повертає заголовок поточного процесу, встановлений
-[cli_set_process_title()](function.cli-set-process-title.md). Зверніть
-увагу, що в залежності від вашої операційної системи, це ім'я може
-не співпадати з тим, що покажуть утиліти **ps** та **top**.
+Повертає заголовок поточного процесу, встановлений [clisetprocesstitle()](function.cli-set-process-title.md). Зауважте, що залежно від вашої операційної системи, це ім'я може не збігатися з тим, що покажуть утиліти **пс** і **top**
 
-Ця функція доступна лише у режимі [CLI](features.commandline.md).
+Ця функція доступна лише в режимі [CLI](features.commandline.md)
 
 ### Список параметрів
 
@@ -28,22 +28,22 @@ cli_get_process_title — Повертає заголовок поточного
 
 ### Значення, що повертаються
 
-Поверне рядок із заголовком процесу або **`null`** у разі
-виникнення помилки.
+Поверне рядок із заголовком процесу або **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо команда не підтримується вашою операційною системою, буде
-викликана помилка рівня **`E_WARNING`**.
+Якщо команда не підтримується вашою операційною системою, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cli_get_process_title()****
+**Приклад #1 Приклад використання **cligetprocesstitle()****
 
-`<?phpecho "Заголовок процесу: " . cli_get_process_title() . "
-";?> `
+```php
+<?php
+echo "Заголовок процесса: " . cli_get_process_title() . "\n";
+?>
+```
 
 ### Дивіться також
 
-- [cli_set_process_title()](function.cli-set-process-title.md) -
-Встановлює заголовок процесу
+-   [clisetprocesstitle()](function.cli-set-process-title.md) - Встановлює заголовок процесу

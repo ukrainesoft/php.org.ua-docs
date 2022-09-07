@@ -1,24 +1,26 @@
-- [« Yaf_Request_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md)
-- [Yaf_Request_Http »](class.yaf-request-http.md)
+---
+navigation:
+  - yaf-request-abstract.setrequesturi.md: '« YafRequestAbstract::setRequestUri'
+  - class.yaf-request-http.md: YafRequestHttp »
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
+title: 'YafRequestAbstract::setRouted'
+---
+# YafRequestAbstract::setRouted
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Призначення setRouted
+(Yaf >=1.0.0)
 
-# Yaf_Request_Abstract::setRouted
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Abstract::setRouted — Призначення setRouted
+YafRequestAbstract::setRouted — Призначення setRouted
 
 ### Опис
 
-public **Yaf_Request_Abstract::setRouted**(string `$flag` = ?): void
+```methodsynopsis
+public Yaf_Request_Abstract::setRouted(string $flag = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

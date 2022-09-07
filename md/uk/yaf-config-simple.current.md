@@ -1,24 +1,26 @@
-- [« Yaf_Config_Simple::count](yaf-config-simple.count.md)
-- [Yaf_Config_Simple::\_\_get »](yaf-config-simple.get.md)
+---
+navigation:
+  - yaf-config-simple.count.md: '« YafConfigSimple::count'
+  - yaf-config-simple.get.md: 'YafConfigSimple::get »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
+title: 'YafConfigSimple::current'
+---
+# YafConfigSimple::current
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення current
+(Yaf >=1.0.0)
 
-# Yaf_Config_Simple::current
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Simple::current - Призначення current
+YafConfigSimple::current - Призначення current
 
 ### Опис
 
-public **Yaf_Config_Simple::current**(): void
+```methodsynopsis
+public Yaf_Config_Simple::current(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,28 +1,28 @@
-- [« ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md)
-- [ReflectionParameter::getDefaultValue »](reflectionparameter.getdefaultvalue.md)
-
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Отримання функції, що оголошує
-
+---
+navigation:
+  - reflectionparameter.getdeclaringclass.md: '« ReflectionParameter::getDeclaringClass'
+  - reflectionparameter.getdefaultvalue.md: 'ReflectionParameter::getDefaultValue »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getDeclaringFunction'
+---
 # ReflectionParameter::getDeclaringFunction
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
-ReflectionParameter::getDeclaringFunction — Отримання оголошує
-функції
+ReflectionParameter::getDeclaringFunction — Отримання функції, що оголошує
 
 ### Опис
 
-public **ReflectionParameter::getDeclaringFunction**():
-[ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
+```methodsynopsis
+public ReflectionParameter::getDeclaringFunction(): ReflectionFunctionAbstract
+```
 
 Отримує функцію, де оголошено параметр.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,9 +30,8 @@ public **ReflectionParameter::getDeclaringFunction**():
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionFunction](class.reflectionfunction.md).
+Об'єкт класу [ReflectionFunction](class.reflectionfunction.md)
 
 ### Дивіться також
 
-- [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.md) -
-Отримання класу, що оголошує
+-   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.md) - Отримання класу, що оголошує

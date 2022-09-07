@@ -1,27 +1,28 @@
-- [« ParentIterator::getChildren](parentiterator.getchildren.md)
-- [ParentIterator::next »](parentiterator.next.md)
-
-- [PHP Manual](index.md)
-- [ParentIterator](class.parentiterator.md)
-- Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
-
+---
+navigation:
+  - parentiterator.getchildren.md: '« ParentIterator::getChildren'
+  - parentiterator.next.md: 'ParentIterator::next »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::hasChildren'
+---
 # ParentIterator::hasChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-ParentIterator::hasChildren — Перевіряє, чи має внутрішній
-об'єкт-ітератор дочірні об'єкти
+ParentIterator::hasChildren — Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
 
 ### Опис
 
-public **ParentIterator::hasChildren**(): bool
+```methodsynopsis
+public ParentIterator::hasChildren(): bool
+```
 
 Перевіряє, чи внутрішній об'єкт-ітератор має дочірні об'єкти.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,5 +30,4 @@ public **ParentIterator::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

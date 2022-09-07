@@ -1,58 +1,57 @@
-- [« MongoDB\BSON\MaxKey::unserialize](mongodb-bson-maxkey.unserialize.md)
-- [MongoDB\BSON\MinKey::\_\_construct »](mongodb-bson-minkey.construct.md)
+---
+navigation:
+  - mongodb-bson-maxkey.unserialize.md: '« MongoDBBSONMaxKey::unserialize'
+  - mongodb-bson-minkey.construct.md: 'MongoDBBSONMinKey::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONMinKey
+---
+# Клас MongoDBBSONMinKey
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Клас MongoDB\BSON\MinKey
-
-# Клас MongoDB\BSON\MinKey
-
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
-Спеціальний тип BSON, який порівнює нижче за всіх інших можливих
-значень елемента BSON
+Спеціальний тип BSON, який порівнює нижче від усіх інших можливих значень елемента BSON.
 
-> **Примітка**: Це внутрішній тип MongoDB, який використовується для індексації
-> та шардингу.
+> **Зауваження**: Це внутрішній тип MongoDB, що використовується для індексації та шардингу.
 
 ## Огляд класів
 
-final class **MongoDB\BSON\MinKey** implements
-[MongoDB\BSON\MinKeyInterface](class.mongodb-bson-minkeyinterface.md),
-[MongoDB\BSON\Type](class.mongodb-bson-type.md),
-[Serializable](class.serializable.md),
-[JsonSerializable](class.jsonserializable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-final public [\_\_construct](mongodb-bson-minkey.construct.md)()
+    
+    
+     final
+     
+      class MongoDB\BSON\MinKey
+     
 
-final public [jsonSerialize](mongodb-bson-minkey.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     implements 
+       MongoDB\BSON\MinKeyInterface,  MongoDB\BSON\Type,  Serializable,  JsonSerializable {
+    
 
-final public [serialize](mongodb-bson-minkey.serialize.md)(): string
+    /* Методы */
+    
+   final public __construct()
+final public jsonSerialize(): mixed
+final public serialize(): string
+final public unserialize(string $serialized): void
 
-final public [unserialize](mongodb-bson-minkey.unserialize.md)(string
-`$serialized`): void
+   }
+```
 
-}
+## список змін
 
-## Список змін
-
-| Версія             | Опис                                                                                                        |
-|--------------------|-------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\BSON\MinKeyInterface](class.mongodb-bson-minkeyinterface.md).                   |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) та [JsonSerializable](class.jsonserializable.md). |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.md) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
-- [MongoDB\BSON\MinKey::\_\_construct](mongodb-bson-minkey.construct.md)
-- Конструктор MinKey
-- [MongoDB\BSON\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md)
-— Повертає уявлення, яке можна перетворити на JSON
-- [MongoDB\BSON\MinKey::serialize](mongodb-bson-minkey.serialize.md)
-- Серіалізує MinKey
-- [MongoDB\BSON\MinKey::unserialize](mongodb-bson-minkey.unserialize.md)
-- Десеріалізує MinKey
+-   [MongoDBBSONMinKey::construct](mongodb-bson-minkey.construct.md) - Конструктор MinKey
+-   [MongoDBBSONMinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONMinKey::serialize](mongodb-bson-minkey.serialize.md) - Серіалізує MinKey
+-   [MongoDBBSONMinKey::unserialize](mongodb-bson-minkey.unserialize.md) - Десеріалізує MinKey

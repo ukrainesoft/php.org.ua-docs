@@ -1,10 +1,11 @@
-- [« Iterator::next](iterator.next.md)
-- [Iterator::valid »](iterator.valid.md)
-
-- [PHP Manual](index.md)
-- [Iterator](class.iterator.md)
-– Повертає ітератор на перший елемент
-
+---
+navigation:
+  - iterator.next.md: '« Iterator::next'
+  - iterator.valid.md: 'Iterator::valid »'
+  - index.md: PHP Manual
+  - class.iterator.md: Iterator
+title: 'Iterator::rewind'
+---
 # Iterator::rewind
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,15 +14,15 @@ Iterator::rewind - Повертає ітератор на перший елем�
 
 ### Опис
 
-public **Iterator::rewind**(): void
+```methodsynopsis
+public Iterator::rewind(): void
+```
 
 Повертає ітератор назад перший елемент.
 
-> **Примітка**:
->
-> На початку циклу [foreach](control-structures.foreach.md) цей метод
-> викликається *першим*. Метод *не буде* викликаний *після* циклу
-> [foreach](control-structures.foreach.md).
+> **Зауваження**
+> 
+> На початку циклу [foreach](control-structures.foreach.md) цей метод викликається *першим*. Метод *не буде* викликаний *після* циклу [foreach](control-structures.foreach.md)
 
 ### Список параметрів
 

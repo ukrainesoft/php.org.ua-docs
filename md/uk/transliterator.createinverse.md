@@ -1,37 +1,38 @@
-- [« Transliterator::createFromRules](transliterator.createfromrules.md)
-- [Transliterator::getErrorCode »](transliterator.geterrorcode.md)
-
-- [PHP Manual](index.md)
-- [Transliterator](class.transliterator.md)
-- Створити інвертований транслітератор
-
+---
+navigation:
+  - transliterator.createfromrules.md: '« Transliterator::createFromRules'
+  - transliterator.geterrorcode.md: 'Transliterator::getErrorCode »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::createInverse'
+---
 # Transliterator::createInverse
 
-#transliterator_create_inverse
+# transliteratorcreateinverse
 
-(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::createInverse -- transliterator_create_inverse — Створити
-інвертований транслітератор
+Transliterator::createInverse -- transliteratorcreateinverse — Створити інвертований транслітератор
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **Transliterator::createInverse**():
-?[Transliterator](class.transliterator.md)
+```methodsynopsis
+public Transliterator::createInverse(): ?Transliterator
+```
 
 Процедурний стиль
 
-**transliterator_create_inverse**([Transliterator](class.transliterator.md)
-`$transliterator`): ?[Transliterator](class.transliterator.md)
+```methodsynopsis
+transliterator_create_inverse(Transliterator $transliterator): ?Transliterator
+```
 
 Відкриває інвертований транслітератор.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -39,12 +40,9 @@ public **Transliterator::createInverse**():
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.md) або
-**`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) -
-Отримати останнє повідомлення про помилку
-- [Transliterator::create()](transliterator.create.md) - Створити
-транслітератор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
+-   [Transliterator::create()](transliterator.create.md) - Створити транслітератор

@@ -1,23 +1,24 @@
-- [« Parle\Parser::dump](parle-parser.dump.md)
-- [Parle\Parser::left »](parle-parser.left.md)
+---
+navigation:
+  - parle-parser.dump.md: '« ParleParser::dump'
+  - parle-parser.left.md: 'ParleParser::left »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::errorInfo'
+---
+# ParleParser::errorInfo
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Отримує інформацію про помилку
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::errorInfo
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::errorInfo — Отримує інформацію про помилку
+ParleParser::errorInfo — Отримує інформацію про помилку
 
 ### Опис
 
-public **Parle\Parser::errorInfo**():
-[Parle\ErrorInfo](class.parle-errorinfo.md)
+```methodsynopsis
+public Parle\Parser::errorInfo(): Parle\ErrorInfo
+```
 
-Отримує інформацію про помилку, якщо **Parle\Parser::action()**
-повернув дію у разі помилки.
+Отримує інформацію про помилку у разі, якщо **ParleParser::action()** повернув дію у разі виникнення помилки.
 
 ### Список параметрів
 
@@ -25,4 +26,4 @@ public **Parle\Parser::errorInfo**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Parle\ErrorInfo](class.parle-errorinfo.md).
+Повертає екземпляр [ParleErrorInfo](class.parle-errorinfo.md)

@@ -1,18 +1,17 @@
-- [« session_cache_limiter](function.session-cache-limiter.md)
-- [session_create_id »](function.session-create-id.md)
+---
+navigation:
+  - function.session-cache-limiter.md: « sessioncachelimiter
+  - function.session-create-id.md: sessioncreateid »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessioncommit
+---
+# sessioncommit
 
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- Псевдонім session_write_close
+(PHP 4> = 4.4.0, PHP 5, PHP 7, PHP 8)
 
-# session_commit
-
-(PHP 4 \>= 4.4.0, PHP 5, PHP 7, PHP 8)
-
-session_commit - Псевдонім
-[session_write_close()](function.session-write-close.md)
+sessioncommit - Псевдонім [sessionwriteclose()](function.session-write-close.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[session_write_close()](function.session-write-close.md).
+Ця функція є псевдонімом: [sessionwriteclose()](function.session-write-close.md)

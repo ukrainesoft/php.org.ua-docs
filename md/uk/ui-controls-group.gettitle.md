@@ -1,19 +1,22 @@
-- [« UI\Controls\Group::\_\_construct](ui-controls-group.construct.md)
-- [UI\Controls\Group::hasMargin »](ui-controls-group.hasmargin.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Group](class.ui-controls-group.md)
-- Отримати заголовок
-
-# UI\Controls\Group::getTitle
+---
+navigation:
+  - ui-controls-group.construct.md: '« UIControlsGroup::construct'
+  - ui-controls-group.hasmargin.md: 'ОЙControlsGroup::hasMargin »'
+  - index.md: PHP Manual
+  - class.ui-controls-group.md: ОЙControlsGroup
+title: 'ОЙControlsGroup::getTitle'
+---
+# ОЙControlsGroup::getTitle
 
 (UI 0.9.9)
 
-UI\Controls\Group::getTitle — Отримати заголовок
+ОЙControlsGroup::getTitle — Отримати заголовок
 
 ### Опис
 
-public **UI\Controls\Group::getTitle**(): string
+```methodsynopsis
+public UI\Controls\Group::getTitle(): string
+```
 
 Повертає поточний заголовок для цієї групи
 

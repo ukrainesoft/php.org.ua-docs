@@ -1,39 +1,34 @@
-- [« IntlGregorianCalendar](class.intlgregoriancalendar.md)
-- [IntlGregorianCalendar::getGregorianChange »](intlgregoriancalendar.getgregorianchange.md)
+---
+navigation:
+  - class.intlgregoriancalendar.md: « IntlGregorianCalendar
+  - intlgregoriancalendar.getgregorianchange.md: 'IntlGregorianCalendar::getGregorianChange »'
+  - index.md: PHP Manual
+  - class.intlgregoriancalendar.md: IntlGregorianCalendar
+title: 'Intel GregorianCalendar::construct'
+---
+# Intel GregorianCalendar::construct
 
-- [PHP Manual](index.md)
-- [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-- Конструктор класу григоріанського календаря
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-# IntlGregorianCalendar::\_\_construct
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-IntlGregorianCalendar::\_\_construct - Конструктор класу григоріанського
-календаря
+Intel GregorianCalendar::construct - Конструктор класу григоріанського календаря
 
 ### Опис
 
-public
-**IntlGregorianCalendar::\_\_construct**([IntlTimeZone](class.intltimezone.md)
-`$tz` = ?, string `$locale` = ?)
+public **Intel GregorianCalendar::construct**[IntlTimeZone](class.intltimezone.md) `$tz` =?, string `$locale`
 
-public **IntlGregorianCalendar::\_\_construct**(int `$timeZoneOrYear`,
-int `$localeOrMonth`, int `$dayOfMonth`)
+public **Intel GregorianCalendar::construct**(int `$timeZoneOrYear`, int `$localeOrMonth`, int `$dayOfMonth`
 
-public **IntlGregorianCalendar::\_\_construct**(
-int `$timeZoneOrYear`,
-int `$localeOrMonth`,
-int `$dayOfMonth`,
-int `$hour`,
-int `$minute`,
-int `$second` = ?
-)
+public **Intel GregorianCalendar::construct**  
+int `$timeZoneOrYear`  
+int `$localeOrMonth`  
+int `$dayOfMonth`  
+int `$hour`  
+int `$minute`  
+int `$second`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

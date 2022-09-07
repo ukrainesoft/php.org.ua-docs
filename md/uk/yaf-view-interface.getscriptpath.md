@@ -1,24 +1,26 @@
-- [« Yaf_View_Interface::display](yaf-view-interface.display.md)
-- [Yaf_View_Interface::render »](yaf-view-interface.render.md)
+---
+navigation:
+  - yaf-view-interface.display.md: '« YafViewInterface::display'
+  - yaf-view-interface.render.md: 'YafViewInterface::render »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.md: YafViewInterface
+title: 'YafViewInterface::getScriptPath'
+---
+# YafViewInterface::getScriptPath
 
-- [PHP Manual](index.md)
-- [Yaf_View_Interface](class.yaf-view-interface.md)
-- Призначення getScriptPath
+(Yaf >=1.0.0)
 
-# Yaf_View_Interface::getScriptPath
-
-(Yaf \>=1.0.0)
-
-Yaf_View_Interface::getScriptPath — Призначення getScriptPath
+YafViewInterface::getScriptPath — Призначення getScriptPath
 
 ### Опис
 
-abstract public **Yaf_View_Interface::getScriptPath**(): void
+```methodsynopsis
+abstract public Yaf_View_Interface::getScriptPath(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

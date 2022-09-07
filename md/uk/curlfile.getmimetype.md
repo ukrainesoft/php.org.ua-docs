@@ -1,19 +1,22 @@
-- [«CURLFile::getFilename](curlfile.getfilename.md)
-- [CURLFile::getPostFilename »](curlfile.getpostfilename.md)
-
-- [PHP Manual](index.md)
-- [CURLFile](class.curlfile.md)
-- Повертає MIME-тип файлу
-
+---
+navigation:
+  - curlfile.getfilename.md: '« CURLFile::getFilename'
+  - curlfile.getpostfilename.md: 'CURLFile::getPostFilename »'
+  - index.md: PHP Manual
+  - class.curlfile.md: CURLFile
+title: 'CURLFile::getMimeType'
+---
 # CURLFile::getMimeType
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 CURLFile::getMimeType — Повертає MIME-тип файлу
 
 ### Опис
 
-public **CURLFile::getMimeType**(): string
+```methodsynopsis
+public CURLFile::getMimeType(): string
+```
 
 ### Список параметрів
 

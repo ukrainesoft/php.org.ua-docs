@@ -1,10 +1,11 @@
-- [« Imagick::getHomeURL](imagick.gethomeurl.md)
-- [Imagick::getImageAlphaChannel »](imagick.getimagealphachannel.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає новий об'єкт Imagick
-
+---
+navigation:
+  - imagick.gethomeurl.md: '« Imagick::getHomeURL'
+  - imagick.getimagealphachannel.md: 'Imagick::getImageAlphaChannel »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImage'
+---
 # Imagick::getImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,10 +14,11 @@ Imagick::getImage — Повертає новий об'єкт Imagick
 
 ### Опис
 
-public **Imagick::getImage**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::getImage(): Imagick
+```
 
-Повертає новий об'єкт Imagick із поточною послідовністю
-зображень.
+Повертає новий об'єкт Imagick із поточною послідовністю зображень.
 
 ### Список параметрів
 
@@ -24,8 +26,7 @@ public **Imagick::getImage**(): [Imagick](class.imagick.md)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт Imagick із поточною послідовністю
-зображень.
+Повертає новий об'єкт Imagick із поточною послідовністю зображень.
 
 ### Помилки
 

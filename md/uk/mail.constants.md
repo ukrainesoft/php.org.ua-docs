@@ -1,10 +1,11 @@
-- [« Типи ресурсів](mail.resources.md)
-- [Пошта »](ref.mail.md)
-
-- [PHP Manual](index.md)
-- [Mail](book.mail.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - mail.resources.md: « Типи ресурсів
+  - ref.mail.md: Почта »
+  - index.md: PHP Manual
+  - book.mail.md: Mail
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

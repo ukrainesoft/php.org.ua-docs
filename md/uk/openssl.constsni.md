@@ -1,16 +1,17 @@
-- [«Константи версій](openssl.constversion.md)
-- [Інші константи »](openssl.constants.other.md)
-
-- [PHP Manual](index.md)
-- [Предвизначені константи](openssl.constants.md)
-- Константа SNI (Server Name Indication)
-
+---
+navigation:
+  - openssl.constversion.md: « Константи версій
+  - openssl.constants.other.md: Інші константи »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
+title: Константа SNI (Server Name Indication)
+---
 ## Константа SNI (Server Name Indication)
 
 **`OPENSSL_TLSEXT_SERVER_NAME`** (string)
+
 Незалежно від доступності SNI.
 
-> **Примітка**:
->
-> Ця константа вимагає PHP зібраного з бібліотекою OpenSSL версії
->0.9.8j або вище.
+> **Зауваження**
+> 
+> Ця константа вимагає PHP, зібраного з бібліотекою OpenSSL версії 0.9.8j або вище.

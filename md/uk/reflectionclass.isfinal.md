@@ -1,22 +1,24 @@
-- [« ReflectionClass::isEnum](reflectionclass.isenum.md)
-- [ReflectionClass::isInstance »](reflectionclass.isinstance.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевіряє, чи є клас остаточним (final)
-
+---
+navigation:
+  - reflectionclass.isenum.md: '« ReflectionClass::isEnum'
+  - reflectionclass.isinstance.md: 'ReflectionClass::isInstance »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isFinal'
+---
 # ReflectionClass::isFinal
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::isFinal — Перевіряє, чи є клас остаточним
-(final)
+ReflectionClass::isFinal — Перевіряє, чи є клас остаточним (final)
 
 ### Опис
 
-public **ReflectionClass::isFinal**(): bool
+```methodsynopsis
+public ReflectionClass::isFinal(): bool
+```
 
-Перевіряє, чи клас є остаточним (final).
+Перевіряє, чи клас остаточним (final).
 
 ### Список параметрів
 
@@ -24,22 +26,34 @@ public **ReflectionClass::isFinal**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::isFinal()****
 
-` <?phpclass       TestClass { }final class TestFinalClass { }$normalClass = new ReflectionClass('TestClass');$finalClass  ==new ReflectionClass('TestFinal> >isFinal());?> `
+```php
+<?php
+class       TestClass { }
+final class TestFinalClass { }
+
+$normalClass = new ReflectionClass('TestClass');
+$finalClass  = new ReflectionClass('TestFinalClass');
+
+var_dump($normalClass->isFinal());
+var_dump($finalClass->isFinal());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionClass::isAbstract()](reflectionclass.isabstract.md) -
-Перевіряє, чи є клас абстрактним
-- [Ключове слово "final"](language.oop5.final.md)
+-   [ReflectionClass::isAbstract()](reflectionclass.isabstract.md) - Перевіряє, чи є клас абстрактним
+-   [Ключевое слово "final"](language.oop5.final.md)

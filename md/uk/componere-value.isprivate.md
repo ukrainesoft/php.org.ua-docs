@@ -1,16 +1,19 @@
-- [« Componere\Value::setStatic](componere-value.setstatic.md)
-- [Componere\Value::isProtected »](componere-value.isprotected.md)
+---
+navigation:
+  - componere-value.setstatic.md: '« ComponereValue::setStatic'
+  - componere-value.isprotected.md: 'ComponereValue::isProtected »'
+  - index.md: PHP Manual
+  - class.componere-value.md: ComponereValue
+title: 'ComponereValue::isPrivate'
+---
+# ComponereValue::isPrivate
 
-- [PHP Manual](index.md)
-- [Componere\Value](class.componere-value.md)
-- Визначення доступності
+(Componere 2 >= 2.1.0)
 
-# Componere\Value::isPrivate
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Value::isPrivate — Визначення доступності
+ComponereValue::isPrivate — Визначення доступності
 
 ### Опис
 
-public **Componere\Value::isPrivate**(): bool
+```methodsynopsis
+public Componere\Value::isPrivate(): bool
+```

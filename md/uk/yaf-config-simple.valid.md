@@ -1,24 +1,26 @@
-- [« Yaf_Config_Simple::toArray](yaf-config-simple.toarray.md)
-- [Yaf_Controller_Abstract »](class.yaf-controller-abstract.md)
+---
+navigation:
+  - yaf-config-simple.toarray.md: '« YafConfigSimple::toArray'
+  - class.yaf-controller-abstract.md: YafControllerAbstract »
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
+title: 'YafConfigSimple::valid'
+---
+# YafConfigSimple::valid
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення valid
+(Yaf >=1.0.0)
 
-# Yaf_Config_Simple::valid
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Simple::valid — Призначення valid
+YafConfigSimple::valid — Призначення valid
 
 ### Опис
 
-public **Yaf_Config_Simple::valid**(): void
+```methodsynopsis
+public Yaf_Config_Simple::valid(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,97 +1,118 @@
-- [«Ev::verify](ev.verify.md)
-- [EvCheck::\_\_construct »](evcheck.construct.md)
-
-- [PHP Manual](index.md)
-- [Ev](book.ev.md)
-- Клас EvCheck
-
+---
+navigation:
+  - ev.verify.md: '« Ev::verify'
+  - evcheck.construct.md: 'EvCheck::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvCheck
+---
 # Клас EvCheck
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 ## Вступ
 
-Спостерігачі [EvPrepare](class.evprepare.md) та **EvCheck** зазвичай
-використовуються у парі. Спостерігач [EvPrepare](class.evprepare.md)
-викликається до блокування процесу, потім викликається **EvCheck**
+Спостерігачі [EvPrepare](class.evprepare.md) і **EvCheck** зазвичай використовуються у парі. Спостерігач [EvPrepare](class.evprepare.md) викликається до блокування процесу, потім викликається **EvCheck**
 
-Не дозволяється викликати [EvLoop::run()](evloop.run.md) або аналогічні
-методи або функції, введені в поточний цикл подій
-спостерігачами [EvPrepare](class.evprepare.md) або **EvCheck**. Проте
-інші цикли подій, що не поточний, можуть. Сенс у тому, що поточному не
-Необхідно перевіряти рекурсію у таких спостерігачах, тобто. завжди буде
-послідовність: [EvPrepare](class.evprepare.md) -\> блокування -\>
-**EvCheck**, так що спостерігача кожного виду завжди будуть викликати в
-парах, захоплюючи блокуючий виклик.
+Не дозволяється викликати [EvLoop::run()](evloop.run.md) або аналогічні методи чи функції, введені в поточний цикл подій іншими спостерігачами [EvPrepare](class.evprepare.md) або **EvCheck**. Однак інші цикли подій, які не поточні, можуть. Сенс у цьому, що поточному не потрібно перевіряти рекурсію у таких спостерігачах, тобто. завжди буде послідовність: [EvPrepare](class.evprepare.md) -> блокування -> **EvCheck**, так що спостерігача кожного виду завжди будуть викликати в парах, захоплюючи блокуючий виклик.
 
-Основна мета полягає в інтеграції інших подійних механізмів у
-*libev* та покращене їх використання. Вони можуть бути використані,
-наприклад, при відслідковуванні зміни змінних, при реалізації
-спостерігачів, при інтегруванні NET-SNMP або
-співпрограм бібліотеки та багато іншого. Вони також іноді корисні при
-кешування даних та при очищенні даних до блокування.
+Основна мета полягає в інтеграції інших подійових механізмів у *libev* та покращене їх використання. Вони можуть бути використані, наприклад, при відстеженні зміні змінних, при реалізації спостерігачів, при інтегруванні NET-SNMP або співпрограм бібліотеки і багато іншого. Вони також іноді корисні при кешуванні даних та при очищенні даних до блокування.
 
-Рекомендується встановлювати спостерігачам **EvCheck** найвищий пріоритет
-(**`Ev::MAXPRI`**), щоб забезпечити можливість їх запуску раніше, ніж будь-які
-інших спостерігачів після опитування (це не має значення для спостерігачів
-[EvPrepare](class.evprepare.md)).
+Рекомендується встановлювати спостерігачам **EvCheck** найвищий пріоритет (**`Ev::MAXPRI`**), щоб забезпечити можливість їх запуску раніше за будь-які інші спостерігачі після опитування (це не має значення для спостерігачів [EvPrepare](class.evprepare.md)
 
-Крім того, спостерігачі **EvCheck** не зможуть активувати/подавати
-події. Поки *libev* повністю підтримує все це вони можуть
-виконуватися раніше, ніж інші спостерігачі **EvCheck** виконають свою
-роботу.
+Крім того, спостерігачі **EvCheck** не зможуть активувати/подавати події. Бувай *libev* повністю підтримує все це, вони можуть виконуватися раніше, ніж інші спостерігачі **EvCheck** виконають свою роботу.
 
 ## Огляд класів
 
-class **EvCheck** extends [EvWatcher](class.evwatcher.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
+    
+    
+     
+      class EvCheck
+     
+     
+      extends
+       EvWatcher
+     
+     {
+    
+    
+    /* Наследуемые свойства */
+    
+     public
+      $is_active;
+public
+      $data;
+public
+      $is_pending;
+public
+      $priority;
 
-public `$is_active`;
+    /* Методы */
+    
+   public
+   __construct(
+    callable
+     $callback
+   , 
+    mixed
+     $data
+    = ?, 
+    int
+     $priority
+    = ?)
 
-public `$data`;
+    final
+   public
+   static
+   createStopped(
+    string
+     $callback
+   , 
+    string
+     $data
+    = ?, 
+    string
+     $priority
+    = ?): object
 
-public `$is_pending`;
+    /* Наследуемые методы */
+    public
+   EvWatcher::clear(): int
+public
+   EvWatcher::feed(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::getLoop(): EvLoop
+public
+   EvWatcher::invoke(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::keepalive(
+    bool
+     $value
+    = ?): bool
+public
+   EvWatcher::setCallback(
+    callable
+     $callback
+   ): void
+public
+   EvWatcher::start(): void
+public
+   EvWatcher::stop(): void
 
-public `$priority`;
-
-/\* Методи \*/
-
-public [\_\_construct](evcheck.construct.md)(
-[callable](language.types.callable.md) `$callback` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?, int `$priority` = ?)
-
-final public static [createStopped](evcheck.createstopped.md)( string
-`$callback` , string `$data` = ?, string `$priority` = ?): object
-
-/\* Наслідувані методи \*/
-
-public [EvWatcher::clear](evwatcher.clear.md)(): int
-
-public [EvWatcher::feed](evwatcher.feed.md)( int `$revents` ): void
-
-public [EvWatcher::getLoop](evwatcher.getloop.md)():
-[EvLoop](class.evloop.md)
-
-public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
-void
-
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
-?): bool
-
-public [EvWatcher::setCallback](evwatcher.setcallback.md)(
-[callable](language.types.callable.md) `$callback` ): void
-
-public [EvWatcher::start](evwatcher.start.md)(): void
-
-public [EvWatcher::stop](evwatcher.stop.md)(): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [EvCheck::\_\_construct](evcheck.construct.md) - Конструктор
-об'єкту EvCheck
-- [EvCheck::createStopped](evcheck.createstopped.md) — Створює
-зупинений екземпляр спостерігача EvCheck
+-   [EvCheck::construct](evcheck.construct.md) - Конструктор об'єкта EvCheck
+-   [EvCheck::createStopped](evcheck.createstopped.md) — Створює зупинений екземпляр спостерігача EvCheck

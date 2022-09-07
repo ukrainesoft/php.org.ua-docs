@@ -1,55 +1,63 @@
-- [« pg_lo_open](function.pg-lo-open.md)
-- [pg_lo_read »](function.pg-lo-read.md)
+---
+navigation:
+  - function.pg-lo-open.md: « pgлоopen
+  - function.pg-lo-read.md: пглоread »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоreadall
+---
+# пглоreadall
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Читає вміст великого об'єкта та посилає безпосередньо до браузера
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#pg_lo_read_all
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-pg_lo_read_all — Читає вміст великого об'єкта та посилає безпосередньо
-у браузер
+пглоreadall — Читає вміст великого об'єкта і надсилає його безпосередньо до браузера.
 
 ### Опис
 
-**pg_lo_read_all**([PgSql\Lob](class.pgsql-lob.md) `$lob`): int
+```methodsynopsis
+pg_lo_read_all(PgSql\Lob $lob): int
+```
 
-**pg_lo_read_all()** читає великий об'єкт і надсилає дані безпосередньо в
-браузер після надсилання всіх необхідних заголовків. Використовується у
-в основному для пересилання двійкових даних, таких як зображення або звук.
+**пглоreadall()** читає великий об'єкт і надсилає дані безпосередньо в браузер після відправлення всіх необхідних заголовків. Використовується в основному для пересилання бінарних даних, таких як зображення або звук.
 
-Операції з використанням інтерфейсу великих об'єктів необхідно
-укладати блок транзакції.
+Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Примітка**:
->
-> Колишня назва функції: pg_loreadall()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгloreadall()**
 
 ### Список параметрів
 
 `lob`
-An [PgSql\Lob](class.pgsql-lob.md) instance, returned by
-[pg_lo_open()](function.pg-lo-open.md).
+
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 
 Кількість прочитаних байт.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр lob тепер чекає на екземпляр [PgSql\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_lo_read_all()****
+**Приклад #1 Приклад використання **пглоreadall()****
 
-`<?php  header('Content-type:image/jpeg'); $image_oid==189762345; $database==pg_connect("dbname=jacarta"); pg_query($database, "begin"); $handle = pg_lo_open($database, $image_oid, "r"); pg_lo_read_all($handle); pg_query($database, "commit");?> `
+```php
+<?php
+   header('Content-type: image/jpeg');
+   $image_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $image_oid, "r");
+   pg_lo_read_all($handle);
+   pg_query($database, "commit");
+?>
+```
 
 ### Дивіться також
 
-- [pg_lo_read()](function.pg-lo-read.md) - Читає дані великого
-об'єкта
+-   [пглоread()](function.pg-lo-read.md) - Читає дані великого об'єкту

@@ -1,19 +1,22 @@
-- [« OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.md)
-- [OAuth::getRequestHeader »](oauth.getrequestheader.md)
-
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Отримати HTTP-інформацію про останню відповідь
-
+---
+navigation:
+  - oauth.getlastresponseheaders.md: '« OAuth::getLastResponseHeaders'
+  - oauth.getrequestheader.md: 'OAuth::getRequestHeader »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::getLastResponseInfo'
+---
 # OAuth::getLastResponseInfo
 
-(PECL OAuth = 0.99.1)
+(PECL OAuth >= 0.99.1)
 
 OAuth::getLastResponseInfo — Отримати HTTP-інформацію про останню відповідь
 
 ### Опис
 
-public **OAuth::getLastResponseInfo**(): array
+```methodsynopsis
+public OAuth::getLastResponseInfo(): array
+```
 
 Повертає HTTP-інформацію про останню відповідь.
 
@@ -23,11 +26,9 @@ public **OAuth::getLastResponseInfo**(): array
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією на останній запит. Можна, можливо
-використовувати константи [curl_getinfo()](function.curl-getinfo.md).
+Повертає масив з інформацією на останній запит. Можна використовувати константи [curlgetinfo()](function.curl-getinfo.md)
 
 ### Дивіться також
 
-- [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth
-- [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати
-остання відповідь
+-   [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь

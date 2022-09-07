@@ -1,19 +1,22 @@
-- [« SplDoublyLinkedList::push](spldoublylinkedlist.push.md)
-- [SplDoublyLinkedList::serialize »](spldoublylinkedlist.serialize.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Повертає ітератор на початок
-
+---
+navigation:
+  - spldoublylinkedlist.push.md: '« SplDoublyLinkedList::push'
+  - spldoublylinkedlist.serialize.md: 'SplDoublyLinkedList::serialize »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::rewind'
+---
 # SplDoublyLinkedList::rewind
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::rewind — Повертає ітератор на початок
 
 ### Опис
 
-public **SplDoublyLinkedList::rewind**(): void
+```methodsynopsis
+public SplDoublyLinkedList::rewind(): void
+```
 
 Повертає ітератор на початок.
 

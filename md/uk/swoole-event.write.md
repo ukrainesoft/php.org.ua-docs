@@ -1,20 +1,22 @@
-- [« Swoole\Event::wait](swoole-event.wait.md)
-- [Swoole\Exception »](class.swoole-exception.md)
+---
+navigation:
+  - swoole-event.wait.md: '« SwooleEvent::wait'
+  - class.swoole-exception.md: SwooleException »
+  - index.md: PHP Manual
+  - class.swoole-event.md: SwooleEvent
+title: 'SwooleEvent::write'
+---
+# SwooleEvent::write
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Записує дані у сокет
+(PECL swoole >= 1.9.0)
 
-# Swoole\Event::write
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Event::write - Записує дані в сокет
+SwooleEvent::write — Записує дані в сокет
 
 ### Опис
 
-public static **Swoole\Event::write**(string `$fd`, string `$data`):
-void
+```methodsynopsis
+public static Swoole\Event::write(string $fd, string $data): void
+```
 
 ### Список параметрів
 

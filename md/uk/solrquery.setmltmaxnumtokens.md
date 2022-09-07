@@ -1,31 +1,31 @@
-- [« SolrQuery::setMltMaxNumQueryTerms](solrquery.setmltmaxnumqueryterms.md)
-- [SolrQuery::setMltMaxWordLength »](solrquery.setmltmaxwordlength.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Задає максимальну кількість токенів для аналізу
-
+---
+navigation:
+  - solrquery.setmltmaxnumqueryterms.md: '« SolrQuery::setMltMaxNumQueryTerms'
+  - solrquery.setmltmaxwordlength.md: 'SolrQuery::setMltMaxWordLength »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltMaxNumTokens'
+---
 # SolrQuery::setMltMaxNumTokens
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setMltMaxNumTokens — Задає максимальну кількість токенів
-для аналізу
+SolrQuery::setMltMaxNumTokens — Задає максимальну кількість токенів для аналізу
 
 ### Опис
 
-public **SolrQuery::setMltMaxNumTokens**(int `$value`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setMltMaxNumTokens(int $value): SolrQuery
+```
 
-Задає максимальну кількість токенів для аналізу у кожному прикладі поля
-документа, який не зберігається за допомогою TermVector.
+Задає максимальну кількість токенів для аналізу у кожному прикладі поля документа, яке не зберігається за допомогою TermVector.
 
 ### Список параметрів
 
 `value`
+
 Максимальна кількість токенів для аналізу
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

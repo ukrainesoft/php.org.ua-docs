@@ -1,50 +1,59 @@
-- [«get_parent_class](function.get-parent-class.md)
-- [is_a »](function.is-a.md)
+---
+navigation:
+  - function.get-parent-class.md: « getparentclass
+  - function.is-a.md: ісa »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: interfaceexists
+---
+# interfaceexists
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Перевіряє, чи визначено інтерфейс
+(PHP 5> = 5.0.2, PHP 7, PHP 8)
 
-# interface_exists
-
-(PHP 5 \>= 5.0.2, PHP 7, PHP 8)
-
-interface_exists — Перевіряє, чи визначено інтерфейс
+interfaceexists — Перевіряє, чи визначено інтерфейс.
 
 ### Опис
 
-**interface_exists**(string `$interface`, bool `$autoload` =
-**`true`**): bool
+```methodsynopsis
+interface_exists(string $interface, bool $autoload = true): bool
+```
 
 Перевіряє, чи вказаний інтерфейс.
 
 ### Список параметрів
 
 `interface`
+
 Ім'я інтерфейсу
 
 `autoload`
-Визначає, чи використовувати за промовчанням
-[\_\_autoload](language.oop5.autoload.md) чи ні
+
+Визначає, чи використовувати за промовчанням [autoload](language.oop5.autoload.md) чи ні
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо інтерфейс c заданим ім'ям `interface` був
-визначений або **`false`** інакше.
+Повертає \*\*`true`\*\*якщо інтерфейс c заданим ім'ям `interface` був визначений або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **interface_exists()****
+**Приклад #1 Приклад використання **interfaceexists()****
 
-<<php// Перевіряємо існування інтерфейсу перед його використаннямif (interface_exists('MyInterface')) {    class MyClass implements MyInterface /                 
+```php
+<?php
+// Проверяем существование интерфейса перед его использованием
+if (interface_exists('MyInterface')) {
+    class MyClass implements MyInterface
+    {
+        // Методы
+    }
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [get_declared_interfaces()](function.get-declared-interfaces.md) -
-Повертає масив усіх оголошених інтерфейсів
-- [class_implements()](function.class-implements.md) - Повертає
-список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
-- [class_exists()](function.class-exists.md) - Перевіряє, чи був він
-оголошено клас
-- [enum_exists()](function.enum-exists.md) - Перевіряє, чи визначено
-чи перерахування
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.md) - Повертає масив усіх оголошених інтерфейсів
+-   [classimplements()](function.class-implements.md) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [enumexists()](function.enum-exists.md) - Перевіряє, чи визначено перерахування

@@ -1,37 +1,38 @@
-- [« Imagick::compareImageLayers](imagick.compareimagelayers.md)
-- [Imagick::compositeImage »](imagick.compositeimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Порівнює зображення з відновленим зображенням
-
+---
+navigation:
+  - imagick.compareimagelayers.md: '« Imagick::compareImageLayers'
+  - imagick.compositeimage.md: 'Imagick::compositeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::compareImages'
+---
 # Imagick::compareImages
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::compareImages — Порівнює зображення з відновленим
-зображенням
+Imagick::compareImages — Порівнює зображення з відновленим зображенням
 
 ### Опис
 
-public **Imagick::compareImages**([Imagick](class.imagick.md)
-`$compare`, int `$metric`): array
+```methodsynopsis
+public Imagick::compareImages(Imagick $compare, int $metric): array
+```
 
-Повертає масив, що містить відновлене зображення та різницю
-між зображеннями.
+Повертає масив, що містить відновлене зображення та різницю між зображеннями.
 
 ### Список параметрів
 
 `compare`
+
 Зображення для порівняння.
 
 `metric`
-Вкажіть допустиму константу типу метрики. Дивіться список [констант метрики](imagick.constants.md#imagick.constants.metric).
+
+Вкажіть допустиму константу типу метрики. Дивіться список [констант метрики](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 
-Повертає масив, що містить відновлене зображення та різницю
-між зображеннями.
+Повертає масив, що містить відновлене зображення та різницю між зображеннями.
 
 ### Помилки
 
@@ -39,8 +40,21 @@ public **Imagick::compareImages**([Imagick](class.imagick.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::compareImages()**:**
+**Приклад #1 Приклад використання **Imagick::compareImages()****
 
 Порівняння зображення та відображення відновленого зображення
 
-` <?php$image1 = new imagick("image1.png");$image2 = neu imagick("image2.png");$result = $image1->compareImages($image2, Imagick::METRIC_MEANSQUAREERROR);$result [0]->setImageFormat("png");header("Content-Type: image/png");echo $result[0];?> `
+```php
+<?php
+
+$image1 = new imagick("image1.png");
+$image2 = new imagick("image2.png");
+
+$result = $image1->compareImages($image2, Imagick::METRIC_MEANSQUAREERROR);
+$result[0]->setImageFormat("png");
+
+header("Content-Type: image/png");
+echo $result[0];
+
+?>
+```

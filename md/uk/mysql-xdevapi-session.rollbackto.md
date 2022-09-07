@@ -1,25 +1,29 @@
-- [« Session::rollback](mysql-xdevapi-session.rollback.md)
-- [Session::setSavepoint »](mysql-xdevapi-session.setsavepoint.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Відкочує транзакцію до точки збереження
-
+---
+navigation:
+  - mysql-xdevapi-session.rollback.md: '« Session::rollback'
+  - mysql-xdevapi-session.setsavepoint.md: 'Session::setSavepoint »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+title: 'Session::rollbackTo'
+---
 # Session::rollbackTo
 
 (No version information available, might only be in Git)
 
-Session::rollbackTo — Відкочує транзакцію до точки збереження
+Session::rollbackTo — Відкачує транзакцію до точки збереження
 
 ### Опис
 
-public **mysql_xdevapi\Session::rollbackTo**(string `$name`): void
+```methodsynopsis
+public mysql_xdevapi\Session::rollbackTo(string $name): void
+```
 
 Відкочує транзакцію до точки збереження.
 
 ### Список параметрів
 
 `name`
+
 Ім'я точки збереження для відкату; без урахування регістру.
 
 ### Значення, що повертаються
@@ -28,7 +32,22 @@ public **mysql_xdevapi\Session::rollbackTo**(string `$name`): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::rollbackTo()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::rollbackTo()****
 
-` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("names");$session-> startTransaction();$collection->add( '{"test1":1, "test2":2}' )->execute();$savepoint1 = $session->setSavepoint();$collection->add( ' {"test3":3, "test4":4}' )->execute();$savepoint2 = $session->setSavepoint();$session->rollbackTo($savepoint1);?> `
+```php
+<?php
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("names");
+
+$session->startTransaction();
+$collection->add( '{"test1":1, "test2":2}' )->execute();
+
+$savepoint1 = $session->setSavepoint();
+
+$collection->add( '{"test3":3, "test4":4}' )->execute();
+
+$savepoint2 = $session->setSavepoint();
+
+$session->rollbackTo($savepoint1);
+?>
+```

@@ -1,11 +1,12 @@
-- [«UI\Controls\Group::setTitle](ui-controls-group.settitle.md)
-- [UI\Controls\Box::append »](ui-controls-box.append.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Блок керування (розміщення)
-
-# Блок управління (розміщення)
+---
+navigation:
+  - ui-controls-group.settitle.md: '« UIControlsGroup::setTitle'
+  - ui-controls-box.append.md: 'ОЙControlsBox::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Блок керування (розміщення)
+---
+# Блок керування (розміщення)
 
 (UI 0.9.9)
 
@@ -15,69 +16,74 @@
 
 ## Огляд класів
 
-class **UI\Controls\Box** extends [UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Vertical`;
 
-const int `Horizontal`;
+    
+     
+      class UI\Controls\Box
+     
 
-/\* Властивості \*/
+     
+      extends
+       UI\Control
+     
+     {
 
-protected `$controls`;
 
-/\* Конструктор \*/
+    /* Константы */
+    
+     const
+     int
+      Vertical;
 
-public [\_\_construct](ui-controls-box.construct.md)(int
-`$orientation` = UI\Controls\Box::Horizontal)
+    const
+     int
+      Horizontal;
 
-/\* Методи \*/
 
-public [append](ui-controls-box.append.md)(Control `$control`, bool
-`$stretchy` = **`false`**): int
+    /* Свойства */
+    protected
+      $controls;
 
-public [delete](ui-controls-box.delete.md)(int `$index`): bool
 
-public [getOrientation](ui-controls-box.getorientation.md)(): int
+    /* Конструктор */
+    
+   public __construct(int $orientation = UI\Controls\Box::Horizontal)
 
-public [isPadded](ui-controls-box.ispadded.md)(): bool
 
-public [setPadded](ui-controls-box.setpadded.md)(bool `$padded`)
+    /* Методы */
+    public append(Control $control, bool $stretchy = false): int
+public delete(int $index): bool
+public getOrientation(): int
+public isPadded(): bool
+public setPadded(bool $padded)
 
-/\* Наслідувані методи \*/
 
-public [UI\Control::destroy](ui-control.destroy.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::disable](ui-control.disable.md)()
 
-public [UI\Control::enable](ui-control.enable.md)()
-
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Властивості
 
-`controls`
+controls
+
 Містить елементи керування, не слід використовувати безпосередньо
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Controls\Box::Vertical`**
 
@@ -85,15 +91,9 @@ public [UI\Control::show](ui-control.show.md)()
 
 ## Зміст
 
-- [UI\Controls\Box::append](ui-controls-box.append.md) — Додати
-керуючий елемент
-- [UI\Controls\Box::\_\_construct](ui-controls-box.construct.md) -
-Створити новий об'єкт Box
-- [UI\Controls\Box::delete](ui-controls-box.delete.md) — Видалити
-керуючий елемент
-- [UI\Controls\Box::getOrientation](ui-controls-box.getorientation.md)
-— Здобути орієнтацію
-- [UI\Controls\Box::isPadded](ui-controls-box.ispadded.md) -
-Визначення заповнення
-- [UI\Controls\Box::setPadded](ui-controls-box.setpadded.md) -
-Встановити наповнення
+-   [ОЙControlsBox::append](ui-controls-box.append.md) — Додати елемент керування
+-   [ОЙControlsBox::construct](ui-controls-box.construct.md) - Створити новий об'єкт Box
+-   [ОЙControlsBox::delete](ui-controls-box.delete.md) — Видалити елемент керування
+-   [ОЙControlsBox::getOrientation](ui-controls-box.getorientation.md) — Здобути орієнтацію
+-   [ОЙControlsBox::isPadded](ui-controls-box.ispadded.md) - Визначення заповнення
+-   [ОЙControlsBox::setPadded](ui-controls-box.setpadded.md) - Встановити заповнення

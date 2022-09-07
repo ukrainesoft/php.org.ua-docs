@@ -1,19 +1,19 @@
-- [« Ds\Set::join](ds-set.join.md)
-- [Ds\Set::last »](ds-set.last.md)
+---
+navigation:
+  - ds-set.join.md: '« DsSet::join'
+  - ds-set.last.md: 'ДсSet::last »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::jsonSerialize'
+---
+# ДсSet::jsonSerialize
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає колекцію в JSON-виставі
+(PECL ds >= 1.0.0)
 
-# Ds\Set::jsonSerialize
+ДсSet::jsonSerialize — Повертає колекцію в JSON-представництві
 
-(PECL ds \>= 1.0.0)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-Ds\Set::jsonSerialize — Повертає колекцію в JSON-представництві
-
-Дивіться
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
-
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ніколи не використовуйте цю функцію безпосередньо.

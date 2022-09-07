@@ -1,20 +1,22 @@
-- [« Yaf_Dispatcher::dispatch](yaf-dispatcher.dispatch.md)
-- [Yaf_Dispatcher::flushInstantly »](yaf-dispatcher.flushinstantly.md)
+---
+navigation:
+  - yaf-dispatcher.dispatch.md: '« YafDispatcher::dispatch'
+  - yaf-dispatcher.flushinstantly.md: 'YafDispatcher::flushInstantly »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::enableView'
+---
+# YafDispatcher::enableView
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Включає механізм перегляду
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::enableView
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::enableView — Включає механізм перегляду
+YafDispatcher::enableView — Включає механізм перегляду
 
 ### Опис
 
-public **Yaf_Dispatcher::enableView**():
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::enableView(): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

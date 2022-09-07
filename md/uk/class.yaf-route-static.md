@@ -1,51 +1,49 @@
-- [« Yaf_Route_Simple::route](yaf-route-simple.route.md)
-- [Yaf_Route_Static::assemble »](yaf-route-static.assemble.md)
+---
+navigation:
+  - yaf-route-simple.route.md: '« YafRouteSimple::route'
+  - yaf-route-static.assemble.md: 'YafRouteStatic::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteStatic
+---
+# Клас YafRouteStatic
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Route_Static
-
-# Клас Yaf_Route_Static
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-За замовчуванням [Yaf_Router](class.yaf-router.md) містить лише
-**Yaf_Route_Static**.
+За замовчуванням, [YafRouter](class.yaf-router.md) містить тільки **YafRouteStatic**
 
-І **Yaf_Route_Static** спроектований таким чином, щоб покривати 80%
-всіх можливих потреб у маршрутизації.
+І **YafRouteStatic** спроектований таким чином, щоб покривати 80% усіх можливих потреб маршрутизації.
 
-Будь ласка \*ЗВЕРНІТЬ УВАГУ\*, що не потрібно інстанціювати
-**Yaf_Route_Static**, також не потрібно додавати його до стек
-[Yaf_Router](class.yaf-router.md), тому що він є в стеку
-маршрутизації [Yaf_Router](class.yaf-router.md) за замовчуванням і завжди
-буде викликатись останнім.
+Будь ласка ЗВЕРНІТЬ УВАГУ, що не потрібно інстанціювати **YafRouteStatic**, також не потрібно додавати його до стек [YafRouter](class.yaf-router.md), так як він є у стеку маршрутизації [YafRouter](class.yaf-router.md) за замовчуванням і завжди буде викликатись останнім.
 
 ## Огляд класів
 
-class **Yaf_Route_Static** implements
-[Yaf_Router](class.yaf-router.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [assemble](yaf-route-static.assemble.md)(array `$info`, array
-`$query` = ?): string
+    
+    
+     
+      class Yaf_Route_Static
+     
 
-public [match](yaf-route-static.match.md)(string `$uri`): void
+     implements 
+       Yaf_Router {
+    
 
-public
-[route](yaf-route-static.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
+    /* Методы */
+    
+   public assemble(array $info, array $query = ?): string
+public match(string $uri): void
+public route(Yaf_Request_Abstract $request): bool
 
-}
+   }
+```
 
 ## Зміст
 
-- [Yaf_Route_Static::assemble](yaf-route-static.assemble.md) -
-Збирає URL
-- [Yaf_Route_Static::match](yaf-route-static.match.md) — Призначення
-match
-- [Yaf_Route_Static::route](yaf-route-static.route.md) - Надсилає
-запит
+-   [YafRouteStatic::assemble](yaf-route-static.assemble.md) - Збирає URL
+-   [YafRouteStatic::match](yaf-route-static.match.md) - Призначення match
+-   [YafRouteStatic::route](yaf-route-static.route.md) — Надсилає запит

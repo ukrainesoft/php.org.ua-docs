@@ -1,52 +1,61 @@
-- [« Ds\Set::count](ds-set.count.md)
-- [Ds\Set::filter »](ds-set.filter.md)
+---
+navigation:
+  - ds-set.count.md: '« DsSet::count'
+  - ds-set.filter.md: 'ДсSet::filter »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::diff'
+---
+# ДсSet::diff
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Створює новий набір із елементами, яких немає в іншому наборі
+(PECL ds >= 1.0.0)
 
-# Ds\Set::diff
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::diff — Створює новий набір з елементами, яких немає в іншому
-наборі
+ДсSet::diff — Створює новий набір з елементами, яких немає в іншому наборі
 
 ### Опис
 
-public **Ds\Set::diff**([Ds\Set](class.ds-set.md) `$set`):
-[Ds\Set](class.ds-set.md)
+```methodsynopsis
+public Ds\Set::diff(Ds\Set $set): Ds\Set
+```
 
 Створює новий набір із елементами, яких немає в іншому наборі.
 
-`A\B = {x ∈ A | x ∉ B}`
+`A \ B = {x ∈ A | x ∉ B}`
 
 ### Список параметрів
 
 `set`
+
 Набір містить елементи, які треба виключити з нового набору.
 
 ### Значення, що повертаються
 
-Новий набір, що містить всі елементи, які є в поточному наборі
-відсутні в переданому `set`.
+Новий набір, що містить усі елементи, які є в поточному наборі та відсутні в переданому `set`
 
 ### Дивіться також
 
-- [»Різниця множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на
-Вікіпедія
+-   [» Різниця множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання**Ds\Set::diff()****
+**Приклад #1 Приклад використання**ДсSet::diff()\*\*\*\*
 
-` <?php$a = new \Ds\Set([1, 2, 3]);$b = new \Ds\Set([3, 4, 5]);var_dump($a->diff($b ));?> `
+```php
+<?php
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set([3, 4, 5]);
+
+var_dump($a->diff($b));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Set)#3 (2) {
-[0]=>
-int(1)
-[1]=>
-int(2)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
 }
+```

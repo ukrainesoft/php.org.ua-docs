@@ -1,10 +1,11 @@
-- [« Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md)
-- [Imagick::getImageIterations »](imagick.getimageiterations.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає метод інтерполяції
-
+---
+navigation:
+  - imagick.getimageinterlacescheme.md: '« Imagick::getImageInterlaceScheme'
+  - imagick.getimageiterations.md: 'Imagick::getImageIterations »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageInterpolateMethod'
+---
 # Imagick::getImageInterpolateMethod
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,10 +14,11 @@ Imagick::getImageInterpolateMethod — Повертає метод інтерп�
 
 ### Опис
 
-public **Imagick::getImageInterpolateMethod**(): int
+```methodsynopsis
+public Imagick::getImageInterpolateMethod(): int
+```
 
-Повертає метод інтерполяції для вказаного зображення. Метод є
-однією з констант **`Imagick::INTERPOLATE_*`**.
+Повертає метод інтерполяції для вказаного зображення. Метод є однією з констант **`Imagick::INTERPOLATE_*`**
 
 ### Список параметрів
 

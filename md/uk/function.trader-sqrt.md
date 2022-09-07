@@ -1,29 +1,31 @@
-- [ trader_sma](function.trader-sma.md)
-- [trader_stddev »](function.trader-stddev.md)
+---
+navigation:
+  - function.trader-sma.md: « tradersma
+  - function.trader-stddev.md: traderstddev »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersqrt
+---
+# tradersqrt
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Векторний квадратний корінь
+(PECL trader >= 0.2.0)
 
-#trader_sqrt
-
-(PECL trader \>= 0.2.0)
-
-trader_sqrt — векторний квадратний корінь
+tradersqrt — векторний квадратний корінь
 
 ### Опис
 
-**trader_sqrt**(array `$real`): array
+```methodsynopsis
+trader_sqrt(array $real): array
+```
 
-Обчислює векторний квадратний корінь для кожного значення в `real` та
-повертає результуючий масив.
+Обчислює векторний квадратний корінь для кожного значення `real` та повертає результуючий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,10 +1,11 @@
-- [« Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.md)
-- [Imagick::setImageUnits »](imagick.setimageunits.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює тип зображення
-
+---
+navigation:
+  - imagick.setimagetickspersecond.md: '« Imagick::setImageTicksPerSecond'
+  - imagick.setimageunits.md: 'Imagick::setImageUnits »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageType'
+---
 # Imagick::setImageType
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::setImageType — Встановлює тип зображення
 
 ### Опис
 
-public **Imagick::setImageType**(int `$image_type`): bool
+```methodsynopsis
+public Imagick::setImageType(int $image_type): bool
+```
 
 Встановлює тип зображення.
 
@@ -23,4 +26,4 @@ public **Imagick::setImageType**(int `$image_type`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

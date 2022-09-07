@@ -1,26 +1,28 @@
-- [« SplSubject::detach](splsubject.detach.md)
-- [Потоки »](book.stream.md)
-
-- [PHP Manual](index.md)
-- [SplSubject](class.splsubject.md)
-- повідомити спостерігача
-
+---
+navigation:
+  - splsubject.detach.md: '« SplSubject::detach'
+  - book.stream.md: Потоки »
+  - index.md: PHP Manual
+  - class.splsubject.md: SplSubject
+title: 'SplSubject::notify'
+---
 # SplSubject::notify
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplSubject::notify — Повідомити спостерігача
 
 ### Опис
 
-public **SplSubject::notify**(): void
+```methodsynopsis
+public SplSubject::notify(): void
+```
 
 Надсилає повідомлення всім приєднаним спостерігачам.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

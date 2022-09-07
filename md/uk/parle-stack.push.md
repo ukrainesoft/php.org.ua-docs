@@ -1,25 +1,27 @@
-- [« Parle\Stack::pop](parle-stack.pop.md)
-- [Parle\Token »](class.parle-token.md)
+---
+navigation:
+  - parle-stack.pop.md: '« ParleStack::pop'
+  - class.parle-token.md: ParleToken »
+  - index.md: PHP Manual
+  - class.parle-stack.md: ParleStack
+title: 'ParleStack::push'
+---
+# ParleStack::push
 
-- [PHP Manual](index.md)
-- [Parle\Stack](class.parle-stack.md)
-- Поміщає елемент у стек
+(PECL parle >= 0.5.1)
 
-# Parle\Stack::push
-
-(PECL parle \>= 0.5.1)
-
-Parle\Stack::push — Поміщає елемент у стек
+ParleStack::push — Поміщає елемент у стек
 
 ### Опис
 
-public
-**Parle\Stack::push**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$item`): void
+```methodsynopsis
+public Parle\Stack::push(mixed $item): void
+```
 
 ### Список параметрів
 
 `item`
+
 Змінна, яку необхідно помістити у стек
 
 ### Значення, що повертаються

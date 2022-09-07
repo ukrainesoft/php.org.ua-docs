@@ -1,25 +1,29 @@
-- [« Parle\RParser::errorInfo](parle-rparser.errorinfo.md)
-- [Parle\RParser::nonassoc »](parle-rparser.nonassoc.md)
+---
+navigation:
+  - parle-rparser.errorinfo.md: '« ParleRParser::errorInfo'
+  - parle-rparser.nonassoc.md: 'ParleRParser::nonassoc »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
+title: 'ParleRParser::left'
+---
+# ParleRParser::left
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Оголошує токен з лівою асоціативністю
+(PECL parle >= 0.7.0)
 
-# Parle\RParser::left
-
-(PECL parle \>= 0.7.0)
-
-Parle\RParser::left — Оголошує токен з лівою асоціативністю
+ParleRParser::left — Оголошує токен з лівою асоціативністю
 
 ### Опис
 
-public **Parle\RParser::left**(string `$tok`): void
+```methodsynopsis
+public Parle\RParser::left(string $tok): void
+```
 
-Оголошує термінал із лівою асоціативністю.
+Оголошує термінал з лівою асоціативністю.
 
 ### Список параметрів
 
 `tok`
+
 Ім'я токена.
 
 ### Значення, що повертаються

@@ -1,20 +1,22 @@
-- [«UI\Controls\Entry::getText](ui-controls-entry.gettext.md)
-- [UI\Controls\Entry::onChange »](ui-controls-entry.onchange.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Entry](class.ui-controls-entry.md)
-- Визначити, чи є елемент лише для читання
-
-# UI\Controls\Entry::isReadOnly
+---
+navigation:
+  - ui-controls-entry.gettext.md: '« UIControlsEntry::getText'
+  - ui-controls-entry.onchange.md: 'ОЙControlsEntry::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.md: ОЙControlsEntry
+title: 'ОЙControlsEntry::isReadOnly'
+---
+# ОЙControlsEntry::isReadOnly
 
 (UI 0.9.9)
 
-UI\Controls\Entry::isReadOnly — Визначити, чи елемент є тільки
-для читання
+ОЙControlsEntry::isReadOnly — Визначити, чи є елемент лише для читання
 
 ### Опис
 
-public **UI\Controls\Entry::isReadOnly**(): bool
+```methodsynopsis
+public UI\Controls\Entry::isReadOnly(): bool
+```
 
 Визначає, чи керуючий елемент "Введення" тільки для читання
 

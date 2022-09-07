@@ -1,10 +1,11 @@
-- [«sqrt](function.sqrt.md)
-- [tan »](function.tan.md)
-
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Змінює початкове число генератора псевдовипадкових чисел
-
+---
+navigation:
+  - function.sqrt.md: « sqrt
+  - function.tan.md: tan »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: srand
+---
 # srand
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,43 +14,51 @@ srand - Змінює початкове число генератора псев
 
 ### Опис
 
-**srand**(int `$seed` = 0, int `$mode` = **`MT_RAND_MT19937`**): void
+```methodsynopsis
+srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
+```
 
-Встановлює початкове число генератора випадкових чисел, що дорівнює `seed`
-або випадковому числу, якщо `seed` дорівнює `0`.
+Встановлює початкове число генератора випадкових чисел рівним `seed` або випадковому числу, якщо `seed` дорівнює `0`
 
-> **Примітка**: Немає необхідності ініціалізувати генератор випадкових
-> чисел функціями **srand()** або [mt_srand()](function.mt-srand.md),
-> оскільки це відбувається автоматично.
+> **Зауваження**: Немає необхідності ініціалізувати генератор випадкових чисел функціями **srand()** або [мтsrand()](function.mt-srand.md)оскільки це відбувається автоматично.
 
-> **Примітка**: Починаючи з PHP 7.1.0, **srand()** стала синонімом
-> функції [mt_srand()](function.mt-srand.md).
+> **Зауваження**: Починаючи з PHP 7.1.0, **srand()** стала синонімом функції [мтsrand()](function.mt-srand.md)
 
 ### Список параметрів
 
 `seed`
+
 Довільне ціле чисельне (int) початкове значення генератора
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 7.1.0  | **srand()** [стала синонімом](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) функції [mt_srand()](function.mt-srand.md). |
+| Версия | Описание |
+| --- | --- |
+|  | **srand()** [стала синонимом](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) функції [мтsrand()](function.mt-srand.md) |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **srand()****
 
-`<?php// рандомізувати мікросекундамиfunction make_seed(){    list($usec, $sec) = explode(' ', microtime()); return $sec + $usec * 1000000;}srand(make_seed());$randval==rand();?> `
+```php
+<?php
+// рандомизировать микросекундами
+function make_seed()
+{
+    list($usec, $sec) = explode(' ', microtime());
+    return $sec + $usec * 1000000;
+}
+srand(make_seed());
+$randval = rand();
+?>
+```
 
 ### Дивіться також
 
-- [rand()](function.rand.md) - Генерує випадкове число
-- [getrandmax()](function.getrandmax.md) - Повертає максимально
-можливе випадкове число
-- [mt_srand()](function.mt-srand.md) - Проініціалізує генератор
-випадкових чисел на базі Вихря Мерсенна
+-   [rand()](function.rand.md) - Генерує випадкове число
+-   [getrandmax()](function.getrandmax.md) - Повертає максимально можливе випадкове число
+-   [мтsrand()](function.mt-srand.md) - Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна

@@ -1,85 +1,75 @@
-- [« MongoDB\BSON\MinKey::unserialize](mongodb-bson-minkey.unserialize.md)
-- [MongoDB\BSON\ObjectId::\_\_construct »](mongodb-bson-objectid.construct.md)
+---
+navigation:
+  - mongodb-bson-minkey.unserialize.md: '« MongoDBBSONMinKey::unserialize'
+  - mongodb-bson-objectid.construct.md: 'MongoDBBSONObjectId::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONObjectId
+---
+# Клас MongoDBBSONObjectId
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Клас MongoDB\BSON\ObjectId
-
-# Клас MongoDB\BSON\ObjectId
-
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
-Тип BSON для
-[» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid).
-Значення складається з 12 байтів, де перші чотири байти є міткою
-часу, що відображає створення ObjectId. Зокрема, значення
-складається з:
+Тип BSON для [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid). Значення складається з 12 байтів, де перші чотири байти є міткою часу, що відбиває створення ObjectId. Зокрема, значення складається з:
 
-- 4-байтове значення, що становить секунди з початку епохи Unix,
-- 5-байтове випадкове число, унікальне для машини та процесу, та
-- 3-байтовий лічильник, що починається з випадкового значення.
+-   4-байтове значення, що становить секунди з початку епохи Unix,
+-   5-байтове випадкове число, унікальне для машини та процесу, та
+-   3-байтовий лічильник, що починається з випадкового значення.
 
-У MongoDB кожен документ, який зберігається в колекції, вимагає унікального
-поля `_id`, що діє як первинний ключ. Якщо у вставленому
-документі пропущено поле `_id`, драйвер автоматично створює ObjectId
-для поля `_id`.
+У MongoDB кожен документ, який зберігається в колекції, вимагає унікального поля `_id`що діє як первинний ключ. Якщо у вставленому документі пропущено поле `_id`, драйвер автоматично створює ObjectId для поля `_id`
 
-Використання ObjectIds для поля `_id` забезпечує наступні
-додаткові переваги:
+Використання ObjectIds для поля `_id` забезпечує наступні додаткові переваги:
 
-- Час створення ObjectId можна отримати за допомогою методу
-[MongoDB\BSON\ObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.md).
-- Сортування по полю `_id`, у якому зберігаються значення ObjectId,
-приблизно еквівалентна сортуванню за часом створення.
+-   Час створення ObjectId можна отримати за допомогою методу [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.md)
+-   Сортування по полю `_id`, В якому зберігаються значення ObjectId, приблизно еквівалентна сортуванню за часом створення.
 
 ## Огляд класів
 
-final class **MongoDB\BSON\ObjectId** implements
-[MongoDB\BSON\ObjectIdInterface](class.mongodb-bson-objectidinterface.md),
-[MongoDB\BSON\Type](class.mongodb-bson-type.md),
-[Serializable](class.serializable.md),
-[JsonSerializable](class.jsonserializable.md),
-[Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[\_\_construct](mongodb-bson-objectid.construct.md)(string `$id` = ?)
+    
+    
+     final
+     
+      class MongoDB\BSON\ObjectId
+     
 
-final public [getTimestamp](mongodb-bson-objectid.gettimestamp.md)():
-int
+     implements 
+       MongoDB\BSON\ObjectIdInterface,  MongoDB\BSON\Type,  Serializable,  JsonSerializable,  Stringable {
+    
 
-final public
-[jsonSerialize](mongodb-bson-objectid.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   final public __construct(?string $id = null)
+final public getTimestamp(): int
+final public jsonSerialize(): mixed
+final public serialize(): string
+final public __toString(): string
+final public unserialize(string $serialized): void
 
-final public [serialize](mongodb-bson-objectid.serialize.md)(): string
+   }
+```
 
-final public [\_\_toString](mongodb-bson-objectid.tostring.md)():
-string
+## список змін
 
-final public
-[unserialize](mongodb-bson-objectid.unserialize.md)(string
-`$serialized`): void
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 |  |
+| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |  |
 
-}
+Реалізує інтерфейс [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.md)
 
-## Список змін
-
-[TABLE]
+| | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
 
 ## Зміст
- - [MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md)
-- Створює новий ObjectId
-- [MongoDB\BSON\ObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.md)
-— Повертає позначку часу ObjectId
-- [MongoDB\BSON\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md)
-— Повертає уявлення, яке можна перетворити на JSON
-- [MongoDB\BSON\ObjectId::serialize](mongodb-bson-objectid.serialize.md)
-- Серіалізує ObjectId
-- [MongoDB\BSON\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.md)
-— Повертає шістнадцяткову виставу ObjectId
-- [MongoDB\BSON\ObjectId::unserialize](mongodb-bson-objectid.unserialize.md)
-- Десеріалізує ObjectId
+
+-   [MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.md) - Створює новий ObjectId
+-   [MongoDBBSONObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.md) — Повертає позначку часу ObjectId
+-   [MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.md) - Серіалізує ObjectId
+-   [MongoDBBSONObjectId::toString](mongodb-bson-objectid.tostring.md) — Повертає шістнадцяткову виставу ObjectId
+-   [MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.md) - Десеріалізує ObjectId

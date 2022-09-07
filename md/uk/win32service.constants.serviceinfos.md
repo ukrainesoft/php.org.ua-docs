@@ -1,33 +1,33 @@
-- [« Дії при відновленні Win32](win32service.constants.recovery-action.md)
-- [Win32ServiceException »](class.win32serviceexception.md)
-
-- [PHP Manual](index.md)
-- [Предвизначені константи](win32service.constants.md)
-- Win32 Service informations
-
-| Константа Значення             | Опис                    |
-| ------------------------------ | ----------------------- |
-| **WIN32_INFO_SERVICE**         | "Сервіс"                |                         
-| **WIN32_INFO_DISPLAY**         | "Display"               |
-| **WIN32_INFO_USER**            | "user"                  |
-| **WIN32_INFO_PASSWORD**        | "password"              |
-| **WIN32_INFO_PATH**            | "path"                  |
-| **WIN32_INFO_PARAMS**          | "params"                |
-| **WIN32_INFO_DESCRIPTION**     | "Description"           |
-| **WIN32_INFO_START_TYPE**      | "start_type"            |
-| **INFO_LOAD_ORDER**            | "load_order"            |
-| **INFO_SVC_TYPE**              | "svc_type"              |
-| **INFO_ERROR_CONTROL**         | "error_control"         |
-| **INFO_DELAYED_START**         | "delayed_start"         |
-| **INFO_BASE_PRIORITY**         | "base_priority"         |
-| **INFO_DEPENDENCIES**          | "dependencies"          |
-| **INFO_RECOVERY_DELAY**        | "recovery_delay"        |
-| **INFO_RECOVERY_ACTION_1**     | "recovery_action_1"     |
-| **INFO_RECOVERY_ACTION_2**     | "recovery_action_2"     |
-| **INFO_RECOVERY_ACTION_3**     | "recovery_action_3"     |
-| **INFO_RECOVERY_RESET_PERIOD** | "recovery_reset_period" |
-| **INFO_RECOVERY_ENABLED**      | "recovery_enabled"      |
-| **INFO_RECOVERY_REBOOT_MSG**   | "recovery_reboot_msg"   |
-| **INFO_RECOVERY_COMMAND**      | "recovery_command"      |
-
+---
+navigation:
+  - win32service.constants.recovery-action.md: « Действия при восстановлении Win32
+  - class.win32serviceexception.md: Win32ServiceException »
+  - index.md: PHP Manual
+  - win32service.constants.md: Обумовлені константи
+---
 **Win32 Service informations**
+
+| Константа | Значение | Описание |
+| --- | --- | --- |
+| **`WIN32_INFO_SERVICE`** | "service" |  |
+| **`WIN32_INFO_DISPLAY`** | "display" |  |
+| **`WIN32_INFO_USER`** | "user" |  |
+| **`WIN32_INFO_PASSWORD`** | "password" |  |
+| **`WIN32_INFO_PATH`** | "path" |  |
+| **`WIN32_INFO_PARAMS`** | "params" |  |
+| **`WIN32_INFO_DESCRIPTION`** | "description" |  |
+| **`WIN32_INFO_START_TYPE`** | "starttype" |  |
+| **`INFO_LOAD_ORDER`** | "loadorder" |  |
+| **`INFO_SVC_TYPE`** | "svctype" |  |
+| **`INFO_ERROR_CONTROL`** | "errorcontrol" |  |
+| **`INFO_DELAYED_START`** | "delayedstart" |  |
+| **`INFO_BASE_PRIORITY`** | "basepriority" |  |
+| **`INFO_DEPENDENCIES`** | "dependencies" |  |
+| **`INFO_RECOVERY_DELAY`** | "recoverydelay" |  |
+| **`INFO_RECOVERY_ACTION_1`** | "recoveryaction1" |  |
+| **`INFO_RECOVERY_ACTION_2`** | "recoveryaction2" |  |
+| **`INFO_RECOVERY_ACTION_3`** | "recoveryaction3" |  |
+| **`INFO_RECOVERY_RESET_PERIOD`** | "recoveryresetperiod" |  |
+| **`INFO_RECOVERY_ENABLED`** | "recoveryenabled" |  |
+| **`INFO_RECOVERY_REBOOT_MSG`** | "recoveryrebootmsg" |  |
+| **`INFO_RECOVERY_COMMAND`** | "recoverycommand" |  |

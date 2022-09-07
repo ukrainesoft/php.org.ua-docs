@@ -1,52 +1,63 @@
-- [« EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.md)
-- [EventConfig »](class.eventconfig.md)
+---
+navigation:
+  - eventbufferevent.writebuffer.md: '« EventBufferEvent::writeBuffer'
+  - class.eventconfig.md: EventConfig »
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Про callback-функції подієвого буфера
+---
+# Про callback-функції подієвого буфера
 
-- [PHP Manual](index.md)
-- [Event](book.event.md)
-- Про callback-функції подійного буфера
+Об'єкт класу [EventBufferEvent](class.eventbufferevent.md) представляє *буфер подій*. Асинхронна природа введення/виводу Libevent передбачає, що сокет (або якийсь інший файловий дескриптор) не завжди доступний. Модуль викликає відповідні callback-функції, коли ресурс готовий до читання або запису, або коли відбулася якась подія (наприклад, помилка, або кінець файлу тощо).
 
-# Про callback-функції подійного буфера
+Callback-функції читання та запису повинні відповідати наступному прототипу:
 
-Об'єкт класу [EventBufferEvent](class.eventbufferevent.md)
-представляє * подійний буфер *. Асинхронна природа введення/виводу
-виконуваного Libevent має на увазі, що сокет (або який інший
-файловий дескриптор) не завжди доступний. Модуль викликає відповідні
-callback-функції коли ресурс готовий до читання чи запису, або коли
-сталася якась подія (наприклад, помилка, або кінець файлу тощо).
-
-Callback-функції читання та запису повинні відповідати наступному
-прототипу:
-
-**callback**( [EventBufferEvent](class.eventbufferevent.md) `$bev` =
-**`null`** ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = **`null`** ): void
+```methodsynopsis
+callback(
+   EventBufferEvent
+     $bev
+     = null
+  , 
+   mixed
+     $arg
+     = null
+  ): void
+```
 
 `bev`
-Пов'язаний об'єкт [EventBufferEvent](class.eventbufferevent.md).
+
+Пов'язаний об'єкт [EventBufferEvent](class.eventbufferevent.md)
 
 `arg`
-Дані користувача прив'язані до всіх callback-функцій через
-[EventBufferEvent::\_\_construct()](eventbufferevent.construct.md) або
-[EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.md) .
+
+Дані користувача прив'язані до всіх callback-функцій через [EventBufferEvent::construct()](eventbufferevent.construct.md) або [EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.md)
 
 Callback-функції подій повинні відповідати наступному прототипу:
 
-**callback**( [EventBufferEvent](class.eventbufferevent.md) `$bev` =
-**`null`** , int `$events` = 0 ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = **`null`** ): void
+```methodsynopsis
+callback(
+   EventBufferEvent
+     $bev
+     = null
+  , 
+   int
+     $events
+     = 0
+  , 
+   mixed
+     $arg
+     = null
+  ): void
+```
 
 `bev`
-Пов'язаний об'єкт [EventBufferEvent](class.eventbufferevent.md).
+
+Пов'язаний об'єкт [EventBufferEvent](class.eventbufferevent.md)
 
 `events`
-Бітова маска подій: **`EventBufferEvent::READING`** ,
-**`EventBufferEvent::WRITING`** , **`EventBufferEvent::EOL`** ,
-**`EventBufferEvent::ERROR`** та **`EventBufferEvent::TIMEOUT`** .
-Дивіться [Константи EventBufferEvent](class.eventbufferevent.md#eventbufferevent.constants)
+
+Бітова маска подій: **`EventBufferEvent::READING`** **`EventBufferEvent::WRITING`** **`EventBufferEvent::EOL`** **`EventBufferEvent::ERROR`** і **`EventBufferEvent::TIMEOUT`** . Дивіться [Константи EventBufferEvent](class.eventbufferevent.md#eventbufferevent.constants)
 
 `arg`
-Дані користувача прив'язані до всіх callback-функцій через
-[EventBufferEvent::\_\_construct()](eventbufferevent.construct.md) або
-[EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.md) .
+
+Дані користувача прив'язані до всіх callback-функцій через [EventBufferEvent::construct()](eventbufferevent.construct.md) або [EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.md)

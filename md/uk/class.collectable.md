@@ -1,13 +1,14 @@
-- [« Worker::unstack](worker.unstack.md)
-- [Collectable::isGarbage »](collectable.isgarbage.md)
-
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
-- Інтерфейс Collectable
-
+---
+navigation:
+  - worker.unstack.md: '« Worker::unstack'
+  - collectable.isgarbage.md: 'Collectable::isGarbage »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Інтерфейс Collectable
+---
 # Інтерфейс Collectable
 
-(PECL pthreads \>= 2.0.8)
+(PECL pthreads >= 2.0.8)
 
 ## Вступ
 
@@ -15,15 +16,23 @@
 
 ## Огляд інтерфейсів
 
-interface **Collectable** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [isGarbage](collectable.isgarbage.md)(): bool
+    
+    
+     
+      interface Collectable {
+    
 
-}
+    /* Методы */
+    
+   public isGarbage(): bool
+
+
+   }
+```
 
 ## Зміст
 
-- [Collectable::isGarbage](collectable.isgarbage.md) — Визначає,
-чи позначений об'єкт як сміття
+-   [Collectable::isGarbage](collectable.isgarbage.md) — Визначає, чи позначений об'єкт як сміття

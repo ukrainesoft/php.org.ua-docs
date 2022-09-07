@@ -1,21 +1,22 @@
-- [« Типи ресурсів](pcntl.resources.md)
-- [Приклади »](pcntl.examples.md)
+---
+navigation:
+  - pcntl.resources.md: « Типи ресурсів
+  - pcntl.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.pcntl.md: PCNTL
+title: Обумовлені константи
+---
+# Обумовлені константи
 
-- [PHP Manual](index.md)
-- [PCNTL](book.pcntl.md)
-- Обумовлені константи
+Функції управління процесами підтримують наступний список сигналів. Для детального ознайомлення зі стандартною поведінкою цих сигналів зверніться до системного посібника signal(7).
 
-# Зумовлені константи
-
-Функції Керування процесами підтримують наступний перелік сигналів.
-Для детального ознайомлення зі стандартною поведінкою цих сигналів
-будь ласка, зверніться до системного посібника signal(7).
+**Константи управління процесом**
 
 **`WNOHANG`** (int)
 
 **`WUNTRACED`** (int)
 
-
+**Константи SIG**
 
 **`SIG_IGN`** (int)
 
@@ -117,7 +118,7 @@
 
 **`SI_TKILL`** (int)
 
-
+**Константи CLD**
 
 **`CLD_EXITED`** (int)
 
@@ -131,7 +132,7 @@
 
 **`CLD_CONTINUED`** (int)
 
-
+**Константи TRAP**
 
 **`TRAP_BRKPT`** (int)
 
@@ -149,7 +150,7 @@
 
 **`POLL_HUP`** (int)
 
-
+**Константи ILL**
 
 **`ILL_ILLOPC`** (int)
 
@@ -167,7 +168,7 @@
 
 **`ILL_BADSTK`** (int)
 
-
+**Константи FPE**
 
 **`FPE_INTDIV`** (int)
 
@@ -185,13 +186,13 @@
 
 **`FPE_FLTSUB`** (int)
 
-
+**Константи SEGV**
 
 **`SEGV_MAPERR`** (int)
 
 **`SEGV_ACCERR`** (int)
 
-
+**Константи BUS**
 
 **`BUS_ADRALN`** (int)
 
@@ -199,25 +200,48 @@
 
 **`BUS_OBJERR`** (int)
 
-
+**Константи CLONE**
 
 **`CLONE_NEWNS`** (int)
+
 Доступно, починаючи з PHP 7.4.0
 
 **`CLONE_NEWIPC`** (int)
+
 Доступно, починаючи з PHP 7.4.0
 
 **`CLONE_NEWUTS`** (int)
+
 Доступно, починаючи з PHP 7.4.0
 
 **`CLONE_NEWNET`** (int)
+
 Доступно, починаючи з PHP 7.4.0
 
 **`CLONE_NEWPID`** (int)
+
 Доступно, починаючи з PHP 7.4.0
 
 **`CLONE_NEWUSER`** (int)
+
 Доступно, починаючи з PHP 7.4.0
 
 **`CLONE_NEWCGROUP`** (int)
+
 Доступно, починаючи з PHP 7.4.0
+
+**Константи PRIO**
+
+**`PRIO_PGRP`** (int)
+
+**`PRIO_USER`** (int)
+
+**`PRIO_PROCESS`** (int)
+
+**`PRIO_DARWIN_BG`** (int)
+
+Доступно з PHP 8.1.0.
+
+**`PRIO_DARWIN_THREAD`** (int)
+
+Доступно з PHP 8.1.0.

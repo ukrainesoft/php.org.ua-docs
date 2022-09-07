@@ -1,36 +1,35 @@
-- [« Swoole\Async::write](swoole-async.write.md)
-- [Swoole\Atomic »](class.swoole-atomic.md)
+---
+navigation:
+  - swoole-async.write.md: '« SwooleAsync::write'
+  - class.swoole-atomic.md: SwooleAtomic »
+  - index.md: PHP Manual
+  - class.swoole-async.md: SwooleAsync
+title: 'SwooleAsync::writeFile'
+---
+# SwooleAsync::writeFile
 
-- [PHP Manual](index.md)
-- [Swoole\Async](class.swoole-async.md)
-- Опис
+(PECL swoole >= 1.9.0)
 
-# Swoole\Async::writeFile
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Async::writeFile — Опис
+SwooleAsync::writeFile — Опис
 
 ### Опис
 
-public static **Swoole\Async::writeFile**(
-string `$filename`,
-string `$content`,
-[callable](language.types.callable.md) `$callback` = ?,
-string `$flags` = ?
-): void
+```methodsynopsis
+public static Swoole\Async::writeFile(    string $filename,    string $content,    callable $callback = ?,    string $flags = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `filename`
+
 Назва файлу для запису.
 
 `content`
+
 Зміст для запису файлу.
 
 `callback`

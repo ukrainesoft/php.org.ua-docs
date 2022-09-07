@@ -1,20 +1,22 @@
-- [« MongoDB\Driver\ServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.md)
-- [MongoDB\Driver\ServerDescription::getRoundTripTime »](mongodb-driver-serverdescription.getroundtriptime.md)
+---
+navigation:
+  - mongodb-driver-serverdescription.getlastupdatetime.md: '« MongoDBDriverServerDescription::getLastUpdateTime'
+  - mongodb-driver-serverdescription.getroundtriptime.md: 'MongoDBDriverServerDescription::getRoundTripTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getPort'
+---
+# MongoDBDriverServerDescription::getPort
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-- Повертає порт, на якому прослуховується цей сервер
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\ServerDescription::getPort
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\ServerDescription::getPort — Повертає порт, на якому
-прослуховується цей сервер
+MongoDBDriverServerDescription::getPort — Повертає порт, на якому прослуховується цей сервер
 
 ### Опис
 
-final public **MongoDB\Driver\ServerDescription::getPort**(): int
+```methodsynopsis
+final public MongoDB\Driver\ServerDescription::getPort(): int
+```
 
 Повертає порт, на якому прослуховується сервер.
 
@@ -28,10 +30,8 @@ final public **MongoDB\Driver\ServerDescription::getPort**(): int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getPort()](mongodb-driver-server.getport.md) -
-Повертає порт, який слухає сервер
+-   [MongoDBDriverServer::getPort()](mongodb-driver-server.getport.md) - Повертає порт, який слухає сервер

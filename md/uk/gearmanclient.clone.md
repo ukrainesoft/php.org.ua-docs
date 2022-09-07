@@ -1,23 +1,24 @@
-- [« GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.md)
-- [GearmanClient::\_\_construct »](gearmanclient.construct.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Створити копію об'єкта GearmanClient
-
+---
+navigation:
+  - gearmanclient.clearcallbacks.md: '« GearmanClient::clearCallbacks'
+  - gearmanclient.construct.md: 'GearmanClient::construct »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::clone'
+---
 # GearmanClient::clone
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanClient::clone — Створити копію об'єкта
-[GearmanClient](class.gearmanclient.md)
+GearmanClient::clone — Створити копію об'єкта [GearmanClient](class.gearmanclient.md)
 
 ### Опис
 
-public **GearmanClient::clone**():
-[GearmanClient](class.gearmanclient.md)
+```methodsynopsis
+public GearmanClient::clone(): GearmanClient
+```
 
-Створює копію об'єкта [GearmanClient](class.gearmanclient.md).
+Створює копію об'єкта [GearmanClient](class.gearmanclient.md)
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **GearmanClient::clone**():
 
 ### Значення, що повертаються
 
-[GearmanClient](class.gearmanclient.md) у разі успішного виконання,
-**`false`** у разі невдачі.
+[GearmanClient](class.gearmanclient.md) у разі успішного виконання, **`false`** у разі невдачі.

@@ -1,45 +1,66 @@
-- [«curl_copy_handle](function.curl-copy-handle.md)
-- [curl_error »](function.curl-error.md)
+---
+navigation:
+  - function.curl-copy-handle.md: « curlcopyhandle
+  - function.curl-error.md: curlerror »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlerrno
+---
+# curlerrno
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Повертає код останньої помилки
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-#curl_errno
-
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
-
-curl_errno — Повертає код останньої помилки
+curlerrno — Повертає код останньої помилки
 
 ### Опис
 
-**curl_errno**([CurlHandle](class.curlhandle.md) `$handle`): int
+```methodsynopsis
+curl_errno(CurlHandle $handle): int
+```
 
-Повертає код помилки останньої операції CURL.
+Повертає код помилки останньої операції cURL.
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
 Повертає номер помилки або `0` (нуль), якщо помилки не сталося.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curl_errno()****
+**Приклад #1 Приклад використання **curlerrno()****
 
-`<?php// Створюємо дескриптор curl до неіснуючої адресу$ch = curl_init('http://404.php.net/');// Запускаємоcurl_setopt($ch, CURLOPT_RETURNTRANSFER, / Перевіряємо наявність помилкиif(curl_errno($ch)){    echo 'Помилка curl: ' . curl_error($ch);}// Закриваємо дескрипторcurl_close($ch);?> `
+```php
+<?php
+// Создаём дескриптор curl к несуществующему адресу
+$ch = curl_init('http://404.php.net/');
+
+// Запускаем
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_exec($ch);
+
+// Проверяем наличие ошибки
+if(curl_errno($ch))
+{
+    echo 'Ошибка curl: ' . curl_error($ch);
+}
+
+// Закрываем дескриптор
+curl_close($ch);
+?>
+```
 
 ### Дивіться також
 
-- [curl_error()](function.curl-error.md) - Повертає рядок з
-описом останньої помилки поточного сеансу
-- [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+-   [curlerror()](function.curl-error.md) - Повертає рядок із описом останньої помилки поточного сеансу
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

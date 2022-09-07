@@ -1,32 +1,35 @@
-- [«trader_ultosc](function.trader-ultosc.md)
-- [trader_wclprice »](function.trader-wclprice.md)
+---
+navigation:
+  - function.trader-ultosc.md: « traderultosc
+  - function.trader-wclprice.md: traderwclprice »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradervar
+---
+# tradervar
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Варіація
+(PECL trader >= 0.2.0)
 
-# trader_var
-
-(PECL trader \>= 0.2.0)
-
-trader_var - Варіація
+tradervar - Варіація
 
 ### Опис
 
-**trader_var**(array `$real`, int `$timePeriod` = ?, float `$nbDev` =
-?): array
+```methodsynopsis
+trader_var(array $real, int $timePeriod = ?, float $nbDev = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 `nbDev`
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

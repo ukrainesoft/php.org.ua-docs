@@ -1,32 +1,76 @@
-- [«Зумовлені константи](zlib.constants.md)
-- [Функції Zlib»](ref.zlib.md)
-
-- [PHP Manual](index.md)
-- [Zlib](book.zlib.md)
-- Приклади
-
+---
+navigation:
+  - zlib.constants.md: « Обумовлені константи
+  - ref.zlib.md: Функции Zlib »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
+title: Приклади
+---
 # Приклади
 
-У цьому прикладі відкривається тимчасовий файл, записується рядок, а
-потім двічі виводиться вміст.
+У цьому прикладі відкривається тимчасовий файл, записується рядок, а потім двічі виводиться вміст.
 
 **Приклад #1 Приклад використання Zlib**
 
-` <?php$filename = tempnam('/tmp', 'zlibtest') . '.gz';echo "<html>
-<head></head>
-<body>
-<pre>
-";$s = "Тільки тест, тест, тест, тест, тест, тест, тест, тест!
-";// Відкриття файлу для запису з максимальним стисненням$zp = gzopen($filename, "w9");// Запис рядки в файлgzwrite($zp, $s);// | файлу для читання $ zp = = gzopen ($ filename, "")"; ;echo "
-";// Відкриття файлу і виведення вмісту (у другий раз)if (readgzfile($filename) != strlen($s)) {     echo "Виникла помилка з| /pre>
-</body>
-</html>
-";?> `
+```php
+<?php
+
+$filename = tempnam('/tmp', 'zlibtest') . '.gz';
+echo "<html>\n<head></head>\n<body>\n<pre>\n";
+$s = "Только тест, тест, тест, тест, тест, тест, тест, тест!\n";
+
+// Открытие файла для записи с максимальным сжатием
+$zp = gzopen($filename, "w9");
+
+// Запись строки в файл
+gzwrite($zp, $s);
+
+// Закрытие файла
+gzclose($zp);
+
+// Открытие файла для чтения
+$zp = gzopen($filename, "r");
+
+// Чтение трёх символов
+echo gzread($zp, 3);
+
+// Вывод до конца файла, а затем закрытие файла
+gzpassthru($zp);
+gzclose($zp);
+
+echo "\n";
+
+// Открытие файла и вывод содержимого (во второй раз)
+if (readgzfile($filename) != strlen($s)) {
+     echo "Возникла ошибка с функциями zlib!";
+}
+unlink($filename);
+echo "</pre>\n</body>\n</html>\n";
+
+?>
+```
 
 **Приклад #2 Робота з API інкрементальної компресії та декомпресії**
 
-`<?php// Виконання компресії GZIP:$deflateContext = deflate_init(ZLIB_ENCODING_GZIP); ZLIB_NO_FLUSH);$compressed .= deflate_add($deflateContext, "и ещё больше данных!", ZLIB_FINISH);// Выполнение декомпрессии GZIP:$inflateContext = inflate_init(ZLIB_ENCODING_GZIP);$uncompressed = inflate_add($inflateContext, $compressed, ZLIB_NO_FLUSH) ;$uncompressed .= inflate_add($inflateContext, NULL, ZLIB_FINISH);echo $uncompressed;?> `
+```php
+<?php
+
+// Выполнение компрессии GZIP:
+$deflateContext = deflate_init(ZLIB_ENCODING_GZIP);
+$compressed = deflate_add($deflateContext, "Данные для сжатия", ZLIB_NO_FLUSH);
+$compressed .= deflate_add($deflateContext, ", больше данных", ZLIB_NO_FLUSH);
+$compressed .= deflate_add($deflateContext, "и ещё больше данных!", ZLIB_FINISH);
+
+// Выполнение декомпрессии GZIP:
+$inflateContext = inflate_init(ZLIB_ENCODING_GZIP);
+$uncompressed = inflate_add($inflateContext, $compressed, ZLIB_NO_FLUSH);
+$uncompressed .= inflate_add($inflateContext, NULL, ZLIB_FINISH);
+echo $uncompressed;
+?>
+```
 
 Результат виконання цього прикладу:
 
-Дані для стиснення, більше даних та ще більше даних!
+```
+Данные для сжатия, больше данных и ещё больше данных!
+```

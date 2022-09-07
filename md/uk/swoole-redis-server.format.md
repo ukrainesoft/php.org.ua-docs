@@ -1,25 +1,26 @@
-- [« Swoole\Redis\Server](class.swoole-redis-server.md)
-- [Swoole\Redis\Server::setHandler »](swoole-redis-server.sethandler.md)
+---
+navigation:
+  - class.swoole-redis-server.md: « SwooleRedisServer
+  - swoole-redis-server.sethandler.md: 'SwooleRedisServer::setHandler »'
+  - index.md: PHP Manual
+  - class.swoole-redis-server.md: SwooleRedisServer
+title: 'SwooleRedisServer::format'
+---
+# SwooleRedisServer::format
 
-- [PHP Manual](index.md)
-- [Swoole\Redis\Server](class.swoole-redis-server.md)
-- Опис
+(PECL swoole >= 1.9.0)
 
-# Swoole\Redis\Server::format
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Redis\Server::format — Опис
+SwooleRedisServer::format — Опис
 
 ### Опис
 
-public static **Swoole\Redis\Server::format**(string `$type`, string
-`$value` = ?): ReturnType
+```methodsynopsis
+public static Swoole\Redis\Server::format(string $type, string $value = ?): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

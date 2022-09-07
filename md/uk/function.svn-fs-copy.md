@@ -1,29 +1,26 @@
-- [« svn_fs_contents_changed](function.svn-fs-contents-changed.md)
-- [svn_fs_delete »](function.svn-fs-delete.md)
+---
+navigation:
+  - function.svn-fs-contents-changed.md: « svnфсcontentschanged
+  - function.svn-fs-delete.md: svnфсdelete »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсcopy
+---
+# svnфсcopy
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Копіює файл або директорію
+(PECL svn >= 0.2.0)
 
-# svn_fs_copy
-
-(PECL svn \>= 0.2.0)
-
-svn_fs_copy — Копіює файл або директорію
+svnфсcopy — Копіює файл або директорію
 
 ### Опис
 
-**svn_fs_copy**(
-resource `$from_root`,
-string `$from_path`,
-resource `$to_root`,
-string `$to_path`
-): bool
+```methodsynopsis
+svn_fs_copy(    resource $from_root,    string $from_path,    resource $to_root,    string $to_path): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Копіює файл або директорію.
 
@@ -39,13 +36,10 @@ string `$to_path`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Примітки
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

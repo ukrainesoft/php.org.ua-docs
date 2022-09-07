@@ -1,25 +1,26 @@
-- [« Swoole\Server::getClientInfo](swoole-server.getclientinfo.md)
-- [Swoole\Server::getLastError »](swoole-server.getlasterror.md)
+---
+navigation:
+  - swoole-server.getclientinfo.md: '« SwooleServer::getClientInfo'
+  - swoole-server.getlasterror.md: 'SwooleServer::getLastError »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::getClientList'
+---
+# SwooleServer::getClientList
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Отримує всі встановлені з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::getClientList
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::getClientList — Отримує всі встановлені з'єднання
+SwooleServer::getClientList — Отримує всі встановлені з'єднання
 
 ### Опис
 
-public **Swoole\Server::getClientList**(int `$start_fd`, int `$pagesize`
-= ?): array
+```methodsynopsis
+public Swoole\Server::getClientList(int $start_fd, int $pagesize = ?): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

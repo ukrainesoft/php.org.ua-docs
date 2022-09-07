@@ -1,24 +1,26 @@
-- [« ReflectionType::allowsNull](reflectiontype.allowsnull.md)
-- [ReflectionUnionType »](class.reflectionuniontype.md)
-
-- [PHP Manual](index.md)
-- [ReflectionType](class.reflectiontype.md)
-- Перетворення на рядок
-
-# ReflectionType::\_\_toString
+---
+navigation:
+  - reflectiontype.allowsnull.md: '« ReflectionType::allowsNull'
+  - class.reflectionuniontype.md: ReflectionUnionType »
+  - index.md: PHP Manual
+  - class.reflectiontype.md: ReflectionType
+title: 'ReflectionType::function toString() { \[native code\] }'
+---
+# ReflectionType::function toString() { \[native code\] }
 
 (PHP 7, PHP 8)
 
-ReflectionType::\_\_toString — Перетворення на рядок
+ReflectionType::toString — Перетворення на рядок
 
 **Увага**
 
-Ця функція оголошена *УСТАРШЕНОЮ*, починаючи з PHP 7.1.0. Використати
-цю функцію вкрай не рекомендується.
+Ця функція оголошена *застарілої*починаючи з PHP 7.1.0. Використовувати цю функцію вкрай не рекомендується.
 
 ### Опис
 
-public **ReflectionType::\_\_toString**(): string
+```methodsynopsis
+public ReflectionType::__toString(): string
+```
 
 Отримує назву типу параметра.
 
@@ -30,31 +32,36 @@ public **ReflectionType::\_\_toString**(): string
 
 Повертає тип параметра.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                      |
-| ------ | --------------------------------------------------------- |
-| 7.1.0  | **ReflectionType::\_\_toString()** оголошений застарілим. |
+| Версия | Описание |
+| --- | --- |
+|  | **ReflectionType::toString()** оголошено застарілим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionType::\_\_toString()****
+**Приклад #1 Приклад використання **ReflectionType::toString()****
 
-` <?phpfunction someFunction(string $param) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParam = $reflectionFunc->getParameters()[0];echo $reflection `
+```php
+<?php
+function someFunction(string $param) {}
+
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParam = $reflectionFunc->getParameters()[0];
+
+echo $reflectionParam->getType();
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string
+```
 
 ### Дивіться також
 
-- [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) -
-Отримує ім'я типу у вигляді рядка
-- [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) -
-Перевіряє, чи є тип вбудованим
-- [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) -
-Перевіряє, чи допустимо NULL
-- [ReflectionUnionType::getTypes()](reflectionuniontype.gettypes.md) -
-Повертає типи, включені до типу union
-- [ReflectionParameter::getType()](reflectionparameter.gettype.md) -
-Отримати тип параметра
+-   [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) - Отримує ім'я типу у вигляді рядка
+-   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) - Перевіряє, чи є тип вбудованим
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
+-   [ReflectionUnionType::getTypes()](reflectionuniontype.gettypes.md) - Повертає типи, включені до типу union
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

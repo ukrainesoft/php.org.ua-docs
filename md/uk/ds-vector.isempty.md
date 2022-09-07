@@ -1,19 +1,22 @@
-- [« Ds\Vector::insert](ds-vector.insert.md)
-- [Ds\Vector::join »](ds-vector.join.md)
+---
+navigation:
+  - ds-vector.insert.md: '« DsVector::insert'
+  - ds-vector.join.md: 'ДсVector::join »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::isEmpty'
+---
+# ДсVector::isEmpty
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Перевіряє, чи порожній вектор
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::isEmpty
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::isEmpty — Перевіряє, чи порожній вектор
+ДсVector::isEmpty — Перевіряє, чи порожній вектор
 
 ### Опис
 
-public **Ds\Vector::isEmpty**(): bool
+```methodsynopsis
+public Ds\Vector::isEmpty(): bool
+```
 
 Перевіряє, чи вектор порожній.
 
@@ -23,15 +26,25 @@ public **Ds\Vector::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо вектор порожній, **`false`** інакше.
+Повертає **`true`**, якщо вектор порожній, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::isEmpty()****
+**Приклад #1 Приклад використання **ДсVector::isEmpty()****
 
-` <?php$a = new \Ds\Vector([1, 2, 3]);$b = new \Ds\Vector();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+```php
+<?php
+$a = new \Ds\Vector([1, 2, 3]);
+$b = new \Ds\Vector();
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

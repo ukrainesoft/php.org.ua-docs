@@ -1,80 +1,90 @@
-- [«imagecolorresolve](function.imagecolorresolve.md)
-- [imagecolorset »](function.imagecolorset.md)
+---
+navigation:
+  - function.imagecolorresolve.md: « imagecolorresolve
+  - function.imagecolorset.md: imagecolorset »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorresolvealpha
+---
+# imagecolorresolvealpha
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Отримує ідентифікатор конкретного кольору та альфа компонента або його
-найближчий аналог
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#imagecolorresolvealpha
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-imagecolorresolvealpha — Отримує ідентифікатор конкретного кольору та
-альфа компонента або його найближчий аналог
+imagecolorresolvealpha — Отримує ідентифікатор конкретного кольору та альфа компонента або його найближчий аналог
 
 ### Опис
 
-**imagecolorresolvealpha**(
-[GdImage](class.gdimage.md) `$image`,
-int `$red`,
-int `$green`,
-int `$blue`,
-int `$alpha`
-): int
+```methodsynopsis
+imagecolorresolvealpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
+```
 
-Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору,
-або найближчу можливу його альтернативу.
+Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору, або найближчу можливу альтернативу.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
+
 Значення червоного компонента кольору.
 
 `green`
+
 Значення зеленого компонента кольору.
 
 `blue`
+
 Значення синього компонента кольору.
 
 `alpha`
-Значення в діапазоні від `0` до `127`. `0` означає непрозорість, `127`
-означає абсолютну прозорість.
 
-Параметри кольору можуть бути цілими в діапазоні від 0 до 255,
-або шістнадцятковими в діапазоні від 0×00 до 0×FF.
+Значення в діапазоні від `0` до `127`. . `0` означає непрозорість, `127` означає абсолютну прозорість.
+
+Параметри кольору можуть бути цілими в діапазоні від 0 до 255, або шістнадцятковими в діапазоні від 0x00 до 0xFF.
 
 ### Значення, що повертаються
 
 Повертає індекс кольору.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecoloresolvealpha()** для
-отримання кольорів із зображення**
+**Приклад #1 Приклад використання **imagecoloresolvealpha()** для отримання квітів із зображення**
 
-` <?php// Завантаження зображення$im = imagecreatefromgif('phplogo.gif');// Отримання найближчих квітів$colors = array();$colors[] = imagecolorresolvealpha($im, 55 5 ;$colors[] = imagecolorresolvealpha($im, 0, 0, 200, 127);// Виведенняprint_r($colors);imagedestroy($im);?> `
+```php
+<?php
+// Загрузка изображения
+$im = imagecreatefromgif('phplogo.gif');
+
+// Получение ближайших цветов
+$colors = array();
+$colors[] = imagecolorresolvealpha($im, 255, 255, 255, 0);
+$colors[] = imagecolorresolvealpha($im, 0, 0, 200, 127);
+
+// Вывод
+print_r($colors);
+
+imagedestroy($im);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => 89
-[1] => 85
+    [0] => 89
+    [1] => 85
 )
+```
 
 ### Дивіться також
 
-- [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) -
-Отримання індексу кольору найближчого до заданого з урахуванням прозорості
+-   [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) - Отримання індексу кольору найближчого до заданого з урахуванням прозорості

@@ -1,26 +1,24 @@
-- [« SimpleXMLIterator::current](simplexmliterator.current.md)
-- [SimpleXMLIterator::hasChildren »](simplexmliterator.haschildren.md)
-
-- [PHP Manual](index.md)
-- [SimpleXMLIterator](class.simplexmliterator.md)
-- Повертає вкладені елементи поточного елемента
-
+---
+navigation:
+  - simplexmliterator.current.md: '« SimpleXMLIterator::current'
+  - simplexmliterator.haschildren.md: 'SimpleXMLIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::getChildren'
+---
 # SimpleXMLIterator::getChildren
 
 (PHP 5, PHP 7, PHP 8)
 
-SimpleXMLIterator::getChildren — Повертає вкладені елементи поточного
-елемента
+SimpleXMLIterator::getChildren — Повертає вкладені елементи поточного елемента
 
 ### Опис
 
-public **SimpleXMLIterator::getChildren**():
-[SimpleXMLIterator](class.simplexmliterator.md)
+```methodsynopsis
+public SimpleXMLIterator::getChildren(): SimpleXMLIterator
+```
 
-Цей метод повертає об'єкт
-[SimpleXMLIterator](class.simplexmliterator.md), що містить вкладені
-елементи поточного елемента
-[SimpleXMLIterator](class.simplexmliterator.md).
+Цей метод повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.md), що містить вкладені елементи поточного елемента [SimpleXMLIterator](class.simplexmliterator.md)
 
 ### Список параметрів
 
@@ -28,17 +26,36 @@ public **SimpleXMLIterator::getChildren**():
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.md),
-що містить вкладені елементи поточного елемента.
+Повертає об'єкт [SimpleXMLIterator](class.simplexmliterator.md)містить вкладені елементи поточного елемента.
 
 ### Приклади
 
 **Приклад #1 Повертає вкладені елементи поточного елемента**
 
-`<?php$xml = <<<<XML<books>    <book>        <title>Основи PHP</title>        <author>Джим Сміт</author> >>> books>XML;$xmlIterator==new SimpleXMLIterator($xml);for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {     foreach as $name => $data) {    echo "$name: '$data' з класу " . get_class($data) . "
-";    }}?> `
+```php
+<?php
+$xml = <<<XML
+<books>
+    <book>
+        <title>Основы PHP</title>
+        <author>Джим Смит</author>
+    </book>
+    <book>Основы XML</book>
+</books>
+XML;
+
+$xmlIterator = new SimpleXMLIterator($xml);
+for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
+    foreach($xmlIterator->getChildren() as $name => $data) {
+    echo "$name: '$data' из класса " . get_class($data) . "\n";
+    }
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-title: 'Основи PHP' з класу SimpleXMLIterator
-author: 'Джим Сміт' з класу SimpleXMLIterator
+```
+title: 'Основы PHP' из класса SimpleXMLIterator
+author: 'Джим Смит' из класса SimpleXMLIterator
+```

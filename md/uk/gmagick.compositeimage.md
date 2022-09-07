@@ -1,40 +1,41 @@
-- [«Gmagick::commentimage](gmagick.commentimage.md)
-- [Gmagick::\_\_construct »](gmagick.construct.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Накладає одне зображення на інше
-
+---
+navigation:
+  - gmagick.commentimage.md: '« Gmagick::commentimage'
+  - gmagick.construct.md: 'Gmagick::construct »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::compositeimage'
+---
 # Gmagick::compositeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::compositeimage — Накладає одне зображення на інше
 
 ### Опис
 
-public **Gmagick::compositeimage**(
-[Gmagick](class.gmagick.md) `$source`,
-int `$COMPOSE`,
-int `$x`,
-int `$y`
-): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
+```
 
 Накладає одне зображення на інше із зазначеним усуненням.
 
 ### Список параметрів
 
 `source`
-Об'єкт [Gmagick](class.gmagick.md), який містить складову
-зображення.
+
+Об'єкт [Gmagick](class.gmagick.md), що містить складне зображення.
 
 `compose`
+
 Композитний оператор.
 
 `x`
+
 Усунення стовпця складеного зображення.
 
 `y`
+
 Зміщення рядка складеного зображення.
 
 ### Значення, що повертаються

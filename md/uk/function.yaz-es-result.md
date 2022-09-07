@@ -1,36 +1,35 @@
-- [« yaz_error](function.yaz-error.md)
-- [yaz_es »](function.yaz-es.md)
+---
+navigation:
+  - function.yaz-error.md: « yazerror
+  - function.yaz-es.md: yazes »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazесresult
+---
+# yazесresult
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Перевіряє результат Extended Service
+(PHP 4> = 4.2.0, PECL yaz> = 0.9.0)
 
-# yaz_es_result
-
-(PHP 4 = 4.2.0, PECL yaz = 0.9.0)
-
-yaz_es_result — Перевіряє результат Extended Service
+yazесresult — Перевіряє результат Extended Service
 
 ### Опис
 
-**yaz_es_result**(resource `$id`): array
+```methodsynopsis
+yaz_es_result(resource $id): array
+```
 
-Функція перевіряє останній повернутий сервером результат Extended
-Service. Extended Service ініціюється або за допомогою
-**yaz_item_order()**, або за допомогою [yaz_es()](function.yaz-es.md).
+Функція перевіряє останній повернутий сервером результат Extended Service. Extended Service ініціюється або за допомогою **yazitemorder()**, або за допомогою [yazes()](function.yaz-es.md)
 
 ### Список параметрів
 
 `id`
-Ідентифікатор підключення, що повертається
-[yaz_connect()](function.yaz-connect.md).
+
+Ідентифікатор підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
-Повертає масив з елементом targetReference для посилання на операцію
-Extended Service (згенерованої та повернутої з сервера).
+Повертає масив із елементом `targetReference` для посилання на операцію Extended Service (згенерованої та повернутої з сервера).
 
 ### Дивіться також
 
-- [yaz_es()](function.yaz-es.md) - Підготовка Extended Service
-Request
+-   [yazes()](function.yaz-es.md) - готує Extended Service Request

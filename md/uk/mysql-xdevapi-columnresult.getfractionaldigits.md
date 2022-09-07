@@ -1,26 +1,28 @@
-- [« ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.md)
-- [ColumnResult::getLength »](mysql-xdevapi-columnresult.getlength.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує дробову довжину цифри
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getcolumnname.md: '« ColumnResult::getColumnName'
+  - mysql-xdevapi-columnresult.getlength.md: 'ColumnResult::getLength »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+title: 'ColumnResult::getFractionalDigits'
+---
 # ColumnResult::getFractionalDigits
 
 (No version information available, might only be in Git)
 
-ColumnResult::getFractionalDigits — Отримує дрібну довжину цифри
+ColumnResult::getFractionalDigits — Отримує дробову довжину цифри
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getFractionalDigits**(): int
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getFractionalDigits(): int
+```
 
-Отримує кількість дрібних цифр для стовпця.
+Отримує кількість дробових цифр для стовпчика.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +32,12 @@ public **mysql_xdevapi\ColumnResult::getFractionalDigits**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getFractionalDigits()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getFractionalDigits()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

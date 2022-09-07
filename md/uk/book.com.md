@@ -1,115 +1,70 @@
-- [« Модулі тільки для Windows](refs.utilspec.windows.md)
-- [Вступ »](intro.com.md)
-
-- [PHP Manual](index.md)
-- [Модулі лише для Windows](refs.utilspec.windows.md)
-- COM та .Net (Windows)
-
+---
+navigation:
+  - refs.utilspec.windows.md: Модулі тільки для Windows
+  - intro.com.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.windows.md: Модулі лише для Windows
+title: COM та .Net (Windows)
+---
 # COM та .Net (Windows)
 
-- [Вступ](intro.com.md)
-- [Встановлення та налаштування](com.setup.md)
-- [Вимоги](com.requirements.md)
-- [Установка](com.installation.md)
-- [Налаштування під час виконання](com.configuration.md)
-- [Типи ресурсів](com.resources.md)
-- [Предвизначені константи](com.constants.md)
-- [Помилки та їх обробка](com.error-handling.md)
-- [Приклади](com.examples.md)
-- [For Each](com.examples.foreach.md)
-- [Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
-- [com](class.com.md) - Клас com
-- [com::\_\_construct](com.construct.md) - Конструктор класу
-com
-- [dotnet](class.dotnet.md) - Клас dotnet
-- [dotnet::\_\_construct](dotnet.construct.md) - Конструктор
-класу dotnet
-- [variant](class.variant.md) - Клас variant
-- [variant::\_\_construct](variant.construct.md) - Конструктор
-класу variant
-- [COMPersistHelper](class.compersisthelper.md) - Клас
-COMPersistHelper
-- [COMPersistHelper::\_\_construct](compersisthelper.construct.md)
-- Конструктор класу COMPersistHelper
-- [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md)
-— Отримати ім'я файлу
-- [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md)
-— Отримати максимальний розмір потоку
-- [COMPersistHelper::InitNew](compersisthelper.initnew.md)
-Ініціалізує об'єкт у стан за замовчуванням
-- [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)
-— Завантажити об'єкт із файлу
-- [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md)
-— Завантажує об'єкт із потоку
-- [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md)
-— Зберегти об'єкт у файл
-- [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md)
-— Зберігає об'єкт у потоці
-- [com_exception](class.com-exception.md) - Клас com_exception
-- [Функції COM](ref.com.md)
-- [com_create_guid](function.com-create-guid.md) - Створення
-унікального глобального ідентифікатора (GUID)
-- [com_event_sink](function.com-event-sink.md) — Зв'язати
-повідомлення об'єкта COM з об'єктом PHP
-- [com_get_active_object](function.com-get-active-object.md) -
-Повернути дескриптор на запущений екземпляр об'єкта COM
-- [com_load_typelib](function.com-load-typelib.md) — Завантаження
-Typelib
-- [com_message_pump](function.com-message-pump.md) - Обробка
-повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після
-її запуску
-- [com_print_typeinfo](function.com-print-typeinfo.md)
-Друкує визначення класу PHP для інтерфейсу
-IDispatch
-- [variant_abs](function.variant-abs.md) — Отримати повне
-значення варіанта
-- [variant_add](function.variant-add.md) — Скласти значення двох
-варіантів
-- [variant_and](function.variant-and.md) - Побітове І над двома
-варіантами
-- [variant_cast](function.variant-cast.md) - Перетворення
-варіанти в новий варіант іншого типу
-- [variant_cat](function.variant-cat.md) - Об'єднання
-(конкатенація) значень двох варіантів
-- [variant_cmp](function.variant-cmp.md) — Порівняти два варіанти
-- [variant_date_from_timestamp](function.variant-date-from-timestamp.md)
-— Отримати подання дати для варіанта з тимчасової мітки
-Unix
-- [variant_date_to_timestamp](function.variant-date-to-timestamp.md)
-— Перетворює варіант типу дата/час у часову мітку Unix
-- [variant_div](function.variant-div.md) — Отримати результат
-поділу двох варіантів
-- [variant_eqv](function.variant-eqv.md) - Побітова
-еквівалентність двох варіантів
-- [variant_fix](function.variant-fix.md) - Повернути цілу частину
-варіанти
-- [variant_get_type](function.variant-get-type.md) — Отримати
-тип варіанта
-- [variant_idiv](function.variant-idiv.md) - Перетворення
-варіантів до цілих з наступним розподілом
-- [variant_imp](function.variant-imp.md) - Побітова імплікація
-над двома варіантами
-- [variant_int](function.variant-int.md) - Повернути цілу чисельну
-частина варіанта
-- [variant_mod](function.variant-mod.md) - Залишок від розподілу
-двох варіантів
-- [variant_mul](function.variant-mul.md) — Збільшує значення
-двох варіантів
-- [variant_neg](function.variant-neg.md) - Логічне заперечення
-над варіантом
-- [variant_not](function.variant-not.md) - Побітове заперечення
-над варіантом
-- [variant_or](function.variant-or.md) - Побітове АБО над двома
-варіантами
-- [variant_pow](function.variant-pow.md) - Зводить один варіант
-у ступінь, заданий у другому
-- [variant_round](function.variant-round.md) — Округлює варіант
-із заданою точністю
-- [variant_set_type](function.variant-set-type.md) — Приведення
-варіанти до іншого типу "за місцем"
-- [variant_set](function.variant-set.md) - Присвоєння нового
-значення об'єкту варіанта
-- [variant_sub](function.variant-sub.md) — Віднімає значення
-правого варіанта з лівого
-- [variant_xor](function.variant-xor.md) - Виключає АБО над
-двома варіантами
+-   [Введение](intro.com.md)
+-   [Встановлення та налаштування](com.setup.md)
+    -   [Вимоги](com.requirements.md)
+    -   [Установка](com.installation.md)
+    -   [Налаштування під час виконання](com.configuration.md)
+    -   [Типи ресурсів](com.resources.md)
+-   [Обумовлені константи](com.constants.md)
+-   [Ошибки и их обработка](com.error-handling.md)
+-   [Приклади](com.examples.md)
+    -   [For Each](com.examples.foreach.md)
+    -   [Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
+-   [com](class.com.md) - Клас com
+    -   [com::construct](com.construct.md) - Конструктор класу com
+-   [dotnet](class.dotnet.md) - Клас dotnet
+    -   [dotnet::construct](dotnet.construct.md) - Конструктор класу dotnet
+-   [variant](class.variant.md) - Клас variant
+    -   [variant::construct](variant.construct.md) - Конструктор класу variant
+-   [COMPersistHelper](class.compersisthelper.md) - Клас COMPersistHelper
+    -   [COMPersistHelper::construct](compersisthelper.construct.md) - Конструктор класу COMPersistHelper
+    -   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md) — Отримати ім'я файлу
+    -   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md) — Отримати максимальний розмір потоку
+    -   [COMPersistHelper::InitNew](compersisthelper.initnew.md) — Ініціалізує об'єкт у стан за умовчанням
+    -   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md) — Завантажити об'єкт із файлу
+    -   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md) — Завантажує об'єкт із потоку
+    -   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md) — Зберегти об'єкт у файл
+    -   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md) — Зберігає об'єкт у потоці
+-   [comexception](class.com-exception.md) - Клас comexception
+-   [Функции COM](ref.com.md)
+    -   [comcreateguid](function.com-create-guid.md) - Створення унікального глобального ідентифікатора (GUID)
+    -   [comeventsink](function.com-event-sink.md) — Зв'язати повідомлення COM з об'єктом PHP
+    -   [comgetactiveobject](function.com-get-active-object.md) — Повернути дескриптор на запущений екземпляр об'єкта COM
+    -   [comloadtypelib](function.com-load-typelib.md) - Завантаження Typelib
+    -   [commessagepump](function.com-message-pump.md) — Обробка повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після її запуску
+    -   [comprinttypeinfo](function.com-print-typeinfo.md) — Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
+    -   [variantabs](function.variant-abs.md) — Отримати абсолютне значення варіанта
+    -   [variantadd](function.variant-add.md) - Скласти значення двох варіантів
+    -   [variantand](function.variant-and.md) — Побітове І над двома варіантами
+    -   [variantcast](function.variant-cast.md) — Перетворення варіанта на новий варіант іншого типу
+    -   [variantcat](function.variant-cat.md) - Об'єднання (конкатенація) значень двох варіантів
+    -   [variantcmp](function.variant-cmp.md) - Порівняти два варіанти
+    -   [variantdatefromtimestamp](function.variant-date-from-timestamp.md) — Отримати подання дати для варіанта з тимчасової мітки Unix
+    -   [variantdateтоtimestamp](function.variant-date-to-timestamp.md) — Перетворює варіант типу дата/час у часову мітку Unix
+    -   [variantdiv](function.variant-div.md) — Отримати результат розподілу двох варіантів
+    -   [varianteqv](function.variant-eqv.md) — Побітова еквівалентність двох варіантів
+    -   [variantfix](function.variant-fix.md) — Повернути цілу частину варіанта
+    -   [variantgettype](function.variant-get-type.md) — Отримати тип варіанта
+    -   [variantidiv](function.variant-idiv.md) — Перетворення варіантів до цілих із наступним поділом
+    -   [variantimp](function.variant-imp.md) - Побітова імплікація над двома варіантами
+    -   [variantint](function.variant-int.md) — Повернути цілу частину варіанта
+    -   [variantmod](function.variant-mod.md) — Залишок від поділу двох варіантів
+    -   [variantmul](function.variant-mul.md) — Помножує значення двох варіантів
+    -   [variantneg](function.variant-neg.md) — Логічне заперечення над варіантом
+    -   [variantnot](function.variant-not.md) - Побітове заперечення над варіантом
+    -   [variantор](function.variant-or.md) — Побітове АБО над двома варіантами
+    -   [variantpow](function.variant-pow.md) — Зводить один варіант у ступінь, заданий у другому
+    -   [variantround](function.variant-round.md) — Округлює варіант із заданою точністю
+    -   [variantsettype](function.variant-set-type.md) - Приведення варіанта до іншого типу "за місцем"
+    -   [variantset](function.variant-set.md) — Присвоєння нового значення об'єкту варіанта
+    -   [variantsub](function.variant-sub.md) — Віднімає значення правого варіанта з лівого
+    -   [variantxor](function.variant-xor.md) — що виключає АБО над двома варіантами

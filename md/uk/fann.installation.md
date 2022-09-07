@@ -1,81 +1,78 @@
-- [« Вимоги](fann.requirements.md)
-- [Налаштування під час виконання »](fann.configuration.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](fann.setup.md)
-- Установка
-
-## Установка
+---
+navigation:
+  - fann.requirements.md: « Вимоги
+  - fann.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - fann.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
 Модуль FANN має працювати на будь-яких дистрибутивах Linux.
 
-- [Встановлення бібліотеки FANN](fann.installation.md#fann.installation.lib)
-- [Встановлення з PECL](fann.installation.md#fann.installation.pecl)
-- [Ручне встановлення](fann.installation.md#fann.installation.manual)
+-   [Установка библиотеки FANN](fann.installation.md#fann.installation.lib)
+-   [Установка из PECL](fann.installation.md#fann.installation.pecl)
+-   [Ручная установка](fann.installation.md#fann.installation.manual)
 
 ## Встановлення бібліотеки FANN
 
-Перед початком встановлення переконайтеся, що на вашій системі вже встановлено
-бібліотека * libfann *. Вона є частиною головного репозиторію в
-більшості дистрибутивів Linux (шукайте за словом "fann"). Вам потрібна
-версія для розробників.
+Перед початком встановлення переконайтеся, що на вашій системі вже встановлена ​​бібліотека *libfann*. Вона є частиною головного репозиторію для більшості дистрибутивів Linux (шукайте за словом *fann*). Вам потрібна версія для розробників.
 
-Якщо вона не встановлена, то вам все-таки доведеться її встановити. Можете
-встановити її з репозиторію ОС чи завантажити з [» офіційного сайту](http://leenissen.dk/fann/wp/). Наприклад для Fedora:
+Якщо вона не встановлена, то вам все ж таки доведеться її встановити. Можете встановити її з репозиторію ОС чи завантажити з [» официального сайта](http://leenissen.dk/fann/wp/). Наприклад для Fedora:
 
-
+```
 $ sudo yum install fann-devel
+```
 
 або Ubuntu:
 
-
+```
 $ sudo apt-get install libfann-dev
+```
 
-Якщо бібліотека встановлюється вручну, то спочатку необхідно
-видалити стару версію бібліотеки, інакше вона не буде замінена.
+Якщо бібліотека встановлюється вручну, спочатку потрібно видалити стару версію бібліотеки, інакше вона не буде замінена.
 
 ## Установка з PECL
 
-Цей модуль доступний PECL. Установка дуже проста, запустіть:
+Цей модуль доступний у PECL. Установка дуже проста, запустіть:
 
-
+```
 $ sudo pecl install fann
+```
 
 ## Ручне встановлення
 
-Для розробників та людей, зацікавлених у найсвіжішій версії, є
-можливість скомпілювати з найсвіжіших вихідних кодів, що лежать
-на [»GitHub](https://github.com/bukka/php-fann). Зайдіть на GitHub та
-натисніть "Download ZIP". після цього запустіть:
+Для розробників і людей, зацікавлених у найсвіжішій версії, є можливість скомпілювати з найсвіжіших вихідних кодів, які лежать на [» GitHub](https://github.com/bukka/php-fann). Зайдіть на GitHub та натисніть "Download ZIP". після цього запустіть:
 
-
+```
 $ unzip php-fann-master.zip
 $ cd php-fann-master
 $ phpize
-$./configure
+$ ./configure
 $ make all
 $ sudo make install
+```
 
-Внесіть наступні зміни до php.ini:
+Внесіть такі зміни до php.ini:
 
-- Переконайтеся, що *extension_dir* вказує на директорію, де
-знаходиться *fann.so*. При збиранні на екран буде виведено, куди саме
-встановлюється скомпільований модуль:
-
-
-Installing '/usr/lib/php/extensions/no-debug-non-zts-20060613/fann.so'
-
-Переконайтеся, що це шлях, в якому лежать модулі PHP:
-
-
-$php-i | grep extension_dir
-extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20060613 =>
-/usr/lib/php/extensions/no-debug-non-zts-20060613
-
-Якщо це не так, то поміняйте *extension_dir* у php.ini або просто
-перемістіть *fann.so* куди слід.
-
-- Для завантаження модуля під час запуску PHP, додайте у php.ini рядок:
-
-
-extension=fann.so
+-   Впевніться, що *extensiondir* вказує на директорію, в якій знаходиться *фанн.со*. При складанні на екран буде виведено, куди саме встановлюється скомпільований модуль:
+    
+    ```
+    Installing '/usr/lib/php/extensions/no-debug-non-zts-20060613/fann.so'
+    ```
+    
+    Переконайтеся, що це шлях, в якому лежать модулі PHP:
+    
+    ```
+    $ php -i | grep extension_dir
+      extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20060613 =>
+                       /usr/lib/php/extensions/no-debug-non-zts-20060613
+    ```
+    
+    Якщо це не так, то поміняйте *extensiondir* у php.ini або просто перемістіть *фанн.со* куди слід.
+    
+-   Для завантаження модуля при запуску PHP додайте в php.ini рядок:
+    
+    ```
+    extension=fann.so
+    ```

@@ -1,49 +1,45 @@
-- [«socket_bind](function.socket-bind.md)
-- [socket_close »](function.socket-close.md)
+---
+navigation:
+  - function.socket-bind.md: « socketbind
+  - function.socket-close.md: socketclose »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketclearerror
+---
+# socketclearerror
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Очищає помилку на сокеті або останній код помилки
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-# socket_clear_error
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-socket_clear_error — Очищає помилку на сокеті або останній код помилки
+socketclearerror — Очищає помилку на сокеті або останній код помилки
 
 ### Опис
 
-**socket_clear_error**(?[Socket](class.socket.md) `$socket` =
-**`null`**): void
+```methodsynopsis
+socket_clear_error(?Socket $socket = null): void
+```
 
-Ця функція очищає код помилки на вказаному сокеті або останню
-глобальну помилку сокету, якщо сокет не вказано.
+Ця функція очищає код помилки на вказаному сокеті або останню глобальну помилку сокету, якщо сокет не вказано.
 
-Ця функція дозволяє примусово скинути значення коду помилки
-сокет або останній глобальний код помилки модуля. Це може бути
-корисно для визначення всередині частини програми, сталася помилка або
-ні.
+Ця функція дозволяє примусово скинути значення коду помилки для сокету або останній глобальний код помилки модуля. Це може бути корисно для визначення всередині частини програми, чи сталася помилка ні.
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функції
-[socket_create()](function.socket-create.md).
+
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
-| 8.0.0  | socket тепер припускає значення null.                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+|  | `socket` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [socket_last_error()](function.socket-last-error.md) - Повертає
-останню помилку на сокеті
-- [socket_strerror()](function.socket-strerror.md) - Повертає
-рядок, що описує помилку сокету
+-   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету

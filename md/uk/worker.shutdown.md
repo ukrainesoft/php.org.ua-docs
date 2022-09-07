@@ -1,19 +1,22 @@
-- [« Worker::isShutdown](worker.isshutdown.md)
-- [Worker::stack »](worker.stack.md)
-
-- [PHP Manual](index.md)
-- [Worker](class.worker.md)
-- Зупинити Worker
-
+---
+navigation:
+  - worker.isshutdown.md: '« Worker::isShutdown'
+  - worker.stack.md: 'Worker::stack »'
+  - index.md: PHP Manual
+  - class.worker.md: Worker
+title: 'Worker::shutdown'
+---
 # Worker::shutdown
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Worker::shutdown — Зупинити Worker
 
 ### Опис
 
-public **Worker::shutdown**(): bool
+```methodsynopsis
+public Worker::shutdown(): bool
+```
 
 Зупинити Worker після запуску всіх завдань зі стека.
 
@@ -23,15 +26,22 @@ public **Worker::shutdown**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Зупинка Worker**
 
-` <?php$my = new Worker();$my->start();/* stack/execute tasks */var_dump($my->shutdown()); `
+```php
+<?php
+$my = new Worker();
+$my->start();
+/* stack/execute tasks */
+var_dump($my->shutdown());
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

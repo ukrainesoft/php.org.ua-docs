@@ -1,38 +1,41 @@
-- [« Основи використання](hrtime.example.basic.md)
-- [HRTime\PerformanceCounter::getFrequency »](hrtime-performancecounter.getfrequency.md)
+---
+navigation:
+  - hrtime.example.basic.md: « Основи використання
+  - hrtime-performancecounter.getfrequency.md: 'HRTimePerformanceCounter::getFrequency »'
+  - index.md: PHP Manual
+  - book.hrtime.md: HRTime
+title: Клас HRTimePerformanceCounter
+---
+# Клас HRTimePerformanceCounter
 
-- [PHP Manual](index.md)
-- [HRTime](book.hrtime.md)
-- Клас HRTime\PerformanceCounter
-
-# Клас HRTime\PerformanceCounter
-
-(PECL hrtime \>= 0.4.3)
+(PECL hrtime >= 0.4.3)
 
 ## Вступ
 
 ## Огляд класів
 
-class **HRTime\PerformanceCounter** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static
-[getFrequency](hrtime-performancecounter.getfrequency.md)(): int
+    
+    
+     
+      class HRTime\PerformanceCounter
+     
+     {
+    
 
-public static [getTicks](hrtime-performancecounter.getticks.md)(): int
+    /* Методы */
+    
+      public static getFrequency(): int
+public static getTicks(): int
+public static getTicksSince(int $start): int
 
-public static
-[getTicksSince](hrtime-performancecounter.gettickssince.md)(int
-`$start`): int
-
-}
+   }
+```
 
 ## Зміст
 
-- [HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)
-- Частота таймера в тиках за секунду
-- [HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)
-- Поточне значення тиків системи
-- [HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)
-- Кількість тиків, що пройшли із заданого значення
+-   [HRTimePerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md) - Частота таймера в тиках за секунду
+-   [HRTimePerformanceCounter::getTicks](hrtime-performancecounter.getticks.md) - Поточне значення тиків системи
+-   [HRTimePerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md) - Кількість тиків, що пройшли із заданого значення

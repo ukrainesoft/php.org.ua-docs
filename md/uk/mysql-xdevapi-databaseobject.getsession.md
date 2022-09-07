@@ -1,10 +1,11 @@
-- [« DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.md)
-- [mysql_xdevapi\DocResult »](class.mysql-xdevapi-docresult.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\DatabaseObject](class.mysql-xdevapi-databaseobject.md)
-- Отримує ім'я сесії
-
+---
+navigation:
+  - mysql-xdevapi-databaseobject.getname.md: '« DatabaseObject::getName'
+  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject
+title: 'DatabaseObject::getSession'
+---
 # DatabaseObject::getSession
 
 (No version information available, might only be in Git)
@@ -13,15 +14,15 @@ DatabaseObject::getSession — Отримує ім'я сесії
 
 ### Опис
 
-abstract public **mysql_xdevapi\DatabaseObject::getSession**():
-[mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
+```methodsynopsis
+abstract public mysql_xdevapi\DatabaseObject::getSession(): mysql_xdevapi\Session
+```
 
 Отримує сесію, пов'язану з об'єктом бази даних.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -33,7 +34,12 @@ abstract public **mysql_xdevapi\DatabaseObject::getSession**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\DatabaseObject::getSession()****
+**Приклад #1 Приклад використання **mysqlxdevapiDatabaseObject::getSession()****
 
-` <?php$session = $dbObj->getSession();?> `
+```php
+<?php
+
+$session = $dbObj->getSession();
+
+?>
+```

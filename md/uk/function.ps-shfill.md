@@ -1,44 +1,40 @@
-- [«ps_shading](function.ps-shading.md)
-- [ps_show_boxed »](function.ps-show-boxed.md)
+---
+navigation:
+  - function.ps-shading.md: «psshading
+  - function.ps-show-boxed.md: псshowboxed »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshfill
+---
+# псshfill
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Заповнює область затіненням
+(PECL ps >= 1.3.0)
 
-#ps_shfill
-
-(PECL ps \>= 1.3.0)
-
-ps_shfill — Заповнює область затіненням
+псshfill - Заповнює область затіненням
 
 ### Опис
 
-**ps_shfill**(resource `$psdoc`, int `$shadingid`): bool
+```methodsynopsis
+ps_shfill(resource $psdoc, int $shadingid): bool
+```
 
-Заповнює область затіненням, яке має бути створене раніше
-за допомогою [ps_shading()](function.ps-shading.md). Це альтернативний
-спосіб створення візерунка із затінювання
-[ps_shading_pattern()](function.ps-shading-pattern.md) та використання
-візерунок як колір заливки.
+Заповнює область затіненням, яке має бути створене раніше за допомогою [псshading()](function.ps-shading.md). Це альтернативний спосіб створення візерунка із затінення [псshadingpattern()](function.ps-shading-pattern.md) і використання візерунка як колір заливки.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `shadingid`
-Ідентифікатор затінювання, раніше створеного за допомогою
-[ps_shading()](function.ps-shading.md).
+
+Ідентифікатор затінення, створеного раніше за допомогою [псshading()](function.ps-shading.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_shading()](function.ps-shading.md) - Створює затінення для
-подальшого використання
-- [ps_shading_pattern()](function.ps-shading-pattern.md) - Створює
-візерунок на основі затінення
+-   [псshading()](function.ps-shading.md) - Створює затінення для подальшого використання
+-   [псshadingpattern()](function.ps-shading-pattern.md) - Створює візерунок на основі затінення

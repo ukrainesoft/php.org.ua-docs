@@ -1,29 +1,31 @@
-- [«trader_sin](function.trader-sin.md)
-- [trader_sma»](function.trader-sma.md)
+---
+navigation:
+  - function.trader-sin.md: « tradersin
+  - function.trader-sma.md: tradersma »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersinh
+---
+# tradersinh
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Векторний тригонометричний гіперболічний синус
+(PECL trader >= 0.2.0)
 
-# trader_sinh
-
-(PECL trader \>= 0.2.0)
-
-trader_sinh — Векторний тригонометричний гіперболічний синус
+tradersinh — Векторний тригонометричний гіперболічний синус
 
 ### Опис
 
-**trader_sinh**(array `$real`): array
+```methodsynopsis
+trader_sinh(array $real): array
+```
 
-Обчислює гіперболічний синус для кожного значення в `real` та
-повертає результуючий масив.
+Обчислює гіперболічний синус для кожного значення `real` та повертає результуючий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,19 +1,22 @@
-- [« GearmanTask::recvData](gearmantask.recvdata.md)
-- [GearmanTask::sendData »](gearmantask.senddata.md)
-
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Отримати останній код повернення
-
+---
+navigation:
+  - gearmantask.recvdata.md: '« GearmanTask::recvData'
+  - gearmantask.senddata.md: 'GearmanTask::sendData »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::returnCode'
+---
 # GearmanTask::returnCode
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanTask::returnCode — Отримати останній код повернення
 
 ### Опис
 
-public **GearmanTask::returnCode**(): int
+```methodsynopsis
+public GearmanTask::returnCode(): int
+```
 
 Повертає останній код повернення для цього завдання.
 
@@ -27,5 +30,4 @@ public **GearmanTask::returnCode**(): int
 
 ### Дивіться також
 
-- [GearmanClient::returnCode()](gearmanclient.returncode.md) -
-Отримати останній код повернення Gearman
+-   [GearmanClient::returnCode()](gearmanclient.returncode.md) - Отримати останній код повернення Gearman

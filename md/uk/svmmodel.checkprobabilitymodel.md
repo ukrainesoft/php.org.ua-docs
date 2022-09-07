@@ -1,22 +1,24 @@
-- [«SVMModel](class.svmmodel.md)
-- [SVMModel::\_\_construct »](svmmodel.construct.md)
-
-- [PHP Manual](index.md)
-- [SVMModel](class.svmmodel.md)
-- Повертає true, якщо модель містить інформацію про ймовірність
-
+---
+navigation:
+  - class.svmmodel.md: « SVMModel
+  - svmmodel.construct.md: 'SVMModel::construct »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::checkProbabilityModel'
+---
 # SVMModel::checkProbabilityModel
 
-(PECL svm = 0.1.5)
+(PECL svm >= 0.1.5)
 
-SVMModel::checkProbabilityModel — Повертає true, якщо модель містить
-інформацію про ймовірності
+SVMModel::checkProbabilityModel — Повертає true, якщо модель містить інформацію про можливості
 
 ### Опис
 
-public **SVMModel::checkProbabilityModel**(): bool
+```methodsynopsis
+public SVMModel::checkProbabilityModel(): bool
+```
 
-Повертає **`true`**, якщо модель містить інформацію про ймовірності.
+Повертає **`true`**, якщо модель містить інформацію про можливості.
 
 ### Список параметрів
 

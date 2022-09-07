@@ -1,190 +1,189 @@
-- [«DOMCdataSection::\_\_construct](domcdatasection.construct.md)
-- [DOMCharacterData::appendData »](domcharacterdata.appenddata.md)
-
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMCharacterData
-
+---
+navigation:
+  - domcdatasection.construct.md: '« DOMCdataSection::construct'
+  - domcharacterdata.appenddata.md: 'DOMCharacterData::appendData »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMCharacterData
+---
 # Клас DOMCharacterData
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Представляє вузли із символьними даними. Не можна створити вузол із цього
-класу безпосередньо, вузли створюються з успадкованих від цього класів.
+Представляє вузли із символьними даними. Не можна створити вузол із цього класу безпосередньо, вузли створюються з успадкованих від цього класів.
 
 ## Огляд класів
 
-class **DOMCharacterData** extends [DOMNode](class.domnode.md)
-implements [DOMChildNode](class.domchildnode.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$data`;
+    
+     
+      class DOMCharacterData
+     
 
-public readonly int `$length`;
+     
+      extends
+       DOMNode
+     
 
-public readonly ?[DOMElement](class.domelement.md)
-`$previousElementSibling`;
+     implements 
+       DOMChildNode {
 
-public readonly ?[DOMElement](class.domelement.md)
-`$nextElementSibling`;
+    /* Свойства */
+    
+     public
+     string
+      $data;
 
-/\* Наслідувані властивості \*/
+    public
+     readonly
+     int
+      $length;
 
-public readonly string `$nodeName`;
+    public
+     readonly
+     ?DOMElement
+      $previousElementSibling;
 
-public ?string `$nodeValue`;
+    public
+     readonly
+     ?DOMElement
+      $nextElementSibling;
 
-public readonly int `$nodeType`;
 
-public readonly ?[DOMNode](class.domnode.md) `$parentNode`;
-
-public readonly [DOMNodeList](class.domnodelist.md) `$childNodes`;
-
-public readonly ?[DOMNode](class.domnode.md) `$firstChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$lastChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$previousSibling`;
-
-public readonly ?[DOMNode](class.domnode.md) `$nextSibling`;
-
-public readonly ?[DOMNamedNodeMap](class.domnamednodemap.md)
-`$attributes`;
-
-public readonly ?[DOMDocument](class.domdocument.md) `$ownerDocument`;
-
-public readonly ?string `$namespaceURI`;
-
-public string `$prefix`;
-
-public readonly ?string `$localName`;
-
-public readonly ?string `$baseURI`;
-
-public string `$textContent`;
-
-/\* Методи \*/
-
-public [appendData](domcharacterdata.appenddata.md)(string `$data`):
-bool
-
-public [deleteData](domcharacterdata.deletedata.md)(int `$offset`, int
-`$count`): bool
-
-public [insertData](domcharacterdata.insertdata.md)(int `$offset`,
-string `$data`): bool
-
-public [replaceData](domcharacterdata.replacedata.md)(int `$offset`,
-int `$count`, string `$data`): bool
-
-public [substringData](domcharacterdata.substringdata.md)(int
-`$offset`, int `$count`): string\|false
-
-/\* Наслідувані методи \*/
-
+    /* Наследуемые свойства */
+    public
+     readonly
+     string
+      $nodeName;
 public
-[DOMNode::appendChild](domnode.appendchild.md)([DOMNode](class.domnode.md)
-`$node`): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): string\|false
-
-public [DOMNode::C14NFile](domnode.c14nfile.md)(
-string `$uri`,
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): int\|false
-
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
-**`false`**): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::getLineNo](domnode.getlineno.md)(): int
-
-public [DOMNode::getNodePath](domnode.getnodepath.md)(): ?string
-
-public [DOMNode::hasAttributes](domnode.hasattributes.md)(): bool
-
-public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
-
+     ?string
+      $nodeValue;
 public
-[DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
-[DOMNode](class.domnode.md)\|false
-
+     readonly
+     int
+      $nodeType;
 public
-[DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md)(string
-`$namespace`): bool
-
+     readonly
+     ?DOMNode
+      $parentNode;
 public
-[DOMNode::isSameNode](domnode.issamenode.md)([DOMNode](class.domnode.md)
-`$otherNode`): bool
-
-public [DOMNode::isSupported](domnode.issupported.md)(string
-`$feature`, string `$version`): bool
-
+     readonly
+     DOMNodeList
+      $childNodes;
 public
-[DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md)(string
-`$prefix`): string
-
-public [DOMNode::lookupPrefix](domnode.lookupprefix.md)(string
-`$namespace`): ?string
-
-public [DOMNode::normalize](domnode.normalize.md)(): void
-
+     readonly
+     ?DOMNode
+      $firstChild;
 public
-[DOMNode::removeChild](domnode.removechild.md)([DOMNode](class.domnode.md)
-`$child`): [DOMNode](class.domnode.md)\|false
-
+     readonly
+     ?DOMNode
+      $lastChild;
 public
-[DOMNode::replaceChild](domnode.replacechild.md)([DOMNode](class.domnode.md)
-`$node`, [DOMNode](class.domnode.md) `$child`):
-[DOMNode](class.domnode.md)\|false
+     readonly
+     ?DOMNode
+      $previousSibling;
+public
+     readonly
+     ?DOMNode
+      $nextSibling;
+public
+     readonly
+     ?DOMNamedNodeMap
+      $attributes;
+public
+     readonly
+     ?DOMDocument
+      $ownerDocument;
+public
+     readonly
+     ?string
+      $namespaceURI;
+public
+     string
+      $prefix;
+public
+     readonly
+     ?string
+      $localName;
+public
+     readonly
+     ?string
+      $baseURI;
+public
+     string
+      $textContent;
 
-}
+
+    /* Методы */
+    
+   public appendData(string $data): bool
+public deleteData(int $offset, int $count): bool
+public insertData(int $offset, string $data): bool
+public replaceData(int $offset, int $count, string $data): bool
+public substringData(int $offset, int $count): string|false
+
+
+    /* Наследуемые методы */
+    public DOMNode::appendChild(DOMNode $node): DOMNode|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::cloneNode(bool $deep = false): DOMNode|false
+public DOMNode::getLineNo(): int
+public DOMNode::getNodePath(): ?string
+public DOMNode::hasAttributes(): bool
+public DOMNode::hasChildNodes(): bool
+public DOMNode::insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|false
+public DOMNode::isDefaultNamespace(string $namespace): bool
+public DOMNode::isSameNode(DOMNode $otherNode): bool
+public DOMNode::isSupported(string $feature, string $version): bool
+public DOMNode::lookupNamespaceUri(string $prefix): string
+public DOMNode::lookupPrefix(string $namespace): ?string
+public DOMNode::normalize(): void
+public DOMNode::removeChild(DOMNode $child): DOMNode|false
+public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
+
+   }
+```
 
 ## Властивості
 
-`data`
+data
+
 Вміст вузла.
 
-`length`
+length
+
 Довжина вмісту.
 
-`nextElementSibling`
-Елемент безпосередньо наступний за даним елементом або **`null`**.
+nextElementSibling
 
-`previousElementSibling`
-Елемент попередній елементу або **`null`**.
+Елемент безпосередньо наступний за даним елементом або **`null`**
 
-## Список змін
+previousElementSibling
 
-| Версія | Опис                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------- |
-| 8.0.0  | Додані властивості nextElementSibling та previousElementSibling.                          |
-| 8.0.0  | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.md). |
+Елемент попередній елементу або **`null`**
+
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості nextElementSibling і previousElementSibling. |
+|  | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.md) |
 
 ## Дивіться також
 
-- [» Специфікація W3C символьних даних](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-FF21A306)
+-   [» Специфікація W3C символьних даних](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-FF21A306)
 
 ## Зміст
 
-- [DOMCharacterData::appendData](domcharacterdata.appenddata.md) -
-Додати рядок до кінця символьних даних вузла
-- [DOMCharacterData::deleteData](domcharacterdata.deletedata.md) -
-Видалити діапазон символів із вузла
-- [DOMCharacterData::insertData](domcharacterdata.insertdata.md) -
-Вставити рядок у вказану 16-бітну позицію
-- [DOMCharacterData::replaceData](domcharacterdata.replacedata.md) -
-Замінити підрядок у вузлі типу DOMCharacterData
-- [DOMCharacterData::substringData](domcharacterdata.substringdata.md)
-— Виймає певний діапазон даних із вузла
+-   [DOMCharacterData::appendData](domcharacterdata.appenddata.md) — Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::deleteData](domcharacterdata.deletedata.md) — Видалити діапазон символів із вузла
+-   [DOMCharacterData::insertData](domcharacterdata.insertdata.md) — Вставити рядок у вказану 16-бітну позицію
+-   [DOMCharacterData::replaceData](domcharacterdata.replacedata.md) — Замінити підрядок у вузлі типу DOMCharacterData
+-   [DOMCharacterData::substringData](domcharacterdata.substringdata.md) — Витягує певний діапазон даних із вузла

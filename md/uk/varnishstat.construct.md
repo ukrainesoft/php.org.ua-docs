@@ -1,27 +1,29 @@
-- [«VarnishStat](class.varnishstat.md)
-- [VarnishStat::getSnapshot »](varnishstat.getsnapshot.md)
+---
+navigation:
+  - class.varnishstat.md: « VarnishStat
+  - varnishstat.getsnapshot.md: 'VarnishStat::getSnapshot »'
+  - index.md: PHP Manual
+  - class.varnishstat.md: VarnishStat
+title: 'ВарнішСтат::construct'
+---
+# ВарнішСтат::construct
 
-- [PHP Manual](index.md)
-- [VarnishStat](class.varnishstat.md)
-- Конструктор VarnishStat
+(PECL varnish >= 0.3)
 
-# VarnishStat::\_\_construct
-
-(PECL varnish \>= 0.3)
-
-VarnishStat::\_\_construct — Конструктор VarnishStat
+ВарнішСтат::construct — Конструктор VarnishStat
 
 ### Опис
 
-public **VarnishStat::\_\_construct**(array `$args` = ?)
+```methodsynopsis
+public VarnishStat::__construct(array $args = ?)
+```
 
 ### Список параметрів
 
 `args`
+
 Аргументи конфігурації. Можливі ключі:
 
-``` parameterscode
-VARNISH_CONFIG_IDENT - шлях ідентифікації екземпляра varnish
-````
+VARNISHCONFIGIDENT - шлях ідентифікації екземпляра varnish
 
 ### Значення, що повертаються

@@ -1,31 +1,30 @@
-- [« SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.md)
-- [SolrDisMaxQuery::setQueryAlt »](solrdismaxquery.setqueryalt.md)
-
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Встановлює коефіцієнт відхилення за промовчанням для запитів фраз
-(Параметр ps)
-
-# SolrDisMaxQuery::setPhraseSlop
+---
+navigation:
+  - solrdismaxquery.setphrasefields.md: '« SolrDisMaxQuery::setPhraseFields'
+  - solrdismaxquery.setqueryalt.md: 'SolrDisMaxQuery::setQueryAlt »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::set Phrase Slop'
+---
+# Solr DisMax Query::set Phrase Slop
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::setPhraseSlop — Встановлює коефіцієнт відхилення за
-замовити для запитів фраз (параметр ps)
+SolrDisMaxQuery::setPhraseSlop — Встановлює коефіцієнт відхилення за промовчанням для запитів фраз (параметр ps)
 
 ### Опис
 
-public **SolrDisMaxQuery::setPhraseSlop**(string `$slop`):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::setPhraseSlop(string $slop): SolrDisMaxQuery
+```
 
-Встановлює коефіцієнт відхилення за промовчанням для фразових запитів,
-побудованих з полями "pf", "pf2" та/or "pf3" (впливає на посилення).
-Параметр "ps".
+Встановлює коефіцієнт відхилення за замовчуванням фразових запитів, побудованих з полями "pf", "pf2" and/or "pf3" (впливає на посилення). Параметр "ps".
 
 ### Список параметрів
 
 `slop`
-Коефіцієнт відхилення за умовчанням.
+
+Коефіцієнт відхилення за замовчуванням.
 
 ### Значення, що повертаються
 
@@ -33,10 +32,21 @@ public **SolrDisMaxQuery::setPhraseSlop**(string `$slop`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setPhraseSlop()****
+**Приклад #1 Приклад використання **Solr DisMax Query::set Phrase Slop()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->setPhraseSlop(4);echo $dismaxQuery.PHP_EOL;?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+
+$dismaxQuery->setPhraseSlop(4);
+echo $dismaxQuery.PHP_EOL;
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 q=lucene&defType=edismax&ps=4
+```

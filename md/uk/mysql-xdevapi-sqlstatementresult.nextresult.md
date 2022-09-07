@@ -1,10 +1,11 @@
-- [« SqlStatementResult::hasData](mysql-xdevapi-sqlstatementresult.hasdata.md)
-- [mysql_xdevapi\Statement »](class.mysql-xdevapi-statement.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)
-- Отримує наступний результат
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.hasdata.md: '« SqlStatementResult::hasData'
+  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::nextResult'
+---
 # SqlStatementResult::nextResult
 
 (No version information available, might only be in Git)
@@ -13,13 +14,13 @@ SqlStatementResult::nextResult — Отримує наступний резул�
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatementResult::nextResult**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\SqlStatementResult::nextResult(): mysql_xdevapi\Result
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -31,7 +32,12 @@ public **mysql_xdevapi\SqlStatementResult::nextResult**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatementResult::nextResult()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::nextResult()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

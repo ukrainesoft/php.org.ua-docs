@@ -1,35 +1,34 @@
-- [« stream_context_get_params](function.stream-context-get-params.md)
-- [stream_context_set_option »](function.stream-context-set-option.md)
+---
+navigation:
+  - function.stream-context-get-params.md: « streamcontextgetparams
+  - function.stream-context-set-option.md: streamcontextsetoption »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextsetdefault
+---
+# streamcontextsetdefault
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Встановити контекст потоку за промовчанням
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-#stream_context_set_default
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-stream_context_set_default — Встановити контекст потоку за промовчанням
+streamcontextsetdefault — Встановити контекст потоку за промовчанням
 
 ### Опис
 
-**stream_context_set_default**(array `$options`): resource
+```methodsynopsis
+stream_context_set_default(array $options): resource
+```
 
-Встановити контекст потоку за промовчанням, який буде використовуватись
-щоразу, коли файлові операції ([fopen()](function.fopen.md),
-[file_get_contents()](function.file-get-contents.md) і т.д.)
-викликаються без параметра контексту. Використовується той самий синтаксис, що і
-в [stream_context_create()](function.stream-context-create.md).
+Встановити контекст потоку за промовчанням, який буде використовуватися щоразу, коли файлові операції ([fopen()](function.fopen.md) [filegetcontents()](function.file-get-contents.md) і т.д.) викликаються без параметра контексту. Використовується той же синтаксис, що і [streamcontextcreate()](function.stream-context-create.md)
 
 ### Список параметрів
 
 `options`
-Опції для установки для контексту за промовчанням.
 
-> **Примітка**:
->
-> Параметр `options` повинен бути асоціативним масивом
-> масивів у форматі $arr['wrapper']['option'] = $value`.
+Опції для встановлення для контексту за промовчанням.
+
+> **Зауваження**
+> 
+> Параметр `options` має бути асоціативним масивом асоціативних масивів у форматі `$arr['wrapper']['option'] = $value`
 
 ### Значення, що повертаються
 
@@ -37,16 +36,30 @@ stream_context_set_default — Встановити контекст поток�
 
 ### Приклади
 
-**Приклад #1 **stream_context_set_default()** example**
+**Приклад #1 **streamcontextsetdefault()** example**
 
-` <?php$default_opts = array( 'http'=>array(   'method'=>"GET",   'header'=>"Accept-language: en
-" .              "Cookie: foo=bar",    'proxy'=>"tcp://10.54.1.39:8000"  ));$default = stream_context_set_default($default_opts);/* Отправляет обычный GET-запрос к прокси-серверу по адресою 10.54.1.39 * Для www.example.com використовуються опції контексту, вказані в $default_opts */readfile('http://www.example.com');?> `
+```php
+<?php
+$default_opts = array(
+  'http'=>array(
+    'method'=>"GET",
+    'header'=>"Accept-language: en\r\n" .
+              "Cookie: foo=bar",
+    'proxy'=>"tcp://10.54.1.39:8000"
+  )
+);
+
+$default = stream_context_set_default($default_opts);
+
+/* Отправляет обычный GET-запрос к прокси-серверу по адресу 10.54.1.39
+ * Для www.example.com используются опции контекста, указанные в $default_opts
+ */
+readfile('http://www.example.com');
+?>
+```
 
 ### Дивіться також
 
-- [stream_context_create()](function.stream-context-create.md) -
-Створює контекст потоку
-- [stream_context_get_default()](function.stream-context-get-default.md) -
-Отримує контекст потоку за замовчуванням
-- Listing of supported wrappers with context options (Підтримувані
-протоколи та обгортки](wrappers.md)).
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
+-   [streamcontextgetdefault()](function.stream-context-get-default.md) - Отримує контекст потоку за умовчанням
+-   Listing of supported wrappers with context options ([Підтримувані протоколи та обгортки](wrappers.md)

@@ -1,45 +1,43 @@
-- [« XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md)
-- [XMLReader::open »](xmlreader.open.md)
-
-- [PHP Manual](index.md)
-- [XMLReader](class.xmlreader.md)
-- Перемістити курсор на наступний вузол, пропускаючи всі піддерев'я
-
+---
+navigation:
+  - xmlreader.movetonextattribute.md: '« XMLReader::moveToNextAttribute'
+  - xmlreader.open.md: 'XMLReader::open »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::next'
+---
 # XMLReader::next
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-XMLReader::next — Перемістити курсор на наступний вузол, пропускаючи всі
-піддерев'я
+XMLReader::next — Перемістити курсор на наступний вузол, пропускаючи всі дерева.
 
 ### Опис
 
-public **XMLReader::next**(?string `$name` = **`null`**): bool
+```methodsynopsis
+public XMLReader::next(?string $name = null): bool
+```
 
-Позиціонує курсор на наступному вузлі, пропускаючи всі піддерев'я. Якщо
-такий вузол немає, курсор переміщається на кінець документа.
+Позиціонує курсор на наступному вузлі, пропускаючи усі піддерева. Якщо такий вузол не існує, курсор переміщається до кінця документа.
 
 ### Список параметрів
 
 `name`
+
 Ім'я наступного вузла переходу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                               |
-| ------ | ---------------------------------- |
-| 8.0.0  | name тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [XMLReader::moveToNextAttribute()](xmlreader.movetonextattribute.md) -
-Перемістити позицію курсору на наступний атрибут
-- [XMLReader::moveToElement()](xmlreader.movetoelement.md) -
-Позиціонувати курсор на батьківському елементі поточного атрибуту
-- [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) -
-Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::moveToNextAttribute()](xmlreader.movetonextattribute.md) - Перемістити позицію курсору на наступний атрибут
+-   [XMLReader::moveToElement()](xmlreader.movetoelement.md) - Позиціонувати курсор на батьківському елементі поточного атрибуту
+-   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) - Перемістити курсор до атрибуту із заданим ім'ям

@@ -1,202 +1,124 @@
-- [« Yaf_Request_Http::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md)
-- [Yaf_Request_Simple::\_\_construct »](yaf-request-simple.construct.md)
+---
+navigation:
+  - yaf-request-http.isxmlhttprequest.md: '« YafRequestHttp::isXmlHttpRequest'
+  - yaf-request-simple.construct.md: 'YafRequestSimple::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRequestSimple
+---
+# Клас YafRequestSimple
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Request_Simple
-
-# Клас Yaf_Request_Simple
-
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-**Yaf_Request_Simple** зазвичай використовується для тестування.
-Наприклад, для емуляції спеціальних запитів із режиму CLI.
+**YafRequestSimple** зазвичай використовується з метою тестування. Наприклад, для емуляції спеціальних запитів із режиму CLI.
 
 ## Огляд класів
 
-class **Yaf_Request_Simple** extends
-[Yaf_Request_Abstract](class.yaf-request-abstract.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const string `SCHEME_HTTP` = http;
+    
+    
+     
+      class Yaf_Request_Simple
+     
 
-const string `SCHEME_HTTPS` = https;
+     
+      extends
+       Yaf_Request_Abstract
+     
+     {
+    
+    /* Константы */
+    
+     const
+     string
+      SCHEME_HTTP = http;
 
-/\* Властивості \*/
+    const
+     string
+      SCHEME_HTTPS = https;
 
-/\* Методи \*/
 
-public [\_\_construct](yaf-request-simple.construct.md)(
-string `$method` = ?,
-string `$module` = ?,
-string `$controller` = ?,
-string `$action` = ?,
-array `$params` = ?
-)
+    /* Свойства */
 
-public [get](yaf-request-simple.get.md)(): void
 
-public [getCookie](yaf-request-simple.getcookie.md)(): void
+    /* Методы */
+    
+   public __construct(    string $method = ?,    string $module = ?,    string $controller = ?,    string $action = ?,    array $params = ?)
 
-public [getFiles](yaf-request-simple.getfiles.md)(): void
+    public get(): void
+public getCookie(): void
+public getFiles(): void
+public getPost(): void
+public getQuery(): void
+public getRequest(): void
+public isXmlHttpRequest(): void
 
-public [getPost](yaf-request-simple.getpost.md)(): void
 
-public [getQuery](yaf-request-simple.getquery.md)(): void
+    /* Наследуемые методы */
+    public Yaf_Request_Abstract::clearParams(): bool
+public Yaf_Request_Abstract::getActionName(): void
+public Yaf_Request_Abstract::getBaseUri(): void
+public Yaf_Request_Abstract::getControllerName(): void
+public Yaf_Request_Abstract::getEnv(string $name, string $default = ?): void
+public Yaf_Request_Abstract::getException(): void
+public Yaf_Request_Abstract::getLanguage(): void
+public Yaf_Request_Abstract::getMethod(): string
+public Yaf_Request_Abstract::getModuleName(): void
+public Yaf_Request_Abstract::getParam(string $name, string $default = ?): mixed
+public Yaf_Request_Abstract::getParams(): array
+public Yaf_Request_Abstract::getRequestUri(): void
+public Yaf_Request_Abstract::getServer(string $name, string $default = ?): void
+public Yaf_Request_Abstract::isCli(): bool
+public Yaf_Request_Abstract::isDispatched(): bool
+public Yaf_Request_Abstract::isGet(): bool
+public Yaf_Request_Abstract::isHead(): bool
+public Yaf_Request_Abstract::isOptions(): bool
+public Yaf_Request_Abstract::isPost(): bool
+public Yaf_Request_Abstract::isPut(): bool
+public Yaf_Request_Abstract::isRouted(): bool
+public Yaf_Request_Abstract::isXmlHttpRequest(): bool
+public Yaf_Request_Abstract::setActionName(string $action, bool $format_name = true): void
+public Yaf_Request_Abstract::setBaseUri(string $uir): bool
+public Yaf_Request_Abstract::setControllerName(string $controller, bool $format_name = true): void
+public Yaf_Request_Abstract::setDispatched(): void
+public Yaf_Request_Abstract::setModuleName(string $module, bool $format_name = true): void
+public Yaf_Request_Abstract::setParam(string $name, string $value = ?): bool
+public Yaf_Request_Abstract::setRequestUri(string $uir): void
+public Yaf_Request_Abstract::setRouted(string $flag = ?): void
 
-public [getRequest](yaf-request-simple.getrequest.md)(): void
 
-public [isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md)():
-void
-
-/\* Наслідувані методи \*/
-
-public
-[Yaf_Request_Abstract::clearParams](yaf-request-abstract.clearparams.md)():
-bool
-
-public
-[Yaf_Request_Abstract::getActionName](yaf-request-abstract.getactionname.md)():
-void
-
-public
-[Yaf_Request_Abstract::getBaseUri](yaf-request-abstract.getbaseuri.md)():
-void
-
-public
-[Yaf_Request_Abstract::getControllerName](yaf-request-abstract.getcontrollername.md)():
-void
-
-public
-[Yaf_Request_Abstract::getEnv](yaf-request-abstract.getenv.md)(string
-`$name`, string `$default` = ?): void
-
-public
-[Yaf_Request_Abstract::getException](yaf-request-abstract.getexception.md)():
-void
-
-public
-[Yaf_Request_Abstract::getLanguage](yaf-request-abstract.getlanguage.md)():
-void
-
-public
-[Yaf_Request_Abstract::getMethod](yaf-request-abstract.getmethod.md)():
-string
-
-public
-[Yaf_Request_Abstract::getModuleName](yaf-request-abstract.getmodulename.md)():
-void
-
-public
-[Yaf_Request_Abstract::getParam](yaf-request-abstract.getparam.md)(string
-`$name`, string `$default` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[Yaf_Request_Abstract::getParams](yaf-request-abstract.getparams.md)():
-array
-
-public
-[Yaf_Request_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.md)():
-void
-
-public
-[Yaf_Request_Abstract::getServer](yaf-request-abstract.getserver.md)(string
-`$name`, string `$default` = ?): void
-
-public [Yaf_Request_Abstract::isCli](yaf-request-abstract.iscli.md)():
-bool
-
-public
-[Yaf_Request_Abstract::isDispatched](yaf-request-abstract.isdispatched.md)():
-bool
-
-public [Yaf_Request_Abstract::isGet](yaf-request-abstract.isget.md)():
-bool
-
-public
-[Yaf_Request_Abstract::isHead](yaf-request-abstract.ishead.md)(): bool
-
-public
-[Yaf_Request_Abstract::isOptions](yaf-request-abstract.isoptions.md)():
-bool
-
-public
-[Yaf_Request_Abstract::isPost](yaf-request-abstract.ispost.md)(): bool
-
-public [Yaf_Request_Abstract::isPut](yaf-request-abstract.isput.md)():
-bool
-
-public
-[Yaf_Request_Abstract::isRouted](yaf-request-abstract.isrouted.md)():
-bool
-
-public
-[Yaf_Request_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md)():
-bool
-
-public
-[Yaf_Request_Abstract::setActionName](yaf-request-abstract.setactionname.md)(string
-`$action`, bool `$format_name` = true): void
-
-public
-[Yaf_Request_Abstract::setBaseUri](yaf-request-abstract.setbaseuri.md)(string
-`$uir`): bool
-
-public
-[Yaf_Request_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md)(string
-`$controller`, bool `$format_name` = true): void
-
-public
-[Yaf_Request_Abstract::setDispatched](yaf-request-abstract.setdispatched.md)():
-void
-
-public
-[Yaf_Request_Abstract::setModuleName](yaf-request-abstract.setmodulename.md)(string
-`$module`, bool `$format_name` = true): void
-
-public
-[Yaf_Request_Abstract::setParam](yaf-request-abstract.setparam.md)(string
-`$name`, string `$value` = ?): bool
-
-public
-[Yaf_Request_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md)(string
-`$uir`): void
-
-public
-[Yaf_Request_Abstract::setRouted](yaf-request-abstract.setrouted.md)(string
-`$flag` = ?): void
-
-}
+   }
+```
 
 ## Властивості
 
-`module`
+module
 
-`controller`
+controller
 
-`action`
+action
 
-`method`
+метод
 
-`params`
+params
 
-`language`
+language
 
-`_exception`
+exception
 
-`_base_uri`
+baseuri
 
-`uri`
+uri
 
-`dispatched`
+dispatched
 
-`routed`
+routed
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`Yaf_Request_Simple::SCHEME_HTTP`**
 
@@ -204,19 +126,11 @@ public
 
 ## Зміст
 
-- [Yaf_Request_Simple::\_\_construct](yaf-request-simple.construct.md)
-- Конструктор класу Yaf_Request_Simple
-- [Yaf_Request_Simple::get](yaf-request-simple.get.md) — Призначення
-get
-- [Yaf_Request_Simple::getCookie](yaf-request-simple.getcookie.md) -
-Призначення getCookie
-- [Yaf_Request_Simple::getFiles](yaf-request-simple.getfiles.md) -
-Призначення getFiles
-- [Yaf_Request_Simple::getPost](yaf-request-simple.getpost.md) -
-Призначення getPost
-- [Yaf_Request_Simple::getQuery](yaf-request-simple.getquery.md) -
-Призначення getQuery
-- [Yaf_Request_Simple::getRequest](yaf-request-simple.getrequest.md)
-- Призначення getRequest
-- [Yaf_Request_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md)
-- Визначає, чи є запит AJAX-запитом
+-   [YafRequestSimple::construct](yaf-request-simple.construct.md) - Конструктор класу YafRequestSimple
+-   [YafRequestSimple::get](yaf-request-simple.get.md) - Призначення get
+-   [YafRequestSimple::getCookie](yaf-request-simple.getcookie.md) - Призначення getCookie
+-   [YafRequestSimple::getFiles](yaf-request-simple.getfiles.md) - Призначення getFiles
+-   [YafRequestSimple::getPost](yaf-request-simple.getpost.md) - Призначення getPost
+-   [YafRequestSimple::getQuery](yaf-request-simple.getquery.md) - Призначення getQuery
+-   [YafRequestSimple::getRequest](yaf-request-simple.getrequest.md) - Призначення getRequest
+-   [YafRequestSimple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом

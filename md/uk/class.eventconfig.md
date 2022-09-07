@@ -1,73 +1,99 @@
-- [« Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
-- [EventConfig::avoidMethod »](eventconfig.avoidmethod.md)
-
-- [PHP Manual](index.md)
-- [Event](book.event.md)
-- Клас EventConfig
-
+---
+navigation:
+  - eventbufferevent.about.callbacks.md: Про callback-функції подієвого буфера
+  - eventconfig.avoidmethod.md: 'EventConfig::avoidMethod »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventConfig
+---
 # Клас EventConfig
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 ## Вступ
 
-Представляє структуру, яку можна використовувати під час створення
-[EventBase](class.eventbase.md) .
+Представляє структуру, яку можна використовувати під час створення [EventBase](class.eventbase.md)
 
 ## Огляд класів
 
-final class **EventConfig** {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
+    
+    
+     
+      final
+      class EventConfig
+     
+     {
+    
+    /* Константы */
+    
+     const
+     int
+      FEATURE_ET = 1;
 
-const int `FEATURE_ET` = 1;
+    const
+     int
+      FEATURE_O1 = 2;
 
-const int `FEATURE_O1` = 2;
+    const
+     int
+      FEATURE_FDS = 4;
 
-const int `FEATURE_FDS` = 4;
-
-/\* Методи \*/
-
-public [avoidMethod](eventconfig.avoidmethod.md)( string `$method` ):
-bool
-
-public [\_\_construct](eventconfig.construct.md)()
-
-public [requireFeatures](eventconfig.requirefeatures.md)( int
-`$feature` ): bool
-
-public [setFlags](eventconfig.setflags.md)( int `$flags` ): bool
-
+    /* Методы */
+    
+   public
+   avoidMethod(
+    string
+     $method
+   ): bool
 public
-[setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)( int
-`$max_interval` , int `$max_callbacks` , int `$min_priority` ): void
+   __construct()
+public
+   requireFeatures(
+    int
+     $feature
+   ): bool
+public
+   setFlags(
+    int
+     $flags
+   ): bool
+public
+   setMaxDispatchInterval(
+    int
+     $max_interval
+   , 
+    int
+     $max_callbacks
+   , 
+    int
+     $min_priority
+   ): void
 
-}
+   }
+```
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`EventConfig::FEATURE_ET`**
-Потрібен метод бекенда, що підтримує одноразове спрацювання при
-тривалої події (edge-triggered I/O).
+
+Потрібний метод бекенда, що підтримує одноразове спрацювання при тривалій події (edge-triggered I/O).
 
 **`EventConfig::FEATURE_O1`**
-Потрібен метод бекенда, для якого видалення, додавання або
-перемикання події на активний статус має складність O(1).
+
+Потрібний метод бекенда, для якого видалення, додавання або перемикання події в активний статус має складність O(1).
 
 **`EventConfig::FEATURE_FDS`**
-Потрібний метод бекенда, що підтримує звичайні файлові дескриптори, а
-не лише сокети.
+
+Потрібний метод бекенда, що підтримує звичайні файлові дескриптори, а не тільки сокети.
 
 ## Зміст
 
-- [EventConfig::avoidMethod](eventconfig.avoidmethod.md) — Попросити
-libevent не використовувати певний метод події
-- [EventConfig::\_\_construct](eventconfig.construct.md) - Створити
-об'єкт EventConfig
-- [EventConfig::requireFeatures](eventconfig.requirefeatures.md) -
-Ввести необхідні додатком властивості методу події
-- [EventConfig::setFlags](eventconfig.setflags.md) — Встановлює
-один або кілька прапорів для налаштування можливої ініціалізації
-EventBase
-- [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)
-— Запобігти інверсії пріоритетів
+-   [EventConfig::avoidMethod](eventconfig.avoidmethod.md) — Попросити libevent не використати певний метод події
+-   [EventConfig::construct](eventconfig.construct.md) — Створити об'єкт EventConfig
+-   [EventConfig::requireFeatures](eventconfig.requirefeatures.md) — Ввести необхідні додатки властивості методу події
+-   [EventConfig::setFlags](eventconfig.setflags.md) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
+-   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md) — Запобігти інверсії пріоритетів

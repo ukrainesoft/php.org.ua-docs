@@ -1,24 +1,26 @@
-- [« Yaf_Config_Simple::\_\_construct](yaf-config-simple.construct.md)
-- [Yaf_Config_Simple::current »](yaf-config-simple.current.md)
+---
+navigation:
+  - yaf-config-simple.construct.md: '« YafConfigSimple::construct'
+  - yaf-config-simple.current.md: 'YafConfigSimple::current »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
+title: 'YafConfigSimple::count'
+---
+# YafConfigSimple::count
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення count
+(Yaf >=1.0.0)
 
-# Yaf_Config_Simple::count
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Simple::count — Призначення count
+YafConfigSimple::count — Призначення count
 
 ### Опис
 
-public **Yaf_Config_Simple::count**(): void
+```methodsynopsis
+public Yaf_Config_Simple::count(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

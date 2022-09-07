@@ -1,33 +1,31 @@
-- [« fann_get_num_output](function.fann-get-num-output.md)
-- [fann_get_quickprop_mu »](function.fann-get-quickprop-mu.md)
+---
+navigation:
+  - function.fann-get-num-output.md: « fanngetnumoutput
+  - function.fann-get-quickprop-mu.md: fanngetquickpropmu »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetquickpropdecay
+---
+# fanngetquickpropdecay
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає зниження, яке є фактором, за якого ваги
-повинні зменшуватися на кожній ітерації під час навчання quickprop
+(PECL fann> = 1.0.0)
 
-# fann_get_quickprop_decay
-
-(PECL fann = 1.0.0)
-
-fann_get_quickprop_decay — Повертає зниження, яке є
-фактором, при якому ваги повинні зменшуватися на кожній ітерації в
-час навчання quickprop
+fanngetquickpropdecay — Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
 
 ### Опис
 
-**fann_get_quickprop_decay**(resource `$ann`): float
+```methodsynopsis
+fann_get_quickprop_decay(resource $ann): float
+```
 
-Зниження - це невелике число із негативними значеннями, яке
-є фактором, за яким ваги повинні зменшуватися на кожній
-ітерації під час навчання quickprop. Використовується для того, щоб у
-час навчання ваги не ставали надто високими.
+Зниження - це невелике число з негативними значеннями, яке є фактором, за яким ваги повинні зменшуватися на кожній ітерації під час навчання quickprop. Використовується для того, щоб під час навчання ваги не ставали надто високими.
 
 The default decay is -0.0001.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
@@ -36,5 +34,4 @@ The default decay is -0.0001.
 
 ### Дивіться також
 
-- [fann_set_quickprop_decay()](function.fann-set-quickprop-decay.md) -
-Встановлює коефіцієнт загасання quickprop
+-   [fannsetquickpropdecay()](function.fann-set-quickprop-decay.md) - Встановлює коефіцієнт загасання quickprop

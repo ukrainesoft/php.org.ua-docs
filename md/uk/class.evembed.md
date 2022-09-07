@@ -1,13 +1,14 @@
-- [«EvChild::set](evchild.set.md)
-- [EvEmbed::\_\_construct »](evembed.construct.md)
-
-- [PHP Manual](index.md)
-- [Ev](book.ev.md)
-- Клас EvEmbed
-
+---
+navigation:
+  - evchild.set.md: '« EvChild::set'
+  - evembed.construct.md: 'EvEmbed::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvEmbed
+---
 # Клас EvEmbed
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 ## Вступ
 
@@ -15,78 +16,115 @@
 
 ## Огляд класів
 
-class **EvEmbed** extends [EvWatcher](class.evwatcher.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
+    
+    
+     
+      class EvEmbed
+     
+     
+      extends
+       EvWatcher
+     
+     {
+    
+    /* Свойства */
+    
+     public
+      $embed;
 
-public `$embed`;
+    /* Методы */
+    
+   public
+   __construct(    
+    object
+     $other
+   ,    
+    callable
+     $callback
+    = ?,    
+    mixed
+     $data
+    = ?,    
+    int
+     $priority
+    = ?)
 
-/\* Методи \*/
+    final
+   public
+   static
+   createStopped(    
+    object
+     $other
+   ,    
+    callable
+     $callback
+    = ?,    
+    mixed
+     $data
+    = ?,    
+    int
+     $priority
+    = ?): void
+public
+   set(
+    object
+     $other
+   ): void
+public
+   sweep(): void
 
-public [\_\_construct](evembed.construct.md)(
-object `$other` ,
-[callable](language.types.callable.md) `$callback` = ?,
+    /* Наследуемые методы */
+    public
+   EvWatcher::clear(): int
+public
+   EvWatcher::feed(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::getLoop(): EvLoop
+public
+   EvWatcher::invoke(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::keepalive(
+    bool
+     $value
+    = ?): bool
+public
+   EvWatcher::setCallback(
+    callable
+     $callback
+   ): void
+public
+   EvWatcher::start(): void
+public
+   EvWatcher::stop(): void
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-int `$priority` = ?
-)
-
-final public static [createStopped](evembed.createstopped.md)(
-object `$other` ,
-[callable](language.types.callable.md) `$callback` = ?,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-int `$priority` = ?
-): void
-
-public [set](evembed.set.md)( object `$other` ): void
-
-public [sweep](evembed.sweep.md)(): void
-
-/\* Наслідувані методи \*/
-
-public [EvWatcher::clear](evwatcher.clear.md)(): int
-
-public [EvWatcher::feed](evwatcher.feed.md)( int `$revents` ): void
-
-public [EvWatcher::getLoop](evwatcher.getloop.md)():
-[EvLoop](class.evloop.md)
-
-public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
-void
-
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
-?): bool
-
-public [EvWatcher::setCallback](evwatcher.setcallback.md)(
-[callable](language.types.callable.md) `$callback` ): void
-
-public [EvWatcher::start](evwatcher.start.md)(): void
-
-public [EvWatcher::stop](evwatcher.stop.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`is_active`
+ісactive
 
-`data`
+data
 
-`is_pending`
+ісpending
 
-`priority`
+priority
 
-`embed`
+embed
 
 ## Зміст
 
-- [EvEmbed::\_\_construct](evembed.construct.md) - Конструктор
-об'єкту EvEmbed
-- [EvEmbed::createStopped](evembed.createstopped.md) — Створює
-зупинений об'єкт спостерігач EvEmbed
-- [EvEmbed::set](evembed.set.md) — Налаштування спостерігача
-- [EvEmbed::sweep](evembed.sweep.md) - Робить одиночну,
-неблокуючу розгортку за вбудованим циклом
+-   [EvEmbed::construct](evembed.construct.md) - Конструктор об'єкта EvEmbed
+-   [EvEmbed::createStopped](evembed.createstopped.md) — Створює зупинений об'єкт спостерігач EvEmbed
+-   [EvEmbed::set](evembed.set.md) — Налаштування спостерігача
+-   [EvEmbed::sweep](evembed.sweep.md) — Робить одиночну, неблокуючу розгортку за вбудованим циклом

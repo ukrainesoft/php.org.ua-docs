@@ -1,79 +1,138 @@
-- [« mysqli_stmt::$errno](mysqli-stmt.errno.md)
-- [mysqli_stmt::$error »](mysqli-stmt.error.md)
+---
+navigation:
+  - mysqli-stmt.errno.md: '« mysqlistmt::$errno'
+  - mysqli-stmt.error.md: 'mysqlistmt::$error »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::$errorlist'
+---
+# mysqlistmt::$errorlist
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Повертає перелік помилок виконання останнього запиту
+# mysqlistmterrorlist
 
-# mysqli_stmt::$error_list
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-# mysqli_stmt_error_list
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-mysqli_stmt::$error_list -- mysqli_stmt_error_list -- Повертає список
-помилок виконання останнього запиту
+mysqlistmt::$errorlist - mysqlistmterrorlist — Повертає список помилок виконання останнього запиту
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-array `$mysqli_stmt->error_list`;
+array [$mysqlistmt->errorlist](mysqli-stmt.error-list.md)
 
 Процедурний стиль
 
-**mysqli_stmt_error_list**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): array
+```methodsynopsis
+mysqli_stmt_error_list(mysqli_stmt $statement): array
+```
 
-Повертає список помилок, що виникли під час виконання останньої операції
-над запитом, який може завершуватися успішно чи неуспішно.
+Повертає список помилок, які виникли під час виконання останньої операції над запитом, яка може завершуватися успішно чи неуспішно.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Список помилок, кожна з яких представлена у вигляді масиву (array),
-містить код помилки, повідомлення про помилку, а також код стану
-sqlstate.
+Список помилок, кожна з яких представлена ​​у вигляді масиву (array), що містить код помилки, повідомлення про помилку, а також код стану sqlstate.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* відкриваємо з'єднання */$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno(  вдалося підключитися: %s
-", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCountry LIKE Country");$mysqli->query("INSERT INTO myCountry SELECT * FROM  , Code FROM myCountry ORDER BY Name";if ($stmt = $mysqli->prepare($query)) {    /* удаляємо таблицю */     $mysqli-> y $stmt->execute();   echo "Помилка:
-";   print_r($stmt->error_list);   /* закриваємо запрос */    $stmt->close();}/* закриваємо з'єднання*/$mysqli->close();?> ``
+```php
+<?php
+/* открываем соединение */
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$mysqli->query("CREATE TABLE myCountry LIKE Country");
+$mysqli->query("INSERT INTO myCountry SELECT * FROM Country");
+
+
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = $mysqli->prepare($query)) {
+
+    /* удаляем таблицу */
+    $mysqli->query("DROP TABLE myCountry");
+
+    /* выполняем запрос */
+    $stmt->execute();
+
+    echo "Ошибка:\n";
+    print_r($stmt->error_list);
+
+    /* закрываем запрос */
+    $stmt->close();
+}
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-`<?php/* відкриваємо з'єднання */$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno())          підключитися: %s
-mysqli_connect_error()=| FROM myCountry ORDER BY Name";if ($stmt = mysqli_prepare($link, $query)) {    /* удаляем таблицу */    mysqli_query($link, "DROP TABLE myCountry");    /* выполняем запрос */    mysqli_stmt_execute($stmt );   echo "Помилка:
-";   print_r(mysql_stmt_error_list($stmt));    /* закриваємо запрос */    mysqli_stmt_close($stmt);}/* закриваємо з'єднання**/my
+```php
+<?php
+/* открываем соединение */
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+mysqli_query($link, "CREATE TABLE myCountry LIKE Country");
+mysqli_query($link, "INSERT INTO myCountry SELECT * FROM Country");
+
+
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = mysqli_prepare($link, $query)) {
+
+    /* удаляем таблицу */
+    mysqli_query($link, "DROP TABLE myCountry");
+
+    /* выполняем запрос */
+    mysqli_stmt_execute($stmt);
+
+    echo "Ошибка:\n";
+    print_r(mysql_stmt_error_list($stmt));
+
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
+}
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 Array
 (
-[0] => Array
-(
-[errno] => 1146
-[sqlstate] => 42S02
-[error] => Table 'world.myCountry' doesn't exist
-)
+    [0] => Array
+        (
+            [errno] => 1146
+            [sqlstate] => 42S02
+            [error] => Table 'world.myCountry' doesn't exist
+        )
 
 )
+```
 
 ### Дивіться також
 
-- [mysqli_stmt_error()](mysqli-stmt.error.md) - Повертає рядок з
-поясненням останньої помилки під час виконання запиту
-- [mysqli_stmt_errno()](mysqli-stmt.errno.md) - Повертає код
-помилки виконання останнього запиту
-- [mysqli_stmt_sqlstate()](mysqli-stmt.sqlstate.md) - Повертає код
-помилки SQLSTATE, викликаної під час виконання останньої операції над
-запитом
+-   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.md) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

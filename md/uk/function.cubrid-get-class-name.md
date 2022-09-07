@@ -1,51 +1,64 @@
-- [«cubrid_get_charset](function.cubrid-get-charset.md)
-- [cubrid_get_client_info »](function.cubrid-get-client-info.md)
+---
+navigation:
+  - function.cubrid-get-charset.md: « cubridgetcharset
+  - function.cubrid-get-client-info.md: cubridgetclientinfo »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridgetclassname
+---
+# cubridgetclassname
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримує ім'я класу за допомогою OID
+(PECL CUBRID >= 8.3.0)
 
-# cubrid_get_class_name
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_get_class_name — Отримує ім'я класу за допомогою OID
+cubridgetclassname — Отримує ім'я класу за допомогою OID
 
 ### Опис
 
-**cubrid_get_class_name**(resource `$conn_identifier`, string `$oid`):
-string
+```methodsynopsis
+cubrid_get_class_name(resource $conn_identifier, string $oid): string
+```
 
-Функція **cubrid_get_class_name()** використовується для отримання імені
-класу з параметра `oid`. Не працює при виборі даних із системних
-таблиць, наприклад db_class.
+Функція **cubridgetclassname()** використовується для отримання імені класу з параметра `oid`. Не працює при виборі даних із системних таблиць, наприклад dbclass.
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор підключення.
 
 `oid`
+
 OID екземпляра, існування якого необхідно перевірити.
 
 ### Значення, що повертаються
 
-Ім'я класу при успішному завершенні процесу або **`false`** у разі
-виникнення помилки.
+Ім'я класу при успішному завершенні процесу або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_get_class_name()****
+**Приклад #1 Приклад використання **cubridgetclassname()****
 
-` <?php$conn==cubrid_connect("localhost", 33000, "demodb", "dba");$req = cubrid_execute($conn, "SELECT **FROM code", CUBRID_INCLU ;$class_name = cubrid_get_class_name($conn, $oid);print_r($class_name);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+
+$req = cubrid_execute($conn, "SELECT * FROM code", CUBRID_INCLUDE_OID);
+$oid = cubrid_current_oid($req);
+$class_name = cubrid_get_class_name($conn, $oid);
+
+print_r($class_name);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 code
+```
 
 ### Дивіться також
 
-- [cubrid_is_instance()](function.cubrid-is-instance.md) -
-Перевіряє, чи існує екземпляр, на який вказує OID
-- [cubrid_drop()](function.cubrid-drop.md) - Видалення екземпляра за
-OID
+-   [cubridісinstance()](function.cubrid-is-instance.md) - Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubriddrop()](function.cubrid-drop.md) - Видалення екземпляра за OID

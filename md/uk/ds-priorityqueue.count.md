@@ -1,14 +1,15 @@
-- [« Ds\PriorityQueue::copy](ds-priorityqueue.copy.md)
-- [Ds\PriorityQueue::isEmpty »](ds-priorityqueue.isempty.md)
+---
+navigation:
+  - ds-priorityqueue.copy.md: '« DsPriorityQueue::copy'
+  - ds-priorityqueue.isempty.md: 'ДсPriorityQueue::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+title: 'ДсPriorityQueue::count'
+---
+# ДсPriorityQueue::count
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Повертає кількість елементів у черзі
+(PECL ds >= 1.0.0)
 
-# Ds\PriorityQueue::count
-
-(PECL ds \>= 1.0.0)
-
-Ds\PriorityQueue::count — Повертає кількість елементів у черзі
+ДсPriorityQueue::count — Повертає кількість елементів у черзі
 
 Дивіться [Countable::count()](countable.count.md)

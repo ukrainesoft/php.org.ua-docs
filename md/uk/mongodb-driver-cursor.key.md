@@ -1,20 +1,22 @@
-- [«MongoDB\Driver\Cursor::isDead](mongodb-driver-cursor.isdead.md)
-- [MongoDB\Driver\Cursor::next »](mongodb-driver-cursor.next.md)
+---
+navigation:
+  - mongodb-driver-cursor.isdead.md: '« MongoDBDriverCursor::isDead'
+  - mongodb-driver-cursor.next.md: 'MongoDBDriverCursor::next »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::key'
+---
+# MongoDBDriverCursor::key
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- Повертає індекс поточного результату у курсорі
+(mongodb >=1.9.0)
 
-# MongoDB\Driver\Cursor::key
-
-(mongodb \>=1.9.0)
-
-MongoDB\Driver\Cursor::key — Повертає індекс поточного результату до
-курсорі
+MongoDBDriverCursor::key — Повертає індекс поточного результату у курсорі
 
 ### Опис
 
-public **MongoDB\Driver\Cursor::key**(): int
+```methodsynopsis
+public MongoDB\Driver\Cursor::key(): int
+```
 
 ### Список параметрів
 
@@ -22,9 +24,8 @@ public **MongoDB\Driver\Cursor::key**(): int
 
 ### Значення, що повертаються
 
-Числовий індекс поточного результату курсору.
+Числовий індекс поточного результату курсорі.
 
 ### Дивіться також
 
-- [Iterator::key()](iterator.key.md) - Повертає ключ поточного
-елемента
+-   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента

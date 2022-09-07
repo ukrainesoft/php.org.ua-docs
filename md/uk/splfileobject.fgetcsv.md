@@ -1,110 +1,102 @@
-- [« SplFileObject::fgetc](splfileobject.fgetc.md)
-- [SplFileObject::fgets »](splfileobject.fgets.md)
-
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Отримати рядок із файлу та його розбір як поля CSV
-
+---
+navigation:
+  - splfileobject.fgetc.md: '« SplFileObject::fgetc'
+  - splfileobject.fgets.md: 'SplFileObject::fgets »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fgetcsv'
+---
 # SplFileObject::fgetcsv
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplFileObject::fgetcsv — Отримати рядок із файлу та його розбір як поля
-CSV
+SplFileObject::fgetcsv — Отримати рядок із файлу та його розбір як поля CSV
 
 ### Опис
 
-public **SplFileObject::fgetcsv**(string `$separator` = ",", string
-`$enclosure` = "\"", string `$escape` = "\\"): array\|false
+```methodsynopsis
+public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"", string $escape = "\\"): array|false
+```
 
-Отримує рядок із файлу та розбирає його відповідно до формату CSV.
-Результати аналізу повертає у вигляді масиву.
+Отримує рядок із файлу та розбирає його відповідно до формату CSV. Результати аналізу повертає у вигляді масиву.
 
-> **Примітка**:
->
-> Ця функція враховує налаштування локалі. Наприклад, якщо
-> `LC_CTYPE` встановлена в `en_US.UTF-8`, то файли в однобайтовій
-> кодування будуть неправильно прочитані цією функцією.
+> **Зауваження**
+> 
+> Ця функція враховує налаштування локалі. Наприклад, якщо `LC_CTYPE` встановлена ​​в `en_US.UTF-8`, то файли в однобайтовому кодуванні будуть неправильно прочитані цією функцією.
 
 ### Список параметрів
 
 `separator`
-Розділювач полів (тільки один однобайтовий символ). За замовчуванням це
-кома або символ, який був заданий методом
-[SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md).
+
+Розділювач полів (тільки один однобайтовий символ). За замовчуванням це кома або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md)
 
 `enclosure`
-Символ обмежувача полів (лише один однобайтовий символ). за
-замовчуванням це подвійна лапка або символ, який був заданий методом
-[SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md).
-Порожній рядок (`````) відключає пропрієтарний механізм екранування.
 
-> **Примітка**: Зазвичай символ `enclosure` екранується всередині поля
-> шляхом його подвоювання; проте, символ `escape` як альтернатива.
-> Тому значення за промовчанням цих параметрів ````` та `\'` мають
-> однакове значення. Крім дозволу екранувати символ `enclosure`
-> символ `escape` немає особливого сенсу; він навіть не призначений для
-> самого екранування.
+Символ обмежувача поля (лише один однобайтовий символ). За замовчуванням це подвійна лапка або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md). Порожня стрічка (`""`) відключає пропрієтарний механізм екранування.
+
+> **Зауваження**: Зазвичай символ `enclosure` екранується всередині поля шляхом його подвоювання; однак, символ `escape` як альтернатива. Тому значення за промовчанням цих параметрів `""` і `\"` мають однакове значення. Крім дозволу екранувати символ `enclosure` символ `escape` немає особливого сенсу; він навіть не призначений для самого екранування.
 
 `escape`
-Екрануючий символ (не більше одного однобайтового символу). за
-замовчуванням це зворотний сліш (`\`) або символ, який був заданий методом
-[SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md).
+
+Екрануючий символ (не більше одного однобайтового символу). За замовчуванням це зворотний сліш (`\`) або символ, який був заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md)
 
 ### Значення, що повертаються
 
-Повертає масив містить дані прочитаного рядка або **`false`**
-у разі помилки.
+Повертає масив містить дані прочитаного рядка або **`false`** у разі помилки.
 
-> **Примітка**:
->
-> Порожній рядок CSV-файлу повертатиметься у вигляді масиву, що містить
-> єдиний елемент **`null`**, якщо не використовується
-> **`SplFileObject::SKIP_EMPTY | SplFileObject::DROP_NEW_LINE`**, і в
-> у разі порожні рядки пропускаються.
+> **Зауваження**
+> 
+> Порожній рядок CSV-файлу повертатиметься у вигляді масиву, що містить єдиний елемент **`null`**, якщо не використовується **`SplFileObject::SKIP_EMPTY | SplFileObject::DROP_NEW_LINE`**, і в цьому випадку порожні рядки пропускаються.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------|
-| 7.4.0  | Тепер параметр escape може приймати порожній рядок для відключення пропрієтарного механізму екранування. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fgetcsv()****
 
-` <?php$file = new SplFileObject("data.csv");while (!$file->eof()){{   var_dump($file->fgetcsv());}?> `
+```php
+<?php
+$file = new SplFileObject("data.csv");
+while (!$file->eof()) {
+    var_dump($file->fgetcsv());
+}
+?>
+```
 
 **Приклад #2 Приклад використання **`SplFileObject::READ_CSV`****
 
-` <?php$file = new SplFileObject("animals.csv");$file->setFlags(SplFileObject::READ_CSV);foreach ($file as $row) {    list($animal, $class, $legs) $row; printf("A%s|is|a|%s|with%dlegs
-", $animal, $class, $legs);}?> `
+```php
+<?php
+$file = new SplFileObject("animals.csv");
+$file->setFlags(SplFileObject::READ_CSV);
+foreach ($file as $row) {
+    list($animal, $class, $legs) = $row;
+    printf("A %s is a %s with %d legs\n", $animal, $class, $legs);
+}
+?>
+```
 
 Contents of animals.csv
 
-``` txtcode
-crocodile,reptile,4
-dolphin,mammal,0
-duck,bird,2
-koala,mammal,4
-salmon,fish,0
-````
+crocodile,reptile,4 dolphin,mammal,0 duck,bird,2 koala,mammal,4 salmon,fish,0
 
 Результатом виконання цього прикладу буде щось подібне:
 
-A crocodile is a reptile with 4 ноги
-A dolphin is a mammal with 0 ноги
+```
+A crocodile is a reptile with 4 legs
+A dolphin is a mammal with 0 legs
 A duck is a bird with 2 legs
-A koala is a mammal with 4 ноги
-A salmon is a fish with 0 ноги
+A koala is a mammal with 4 legs
+A salmon is a fish with 0 legs
+```
 
 ### Дивіться також
 
-- [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) -
-Встановлює символи роздільника, обгортання та екранування для
-CSV
-- [SplFileObject::setFlags()](splfileobject.setflags.md) -
-Встановлює прапори для SplFileObject
-- [SplFileObject::READ_CSV](class.splfileobject.md#splfileobject.constants.read-csv)
-- [SplFileObject::current()](splfileobject.current.md) - Отримати
-поточний рядок файлу
+-   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) - Встановлює символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::setFlags()](splfileobject.setflags.md) - Встановлює прапори для SplFileObject
+-   [SplFileObject::READCSV](class.splfileobject.md#splfileobject.constants.read-csv)
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу

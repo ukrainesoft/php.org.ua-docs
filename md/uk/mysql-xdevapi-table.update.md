@@ -1,10 +1,11 @@
-- [«Table::select](mysql-xdevapi-table.select.md)
-- [mysql_xdevapi\TableDelete »](class.mysql-xdevapi-tabledelete.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Table](class.mysql-xdevapi-table.md)
-- Оновити рядки у таблиці
-
+---
+navigation:
+  - mysql-xdevapi-table.select.md: '« Table::select'
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+title: 'Table::update'
+---
 # Table::update
 
 (No version information available, might only be in Git)
@@ -13,8 +14,9 @@ Table::update — Оновити рядки у таблиці
 
 ### Опис
 
-public **mysql_xdevapi\Table::update**():
-[mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
+```methodsynopsis
+public mysql_xdevapi\Table::update(): mysql_xdevapi\TableUpdate
+```
 
 Оновлює стовпці у таблиці.
 
@@ -24,11 +26,24 @@ public **mysql_xdevapi\Table::update**():
 
 ### Значення, що повертаються
 
-Об'єкт TableUpdate; використовуйте метод execute() для виконання виразу
-update.
+Об'єкт TableUpdate; використовуйте метод execute() для виконання виразу update.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Table::update()****
+**Приклад #1 Приклад використання **mysqlxdevapiTable::update()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 33)")->execute();$schema = $session->getSchema("addressbook");$table  ==$schema->getTable("names ");$table->update()->set('age',34)->where('name = "Sam"')->limit(1)->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$table->update()->set('age',34)->where('name = "Sam"')->limit(1)->execute();
+?>
+```

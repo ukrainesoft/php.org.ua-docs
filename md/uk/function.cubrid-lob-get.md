@@ -1,55 +1,64 @@
-- [« cubrid_lob_export](function.cubrid-lob-export.md)
-- [cubrid_lob_send »](function.cubrid-lob-send.md)
+---
+navigation:
+  - function.cubrid-lob-export.md: « cubridlobexport
+  - function.cubrid-lob-send.md: cubridlobsend »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridлобget
+---
+# cubridлобget
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримує дані BLOB/CLOB
+(PECL CUBRID >= 8.3.1)
 
-#cubrid_lob_get
-
-(PECL CUBRID = 8.3.1)
-
-cubrid_lob_get — Отримує дані BLOB/CLOB
+cubridлобget — Отримує дані BLOB/CLOB
 
 ### Опис
 
-**cubrid_lob_get**(resource `$conn_identifier`, string `$sql`): array
+```methodsynopsis
+cubrid_lob_get(resource $conn_identifier, string $sql): array
+```
 
-**cubrid_lob_get()** використовується для отримання метаінформації BLOB/CLOB
-з бази даних CUBRID, CUBRID отримує BLOB/CLOB, виконуючи оператор SQL,
-та повертає всі LOB у вигляді масиву ресурсів. Необхідно переконатися, що
-SQL повертає лише один стовпець, та його тип даних - BLOB чи CLOB.
+**cubridлобget()** використовується для отримання метаінформації BLOB/CLOB з бази даних CUBRID, CUBRID отримує BLOB/CLOB, виконуючи оператор SQL, і повертає все LOB як масиву ресурсів. Необхідно переконатися, що SQL повертає лише один стовпець, та його тип даних - BLOB чи CLOB.
 
-Не варто забувати про використання
-[cubrid_lob_close()](function.cubrid-lob-close.md) для звільнення
-LOB якщо вони більше не потрібні.
+Не варто забувати про використання [cubridlobclose()](function.cubrid-lob-close.md) для звільнення LOB, якщо вони не потрібні.
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор підключення.
 
 `sql`
+
 Оператор SQL, що виконується.
 
 ### Значення, що повертаються
 
-Повертає масив LOB-ресурсів у разі успішного виконання процесу
-або **`false`** у разі виникнення помилки.
+Повертає масив LOB-ресурсів у разі успішного виконання процесу або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_lob_get()****
+**Приклад #1 Приклад використання **cubridлобget()****
 
-`<?php$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");cubrid_execute($conn,"DROP TABLE if exists doc");cubrid_execute($conn,"C , doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM| "Розмір документа: ".cubrid_lob_size($lobs[0])." байтів";cubrid_lob_export($conn, $lobs[0], "doc_5.txt");cubrid_lob_close($lobs);$brid > `
+```php
+<?php
+$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");
+
+cubrid_execute($conn,"DROP TABLE if exists doc");
+cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
+cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
+
+$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM doc WHERE id=5");
+echo "Размер документа: ".cubrid_lob_size($lobs[0])." байтов";
+cubrid_lob_export($conn, $lobs[0], "doc_5.txt");
+cubrid_lob_close($lobs);
+cubrid_disconnect($conn);
+?>
+```
 
 ### Дивіться також
 
-- [cubrid_lob_close()](function.cubrid-lob-close.md) - Закриває
-дані BLOB/CLOB
-- [cubrid_lob_size()](function.cubrid-lob-size.md) - Отримує розмір
-даних BLOB/CLOB
-- [cubrid_lob_export()](function.cubrid-lob-export.md) -
-Експортує дані BLOB/CLOB у файл
-- [cubrid_lob_send()](function.cubrid-lob-send.md) - Читає дані
-BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubridlobclose()](function.cubrid-lob-close.md) - Закриває дані BLOB/CLOB
+-   [cubridlobsize()](function.cubrid-lob-size.md) - Отримує розмір даних BLOB/CLOB
+-   [cubridlobexport()](function.cubrid-lob-export.md) - Експортує дані BLOB/CLOB у файл
+-   [cubridlobsend()](function.cubrid-lob-send.md) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера

@@ -1,57 +1,67 @@
-- [« Ds\Set::toArray](ds-set.toarray.md)
-- [Ds\Set::xor »](ds-set.xor.md)
+---
+navigation:
+  - ds-set.toarray.md: '« DsSet::toArray'
+  - ds-set.xor.md: 'ДсSet::xor »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::union'
+---
+# ДсSet::union
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Створює новий набір з елементів поточного та переданого наборів
+(PECL ds >= 1.0.0)
 
-# Ds\Set::union
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::union — Створення нового набору елементів поточного та переданого
-наборів
+ДсSet::union — Створення нового набору з елементів поточного та переданого наборів
 
 ### Опис
 
-public **Ds\Set::union**([Ds\Set](class.ds-set.md) `$set`):
-[Ds\Set](class.ds-set.md)
+```methodsynopsis
+public Ds\Set::union(Ds\Set $set): Ds\Set
+```
 
-Створює новий набір з елементів поточного та переданого в set наборів.
+Створює новий набір з елементів поточного та переданого в `set` наборів.
 
 `A ∪ B = {x: x ∈ A ∨ x ∈ B}`
 
 ### Список параметрів
 
 `set`
+
 Новий набір для об'єднання із поточним.
 
 ### Значення, що повертаються
 
-Новий набір, що є об'єднанням поточного та переданого в `set`.
+Новий набір, що є об'єднанням поточного та переданого в `set`
 
 ### Також дивіться
 
-- [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в
-Вікіпедія
+-   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::union()****
+**Приклад #1 Приклад використання **ДсSet::union()****
 
-` <?php$a = new \Ds\Set([1, 2, 3]);$b = new \Ds\Set([3, 4, 5]);var_dump($a->union($b ));?> `
+```php
+<?php
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set([3, 4, 5]);
+
+var_dump($a->union($b));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Set)#3 (5) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
-[3]=>
-int(4)
-[4]=>
-int(5)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+  [3]=>
+  int(4)
+  [4]=>
+  int(5)
 }
+```

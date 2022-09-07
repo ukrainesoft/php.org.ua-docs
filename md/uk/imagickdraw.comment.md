@@ -1,10 +1,11 @@
-- [« ImagickDraw::color](imagickdraw.color.md)
-- [ImagickDraw::composite »](imagickdraw.composite.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Додає коментар
-
+---
+navigation:
+  - imagickdraw.color.md: '« ImagickDraw::color'
+  - imagickdraw.composite.md: 'ImagickDraw::composite »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::comment'
+---
 # ImagickDraw::comment
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,18 +14,20 @@ ImagickDraw::comment — Додає коментар
 
 ### Опис
 
-public **ImagickDraw::comment**(string `$comment`): bool
+```methodsynopsis
+public ImagickDraw::comment(string $comment): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Додає коментар у векторний вивід потік.
+Додає коментар до векторного виводу.
 
 ### Список параметрів
 
 `comment`
+
 Рядок коментаря для додавання у векторний потік виводу
 
 ### Значення, що повертаються

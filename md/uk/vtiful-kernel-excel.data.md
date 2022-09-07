@@ -1,33 +1,52 @@
-- [« Vtiful\Kernel\Excel::\_\_construct](vtiful-kernel-excel.construct.md)
-- [Vtiful\Kernel\Excel::fileName »](vtiful-kernel-excel.filename.md)
+---
+navigation:
+  - vtiful-kernel-excel.construct.md: '« VtifulKernelExcel::construct'
+  - vtiful-kernel-excel.filename.md: 'VtifulKernelExcel::fileName »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
+title: 'VtifulKernelExcel::data'
+---
+# VtifulKernelExcel::data
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- Записати дані
+(PECL xlswriter >= 1.2.1)
 
-# Vtiful\Kernel\Excel::data
-
-(PECL xlswriter \>= 1.2.1)
-
-Vtiful\Kernel\Excel::data — Записати дані
+VtifulKernelExcel::data — Записати дані
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::data**(array `$data`)
+```methodsynopsis
+public Vtiful\Kernel\Excel::data(array $data)
+```
 
 Записати дані до таблиці.
 
 ### Список параметрів
 
 `data`
+
 Дані листа
 
 ### Значення, що повертаються
 
-Примірник [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$fileObject  = new \Vtiful\Kernel\Excel($config);$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')   ->header(['name', 'age'])    ->data([      ['viest', 23],      ['wjx', 23], |
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$fileObject  = new \Vtiful\Kernel\Excel($config);
+
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age'])
+    ->data([
+      ['viest', 23],
+      ['wjx', 23],
+    ]);
+?>
+```

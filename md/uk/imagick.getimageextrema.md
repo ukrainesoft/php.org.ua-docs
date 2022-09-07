@@ -1,10 +1,11 @@
-- [« Imagick::getImageDistortion](imagick.getimagedistortion.md)
-- [Imagick::getImageFilename »](imagick.getimagefilename.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає екстремуми зображення
-
+---
+navigation:
+  - imagick.getimagedistortion.md: '« Imagick::getImageDistortion'
+  - imagick.getimagefilename.md: 'Imagick::getImageFilename »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageExtrema'
+---
 # Imagick::getImageExtrema
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,15 +14,15 @@ Imagick::getImageExtrema — Повертає екстремуми зображ�
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::getImageExtrema**(): array
+```methodsynopsis
+public Imagick::getImageExtrema(): array
+```
 
-Повертає екстремуми зображення. Повертає асоціативний масив з
-ключами "min" та "max".
+Повертає екстремуми зображення. Повертає асоціативний масив із ключами "min" та "max".
 
 ### Список параметрів
 

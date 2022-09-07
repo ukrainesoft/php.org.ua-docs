@@ -1,34 +1,35 @@
-- [«dba_open](function.dba-open.md)
-- [dba_popen »](function.dba-popen.md)
-
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Оптимізує базу даних
-
-#dba_optimize
+---
+navigation:
+  - function.dba-open.md: « dbaopen
+  - function.dba-popen.md: dbapopen »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbaoptimize
+---
+# dbaoptimize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_optimize — Оптимізує базу даних
+dbaoptimize - Оптимізує базу даних
 
 ### Опис
 
-**dba_optimize**(resource `$dba`): bool
+```methodsynopsis
+dba_optimize(resource $dba): bool
+```
 
-**dba_optimize()** оптимізує основну базу даних.
+**dbaoptimize()** оптимізує основну базу даних
 
 ### Список параметрів
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [dba_sync()](function.dba-sync.md) - Синхронізує базу даних
+-   [dbasync()](function.dba-sync.md) - Синхронізує базу даних

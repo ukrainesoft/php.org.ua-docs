@@ -1,61 +1,53 @@
-- [« Serializable::unserialize](serializable.unserialize.md)
-- [Closure::\_\_construct »](closure.construct.md)
-
-- [PHP Manual](index.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- Клас Closure
-
+---
+navigation:
+  - serializable.unserialize.md: '« Serializable::unserialize'
+  - closure.construct.md: 'Closure::construct »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Клас Closure
+---
 # Клас Closure
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас, який використовується для створення [анонімних функцій](functions.anonymous.md).
+Клас, який використовується для створення [анонімних функцій](functions.anonymous.md)
 
-Анонімні функції видають об'єкти цього. Клас отримав методи,
-що дозволяють контролювати анонімну функцію після її створення.
+Анонімні функції видають об'єкти цього. Клас отримав методи, що дозволяють контролювати анонімну функцію після її створення.
 
-Крім методів, описаних тут, цей клас також має метод "__invoke".
-Даний метод необхідний тільки для сумісності з іншими класами,
-яких реалізовано [магічний виклик](language.oop5.magic.md#language.oop5.magic.invoke), тому що
-цей метод не використовується під час виклику функції.
+Крім методів, описаних тут, цей клас також має метод `__invoke`. Цей метод необхідний лише сумісності з іншими класами, у яких реалізований [магічний виклик](language.oop5.magic.md#language.oop5.magic.invoke), оскільки цей метод не використовується під час виклику функції.
 
 ## Огляд класів
 
-final class **Closure** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-private [\_\_construct](closure.construct.md)()
+    
+     
+      final
+      class Closure
+     
+     {
 
-public static [bind](closure.bind.md)([Closure](class.closure.md)
-`$closure`, ?object `$newThis`, object\|string\|null `$newScope` =
-"static"): ?[Closure](class.closure.md)
+    /* Методы */
+    
+   private __construct()
 
-public [bindTo](closure.bindto.md)(?object `$newThis`,
-object\|string\|null `$newScope` = "static"):
-?[Closure](class.closure.md)
+    public static bind(Closure $closure, ?object $newThis, object|string|null $newScope = "static"): ?Closure
+public bindTo(?object $newThis, object|string|null $newScope = "static"): ?Closure
+public call(object $newThis, mixed ...$args): mixed
+public static fromCallable(callable $callback): Closure
 
-public [call](closure.call.md)(object `$newThis`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public static
-[fromCallable](closure.fromcallable.md)([callable](language.types.callable.md)
-`$callback`): [Closure](class.closure.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [Closure::\_\_construct](closure.construct.md) - Конструктор,
-забороняє створення екземпляра
-- [Closure::bind](closure.bind.md) — Дублює замикання із зазначенням
-конкретного зв'язаного об'єкта та області видимості класу
-- [Closure::bindTo](closure.bindto.md) — Дублює замикання з
-зазначенням пов'язаного об'єкта та області видимості класу
-- [Closure::call](closure.call.md) — Зв'язує та запускає замикання
-- [Closure::fromCallable](closure.fromcallable.md) — Конвертує
-callable у замикання
+-   [Closure::construct](closure.construct.md) - Конструктор, який забороняє створення екземпляра
+-   [Closure::bind](closure.bind.md) — Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
+-   [Closure::bindTo](closure.bindto.md) — Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
+-   [Closure::call](closure.call.md) — Зв'язує та запускає замикання
+-   [Closure::fromCallable](closure.fromcallable.md) — Конвертує callable у замикання

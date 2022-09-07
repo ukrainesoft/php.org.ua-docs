@@ -1,10 +1,11 @@
-- [« SimpleXMLIterator::next](simplexmliterator.next.md)
-- [SimpleXMLIterator::valid »](simplexmliterator.valid.md)
-
-- [PHP Manual](index.md)
-- [SimpleXMLIterator](class.simplexmliterator.md)
-- Повертає ітератор до першого елементу
-
+---
+navigation:
+  - simplexmliterator.next.md: '« SimpleXMLIterator::next'
+  - simplexmliterator.valid.md: 'SimpleXMLIterator::valid »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::rewind'
+---
 # SimpleXMLIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,10 +14,11 @@ SimpleXMLIterator::rewind — Повертає ітератор до першо�
 
 ### Опис
 
-public **SimpleXMLIterator::rewind**(): void
+```methodsynopsis
+public SimpleXMLIterator::rewind(): void
+```
 
-Цей метод повертає [SimpleXMLIterator](class.simplexmliterator.md)
-до першого елементу.
+Цей метод повертає [SimpleXMLIterator](class.simplexmliterator.md) до першого елементу.
 
 ### Список параметрів
 
@@ -30,11 +32,20 @@ public **SimpleXMLIterator::rewind**(): void
 
 **Приклад #1 Повернення до першого елемента**
 
-` <?php$xmlIterator = new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');$xmlIterator->rewind();var_dump($ xmlIterator->current());?> `
+```php
+<?php
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
+$xmlIterator->rewind();
+
+var_dump($xmlIterator->current());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(SimpleXMLIterator)#2 (1) {
-[0]=>
-string(10) "Основи PHP"
+  [0]=>
+  string(10) "Основы PHP"
 }
+```

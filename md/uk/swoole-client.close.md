@@ -1,23 +1,27 @@
-- [« Swoole\Client](class.swoole-client.md)
-- [Swoole\Client::connect »](swoole-client.connect.md)
+---
+navigation:
+  - class.swoole-client.md: « SwooleClient
+  - swoole-client.connect.md: 'SwooleClient::connect »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::close'
+---
+# SwooleClient::close
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Закриває встановлене з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::close
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::close — Закриває встановлене з'єднання
+SwooleClient::close — Закриває встановлене з'єднання
 
 ### Опис
 
-public **Swoole\Client::close**(bool `$force` = ?): bool
+```methodsynopsis
+public Swoole\Client::close(bool $force = ?): bool
+```
 
 ### Список параметрів
 
 `force`
+
 Визначає примусове закриття з'єднання.
 
 ### Значення, що повертаються

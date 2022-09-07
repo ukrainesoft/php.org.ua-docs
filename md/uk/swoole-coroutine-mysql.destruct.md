@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine\MySQL::\_\_construct](swoole-coroutine-mysql.construct.md)
-- [Swoole\Coroutine\MySQL::getDefer »](swoole-coroutine-mysql.getdefer.md)
+---
+navigation:
+  - swoole-coroutine-mysql.construct.md: '« SwooleCoroutineMySQL::construct'
+  - swoole-coroutine-mysql.getdefer.md: 'SwooleCoroutineMySQL::getDefer »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::destruct'
+---
+# SwooleCoroutineMySQL::destruct
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\MySQL::\_\_destruct
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\MySQL::\_\_destruct — Опис
+SwooleCoroutineMySQL::destruct — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\MySQL::\_\_destruct**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\MySQL::__destruct(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

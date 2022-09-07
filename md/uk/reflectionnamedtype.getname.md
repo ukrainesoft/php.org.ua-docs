@@ -1,19 +1,22 @@
-- [«ReflectionNamedType](class.reflectionnamedtype.md)
-- [ReflectionNamedType::isBuiltin »](reflectionnamedtype.isbuiltin.md)
-
-- [PHP Manual](index.md)
-- [ReflectionNamedType](class.reflectionnamedtype.md)
-- Отримує ім'я типу у вигляді рядка
-
+---
+navigation:
+  - class.reflectionnamedtype.md: « ReflectionNamedType
+  - reflectionnamedtype.isbuiltin.md: 'ReflectionNamedType::isBuiltin »'
+  - index.md: PHP Manual
+  - class.reflectionnamedtype.md: ReflectionNamedType
+title: 'ReflectionNamedType::getName'
+---
 # ReflectionNamedType::getName
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
 ReflectionNamedType::getName — Отримує ім'я типу у вигляді рядка
 
 ### Опис
 
-public **ReflectionNamedType::getName**(): string
+```methodsynopsis
+public ReflectionNamedType::getName(): string
+```
 
 ### Список параметрів
 
@@ -21,9 +24,8 @@ public **ReflectionNamedType::getName**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я типу, що відображається.
+Повертає ім'я типу, що відбивається.
 
 ### Дивіться також
 
-- [ReflectionType::\_\_toString()](reflectiontype.tostring.md) -
-Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок

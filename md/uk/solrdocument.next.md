@@ -1,19 +1,22 @@
-- [«SolrDocument::merge](solrdocument.merge.md)
-- [SolrDocument::offsetExists »](solrdocument.offsetexists.md)
-
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Переміщує внутрішній покажчик на наступне поле
-
+---
+navigation:
+  - solrdocument.merge.md: '« SolrDocument::merge'
+  - solrdocument.offsetexists.md: 'SolrDocument::offsetExists »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::next'
+---
 # SolrDocument::next
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::next — Переміщує внутрішній покажчик на наступне поле
 
 ### Опис
 
-public **SolrDocument::next**(): void
+```methodsynopsis
+public SolrDocument::next(): void
+```
 
 Переміщує внутрішній покажчик на наступне поле.
 

@@ -1,39 +1,39 @@
-- [« imap_rfc822_parse_adrlist](function.imap-rfc822-parse-adrlist.md)
-- [imap_rfc822_write_address »](function.imap-rfc822-write-address.md)
-
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Розбір рядка заголовка листа
-
-#imap_rfc822_parse_headers
+---
+navigation:
+  - function.imap-rfc822-parse-adrlist.md: « imaprfc822parseadrlist
+  - function.imap-rfc822-write-address.md: imaprfc822writeaddress »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imaprfc822parseheaders
+---
+# imaprfc822parseheaders
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_rfc822_parse_headers — Розбір рядка заголовка листа
+imaprfc822parseheaders — Розбір рядка заголовка листа
 
 ### Опис
 
-**imap_rfc822_parse_headers**(string `$headers`, string
-`$default_hostname` = "UNKNOWN"): stdClass
+```methodsynopsis
+imap_rfc822_parse_headers(string $headers, string $default_hostname = "UNKNOWN"): stdClass
+```
 
-Виймає об'єкт різних елементів заголовка, аналогічно
-[imap_header()](function.imap-header.md).
+Витягує об'єкт різних елементів заголовка, аналогічно [imapheader()](function.imap-header.md)
 
 ### Список параметрів
 
 `headers`
-Дані для розбору
+
+Дані для аналізу
 
 `default_hostname`
+
 Ім'я хоста за замовчуванням
 
 ### Значення, що повертаються
 
-Повертає об'єкт, аналогічний функцією, що повертається
-[imap_header()](function.imap-header.md), за винятком прапорів та
-інших властивостей, отриманих із сервера IMAP.
+Повертає об'єкт, аналогічний функцією, що повертається [imapheader()](function.imap-header.md), за винятком прапорів та інших властивостей, отриманих із сервера IMAP.
 
 ### Дивіться також
 
-- [imap_rfc822_parse_adrlist()](function.imap-rfc822-parse-adrlist.md) -
-Розбір адресного рядка
+-   [imaprfc822parseadrlist()](function.imap-rfc822-parse-adrlist.md) - Розбір адресного рядка

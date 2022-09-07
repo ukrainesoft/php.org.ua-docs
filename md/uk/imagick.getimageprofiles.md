@@ -1,10 +1,11 @@
-- [« Imagick::getImageProfile](imagick.getimageprofile.md)
-- [Imagick::getImageProperties »](imagick.getimageproperties.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає профілі зображень
-
+---
+navigation:
+  - imagick.getimageprofile.md: '« Imagick::getImageProfile'
+  - imagick.getimageproperties.md: 'Imagick::getImageProperties »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageProfiles'
+---
 # Imagick::getImageProfiles
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,22 +14,21 @@ Imagick::getImageProfiles — Повертає профілі зображень
 
 ### Опис
 
-public **Imagick::getImageProfiles**(string `$pattern` = "\*", bool
-`$include_values` = **`true`**): array
+```methodsynopsis
+public Imagick::getImageProfiles(string $pattern = "*", bool $include_values = true): array
+```
 
-Повертає всі пов'язані профілі, які відповідають шаблону. Якщо в
-як другий параметр передається **`false`**, повертаються тільки
-імена профілів. Цей метод доступний, якщо Imagick був скомпільований з
-версією ImageMagick 6.3.6 чи старшою.
+Повертає всі пов'язані профілі, які відповідають шаблону. Якщо в якості другого параметра передається **`false`**, повертаються лише імена профілів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.6 або старшим.
 
 ### Список параметрів
 
 `pattern`
+
 Шаблон для назв профілів.
 
 `include_values`
-Визначає, чи потрібно повертати лише імена профілів. Якщо передано
-значення **`false`** то будуть повернуті лише імена профілів.
+
+Визначає, чи потрібно повертати лише імена профілів. Якщо передано значення **`false`** то будуть повернуті лише імена профілів.
 
 ### Значення, що повертаються
 

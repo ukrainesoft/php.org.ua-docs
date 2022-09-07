@@ -1,24 +1,24 @@
-- [« Yaf_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md)
-- [Yaf_Loader::getInstance »](yaf-loader.getinstance.md)
+---
+navigation:
+  - yaf-loader.clearlocalnamespace.md: '« YafLoader::clearLocalNamespace'
+  - yaf-loader.getinstance.md: 'YafLoader::getInstance »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
+title: 'YafLoader::construct'
+---
+# YafLoader::construct
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Призначення \_\_construct
+(Yaf >=1.0.0)
 
-# Yaf_Loader::\_\_construct
-
-(Yaf \>=1.0.0)
-
-Yaf_Loader::\_\_construct - Призначення \_\_construct
+YafLoader::construct - Призначення construct
 
 ### Опис
 
-private **Yaf_Loader::\_\_construct**()
+private **YafLoader::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

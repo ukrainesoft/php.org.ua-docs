@@ -1,46 +1,59 @@
-- [«Yaf_Dispatcher](class.yaf-dispatcher.md)
-- [Yaf_Dispatcher::catchException »](yaf-dispatcher.catchexception.md)
+---
+navigation:
+  - class.yaf-dispatcher.md: « YafDispatcher
+  - yaf-dispatcher.catchexception.md: 'YafDispatcher::catchException »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::autoRender'
+---
+# YafDispatcher::autoRender
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Включає/вимикає авторендеринг
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::autoRender
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::autoRender — Включає/вимикає авторендеринг
+YafDispatcher::autoRender — Включає/вимикає авторендеринг
 
 ### Опис
 
-public **Yaf_Dispatcher::autoRender**(bool `$flag` = ?):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::autoRender(bool $flag = ?): Yaf_Dispatcher
+```
 
-[Yaf_Dispatcher](class.yaf-dispatcher.md) відображатиметься
-автоматично після надсилання вхідного запиту. Ви можете запобігти
-рендеринг, викликавши цей метод за допомогою `flag`**`true`**
+[YafDispatcher](class.yaf-dispatcher.md) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
 
-> **Примітка**:
->
-> Ви можете просто повернути **`false`** у дії, щоб запобігти
-> автоматичний рендеринг цієї дії
+> **Зауваження**
+> 
+> Ви можете просто повернути **`false`** у дії, щоб запобігти автоматичному рендерингу цієї дії
 
 ### Список параметрів
 
 `flag`
+
 bool
 
-> **Примітка**:
->
-> починаючи з 2.2.0, якщо цей параметр не заданий, буде повернено поточне
-> стан
+> **Зауваження**
+> 
+> починаючи з 2.2.0, якщо цей параметр не заданий, буде повернено поточний стан
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Dispatcher::autoRender()****
+**Приклад #1 Приклад використання **YafDispatcher::autoRender()****
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {     /* Метод init будет вызван, как только будет инициализирован контроллер */     public function init() {         if ($this->getRequest()->isXmlHttpRequest()) {             //не вызывать render для ajax-запиту               //ми виведемо рядокJSON             Yaf_Dispatcher::getInstance()->autoRender(FAL }     }}?> `
+```php
+<?php
+class IndexController extends Yaf_Controller_Abstract {
+     /* Метод init будет вызван, как только будет инициализирован контроллер */
+     public function init() {
+         if ($this->getRequest()->isXmlHttpRequest()) {
+             //не вызывать render для ajax-запроса
+             //мы выведем строку JSON
+             Yaf_Dispatcher::getInstance()->autoRender(FALSE);
+         }
+     }
+
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:

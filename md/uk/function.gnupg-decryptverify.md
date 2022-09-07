@@ -1,51 +1,65 @@
-- [«gnupg_decrypt](function.gnupg-decrypt.md)
-- [gnupg_deletekey »](function.gnupg-deletekey.md)
+---
+navigation:
+  - function.gnupg-decrypt.md: « gnupgdecrypt
+  - function.gnupg-deletekey.md: gnupgdeletekey »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgdecryptverify
+---
+# gnupgdecryptverify
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Розшифровує та перевіряє підпис переданого тексту
+(PECL gnupg >= 0.2)
 
-#gnupg_decryptverify
-
-(PECL gnupg \>= 0.2)
-
-gnupg_decryptverify — Розшифровує та перевіряє підпис переданого
-тексту
+gnupgdecrypt verify — Розшифровує та перевіряє підпис переданого тексту
 
 ### Опис
 
-**gnupg_decryptverify**(resource `$identifier`, string `$text`, string
-`&$plaintext`): array
+```methodsynopsis
+gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): array
+```
 
-Розшифровує та перевіряє підпис переданого тексту та повертає
-інформацію про підпис.
+Розшифровує та перевіряє підпис переданого тексту та повертає інформацію про підпис.
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `text`
+
 Текст для розшифрування.
 
 `plaintext`
-Параметру 'plaintext' передається розшифрований текст.
+
+Параметру `plaintext` передається розшифрований текст.
 
 ### Значення, що повертаються
 
-У разі успішного виконання функція повертає інформацію про підпис та
-передає параметр "plaintext" розшифрований текст. В разі
-виникнення помилки функція повертає **`false`**.
+У разі успішного виконання функція повертає інформацію про підпис та передає до параметра `plaintext` розшифрований текст. У разі помилки функція повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_decryptverify()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupgdecryptverify()** у процедурному стилі**
 
-` <?php$plaintext = "";$res = gnupg_init();gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");$info = gnupg_decryptverify($res, $text, $plaintext);print_r($info );?> `
+```php
+<?php
+$plaintext = "";
+$res = gnupg_init();
+gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+$info = gnupg_decryptverify($res, $text, $plaintext);
+print_r($info);
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_decryptverify()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgdecryptverify()** в об'єктно-орієнтованому стилі**
 
-`<?php$plaintext = "";$gpg = new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","$$; ($ info);?> `
+```php
+<?php
+$plaintext = "";
+$gpg = new gnupg();
+$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
+$info = $gpg->decryptverify($text,$plaintext);
+print_r($info);
+?>
+```

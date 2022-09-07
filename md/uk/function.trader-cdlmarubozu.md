@@ -1,40 +1,41 @@
-- [« trader_cdllongline](function.trader-cdllongline.md)
-- [trader_cdlmatchinglow »](function.trader-cdlmatchinglow.md)
+---
+navigation:
+  - function.trader-cdllongline.md: « tradercdllongline
+  - function.trader-cdlmatchinglow.md: tradercdlmatchinglow »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlmarubozu
+---
+# tradercdlmarubozu
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Марубозу
+(PECL trader >= 0.2.0)
 
-# trader_cdlmarubozu
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlmarubozu — Марубозу
+tradercdlmarubozu — Марубозу.
 
 ### Опис
 
-**trader_cdlmarubozu**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlmarubozu(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

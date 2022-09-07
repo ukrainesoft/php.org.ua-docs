@@ -1,40 +1,50 @@
-- [«token_get_all](function.token-get-all.md)
-- [URL »](book.url.md)
+---
+navigation:
+  - function.token-get-all.md: « tokengetall
+  - book.url.md: URL »
+  - index.md: PHP Manual
+  - ref.tokenizer.md: Функции PHP-лексера (tokenizer)
+title: tokenname
+---
+# tokenname
 
-- [PHP Manual](index.md)
-- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
-- Отримати символьне ім'я для переданої PHP-лексеми
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-# token_name
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-token_name — Отримати символьне ім'я для переданої PHP-лексеми
+tokenname — Отримати символьне ім'я для переданої PHP-лексеми
 
 ### Опис
 
-**token_name**(int `$id`): string
+```methodsynopsis
+token_name(int $id): string
+```
 
-Функція **token_name()** отримує символьне ім'я для значення
-PHP-лексеми `id`.
+Функція **tokenname()** отримує символьне ім'я для значення PHP-лексеми `id`
 
 ### Список параметрів
 
 `id`
+
 Значення лексеми.
 
 ### Значення, що повертаються
 
-Символьне значення для переданої лексеми `id`.
+Символьне значення для переданої лексеми `id`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **token_name()****
+**Приклад #1 Приклад використання **tokenname()****
 
-`<?php// 260 - значення для лексеми T_EVALecho token_name(260); // -> "T_EVAL"// Константа лексеми порівняна з|із| // -> "T_FUNCTION"?> `
+```php
+<?php
+// 260 - значение для лексемы T_EVAL
+echo token_name(260);        // -> "T_EVAL"
+
+// Константа лексемы сопоставима с его собственным именем
+echo token_name(T_FUNCTION); // -> "T_FUNCTION"
+?>
+```
 
 ### Дивіться також
 
-- [Список лексем](tokens.md)
-- [PhpToken::getTokenName()](phptoken.gettokenname.md) - Повертає
-ім'я токена
+-   [Список лексем](tokens.md)
+-   [PhpToken::getTokenName()](phptoken.gettokenname.md) - Повертає ім'я токена

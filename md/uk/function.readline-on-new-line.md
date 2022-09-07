@@ -1,20 +1,22 @@
-- [«readline_list_history](function.readline-list-history.md)
-- [readline_read_history »](function.readline-read-history.md)
+---
+navigation:
+  - function.readline-list-history.md: « readlinelisthistory
+  - function.readline-read-history.md: readlinereadhistory »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlineвінnewline
+---
+# readlineвінnewline
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Поінформує readline, що курсор перемістився на новий рядок
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-#readline_on_new_line
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-readline_on_new_line - Інформує readline, що курсор перемістився на
-новий рядок
+readlineвінnewline — інформує readline, що курсор перемістився на новий рядок
 
 ### Опис
 
-**readline_on_new_line**(): void
+```methodsynopsis
+readline_on_new_line(): void
+```
 
 Повідомляє readline, що курсор перемістився на новий рядок.
 
@@ -28,7 +30,6 @@ readline_on_new_line - Інформує readline, що курсор перемі
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише у випадку, якщо підтримується базова
-> бібліотекою readline. Не підтримується у Windows.
+> **Зауваження**
+> 
+> Функція доступна лише в тому випадку, якщо базова бібліотека підтримується readline. Не підтримується у Windows.

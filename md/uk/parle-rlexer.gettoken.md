@@ -1,20 +1,22 @@
-- [« Parle\RLexer::dump](parle-rlexer.dump.md)
-- [Parle\RLexer::insertMacro »](parle-rlexer.insertmacro.md)
+---
+navigation:
+  - parle-rlexer.dump.md: '« ParleRLexer::dump'
+  - parle-rlexer.insertmacro.md: 'ParleRLexer::insertMacro »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.md: ParleRLexer
+title: 'ParleRLexer::getToken'
+---
+# ParleRLexer::getToken
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- v
+(PECL parle >= 0.5.1)
 
-# Parle\RLexer::getToken
-
-(PECL parle \>= 0.5.1)
-
-Parle\RLexer::getToken - v
+ParleRLexer::getToken - v
 
 ### Опис
 
-public **Parle\RLexer::getToken**():
-[Parle\Token](class.parle-token.md)
+```methodsynopsis
+public Parle\RLexer::getToken(): Parle\Token
+```
 
 Отримує поточний ток.
 
@@ -24,4 +26,4 @@ public **Parle\RLexer::getToken**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Parle\Token](class.parle-token.md).
+Повертає екземпляр [ParleToken](class.parle-token.md)

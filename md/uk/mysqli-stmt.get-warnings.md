@@ -1,32 +1,33 @@
-- [« mysqli_stmt::get_result](mysqli-stmt.get-result.md)
-- [mysqli_stmt::$insert_id »](mysqli-stmt.insert-id.md)
+---
+navigation:
+  - mysqli-stmt.get-result.md: '« mysqlistmt::getresult'
+  - mysqli-stmt.insert-id.md: 'mysqlistmt::$insertid »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::getwarnings'
+---
+# mysqlistmt::getwarnings
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Отримує результат від SHOW WARNINGS
+# mysqlistmtgetwarnings
 
-# mysqli_stmt::get_warnings
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-# mysqli_stmt_get_warnings
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-mysqli_stmt::get_warnings -- mysqli_stmt_get_warnings -- Отримує
-результат від SHOW WARNINGS
+mysqlistmt::getwarnings - mysqlistmtgetwarnings — Отримує результат від SHOW WARNINGS
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::get_warnings**():
-[mysqli_warning](class.mysqli-warning.md)\|false
+```methodsynopsis
+public mysqli_stmt::get_warnings(): mysqli_warning|false
+```
 
 Процедурний стиль
 
-**mysqli_stmt_get_warnings**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): [mysqli_warning](class.mysqli-warning.md)\|false
+```methodsynopsis
+mysqli_stmt_get_warnings(mysqli_stmt $statement): mysqli_warning|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

@@ -1,37 +1,35 @@
-- [« ssh2_auth_password](function.ssh2-auth-password.md)
-- [ssh2_connect »](function.ssh2-connect.md)
+---
+navigation:
+  - function.ssh2-auth-password.md: « ssh2authpassword
+  - function.ssh2-connect.md: ssh2connect »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2authpubkeyfile
+---
+# ssh2authpubkeyfile
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Аутентифікація з відкритим ключем
+(PECL ssh2> = 0.9.0)
 
-# ssh2_auth_pubkey_file
-
-(PECL ssh2 \>= 0.9.0)
-
-ssh2_auth_pubkey_file — Аутентифікація з відкритим ключем
+ssh2authpubkeyfile — Аутентифікація з відкритим ключем
 
 ### Опис
 
-**ssh2_auth_pubkey_file**(
-resource `$session`,
-string `$username`,
-string `$pubkeyfile`,
-string `$privkeyfile`,
-string `$passphrase` = ?
-): bool
+```methodsynopsis
+ssh2_auth_pubkey_file(    resource $session,    string $username,    string $pubkeyfile,    string $privkeyfile,    string $passphrase = ?): bool
+```
 
 Аутентифікація з відкритим ключем, збереженим у файлі.
 
 ### Список параметрів
 
 `session`
-Ідентифікатор з'єднання SSH, отриманий з
-[ssh2_connect()](function.ssh2-connect.md).
+
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `username`
 
 `pubkeyfile`
+
 Відкритий ключ у форматі OpenSSH. Має виглядати приблизно так:
 
 ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8= rsa-key-20121110
@@ -39,30 +37,33 @@ ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8= rsa-key-20121110
 `privkeyfile`
 
 `passphrase`
-Якщо `privkeyfile` зашифрований (як би має), то необхідно
-надати `passphrase`.
+
+Якщо `privkeyfile` зашифрований (як би мав), то необхідно надати `passphrase`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Аутентифікація з відкритим ключем**
 
-`<?php$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));if (ssh2_auth_pubkey_file($connection, 'username',                /.ssh/id_rsa.pub',                            '/home/username/.ssh/id_rsa', 'secret')укомплектація|
-";} else {  die('Невдала аутентифікація з відкритим ключом');}?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));
+
+if (ssh2_auth_pubkey_file($connection, 'username',
+                          '/home/username/.ssh/id_rsa.pub',
+                          '/home/username/.ssh/id_rsa', 'secret')) {
+  echo "Успешная аутентификация с открытым ключом\n";
+} else {
+  die('Неудачная аутентификация с открытым ключом');
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Основна бібліотека libssh не підтримує часткові автентифікації
-> дуже чисто. Тобто, якщо вам потрібно надати як відкритий ключ,
-> так і пароль, він виглядатиме так, як якщо б ця функція
-> зазнала невдачі. У цьому конкретному випадку невдалий виклик може
-> означати, що автентифікація не завершена. Вам потрібно ігнорувати це
-> невдале виконання, продовжити роботу та викликати
-> [ssh2_auth_password()](function.ssh2-auth-password.md) для
-> завершення автентифікації.
+> **Зауваження**
+> 
+> Основна бібліотека libssh не підтримує часткові автентифікації дуже чисто. Тобто, якщо вам потрібно надати як відкритий ключ, так і пароль, він виглядатиме так, якби ця функція зазнала невдачі. У цьому випадку невдалий виклик може означати, що автентифікація не завершена. Вам потрібно ігнорувати це невдале виконання, продовжити роботу та викликати [ssh2authpassword()](function.ssh2-auth-password.md) для завершення автентифікації.

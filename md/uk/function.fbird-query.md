@@ -1,28 +1,24 @@
-- [«fbird_prepare](function.fbird-prepare.md)
-- [fbird_restore »](function.fbird-restore.md)
+---
+navigation:
+  - function.fbird-prepare.md: « fbirdprepare
+  - function.fbird-restore.md: fbirdrestore »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdquery
+---
+# fbirdquery
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_query
+(PHP 5, PHP 7 < 7.4.0)
 
-#fbird_query
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-fbird_query - Псевдонім [ibase_query()](function.ibase-query.md)
+fbirdquery - Псевдонім [ibasequery()](function.ibase-query.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_query()](function.ibase-query.md).
+Ця функція є псевдонімом: [ibasequery()](function.ibase-query.md)
 
 ### Дивіться також
 
-- [fbird_errmsg()](function.fbird-errmsg.md) - Псевдонім
-ibase_errmsg
-- [fbird_fetch_row()](function.fbird-fetch-row.md) - Псевдонім
-ibase_fetch_row
-- [fbird_fetch_object()](function.fbird-fetch-object.md) - Псевдонім
-ibase_fetch_object
-- [fbird_free_result()](function.fbird-free-result.md) - Псевдонім
-ibase_free_result
+-   [fbirderrmsg()](function.fbird-errmsg.md) - Псевдонім ibaseerrmsg
+-   [fbirdfetchrow()](function.fbird-fetch-row.md) - Псевдонім ibasefetchrow
+-   [fbirdfetchobject()](function.fbird-fetch-object.md) - Псевдонім ibasefetchobject
+-   [fbirdfreeresult()](function.fbird-free-result.md) - Псевдонім ibasefreeresult

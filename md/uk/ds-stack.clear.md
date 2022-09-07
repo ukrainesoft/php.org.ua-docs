@@ -1,19 +1,22 @@
-- [Ds\Stack::capacity](ds-stack.capacity.md)
-- [Ds\Stack::\_\_construct »](ds-stack.construct.md)
+---
+navigation:
+  - ds-stack.capacity.md: '« DsStack::capacity'
+  - ds-stack.construct.md: 'ДсStack::construct »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
+title: 'ДсStack::clear'
+---
+# ДсStack::clear
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Видаляє всі значення з колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Stack::clear
-
-(PECL ds \>= 1.0.0)
-
-Ds\Stack::clear — Видаляє всі значення колекції.
+ДсStack::clear — Видаляє всі значення з колекції
 
 ### Опис
 
-public **Ds\Stack::clear**(): void
+```methodsynopsis
+public Ds\Stack::clear(): void
+```
 
 Видаляє всі значення колекції.
 
@@ -27,18 +30,28 @@ public **Ds\Stack::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::clear()****
+**Приклад #1 Приклад використання **ДсStack::clear()****
 
-` <?php$stack = new \Ds\Stack([1, 2, 3]);print_r($stack);$stack->clear();print_r($stack);?> `
+```php
+<?php
+$stack = new \Ds\Stack([1, 2, 3]);
+print_r($stack);
+
+$stack->clear();
+print_r($stack);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Stack Object
 (
-[0] => 3
-[1] => 2
-[2] => 1
+    [0] => 3
+    [1] => 2
+    [2] => 1
 )
 Ds\Stack Object
 (
 )
+```

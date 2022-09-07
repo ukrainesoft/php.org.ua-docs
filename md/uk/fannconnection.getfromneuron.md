@@ -1,19 +1,22 @@
-- [«FANNConnection::\_\_construct](fannconnection.construct.md)
-- [FANNConnection::getToNeuron »](fannconnection.gettoneuron.md)
-
-- [PHP Manual](index.md)
-- [FANNConnection](class.fannconnection.md)
-- Повертає позицію стартового нейрона
-
+---
+navigation:
+  - fannconnection.construct.md: '« FANNConnection::construct'
+  - fannconnection.gettoneuron.md: 'FANNConnection::getToNeuron »'
+  - index.md: PHP Manual
+  - class.fannconnection.md: FANNConnection
+title: 'FANNConnection::getFromNeuron'
+---
 # FANNConnection::getFromNeuron
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
 FANNConnection::getFromNeuron — Повертає позицію стартового нейрона
 
 ### Опис
 
-public **FANNConnection::getFromNeuron**(): int
+```methodsynopsis
+public FANNConnection::getFromNeuron(): int
+```
 
 Повертає позицію стартового нейрона.
 

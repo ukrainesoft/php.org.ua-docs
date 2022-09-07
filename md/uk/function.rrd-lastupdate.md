@@ -1,29 +1,31 @@
-- [«rrd_last](function.rrd-last.md)
-- [rrd_restore »](function.rrd-restore.md)
+---
+navigation:
+  - function.rrd-last.md: « rrdlast
+  - function.rrd-restore.md: rrdrestore »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdlastupdate
+---
+# rrdlastupdate
 
-- [PHP Manual](index.md)
-- [Функції RRD](ref.rrd.md)
-- Отримує інформацію про останні оновлені дані
+(PECL rrd >= 0.9.0)
 
-#rrd_lastupdate
-
-(PECL rrd \>= 0.9.0)
-
-rrd_lastupdate — Отримує інформацію про останні оновлені дані
+rrdlastupdate — Отримує інформацію про останні оновлені дані
 
 ### Опис
 
-**rrd_lastupdate**(string `$filename`): array
+```methodsynopsis
+rrd_lastupdate(string $filename): array
+```
 
-Повертає масив позначки часу UNIX та значення, збережені для
-кожної дати в останній оновлення файлу бази даних RRD.
+Повертає масив позначки часу UNIX та значення, збережені для кожної дати в останньому оновленні файлу бази даних RRD.
 
 ### Список параметрів
 
 `file`
+
 Назва файлу бази даних RRD.
 
 ### Значення, що повертаються
 
-Масив інформації про останнє оновлення або **`false`** у разі
-виникнення помилки.
+Масив інформації про останнє оновлення або **`false`** у разі виникнення помилки.

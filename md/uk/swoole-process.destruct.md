@@ -1,19 +1,22 @@
-- [« Swoole\Process::daemon](swoole-process.daemon.md)
-- [Swoole\Process::exec »](swoole-process.exec.md)
+---
+navigation:
+  - swoole-process.daemon.md: '« SwooleProcess::daemon'
+  - swoole-process.exec.md: 'SwooleProcess::exec »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::destruct'
+---
+# SwooleProcess::destruct
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Знищує процес
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::\_\_destruct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::\_\_destruct - Знищує процес
+SwooleProcess::destruct — Знищує процес
 
 ### Опис
 
-public **Swoole\Process::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Process::__destruct(): void
+```
 
 ### Список параметрів
 

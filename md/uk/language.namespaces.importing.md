@@ -1,92 +1,141 @@
-- [« Ключове слово namespace та константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.md)
-- [Глобальний простір »](language.namespaces.global.md)
-
-- [PHP Manual](index.md)
-- [Простори імен](language.namespaces.md)
-- Використання просторів імен: імпорт/створення псевдоніма імені
-
+---
+navigation:
+  - language.namespaces.nsconstants.md: « Ключевое слово namespace и константаNAMESPACE
+  - language.namespaces.global.md: Глобальний простір »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: 'Використання просторів імен: імпорт/створення псевдоніма імені'
+---
 ## Використання просторів імен: імпорт/створення псевдоніма імені
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-Можливість посилатися на зовнішнє абсолютне ім'я за псевдонімом або
-імпортування – це важлива особливість просторів імен. Це схоже на
-можливість файлових систем unix створювати символічні посилання на файл
-чи директорію.
+Можливість посилатися на зовнішнє абсолютне ім'я щодо псевдоніму чи імпортування – це важлива особливість просторів імен. Це схоже на можливість файлових систем unix створювати символічні посилання на файл або директорію.
 
-PHP може створювати псевдоніми імені/імпортувати константи, функції,
-класи, інтерфейси та простори імен.
+PHP може створювати псевдоніми імені/імпортувати константи, функції, класи, інтерфейси, трейти, перерахування та простори імен.
 
-Створення псевдоніма імені виконується за допомогою оператора `use`. Ось
-приклад, що показує 5 типів імпорту:
+Створення псевдоніма імені виконується за допомогою оператора `use`. Ось приклад, що показує 5 типів імпорту:
 
 **Приклад #1 імпорт/створення псевдоніма імені за допомогою оператора use**
 
-`<?phpnamespace Foo; \Full unctionName;// псевдонім функціїuse function My\Full unctionName as func;// імпортування константиuse const My\Full\CONSTANT;$obj = new namespace\Another; // створює примірник класу foo\Another$obj = new Another; // створює об'єкт класу My\Full\ClassnameNSname\subns unc(); // викликає функцію My\Full\NSname\subns unc$a = new ArrayObject(array(1)); // створює об'єкт класу ArrayObject// без вираження "use ArrayObject" ми створимо об'єкт класу foo\ArrayObjectfunc(); // викликає функцію My\Full unctionNameecho CONSTANT; // виводить вміст константи My\Full\CONSTANT?> `
+```php
+<?php
+namespace foo;
+use My\Full\Classname as Another;
 
-Зверніть увагу, що для імен у просторі імен (абсолютні імена,
-що містять роздільник просторів імен, такі як `Foo\Bar`, на відміну
-від глобальних імен, які його не містять, такі як `FooBar`) немає
-необхідності в початковому зворотному сліші (\) та його присутність там не
-рекомендується, оскільки імена, що імпортуються, повинні бути абсолютними і не
-обробляються щодо поточного простору імен.
+// это тоже самое, что и использование My\Full\NSname as NSname
+use My\Full\NSname;
 
-PHP додатково підтримує зручне скорочення для завдання кількох
-операторів use в одному і тому ж рядку
+// импортирование глобального класса
+use ArrayObject;
 
-**Приклад #2 імпорт/створення псевдоніма імені за допомогою оператора use,
-комбінування кількох операторів use**
+// импортирование функции
+use function My\Full\functionName;
 
-` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj = new Another; // створює об'єкт класу My\Full\ClassnameNSname\subns unc(); // викликає функцію My\Full\NSname\subns unc?> `
+// псевдоним функции
+use function My\Full\functionName as func;
 
-Імпорт виконується під час компіляції і тому не впливає на імена
-динамічних класів, функцій чи констант.
+// импортирование константы
+use const My\Full\CONSTANT;
+
+$obj = new namespace\Another; // создаёт экземпляр класса foo\Another
+$obj = new Another; // создаёт объект класса My\Full\Classname
+NSname\subns\func(); // вызывает функцию My\Full\NSname\subns\func
+$a = new ArrayObject(array(1)); // создаёт объект класса ArrayObject
+// без выражения "use ArrayObject" мы создадим объект класса foo\ArrayObject
+func(); // вызывает функцию My\Full\functionName
+echo CONSTANT; // выводит содержимое константы My\Full\CONSTANT
+?>
+```
+
+Зверніть увагу, що для імен у просторі імен (абсолютні імена, що містять роздільники просторів імен, такі як `Foo\Bar`, на відміну від глобальних імен, які не містять, такі як `FooBar`) немає необхідності в початковому зворотному сліші () та його присутність там не рекомендується, оскільки імпортовані імена повинні бути абсолютними та не обробляються щодо поточного простору імен.
+
+PHP додатково підтримує зручне скорочення для завдання кількох операторів use в одному і тому ж рядку
+
+**Приклад #2 імпорт/створення псевдоніма імені за допомогою оператора use, комбінування кількох операторів use**
+
+```php
+<?php
+use My\Full\Classname as Another, My\Full\NSname;
+
+$obj = new Another; // создаёт объект класса My\Full\Classname
+NSname\subns\func(); // вызывает функцию My\Full\NSname\subns\func
+?>
+```
+
+Імпорт виконується під час компіляції і тому не впливає на імена динамічних класів, функцій чи констант.
 
 **Приклад #3 Імпорт та динамічні імена**
 
-` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj = new Another; // створює об'єкт класу My\Full\Classname$a = 'Another';$obj = new $a; // створює об'єкт класу Another?> `
+```php
+<?php
+use My\Full\Classname as Another, My\Full\NSname;
 
-На додаток, імпорт поширюється лише на неповні та повні імена.
-Абсолютні імена не торкаються операції імпорту.
+$obj = new Another; // создаёт объект класса My\Full\Classname
+$a = 'Another';
+$obj = new $a;      // создаёт объект класса Another
+?>
+```
+
+Крім того, імпорт поширюється лише на неповні та повні імена. Абсолютні імена не торкаються операції імпорту.
 
 **Приклад #4 Імпортування та абсолютні імена**
 
-` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj = new Another; // створює об'єкт класу My\Full\Classname$obj = new \Another; // створює об'єкт класу Another$obj = new Another hing; // створює об'єкт класу My\Full\Classname hing$obj = new \Another hing; // створює об'єкт класу Another hing?> `
+```php
+<?php
+use My\Full\Classname as Another, My\Full\NSname;
 
-### Огляд правил для імпорту
+$obj = new Another; // создаёт объект класса My\Full\Classname
+$obj = new \Another; // создаёт объект класса Another
+$obj = new Another\thing; // создаёт объект класса My\Full\Classname\thing
+$obj = new \Another\thing; // создаёт объект класса Another\thing
+?>
+```
 
-Ключове слово `use` має бути вказано на самому початку файлу (у
-глобальної області) або всередині оголошення простору імен. Це
-необхідно тому, що імпорт виконується під час компіляції, а не у
-час виконання, тому воно не може бути укладено в блок. Наступний
-приклад показує неприпустиме застосування ключового слова `use`:
+### Огляд правил імпорту
+
+Ключове слово `use` має бути вказано на самому початку файлу (у глобальній області) або всередині оголошення простору імен. Це необхідно тому, що імпорт виконується під час компіляції, а не під час виконання, тому його не можна укладати в блок. Наступний приклад показує неприпустиме застосування ключового слова `use`
 
 **Приклад #5 Неприпустиме правило імпорту**
 
-`<?phpnamespace Languages;function toGreenlandic(){    use|Languages\Danish; //...}?> `
+```php
+<?php
+namespace Languages;
 
-> **Примітка**:
->
-> Правила імпорту задаються на кожен файл окремо. Це означає, що
-> файли, що приєднуються *НЕ* будуть успадковувати правила імпорту з
-> батьківського файлу.
+function toGreenlandic()
+{
+    use Languages\Danish;
+
+    //...
+}
+?>
+```
+
+> **Зауваження**
+> 
+> Правила імпорту задаються для кожного файлу окремо. Це означає, що файли, що приєднуються *НЕ* успадкуватимуть правила імпорту з батьківського файлу.
 
 ### Опис групування в одному операторі `use`
 
-Класи, функції та константи, що імпортуються з одного і того ж
-[`namespace`](language.namespaces.definition.md), можуть групуватися
-в одному операторі [`use`](language.namespaces.importing.md).
+Класи, функції та константи, що імпортуються з одного і того ж [`namespace`](language.namespaces.definition.md), можуть групуватися в одному операторі [`use`](language.namespaces.importing.md)
 
-`<?phpuse some
-amespace\ClassA;use some
-amespace\ClassB;use some
-amespace\ClassC as C;use function some
-amespace n_a;use function some
-amespace n_b;use function some
-amespace n_c;use const some
-amespace\ConstA;use const some
-amespace\ConstB;use const some
-amespace\ConstC;// Еквівалентно наступному груповому використанняuse some
-amespace\{ClassA, ClassB, ClassC as C};use function some
-amespace\{fn_a, fn_b, fn_c};use const some
-amespace \ {ConstA, ConstB, ConstC}; `
+```php
+<?php
+
+use some\namespace\ClassA;
+use some\namespace\ClassB;
+use some\namespace\ClassC as C;
+
+use function some\namespace\fn_a;
+use function some\namespace\fn_b;
+use function some\namespace\fn_c;
+
+use const some\namespace\ConstA;
+use const some\namespace\ConstB;
+use const some\namespace\ConstC;
+
+// Эквивалентно следующему групповому использованию
+use some\namespace\{ClassA, ClassB, ClassC as C};
+use function some\namespace\{fn_a, fn_b, fn_c};
+use const some\namespace\{ConstA, ConstB, ConstC};
+```

@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](ftp.setup.md)
-- [Встановлення »](ftp.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ftp.setup.md)
-- Вимоги
-
+---
+navigation:
+  - ftp.setup.md: « Встановлення та налаштування
+  - ftp.installation.md: Установка »
+  - index.md: PHP Manual
+  - ftp.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

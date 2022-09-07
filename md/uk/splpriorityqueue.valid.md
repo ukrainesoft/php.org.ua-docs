@@ -1,19 +1,22 @@
-- [« SplPriorityQueue::top](splpriorityqueue.top.md)
-- [SplFixedArray »](class.splfixedarray.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Перевіряє, чи є у черзі ще елементи
-
+---
+navigation:
+  - splpriorityqueue.top.md: '« SplPriorityQueue::top'
+  - class.splfixedarray.md: SplFixedArray »
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::valid'
+---
 # SplPriorityQueue::valid
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplPriorityQueue::valid — Перевіряє, чи є у черзі ще елементи
 
 ### Опис
 
-public **SplPriorityQueue::valid**(): bool
+```methodsynopsis
+public SplPriorityQueue::valid(): bool
+```
 
 Перевіряє, чи є у черзі ще елементи.
 
@@ -23,5 +26,4 @@ public **SplPriorityQueue::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо в черзі ще є доступні елементи, та
-**`false`** інакше.
+Повертає **`true`**, якщо в черзі ще є доступні елементи, та **`false`** в іншому випадку.

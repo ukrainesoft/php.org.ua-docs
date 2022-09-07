@@ -1,58 +1,55 @@
-- [«zip_entry_open](function.zip-entry-open.md)
-- [zip_open »](function.zip-open.md)
+---
+navigation:
+  - function.zip-entry-open.md: « zipentryopen
+  - function.zip-open.md: zipopen »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipentryread
+---
+# zipentryread
 
-- [PHP Manual](index.md)
-- [Функції Zip](ref.zip.md)
-- Читає дані із відкритого раніше дескриптора директорії
+(PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-#zip_entry_read
-
-(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
-
-zip_entry_read - Читає дані з відкритого раніше дескриптора директорії
+zipentryread - Читає дані з відкритого раніше дескриптора директорії
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**zip_entry_read**(resource `$zip_entry`, int `$len` = 1024):
-string\|false
+```methodsynopsis
+zip_entry_read(resource $zip_entry, int $len = 1024): string|false
+```
 
 Читає дані із відкритого раніше дескриптора директорії.
 
 ### Список параметрів
 
 `zip_entry`
-Дескриптор директорії, що повертається функцією
-[zip_read()](function.zip-read.md).
+
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.md)
 
 `len`
+
 Число байт, яке потрібно рахувати.
 
-> **Примітка**:
->
-> У параметрі необхідно вказувати обсяг даних, які ви бажаєте
-> рахувати, без урахування стиснення.
+> **Зауваження**
+> 
+> У параметрі необхідно вказувати обсяг даних, які ви хочете рахувати, без урахування стиснення.
 
 ### Значення, що повертаються
 
-Повертає лічені дані, порожній рядок, якщо досягнуто кінець файлу,
-або **`false`** у разі виникнення помилки.
+Повертає лічені дані, порожній рядок, якщо досягнуто кінець файлу, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла на користь Object API, дивіться [ZipArchive::getFromIndex()](ziparchive.getfromindex.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::getFromIndex()](ziparchive.getfromindex.md) |
 
 ### Дивіться також
 
-- [zip_entry_open()](function.zip-entry-open.md) - Відкриває
-директорію для читання
-- [zip_entry_close()](function.zip-entry-close.md) - Закриває
-дескриптор директорії
-- [zip_entry_filesize()](function.zip-entry-filesize.md) -
-Повертає реальний розмір файлу для дескриптора директорії
+-   [zipentryopen()](function.zip-entry-open.md) - відкриває директорію для читання
+-   [zipentryclose()](function.zip-entry-close.md) - закриває дескриптор директорії
+-   [zipentryfilesize()](function.zip-entry-filesize.md) - Повертає реальний розмір файлу для дескриптора директорії

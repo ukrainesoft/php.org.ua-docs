@@ -1,28 +1,29 @@
-- [« ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.md)
-- [ImagickPixelIterator::setIteratorLastRow »](imagickpixeliterator.setiteratorlastrow.md)
-
-- [PHP Manual](index.md)
-- [ImagickPixelIterator](class.imagickpixeliterator.md)
-- Встановлює ітератор пікселів на перший ряд
-
+---
+navigation:
+  - imagickpixeliterator.resetiterator.md: '« ImagickPixelIterator::resetIterator'
+  - imagickpixeliterator.setiteratorlastrow.md: 'ImagickPixelIterator::setIteratorLastRow »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixelIterator::setIteratorFirstRow'
+---
 # ImagickPixelIterator::setIteratorFirstRow
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixelIterator::setIteratorFirstRow — Встановлює ітератор
-пікселів на перший ряд
+ImagickPixelIterator::setIteratorFirstRow - Встановлює ітератор пікселів на перший ряд
 
 ### Опис
 
-public **ImagickPixelIterator::setIteratorFirstRow**(): bool
+```methodsynopsis
+public ImagickPixelIterator::setIteratorFirstRow(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Встановлює внутрішній покажчик ітератора пікселів перший ряд.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

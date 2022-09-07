@@ -1,23 +1,24 @@
-- [« Memcached::incrementByKey](memcached.incrementbykey.md)
-- [Memcached::isPristine »](memcached.ispristine.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Перевіряє, чи використовується стійке з'єднання з сервером memcache
-
+---
+navigation:
+  - memcached.incrementbykey.md: '« Memcached::incrementByKey'
+  - memcached.ispristine.md: 'Memcached::isPristine »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::isPersistent'
+---
 # Memcached::isPersistent
 
-(PECL memcached \>= 2.0.0)
+(PECL memcached >= 2.0.0)
 
-Memcached::isPersistent — Перевіряє, чи використовується стійке
-з'єднання з сервером memcache
+Memcached::isPersistent — Перевіряє, чи використовується стійке з'єднання з сервером memcache
 
 ### Опис
 
-public **Memcached::isPersistent**(): bool
+```methodsynopsis
+public Memcached::isPersistent(): bool
+```
 
-**Memcached::isPersistent()** перевіряє чи є з'єднання з
-серверами memcache є стійким тобто. що зберігається між запитами.
+**Memcached::isPersistent()** перевіряє чи є з'єднання з серверами memcache стійким тобто. що зберігається між запитами.
 
 ### Список параметрів
 
@@ -25,10 +26,8 @@ public **Memcached::isPersistent**(): bool
 
 ### Значення, що повертаються
 
-Повертає true, якщо екземпляр класу Memcache використовує стійке
-з'єднання, і false інакше.
+Повертає true якщо екземпляр класу Memcache використовує стійке з'єднання, і false інакше.
 
 ### Дивіться також
 
-- [Memcached::isPristine()](memcached.ispristine.md) - Перевіряє
-чи вже створено екземпляр класу Memcached
+-   [Memcached::isPristine()](memcached.ispristine.md) - Перевіряє чи вже створено екземпляр класу Memcached

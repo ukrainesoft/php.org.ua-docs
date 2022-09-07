@@ -1,28 +1,37 @@
-- [«mysql_xdevapi\Exception](class.mysql-xdevapi-exception.md)
-- [Executable::execute »](mysql-xdevapi-executable.execute.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс Executable
-
+---
+navigation:
+  - class.mysql-xdevapi-exception.md: « mysqlxdevapiException
+  - mysql-xdevapi-executable.execute.md: 'Executable::execute »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Інтерфейс Executable
+---
 # Інтерфейс Executable
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\Executable** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
 
-}
+    
+     
+      class mysql_xdevapi\Executable
+     
+     {
+
+
+    /* Методы */
+    
+   abstract public execute(): mysql_xdevapi\Result
+
+   }
+```
 
 ## Зміст
 
-- [Executable::execute](mysql-xdevapi-executable.execute.md) -
-Виконує затвердження
+-   [Executable::execute](mysql-xdevapi-executable.execute.md) - Виконує твердження

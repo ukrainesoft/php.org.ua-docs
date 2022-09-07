@@ -1,22 +1,24 @@
-- [« ReflectionClass::isTrait](reflectionclass.istrait.md)
-- [ReflectionClass::newInstance »](reflectionclass.newinstance.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевіряє, чи є клас користувача
-
+---
+navigation:
+  - reflectionclass.istrait.md: '« ReflectionClass::isTrait'
+  - reflectionclass.newinstance.md: 'ReflectionClass::newInstance »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isUserDefined'
+---
 # ReflectionClass::isUserDefined
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::isUserDefined — Перевіряє, чи є клас
-користувальницьким
+ReflectionClass::isUserDefined — Перевіряє, чи є клас для користувача
 
 ### Опис
 
-public **ReflectionClass::isUserDefined**(): bool
+```methodsynopsis
+public ReflectionClass::isUserDefined(): bool
+```
 
-Перевіряє, чи є клас власним, а не вбудованим.
+Перевіряє, чи клас користувальницьким, а чи не вбудованим.
 
 ### Список параметрів
 
@@ -24,10 +26,8 @@ public **ReflectionClass::isUserDefined**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ReflectionClass::isInternal()](reflectionclass.isinternal.md) -
-Перевіряє, чи є клас вбудованим у модуль чи ядро
+-   [ReflectionClass::isInternal()](reflectionclass.isinternal.md) - Перевіряє, чи є клас вбудованим у модуль чи ядро

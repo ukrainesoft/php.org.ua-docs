@@ -1,19 +1,22 @@
-- [« IteratorIterator::key](iteratoriterator.key.md)
-- [IteratorIterator::rewind »](iteratoriterator.rewind.md)
-
-- [PHP Manual](index.md)
-- [IteratorIterator](class.iteratoriterator.md)
-- Переміщує ітератор до наступного елементу
-
+---
+navigation:
+  - iteratoriterator.key.md: '« IteratorIterator::key'
+  - iteratoriterator.rewind.md: 'IteratorIterator::rewind »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::next'
+---
 # IteratorIterator::next
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-IteratorIterator::next — Переміщує ітератор до наступного елемента
+IteratorIterator::next — Переміщує ітератор до наступного елементу
 
 ### Опис
 
-public **IteratorIterator::next**(): void
+```methodsynopsis
+public IteratorIterator::next(): void
+```
 
 Переміщення ітератора до наступного елемента.
 
@@ -27,7 +30,5 @@ public **IteratorIterator::next**(): void
 
 ### Дивіться також
 
-- [IteratorIterator::rewind()](iteratoriterator.rewind.md) -
-Повертає ітератор до першого елементу
-- [IteratorIterator::valid()](iteratoriterator.valid.md) -
-Перевіряє, чи є ітератор допустимим
+-   [IteratorIterator::rewind()](iteratoriterator.rewind.md) - Повертає ітератор до першого елементу
+-   [IteratorIterator::valid()](iteratoriterator.valid.md) - Перевіряє, чи є ітератор допустимим

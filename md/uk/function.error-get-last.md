@@ -1,19 +1,22 @@
-- [«error_clear_last](function.error-clear-last.md)
-- [error_log »](function.error-log.md)
+---
+navigation:
+  - function.error-clear-last.md: « errorclearlast
+  - function.error-log.md: errorlog »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: errorgetlast
+---
+# errorgetlast
 
-- [PHP Manual](index.md)
-- [Функції обробки помилок](ref.errorfunc.md)
-- Отримання інформації про останню помилку
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#error_get_last
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-error_get_last — Отримання інформації про останню помилку
+errorgetlast — Отримання інформації про останню помилку
 
 ### Опис
 
-**error_get_last**(): ?array
+```methodsynopsis
+error_get_last(): ?array
+```
 
 Отримує інформацію про останню помилку, що відбулася.
 
@@ -23,33 +26,36 @@ error_get_last — Отримання інформації про останню
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив з описом останньої події
-помилки. Ключі масиву: "type", "message", "file" та "line". Якщо помилка
-відбулася у внутрішній функції PHP, елемент з ключем "message" буде
-починатися з імені цієї функції. Повертає **`null`**, якщо помилок ще
-не відбулося.
+Повертає асоціативний масив з описом останньої помилки, що відбулася. Ключі масиву: "type", "message", "file" та "line". Якщо помилка відбулася у внутрішній функції PHP, елемент із ключем "message" почнеться з імені цієї функції. Повертає \*\*`null`\*\*якщо помилок ще не сталося.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **error_get_last()****
+**Приклад #1 Приклад використання **errorgetlast()****
 
-` <?phpecho $a;print_r(error_get_last());?> `
+```php
+<?php
+echo $a;
+print_r(error_get_last());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[type] => 8
-[message] => Undefined variable: a
-[file] => C:WWW\index.php
-[line] => 2
+    [type] => 8
+    [message] => Undefined variable: a
+    [file] => C:\WWW\index.php
+    [line] => 2
 )
+```
 
 ### Дивіться також
- - [Константи помилок](errorfunc.constants.md)
-- Змінна `$php_errormsg`
-- [error_clear_last()](function.error-clear-last.md) - Очистити
-останню помилку
-- [Директива `display_errors`](errorfunc.configuration.md#ini.display-errors)
-- [Директива `html_errors`](errorfunc.configuration.md#ini.md-errors)
-- [Директива `xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)
+
+-   [Константи помилок](errorfunc.constants.md)
+-   Змінна [$phperrormsg](reserved.variables.phperrormsg.md)
+-   [errorclearlast()](function.error-clear-last.md) - Очистити останню помилку
+-   [Директива `display_errors`](errorfunc.configuration.md#ini.display-errors)
+-   [Директива `html_errors`](errorfunc.configuration.md#ini.html-errors)
+-   [Директива `xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)

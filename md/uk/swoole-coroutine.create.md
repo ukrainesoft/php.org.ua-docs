@@ -1,24 +1,26 @@
-- [« Swoole\Coroutine::cli_wait](swoole-coroutine.cli-wait.md)
-- [Swoole\Coroutine\Client::close »](swoole-coroutine-client.close.md)
+---
+navigation:
+  - swoole-coroutine.cli-wait.md: '« SwooleCoroutine::cliwait'
+  - swoole-coroutine-client.close.md: 'SwooleCoroutineClient::close »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutine::create'
+---
+# SwooleCoroutine::create
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine::create
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine::create — Опис
+SwooleCoroutine::create — Опис
 
 ### Опис
 
-public static **Swoole\Coroutine::create**(): ReturnType
+```methodsynopsis
+public static Swoole\Coroutine::create(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

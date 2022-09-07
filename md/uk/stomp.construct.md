@@ -1,75 +1,102 @@
-- [«Stomp::commit](stomp.commit.md)
-- [Stomp::\_\_destruct »](stomp.destruct.md)
+---
+navigation:
+  - stomp.commit.md: '« Stomp::commit'
+  - stomp.destruct.md: 'Stomp::destruct »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::construct'
+---
+# Stomp::construct
 
-- [PHP Manual](index.md)
-- [Stomp](class.stomp.md)
-- Відкриває з'єднання
+# stompconnect
 
-# Stomp::\_\_construct
+(PECL stomp >= 0.1.0)
 
-#stomp_connect
-
-(PECL stomp \>= 0.1.0)
-
-Stomp::\_\_construct -- stomp_connect — Відкриває з'єднання
+Stomp::construct - stompconnect — Відкриває з'єднання
 
 ### Опис
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **Stomp::\_\_construct**(
-string `$broker` = ini_get("stomp.default_broker_uri"),
-string `$username` = ?,
-string `$password` = ?,
-array `$headers` = ?
-)
+public **Stomp::construct**  
+string `$broker` = iniget("stomp.defaultbrokeruri"),  
+string `$username`  
+string `$password`  
+array `$headers`
 
 Процедурний стиль:
 
-**stomp_connect**(
-string `$broker` = ini_get("stomp.default_broker_uri"),
-string `$username` = ?,
-string `$password` = ?,
-array `$headers` = ?
-): resource
+```methodsynopsis
+stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
+```
 
-Відкриває з'єднання до Stomp-сумісного брокера повідомлень (Message
-Broker).
+Відкриває з'єднання до Stomp-сумісного брокера повідомлень (Message Broker).
 
 ### Список параметрів
 
 `broker`
+
 URI брокера
 
 `username`
+
 Ім'я користувача
 
 `password`
+
 Пароль
 
 `headers`
-Асоціативний масив, що містить додаткові заголовки (приклад:
-receipt).
+
+Асоціативний масив, який містить додаткові заголовки (приклад: receipt).
 
 ### Значення, що повертаються
 
-> **Примітка**:
->
-> Також може бути зазначений заголовок транзакції, що означає, що прийом
-> повідомлення має бути частиною іменованої транзакції.
+> **Зауваження**
+> 
+> Також може бути зазначений заголовок транзакції, що означає, що прийом повідомлення повинен бути частиною іменованої транзакції.
 
-### Список змін
+### список змін
 
-| Версія           | Опис                     |
-|------------------|--------------------------|
-| PECL Stomp 1.0.1 | Доданий параметр headers |
+| Версия | Описание |
+| --- | --- |
+| PECL Stomp 1.0.1 | Доданий параметр `headers` |
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}/* закриття з'єднання*/unset($stomp);?> `
+```php
+<?php
+
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
+}
+
+/* закрытие соединения */
+unset($stomp);
+
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}/* Закриття з'єднання*/stomp_close($link);?> `
+```php
+<?php
+
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
+
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
+}
+
+/* Закрытие соединения */
+stomp_close($link);
+
+?>
+```

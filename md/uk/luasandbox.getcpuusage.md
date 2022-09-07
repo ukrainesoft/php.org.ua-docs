@@ -1,20 +1,22 @@
-- [« LuaSandbox::enableProfiler](luasandbox.enableprofiler.md)
-- [LuaSandbox::getMemoryUsage »](luasandbox.getmemoryusage.md)
-
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Повертає поточний час використання процесора у середовищі Lua
-
+---
+navigation:
+  - luasandbox.enableprofiler.md: '« LuaSandbox::enableProfiler'
+  - luasandbox.getmemoryusage.md: 'LuaSandbox::getMemoryUsage »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::getCPUUsage'
+---
 # LuaSandbox::getCPUUsage
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
-LuaSandbox::getCPUUsage — Повертає поточний час використання
-процесора в середовищі Lua
+LuaSandbox::getCPUUsage — Повертає поточний час використання процесора в середовищі Lua
 
 ### Опис
 
-public **LuaSandbox::getCPUUsage**(): float
+```methodsynopsis
+public LuaSandbox::getCPUUsage(): float
+```
 
 Повертає час використання процесора в середовищі Lua.
 
@@ -26,20 +28,14 @@ public **LuaSandbox::getCPUUsage**(): float
 
 ### Значення, що повертаються
 
-Повертає час використання процесора в секундах.
+Повертає поточний час використання процесора за секунди.
 
-> **Примітка**:
->
-> У Windows ця функція завжди повертає нуль. В операційних
-> системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких
-> як FreeBSD і Mac OS X, функція повертає минулий фізичний час,
-> а чи не час процесора.
+> **Зауваження**
+> 
+> У Windows ця функція завжди повертає нуль. В операційних системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких як FreeBSD і Mac OS X, функція повертає минулий фізичний час, а чи не час процесора.
 
 ### Дивіться також
 
-- [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) -
-Повертає поточне використання пам'яті у середовищі Lua
-- [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) -
-Повертає пікове використання пам'яті у середовищі Lua
-- [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) -
-Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) - Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) - Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua

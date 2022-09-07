@@ -1,25 +1,25 @@
-- [« parallel\Sync::get](parallel-sync.get.md)
-- [parallel\Sync::wait »](parallel-sync.wait.md)
+---
+navigation:
+  - parallel-sync.get.md: '« parallelSync::get'
+  - parallel-sync.wait.md: 'parallelSync::wait »'
+  - index.md: PHP Manual
+  - class.parallel-sync.md: parallelSync
+title: 'parallelSync::set'
+---
+# parallelSync::set
 
-- [PHP Manual](index.md)
-- [parallel\Sync](class.parallel-sync.md)
-- Доступ
-
-# parallel\Sync::set
-
-(1.1.0)
-
-parallel\Sync::set — Доступ
+parallelSync::set — Доступ
 
 ### Опис
 
-public **parallel\Sync::set**(scalar `$value`)
+```methodsynopsis
+public parallel\Sync::set(scalar $value)
+```
 
-Атомарно встановлює значення синхронізації.
+Атомарно встановлює значення синхронізації об'єкта.
 
 ### Помилки
 
 **Увага**
 
-Викидає parallel\Sync\Error\IllegalValue, якщо `value` не є
-скалярним значенням.
+Викидає parallelSyncErrorIlegallegalValue, якщо `value` не є скалярним значенням.

@@ -1,31 +1,23 @@
-- [«Зумовлені константи](phpdbg.constants.md)
-- [phpdbg_break_file »](function.phpdbg-break-file.md)
-
-- [PHP Manual](index.md)
-- [phpdbg](book.phpdbg.md)
-- Функції phpdbg
-
+---
+navigation:
+  - phpdbg.constants.md: « Обумовлені константи
+  - function.phpdbg-break-file.md: phpdbgbreakfile »
+  - index.md: PHP Manual
+  - book.phpdbg.md: phpdbg
+title: Функції phpdbg
+---
 # Функції phpdbg
 
 ## Зміст
 
-- [phpdbg_break_file](function.phpdbg-break-file.md) — Додати
-точку переривання на конкретний рядок файлу
-- [phpdbg_break_function](function.phpdbg-break-function.md) -
-Додати точку переривання на виклик функції
-- [phpdbg_break_method](function.phpdbg-break-method.md) — Додати
-точку переривання на виклик методу класу
-- [phpdbg_break_next](function.phpdbg-break-next.md) — Додати
-точку переривання на наступний опкод
-- [phpdbg_clear](function.phpdbg-clear.md) — Видалити всі точки
-переривання
-- [phpdbg_color](function.phpdbg-color.md) — Задати колір для
-елемента
-- [phpdbg_end_oplog](function.phpdbg-end-oplog.md) — Опис
-- [phpdbg_exec](function.phpdbg-exec.md) — Спробувати задати
-контекст виконання
-- [phpdbg_get_executable](function.phpdbg-get-executable.md) -
-Опис
-- [phpdbg_prompt](function.phpdbg-prompt.md) — Встановити
-запрошення командного рядка
-- [phpdbg_start_oplog](function.phpdbg-start-oplog.md) — Опис
+-   [phpdbgbreakfile](function.phpdbg-break-file.md) — Додати точку переривання на конкретний рядок файлу
+-   [phpdbgbreakfunction](function.phpdbg-break-function.md) — Додати точку переривання на дзвінок функції
+-   [phpdbgbreakmethod](function.phpdbg-break-method.md) - Додати точку переривання на виклик методу класу
+-   [phpdbgbreaknext](function.phpdbg-break-next.md) — Додати точку переривання на наступний опкод
+-   [phpdbgclear](function.phpdbg-clear.md) — Забрати всі точки переривання
+-   [phpdbgcolor](function.phpdbg-color.md) — Задати колір елементу
+-   [phpdbgendoplog](function.phpdbg-end-oplog.md) - Опис
+-   [phpdbgexec](function.phpdbg-exec.md) — Спробувати поставити контекст виконання
+-   [phpdbggetexecutable](function.phpdbg-get-executable.md) - Опис
+-   [phpdbgprompt](function.phpdbg-prompt.md) — Встановити запрошення командного рядка
+-   [phpdbgstartoplog](function.phpdbg-start-oplog.md) - Опис

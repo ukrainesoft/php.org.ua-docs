@@ -1,25 +1,26 @@
-- [« IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.md)
-- [IntlRuleBasedBreakIterator::getRuleStatus »](intlrulebasedbreakiterator.getrulestatus.md)
-
-- [PHP Manual](index.md)
-- [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)
-- Отримати набір правил, які використовувалися під час створення цього об'єкта
-
+---
+navigation:
+  - intlrulebasedbreakiterator.getbinaryrules.md: '« IntlRuleBasedBreakIterator::getBinaryRules'
+  - intlrulebasedbreakiterator.getrulestatus.md: 'IntlRuleBasedBreakIterator::getRuleStatus »'
+  - index.md: PHP Manual
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator
+title: 'IntlRuleBasedBreakIterator::getRules'
+---
 # IntlRuleBasedBreakIterator::getRules
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlRuleBasedBreakIterator::getRules — Отримати набір правил,
-використовуваних під час створення цього об'єкта
+IntlRuleBasedBreakIterator::getRules — Отримати набір правил, які використовуються під час створення цього об'єкта
 
 ### Опис
 
-public **IntlRuleBasedBreakIterator::getRules**(): string\|false
+```methodsynopsis
+public IntlRuleBasedBreakIterator::getRules(): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

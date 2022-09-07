@@ -1,84 +1,69 @@
-- [«FilesystemIterator::setFlags](filesystemiterator.setflags.md)
-- [FilterIterator::accept »](filteriterator.accept.md)
-
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас FilterIterator
-
+---
+navigation:
+  - filesystemiterator.setflags.md: '« FilesystemIterator::setFlags'
+  - filteriterator.accept.md: 'FilterIterator::accept »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас FilterIterator
+---
 # Клас FilterIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Цей абстрактний ітератор відфільтровує небажані значення. Цей клас
-слід розширити для реалізації фільтрів ітератора.
-Метод [FilterIterator::accept()](filteriterator.accept.md) має бути
-реалізований у підкласі.
+Цей абстрактний ітератор відфільтровує небажані значення. Цей клас слід розширити для реалізації фільтрів ітератора. Метод [FilterIterator::accept()](filteriterator.accept.md) має бути реалізований у підкласі.
 
 ## Огляд класів
 
-abstract class **FilterIterator** extends
-[IteratorIterator](class.iteratoriterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](filteriterator.construct.md)([Iterator](class.iterator.md)
-`$iterator`)
+    
+     
+      abstract
+      class FilterIterator
+     
 
-public [accept](filteriterator.accept.md)(): bool
+     
+      extends
+       IteratorIterator
+     
+     {
 
-public [current](filteriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public __construct(Iterator $iterator)
 
-public [getInnerIterator](filteriterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
+    public accept(): bool
+public current(): mixed
+public getInnerIterator(): Iterator
+public key(): mixed
+public next(): void
+public rewind(): void
+public valid(): bool
 
-public [key](filteriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [next](filteriterator.next.md)(): void
+    /* Наследуемые методы */
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [rewind](filteriterator.rewind.md)(): void
-
-public [valid](filteriterator.valid.md)(): bool
-
-/\* Наслідувані методи \*/
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [FilterIterator::accept](filteriterator.accept.md) — Перевіряє,
-чи є поточний елемент ітератора допустимим
-- [FilterIterator::\_\_construct](filteriterator.construct.md) -
-Конструктор класу FilterIterator
-- [FilterIterator::current](filteriterator.current.md) - Отримує
-значення поточного елемента
-- [FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)
-— Отримує внутрішній ітератор
-- [FilterIterator::key](filteriterator.key.md) — Отримує поточний
-ключ
-- [FilterIterator::next](filteriterator.next.md) — Переміщує
-ітератор до наступного елементу
-- [FilterIterator::rewind](filteriterator.rewind.md) - Повертає
-ітератор на початок
-- [FilterIterator::valid](filteriterator.valid.md) — Перевіряє,
-чи є поточний елемент допустимим
+-   [FilterIterator::accept](filteriterator.accept.md) — Перевіряє, чи поточний елемент ітератора є допустимим.
+-   [FilterIterator::construct](filteriterator.construct.md) - Конструктор класу FilterIterator
+-   [FilterIterator::current](filteriterator.current.md) — Отримує значення поточного елемента
+-   [FilterIterator::getInnerIterator](filteriterator.getinneriterator.md) — Отримує внутрішній ітератор
+-   [FilterIterator::key](filteriterator.key.md) — Отримує поточний ключ
+-   [FilterIterator::next](filteriterator.next.md) — Переміщує ітератор до наступного елементу
+-   [FilterIterator::rewind](filteriterator.rewind.md) — Повертає ітератор на початок
+-   [FilterIterator::valid](filteriterator.valid.md) — Перевіряє, чи поточний елемент є допустимим

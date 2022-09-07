@@ -1,43 +1,54 @@
-- [«CommonMark\Node::accept](commonmark-node.accept.md)
-- [CommonMark\Interfaces\IVisitor::enter »](commonmark-interfaces-ivisitor.enter.md)
+---
+navigation:
+  - commonmark-node.accept.md: '« CommonMarkNode::accept'
+  - commonmark-interfaces-ivisitor.enter.md: 'CommonMarkInterfacesIVisitor::enter »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Інтерфейс CommonMarkInterfacesIVisitor
+---
+# Інтерфейс CommonMarkInterfacesIVisitor
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
-- Інтерфейс CommonMark\Interfaces\IVisitor
-
-# Інтерфейс CommonMark \ Interfaces \ IVisitor
-
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-final class **CommonMark\Interfaces\IVisitor** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Done`;
+    
+    
+     
+      final
+      class CommonMark\Interfaces\IVisitor
+     
+     {
+    
+    /* Константы */
+    
+     const
+     int
+      Done;
 
-const int `Enter`;
+    const
+     int
+      Enter;
 
-const int `Leave`;
+    const
+     int
+      Leave;
 
-/\* Методи \*/
 
-abstract public
-[enter](commonmark-interfaces-ivisitor.enter.md)(IVisitable
-`$visitable`): int\|IVisitable\|null
+    /* Методы */
+    
+   abstract public enter(IVisitable $visitable): int|IVisitable|null
+abstract public leave(IVisitable $visitable): int|IVisitable|null
 
-abstract public
-[leave](commonmark-interfaces-ivisitor.leave.md)(IVisitable
-`$visitable`): int\|IVisitable\|null
-
-}
+   }
+```
 
 ## Зміст
 
-- [CommonMark\Interfaces\IVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
-- Відвідування
-- [CommonMark\Interfaces\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md)
-- Відвідування
+-   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.md) - Відвідування
+-   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.md) - Відвідування

@@ -1,20 +1,22 @@
-- [« SplHeap::current](splheap.current.md)
-- [SplHeap::insert »](splheap.insert.md)
-
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Витягує вузол з купи та пересортує її
-
+---
+navigation:
+  - splheap.current.md: '« SplHeap::current'
+  - splheap.insert.md: 'SplHeap::insert »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::extract'
+---
 # SplHeap::extract
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::extract — Витягує вузол із купи та пересортує її
 
 ### Опис
 
-public **SplHeap::extract**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplHeap::extract(): mixed
+```
 
 ### Список параметрів
 
@@ -26,5 +28,4 @@ public **SplHeap::extract**():
 
 ### Помилки
 
-Якщо структура даних вузла виявиться порожньою, буде викинуто виняток
-[RuntimeException](class.runtimeexception.md).
+Якщо структура даних вузла виявиться порожньою, буде викинуто виняток [RuntimeException](class.runtimeexception.md)

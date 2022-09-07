@@ -1,10 +1,11 @@
-- [« iptcembed](function.iptcembed.md)
-- [jpeg2wbmp »](function.jpeg2wbmp.md)
-
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Розбір двійкових IPTC даних на окремі теги
-
+---
+navigation:
+  - function.iptcembed.md: « iptcembed
+  - function.jpeg2wbmp.md: jpeg2wbmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: iptcparse
+---
 # iptcparse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,30 +14,39 @@ iptcparse — Розбір двійкових даних IPTC на окремі 
 
 ### Опис
 
-**iptcparse**(string `$iptc_block`): array\|false
+```methodsynopsis
+iptcparse(string $iptc_block): array|false
+```
 
-Розбирає [»IPTC](http://www.iptc.org/) дані на окремі теги.
+Розбирає [» IPTC](http://www.iptc.org/) дані окремі теги.
 
 ### Список параметрів
 
 `iptc_block`
+
 Двійкові дані IPTC.
 
 ### Значення, що повертаються
 
-Повертає масив значень тегів, використовуючи мітки тегів як
-індексу. Повертає **`false`** у разі виникнення помилки, а також
-якщо дані IPTC відсутні.
+Повертає масив значень тегів, використовуючи мітки тегів як індекс. Повертає **`false`** у разі виникнення помилки, а також якщо дані IPTC відсутні.
 
 ### Приклади
 
-**Приклад #1 iptcparse() використовується спільно з
-[getimagesize()](function.getimagesize.md)**
+**Приклад #1 iptcparse() використовується спільно з [getimagesize()](function.getimagesize.md)**
 
-` <?php$size = getimagesize('./test.jpg', $info);if(isset($info['APP13'])){   $iptc = iptcparse($info['APP13']); var_dump($iptc);}?> `
+```php
+<?php
+$size = getimagesize('./test.jpg', $info);
+if(isset($info['APP13']))
+{
+    $iptc = iptcparse($info['APP13']);
+    var_dump($iptc);
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ця функція не потребує бібліотеки GD.

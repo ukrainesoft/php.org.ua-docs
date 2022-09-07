@@ -1,35 +1,36 @@
-- [« IntlTimeZone::getRawOffset](intltimezone.getrawoffset.md)
-- [IntlTimeZone::getTZDataVersion »](intltimezone.gettzdataversion.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати код регіону, який відповідає заданому ідентифікатору
-системного часового поясу
-
+---
+navigation:
+  - intltimezone.getrawoffset.md: '« IntlTimeZone::getRawOffset'
+  - intltimezone.gettzdataversion.md: 'IntlTimeZone::getTZDataVersion »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getRegion'
+---
 # IntlTimeZone::getRegion
 
-# intltz_get_region
+# intltzgetregion
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlTimeZone::getRegion -- intltz_get_region — Отримати код регіону,
-відповідного заданого ідентифікатора системного часового поясу
+IntlTimeZone::getRegion -- intltzgetregion — Отримати код регіону, який відповідає заданому ідентифікатору системного часового поясу
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::getRegion**(string `$timezoneId`):
-string\|false
+```methodsynopsis
+public static IntlTimeZone::getRegion(string $timezoneId): string|false
+```
 
 Процедурний стиль:
 
-**intltz_get_region**(string `$timezoneId`): string\|false
+```methodsynopsis
+intltz_get_region(string $timezoneId): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

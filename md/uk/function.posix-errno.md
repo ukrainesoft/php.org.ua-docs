@@ -1,18 +1,17 @@
-- [«posix_ctermid](function.posix-ctermid.md)
-- [posix_get_last_error »](function.posix-get-last-error.md)
+---
+navigation:
+  - function.posix-ctermid.md: « posixctermid
+  - function.posix-get-last-error.md: posixgetlasterror »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixerrno
+---
+# posixerrno
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Псевдонім posix_get_last_error
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#posix_errno
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-posix_errno - Псевдонім
-[posix_get_last_error()](function.posix-get-last-error.md)
+posixerrno - Псевдонім [posixgetlasterror()](function.posix-get-last-error.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[posix_get_last_error()](function.posix-get-last-error.md).
+Ця функція є псевдонімом: [posixgetlasterror()](function.posix-get-last-error.md)

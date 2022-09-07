@@ -1,40 +1,49 @@
-- [«gnupg_getengineinfo](function.gnupg-getengineinfo.md)
-- [gnupg_geterrorinfo »](function.gnupg-geterrorinfo.md)
+---
+navigation:
+  - function.gnupg-getengineinfo.md: « gnupggetengineinfo
+  - function.gnupg-geterrorinfo.md: gnupggeterrorinfo »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupggeterror
+---
+# gnupggeterror
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Повертає текст повідомлення про помилку, якщо функція не була виконана
+(PECL gnupg >= 0.1)
 
-#gnupg_geterror
-
-(PECL gnupg \>= 0.1)
-
-gnupg_geterror — Повернення тексту повідомлення про помилку, якщо функція не
-була виконана
+gnupggeterror — Повертає текст повідомлення про помилку, якщо функція не була виконана
 
 ### Опис
 
-**gnupg_geterror**(resource `$identifier`): string
+```methodsynopsis
+gnupg_geterror(resource $identifier): string
+```
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 ### Значення, що повертаються
 
-Повертає текст повідомлення про помилку, якщо сталася помилка, інакше
-у разі повертає **`false`**.
+Повертає текст повідомлення про помилку, якщо сталася помилка, інакше повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_geterror()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupggeterror()** у процедурному стилі**
 
-` <?php$res = gnupg_init();echo gnupg_geterror($res);?> `
+```php
+<?php
+$res = gnupg_init();
+echo gnupg_geterror($res);
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_geterror()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupggeterror()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();echo $gpg->geterror();?> `
+```php
+<?php
+$gpg = new gnupg();
+echo $gpg->geterror();
+?>
+```

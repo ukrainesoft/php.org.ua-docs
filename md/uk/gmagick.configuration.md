@@ -1,10 +1,11 @@
-- [« Встановлення](gmagick.installation.md)
-- [Предвизначені константи »](gmagick.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gmagick.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - gmagick.installation.md: « Установка
+  - gmagick.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - gmagick.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

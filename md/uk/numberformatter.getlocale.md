@@ -1,66 +1,73 @@
-- [« NumberFormatter::getErrorMessage](numberformatter.geterrormessage.md)
-- [NumberFormatter::getPattern »](numberformatter.getpattern.md)
-
-- [PHP Manual](index.md)
-- [NumberFormatter](class.numberformatter.md)
-- Отримує локаль засобу форматування
-
+---
+navigation:
+  - numberformatter.geterrormessage.md: '« NumberFormatter::getErrorMessage'
+  - numberformatter.getpattern.md: 'NumberFormatter::getPattern »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getLocale'
+---
 # NumberFormatter::getLocale
 
-#numfmt_get_locale
+# numfmtgetlocale
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::getLocale -- numfmt_get_locale — Отримує локаль
-засоби форматування
+NumberFormatter::getLocale -- numfmtgetlocale — Отримує локаль засобу форматування
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **NumberFormatter::getLocale**(int `$type` =
-**`ULOC_ACTUAL_LOCALE`**): string\|false
+```methodsynopsis
+public NumberFormatter::getLocale(int $type = ULOC_ACTUAL_LOCALE): string|false
+```
 
 Процедурний стиль
 
-**numfmt_get_locale**([NumberFormatter](class.numberformatter.md)
-`$formatter`, int `$type` = **`ULOC_ACTUAL_LOCALE`**): string\|false
+```methodsynopsis
+numfmt_get_locale(NumberFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE): string|false
+```
 
 Отримує назву локалі засобу форматування.
 
 ### Список параметрів
 
 `formatter`
-Об'єкт [NumberFormatter](class.numberformatter.md).
+
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `type`
-Ви можете вибрати дійсну або фактичну локаль (
-**`Locale::VALID_LOCALE`**, **`Locale::ACTUAL_LOCALE`**,
-відповідно). За замовчуванням використовується фактичний локаль.
+
+Ви можете вибрати дійсну або фактичну локаль ( **`Locale::VALID_LOCALE`** \*\*`Locale::ACTUAL_LOCALE`\*\*відповідно). За промовчанням використовується фактична локаль.
 
 ### Значення, що повертаються
 
-Ім'я локалі, що використовується для створення засобу форматування або
-**`false`** у разі виникнення помилки.
+Ім'я локалі, що використовується для створення засобу форматування або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmt_get_locale()****
+**Приклад #1 Приклад використання **numfmtgetlocale()****
 
-` <?php$req     = 'fr_FR_PARIS';$fmt     = numfmt_create( $req,  NumberFormatter::DECIMAL);$res_val = numfmt_get_locale( $fmt, Locale::VALID_LOCALE );$res_act = numfmt_get_locale( $fmt, Locale:: ACTUAL_LOCALE );printf( "Запитана локаль: %s
-Справжня локаль: %s
-Фактична локаль: %s
-",         $req, $res_val, $res_act );?> `
+```php
+<?php
+$req     = 'fr_FR_PARIS';
+$fmt     = numfmt_create( $req,  NumberFormatter::DECIMAL);
+$res_val = numfmt_get_locale( $fmt, Locale::VALID_LOCALE );
+$res_act = numfmt_get_locale( $fmt, Locale::ACTUAL_LOCALE );
+printf( "Запрошенная локаль: %s\nДействительная локаль: %s\nФактическая локаль: %s\n",
+         $req, $res_val, $res_act );
+?>
+```
 
 Результат виконання цього прикладу:
 
-Запитана локаль: fr_FR_PARIS
-Дійсний локаль: fr_FR
-Фактична локаль: fr
+```
+Запрошенная локаль: fr_FR_PARIS
+Действительная локаль: fr_FR
+Фактическая локаль: fr
+```
 
 ### Дивіться також
 
-- [numfmt_create()](numberformatter.create.md) - Створює засіб
-форматування чисел
-- [numfmt_get_error_code()](numberformatter.geterrorcode.md) -
-Отримує останній код помилки засобу форматування
+-   [numfmtcreate()](numberformatter.create.md) - Створює засіб форматування чисел
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування

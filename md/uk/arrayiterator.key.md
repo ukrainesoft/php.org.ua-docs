@@ -1,10 +1,11 @@
-- [« ArrayIterator::getFlags](arrayiterator.getflags.md)
-- [ArrayIterator::ksort »](arrayiterator.ksort.md)
-
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Повертає ключ поточного елемента масиву
-
+---
+navigation:
+  - arrayiterator.getflags.md: '« ArrayIterator::getFlags'
+  - arrayiterator.ksort.md: 'ArrayIterator::ksort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::key'
+---
 # ArrayIterator::key
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ArrayIterator::key — Повертає ключ поточного елемен
 
 ### Опис
 
-public **ArrayIterator::key**(): string\|int\|null
+```methodsynopsis
+public ArrayIterator::key(): string|int|null
+```
 
 Ця функція повертає ключ поточного елемента масиву
 
@@ -29,4 +32,13 @@ public **ArrayIterator::key**(): string\|int\|null
 
 **Приклад #1 Приклад використання **ArrayIterator::key()****
 
-` <?php$array = array('key' => 'value');$arrayobject = new ArrayObject($array);$iterator = $arrayobject->getIterator();echo $iterator->key(); //key?> `
+```php
+<?php
+$array = array('key' => 'value');
+
+$arrayobject = new ArrayObject($array);
+$iterator = $arrayobject->getIterator();
+
+echo $iterator->key(); //key
+?>
+```

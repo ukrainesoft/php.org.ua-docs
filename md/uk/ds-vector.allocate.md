@@ -1,33 +1,34 @@
-- [«Вектор](class.ds-vector.md)
-- [Ds\Vector::apply »](ds-vector.apply.md)
+---
+navigation:
+  - class.ds-vector.md: « Вектор
+  - ds-vector.apply.md: 'ДсVector::apply »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::allocate'
+---
+# ДсVector::allocate
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Виділяє пам'ять під зазначену місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::allocate
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::allocate — Виділяє пам'ять під зазначену місткість
+ДсVector::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
-public **Ds\Vector::allocate**(int `$capacity`): void
+```methodsynopsis
+public Ds\Vector::allocate(int $capacity): void
+```
 
-Гарантує, що виділено достатньо пам'яті під задану місткість
-(кількість значень). Дозволяє уникнути динамічного
-перерозподіл пам'яті при додаванні значень.
+Гарантує, що виділено достатньо пам'яті під задану місткість (кількість значень). Дозволяє уникнути динамічного перерозподілу пам'яті під час додавання значень.
 
 ### Список параметрів
 
 `capacity`
+
 Місткість. Очікувана кількість значень.
 
-> **Примітка**:
->
-> Місткість залишиться незмінною, якщо її значення менше чи одно
-> поточної місткості.
+> **Зауваження**
+> 
+> Місткість залишиться незмінною, якщо її значення менше або дорівнює поточній місткості.
 
 ### Значення, що повертаються
 
@@ -35,11 +36,21 @@ public **Ds\Vector::allocate**(int `$capacity`): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::allocate()****
+**Приклад #1 Приклад використання **ДсVector::allocate()****
 
-` <?php$vector = new \Ds\Vector();var_dump($vector->capacity());$vector->allocate(100);var_dump($vector->capacity());?> `
+```php
+<?php
+$vector = new \Ds\Vector();
+var_dump($vector->capacity());
+
+$vector->allocate(100);
+var_dump($vector->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(10)
 int(100)
+```

@@ -1,20 +1,22 @@
-- [« Imagick::getImageType](imagick.getimagetype.md)
-- [Imagick::getImageVirtualPixelMethod »](imagick.getimagevirtualpixelmethod.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає одиниці вимірювання роздільної здатності зображення
-
+---
+navigation:
+  - imagick.getimagetype.md: '« Imagick::getImageType'
+  - imagick.getimagevirtualpixelmethod.md: 'Imagick::getImageVirtualPixelMethod »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageUnits'
+---
 # Imagick::getImageUnits
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageUnits — Повертає одиниці вимірювання роздільної здатності
-зображення
+Imagick::getImageUnits — Повертає одиниці вимірювання роздільної здатності зображення
 
 ### Опис
 
-public **Imagick::getImageUnits**(): int
+```methodsynopsis
+public Imagick::getImageUnits(): int
+```
 
 Повертає одиниці вимірювання роздільної здатності зображення.
 

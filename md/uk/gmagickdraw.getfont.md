@@ -1,23 +1,24 @@
-- [« GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.md)
-- [GmagickDraw::getfontsize »](gmagickdraw.getfontsize.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає шрифт
-
+---
+navigation:
+  - gmagickdraw.getfillopacity.md: '« GmagickDraw::getfillopacity'
+  - gmagickdraw.getfontsize.md: 'GmagickDraw::getfontsize »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfont'
+---
 # GmagickDraw::getfont
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::getfont — Повертає шрифт
 
 ### Опис
 
-public **GmagickDraw::getfont**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public GmagickDraw::getfont(): mixed
+```
 
-Повертає рядок, що визначає шрифт, який використовується при анотуванні
-текстом.
+Повертає рядок, що визначає шрифт, який використовується при анотуванні текстом.
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **GmagickDraw::getfont**():
 
 ### Значення, що повертаються
 
-Повертає рядок (string) у разі успішного виконання або
-**`false`**, якщо шрифт не встановлено.
+Повертає рядок (string) у разі успішного виконання або \*\*`false`\*\*якщо шрифт не встановлено.

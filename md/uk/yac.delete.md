@@ -1,29 +1,33 @@
-- [« Yac::\_\_construct](yac.construct.md)
-- [Yac::dump »](yac.dump.md)
-
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Видаляє елементи з кешу
-
+---
+navigation:
+  - yac.construct.md: '« Yac::construct'
+  - yac.dump.md: 'Yac::dump »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::delete'
+---
 # Yac::delete
 
-(PECL yac \>= 1.0.0)
+(PECL yac >= 1.0.0)
 
 Yac::delete — Видаляє елементи з кешу
 
 ### Опис
 
-public **Yac::delete**(string\|array `$keys`, int `$ttl` = ?): bool
+```methodsynopsis
+public Yac::delete(string|array $keys, int $ttl = ?): bool
+```
 
 Видаляє елементи з кешу
 
 ### Список параметрів
 
 `keys`
+
 Рядковий ключ або масив з декількох ключів, які потрібно видалити
 
 `ttl`
-Якщо задана затримка, видалення позначить елементи як неприпустимі
-протягом ttl секунд.
+
+Якщо встановлено затримку, видалення позначить елементи як неприпустимі протягом ttl секунд.
 
 ### Значення, що повертаються

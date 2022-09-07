@@ -1,20 +1,20 @@
-- [« parallel\Events::addChannel](parallel-events.addchannel.md)
-- [parallel\Events::remove »](parallel-events.remove.md)
+---
+navigation:
+  - parallel-events.addchannel.md: '« parallelEvents::addChannel'
+  - parallel-events.remove.md: 'parallelEvents::remove »'
+  - index.md: PHP Manual
+  - class.parallel-events.md: parallelEvents
+title: 'parallelEvents::addFuture'
+---
+# parallelEvents::addFuture
 
-- [PHP Manual](index.md)
-- [parallel\Events](class.parallel-events.md)
-- Цілі
-
-# parallel\Events::addFuture
-
-(0.9.0)
-
-parallel\Events::addFuture — Цілі
+parallelEvents::addFuture — Цілі
 
 ### Опис
 
-public **parallel\Events::addFuture**(string `$name`,
-[parallel\Future](class.parallel-future.md) `$future`): void
+```methodsynopsis
+public parallel\Events::addFuture(string $name, parallel\Future $future): void
+```
 
 Стежить за подіями у заданому `future`
 
@@ -22,5 +22,4 @@ public **parallel\Events::addFuture**(string `$name`,
 
 **Увага**
 
-Викидає parallel\Events\Error\Existence, якщо ціль з даним ім'ям
-вже було додано.
+Викидає parallelEventsErrorExistence, якщо ціль з даним ім'ям вже був доданий.

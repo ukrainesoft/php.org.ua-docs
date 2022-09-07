@@ -1,19 +1,22 @@
-- [«UI\Controls\Grid::append](ui-controls-grid.append.md)
-- [UI\Controls\Grid::setPadded »](ui-controls-grid.setpadded.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Grid](class.ui-controls-grid.md)
-- Визначення заповнення
-
-# UI\Controls\Grid::isPadded
+---
+navigation:
+  - ui-controls-grid.append.md: '« UIControlsGrid::append'
+  - ui-controls-grid.setpadded.md: 'ОЙControlsGrid::setPadded »'
+  - index.md: PHP Manual
+  - class.ui-controls-grid.md: ОЙControlsGrid
+title: 'ОЙControlsGrid::isPadded'
+---
+# ОЙControlsGrid::isPadded
 
 (UI 0.9.9)
 
-UI\Controls\Grid::isPadded — Визначення заповнення
+ОЙControlsGrid::isPadded — Визначення заповнення
 
 ### Опис
 
-public **UI\Controls\Grid::isPadded**(): bool
+```methodsynopsis
+public UI\Controls\Grid::isPadded(): bool
+```
 
 Визначає, чи увімкнено заповнення в даній сітці
 

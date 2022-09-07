@@ -1,45 +1,42 @@
-- [«ps_string_geometry](function.ps-string-geometry.md)
-- [ps_stroke »](function.ps-stroke.md)
+---
+navigation:
+  - function.ps-string-geometry.md: «psstringgeometry
+  - function.ps-stroke.md: псstroke »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псstringwidth
+---
+# псstringwidth
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Отримує ширину рядка
+(PECL ps >= 1.1.0)
 
-#ps_stringwidth
-
-(PECL ps \>= 1.1.0)
-
-ps_stringwidth — Отримує ширину рядка
+псstringwidth — Отримує ширину рядка
 
 ### Опис
 
-**ps_stringwidth**(
-resource `$psdoc`,
-string `$text`,
-int `$fontid` = 0,
-float `$size` = 0.0
-): float
+```methodsynopsis
+ps_stringwidth(    resource $psdoc,    string $text,    int $fontid = 0,    float $size = 0.0): float
+```
 
-Обчислює ширину рядка в пунктах, якби вона виводилася із заданим
-шрифтом та розміром шрифту. Функції потрібний файл метрик шрифтів Adobe
-для розрахунку точної ширини. Якщо інтервал між літерами увімкнено, він також
-буде враховано.
+Обчислює ширину рядка в пунктах, якщо вона виводилася із заданим шрифтом і розміром шрифту. Функції потрібен файл метрик шрифтів Adobe для розрахунку точної ширини. Якщо ввімкнено інтервал між літерами, він також буде врахований.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `text`
-Текст, для якого необхідно розрахувати ширину.
+
+Текст, котрому потрібно розрахувати ширину.
 
 `fontid`
-Ідентифікатор шрифту. Якщо шрифт не вказано, використовується
-поточний шрифт.
+
+Ідентифікатор шрифту. Якщо шрифт не вказано, використовується поточний шрифт.
 
 `size`
-Розмір шрифту. Якщо не вказано, використовується поточний розмір.
+
+Розмір шрифту. Якщо розмір не вказано, використовується поточний розмір.
 
 ### Значення, що повертаються
 
@@ -47,5 +44,4 @@ float `$size` = 0.0
 
 ### Дивіться також
 
-- [ps_string_geometry()](function.ps-string-geometry.md) - Отримує
-геометрію рядка
+-   [псstringgeometry()](function.ps-string-geometry.md) - Отримує геометрію рядка

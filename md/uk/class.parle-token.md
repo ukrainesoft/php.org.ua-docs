@@ -1,55 +1,83 @@
-- [« Parle\Stack::push](parle-stack.push.md)
-- [Parle\ErrorInfo »](class.parle-errorinfo.md)
+---
+navigation:
+  - parle-stack.push.md: '« ParleStack::push'
+  - class.parle-errorinfo.md: ParleErrorInfo »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleToken
+---
+# Клас ParleToken
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
-- Клас Parle\Token
-
-# Клас Parle\Token
-
-(PECL parle \>= 0.5.2)
+(PECL parle >= 0.5.2)
 
 ## Вступ
 
-Клас є токен. Лексер повертає екземпляри цього класу.
+Клас представляє токен. Лексер повертає екземпляри цього класу.
 
 ## Огляд класів
 
-class **Parle\Token** {
+```synopsis
 
-/\* Constants \*/
 
-const int `EOI` = 0;
 
-const int `UNKNOWN` = -1;
+    
+     
+      class Parle\Token
+     
+     {
 
-const int `SKIP` = -2;
+    /* Constants */
+    
+     const
+     int
+      EOI = 0;
 
-/\* Властивості \*/
+    const
+     int
+      UNKNOWN = -1;
 
-public int `$id`;
+    const
+     int
+      SKIP = -2;
 
-public string `$value`;
 
-/\* Методи \*/
+    /* Свойства */
+    public
+     int
+      $id;
 
-}
+    public
+     string
+      $value;
+
+
+
+    /* Методы */
+    
+    
+   }
+```
 
 ## Властивості
 
-`id`
+ід
+
 Ідентифікатор токена.
 
-`value`
+value
+
 Значення токена.
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`Parle\Token::EOI`**
+
 Кінець вхідного ідентифікатора токена.
 
 **`Parle\Token::UNKNOWN`**
+
 Невідомий ідентифікатор токену.
 
 **`Parle\Token::SKIP`**
+
 Пропустіть ідентифікатор токена.

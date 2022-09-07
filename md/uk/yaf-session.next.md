@@ -1,24 +1,26 @@
-- [« Yaf_Session::key](yaf-session.key.md)
-- [Yaf_Session::offsetExists »](yaf-session.offsetexists.md)
+---
+navigation:
+  - yaf-session.key.md: '« YafSession::key'
+  - yaf-session.offsetexists.md: 'YafSession::offsetExists »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::next'
+---
+# YafSession::next
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення next
+(Yaf >=1.0.0)
 
-# Yaf_Session::next
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::next - Призначення next
+YafSession::next — Призначення next
 
 ### Опис
 
-public **Yaf_Session::next**(): void
+```methodsynopsis
+public Yaf_Session::next(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

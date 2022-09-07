@@ -1,24 +1,26 @@
-- [« Phar::extractTo](phar.extractto.md)
-- [Phar::getMetadata »](phar.getmetadata.md)
-
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Отримати псевдонім для Phar
-
+---
+navigation:
+  - phar.extractto.md: '« Phar::extractTo'
+  - phar.getmetadata.md: 'Phar::getMetadata »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::getAlias'
+---
 # Phar::getAlias
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.2.1)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.1)
 
-Phar::getAlias — Отримати псевдонім для Phar
+Phar::getAlias ​​— Отримати псевдонім для Phar
 
 ### Опис
 
-public **Phar::getAlias**(): ?string
+```methodsynopsis
+public Phar::getAlias(): ?string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

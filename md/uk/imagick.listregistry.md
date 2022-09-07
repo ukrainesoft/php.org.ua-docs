@@ -1,22 +1,24 @@
-- [« Imagick::liquidRescaleImage](imagick.liquidrescaleimage.md)
-- [Imagick::magnifyImage »](imagick.magnifyimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Опис
-
+---
+navigation:
+  - imagick.liquidrescaleimage.md: '« Imagick::liquidRescaleImage'
+  - imagick.magnifyimage.md: 'Imagick::magnifyImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::listRegistry'
+---
 # Imagick::listRegistry
 
-(PECL imagick 3 \>= 3.3.0)
+(PECL imagick 3> = 3.3.0)
 
 Imagick::listRegistry — Опис
 
 ### Опис
 
-public static **Imagick::listRegistry**(): array
+```methodsynopsis
+public static Imagick::listRegistry(): array
+```
 
-Перелічує всі налаштування реєстру. Повертає масив усіх пар
-ключ/значення у реєстрі.
+Перелічує всі налаштування реєстру. Повертає масив усіх пар ключ/значення у реєстрі.
 
 ### Список параметрів
 

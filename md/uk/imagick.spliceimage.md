@@ -1,10 +1,11 @@
-- [« Imagick::sparseColorImage](imagick.sparsecolorimage.md)
-- [Imagick::spreadImage »](imagick.spreadimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Склеює суцільний колір у зображення
-
+---
+navigation:
+  - imagick.sparsecolorimage.md: '« Imagick::sparseColorImage'
+  - imagick.spreadimage.md: 'Imagick::spreadImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::spliceImage'
+---
 # Imagick::spliceImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,12 +14,9 @@ Imagick::spliceImage — Склеює суцільний колір у зобр�
 
 ### Опис
 
-public **Imagick::spliceImage**(
-int `$width`,
-int `$height`,
-int `$x`,
-int `$y`
-): bool
+```methodsynopsis
+public Imagick::spliceImage(    int $width,    int $height,    int $x,    int $y): bool
+```
 
 Склеює суцільний колір зображення.
 
@@ -34,10 +32,20 @@ int `$y`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::spliceImage()****
 
-` <?phpfunction spliceImage($imagePath, $startX, $startY, $width, $height) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->spliceImage($width, $height, $startX, $startY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function spliceImage($imagePath, $startX, $startY, $width, $height) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->spliceImage($width, $height, $startX, $startY);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

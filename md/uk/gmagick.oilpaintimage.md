@@ -1,28 +1,32 @@
-- [« Gmagick::normalizeimage](gmagick.normalizeimage.md)
-- [Gmagick::previousimage »](gmagick.previousimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Імітує ефект картини олією
-
+---
+navigation:
+  - gmagick.normalizeimage.md: '« Gmagick::normalizeimage'
+  - gmagick.previousimage.md: 'Gmagick::previousimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::oilpaintimage'
+---
 # Gmagick::oilpaintimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::oilpaintimage — Імітує ефект картини маслом
+Gmagick::oilpaintimage — Імітує ефект картини олією
 
 ### Опис
 
-public **Gmagick::oilpaintimage**( float `$radius` ):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::oilpaintimage(
+      float
+       $radius
+    ): Gmagick
+```
 
-Застосовує фільтр із спеціальним ефектом, що імітує картину олією.
-Кожен піксель замінюється кольором, що найбільш часто зустрічається, в круговій
-області, що визначається радіусом.
+Застосовує фільтр із спеціальним ефектом, що імітує картину олією. Кожен піксель замінюється кольором, що найчастіше зустрічається в круговій області, що визначається радіусом.
 
 ### Список параметрів
 
 `radius`
+
 Радіус кругової околиці.
 
 ### Значення, що повертаються

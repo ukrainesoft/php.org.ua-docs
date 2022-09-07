@@ -1,19 +1,22 @@
-- [« Swoole\Http\Client::setData](swoole-http-client.setdata.md)
-- [Swoole\Http\Client::setMethod »](swoole-http-client.setmethod.md)
+---
+navigation:
+  - swoole-http-client.setdata.md: '« SwooleHttpClient::setData'
+  - swoole-http-client.setmethod.md: 'SwooleHttpClient::setMethod »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::setHeaders'
+---
+# SwooleHttpClient::setHeaders
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Встановлює заголовки HTTP-запиту
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::setHeaders
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::setHeaders — Встановлює заголовки HTTP-запиту
+SwooleHttpClient::setHeaders — Встановлює заголовки HTTP-запиту
 
 ### Опис
 
-public **Swoole\Http\Client::setHeaders**(array `$headers`): void
+```methodsynopsis
+public Swoole\Http\Client::setHeaders(array $headers): void
+```
 
 ### Список параметрів
 

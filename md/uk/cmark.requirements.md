@@ -1,11 +1,11 @@
-- [« Встановлення та налаштування](cmark.setup.md)
-- [Установка »](cmark.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](cmark.setup.md)
-- Вимоги
-
+---
+navigation:
+  - cmark.setup.md: « Встановлення та налаштування
+  - cmark.installation.md: Установка »
+  - index.md: PHP Manual
+  - cmark.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
-Для модуля CommonMark потрібна посилальна реалізація (C)
-[»cmark](https://github.com/commonmark/cmark).
+Для модуля CommonMark потрібна посилальна реалізація (C) [» cmark](https://github.com/commonmark/cmark)

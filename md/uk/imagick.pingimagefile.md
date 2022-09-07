@@ -1,38 +1,38 @@
-- [« Imagick::pingImageBlob](imagick.pingimageblob.md)
-- [Imagick::polaroidImage »](imagick.polaroidimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує базові атрибути зображення спрощеним способом
-
+---
+navigation:
+  - imagick.pingimageblob.md: '« Imagick::pingImageBlob'
+  - imagick.polaroidimage.md: 'Imagick::polaroidImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::pingImageFile'
+---
 # Imagick::pingImageFile
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::pingImageFile — Отримує базові атрибути зображення
-спрощеним способом
+Imagick::pingImageFile — Отримує базові атрибути зображення спрощеним способом
 
 ### Опис
 
-public **Imagick::pingImageFile**(resource `$filehandle`, string
-`$fileName` = ?): bool
+```methodsynopsis
+public Imagick::pingImageFile(resource $filehandle, string $fileName = ?): bool
+```
 
-Метод можна використовувати для запиту ширини, висоти, розміру та формату
-зображення без зчитування всього зображення на згадку. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або
-старше.
+Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
 `filehandle`
+
 Відкритий дескриптор файлу зображення.
 
 `fileName`
-Необов'язкове ім'я файлу для цього зображення.
+
+Необов'язкова назва файлу для цього зображення.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -40,17 +40,23 @@ public **Imagick::pingImageFile**(resource `$filehandle`, string
 
 Відкриття віддаленої локації
 
-` <?php/* Відкриття віддаленої локації з допомогою fopen */$fp = fopen("http://example.com/test.jpg");/* Створення нового об'єкту Imagick */$im = ick /* Передача дескриптора об'єкту Imagick */$im->pingImageFile($fp);?> `
+```php
+<?php
+/* Открытие удалённой локации с помощью fopen */
+$fp = fopen("http://example.com/test.jpg");
+
+/* Создание нового объекта Imagick */
+$im = new Imagick();
+
+/* Передача дескриптора объекту Imagick */
+$im->pingImageFile($fp);
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні
-атрибути зображення
-- [Imagick::pingImageBlob()](imagick.pingimageblob.md) - Швидко
-витягує атрибути
-- [Imagick::readImage()](imagick.readimage.md) - Читає зображення
-з файлу
-- [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує
-зображення з двійкового рядка
-- [Imagick::readImageFile()](imagick.readimagefile.md) - Читає
-зображення з відкритого дескриптора файлу
+-   [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні атрибути зображення
+-   [Imagick::pingImageBlob()](imagick.pingimageblob.md) - Швидко витягує атрибути
+-   [Imagick::readImage()](imagick.readimage.md) - Читає зображення із файлу
+-   [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile()](imagick.readimagefile.md) - Читає зображення із відкритого дескриптора файлу

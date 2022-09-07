@@ -1,39 +1,31 @@
-- [« svn_fs_check_path](function.svn-fs-check-path.md)
-- [svn_fs_copy »](function.svn-fs-copy.md)
+---
+navigation:
+  - function.svn-fs-check-path.md: « svnфсcheckpath
+  - function.svn-fs-copy.md: svnфсcopy »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсcontentschanged
+---
+# svnфсcontentschanged
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Повертає true, якщо вміст відрізняється або false у протилежному
-випадку
+(PECL svn >= 0.2.0)
 
-# svn_fs_contents_changed
-
-(PECL svn \>= 0.2.0)
-
-svn_fs_contents_changed — Повертає **`true`**, якщо вміст
-відрізняється або **`false`** інакше
+svnфсcontentschanged - Повертає **`true`**, якщо вміст відрізняється або **`false`** в іншому випадку
 
 ### Опис
 
-**svn_fs_contents_changed**(
-resource `$root1`,
-string `$path1`,
-resource `$root2`,
-string `$path2`
-): bool
+```methodsynopsis
+svn_fs_contents_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає **`true`**, якщо вміст відрізняється або **`false`**
-інакше.
+Повертає **`true`**, якщо вміст відрізняється або **`false`** в іншому випадку.
 
 ### Примітки
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

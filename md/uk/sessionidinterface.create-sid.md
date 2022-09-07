@@ -1,22 +1,24 @@
-- [« SessionIdInterface](class.sessionidinterface.md)
-- [SessionUpdateTimestampHandlerInterface »](class.sessionupdatetimestamphandlerinterface.md)
+---
+navigation:
+  - class.sessionidinterface.md: « SessionIdInterface
+  - class.sessionupdatetimestamphandlerinterface.md: SessionUpdateTimestampHandlerInterface »
+  - index.md: PHP Manual
+  - class.sessionidinterface.md: SessionIdInterface
+title: 'SessionIdInterface::createsid'
+---
+# SessionIdInterface::createsid
 
-- [PHP Manual](index.md)
-- [SessionIdInterface](class.sessionidinterface.md)
-- Створити ідентифікатор сесії
+(PHP 5> = 5.5.1, PHP 7, PHP 8)
 
-# SessionIdInterface::create_sid
-
-(PHP 5 \>= 5.5.1, PHP 7, PHP 8)
-
-SessionIdInterface::create_sid — Створити ідентифікатор сесії
+SessionIdInterface::createsid — Створити ідентифікатор сесії
 
 ### Опис
 
-public **SessionIdInterface::create_sid**(): string
+```methodsynopsis
+public SessionIdInterface::create_sid(): string
+```
 
-Створює новий ідентифікатор сесії. Функція автоматично виконується,
-коли потрібно створити новий ідентифікатор сесії.
+Створює новий ідентифікатор сесії. Функція автоматично виконується, коли потрібно створити новий ідентифікатор сесії.
 
 ### Список параметрів
 
@@ -24,10 +26,8 @@ public **SessionIdInterface::create_sid**(): string
 
 ### Значення, що повертаються
 
-Новий ідентифікатор сесії Зверніть увагу, що це значення
-повертається всередині PHP для обробки.
+Новий ідентифікатор сесії Зауважте, що це значення повертається всередині PHP для обробки.
 
 ### Дивіться також
 
-- [SessionHandler::create_sid()](sessionhandler.create-sid.md) -
-Повертає новий ідентифікатор сесії
+-   [SessionHandler::createsid()](sessionhandler.create-sid.md) - Повертає новий ідентифікатор сесії

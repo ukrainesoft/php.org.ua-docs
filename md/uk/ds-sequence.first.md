@@ -1,20 +1,22 @@
-- [« Ds\Sequence::find](ds-sequence.find.md)
-- [Ds\Sequence::get »](ds-sequence.get.md)
+---
+navigation:
+  - ds-sequence.find.md: '« DsSequence::find'
+  - ds-sequence.get.md: 'ДсSequence::get »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::first'
+---
+# ДсSequence::first
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Повертає перший елемент колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::first
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::first — Повертає перший елемент колекції
+ДсSequence::first — Повертає перший елемент колекції
 
 ### Опис
 
-abstract public **Ds\Sequence::first**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract public Ds\Sequence::first(): mixed
+```
 
 Повертає перший елемент колекції.
 
@@ -28,16 +30,21 @@ abstract public **Ds\Sequence::first**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::first()****
+**Приклад #1 Приклад використання **ДсSequence::first()****
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->first());?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+var_dump($sequence->first());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1)
+```

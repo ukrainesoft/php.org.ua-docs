@@ -1,61 +1,87 @@
-- [«Зумовлені константи](libxml.constants.md)
-- [Функції libxml »](ref.libxml.md)
-
-- [PHP Manual](index.md)
-- [libxml](book.libxml.md)
-- Клас libXMLError
-
+---
+navigation:
+  - libxml.constants.md: « Обумовлені константи
+  - ref.libxml.md: Функції libxml »
+  - index.md: PHP Manual
+  - book.libxml.md: libxml
+title: Клас libXMLError
+---
 # Клас libXMLError
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Містить різну інформацію про помилки, що викидаються libxml. Коди
-помилок описані в офіційній [» xmlError API документації](http://www.xmlsoft.org/html/libxml-xmlerror.md).
+Містить різну інформацію про помилки, що викидаються libxml. Коди помилок описані в офіційній [» xmlError API документации](http://www.xmlsoft.org/html/libxml-xmlerror.md)
 
 ## Огляд класів
 
-class **libXMLError** {
+```synopsis
 
-/\* Властивості \*/
 
-public int `$level`;
 
-public int `$code`;
+    
+     
+      class libXMLError
+     
+     {
 
-public int `$column`;
 
-public string `$message`;
+    /* Свойства */
+    
+     public
+     int
+      $level;
 
-public string `$file`;
+    public
+     int
+      $code;
 
-public int `$line`;
+    public
+     int
+      $column;
 
-}
+    public
+     string
+      $message;
+
+    public
+     string
+      $file;
+
+    public
+     int
+      $line;
+
+   }
+```
 
 ## Властивості
 
-`level`
-Важливість помилки (одна з наступних констант: **`LIBXML_ERR_WARNING`**,
-**`LIBXML_ERR_ERROR`** або **`LIBXML_ERR_FATAL`**)
+level
 
-`code`
+Важливість помилки (одна з наступних констант: **`LIBXML_ERR_WARNING`** **`LIBXML_ERR_ERROR`** або **`LIBXML_ERR_FATAL`**
+
+code
+
 Код помилки
 
-`column`
+column
+
 Стовпець, у якому сталася помилка.
 
-> **Примітка**:
->
-> Ця властивість реалізована в libxml не до кінця, тому здебільшого
-> випадків повертатиметься `0`.
+> **Зауваження**
+> 
+> Ця властивість реалізована в libxml не до кінця, тому в більшості випадків повертатиметься `0`
 
-`message`
+message
+
 Повідомлення про помилку, якщо є.
 
-`file`
+file
+
 Ім'я файлу чи порожній рядок, якщо XML завантажувався з рядка.
 
-`line`
-Рядок, у якому сталася помилка.
+line
+
+Рядок, в якому сталася помилка.

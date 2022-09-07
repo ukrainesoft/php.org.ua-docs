@@ -1,11 +1,11 @@
-- [« Вимоги](simplexml.requirements.md)
-- [Налаштування під час виконання »](simplexml.configuration.md)
+---
+navigation:
+  - simplexml.requirements.md: « Вимоги
+  - simplexml.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - simplexml.setup.md: Встановлення та налаштування
+title: Встановлення
+---
+## Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](simplexml.setup.md)
-- Встановлення
-
-## Установка
-
-Модуль увімкнено за замовчуванням. Він може бути вимкнений під час виконання
-за допомогою наступної опції: **--disable-simplexml**
+Модуль увімкнено за замовчуванням. Він може бути вимкнений під час виконання за допомогою наступної опції: **\-disable-simplexml**

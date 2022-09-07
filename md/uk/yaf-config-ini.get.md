@@ -1,24 +1,26 @@
-- [« Yaf_Config_Ini::current](yaf-config-ini.current.md)
-- [Yaf_Config_Ini::\_\_isset »](yaf-config-ini.isset.md)
+---
+navigation:
+  - yaf-config-ini.current.md: '« YafConfigIni::current'
+  - yaf-config-ini.isset.md: 'YafConfigIni::isset »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
+title: 'YafConfigIni::get'
+---
+# YafConfigIni::get
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Отримує елемент
+(Yaf >=1.0.0)
 
-# Yaf_Config_Ini::\_\_get
-
-(Yaf \>=1.0.0)
-
-Yaf_Config_Ini::\_\_get — Отримує елемент
+YafConfigIni::get — Отримує елемент
 
 ### Опис
 
-public **Yaf_Config_Ini::\_\_get**(string `$name` = ?): void
+```methodsynopsis
+public Yaf_Config_Ini::__get(string $name = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

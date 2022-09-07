@@ -1,64 +1,55 @@
-- [« MongoDB\BSON\UTCDateTimeInterface::\_\_toString](mongodb-bson-utcdatetimeinterface.tostring.md)
-- [MongoDB\BSON\DBPointer::\_\_construct »](mongodb-bson-dbpointer.construct.md)
+---
+navigation:
+  - mongodb-bson-utcdatetimeinterface.tostring.md: '« MongoDBBSONUTCDateTimeInterface::toString'
+  - mongodb-bson-dbpointer.construct.md: 'MongoDBBSONDBPointer::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONDBPointer (застарілий)
+---
+# Клас MongoDBBSONDBPointer (застарілий)
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Клас MongoDB\BSON\DBPointer (застарілий)
-
-# Клас MongoDB\BSON\DBPointer (застарілий)
-
-(mongodb \>=1.4.0)
+(mongodb >=1.4.0)
 
 ## Вступ
 
-Тип BSON типу "DBPointer". Цей тип BSON застарів, і цей клас не
-може бути створено. Він буде створено з типу BSON DBPointer під час
-перетворення BSON на PHP, а також при перетворенні назад на BSON при
-зберігання документів у базі даних.
+Тип BSON типу "DBPointer". Цей тип BSON застарів і цей клас не може бути створений. Він буде створений з типу BSON DBPointer під час перетворення BSON на PHP, а також при перетворенні назад на BSON при зберіганні документів у базі даних.
 
 ## Огляд класів
 
-class **MongoDB\BSON\DBPointer** implements
-[MongoDB\BSON\Type](class.mongodb-bson-type.md),
-[Serializable](class.serializable.md),
-[JsonSerializable](class.jsonserializable.md),
-[Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-final private [\_\_construct](mongodb-bson-dbpointer.construct.md)()
+    
+    
+     
+      class MongoDB\BSON\DBPointer
+     
 
-final public
-[jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     implements 
+       MongoDB\BSON\Type,  Serializable,  JsonSerializable,  Stringable {
+    
 
-final public [serialize](mongodb-bson-dbpointer.serialize.md)():
-string
+    /* Методы */
+    
+   final private __construct()
+final public jsonSerialize(): mixed
+final public serialize(): string
+final public __toString(): string
+final public unserialize(string $serialized): void
 
-final public [\_\_toString](mongodb-bson-dbpointer.tostring.md)():
-string
+   }
+```
 
-final public
-[unserialize](mongodb-bson-dbpointer.unserialize.md)(string
-`$serialized`): void
+## список змін
 
-}
-
-## Список змін
-
-| Версія              | Опис                                                               |
-| ------------------- | ------------------------------------------------------------------ |
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст
 
-- [MongoDB\BSON\DBPointer::\_\_construct](mongodb-bson-dbpointer.construct.md)
-- Створює новий DBPointer (не використовується)
-- [MongoDB\BSON\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md)
-— Повертає уявлення, яке можна перетворити на JSON
-- [MongoDB\BSON\DBPointer::serialize](mongodb-bson-dbpointer.serialize.md)
-- Серіалізує DBPointer
-- [MongoDB\BSON\DBPointer::\_\_toString](mongodb-bson-dbpointer.tostring.md)
-— Повертає пустий рядок
-- [MongoDB\BSON\DBPointer::unserialize](mongodb-bson-dbpointer.unserialize.md)
-- Десеріалізує DBPointer
+-   [MongoDBBSONDBPointer::construct](mongodb-bson-dbpointer.construct.md) — Створює новий DBPointer (не використовується)
+-   [MongoDBBSONDBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.md) - Серіалізує DBPointer
+-   [MongoDBBSONDBPointer::toString](mongodb-bson-dbpointer.tostring.md) — Повертає порожній рядок
+-   [MongoDBBSONDBPointer::unserialize](mongodb-bson-dbpointer.unserialize.md) - Десеріалізує DBPointer

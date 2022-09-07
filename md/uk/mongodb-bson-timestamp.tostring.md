@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\Timestamp::serialize](mongodb-bson-timestamp.serialize.md)
-- [MongoDB\BSON\Timestamp::unserialize »](mongodb-bson-timestamp.unserialize.md)
+---
+navigation:
+  - mongodb-bson-timestamp.serialize.md: '« MongoDBBSONTimestamp::serialize'
+  - mongodb-bson-timestamp.unserialize.md: 'MongoDBBSONTimestamp::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::function toString() { \[native code\] }'
+---
+# MongoDBBSONTimestamp::function toString() { \[native code\] }
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
-- Повертає рядкову виставу Timestamp
+(mongodb >=1.0.0)
 
-# MongoDB\BSON\Timestamp::\_\_toString
-
-(mongodb \>=1.0.0)
-
-MongoDB\BSON\Timestamp::\_\_toString - Повертає рядкове
-уявлення Timestamp
+MongoDBBSONTimestamp::toString — Повертає строкову виставу Timestamp
 
 ### Опис
 
-final public **MongoDB\BSON\Timestamp::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Timestamp::__toString(): string
+```
 
 ### Список параметрів
 
@@ -26,15 +28,23 @@ final public **MongoDB\BSON\Timestamp::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Timestamp::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONTimestamp::toString()****
 
-` <?php$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);var_dump((string) $timestamp);?> `
+```php
+<?php
+
+$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);
+var_dump((string) $timestamp);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "[1234:5678]"
+```
 
 ### Дивіться також
 
-- [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

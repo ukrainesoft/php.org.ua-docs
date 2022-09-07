@@ -1,22 +1,22 @@
-- [« MongoDB\Driver\Monitoring\ServerOpeningEvent::getPort](mongodb-driver-monitoring-serveropeningevent.getport.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent »](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
+---
+navigation:
+  - mongodb-driver-monitoring-serveropeningevent.getport.md: '« MongoDBDriverMonitoringServerOpeningEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDBDriverMonitoringServerHeartbeatFailedEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDBDriverMonitoringServerOpeningEvent
+title: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
+---
+# MongoDBDriverMonitoringServerOpeningEvent::getTopologyId
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
-- Returns the topology ID associated with this server
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId — Returns
-the topology ID associated with this server
+MongoDBDriverMonitoringServerOpeningEvent::getTopologyId — Returns the topology ID associated with this server
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId**():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId(): MongoDB\BSON\ObjectId
+```
 
 ### Список параметрів
 
@@ -24,9 +24,8 @@ final public
 
 ### Значення, що повертаються
 
-Returns the topology ID.
+Відображення топології ID.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

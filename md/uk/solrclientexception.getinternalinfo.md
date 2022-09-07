@@ -1,23 +1,24 @@
-- [«SolrClientException](class.solrclientexception.md)
-- [SolrServerException »](class.solrserverexception.md)
-
-- [PHP Manual](index.md)
-- [SolrClientException](class.solrclientexception.md)
-- Повертає внутрішню інформацію про те, де було викинуто
-виняток
-
+---
+navigation:
+  - class.solrclientexception.md: « SolrClientException
+  - class.solrserverexception.md: SolrServerException »
+  - index.md: PHP Manual
+  - class.solrclientexception.md: SolrClientException
+title: 'SolrClientException::getInternalInfo'
+---
 # SolrClientException::getInternalInfo
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrClientException::getInternalInfo — Повертає внутрішню інформацію
-про те, де було викинуто виняток
+SolrClientException::getInternalInfo — Повертає внутрішню інформацію про те, де було викинуто виняток
 
 ### Опис
 
-public **SolrClientException::getInternalInfo**(): array
+```methodsynopsis
+public SolrClientException::getInternalInfo(): array
+```
 
-Повертає внутрішню інформацію про те, де викинули виняток.
+Повертає внутрішню інформацію про те, де було викинуто виняток.
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **SolrClientException::getInternalInfo**(): array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить внутрішню інформацію про те, де була
-викликана помилка. Використовується лише для налагодження розробниками модулів.
+Повертає масив, що містить внутрішню інформацію про те, де була викликана помилка. Використовується лише для налагодження розробниками модулів.

@@ -1,35 +1,40 @@
-- [« tidy::getConfig](tidy.getconfig.md)
-- [tidy::getOpt »](tidy.getopt.md)
-
-- [PHP Manual](index.md)
-- [Tidy](class.tidy.md)
-- Отримує виявлену HTML версію для зазначеного документа
-
+---
+navigation:
+  - tidy.getconfig.md: '« tidy::getConfig'
+  - tidy.getopt.md: 'tidy::getOpt »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::getHtmlVer'
+---
 # tidy::getHtmlVer
 
-#tidy_get_html_ver
+# tidygethtmlver
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy::getHtmlVer -- tidy_get_html_ver — Отримує виявлену HTML
-версію для зазначеного документа
+tidy::getHtmlVer -- tidygethtmlver — Отримує виявлену HTML версію для зазначеного документа
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **tidy::getHtmlVer**(): int
+```methodsynopsis
+public tidy::getHtmlVer(): int
+```
 
 Процедурний стиль
 
-**tidy_get_html_ver**([tidy](class.tidy.md) `$tidy`): int
+```methodsynopsis
+tidy_get_html_ver(tidy $tidy): int
+```
 
-Повертає виявлену HTML версію для вказаного об'єкту tidy `tidy`.
+Повертає виявлену HTML версію для вказаного об'єкту tidy `tidy`
 
 ### Список параметрів
 
 `tidy`
-Об'єкт [Tidy](class.tidy.md).
+
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
@@ -37,5 +42,4 @@ public **tidy::getHtmlVer**(): int
 
 **Увага**
 
-Функція ще не реалізована в самому Tidylib, тому завжди повертається
-`0`.
+Функція ще не реалізована в самому Tidylib, тому завжди повертається `0`

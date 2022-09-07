@@ -1,42 +1,41 @@
-- [« yaz_database](function.yaz-database.md)
-- [yaz_errno»](function.yaz-errno.md)
+---
+navigation:
+  - function.yaz-database.md: « yazdatabase
+  - function.yaz-errno.md: yazerrno »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazelement
+---
+# yazelement
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Вказує ім'я набору елементів для пошуку
+(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
 
-# yaz_element
-
-(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
-
-yaz_element — Вказує ім'я набору елементів для пошуку
+yazelement — Вказує ім'я набору елементів для пошуку
 
 ### Опис
 
-**yaz_element**(resource `$id`, string `$elementset`): bool
+```methodsynopsis
+yaz_element(resource $id, string $elementset): bool
+```
 
 Функція встановлює ім'я набору елементів пошуку.
 
-Викличте цю функцію перед [yaz_search()](function.yaz-search.md) або
-[yaz_present()](function.yaz-present.md), щоб вказати ім'я набору
-елементів для записів.
+Викличте цю функцію перед [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md), щоб вказати ім'я набору елементів для записів, що виймаються.
 
-> **Примітка**:
->
-> Якщо здається, що не відбувається жодного ефекту, дивіться опис
-> опції `piggybacking` у [yaz_connect()](function.yaz-connect.md).
+> **Зауваження**
+> 
+> Якщо здається, що не відбувається жодного ефекту, дивіться опис опції `piggybacking` в [yazconnect()](function.yaz-connect.md)
 
 ### Список параметрів
 
 `id`
-Ресурс з'єднання, повернутий
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `elementset`
-Більшість серверів підтримують `F` (для повних записів) та `B` (для повних записів)
-коротких записів).
+
+Більшість серверів підтримують `F` (для повних записів) та `B` (Для коротких записів).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

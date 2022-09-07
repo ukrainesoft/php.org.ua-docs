@@ -1,31 +1,33 @@
-- [«trader_macdext](function.trader-macdext.md)
-- [trader_mama »](function.trader-mama.md)
+---
+navigation:
+  - function.trader-macdext.md: « tradermacdext
+  - function.trader-mama.md: tradermama »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermacdfix
+---
+# tradermacdfix
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Виправлення сходження/розбіжності ковзної середньої 12/26
+(PECL trader >= 0.2.0)
 
-#trader_macdfix
-
-(PECL trader \>= 0.2.0)
-
-trader_macdfix — Виправлення сходження/розбіжності ковзної середньої
-12/26
+tradermacdfix — Виправлення сходження/розходження ковзної середньої 12/26
 
 ### Опис
 
-**trader_macdfix**(array `$real`, int `$signalPeriod` = ?): array
+```methodsynopsis
+trader_macdfix(array $real, int $signalPeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `signalPeriod`
-Згладжування сигнальної лінії (номер періоду). Допустимі значення від
-1 до 100 000.
+
+Згладжування сигнальної лінії (номер періоду). Допустимі значення від 1 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

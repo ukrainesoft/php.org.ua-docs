@@ -1,21 +1,22 @@
-- [« ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.md)
-- [ReflectionFunctionAbstract::getParameters »](reflectionfunctionabstract.getparameters.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує кількість обов'язкових параметрів
-
+---
+navigation:
+  - reflectionfunctionabstract.getnumberofparameters.md: '« ReflectionFunctionAbstract::getNumberOfParameters'
+  - reflectionfunctionabstract.getparameters.md: 'ReflectionFunctionAbstract::getParameters »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getNumberOfRequiredParameters'
+---
 # ReflectionFunctionAbstract::getNumberOfRequiredParameters
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getNumberOfRequiredParameters — Отримує
-кількість обов'язкових параметрів
+ReflectionFunctionAbstract::getNumberOfRequiredParameters — Отримує кількість обов'язкових параметрів
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getNumberOfRequiredParameters**():
-int
+```methodsynopsis
+public ReflectionFunctionAbstract::getNumberOfRequiredParameters(): int
+```
 
 Отримання кількості обов'язкових параметрів у визначенні функції.
 
@@ -29,5 +30,4 @@ int
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) -
-Отримує кількість параметрів
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів

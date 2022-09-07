@@ -1,26 +1,26 @@
-- [« RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.md)
-- [RecursiveDirectoryIterator::key »](recursivedirectoryiterator.key.md)
-
-- [PHP Manual](index.md)
-- [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-- визначає, чи є поточний елемент директорією
-
+---
+navigation:
+  - recursivedirectoryiterator.getsubpathname.md: '« RecursiveDirectoryIterator::getSubPathname'
+  - recursivedirectoryiterator.key.md: 'RecursiveDirectoryIterator::key »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::hasChildren'
+---
 # RecursiveDirectoryIterator::hasChildren
 
 (PHP 5, PHP 7, PHP 8)
 
-RecursiveDirectoryIterator::hasChildren — Визначає, чи є
-поточний елемент директорією
+RecursiveDirectoryIterator::hasChildren — Визначає, чи є поточний елемент директорією
 
 ### Опис
 
-public **RecursiveDirectoryIterator::hasChildren**(bool `$allowLinks` =
-**`false`**): bool
+```methodsynopsis
+public RecursiveDirectoryIterator::hasChildren(bool $allowLinks = false): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,5 +28,4 @@ public **RecursiveDirectoryIterator::hasChildren**(bool `$allowLinks` =
 
 ### Значення, що повертаються
 
-Повертає true, якщо поточний елемент є директорією, до того ж
-відмінною від '.' і '..'
+Повертає true, якщо поточний елемент є директорією, причому відмінною від '.' і '..'

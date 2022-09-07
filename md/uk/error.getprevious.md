@@ -1,10 +1,11 @@
-- [«Error::getMessage](error.getmessage.md)
-- [Error::getCode »](error.getcode.md)
-
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Повертає попередній Throwable
-
+---
+navigation:
+  - error.getmessage.md: '« Error::getMessage'
+  - error.getcode.md: 'Error::getCode »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getPrevious'
+---
 # Error::getPrevious
 
 (PHP 7, PHP 8)
@@ -13,11 +14,11 @@ Error::getPrevious — Повертає попередній Throwable
 
 ### Опис
 
-final public **Error::getPrevious**():
-?[Throwable](class.throwable.md)
+```methodsynopsis
+final public Error::getPrevious(): ?Throwable
+```
 
-Повертає попередній об'єкт Throwable (третій параметр конструктора
-[Error::\_\_construct()](error.construct.md)).
+Повертає попередній об'єкт Throwable (третій параметр конструктора [Error::construct()](error.construct.md)
 
 ### Список параметрів
 
@@ -25,8 +26,7 @@ final public **Error::getPrevious**():
 
 ### Значення, що повертаються
 
-Повертає попередній об'єкт [Throwable](class.throwable.md), якщо він
-є, і **`null`**, якщо його немає.
+Повертає попередній об'єкт [Throwable](class.throwable.md), якщо він є, і \*\*`null`\*\*якщо його немає.
 
 ### Приклади
 
@@ -34,15 +34,36 @@ final public **Error::getPrevious**():
 
 Прохід та друк ланцюга винятків.
 
-` <?phpclass MyCustomError extends Error {}function doStuff() {    try {         throw new InvalidArgumentError("Ви робите це| неправильно!" } catch(Error $e) {         throw new MyCustomError("Щось відбулося", 911, $e); }}try {    doStuff();} catch(Error $e) {    do {         printf("%s:%d %s (%d) [%s]
-", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));    } while($e = $e- >getPrevious());}?> `
+```php
+<?php
+class MyCustomError extends Error {}
+
+function doStuff() {
+    try {
+        throw new InvalidArgumentError("Вы делаете это неправильно!", 112);
+    } catch(Error $e) {
+        throw new MyCustomError("Что-то случилось", 911, $e);
+    }
+}
+
+
+try {
+    doStuff();
+} catch(Error $e) {
+    do {
+        printf("%s:%d %s (%d) [%s]\n", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));
+    } while($e = $e->getPrevious());
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-/home/bjori/ex.php:8 Щось трапилося (911) [MyCustomError]
-/home/bjori/ex.php:6 Ви робите це неправильно! (112) [InvalidArgumentError]
+```
+/home/bjori/ex.php:8 Что-то случилось (911) [MyCustomError]
+/home/bjori/ex.php:6 Вы делаете это неправильно! (112) [InvalidArgumentError]
+```
 
 ### Дивіться також
 
-- [Throwable::getPrevious()](throwable.getprevious.md) - Повертає
-попередній Throwable
+-   [Throwable::getPrevious()](throwable.getprevious.md) - Повертає попередній Throwable

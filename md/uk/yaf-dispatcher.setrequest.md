@@ -1,21 +1,22 @@
-- [« Yaf_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.md)
-- [Yaf_Dispatcher::setView »](yaf-dispatcher.setview.md)
+---
+navigation:
+  - yaf-dispatcher.seterrorhandler.md: '« YafDispatcher::setErrorHandler'
+  - yaf-dispatcher.setview.md: 'YafDispatcher::setView »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::setRequest'
+---
+# YafDispatcher::setRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Призначення setRequest
+(Yaf >=1.0.0)
 
-# Yaf_Dispatcher::setRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Dispatcher::setRequest - Призначення setRequest
+YafDispatcher::setRequest — Призначення setRequest
 
 ### Опис
 
-public
-**Yaf_Dispatcher::setRequest**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): [Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::setRequest(Yaf_Request_Abstract $request): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

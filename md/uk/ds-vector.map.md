@@ -1,63 +1,71 @@
-- [« Ds\Vector::last](ds-vector.last.md)
-- [Ds\Vector::merge »](ds-vector.merge.md)
+---
+navigation:
+  - ds-vector.last.md: '« DsVector::last'
+  - ds-vector.merge.md: 'ДсVector::merge »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::map'
+---
+# ДсVector::map
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає результат застосування callback-функції до всіх значень
-вектора
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::map
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::map — Повертає результат застосування callback-функції
-всім значенням вектора
+ДсVector::map — Повертає результат застосування callback-функції до всіх значень вектора
 
 ### Опис
 
-public **Ds\Vector::map**([callable](language.types.callable.md)
-`$callback`): [Ds\Vector](class.ds-vector.md)
+```methodsynopsis
+public Ds\Vector::map(callable $callback): Ds\Vector
+```
 
-Повертає результат застосування callback-функції, переданої в
-callback, до всіх значень вектора.
+Повертає результат застосування callback-функції, переданої в `callback`до всіх значень вектора.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Аргумент типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $value): mixed
+```
 
-Ця функція повинна повертати нове значення для кожного елемента
-вектор.
+Аргумент типу [callable](language.types.callable.md)
+
+Ця функція має повертати нове значення для кожного елемента вектора.
 
 ### Значення, що повертаються
 
 Результат застосування `callback` до кожного значення вектора.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Значення поточної колекції залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::map()****
+**Приклад #1 Приклад використання **ДсVector::map()****
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);print_r($vector->map(function($value) { return $value * 2; }));print_r($vector );?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+
+print_r($vector->map(function($value) { return $value * 2; }));
+print_r($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 2
-[1] => 4
-[2] => 6
+    [0] => 2
+    [1] => 4
+    [2] => 6
 )
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
+```

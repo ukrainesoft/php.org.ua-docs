@@ -1,23 +1,24 @@
-- [« DirectoryIterator::isLink](directoryiterator.islink.md)
-- [DirectoryIterator::isWritable »](directoryiterator.iswritable.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Визначає, чи доступний поточний елемент DirectoryIterator для читання
-
+---
+navigation:
+  - directoryiterator.islink.md: '« DirectoryIterator::isLink'
+  - directoryiterator.iswritable.md: 'DirectoryIterator::isWritable »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::isReadable'
+---
 # DirectoryIterator::isReadable
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::isReadable — Визначає, чи доступний поточний елемент
-DirectoryIterator для читання
+DirectoryIterator::isReadable — Визначає, чи доступний поточний елемент DirectoryIterator для читання
 
 ### Опис
 
-public **DirectoryIterator::isReadable**(): bool
+```methodsynopsis
+public DirectoryIterator::isReadable(): bool
+```
 
-Визначає, чи доступний поточний елемент
-[DirectoryIterator](class.directoryiterator.md) для читання.
+Визначає, чи поточний елемент доступний. [DirectoryIterator](class.directoryiterator.md) для читання.
 
 ### Список параметрів
 
@@ -25,29 +26,34 @@ public **DirectoryIterator::isReadable**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо файл доступний для читання, інакше повертає
-**`false`**
+Повертає \*\*`true`\*\*якщо файл доступний для читання, інакше повертає **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::isReadable()****
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isReadable()) {            "
-";    }}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isReadable()) {
+        echo $fileinfo->getFilename() . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apple.jpg
 banana.jpg
 example.php
 pears.jpg
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::isExecutable()](directoryiterator.isexecutable.md) -
-Визначає, чи є поточний елемент DirectoryIterator
-виконуваним
-- [DirectoryIterator::isWritable()](directoryiterator.iswritable.md) -
-Визначає, чи доступний поточний елемент DirectoryIterator для запису
-- [DirectoryIterator::getPerms()](directoryiterator.getperms.md) -
-Повертає набір прав для поточного елемента DirectoryIterator item
+-   [DirectoryIterator::isExecutable()](directoryiterator.isexecutable.md) - Визначає, чи поточний елемент DirectoryIterator виконується
+-   [DirectoryIterator::isWritable()](directoryiterator.iswritable.md) - Визначає, чи доступний поточний елемент DirectoryIterator для запису
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item

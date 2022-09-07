@@ -1,10 +1,11 @@
-- [«Error::getCode](error.getcode.md)
-- [Error::getLine »](error.getline.md)
-
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Отримує файл, у якому сталася помилка
-
+---
+navigation:
+  - error.getcode.md: '« Error::getCode'
+  - error.getline.md: 'Error::getLine »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getFile'
+---
 # Error::getFile
 
 (PHP 7, PHP 8)
@@ -13,9 +14,11 @@ Error::getFile — Отримує файл, у якому сталася пом�
 
 ### Опис
 
-final public **Error::getFile**(): string
+```methodsynopsis
+final public Error::getFile(): string
+```
 
-Отримати ім'я файлу, в якому сталася помилка.
+Отримати ім'я файлу, в якому виникла помилка.
 
 ### Список параметрів
 
@@ -23,19 +26,28 @@ final public **Error::getFile**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу, в якому сталася помилка.
+Повертає ім'я файлу, в якому виникла помилка.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Error::getFile()****
 
-` <?phptry {    throw new Error;} catch(Error $e) {   echo $e->getFile();}?> `
+```php
+<?php
+try {
+    throw new Error;
+} catch(Error $e) {
+    echo $e->getFile();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /home/bjori/tmp/ex.php
+```
 
 ### Дивіться також
 
-- [Throwable::getFile()](throwable.getfile.md) - Повертає файл, в
-якому викинуто виняток
+-   [Throwable::getFile()](throwable.getfile.md) - Повертає файл, у якому викинуто виняток

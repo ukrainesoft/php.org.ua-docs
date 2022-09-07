@@ -1,113 +1,77 @@
-- [« SimpleXMLElement::xpath](simplexmlelement.xpath.md)
-- [SimpleXMLIterator::current »](simplexmliterator.current.md)
-
-- [PHP Manual](index.md)
-- [SimpleXML](book.simplexml.md)
-- Клас SimpleXMLIterator
-
+---
+navigation:
+  - simplexmlelement.xpath.md: '« SimpleXMLElement::xpath'
+  - simplexmliterator.current.md: 'SimpleXMLIterator::current »'
+  - index.md: PHP Manual
+  - book.simplexml.md: SimpleXML
+title: Клас SimpleXMLIterator
+---
 # Клас SimpleXMLIterator
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
 ## Вступ
 
-SimpleXMLIterator забезпечує рекурсивну ітерацію по всіх вузлах
-об'єкта [SimpleXMLElement](class.simplexmlelement.md).
+SimpleXMLIterator забезпечує рекурсивну ітерацію по всіх вузлах об'єкта [SimpleXMLElement](class.simplexmlelement.md)
 
 ## Огляд класів
 
-class **SimpleXMLIterator** extends
-[SimpleXMLElement](class.simplexmlelement.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [current](simplexmliterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    
+     
+      class SimpleXMLIterator
+     
 
-public [getChildren](simplexmliterator.getchildren.md)():
-[SimpleXMLIterator](class.simplexmliterator.md)
+     
+      extends
+       SimpleXMLElement
+     
+     {
 
-public [hasChildren](simplexmliterator.haschildren.md)(): bool
+    /* Методы */
+    
+   public current(): mixed
+public getChildren(): SimpleXMLIterator
+public hasChildren(): bool
+public key(): mixed
+public next(): void
+public rewind(): void
+public valid(): bool
 
-public [key](simplexmliterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [next](simplexmliterator.next.md)(): void
+    /* Наследуемые методы */
+    public SimpleXMLElement::addAttribute(string $qualifiedName, string $value, ?string $namespace = null): void
+public SimpleXMLElement::addChild(string $qualifiedName, ?string $value = null, ?string $namespace = null): ?SimpleXMLElement
+public SimpleXMLElement::asXML(?string $filename = null): string|bool
+public SimpleXMLElement::attributes(?string $namespaceOrPrefix = null, bool $isPrefix = false): ?SimpleXMLElement
+public SimpleXMLElement::children(?string $namespaceOrPrefix = null, bool $isPrefix = false): ?SimpleXMLElement
+public SimpleXMLElement::count(): int
+public SimpleXMLElement::getDocNamespaces(bool $recursive = false, bool $fromRoot = true): array|false
+public SimpleXMLElement::getName(): string
+public SimpleXMLElement::getNamespaces(bool $recursive = false): array
+public SimpleXMLElement::registerXPathNamespace(string $prefix, string $namespace): bool
+public SimpleXMLElement::__toString(): string
+public SimpleXMLElement::xpath(string $expression): array|null|false
 
-public [rewind](simplexmliterator.rewind.md)(): void
+   }
+```
 
-public [valid](simplexmliterator.valid.md)(): bool
+## список змін
 
-/\* Наслідувані методи \*/
-
-public
-[SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md)(string
-`$qualifiedName`, string `$value`, ?string `$namespace` = **`null`**):
-void
-
-public
-[SimpleXMLElement::addChild](simplexmlelement.addchild.md)(string
-`$qualifiedName`, ?string `$value` = **`null`**, ?string `$namespace` =
-**`null`**): ?[SimpleXMLElement](class.simplexmlelement.md)
-
-public [SimpleXMLElement::asXML](simplexmlelement.asxml.md)(?string
-`$filename` = **`null`**): string\|bool
-
-public
-[SimpleXMLElement::attributes](simplexmlelement.attributes.md)(?string
-`$namespaceOrPrefix` = **`null`**, bool `$isPrefix` = **`false`**):
-?[SimpleXMLElement](class.simplexmlelement.md)
-
-public
-[SimpleXMLElement::children](simplexmlelement.children.md)(?string
-`$namespaceOrPrefix` = **`null`**, bool `$isPrefix` = **`false`**):
-?[SimpleXMLElement](class.simplexmlelement.md)
-
-public [SimpleXMLElement::count](simplexmlelement.count.md)(): int
-
-public
-[SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md)(bool
-`$recursive` = **`false`**, bool `$fromRoot` = **`true`**): array\|false
-
-public [SimpleXMLElement::getName](simplexmlelement.getname.md)():
-string
-
-public
-[SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.md)(bool
-`$recursive` = **`false`**): array
-
-public
-[SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)(string
-`$prefix`, string `$namespace`): bool
-
-public
-[SimpleXMLElement::\_\_toString](simplexmlelement.tostring.md)():
-string
-
-public [SimpleXMLElement::xpath](simplexmlelement.xpath.md)(string
-`$expression`): array\|null\|false
-
-}
-
-## Список змін
-
-| Версія | Опис                                                                                   |
-|--------|----------------------------------------------------------------------------------------|
-| 8.0.0  | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
-- [SimpleXMLIterator::current](simplexmliterator.current.md)
-Повертає поточний елемент
-- [SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md)
-— Повертає вкладені елементи поточного елемента
-- [SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.md)
-— Перевіряє, чи поточний елемент має вкладені елементи.
-- [SimpleXMLIterator::key](simplexmliterator.key.md) — Повертає
-поточний ключ
-- [SimpleXMLIterator::next](simplexmliterator.next.md) — Переміщує
-ітератор до наступного елементу
-- [SimpleXMLIterator::rewind](simplexmliterator.rewind.md)
-Повертає ітератор до першого елементу
-- [SimpleXMLIterator::valid](simplexmliterator.valid.md) -
-Перевіряє, чи є поточний елемент допустимим
+-   [SimpleXMLIterator::current](simplexmliterator.current.md) — Повертає поточний елемент
+-   [SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md) — Повертає вкладені елементи поточного елемента
+-   [SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.md) — Перевіряє, чи поточний елемент має вкладені елементи.
+-   [SimpleXMLIterator::key](simplexmliterator.key.md) — Повертає поточний ключ
+-   [SimpleXMLIterator::next](simplexmliterator.next.md) — Переміщує ітератор до наступного елементу
+-   [SimpleXMLIterator::rewind](simplexmliterator.rewind.md) — Повертає ітератор до першого елементу
+-   [SimpleXMLIterator::valid](simplexmliterator.valid.md) — Перевіряє, чи поточний елемент є допустимим

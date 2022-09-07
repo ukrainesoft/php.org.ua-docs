@@ -1,24 +1,26 @@
-- [« IntlBreakIterator::previous](intlbreakiterator.previous.md)
-- [IntlRuleBasedBreakIterator »](class.intlrulebasedbreakiterator.md)
-
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Встановлює сканований текст
-
+---
+navigation:
+  - intlbreakiterator.previous.md: '« IntlBreakIterator::previous'
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator »
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::setText'
+---
 # IntlBreakIterator::setText
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::setText — Встановлює сканований текст
 
 ### Опис
 
-public **IntlBreakIterator::setText**(string `$text`): ?bool
+```methodsynopsis
+public IntlBreakIterator::setText(string $text): ?bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

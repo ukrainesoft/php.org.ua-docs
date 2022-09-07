@@ -1,73 +1,75 @@
-- [« pg_escape_identifier](function.pg-escape-identifier.md)
-- [pg_escape_string »](function.pg-escape-string.md)
+---
+navigation:
+  - function.pg-escape-identifier.md: « pgescapeidentifier
+  - function.pg-escape-string.md: пгescapestring »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгescapeliteral
+---
+# пгescapeliteral
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Екранувати літерал при вставці у текстове поле
+(PHP 5> = 5.4.4, PHP 7, PHP 8)
 
-#pg_escape_literal
-
-(PHP 5 \>= 5.4.4, PHP 7, PHP 8)
-
-pg_escape_literal — Екранувати літерал під час вставлення в текстове поле
+пгescapeliteral — Екранувати літерал під час вставлення в текстове поле
 
 ### Опис
 
-**pg_escape_literal**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` = ?, string `$data`): string
+```methodsynopsis
+pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
+```
 
-Функція **pg_escape_literal()** екранує літерал на запит бази
-даних PostgreSQL. Вона повертає екранований літерал у форматі
-PostgreSQL. **pg_escape_literal()** додає лапки до та після даних.
-Користувачі не повинні додавати лапки. Рекомендується використовувати цю
-функцію замість [pg_escape_string()](function.pg-escape-string.md).
-Якщо тип стовпця – bytea, замість нього слід використовувати
-[pg_escape_bytea()](function.pg-escape-bytea.md). Для екранування
-ідентифікаторів (наприклад, таблиці, імен полів) необхідно використовувати
-[pg_escape_identifier()](function.pg-escape-identifier.md).
+Функція **пгescapeliteral()** екранує літерал для запиту бази даних PostgreSQL Вона повертає екранований літерал у форматі PostgreSQL . **пгescapeliteral()** додає лапки до та після даних. Користувачі не повинні додавати лапки. Рекомендується використовувати цю функцію замість [пгescapestring()](function.pg-escape-string.md). Якщо тип стовпця – bytea, замість нього слід використовувати [пгescapebytea()](function.pg-escape-bytea.md). Для екранування ідентифікаторів (наприклад таблиці, імен полів) необхідно використовувати [пгescapeidentifier()](function.pg-escape-identifier.md)
 
-> **Примітка**:
->
-> Ця функція має внутрішній код екранування і може також
-> використовуватися з PostgreSQL 8.4 або молодшою версією.
+> **Зауваження**
+> 
+> Ця функція має внутрішній код екранування і може використовуватися з PostgreSQL 8.4 або молодшої версії.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо
-`connection` не вказано, використовується стандартне з'єднання.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 `data`
+
 Рядок (string), що містить текст для екранування.
 
 ### Значення, що повертаються
 
 Рядок (string), що містить екранований текст.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_escape_literal()****
+**Приклад #1 Приклад використання **пгescapeliteral()****
 
-`<?php  // Підключення к базі даних $dbconn = pg_connect('dbname=foo'); // Читання з текстового файла (містить апострофи і зворотні косі риси) $data = file_get_contents('letter.txt'); // Екранування текстових даних $escaped = pg_escape_literal($data); // Вставка их в базу даних. Зверніть увагу, що навколо = $escaped} немає лапок pg_query ("INSERT INTO correspondence (name, data) VALUES ('My letter', {$escaped})");?> ``
+```php
+<?php
+  // Подключение к базе данных
+  $dbconn = pg_connect('dbname=foo');
+
+  // Чтение из текстового файла (содержащий апострофы и обратные косые черты)
+  $data = file_get_contents('letter.txt');
+
+  // Экранирование текстовых данных
+  $escaped = pg_escape_literal($data);
+
+  // Вставка их в базу данных. Обратите внимание, что вокруг {$escaped} нет кавычек
+  pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', {$escaped})");
+?>
+```
 
 ### Дивіться також
 
-- [pg_escape_identifier()](function.pg-escape-identifier.md) -
-Екранує ідентифікатор для вставки у текстове поле
-- [pg_escape_bytea()](function.pg-escape-bytea.md) - Екранує
-спецсимволи в рядку для вставки в поле типу bytea
-- [pg_escape_string()](function.pg-escape-string.md) - Екранування
-спецсимволів у рядку запиту
+-   [пгescapeidentifier()](function.pg-escape-identifier.md) - Екранує ідентифікатор для вставки у текстове поле
+-   [пгescapebytea()](function.pg-escape-bytea.md) - Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [пгescapestring()](function.pg-escape-string.md) - Екранування спецсимволів у рядку запиту

@@ -1,24 +1,24 @@
-- [« ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)
-- [ReflectionFunctionAbstract::inNamespace »](reflectionfunctionabstract.innamespace.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Визначає, чи має функція попередній тип повертається
-значення
-
+---
+navigation:
+  - reflectionfunctionabstract.hasreturntype.md: '« ReflectionFunctionAbstract::hasReturnType'
+  - reflectionfunctionabstract.innamespace.md: 'ReflectionFunctionAbstract::inNamespace »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::hasTentativeReturnType'
+---
 # ReflectionFunctionAbstract::hasTentativeReturnType
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionFunctionAbstract::hasTentativeReturnType — Визначає, чи є
-у функції попередній тип значення, що повертається
+ReflectionFunctionAbstract::hasTentativeReturnType — Визначає, чи є у функції попередній тип значення, що повертається
 
 ### Опис
 
-public **ReflectionFunctionAbstract::hasTentativeReturnType**(): bool
+```methodsynopsis
+public ReflectionFunctionAbstract::hasTentativeReturnType(): bool
+```
 
-Визначає, чи має функція попередній тип повертається
-значення.
+Визначає, чи є у функції попередній тип значення, що повертається.
 
 ### Список параметрів
 
@@ -26,25 +26,27 @@ public **ReflectionFunctionAbstract::hasTentativeReturnType**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо функція має попередній тип
-повертається значення, інакше повертає **`false`**.
+Повертає \*\*`true`\*\*якщо у функції є попередній тип значення, що повертається, в іншому випадку повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionFunctionAbstract::hasTentativeReturnType()****
+**Приклад #1 Приклад використання **ReflectionFunctionAbstract::hasTentativeReturnType()****
 
-` <?php$method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');var_dump($method->hasTentativeReturnType()); `
+```php
+<?php
+
+$method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');
+var_dump($method->hasTentativeReturnType());
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getTentativeReturnType()](reflectionfunctionabstract.gettentativereturntype.md) -
-Повертає попередній тип значення, що повертається, пов'язаний з
-функцією
-- [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) -
-Перевіряє, чи має функція оголошений тип значення, що повертається
-- [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)
+-   [ReflectionFunctionAbstract::getTentativeReturnType()](reflectionfunctionabstract.gettentativereturntype.md) - Повертає попередній тип значення, що повертається, пов'язаний з функцією
+-   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) - Перевіряє, чи має функція оголошений тип значення, що повертається
+-   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)

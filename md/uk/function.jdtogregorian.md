@@ -1,28 +1,29 @@
-- [«jdtofrench](function.jdtofrench.md)
-- [jdtojewish »](function.jdtojewish.md)
-
-- [PHP Manual](index.md)
-- [Календарь](ref.calendar.md)
-- Переводить число днів у юліанському літочисленні в дату по
-Григоріанському календарю
-
-#jdtogregorian
+---
+navigation:
+  - function.jdtofrench.md: « jdtofrench
+  - function.jdtojewish.md: jdtojewish »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: jdtogregorian
+---
+# jdtogregorian
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-jdtogregorian — Переказує число днів у юліанському літочисленні в дату
-за Григоріанським календарем
+jdtogregorian — Переказує число днів у юліанському літочисленні в дату за Григоріанським календарем
 
 ### Опис
 
-**jdtogregorian**(int `$julian_day`): string
+```methodsynopsis
+jdtogregorian(int $julian_day): string
+```
 
-Переводить число днів у юліанському літочисленні в рядок, що містить
-григоріанську дату у форматі "місяць/день/рік".
+Переказує кількість днів у юліанському літочисленні у рядок, що містить григоріанську дату у форматі "місяць/день/рік".
 
 ### Список параметрів
 
 `julian_day`
+
 Номер дня у юліанському літочисленні у вигляді цілого числа
 
 ### Значення, що повертаються
@@ -31,8 +32,5 @@ jdtogregorian — Переказує число днів у юліанськом
 
 ### Дивіться також
 
-- [gregoriantojd()](function.gregoriantojd.md) - Перетворює дату за
-григоріанському календарю в кількість днів у юліанському
-літочисленні
-- [cal_from_jd()](function.cal-from-jd.md) - Перетворює дату,
-задану в юліанському календарі, в дату вказаного календаря
+-   [gregoriantojd()](function.gregoriantojd.md) - Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
+-   [calfromjd()](function.cal-from-jd.md) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

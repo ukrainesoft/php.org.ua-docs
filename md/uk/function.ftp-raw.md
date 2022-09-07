@@ -1,50 +1,60 @@
-- [«ftp_quit](function.ftp-quit.md)
-- [ftp_rawlist »](function.ftp-rawlist.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Надсилає довільну команду FTP-серверу
-
-#ftp_raw
+---
+navigation:
+  - function.ftp-quit.md: « ftpquit
+  - function.ftp-rawlist.md: ftprawlist »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpraw
+---
+# ftpraw
 
 (PHP 5, PHP 7, PHP 8)
 
-ftp_raw — Надсилає довільну команду FTP-серверу
+ftpraw — Надсилає довільну команду FTP-серверу
 
 ### Опис
 
-**ftp_raw**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$command`): ?array
+```methodsynopsis
+ftp_raw(FTP\Connection $ftp, string $command): ?array
+```
 
-Відправляє довільну команду command FTP-серверу.
+Відправляє довільну команду `command` FTP-сервер.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `command`
+
 Команда.
 
 ### Значення, що повертаються
 
-Повертає відповідь сервера у вигляді масиву рядків або **`null`** у разі
-виникнення помилки. Функція **ftp_raw()** не інтерпретує відповіді
-сервера і не визначає, чи успішно виконано команду.
+Повертає відповідь сервера у вигляді масиву рядків або **`null`** у разі виникнення помилки. Функція **ftpraw()** не інтерпретує відповідь сервера і не визначає, чи успішно виконано команду.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Використання **ftp_raw()** для входу на FTP-сервер**
+**Приклад #1 Використання **ftpraw()** для входу на FTP-сервер**
 
-` <?php$ftp = ftp_connect("ftp.example.com");/* То же саме, що:  ftp_login($ftp, "joeblow", "secret"); */ftp_raw($ftp, "USER joeblow");ftp_raw($ftp, "PASS secret");?> `
+```php
+<?php
+$ftp = ftp_connect("ftp.example.com");
+
+/* То же самое, что:
+   ftp_login($ftp, "joeblow", "secret"); */
+ftp_raw($ftp, "USER joeblow");
+ftp_raw($ftp, "PASS secret");
+?>
+```
 
 ### Дивіться також
 
-- [ftp_exec()](function.ftp-exec.md) - Запитує виконання
-команди на FTP-сервері
+-   [ftpexec()](function.ftp-exec.md) - Запитує виконання команди на FTP-сервері

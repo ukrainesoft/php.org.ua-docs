@@ -1,10 +1,11 @@
-- [« Imagick::morphology](imagick.morphology.md)
-- [Imagick::motionBlurImage »](imagick.motionblurimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Формує мозаїку із зображень
-
+---
+navigation:
+  - imagick.morphology.md: '« Imagick::morphology'
+  - imagick.motionblurimage.md: 'Imagick::motionBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::mosaicImages'
+---
 # Imagick::mosaicImages
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,17 +14,15 @@ Imagick::mosaicImages — Формує мозаїку із зображень
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::mosaicImages**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::mosaicImages(): Imagick
+```
 
-Викладає мозаїку з послідовності зображень, щоб
-сформувати єдине зв'язне зображення. Повертає паличку з кожним
-зображенням у послідовності, складеним у місці, визначеному
-усунення сторінки зображення.
+Викладає мозаїку із послідовності зображень, щоб сформувати єдине зв'язне зображення. Повертає паличку з кожним зображенням у послідовності, складеному у місці, визначеному зміщенням сторінки зображення.
 
 ### Список параметрів
 
@@ -31,4 +30,4 @@ public **Imagick::mosaicImages**(): [Imagick](class.imagick.md)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

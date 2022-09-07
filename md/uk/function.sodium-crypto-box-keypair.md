@@ -1,30 +1,26 @@
-- [« sodium_crypto_box_keypair_from_secretkey_and_publickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md)
-- [sodium_crypto_box_open »](function.sodium-crypto-box-open.md)
+---
+navigation:
+  - function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md: « sodiumcryptoboxkeypairfromsecretkeyandpublickey
+  - function.sodium-crypto-box-open.md: sodiumcryptoboxopen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxkeypair
+---
+# sodiumcryptoboxkeypair
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Згенерувати випадковим чином секретний ключ та відповідний йому
-відкритий ключ
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_box_keypair
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_box_keypair — Згенерувати випадковим чином секретний
-ключ та відповідний йому відкритий ключ
+sodiumcryptoboxkeypair — Згенерувати випадковим чином секретний ключ і відповідний відкритий ключ
 
 ### Опис
 
-**sodium_crypto_box_keypair**(): string
+```methodsynopsis
+sodium_crypto_box_keypair(): string
+```
 
 Створює секретний та відкритий ключі як один рядок.
 
-Щоб отримати секретний ключ із цього уніфікованого рядка ключовий
-пари, дивіться
-[sodium_crypto_box_secretkey()](function.sodium-crypto-box-secretkey.md).
-Щоб отримати відкритий ключ із цього уніфікованого рядка ключового
-пари, дивіться
-[sodium_crypto_box_publickey()](function.sodium-crypto-box-publickey.md).
+Щоб отримати секретний ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxsecretkey()](function.sodium-crypto-box-secretkey.md). Щоб отримати відкритий ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxpublickey()](function.sodium-crypto-box-publickey.md)
 
 ### Список параметрів
 
@@ -32,5 +28,4 @@ sodium_crypto_box_keypair — Згенерувати випадковим чин
 
 ### Значення, що повертаються
 
-Один рядок, що містить секретний ключ X25519 та відповідний відкритий
-ключ X25519.
+Один рядок містить секретний ключ X25519 і відповідний відкритий ключ X25519.

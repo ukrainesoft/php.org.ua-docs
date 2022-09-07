@@ -1,21 +1,22 @@
-- [« MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
-- [MongoDB\BSON\UTCDateTimeInterface::\_\_toString »](mongodb-bson-utcdatetimeinterface.tostring.md)
+---
+navigation:
+  - class.mongodb-bson-utcdatetimeinterface.md: « MongoDBBSONUTCDateTimeInterface
+  - mongodb-bson-utcdatetimeinterface.tostring.md: 'MongoDBBSONUTCDateTimeInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetimeinterface.md: MongoDBBSONUTCDateTimeInterface
+title: 'MongoDBBSONUTCDateTimeInterface::toDateTime'
+---
+# MongoDBBSONUTCDateTimeInterface::toDateTime
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
-- Повертає уявлення DateTime цього UTCDateTimeInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\UTCDateTimeInterface::toDateTime
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\UTCDateTimeInterface::toDateTime — Повертає виставу
-DateTime цього UTCDateTimeInterface
+MongoDBBSONUTCDateTimeInterface::toDateTime — Повертає уявлення DateTime цього UTCDateTimeInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\UTCDateTimeInterface::toDateTime**():
-[DateTime](class.datetime.md)
+```methodsynopsis
+abstract public MongoDB\BSON\UTCDateTimeInterface::toDateTime(): DateTime
+```
 
 ### Список параметрів
 
@@ -23,11 +24,8 @@ abstract public **MongoDB\BSON\UTCDateTimeInterface::toDateTime**():
 
 ### Значення, що повертаються
 
-Повертає представлення [DateTime](class.datetime.md) цього
-UTCDateTimeInterface. Повернутий [DateTime](class.datetime.md)
-повинен використовувати часовий пояс UTC.
+Повертає виставу [DateTime](class.datetime.md) цього UTCDateTimeInterface. Повернутий [DateTime](class.datetime.md) повинен використовувати часовий пояс UTC.
 
 ### Дивіться також
 
-- [MongoDB\BSON\UTCDateTime::toDateTime()](mongodb-bson-utcdatetime.todatetime.md) -
-Повертає уявлення DateTime цього UTCDateTime
+-   [MongoDBBSONUTCDateTime::toDateTime()](mongodb-bson-utcdatetime.todatetime.md) - Повертає уявлення DateTime цього UTCDateTime

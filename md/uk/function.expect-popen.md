@@ -1,44 +1,51 @@
-- [«expect_expectl](function.expect-expectl.md)
-- [PCNTL »](book.pcntl.md)
+---
+navigation:
+  - function.expect-expectl.md: « expectexpectl
+  - book.pcntl.md: PCNTL »
+  - index.md: PHP Manual
+  - ref.expect.md: Функции Expect
+title: expectpopen
+---
+# expectpopen
 
-- [PHP Manual](index.md)
-- [Функції Expect](ref.expect.md)
-- Запускає команду через командну оболонку Bourne та відкриває для
-процесу потік PTY
+(PECL expect >= 0.1.0)
 
-#expect_popen
-
-(PECL expect => 0.1.0)
-
-expect_popen — Запускає команду через командну оболонку Bourne та
-відкриває для процесу потік PTY
+expectpopen — Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
 
 ### Опис
 
-**expect_popen**(string `$command`): resource
+```methodsynopsis
+expect_popen(string $command): resource
+```
 
-Запускає команду через командну оболонку Bourne та відкриває для
-процесу потік PTY.
+Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY.
 
 ### Список параметрів
 
 `command`
-Команда для запуску
+
+Команда для запуску.
 
 ### Значення, що повертаються
 
-Повертає потік PTY для 'stdio', 'stdout', і 'stderr' процесу.
+Повертає потік PTY для `stdio` `stdout`, і `stderr` процесу.
 
-У разі виникнення помилки повертає **`false`**.
+У разі виникнення помилки повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **expect_popen()****
+**Приклад #1 Приклад використання **expectpopen()****
 
-` <?php// Сполука з CVS репозиторієм PHP.net:$stream = expect_popen ("cvs -d :pserver:anonymous@cvs.php.net:/repository login");sleep$ (3) "phpfi
-"); fclose ($stream);?> `
+```php
+<?php
+// Соединение с CVS репозиторием PHP.net:
+$stream = expect_popen ("cvs -d :pserver:anonymous@cvs.php.net:/repository login");
+sleep (3);
+fwrite ($stream, "phpfi\n");
+fclose ($stream);
+?>
+```
 
 ### Дивіться також
 
-- [popen()](function.popen.md) - Відкриває файловий покажчик
-процесу
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу

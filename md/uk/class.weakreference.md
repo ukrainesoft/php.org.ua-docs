@@ -1,54 +1,69 @@
-- [Fiber::getCurrent](fiber.getcurrent.md)
-- [WeakReference::\_\_construct »](weakreference.construct.md)
-
-- [PHP Manual](index.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- Клас WeakReference
-
+---
+navigation:
+  - fiber.getcurrent.md: '« Fiber::getCurrent'
+  - weakreference.construct.md: 'WeakReference::construct »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Клас WeakReference
+---
 # Клас WeakReference
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 ## Вступ
 
-Клас WeakReference надає спосіб доступу до об'єкта, не впливаючи при
-цьому на кількість посилань на нього, таким чином збирач сміття зможе
-звільнити цей об'єкт.
+Клас WeakReference надає спосіб доступу до об'єкта, не впливаючи на кількість посилань на нього, таким чином збирач сміття зможе звільнити цей об'єкт.
 
 Об'єкт класу **WeakReference** не може бути серіалізованим.
 
 ## Огляд класів
 
-final class **WeakReference** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [\_\_construct](weakreference.construct.md)()
+    
+     
+      final
+      class WeakReference
+     
+     {
 
-public static [create](weakreference.create.md)(object `$object`):
-[WeakReference](class.weakreference.md)
+    /* Методы */
+    
+   public __construct()
 
-public [get](weakreference.get.md)(): ?object
+    public static create(object $object): WeakReference
+public get(): ?object
 
-}
+   }
+```
 
 ## Приклади використання WeakReference
 
-**Приклад #1 Приклад #1. Просте використання WeakReference**
+**приклад #1 приклад #1. Просте використання WeakReference**
 
-` <?php$obj = new stdClass;$weakref = WeakReference::create($obj);var_dump($weakref->get());unset($obj);var_dump($weakref->get()); ?> `
+```php
+<?php
+$obj = new stdClass;
+$weakref = WeakReference::create($obj);
+var_dump($weakref->get());
+unset($obj);
+var_dump($weakref->get());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(stdClass)#1 (0) {
 }
 NULL
+```
 
 ## Зміст
 
-- [WeakReference::\_\_construct](weakreference.construct.md) -
-Конструктор, який забороняє реалізацію
-- [WeakReference::create](weakreference.create.md) - Створює нову
-слабке посилання
-- [WeakReference::get](weakreference.get.md) — Отримує об'єкт з
-слабким посиланням
+-   [WeakReference::construct](weakreference.construct.md) - Конструктор, який забороняє реалізацію
+-   [WeakReference::create](weakreference.create.md) — Створює нове слабке посилання
+-   [WeakReference::get](weakreference.get.md) — Отримує об'єкт із слабким посиланням

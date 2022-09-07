@@ -1,48 +1,61 @@
-- [«cubrid_list_dbs](function.cubrid-list-dbs.md)
-- [cubrid_ping»](function.cubrid-ping.md)
+---
+navigation:
+  - function.cubrid-list-dbs.md: « cubridlistdbs
+  - function.cubrid-ping.md: cubridping »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridnumfields
+---
+# cubridnumfields
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Отримати кількість стовпців у результуючому наборі
+(PECL CUBRID >= 8.3.0)
 
-#cubrid_num_fields
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_num_fields — Отримати кількість стовпців у результуючому наборі
+cubridnumfields — Отримати кількість стовпців у результуючому наборі
 
 ### Опис
 
-**cubrid_num_fields**(resource `$result`): int
+```methodsynopsis
+cubrid_num_fields(resource $result): int
+```
 
-Повертає кількість стовпців у результуючому наборі або **`false`**
-у разі виникнення помилки.
+Повертає кількість стовпців у результуючому наборі або **`false`** у разі виникнення помилки.
 
 ### Список параметрів
 
 `result`
-`result`, отриманий з
-[cubrid_execute()](function.cubrid-execute.md),
-[cubrid_query()](function.cubrid-query.md) або
-[cubrid_prepare()](function.cubrid-prepare.md)
+
+`result`, отриманий з [cubridexecute()](function.cubrid-execute.md) [cubridquery()](function.cubrid-query.md) або [cubridprepare()](function.cubrid-prepare.md)
 
 ### Значення, що повертаються
 
 Кількість стовпців у разі успішного виконання.
 
--1, якщо SQL-запит був відмінним від SELECT типу.
+1, якщо SQL-запит був відмінним від SELECT типу.
 
 **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_num_fields()****
+**Приклад #1 Приклад використання **cubridnumfields()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT *FROM code");$row_num = cubrid_nu $req);printf("Кількість рядків: %d
-Кількість стовпців: % d
-", $row_num, $col_num);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+
+$req = cubrid_execute($conn, "SELECT * FROM code");
+
+$row_num = cubrid_num_rows($req);
+$col_num = cubrid_num_fields($req);
+
+printf("Количество строк: %d\nКоличество столбцов: %d\n", $row_num, $col_num);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Кількість рядків: 6
-Кількість стовпців: 2
+```
+Количество строк: 6
+Количество столбцов: 2
+```

@@ -1,19 +1,20 @@
-- [« mysql_xdevapi\Client::close](mysql-xdevapi-client.close.md)
-- [Client::getClient »](mysql-xdevapi-client.getsession.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Client](class.mysql-xdevapi-client.md)
-- Конструктор класу Client
-
-# Client::\_\_construct
+---
+navigation:
+  - mysql-xdevapi-client.close.md: '« mysqlxdevapiClient::close'
+  - mysql-xdevapi-client.getsession.md: 'Client::getClient »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-client.md: mysqlxdevapiClient
+title: 'Client::construct'
+---
+# Client::construct
 
 (No version information available, might only be in Git)
 
-Client::\_\_construct — Конструктор класу Client
+Client::construct - Конструктор класу Client
 
 ### Опис
 
-private **mysql_xdevapi\Client::\_\_construct**()
+private **mysqlxdevapiClient::construct**
 
 Конструктор класу Client.
 
@@ -23,7 +24,16 @@ private **mysql_xdevapi\Client::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Client::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiClient::construct()****
 
-`<?php$pooling_options = '{ "enabled": true,    "maxSize": 10,    "maxIdleTime": 3600,     "queueTimeOut": $0$ session==$client->getSession(); `
+```php
+<?php
+$pooling_options = '{
+  "enabled": true,
+    "maxSize": 10,
+    "maxIdleTime": 3600,
+    "queueTimeOut": 1000
+}';
+$client = mysql_xdevapi\getClient($connection_uri, $pooling_options);
+$session = $client->getSession();
+```

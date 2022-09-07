@@ -1,72 +1,67 @@
-- [«eio_read](function.eio-read.md)
-- [eio_readdir »](function.eio-readdir.md)
+---
+navigation:
+  - function.eio-read.md: « eioread
+  - function.eio-readdir.md: eioreaddir »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioreadahead
+---
+# eioreadahead
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Поміщає дані з файлу в кеш сторінки
+(PECL eio >= 0.0.1dev)
 
-#eio_readahead
-
-(PECL eio \>= 0.0.1dev)
-
-eio_readahead — Поміщає дані з файлу до кешу сторінки
+eioreadahead — Поміщає дані з файлу до кешу сторінки
 
 ### Опис
 
-**eio_readahead**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-int `$offset`,
-int `$length`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_readahead(    mixed $fd,    int $offset,    int $length,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_readahead()** заповнює кеш сторінки даними з файлу. Таким
-Таким чином, подальші звернення до цього файлу не впливатимуть на роботу
-дискової підсистеми. Більш детальну інформацію можна отримати на
-сторінці посібника `READAHEAD(2)`.
+**eioreadahead()** заповнює кеш сторінки даними із файлу. Таким чином, подальші звернення до цього файлу не впливатимуть на роботу дискової підсистеми. Детальнішу інформацію можна отримати на сторінці посібника `READAHEAD(2)`
 
 ### Список параметрів
 
 `fd`
+
 Потік, ресурс сокету чи числовий файловий дескриптор.
 
 `offset`
+
 Позиція у файлі, з якою читатимуться дані.
 
 `length`
+
 Кількість байт, що зчитуються.
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
-Дані, які потрібно передати функції `callback`.
+
+Дані, які потрібно передати функції `callback`
 
 ### Значення, що повертаються
 
-**eio_readahead()** повертає ресурс запиту у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eioreadahead()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.

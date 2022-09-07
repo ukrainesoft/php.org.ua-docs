@@ -1,62 +1,61 @@
-- [« xml_parser_set_option](function.xml-parser-set-option.md)
-- [xml_set_default_handler »](function.xml-set-default-handler.md)
-
-- [PHP Manual](index.md)
-- [Функції парсера XML](ref.xml.md)
-- Установка обробника символьних даних
-
-#xml_set_character_data_handler
+---
+navigation:
+  - function.xml-parser-set-option.md: « xmlparsersetoption
+  - function.xml-set-default-handler.md: xmlsetdefaulthandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetcharacterdatahandler
+---
+# xmlsetcharacterdatahandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xml_set_character_data_handler — Встановлення обробника символьних даних
+xmlsetcharacterdatahandler — Встановлення обробника символьних даних
 
 ### Опис
 
-**xml_set_character_data_handler**([XMLParser](class.xmlparser.md)
-`$parser`, [callable](language.types.callable.md) `$handler`): bool
+```methodsynopsis
+xml_set_character_data_handler(XMLParser $parser, callable $handler): bool
+```
 
-Встановлює обробник символьних даних для заданого XML-аналізатора
-`parser`.
+Встановлює обробник символьних даних для заданого XML-аналізатора `parser`
 
 ### Список параметрів
 
 `parser`
+
 Посилання на аналізатор XML.
 
 `handler`
-`handler` - рядок, що містить ім'я функції, яка повинна бути
-визначено на момент виклику функції
-[xml_parse()](function.xml-parse.md) з аналізатора `parser`.
 
-Функція з ім'ям handler повинна приймати два аргументи:
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
 
-handler([XmlParser](class.xmlparser.md) `$parser`, string `$data`)
+Функція з ім'ям `handler` має приймати два аргументи:
+
+```methodsynopsis
+handler(XmlParser $parser, string $data)
+```
 
 `parser`
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає
-обробник.
+
+Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
 
 `data`
+
 Другий аргумент `data` повинен містити дані у вигляді текстового рядка.
 
-Обробник символьних даних викликається для кожного фрагмента тексту
-XML-документ. Він також може викликатися кілька разів усередині кожного
-фрагмента (наприклад для не ASCII-рядків).
+Обробник символьних даних викликається кожного фрагмента тексту в XML-документі. Він також може викликатися кілька разів усередині кожного фрагмента (наприклад, для не ASCII-рядків).
 
-Якщо як обробник передано порожній рядок або **`false`**, цей
-обробник вимикається.
+Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
 
-> **Примітка**: Як аргумент замість імені функції може бути
-> передано масив, що містить посилання на об'єкт та ім'я методу.
+> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр parser чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

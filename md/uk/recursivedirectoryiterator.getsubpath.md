@@ -1,22 +1,24 @@
-- [« RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md)
-- [RecursiveDirectoryIterator::getSubPathname »](recursivedirectoryiterator.getsubpathname.md)
-
-- [PHP Manual](index.md)
-- [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-- Повертає шлях до піддиректорії
-
+---
+navigation:
+  - recursivedirectoryiterator.getchildren.md: '« RecursiveDirectoryIterator::getChildren'
+  - recursivedirectoryiterator.getsubpathname.md: 'RecursiveDirectoryIterator::getSubPathname »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::getSubPath'
+---
 # RecursiveDirectoryIterator::getSubPath
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 RecursiveDirectoryIterator::getSubPath — Повертає шлях до піддиректорії
 
 ### Опис
 
-public **RecursiveDirectoryIterator::getSubPath**(): string
+```methodsynopsis
+public RecursiveDirectoryIterator::getSubPath(): string
+```
 
-Повертає шлях до піддиректорії щодо директорії, заданої в
-конструктори.
+Повертає шлях до піддиректорії щодо директорії, заданої у конструкторі.
 
 ### Список параметрів
 
@@ -30,25 +32,31 @@ public **RecursiveDirectoryIterator::getSubPath**(): string
 
 **Приклад #1 Приклад використання **getSubPath()****
 
-` $directory = '/tmp'; $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory)); foreach ($it as $file) {          echo 'Ім'я файлу: ' . $it->getSubPathName() . "
-";          echo 'Піддиректорія: ' . $it->getSubPath() . "
+```php
+$directory = '/tmp';
 
-";      }`
+      $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+
+      foreach ($it as $file) {
+          echo 'Имя файла: ' . $it->getSubPathName() . "\n";
+          echo 'Поддиректория: ' . $it->getSubPath() . "\n\n";
+      }
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Ім'я файлу: fruit/apple.xml
-Піддиректорія: fruit
+```
+Имя файла: fruit/apple.xml
+     Поддиректория: fruit
 
-Назва файлу: stuff.xml
-Піддиректорія:
+     Имя файла: stuff.xml
+     Поддиректория:
 
-Назва файлу: veggies/carrot.xml
-Піддиректорія: veggies
+     Имя файла: veggies/carrot.xml
+     Поддиректория: veggies
+```
 
 ### Дивіться також
 
-- [RecursiveDirectoryIterator::getSubPathName()](recursivedirectoryiterator.getsubpathname.md) -
-Повертає шлях до піддиректорії та ім'я файлу
-- [RecursiveDirectoryIterator::key()](recursivedirectoryiterator.key.md) -
-Повертає шлях та ім'я файлу поточного елемента
+-   [RecursiveDirectoryIterator::getSubPathName()](recursivedirectoryiterator.getsubpathname.md) - Повертає шлях до піддиректорії та ім'я файлу
+-   [RecursiveDirectoryIterator::key()](recursivedirectoryiterator.key.md) - Повертає шлях та ім'я файлу поточного елемента

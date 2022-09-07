@@ -1,24 +1,24 @@
-- [« Memcached::getResultCode](memcached.getresultcode.md)
-- [Memcached::getServerByKey »](memcached.getserverbykey.md)
-
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Повертає повідомлення, що описує результат виконання останньої
-операції
-
+---
+navigation:
+  - memcached.getresultcode.md: '« Memcached::getResultCode'
+  - memcached.getserverbykey.md: 'Memcached::getServerByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getResultMessage'
+---
 # Memcached::getResultMessage
 
-(PECL memcached \>= 1.0.0)
+(PECL memcached >= 1.0.0)
 
-Memcached::getResultMessage — Повертає повідомлення, що описує
-результат виконання останньої операції
+Memcached::getResultMessage — Повертає повідомлення, що описує результат виконання останньої операції
 
 ### Опис
 
-public **Memcached::getResultMessage**(): string
+```methodsynopsis
+public Memcached::getResultMessage(): string
+```
 
-**Memcached::getResultMessage()** повертає рядок, що описує
-результуючий код виконання останнього методу Memcached.
+**Memcached::getResultMessage()** повертає рядок, що описує результуючий код виконання останнього методу Memcached.
 
 ### Список параметрів
 
@@ -26,16 +26,25 @@ public **Memcached::getResultMessage**(): string
 
 ### Значення, що повертаються
 
-Повідомлення, що описує результат виконання останньої Memcached
-операції.
+Повідомлення, що описує результат виконання останньої операції Memcached.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcached::getResultMessage()****
 
-` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->add('foo', 'bar'); // перше додавання успішно виконається$m->add('foo', 'bar');echo $m->getResultMessage(),"
-";?> `
+```php
+<?php
+$m = new Memcached();
+$m->addServer('localhost', 11211);
+
+$m->add('foo', 'bar'); // первое добавление успешно выполнится
+$m->add('foo', 'bar');
+echo $m->getResultMessage(),"\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NOT STORED
+```

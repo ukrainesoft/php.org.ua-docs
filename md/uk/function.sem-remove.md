@@ -1,44 +1,45 @@
-- [«sem_release](function.sem-release.md)
-- [shm_attach »](function.shm-attach.md)
+---
+navigation:
+  - function.sem-release.md: « semrelease
+  - function.shm-attach.md: shmattach »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: semremove
+---
+# semremove
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Видалення семафору
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# sem_remove
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-sem_remove - Видалення семафору
+semremove — Видалення семафору
 
 ### Опис
 
-**sem_remove**([SysvSemaphore](class.sysvsemaphore.md) `$semaphore`):
-bool
+```methodsynopsis
+sem_remove(SysvSemaphore $semaphore): bool
+```
 
-**sem_remove()** видаляє цей семафор.
+**semremove()** видаляє вказаний семафор.
 
 Після видалення семафору він стає недоступним.
 
 ### Список параметрів
 
 `semaphore`
-Семафор, повернутий [sem_get()](function.sem-get.md).
+
+Семафор, повернутий [semget()](function.sem-get.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Параметр semaphore тепер очікує на екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [sem_get()](function.sem-get.md) - Отримання ідентифікатора
-семафора
-- [sem_release()](function.sem-release.md) - Звільнення семафору
-- [sem_acquire()](function.sem-acquire.md) - Захоплення семафору
+-   [semget()](function.sem-get.md) - Отримання ідентифікатора семафору
+-   [semrelease()](function.sem-release.md) - Звільнення семафору
+-   [semacquire()](function.sem-acquire.md) - Захоплення семафору

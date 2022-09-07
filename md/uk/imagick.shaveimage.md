@@ -1,10 +1,11 @@
-- [« Imagick::sharpenImage](imagick.sharpenimage.md)
-- [Imagick::shearImage »](imagick.shearimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Видаляє пікселі по краях зображення
-
+---
+navigation:
+  - imagick.sharpenimage.md: '« Imagick::sharpenImage'
+  - imagick.shearimage.md: 'Imagick::shearImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::shaveImage'
+---
 # Imagick::shaveImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,11 +14,11 @@ Imagick::shaveImage — Видалення пікселів по краях зо
 
 ### Опис
 
-public **Imagick::shaveImage**(int `$columns`, int `$rows`): bool
+```methodsynopsis
+public Imagick::shaveImage(int $columns, int $rows): bool
+```
 
-Видаляє пікселі на краях зображення. Метод виділяє пам'ять, необхідну
-для нової структури зображення, і повертає вказівник на нове
-зображення.
+Видаляє пікселі на краях зображення. Метод виділяє пам'ять, необхідну нової структури зображення, і повертає покажчик на нове зображення.
 
 ### Список параметрів
 
@@ -27,10 +28,20 @@ public **Imagick::shaveImage**(int `$columns`, int `$rows`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::shaveImage()****
 
-`<?phpfunction shaveImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->shaveImage(100, 50); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function shaveImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->shaveImage(100, 50);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

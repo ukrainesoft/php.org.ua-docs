@@ -1,10 +1,11 @@
-- [« Imagick::clear](imagick.clear.md)
-- [Imagick::clipImagePath »](imagick.clipimagepath.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Обрізка вздовж найближчого контуру з профілем 8BIM
-
+---
+navigation:
+  - imagick.clear.md: '« Imagick::clear'
+  - imagick.clipimagepath.md: 'Imagick::clipImagePath »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clipImage'
+---
 # Imagick::clipImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::clipImage — Обрізка вздовж найближчого кон
 
 ### Опис
 
-public **Imagick::clipImage**(): bool
+```methodsynopsis
+public Imagick::clipImage(): bool
+```
 
 Обрізка вздовж найближчого контуру з профілем 8BIM, якщо він наданий.
 
@@ -23,7 +26,7 @@ public **Imagick::clipImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

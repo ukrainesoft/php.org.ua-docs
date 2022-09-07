@@ -1,92 +1,105 @@
-- [« mysqli_result::data_seek](mysqli-result.data-seek.md)
-- [mysqli_result::fetch_array »](mysqli-result.fetch-array.md)
+---
+navigation:
+  - mysqli-result.data-seek.md: '« mysqliresult::dataseek'
+  - mysqli-result.fetch-array.md: 'mysqliresult::fetcharray »'
+  - index.md: PHP Manual
+  - class.mysqli-result.md: mysqliresult
+title: 'mysqliresult::fetchall'
+---
+# mysqliresult::fetchall
 
-- [PHP Manual](index.md)
-- [mysqli_result](class.mysqli-result.md)
-- Вибирає всі рядки з результуючого набору та поміщає їх у
-асоціативний масив, звичайний масив або обидва
+# mysqlifetchall
 
-# mysqli_result::fetch_all
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# mysqli_fetch_all
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-mysqli_result::fetch_all -- mysqli_fetch_all — Вибирає всі рядки з
-результуючого набору та поміщає їх в асоціативний масив, звичайний
-масив або в обидва
+mysqliresult::fetchall - mysqlifetchall - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_result::fetch_all**(int `$mode` = **`MYSQLI_NUM`**):
-array
+```methodsynopsis
+public mysqli_result::fetch_all(int $mode = MYSQLI_NUM): array
+```
 
 Процедурний стиль
 
-**mysqli_fetch_all**([mysqli_result](class.mysqli-result.md)
-`$result`, int `$mode` = **`MYSQLI_NUM`**): array
+```methodsynopsis
+mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
+```
 
-Повертає двовимірний масив всіх рядків результатів у вигляді асоціативного
-масиву, числового масиву або обох.
+Повертає двовимірний масив всіх рядків результатів у вигляді асоціативного масиву, числового масиву або обох.
 
-> **Примітка**:
->
-> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md).
+> **Зауваження**
+> 
+> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `result`
-Тільки для процедурного стилю: об'єкт
-[mysqli_result](class.mysqli-result.md), отриманий за допомогою
-[mysqli_query()](mysqli.query.md),
-[mysqli_store_result()](mysqli.store-result.md),
-[mysqli_use_result()](mysqli.use-result.md) або
-[mysqli_stmt_get_result()](mysqli-stmt.get-result.md).
+
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `mode`
-Цей необов'язковий параметр набуває значення константи, яка
-вказує на тип масиву, який потрібно помістити дані.
-Можливі значення параметра: **`MYSQLI_ASSOC`**, **`MYSQLI_NUM`** або
-**`MYSQLI_BOTH`**.
+
+Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`** або **`MYSQLI_BOTH`**
 
 ### Значення, що повертаються
 
-Повертає масив, що містить асоціативні або звичайні масиви з даними
-результуючої таблиці.
+Повертає масив, що містить асоціативні або звичайні масиви з даними результуючої таблиці.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                |
-|--------|-----------------------------------------------------|
-| 8.1.0  | Тепер також доступно при збиранні з libmysqlclient. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli_result::fetch_all()****
+**Приклад #1 Приклад використання **mysqliresult::fetchall()****
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysql BY ID LIMIT 3");$rows = $result->fetch_all(MYSQLI_ASSOC);foreach ($rows as $row) {    printf("%s (%s)
-", $row["Name"], $row["CountryCode"]);} `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$result = $mysqli->query("SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+
+$rows = $result->fetch_all(MYSQLI_ASSOC);
+foreach ($rows as $row) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+}
+```
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$result = mysqli_query  LIMIT 3");$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);foreach ($rows as $row) {    printf("%s (%s)
-", $row["Name"], $row["CountryCode"]);} `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$result = mysqli_query($mysqli, "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+
+$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
+foreach ($rows as $row) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+}
+```
 
 Результат виконання даних прикладів:
 
+```
 Kabul (AFG)
-Кандахар (AFG)
+Qandahar (AFG)
 Herat (AFG)
+```
 
 ### Дивіться також
 
-- [mysqli_fetch_array()](mysqli-result.fetch-array.md) - Вибирає
-наступний рядок з набору результатів та поміщає її в асоціативний
-масив, звичайний масив або в обидва
-- [mysqli_fetch_column()](mysqli-result.fetch-column.md) - Отримує
-один стовпець з наступного рядка набору результатів
-- [mysqli_query()](mysqli.query.md) - Виконує запит до бази даних
+-   [mysqlifetcharray()](mysqli-result.fetch-array.md) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.md) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних

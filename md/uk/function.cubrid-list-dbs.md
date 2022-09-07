@@ -1,42 +1,57 @@
-- [«cubrid_field_type](function.cubrid-field-type.md)
-- [cubrid_num_fields »](function.cubrid-num-fields.md)
+---
+navigation:
+  - function.cubrid-field-type.md: « cubridfieldtype
+  - function.cubrid-num-fields.md: cubridnumfields »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridlistdbs
+---
+# cubridlistdbs
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Отримати масив зі списком усіх баз даних CUBRID
+(PECL CUBRID >= 8.3.0)
 
-#cubrid_list_dbs
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_list_dbs — Отримати масив зі списком усіх баз даних CUBRID
+cubridlistdbs — Отримати масив зі списком усіх баз даних CUBRID
 
 ### Опис
 
-**cubrid_list_dbs**(resource `$conn_identifier` = ?): array
+```methodsynopsis
+cubrid_list_dbs(resource $conn_identifier = ?): array
+```
 
 Функція повертає масив зі списком усіх баз даних CUBRID
 
 ### Список параметрів
 
 `conn_identifier`
-The CUBRID connection.
+
+CUBRID connection.
 
 ### Значення, що повертаються
 
-Індексований масив із списком баз даних.
+Індексований масив зі списком баз даних.
 
 **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_list_dbs()****
+**Приклад #1 Приклад використання **cubridlistdbs()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$db_list = cubrid_list_dbs($conn);var_dump($db_list);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+
+$db_list = cubrid_list_dbs($conn);
+var_dump($db_list);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(1) {
-[0]=>
-string(6) "demodb"
+  [0]=>
+  string(6) "demodb"
 }
+```

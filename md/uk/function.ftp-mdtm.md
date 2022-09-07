@@ -1,52 +1,80 @@
-- [«ftp_login](function.ftp-login.md)
-- [ftp_mkdir »](function.ftp-mkdir.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Повертає час останньої модифікації файлу
-
-#ftp_mdtm
+---
+navigation:
+  - function.ftp-login.md: « ftplogin
+  - function.ftp-mkdir.md: ftpmkdir »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpmdtm
+---
+# ftpmdtm
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_mdtm — Повертає час останньої модифікації файлу
+ftpmdtm — Повертає час останньої модифікації файлу
 
 ### Опис
 
-**ftp_mdtm**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$filename`): int
+```methodsynopsis
+ftp_mdtm(FTP\Connection $ftp, string $filename): int
+```
 
-**ftp_mdtm()** повертає час останньої модифікації віддаленого файлу.
+**ftpmdtm()** повертає час останньої модифікації віддаленого файлу.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Не всі сервери підтримують цю функцію!
 
-> **Примітка**:
->
-> **ftp_mdtm()** не працює з директоріями.
+> **Зауваження**
+> 
+> **ftpmdtm()** не працює із директоріями.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `filename`
+
 Файл, час модифікації якого потрібно отримати.
 
 ### Значення, що повертаються
 
-Повертає час останньої модифікації у вигляді *локальної* тимчасової мітки
-Unix або -1 у разі виникнення помилки.
+Повертає час останньої модифікації у вигляді *локальною* тимчасової мітки Unix або -1 у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_mdtm()****
+**Приклад #1 Приклад використання **ftpmdtm()****
 
-` <?php$file = 'somefile.txt';// установка з'єднання$ftp = ftp_connect($ftp_server); /  отримання часу модифікації файла$buff = ftp_mdtm($ftp, $file);if ($buff != -1) {    // дата останньої модифікації so4: t:2 echo "Дата останньої модифікації $file : " . date("F d Y H:i:s.", $buff);} else {   echo "Не удалося виконати mdtime";}// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+
+$file = 'somefile.txt';
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+//  получение времени модификации файла
+$buff = ftp_mdtm($ftp, $file);
+
+if ($buff != -1) {
+    // дата последней модификации somefile.txt : March 26 2003 14:16:41.
+    echo "Дата последней модификации $file : " . date("F d Y H:i:s.", $buff);
+} else {
+    echo "Не удалось выполнить mdtime";
+}
+
+// закрытие соединения
+ftp_close($ftp);
+
+?>
+```

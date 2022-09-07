@@ -1,25 +1,30 @@
-- [«uopz_del_function](function.uopz-del-function.md)
-- [uopz_extend »](function.uopz-extend.md)
-
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Видалити функцію
-
-#uopz_delete
+---
+navigation:
+  - function.uopz-del-function.md: « uopzdelfunction
+  - function.uopz-extend.md: uopzextend »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzdelete
+---
+# uopzdelete
 
 (PECL uopz 1, PECL uopz 2)
 
-uopz_delete — Видалити функцію
+uopzdelete — Видалити функцію
 
 **Увага**
 
-Ця функція була *Видалена* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
 
 ### Опис
 
-**uopz_delete**(string `$function`): void
+```methodsynopsis
+uopz_delete(string $function): void
+```
 
-**uopz_delete**(string `$class`, string `$function`): void
+```methodsynopsis
+uopz_delete(string $class, string $function): void
+```
 
 Видаляє функцію або метод
 
@@ -33,18 +38,40 @@ uopz_delete — Видалити функцію
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_delete()****
+**Приклад #1 Приклад використання **uopzdelete()****
 
-` <?phpuopz_delete("strlen");echo strlen("Hello World");?> `
+```php
+<?php
+uopz_delete("strlen");
 
-Результатом виконання цього прикладу буде щось подібне:
-
-PHP Fatal error: Call до undefined function strlen() in /path/to/script.php on line 4
-
-**Приклад #2 Приклад використання **uopz_delete()** з класом**
-
-`<?phpclass My {    public static function strlen($arg) {        return strlen($arg); }}uopz_delete(My::class, "strlen");echo My::strlen("Hello World");?> `
+echo strlen("Hello World");
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-PHP Fatal error: Call до undefined method My::strlen() in /path/to/script.php on line 10
+```
+PHP Fatal error: Call to undefined function strlen() in /path/to/script.php on line 4
+```
+
+**Приклад #2 Приклад використання **uopzdelete()** з класом**
+
+```php
+<?php
+class My {
+    public static function strlen($arg) {
+        return strlen($arg);
+    }
+}
+
+uopz_delete(My::class, "strlen");
+
+echo My::strlen("Hello World");
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+PHP Fatal error: Call to undefined method My::strlen() in /path/to/script.php on line 10
+```

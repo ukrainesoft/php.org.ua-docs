@@ -1,10 +1,11 @@
-- [« ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md)
-- [ReflectionClass::getEndLine »](reflectionclass.getendline.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає doc-блоки коментарів
-
+---
+navigation:
+  - reflectionclass.getdefaultproperties.md: '« ReflectionClass::getDefaultProperties'
+  - reflectionclass.getendline.md: 'ReflectionClass::getEndLine »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getDocComment'
+---
 # ReflectionClass::getDocComment
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,11 +14,11 @@ ReflectionClass::getDocComment — Повертає doc-блоки комент�
 
 ### Опис
 
-public **ReflectionClass::getDocComment**(): string\|false
+```methodsynopsis
+public ReflectionClass::getDocComment(): string|false
+```
 
-Повертає doc-блоки із коментарів класу. Doc-блок - це коментар
-що починається з /\*\*. Якщо над декларацією класу є кілька
-doc-блоків, то буде повернено найближчий до декларації.
+Повертає doc-блоки із коментарів класу. Doc-блок - це коментар, що починається з /. Якщо над декларацією класу є кілька doc-блоків, то буде повернено найближчий до декларації.
 
 ### Список параметрів
 
@@ -25,25 +26,38 @@ doc-блоків, то буде повернено найближчий до д�
 
 ### Значення, що повертаються
 
-doc-блок коментарів, якщо він існує, інакше
-**`false`**.
+doc-блок коментарів, якщо він існує, інакше **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::getDocComment()****
 
-` <?php/*** Тестовий клас** @param  foo bar* @return baz*/class TestClass { }$rc = new ReflectionClass('TestClass');var_dump($rc->getDocComment()); `
+```php
+<?php
+/**
+* Тестовый класс
+*
+* @param  foo bar
+* @return baz
+*/
+class TestClass { }
+
+$rc = new ReflectionClass('TestClass');
+var_dump($rc->getDocComment());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(55) "/**
-* Тестовий клас
+* Тестовый класс
 *
-* @param foo bar
+* @param  foo bar
 * @return baz
 */"
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getName()](reflectionclass.getname.md) -
-Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу

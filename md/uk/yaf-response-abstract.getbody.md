@@ -1,61 +1,71 @@
-- [« Yaf_Response_Abstract::\_\_destruct](yaf-response-abstract.destruct.md)
-- [Yaf_Response_Abstract::getHeader »](yaf-response-abstract.getheader.md)
+---
+navigation:
+  - yaf-response-abstract.destruct.md: '« YafResponseAbstract::destruct'
+  - yaf-response-abstract.getheader.md: 'YafResponseAbstract::getHeader »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
+title: 'YafResponseAbstract::getBody'
+---
+# YafResponseAbstract::getBody
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- Отримує існуючий вміст
+(Yaf >=1.0.0)
 
-# Yaf_Response_Abstract::getBody
-
-(Yaf \>=1.0.0)
-
-Yaf_Response_Abstract::getBody — Отримує існуючий вміст
+YafResponseAbstract::getBody — Отримує існуючий вміст
 
 ### Опис
 
-public **Yaf_Response_Abstract::getBody**(string `$key` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Yaf_Response_Abstract::getBody(string $key = ?): mixed
+```
 
 Отримує існуючий вміст
 
 ### Список параметрів
 
 `key`
-Ключ вмісту, якщо ви не вкажете, буде використовуватися
-Yaf_Response_Abstract::DEFAULT_BODY. Якщо ви передасте **`null`**,
-тоді весь вміст буде повернено як масив
 
-> **Примітка**:
->
+Ключ вмісту, якщо ви не вкажете, використовуватиметься YafResponseAbstract::DEFAULTBODY. Якщо ви передасте \*\*`null`\*\*тоді весь вміст буде повернуто як масив
+
+> **Зауваження**
+> 
 > Параметр було додано з 2.2.0
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Response_Abstract::getBody()****
+**Приклад #1 Приклад використання **YafResponseAbstract::getBody()****
 
-` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");var_dump($response->getBody()); //за умовчанням var_dump($response->getBody(Yaf_Response_Abstract::DEFAULT_BODY)); //так ж, як і вище var_dump($response->getBody("footer"));var_dump($response->getBody(NULL)); //отримати все?> `
+```php
+<?php
+$response = new Yaf_Response_Http();
+
+$response->setBody("Привет")->setBody(", Мир", "footer");
+
+var_dump($response->getBody()); //по умолчанию
+var_dump($response->getBody(Yaf_Response_Abstract::DEFAULT_BODY)); //так же, как и выше
+var_dump($response->getBody("footer"));
+var_dump($response->getBody(NULL)); //получить все
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(5) "Привіт"
-string(5) "Привіт"
-string(6) ", Світ"
+```
+string(5) "Привет"
+string(5) "Привет"
+string(6) ", Мир"
 array(2) {
-["content"]=>
-string(5) "Привіт"
-["footer"]=>
-string(6) ", Світ"
+  ["content"]=>
+  string(5) "Привет"
+  ["footer"]=>
+  string(6) ", Мир"
 }
+```
 
 ### Дивіться також
 
-- [Yaf_Response_Abstract::setBody()](yaf-response-abstract.setbody.md) -
-Встановлює вміст відповіді
-- [Yaf_Response_Abstract::appendBody()](yaf-response-abstract.appendbody.md) -
-Додає вміст до тіла відповіді
-- [Yaf_Response_Abstract::prependBody()](yaf-response-abstract.prependbody.md) -
-Призначення prependBody
-- [Yaf_Response_Abstract::clearBody()](yaf-response-abstract.clearbody.md) -
-Скидає все існуюче тіло відповіді
+-   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.md) - Встановлює вміст відповіді
+-   [YafResponseAbstract::appendBody()](yaf-response-abstract.appendbody.md) - Додає вміст до тіла відповіді
+-   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.md) - Призначення prependBody
+-   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.md) - скидає все існуюче тіло відповіді

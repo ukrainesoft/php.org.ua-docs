@@ -1,40 +1,36 @@
-- [« pcntl_wexitstatus](function.pcntl-wexitstatus.md)
-- [pcntl_wifsignaled »](function.pcntl-wifsignaled.md)
+---
+navigation:
+  - function.pcntl-wexitstatus.md: pcntlwexitstatus
+  - function.pcntl-wifsignaled.md: pcntlwifsignaled »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwifexited
+---
+# pcntlwifexited
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Перевіряє, чи код завершення процесу відповідає нормальному
-завершенню
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-#pcntl_wifexited
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-pcntl_wifexited — Перевіряє, чи код завершення процесу відповідає
-нормальному завершенню
+pcntlwifexited — Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
 
 ### Опис
 
-**pcntl_wifexited**(int `$status`): bool
+```methodsynopsis
+pcntl_wifexited(int $status): bool
+```
 
-Перевіряє, чи відповідає код завершення процесу нормальному
-завершення.
+Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
 
 ### Список параметрів
 
 `status`
-Параметр `status` - це параметр статусу, який передається для успішного
-виклик функції [pcntl_waitpid()](function.pcntl-waitpid.md).
+
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо код завершення дочірнього процесу
-відповідає нормальному завершенню. Якщо ні, то повертає
-**`false`**.
+Повертає \*\*`true`\*\*якщо код завершення дочірнього процесу відповідає нормальному завершенню. Якщо ні, то повертає **`false`**
 
 ### Дивіться також
 
-- [pcntl_waitpid()](function.pcntl-waitpid.md) - Очікує або
-повертає статус породженого дочірнього процесу
-- [pcntl_wexitstatus()](function.pcntl-wexitstatus.md) - Отримати
-код повернення завершеного дочірнього процесу
+-   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlwexitstatus()](function.pcntl-wexitstatus.md) - Отримати код повернення завершеного дочірнього процесу

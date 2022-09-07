@@ -1,29 +1,31 @@
-- [« GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.md)
-- [GmagickDraw::settextencoding »](gmagickdraw.settextencoding.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- визначає оформлення
-
+---
+navigation:
+  - gmagickdraw.setstrokewidth.md: '« GmagickDraw::setstrokewidth'
+  - gmagickdraw.settextencoding.md: 'GmagickDraw::settextencoding »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::settextdecoration'
+---
 # GmagickDraw::settextdecoration
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::settextdecoration — Визначає оформлення
 
 ### Опис
 
-public **GmagickDraw::settextdecoration**(int `$decoration`):
-[GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::settextdecoration(int $decoration): GmagickDraw
+```
 
 Задає оформлення, яке застосовуватиметься при анотуванні текстом.
 
 ### Список параметрів
 
 `int`
-Оформлення тексту. Одне з таких значень: NoDecoration,
-UnderlineDecoration, OverlineDecoration або LineThroughDecoration.
+
+Оформлення тексту. Одне з таких значень: NoDecoration, UnderlineDecoration, OverlineDecoration або LineThroughDecoration.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.md)

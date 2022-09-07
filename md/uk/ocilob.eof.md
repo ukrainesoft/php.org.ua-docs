@@ -1,19 +1,22 @@
-- [« OCILob::close](ocilob.close.md)
-- [OCILob::erase »](ocilob.erase.md)
-
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта
-
+---
+navigation:
+  - ocilob.close.md: '« OCILob::close'
+  - ocilob.erase.md: 'OCILob::erase »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::eof'
+---
 # OCILob::eof
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-OCILob::eof — Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта
+OCILob::eof — Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
 
 ### Опис
 
-public **OCILob::eof**(): bool
+```methodsynopsis
+public OCILob::eof(): bool
+```
 
 Повідомляє про досягнення внутрішнім покажчиком кінця об'єкта LOB.
 
@@ -23,22 +26,20 @@ public **OCILob::eof**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо внутрішній покажчик об'єкта знаходиться на
-наприкінці LOB. Інакше повертає "false".
+Повертає \*\*`true`\*\*якщо внутрішній покажчик об'єкта знаходиться на кінці LOB. Інакше повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція повертає Oracle помилку у разі, якщо
-> [OCILob::setBuffering](ocilob.setbuffering.md) увімкнено для LOB.
+> **Зауваження**
+> 
+> Функція повертає Oracle помилку у разі, якщо [OCILob::setBuffering](ocilob.setbuffering.md) включено для LOB.
 
 ### Дивіться також
 
-- [OCILob::size](ocilob.size.md)
+-   [OCILob::size](ocilob.size.md)

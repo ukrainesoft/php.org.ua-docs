@@ -1,19 +1,22 @@
-- [« MongoDB\Driver\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.md)
-- [MongoDB\Driver\ServerApi::unserialize »](mongodb-driver-serverapi.unserialize.md)
+---
+navigation:
+  - mongodb-driver-serverapi.construct.md: '« MongoDBDriverServerApi::construct'
+  - mongodb-driver-serverapi.unserialize.md: 'MongoDBDriverServerApi::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi
+title: 'MongoDBDriverServerApi::serialize'
+---
+# MongoDBDriverServerApi::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)
-- Серіалізує ServerApi
+(mongodb >=1.10.0)
 
-# MongoDB\Driver\ServerApi::serialize
-
-(mongodb \>=1.10.0)
-
-MongoDB\Driver\ServerApi::serialize — Серіалізує ServerApi
+MongoDBDriverServerApi::serialize — Серіалізує ServerApi
 
 ### Опис
 
-final public **MongoDB\Driver\ServerApi::serialize**(): string
+```methodsynopsis
+final public MongoDB\Driver\ServerApi::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\Driver\ServerApi::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md).
+Повертає серіалізовану виставу [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\ServerApi::unserialize()](mongodb-driver-serverapi.unserialize.md) -
-Десеріалізує ServerApi
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBDriverServerApi::unserialize()](mongodb-driver-serverapi.unserialize.md) - Десеріалізує ServerApi
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

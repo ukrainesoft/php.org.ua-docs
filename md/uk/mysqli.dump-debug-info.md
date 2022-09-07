@@ -1,45 +1,45 @@
-- [« mysqli::debug](mysqli.debug.md)
-- [mysqli::$errno »](mysqli.errno.md)
+---
+navigation:
+  - mysqli.debug.md: '« mysqli::debug'
+  - mysqli.errno.md: 'mysqli::$errno »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::dumpdebuginfo'
+---
+# mysqli::dumpdebuginfo
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Журналування налагоджувальної інформації
-
-# mysqli::dump_debug_info
-
-# mysqli_dump_debug_info
+# mysqlidumpdebuginfo
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::dump_debug_info -- mysqli_dump_debug_info -- Журнал
-налагоджувальної інформації
+mysqli::dumpdebuginfo -- mysqlidumpdebuginfo — Журналування налагоджувальної інформації
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::dump_debug_info**(): bool
+```methodsynopsis
+public mysqli::dump_debug_info(): bool
+```
 
 Процедурний стиль
 
-**mysqli_dump_debug_info**([mysqli](class.mysqli.md) `$mysql`): bool
+```methodsynopsis
+mysqli_dump_debug_info(mysqli $mysql): bool
+```
 
-Функція розроблена для запуску від імені користувача з привілеями
-SUPER і використовується для складання налагоджувальної інформації в журнал сервера
-MySQL, до якого здійснено підключення.
+Функція розроблена для запуску від імені користувача з привілеями SUPER і використовується для складання налагоджувальної інформації в журнал сервера MySQL, до якого здійснено підключення.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [mysqli_debug()](mysqli.debug.md) - Виконує процедури налагодження
+-   [mysqlidebug()](mysqli.debug.md) - Виконує процедури налагодження

@@ -1,165 +1,155 @@
-- [« DOMChildNode::replaceWith](domchildnode.replacewith.md)
-- [DOMComment::\_\_construct »](domcomment.construct.md)
-
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMComment
-
+---
+navigation:
+  - domchildnode.replacewith.md: '« DOMChildNode::replaceWith'
+  - domcomment.construct.md: 'DOMComment::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMComment
+---
 # Клас DOMComment
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Представляє вузли коментарів, символи, позначені `<!--` та `-->`.
+Представляє вузли коментарів, символи, позначені `<!--` і `-->`
 
 ## Огляд класів
 
-class **DOMComment** extends
-[DOMCharacterData](class.domcharacterdata.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-public string `$data`;
+    
+     
+      class DOMComment
+     
 
-public readonly int `$length`;
+     
+      extends
+       DOMCharacterData
+     
+     {
 
-public readonly ?[DOMElement](class.domelement.md)
-`$previousElementSibling`;
-
-public readonly ?[DOMElement](class.domelement.md)
-`$nextElementSibling`;
-
-public readonly string `$nodeName`;
-
-public ?string `$nodeValue`;
-
-public readonly int `$nodeType`;
-
-public readonly ?[DOMNode](class.domnode.md) `$parentNode`;
-
-public readonly [DOMNodeList](class.domnodelist.md) `$childNodes`;
-
-public readonly ?[DOMNode](class.domnode.md) `$firstChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$lastChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$previousSibling`;
-
-public readonly ?[DOMNode](class.domnode.md) `$nextSibling`;
-
-public readonly ?[DOMNamedNodeMap](class.domnamednodemap.md)
-`$attributes`;
-
-public readonly ?[DOMDocument](class.domdocument.md) `$ownerDocument`;
-
-public readonly ?string `$namespaceURI`;
-
-public string `$prefix`;
-
-public readonly ?string `$localName`;
-
-public readonly ?string `$baseURI`;
-
-public string `$textContent`;
-
-/\* Методи \*/
-
-public [\_\_construct](domcomment.construct.md)(string `$data` = "")
-
-/\* Наслідувані методи \*/
-
+    /* Наследуемые свойства */
+    
+     public
+     string
+      $data;
 public
-[DOMCharacterData::appendData](domcharacterdata.appenddata.md)(string
-`$data`): bool
-
+     readonly
+     int
+      $length;
 public
-[DOMCharacterData::deleteData](domcharacterdata.deletedata.md)(int
-`$offset`, int `$count`): bool
-
+     readonly
+     ?DOMElement
+      $previousElementSibling;
 public
-[DOMCharacterData::insertData](domcharacterdata.insertdata.md)(int
-`$offset`, string `$data`): bool
+     readonly
+     ?DOMElement
+      $nextElementSibling;
 
+    public
+     readonly
+     string
+      $nodeName;
 public
-[DOMCharacterData::replaceData](domcharacterdata.replacedata.md)(int
-`$offset`, int `$count`, string `$data`): bool
-
+     ?string
+      $nodeValue;
 public
-[DOMCharacterData::substringData](domcharacterdata.substringdata.md)(int
-`$offset`, int `$count`): string\|false
-
+     readonly
+     int
+      $nodeType;
 public
-[DOMNode::appendChild](domnode.appendchild.md)([DOMNode](class.domnode.md)
-`$node`): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): string\|false
-
-public [DOMNode::C14NFile](domnode.c14nfile.md)(
-string `$uri`,
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): int\|false
-
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
-**`false`**): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::getLineNo](domnode.getlineno.md)(): int
-
-public [DOMNode::getNodePath](domnode.getnodepath.md)(): ?string
-
-public [DOMNode::hasAttributes](domnode.hasattributes.md)(): bool
-
-public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
-
+     readonly
+     ?DOMNode
+      $parentNode;
 public
-[DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
-[DOMNode](class.domnode.md)\|false
-
+     readonly
+     DOMNodeList
+      $childNodes;
 public
-[DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md)(string
-`$namespace`): bool
-
+     readonly
+     ?DOMNode
+      $firstChild;
 public
-[DOMNode::isSameNode](domnode.issamenode.md)([DOMNode](class.domnode.md)
-`$otherNode`): bool
-
-public [DOMNode::isSupported](domnode.issupported.md)(string
-`$feature`, string `$version`): bool
-
+     readonly
+     ?DOMNode
+      $lastChild;
 public
-[DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md)(string
-`$prefix`): string
-
-public [DOMNode::lookupPrefix](domnode.lookupprefix.md)(string
-`$namespace`): ?string
-
-public [DOMNode::normalize](domnode.normalize.md)(): void
-
+     readonly
+     ?DOMNode
+      $previousSibling;
 public
-[DOMNode::removeChild](domnode.removechild.md)([DOMNode](class.domnode.md)
-`$child`): [DOMNode](class.domnode.md)\|false
-
+     readonly
+     ?DOMNode
+      $nextSibling;
 public
-[DOMNode::replaceChild](domnode.replacechild.md)([DOMNode](class.domnode.md)
-`$node`, [DOMNode](class.domnode.md) `$child`):
-[DOMNode](class.domnode.md)\|false
+     readonly
+     ?DOMNamedNodeMap
+      $attributes;
+public
+     readonly
+     ?DOMDocument
+      $ownerDocument;
+public
+     readonly
+     ?string
+      $namespaceURI;
+public
+     string
+      $prefix;
+public
+     readonly
+     ?string
+      $localName;
+public
+     readonly
+     ?string
+      $baseURI;
+public
+     string
+      $textContent;
 
-}
+
+    /* Методы */
+    
+   public __construct(string $data = "")
+
+
+    /* Наследуемые методы */
+    public DOMCharacterData::appendData(string $data): bool
+public DOMCharacterData::deleteData(int $offset, int $count): bool
+public DOMCharacterData::insertData(int $offset, string $data): bool
+public DOMCharacterData::replaceData(int $offset, int $count, string $data): bool
+public DOMCharacterData::substringData(int $offset, int $count): string|false
+
+    public DOMNode::appendChild(DOMNode $node): DOMNode|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::cloneNode(bool $deep = false): DOMNode|false
+public DOMNode::getLineNo(): int
+public DOMNode::getNodePath(): ?string
+public DOMNode::hasAttributes(): bool
+public DOMNode::hasChildNodes(): bool
+public DOMNode::insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|false
+public DOMNode::isDefaultNamespace(string $namespace): bool
+public DOMNode::isSameNode(DOMNode $otherNode): bool
+public DOMNode::isSupported(string $feature, string $version): bool
+public DOMNode::lookupNamespaceUri(string $prefix): string
+public DOMNode::lookupPrefix(string $namespace): ?string
+public DOMNode::normalize(): void
+public DOMNode::removeChild(DOMNode $child): DOMNode|false
+public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
+
+   }
+```
 
 ## Дивіться також
 
-- [» Специфікація W3C коментарів](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1728279322)
+-   [» Спецификация W3C комментариев](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1728279322)
 
 ## Зміст
 
-- [DOMComment::\_\_construct](domcomment.construct.md) — Створює
-новий екземпляр класу DOMComment
+-   [DOMComment::construct](domcomment.construct.md) — Створює новий екземпляр класу DOMComment

@@ -1,10 +1,11 @@
-- [«chroot](function.chroot.md)
-- [dir »](function.dir.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з каталогами](ref.dir.md)
-- Закриває дескриптор каталогу
-
+---
+navigation:
+  - function.chroot.md: « chroot
+  - function.dir.md: dir »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
+title: closedir
+---
 # closedir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,19 +14,17 @@ closedir — Закриває дескриптор каталогу
 
 ### Опис
 
-**closedir**(?resource `$dir_handle` = **`null`**): void
+```methodsynopsis
+closedir(?resource $dir_handle = null): void
+```
 
-Закриває потік, пов'язаний з каталогом і переданий як параметр
-`dir_handle`. Перед використанням цієї функції потік повинен бути
-відкрито за допомогою функції [opendir()](function.opendir.md).
+Закриває потік, пов'язаний з каталогом і переданий як параметр `dir_handle`. Перед використанням цієї функції потік повинен бути відкритий за допомогою функції [opendir()](function.opendir.md)
 
 ### Список параметрів
 
 `dir_handle`
-Дескриптор каталогу (resource), раніше відкритий за допомогою
-[opendir()](function.opendir.md). Якщо дескриптор каталогу не вказано,
-використовується останній дескриптор, відкритий функцією
-[opendir()](function.opendir.md).
+
+Дескриптор каталогу (resource), раніше відкритий за допомогою [opendir()](function.opendir.md). Якщо дескриптор каталогу не вказано, використовується останній дескриптор, відкритий функцією [opendir()](function.opendir.md)
 
 ### Значення, що повертаються
 
@@ -35,4 +34,16 @@ closedir — Закриває дескриптор каталогу
 
 **Приклад #1 Приклад використання **closedir()****
 
-`<?php$dir = "/etc/php5/";// Відкриваємо відому директорію, читаємо її в змінну і закриваємоif (is_dir($dir)) {    if ($dh    readdir($dh); closedir($dh); }}?> `
+```php
+<?php
+$dir = "/etc/php5/";
+
+// Открываем известную директорию, читаем её в переменную и закрываем
+if (is_dir($dir)) {
+    if ($dh = opendir($dir)) {
+        $directory = readdir($dh);
+        closedir($dh);
+    }
+}
+?>
+```

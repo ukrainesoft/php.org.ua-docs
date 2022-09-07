@@ -1,23 +1,27 @@
-- [«UI\Controls\Combo](class.ui-controls-combo.md)
-- [UI\Controls\Combo::getSelected »](ui-controls-combo.getselected.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Combo](class.ui-controls-combo.md)
-- Додати опцію
-
-# UI\Controls\Combo::append
+---
+navigation:
+  - class.ui-controls-combo.md: « UIControlsCombo
+  - ui-controls-combo.getselected.md: 'ОЙControlsCombo::getSelected »'
+  - index.md: PHP Manual
+  - class.ui-controls-combo.md: ОЙControlsCombo
+title: 'ОЙControlsCombo::append'
+---
+# ОЙControlsCombo::append
 
 (UI 0.9.9)
 
-UI\Controls\Combo::append — Додати опцію
+ОЙControlsCombo::append — Додати опцію
 
 ### Опис
 
-public **UI\Controls\Combo::append**(string `$text`)
+```methodsynopsis
+public UI\Controls\Combo::append(string $text)
+```
 
 Додати опцію до даного елементу "Комбо"
 
 ### Список параметрів
 
 `text`
+
 Текст для нової опції

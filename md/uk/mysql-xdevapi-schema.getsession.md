@@ -1,10 +1,11 @@
-- [« Schema::getName](mysql-xdevapi-schema.getname.md)
-- [Schema::getTable »](mysql-xdevapi-schema.gettable.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- Отримати сесію схеми
-
+---
+navigation:
+  - mysql-xdevapi-schema.getname.md: '« Schema::getName'
+  - mysql-xdevapi-schema.gettable.md: 'Schema::getTable »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+title: 'Schema::getSession'
+---
 # Schema::getSession
 
 (No version information available, might only be in Git)
@@ -13,8 +14,9 @@ Schema::getSession — Отримати сесію схеми
 
 ### Опис
 
-public **mysql_xdevapi\Schema::getSession**():
-[mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
+```methodsynopsis
+public mysql_xdevapi\Schema::getSession(): mysql_xdevapi\Session
+```
 
 Отримання нового об'єкта Session із Schema.
 
@@ -28,15 +30,31 @@ public **mysql_xdevapi\Schema::getSession**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Schema::getSession()****
+**Приклад #1 Приклад використання **mysqlxdevapiSchema::getSession()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");// ...$newsession==$schema->getSession();var_dump($session);var_ump $newsession);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema  = $session->getSchema("addressbook");
+
+// ...
+
+$newsession = $schema->getSession();
+
+var_dump($session);
+var_dump($newsession);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(mysql_xdevapi\Session)#1 (0) {
 }
 
 object(mysql_xdevapi\Session)#3 (0) {
 }
+```

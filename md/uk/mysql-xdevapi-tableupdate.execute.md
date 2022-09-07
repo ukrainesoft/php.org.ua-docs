@@ -1,10 +1,11 @@
-- [« TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.md)
-- [TableUpdate::limit »](mysql-xdevapi-tableupdate.limit.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
-- Виконує запит на оновлення
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.construct.md: '« TableUpdate::construct'
+  - mysql-xdevapi-tableupdate.limit.md: 'TableUpdate::limit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+title: 'TableUpdate::execute'
+---
 # TableUpdate::execute
 
 (No version information available, might only be in Git)
@@ -13,8 +14,9 @@ TableUpdate::execute — Виконує запит на оновлення
 
 ### Опис
 
-public **mysql_xdevapi\TableUpdate::execute**():
-[mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
+```methodsynopsis
+public mysql_xdevapi\TableUpdate::execute(): mysql_xdevapi\TableUpdate
+```
 
 Виконує затвердження оновлення.
 
@@ -28,7 +30,21 @@ public **mysql_xdevapi\TableUpdate::execute**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableUpdate::execute()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::execute()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$res = $table->update()  ->set('level', 3) ->where('age > 15 and age < 22') ->limit(4) --orderby(['age asc ','name desc'])  ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$res = $table->update()
+  ->set('level', 3)
+  ->where('age > 15 and age < 22')
+  ->limit(4)
+  ->orderby(['age asc','name desc'])
+  ->execute();
+
+?>
+```

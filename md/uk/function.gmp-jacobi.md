@@ -1,33 +1,34 @@
-- [«gmp_invert](function.gmp-invert.md)
-- [gmp_kronecker »](function.gmp-kronecker.md)
+---
+navigation:
+  - function.gmp-invert.md: « gmpinvert
+  - function.gmp-kronecker.md: gmpkronecker »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpjacobi
+---
+# gmpjacobi
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Символ Якобі
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-# gmp_jacobi
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-gmp_jacobi — Символ Якобі
+gmpjacobi — Символ Якобі
 
 ### Опис
 
-**gmp_jacobi**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): int
+```methodsynopsis
+gmp_jacobi(GMP|int|string $num1, GMP|int|string $num2): int
+```
 
-Обчислює [» Символ Якобі](http://primes.utm.edu/glossary/page.php?sort=JacobiSymbol) для
-чисел `num1` та `num2`. `num2` має бути позитивним та непарним.
+Обчислює [» Символ Якоби](http://primes.utm.edu/glossary/page.php?sort=JacobiSymbol) для чисел `num1` і `num2`. . `num2` має бути позитивним та непарним.
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 Має бути позитивним і непарним.
 
@@ -37,19 +38,23 @@ gmp_jacobi — Символ Якобі
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_jacobi()****
+**Приклад #1 Приклад використання **gmpjacobi()****
 
-`<?phpecho gmp_jacobi("1", "3") . "
-";echo gmp_jacobi("2", "3") . "
-";?> `
+```php
+<?php
+echo gmp_jacobi("1", "3") . "\n";
+echo gmp_jacobi("2", "3") . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1
-    0
+0
+```
 
 ### Дивіться також
 
-- [gmp_kronecker()](function.gmp-kronecker.md) - Символ Кронекера
-Якобі
-- [gmp_legendre()](function.gmp-legendre.md) - Символ Лежандра
+-   [gmpkronecker()](function.gmp-kronecker.md) - Символ Кронекера - Якобі
+-   [gmplegendre()](function.gmp-legendre.md) - Символ Лежандра

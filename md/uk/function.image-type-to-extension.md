@@ -1,45 +1,56 @@
-- [«getimagesizefromstring](function.getimagesizefromstring.md)
-- [image_type_to_mime_type »](function.image-type-to-mime-type.md)
+---
+navigation:
+  - function.getimagesizefromstring.md: « getimagesizefromstring
+  - function.image-type-to-mime-type.md: imagetypeтоmimetype »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagetypeтоextension
+---
+# imagetypeтоextension
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Отримання розширення файлу для типу зображення
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-#image_type_to_extension
-
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
-
-image_type_to_extension — отримання розширення файлу для типу
-зображення
+imagetypeтоextension — отримання розширення файлу для типу зображення
 
 ### Опис
 
-**image_type_to_extension**(int `$image_type`, bool `$include_dot` =
-**`true`**): string\|false
+```methodsynopsis
+image_type_to_extension(int $image_type, bool $include_dot = true): string|false
+```
 
 Повертає розширення файлу для заданої `IMAGETYPE_XXX` константи.
 
 ### Список параметрів
 
 `image_type`
-Одна із констант `IMAGETYPE_XXX`.
+
+Одна з констант `IMAGETYPE_XXX`
 
 `include_dot`
-Додавати крапку до розширення чи ні. За промовчанням **`true`**.
+
+Додавати крапку до розширення чи ні. За замовчуванням **`true`**
 
 ### Значення, що повертаються
 
-Рядок з розширенням файлу, що відповідає типу зображення або
-**`false`** у разі виникнення помилки.
+Рядок з розширенням файлу, що відповідає типу зображення або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **image_type_to_extension()****
+**Приклад #1 Приклад використання **imagetypeтоextension()****
 
-`<?php// Створення зображення$im = imagecreatetruecolor(100, 100);// Збереження зображенняimagepng($im, './test' . image_type_to_extension(IMAGETYPE_PNG));imagedesy
+```php
+<?php
+// Создание изображения
+$im = imagecreatetruecolor(100, 100);
+
+// Сохранение изображения
+imagepng($im, './test' . image_type_to_extension(IMAGETYPE_PNG));
+imagedestroy($im);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ця функція не потребує бібліотеки GD.

@@ -1,36 +1,39 @@
-- [« fann_set_quickprop_decay](function.fann-set-quickprop-decay.md)
-- [fann_set_rprop_decrease_factor »](function.fann-set-rprop-decrease-factor.md)
+---
+navigation:
+  - function.fann-set-quickprop-decay.md: « fannsetquickpropdecay
+  - function.fann-set-rprop-decrease-factor.md: fannsetrpropdecreasefactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetquickpropму
+---
+# fannsetquickpropму
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює МЮ-фактор quickprop
+(PECL fann> = 1.0.0)
 
-# fann_set_quickprop_mu
-
-(PECL fann = 1.0.0)
-
-fann_set_quickprop_mu - Встановлює МЮ-фактор quickprop
+fannsetquickpropmu - Встановлює МЮ-фактор quickprop
 
 ### Опис
 
-**fann_set_quickprop_mu**(resource `$ann`, float `$quickprop_mu`): bool
+```methodsynopsis
+fann_set_quickprop_mu(resource $ann, float $quickprop_mu): bool
+```
 
 Встановлює МЮ-фактор quickprop.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `quickprop_mu`
+
 МЮ-фактор quickprop.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_quickprop_mu()](function.fann-get-quickprop-mu.md) -
-Повертає коефіцієнт mu
+-   [fanngetquickpropmu()](function.fann-get-quickprop-mu.md) - Повертає коефіцієнт mu

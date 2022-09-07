@@ -1,29 +1,31 @@
-- [«SolrObject::getPropertyNames](solrobject.getpropertynames.md)
-- [SolrObject::offsetGet »](solrobject.offsetget.md)
-
-- [PHP Manual](index.md)
-- [SolrObject](class.solrobject.md)
-- Перевіряє, чи існує властивість
-
+---
+navigation:
+  - solrobject.getpropertynames.md: '« SolrObject::getPropertyNames'
+  - solrobject.offsetget.md: 'SolrObject::offsetGet »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
+title: 'SolrObject::offsetExists'
+---
 # SolrObject::offsetExists
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrObject::offsetExists — Перевіряє, чи існує властивість
 
 ### Опис
 
-public **SolrObject::offsetExists**(string `$property_name`): bool
+```methodsynopsis
+public SolrObject::offsetExists(string $property_name): bool
+```
 
-Перевіряє, чи є властивість. Використовується, коли об'єкт
-обробляється як масив.
+Перевіряє, чи існує властивість. Використовується, коли об'єкт обробляється масивом.
 
 ### Список параметрів
 
 `property_name`
+
 Назва якості.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

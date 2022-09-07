@@ -1,30 +1,33 @@
-- [« cubrid_save_to_glo](function.cubrid-save-to-glo.md)
-- [dBase »](book.dbase.md)
+---
+navigation:
+  - function.cubrid-save-to-glo.md: « cubridsaveтоglo
+  - book.dbase.md: dBase »
+  - index.md: PHP Manual
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
+title: cubridsendglo
+---
+# cubridsendglo
 
-- [PHP Manual](index.md)
-- [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-- Читання даних з glo та виведення їх у стандартний пристрій виведення
+(PECL CUBRID >= 8.3.0)
 
-#cubrid_send_glo
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_send_glo — Читання даних з glo та виведення їх у стандартне
-пристрій виводу
+cubridsendglo — Читання даних із glo та виведення їх у стандартний пристрій виведення
 
 ### Опис
 
-**cubrid_send_glo**(resource `$conn_identifier`, string `$oid`): int
+```methodsynopsis
+cubrid_send_glo(resource $conn_identifier, string $oid): int
+```
 
-Функція **cubrid_send_glo()** використовується для читання даних із glo і
-виведення їх у стандартний пристрій виведення PHP.
+Функція **cubridsendglo()** використовується для читання даних з glo та виведення їх у стандартний пристрій виведення PHP.
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `oid`
+
 Oid екземпляра glo з якого ви хочете прочитати дані.
 
 ### Значення, що повертаються
@@ -35,26 +38,32 @@ Oid екземпляра glo з якого ви хочете прочитати 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_send_glo()****
+**Приклад #1 Приклад використання **cubridsendglo()****
 
-`<?php$req = cubrid_execute ($con, "select image from person where id =1");if ($req) { list|($oid) = cubrid_fetch($req); cubrid_close_request($req); Header("Content-type:image/jpeg"); cubrid_send_glo ($con, $oid);}?> `
+```php
+<?php
+$req = cubrid_execute ($con, "select image from person where id =1");
+if ($req) {
+  list ($oid) = cubrid_fetch($req);
+  cubrid_close_request($req);
+  Header ("Content-type: image/jpeg");
+  cubrid_send_glo ($con, $oid);
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **cubrid_send_glo()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **cubridsendglo()**
 
-> **Примітка**:
->
-> Функція видалена у CUBRID 3.1.
+> **Зауваження**
+> 
+> Функцію видалено в CUBRID 3.1.
 
 ### Дивіться також
 
-- [cubrid_new_glo()](function.cubrid-new-glo.md) - Створює екземпляр
-glo
-- [cubrid_save_to_glo()](function.cubrid-save-to-glo.md) - Зберігає
-запитаний файл в екземплярі GLO
-- [cubrid_load_from_glo()](function.cubrid-load-from-glo.md) -
-Читає дані з екземпляра GLO та записує їх у файл
+-   [cubridnewglo()](function.cubrid-new-glo.md) - Створює екземпляр glo
+-   [cubridsaveтоglo()](function.cubrid-save-to-glo.md) - Зберігає запитаний файл в екземплярі GLO
+-   [cubridloadfromglo()](function.cubrid-load-from-glo.md) - Читає дані з екземпляра GLO та записує їх у файл

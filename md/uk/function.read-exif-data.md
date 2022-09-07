@@ -1,28 +1,27 @@
-- [«exif_thumbnail](function.exif-thumbnail.md)
-- [GD »](book.image.md)
+---
+navigation:
+  - function.exif-thumbnail.md: « exifthumbnail
+  - book.image.md: GD »
+  - index.md: PHP Manual
+  - ref.exif.md: Exif Функції
+title: readexifdata
+---
+# readexifdata
 
-- [PHP Manual](index.md)
-- [Exif Функції](ref.exif.md)
-- Псевдонім exif_read_data
+(PHP 4> = 4.0.1, PHP 5, PHP 7)
 
-#read_exif_data
-
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7)
-
-read_exif_data - Псевдонім
-[exif_read_data()](function.exif-read-data.md)
+readexifdata - Псевдонім [exifreaddata()](function.exif-read-data.md)
 
 **Увага**
 
-Псевдонім оголошений *УСТАРЕЛИМ* у PHP 7.2.0 та *Видалений* у PHP 8.0.0.
+Псевдонім оголошено *Застарілим* в PHP 7.2.0 та *ВИДАЛЕНО* у PHP 8.0.0.
 
 ### Опис
 
-Ця функція є псевдонімом:
-[exif_read_data()](function.exif-read-data.md).
+Ця функція є псевдонімом: [exifreaddata()](function.exif-read-data.md)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                     |
-|--------|------------------------------------------|
-| 7.2.0  | Цей псевдонім було оголошено застарілим. |
+| Версия | Описание |
+| --- | --- |
+|  | Цей псевдонім було оголошено застарілим. |

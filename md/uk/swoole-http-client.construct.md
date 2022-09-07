@@ -1,28 +1,31 @@
-- [« Swoole\Http\Client::close](swoole-http-client.close.md)
-- [Swoole\Http\Client::\_\_destruct »](swoole-http-client.destruct.md)
+---
+navigation:
+  - swoole-http-client.close.md: '« SwooleHttpClient::close'
+  - swoole-http-client.destruct.md: 'SwooleHttpClient::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::construct'
+---
+# SwooleHttpClient::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Створює асинхронний HTTP-клієнт
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::\_\_construct
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::\_\_construct - Створює асинхронний HTTP-клієнт
+SwooleHttpClient::construct — Створює асинхронний HTTP-клієнт
 
 ### Опис
 
-public **Swoole\Http\Client::\_\_construct**(string `$host`, string
-`$port` = ?, bool `$ssl` = ?)
+public **SwooleHttpClient::construct**(string `$host`, string `$port` =?, bool `$ssl`
 
 ### Список параметрів
 
 `host`
+
 Ім'я віддаленого хоста.
 
 `port`
+
 Номер порту віддаленого хоста.
 
 `ssl`
+
 Визначає підтримку SSL.

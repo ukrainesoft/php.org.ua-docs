@@ -1,22 +1,24 @@
-- [« GearmanTask::isRunning](gearmantask.isrunning.md)
-- [GearmanTask::recvData »](gearmantask.recvdata.md)
-
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Отримати дескриптор завдання
-
+---
+navigation:
+  - gearmantask.isrunning.md: '« GearmanTask::isRunning'
+  - gearmantask.recvdata.md: 'GearmanTask::recvData »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::jobHandle'
+---
 # GearmanTask::jobHandle
 
-#gearman_job_handle
+# gearmanjobhandle
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanTask::jobHandle -- gearman_job_handle — Отримати дескриптор
-завдання
+GearmanTask::jobHandle -- gearmanjobhandle — Отримати дескриптор завдання
 
 ### Опис
 
-public **GearmanTask::jobHandle**(): string
+```methodsynopsis
+public GearmanTask::jobHandle(): string
+```
 
 Повертає дескриптор завдання для цього завдання.
 
@@ -30,5 +32,4 @@ public **GearmanTask::jobHandle**(): string
 
 ### Дивіться також
 
-- [GearmanClient::doJobHandle()](gearmanclient.dojobhandle.md) -
-Отримати дескриптор завдання, що виконується
+-   [GearmanClient::doJobHandle()](gearmanclient.dojobhandle.md) - Отримати дескриптор завдання, що виконується

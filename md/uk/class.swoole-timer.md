@@ -1,42 +1,43 @@
-- [« Swoole\Table::valid](swoole-table.valid.md)
-- [Swoole\Timer::after »](swoole-timer.after.md)
+---
+navigation:
+  - swoole-table.valid.md: '« SwooleTable::valid'
+  - swoole-timer.after.md: 'SwooleTimer::after »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleTimer
+---
+# Клас SwooleTimer
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Timer
-
-# Клас Swoole\Timer
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Timer** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static [after](swoole-timer.after.md)(int `$after_time_ms`,
-[callable](language.types.callable.md) `$callback`): void
 
-public static [clear](swoole-timer.clear.md)(int `$timer_id`): void
+    
+     
+      class Swoole\Timer
+     
+     {
 
-public static [exists](swoole-timer.exists.md)(int `$timer_id`): bool
 
-public static [tick](swoole-timer.tick.md)(int `$interval_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` =
-?): void
+    /* Методы */
+    
+            public static after(int $after_time_ms, callable $callback): void
+public static clear(int $timer_id): void
+public static exists(int $timer_id): bool
+public static tick(int $interval_ms, callable $callback, string $param = ?): void
 
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Timer::after](swoole-timer.after.md) - Запускає
-callback-функцію через певний проміжок часу
-- [Swoole\Timer::clear](swoole-timer.clear.md) — Видаляє таймер за
-ідентифікатору
-- [Swoole\Timer::exists](swoole-timer.exists.md) — Перевіряє,
-чи існує таймер
-- [Swoole\Timer::tick](swoole-timer.tick.md) - Повторює цю
-функцію у кожний заданий інтервал часу
+-   [SwooleTimer::after](swoole-timer.after.md) - Запускає callback-функцію через певний проміжок часу
+-   [SwooleTimer::clear](swoole-timer.clear.md) — Видаляє таймер за ідентифікатором
+-   [SwooleTimer::exists](swoole-timer.exists.md) — Перевіряє, чи існує таймер
+-   [SwooleTimer::tick](swoole-timer.tick.md) — Повторює цю функцію у кожний заданий інтервал часу

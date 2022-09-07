@@ -1,27 +1,24 @@
-- [« Imagick::getImageResolution](imagick.getimageresolution.md)
-- [Imagick::getImageScene »](imagick.getimagescene.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає всі послідовності зображень у вигляді великого
-двійкового об'єкту
-
+---
+navigation:
+  - imagick.getimageresolution.md: '« Imagick::getImageResolution'
+  - imagick.getimagescene.md: 'Imagick::getImageScene »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImagesBlob'
+---
 # Imagick::getImagesBlob
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImagesBlob — Повертає всі послідовності зображень у
-вигляді великого двійкового об'єкта
+Imagick::getImagesBlob — Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
 
 ### Опис
 
-public **Imagick::getImagesBlob**(): string
+```methodsynopsis
+public Imagick::getImagesBlob(): string
+```
 
-Реалізує формати зображень безпосередньо на згадку. Метод повертає все
-послідовності зображень у вигляді рядка. Формат зображення
-визначає формат великого двійкового об'єкта, що повертається (GIF, JPEG,
-PNG і т.д.). Щоб повернути інший формат зображення, використовуйте
-Imagick::setImageFormat().
+Реалізує формати зображень безпосередньо на згадку. Метод повертає всі послідовності зображень у вигляді рядка. Формат зображення визначає формат великого двійкового об'єкта, що повертається (GIF, JPEG, PNG і т.д.). Щоб повернути інший формат зображення, використовуйте Imagick::setImageFormat().
 
 ### Список параметрів
 
@@ -29,5 +26,4 @@ Imagick::setImageFormat().
 
 ### Значення, що повертаються
 
-Повертає рядок, який містить зображення. У разі виникнення помилки
-викидає виняток ImagickException.
+Повертає рядок, який містить зображення. У разі виникнення помилки викидає виняток ImagickException.

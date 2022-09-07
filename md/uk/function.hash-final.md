@@ -1,63 +1,64 @@
-- [«hash_file](function.hash-file.md)
-- [hash_hkdf »](function.hash-hkdf.md)
+---
+navigation:
+  - function.hash-file.md: « hashfile
+  - function.hash-hkdf.md: hashhkdf »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashfinal
+---
+# hashfinal
 
-- [PHP Manual](index.md)
-- [Функції Hash](ref.hash.md)
-- Завершує інкрементальне хешування та повертає результат у вигляді
-хеш-коду
+(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
 
-#hash_final
-
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL hash = 1.1)
-
-hash_final — Завершує інкрементальне хешування та повертає
-результат у вигляді хеш-коду
+hashfinal — Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
 
 ### Опис
 
-**hash_final**([HashContext](class.hashcontext.md) `$context`, bool
-`$binary` = **`false`**): string
+```methodsynopsis
+hash_final(HashContext $context, bool $binary = false): string
+```
 
 ### Список параметрів
 
 `context`
-Контекст хешування, повернутий
-[hash_init()](function.hash-init.md).
+
+Контекст хешування, повернутий [hashinit()](function.hash-init.md)
 
 `binary`
-Коли встановлено в **`true`**, виводить необроблені двійкові дані.
-При **`false`** виводить дані у шістнадцятковому кодуванні в нижньому
-регістрі.
+
+Коли встановлено в **`true`**, виводить необроблені двійкові дані При **`false`** виводить дані у шістнадцятковому кодуванні в нижньому регістрі.
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить обчислений хеш-код у шістнадцятковому
-кодування у нижньому регістрі. Якщо `binary` заданий як **`true`**, то
-повертається хеш-код як бінарних даних.
+Повертає рядок, що містить обчислений хеш-код у шістнадцятковому кодуванні в нижньому регістрі. Якщо `binary` заданий як **`true`**, то повертається хеш-код у вигляді бінарних даних.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                         |
-|--------|--------------------------------------------------------------|
-| 7.2.0  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hash_final()****
+**Приклад #1 Приклад використання **hashfinal()****
 
-` <?php$ctx = hash_init('sha1');hash_update($ctx, 'Нахабний коричневий лисенок стрибає навколо ледачої собаки.');echo hash_final($ctx);?> `
+```php
+<?php
+$ctx = hash_init('sha1');
+hash_update($ctx, 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+echo hash_final($ctx);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 dc495843a3a90b46c12e254102599571fa83a737
+```
 
 ### Дивіться також
 
-- [hash_init()](function.hash-init.md) - Ініціалізація
-інкрементального контексту хешування
-- [hash_update()](function.hash-update.md) - Додає дані до
-активний контекст хешування
-- [hash_update_stream()](function.hash-update-stream.md) - Додає
-дані з відкритого потоку в активний контекст хешування
-- [hash_update_file()](function.hash-update-file.md) - Додає
-дані з файлу в активний контекст хешування
+-   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
+-   [hashupdate()](function.hash-update.md) - Додає дані до активного контексту хешування
+-   [hashupdatestream()](function.hash-update-stream.md) - Додає дані з відкритого потоку до активного контексту хешування
+-   [hashupdatefile()](function.hash-update-file.md) - Додає дані з файлу до активного контексту хешування

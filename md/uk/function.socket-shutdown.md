@@ -1,55 +1,47 @@
-- [«socket_setopt](function.socket-setopt.md)
-- [socket_strerror »](function.socket-strerror.md)
+---
+navigation:
+  - function.socket-setopt.md: « socketsetopt
+  - function.socket-strerror.md: socketstrerror »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketshutdown
+---
+# socketshutdown
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Завершує роботу сокету на отримання та/або відправлення даних
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# socket_shutdown
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-socket_shutdown — Завершує роботу сокету на отримання та/або відправлення
-даних
+socketshutdown — Завершує роботу сокету на отримання та/або відправлення даних
 
 ### Опис
 
-**socket_shutdown**([Socket](class.socket.md) `$socket`, int `$mode` =
-2): bool
+```methodsynopsis
+socket_shutdown(Socket $socket, int $mode = 2): bool
+```
 
-Функція **socket_shutdown()** дозволяє зупинити передачу
-вступників, вихідних або всіх даних (за замовчуванням) через сокет
-`socket`
+Функція **socketshutdown()** дозволяє вам зупинити передачу вступників, вихідних або всіх даних (за замовчуванням) через сокет `socket`
 
-> **Примітка**:
->
-> Асоційований буфер, або буфери, можуть бути звільнені, а можуть і
-> ні.
+> **Зауваження**
+> 
+> Асоційований буфер, або буфери, можуть бути звільнені, а можуть і ні.
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функції
-[socket_create()](function.socket-create.md).
+
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 `mode`
-Значення параметра `mode` може бути одним із наступних:
 
-|   |                                   |
-|---|-----------------------------------|
-| 0 | Завершує читання із сокету        |
-| 1 | Завершує запис до сокету          |
-| 2 | Завершує читання та запис у сокет |
+Значення параметру `mode` може бути одним з наступних:
 
-**можливі значення для параметра `mode`**
+<table class="doctable table"><caption><strong>можливі значення для параметра <code class="parameter">mode</code></strong></caption><tbody class="tbody"><tr><td><code class="literal">0</code></td><td>Завершує читання із сокету</td></tr><tr><td><code class="literal">1</code></td><td>Завершує запис у сокет</td></tr><tr><td><code class="literal">2</code></td><td>Завершує читання та запис у сокет</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-|--------|-----------------------------------------------------------------------------------------|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |

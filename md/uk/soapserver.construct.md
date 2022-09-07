@@ -1,61 +1,70 @@
-- [« SoapServer::addSoapHeader](soapserver.addsoapheader.md)
-- [SoapServer::fault »](soapserver.fault.md)
-
-- [PHP Manual](index.md)
-- [SoapServer](class.soapserver.md)
-- Конструктор SoapServer
-
-# SoapServer::\_\_construct
+---
+navigation:
+  - soapserver.addsoapheader.md: '« SoapServer::addSoapHeader'
+  - soapserver.fault.md: 'SoapServer::fault »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::construct'
+---
+# SoapServer::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapServer::\_\_construct - Конструктор SoapServer
+SoapServer::construct — Конструктор SoapServer
 
 ### Опис
 
-public **SoapServer::\_\_construct**(?string `$wsdl`, array `$options` =
-[])
+public **SoapServer::construct**(?string `$wsdl`, array `$options`
 
-Цей конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.md) у WSDL або не-WSDL режимах.
+Цей конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.md) у WSDL чи не-WSDL режимах.
 
 ### Список параметрів
 
 `wsdl`
-Для використання SoapServer у режимі WSDL вкажіть URI WSDL-файлу. В
-в іншому випадку вкажіть **`null`** і встановіть опцію `uri` рівною
-простір імен сервера.
+
+Для використання SoapServer в режимі WSDL вкажіть URI WSDL-файлу. В іншому випадку вкажіть **`null`** та встановіть опцію `uri` рівної простору імен сервера.
 
 `options`
-Спроба встановити версію SOAP за замовчуванням (`soap_version`), внутрішню
-кодування (`encoding`) та URI відправника (`actor`).
 
-Опцію `classmap` можна використовувати для порівняння деяких типів
-WSDL із класами PHP. Ця опція повинна бути масивом з рівними ключами
-типів WSDL та значенням рівними іменам класів PHP.
+Спроба встановити стандартну версію SOAP (`soap_version`), внутрішнє кодування (`encoding`) та URI відправника (`actor`
 
-Опція `typemap` є масивом зіставлення типів. Масив із ключами
-`type_name`, `type_ns` (URI простору імен), `from_xml`
-(callback-функція, що приймає один рядковий параметр) та `to_xml`
-(callback-функція, що приймає один об'єкт як параметр).
+Опцію `classmap` можна використовувати для порівняння деяких типів WSDL із класами PHP. Ця опція повинна бути масивом з ключами рівними типу WSDL і значенням рівними іменам класів PHP.
 
-Опція `cache_wsdl` задається однією з констант: **`WSDL_CACHE_NONE`**,
-**`WSDL_CACHE_DISK`**, **`WSDL_CACHE_MEMORY`** або
-**`WSDL_CACHE_BOTH`**.
+Опція `typemap` є масивом зіставлення типів. Масив із ключами `type_name` `type_ns` (URI простору імен), `from_xml` (callback-функція, що приймає один рядковий параметр) та `to_xml` (callback-функція, що приймає один об'єкт як параметр).
 
-Також є опція `features`, яка задається однією із констант:
-**`SOAP_WAIT_ONE_WAY_CALLS`**, **`SOAP_SINGLE_ELEMENT_ARRAYS`** або
-**`SOAP_USE_XSI_ARRAY_TYPE`**.
+Опція `cache_wsdl` задається однією з констант: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`** або **`WSDL_CACHE_BOTH`**
 
-опція `send_errors` може бути встановлена в **`false`** для надсилання
-загального повідомлення про помилку ("Internal error") замість спеціального
-повідомлення про помилку, що надсилається інакше.
+Також є опція `features`, яка задається однією з констант: **`SOAP_WAIT_ONE_WAY_CALLS`** **`SOAP_SINGLE_ELEMENT_ARRAYS`** або **`SOAP_USE_XSI_ARRAY_TYPE`**
+
+опція `send_errors` може бути встановлена ​​в **`false`** для надсилання загального повідомлення про помилку ("Internal error") замість спеціального повідомлення про помилку, яке надсилається в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SoapServer::SoapServer()****
 
-` <?php$server = new SoapServer("some.wsdl");$server = new SoapServer("some.wsdl", array('soap_version' => SOAP_1_2));$server = new ", array('actor' => "http://example.org/ts-tests/C"));$server = new SoapServer("some.wsdl", array('encoding'=>'ISO-8859 -1'));$server = new SoapServer(null, array('uri' => "http://test-uri/"));class MyBook {    public $title; public $author;}$server = new SoapServer("books.wsdl", array('classmap' => array('book' => "MyBook")));?> `
+```php
+<?php
+
+$server = new SoapServer("some.wsdl");
+
+$server = new SoapServer("some.wsdl", array('soap_version' => SOAP_1_2));
+
+$server = new SoapServer("some.wsdl", array('actor' => "http://example.org/ts-tests/C"));
+
+$server = new SoapServer("some.wsdl", array('encoding'=>'ISO-8859-1'));
+
+$server = new SoapServer(null, array('uri' => "http://test-uri/"));
+
+class MyBook {
+    public $title;
+    public $author;
+}
+
+$server = new SoapServer("books.wsdl", array('classmap' => array('book' => "MyBook")));
+
+?>
+```
 
 ### Дивіться також
 
-- **SoapClient::SoapClient()**
+-   **SoapClient::SoapClient()**

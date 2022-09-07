@@ -1,20 +1,22 @@
-- [« ReflectionAttribute::getTarget](reflectionattribute.gettarget.md)
-- [ReflectionAttribute::newInstance »](reflectionattribute.newinstance.md)
-
-- [PHP Manual](index.md)
-- [ReflectionAttribute](class.reflectionattribute.md)
-- Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду
-
+---
+navigation:
+  - reflectionattribute.gettarget.md: '« ReflectionAttribute::getTarget'
+  - reflectionattribute.newinstance.md: 'ReflectionAttribute::newInstance »'
+  - index.md: PHP Manual
+  - class.reflectionattribute.md: ReflectionAttribute
+title: 'ReflectionAttribute::isRepeated'
+---
 # ReflectionAttribute::isRepeated
 
 (PHP 8)
 
-ReflectionAttribute::isRepeated — Перевіряє, чи може атрибут
-вказуватися багаторазово в елементі коду
+ReflectionAttribute::isRepeated — Перевіряє, чи може атрибут вказуватися багаторазово в елементі коду
 
 ### Опис
 
-public **ReflectionAttribute::isRepeated**(): bool
+```methodsynopsis
+public ReflectionAttribute::isRepeated(): bool
+```
 
 Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду.
 
@@ -24,5 +26,4 @@ public **ReflectionAttribute::isRepeated**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо атрибут може використовуватися багаторазово,
-в іншому випадку **`false`**.
+Повертає \*\*`true`\*\*якщо атрибут може використовуватися багаторазово, в іншому випадку **`false`**

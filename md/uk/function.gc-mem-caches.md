@@ -1,20 +1,22 @@
-- [«gc_enabled](function.gc-enabled.md)
-- [gc_status »](function.gc-status.md)
-
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Звільняє пам'ять, яку використовує менеджер пам'яті Zend Engine
-
-# gc_mem_caches
+---
+navigation:
+  - function.gc-enabled.md: « gcenabled
+  - function.gc-status.md: гкstatus »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: гкmemcaches
+---
+# гкmemcaches
 
 (PHP 7, PHP 8)
 
-gc_mem_caches — Звільняє пам'ять, яку використовує менеджер пам'яті Zend
-Engine
+гкmemcaches — Звільняє пам'ять, яку використовує менеджер пам'яті Zend Engine
 
 ### Опис
 
-**gc_mem_caches**(): int
+```methodsynopsis
+gc_mem_caches(): int
+```
 
 Звільняє пам'ять, яку використовує менеджер пам'яті Zend Engine.
 
@@ -28,4 +30,4 @@ Engine
 
 ### Дивіться також
 
-- [Складання сміття](features.gc.md)
+-   [Сборка мусора](features.gc.md)

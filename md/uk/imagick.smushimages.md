@@ -1,24 +1,24 @@
-- [« Imagick::sketchImage](imagick.sketchimage.md)
-- [Imagick::solarizeImage »](imagick.solarizeimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Опис
-
+---
+navigation:
+  - imagick.sketchimage.md: '« Imagick::sketchImage'
+  - imagick.solarizeimage.md: 'Imagick::solarizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::smushImages'
+---
 # Imagick::smushImages
 
-(PECL imagick 3 \>= 3.3.0)
+(PECL imagick 3> = 3.3.0)
 
 Imagick::smushImages — Опис
 
 ### Опис
 
-public **Imagick::smushImages**(bool `$stack`, int `$offset`):
-[Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::smushImages(bool $stack, int $offset): Imagick
+```
 
-Бере всі зображення з поточного покажчика зображення до кінця списку
-зображень і переміщує їх один до одного зверху вниз, якщо параметр
-stack має значення true, інакше - зліва направо.
+Бере всі зображення з поточного покажчика зображення в кінець списку зображень і переміщує їх одне до одного зверху вниз, якщо параметр stack має значення true, інакше - зліва направо.
 
 ### Список параметрів
 
@@ -34,4 +34,19 @@ stack має значення true, інакше - зліва направо.
 
 **Приклад #1 Приклад використання **Imagick::smushImages()****
 
-`<?phpfunction smushImages($imagePath, $imagePath2) {    $imagick = new \Imagick(realpath($imagePath)); $imagick2 = new \Imagick(realpath($imagePath2)); $imagick->addimage($imagick2); $smushed==$imagick->smushImages(false, 50); $smushed->setImageFormat('jpg'); header("Content-Type: image/jpg"); echo $smushed->getImageBlob();}?> `
+```php
+<?php
+function smushImages($imagePath, $imagePath2) {
+
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick2 = new \Imagick(realpath($imagePath2));
+
+    $imagick->addimage($imagick2);
+    $smushed = $imagick->smushImages(false, 50);
+    $smushed->setImageFormat('jpg');
+    header("Content-Type: image/jpg");
+    echo $smushed->getImageBlob();
+}
+
+?>
+```

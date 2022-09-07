@@ -1,50 +1,56 @@
-- [«getprotobynumber](function.getprotobynumber.md)
-- [getservbyport »](function.getservbyport.md)
-
-- [PHP Manual](index.md)
-- [Мережні функції](ref.network.md)
-- Отримує номер порту, пов'язаного з інтернет-службою та протоколом
-
-#getservbyname
+---
+navigation:
+  - function.getprotobynumber.md: « getprotobynumber
+  - function.getservbyport.md: getservbyport »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: getservbyname
+---
+# getservbyname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getservbyname — Отримує номер порту, пов'язаного з інтернет-службою та
-протоколом
+getservbyname — Отримує номер порту, пов'язаного з інтернет-службою та протоколом
 
 ### Опис
 
-**getservbyname**(string `$service`, string `$protocol`): int\|false
+```methodsynopsis
+getservbyname(string $service, string $protocol): int|false
+```
 
-Функція **getservbyname()** повертає порт, який відповідає
-параметру `service` для заданого протоколу у параметрі `protocol`
-згідно `/etc/services`.
+Функція **getservbyname()** повертає порт, який відповідає параметру `service` для заданого протоколу у параметрі `protocol` згідно з /etc/services.
 
 ### Список параметрів
 
 `service`
+
 Ім'я служби Інтернету у вигляді рядка.
 
 `protocol`
-Параметр `protocol` може дорівнювати ``tcp`` або ``udp'` (у нижньому
-регістрі).
+
+Параметр `protocol` може дорівнювати `"tcp"` або `"udp"` (У нижньому регістрі).
 
 ### Значення, що повертаються
 
-Повертає номер порту, або **`false`**, якщо `service` або `protocol`
-не знайдено.
+Повертає номер порту, або **`false`**, якщо `service` або `protocol` не знайдено.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **getservbyname()****
 
-` <?php$services = array('http', 'ftp', 'ssh', 'telnet', 'imap','smtp', 'nicname', 'gopher', 'finger', 'pop3', ' www');foreach ($services as $service) {   $port = getservbyname($service, 'tcp'); echo $service . ": " . $port . "<br />
-";}?> `
+```php
+<?php
+$services = array('http', 'ftp', 'ssh', 'telnet', 'imap',
+'smtp', 'nicname', 'gopher', 'finger', 'pop3', 'www');
+
+foreach ($services as $service) {
+    $port = getservbyname($service, 'tcp');
+    echo $service . ": " . $port . "<br />\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [getservbyport()](function.getservbyport.md) - Отримує
-інтернет-службу, що відповідає заданому порту та протоколу
-- Дивіться
-[»http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers)
-щоб отримати повний список номерів портів.
+-   [getservbyport()](function.getservbyport.md) - Отримує інтернет-службу, що відповідає заданому порту та протоколу
+-   Дивіться [» http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers) щоб отримати повний список номерів портів.

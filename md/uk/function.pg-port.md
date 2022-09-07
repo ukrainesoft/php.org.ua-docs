@@ -1,52 +1,59 @@
-- [«pg_ping](function.pg-ping.md)
-- [pg_prepare »](function.pg-prepare.md)
-
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає номер порту, який відповідає заданому з'єднанню
-
-# pg_port
+---
+navigation:
+  - function.pg-ping.md: « pgping
+  - function.pg-prepare.md: пгprepare »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгport
+---
+# пгport
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pg_port — Повертає номер порту, який відповідає заданому з'єднанню
+пгport — Повертає номер порту, який відповідає заданому з'єднанню
 
 ### Опис
 
-**pg_port**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): string
+```methodsynopsis
+pg_port(?PgSql\Connection $connection = null): string
+```
 
-**pg_port()** повертає номер порту, що відповідає заданому
-з'єднання PostgreSQL `connection`.
+**пгport()** повертає номер порту, який відповідає заданому з'єднанню PostgreSQL `connection`
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Рядок (string), що відповідає номеру порту, або порожній рядок
-у разі виникнення помилки.
+Рядок (string), що відповідає номеру порту, або порожній рядок у разі помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_port()****
+**Приклад #1 Приклад використання **пгport()****
 
-` <?php$pgsql_conn = pg_connect("dbname=mark host=localhost");if($pgsql_conn) {   print' "Успішно з'єднано з портом : " . pg_port($pgsql_conn) . "<br/>
-";} else {   print pg_last_error($pgsql_conn);  exit;}?> `
+```php
+<?php
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
+
+if ($pgsql_conn) {
+   print "Успешно соединено с портом : " . pg_port($pgsql_conn) . "<br/>\n";
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
+}
+?>
+```

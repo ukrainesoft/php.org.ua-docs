@@ -1,46 +1,57 @@
-- [« pg_connection_reset](function.pg-connection-reset.md)
-- [pg_consume_input »](function.pg-consume-input.md)
+---
+navigation:
+  - function.pg-connection-reset.md: « pgconnectionreset
+  - function.pg-consume-input.md: пгconsumeinput »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгconnectionstatus
+---
+# пгconnectionstatus
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Визначає стан підключення
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-#pg_connection_status
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-pg_connection_status — Визначає стан підключення
+пгconnectionstatus — Визначає стан підключення
 
 ### Опис
 
-**pg_connection_status**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`): int
+```methodsynopsis
+pg_connection_status(PgSql\Connection $connection): int
+```
 
-**pg_connection_status()** повертає стан переданого як
-аргументу з'єднання `connection`.
+**пгconnectionstatus()** повертає стан переданого як аргумент з'єднання `connection`
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-**`PGSQL_CONNECTION_OK`** або **`PGSQL_CONNECTION_BAD`**.
+**`PGSQL_CONNECTION_OK`** або **`PGSQL_CONNECTION_BAD`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_connection_status()****
+**Приклад #1 Приклад використання **пгconnectionstatus()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися"); $stat==pg_connection_status($dbconn); if ($stat === PGSQL_CONNECTION_OK) {     echo 'Статус з'єднання: доступно'; } else {      echo 'Статус з'єднання: розірвано'; }?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
+  $stat = pg_connection_status($dbconn);
+  if ($stat === PGSQL_CONNECTION_OK) {
+      echo 'Статус соединения: доступно';
+  } else {
+      echo 'Статус соединения: разорвано';
+  }
+?>
+```
 
 ### Дивіться також
 
-- [pg_connection_busy()](function.pg-connection-busy.md) -
-Перевіряє, чи зайнято з'єднання на даний момент.
+-   [пгconnectionbusy()](function.pg-connection-busy.md) - Перевіряє, чи зайнято з'єднання на даний момент.

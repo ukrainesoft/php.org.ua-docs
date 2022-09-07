@@ -1,56 +1,83 @@
-- [«sqlsrv_begin_transaction](function.sqlsrv-begin-transaction.md)
-- [sqlsrv_client_info »](function.sqlsrv-client-info.md)
-
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- скасовує оператор
-
-#sqlsrv_cancel
+---
+navigation:
+  - function.sqlsrv-begin-transaction.md: « sqlsrvbegintransaction
+  - function.sqlsrv-client-info.md: sqlsrvclientinfo »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvcancel
+---
+# sqlsrvcancel
 
 (No version information available, might only be in Git)
 
-sqlsrv_cancel — скасовує оператор
+sqlsrvcancel — Скасує оператор
 
 ### Опис
 
-**sqlsrv_cancel**(resource `$stmt`): bool
+```methodsynopsis
+sqlsrv_cancel(resource $stmt): bool
+```
 
-Скасує оператор. Усі невикористані результати, пов'язані з
-оператором, видаляються. Після виклику **sqlsrv_cancel()** вказаний
-оператор може бути виконаний повторно, якщо він був створений за допомогою
-[sqlsrv_prepare()](function.sqlsrv-prepare.md). Виклик
-**sqlsrv_cancel()** не потрібно, якщо всі результати, пов'язані з
-оператором були використані.
+Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrvcancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Виклик **sqlsrvcancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
 
 ### Список параметрів
 
 `stmt`
+
 Ресурс оператора, який потрібно скасувати.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_cancel()****
+**Приклад #1 Приклад використання **sqlsrvcancel()****
 
-` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true)));}$sql = "SELECT Sales FROM$$ sql);if( $stmt === false ) {    die( print_r( sqlsrv_errors(), true));}if( sqlsrv_execute( $stmt ) === false)  ;}$salesTotal = 0;$count = 0;while( ($row = sqlsrv_fetch_array( $stmt)) && $salesTotal <=100000){     $qty =;| $price==$row[1]; $salesTotal+==($price**$qty); $count++;}echo "$count продаж склали перший $$salesTotal виручки.<br />";// Скасувати очікуючі результати. Оператор можна використовувати повторно.sqlsrv_cancel( $stmt);?> `
+```php
+<?php
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+$sql = "SELECT Sales FROM Table_1";
+
+$stmt = sqlsrv_prepare( $conn, $sql);
+
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+if( sqlsrv_execute( $stmt ) === false) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+$salesTotal = 0;
+$count = 0;
+
+while( ($row = sqlsrv_fetch_array( $stmt)) && $salesTotal <=100000)
+{
+     $qty = $row[0];
+     $price = $row[1];
+     $salesTotal += ( $price * $qty);
+     $count++;
+}
+
+echo "$count продаж составили первый $$salesTotal выручки.<br />";
+
+// Отменить ожидающие результаты. Оператор можно использовать повторно.
+sqlsrv_cancel( $stmt);
+?>
+```
 
 ### Примітки
 
-Основна відмінність між
-[sqlsrv_free_stmt()](function.sqlsrv-free-stmt.md) та
-**sqlsrv_cancel()** полягає в тому, що ресурс оператора, скасований
-за допомогою **sqlsrv_cancel()**, може бути повторно виконаний, якщо він був
-створено за допомогою [sqlsrv_prepare()](function.sqlsrv-prepare.md).
-Ресурс оператора, скасований за допомогою **sqlsrv_free_statement()**, не
-може бути повторно виконано.
+Основна відмінність між [sqlsrvfreestmt()](function.sqlsrv-free-stmt.md) і **sqlsrvcancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrvcancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
 
 ### Дивіться також
 
-- [sqlsrv_free_stmt()](function.sqlsrv-free-stmt.md) - Звільняє
-всі ресурси для вказаного оператора
-- [sqlsrv_prepare()](function.sqlsrv-prepare.md) - Підготовка
-запит до виконання
+-   [sqlsrvfreestmt()](function.sqlsrv-free-stmt.md) - звільняє всі ресурси для вказаного оператора
+-   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання

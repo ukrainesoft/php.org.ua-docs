@@ -1,21 +1,22 @@
-- [« Imagick::readImageBlob](imagick.readimageblob.md)
-- [Imagick::readimages »](imagick.readimages.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Читає зображення із відкритого дескриптора файлу
-
+---
+navigation:
+  - imagick.readimageblob.md: '« Imagick::readImageBlob'
+  - imagick.readimages.md: 'Imagick::readimages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::readImageFile'
+---
 # Imagick::readImageFile
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::readImageFile — Читає зображення із відкритого дескриптора
-файлу
+Imagick::readImageFile — Читає зображення з відкритого дескриптора файлу
 
 ### Опис
 
-public **Imagick::readImageFile**(resource `$filehandle`, string
-`$fileName` = **`null`**): bool
+```methodsynopsis
+public Imagick::readImageFile(resource $filehandle, string $fileName = null): bool
+```
 
 Читає зображення із відкритого дескриптора файлу.
 
@@ -27,7 +28,7 @@ public **Imagick::readImageFile**(resource `$filehandle`, string
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

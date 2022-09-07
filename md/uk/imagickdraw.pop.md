@@ -1,35 +1,29 @@
-- [« ImagickDraw::polyline](imagickdraw.polyline.md)
-- [ImagickDraw::popClipPath »](imagickdraw.popclippath.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше
-доданого об'єкту ImagickDraw
-
+---
+navigation:
+  - imagickdraw.polyline.md: '« ImagickDraw::polyline'
+  - imagickdraw.popclippath.md: 'ImagickDraw::popClipPath »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::pop'
+---
 # ImagickDraw::pop
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::pop — Знищує поточний об'єкт ImagickDraw у стеку та
-повертається до раніше доданого об'єкту ImagickDraw
+ImagickDraw::pop — Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше доданого об'єкту ImagickDraw
 
 ### Опис
 
-public **ImagickDraw::pop**(): bool
+```methodsynopsis
+public ImagickDraw::pop(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше
-доданого об'єкту ImagickDraw. Може бути кілька
-зображень ImagickDraw. Спроба витягти більше зображень ImagickDraw,
-чим було додано, призведе до виникнення помилки, правильним
-використанням є вилучення тільки тих зображень ImagickDraw,
-які були додані у стек.
+Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше доданого об'єкту ImagickDraw. Може бути кілька зображень ImagickDraw. Спроба витягти більше зображень ImagickDraw, ніж було додано, призведе до виникнення помилки, правильним використанням є вилучення лише зображень ImagickDraw, які були додані в стек.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,23 +1,27 @@
-- [« Swoole\Buffer::\_\_destruct](swoole-buffer.destruct.md)
-- [Swoole\Buffer::read »](swoole-buffer.read.md)
+---
+navigation:
+  - swoole-buffer.destruct.md: '« SwooleBuffer::destruct'
+  - swoole-buffer.read.md: 'SwooleBuffer::read »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.md: SwooleBuffer
+title: 'SwooleBuffer::expand'
+---
+# SwooleBuffer::expand
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Розширює розмір буфера пам'яті
+(PECL swoole >= 1.9.0)
 
-# Swoole\Buffer::expand
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Buffer::expand — Розширює розмір буфера пам'яті
+SwooleBuffer::expand — Розширює розмір буфера пам'яті
 
 ### Опис
 
-public **Swoole\Buffer::expand**(int `$size`): int
+```methodsynopsis
+public Swoole\Buffer::expand(int $size): int
+```
 
 ### Список параметрів
 
 `size`
+
 Новий розмір буфера пам'яті.
 
 ### Значення, що повертаються

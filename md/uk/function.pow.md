@@ -1,62 +1,68 @@
-- [«pi](function.pi.md)
-- [rad2deg »](function.rad2deg.md)
-
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
--   Зведення в ступінь
-
+---
+navigation:
+  - function.pi.md: « pi
+  - function.rad2deg.md: rad2deg »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: pow
+---
 # pow
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pow — Зведення в ступінь
+pow - Зведення в ступінь
 
 ### Опис
 
-**pow**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$num`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$exponent`): int\|float\|object
+```methodsynopsis
+pow(mixed $num, mixed $exponent): int|float|object
+```
 
-Повертає 'num', зведене до ступеня 'exponent'.
+Повертає `num`, зведений у ступінь `exponent`
 
-> **Примітка**:
->
-> Замість функції можна використовувати оператор
-> [\*\*](language.operators.arithmetic.md).
+> **Зауваження**
+> 
+> Замість функції можна використовувати оператор[](language.operators.arithmetic.md)
 
 ### Список параметрів
 
 `num`
+
 підстава
 
 `exponent`
+
 Показник ступеня
 
 ### Значення, що повертаються
 
-Основа `num` зведена в ступінь `exponent`. Якщо обидва аргументи -
-невід'ємні цілі та результат може бути представлений як ціле, то
-повертається результат типу int. В іншому випадку результат буде
-типу float.
+підстава `num` зведене в ступінь `exponent`. Якщо обидва аргументи - невід'ємні цілі і результат може бути представлений як ціле, то результат, що повертається буде типу int. В іншому випадку результат буде типу float.
 
 ### Приклади
 
 **Приклад #1 Приклади використання **pow()****
 
-`<?phpvar_dump(pow(2, 8)); //int(256)echopow(-1,20); // 1echo pow(0, 0); // 1echo pow(10, -1); // 0.1echo pow(-1, 5.5); // NAN?> `
+```php
+<?php
+
+var_dump(pow(2, 8)); // int(256)
+echo pow(-1, 20); // 1
+echo pow(0, 0); // 1
+echo pow(10, -1); // 0.1
+
+echo pow(-1, 5.5); // NAN
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція перетворює всі вхідні значення, навіть нескалярні,
-> числовим, що може призвести до "дивних" результатів.
+> **Зауваження**
+> 
+> Функція перетворює всі вхідні значення, навіть нескалярні, до числових, що може призвести до `странным` результатів.
 
 ### Дивіться також
 
-- [exp()](function.exp.md) - Обчислює рівень числа e
-- [sqrt()](function.sqrt.md) - Квадратний корінь
-- [bcpow()](function.bcpow.md) - Зведення в ступінь чисел з
-довільною точністю
-- [gmp_pow()](function.gmp-pow.md) - Зводить число до ступеня
+-   [exp()](function.exp.md) - обчислює ступінь числа e
+-   [sqrt()](function.sqrt.md) - Квадратний корінь
+-   [bcpow()](function.bcpow.md) - Зведення у ступінь чисел із довільною точністю
+-   [gmppow()](function.gmp-pow.md) - Зводить число до ступеня

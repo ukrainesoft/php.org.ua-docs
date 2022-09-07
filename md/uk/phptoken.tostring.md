@@ -1,19 +1,22 @@
-- [« PhpToken::isIgnorable](phptoken.isignorable.md)
-- [PhpToken::tokenize »](phptoken.tokenize.md)
-
-- [PHP Manual](index.md)
-- [PhpToken](class.phptoken.md)
-- Повертає текстовий вміст токена
-
-# PhpToken::\_\_toString
+---
+navigation:
+  - phptoken.isignorable.md: '« PhpToken::isIgnorable'
+  - phptoken.tokenize.md: 'PhpToken::tokenize »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
+title: 'PhpToken::function toString() { \[native code\] }'
+---
+# PhpToken::function toString() { \[native code\] }
 
 (PHP 8)
 
-PhpToken::\_\_toString — Повертає текстовий вміст токена
+PhpToken::toString — Повертає текстовий вміст токена
 
 ### Опис
 
-public **PhpToken::\_\_toString**(): string
+```methodsynopsis
+public PhpToken::__toString(): string
+```
 
 Повертає текстовий вміст токена.
 
@@ -23,19 +26,24 @@ public **PhpToken::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Текстове вміст токена.
+Текстовий вміст токена.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PhpToken::\_\_toString()****
+**Приклад #1 Приклад використання **PhpToken::toString()****
 
-` <?php$token = new PhpToken(T_ECHO, 'echo');echo $token; `
+```php
+<?php
+$token = new PhpToken(T_ECHO, 'echo');
+echo $token;
+```
 
 Результат виконання даних прикладів:
 
+```
 echo
+```
 
 ### Дивіться також
 
-- [token_name()](function.token-name.md) - Отримати символьне ім'я
-для переданої PHP-лексеми
+-   [tokenname()](function.token-name.md) - Отримати символьне ім'я для переданої PHP-лексеми

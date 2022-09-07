@@ -1,31 +1,29 @@
-- [«MongoDB\BSON romPHP](function.mongodb.bson-fromphp.md)
-- [MongoDB\BSON oJSON »](function.mongodb.bson-tojson.md)
+---
+navigation:
+  - function.mongodb.bson-fromphp.md: « MongoDBBSONfromPHP
+  - function.mongodb.bson-tojson.md: MongoDBBSONtoJSON »
+  - index.md: PHP Manual
+  - ref.bson.functions.md: Функції
+title: MongoDBBSONдоCanonicalExtendedJSON
+---
+# MongoDBBSONдоCanonicalExtendedJSON
 
-- [PHP Manual](index.md)
-- [Функції](ref.bson.functions.md)
-- Повертає Canonical Extended JSON подання для значення BSON
+(mongodb >=1.3.0)
 
-# MongoDB\BSON oCanonicalExtendedJSON
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON oCanonicalExtendedJSON — Повертає Canonical Extended
-JSON подання для значення BSON
+MongoDBBSONtoCanonicalExtendedJSON — Повертає Canonical Extended JSON подання для значення BSON
 
 ### Опис
 
-**MongoDB\BSON oCanonicalExtendedJSON**(string `$bson`): string
+```methodsynopsis
+MongoDB\BSON\toCanonicalExtendedJSON(string $bson): string
+```
 
-Перетворює рядок BSON на його [» Canonical Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example)
-уявлення. Канонічний формат віддає перевагу точності типів за рахунок
-короткого виведення та найбільш підходить для створення вихідних даних,
-які можуть бути перетворені назад в BSON без будь-якої втрати
-інформації про тип (наприклад, числові типи залишаться
-диференційованими).
+Перетворює рядок BSON на його [» Canonical Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення. Канонічний формат віддає перевагу точності типів за рахунок короткого виводу і найбільш підходить для створення вихідних даних, які можуть бути перетворені назад в BSON без будь-якої втрати інформації про тип (наприклад, числові типи залишаться диференційованими).
 
 ### Список параметрів
 
 `bson` (string)
+
 Значення BSON для перетворення.
 
 ### Значення, що повертаються
@@ -34,23 +32,50 @@ JSON подання для значення BSON
 
 ### Помилки
 
-- Виняток
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
-викидається, якщо вхідні дані не є рівно одним
-документом BSON. Можливі причини включають, але не обмежені
-некоректним BSON, зайвими даними або несподіваною помилкою
-[» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson).
+-   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON oCanonicalExtendedJSON()****
+**Приклад #1 Приклад використання **MongoDBBSONtoCanonicalExtendedJSON()****
 
-`<?php$documents = [    [ 'null' => null ],   [ 'boolean' => true ],    [ 'string' => 'foo'   => 4294967295 ],    [ 'double' => 1.0, ],    [ 'nan' => NAN ],    [ 'pos_inf' => INF ],    [ 'neg_inf' => -INF ],    [ 'array' => [ 'foo', 'bar' ]],    [ 'document' => [ 'foo' => 'bar' ]],   [ 'oid' => new MongoDB\BSON\ObjectId('   c| ' => new MongoDB\BSON\Decimal128('1234.5678') ],   [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\'   new MongoDB\BSON\UTCDateTime(1445990400000) ],   [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ] '' ) ],    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],    [ 'code_ws' => new }', ['a' => 1]) ],   [ 'minkey' => new MongoDB\BSON\MinKey ],   [ 'maxkey' => new MongoDB\BSON$$$ do cument) {   $bson = MongoDB\BSON romPHP($document); echo MongoDB\BSON oCanonicalExtendedJSON($bson), "
-";}?> `
+```php
+<?php
+
+$documents = [
+    [ 'null' => null ],
+    [ 'boolean' => true ],
+    [ 'string' => 'foo' ],
+    [ 'int32' => 123 ],
+    [ 'int64' => 4294967295 ],
+    [ 'double' => 1.0, ],
+    [ 'nan' => NAN ],
+    [ 'pos_inf' => INF ],
+    [ 'neg_inf' => -INF ],
+    [ 'array' => [ 'foo', 'bar' ]],
+    [ 'document' => [ 'foo' => 'bar' ]],
+    [ 'oid' => new MongoDB\BSON\ObjectId('56315a7c6118fd1b920270b1') ],
+    [ 'dec128' => new MongoDB\BSON\Decimal128('1234.5678') ],
+    [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC) ],
+    [ 'date' => new MongoDB\BSON\UTCDateTime(1445990400000) ],
+    [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ],
+    [ 'regex' => new MongoDB\BSON\Regex('pattern', 'i') ],
+    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],
+    [ 'code_ws' => new MongoDB\BSON\Javascript('function() { return a; }', ['a' => 1]) ],
+    [ 'minkey' => new MongoDB\BSON\MinKey ],
+    [ 'maxkey' => new MongoDB\BSON\MaxKey ],
+];
+
+foreach ($documents as $document) {
+    $bson = MongoDB\BSON\fromPHP($document);
+    echo MongoDB\BSON\toCanonicalExtendedJSON($bson), "\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 { "null" : null }
 { "boolean" : true }
 { "string" : "foo" }
@@ -72,12 +97,11 @@ JSON подання для значення BSON
 { "code_ws" : { "$code" : "function() { return a; }", "$scope" : { "a" : { "$numberInt" : "1" } } } }
 { "minkey" : { "$minKey" : 1 } }
 { "maxkey" : { "$maxKey" : 1 } }
+```
 
 ### Дивіться також
 
-- [MongoDB\BSON romJSON()](function.mongodb.bson-fromjson.md) -
-Повертає уявлення BSON значення JSON
-- [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
-Повертає Relaxed Extended JSON уявлення значення BSON
-- [» Специфікація Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
-- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDBBSONfromJSON()](function.mongodb.bson-fromjson.md) - Повертає подання BSON значення JSON
+-   [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) - Повертає Relaxed Extended JSON подання значення BSON
+-   [» Спецификация Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

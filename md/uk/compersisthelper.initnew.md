@@ -1,22 +1,24 @@
-- [« COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md)
-- [COMPersistHelper::LoadFromFile »](compersisthelper.loadfromfile.md)
-
-- [PHP Manual](index.md)
-- [COMPersistHelper](class.compersisthelper.md)
-- Ініціалізує об'єкт у стан за замовчуванням
-
+---
+navigation:
+  - compersisthelper.getmaxstreamsize.md: '« COMPersistHelper::GetMaxStreamSize'
+  - compersisthelper.loadfromfile.md: 'COMPersistHelper::LoadFromFile »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::InitNew'
+---
 # COMPersistHelper::InitNew
 
 (PHP 5, PHP 7, PHP 8)
 
-COMPersistHelper::InitNew — Ініціалізує об'єкт у стан по
-замовчуванням
+COMPersistHelper::InitNew — Ініціалізує об'єкт у стан за замовчуванням
 
 ### Опис
 
-public **COMPersistHelper::InitNew**(): bool
+```methodsynopsis
+public COMPersistHelper::InitNew(): bool
+```
 
-Ініціалізує об'єкт у стан за промовчанням.
+Ініціалізує об'єкт у стан за замовчуванням.
 
 ### Список параметрів
 
@@ -24,11 +26,8 @@ public **COMPersistHelper::InitNew**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md), якщо
-пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**, або
-якщо виклик **IPersistStreamInit::Init()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**або якщо виклик **IPersistStreamInit::Init()** завершився помилкою.

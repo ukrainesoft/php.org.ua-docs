@@ -1,14 +1,15 @@
-- [« Ds\Vector::copy](ds-vector.copy.md)
-- [Ds\Vector::filter »](ds-vector.filter.md)
+---
+navigation:
+  - ds-vector.copy.md: '« DsVector::copy'
+  - ds-vector.filter.md: 'ДсVector::filter »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::count'
+---
+# ДсVector::count
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає кількість елементів вектора
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::count
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::count — Повертає кількість елементів вектора
+ДсVector::count — Повертає кількість елементів вектора
 
 Дивіться [Countable::count()](countable.count.md)

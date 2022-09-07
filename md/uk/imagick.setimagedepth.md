@@ -1,10 +1,11 @@
-- [« Imagick::setImageDelay](imagick.setimagedelay.md)
-- [Imagick::setImageDispose »](imagick.setimagedispose.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює глибину зображення
-
+---
+navigation:
+  - imagick.setimagedelay.md: '« Imagick::setImageDelay'
+  - imagick.setimagedispose.md: 'Imagick::setImageDispose »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageDepth'
+---
 # Imagick::setImageDepth
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::setImageDepth — Встановлює глибину зображен�
 
 ### Опис
 
-public **Imagick::setImageDepth**(int `$depth`): bool
+```methodsynopsis
+public Imagick::setImageDepth(int $depth): bool
+```
 
 Встановлює глибину зображення.
 
@@ -23,7 +26,7 @@ public **Imagick::setImageDepth**(int `$depth`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

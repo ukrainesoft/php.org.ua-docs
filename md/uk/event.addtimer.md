@@ -1,15 +1,16 @@
-- [«Event::addSignal](event.addsignal.md)
-- [Event::\_\_construct »](event.construct.md)
-
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- Псевдонім Event::add
-
+---
+navigation:
+  - event.addsignal.md: '« Event::addSignal'
+  - event.construct.md: 'Event::construct »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::addTimer'
+---
 # Event::addTimer
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-Event::addTimer — Псевдонім [Event::add()](event.add.md)
+Event::addTimer - Псевдонім [Event::add()](event.add.md)
 
 ### Опис
 

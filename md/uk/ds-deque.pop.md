@@ -1,20 +1,22 @@
-- [« Ds\Deque::merge](ds-deque.merge.md)
-- [Ds\Deque::push »](ds-deque.push.md)
+---
+navigation:
+  - ds-deque.merge.md: '« DsDeque::merge'
+  - ds-deque.push.md: 'ДсDeque::push »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
+title: 'ДсDeque::pop'
+---
+# ДсDeque::pop
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Видаляє та повертає останнє значення
+(PECL ds >= 1.0.0)
 
-# Ds\Deque::pop
-
-(PECL ds \>= 1.0.0)
-
-Ds\Deque::pop — Видаляє та повертає останнє значення
+ДсDeque::pop — Видаляє та повертає останнє значення
 
 ### Опис
 
-public **Ds\Deque::pop**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::pop(): mixed
+```
 
 Видаляє та повертає останнє значення.
 
@@ -28,18 +30,26 @@ public **Ds\Deque::pop**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::pop()****
+**Приклад #1 Приклад використання **ДсDeque::pop()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->pop());var_dump($deque->pop());var_dump($deque-> pop());?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+
+var_dump($deque->pop());
+var_dump($deque->pop());
+var_dump($deque->pop());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(3)
 int(2)
 int(1)
+```

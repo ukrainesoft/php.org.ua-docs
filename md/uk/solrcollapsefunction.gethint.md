@@ -1,19 +1,22 @@
-- [« SolrCollapseFunction::getField](solrcollapsefunction.getfield.md)
-- [SolrCollapseFunction::getMax »](solrcollapsefunction.getmax.md)
-
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Повертає підказку згортання
-
+---
+navigation:
+  - solrcollapsefunction.getfield.md: '« SolrCollapseFunction::getField'
+  - solrcollapsefunction.getmax.md: 'SolrCollapseFunction::getMax »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::getHint'
+---
 # SolrCollapseFunction::getHint
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrCollapseFunction::getHint — Повертає підказку згортання
 
 ### Опис
 
-public **SolrCollapseFunction::getHint**(): string
+```methodsynopsis
+public SolrCollapseFunction::getHint(): string
+```
 
 Повертає підказку згортання
 
@@ -25,5 +28,4 @@ public **SolrCollapseFunction::getHint**(): string
 
 ### Дивіться також
 
-- [SolrCollapseFunction::setHint()](solrcollapsefunction.sethint.md) -
-Встановлює підказку згортання
+-   [SolrCollapseFunction::setHint()](solrcollapsefunction.sethint.md) - Встановлює підказку згортання

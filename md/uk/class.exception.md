@@ -1,10 +1,11 @@
-- [«Зумовлені винятки](reserved.exceptions.md)
-- [Exception::\_\_construct »](exception.construct.md)
-
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- Exception
-
+---
+navigation:
+  - reserved.exceptions.md: « Зумовлені винятки
+  - exception.construct.md: 'Exception::construct »'
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: Exception
+---
 # Exception
 
 (PHP 5, PHP 7, PHP 8)
@@ -15,93 +16,106 @@
 
 ## Огляд класів
 
-class **Exception** implements [Throwable](class.throwable.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class Exception
+     
 
-private string `$string` = "";
+     implements 
+       Throwable {
 
-protected int `$code`;
+    /* Свойства */
+    
+     protected
+     string
+      $message = "";
 
-protected string `$file` = "";
+    private
+     string
+      $string = "";
 
-protected int `$line`;
+    protected
+     int
+      $code;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    protected
+     string
+      $file = "";
 
-/\* Методи \*/
+    protected
+     int
+      $line;
 
-public [\_\_construct](exception.construct.md)(string `$message` = "",
-int `$code` = 0, ?[Throwable](class.throwable.md) `$previous` =
-**`null`**)
+    private
+     array
+      $trace = [];
 
-final public [getMessage](exception.getmessage.md)(): string
+    private
+     ?Throwable
+      $previous = null;
 
-final public [getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
 
-final public [getCode](exception.getcode.md)(): int
+    /* Методы */
+    
+   public __construct(string $message = "", int $code = 0, ?Throwable $previous = null)
 
-final public [getFile](exception.getfile.md)(): string
+    final public getMessage(): string
+final public getPrevious(): ?Throwable
+final public getCode(): int
+final public getFile(): string
+final public getLine(): int
+final public getTrace(): array
+final public getTraceAsString(): string
+public __toString(): string
+private __clone(): void
 
-final public [getLine](exception.getline.md)(): int
-
-final public [getTrace](exception.gettrace.md)(): array
-
-final public [getTraceAsString](exception.gettraceasstring.md)():
-string
-
-public [\_\_toString](exception.tostring.md)(): string
-
-private [\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`message`
+message
+
 Текст виключення
 
-`code`
+code
+
 Код виключення
 
-`file`
+file
+
 Ім'я файлу, в якому було викликано виняток
 
-`line`
-Номер рядка, в якому був викликаний виняток
+line
 
-`previous`
+Номер рядка, в якому було викликано виняток
+
+previous
+
 Раніше викинутий виняток
 
-`string`
-Строкове уявлення трасування стека
+string
 
-`trace`
+Строкове представлення трасування стека
+
+trace
+
 Трасування стека у вигляді масиву
 
 ## Зміст
 
-- [Exception::\_\_construct](exception.construct.md) - Створити
-виняток
-- [Exception::getMessage](exception.getmessage.md) — Отримує
-повідомлення виключення
-- [Exception::getPrevious](exception.getprevious.md) - Повертає
-попередній об'єкт, що реалізує Throwable
-- [Exception::getCode](exception.getcode.md) — Отримує код
-винятки
-- [Exception::getFile](exception.getfile.md) — Отримує файл,
-якому виник виняток
-- [Exception::getLine](exception.getline.md) — Отримує рядок,
-якої виник виняток
-- [Exception::getTrace](exception.gettrace.md) — Отримує
-трасування стеку
-- [Exception::getTraceAsString](exception.gettraceasstring.md) -
-Отримує трасування стека у вигляді рядка
-- [Exception::\_\_toString](exception.tostring.md) - Строкове
-подання винятку
-- [Exception::\_\_clone](exception.clone.md) - Клонувати
-виняток
+-   [Exception::construct](exception.construct.md) - Створити виняток
+-   [Exception::getMessage](exception.getmessage.md) — Отримує повідомлення про виключення
+-   [Exception::getPrevious](exception.getprevious.md) — Повертає попередній об'єкт, що реалізує Throwable
+-   [Exception::getCode](exception.getcode.md) — Отримує код виключення
+-   [Exception::getFile](exception.getfile.md) — Отримує файл, у якому виник виняток
+-   [Exception::getLine](exception.getline.md) — Отримує рядок, у якому виник виняток
+-   [Exception::getTrace](exception.gettrace.md) — Отримує трасування стека
+-   [Exception::getTraceAsString](exception.gettraceasstring.md) — Отримує трасування стека у вигляді рядка
+-   [Exception::toString](exception.tostring.md) — Строкове подання винятку
+-   [Exception::clone](exception.clone.md) — Клонувати виняток

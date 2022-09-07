@@ -1,59 +1,78 @@
-- [« Parle\ErrorInfo](class.parle-errorinfo.md)
-- [Parle\ParserException »](class.parle-parserexception.md)
+---
+navigation:
+  - class.parle-errorinfo.md: « ParleErrorInfo
+  - class.parle-parserexception.md: ParleParserException »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleLexerException
+---
+# Клас ParleLexerException
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
-- Клас Parle\LexerException
-
-# Клас Parle\LexerException
-
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Parle\LexerException** extends [Exception](class.exception.md)
-implements [Throwable](class.throwable.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class Parle\LexerException
+     
 
-protected int `$code`;
+     
+      extends
+       Exception
+     
 
-protected string `$file` = "";
+     implements 
+       Throwable {
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Методи \*/
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+    
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
 
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

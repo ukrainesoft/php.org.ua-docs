@@ -1,44 +1,41 @@
-- [« mqseries_back](function.mqseries-back.md)
-- [mqseries_close »](function.mqseries-close.md)
+---
+navigation:
+  - function.mqseries-back.md: « mqseriesback
+  - function.mqseries-close.md: mqseriesclose »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesbegin
+---
+# mqseriesbegin
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- MQseries MQBEGIN
+(PECL mqseries >= 0.10.0)
 
-# mqseries_begin
-
-(PECL mqseries \>= 0.10.0)
-
-mqseries_begin — MQseries MQBEGIN
+mqseriesbegin — MQseries MQBEGIN
 
 ### Опис
 
-**mqseries_begin**(
-resource `$hconn`,
-array `$beginOptions`,
-resource `&$compCode`,
-resource `&$reason`
-): void
+```methodsynopsis
+mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCode,    resource &$reason): void
+```
 
-Функція **mqseries_begin()** (MQBEGIN) відкриває транзакцію,
-координує роботу менеджера черг та може використовувати зовнішні
-ресурси менеджера
+Функція **mqseriesbegin()** (MQBEGIN) відкриває транзакцію, координує роботу менеджера черг та може використовувати зовнішні ресурси менеджера.
 
-**mqseries_begin()** стартує транзакцію.
-[mqseries_back()](function.mqseries-back.md) або
-[mqseries_cmit()](function.mqseries-cmit.md) – завершують.
+**mqseriesbegin()** стартує транзакцію . [mqseriesback()](function.mqseries-back.md) або [mqseriescmit()](function.mqseries-cmit.md) - Завершують.
 
 ### Список параметрів
 
 `hConn`
-Обробник з'єднання.
+
+Оброблювач з'єднання.
 
 Є відкрите з'єднання з менеджером черг.
 
 `compCode`
+
 Код завершення.
 
 `reason`
+
 Код причини, що кваліфікує compCode.
 
 ### Значення, що повертаються
@@ -47,21 +44,33 @@ resource `&$reason`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_begin()****
+**Приклад #1 Приклад використання **mqseriesbegin()****
 
-` <?php   $mqbo = array(); mqseries_begin( $conn,                    $mqbo,                    $comp_code,                    $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         /* код причини 2121 - попереджувальний. Дивись документацію MQSeries.*/        if ($reason !== 2121) {            printf("CompCode:%d Reason:%d<br>
-", $comp_code, $reason, mqseries_strerror($reason));        }    }?> `
+```php
+<?php
+    $mqbo = array();
+    mqseries_begin( $conn,
+                    $mqbo,
+                    $comp_code,
+                    $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        /* код причины 2121 - предупреждающий. Смотри документацию MQSeries.*/
+        if ($reason !== 2121) {
+            printf("CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        }
+    }
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **mqseries_begin()** не працює, якщо для з'єднання з менеджером
-> черг використовується MQSeries Client.
+> **Зауваження**
+> 
+> **mqseriesbegin()** не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
-- [mqseries_conn()](function.mqseries-conn.md) - MQSeries MQCONN
-- [mqseries_connx()](function.mqseries-connx.md) - MQSeries MQCONNX
-- [mqseries_back()](function.mqseries-back.md) - MQSeries MQBACK
-- [mqseries_cmit()](function.mqseries-cmit.md) - MQSeries MQCMIT
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesback()](function.mqseries-back.md) - MQSeries MQBACK
+-   [mqseriescmit()](function.mqseries-cmit.md) - MQSeries MQCMIT

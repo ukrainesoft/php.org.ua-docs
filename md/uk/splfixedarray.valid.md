@@ -1,19 +1,22 @@
-- [« SplFixedArray::toArray](splfixedarray.toarray.md)
-- [SplFixedArray::\_\_wakeup »](splfixedarray.wakeup.md)
-
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Перевіряє масив на наявність елементів
-
+---
+navigation:
+  - splfixedarray.toarray.md: '« SplFixedArray::toArray'
+  - splfixedarray.wakeup.md: 'SplFixedArray::wakeup »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::valid'
+---
 # SplFixedArray::valid
 
-(PHP 5 = 5.3.0, PHP 7)
+(PHP 5> = 5.3.0, PHP 7)
 
 SplFixedArray::valid — Перевіряє масив на наявність елементів
 
 ### Опис
 
-public **SplFixedArray::valid**(): bool
+```methodsynopsis
+public SplFixedArray::valid(): bool
+```
 
 Перевіряє масив на наявність елементів.
 
@@ -23,5 +26,4 @@ public **SplFixedArray::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо масив містить хоча б один елемент, та
-**`false`** інакше.
+Повертає **`true`**, якщо масив містить хоча б один елемент, та **`false`** в іншому випадку.

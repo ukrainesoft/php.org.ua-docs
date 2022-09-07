@@ -1,11 +1,11 @@
-- [« Налаштування під час виконання](xmlrpc.configuration.md)
-- [Предвизначені константи »](xmlrpc.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xmlrpc.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - xmlrpc.configuration.md: « Налаштування під час виконання
+  - xmlrpc.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - xmlrpc.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
-Модуль визначає серверний ресурс XML-RPC, що повертається
-[xmlrpc_server_create()](function.xmlrpc-server-create.md).
+Модуль визначає серверний ресурс XML-RPC, що повертається [xmlrpcservercreate()](function.xmlrpc-server-create.md)

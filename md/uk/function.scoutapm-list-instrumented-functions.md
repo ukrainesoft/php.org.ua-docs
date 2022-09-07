@@ -1,20 +1,22 @@
-- [« scoutapm_get_calls](function.scoutapm-get-calls.md)
-- [SNMP »](book.snmp.md)
+---
+navigation:
+  - function.scoutapm-get-calls.md: « scoutapmgetcalls
+  - book.snmp.md: SNMP »
+  - index.md: PHP Manual
+  - ref.scoutapm.md: Функции Scoutapm
+title: scoutapmlistinstrumentedфункцій
+---
+# scoutapmlistinstrumentedфункцій
 
-- [PHP Manual](index.md)
-- [Функції Scoutapm](ref.scoutapm.md)
-- Список функцій, які scoutapm буде використовувати
+(PECL scoutapm >= 1.0.2)
 
-# scoutapm_list_instrumented_functions
-
-(PECL scoutapm \>= 1.0.2)
-
-scoutapm_list_instrumented_functions — Список функцій, які scoutapm
-буде використовувати
+scoutapmlistinstrumentedfunctions — Список функцій, які scoutapm використовуватиме
 
 ### Опис
 
-**scoutapm_list_instrumented_functions**(): array
+```methodsynopsis
+scoutapm_list_instrumented_functions(): array
+```
 
 Повертає список функцій, які модуль використовуватиме
 
@@ -24,28 +26,31 @@ scoutapm_list_instrumented_functions — Список функцій, які sco
 
 ### Значення, що повертаються
 
-**scoutapm_list_instrumented_functions()** повертає масив, що містить
-Список всіх функцій, які модуль scoutapm може використовувати в
-поточної установки.
+**scoutapmlistinstrumentedfunctions()** повертає масив, що містить список всіх функцій, які модуль scoutapm може використовувати у поточній установці.
 
 ### Приклади
 
-**Приклад #1 Отримання списку функцій, які scoutapm може
-використовувати**
+**Приклад #1 Отримання списку функцій, які може використовувати scoutapm**
 
-` <?phpprint_r(scoutapm_list_instrumented_functions());?> `
+```php
+<?php
+print_r(scoutapm_list_instrumented_functions());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => file_get_contents
-[1] => file_put_contents
-[2] => fopen
-[3] => fread
-[4] => fwrite
-[5] => pdo->exec
-[6] => pdo->query
-[7] => pdo->prepare
-[8] => pdostatement->execute
+    [0] => file_get_contents
+    [1] => file_put_contents
+    [2] => fopen
+    [3] => fread
+    [4] => fwrite
+    [5] => pdo->exec
+    [6] => pdo->query
+    [7] => pdo->prepare
+    [8] => pdostatement->execute
 )
+```

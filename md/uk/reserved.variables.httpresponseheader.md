@@ -1,49 +1,58 @@
-- [« $php_errormsg](reserved.variables.phperrormsg.md)
-- [$argc »](reserved.variables.argc.md)
+---
+navigation:
+  - reserved.variables.phperrormsg.md: « $phperrormsg
+  - reserved.variables.argc.md: $argc »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: $httpresponseheader
+---
+# $httpresponseheader
 
-- [PHP Manual](index.md)
-- [Предвизначені змінні](reserved.variables.md)
-- Заголовки відповідей HTTP
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-# $http_response_header
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-$http_response_header — Заголовки відповідей HTTP
+$httpresponseheader — Заголовки відповідей HTTP
 
 ### Опис
 
-Масив (array) `$http_response_header` схожий на функцию
-[get_headers()](function.get-headers.md). При використанні [обгортки HTTP](wrappers.http.md), `$http_response_header` буде заповнюватися
-заголовки відповіді HTTP. `$http_response_header` буде створено в
-[локальної області видимості](language.variables.scope.md).
+Масив (array) $httpresponseheader схожий на функцію [getheaders()](function.get-headers.md). При використанні [обёртки HTTP](wrappers.http.md), $httpresponseheader буде заповнюватись заголовками відповіді HTTP. $httpresponseheader буде створено в [локальної області видимості](language.variables.scope.md)
 
 ### Приклади
 
-**Приклад #1 Приклад `$http_response_header`**
+**Приклад #1 Приклад $httpresponseheader**
 
-`<?phpfunction get_contents() { file_get_contents("http://example.com"); var_dump($http_response_header);}get_contents();var_dump($http_response_header);?> `
+```php
+<?php
+function get_contents() {
+  file_get_contents("http://example.com");
+  var_dump($http_response_header);
+}
+get_contents();
+var_dump($http_response_header);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(9) {
-[0]=>
-string(15) "HTTP/1.1 200 OK"
-[1]=>
-string(35) "Date: Sat, 12 Apr 2008 17:30:38 GMT"
-[2]=>
-string(29) "Server: Apache/2.2.3 (CentOS)"
-[3]=>
-string(44) "Last-Modified: Tue, 15 Nov 2005 13:24:10 GMT"
-[4]=>
-string(27) "ETag: "280100-1b6-80bfd280""
-[5]=>
-string(20) "Accept-Ranges: bytes"
-[6]=>
-string(19) "Content-Length: 438"
-[7]=>
-string(17) "Connection: close"
-[8]=>
-string(38) "Content-Type: text/html; charset=UTF-8"
+  [0]=>
+  string(15) "HTTP/1.1 200 OK"
+  [1]=>
+  string(35) "Date: Sat, 12 Apr 2008 17:30:38 GMT"
+  [2]=>
+  string(29) "Server: Apache/2.2.3 (CentOS)"
+  [3]=>
+  string(44) "Last-Modified: Tue, 15 Nov 2005 13:24:10 GMT"
+  [4]=>
+  string(27) "ETag: "280100-1b6-80bfd280""
+  [5]=>
+  string(20) "Accept-Ranges: bytes"
+  [6]=>
+  string(19) "Content-Length: 438"
+  [7]=>
+  string(17) "Connection: close"
+  [8]=>
+  string(38) "Content-Type: text/html; charset=UTF-8"
 }
 NULL
+```

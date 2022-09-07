@@ -1,33 +1,33 @@
-- [« ImagickDraw::setTextKerning](imagickdraw.settextkerning.md)
-- [ImagickDraw::setVectorGraphics »](imagickdraw.setvectorgraphics.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Задає колір прямокутника фону
-
+---
+navigation:
+  - imagickdraw.settextkerning.md: '« ImagickDraw::setTextKerning'
+  - imagickdraw.setvectorgraphics.md: 'ImagickDraw::setVectorGraphics »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextUnderColor'
+---
 # ImagickDraw::setTextUnderColor
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::setTextUnderColor — Задає колір прямокутника фону
+ImagickDraw::setTextUnderColor — Задає колір прямокутника тла.
 
 ### Опис
 
-public
-**ImagickDraw::setTextUnderColor**([ImagickPixel](class.imagickpixel.md)
-`$under_color`): bool
+```methodsynopsis
+public ImagickDraw::setTextUnderColor(ImagickPixel $under_color): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Задає колір прямокутника для розміщення під текстовими
-анотаціями.
+Задає колір прямокутника для розміщення під текстовими анотаціями.
 
 ### Список параметрів
 
 `under_color`
+
 Фоновий колір.
 
 ### Значення, що повертаються
@@ -38,4 +38,28 @@ public
 
 **Приклад #1 Приклад використання **ImagickDraw::setTextUnderColor()****
 
-` <?phpfunction setTextUnderColor($strokeColor, $fillColor, $backgroundColor, $textUnderColor) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(2); $draw->setFontSize(72); $draw->annotation(50, 75, "Lorem Ipsum!"); $draw->setTextUnderColor($textUnderColor); $draw->annotation(50, 175, "Lorem Ipsum!"); $imagick==newImagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function setTextUnderColor($strokeColor, $fillColor, $backgroundColor, $textUnderColor) {
+    $draw = new \ImagickDraw();
+
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+    $draw->annotation(50, 75, "Lorem Ipsum!");
+    $draw->setTextUnderColor($textUnderColor);
+    $draw->annotation(50, 175, "Lorem Ipsum!");
+
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+
+    $imagick->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

@@ -1,10 +1,11 @@
-- [« ReflectionMethod::isPublic](reflectionmethod.ispublic.md)
-- [ReflectionMethod::setAccessible »](reflectionmethod.setaccessible.md)
-
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Перевіряє, чи є метод статичним
-
+---
+navigation:
+  - reflectionmethod.ispublic.md: '« ReflectionMethod::isPublic'
+  - reflectionmethod.setaccessible.md: 'ReflectionMethod::setAccessible »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::isStatic'
+---
 # ReflectionMethod::isStatic
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ReflectionMethod::isStatic — Перевіряє, чи є метод стати
 
 ### Опис
 
-public **ReflectionMethod::isStatic**(): bool
+```methodsynopsis
+public ReflectionMethod::isStatic(): bool
+```
 
 Перевіряє, чи є метод статичним.
 
@@ -23,9 +26,8 @@ public **ReflectionMethod::isStatic**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо метод статичний, **`false`** в іншому випадку.
+\*\*`true`\*\*якщо метод статичний, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionMethod::isFinal()](reflectionmethod.isfinal.md) -
-Перевіряє, чи є метод остаточним
+-   [ReflectionMethod::isFinal()](reflectionmethod.isfinal.md) - Перевіряє, чи є метод остаточним

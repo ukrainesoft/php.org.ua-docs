@@ -1,46 +1,54 @@
-- [«disk_free_space](function.disk-free-space.md)
-- [diskfreespace »](function.diskfreespace.md)
+---
+navigation:
+  - function.disk-free-space.md: « diskfreespace
+  - function.diskfreespace.md: diskfreespace »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: disktotalspace
+---
+# disktotalspace
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Повертає загальний розмір файлової системи або розділу диска
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-# disk_total_space
-
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
-
-disk_total_space — Повертає загальний розмір файлової системи або розділу
-диска
+disktotalspace — Повертає загальний розмір файлової системи або розділу диска
 
 ### Опис
 
-**disk_total_space**(string `$directory`): float\|false
+```methodsynopsis
+disk_total_space(string $directory): float|false
+```
 
-Функція повертає загальний розмір у байтах вказаного розділу диска або
-каталогу.
+Функція повертає загальний розмір у байтах вказаного розділу диска чи каталогу.
 
 ### Список параметрів
 
 `directory`
+
 Директорія файлової системи чи розділ диска.
 
 ### Значення, що повертаються
 
-Повертає загальний розмір у байтах у вигляді числа з плаваючою точкою або
-**`false`** у разі виникнення помилки.
+Повертає загальний розмір у байтах у вигляді числа з плаваючою точкою або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **disk_total_space()****
+**Приклад #1 Приклад використання **disktotalspace()****
 
-` <?php// $df містить загальний розмір диска "/" в байтах$ds = disk_total_space("/");// В Windows:$ds = disk_total_space("C:");$ds = :");?> `
+```php
+<?php
+// $df содержит общий размер диска "/" в байтах
+$ds = disk_total_space("/");
+
+// В Windows:
+$ds = disk_total_space("C:");
+$ds = disk_total_space("D:");
+?>
+```
 
 ### Примітки
 
-> **Примітка**: Ця функція не застосовується для роботи з [віддаленими > файлами](features.remote-files.md), оскільки файл має бути
-> доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.md)оскільки файл повинен бути доступний через файлову систему сервера.
 
 ### Дивіться також
 
-- [disk_free_space()](function.disk-free-space.md) - Повертає
-розмір доступного простору в каталозі або файловій системі
+-   [diskfreespace()](function.disk-free-space.md) - Повертає розмір доступного простору в каталозі чи файловій системі

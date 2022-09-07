@@ -1,10 +1,11 @@
-- [« SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.md)
-- [mysql_xdevapi\SqlStatementResult »](class.mysql-xdevapi-sqlstatementresult.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
-- Перевіряє, чи є ще результати
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatement.getresult.md: '« SqlStatement::getResult'
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
+title: 'SqlStatement::hasMoreResults'
+---
 # SqlStatement::hasMoreResults
 
 (No version information available, might only be in Git)
@@ -13,12 +14,13 @@ SqlStatement::hasMoreResults — Перевіряє, чи є ще результ
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatement::hasMoreResults**(): bool
+```methodsynopsis
+public mysql_xdevapi\SqlStatement::hasMoreResults(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,11 +28,16 @@ public **mysql_xdevapi\SqlStatement::hasMoreResults**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо у наборі результатів є більше об'єктів для вибірки.
+**`true`**, якщо в наборі результатів є більше об'єктів для вибірки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatement::hasMoreResults()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::hasMoreResults()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

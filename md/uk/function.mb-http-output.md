@@ -1,52 +1,45 @@
-- [«mb_http_input](function.mb-http-input.md)
-- [mb_internal_encoding »](function.mb-internal-encoding.md)
+---
+navigation:
+  - function.mb-http-input.md: « mbhttpinput
+  - function.mb-internal-encoding.md: мбinternalencoding »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбhttpoutput
+---
+# мбhttpoutput
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Встановлення/отримання кодування символів виводу HTTP
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-#mb_http_output
-
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
-
-mb_http_output — Встановлення/отримання кодування символів виводу HTTP
+мбhttpoutput — Встановлення/отримання кодування символів виводу HTTP
 
 ### Опис
 
-**mb_http_output**(?string `$encoding` = **`null`**): string\|bool
+```methodsynopsis
+mb_http_output(?string $encoding = null): string|bool
+```
 
-Встановлення/отримання кодування символів виводу HTTP. Вихідні дані
-після роботи цієї функції будуть перетворені з внутрішнього кодування до
-'encoding'.
+Встановлення/отримання кодування символів виводу HTTP. Вихідні дані після роботи цієї функції будуть перетворені з внутрішнього кодування до `encoding`
 
 ### Список параметрів
 
 `encoding`
-Якщо заданий аргумент `encoding`, **mb_http_output()** встановлює
-кодування вихідних символів HTTP в 'encoding'.
 
-Якщо аргумент `encoding` опущений, **mb_http_output()** повертає поточну
-кодування символів виводу HTTP.
+Якщо заданий аргумент `encoding` **мбhttpoutput()** встановлює кодування вихідних символів HTTP `encoding`
+
+Якщо аргумент `encoding` опущений, **мбhttpoutput()** повертає поточне кодування символів виводу HTTP.
 
 ### Значення, що повертаються
 
-Якщо аргумент `encoding` опущений, **mb_http_output()** повертає поточну
-кодування символів виводу HTTP. В іншому випадку, Повертає
-**`true`** у разі успішного виконання або **`false`** у разі
-виникнення помилки.
+Якщо аргумент `encoding` опущений, **мбhttpoutput()** повертає поточне кодування символів виводу HTTP. В іншому випадку, Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-|--------|----------------------------------------------------------|
-| 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 
-- [mb_internal_encoding()](function.mb-internal-encoding.md) -
-Встановлення/отримання внутрішнього кодування скрипту
-- [mb_http_input()](function.mb-http-input.md) - Визначення
-кодування символів вхідних даних HTTP-запиту
-- [mb_detect_order()](function.mb-detect-order.md) -
-Встановлення/отримання списку кодувань для механізмів визначення
-кодування
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбhttpinput()](function.mb-http-input.md) - Визначення кодування символів вхідних даних HTTP-запиту
+-   [мбdetectorder()](function.mb-detect-order.md) - Встановлення/отримання списку кодувань для механізмів визначення кодування

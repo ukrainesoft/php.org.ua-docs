@@ -1,19 +1,22 @@
-- [« SolrQuery::getFilterQueries](solrquery.getfilterqueries.md)
-- [SolrQuery::getGroupCachePercent »](solrquery.getgroupcachepercent.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає true, якщо угруповання увімкнено
-
+---
+navigation:
+  - solrquery.getfilterqueries.md: '« SolrQuery::getFilterQueries'
+  - solrquery.getgroupcachepercent.md: 'SolrQuery::getGroupCachePercent »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroup'
+---
 # SolrQuery::getGroup
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroup — Повертає true, якщо угруповання увімкнено
 
 ### Опис
 
-public **SolrQuery::getGroup**(): bool
+```methodsynopsis
+public SolrQuery::getGroup(): bool
+```
 
 Повертає true, якщо угруповання увімкнено
 
@@ -25,5 +28,4 @@ public **SolrQuery::getGroup**(): bool
 
 ### Дивіться також
 
-- [SolrQuery::setGroup()](solrquery.setgroup.md) -
-Включає/вимикає групування результатів (параметр group)
+-   [SolrQuery::setGroup()](solrquery.setgroup.md) - Включає/вимикає групування результатів (параметр group)

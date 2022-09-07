@@ -1,16 +1,19 @@
-- [«Componere\Patch::revert](componere-patch.revert.md)
-- [Componere\Patch::derive »](componere-patch.derive.md)
+---
+navigation:
+  - componere-patch.revert.md: '« ComponerePatch::revert'
+  - componere-patch.derive.md: 'ComponerePatch::derive »'
+  - index.md: PHP Manual
+  - class.componere-patch.md: ComponerePatch
+title: 'ComponerePatch::isApplied'
+---
+# ComponerePatch::isApplied
 
-- [PHP Manual](index.md)
-- [Componere\Patch](class.componere-patch.md)
-- Визначення стану
+(Componere 2 >= 2.1.0)
 
-# Componere\Patch::isApplied
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Patch::isApplied — Визначення стану
+ComponerePatch::isApplied — Визначення стану
 
 ### Опис
 
-public **Componere\Patch::isApplied**(): bool
+```methodsynopsis
+public Componere\Patch::isApplied(): bool
+```

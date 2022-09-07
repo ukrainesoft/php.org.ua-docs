@@ -1,29 +1,30 @@
-- [«Gmagick::current](gmagick.current.md)
-- [Gmagick::deconstructimages »](gmagick.deconstructimages.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Зміщує колірну карту зображення
-
+---
+navigation:
+  - gmagick.current.md: '« Gmagick::current'
+  - gmagick.deconstructimages.md: 'Gmagick::deconstructimages »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::cyclecolormapimage'
+---
 # Gmagick::cyclecolormapimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::cyclecolormapimage — Зміщує колірну карту зображення
 
 ### Опис
 
-public **Gmagick::cyclecolormapimage**(int `$displace`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::cyclecolormapimage(int $displace): Gmagick
+```
 
-Зміщує колірну карту зображення на задану кількість позицій. Якщо
-ви циклічно змінюєте колірну карту кілька разів, ви можете
-зробити психоделічний ефект.
+Зміщує колірну карту зображення на задану кількість позицій. Якщо ви циклічно змінюєте картку кольорів кілька разів, ви можете зробити психоделічний ефект.
 
 ### Список параметрів
 
 `displace`
-Кількість зсувів картки кольорів.
+
+Кількість зсувів карти кольорів.
 
 ### Значення, що повертаються
 

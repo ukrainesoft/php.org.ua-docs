@@ -1,26 +1,24 @@
-- [« RarEntry::isEncrypted](rarentry.isencrypted.md)
-- [RarException »](class.rarexception.md)
+---
+navigation:
+  - rarentry.isencrypted.md: '« RarEntry::isEncrypted'
+  - class.rarexception.md: RarException »
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::function toString() { \[native code\] }'
+---
+# RarEntry::function toString() { \[native code\] }
 
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Отримати текстове подання запису
+(PECL rar >= 2.0.0)
 
-# RarEntry::\_\_toString
-
-(PECL rar \>= 2.0.0)
-
-RarEntry::\_\_toString — Отримати текстове представлення запису
+RarEntry::toString — Отримати текстове подання запису
 
 ### Опис
 
-public **RarEntry::\_\_toString**(): string
+```methodsynopsis
+public RarEntry::__toString(): string
+```
 
-**RarEntry::\_\_toString()** повертає текстову виставу для
-поточного запису. Воно міститиме інформацію про те, чи є запис
-файлом або директорією (символічні посилання та інші спеціальні
-об'єкти будуть вважатися файлами), ім'я запису в кодуванні UTF-8 та її
-Контрольна сума (CRC). Вигляд та зміст цієї інформації у майбутньому
-може змінитися, тому не варто на них покладатися.
+**RarEntry::toString()** повертає текстове подання для поточного запису. Воно буде містити інформацію про те, чи є запис файлом або директорією (символічні посилання та інші спеціальні об'єкти будуть вважатися файлами), ім'я запису кодування UTF-8 та її контрольна сума (CRC). Вигляд і змістом цієї інформації в майбутньому може змінитися, так що не варто на них покладатися.
 
 ### Список параметрів
 

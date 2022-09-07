@@ -1,24 +1,24 @@
-- [« php_user_filter::filter](php-user-filter.filter.md)
-- [php_user_filter::onCreate »](php-user-filter.oncreate.md)
-
-- [PHP Manual](index.md)
-- [php_user_filter](class.php-user-filter.md)
-- Викликається під час закриття фільтра
-
-# php_user_filter::onClose
+---
+navigation:
+  - php-user-filter.filter.md: '« phpuserfilter::filter'
+  - php-user-filter.oncreate.md: 'phpuserfilter::onCreate »'
+  - index.md: PHP Manual
+  - class.php-user-filter.md: phpuserfilter
+title: 'phpuserfilter::onClose'
+---
+# phpuserfilter::onClose
 
 (PHP 5, PHP 7, PHP 8)
 
-php_user_filter::onClose — Закриється фільтр
+phpuserfilter::onClose — Викликається при закритті фільтра
 
 ### Опис
 
-public **php_user_filter::onClose**(): void
+```methodsynopsis
+public php_user_filter::onClose(): void
+```
 
-Цей метод викликається, коли фільтр завершує роботу (зазвичай разом із
-закриттям потоку), і виконується *після* виклику методу `flush`. Якщо
-будь-які ресурси були виділені під час виконання методу
-`onCreate()`, то це час, коли їх час знищувати.
+Цей метод викликається, коли фільтр завершує роботу (зазвичай разом із закриттям потоку), та виконується *після* виклику методу `flush`. Якщо будь-які ресурси були виділені під час виконання методу `onCreate()`, то це час, коли їх час знищувати.
 
 ### Список параметрів
 

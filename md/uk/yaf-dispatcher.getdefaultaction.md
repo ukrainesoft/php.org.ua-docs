@@ -1,19 +1,22 @@
-- [« Yaf_Dispatcher::getApplication](yaf-dispatcher.getapplication.md)
-- [Yaf_Dispatcher::getDefaultController »](yaf-dispatcher.getdefaultcontroller.md)
+---
+navigation:
+  - yaf-dispatcher.getapplication.md: '« YafDispatcher::getApplication'
+  - yaf-dispatcher.getdefaultcontroller.md: 'YafDispatcher::getDefaultController »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
+title: 'YafDispatcher::getDefaultAction'
+---
+# YafDispatcher::getDefaultAction
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Отримує ім'я стандартної дії
+(Yaf> = 3.2.0)
 
-# Yaf_Dispatcher::getDefaultAction
-
-(Yaf \>=3.2.0)
-
-Yaf_Dispatcher::getDefaultAction — Отримує ім'я стандартної дії
+YafDispatcher::getDefaultAction — Отримує ім'я стандартної дії
 
 ### Опис
 
-public **Yaf_Dispatcher::getDefaultAction**(): string
+```methodsynopsis
+public Yaf_Dispatcher::getDefaultAction(): string
+```
 
 Отримує ім'я стандартної дії
 

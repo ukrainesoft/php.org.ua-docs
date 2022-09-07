@@ -1,19 +1,22 @@
-- [« Gmagick::getimagemattecolor](gmagick.getimagemattecolor.md)
-- [Gmagick::getimageredprimary »](gmagick.getimageredprimary.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає іменований профайл зображення
-
+---
+navigation:
+  - gmagick.getimagemattecolor.md: '« Gmagick::getimagemattecolor'
+  - gmagick.getimageredprimary.md: 'Gmagick::getimageredprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimageprofile'
+---
 # Gmagick::getimageprofile
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageprofile — Повертає іменований профайл зображення
 
 ### Опис
 
-public **Gmagick::getimageprofile**(string `$name`): string
+```methodsynopsis
+public Gmagick::getimageprofile(string $name): string
+```
 
 Повертає іменований профайл зображення.
 

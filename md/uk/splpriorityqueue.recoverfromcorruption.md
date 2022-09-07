@@ -1,20 +1,22 @@
-- [« SplPriorityQueue::next](splpriorityqueue.next.md)
-- [SplPriorityQueue::rewind »](splpriorityqueue.rewind.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Відновлює коректний стан черги
-
+---
+navigation:
+  - splpriorityqueue.next.md: '« SplPriorityQueue::next'
+  - splpriorityqueue.rewind.md: 'SplPriorityQueue::rewind »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::recoverFromCorruption'
+---
 # SplPriorityQueue::recoverFromCorruption
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplPriorityQueue::recoverFromCorruption — Відновлює коректне
-стан черги
+SplPriorityQueue::recoverFromCorruption — Відновлює коректний стан черги
 
 ### Опис
 
-public **SplPriorityQueue::recoverFromCorruption**(): bool
+```methodsynopsis
+public SplPriorityQueue::recoverFromCorruption(): bool
+```
 
 ### Список параметрів
 
@@ -22,4 +24,4 @@ public **SplPriorityQueue::recoverFromCorruption**(): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**.
+Завжди повертає **`true`**

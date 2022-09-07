@@ -1,22 +1,24 @@
-- [« Imagick::setImageGravity](imagick.setimagegravity.md)
-- [Imagick::setImageIndex »](imagick.setimageindex.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює кольоровість зображення зеленою первинною точкою
-
+---
+navigation:
+  - imagick.setimagegravity.md: '« Imagick::setImageGravity'
+  - imagick.setimageindex.md: 'Imagick::setImageIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageGreenPrimary'
+---
 # Imagick::setImageGreenPrimary
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageGreenPrimary — Встановлює кольоровість зображення
-зеленою первинною точкою
+Imagick::setImageGreenPrimary — Встановлює кольоровість зображення зеленою первинною точкою
 
 ### Опис
 
-public **Imagick::setImageGreenPrimary**(float `$x`, float `$y`): bool
+```methodsynopsis
+public Imagick::setImageGreenPrimary(float $x, float $y): bool
+```
 
-Встановлює кольоровість зображення зеленою первинною точкою.
+Встановлює кольоровість зображення первинною зеленою точкою.
 
 ### Список параметрів
 
@@ -26,7 +28,7 @@ public **Imagick::setImageGreenPrimary**(float `$x`, float `$y`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

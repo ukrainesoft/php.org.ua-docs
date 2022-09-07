@@ -1,10 +1,11 @@
-- [« Imagick::queryFonts](imagick.queryfonts.md)
-- [Imagick::radialBlurImage »](imagick.radialblurimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає формати, що підтримуються Imagick
-
+---
+navigation:
+  - imagick.queryfonts.md: '« Imagick::queryFonts'
+  - imagick.radialblurimage.md: 'Imagick::radialBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::queryFormats'
+---
 # Imagick::queryFormats
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::queryFormats — Повертає формати, які підтрим
 
 ### Опис
 
-public static **Imagick::queryFormats**(string `$pattern` = "\*"): array
+```methodsynopsis
+public static Imagick::queryFormats(string $pattern = "*"): array
+```
 
 Повертає формати Imagick.
 
@@ -33,4 +36,31 @@ public static **Imagick::queryFormats**(string `$pattern` = "\*"): array
 
 **Приклад #1 Приклад використання **Imagick::queryFormats()****
 
-` <?php    function render() {        $output = ""; $input==Imagick::queryformats(); $ columns = = 6; $output.=="<table|border='2'>"; for ($i=0; $i < count($input); $i += $columns) {            $output .= "<tr>"; for ($c=0;$c<$columns;$c++) {                $output .= "<td>"; if (($i + $c) <  count($input)) {                    $output .= $input[$i + $c]; }                  $output .= "</td>"; }             $output .= "</tr>"; }        $output .= "</table>"; return $output; }?> `
+```php
+<?php
+    function render() {
+        $output = "";
+        $input = \Imagick::queryformats();
+        $columns = 6;
+
+        $output .= "<table border='2'>";
+
+        for ($i=0; $i < count($input); $i += $columns) {
+            $output .= "<tr>";
+            for ($c=0; $c<$columns; $c++) {
+                $output .= "<td>";
+                if (($i + $c) <  count($input)) {
+                    $output .= $input[$i + $c];
+                }
+                $output .= "</td>";
+            }
+            $output .= "</tr>";
+        }
+
+        $output .= "</table>";
+
+        return $output;
+    }
+
+?>
+```

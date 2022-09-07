@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](xattr.configuration.md)
-- [Предвизначені константи »](xattr.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xattr.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - xattr.configuration.md: « Налаштування під час виконання
+  - xattr.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - xattr.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

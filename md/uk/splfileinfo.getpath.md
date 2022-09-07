@@ -1,19 +1,22 @@
-- [« SplFileInfo::getOwner](splfileinfo.getowner.md)
-- [SplFileInfo::getPathInfo »](splfileinfo.getpathinfo.md)
-
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Отримує шлях без імені файлу
-
+---
+navigation:
+  - splfileinfo.getowner.md: '« SplFileInfo::getOwner'
+  - splfileinfo.getpathinfo.md: 'SplFileInfo::getPathInfo »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getPath'
+---
 # SplFileInfo::getPath
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPath — Отримує шлях без імені файлу
 
 ### Опис
 
-public **SplFileInfo::getPath**(): string
+```methodsynopsis
+public SplFileInfo::getPath(): string
+```
 
 Повертає шлях до файлу, за винятком імені файлу та завершального слішу.
 
@@ -29,18 +32,25 @@ public **SplFileInfo::getPath**(): string
 
 **Приклад #1 Приклад використання **SplFileInfo::getPath()****
 
-` <?php$info = new SplFileInfo('/usr/bin/php');var_dump($info->getPath());$info = new SplFileInfo('/usr/');var_dump($info-> getPath());?> `
+```php
+<?php
+$info = new SplFileInfo('/usr/bin/php');
+var_dump($info->getPath());
+
+
+$info = new SplFileInfo('/usr/');
+var_dump($info->getPath());?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(8) "/usr/bin"
 string(4) "/usr"
+```
 
 ### Дивіться також
 
-- [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) -
-Отримує абсолютний шлях до файлу
-- [SplFileInfo::getFilename()](splfileinfo.getfilename.md) -
-Отримує ім'я файлу
-- [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.md) -
-Отримує об'єкт SplFileInfo для заданого шляху
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу
+-   [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.md) - Отримує об'єкт SplFileInfo для заданого шляху

@@ -1,24 +1,27 @@
-- [«Ev::feedSignalEvent](ev.feedsignalevent.md)
-- [Ev::now »](ev.now.md)
-
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Отримати кількість опитувань циклу за замовчуванням на
-предмет нових подій
-
+---
+navigation:
+  - ev.feedsignalevent.md: '« Ev::feedSignalEvent'
+  - ev.now.md: 'Ev::now »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::iteration'
+---
 # Ev::iteration
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-Ev::iteration — Отримати кількість проведених опитувань циклу
-замовчуванням щодо нових подій
+Ev::iteration — Отримати кількість проведених опитувань циклу за умовчанням щодо нових подій
 
 ### Опис
 
-final public static **Ev::iteration**(): int
+```methodsynopsis
+final
+   public
+   static
+   Ev::iteration(): int
+```
 
-Повертає кількість опитувань циклу за замовчуванням на
-предмет нових подій. Іноді корисно як лічильник генерацій.
+Повертає кількість опитувань циклу за умовчанням на предмет нових подій. Іноді корисно як лічильник генерацій.
 
 ### Список параметрів
 
@@ -30,4 +33,4 @@ final public static **Ev::iteration**(): int
 
 ### Дивіться також
 
-- [Ev::depth()](ev.depth.md) - Отримати глибину рекурсії
+-   [Ev::depth()](ev.depth.md) - Здобути глибину рекурсії

@@ -1,40 +1,50 @@
-- [«EventUtil::getSocketFd](eventutil.getsocketfd.md)
-- [EventUtil::setSocketOption »](eventutil.setsocketoption.md)
-
-- [PHP Manual](index.md)
-- [EventUtil](class.eventutil.md)
-- Отримати поточну адресу, до якої прив'язаний сокет
-
+---
+navigation:
+  - eventutil.getsocketfd.md: '« EventUtil::getSocketFd'
+  - eventutil.setsocketoption.md: 'EventUtil::setSocketOption »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
+title: 'EventUtil::getSocketName'
+---
 # EventUtil::getSocketName
 
-(PECL event \>= 1.5.0)
+(PECL event >= 1.5.0)
 
-EventUtil::getSocketName — Отримати поточну адресу, до якої прив'язаний
-сокет
+EventUtil::getSocketName — Отримати поточну адресу, до якої прив'язаний сокет
 
 ### Опис
 
-public static **EventUtil::getSocketName**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` , string `&$address` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$port` = ?): bool
+```methodsynopsis
+public
+   static
+   EventUtil::getSocketName(
+    mixed
+     $socket
+   , 
+    string
+     &$address
+   , 
+    mixed
+     &$port
+    = ?): bool
+```
 
-Повертає поточну адресу, яку прив'язаний сокет `socket`.
+Повертає поточну адресу, до якої прив'язаний сокет `socket`
 
 ### Список параметрів
 
 `socket`
+
 Ресурс сокету, потоку чи файловий дескриптор, пов'язаний із сокетом.
 
 `address`
+
 Вихідний параметр. IP-адреса або шлях до доменного сокету UNIX.
 
 `port`
-Вихідний параметр. Порт, якого прив'язаний сокет. Не має сенсу для
-доменних сокетів UNIX
+
+Вихідний параметр. Порт, якого прив'язаний сокет. Немає сенсу для доменних сокетів UNIX.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

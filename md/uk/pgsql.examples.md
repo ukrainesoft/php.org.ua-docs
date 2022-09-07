@@ -1,13 +1,14 @@
-- [«Зумовлені константи](pgsql.constants.md)
-- [Базове використання»](pgsql.examples-basic.md)
-
-- [PHP Manual](index.md)
-- [PostgreSQL](book.pgsql.md)
-- Приклади
-
+---
+navigation:
+  - pgsql.constants.md: « Обумовлені константи
+  - pgsql.examples-basic.md: Базовое использование »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
+title: Приклади
+---
 # Приклади
 
 ## Зміст
 
-- [Базове використання](pgsql.examples-basic.md)
-- [Базове використання](pgsql.examples-queries.md)
+-   [Базовое использование](pgsql.examples-basic.md)
+-   [Базовое использование](pgsql.examples-queries.md)

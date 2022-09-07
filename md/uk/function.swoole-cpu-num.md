@@ -1,19 +1,22 @@
-- [« swoole_client_select](function.swoole-client-select.md)
-- [swoole_errno »](function.swoole-errno.md)
+---
+navigation:
+  - function.swoole-client-select.md: « swooleclientselect
+  - function.swoole-errno.md: swooleerrno »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swoolecpunum
+---
+# swoolecpunum
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Отримати кількість CPU
+(PECL swoole >= 1.9.0)
 
-# swoole_cpu_num
-
-(PECL swoole \>= 1.9.0)
-
-swoole_cpu_num — Отримати кількість CPU
+swoolecpunum — Отримати кількість CPU
 
 ### Опис
 
-**swoole_cpu_num**(): int
+```methodsynopsis
+swoole_cpu_num(): int
+```
 
 ### Список параметрів
 

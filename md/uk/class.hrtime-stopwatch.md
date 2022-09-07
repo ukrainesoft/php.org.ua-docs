@@ -1,70 +1,61 @@
-- [« HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)
-- [HRTime\StopWatch::getElapsedTicks »](hrtime-stopwatch.getelapsedticks.md)
+---
+navigation:
+  - hrtime-performancecounter.gettickssince.md: '« HRTimePerformanceCounter::getTicksSince'
+  - hrtime-stopwatch.getelapsedticks.md: 'HRTimeStopWatch::getElapsedTicks »'
+  - index.md: PHP Manual
+  - book.hrtime.md: HRTime
+title: Клас HRTimeStopWatch
+---
+# Клас HRTimeStopWatch
 
-- [PHP Manual](index.md)
-- [HRTime](book.hrtime.md)
-- Клас HRTime\StopWatch
-
-# Клас HRTime\StopWatch
-
-(PECL hrtime \>= 0.4.3)
+(PECL hrtime >= 0.4.3)
 
 ## Вступ
 
 ## Огляд класів
 
-class **HRTime\StopWatch** extends
-[HRTime\PerformanceCounter](class.hrtime-performancecounter.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [getElapsedTicks](hrtime-stopwatch.getelapsedticks.md)(): int
+    
+    
+     
+      class HRTime\StopWatch
+     
 
-public [getElapsedTime](hrtime-stopwatch.getelapsedtime.md)(int
-`$unit` = ?): float
+     
+      extends
+       HRTime\PerformanceCounter
+     
+     {
+    
 
-public
-[getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md)(): int
+    /* Методы */
+    
+   public getElapsedTicks(): int
+public getElapsedTime(int $unit = ?): float
+public getLastElapsedTicks(): int
+public getLastElapsedTime(int $unit = ?): float
+public isRunning(): bool
+public start(): void
+public stop(): void
 
-public
-[getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)(int
-`$unit` = ?): float
 
-public [isRunning](hrtime-stopwatch.isrunning.md)(): bool
+    /* Наследуемые методы */
+    public static HRTime\PerformanceCounter::getFrequency(): int
+public static HRTime\PerformanceCounter::getTicks(): int
+public static HRTime\PerformanceCounter::getTicksSince(int $start): int
 
-public [start](hrtime-stopwatch.start.md)(): void
 
-public [stop](hrtime-stopwatch.stop.md)(): void
-
-/\* Наслідувані методи \*/
-
-public static
-[HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)():
-int
-
-public static
-[HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)():
-int
-
-public static
-[HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)(int
-`$start`): int
-
-}
+   }
+```
 
 ## Зміст
 
-- [HRTime\StopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.md)
-— Отримати кількість тиків для всіх інтервалів.
-- [HRTime\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.md)
-— Отримати сумарний минулий час усіх інтервалів
-- [HRTime\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md)
-— Отримати кількість тиків за останній інтервал
-- [HRTime\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)
-— Отримати минулий час для останнього інтервалу
-- [HRTime\StopWatch::isRunning](hrtime-stopwatch.isrunning.md) -
-Перевірити, чи виконується вимір
-- [HRTime\StopWatch::start](hrtime-stopwatch.start.md) — Запустити
-вимір часу
-- [HRTime\StopWatch::stop](hrtime-stopwatch.stop.md) — Зупинити
-вимір
+-   [HRTimeStopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.md) — Отримати кількість тиків для всіх інтервалів.
+-   [HRTimeStopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.md) — Отримати сумарний час усіх інтервалів, що минув.
+-   [HRTimeStopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md) — Отримати кількість тиків, що пройшли, за останній інтервал
+-   [HRTimeStopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md) — Отримати минулий час для останнього інтервалу
+-   [HRTimeStopWatch::isRunning](hrtime-stopwatch.isrunning.md) — Перевірити, чи виконується вимір
+-   [HRTimeStopWatch::start](hrtime-stopwatch.start.md) - Запустити вимір часу
+-   [HRTimeStopWatch::stop](hrtime-stopwatch.stop.md) — Зупинити вимір

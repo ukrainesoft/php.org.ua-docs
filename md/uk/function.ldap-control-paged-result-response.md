@@ -1,65 +1,57 @@
-- [«ldap_connect](function.ldap-connect.md)
-- [ldap_control_paged_result »](function.ldap-control-paged-result.md)
+---
+navigation:
+  - function.ldap-connect.md: « ldapconnect
+  - function.ldap-control-paged-result.md: ldapcontrolpagedresult »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapcontrolpagedresultresponse
+---
+# ldapcontrolpagedresultresponse
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Отримати вказівник на поточну сторінку результуючого набору LDAP
+(PHP 5> = 5.4.0, PHP 7)
 
-#ldap_control_paged_result_response
-
-(PHP 5 \>= 5.4.0, PHP 7)
-
-ldap_control_paged_result_response — Отримати вказівник на поточну
-сторінку результуючого набору LDAP
+ldapcontrolpagedresultresponse — Отримати вказівник на поточну сторінку LDAP
 
 **Увага**
 
-Функція була оголошена *УСТАРНІЙ* у PHP 7.4.0 та *Видалена* у PHP 8.0.0.
-Замість неї слід використовувати параметр `controls`
-[ldap_search()](function.ldap-search.md). Дивіться також [Управляючі об'єкти LDAP](ldap.controls.md) для отримання додаткової
-інформації.
+Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.md). Дивіться також [Керуючі об'єкти LDAP](ldap.controls.md) для отримання додаткової інформації.
 
 ### Опис
 
-**ldap_control_paged_result_response**(
-resource `$link`,
-resource `$result`,
-string `&$cookie` = ?,
-int `&$estimated` = ?
-): bool
+```methodsynopsis
+ldap_control_paged_result_response(    resource $link,    resource $result,    string &$cookie = ?,    int &$estimated = ?): bool
+```
 
-Отримати вказівник на поточну сторінку LDAP.
+Отримати вказівник на поточну сторінку результуючого набору LDAP.
 
 ### Список параметрів
 
 `link`
-Ресурс LDAP, який повертається функцією
-[ldap_connect()](function.ldap-connect.md).
+
+Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
 `cookie`
+
 Непрозора структура, отримана з сервера.
 
 `estimated`
+
 Очікувана кількість записів для вилучення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                          |
-|--------|-------------------------------|
-| 8.0.0  | Функцію було видалено.        |
-| 7.4.0  | Функція оголошена застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію було видалено. |
+|  | Функцію оголошено застарілою. |
 
 ### Дивіться також
 
-- [ldap_control_paged_result()](function.ldap-control-paged-result.md) -
-Надіслати серверу LDAP дані для використання посторінкового
-отримання результату
-- [» RFC2696 : Модуль управління LDAP для простих маніпуляцій
-постранично повертається результатом](http://www.faqs.org/rfcs/rfc2696)
+-   [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) - Надіслати серверу LDAP дані для використання посторінкового отримання результату
+-   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)

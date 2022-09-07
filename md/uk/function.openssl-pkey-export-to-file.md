@@ -1,56 +1,49 @@
-- [« openssl_pkey_derive](function.openssl-pkey-derive.md)
-- [openssl_pkey_export »](function.openssl-pkey-export.md)
+---
+navigation:
+  - function.openssl-pkey-derive.md: « opensslpkeyderive
+  - function.openssl-pkey-export.md: opensslpkeyexport »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkeyexportтоfile
+---
+# opensslpkeyexportтоfile
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Записує у файл ключ у форматі PEM
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-# openssl_pkey_export_to_file
-
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
-
-openssl_pkey_export_to_file — Записує у файл ключ у форматі PEM
+opensslpkeyexportтоfile — Записує у файл ключ у форматі PEM
 
 ### Опис
 
-**openssl_pkey_export_to_file**(
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$key`,
-string `$output_filename`,
-?string `$passphrase` = **`null`**,
-?array `$options` = **`null`**
-): bool
+```methodsynopsis
+openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $key,    string $output_filename,    ?string $passphrase = null,    ?array $options = null): bool
+```
 
-**openssl_pkey_export_to_file()** записує `key` у форматі PEM у файл
-`output_filename`.
+**opensslpkeyexportтоfile()** записує `key` у форматі PEM у файл `output_filename`
 
-> **Примітка**: Для коректної роботи цієї функції має існувати
-> правильний `openssl.cnf`. Для більш детальної інформації дивіться
-> зауваження під розділом установки (openssl.installation.md).
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
 
 ### Список параметрів
 
 `key`
 
 `output_filename`
+
 Шлях до файлу.
 
 `passphrase`
-Ключ опціонально захищається паролем `passphrase`.
+
+Ключ опціонально захищається паролем `passphrase`
 
 `options`
-`options` можна використовувати для тонкого налаштування процесу експорту
-шляхом вказівки або перевизначення опцій конфігураційного файлу
-openssl. Дивіться [openssl_csr_new()](function.openssl-csr-new.md) для
-Детальна інформація про `options`.
+
+`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться [opensslcsrnew()](function.openssl-csr-new.md) для детальної інформації про `options`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                          |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

@@ -1,20 +1,22 @@
-- [« Ds\Vector::jsonSerialize](ds-vector.jsonserialize.md)
-- [Ds\Vector::map »](ds-vector.map.md)
+---
+navigation:
+  - ds-vector.jsonserialize.md: '« DsVector::jsonSerialize'
+  - ds-vector.map.md: 'ДсVector::map »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::last'
+---
+# ДсVector::last
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає останнє значення вектора
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::last
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::last — Повертає останнє значення вектора
+ДсVector::last — Повертає останнє значення вектора
 
 ### Опис
 
-public **Ds\Vector::last**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Vector::last(): mixed
+```
 
 Повертає останнє значення вектора.
 
@@ -28,15 +30,21 @@ public **Ds\Vector::last**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо вектор порожній.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо вектор порожній.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::last()****
+**Приклад #1 Приклад використання **ДсVector::last()****
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->last());?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+var_dump($vector->last());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(3)
+```

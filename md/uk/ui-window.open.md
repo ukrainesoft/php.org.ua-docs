@@ -1,19 +1,22 @@
-- [«UI\Window::onClosing](ui-window.onclosing.md)
-- [UI\Window::save »](ui-window.save.md)
-
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Відкрити діалогове вікно
-
-# UI\Window::open
+---
+navigation:
+  - ui-window.onclosing.md: '« UIWindow::onClosing'
+  - ui-window.save.md: 'ОЙWindow::save »'
+  - index.md: PHP Manual
+  - class.ui-window.md: ОЙWindow
+title: 'ОЙWindow::open'
+---
+# ОЙWindow::open
 
 (UI 0.9.9)
 
-UI\Window::open — Відкрити діалогове вікно
+ОЙWindow::open — Відкрити діалогове вікно
 
 ### Опис
 
-public **UI\Window::open**(): string
+```methodsynopsis
+public UI\Window::open(): string
+```
 
 Відкриє діалогове вікно файлу
 

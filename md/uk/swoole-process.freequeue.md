@@ -1,20 +1,22 @@
-- [« Swoole\Process::exit](swoole-process.exit.md)
-- [Swoole\Process::kill »](swoole-process.kill.md)
+---
+navigation:
+  - swoole-process.exit.md: '« SwooleProcess::exit'
+  - swoole-process.kill.md: 'SwooleProcess::kill »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::freeQueue'
+---
+# SwooleProcess::freeQueue
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Знищує чергу повідомлень, створену swoole_process::useQueue
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::freeQueue
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::freeQueue — Знищує чергу повідомлень, створену
-swoole_process::useQueue
+SwooleProcess::freeQueue — Знищує чергу повідомлень, створену swooleprocess::useQueue
 
 ### Опис
 
-public **Swoole\Process::freeQueue**(): void
+```methodsynopsis
+public Swoole\Process::freeQueue(): void
+```
 
 ### Список параметрів
 

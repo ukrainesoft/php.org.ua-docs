@@ -1,54 +1,76 @@
-- [« ibase_blob_get](function.ibase-blob-get.md)
-- [ibase_blob_info »](function.ibase-blob-info.md)
+---
+navigation:
+  - function.ibase-blob-get.md: « ibaseblobget
+  - function.ibase-blob-info.md: ibaseblobinfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseblobimport
+---
+# ibaseblobimport
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Створює BLOB-об'єкт, копіює файл і закриває його.
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_blob_import
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_blob_import — Створює BLOB-об'єкт, копіює файл і
-закриває його
+ibaseblobimport — Створює BLOB-об'єкт, копіює файл і закриває його.
 
 ### Опис
 
-**ibase_blob_import**(resource `$link_identifier`, resource
-`$file_handle`): string
+```methodsynopsis
+ibase_blob_import(resource $link_identifier, resource $file_handle): string
+```
 
-**ibase_blob_import**(resource `$file_handle`): string
+```methodsynopsis
+ibase_blob_import(resource $file_handle): string
+```
 
-Функція створює BLOB-об'єкт, зчитує в нього весь файл, закриває його та
-повертає призначений ідентифікатор об'єкта BLOB.
+Функція створює BLOB-об'єкт, зчитує весь файл, закриває його і повертає призначений ідентифікатор BLOB-об'єкта.
 
 ### Список параметрів
 
 `link_identifier`
-Ідентифікатор посилання на InterBase. Якщо не вказано, передбачається остання
-відкрите посилання.
+
+Ідентифікатор посилання InterBase. Якщо не вказано, передбачається останнє відкрите посилання.
 
 `file_handle`
-Дескриптор файлу - повертається функцією [fopen()](function.fopen.md).
+
+Дескриптор файлу - функцією, що повертається. [fopen()](function.fopen.md)
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор BLOB-об'єкта у разі успішного виконання, або
-**`false`** у разі виникнення помилки.
+Повертає ідентифікатор BLOB-об'єкта у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_blob_import()****
+**Приклад #1 Приклад використання **ibaseblobimport()****
 
-` <?php$dbh = ibase_connect($host, $username, $password);$filename = '/tmp/bar';$fd = fopen($filename, 'r');if ($fd) {     $blob = ibase_blob_import ($ dbh, $ fd); fclose($fd); if (!is_string($blob)) {         // імпорт не удався    } else {        $query = "INSERT INTO ' $prepared==ibase_prepare($dbh, $query); if (!ibase_execute($prepared, $blob)) {            // запис не удалася        }      
+```php
+<?php
+$dbh = ibase_connect($host, $username, $password);
+$filename = '/tmp/bar';
+
+$fd = fopen($filename, 'r');
+if ($fd) {
+
+    $blob = ibase_blob_import($dbh, $fd);
+    fclose($fd);
+
+    if (!is_string($blob)) {
+        // импорт не удался
+    } else {
+        $query = "INSERT INTO foo (name, data) VALUES ('$filename', ?)";
+        $prepared = ibase_prepare($dbh, $query);
+        if (!ibase_execute($prepared, $blob)) {
+            // запись не удалась
+        }
+    }
+} else {
+    // невозможно открыть файл данных
+}
+?>
+```
 
 ### Дивіться також
 
-- [ibase_blob_add()](function.ibase-blob-add.md) - Додає дані
-у новостворений BLOB-об'єкт
-- [ibase_blob_cancel()](function.ibase-blob-cancel.md) - Скасує
-створення BLOB-об'єкта
-- [ibase_blob_close()](function.ibase-blob-close.md) - Закриває
-BLOB-об'єкт
-- [ibase_blob_create()](function.ibase-blob-create.md) - Створює
-новий BLOB-об'єкт для заповнення даними
+-   [ibaseblobadd()](function.ibase-blob-add.md) - Додає дані до новоствореного BLOB-об'єкту
+-   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
+-   [ibaseblobcreate()](function.ibase-blob-create.md) - Створює новий BLOB-об'єкт для заповнення даними

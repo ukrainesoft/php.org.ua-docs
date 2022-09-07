@@ -1,10 +1,11 @@
-- [«ColumnResult::getType](mysql-xdevapi-columnresult.gettype.md)
-- [ColumnResult::isPadded »](mysql-xdevapi-columnresult.ispadded.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Перевіряє, чи є тип підписаним
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.gettype.md: '« ColumnResult::getType'
+  - mysql-xdevapi-columnresult.ispadded.md: 'ColumnResult::isPadded »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+title: 'ColumnResult::isNumberSigned'
+---
 # ColumnResult::isNumberSigned
 
 (No version information available, might only be in Git)
@@ -13,15 +14,15 @@ ColumnResult::isNumberSigned — Перевіряє, чи є тип підпис
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::isNumberSigned**(): int
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::isNumberSigned(): int
+```
 
-Отримує інформацію про стовпці таблиці та створюється методом
-RowResult::getColumns().
+Отримує інформацію про стовпці таблиці і створюється методом RowResult::getColumns().
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -33,7 +34,12 @@ RowResult::getColumns().
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::isNumberSigned()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::isNumberSigned()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

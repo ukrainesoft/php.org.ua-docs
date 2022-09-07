@@ -1,10 +1,11 @@
-- [« Установка](luasandbox.installation.md)
-- [Типи ресурсів »](luasandbox.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](luasandbox.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - luasandbox.installation.md: « Установка
+  - luasandbox.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - luasandbox.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

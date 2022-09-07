@@ -1,20 +1,21 @@
-- [« Вбудований веб-сервер](features.commandline.webserver.md)
-- [Складання сміття»](features.gc.md)
-
-- [PHP Manual](index.md)
-- [Використання PHP у командному рядку](features.commandline.md)
-- Опції конфігурації
-
+---
+navigation:
+  - features.commandline.webserver.md: « Вбудований веб-сервер
+  - features.gc.md: Сборка мусора »
+  - index.md: PHP Manual
+  - features.commandline.md: Використання PHP у командному рядку
+title: Опції конфігурації
+---
 ## Опції конфігурації
 
-| Ім'я За замовчуванням                                                | Місце зміни | Список змін |
-| -------------------------------------------------------------------- | ----------- | ----------- |
-| [cli_server.color](features.commandline.ini.md#ini.cli-server.color) | "0"         | PHP_INI_ALL |
-
 **Опції конфігурації CLI SAPI**
+
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [cliserver.color](features.commandline.ini.md#ini.cli-server.color) | "0" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 
 `cli_server.color` bool
-Включає підтримку колірних кодів ANSI у виведенні вбудованого терміналу
-веб-сервер.
+
+Включає підтримку колірних кодів ANSI у виведенні терміналу вбудованого веб-сервера.

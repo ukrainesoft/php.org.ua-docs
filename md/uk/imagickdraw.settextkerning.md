@@ -1,26 +1,28 @@
-- [« ImagickDraw::setTextInterwordSpacing](imagickdraw.settextinterwordspacing.md)
-- [ImagickDraw::setTextUnderColor »](imagickdraw.settextundercolor.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює міжлітерний інтервал тексту
-
+---
+navigation:
+  - imagickdraw.settextinterwordspacing.md: '« ImagickDraw::setTextInterwordSpacing'
+  - imagickdraw.settextundercolor.md: 'ImagickDraw::setTextUnderColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextKerning'
+---
 # ImagickDraw::setTextKerning
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
 ImagickDraw::setTextKerning — Встановлює міжлітерний інтервал тексту
 
 ### Опис
 
-public **ImagickDraw::setTextKerning**(float `$kerning`): bool
+```methodsynopsis
+public ImagickDraw::setTextKerning(float $kerning): bool
+```
 
 Встановлює міжлітерний інтервал тексту.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,4 +30,4 @@ public **ImagickDraw::setTextKerning**(float `$kerning`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

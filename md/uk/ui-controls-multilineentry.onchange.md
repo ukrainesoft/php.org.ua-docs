@@ -1,22 +1,24 @@
-- [« UI\Controls\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md)
-- [UI\Controls\MultilineEntry::setReadOnly »](ui-controls-multilineentry.setreadonly.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)
-- обробник зміни
-
-# UI\Controls\MultilineEntry::onChange
+---
+navigation:
+  - ui-controls-multilineentry.isreadonly.md: '« UIControlsMultilineEntry::isReadOnly'
+  - ui-controls-multilineentry.setreadonly.md: 'ОЙControlsMultilineEntry::setReadOnly »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::onChange'
+---
+# ОЙControlsMultilineEntry::onChange
 
 (UI 0.9.9)
 
-UI\Controls\MultilineEntry::onChange — Обробник зміни
+ОЙControlsMultilineEntry::onChange — Обробник зміни
 
 ### Опис
 
-protected **UI\Controls\MultilineEntry::onChange**()
+```methodsynopsis
+protected UI\Controls\MultilineEntry::onChange()
+```
 
-Виконується при зміні тексту в цьому елементі керування
-"Многорядкове введення"
+Виконується при зміні тексту в даному елементі керування "Багаторядкове введення"
 
 ### Список параметрів
 

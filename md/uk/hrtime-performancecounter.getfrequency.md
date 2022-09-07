@@ -1,23 +1,24 @@
-- [«HRTime\PerformanceCounter](class.hrtime-performancecounter.md)
-- [HRTime\PerformanceCounter::getTicks »](hrtime-performancecounter.getticks.md)
+---
+navigation:
+  - class.hrtime-performancecounter.md: « HRTimePerformanceCounter
+  - hrtime-performancecounter.getticks.md: 'HRTimePerformanceCounter::getTicks »'
+  - index.md: PHP Manual
+  - class.hrtime-performancecounter.md: HRTimePerformanceCounter
+title: 'HRTimePerformanceCounter::getFrequency'
+---
+# HRTimePerformanceCounter::getFrequency
 
-- [PHP Manual](index.md)
-- [HRTime\PerformanceCounter](class.hrtime-performancecounter.md)
-- Частота таймера в тиках за секунду
+(PECL hrtime >= 0.4.3)
 
-# HRTime\PerformanceCounter::getFrequency
-
-(PECL hrtime \>= 0.4.3)
-
-HRTime\PerformanceCounter::getFrequency — Частота таймера в тиках
-секунду
+HRTimePerformanceCounter::getFrequency — Частота таймера в тиках за секунду
 
 ### Опис
 
-public static **HRTime\PerformanceCounter::getFrequency**(): int
+```methodsynopsis
+public static HRTime\PerformanceCounter::getFrequency(): int
+```
 
-Повертає частоту таймера в тиках за секунду. Це буде постійним
-значенням після старту системи більшість операційних систем.
+Повертає частоту таймера в тиках за секунду. Це буде постійним значенням після старту системи більшості операційних систем.
 
 ### Список параметрів
 

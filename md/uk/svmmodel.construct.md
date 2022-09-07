@@ -1,26 +1,27 @@
-- [« SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md)
-- [SVMModel::getLabels »](svmmodel.getlabels.md)
+---
+navigation:
+  - svmmodel.checkprobabilitymodel.md: '« SVMModel::checkProbabilityModel'
+  - svmmodel.getlabels.md: 'SVMModel::getLabels »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::construct'
+---
+# SVMModel::construct
 
-- [PHP Manual](index.md)
-- [SVMModel](class.svmmodel.md)
-- Конструктор класу SVMModel
+(PECL svm >= 0.1.0)
 
-# SVMModel::\_\_construct
-
-(PECL svm \>= 0.1.0)
-
-SVMModel::\_\_construct - Конструктор класу SVMModel
+SVMModel::construct - Конструктор класу SVMModel
 
 ### Опис
 
-public **SVMModel::\_\_construct**(string `$filename` = ?)
+public **SVMModel::construct**(string `$filename`
 
-Створює об'єкт класу SVMModel. Зазвичай моделі створюються методом
-SVM::train, але збережені моделі можна відновити безпосередньо.
+Створює об'єкт класу SVMModel. Зазвичай моделі створюються методом SVM:: train, але збережені моделі можна відновити безпосередньо.
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу, у якому збережено модель.
 
 ### Помилки
@@ -29,5 +30,4 @@ SVM::train, але збережені моделі можна відновити
 
 ### Дивіться також
 
-- [SVMModel::load()](svmmodel.load.md) - Завантажує збережену
-модель SVM
+-   [SVMModel::load()](svmmodel.load.md) - Завантажує збережену модель SVM

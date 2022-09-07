@@ -1,10 +1,11 @@
-- [«Error::getTrace](error.gettrace.md)
-- [Error::\_\_toString »](error.tostring.md)
-
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Отримує трасування стека у вигляді рядка
-
+---
+navigation:
+  - error.gettrace.md: '« Error::getTrace'
+  - error.tostring.md: 'Error::toString »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getTraceAsString'
+---
 # Error::getTraceAsString
 
 (PHP 7, PHP 8)
@@ -13,7 +14,9 @@ Error::getTraceAsString — Отримує трасування стека у в
 
 ### Опис
 
-final public **Error::getTraceAsString**(): string
+```methodsynopsis
+final public Error::getTraceAsString(): string
+```
 
 Повертає трасування стека у вигляді рядка.
 
@@ -29,14 +32,27 @@ final public **Error::getTraceAsString**(): string
 
 **Приклад #1 Приклад використання **Error::getTraceAsString()****
 
-` <?phpfunction test() {    throw new Error;}try {    test();} catch(Error $e) {   echo $e->getTraceAsString();}?> `
+```php
+<?php
+function test() {
+    throw new Error;
+}
+
+try {
+    test();
+} catch(Error $e) {
+    echo $e->getTraceAsString();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 #0 /home/bjori/tmp/ex.php(7): test()
 #1 {main}
+```
 
 ### Дивіться також
 
-- [Throwable::getTraceAsString()](throwable.gettraceasstring.md) -
-Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getTraceAsString()](throwable.gettraceasstring.md) - Отримує результати трасування стека у вигляді рядка

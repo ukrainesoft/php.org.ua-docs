@@ -1,24 +1,27 @@
-- [«UI\Draw\Pen](class.ui-draw-pen.md)
-- [UI\Draw\Pen::fill »](ui-draw-pen.fill.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Pen](class.ui-draw-pen.md)
-- Обрізати шлях
-
-# UI\Draw\Pen::clip
+---
+navigation:
+  - class.ui-draw-pen.md: « UIDrawPen
+  - ui-draw-pen.fill.md: 'ОЙDrawPen::fill »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.md: ОЙDrawPen
+title: 'ОЙDrawPen::clip'
+---
+# ОЙDrawPen::clip
 
 (UI 0.9.9)
 
-UI\Draw\Pen::clip — Обрізати шлях
+ОЙDrawPen::clip — Обрізати шлях
 
 ### Опис
 
-public **UI\Draw\Pen::clip**([UI\Draw\Path](class.ui-draw-path.md)
-`$ path`)
+```methodsynopsis
+public UI\Draw\Pen::clip(UI\Draw\Path $path)
+```
 
 Обріже заданий шлях
 
 ### Список параметрів
 
 `path`
+
 Шлях для обрізки

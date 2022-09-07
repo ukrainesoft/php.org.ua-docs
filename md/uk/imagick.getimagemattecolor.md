@@ -1,10 +1,11 @@
-- [« Imagick::getImageMatte](imagick.getimagematte.md)
-- [Imagick::getImageMimeType »](imagick.getimagemimetype.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає матовий колір зображення
-
+---
+navigation:
+  - imagick.getimagematte.md: '« Imagick::getImageMatte'
+  - imagick.getimagemimetype.md: 'Imagick::getImageMimeType »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageMatteColor'
+---
 # Imagick::getImageMatteColor
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,13 +14,13 @@ Imagick::getImageMatteColor — Повертає матовий колір зо�
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::getImageMatteColor**():
-[ImagickPixel](class.imagickpixel.md)
+```methodsynopsis
+public Imagick::getImageMatteColor(): ImagickPixel
+```
 
 Повертає матовий колір зображення.
 

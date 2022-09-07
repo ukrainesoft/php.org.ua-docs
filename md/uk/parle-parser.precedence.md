@@ -1,26 +1,29 @@
-- [« Parle\Parser::nonassoc](parle-parser.nonassoc.md)
-- [Parle\Parser::push »](parle-parser.push.md)
+---
+navigation:
+  - parle-parser.nonassoc.md: '« ParleParser::nonassoc'
+  - parle-parser.push.md: 'ParleParser::push »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::precedence'
+---
+# ParleParser::precedence
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Оголошує правило пріоритету
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::precedence
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::precedence — Оголошує правило пріоритету
+ParleParser::precedence — Оголошує правило пріоритету
 
 ### Опис
 
-public **Parle\Parser::precedence**(string `$tok`): void
+```methodsynopsis
+public Parle\Parser::precedence(string $tok): void
+```
 
-Оголошує правило пріоритету фіктивного термінального символу.
-Правило може бути пізніше використане у спеціальних правилах граматики.
+Оголошує правило пріоритету фіктивного термінального символу. Правило може бути пізніше використане у спеціальних правилах граматики.
 
 ### Список параметрів
 
 `tok`
+
 Ім'я токена.
 
 ### Значення, що повертаються

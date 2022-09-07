@@ -1,31 +1,33 @@
-- [« Послідовність](class.ds-sequence.md)
-- [Ds\Sequence::apply »](ds-sequence.apply.md)
+---
+navigation:
+  - class.ds-sequence.md: « Послідовність
+  - ds-sequence.apply.md: 'ДсSequence::apply »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
+title: 'ДсSequence::allocate'
+---
+# ДсSequence::allocate
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Виділення пам'яті під зазначену місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Sequence::allocate
-
-(PECL ds \>= 1.0.0)
-
-Ds\Sequence::allocate — Виділення пам'яті під зазначену місткість
+ДсSequence::allocate — Виділення пам'яті під зазначену місткість
 
 ### Опис
 
-abstract public **Ds\Sequence::allocate**(int `$capacity`): void
+```methodsynopsis
+abstract public Ds\Sequence::allocate(int $capacity): void
+```
 
-Гарантує, що виділено достатньо пам'яті під задану місткість
-(кількість значень). Дозволяє уникнути динамічного додавання
-пам'яті під час додавання значень.
+Гарантує, що виділено достатньо пам'яті під задану місткість (кількість значень). Дозволяє уникнути динамічного додавання пам'яті під час додавання значень.
 
 ### Список параметрів
 
 `capacity`
+
 Місткість. Очікувана кількість значень.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Якщо нове значення місткості менше поточного, вона не зміниться.
 
 ### Значення, що повертаються
@@ -34,11 +36,21 @@ abstract public **Ds\Sequence::allocate**(int `$capacity`): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::allocate()****
+**Приклад #1 Приклад використання **ДсSequence::allocate()****
 
-` <?php$sequence = new \Ds\Vector();var_dump($sequence->capacity());$vector->allocate(100);var_dump($sequence->capacity());?> `
+```php
+<?php
+$sequence = new \Ds\Vector();
+var_dump($sequence->capacity());
+
+$vector->allocate(100);
+var_dump($sequence->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(10)
 int(100)
+```

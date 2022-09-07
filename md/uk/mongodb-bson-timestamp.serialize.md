@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.md)
-- [MongoDB\BSON\Timestamp::\_\_toString »](mongodb-bson-timestamp.tostring.md)
+---
+navigation:
+  - mongodb-bson-timestamp.jsonserialize.md: '« MongoDBBSONTimestamp::jsonSerialize'
+  - mongodb-bson-timestamp.tostring.md: 'MongoDBBSONTimestamp::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::serialize'
+---
+# MongoDBBSONTimestamp::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
-- Серіалізує Timestamp
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\Timestamp::serialize
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\Timestamp::serialize — Серіалізує Timestamp
+MongoDBBSONTimestamp::serialize — Серіалізує Timestamp
 
 ### Опис
 
-final public **MongoDB\BSON\Timestamp::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Timestamp::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\Timestamp::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md).
+Повертає серіалізовану виставу [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Timestamp::unserialize()](mongodb-bson-timestamp.unserialize.md) -
-Десеріалізує Timestamp
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONTimestamp::unserialize()](mongodb-bson-timestamp.unserialize.md) - Десеріалізує Timestamp
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

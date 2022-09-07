@@ -1,10 +1,11 @@
-- [« Imagick::stereoImage](imagick.stereoimage.md)
-- [Imagick::subImageMatch »](imagick.subimagematch.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Знімає зображення всіх профілів та коментарів
-
+---
+navigation:
+  - imagick.stereoimage.md: '« Imagick::stereoImage'
+  - imagick.subimagematch.md: 'Imagick::subImageMatch »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::stripImage'
+---
 # Imagick::stripImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::stripImage — Знімає зображення всіх профіл�
 
 ### Опис
 
-public **Imagick::stripImage**(): bool
+```methodsynopsis
+public Imagick::stripImage(): bool
+```
 
 Знімає зображення всіх профілів та коментарів.
 
@@ -23,7 +26,7 @@ public **Imagick::stripImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

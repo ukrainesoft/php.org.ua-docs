@@ -1,50 +1,44 @@
-- [«str_ireplace](function.str-ireplace.md)
-- [str_repeat »](function.str-repeat.md)
+---
+navigation:
+  - function.str-ireplace.md: « strireplace
+  - function.str-repeat.md: strrepeat »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strpad
+---
+# strpad
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Доповнює рядок іншим рядком до заданої довжини
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
-#str_pad
-
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
-
-str_pad — Доповнює рядок іншим рядком до заданої довжини
+strpad — Доповнює рядок іншим рядком до заданої довжини
 
 ### Опис
 
-**str_pad**(
-string `$string`,
-int `$length`,
-string `$pad_string` = " ",
-int `$pad_type` = **`STR_PAD_RIGHT`**
-): string
+```methodsynopsis
+str_pad(    string $string,    int $length,    string $pad_string = " ",    int $pad_type = STR_PAD_RIGHT): string
+```
 
-Ця функція повертає рядок `string`, доповнений ліворуч, праворуч або з
-обох сторін до заданої довжини. Якщо необов'язковий аргумент
-`pad_string` не переданий, то `string` буде доповнений пробілами, інакше він
-буде доповнено символами з `pad_string` до потрібної довжини.
+Ця функція повертає рядок `string`, доповнену ліворуч, праворуч або з обох боків до заданої довжини. Якщо необов'язковий аргумент `pad_string` не передано, то `string` буде доповнено пробілами, інакше він буде доповнений символами з `pad_string` до потрібної довжини.
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 `length`
-Якщо значення `length` негативне, менше або дорівнює довжині вхідний
-рядки, то доповнення не відбувається і повертається вихідний рядок
-`string`.
+
+Якщо значення `length` негативно, менше або дорівнює довжині вхідного рядка, то доповнення не відбувається і повертається вихідний рядок `string`
 
 `pad_string`
-> **Примітка**:
->
-> `pad_string` може бути урізана, якщо потрібна кількість
-> символів, що доповнюються, не ділиться націло на довжину рядка `pad_string`.
+
+> **Зауваження**
+> 
+> `pad_string` може бути урізана, якщо необхідна кількість символів, що доповнюються, не ділиться націло на довжину рядка `pad_string`
 
 `pad_type`
-Необов'язковий аргумент `pad_type` може мати значення
-**`STR_PAD_RIGHT`**, **`STR_PAD_LEFT`** або **`STR_PAD_BOTH`**. Якщо не
-вказано, то за замовчуванням використовується **`STR_PAD_RIGHT`**.
+
+Необов'язковий аргумент `pad_type` може мати значення **`STR_PAD_RIGHT`** **`STR_PAD_LEFT`** або **`STR_PAD_BOTH`**. Якщо не вказано, то за замовчуванням використовується **`STR_PAD_RIGHT`**
 
 ### Значення, що повертаються
 
@@ -52,6 +46,15 @@ int `$pad_type` = **`STR_PAD_RIGHT`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **str_pad()****
+**Приклад #1 Приклад використання **strpad()****
 
-`<?php$input = "Alien";echo str_pad($input, 10); // виводить "Alien     "echo str_pad($input, 10, "-=", STR_PAD_LEFT); // виводить "-=-=-Alien"echo str_pad($input, 10, "_", STR_PAD_BOTH); // виводить "__Alien___"echo str_pad($input,  6, "___"); // виводить "Alien_"echo str_pad($input, 3, "*"); // виводить "Alien"?> `
+```php
+<?php
+$input = "Alien";
+echo str_pad($input, 10);                      // выводит "Alien     "
+echo str_pad($input, 10, "-=", STR_PAD_LEFT);  // выводит "-=-=-Alien"
+echo str_pad($input, 10, "_", STR_PAD_BOTH);   // выводит "__Alien___"
+echo str_pad($input,  6, "___");               // выводит "Alien_"
+echo str_pad($input,  3, "*");                 // выводит "Alien"
+?>
+```

@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md)
-- [MongoDB\BSON\Undefined::\_\_toString »](mongodb-bson-undefined.tostring.md)
+---
+navigation:
+  - mongodb-bson-undefined.jsonserialize.md: '« MongoDBBSONUndefined::jsonSerialize'
+  - mongodb-bson-undefined.tostring.md: 'MongoDBBSONUndefined::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::serialize'
+---
+# MongoDBBSONUndefined::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
-- Серіалізує Undefined
+(mongodb >=1.4.0)
 
-# MongoDB\BSON\Undefined::serialize
-
-(mongodb \>=1.4.0)
-
-MongoDB\BSON\Undefined::serialize — Серіалізує Undefined
+MongoDBBSONUndefined::serialize — Серіалізує Undefined
 
 ### Опис
 
-final public **MongoDB\BSON\Undefined::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Undefined::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\Undefined::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md).
+Повертає серіалізовану виставу [MongoDBBSONUndefined](class.mongodb-bson-undefined.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Undefined::unserialize()](mongodb-bson-undefined.unserialize.md) -
-Десеріалізує Undefined
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONUndefined::unserialize()](mongodb-bson-undefined.unserialize.md) - Десеріалізує Undefined
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

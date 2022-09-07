@@ -1,38 +1,39 @@
-- [« fann_set_cascade_output_change_fraction](function.fann-set-cascade-output-change-fraction.md)
-- [fann_set_cascade_weight_multiplier »](function.fann-set-cascade-weight-multiplier.md)
+---
+navigation:
+  - function.fann-set-cascade-output-change-fraction.md: « fannsetcascadeoutputchangefraction
+  - function.fann-set-cascade-weight-multiplier.md: fannsetcascadeweightmultiplier »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascadeoutputstagnationepochs
+---
+# fannsetcascadeoutputstagnationepochs
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює кількість періодів стагнації каскадного виводу
+(PECL fann> = 1.0.0)
 
-# fann_set_cascade_output_stagnation_epochs
-
-(PECL fann = 1.0.0)
-
-fann_set_cascade_output_stagnation_epochs — Встановлює кількість
-періодів стагнації каскадного виводу
+fannsetcascadeoutputstagnationepochs - Встановлює кількість періодів стагнації каскадного виводу
 
 ### Опис
 
-**fann_set_cascade_output_stagnation_epochs**(resource `$ann`, int
-`$cascade_output_stagnation_epochs`): bool
+```methodsynopsis
+fann_set_cascade_output_stagnation_epochs(resource $ann, int $cascade_output_stagnation_epochs): bool
+```
 
-Встановлює кількість періодів стагнації каскадного виводу.
+Встановлює кількість періодів стагнації каскадного виведення.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `cascade_output_stagnation_epochs`
+
 Кількість епох стагнації каскадного виходу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_cascade_output_stagnation_epochs()](function.fann-get-cascade-output-stagnation-epochs.md) -
-Повертає кількість каскадних періодів застою кандидатів
+-   [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md) - Повертає кількість каскадних періодів застою кандидатів

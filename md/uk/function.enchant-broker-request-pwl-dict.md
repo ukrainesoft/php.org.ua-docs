@@ -1,53 +1,48 @@
-- [« enchant_broker_request_dict](function.enchant-broker-request-dict.md)
-- [enchant_broker_set_dict_path »](function.enchant-broker-set-dict-path.md)
+---
+navigation:
+  - function.enchant-broker-request-dict.md: « enchantbrokerrequestdict
+  - function.enchant-broker-set-dict-path.md: enchantbrokersetdictpath »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokerrequestpwldict
+---
+# enchantbrokerrequestpwldict
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Створити словник, використовуючи файл PWL
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-#enchant_broker_request_pwl_dict
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
-
-enchant_broker_request_pwl_dict — Створити словник, використовуючи файл PWL
+enchantbrokerrequestpwldict — Створити словник, використовуючи файл PWL
 
 ### Опис
 
-**enchant_broker_request_pwl_dict**([EnchantBroker](class.enchantbroker.md)
-`$broker`, string `$filename`):
-[EnchantDictionary](class.enchantdictionary.md)\|false
+```methodsynopsis
+enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): EnchantDictionary|false
+```
 
-Створює словник, використовуючи файл PWL. Файл PWL - це файл користувача
-зі словами, за одним словом на рядок.
+Створює словник, використовуючи файл PWL. Файл PWL - це файл користувача зі словами, за одним словом на рядок.
 
 ### Список параметрів
 
 `broker`
-Провайдер Enchant, який повертається
-[enchant_broker_init()](function.enchant-broker-init.md).
+
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 `filename`
-Шлях до файлу PWL. Якщо файл відсутній, то буде створено новий з таким
-ім'ям, якщо це можливо.
+
+Шлях до PWL-файлу. Якщо файл відсутній, буде створено новий з таким ім'ям, якщо можливо.
 
 ### Значення, що повертаються
 
-Повертає ресурс словника у разі успішного виконання або **`false`**
-у разі виникнення помилки.
+Повертає ресурс словника у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)).                                         |
-| 8.0.0  | У разі успішного виконання, функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
-- [enchant_dict_describe()](function.enchant-dict-describe.md) -
-Повертає інформацію про словник
-- [enchant_broker_dict_exists()](function.enchant-broker-dict-exists.md) -
-Перевіряє, чи є словник чи ні. Використовується не порожній
-тег
-- [enchant_broker_free_dict()](function.enchant-broker-free-dict.md) -
-Визволяє ресурс словника
+-   [enchantdictdescribe()](function.enchant-dict-describe.md) - Повертає інформацію про словник
+-   [enchantbrokerdictexists()](function.enchant-broker-dict-exists.md) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
+-   [enchantbrokerfreedict()](function.enchant-broker-free-dict.md) - звільняє ресурс словника

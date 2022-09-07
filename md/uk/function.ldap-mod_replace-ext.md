@@ -1,51 +1,43 @@
-- [«ldap_mod_del](function.ldap-mod-del.md)
-- [ldap_mod_replace »](function.ldap-mod-replace.md)
+---
+navigation:
+  - function.ldap-mod-del.md: « ldapmoddel
+  - function.ldap-mod-replace.md: ldapmodreplace »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapmodreplaceext
+---
+# ldapmodreplaceext
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Замінити значення атрибута на нові
+(PHP 7> = 7.3.0, PHP 8)
 
-#ldap_mod_replace_ext
-
-(PHP 7 \>= 7.3.0, PHP 8)
-
-ldap_mod_replace_ext — Замінити значення атрибута на нові
+ldapmodreplaceext — Замінити значення атрибута на нові
 
 ### Опис
 
-**ldap_mod_replace_ext**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`,
-array `$entry`,
-?array `$controls` = **`null`**
-): [LDAP\Result](class.ldap-result.md)\|false
+```methodsynopsis
+ldap_mod_replace_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+```
 
-Робить те саме, що й
-[ldap_mod_replace()](function.ldap-mod-replace.md), але повертає
-екземпляр [LDAP\Result](class.ldap-result.md) для аналізу за допомогою
-[ldap_parse_result()](function.ldap-parse-result.md).
+Робить те саме, що й [ldapmodreplace()](function.ldap-mod-replace.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 
-Дивіться [ldap_mod_replace()](function.ldap-mod-replace.md)
+Дивіться [ldapmodreplace()](function.ldap-mod-replace.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Result](class.ldap-result.md) або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAPResult](class.ldap-result.md) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 
-- [ldap_mod_replace()](function.ldap-mod-replace.md) - Замінити
-значення атрибутів на нові
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
+-   [ldapmodreplace()](function.ldap-mod-replace.md) - Замінити значення атрибутів на нові
+-   [ldapparseresult()](function.ldap-parse-result.md) - Витягти інформацію з результату

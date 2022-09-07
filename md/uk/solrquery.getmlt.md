@@ -1,20 +1,22 @@
-- [« SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.md)
-- [SolrQuery::getMltBoost »](solrquery.getmltboost.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає, чи повинні бути включені результати MoreLikeThis
-
+---
+navigation:
+  - solrquery.gethighlightusephrasehighlighter.md: '« SolrQuery::getHighlightUsePhraseHighlighter'
+  - solrquery.getmltboost.md: 'SolrQuery::getMltBoost »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMlt'
+---
 # SolrQuery::getMlt
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMlt — Повертає, чи мають бути включені результати
-MoreLikeThis
+SolrQuery::getMlt — Повертає, чи повинні бути включені результати MoreLikeThis
 
 ### Опис
 
-public **SolrQuery::getMlt**(): bool
+```methodsynopsis
+public SolrQuery::getMlt(): bool
+```
 
 Повертає, чи повинні бути включені результати MoreLikeThis
 
@@ -24,5 +26,4 @@ public **SolrQuery::getMlt**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

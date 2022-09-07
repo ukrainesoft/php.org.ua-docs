@@ -1,10 +1,11 @@
-- [« SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md)
-- [SqlStatementResult::getColumnNames »](mysql-xdevapi-sqlstatementresult.getcolumnnames.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)
-- Отримує кількість стовпців
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md: '« SqlStatementResult::getAffectedItemsCount'
+  - mysql-xdevapi-sqlstatementresult.getcolumnnames.md: 'SqlStatementResult::getColumnNames »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getColumnsCount'
+---
 # SqlStatementResult::getColumnsCount
 
 (No version information available, might only be in Git)
@@ -13,12 +14,13 @@ SqlStatementResult::getColumnsCount — Отримує кількість сто
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatementResult::getColumnsCount**(): int
+```methodsynopsis
+public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,15 +30,20 @@ public **mysql_xdevapi\SqlStatementResult::getColumnsCount**(): int
 
 Кількість стовпців; 0 якщо їх немає
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                          |
-| ------ | ------------------------------------------------------------- |
-| 8.0.14 | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatementResult::getColumnsCount()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getColumnsCount()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

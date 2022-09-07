@@ -1,23 +1,24 @@
-- [« cubrid_error_code_facility](function.cubrid-error-code-facility.md)
-- [cubrid_error_msg »](function.cubrid-error-msg.md)
+---
+navigation:
+  - function.cubrid-error-code-facility.md: « cubriderrorcodefacility
+  - function.cubrid-error-msg.md: cubriderrormsg »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubriderrorcode
+---
+# cubriderrorcode
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримати код помилки
+(PECL CUBRID >= 8.3.0)
 
-#cubrid_error_code
-
-(PECL CUBRID = 8.3.0)
-
-cubrid_error_code — Отримати код помилки
+cubriderrorcode — Отримати код помилки
 
 ### Опис
 
-**cubrid_error_code**(): int
+```methodsynopsis
+cubrid_error_code(): int
+```
 
-Функція **cubrid_error_code()** використовується для отримання коду
-помилки, що відбулася. Зазвичай ви можете отримати код помилки, якщо
-якась функція повернула **`false`**.
+Функція **cubriderrorcode()** використовується для отримання коду помилки, що відбулася. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
 
 ### Список параметрів
 
@@ -29,22 +30,33 @@ cubrid_error_code — Отримати код помилки
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_error_code()****
+**Приклад #1 Приклад використання **cubriderrorcode()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_prepare($conn , "SELECT * FROM code WHERE s_name=?");$; if (!$req) {    printf("Error facility: %d
-Error code: %d
-Error msg: %s
-",   cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());   cubrid_disconnect($conn);    exit;}?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_prepare($conn , "SELECT * FROM code WHERE s_name=?");
+
+$req = @cubrid_execute($req);
+if (!$req) {
+    printf("Error facility: %d\nError code: %d\nError msg: %s\n",
+        cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());
+
+    cubrid_disconnect($conn);
+    exit;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Error facility: 4
 Error code: -30015
-Error msg: Один parameter not binded
+Error msg: Some parameter not binded
+```
 
 ### Дивіться також
 
-- [cubrid_error_code_facility()](function.cubrid-error-code-facility.md) -
-Отримати код рівня, на якому сталася помилка
-- [cubrid_error_msg()](function.cubrid-error-msg.md) - Повертає
-текст останньої помилки, що відбулася
+-   [cubriderrorcodefacility()](function.cubrid-error-code-facility.md) - Отримати код рівня, на якому сталася помилка
+-   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.

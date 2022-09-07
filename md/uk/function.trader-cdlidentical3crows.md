@@ -1,40 +1,41 @@
-- [« trader_cdlhomingpigeon](function.trader-cdlhomingpigeon.md)
-- [trader_cdlinneck »](function.trader-cdlinneck.md)
+---
+navigation:
+  - function.trader-cdlhomingpigeon.md: « tradercdlhomingpigeon
+  - function.trader-cdlinneck.md: tradercdlinneck »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlidentical3crows
+---
+# tradercdlidentical3crows
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Свічкова модель "Три однакові ворони"
+(PECL trader >= 0.2.0)
 
-# trader_cdlidentical3crows
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlidentical3crows — Свічкова модель "Три однакові ворони"
+tradercdlidentical3crows — Свічкова модель "Три однакові ворони"
 
 ### Опис
 
-**trader_cdlidentical3crows**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlidentical3crows(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

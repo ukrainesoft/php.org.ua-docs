@@ -1,23 +1,27 @@
-- [«CURLFile::getPostFilename](curlfile.getpostfilename.md)
-- [CURLFile::setPostFilename »](curlfile.setpostfilename.md)
-
-- [PHP Manual](index.md)
-- [CURLFile](class.curlfile.md)
-- Встановлює MIME-тип
-
+---
+navigation:
+  - curlfile.getpostfilename.md: '« CURLFile::getPostFilename'
+  - curlfile.setpostfilename.md: 'CURLFile::setPostFilename »'
+  - index.md: PHP Manual
+  - class.curlfile.md: CURLFile
+title: 'CURLFile::setMimeType'
+---
 # CURLFile::setMimeType
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 CURLFile::setMimeType - Встановлює MIME-тип
 
 ### Опис
 
-public **CURLFile::setMimeType**(string `$mime_type`): void
+```methodsynopsis
+public CURLFile::setMimeType(string $mime_type): void
+```
 
 ### Список параметрів
 
 `mime_type`
+
 MIME-тип для надсилання.
 
 ### Значення, що повертаються

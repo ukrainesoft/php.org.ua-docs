@@ -1,33 +1,39 @@
-- [« Swoole\Redis\Server::start](swoole-redis-server.start.md)
-- [Swoole\Serialize::pack »](swoole-serialize.pack.md)
+---
+navigation:
+  - swoole-redis-server.start.md: '« SwooleRedisServer::start'
+  - swoole-serialize.pack.md: 'SwooleSerialize::pack »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleSerialize
+---
+# Клас SwooleSerialize
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Serialize
-
-# Клас Swoole\Serialize
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Serialize** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static [pack](swoole-serialize.pack.md)(string `$data`, int
-`$is_fast` = ?): ReturnType
 
-public static [unpack](swoole-serialize.unpack.md)(string `$data`,
-string `$args` = ?): ReturnType
+    
+     
+      class Swoole\Serialize
+     
+     {
 
-}
+
+    /* Методы */
+    
+   public static pack(string $data, int $is_fast = ?): ReturnType
+public static unpack(string $data, string $args = ?): ReturnType
+
+   }
+```
 
 ## Зміст
 
-- [Swoole\Serialize::pack](swoole-serialize.pack.md) — Серіалізувати
-дані
-- [Swoole\Serialize::unpack](swoole-serialize.unpack.md) -
-Десеріалізувати дані
+-   [SwooleSerialize::pack](swoole-serialize.pack.md) - Серіалізувати дані
+-   [SwooleSerialize::unpack](swoole-serialize.unpack.md) - Десеріалізувати дані

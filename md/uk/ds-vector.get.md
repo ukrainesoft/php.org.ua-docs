@@ -1,26 +1,29 @@
-- [« Ds\Vector::first](ds-vector.first.md)
-- [Ds\Vector::insert »](ds-vector.insert.md)
+---
+navigation:
+  - ds-vector.first.md: '« DsVector::first'
+  - ds-vector.insert.md: 'ДсVector::insert »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::get'
+---
+# ДсVector::get
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає значення за індексом
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::get
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::get — Повертає значення за індексом
+ДсVector::get — Повертає значення за індексом
 
 ### Опис
 
-public **Ds\Vector::get**(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Vector::get(int $index): mixed
+```
 
 Повертає значення за заданим індексом.
 
 ### Список параметрів
 
 `index`
+
 Індекс. Перший елемент має індекс 0.
 
 ### Значення, що повертаються
@@ -29,29 +32,46 @@ public **Ds\Vector::get**(int `$index`):
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md), якщо індекс
-некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::get()****
+**Приклад #1 Приклад використання **ДсVector::get()****
 
-` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector->get(0));var_dump($vector->get(1) );var_dump($vector->get(2));?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
-Результатом виконання цього прикладу буде щось подібне:
-
-string(1) "a"
-string(1) "b"
-string(1) "c"
-
-**Приклад #2 Приклад використання **Ds\Vector::get()** із синтаксисом
-масиву**
-
-` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector[0]);var_dump($vector[1]);var_dump($vector [2]);?> `
+var_dump($vector->get(0));
+var_dump($vector->get(1));
+var_dump($vector->get(2));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
 string(1) "b"
 string(1) "c"
+```
+
+**Приклад #2 Приклад використання **ДсVector::get()** із синтаксисом масиву**
+
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c"]);
+
+var_dump($vector[0]);
+var_dump($vector[1]);
+var_dump($vector[2]);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+string(1) "a"
+string(1) "b"
+string(1) "c"
+```

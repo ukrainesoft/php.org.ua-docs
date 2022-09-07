@@ -1,19 +1,22 @@
-- [« FANNConnection::getFromNeuron](fannconnection.getfromneuron.md)
-- [FANNConnection::getWeight »](fannconnection.getweight.md)
-
-- [PHP Manual](index.md)
-- [FANNConnection](class.fannconnection.md)
-- Повертає позицію кінцевого нейрона
-
+---
+navigation:
+  - fannconnection.getfromneuron.md: '« FANNConnection::getFromNeuron'
+  - fannconnection.getweight.md: 'FANNConnection::getWeight »'
+  - index.md: PHP Manual
+  - class.fannconnection.md: FANNConnection
+title: 'FANNConnection::getToNeuron'
+---
 # FANNConnection::getToNeuron
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
 FANNConnection::getToNeuron — Повертає позицію кінцевого нейрона
 
 ### Опис
 
-public **FANNConnection::getToNeuron**(): int
+```methodsynopsis
+public FANNConnection::getToNeuron(): int
+```
 
 Повертає позицію кінцевого нейрона.
 

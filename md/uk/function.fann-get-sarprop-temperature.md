@@ -1,27 +1,31 @@
-- [« fann_get_sarprop_step_error_threshold_factor](function.fann-get-sarprop-step-error-threshold-factor.md)
-- [fann_get_sarprop_weight_decay_shift »](function.fann-get-sarprop-weight-decay-shift.md)
+---
+navigation:
+  - function.fann-get-sarprop-step-error-threshold-factor.md: « fanngetsarpropsteperrorthresholdfactor
+  - function.fann-get-sarprop-weight-decay-shift.md: fanngetsarpropweightdecayshift »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetsarproptemperature
+---
+# fanngetsarproptemperature
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає температуру sarprop
+(PECL fann> = 1.0.0)
 
-# fann_get_sarprop_temperature
-
-(PECL fann = 1.0.0)
-
-fann_get_sarprop_temperature — Повертає температуру sarprop
+fanngetsarproptemperature - Повертає температуру sarprop
 
 ### Опис
 
-**fann_get_sarprop_temperature**(resource `$ann`): float
+```methodsynopsis
+fann_get_sarprop_temperature(resource $ann): float
+```
 
-Повертає температуру сарпропи.
+Повертає температуру сарprop.
 
 Температура за промовчанням становить 0.015.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
@@ -30,12 +34,10 @@ fann_get_sarprop_temperature — Повертає температуру sarprop
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_set_sarprop_temperature()](function.fann-set-sarprop-temperature.md) -
-Встановлює температуру sarprop
+-   [fannsetsarproptemperature()](function.fann-set-sarprop-temperature.md) - Встановлює температуру sarprop

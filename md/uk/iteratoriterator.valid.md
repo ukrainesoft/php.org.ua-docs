@@ -1,19 +1,22 @@
-- [« IteratorIterator::rewind](iteratoriterator.rewind.md)
-- [LimitIterator »](class.limititerator.md)
-
-- [PHP Manual](index.md)
-- [IteratorIterator](class.iteratoriterator.md)
-- Перевіряє, чи є ітератор допустимим
-
+---
+navigation:
+  - iteratoriterator.rewind.md: '« IteratorIterator::rewind'
+  - class.limititerator.md: LimitIterator »
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::valid'
+---
 # IteratorIterator::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-IteratorIterator::valid — Перевіряє, чи є ітератор допустимим
+IteratorIterator::valid — Перевіряє, чи є припустимим ітератор.
 
 ### Опис
 
-public **IteratorIterator::valid**(): bool
+```methodsynopsis
+public IteratorIterator::valid(): bool
+```
 
 Перевіряє, чи ітератор є допустимим.
 
@@ -23,12 +26,9 @@ public **IteratorIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо ітератор є допустимим, інакше
-випадку повертає **`false`**
+Повертає **`true`**, якщо ітератор є допустимим, інакше повертає **`false`**
 
 ### Дивіться також
 
-- [iterator_count()](function.iterator-count.md) - Підраховує
-кількість елементів в ітераторі
-- [IteratorIterator::current()](iteratoriterator.current.md) -
-Отримує поточне значення
+-   [iteratorcount()](function.iterator-count.md) - Підраховує кількість елементів в ітераторі
+-   [IteratorIterator::current()](iteratoriterator.current.md) - Отримує поточне значення

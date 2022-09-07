@@ -1,40 +1,41 @@
-- [« fann_set_train_error_function](function.fann-set-train-error-function.md)
-- [fann_set_training_algorithm »](function.fann-set-training-algorithm.md)
+---
+navigation:
+  - function.fann-set-train-error-function.md: « fannsettrainerrorfunction
+  - function.fann-set-training-algorithm.md: fannsettrainingalgorithm »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsettrainstopfunction
+---
+# fannsettrainstopfunction
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює функцію зупинки під час тренування.
+(PECL fann> = 1.0.0)
 
-# fann_set_train_stop_function
-
-(PECL fann = 1.0.0)
-
-fann_set_train_stop_function — Встановлює функцію зупинки,
-використовується під час тренування
+fannsettrainstopfunction — Встановлює функцію зупинки під час тренування.
 
 ### Опис
 
-**fann_set_train_stop_function**(resource `$ann`, int `$stop_function`):
-bool
+```methodsynopsis
+fann_set_train_stop_function(resource $ann, int $stop_function): bool
+```
 
 Встановлює функцію зупинки під час тренування.
 
-Опції зупинки описані далі в константах [функції зупинки](fann.constants.md#constants.fann-stopfunc).
+Функції зупинки описані далі в константах [функции остановки](fann.constants.md#constants.fann-stopfunc)
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `stop_function`
-Константа [функції зупинки](fann.constants.md#constants.fann-stopfunc).
+
+Константа [функции остановки](fann.constants.md#constants.fann-stopfunc)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_train_stop_function()](function.fann-get-train-stop-function.md) -
-Повертає функцію зупинки, що використовується під час навчання
+-   [fanngettrainstopfunction()](function.fann-get-train-stop-function.md) - Повертає функцію зупинки, що використовується під час навчання

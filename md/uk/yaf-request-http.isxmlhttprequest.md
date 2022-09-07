@@ -1,28 +1,28 @@
-- [« Yaf_Request_Http::getRequest](yaf-request-http.getrequest.md)
-- [Yaf_Request_Simple »](class.yaf-request-simple.md)
+---
+navigation:
+  - yaf-request-http.getrequest.md: '« YafRequestHttp::getRequest'
+  - class.yaf-request-simple.md: YafRequestSimple »
+  - index.md: PHP Manual
+  - class.yaf-request-http.md: YafRequestHttp
+title: 'YafRequestHttp::isXmlHttpRequest'
+---
+# YafRequestHttp::isXmlHttpRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Http](class.yaf-request-http.md)
-- Визначає, чи є запит Ajax-запитом
+(Yaf >=1.0.0)
 
-# Yaf_Request_Http::isXmlHttpRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Http::isXmlHttpRequest — Визначає запитання.
-Ajax-запитом
+YafRequestHttp::isXmlHttpRequest — Визначає, чи є запит Ajax-запитом
 
 ### Опис
 
-public **Yaf_Request_Http::isXmlHttpRequest**(): bool
+```methodsynopsis
+public Yaf_Request_Http::isXmlHttpRequest(): bool
+```
 
 Перевіряє запит, чи він є запитом Ajax.
 
-> **Примітка**:
->
-> Метод залежить від заголовка запиту: HTTP_X\_REQUESTED_WITH, деякі
-> бібліотеки Javascript не встановлюють цей заголовок під час виконання
-> запиту Ajax
+> **Зауваження**
+> 
+> Метод залежить від заголовка запиту: HTTPЗREQUESTEDWITH деякі бібліотеки Javascript не встановлюють цей заголовок при виконанні запиту Ajax
 
 ### Список параметрів
 

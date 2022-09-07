@@ -1,36 +1,39 @@
-- [«UI\Controls\Form](class.ui-controls-form.md)
-- [UI\Controls\Form::delete »](ui-controls-form.delete.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Form](class.ui-controls-form.md)
-- Додати керуючий елемент
-
-# UI\Controls\Form::append
+---
+navigation:
+  - class.ui-controls-form.md: « UIControlsForm
+  - ui-controls-form.delete.md: 'ОЙControlsForm::delete »'
+  - index.md: PHP Manual
+  - class.ui-controls-form.md: ОЙControlsForm
+title: 'ОЙControlsForm::append'
+---
+# ОЙControlsForm::append
 
 (UI 0.9.9)
 
-UI\Controls\Form::append — Додати елемент керування
+ОЙControlsForm::append — Додати елемент керування
 
 ### Опис
 
-public **UI\Controls\Form::append**(string `$label`,
-[UI\Control](class.ui-control.md) `$control`, bool `$stretchy` =
-**`false`**): int
+```methodsynopsis
+public UI\Controls\Form::append(string $label, UI\Control $control, bool $stretchy = false): int
+```
 
 Додає елемент управління до форми та встановлює мітку
 
 ### Список параметрів
 
 `label`
+
 Текст для мітки
 
 `control`
+
 Керуючий елемент
 
 `stretchy`
+
 Має значення true, щоб розтягнути елемент управління
 
 ### Значення, що повертаються
 
-Повертає індекс доданого елемента управління, можливо значення
-0
+Повертає індекс доданого елемента управління, можливо значення 0

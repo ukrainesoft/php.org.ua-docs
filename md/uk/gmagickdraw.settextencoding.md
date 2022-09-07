@@ -1,34 +1,31 @@
-- [« GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.md)
-- [GmagickPixel »](class.gmagickpixel.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Задає кодовий набір тексту
-
+---
+navigation:
+  - gmagickdraw.settextdecoration.md: '« GmagickDraw::settextdecoration'
+  - class.gmagickpixel.md: GmagickPixel »
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::settextencoding'
+---
 # GmagickDraw::settextencoding
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::settextencoding — Задає кодовий набір тексту
 
 ### Опис
 
-public **GmagickDraw::settextencoding**(string `$encoding`):
-[GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::settextencoding(string $encoding): GmagickDraw
+```
 
-Задає кодовий набір, який використовуватиметься для текстових
-анотацій. Єдине кодування символів, яке може бути вказане в
-В даний час - це "UTF-8" для представлення Unicode як
-послідовність байтів. Вкажіть порожній рядок, щоб встановити
-кодування тексту за промовчанням у системі. Для успішного анотування
-тексту з використанням Unicode можуть знадобитися шрифти,
-підтримують Unicode.
+Задає кодовий набір, який використовуватиметься для текстових анотацій. Єдине кодування символів, яке може бути вказане в даний час, це "UTF-8" для представлення Unicode як послідовності байтів. Вкажіть порожній рядок, щоб встановити кодування тексту за промовчанням у системі. Для успішного анотування тексту з Unicode можуть знадобитися шрифти, які підтримують Unicode.
 
 ### Список параметрів
 
 `encoding`
+
 Рядок символів, що визначає кодування тексту.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.md)

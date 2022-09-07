@@ -1,19 +1,16 @@
-- [« JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)
-- [json_decode »](function.json-decode.md)
-
-- [PHP Manual](index.md)
-- [JSON](book.json.md)
-- Функції JSON
-
+---
+navigation:
+  - jsonserializable.jsonserialize.md: '« JsonSerializable::jsonSerialize'
+  - function.json-decode.md: jsondecode »
+  - index.md: PHP Manual
+  - book.json.md: JSON
+title: Функції JSON
+---
 # Функції JSON
 
 ## Зміст
 
-- [json_decode](function.json-decode.md) — Декодує рядок JSON
-- [json_encode](function.json-encode.md) - Повертає
-JSON-подання даних
-- [json_last_error_msg](function.json-last-error-msg.md) -
-Повертає рядок із повідомленням про помилку останнього виклику
-json_encode() або json_decode()
-- [json_last_error](function.json-last-error.md) - Повертає
-останню помилку
+-   [jsondecode](function.json-decode.md) - Декодує рядок JSON
+-   [jsonencode](function.json-encode.md) — Повертає JSON-подання даних
+-   [jsonlasterrormsg](function.json-last-error-msg.md) — Повертає рядок із повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
+-   [jsonlasterror](function.json-last-error.md) — Повертає останню помилку

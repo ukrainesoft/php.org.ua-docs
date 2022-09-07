@@ -1,40 +1,41 @@
-- [ trader_atan](function.trader-atan.md)
-- [trader_avgprice »](function.trader-avgprice.md)
+---
+navigation:
+  - function.trader-atan.md: « traderatan
+  - function.trader-avgprice.md: traderavgprice »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderatr
+---
+# traderatr
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Середній істинний діапазон
+(PECL trader >= 0.2.0)
 
-# trader_atr
-
-(PECL trader \>= 0.2.0)
-
-trader_atr — Середній дійсний діапазон
+traderatr — Середній дійсний діапазон
 
 ### Опис
 
-**trader_atr**(
-array `$high`,
-array `$low`,
-array `$close`,
-int `$timePeriod` = ?
-): array
+```methodsynopsis
+trader_atr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,24 +1,25 @@
-- [«UI\Controls\Box::append](ui-controls-box.append.md)
-- [UI\Controls\Box::delete »](ui-controls-box.delete.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Box](class.ui-controls-box.md)
-- Створити новий об'єкт Box
-
-# UI\Controls\Box::\_\_construct
+---
+navigation:
+  - ui-controls-box.append.md: '« UIControlsBox::append'
+  - ui-controls-box.delete.md: 'ОЙControlsBox::delete »'
+  - index.md: PHP Manual
+  - class.ui-controls-box.md: ОЙControlsBox
+title: 'ОЙControlsBox::construct'
+---
+# ОЙControlsBox::construct
 
 (UI 0.9.9)
 
-UI\Controls\Box::\_\_construct — Створити новий об'єкт Box
+ОЙControlsBox::construct — Створити новий об'єкт Box
 
 ### Опис
 
-public **UI\Controls\Box::\_\_construct**(int `$orientation` =
-UI\Controls\Box::Horizontal)
+public **ОЙControlsBox::construct**(int `$orientation` = UIControlsBox::Horizontal)
 
 Створить новий блок
 
 ### Список параметрів
 
 `orientation`
+
 Box::Horizontal або Box::Vertical

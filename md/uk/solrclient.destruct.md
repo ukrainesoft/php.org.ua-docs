@@ -1,19 +1,20 @@
-- [« SolrClient::deleteByQuery](solrclient.deletebyquery.md)
-- [SolrClient::getById »](solrclient.getbyid.md)
+---
+navigation:
+  - solrclient.deletebyquery.md: '« SolrClient::deleteByQuery'
+  - solrclient.getbyid.md: 'SolrClient::getById »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::destruct'
+---
+# SolrClient::destruct
 
-- [PHP Manual](index.md)
-- [SolrClient](class.solrclient.md)
-- Деструктор SolrClient
+(PECL solr> = 0.9.2)
 
-# SolrClient::\_\_destruct
-
-(PECL solr \> = 0.9.2)
-
-SolrClient::\_\_destruct - Деструктор SolrClient
+SolrClient::destruct — Деструктор SolrClient
 
 ### Опис
 
-public **SolrClient::\_\_destruct**()
+public **SolrClient::destruct**
 
 Деструктор
 
@@ -27,5 +28,4 @@ public **SolrClient::\_\_destruct**()
 
 ### Дивіться також
 
-- [SolrClient::\_\_construct()](solrclient.construct.md) -
-Конструктор об'єкта SolrClient
+-   [SolrClient::construct()](solrclient.construct.md) - Конструктор об'єкта SolrClient

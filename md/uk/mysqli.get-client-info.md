@@ -1,35 +1,38 @@
-- [« mysqli::get_charset](mysqli.get-charset.md)
-- [mysqli::$client_version »](mysqli.get-client-version.md)
+---
+navigation:
+  - mysqli.get-charset.md: '« mysqli::getcharset'
+  - mysqli.get-client-version.md: 'mysqli::$clientversion »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$clientinfo'
+---
+# mysqli::$clientinfo
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Отримує інформацію про клієнта MySQL
+# mysqli::getclientinfo
 
-# mysqli::$client_info
-
-# mysqli::get_client_info
-
-# mysqli_get_client_info
+# mysqligetclientinfo
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$client_info -- mysqli::get_client_info --
-mysqli_get_client_info — Отримує інформацію про клієнта MySQL
+mysqli::$clientinfo -- mysqli::getclientinfo -- mysqligetclientinfo — Отримує інформацію про клієнта MySQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string `$mysqli->client_info`;
+string [$mysqli->clientinfo](mysqli.get-client-info.md)
 
-public **mysqli::get_client_info**(): string
+```methodsynopsis
+public mysqli::get_client_info(): string
+```
 
 Процедурний стиль
 
-**mysqli_get_client_info**(?[mysqli](class.mysqli.md) `$mysql` =
-**`null`**): string
+```methodsynopsis
+mysqli_get_client_info(?mysqli $mysql = null): string
+```
 
-Повертає рядок, який містить версію клієнтської бібліотеки MySQL.
+Повертає рядок, що містить версію клієнтської бібліотеки MySQL.
 
 ### Список параметрів
 
@@ -39,25 +42,29 @@ public **mysqli::get_client_info**(): string
 
 Рядок, що містить версію клієнтської бібліотеки MySQL.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                    |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Виклик функції mysqli_get_client_info()** з аргументом mysql застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
-| 8.1.0  | Об'єктно-орієнтований стиль виклику методу mysqli::get_client_info()** застарів.                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції **mysqligetclientinfo()** з аргументом `mysql` застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
+|  | Об'єктно-орієнтований стиль виклику методу **mysqli::getclientinfo()** застарів. |
 
 ### Приклади
 
-**Приклад #1 mysqli_get_client_info**
+**Приклад #1 mysqligetclientinfo**
 
-` <?php/* Для визначення версії клієнтської бібліотеки MySQL   нет необхідності у створенні з'єднання */printf("Версія клієнтської бібліотеки: %s
-", mysqli_get_client_info());?> `
+```php
+<?php
+
+/* Для определения версии клиентской библиотеки MySQL
+   нет необходимости в создании соединения */
+
+printf("Версия клиентской библиотеки: %s\n", mysqli_get_client_info());
+?>
+```
 
 ### Дивіться також
 
-- [mysqli_get_client_version()](mysqli.get-client-version.md) -
-Повертає інформацію про клієнта MySQL у вигляді рядка
-- [mysqli_get_server_info()](mysqli.get-server-info.md) - Повертає
-версію MySQL сервера
-- [mysqli_get_server_version()](mysqli.get-server-version.md) -
-Повертає версію сервера MySQL, представлену у вигляді integer
+-   [mysqligetclientversion()](mysqli.get-client-version.md) - Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера
+-   [mysqligetserverversion()](mysqli.get-server-version.md) - Повертає версію сервера MySQL, представлену у вигляді integer

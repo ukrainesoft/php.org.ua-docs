@@ -1,20 +1,22 @@
-- [« ImagickDraw::setGravity](imagickdraw.setgravity.md)
-- [ImagickDraw::setStrokeAlpha »](imagickdraw.setstrokealpha.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює дозвіл
-
+---
+navigation:
+  - imagickdraw.setgravity.md: '« ImagickDraw::setGravity'
+  - imagickdraw.setstrokealpha.md: 'ImagickDraw::setStrokeAlpha »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setResolution'
+---
 # ImagickDraw::setResolution
 
-(PECL imagick 3 \>= 3.1.0)
+(PECL imagick 3> = 3.1.0)
 
 ImagickDraw::setResolution — Встановлює дозвіл
 
 ### Опис
 
-public **ImagickDraw::setResolution**(float `$x_resolution`, float
-`$y_resolution`): bool
+```methodsynopsis
+public ImagickDraw::setResolution(float $x_resolution, float $y_resolution): bool
+```
 
 Встановлює дозвіл.
 
@@ -26,4 +28,4 @@ public **ImagickDraw::setResolution**(float `$x_resolution`, float
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

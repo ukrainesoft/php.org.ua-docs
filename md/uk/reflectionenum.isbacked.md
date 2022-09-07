@@ -1,24 +1,24 @@
-- [« ReflectionEnum::hasCase](reflectionenum.hascase.md)
-- [ReflectionEnumUnitCase »](class.reflectionenumunitcase.md)
-
-- [PHP Manual](index.md)
-- [ReflectionEnum](class.reflectionenum.md)
-- Визначає, чи є перерахування типовим
-
+---
+navigation:
+  - reflectionenum.hascase.md: '« ReflectionEnum::hasCase'
+  - class.reflectionenumunitcase.md: ReflectionEnumUnitCase »
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
+title: 'ReflectionEnum::isBacked'
+---
 # ReflectionEnum::isBacked
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionEnum::isBacked — Визначає, чи є перерахування
-типізованим
+ReflectionEnum::isBacked — Визначає, чи є перелік типовим
 
 ### Опис
 
-public **ReflectionEnum::isBacked**(): bool
+```methodsynopsis
+public ReflectionEnum::isBacked(): bool
+```
 
-Типізований перелік - має власний скалярний еквівалент,
-або рядок (string), або ціле число (int). Не всі перерахування
-є типизованими.
+Типізоване перерахування має власний скалярний еквівалент, або рядок (string), або ціле число (int). Не всі переліки є типізованими.
 
 ### Список параметрів
 
@@ -26,22 +26,43 @@ public **ReflectionEnum::isBacked**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо перерахування є типізованим,
-в іншому випадку повертає **`false`**.
+Повертає **`true`**, якщо перерахування є типізованим, інакше повертає **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionEnum::isBacked()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}enum BackedSuit: string{    case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}var_dump((newReflectionEnum(Suit::class))->isBacked());var_dump((newReflectionEnum(BackedSuit::class))->isBacked());?> `
+```php
+<?php
+enum Suit
+{
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
+}
+
+enum BackedSuit: string
+{
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
+}
+
+var_dump((new ReflectionEnum(Suit::class))->isBacked());
+var_dump((new ReflectionEnum(BackedSuit::class))->isBacked());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [Перерахування](language.enumerations.md)
-- [ReflectionEnum::getBackingType()](reflectionenum.getbackingtype.md) -
-Отримує тип перерахування, якщо є
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnum::getBackingType()](reflectionenum.getbackingtype.md) - Отримує тип перерахування, якщо є

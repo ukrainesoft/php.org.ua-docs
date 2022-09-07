@@ -1,44 +1,110 @@
-- [«Ключове слово static](language.oop5.static.md)
-- [Інтерфейси об'єктів »](language.oop5.interfaces.md)
-
-- [PHP Manual](index.md)
-- [Класи та об'єкти](language.oop5.md)
-- Абстрактні класи
-
+---
+navigation:
+  - language.oop5.static.md: « Ключевое слово static
+  - language.oop5.interfaces.md: Інтерфейси об'єктів »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Абстрактні класи
+---
 ## Абстрактні класи
 
-PHP підтримує визначення абстрактних класів та методів. На основі
-абстрактного класу не можна створювати об'єкти, і будь-який клас, що містить
-хоча б абстрактний метод, може бути визначений як абстрактний.
-Методи, оголошені абстрактними, несуть, сутнісно, лише описовий
-сенс не можуть включати реалізацію.
+PHP підтримує визначення абстрактних класів та методів. На основі абстрактного класу не можна створювати об'єкти, і будь-який клас, що містить хоча б один абстрактний метод, має бути визначений як абстрактний. Методи, оголошені абстрактними, несуть, сутнісно, ​​лише описовий зміст і що неспроможні включати реалізацію.
 
-При успадкування від абстрактного класу, всі методи, помічені
-абстрактними в батьківському класі повинні бути визначені в дочірньому
-класі та дотримуватися звичайних правил
-[спадкування](language.oop5.inheritance.md) та [сумісності сигнатури](language.oop5.basic.md#language.oop.lsp).
+При успадкування від абстрактного класу, всі методи, помічені абстрактними у батьківському класі, повинні бути визначені в дочірньому класі та дотримуватися звичайних правил [наследования](language.oop5.inheritance.md) і [сумісності сигнатури](language.oop5.basic.md#language.oop.lsp)
 
 **Приклад #1 Приклад абстрактного класу**
 
-`<?phpabstract class AbstractClass{     // Дані методи мусять визначені в дочірнім класі    abstract protected function getValue(); abstract protected function prefixValue($prefix); // Загальний метод    public function printOut() {         print $this->getValue() . "
-";    }}class ConcreteClass1 extends AbstractClass{    protected function getValue() {        return "ConcreteClass1";    }    public function prefixValue($prefix) {        return "{$prefix}ConcreteClass1";    }}class ConcreteClass2 extends AbstractClass{    public function getValue() {        return "ConcreteClass2";    }    public function prefixValue($prefix) {        return "{$prefix}ConcreteClass2";    }}$class1 = new ConcreteClass1;$class1->printOut();echo $class1->prefixValue('FOO_' ) ."
-";$class2 = new ConcreteClass2;$class2->printOut();echo $class2->prefixValue('FOO_') ."
-";?> `
+```php
+<?php
+abstract class AbstractClass
+{
+    // Данные методы должны быть определены в дочернем классе
+    abstract protected function getValue();
+    abstract protected function prefixValue($prefix);
+
+    // Общий метод
+    public function printOut() {
+        print $this->getValue() . "\n";
+    }
+}
+
+class ConcreteClass1 extends AbstractClass
+{
+    protected function getValue() {
+        return "ConcreteClass1";
+    }
+
+    public function prefixValue($prefix) {
+        return "{$prefix}ConcreteClass1";
+    }
+}
+
+class ConcreteClass2 extends AbstractClass
+{
+    public function getValue() {
+        return "ConcreteClass2";
+    }
+
+    public function prefixValue($prefix) {
+        return "{$prefix}ConcreteClass2";
+    }
+}
+
+$class1 = new ConcreteClass1;
+$class1->printOut();
+echo $class1->prefixValue('FOO_') ."\n";
+
+$class2 = new ConcreteClass2;
+$class2->printOut();
+echo $class2->prefixValue('FOO_') ."\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 ConcreteClass1
 FOO_ConcreteClass1
 ConcreteClass2
 FOO_ConcreteClass2
+```
 
 **Приклад #2 Приклад абстрактного класу**
 
-` <?phpabstract class AbstractClass{    // Наш абстрактный метод требует только определить необходимые аргументы    abstract protected function prefixName($name);}class ConcreteClass extends AbstractClass{    // Наш дочерний класс может определить необязательные аргументы, не указанные в объявлении родительского метода    public function prefixName($name,$separator==".")|{        if ($name == "Pacman") {            $prefix = "Mr" } elseif ($name ==="Pacwoman") {            $prefix = "Mrs"; } else {             $prefix = ""; }    return "{$prefix}{$separator} {$name}"; }}$class = new ConcreteClass;echo $class->prefixName("Pacman"), "
-";echo $class->prefixName("Pacwoman"), "
-";?> `
+```php
+<?php
+abstract class AbstractClass
+{
+    // Наш абстрактный метод требует только определить необходимые аргументы
+    abstract protected function prefixName($name);
+
+}
+
+class ConcreteClass extends AbstractClass
+{
+
+    // Наш дочерний класс может определить необязательные аргументы, не указанные в объявлении родительского метода
+    public function prefixName($name, $separator = ".") {
+        if ($name == "Pacman") {
+            $prefix = "Mr";
+        } elseif ($name == "Pacwoman") {
+            $prefix = "Mrs";
+        } else {
+            $prefix = "";
+        }
+        return "{$prefix}{$separator} {$name}";
+    }
+}
+
+$class = new ConcreteClass;
+echo $class->prefixName("Pacman"), "\n";
+echo $class->prefixName("Pacwoman"), "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Mr. Pacman
 Mrs. Pacwoman
+```

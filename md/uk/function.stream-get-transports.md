@@ -1,23 +1,24 @@
-- [«stream_get_meta_data](function.stream-get-meta-data.md)
-- [stream_get_wrappers »](function.stream-get-wrappers.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Отримати список зареєстрованих транспортів сокету
-
-#stream_get_transports
+---
+navigation:
+  - function.stream-get-meta-data.md: « streamgetmetadata
+  - function.stream-get-wrappers.md: streamgetwrappers »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamgettransports
+---
+# streamgettransports
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_get_transports — Отримати список зареєстрованих транспортів
-сокету
+streamgettransports — Отримати список зареєстрованих транспортів сокету
 
 ### Опис
 
-**stream_get_transports**(): array
+```methodsynopsis
+stream_get_transports(): array
+```
 
-Повертає індексований масив, який містить назви всіх транспортів
-сокет, доступний на запущеній системі.
+Повертає індексований масив, який містить назви всіх транспортів сокету, доступних на запущеній системі.
 
 ### Список параметрів
 
@@ -29,22 +30,27 @@ stream_get_transports — Отримати список зареєстрован
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_get_transports()****
+**Приклад #1 Приклад використання **streamgettransports()****
 
-` <?php$xportlist = stream_get_transports();print_r($xportlist);?> `
+```php
+<?php
+$xportlist = stream_get_transports();
+print_r($xportlist);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array (
-[0] => tcp
-[1] => udp
-[2] => unix
-[3] => udg
+  [0] => tcp
+  [1] => udp
+  [2] => unix
+  [3] => udg
 )
+```
 
 ### Дивіться також
 
-- [stream_get_filters()](function.stream-get-filters.md) - Отримати
-список зареєстрованих фільтрів
-- [stream_get_wrappers()](function.stream-get-wrappers.md) -
-Отримати список зареєстрованих потоків
+-   [streamgetfilters()](function.stream-get-filters.md) - Отримати список зареєстрованих фільтрів
+-   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків

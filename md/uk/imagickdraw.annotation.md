@@ -1,10 +1,11 @@
-- [« ImagickDraw::affine](imagickdraw.affine.md)
-- [ImagickDraw::arc »](imagickdraw.arc.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Малює текст на картинці
-
+---
+navigation:
+  - imagickdraw.affine.md: '« ImagickDraw::affine'
+  - imagickdraw.arc.md: 'ImagickDraw::arc »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::annotation'
+---
 # ImagickDraw::annotation
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,25 +14,28 @@ ImagickDraw::annotation — Малює текст на зображенні
 
 ### Опис
 
-public **ImagickDraw::annotation**(float `$x`, float `$y`, string
-`$text`): bool
+```methodsynopsis
+public ImagickDraw::annotation(float $x, float $y, string $text): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Малює текст на зображенні.
 
 ### Список параметрів
 
 `x`
+
 Координата X, де малюється текст
 
 `y`
+
 Координата Y, де малюється текст
 
 `text`
+
 Текст для малювання на зображенні
 
 ### Значення, що повертаються

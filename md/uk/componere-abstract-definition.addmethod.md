@@ -1,31 +1,34 @@
-- [« Componere\Abstract\Definition::addInterface](componere-abstract-definition.addinterface.md)
-- [Componere\Abstract\Definition::addTrait »](componere-abstract-definition.addtrait.md)
+---
+navigation:
+  - componere-abstract-definition.addinterface.md: '« ComponereAbstractDefinition::addInterface'
+  - componere-abstract-definition.addtrait.md: 'ComponereAbstractDefinition::addTrait »'
+  - index.md: PHP Manual
+  - class.componere-abstract-definition.md: ComponereAbstractDefinition
+title: 'ComponereAbstractDefinition::addMethod'
+---
+# ComponereAbstractDefinition::addMethod
 
-- [PHP Manual](index.md)
-- [Componere\Abstract\Definition](class.componere-abstract-definition.md)
-- Додає метод
+(Componere 2 >= 2.1.0)
 
-# Componere\Abstract\Definition::addMethod
-
-(Componere 2 \>= 2.1.0)
-
-Componere\Abstract\Definition::addMethod — Додає метод
+ComponereAbstractDefinition::addMethod — Додає метод
 
 ### Опис
 
-public **Componere\Abstract\Definition::addMethod**(string `$name`,
-[Componere\Method](class.componere-method.md) `$method`): Definition
+```methodsynopsis
+public Componere\Abstract\Definition::addMethod(string $name, Componere\Method $method): Definition
+```
 
-Повинен створити або перевизначити метод у поточному визначенні.
+Повинен створити чи перевизначити метод у поточному визначенні.
 
 ### Список параметрів
 
 `name`
+
 Нечутливе до регістру ім'я методу
 
 `method`
-[Componere\Method](class.componere-method.md) раніше не доданий до
-іншому Definition
+
+[ComponereMethod](class.componere-method.md) раніше не доданий до іншого Definition
 
 ### Значення, що повертаються
 
@@ -35,10 +38,8 @@ The current Definition
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition був зареєстрований
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо метод був доданий до іншого визначення
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо метод був доданий до іншого визначення

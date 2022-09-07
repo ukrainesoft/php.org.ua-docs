@@ -1,28 +1,33 @@
-- [«SolrParams::serialize](solrparams.serialize.md)
-- [SolrParams::setParam »](solrparams.setparam.md)
-
-- [PHP Manual](index.md)
-- [SolrParams](class.solrparams.md)
-- Псевдонім SolrParams::setParam
-
+---
+navigation:
+  - solrparams.serialize.md: '« SolrParams::serialize'
+  - solrparams.setparam.md: 'SolrParams::setParam »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'SolrParams::set'
+---
 # SolrParams::set
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrParams::set — Псевдонім SolrParams::setParam
 
 ### Опис
 
-final public **SolrParams::set**(string `$name`, string `$value`): void
+```methodsynopsis
+final public SolrParams::set(string $name, string $value): void
+```
 
 Псевдонім SolrParams::setParam
 
 ### Список параметрів
 
 `name`
+
 Ім'я параметра
 
 `value`
+
 Значення параметру
 
 ### Значення, що повертаються

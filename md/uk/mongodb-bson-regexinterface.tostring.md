@@ -1,20 +1,22 @@
-- [« MongoDB\BSON\RegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.md)
-- [MongoDB\BSON\TimestampInterface »](class.mongodb-bson-timestampinterface.md)
+---
+navigation:
+  - mongodb-bson-regexinterface.getpattern.md: '« MongoDBBSONRegexInterface::getPattern'
+  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface
+title: 'MongoDBBSONRegexInterface::toString'
+---
+# MongoDBBSONRegexInterface::toString
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md)
-- Повертає рядкову виставу RegexInterface
+(mongodb >=1.3.0)
 
-# MongoDB\BSON\RegexInterface::\_\_toString
-
-(mongodb \>=1.3.0)
-
-MongoDB\BSON\RegexInterface::\_\_toString — Повертає рядкове
-представлення RegexInterface
+MongoDBBSONRegexInterface::toString — Повертає рядкову виставу RegexInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\RegexInterface::\_\_toString**(): string
+```methodsynopsis
+abstract public MongoDB\BSON\RegexInterface::__toString(): string
+```
 
 ### Список параметрів
 
@@ -22,9 +24,8 @@ abstract public **MongoDB\BSON\RegexInterface::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Повертає строкове представлення RegexInterface.
+Повертає рядкову виставу RegexInterface.
 
 ### Дивіться також
 
-- [MongoDB\BSON\Regex::\_\_toString()](mongodb-bson-regex.tostring.md) -
-Повертає рядкову виставу Regex
+-   [MongoDBBSONRegex::toString()](mongodb-bson-regex.tostring.md) - Повертає рядкову виставу Regex

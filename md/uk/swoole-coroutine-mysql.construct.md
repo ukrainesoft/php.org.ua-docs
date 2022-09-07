@@ -1,24 +1,24 @@
-- [« Swoole\Coroutine\MySQL::connect](swoole-coroutine-mysql.connect.md)
-- [Swoole\Coroutine\MySQL::\_\_destruct »](swoole-coroutine-mysql.destruct.md)
+---
+navigation:
+  - swoole-coroutine-mysql.connect.md: '« SwooleCoroutineMySQL::connect'
+  - swoole-coroutine-mysql.destruct.md: 'SwooleCoroutineMySQL::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::construct'
+---
+# SwooleCoroutineMySQL::construct
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+(PECL swoole >= 2.0.0)
 
-# Swoole\Coroutine\MySQL::\_\_construct
-
-(PECL swoole \>= 2.0.0)
-
-Swoole\Coroutine\MySQL::\_\_construct — Опис
+SwooleCoroutineMySQL::construct — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\MySQL::\_\_construct**()
+public **SwooleCoroutineMySQL::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

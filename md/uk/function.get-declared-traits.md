@@ -1,19 +1,22 @@
-- [«get_declared_interfaces](function.get-declared-interfaces.md)
-- [get_mangled_object_vars »](function.get-mangled-object-vars.md)
+---
+navigation:
+  - function.get-declared-interfaces.md: « getdeclaredinterfaces
+  - function.get-mangled-object-vars.md: getmangledobjectvars »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getdeclaredtraits
+---
+# getdeclaredtraits
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Повертає масив з усіма оголошеними трейтами
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-#get_declared_traits
-
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
-
-get_declared_traits — Повертає масив з усіма оголошеними трейтами
+getdeclaredtraits — Повертає масив з усіма оголошеними трейтами
 
 ### Опис
 
-**get_declared_traits**(): array
+```methodsynopsis
+get_declared_traits(): array
+```
 
 ### Список параметрів
 
@@ -21,12 +24,9 @@ get_declared_traits — Повертає масив з усіма оголоше
 
 ### Значення, що повертаються
 
-Повертає масив з іменами трейтів як значення масиву.
-Повертає **`null`**, якщо таких не знайдено.
+Повертає масив з іменами трейтів як значення масиву. Повертає \*\*`null`\*\*якщо такі не знайдені.
 
 ### Дивіться також
 
-- [class_uses()](function.class-uses.md) - Повертає список
-трейтів, що використовуються заданим класом
-- [trait_exists()](function.trait-exists.md) - Перевіряє, чи існує
-чи трейт
+-   [classuses()](function.class-uses.md) - Повертає список трейтів, які використовуються заданим класом
+-   [traitexists()](function.trait-exists.md) - Перевіряє, чи існує трейт

@@ -1,28 +1,29 @@
-- [«Gmagick](class.gmagick.md)
-- [Gmagick::addnoiseimage »](gmagick.addnoiseimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додавання нового зображення до списку зображень об'єкта Gmagick
-
+---
+navigation:
+  - class.gmagick.md: « Gmagick
+  - gmagick.addnoiseimage.md: 'Gmagick::addnoiseimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::addimage'
+---
 # Gmagick::addimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::addimage — Додавання нового зображення до списку зображень
-об'єкту Gmagick
+Gmagick::addimage — Додавання нового зображення до списку зображень об'єкта Gmagick
 
 ### Опис
 
-public **Gmagick::addimage**([Gmagick](class.gmagick.md) `$source`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::addimage(Gmagick $source): Gmagick
+```
 
-Додавання нового зображення до об'єкта Gmagick з поточної позиції об'єкта
-джерела. Після додавання позиції ітератор зміщується в кінець списку.
+Додавання нового зображення до об'єкта Gmagick з поточної позиції джерела. Після додавання позиції ітератор зміщується в кінець списку.
 
 ### Список параметрів
 
 `source`
+
 Об'єкт джерело Gmagick
 
 ### Значення, що повертаються

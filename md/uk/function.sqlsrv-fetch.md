@@ -1,73 +1,90 @@
-- [«sqlsrv_fetch_object](function.sqlsrv-fetch-object.md)
-- [sqlsrv_field_metadata »](function.sqlsrv-field-metadata.md)
-
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Робить наступний рядок у наборі результатів доступного для читання
-
-#sqlsrv_fetch
+---
+navigation:
+  - function.sqlsrv-fetch-object.md: « sqlsrvfetchobject
+  - function.sqlsrv-field-metadata.md: sqlsrvfieldmetadata »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfetch
+---
+# sqlsrvfetch
 
 (No version information available, might only be in Git)
 
-sqlsrv_fetch — Робить наступний рядок у наборі результатів.
-для читання
+sqlsrvfetch — Робить наступний рядок у наборі результатів, доступних для читання.
 
 ### Опис
 
-**sqlsrv_fetch**(resource `$stmt`, int `$row` = ?, int `$offset` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+sqlsrv_fetch(resource $stmt, int $row = ?, int $offset = ?): mixed
+```
 
-Робить наступний рядок у наборі результатів, доступних для читання.
-Використовуйте [sqlsrv_get_field()](function.sqlsrv-get-field.md) для
-читання полів рядка.
+Робить наступний рядок у наборі результатів, доступних для читання. Використовуйте [sqlsrvgetfield()](function.sqlsrv-get-field.md) для читання полів рядка.
 
 ### Список параметрів
 
 `stmt`
-Ресурс оператора, що повертається
-[sqlsrv_query()](function.sqlsrv-query.md) або
-[sqlsrv_execute()](function.sqlsrv-execute.md).
+
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 `row`
-Рядок, до якого потрібно отримати доступ. Параметр можна використовувати
-тільки в тому випадку, якщо вказаний оператор був підготовлений за допомогою
-курсора з можливістю прокручування. У цьому випадку параметр може приймати
-одне з наступних значень:
 
-- SQLSRV_SCROLL_NEXT
-- SQLSRV_SCROLL_PRIOR
-- SQLSRV_SCROLL_FIRST
-- SQLSRV_SCROLL_LAST
-- SQLSRV_SCROLL_ABSOLUTE
-- SQLSRV_SCROLL_RELATIVE
+Рядок, до якого потрібно отримати доступ. Параметр можна використовувати лише в тому випадку, якщо вказаний оператор був підготовлений за допомогою курсору з можливістю прокручування. У цьому випадку параметр може приймати одне з таких значень:
+
+-   SQLSRVSCROLLNEXT
+-   SQLSRVSCROLLPRIOR
+-   SQLSRVSCROLLFIRST
+-   SQLSRVSCROLLLAST
+-   SQLSRVSCROLLABSOLUTE
+-   SQLSRVSCROLLRELATIVE
 
 `offset`
-Вказує рядок, до якого буде здійснюватися доступ, якщо для
-параметра рядка встановлено значення **`SQLSRV_SCROLL_ABSOLUTE`** або
-**`SQLSRV_SCROLL_RELATIVE`**. Зверніть увагу, що перший рядок у
-Набір результатів має індекс 0.
+
+Вказує рядок, до якого буде доступ, якщо для параметра рядка встановлено значення **`SQLSRV_SCROLL_ABSOLUTE`** або **`SQLSRV_SCROLL_RELATIVE`**. Зауважте, що перший рядок у наборі результатів має індекс 0.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо наступний рядок набору результатів був
-успішно отримана, **`false`** у разі виникнення помилки та
-**`null`**, якщо у наборі результатів більше немає рядків.
+Повертає **`true`**, якщо наступний рядок набору результатів було успішно отримано, **`false`** у разі виникнення помилки та \*\*`null`\*\*якщо у наборі результатів більше немає рядків.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_fetch()****
+**Приклад #1 Приклад використання **sqlsrvfetch()****
 
-У наступному прикладі показано, як отримати рядок за допомогою
-**sqlsrv_fetch()** і отримати поля рядки за допомогою
-[sqlsrv_get_field()](function.sqlsrv-get-field.md).
+У наступному прикладі показано, як отримати рядок за допомогою **sqlsrvfetch()** та отримати поля рядки за допомогою [sqlsrvgetfield()](function.sqlsrv-get-field.md)
 
-` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "SELECT Name, Comment        FROM Table_1        WHERE ReviewID=1";$stmt = sqlsrv_query( $conn, $sql);if( $stmt === false ) {    die( print_r( sqlsrv_errors(), true));}// Зробіть на на а  if( sqlsrv_fetch( $stmt ) ====false) {     die( print_r( sqlsrv_errors(), true));}// Отримайте поля. Индексы полей начинаются с 0 и должны извлекаться по порядку.// Получение полей строки по имени не поддерживается sqlsrv_get_field.$name = sqlsrv_get_field( $stmt, 0);echo "$name: ";$comment = sqlsrv_get_field( $stmt, 1) ;echo $comment;?> `
+```php
+<?php
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+$sql = "SELECT Name, Comment
+        FROM Table_1
+        WHERE ReviewID=1";
+$stmt = sqlsrv_query( $conn, $sql);
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+// Сделайте первую (и в данном случае единственную) строку набора результатов доступной для чтения.
+if( sqlsrv_fetch( $stmt ) === false) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+// Получите поля строки. Индексы полей начинаются с 0 и должны извлекаться по порядку.
+// Получение полей строки по имени не поддерживается sqlsrv_get_field.
+$name = sqlsrv_get_field( $stmt, 0);
+echo "$name: ";
+
+$comment = sqlsrv_get_field( $stmt, 1);
+echo $comment;
+?>
+```
 
 ### Дивіться також
 
-- [sqlsrv_get_field()](function.sqlsrv-get-field.md) - Отримує
-дані поля з поточного вибраного рядка
-- [sqlsrv_fetch_array()](function.sqlsrv-fetch-array.md) -
-Повертає рядок як масив
-- [sqlsrv_fetch_object()](function.sqlsrv-fetch-object.md) -
-Отримує наступний рядок даних у наборі результатів як об'єкт
+-   [sqlsrvgetfield()](function.sqlsrv-get-field.md) - Отримує дані поля з поточного вибраного рядка
+-   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) - Повертає рядок як масив
+-   [sqlsrvfetchobject()](function.sqlsrv-fetch-object.md) - Отримує наступний рядок даних у наборі результатів як об'єкт

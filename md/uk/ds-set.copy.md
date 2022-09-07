@@ -1,19 +1,22 @@
-- [« Ds\Set::contains](ds-set.contains.md)
-- [Ds\Set::count »](ds-set.count.md)
+---
+navigation:
+  - ds-set.contains.md: '« DsSet::contains'
+  - ds-set.count.md: 'ДсSet::count »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::copy'
+---
+# ДсSet::copy
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає поверхневу копію колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Set::copy
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::copy — Повертає поверхневу копію колекції
+ДсSet::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
-public **Ds\Set::copy**(): [Ds\Set](class.ds-set.md)
+```methodsynopsis
+public Ds\Set::copy(): Ds\Set
+```
 
 Повертає поверхневу копію колекції.
 
@@ -27,22 +30,35 @@ public **Ds\Set::copy**(): [Ds\Set](class.ds-set.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::copy()****
+**Приклад #1 Приклад використання **ДсSet::copy()****
 
-` <?php$a = new \Ds\Set([1, 2, 3]);$b = $a->copy();// Зміна копії не відбивається на оригіналі$b->add(4); print_r($a);print_r($b);?> `
+```php
+<?php
+$a = new \Ds\Set([1, 2, 3]);
+$b = $a->copy();
+
+// Изменение копии не отражается на оригинале
+$b->add(4);
+
+print_r($a);
+print_r($b);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Set Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Set Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
 )
+```

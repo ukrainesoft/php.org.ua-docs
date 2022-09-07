@@ -1,20 +1,22 @@
-- [« ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md)
-- [ReflectionProperty::getModifiers »](reflectionproperty.getmodifiers.md)
-
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Отримання doc-коментаря для якості
-
+---
+navigation:
+  - reflectionproperty.getdefaultvalue.md: '« ReflectionProperty::getDefaultValue'
+  - reflectionproperty.getmodifiers.md: 'ReflectionProperty::getModifiers »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getDocComment'
+---
 # ReflectionProperty::getDocComment
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-ReflectionProperty::getDocComment — Отримання doc-коментаря для
-властивості
+ReflectionProperty::getDocComment — Отримання doc-коментаря для властивості
 
 ### Опис
 
-public **ReflectionProperty::getDocComment**(): string\|false
+```methodsynopsis
+public ReflectionProperty::getDocComment(): string|false
+```
 
 Отримує doc-коментар для якості.
 
@@ -24,37 +26,64 @@ public **ReflectionProperty::getDocComment**(): string\|false
 
 ### Значення, що повертаються
 
-Doc-коментар, якщо він існує, інакше **`false`**.
+Doc-коментар, якщо він існує, інакше **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад **ReflectionProperty::getDocComment()****
 
-`<?phpclass Str{    /**    * @var int  Довжина рядки     */    public $length = 5;}$prop = new '$'' ?> `
+```php
+<?php
+class Str
+{
+    /**
+     * @var int  Длина строки
+     */
+    public $length = 5;
+}
+
+$prop = new ReflectionProperty('Str', 'length');
+
+var_dump($prop->getDocComment());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(52) "/**
-* @var int Довжина рядка
-*/"
+     * @var int  Длина строки
+     */"
+```
 
 **Приклад #2 Декларація кількох властивостей**
 
-Якщо doc-коментар задано перед множинною декларацією, то він буде
-вважатися що належить лише до першого їх.
+Якщо doc-коментар заданий перед множинною декларацією, то він вважатиметься таким, що стосується лише першого з них.
 
-` <?phpclass Foo{    /** @var string */    public $a, $b;}$class = new \ReflectionClass('Foo');foreach ($class->getProperties()         property->getName() . ': ' . var_export($property->getDocComment(), true) . PHP_EOL;}?> `
+```php
+<?php
+class Foo
+{
+    /** @var string */
+    public $a, $b;
+}
+$class = new \ReflectionClass('Foo');
+foreach ($class->getProperties() as $property) {
+    echo $property->getName() . ': ' . var_export($property->getDocComment(), true) . PHP_EOL;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 a: '/** @var string */'
 b: false
+```
 
 ### Дивіться також
 
-- [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) -
-Отримання модифікаторів властивостей класу
-- [ReflectionProperty::getName()](reflectionproperty.getname.md) -
-Отримання імені властивості
-- [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) -
-Отримує значення
+-   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) - Отримання модифікаторів властивостей класу
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення

@@ -1,37 +1,33 @@
-- [«Ev::recommendedBackends](ev.recommendedbackends.md)
-- [Ev::run »](ev.run.md)
+---
+navigation:
+  - ev.recommendedbackends.md: '« Ev::recommendedBackends'
+  - ev.run.md: 'Ev::run »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::resume'
+---
+# Ev::resume
 
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Відновити виконання призупиненого раніше подійного циклу
-замовчуванням
+(PECL ev >= 0.2.0)
 
-# Ev:: resume
-
-(PECL ev \>= 0.2.0)
-
-Ev::resume — Відновити виконання призупиненого раніше подійного
-циклу за замовчуванням
+Ev::resume — Відновити виконання призупиненого раніше циклу подій за умовчанням
 
 ### Опис
 
-final public static **Ev::resume**(): void
+```methodsynopsis
+final
+   public
+   static
+   Ev::resume(): void
+```
 
-Методи [Ev::suspend()](ev.suspend.md) та **Ev::resume()**,
-відповідно зупиняють та відновлюють роботу подієвого циклу.
+Методи [Ev::suspend()](ev.suspend.md) і \*\*Ev::resume()\*\*відповідно припиняють і відновлюють роботу подієвого циклу.
 
-Всі спостерігачі таймери будуть затримані на час, що минув між
-*suspend* і *resume*, і всі спостерігачі типу *periodic* будуть
-переплановані watchers will be rescheduled(тобто будуть втрачені всі
-події, що сталися під час призупинення).
+Всі спостерігачі таймери будуть затримані на час, що минув між *suspend* і *resume*, і всі спостерігачі типу *periodic* будуть переплановані watchers will be rescheduled(тобто будуть втрачені всі події, що сталися під час припинення).
 
-Після виклику [Ev::suspend()](ev.suspend.md) заборонено викликати будь-які
-функції циклу, крім **Ev::resume()**. Також забороняється викликати
-**Ev::resume()** якщо раніше не викликався
-[Ev::suspend()](ev.suspend.md).
+Після виклику [Ev::suspend()](ev.suspend.md) заборонено викликати будь-які функції циклу крім **Ev::resume()**. Також забороняється викликати **Ev::resume()** якщо раніше не викликався [Ev::suspend()](ev.suspend.md)
 
-Виклик * suspend * / * resume * мають побічні ефекти для оновлення часу
-подієвого циклу (дивися [Ev::nowUpdate()](ev.nowupdate.md)).
+Виклик *suspend* *resume* мають побічні ефекти для оновлення часу подієвого циклу (див. [Ev::nowUpdate()](ev.nowupdate.md)
 
 ### Список параметрів
 
@@ -43,5 +39,4 @@ final public static **Ev::resume**(): void
 
 ### Дивіться також
 
-- [Ev::suspend()](ev.suspend.md) - Призупинити подійний цикл
-замовчуванням
+-   [Ev::suspend()](ev.suspend.md) - Зупинити подійний цикл за замовчуванням

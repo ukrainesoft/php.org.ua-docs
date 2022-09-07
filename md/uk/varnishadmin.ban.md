@@ -1,23 +1,27 @@
-- [« VarnishAdmin::auth](varnishadmin.auth.md)
-- [VarnishAdmin::banUrl »](varnishadmin.banurl.md)
-
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Заборонити URL-адресу, використовуючи вираз VCL
-
+---
+navigation:
+  - varnishadmin.auth.md: '« VarnishAdmin::auth'
+  - varnishadmin.banurl.md: 'VarnishAdmin::banUrl »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::ban'
+---
 # VarnishAdmin::ban
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
-VarnishAdmin::ban — Заборонити URL-адресу за допомогою виразу VCL
+VarnishAdmin::ban — Заборонити URL-адресу, використовуючи вираз VCL
 
 ### Опис
 
-public **VarnishAdmin::ban**(string `$vcl_regex`): int
+```methodsynopsis
+public VarnishAdmin::ban(string $vcl_regex): int
+```
 
 ### Список параметрів
 
 `vcl_regex`
+
 Вираз Varnish VCL. Воно ґрунтується на команді varnish ban.
 
 ### Значення, що повертаються

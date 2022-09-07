@@ -1,23 +1,24 @@
-- [« ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)
-- [ReflectionClassConstant::getName »](reflectionclassconstant.getname.md)
-
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- Отримує модифікатори константи класу
-
+---
+navigation:
+  - reflectionclassconstant.getdoccomment.md: '« ReflectionClassConstant::getDocComment'
+  - reflectionclassconstant.getname.md: 'ReflectionClassConstant::getName »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::getModifiers'
+---
 # ReflectionClassConstant::getModifiers
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-ReflectionClassConstant::getModifiers — Отримує модифікатори константи
-класу
+ReflectionClassConstant::getModifiers — Отримує модифікатори константи класу
 
 ### Опис
 
-public **ReflectionClassConstant::getModifiers**(): int
+```methodsynopsis
+public ReflectionClassConstant::getModifiers(): int
+```
 
-Повертає бітове поле модифікаторів доступу для цієї константи
-класу.
+Повертає бітове поле модифікаторів доступу для цієї константи класу.
 
 ### Список параметрів
 
@@ -25,10 +26,8 @@ public **ReflectionClassConstant::getModifiers**(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Фактичні значення цих
-модифікаторів описані в [визначених константах](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers).
+Числове уявлення модифікаторів. Фактичні значення цих модифікаторів описані в [визначених константах](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
 
 ### Дивіться також
 
-- [Reflection::getModifierNames()](reflection.getmodifiernames.md) -
-Отримання імен модифікаторів
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів

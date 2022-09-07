@@ -1,22 +1,22 @@
-- [« Swoole\Event::add](swoole-event.add.md)
-- [Swoole\Event::del »](swoole-event.del.md)
+---
+navigation:
+  - swoole-event.add.md: '« SwooleEvent::add'
+  - swoole-event.del.md: 'SwooleEvent::del »'
+  - index.md: PHP Manual
+  - class.swoole-event.md: SwooleEvent
+title: 'SwooleEvent::defer'
+---
+# SwooleEvent::defer
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Додає callback-функцію у наступний цикл подій
+(PECL swoole >= 1.9.0)
 
-# Swoole\Event::defer
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Event::defer — Додає callback-функцію до наступного циклу
-подій
+SwooleEvent::defer — Додає callback-функцію до наступного циклу подій
 
 ### Опис
 
-public static
-**Swoole\Event::defer**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$callback`): void
+```methodsynopsis
+public static Swoole\Event::defer(mixed $callback): void
+```
 
 ### Список параметрів
 

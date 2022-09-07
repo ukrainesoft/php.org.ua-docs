@@ -1,20 +1,22 @@
-- [« Gmagick::getcopyright](gmagick.getcopyright.md)
-- [Gmagick::getimagebackgroundcolor »](gmagick.getimagebackgroundcolor.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає ім'я файлу, пов'язаного з послідовністю зображень
-
+---
+navigation:
+  - gmagick.getcopyright.md: '« Gmagick::getcopyright'
+  - gmagick.getimagebackgroundcolor.md: 'Gmagick::getimagebackgroundcolor »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getfilename'
+---
 # Gmagick::getfilename
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getfilename — Повертає ім'я файлу, пов'язаного з
-послідовністю зображень
+Gmagick::getfilename — Повертає ім'я файлу, пов'язаного з послідовністю зображень
 
 ### Опис
 
-public **Gmagick::getfilename**(): string
+```methodsynopsis
+public Gmagick::getfilename(): string
+```
 
 Повертає ім'я файлу, пов'язаного з послідовністю зображень.
 

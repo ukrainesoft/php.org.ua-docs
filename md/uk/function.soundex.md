@@ -1,10 +1,11 @@
-- [« similar_text](function.similar-text.md)
-- [sprintf»](function.sprintf.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Повертає ключ soundex для рядка
-
+---
+navigation:
+  - function.similar-text.md: « similartext
+  - function.sprintf.md: sprintf »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: soundex
+---
 # soundex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,48 +14,49 @@ soundex — Повертає ключ soundex для рядка
 
 ### Опис
 
-**soundex**(string `$string`): string
+```methodsynopsis
+soundex(string $string): string
+```
 
-Повертає ключ soundex для рядка `string`.
+Повертає ключ soundex для рядка `string`
 
-Двом словам, які мають подібну вимову, відповідає той самий
-ключ soundex. Ця властивість може бути використана, наприклад, при пошуку
-по базі даних, коли відома вимова слова та невідомо його
-написання.
+Двом словам, що мають схожу вимову, відповідає той самий ключ soundex. Ця властивість може бути використана, наприклад, при пошуку бази даних, коли відома вимова слова і невідомо його написання.
 
-Дана реалізація функції soundex описана Дональдом Кнутом (Donald
-Knuth) у книзі "The Art Of Computer Programming, vol. 3: Sorting And
-Searching", Addison-Wesley (1973), стор 391-392.
+Ця реалізація функції soundex описана Дональдом Кнутом (Donald Knuth) у книзі "The Art Of Computer Programming, vol. 3: Sorting And Searching", Addison-Wesley (1973), стор 391-392.
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 ### Значення, що повертаються
 
-Повертає ключ soundex у вигляді рядка (string). Повертає ключ soundex
-у вигляді рядка (string) із чотирма символами. Якщо `string` міститься
-хоча б одна літера, рядок, що повертається, починається з літери. В протилежному
-у разі повертається ``0000``.
+Повертає ключ soundex у вигляді рядка (string). Повертає ключ soundex у вигляді рядка (string) із чотирма символами. Якщо в `string` міститься хоча б одна літера, рядок, що повертається починається з літери. В іншому випадку повертається `"0000"`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------|
-| 8.0.0  | До цієї версії при виклику функції з порожнім рядком поверталося **false** без особливої причини. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії при виклику функції з порожнім рядком поверталося **`false`** без особливих причин. |
 
 ### Приклади
 
-**Приклад #1 Приклади використання soundex**
+**Приклад #1 Приклад використання soundex**
 
-`<?phpsoundex("Euler")       ===soundex("Ellery"); //E460soundex("Gauss")       ===soundex("Ghosh"); //G200soundex("Hilbert")     ===soundex("Heilbronn"); //H416soundex("Knuth")      ===soundex("Kant"); //K530soundex("Lloyd")       ===soundex("Ladd"); //L300soundex("Lukasiewicz")===soundex("Lissajous"); // L222?
+```php
+<?php
+soundex("Euler")       == soundex("Ellery");    // E460
+soundex("Gauss")       == soundex("Ghosh");     // G200
+soundex("Hilbert")     == soundex("Heilbronn"); // H416
+soundex("Knuth")       == soundex("Kant");      // K530
+soundex("Lloyd")       == soundex("Ladd");      // L300
+soundex("Lukasiewicz") == soundex("Lissajous"); // L222
+?>
+```
 
 ### Дивіться також
 
-- [levenshtein()](function.levenshtein.md) - Обчислює відстань
-Левенштейна між двома рядками
-- [metaphone()](function.metaphone.md) - Повертає ключ metaphone
-для рядка
-- [similar_text()](function.similar-text.md) - Обчислює ступінь
-подібності двох рядків
+-   [levenshtein()](function.levenshtein.md) - обчислює відстань Левенштейна між двома рядками
+-   [metaphone()](function.metaphone.md) - Повертає ключ metaphone для рядка
+-   [similartext()](function.similar-text.md) - обчислює ступінь схожості двох рядків

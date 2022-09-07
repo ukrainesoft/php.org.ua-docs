@@ -1,57 +1,72 @@
-- [«EvStat::\_\_construct](evstat.construct.md)
-- [EvStat::prev »](evstat.prev.md)
-
-- [PHP Manual](index.md)
-- [EvStat](class.evstat.md)
-- створює зупинений об'єкт спостерігача EvStat
-
+---
+navigation:
+  - evstat.construct.md: '« EvStat::construct'
+  - evstat.prev.md: 'EvStat::prev »'
+  - index.md: PHP Manual
+  - class.evstat.md: EvStat
+title: 'EvStat::createStopped'
+---
 # EvStat::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvStat::createStopped — Створює зупинений об'єкт спостерігача EvStat
 
 ### Опис
 
-final public static **EvStat::createStopped**(
-string `$path`,
-float `$interval`,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   static
+   EvStat::createStopped(    
+    string
+     $path
+   ,    
+    float
+     $interval
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): void
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): void
-
-Створює об'єкт спостерігача EvStat, але не запускає його автоматично (у
-на відміну від [EvStat::\_\_construct()](evstat.construct.md)).
+Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::construct()](evstat.construct.md)
 
 ### Список параметрів
 
 `path`
+
 Шлях очікування зміни статусу.
 
 `interval`
-Підказує, як швидко очікується виявлення змін, та його зазвичай
-вказується **`0.0`**, щоб дозволити *libev* вибрати відповідне
-значення.
+
+Підказує, як швидко очікується виявлення змін, та його зазвичай вказується **`0.0`**, щоб дозволити *libev* вибрати потрібне значення.
 
 `callback`
-Дивіться [Спостерігачі зворотного дзвінка](ev.watcher-callbacks.md) .
+
+Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.md)
 
 `data`
-Користувальницькі дані, пов'язані зі спостерігачем.
+
+Ці дані, пов'язані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
-Повертає зупинений об'єкт спостерігача EvStat у разі успішного
-виконання.
+Повертає зупинений об'єкт спостерігача EvStat у разі успішного виконання.
 
 ### Дивіться також
 
-- [EvStat::\_\_construct()](evstat.construct.md) - Створює об'єкт
-спостерігача EvStat
-- [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvStat::construct()](evstat.construct.md) - Створює об'єкт спостерігача EvStat
+-   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача

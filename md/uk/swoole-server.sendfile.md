@@ -1,25 +1,26 @@
-- [« Swoole\Server::send](swoole-server.send.md)
-- [Swoole\Server::sendMessage »](swoole-server.sendmessage.md)
+---
+navigation:
+  - swoole-server.send.md: '« SwooleServer::send'
+  - swoole-server.sendmessage.md: 'SwooleServer::sendMessage »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::sendfile'
+---
+# SwooleServer::sendfile
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Надсилає файл на з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::sendfile
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::sendfile — Надсилає файл на з'єднання
+SwooleServer::sendfile — Надсилає файл на з'єднання
 
 ### Опис
 
-public **Swoole\Server::sendfile**(int `$fd`, string `$filename`, int
-`$offset` = ?): bool
+```methodsynopsis
+public Swoole\Server::sendfile(int $fd, string $filename, int $offset = ?): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

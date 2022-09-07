@@ -1,56 +1,69 @@
-- [« dbase_numfields](function.dbase-numfields.md)
-- [dbase_open »](function.dbase-open.md)
+---
+navigation:
+  - function.dbase-numfields.md: « dbasenumfields
+  - function.dbase-open.md: dbaseopen »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
+title: dbasenumrecords
+---
+# dbasenumrecords
 
-- [PHP Manual](index.md)
-- [dBase](ref.dbase.md)
-- Отримує кількість записів у базі даних
+(PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-#dbase_numrecords
-
-(PHP 5 \< 5.3.0, dbase 5, dbase 7)
-
-dbase_numrecords — Отримує кількість записів у базі даних
+dbasenumrecords — Отримує кількість записів у базі даних
 
 ### Опис
 
-**dbase_numrecords**(resource `$database`): int
+```methodsynopsis
+dbase_numrecords(resource $database): int
+```
 
 Отримує кількість записів (рядків) у зазначеній базі даних.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Записи, позначені як віддалені, також враховуються.
 
-> **Примітка**:
->
-> Записи бази даних нумеруються від 1 `dbase_numrecords($db)`, тоді як
-> поля від 0 до `dbase_numfields($db)-1`.
+> **Зауваження**
+> 
+> Записи бази даних нумеруються від 1 `dbase_numrecords($db)`, тоді як поля від 0 до `dbase_numfields($db)-1`
 
 ### Список параметрів
 
 `database`
-Ресурс бази даних, що повертається функцією
-[dbase_open()](function.dbase-open.md) або
-[dbase_create()](function.dbase-create.md).
+
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
-Кількість записів у базі даних, або **`false`** у разі виникнення
-помилки.
+Кількість записів у базі даних, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія    | Опис                                                |
-| --------- | --------------------------------------------------- |
-| dbase 7.0 | Параметр database тепер має тип resource, а не int. |
+| Версия | Описание |
+| --- | --- |
+| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади
 
 **Приклад #1 Цикл з усіх записів бази даних**
 
-` <?php// відкриваємо в режимі для читання$db = dbase_open('/tmp/test.dbf', 0);if ($db) { $record_numbers = dbase_numrecords($db) for ($i = 1; $i <= $record_numbers; $i++) {      //виконання будь-яких дій з записом  }}?> `
+```php
+<?php
+
+// открываем в режиме для чтения
+$db = dbase_open('/tmp/test.dbf', 0);
+
+if ($db) {
+  $record_numbers = dbase_numrecords($db);
+  for ($i = 1; $i <= $record_numbers; $i++) {
+      //выполнение каких-либо действий с записью
+  }
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [dbase_numfields()](function.dbase-numfields.md) - Отримує
-кількість полів бази даних
+-   [dbasenumfields()](function.dbase-numfields.md) - Отримує кількість полів бази даних

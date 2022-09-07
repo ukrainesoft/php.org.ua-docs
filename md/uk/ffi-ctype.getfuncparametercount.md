@@ -1,24 +1,26 @@
-- [« FFI\CType::getFuncABI](ffi-ctype.getfuncabi.md)
-- [FFI\CType::getFuncParameterType »](ffi-ctype.getfuncparametertype.md)
+---
+navigation:
+  - ffi-ctype.getfuncabi.md: '« FFICType::getFuncABI'
+  - ffi-ctype.getfuncparametertype.md: 'FFICType::getFuncParameterType »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
+title: 'FFICType::getFuncParameterCount'
+---
+# FFICType::getFuncParameterCount
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+(PHP 8> = 8.1.0)
 
-# FFI\CType::getFuncParameterCount
-
-(PHP 8 \>= 8.1.0)
-
-FFI\CType::getFuncParameterCount — Опис
+FFICType::getFuncParameterCount — Опис
 
 ### Опис
 
-public **FFI\CType::getFuncParameterCount**(): int
+```methodsynopsis
+public FFI\CType::getFuncParameterCount(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

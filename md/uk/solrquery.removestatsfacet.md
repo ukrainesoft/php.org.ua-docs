@@ -1,29 +1,31 @@
-- [«SolrQuery::removeSortField](solrquery.removesortfield.md)
-- [SolrQuery::removeStatsField »](solrquery.removestatsfield.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє один із параметрів stats.facet
-
+---
+navigation:
+  - solrquery.removesortfield.md: '« SolrQuery::removeSortField'
+  - solrquery.removestatsfield.md: 'SolrQuery::removeStatsField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeStatsFacet'
+---
 # SolrQuery::removeStatsFacet
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::removeStatsFacet — Видалення одного з параметрів stats.facet
 
 ### Опис
 
-public **SolrQuery::removeStatsFacet**(string `$value`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeStatsFacet(string $value): SolrQuery
+```
 
 Видаляє один із параметрів stats.facet
 
 ### Список параметрів
 
 `value`
+
 Значення
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

@@ -1,24 +1,24 @@
-- [« DirectoryIterator::isWritable](directoryiterator.iswritable.md)
-- [DirectoryIterator::next »](directoryiterator.next.md)
-
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає ключ поточного елемента DirectoryIterator
-
+---
+navigation:
+  - directoryiterator.iswritable.md: '« DirectoryIterator::isWritable'
+  - directoryiterator.next.md: 'DirectoryIterator::next »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::key'
+---
 # DirectoryIterator::key
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::key — Повертає ключ поточного елемента
-DirectoryIterator
+DirectoryIterator::key — Повертає ключ поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::key**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public DirectoryIterator::key(): mixed
+```
 
-Повертає ключ поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає ключ поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -26,39 +26,42 @@ public **DirectoryIterator::key**():
 
 ### Значення, що повертаються
 
-Ключ поточного елемента [DirectoryIterator](class.directoryiterator.md)
-як цілого числа (int).
+Ключ поточного елемента [DirectoryIterator](class.directoryiterator.md) як цілого числа (int).
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                          |
-| ------ | ------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Якщо ітератор не ініціалізований, викидається помилка [Error](class.error.md). Раніше метод повертав "false". |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо ітератор не ініціалізований, тепер викидається помилка [Error](class.error.md). Раніше метод повертав **`false`** |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::key()****
 
-` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if (!$fileinfo->isDot()) {           " => " . $fileinfo->getFilename() . "
-";    }}?> `
+```php
+<?php
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    if (!$fileinfo->isDot()) {
+        echo $fileinfo->key() . " => " . $fileinfo->getFilename() . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 0 => apple.jpg
 1 => banana.jpg
 2 => index.php
 3 => pear.jpg
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::current()](directoryiterator.current.md) -
-Повертає поточний елемент DirectoryIterator
-- [DirectoryIterator::next()](directoryiterator.next.md) -
-Переміщує покажчик на наступний елемент DirectoryIterator
-- [DirectoryIterator::rewind()](directoryiterator.rewind.md) -
-Встановлює вказівник на перший елемент DirectoryIterator
-- [DirectoryIterator::valid()](directoryiterator.valid.md) -
-Перевіряє, чи поточний елемент DirectoryIterator є допустимим
-файлом
-- [Iterator::key()](iterator.key.md) - Повертає ключ поточного
-елемента
+-   [DirectoryIterator::current()](directoryiterator.current.md) - Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::valid()](directoryiterator.valid.md) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
+-   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента

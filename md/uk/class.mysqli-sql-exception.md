@@ -1,11 +1,12 @@
-- [« mysqli_warning::next](mysqli-warning.next.md)
-- [mysqli_sql_exception::getSqlState »](mysqli-sql-exception.getsqlstate.md)
-
-- [PHP Manual](index.md)
-- [MySQLi](book.mysqli.md)
-- Клас mysqli_sql_exception
-
-# Клас mysqli_sql_exception
+---
+navigation:
+  - mysqli-warning.next.md: '« mysqliwarning::next'
+  - mysqli-sql-exception.getsqlstate.md: 'mysqlisqlexception::getSqlState »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqlisqlexception
+---
+# Клас mysqlisqlexception
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -15,63 +16,81 @@
 
 ## Огляд класів
 
-final class **mysqli_sql_exception** extends
-[RuntimeException](class.runtimeexception.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-protected string `$sqlstate` = "00000";
+    
+     
+      final
+      class mysqli_sql_exception
+     
 
-/\* Методи \*/
+     
+      extends
+       RuntimeException
+     
+     {
 
-public [getSqlState](mysqli-sql-exception.getsqlstate.md)(): string
+    /* Свойства */
+    
+     protected
+     string
+      $sqlstate = "00000";
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
+    /* Методы */
+    
+   public getSqlState(): string
 
-private string `$string` = "";
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`sqlstate`
+sqlstate
+
 Код sqlstate.
 
 ## Зміст
 
-- [mysqli_sql_exception::getSqlState](mysqli-sql-exception.getsqlstate.md)
-— Повертає код помилки SQLSTATE
+-   [mysqlisqlexception::getSqlState](mysqli-sql-exception.getsqlstate.md) — Повертає код помилки SQLSTATE

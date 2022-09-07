@@ -1,82 +1,99 @@
-- [«ord](function.ord.md)
-- [print »](function.print.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Розбирає рядок у змінні
-
-#parse_str
+---
+navigation:
+  - function.ord.md: « ord
+  - function.print.md: print »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: parsestr
+---
+# parsestr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-parse_str — Розбирає рядок на змінні
+parsestr — Розбирає рядок на змінні
 
 ### Опис
 
-**parse_str**(string `$string`, array `&$result`): void
+```methodsynopsis
+parse_str(string $string, array &$result): void
+```
 
-Розбирає рядок `string`, який повинен мати формат рядка запиту
-URL і надає значення змінним у поточному контексті (або заносить до
-масив, якщо заданий параметр 'result').
+Розбирає рядок `string`, яка повинна мати формат рядка запиту URL і надає значення змінним у поточному контексті (або заносить до масиву, якщо заданий параметр `result`
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 `result`
-Якщо вказано другий параметр `result`, то замість присвоєння змінних
-поточному контексті вони будуть збережені в цьому параметрі як
-елементів масиву.
+
+Якщо вказано другий параметр `result`, то замість присвоєння змінних у поточному контексті вони будуть збережені в цьому параметрі як елементи масиву.
 
 **Увага**
-Використовувати цю функцію без параметра `result` вкрай *НЕ
-РЕКОМЕНДУЄТЬСЯ*. Подібне використання оголошено *УСТАРШИМ* з PHP 7.2.
+
+Використовувати цю функцію без параметра `result` конче *НЕ РЕКОМЕНДУЄТЬСЯ*. Подібне використання оголошено *Застарілим* з PHP 7.2. Починаючи з PHP 8.0.0, параметр `result` є *обов'язковим*
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                           |
-|--------|------------------------------------------------------------------------------------------------|
-| 8.0.0  | result більше не є необов'язковим.                                                             |
-| 7.2.0  | Використання **parse_str()** без другого параметра викликатиме помилку рівня **E_DEPRECATED**. |
+| Версия | Описание |
+| --- | --- |
+|  | `result` більше не є необов'язковим. |
+|  | Використання **parsestr()** без другого параметра буде викликати помилку рівня **`E_DEPRECATED`** |
 
 ### Приклади
 
-**Приклад #1 Використання **parse_str()****
+**Приклад #1 Використання **parsestr()****
 
-` <?php$str = "first=value&arr[]=foo+bar&arr[]=baz";// Рекомендований підхідparse_str($str, $output);echo $output['first']; //valueecho$output['arr'][0]; //foo barecho $output['arr'][1]; // baz// НЕ РЕКОМЕНДУЄТЬСЯparse_str($str);echo $first; //valueecho$arr[0]; //foo barecho $arr[1]; //?baz?> `
+```php
+<?php
+$str = "first=value&arr[]=foo+bar&arr[]=baz";
 
-Так як імена змінних PHP не можуть містити пробіли та точки, ці
-символи буде замінено на символ підкреслення. Такі ж правила
-накладаються на імена ключів у масиві `result`, якщо він заданий.
+// Рекомендуемый подход
+parse_str($str, $output);
+echo $output['first'];  // value
+echo $output['arr'][0]; // foo bar
+echo $output['arr'][1]; // baz
 
-**Приклад #2 Співвідношення імен **parse_str()****
+// НЕ РЕКОМЕНДУЕТСЯ
+parse_str($str);
+echo $first;  // value
+echo $arr[0]; // foo bar
+echo $arr[1]; // baz
+?>
+```
 
-` <?phpparse_str("My Value=Something");echo $My_Value; // Somethingparse_str("My Value=Something", $output);echo $output['My_Value']; // Something?> `
+Так як імена змінних PHP не можуть містити пробіли та точки, ці символи будуть замінені символом підкреслення. Такі ж правила накладаються на імена ключів у масиві `result`якщо він заданий.
+
+**Приклад #2 Співвідношення імен **parsestr()****
+
+```php
+<?php
+parse_str("My Value=Something");
+echo $My_Value; // Something
+
+parse_str("My Value=Something", $output);
+echo $output['My_Value']; // Something
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Всі змінні створюються (або заносяться до масиву) вже оброблені
-> функцією [urldecode()](function.urldecode.md).
+> **Зауваження**
+> 
+> Усі змінні створюються (або заносяться до масиву) вже оброблені функцією [urldecode()](function.urldecode.md)
 
-> **Примітка**:
->
-> Для отримання поточної `QUERY_STRING` можна використовувати змінну
-> `$_SERVER['QUERY_STRING']`. Крім того, можливо, ви захочете прочитати > розділ про [змінні поза PHP](language.variables.external.md).
+> **Зауваження**
+> 
+> Для отримання поточної `QUERY_STRING`, можна використовувати змінну [SERVER\['QUERYSTRING'\]](reserved.variables.server.md). Крім того, можливо ви захочете прочитати розділ про [змінних поза PHP](language.variables.external.md)
 
 ### Дивіться також
 
-- [parse_url()](function.parse-url.md) - Розбирає URL та повертає
-його компоненти
-- [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях
-до файлу
-- [http_build_query()](function.http-build-query.md) - Генерує
-URL-кодований рядок запиту
-- [urldecode()](function.urldecode.md) - Декодування
-URL-кодованого рядка
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
+-   [httpbuildquery()](function.http-build-query.md) - Генерує URL-кодований рядок запиту
+-   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка

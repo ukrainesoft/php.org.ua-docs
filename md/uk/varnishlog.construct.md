@@ -1,27 +1,29 @@
-- [«VarnishLog](class.varnishlog.md)
-- [VarnishLog::getLine »](varnishlog.getline.md)
+---
+navigation:
+  - class.varnishlog.md: « VarnishLog
+  - varnishlog.getline.md: 'VarnishLog::getLine »'
+  - index.md: PHP Manual
+  - class.varnishlog.md: VarnishLog
+title: 'ВарнішЛог::construct'
+---
+# ВарнішЛог::construct
 
-- [PHP Manual](index.md)
-- [VarnishLog](class.varnishlog.md)
-- Конструктор Varnishlog
+(PECL varnish >= 0.6)
 
-# VarnishLog::\_\_construct
-
-(PECL varnish \>= 0.6)
-
-VarnishLog::\_\_construct — Конструктор Varnishlog
+ВарнішЛог::construct - Конструктор Varnishlog
 
 ### Опис
 
-public **VarnishLog::\_\_construct**(array `$args` = ?)
+```methodsynopsis
+public VarnishLog::__construct(array $args = ?)
+```
 
 ### Список параметрів
 
 `args`
+
 Аргументи конфігурації. Можливі ключі:
 
-``` parameterscode
-VARNISH_CONFIG_IDENT - шлях ідентифікації екземпляра varnish
-````
+VARNISHCONFIGIDENT - шлях ідентифікації екземпляра varnish
 
 ### Значення, що повертаються

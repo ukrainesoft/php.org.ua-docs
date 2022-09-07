@@ -1,22 +1,24 @@
-- [« Gmagick::equalizeimage](gmagick.equalizeimage.md)
-- [Gmagick::flopimage »](gmagick.flopimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Створює вертикальне дзеркальне відображення
-
+---
+navigation:
+  - gmagick.equalizeimage.md: '« Gmagick::equalizeimage'
+  - gmagick.flopimage.md: 'Gmagick::flopimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::flipimage'
+---
 # Gmagick::flipimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::flipimage — Створює вертикальне дзеркальне відображення
 
 ### Опис
 
-public **Gmagick::flipimage**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::flipimage(): Gmagick
+```
 
-Створює вертикальне дзеркальне відображення шляхом відображення пікселів
-довкола центральної осі X.
+Створює вертикальне дзеркальне відображення відображенням пікселів навколо центральної осі X.
 
 ### Список параметрів
 
@@ -24,7 +26,7 @@ public **Gmagick::flipimage**(): [Gmagick](class.gmagick.md)
 
 ### Значення, що повертаються
 
-Перевернутий об'єкт [Gmagick](class.gmagick.md).
+Перевернутий об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 
@@ -32,5 +34,4 @@ public **Gmagick::flipimage**(): [Gmagick](class.gmagick.md)
 
 ### Дивіться також
 
-- [Gmagick::flopimage()](gmagick.flopimage.md) - Створює
-горизонтальне дзеркальне відображення
+-   [Gmagick::flopimage()](gmagick.flopimage.md) - Створює горизонтальне дзеркальне відображення

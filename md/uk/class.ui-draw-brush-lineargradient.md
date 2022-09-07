@@ -1,10 +1,11 @@
-- [« UI\Draw\Brush\Gradient::setStop](ui-draw-brush-gradient.setstop.md)
-- [UI\Draw\Brush\LinearGradient::\_\_construct »](ui-draw-brush-lineargradient.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Лінійний градієнт
-
+---
+navigation:
+  - ui-draw-brush-gradient.setstop.md: '« UIDrawBrushGradient::setStop'
+  - ui-draw-brush-lineargradient.construct.md: 'ОЙDrawBrushLinearGradient::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Лінійний градієнт
+---
 # Лінійний градієнт
 
 (UI 2.0.0)
@@ -13,41 +14,40 @@
 
 ## Огляд класів
 
-class **UI\Draw\Brush\LinearGradient** extends
-[UI\Draw\Brush\Gradient](class.ui-draw-brush-gradient.md) {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public
-[\_\_construct](ui-draw-brush-lineargradient.construct.md)([UI\Point](class.ui-point.md)
-`$start`, [UI\Point](class.ui-point.md) `$end`)
 
-/\* Наслідувані методи \*/
+    
+     
+      class UI\Draw\Brush\LinearGradient
+     
 
-public
-[UI\Draw\Brush\Gradient::addStop](ui-draw-brush-gradient.addstop.md)(float
-`$position`, [UI\Draw\Color](class.ui-draw-color.md) `$color`): int
+     
+      extends
+       UI\Draw\Brush\Gradient
+     
+     {
 
-public
-[UI\Draw\Brush\Gradient::addStop](ui-draw-brush-gradient.addstop.md)(float
-`$position`, int `$color`): int
 
-public
-[UI\Draw\Brush\Gradient::delStop](ui-draw-brush-gradient.delstop.md)(int
-`$index`): int
+    /* Конструктор */
+    
+   public __construct(UI\Point $start, UI\Point $end)
 
-public
-[UI\Draw\Brush\Gradient::setStop](ui-draw-brush-gradient.setstop.md)(int
-`$index`, float `$position`, [UI\Draw\Color](class.ui-draw-color.md)
-`$color`): bool
 
-public
-[UI\Draw\Brush\Gradient::setStop](ui-draw-brush-gradient.setstop.md)(int
-`$index`, float `$position`, int `$color`): bool
+    
 
-}
+    /* Наследуемые методы */
+    public UI\Draw\Brush\Gradient::addStop(float $position, UI\Draw\Color $color): int
+public UI\Draw\Brush\Gradient::addStop(float $position, int $color): int
+public UI\Draw\Brush\Gradient::delStop(int $index): int
+public UI\Draw\Brush\Gradient::setStop(int $index, float $position, UI\Draw\Color $color): bool
+public UI\Draw\Brush\Gradient::setStop(int $index, float $position, int $color): bool
+
+
+   }
+```
 
 ## Зміст
 
-- [UI\Draw\Brush\LinearGradient::\_\_construct](ui-draw-brush-lineargradient.construct.md)
-- Конструктор класу LinearGradient
+-   [ОЙDrawBrushLinearGradient::construct](ui-draw-brush-lineargradient.construct.md) - Конструктор класу LinearGradient

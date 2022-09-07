@@ -1,69 +1,52 @@
-- [« MongoDB\Driver\Manager::removeSubscriber](mongodb-driver-manager.removesubscriber.md)
-- [MongoDB\Driver\Manager::startSession »](mongodb-driver-manager.startsession.md)
+---
+navigation:
+  - mongodb-driver-manager.removesubscriber.md: '« MongoDBDriverManager::removeSubscriber'
+  - mongodb-driver-manager.startsession.md: 'MongoDBDriverManager::startSession »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
+title: 'MongoDBDriverManager::selectServer'
+---
+# MongoDBDriverManager::selectServer
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
-- Вибрати сервер, що відповідає перевагам читання
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Manager::selectServer
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Manager::selectServer — Вибрати відповідний сервер
-уподобанням читання
+MongoDBDriverManager::selectServer — Вибрати сервер, який відповідає перевагам читання
 
 ### Опис
 
-final public
-**MongoDB\Driver\Manager::selectServer**(?[MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-`$readPreference` = **`null`**):
-[MongoDB\Driver\Server](class.mongodb-driver-server.md)
+```methodsynopsis
+final public MongoDB\Driver\Manager::selectServer(?MongoDB\Driver\ReadPreference $readPreference = null): MongoDB\Driver\Server
+```
 
-Вибирає [MongoDB\Driver\Server](class.mongodb-driver-server.md),
-відповідний `readPreference`. Якщо параметр `readPreference` дорівнює
-**`null`** або опущений, за замовчуванням буде обрано первинний сервер. Це
-можна використовувати для попереднього вибору сервера, щоб виконати
-перевірку версії перед виконанням операції.
+Вибирає [MongoDBDriverServer](class.mongodb-driver-server.md), відповідний `readPreference`. Якщо параметр `readPreference` дорівнює **`null`** або опущено, за промовчанням буде обрано первинний сервер. Це можна використовувати для попереднього вибору сервера, щоб перевірити версію перед виконанням операції.
 
-> **Примітка**: На відміну від
-> [MongoDB\Driver\Manager::getServers()](mongodb-driver-manager.getservers.md),
-> цей метод ініціалізуватиме підключення до бази даних і при
-> необхідності виконувати виявлення сервера. Докладніше дивіться.
-> [» Специфікацію вибору > сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#single-threaded-server-selection).
+> **Зауваження**: На відміну від [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md), цей метод ініціалізуватиме підключення до бази даних і при необхідності виконувати виявлення сервера. Детальніше дивіться . [» Специфікацію вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#single-threaded-server-selection)
 
 ### Список параметрів
 
-`readPreference` ([MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md))
-Перевага читання використовується для вибору сервера. Якщо **`null`** або
-опущено, за замовчуванням буде обрано первинний сервер.
+`readPreference` [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
+
+Перевага читання використовується для вибору сервера. Якщо **`null`** або опущено, за промовчанням буде обрано первинний сервер.
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\Driver\Server](class.mongodb-driver-server.md),
-відповідний перевагу читання.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), Що відповідає перевагу читання.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- При невдалому з'єднанні з сервером (крім помилок автентифікації),
-кидає виняток
-[MongoDB\Driver\Exception\ConnectionException](class.mongodb-driver-exception-connectionexception.md).
-- За невдалої аутентифікації кидає виняток
-[MongoDB\Driver\Exception\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md).
-- При неможливості знайти сервер, що відповідає перевагу читання,
-викидає виняток
-[MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   При неможливості знайти сервер, що відповідає перевагу читання, викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md)
 
-### Список змін
+### список змін
 
-| Версія              | Опис                                                                                                                                    |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.11.0 | Параметр readPreference тепер необов'язковий. Якщо вказано значення **null** або опущено, за промовчанням буде обрано первинний сервер. |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.11.0 | Параметр `readPreference` тепер необов'язковий. Якщо вказано значення **`null`** або опущено, за промовчанням буде обрано первинний сервер. |
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- [MongoDB\Driver\Manager::getServers()](mongodb-driver-manager.getservers.md) -
-Повертає сервери, до яких підключено менеджера
-- [» Специфікація вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
+-   [MongoDBDriverServer](class.mongodb-driver-server.md)
+-   [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md) - Повертає сервери, до яких підключено менеджера
+-   [» Специфікація вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)

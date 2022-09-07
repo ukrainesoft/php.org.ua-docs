@@ -1,39 +1,50 @@
-- [« SqlStatementResult::nextResult](mysql-xdevapi-sqlstatementresult.nextresult.md)
-- [Statement::\_\_construct »](mysql-xdevapi-statement.construct.md)
-
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас Statement
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.nextresult.md: '« SqlStatementResult::nextResult'
+  - mysql-xdevapi-statement.construct.md: 'Statement::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
+title: Клас Statement
+---
 # Клас Statement
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\Statement** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `EXECUTE_ASYNC` = 1;
 
-const int `BUFFERED` = 2;
+    
+     
+      class mysql_xdevapi\Statement
+     
+     {
 
-/\* Методи \*/
+    /* Константы */
+    
+     const
+     int
+      EXECUTE_ASYNC = 1;
 
-public **getNextResult**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+    const
+     int
+      BUFFERED = 2;
 
-public **getResult**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
 
-public **hasMoreResults**(): bool
+    /* Методы */
+    
+   public getNextResult(): mysql_xdevapi\Result
+public getResult(): mysql_xdevapi\Result
+public hasMoreResults(): bool
 
-}
+   }
+```
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`mysql_xdevapi\Statement::EXECUTE_ASYNC`**
 
@@ -41,11 +52,7 @@ public **hasMoreResults**(): bool
 
 ## Зміст
 
-- [Statement::\_\_construct](mysql-xdevapi-statement.construct.md) -
-Опис конструктора
-- [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.md)
-— Отримує наступний результат
-- [Statement::getResult](mysql-xdevapi-statement.getresult.md) -
-Отримує результат
-- [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.md)
-- Перевіряє, чи є ще результати
+-   [Statement::construct](mysql-xdevapi-statement.construct.md) - Опис конструктора
+-   [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.md) — Отримує наступний результат
+-   [Statement::getResult](mysql-xdevapi-statement.getresult.md) — Отримує результат
+-   [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.md) — Перевіряє, чи є ще результати

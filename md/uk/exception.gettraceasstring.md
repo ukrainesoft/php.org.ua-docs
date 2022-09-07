@@ -1,10 +1,11 @@
-- [« Exception::getTrace](exception.gettrace.md)
-- [Exception::\_\_toString »](exception.tostring.md)
-
-- [PHP Manual](index.md)
-- [Exception](class.exception.md)
-- Отримує трасування стека у вигляді рядка
-
+---
+navigation:
+  - exception.gettrace.md: '« Exception::getTrace'
+  - exception.tostring.md: 'Exception::toString »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::getTraceAsString'
+---
 # Exception::getTraceAsString
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ Exception::getTraceAsString — Отримує трасування стека �
 
 ### Опис
 
-final public **Exception::getTraceAsString**(): string
+```methodsynopsis
+final public Exception::getTraceAsString(): string
+```
 
 Повертає трасування стека виключення у вигляді рядка.
 
@@ -29,14 +32,27 @@ final public **Exception::getTraceAsString**(): string
 
 **Приклад #1 Приклад використання **Exception::getTraceAsString()****
 
-` <?phpfunction test() {    throw new Exception;}try {    test();} catch(Exception $e) {    echo $e->getTraceAsString();}?
+```php
+<?php
+function test() {
+    throw new Exception;
+}
+
+try {
+    test();
+} catch(Exception $e) {
+    echo $e->getTraceAsString();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 #0 /home/bjori/tmp/ex.php(7): test()
 #1 {main}
+```
 
 ### Дивіться також
 
-- [Throwable::getTraceAsString()](throwable.gettraceasstring.md) -
-Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getTraceAsString()](throwable.gettraceasstring.md) - Отримує результати трасування стека у вигляді рядка

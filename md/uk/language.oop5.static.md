@@ -1,66 +1,91 @@
-- [« Оператор дозволу області видимості
-(::)](language.oop5.paamayim-nekudotayim.md)
-- [Абстрактні класи »](language.oop5.abstract.md)
-
-- [PHP Manual](index.md)
-- [Класи та об'єкти](language.oop5.md)
-- Ключове слово static
-
+---
+navigation:
+  - language.oop5.paamayim-nekudotayim.md: '« Оператор роздільної здатності видимості (::)'
+  - language.oop5.abstract.md: Абстрактні класи »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Ключове слово static
+---
 ## Ключове слово static
 
 **Підказка**
 
-Ця сторінка описує використання ключового слова `static` для
-визначення статичних методів та властивостей. `static` також може
-використовуватися для визначення статичних
-змінних](language.variables.scope.md#language.variables.scope.static)
-і [пізнього статичного зв'язування](language.oop5.late-static-bindings.md). Для отримання
-інформації про таке застосування ключового слова `static` зверніться за
-вищезгаданим сторінкам.
+Ця сторінка описує використання ключового слова `static` для визначення статичних методів та властивостей . `static` також може використовуватися для [визначення статичних змінних](language.variables.scope.md#language.variables.scope.static) і [пізнього статичного зв'язування](language.oop5.late-static-bindings.md). Для отримання інформації про таке застосування ключового слова `static` зверніться до вищевказаних сторінок.
 
-Оголошення властивостей та методів класу статичними дозволяє звертатися до
-ним без створення екземпляра класу. До них також можна отримати доступ
-статично у створеному екземплярі об'єкта класу.
+Оголошення властивостей і методів статичними класу дозволяє звертатися до них без створення екземпляра класу. До них також можна отримати статичний доступ у створеному екземплярі об'єкта класу.
 
 ### Статичні методи
 
-Оскільки статичні методи викликаються без створення екземпляра класу, то
-псевдозмінна `$this` недоступна всередині статичних методів.
+Так як статичні методи викликаються без створення екземпляра класу, то псевдозмінна $this недоступна всередині статичних методів.
 
 **Увага**
 
-Виклик нестатичних методів статично викликає помилку
-[Error](class.error.md).
+Виклик нестатичних методів статично викликає помилку [Error](class.error.md)
 
-До PHP 8.0.0 виклик нестатичних методів статично було оголошено
-застарілим та викликав помилку рівня **`E_DEPRECATED`**.
+До PHP 8.0.0 виклик нестатичних методів статично був оголошений застарілим та викликав помилку рівня **`E_DEPRECATED`**
 
 **Приклад #1 Приклад статичного методу**
 
-` <?phpclass Foo { {   public static function aStaticMethod() {         // ...   }}Foo::aStaticMethod();$classname =';
+```php
+<?php
+class Foo {
+    public static function aStaticMethod() {
+        // ...
+    }
+}
+
+Foo::aStaticMethod();
+$classname = 'Foo';
+$classname::aStaticMethod();
+?>
+```
 
 ### Статичні властивості
 
-Доступ до статичних властивостей здійснюється за допомогою [оператора дозволу області видимості](language.oop5.paamayim-nekudotayim.md)
-(`::`), і до них не можна отримати доступ через оператор об'єкта (`->`).
+Доступ до статичних властивостей здійснюється за допомогою [оператора дозволу області видимості](language.oop5.paamayim-nekudotayim.md) `::`), і до них не можна отримати доступ через оператор об'єкта (`->`
 
-На клас можна посилатися за допомогою змінної. Значення змінної в
-такому разі не може бути ключовим словом (наприклад, `self`, `parent` та
-`static`).
+На клас можна посилатися за допомогою змінної. Значення змінної у такому разі не може бути ключовим словом (наприклад, `self` `parent` і `static`
 
 **Приклад #2 Приклад статичної властивості**
 
-`<?phpclass Foo{    public static $my_static = 'foo'; public function staticValue() {        return self::$my_static; }}class Bar extends Foo{    public function fooStatic() {        return parent::$my_static; }}print Foo::$my_static . "
-";$foo = new Foo();print $foo->staticValue() . "
-";print $foo->my_static . "
-";      // Не визначено властивість my_staticprint $foo::$my_static . "
-";$classname = 'Foo';print $classname::$my_static . "
-";print Bar::$my_static . "
-";$bar = new Bar();print $bar->fooStatic() . "
-";?> `
+```php
+<?php
+class Foo
+{
+    public static $my_static = 'foo';
+
+    public function staticValue() {
+        return self::$my_static;
+    }
+}
+
+class Bar extends Foo
+{
+    public function fooStatic() {
+        return parent::$my_static;
+    }
+}
+
+
+print Foo::$my_static . "\n";
+
+$foo = new Foo();
+print $foo->staticValue() . "\n";
+print $foo->my_static . "\n";      // Не определено свойство my_static
+
+print $foo::$my_static . "\n";
+$classname = 'Foo';
+print $classname::$my_static . "\n";
+
+print Bar::$my_static . "\n";
+$bar = new Bar();
+print $bar->fooStatic() . "\n";
+?>
+```
 
 Результат виконання цього прикладу в PHP 8 аналогічний:
 
+```
 foo
 foo
 
@@ -72,3 +97,4 @@ foo
 foo
 foo
 foo
+```

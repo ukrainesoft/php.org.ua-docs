@@ -1,22 +1,24 @@
-- [« LuaSandbox::getCPUUsage](luasandbox.getcpuusage.md)
-- [LuaSandbox::getPeakMemoryUsage »](luasandbox.getpeakmemoryusage.md)
-
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Повертає поточне використання пам'яті у середовищі Lua
-
+---
+navigation:
+  - luasandbox.getcpuusage.md: '« LuaSandbox::getCPUUsage'
+  - luasandbox.getpeakmemoryusage.md: 'LuaSandbox::getPeakMemoryUsage »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::getMemoryUsage'
+---
 # LuaSandbox::getMemoryUsage
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
-LuaSandbox::getMemoryUsage — Повертає поточне використання пам'яті
-середовищі Lua
+LuaSandbox::getMemoryUsage — Повертає поточне використання пам'яті в середовищі Lua
 
 ### Опис
 
-public **LuaSandbox::getMemoryUsage**(): int
+```methodsynopsis
+public LuaSandbox::getMemoryUsage(): int
+```
 
-Повертає використання пам'яті в середовищі Lua.
+Повертає поточне використання пам'яті серед Lua.
 
 ### Список параметрів
 
@@ -24,13 +26,10 @@ public **LuaSandbox::getMemoryUsage**(): int
 
 ### Значення, що повертаються
 
-Повертає використання пам'яті в байтах.
+Повертає поточне використання пам'яті у байтах.
 
 ### Дивіться також
 
-- [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) -
-Повертає пікове використання пам'яті у середовищі Lua
-- [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) -
-Повертає поточний час використання процесора у середовищі Lua
-- [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) -
-Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) - Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) - Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) - Встановлює межу пам'яті для середовища Lua

@@ -1,29 +1,29 @@
-- [« MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md)
-- [MongoDB\Driver\Monitoring\Subscriber »](class.mongodb-driver-monitoring-subscriber.md)
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md: '« MongoDBDriverMonitoringSDAMSubscriber::topologyClosed'
+  - class.mongodb-driver-monitoring-subscriber.md: MongoDBDriverMonitoringSubscriber »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
+---
+# MongoDBDriverMonitoringSDAMSubscriber::topologyOpening
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
-- Метод повідомлення про відкриття топології
+(mongodb >=1.13.0)
 
-# MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening - Метод
-повідомлення про відкриття топології
+MongoDBDriverMonitoringSDAMSubscriber::topologyOpening — Метод сповіщення про відкриття топології
 
 ### Опис
 
-abstract public
-**MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening**([MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
-`$event`): void
+```methodsynopsis
+abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening(MongoDB\Driver\Monitoring\TopologyOpeningEvent $event): void
+```
 
-Якщо передплатник був зареєстрований, драйвер викличе цей метод, коли
-топологія буде відкрито.
+Якщо передплатник був зареєстрований, драйвер викличе цей метод, коли топологія буде відкрита.
 
 ### Список параметрів
 
-`event` ([MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md))
+`event` [MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
+
 Об'єкт події, що містить інформацію про відкриту топологію.
 
 ### Значення, що повертаються
@@ -32,14 +32,10 @@ abstract public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
-- [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) -
-Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) -
-Реєструє передплатника на подію моніторингу в даному об'єкті
-Manager
+-   [MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

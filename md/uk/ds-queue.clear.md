@@ -1,21 +1,24 @@
-- [« Ds\Queue::capacity](ds-queue.capacity.md)
-- [Ds\Queue::\_\_construct »](ds-queue.construct.md)
+---
+navigation:
+  - ds-queue.capacity.md: '« DsQueue::capacity'
+  - ds-queue.construct.md: 'ДсQueue::construct »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
+title: 'ДсQueue::clear'
+---
+# ДсQueue::clear
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Видаляє всі значення
+(PECL ds >= 1.0.0)
 
-# Ds\Queue::clear
-
-(PECL ds \>= 1.0.0)
-
-Ds\Queue::clear — Видаляє всі значення
+ДсQueue::clear — Видаляє всі значення
 
 ### Опис
 
-public **Ds\Queue::clear**(): void
+```methodsynopsis
+public Ds\Queue::clear(): void
+```
 
-Видаляє всі значення із черги.
+Видаляє всі значення з черги.
 
 ### Список параметрів
 
@@ -27,18 +30,28 @@ public **Ds\Queue::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::clear()****
+**Приклад #1 Приклад використання **ДсQueue::clear()****
 
-` <?php$queue = new \Ds\Queue([1, 2, 3]);print_r($queue);$queue->clear();print_r($queue);?> `
+```php
+<?php
+$queue = new \Ds\Queue([1, 2, 3]);
+print_r($queue);
+
+$queue->clear();
+print_r($queue);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Queue Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Queue Object
 (
 )
+```

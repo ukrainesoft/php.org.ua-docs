@@ -1,19 +1,22 @@
-- [« Swoole\Server\Port::set](swoole-server-port.set.md)
-- [Swoole\Server::finish »](swoole-server.finish.md)
+---
+navigation:
+  - swoole-server-port.set.md: '« SwooleServerPort::set'
+  - swoole-server.finish.md: 'SwooleServer::finish »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::exist'
+---
+# SwooleServer::exist
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Перевіряє, чи є з'єднання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::exist
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::exist — Перевіряє, чи існує з'єднання.
+SwooleServer::exist — Перевіряє, чи існує з'єднання.
 
 ### Опис
 
-public **Swoole\Server::exist**(int `$fd`): bool
+```methodsynopsis
+public Swoole\Server::exist(int $fd): bool
+```
 
 ### Список параметрів
 

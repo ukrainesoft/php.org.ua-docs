@@ -1,22 +1,24 @@
-- [« Gmagick::getimageblueprimary](gmagick.getimageblueprimary.md)
-- [Gmagick::getimagechanneldepth »](gmagick.getimagechanneldepth.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає колір кордону зображення
-
+---
+navigation:
+  - gmagick.getimageblueprimary.md: '« Gmagick::getimageblueprimary'
+  - gmagick.getimagechanneldepth.md: 'Gmagick::getimagechanneldepth »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagebordercolor'
+---
 # Gmagick::getimagebordercolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagebordercolor — Повертає колір кордону зображення
 
 ### Опис
 
-public **Gmagick::getimagebordercolor**():
-[GmagickPixel](class.gmagickpixel.md)
+```methodsynopsis
+public Gmagick::getimagebordercolor(): GmagickPixel
+```
 
-Повертає колір межі зображення.
+Повертає колір кордону зображення.
 
 ### Список параметрів
 
@@ -24,8 +26,7 @@ public **Gmagick::getimagebordercolor**():
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickPixel](class.gmagickpixel.md), що представляє колір
-Межі
+Об'єкт [GmagickPixel](class.gmagickpixel.md), що представляє колір кордону
 
 ### Помилки
 

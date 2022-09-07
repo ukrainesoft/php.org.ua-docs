@@ -1,86 +1,85 @@
-- [«mysql_fetch_row](function.mysql-fetch-row.md)
-- [mysql_field_len »](function.mysql-field-len.md)
-
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає прапори, пов'язані із зазначеним полем результату запиту
-
-# mysql_field_flags
+---
+navigation:
+  - function.mysql-fetch-row.md: « mysqlfetchrow
+  - function.mysql-field-len.md: mysqlfieldlen »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfieldflags
+---
+# mysqlfieldflags
 
 (PHP 4, PHP 5)
 
-mysql_field_flags — Повертає прапори, пов'язані із зазначеним полем
-результату запиту
+mysqlfieldflags — Повертає прапори, пов'язані із зазначеним полем результату запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
-- [mysqli_fetch_field_direct()](mysqli-result.fetch-field-direct.md)
-[flags]
-- [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
-[flags]
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) flags
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) flags
 
 ### Опис
 
-**mysql_field_flags**(resource `$result`, int `$field_offset`):
-string\|false
+```methodsynopsis
+mysql_field_flags(resource $result, int $field_offset): string|false
+```
 
-**mysql_field_flags()** повертає прапори, пов'язані із зазначеним полем.
-Кожен прапор повертається як окреме слово, відокремлене від попереднього
-пробілом. Отримане значення можна розбити на масив, використовуючи функцію
-[explode()](function.explode.md).
+**mysqlfieldflags()** повертає прапори, пов'язані із зазначеним полем. Кожен прапор повертається як окреме слово, відокремлене від попереднього пропуску. Отримане значення можна розбити на масив, використовуючи функцію [explode()](function.explode.md)
 
 ### Список параметрів
 
 `result`
-Оброблюваний [результат запита](language.types.resource.md). Цей
-результат може бути отриманий за допомогою функції
-[mysql_query()](function.mysql-query.md).
+
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
-Числове усунення поля. `field_offset` починається з `0`. Якщо
-`field_offset` не існує, генерується помилка рівня
-**`E_WARNING`**.
+
+Числове усунення поля . `field_offset` починається з `0`. Якщо `field_offset` не існує, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає рядок з прапорами, пов'язаними з результатом або **`false`**
-у разі виникнення помилки.
+Повертає рядок із прапорами, пов'язаними з результатом або **`false`** у разі виникнення помилки.
 
-Повертаються такі прапори, якщо ваша версія MySQL їх вже
-підтримує: ``not_null'`, ``primary_key'', ``unique_key'',
-``multiple_key'`, ``blob'`, ``unsigned'`, ``zerofill'', ``binary"`,
-"enum", "auto_increment" і "timestamp".
+Повертаються такі прапори, якщо ваша версія MySQL їх підтримує: `"not_null"` `"primary_key"` `"unique_key"` `"multiple_key"` `"blob"` `"unsigned"` `"zerofill"` `"binary"` `"enum"` `"auto_increment"` і `"timestamp"`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_field_flags()****
+**Приклад #1 Приклад використання **mysqlfieldflags()****
 
-` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Помилка в запиті:  | mysql_error(); exit;}$flags = mysql_field_flags($result, 0);echo $flags;print_r(explode(' ', $flags));?> `
+```php
+<?php
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Ошибка в запросе: ' . mysql_error();
+    exit;
+}
+$flags = mysql_field_flags($result, 0);
+
+echo $flags;
+print_r(explode(' ', $flags));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 not_null primary_key auto_increment
 Array
 (
-[0] => not_null
-[1] => primary_key
-[2] => auto_increment
+    [0] => not_null
+    [1] => primary_key
+    [2] => auto_increment
 )
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_fieldflags()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlfieldflags()**
 
 ### Дивіться також
 
-- [mysql_field_type()](function.mysql-field-type.md) - Повертає
-тип вказаного поля з результату запиту
-- [mysql_field_len()](function.mysql-field-len.md) - Повертає
-довжину вказаного поля
+-   [mysqlfieldtype()](function.mysql-field-type.md) - Повертає тип вказаного поля із результату запиту
+-   [mysqlfieldlen()](function.mysql-field-len.md) - Повертає довжину вказаного поля

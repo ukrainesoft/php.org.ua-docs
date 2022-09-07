@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](ibase.configuration.md)
-- [Предвизначені константи »](ibase.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ibase.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - ibase.configuration.md: « Налаштування під час виконання
+  - ibase.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ibase.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

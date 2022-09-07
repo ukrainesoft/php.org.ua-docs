@@ -1,37 +1,33 @@
-- [« parallel\Events::remove](parallel-events.remove.md)
-- [parallel\Events\Input »](class.parallel-events-input.md)
+---
+navigation:
+  - parallel-events.remove.md: '« parallelEvents::remove'
+  - class.parallel-events-input.md: parallelEventsInput »
+  - index.md: PHP Manual
+  - class.parallel-events.md: parallelEvents
+title: 'parallelEvents::poll'
+---
+# parallelEvents::poll
 
-- [PHP Manual](index.md)
-- [parallel\Events](class.parallel-events.md)
-- Опитування
-
-# parallel\Events::poll
-
-(0.9.0)
-
-parallel\Events::poll — Опитування
+parallelEvents::poll — Опитування
 
 ### Опис
 
-public **parallel\Events::poll**():
-?[parallel\Events\Event](class.parallel-events-event.md)
+```methodsynopsis
+public parallel\Events::poll(): ?parallel\Events\Event
+```
 
 Опитує для наступної події
 
 ### Значення, що повертаються
 
-Якщо цілей не залишилося, повертається **`null`**.
+Якщо цілей не залишилося, повертається **`null`**
 
-Якщо це буде неблокуючий цикл та відбудеться блокування, буде
-повернуто значення **`null`**.
+Якщо це буде неблокуючий цикл і відбудеться блокування, буде повернено значення **`null`**
 
-В іншому випадку
-[parallel\Events\Event](class.parallel-events-event.md) повертає
-опис події.
+В іншому випадку [parallelEventsEvent](class.parallel-events-event.md) повертає опис події.
 
 ### Помилки
 
 **Увага**
 
-Викидає parallel\Events\Error\Timeout, якщо час очікування
-використано та досягнуто.
+Викидає parallelEventsErrorTimeout, якщо час очікування використано та досягнуто.

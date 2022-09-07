@@ -1,22 +1,24 @@
-- [«SolrDocument::addField](solrdocument.addfield.md)
-- [SolrDocument::\_\_clone »](solrdocument.clone.md)
-
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Видаляє всі поля у документі
-
+---
+navigation:
+  - solrdocument.addfield.md: '« SolrDocument::addField'
+  - solrdocument.clone.md: 'SolrDocument::clone »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::clear'
+---
 # SolrDocument::clear
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::clear — Видаляє всі поля документа
 
 ### Опис
 
-public **SolrDocument::clear**(): bool
+```methodsynopsis
+public SolrDocument::clear(): bool
+```
 
-Скидає поточний об'єкт. Скидає всі поля та скидає збільшення
-документа до нуля.
+Скидає поточний об'єкт. Скидає всі поля та скидає збільшення документа до нуля.
 
 ### Список параметрів
 
@@ -24,5 +26,4 @@ public **SolrDocument::clear**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

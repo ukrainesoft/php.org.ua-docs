@@ -1,10 +1,11 @@
-- [« Imagick::getQuantum](imagick.getquantum.md)
-- [Imagick::getQuantumRange »](imagick.getquantumrange.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає величину глибини
-
+---
+navigation:
+  - imagick.getquantum.md: '« Imagick::getQuantum'
+  - imagick.getquantumrange.md: 'Imagick::getQuantumRange »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getQuantumDepth'
+---
 # Imagick::getQuantumDepth
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,7 +14,9 @@ Imagick::getQuantumDepth — Повертає величину глибини
 
 ### Опис
 
-public static **Imagick::getQuantumDepth**(): array
+```methodsynopsis
+public static Imagick::getQuantumDepth(): array
+```
 
 Повертає величину глибини об'єкта Imagick у вигляді рядка.
 

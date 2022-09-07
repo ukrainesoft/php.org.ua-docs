@@ -1,19 +1,22 @@
-- [«APCUIterator::getTotalSize](apcuiterator.gettotalsize.md)
-- [APCUIterator::next »](apcuiterator.next.md)
-
-- [PHP Manual](index.md)
-- [APCUIterator](class.apcuiterator.md)
-- Отримати ключ ітератора
-
+---
+navigation:
+  - apcuiterator.gettotalsize.md: '« APCUIterator::getTotalSize'
+  - apcuiterator.next.md: 'APCUIterator::next »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::key'
+---
 # APCUIterator::key
 
-(PECL apcu \>= 5.0.0)
+(PECL apcu >= 5.0.0)
 
 APCUIterator::key — Отримати ключ ітератора
 
 ### Опис
 
-public **APCUIterator::key**(): string
+```methodsynopsis
+public APCUIterator::key(): string
+```
 
 Повертає ключ ітератора.
 
@@ -23,12 +26,9 @@ public **APCUIterator::key**(): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ключ або **`false`** у разі
-виникнення помилки.
+У разі успішного виконання повертає ключ або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [APCUIterator::current()](apcuiterator.current.md) - Отримати
-поточний елемент
-- [Iterator::key()](iterator.key.md) - Повертає ключ поточного
-елемента
+-   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
+-   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента

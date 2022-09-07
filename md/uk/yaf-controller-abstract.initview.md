@@ -1,19 +1,22 @@
-- [« Yaf_Controller_Abstract::init](yaf-controller-abstract.init.md)
-- [Yaf_Controller_Abstract::redirect »](yaf-controller-abstract.redirect.md)
+---
+navigation:
+  - yaf-controller-abstract.init.md: '« YafControllerAbstract::init'
+  - yaf-controller-abstract.redirect.md: 'YafControllerAbstract::redirect »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
+title: 'YafControllerAbstract::initView'
+---
+# YafControllerAbstract::initView
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Призначення initView
+(Yaf >=1.0.0)
 
-# Yaf_Controller_Abstract::initView
-
-(Yaf \>=1.0.0)
-
-Yaf_Controller_Abstract::initView — Призначення initView
+YafControllerAbstract::initView — Призначення initView
 
 ### Опис
 
-public **Yaf_Controller_Abstract::initView**(array `$options` = ?): void
+```methodsynopsis
+public Yaf_Controller_Abstract::initView(array $options = ?): void
+```
 
 ### Список параметрів
 

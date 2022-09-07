@@ -1,19 +1,22 @@
-- [«realpath_cache_get](function.realpath-cache-get.md)
-- [realpath »](function.realpath.md)
+---
+navigation:
+  - function.realpath-cache-get.md: « realpathcacheget
+  - function.realpath.md: realpath »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: realpathcachesize
+---
+# realpathcachesize
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Отримує розмір кеша realpath
+(PHP 5> = 5.3.2, PHP 7, PHP 8)
 
-#realpath_cache_size
-
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8)
-
-realpath_cache_size — Отримує розмір кеша realpath
+realpathcachesize — Отримує розмір кеша realpath
 
 ### Опис
 
-**realpath_cache_size**(): int
+```methodsynopsis
+realpath_cache_size(): int
+```
 
 Отримує обсяг пам'яті, який використовується кешем realpath.
 
@@ -27,17 +30,21 @@ realpath_cache_size — Отримує розмір кеша realpath
 
 ### Приклади
 
-**Приклад #1 Приклад використання **realpath_cache_size()****
+**Приклад #1 Приклад використання **realpathcachesize()****
 
-` <?phpvar_dump(realpath_cache_size());?> `
+```php
+<?php
+var_dump(realpath_cache_size());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(412)
+```
 
 ### Дивіться також
 
-- [realpath_cache_get()](function.realpath-cache-get.md) - Отримує
-записи з кеша realpath
-- Конфігураційна опція
-[realpath_cache_size](ini.core.md#ini.realpath-cache-size)
+-   [realpathcacheget()](function.realpath-cache-get.md) - Отримує записи з кеша realpath
+-   Конфігураційна опція [realpathcachesize](ini.core.md#ini.realpath-cache-size)

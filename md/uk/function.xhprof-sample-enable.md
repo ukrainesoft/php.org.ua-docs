@@ -1,25 +1,24 @@
-- [« xhprof_sample_disable](function.xhprof-sample-disable.md)
-- [Yac »](book.yac.md)
+---
+navigation:
+  - function.xhprof-sample-disable.md: « xhprofsampledisable
+  - book.yac.md: Yac »
+  - index.md: PHP Manual
+  - ref.xhprof.md: Функции Xhprof
+title: xhprofsampleenable
+---
+# xhprofsampleenable
 
-- [PHP Manual](index.md)
-- [Функції Xhprof](ref.xhprof.md)
-- Запуск семплюючого режиму профілювання XHProf
+(PECL xhprof >= 0.9.0)
 
-#xhprof_sample_enable
-
-(PECL xhprof \>= 0.9.0)
-
-xhprof_sample_enable — Запуск семплюючого режиму профілювання XHProf
+xhprofsampleenable — Запуск семплюючого режиму профілю XHProf
 
 ### Опис
 
-**xhprof_sample_enable**(): void
+```methodsynopsis
+xhprof_sample_enable(): void
+```
 
-Запуск семплюючого режиму профілювання, який є полегшеним
-версією [xhprof_enable()](function.xhprof-enable.md). Інтервал
-семплювання становить 0.1 секунди і за кожної ітерації записується
-стек викликів. Цей режим призначений для зниження накладних витрат
-під час моніторингу продуктивності.
+Запуск семплюючого режиму профілювання, що є полегшеною версією [xhprofenable()](function.xhprof-enable.md). Інтервал семплювання складає 0,1 секунди і при кожній ітерації записується стек викликів. Цей режим призначений для зниження накладних витрат під час моніторингу продуктивності.
 
 ### Список параметрів
 
@@ -31,11 +30,7 @@ xhprof_sample_enable — Запуск семплюючого режиму про
 
 ### Дивіться також
 
-- [xhprof_sample_disable()](function.xhprof-sample-disable.md) -
-Зупинити семплюючі профіль xhprof
-- [xhprof_enable()](function.xhprof-enable.md) - Запуск
-профілювання xhprof
-- [memory_get_usage()](function.memory-get-usage.md) - Повертає
-кількість пам'яті, виділена для PHP
-- [getrusage()](function.getrusage.md) - Отримує інформацію про
-використання поточного ресурсу
+-   [xhprofsampledisable()](function.xhprof-sample-disable.md) - Зупинити семплююче профіль xhprof
+-   [xhprofenable()](function.xhprof-enable.md) - Запуск профілювання xhprof
+-   [memorygetusage()](function.memory-get-usage.md) - Повертає кількість пам'яті, виділену для PHP
+-   [getrusage()](function.getrusage.md) - Отримує інформацію про використання поточного ресурсу

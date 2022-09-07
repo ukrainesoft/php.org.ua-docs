@@ -1,39 +1,36 @@
-- [« Ds\Vector::shift](ds-vector.shift.md)
-- [Ds\Vector::sort »](ds-vector.sort.md)
+---
+navigation:
+  - ds-vector.shift.md: '« DsVector::shift'
+  - ds-vector.sort.md: 'ДсVector::sort »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::slice'
+---
+# ДсVector::slice
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає підвектор із заданого діапазону
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::slice
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::slice — Повертає підвектор із заданого діапазону
+ДсVector::slice — Повертає підвектор із заданого діапазону
 
 ### Опис
 
-public **Ds\Vector::slice**(int `$index`, int `$length` = ?):
-[Ds\Vector](class.ds-vector.md)
+```methodsynopsis
+public Ds\Vector::slice(int $index, int $length = ?): Ds\Vector
+```
 
-Повертає підвектор з діапазону заданого початковим індексом `index` та
-довжиною `length`.
+Повертає підвектор із діапазону заданого початковим індексом `index` та довжиною `length`
 
 ### Список параметрів
 
 `index`
-Індекс, який визначає початок діапазону.
 
-Якщо позитивний, то відраховуватиметься від початку вектора. Якщо
-негативний, від кінця.
+Індекс, що задає початок діапазону.
+
+Якщо позитивний, то відраховуватиметься від початку вектора. Якщо негативний, від кінця.
 
 `length`
-Позитивне значення визначає, скільки елементів буде взято. Якщо
-кількість елементів вектора менше заданого значення, повернеться стільки
-елементів, скільки є. Негативне значення задасть індекс,
-відрахований від кінця вектора, що визначає кінець діапазону. Якщо довжина
-не задана, то буде повернено всі елементи вектора від заданого індексу
-до кінця вектор.
+
+Позитивне значення визначає, скільки елементів буде взято. Якщо кількість елементів вектора менша за задане значення, повернеться стільки елементів, скільки є. Негативне значення задасть індекс, відрахований від кінця вектора, що визначає кінець діапазону. Якщо довжина не задана, то буде повернено всі елементи вектора від заданого індексу остаточно вектора.
 
 ### Значення, що повертаються
 
@@ -41,39 +38,60 @@ public **Ds\Vector::slice**(int `$index`, int `$length` = ?):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::slice()****
+**Приклад #1 Приклад використання **ДсVector::slice()****
 
-` <?php$vector = new \Ds\Vector(["a", "b", "c", "d", "e"]);// Slice from 2 onwardsprint_r($vector->slice(2) ));// Slice from 1, for a length of 3print_r($vector->slice(1, 3));// Slice from 1 onwardsprint_r($vector->slice(1));// Slice the end onwardsprint_r($vector->slice(-2));// Slice from 1 to 1 from the endprint_r($vector->slice(1, -1));?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c", "d", "e"]);
+
+// Slice from 2 onwards
+print_r($vector->slice(2));
+
+// Slice from 1, for a length of 3
+print_r($vector->slice(1, 3));
+
+// Slice from 1 onwards
+print_r($vector->slice(1));
+
+// Slice from 2 from the end onwards
+print_r($vector->slice(-2));
+
+// Slice from 1 to 1 from the end
+print_r($vector->slice(1, -1));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => c
-[1] => d
-[2] => e
+    [0] => c
+    [1] => d
+    [2] => e
 )
 Ds\Vector Object
 (
-[0] => b
-[1] => c
-[2] => d
+    [0] => b
+    [1] => c
+    [2] => d
 )
 Ds\Vector Object
 (
-[0] => b
-[1] => c
-[2] => d
-[3] => e
+    [0] => b
+    [1] => c
+    [2] => d
+    [3] => e
 )
 Ds\Vector Object
 (
-[0] => d
-[1] => e
+    [0] => d
+    [1] => e
 )
 Ds\Vector Object
 (
-[0] => b
-[1] => c
-[2] => d
+    [0] => b
+    [1] => c
+    [2] => d
 )
+```

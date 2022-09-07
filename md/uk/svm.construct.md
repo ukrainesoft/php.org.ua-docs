@@ -1,19 +1,20 @@
-- [«SVM](class.svm.md)
-- [SVM::crossvalidate »](svm.crossvalidate.md)
+---
+navigation:
+  - class.svm.md: « SVM
+  - svm.crossvalidate.md: 'SVM::crossvalidate »'
+  - index.md: PHP Manual
+  - class.svm.md: SVM
+title: 'SVM::construct'
+---
+# SVM::construct
 
-- [PHP Manual](index.md)
-- [SVM](class.svm.md)
-- Конструктор класу SVM
+(PECL svm >= 0.1.0)
 
-# SVM::\_\_construct
-
-(PECL svm \>= 0.1.0)
-
-SVM::\_\_construct - Конструктор класу SVM
+SVM::construct - Конструктор класу SVM
 
 ### Опис
 
-public **SVM::\_\_construct**()
+public **SVM::construct**
 
 Створює новий об'єкт SVM, готовий до прийому навчальних даних.
 
@@ -23,5 +24,4 @@ public **SVM::\_\_construct**()
 
 ### Помилки
 
-Викидає **SVMException**, якщо не може бути завантажена бібліотека
-libsvm.
+Викидає **SVMException**Якщо не може бути завантажена бібліотека libsvm.

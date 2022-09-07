@@ -1,35 +1,35 @@
-- [« SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.md)
-- [SplPriorityQueue::isCorrupted »](splpriorityqueue.iscorrupted.md)
-
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Додає елемент у чергу та пересортує її
-
+---
+navigation:
+  - splpriorityqueue.getextractflags.md: '« SplPriorityQueue::getExtractFlags'
+  - splpriorityqueue.iscorrupted.md: 'SplPriorityQueue::isCorrupted »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::insert'
+---
 # SplPriorityQueue::insert
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplPriorityQueue::insert — Додає елемент у чергу та пересортує
-її
+SplPriorityQueue::insert — Додає елемент у чергу та пересортує її
 
 ### Опис
 
-public
-**SplPriorityQueue::insert**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$priority`): bool
+```methodsynopsis
+public SplPriorityQueue::insert(mixed $value, mixed $priority): bool
+```
 
-Додає значення `value` з пріоритетом `priority` у чергу.
+Додає значення `value` з пріоритетом `priority` в чергу.
 
 ### Список параметрів
 
 `value`
+
 Значення, що додається.
 
 `priority`
+
 Пріоритет значення.
 
 ### Значення, що повертаються
 
-Повертає **`true`**.
+Повертає **`true`**

@@ -1,103 +1,170 @@
-- [«oci_client_version](function.oci-client-version.md)
-- [oci_commit»](function.oci-commit.md)
+---
+navigation:
+  - function.oci-client-version.md: « ociclientversion
+  - function.oci-commit.md: ocicommit »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociclose
+---
+# ociclose
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Закриває з'єднання із сервером Oracle
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-#oci_close
-
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
-
-oci_close — Закриває з'єднання із сервером Oracle
+ociclose — Закриває з'єднання із сервером Oracle
 
 ### Опис
 
-**oci_close**(resource `$connection`): ?bool
+```methodsynopsis
+oci_close(resource $connection): ?bool
+```
 
-Звільняє `connection`. Відповідне йому з'єднання з базою даних
-буде закрито за відсутності ресурсів, що його використовують, і якщо воно було
-отримано з функції [oci_connect()](function.oci-connect.md) або
-[oci_new_connect()](function.oci-new-connect.md).
+Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [ociconnect()](function.oci-connect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
-Рекомендується закривати з'єднання, що не використовуються, т.к. це
-звільняє ресурси бази даних інших користувачів.
+Рекомендується закривати більше не використовувані з'єднання, т.к. це звільняє ресурси бази даних іншим користувачам.
 
 ### Список параметрів
 
 `connection`
-Ідентифікатор з'єднання Oracle, отриманий із функцій
-[oci_connect()](function.oci-connect.md),
-[oci_pconnect()](function.oci-pconnect.md) або
-[oci_new_connect()](function.oci-new-connect.md).
+
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`null`** якщо
-[oci8.old_oci_close_semantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics)
-включений або **`true`** в іншому випадку.
+Повертає **`null`** якщо [oci8.oldociclosesemantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) включений або **`true`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Закриття з'єднання**
 
-Супутні з'єднання ресурси повинні бути закриті для забезпечення
-коректного завершення з'єднання з базою даних та звільнення її
-ресурсів.
+Супутні з'єднання ресурси мають бути закриті для забезпечення коректного завершення з'єднання з базою даних та звільнення її ресурсів.
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM departments');$r = oci_execute($stid res);var_dump($res);// Звільняємо ідентифікатор вираження при закритті з'єднанняoci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
 
-**Приклад #2 З'єднання бази даних не закривається доти, доки
-будуть закриті всі посилання на нього **
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
 
-Внутрішній лічильник посилань (refcount) ідентифікатора з'єднання повинен
-дорівнювати нулю перед безпосереднім закриттям з'єднання до бази
-даних.
+$stid = oci_parse($conn, 'SELECT * FROM departments');
+$r = oci_execute($stid);
+oci_fetch_all($stid, $res);
+var_dump($res);
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT **FROM departments'); // це збільшує refcount на $connoci_execute($stid);oci_fetch_all($stid, $res);var_dump($res);oci_close($conn);// $conn більше не може скористатися з'єднання з базою даних буде відкрито, поки не буде звільнена $stid.var_dump($conn); // выводит NULL// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала// покажет, что пользователь базы данных всё ещё подключён.sleep(10);// Как только $stid освобождается, соединение к базе данных физически закривається oci_free_statement ($stid);
+// Освобождаем идентификатор выражения при закрытии соединения
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #2 З'єднання бази даних не закривається доти, доки не будуть закриті всі посилання на нього**
+
+Внутрішній лічильник посилань (refcount) ідентифікатора з'єднання повинен дорівнювати нулю перед безпосереднім закриттям з'єднання до бази даних.
+
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM departments');  // это увеличивает refcount на $conn
+oci_execute($stid);
+oci_fetch_all($stid, $res);
+var_dump($res);
+
+oci_close($conn);
+
+// $conn больше не может использоваться в данном скрипте, но реальное
+// соединение с базой данных будет открыто, пока не будет освобождена $stid.
+var_dump($conn);  // выводит NULL
+
+// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
+// покажет, что пользователь базы данных всё ещё подключён.
+sleep(10);
+
+// Как только $stid освобождается, соединение к базе данных физически закрывается
+oci_free_statement($stid);
+
+// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
+// покажет, что пользователь базы данных уже отключился.
+sleep(10);
+
+?>
+```
 
 **Приклад #3 Закриття з'єднання, відкритого кілька разів**
 
-При повторному використанні облікових даних користувача обидва з'єднання
-повинні бути закриті перед безпосереднім закриттям з'єднання до бази
-даних.
+При повторному використанні облікових даних користувача обидві з'єднання повинні бути закриті перед безпосереднім закриттям з'єднання до бази даних.
 
-` <?php$conn1 = oci_connect('hr', 'welcome', 'localhost/XE');// Використання тих ж облікових даних повторно використовує одне і то з| Будь-які незафіксовані зміни в// $conn1 будуть видні в $conn2$conn2 = oci_connect('hr', 'welcome', 'localhost/XE');// Поки PHP спит, за / покаже, що підключений тільки один користувач бази даних.sleep(10);oci_close($conn1); // не закриває реальне з'єднання з базою данихvar_dump($conn1); // виводить NULL, т.к. $conn1 тепер безкориснаvar_dump($conn2); // показує, що $conn2 все ще є коректним ресурсом з'єднання?> `
+```php
+<?php
 
-**Приклад #4 З'єднання закривається при відході змінних з області
-видимості**
+$conn1 = oci_connect('hr', 'welcome', 'localhost/XE');
 
-Коли всі змінні, що посилаються на з'єднання, йдуть із області
-видимості та звільняються PHP, відбувається відкат транзакції (якщо
-необхідно) та з'єднання з базою закривається.
+// Использование тех же учётных данных повторно использует одно и то же
+// соединение с базой данных. Любые незафиксированные изменения в
+// $conn1 будут видны в $conn2
+$conn2 = oci_connect('hr', 'welcome', 'localhost/XE');
 
-` <?phpfunction myfunc() {    $conn = oci_connect('hr', 'hrpwd', 'localhost/XE'); if (!$conn) {        $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR); }   $stid = oci_parse($conn, 'UPDATE mytab SET id = 100'); oci_execute($stid, OCI_NO_AUTO_COMMIT); return "Закінчили!";}$r = myfunc();// У цій точці відбувається відкат транзакції і закривається відповідне// з'єднання з базою данихprint $r; // відображає повернене функцією значення "Закінчили!"?> `
+// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
+// покажет, что подключён только один пользователь базы данных.
+sleep(10);
+
+oci_close($conn1); // не закрывает реальное соединение с базой данных
+var_dump($conn1);  // выводит NULL, т.к. $conn1 теперь бесполезна
+var_dump($conn2);  // показывает, что $conn2 всё ещё является корректным ресурсом соединения
+
+?>
+```
+
+**Приклад #4 З'єднання закривається при відході змінних в області видимості**
+
+Коли всі змінні, що посилаються на з'єднання, йдуть з області видимості та звільняються PHP, відбувається відкат транзакції (якщо необхідно) і з'єднання з базою закривається.
+
+```php
+<?php
+
+function myfunc() {
+    $conn = oci_connect('hr', 'hrpwd', 'localhost/XE');
+    if (!$conn) {
+        $e = oci_error();
+        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+    }
+
+    $stid = oci_parse($conn, 'UPDATE mytab SET id = 100');
+    oci_execute($stid, OCI_NO_AUTO_COMMIT);
+    return "Закончили!";
+}
+
+$r = myfunc();
+// В этой точке происходит откат транзакции и закрывается соответствующее
+// соединение с базой данных
+
+print $r;  // отображает возвращённое функцией значение "Закончили!"
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Змінні, залежні від ідентифікатора з'єднань, такі як
-> ідентифікатори виразів, отримані з
-> [oci_parse()](function.oci-parse.md) повинні бути також звільнені
-> до закриття з'єднання з базою даних.
+> **Зауваження**
+> 
+> Змінні, залежні від ідентифікатора з'єднань, такі як ідентифікатори виразів, отримані з [ociparse()](function.oci-parse.md), повинні бути звільнені до закриття з'єднання з базою даних.
 
-> **Примітка**:
->
-> До версії PHP 5.1.2 (PECL OCI8 1.1) **oci_close()** не виконувала
-> Ніяких дій. У новіших версіях вона вже коректно закриває
-> з'єднання. Використовуйте директиву
-> [oci8.old_oci_close_semantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics)
-> відновлення старої поведінки цієї функції.
+> **Зауваження**
+> 
+> До версії PHP 5.1.2 (PECL OCI8 1.1) **ociclose()** не виконувала жодних дій. У новіших версіях вона вже правильно закриває з'єднання. Використовуйте директиву [oci8.oldociclosesemantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) відновлення старої поведінки цієї функції.
 
-> **Примітка**:
->
-> Функція **oci_close()** не закриває з'єднання з базою даних,
-> створені функцією [oci_pconnect()](function.oci-pconnect.md).
+> **Зауваження**
+> 
+> Функція **ociclose()** не закриває з'єднання з базою даних, створеними функцією [ocipconnect()](function.oci-pconnect.md)
 
 ### Дивіться також
 
-- [oci_connect()](function.oci-connect.md) - Встановлює
-з'єднання з базою даних Oracle
-- [oci_free_statement()](function.oci-free-statement.md) -
-Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [ociconnect()](function.oci-connect.md) - Встановлює з'єднання з базою даних Oracle
+-   [ocifreestatement()](function.oci-free-statement.md) - Звільняє ресурси, які займає курсор або SQL-вираз.

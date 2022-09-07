@@ -1,20 +1,31 @@
-- [« SysvSemaphore](class.sysvsemaphore.md)
-- [Керування пам'яттю, що розділяється »](book.shmop.md)
-
-- [PHP Manual](index.md)
-- [Семафори](book.sem.md)
-- Клас SysvSharedMemory
-
+---
+navigation:
+  - class.sysvsemaphore.md: « SysvSemaphore
+  - book.shmop.md: Управление разделяемой памятью »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
+title: Клас SysvSharedMemory
+---
 # Клас SysvSharedMemory
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `sysvshm` у PHP 8.0.0.
+Повністю непрозорий клас, який замінює ресурс `sysvshm` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **SysvSharedMemory** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class SysvSharedMemory
+     
+     {
+   }
+```

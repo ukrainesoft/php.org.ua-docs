@@ -1,19 +1,22 @@
-- [« Swoole\Lock::\_\_destruct](swoole-lock.destruct.md)
-- [Swoole\Lock::lock »](swoole-lock.lock.md)
+---
+navigation:
+  - swoole-lock.destruct.md: '« SwooleLock::destruct'
+  - swoole-lock.lock.md: 'SwooleLock::lock »'
+  - index.md: PHP Manual
+  - class.swoole-lock.md: SwooleLock
+title: 'SwooleLock::lockread'
+---
+# SwooleLock::lockread
 
-- [PHP Manual](index.md)
-- [Swoole\Lock](class.swoole-lock.md)
-- Блокує читання-запис блокування для читання
+(PECL swoole >= 1.9.0)
 
-# Swoole\Lock::lock_read
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Lock::lock_read — Блокує читання-запис блокування для читання
+SwooleLock::lockread — Блокує читання-запис блокування для читання
 
 ### Опис
 
-public **Swoole\Lock::lock_read**(): void
+```methodsynopsis
+public Swoole\Lock::lock_read(): void
+```
 
 Блокує читання запис блокування для читання.
 

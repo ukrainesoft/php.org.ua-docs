@@ -1,43 +1,40 @@
-- [« yaz_addinfo](function.yaz-addinfo.md)
-- [yaz_ccl_parse »](function.yaz-ccl-parse.md)
+---
+navigation:
+  - function.yaz-addinfo.md: « yazaddinfo
+  - function.yaz-ccl-parse.md: yazcclparse »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazcclconf
+---
+# yazcclconf
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Конфігурує CCL-парсер
+(PHP 4> = 4.0.5, PECL yaz> = 0.9.0)
 
-# yaz_ccl_conf
-
-(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
-
-yaz_ccl_conf — Конфігурує CCL-парсер
+yazcclconf — Конфігурує CCL-парсер
 
 ### Опис
 
-**yaz_ccl_conf**(resource `$id`, array `$config`): void
+```methodsynopsis
+yaz_ccl_conf(resource $id, array $config): void
+```
 
-Функція конфігурує CCL-парсер запитів сервера з визначеннями
-точок доступу (CCL-кваліфікаторів) та їх відображення у RPN.
+Функція конфігурує CCL-парсер запитів для сервера з визначеннями точок доступу (CCL-кваліфікаторів) та їх відображення у RPN.
 
-Для відображення специфічного CCL-запиту до RPN викличте функцію
-[yaz_ccl_parse()](function.yaz-ccl-parse.md).
+Для відображення специфічного CCL-запиту до RPN викличте функцію [yazcclparse()](function.yaz-ccl-parse.md)
 
 ### Список параметрів
 
 `id`
-Ідентифікатор ресурсу, що повертається функцією
-[yaz_connect()](function.yaz-connect.md).
+
+Ідентифікатор ресурсу, що повертається функцією [yazconnect()](function.yaz-connect.md)
 
 `config`
-Масив налаштувань. Кожен ключ масиву - це ім'я CCL-поля та
-відповідне значення, що містить рядок, який визначає
-відображення у RPN.
 
-Відображення – це послідовність пар атрибут-тип, атрибут-значення.
-Атрибут-тип та атрибут-значення розділені знаком рівності (`=`). Кожна
-пара відокремлюється пробілом.
+Масив налаштувань. Кожен ключ масиву - це ім'я CCL-поля та відповідне значення, що містить рядок, який визначає відображення RPN.
 
-Додаткову інформацію можна знайти на сторінці
-[»CCL](http://www.indexdata.dk/yaz/doc/tools.tkl#CCL).
+Відображення – це послідовність пар атрибут-тип, атрибут-значення. Атрибут-тип та атрибут-значення розділені знаком рівності (`=`). Кожна пара відокремлюється пробілом.
+
+Додаткову інформацію можна знайти на сторінці [» CCL](http://www.indexdata.dk/yaz/doc/tools.tkl#CCL)
 
 ### Значення, що повертаються
 
@@ -45,14 +42,21 @@ yaz_ccl_conf — Конфігурує CCL-парсер
 
 ### Приклади
 
-У прикладі CCL-парсер налаштований для підтримки трьох полів CCL: `ti`, `au` та
-`isbn`. Кожне поле відображається у його BIB-1 еквіваленті. Приймається,
-що змінна `$id` - це цільовий ID.
+У прикладі CCL-парсер налаштований для підтримки трьох полів CCL: `ti` `au` і `isbn`. Кожне поле відображається у його BIB-1 еквіваленті. Вважається, що змінна `$id` - Це цільовий ID.
 
 **Приклад #1 Налаштування CCL**
 
-` <?php$fields = array( "ti" => "1=4", "au"  =>>"1=1", "isbn" => "1=7");yaz_ccl_conf($id, $fields );?> `
+```php
+<?php
+$fields = array(
+  "ti" => "1=4",
+  "au"   => "1=1",
+  "isbn" => "1=7"
+);
+yaz_ccl_conf($id, $fields);
+?>
+```
 
 ### Дивіться також
 
-- [yaz_ccl_parse()](function.yaz-ccl-parse.md) - Викликає парсер CCL
+-   [yazcclparse()](function.yaz-ccl-parse.md) - Викликає парсер CCL

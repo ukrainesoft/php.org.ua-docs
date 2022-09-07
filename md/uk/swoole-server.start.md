@@ -1,19 +1,22 @@
-- [« Swoole\Server::shutdown](swoole-server.shutdown.md)
-- [Swoole\Server::stats »](swoole-server.stats.md)
+---
+navigation:
+  - swoole-server.shutdown.md: '« SwooleServer::shutdown'
+  - swoole-server.stats.md: 'SwooleServer::stats »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::start'
+---
+# SwooleServer::start
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Запускає сервер Swoole
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::start
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::start — Запускає сервер Swoole
+SwooleServer::start — Запускає сервер Swoole
 
 ### Опис
 
-public **Swoole\Server::start**(): void
+```methodsynopsis
+public Swoole\Server::start(): void
+```
 
 ### Список параметрів
 

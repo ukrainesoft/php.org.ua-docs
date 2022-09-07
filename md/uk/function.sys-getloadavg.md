@@ -1,23 +1,24 @@
-- [« sleep](function.sleep.md)
-- [time_nanosleep »](function.time-nanosleep.md)
+---
+navigation:
+  - function.sleep.md: « sleep
+  - function.time-nanosleep.md: timenanosleep »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sysgetloadavg
+---
+# sysgetloadavg
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Отримує середнє завантаження системи
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
-#sys_getloadavg
-
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
-
-sys_getloadavg — Отримує середнє завантаження системи
+sysgetloadavg — Отримує середнє завантаження системи
 
 ### Опис
 
-**sys_getloadavg**(): array\|false
+```methodsynopsis
+sys_getloadavg(): array|false
+```
 
-Повертає три зразки, що представляють середнє завантаження системи (число
-процесів у черзі системних процесів) за останні 1, 5 та 15 хвилин,
-відповідно. Повертає **`false`** у разі виникнення помилки.
+Повертає три зразки, що представляють середнє завантаження системи (кількість процесів у черзі системних процесів) за останні 1, 5 і 15 хвилин, відповідно. Повертає **`false`** у разі виникнення помилки.
 
 ### Список параметрів
 
@@ -29,10 +30,18 @@ sys_getloadavg — Отримує середнє завантаження сис
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sys_getloadavg()****
+**Приклад #1 Приклад використання **sysgetloadavg()****
 
-` <?php$load = sys_getloadavg();if ($load[0] > 0.80) {    header('HTTP/1.1 503 Too busy, try again later'); die('Server too busy. Please try again later.');}?> `
+```php
+<?php
+$load = sys_getloadavg();
+if ($load[0] > 0.80) {
+    header('HTTP/1.1 503 Too busy, try again later');
+    die('Server too busy. Please try again later.');
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**: Для Windows-платформ ця функція не реалізована.
+> **Зауваження**: Для Windows-платформ ця функція не реалізована.

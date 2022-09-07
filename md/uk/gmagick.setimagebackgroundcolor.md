@@ -1,27 +1,29 @@
-- [« Gmagick::setfilename](gmagick.setfilename.md)
-- [Gmagick::setimageblueprimary »](gmagick.setimageblueprimary.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює колір фону зображення
-
+---
+navigation:
+  - gmagick.setfilename.md: '« Gmagick::setfilename'
+  - gmagick.setimageblueprimary.md: 'Gmagick::setimageblueprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagebackgroundcolor'
+---
 # Gmagick::setimagebackgroundcolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimagebackgroundcolor — Встановлює колір тла зображення
 
 ### Опис
 
-public
-**Gmagick::setimagebackgroundcolor**([GmagickPixel](class.gmagickpixel.md)
-`$color`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagebackgroundcolor(GmagickPixel $color): Gmagick
+```
 
 Встановлює колір тла зображення.
 
 ### Список параметрів
 
-`col`
+`color`
+
 Піксельна паличка фону.
 
 ### Значення, що повертаються

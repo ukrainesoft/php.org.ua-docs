@@ -1,28 +1,24 @@
-- [«MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- [MongoDB\Driver\Server::executeBulkWrite »](mongodb-driver-server.executebulkwrite.md)
+---
+navigation:
+  - class.mongodb-driver-server.md: « MongoDBDriverServer
+  - mongodb-driver-server.executebulkwrite.md: 'MongoDBDriverServer::executeBulkWrite »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
+title: 'MongoDBDriverServer::construct'
+---
+# MongoDBDriverServer::construct
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Створює новий Server (не використовується)
+(mongodb >=1.0.0)
 
-# MongoDB\Driver\Server::\_\_construct
-
-(mongodb \>=1.0.0)
-
-MongoDB\Driver\Server::\_\_construct - Створює новий Server (не
-використовується)
+MongoDBDriverServer::construct — Створює новий сервер (не використовується)
 
 ### Опис
 
-final private **MongoDB\Driver\Server::\_\_construct**()
+```methodsynopsis
+final private MongoDB\Driver\Server::__construct()
+```
 
-Об'єкти [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-створюються всередині
-[MongoDB\Driver\Manager](class.mongodb-driver-manager.md), коли
-з'єднання з базою даних встановлено та можуть бути повернені
-[MongoDB\Driver\Manager::getServers()](mongodb-driver-manager.getservers.md)
-і
-[MongoDB\Driver\Manager::selectServer()](mongodb-driver-manager.selectserver.md).
+Об'єкти [MongoDBDriverServer](class.mongodb-driver-server.md) створюються всередині [MongoDBDriverManager](class.mongodb-driver-manager.md), коли з'єднання з базою даних встановлено і можуть бути повернуті [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md) і [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.md)
 
 ### Список параметрів
 
@@ -30,7 +26,5 @@ final private **MongoDB\Driver\Server::\_\_construct**()
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::getServers()](mongodb-driver-manager.getservers.md) -
-Повертає сервери, до яких підключено менеджера
-- [MongoDB\Driver\Manager::selectServer()](mongodb-driver-manager.selectserver.md) -
-Вибрати сервер, що відповідає перевагам читання
+-   [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md) - Повертає сервери, до яких підключено менеджера
+-   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.md) - Вибрати сервер, що відповідає перевагам читання

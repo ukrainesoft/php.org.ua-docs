@@ -1,20 +1,22 @@
-- [« Ds\Stack::peek](ds-stack.peek.md)
-- [Ds\Stack::push »](ds-stack.push.md)
+---
+navigation:
+  - ds-stack.peek.md: '« DsStack::peek'
+  - ds-stack.push.md: 'ДсStack::push »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
+title: 'ДсStack::pop'
+---
+# ДсStack::pop
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Видаляє та повертає значення з вершини стека
+(PECL ds >= 1.0.0)
 
-# Ds\Stack::pop
-
-(PECL ds \>= 1.0.0)
-
-Ds\Stack::pop — Видаляє та повертає значення з вершини стека
+ДсStack::pop — Видаляє та повертає значення з вершини стека
 
 ### Опис
 
-public **Ds\Stack::pop**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Stack::pop(): mixed
+```
 
 Видаляє та повертає значення з вершини стека.
 
@@ -28,18 +30,30 @@ public **Ds\Stack::pop**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::pop()****
+**Приклад #1 Приклад використання **ДсStack::pop()****
 
-` <?php$stack = new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c");var_dump( $stack->pop());var_dump($stack->pop());var_dump($stack->pop());?> `
+```php
+<?php
+$stack = new \Ds\Stack();
+
+$stack->push("a");
+$stack->push("b");
+$stack->push("c");
+
+var_dump($stack->pop());
+var_dump($stack->pop());
+var_dump($stack->pop());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "c"
 string(1) "b"
 string(1) "a"
+```

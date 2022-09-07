@@ -1,19 +1,22 @@
-- [« SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md)
-- [SolrQuery::getQuery »](solrquery.getquery.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає поля запиту та їх підвищення
-
+---
+navigation:
+  - solrquery.getmltminwordlength.md: '« SolrQuery::getMltMinWordLength'
+  - solrquery.getquery.md: 'SolrQuery::getQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltQueryFields'
+---
 # SolrQuery::getMltQueryFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getMltQueryFields — Повертає поля запиту та їх підвищення
 
 ### Опис
 
-public **SolrQuery::getMltQueryFields**(): array
+```methodsynopsis
+public SolrQuery::getMltQueryFields(): array
+```
 
 Повертає поля запиту та їх підвищення
 
@@ -23,5 +26,4 @@ public **SolrQuery::getMltQueryFields**(): array
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає масив та **`null`**, якщо значення не встановлено.

@@ -1,83 +1,71 @@
-- [« streamWrapper::stream_metadata](streamwrapper.stream-metadata.md)
-- [streamWrapper::stream_read »](streamwrapper.stream-read.md)
+---
+navigation:
+  - streamwrapper.stream-metadata.md: '« streamWrapper::streammetadata'
+  - streamwrapper.stream-read.md: 'streamWrapper::streamread »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamopen'
+---
+# streamWrapper::streamopen
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Відкриває файл або URL
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-# streamWrapper::stream_open
-
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
-
-streamWrapper::stream_open — Відкриває файл або URL
+streamWrapper::streamopen — Відкриває файл або URL
 
 ### Опис
 
-public **streamWrapper::stream_open**(
-string `$path`,
-string `$mode`,
-int `$options`,
-?string `&$opened_path`
-): bool
+```methodsynopsis
+public streamWrapper::stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
+```
 
-Цей метод викликається відразу після ініціалізації обгортки (наприклад,
-[fopen()](function.fopen.md) та
-[file_get_contents()](function.file-get-contents.md)).
+Цей метод викликається відразу після ініціалізації обгортки (наприклад, [fopen()](function.fopen.md) і [filegetcontents()](function.file-get-contents.md)
 
 ### Список параметрів
 
 `path`
+
 Встановлює URL-адресу, яка буде передана в функцію, що викликає.
 
-> **Примітка**:
->
-> URL можна розділити на частини функцією
-> [parse_url()](function.parse-url.md). URL має бути відділений
-> Символами ://. Символи : і :/ поки працюють, але подальша підтримка
-> не гарантується.
+> **Зауваження**
+> 
+> URL можна розділити на частини функцією [parseurl()](function.parse-url.md). URL має бути відокремлений символами ://. Символи : та :/ поки працюють, але подальша підтримка не гарантується.
 
 `mode`
-Режим відкриття файлу, аналогічний режимам для
-[fopen()](function.fopen.md).
 
-> **Примітка**:
->
-> Не забувайте перевіряти, чи підтримується режим `mode` файлом `path`.
+Режим відкриття файлу, аналогічний режимам для [fopen()](function.fopen.md)
+
+> **Зауваження**
+> 
+> Не забувайте перевіряти, чи підтримується режим `mode` файлом `path`
 
 `options`
-Зберігає додаткові прапори, що задаються потоками API. Може утримувати
-одне чи кілька значень, об'єднаних операцією АБО. Значення
-наведено нижче.
 
-| Підкреслити              | Опис                                                                                                                                                                                           |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **STREAM_USE_PATH**      | Якщо шлях path відносний, потрібно шукати ресурс, використовуючи include_path.                                                                                                                 |
-| **STREAM_REPORT_ERRORS** | Якщо цей прапорець заданий, Ви можете викликати помилки функцією [trigger_error()](function.trigger-error.md) під час відкриття потоку. Якщо прапорець не заданий, помилки викликати не можна. |
+Зберігає додаткові прапори, що задаються API потоків. Може містити одне або кілька значень, які об'єднані операцією АБО. Значення наведені нижче.
+
+| Флаг | Описание |
+| --- | --- |
+| **`STREAM_USE_PATH`** | Якщо шлях `path` відносний, потрібно шукати ресурс, використовуючи includepath. |
+| **`STREAM_REPORT_ERRORS`** | Якщо цей прапор задано, Ви можете викликати помилки функцією [triggererror()](function.trigger-error.md) під час відкриття потоку. Якщо прапор не встановлено, помилки викликати не можна. |
 
 `opened_path`
-Якщо `path` успішно відкритий, і **`STREAM_USE_PATH`** задана в `options`,
-то в аргументі `opened_path` необхідно зберегти повний шлях до
-відкритому файлу чи ресурсу.
+
+Якщо `path` успішно відкритий, та **`STREAM_USE_PATH`** задана в `options`, то в аргументі `opened_path` необхідно зберегти повний шлях до відкритого файлу чи ресурсу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не
-удався (наприклад, не реалізований).
+Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не вдалося (наприклад, не реалізовано).
 
 ### Примітки
 
-> **Примітка**:
->
-> Властивість `streamWrapper::$context` буде оновлена, якщо коректна
-> контекст був переданий у функцію, що викликається.
+> **Зауваження**
+> 
+> Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
-- [fopen()](function.fopen.md) - Відкриває файл або URL
-- [parse_url()](function.parse-url.md) - Розбирає URL та повертає
-його компоненти
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти

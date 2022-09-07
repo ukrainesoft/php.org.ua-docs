@@ -1,21 +1,31 @@
-- [«enchant_dict_suggest](function.enchant-dict-suggest.md)
-- [EnchantDictionary »](class.enchantdictionary.md)
-
-- [PHP Manual](index.md)
-- [Enchant](book.enchant.md)
-- Клас EnchantBroker
-
+---
+navigation:
+  - function.enchant-dict-suggest.md: « enchantdictsuggest
+  - class.enchantdictionary.md: EnchantDictionary »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
+title: Клас EnchantBroker
+---
 # Клас EnchantBroker
 
 (PHP 8)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `enchant_broker` у PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `enchant_broker` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **EnchantBroker** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class EnchantBroker
+     
+     {
+   }
+```

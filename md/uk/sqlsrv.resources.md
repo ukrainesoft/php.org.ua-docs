@@ -1,19 +1,17 @@
-- [« Налаштування під час виконання](sqlsrv.configuration.md)
-- [Предвизначені константи »](sqlsrv.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sqlsrv.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - sqlsrv.configuration.md: « Налаштування під час виконання
+  - sqlsrv.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - sqlsrv.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 ## Дескриптор з'єднання
 
-Дескриптор з'єднання повертається функцією
-[sqlsrv_connect()](function.sqlsrv-connect.md).
+Дескриптор з'єднання повертається функцією [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 ## Дескриптор виразу
 
-Дескриптор виразу (statement resource) повертається функціями
-[sqlsrv_query()](function.sqlsrv-query.md) або
-[sqlsrv_prepare()](function.sqlsrv-prepare.md).
+Дескриптор виразу (statement resource) повертається функціями [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvprepare()](function.sqlsrv-prepare.md)

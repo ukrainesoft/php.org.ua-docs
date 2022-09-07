@@ -1,37 +1,41 @@
-- [« Stomp::getSessionId](stomp.getsessionid.md)
-- [Stomp::readFrame »](stomp.readframe.md)
-
-- [PHP Manual](index.md)
-- [Stomp](class.stomp.md)
-- Перевіряє, чи можливе читання кадру
-
+---
+navigation:
+  - stomp.getsessionid.md: '« Stomp::getSessionId'
+  - stomp.readframe.md: 'Stomp::readFrame »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::hasFrame'
+---
 # Stomp::hasFrame
 
-#stomp_has_frame
+# stomphasframe
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
-Stomp::hasFrame -- stomp_has_frame — Перевіряє, чи можливо читати
-кадр
+Stomp::hasFrame -- stomphasframe — Перевіряє, чи можливо читати кадр
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::hasFrame**(): bool
+```methodsynopsis
+public Stomp::hasFrame(): bool
+```
 
 Процедурний стиль:
 
-**stomp_has_frame**(resource `$link`): bool
+```methodsynopsis
+stomp_has_frame(resource $link): bool
+```
 
 Перевіряє, чи можливо читати кадр.
 
 ### Список параметрів
 
 `link`
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp,
-отриманий із [stomp_connect()](stomp.construct.md).
+
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** якщо фрейм можна прочитати, інакше **`false`**.
+Повертає **`true`** якщо кадр можна прочитати, інакше **`false`**

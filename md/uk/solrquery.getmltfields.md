@@ -1,20 +1,22 @@
-- [«SolrQuery::getMltCount](solrquery.getmltcount.md)
-- [SolrQuery::getMltMaxNumQueryTerms »](solrquery.getmltmaxnumqueryterms.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі поля, які потрібно використовувати для порівняння
-
+---
+navigation:
+  - solrquery.getmltcount.md: '« SolrQuery::getMltCount'
+  - solrquery.getmltmaxnumqueryterms.md: 'SolrQuery::getMltMaxNumQueryTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltFields'
+---
 # SolrQuery::getMltFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMltFields — Повертає всі поля, які потрібно
-використовувати для порівняння
+SolrQuery::getMltFields — Повертає всі поля, які потрібно використовувати для порівняння
 
 ### Опис
 
-public **SolrQuery::getMltFields**(): array
+```methodsynopsis
+public SolrQuery::getMltFields(): array
+```
 
 Повертає всі поля, які слід використовувати для порівняння.
 
@@ -24,5 +26,4 @@ public **SolrQuery::getMltFields**(): array
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає масив та **`null`**, якщо значення не встановлено.

@@ -1,28 +1,29 @@
-- [«CommonMark\Parser](class.commonmark-parser.md)
-- [CommonMark\Parser::parse »](commonmark-parser.parse.md)
+---
+navigation:
+  - class.commonmark-parser.md: « CommonMarkParser
+  - commonmark-parser.parse.md: 'CommonMarkParser::parse »'
+  - index.md: PHP Manual
+  - class.commonmark-parser.md: CommonMarkParser
+title: 'CommonMarkParser::construct'
+---
+# CommonMarkParser::construct
 
-- [PHP Manual](index.md)
-- [CommonMark\Parser](class.commonmark-parser.md)
-- Розбір
+(cmark >= 1.0.0)
 
-# CommonMark\Parser::\_\_construct
-
-(cmark \>= 1.0.0)
-
-CommonMark\Parser::\_\_construct — Розбір
+CommonMarkParser::construct - Розбір
 
 ### Опис
 
-public **CommonMark\Parser::\_\_construct**(int `$options` = ?)
+public **CommonMarkParser::construct**(int `$options`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `options`
+
 Маска з:
 
 **`CommonMark\Parser\Normal`** (int)

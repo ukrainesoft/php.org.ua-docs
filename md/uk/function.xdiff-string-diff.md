@@ -1,70 +1,73 @@
-- [«xdiff_string_diff_binary](function.xdiff-string-diff-binary.md)
-- [xdiff_string_merge3 »](function.xdiff-string-merge3.md)
+---
+navigation:
+  - function.xdiff-string-diff-binary.md: xdiffstringdiffbinary
+  - function.xdiff-string-merge3.md: xdiffstringmerge3 »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdiffstringdiff
+---
+# xdiffstringdiff
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Створити звичайний патч для двох рядків
+(PECL xdiff >= 0.2.0)
 
-#xdiff_string_diff
-
-(PECL xdiff \>= 0.2.0)
-
-xdiff_string_diff — Створити звичайний патч для двох рядків
+xdiffstringdiff — Створити звичайний патч для двох рядків
 
 ### Опис
 
-**xdiff_string_diff**(
-string `$old_data`,
-string `$new_data`,
-int `$context` = 3,
-bool `$minimal` = **`false`**
-): string
+```methodsynopsis
+xdiff_string_diff(    string $old_data,    string $new_data,    int $context = 3,    bool $minimal = false): string
+```
 
-Створює патч для рядків `old_data` та `new_data`. Підсумковий патч
-людиночитаємо. Опціональний параметр `context` вказує, скільки рядків
-контексту має бути додано до патчу навколо кожної відмінності.
-Встановлення параметра `minimal` у значення **`true`** дозволить отримати
-максимально короткий патч (може зайняти багато часу).
+Створює патч для рядків `old_data` і `new_data`. Підсумковий патч людину читаємо. Опціональний параметр `context` вказує, скільки рядків контексту має бути додано до патчу навколо кожної відмінності. Встановлення параметра `minimal` на значення **`true`** дозволить отримати максимально короткий патч (може зайняти багато часу).
 
 ### Список параметрів
 
 `old_data`
+
 Перший рядок із даними. Це будуть "старі" дані.
 
 `new_data`
+
 Другий рядок із даними. Це будуть "нові" дані.
 
 `context`
+
 Кількість рядків контексту навколо кожної зміни.
 
 `minimal`
-Якщо **`true`**, то буде створено максимально короткий патч (може зайняти
-багато часу).
+
+Якщо **`true`**, то буде створено максимально короткий патч (може зайняти багато часу).
 
 ### Значення, що повертаються
 
-Повертає рядок із патчем, або **`false`** у разі виникнення
-помилки.
+Повертає рядок з патчем, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_string_diff()****
+**Приклад #1 Приклад використання **xdiffstringdiff()****
 
 Наступний код виведе різницю двох статей.
 
-` <?php$old_article = file_get_contents('./old_article.txt');$new_article = $_REQUEST['article']; /* Допустимо хтось відправив нову статтю через html-форму */$diff = xdiff_string_diff($old_article, $new_article, 1);if (is_string($diff)) х         
-";   echo $diff;}?> `
+```php
+<?php
+$old_article = file_get_contents('./old_article.txt');
+$new_article = $_REQUEST['article']; /* Допустим кто-то отправил новую статью через html-форму */
+
+$diff = xdiff_string_diff($old_article, $new_article, 1);
+if (is_string($diff)) {
+    echo "Различия в двух статьях:\n";
+    echo $diff;
+}
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Ця функція не призначена для роботи з бінарними даними. Для
-> бінарного порівняння використовуйте
-> [xdiff_string_bdiff()](function.xdiff-string-bdiff.md) та
-> [xdiff_string_rabdiff()](function.xdiff-string-rabdiff.md).
+> **Зауваження**
+> 
+> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiffstringbdiff()](function.xdiff-string-bdiff.md) і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Дивіться також
 
-- [xdiff_string_patch()](function.xdiff-string-patch.md) - Застосувати
-звичайний патч до рядка
+-   [xdiffstringpatch()](function.xdiff-string-patch.md) - Застосувати звичайний патч до рядка

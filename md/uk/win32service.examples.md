@@ -1,20 +1,45 @@
-- [«Win32ServiceException](class.win32serviceexception.md)
-- [win32service »](ref.win32service.md)
-
-- [PHP Manual](index.md)
-- [win32service](book.win32service.md)
-- Приклади
-
+---
+navigation:
+  - class.win32serviceexception.md: « Win32ServiceException
+  - ref.win32service.md: win32service »
+  - index.md: PHP Manual
+  - book.win32service.md: win32service
+title: Приклади
+---
 # Приклади
 
-**Приклад #1 Реєстрація скрипта PHP для запуску в якості служби**
+**Приклад #1 Реєстрація скрипту PHP для запуску як служба**
 
-` <?phpwin32_create_service(array(    'service'     => 'dummyphp',                                           # tимя службы    'display'     => 'sample dummy PHP service',                           # короткое описание    'description' => 'This is a dummy Windows service created using PHP. ', # длинное описание    'params'      => '"' . __FILE__ . '"  run',                            # путь к скрипту и параметрам));?> `
+```php
+<?php
+win32_create_service(array(
+    'service'     => 'dummyphp',                                           # tимя службы
+    'display'     => 'sample dummy PHP service',                           # короткое описание
+    'description' => 'This is a dummy Windows service created using PHP.', # длинное описание
+    'params'      => '"' . __FILE__ . '"  run',                            # путь к скрипту и параметрам
+));
+?>
+```
 
 **Приклад #2 Видалення реєстрації служби**
 
-` <?phpwin32_delete_service('dummyphp');?> `
+```php
+<?php
+win32_delete_service('dummyphp');
+?>
+```
 
-**Приклад #3 Запуск як служба**
+**Приклад #3 Запуск служби**
 
-`<?phpif ($argv[1] == 'run') {  win32_start_service_ctrl_dispatcher('dummyphp'); while(WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {    # тут творимо свої справи. # намагаємося створити их швидше, чем за 30 секунд. }}?> `
+```php
+<?php
+if ($argv[1] == 'run') {
+  win32_start_service_ctrl_dispatcher('dummyphp');
+
+  while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
+    # тут творим свои дела.
+    # пытаемся сотворить их быстрее, чем за 30 секунд.
+  }
+}
+?>
+```

@@ -1,10 +1,11 @@
-- [« Типи ресурсів](bzip2.resources.md)
-- [Приклади »](bzip2.examples.md)
-
-- [PHP Manual](index.md)
-- [Bzip2](book.bzip2.md)
-- Обумовлені константи
-
-# Зумовлені константи
+---
+navigation:
+  - bzip2.resources.md: « Типи ресурсів
+  - bzip2.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.bzip2.md: Bzip2
+title: Обумовлені константи
+---
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

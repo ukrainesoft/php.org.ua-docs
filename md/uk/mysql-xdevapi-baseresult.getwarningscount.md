@@ -1,23 +1,24 @@
-- [« BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md)
-- [mysql_xdevapi\Client »](class.mysql-xdevapi-client.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md)
-- Отримує кількість попереджень останньої операції
-
+---
+navigation:
+  - mysql-xdevapi-baseresult.getwarnings.md: '« BaseResult::getWarnings'
+  - class.mysql-xdevapi-client.md: mysqlxdevapiClient »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-baseresult.md: mysqlxdevapiBaseResult
+title: 'BaseResult::getWarningsCount'
+---
 # BaseResult::getWarningsCount
 
 (No version information available, might only be in Git)
 
-BaseResult::getWarningsCount — Отримує кількість попереджень
-останньої операції
+BaseResult::getWarningsCount — Отримує кількість попереджень останньої операції
 
 ### Опис
 
-abstract public **mysql_xdevapi\BaseResult::getWarningsCount**(): int
+```methodsynopsis
+abstract public mysql_xdevapi\BaseResult::getWarningsCount(): int
+```
 
-Повертає кількість попереджень, виданих останньою операцією. В
-зокрема ці попередження викликаються сервером MySQL.
+Повертає кількість попереджень, виданих останньою операцією. Зокрема ці попередження викликаються сервером MySQL.
 
 ### Список параметрів
 
@@ -29,11 +30,29 @@ abstract public **mysql_xdevapi\BaseResult::getWarningsCount**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\RowResult::getWarningsCount()****
+**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getWarningsCount()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS foo")->execute();$session->sql( "CREATE DATABASE foo")->execute();$session->sql("CREATE TABLE foo.test_table(x int)")->execute();$schema = $session->getSchema("foo"); $table = $schema->getTable("test_table");$table->insert(['x'])->values([1])->values([2])->execute();$res = $table->select(['x/0 as bad_x'])->execute();echo $res->getWarningsCount();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS foo")->execute();
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+
+$schema = $session->getSchema("foo");
+$table  = $schema->getTable("test_table");
+
+$table->insert(['x'])->values([1])->values([2])->execute();
+
+$res = $table->select(['x/0 as bad_x'])->execute();
+
+echo $res->getWarningsCount();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 2
+```

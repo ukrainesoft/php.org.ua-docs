@@ -1,19 +1,22 @@
-- [«curl_share_errno](function.curl-share-errno.md)
-- [curl_share_setopt »](function.curl-share-setopt.md)
+---
+navigation:
+  - function.curl-share-errno.md: « curlshareerrno
+  - function.curl-share-setopt.md: curlsharesetopt »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlshareinit
+---
+# curlshareinit
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Ініціалізація оброблюваного обробника cURL
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-#curl_share_init
-
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
-
-curl_share_init — Ініціалізація роздільного обробника cURL
+curlshareinit — Ініціалізація оброблюваного обробника cURL
 
 ### Опис
 
-**curl_share_init**(): [CurlShareHandle](class.curlsharehandle.md)
+```methodsynopsis
+curl_share_init(): CurlShareHandle
+```
 
 Дозволяє різним обробникам cURL ділитися даними один з одним.
 
@@ -25,25 +28,49 @@ curl_share_init — Ініціалізація роздільного оброб
 
 Повертає оброблюваний cURL.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція повертає екземпляр [CurlShareHandle](class.curlsharehandle.md); раніше, повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція повертає екземпляр [CurlShareHandle](class.curlsharehandle.md); раніше, повертався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curl_share_init()****
+**Приклад #1 Приклад використання **curlshareinit()****
 
-У цьому прикладі ми створюємо оброблюваний обробник cURL, додаємо в нього
-два звичайні обробники і запускаємо їх. Вони будуть використовувати одні й ті
-ж кукі.
+У цьому прикладі ми створюємо роздільний обробник cURL, додаємо в нього два звичайні обробники і запускаємо їх. Вони будуть використовувати одні й ті ж куки.
 
-` <?php// Создаём разделяемый обработчик и настраиваем его на обмен куками$sh = curl_share_init();curl_share_setopt($sh, CURLSHOPT_SHARE, CURL_LOCK_DATA_COOKIE);// Инициализируем первый обработчик cURL и связываем его с разделяемым$ch1 = curl_init("http ://example.com/");curl_setopt($ch1, CURLOPT_SHARE, $sh);// Запускаємо перший запитcurl_exec($ch1);// Ініціалізуємо другий обробник curl і зв'язуємо | //php.net/");curl_setopt($ch2, CURLOPT_SHARE, $sh);// Запускаємо другий обробник.// Йому будуть доступні все| sh);// Закриваємо обидва звичайних обробникаcurl_close($ch1);curl_close($ch2);?>
+```php
+<?php
+// Создаём разделяемый обработчик и настраиваем его на обмен куками
+$sh = curl_share_init();
+curl_share_setopt($sh, CURLSHOPT_SHARE, CURL_LOCK_DATA_COOKIE);
+
+// Инициализируем первый обработчик cURL и связываем его с разделяемым
+$ch1 = curl_init("http://example.com/");
+curl_setopt($ch1, CURLOPT_SHARE, $sh);
+
+// Запускаем первый запрос
+curl_exec($ch1);
+
+// Инициализируем второй обработчик cURL и связываем его с разделяемым
+$ch2 = curl_init("http://php.net/");
+curl_setopt($ch2, CURLOPT_SHARE, $sh);
+
+// Запускаем второй обработчик.
+//  Ему будут доступны все куки от первого обработчика $ch1
+curl_exec($ch2);
+
+// Закрываем разделяемый обработчик
+curl_share_close($sh);
+
+// Закрываем оба обычных обработчика
+curl_close($ch1);
+curl_close($ch2);
+?>
+```
 
 ### Дивіться також
 
-- [curl_share_setopt()](function.curl-share-setopt.md) - Встановити
-опції оброблюваного cURL
-- [curl_share_close()](function.curl-share-close.md) - Закрити
-оброблюваний обробник cURL
+-   [curlsharesetopt()](function.curl-share-setopt.md) - Встановити опції роздільного оброблювача cURL
+-   [curlshareclose()](function.curl-share-close.md) - Закрити оброблюваний обробник cURL

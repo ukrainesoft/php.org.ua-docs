@@ -1,40 +1,48 @@
-- [« InfiniteIterator](class.infiniteiterator.md)
-- [InfiniteIterator::next »](infiniteiterator.next.md)
+---
+navigation:
+  - class.infiniteiterator.md: « InfiniteIterator
+  - infiniteiterator.next.md: 'InfiniteIterator::next »'
+  - index.md: PHP Manual
+  - class.infiniteiterator.md: InfiniteIterator
+title: 'InfiniteIterator::construct'
+---
+# InfiniteIterator::construct
 
-- [PHP Manual](index.md)
-- [InfiniteIterator](class.infiniteiterator.md)
-- Конструктор класу InfiniteIterator
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-# InfiniteIterator::\_\_construct
-
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
-
-InfiniteIterator::\_\_construct - Конструктор класу InfiniteIterator
+InfiniteIterator::construct - Конструктор класу InfiniteIterator
 
 ### Опис
 
-public
-**InfiniteIterator::\_\_construct**([Iterator](class.iterator.md)
-`$iterator`)
+public **InfiniteIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
-Створює новий об'єкт класу
-[InfiniteIterator](class.infiniteiterator.md) на основі
-об'єкта-ітератора [Iterator](class.iterator.md).
+Створює новий об'єкт класу [InfiniteIterator](class.infiniteiterator.md) на основі об'єкта-ітератора [Iterator](class.iterator.md)
 
 ### Список параметрів
 
 `iterator`
+
 Нескінченний ітератор.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **InfiniteIterator::\_\_construct()****
+**Приклад #1 Приклад використання **InfiniteIterator::construct()****
 
-` <?php$arrayit  = new ArrayIterator(array('cat','dog'));$infinite = new InfiniteIterator($arrayit);$limit    = new LimitIterator($infinite,$0; as $value){    echo "$value
-";}?> `
+```php
+<?php
+$arrayit  = new ArrayIterator(array('cat','dog'));
+$infinite = new InfiniteIterator($arrayit);
+$limit    = new LimitIterator($infinite, 0, 7);
+foreach($limit as $value)
+{
+    echo "$value\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 cat
 dog
 cat
@@ -42,8 +50,8 @@ dog
 cat
 dog
 cat
+```
 
 ### Дивіться також
 
-- [InfiniteIterator::next()](infiniteiterator.next.md) - Переміщує
-ітератор однією позицію вперед чи початок
+-   [InfiniteIterator::next()](infiniteiterator.next.md) - Переміщує ітератор на одну позицію вперед або на початок

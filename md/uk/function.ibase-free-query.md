@@ -1,29 +1,31 @@
-- [« ibase_free_event_handler](function.ibase-free-event-handler.md)
-- [ibase_free_result »](function.ibase-free-result.md)
+---
+navigation:
+  - function.ibase-free-event-handler.md: « ibasefreeeventhandler
+  - function.ibase-free-result.md: ibasefreeresult »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasefreequery
+---
+# ibasefreequery
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- звільняє пам'ять, виділену на підготовку запиту
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_free_query
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_free_query — Звільняє пам'ять, виділену для підготовки запиту
+ibasefreequery — Звільняє пам'ять, виділену для підготовки запиту
 
 ### Опис
 
-**ibase_free_query**(resource `$query`): bool
+```methodsynopsis
+ibase_free_query(resource $query): bool
+```
 
-Визволяє підготовлений запит.
+Звільняє підготовлений запит.
 
 ### Список параметрів
 
 `query`
-Запит, підготовлений за допомогою
-[ibase_prepare()](function.ibase-prepare.md).
+
+Запит, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

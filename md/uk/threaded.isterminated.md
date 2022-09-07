@@ -1,23 +1,24 @@
-- [« Threaded::isRunning](thread.isrunning.md)
-- [Threaded::merge »](threaded.merge.md)
-
-- [PHP Manual](index.md)
-- [Threaded](class.threaded.md)
-- Визначення стану
-
+---
+navigation:
+  - thread.isrunning.md: '« Threaded::isRunning'
+  - threaded.merge.md: 'Threaded::merge »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::isTerminated'
+---
 # Threaded::isTerminated
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Threaded::isTerminated — Визначення стану
 
 ### Опис
 
-public **Threaded::isTerminated**(): bool
+```methodsynopsis
+public Threaded::isTerminated(): bool
+```
 
-Повідомляє, чи об'єкт, на який вказує посилання, було припинено.
-виконання; чи відбулися фатальні помилки або були викинуті
-неперехоплені винятки.
+Повідомляє, чи об'єкт, на який вказує посилання, припинено під час виконання; чи відбулися фатальні помилки, чи були викинуті неперехоплені винятки.
 
 ### Список параметрів
 
@@ -31,8 +32,22 @@ public **Threaded::isTerminated**(): bool
 
 **Приклад #1 Визначення стану вказаного об'єкта**
 
-` <?phpclass My extends Thread {    public function run() {       i_do_not_exist(); }}$my = new My();$my->start();$my->join();var_dump($my->isTerminated());?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        i_do_not_exist();
+    }
+}
+$my = new My();
+$my->start();
+$my->join();
+var_dump($my->isTerminated());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

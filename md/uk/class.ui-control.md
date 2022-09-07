@@ -1,69 +1,58 @@
-- [«UI\Window::setTitle](ui-window.settitle.md)
-- [UI\Control::destroy »](ui-control.destroy.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- елемент управління
-
+---
+navigation:
+  - ui-window.settitle.md: '« UIWindow::setTitle'
+  - ui-control.destroy.md: 'ОЙControl::destroy »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління
+---
 # Елемент управління
 
 (UI 0.9.9)
 
 ## Вступ
 
-Це закритий базовий клас для всіх елементів керування
-інтерфейсу користувача.
+Це закритий базовий клас для всіх елементів керування інтерфейсу користувача.
 
 ## Огляд класів
 
-final class **UI\Control** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [destroy](ui-control.destroy.md)()
 
-public [disable](ui-control.disable.md)()
+    
+     
+      final
+      class UI\Control
+     
+     {
 
-public [enable](ui-control.enable.md)()
 
-public [getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
+    /* Методы */
+    
+   public destroy()
+public disable()
+public enable()
+public getParent(): UI\Control
+public getTopLevel(): int
+public hide()
+public isEnabled(): bool
+public isVisible(): bool
+public setParent(UI\Control $parent)
+public show()
 
-public [getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [hide](ui-control.hide.md)()
-
-public [isEnabled](ui-control.isenabled.md)(): bool
-
-public [isVisible](ui-control.isvisible.md)(): bool
-
-public
-[setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Control::destroy](ui-control.destroy.md) — Знищити
-керуючий елемент
-- [UI\Control::disable](ui-control.disable.md) — Вимкнути
-керуючий елемент
-- [UI\Control::enable](ui-control.enable.md) - Увімкнути керуючий
-елемент
-- [UI\Control::getParent](ui-control.getparent.md) — Отримати
-батьківський керуючий елемент
-- [UI\Control::getTopLevel](ui-control.gettoplevel.md) — Отримати
-верхній рівень
-- [UI\Control::hide](ui-control.hide.md) - Приховати керуючий
-елемент
-- [UI\Control::isEnabled](ui-control.isenabled.md) — Визначити,
-чи включений керуючий елемент
-- [UI\Control::isVisible](ui-control.isvisible.md) - Визначити,
-чи видимий керуючий елемент
-- [UI\Control::setParent](ui-control.setparent.md) — Встановити
-батьківський керуючий елемент
-- [UI\Control::show](ui-control.show.md) - Показати керуючий
-елемент
+-   [ОЙControl::destroy](ui-control.destroy.md) — Знищити керуючий елемент
+-   [ОЙControl::disable](ui-control.disable.md) — Вимкнути керуючий елемент
+-   [ОЙControl::enable](ui-control.enable.md) — Включити елемент керування
+-   [ОЙControl::getParent](ui-control.getparent.md) — Отримати батьківський керуючий елемент
+-   [ОЙControl::getTopLevel](ui-control.gettoplevel.md) — Здобути верхній рівень
+-   [ОЙControl::hide](ui-control.hide.md) — Приховати елемент керування
+-   [ОЙControl::isEnabled](ui-control.isenabled.md) — Визначити, чи включений елемент керування
+-   [ОЙControl::isVisible](ui-control.isvisible.md) — Визначити, чи видимий елемент керування
+-   [ОЙControl::setParent](ui-control.setparent.md) — Встановити батьківський елемент управління
+-   [ОЙControl::show](ui-control.show.md) - Показати керуючий елемент

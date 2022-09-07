@@ -1,19 +1,22 @@
-- [« SolrQuery::getGroupQueries](solrquery.getgroupqueries.md)
-- [SolrQuery::getGroupTruncate »](solrquery.getgrouptruncate.md)
-
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення group.sort
-
+---
+navigation:
+  - solrquery.getgroupqueries.md: '« SolrQuery::getGroupQueries'
+  - solrquery.getgrouptruncate.md: 'SolrQuery::getGroupTruncate »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupSortFields'
+---
 # SolrQuery::getGroupSortFields
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroupSortFields — Повертає значення group.sort
 
 ### Опис
 
-public **SolrQuery::getGroupSortFields**(): array
+```methodsynopsis
+public SolrQuery::getGroupSortFields(): array
+```
 
 Повертає значення group.sort
 
@@ -25,5 +28,4 @@ public **SolrQuery::getGroupSortFields**(): array
 
 ### Дивіться також
 
-- [SolrQuery::addGroupSortField()](solrquery.addgroupsortfield.md) -
-Додає поле сортування групи (параметр group.sort)
+-   [SolrQuery::addGroupSortField()](solrquery.addgroupsortfield.md) - Додає поле сортування групи (параметр group.sort)

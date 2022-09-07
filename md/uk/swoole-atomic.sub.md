@@ -1,25 +1,29 @@
-- [« Swoole\Atomic::set](swoole-atomic.set.md)
-- [Swoole\Buffer »](class.swoole-buffer.md)
+---
+navigation:
+  - swoole-atomic.set.md: '« SwooleAtomic::set'
+  - class.swoole-buffer.md: SwooleBuffer »
+  - index.md: PHP Manual
+  - class.swoole-atomic.md: SwooleAtomic
+title: 'SwooleAtomic::sub'
+---
+# SwooleAtomic::sub
 
-- [PHP Manual](index.md)
-- [Swoole\Atomic](class.swoole-atomic.md)
-- Віднімає число із значення атомарного об'єкта
+(PECL swoole >= 1.9.0)
 
-# Swoole\Atomic::sub
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Atomic::sub — Віднімає число значення атомарного об'єкта
+SwooleAtomic::sub — Віднімає число із значення атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::sub**(int `$sub_value` = ?): int
+```methodsynopsis
+public Swoole\Atomic::sub(int $sub_value = ?): int
+```
 
-Віднімає число значення атомарного об'єкта.
+Віднімає число із значення атомарного об'єкта.
 
 ### Список параметрів
 
 `sub_value`
+
 Значення, яке буде віднято від поточного значення.
 
 ### Значення, що повертаються

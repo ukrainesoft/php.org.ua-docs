@@ -1,41 +1,40 @@
-- [«ps_symbol_width](function.ps-symbol-width.md)
-- [ps_translate »](function.ps-translate.md)
+---
+navigation:
+  - function.ps-symbol-width.md: «pssymbolwidth
+  - function.ps-translate.md: псtranslate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsymbol
+---
+# псsymbol
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Виводить гліф
+(PECL ps >= 1.2.0)
 
-#ps_symbol
-
-(PECL ps \>= 1.2.0)
-
-ps_symbol - Виводить гліф
+псsymbol - Виводить гліф
 
 ### Опис
 
-**ps_symbol**(resource `$psdoc`, int `$ord`): bool
+```methodsynopsis
+ps_symbol(resource $psdoc, int $ord): bool
+```
 
-Виводить гліф у позиції `ord` у векторі кодування поточного шрифту.
-Кодування шрифту можна встановити під час завантаження шрифту за допомогою
-[ps_findfont()](function.ps-findfont.md).
+Виводить гліф у позиції `ord` у векторному кодування поточного шрифту. Кодування шрифту можна встановити під час завантаження шрифту за допомогою [псfindfont()](function.ps-findfont.md)
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `ord`
+
 Положення гліфа у векторному шрифт кодування.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_symbol_name()](function.ps-symbol-name.md) - Отримує ім'я
-гліфа
-- [ps_symbol_width()](function.ps-symbol-width.md) - Отримує ширину
-гліфа
+-   [псsymbolname()](function.ps-symbol-name.md) - Отримує ім'я гліфа
+-   [псsymbolwidth()](function.ps-symbol-width.md) - Отримує ширину гліфа

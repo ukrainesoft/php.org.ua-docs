@@ -1,63 +1,69 @@
-- [« stream_context_set_params](function.stream-context-set-params.md)
-- [stream_filter_append »](function.stream-filter-append.md)
-
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Копіює дані з одного потоку до іншого
-
-#stream_copy_to_stream
+---
+navigation:
+  - function.stream-context-set-params.md: « streamcontextsetparams
+  - function.stream-filter-append.md: streamfilterappend »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcopyтоstream
+---
+# streamcopyтоstream
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_copy_to_stream — Копіює дані з одного потоку до іншого
+streamcopyтоstream — Копіює дані з одного потоку до іншого
 
 ### Опис
 
-**stream_copy_to_stream**(
-resource `$from`,
-resource `$to`,
-?int `$length` = **`null`**,
-int `$offset` = 0
-): int\|false
+```methodsynopsis
+stream_copy_to_stream(    resource $from,    resource $to,    ?int $length = null,    int $offset = 0): int|false
+```
 
-Робить копію до `length` байт даних від поточної позиції (або від позиції
-`offset`, якщо вказано) потоку `from` у потік `to`. Якщо `length` дорівнює
-**`null`**, буде скопійовано весь вміст з `from`.
+Робить копію до `length` байт даних від поточної позиції (або від позиції `offset`, якщо вказано) потоку `from` у потік `to`. Якщо `length` дорівнює **`null`**, буде скопійовано весь вміст, що залишився з `from`
 
 ### Список параметрів
 
 `from`
+
 Вихідний потік.
 
 `to`
+
 Потік призначення.
 
 `length`
-Максимальна кількість байт для копіювання. За замовчуванням копіюються
-всі байти, що залишилися.
+
+Максимальна кількість байт для копіювання. За замовчуванням копіюються всі байти.
 
 `offset`
+
 Зміщення, з якого копіюватимуться дані.
 
 ### Значення, що повертаються
 
-Повертає загальну кількість скопійованих байт або **`false`** у разі
-виникнення помилки.
+Повертає загальну кількість скопійованих байт або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                          |
-|--------|-----------------------------------------------|
-| 8.0.0  | Параметр length тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `length` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_copy_to_stream()****
+**Приклад #1 Приклад використання **streamcopyтоstream()****
 
-` <?php$src = fopen('http://www.example.com', 'r');$dest1 = fopen('first1k.txt', 'w');$dest2 = fopen('remainder. txt', 'w');echo stream_copy_to_stream($src, $dest1, 1024) . "Байт|скопійовано|в|first1k.txt
-";echo stream_copy_to_stream($src, $dest2) . " байт скопійовано в remainder.txt
-";?> `
+```php
+<?php
+$src = fopen('http://www.example.com', 'r');
+$dest1 = fopen('first1k.txt', 'w');
+$dest2 = fopen('remainder.txt', 'w');
+
+echo stream_copy_to_stream($src, $dest1, 1024) . " байт скопировано в first1k.txt\n";
+echo stream_copy_to_stream($src, $dest2) . " байт скопировано в remainder.txt\n";
+
+?>
+```
 
 ### Дивіться також
 
-- [copy()](function.copy.md) - Копіює файл
+-   [copy()](function.copy.md) - Копіює файл

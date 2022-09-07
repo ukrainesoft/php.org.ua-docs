@@ -1,36 +1,34 @@
-- [« ImagickDraw::setStrokeAlpha](imagickdraw.setstrokealpha.md)
-- [ImagickDraw::setStrokeColor »](imagickdraw.setstrokecolor.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Керує згладжуванням обведення контурів
-
+---
+navigation:
+  - imagickdraw.setstrokealpha.md: '« ImagickDraw::setStrokeAlpha'
+  - imagickdraw.setstrokecolor.md: 'ImagickDraw::setStrokeColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setStrokeAntialias'
+---
 # ImagickDraw::setStrokeAntialias
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::setStrokeAntialias — Керує згладжуванням обведень
-контурів
+ImagickDraw::setStrokeAntialias — Керує згладжуванням обведення контурів
 
 ### Опис
 
-public **ImagickDraw::setStrokeAntialias**(bool `$stroke_antialias`):
-bool
+```methodsynopsis
+public ImagickDraw::setStrokeAntialias(bool $stroke_antialias): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Керує згладжуванням обведення контурів. За замовчуванням обведені контури
-згладжуються. Коли згладжування вимкнено, для обведених пікселів
-встановлюється граничне значення, щоб визначити, чи слід
-використовувати колір обведення або колір базового полотна.
+Керує згладжуванням обведення контурів. За промовчанням обведені контури згладжуються. Коли згладжування вимкнено, для обведених пікселів встановлюється граничне значення, щоб визначити, чи слід використовувати колір обведення або колір базового полотна.
 
 ### Список параметрів
 
 `stroke_antialias`
-Настроювання згладжування.
+
+Налаштування згладжування.
 
 ### Значення, що повертаються
 
@@ -40,4 +38,33 @@ bool
 
 **Приклад #1 Приклад використання **ImagickDraw::setStrokeAntialias()****
 
-` <?phpfunction setStrokeAntialias($strokeColor, $fillColor, $backgroundColor) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(1); $draw->setStrokeAntialias(false); $draw->line(100, 100, 400, 105); $draw->line(100, 140, 400, 185); $draw->setStrokeAntialias(true); $draw->line(100, 110, 400, 115); $draw->line(100, 150, 400, 195); $image = new \Imagick(); $image->newImage(500, 250, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+```php
+<?php
+function setStrokeAntialias($strokeColor, $fillColor, $backgroundColor) {
+
+    $draw = new \ImagickDraw();
+
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(1);
+    $draw->setStrokeAntialias(false);
+    $draw->line(100, 100, 400, 105);
+
+    $draw->line(100, 140, 400, 185);
+
+    $draw->setStrokeAntialias(true);
+    $draw->line(100, 110, 400, 115);
+    $draw->line(100, 150, 400, 195);
+
+    $image = new \Imagick();
+    $image->newImage(500, 250, $backgroundColor);
+    $image->setImageFormat("png");
+
+    $image->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
+}
+
+?>
+```

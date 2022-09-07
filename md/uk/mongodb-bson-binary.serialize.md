@@ -1,19 +1,22 @@
-- [« MongoDB\BSON\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.md)
-- [MongoDB\BSON\Binary::\_\_toString »](mongodb-bson-binary.tostring.md)
+---
+navigation:
+  - mongodb-bson-binary.jsonserialize.md: '« MongoDBBSONBinary::jsonSerialize'
+  - mongodb-bson-binary.tostring.md: 'MongoDBBSONBinary::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::serialize'
+---
+# MongoDBBSONBinary::serialize
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-- Серіалізує Binary
+(mongodb >=1.2.0)
 
-# MongoDB\BSON\Binary::serialize
-
-(mongodb \>=1.2.0)
-
-MongoDB\BSON\Binary::serialize — Серіалізує Binary
+MongoDBBSONBinary::serialize — Серіалізує Binary
 
 ### Опис
 
-final public **MongoDB\BSON\Binary::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Binary::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +24,14 @@ final public **MongoDB\BSON\Binary::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Binary](class.mongodb-bson-binary.md).
+Повертає серіалізовану виставу [MongoDBBSONBinary](class.mongodb-bson-binary.md)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Binary::unserialize()](mongodb-bson-binary.unserialize.md) -
-Десеріалізує Binary
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDBBSONBinary::unserialize()](mongodb-bson-binary.unserialize.md) - Десеріалізує Binary
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

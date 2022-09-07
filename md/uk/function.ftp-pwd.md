@@ -1,46 +1,64 @@
-- [«ftp_put](function.ftp-put.md)
-- [ftp_quit »](function.ftp-quit.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Повертає ім'я поточної директорії
-
-#ftp_pwd
+---
+navigation:
+  - function.ftp-put.md: « ftpput
+  - function.ftp-quit.md: ftpquit »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftppwd
+---
+# ftppwd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_pwd — Повертає ім'я директорії
+ftppwd — Повертає ім'я поточної директорії
 
 ### Опис
 
-**ftp_pwd**([FTP\Connection](class.ftp-connection.md) `$ftp`):
-string\|false
+```methodsynopsis
+ftp_pwd(FTP\Connection $ftp): string|false
+```
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 ### Значення, що повертаються
 
-Повертає ім'я поточної директорії або **`false`** у разі виникнення
-помилки.
+Повертає ім'я поточної директорії або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_pwd()****
+**Приклад #1 Приклад використання **ftppwd()****
 
-` <?php// установка з'єднання$ftp = ftp_connect($ftp_server);// перевірка імені пользователя і пароля$login_result = ftp_login($ftp, $ftp_user_name, $ftp_ 'public_html'); // Висновок ім'я поточної директорії echo ftp_pwd ($ ftp); // /public_html// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// смена текущей директории на public_html
+ftp_chdir($ftp, 'public_html');
+
+// вывод имени текущей директории
+echo ftp_pwd($ftp); // /public_html
+
+// закрытие соединения
+ftp_close($ftp);
+?>
+```
 
 ### Дивіться також
 
-- [ftp_chdir()](function.ftp-chdir.md) - Змінює поточну директорію
-на FTP-сервері
-- [ftp_cdup()](function.ftp-cdup.md) - Переходить до батьківської
-директорію
+-   [ftpchdir()](function.ftp-chdir.md) - Змінює поточну директорію на FTP-сервері
+-   [ftpcdup()](function.ftp-cdup.md) - Переходить до батьківської директорії

@@ -1,21 +1,24 @@
-- [« ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md)
-- [ReflectionFiber::getTrace »](reflectionfiber.gettrace.md)
-
-- [PHP Manual](index.md)
-- [ReflectionFiber](class.reflectionfiber.md)
-- отримує відбитий екземпляр файбера
-
+---
+navigation:
+  - reflectionfiber.getexecutingline.md: '« ReflectionFiber::getExecutingLine'
+  - reflectionfiber.gettrace.md: 'ReflectionFiber::getTrace »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::getFiber'
+---
 # ReflectionFiber::getFiber
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionFiber::getFiber — Отримує відображений екземпляр файбера
+ReflectionFiber::getFiber — Отримує відбитий екземпляр файбера
 
 ### Опис
 
-public **ReflectionFiber::getFiber**(): [Fiber](class.fiber.md)
+```methodsynopsis
+public ReflectionFiber::getFiber(): Fiber
+```
 
-Отримує відбитий екземпляр [Fiber](class.fiber.md).
+Отримує відбитий екземпляр [Fiber](class.fiber.md)
 
 ### Список параметрів
 
@@ -23,4 +26,4 @@ public **ReflectionFiber::getFiber**(): [Fiber](class.fiber.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Fiber](class.fiber.md).
+Повертає відбитий екземпляр [Fiber](class.fiber.md)

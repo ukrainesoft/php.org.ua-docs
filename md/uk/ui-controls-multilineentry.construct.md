@@ -1,25 +1,25 @@
-- [« UI\Controls\MultilineEntry::append](ui-controls-multilineentry.append.md)
-- [UI\Controls\MultilineEntry::getText »](ui-controls-multilineentry.gettext.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)
-- Створити новий об'єкт "Многорядкове введення"
-
-# UI\Controls\MultilineEntry::\_\_construct
+---
+navigation:
+  - ui-controls-multilineentry.append.md: '« UIControlsMultilineEntry::append'
+  - ui-controls-multilineentry.gettext.md: 'ОЙControlsMultilineEntry::getText »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::construct'
+---
+# ОЙControlsMultilineEntry::construct
 
 (UI 0.9.9)
 
-UI\Controls\MultilineEntry::\_\_construct — Створити новий об'єкт
-"Многорядкове введення"
+ОЙControlsMultilineEntry::construct — Створити новий об'єкт "Багаторядкове введення"
 
 ### Опис
 
-public **UI\Controls\MultilineEntry::\_\_construct**(int `$type` = ?)
+public **ОЙControlsMultilineEntry::construct**(int `$type`
 
-Створює новий об'єкт керуючого елемента "Багаторядне введення"
-заданого типу
+Створює новий об'єкт керуючого елемента "Многорядкове введення" заданого типу
 
 ### Список параметрів
 
 `type`
+
 MultilineEntry::Wrap або MultilineEntry::NoWrap

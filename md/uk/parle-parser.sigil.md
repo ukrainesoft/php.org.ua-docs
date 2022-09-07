@@ -1,26 +1,29 @@
-- [« Parle\Parser::right](parle-parser.right.md)
-- [Parle\Parser::token »](parle-parser.token.md)
+---
+navigation:
+  - parle-parser.right.md: '« ParleParser::right'
+  - parle-parser.token.md: 'ParleParser::token »'
+  - index.md: PHP Manual
+  - class.parle-parser.md: ParleParser
+title: 'ParleParser::sigil'
+---
+# ParleParser::sigil
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Витягує частину збігу за правилом
+(PECL parle >= 0.5.1)
 
-# Parle\Parser::sigil
-
-(PECL parle \>= 0.5.1)
-
-Parle\Parser::sigil — Витягує частину збігу за правилом
+ParleParser::sigil — Витягує частину збігу за правилом
 
 ### Опис
 
-public **Parle\Parser::sigil**(int `$idx`): string
+```methodsynopsis
+public Parle\Parser::sigil(int $idx): string
+```
 
-Повертає частину збігу за правилом. Метод еквівалентний
-функціональність псевдозмінних в Bison.
+Повертає частину збігу за правилом. Метод еквівалентний функціональності псевдозмінних у Bison.
 
 ### Список параметрів
 
 `idx`
+
 Індекс збігу, що відраховується від нуля.
 
 ### Значення, що повертаються

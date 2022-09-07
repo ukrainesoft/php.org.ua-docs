@@ -1,20 +1,23 @@
-- [« Zookeeper::getClientId](zookeeper.getclientid.md)
-- [Zookeeper::getRecvTimeout »](zookeeper.getrecvtimeout.md)
-
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- отримує екземпляр ZookeeperConfig
-
+---
+navigation:
+  - zookeeper.getclientid.md: '« Zookeeper::getClientId'
+  - zookeeper.getrecvtimeout.md: 'Zookeeper::getRecvTimeout »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::getConfig'
+---
 # Zookeeper::getConfig
 
-(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
+(PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)
 
 Zookeeper::getConfig — Отримує примірник ZookeeperConfig
 
 ### Опис
 
-public **Zookeeper::getConfig**():
-[ZookeeperConfig](class.zookeeperconfig.md)
+```methodsynopsis
+public
+   Zookeeper::getConfig(): ZookeeperConfig
+```
 
 ### Список параметрів
 
@@ -22,8 +25,8 @@ public **Zookeeper::getConfig**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр [ZookeeperConfig](class.zookeeperconfig.md).
+Повертає екземпляр [ZookeeperConfig](class.zookeeperconfig.md)
 
 ### Дивіться також
 
-- [ZookeeperConfig](class.zookeeperconfig.md)
+-   [ZookeeperConfig](class.zookeeperconfig.md)

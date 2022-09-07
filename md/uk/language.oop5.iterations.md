@@ -1,46 +1,69 @@
-- [« Перевантаження](language.oop5.overloading.md)
-- [Магічні методи»](language.oop5.magic.md)
-
-- [PHP Manual](index.md)
-- [Класи та об'єкти](language.oop5.md)
-- Ітератори об'єктів
-
+---
+navigation:
+  - language.oop5.overloading.md: « Перегрузка
+  - language.oop5.magic.md: Магічні методи »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Ітератори об'єктів
+---
 ## Ітератори об'єктів
 
-PHP надає такий спосіб оголошення об'єктів, який дає
-можливість пройти по списку елементів даного об'єкта, наприклад,
-за допомогою оператора [foreach](control-structures.foreach.md). за
-замовчуванням, у цьому обході (ітерації) братимуть участь всі
-[видимые](language.oop5.visibility.md) властивості об'єкта.
+PHP надає такий спосіб оголошення об'єктів, який дає можливість пройти за списком елементів даного об'єкта, наприклад, за допомогою оператора [foreach](control-structures.foreach.md). За умовчанням, у цьому обході (ітерації) братимуть участь усі [видимі](language.oop5.visibility.md) характеристики об'єкта.
 
 **Приклад #1 Ітерація простого об'єкта**
 
-`<?phpclass MyClass{    public $var1 = 'значення 1'; public $var2 = 'значення 2'; public $var3 = 'значення 3'; protected $protected = 'захищена змінна'; private   $private   = 'закрита змінна'; function iterateVisible() {       echo "MyClass::iterateVisible:
-";       foreach ($this as $key => $value) {            print "$key => $value
-";       }    }}$class = new MyClass();foreach($class as $key => $value) {    print "$key => $value
-";}echo "
-";$class->iterateVisible();?> `
+```php
+<?php
+class MyClass
+{
+    public $var1 = 'значение 1';
+    public $var2 = 'значение 2';
+    public $var3 = 'значение 3';
+
+    protected $protected = 'защищённая переменная';
+    private   $private   = 'закрытая переменная';
+
+    function iterateVisible() {
+       echo "MyClass::iterateVisible:\n";
+       foreach ($this as $key => $value) {
+           print "$key => $value\n";
+       }
+    }
+}
+
+$class = new MyClass();
+
+foreach($class as $key => $value) {
+    print "$key => $value\n";
+}
+echo "\n";
+
+
+$class->iterateVisible();
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-var1 => значення 1
-var2 => значення 2
-var3 => значення 3
+```
+var1 => значение 1
+var2 => значение 2
+var3 => значение 3
 
 MyClass::iterateVisible:
-var1 => значення 1
-var2 => значення 2
-var3 => значення 3
-protected => захищена змінна
-private => закрита змінна
+var1 => значение 1
+var2 => значение 2
+var3 => значение 3
+protected => защищённая переменная
+private => закрытая переменная
+```
 
-Як показує результат, [foreach](control-structures.foreach.md)
-проітерував усі доступні та належать об'єкту
-[видимі](language.oop5.visibility.md) властивості.
+Як показує результат, [foreach](control-structures.foreach.md) проітерував усі доступні та належать об'єкту [видимі](language.oop5.visibility.md) властивості.
 
 ### Дивіться також
 
-- [Генератори](language.generators.md)
-- [Iterator](class.iterator.md)
-- [IteratorAggregate](class.iteratoraggregate.md)
-- [Ітератори](spl.iterators.md)
+-   [Генератори](language.generators.md)
+-   [Iterator](class.iterator.md)
+-   [IteratorAggregate](class.iteratoraggregate.md)
+-   [Ітератори](spl.iterators.md)

@@ -1,13 +1,14 @@
-- [« LuaSandboxFunction::dump](luasandboxfunction.dump.md)
-- [LuaSandboxErrorError »](class.luasandboxerrorerror.md)
-
-- [PHP Manual](index.md)
-- [LuaSandbox](book.luasandbox.md)
-- Клас LuaSandboxError
-
+---
+navigation:
+  - luasandboxfunction.dump.md: '« LuaSandboxFunction::dump'
+  - class.luasandboxerrorerror.md: LuaSandboxErrorError »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Клас LuaSandboxError
+---
 # Клас LuaSandboxError
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
 ## Вступ
 
@@ -15,59 +16,84 @@
 
 ## Огляд класів
 
-class **LuaSandboxError** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `RUN` = 2;
 
-const int `SYNTAX` = 3;
+    
+     
+      class LuaSandboxError
+     
 
-const int `MEM` = 4;
+     
+      extends
+       Exception
+     
+     {
 
-const int `ERR` = 5;
+    /* Константы */
+    
+     const
+     int
+      RUN = 2;
 
-/\* Наслідувані властивості \*/
+    const
+     int
+      SYNTAX = 3;
 
-protected string `$message` = "";
+    const
+     int
+      MEM = 4;
 
-private string `$string` = "";
+    const
+     int
+      ERR = 5;
 
-protected int `$code`;
 
-protected string `$file` = "";
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$line`;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Наслідувані методи \*/
+    
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
 
-final public [Exception::getCode](exception.getcode.md)(): int
+   }
+```
 
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`LuaSandboxError::RUN`**
 

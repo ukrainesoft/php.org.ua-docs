@@ -1,11 +1,12 @@
-- [«imagecharup](function.imagecharup.md)
-- [imagecolorallocatealpha »](function.imagecolorallocatealpha.md)
-
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Створення кольору для зображення
-
-#imagecolorallocate
+---
+navigation:
+  - function.imagecharup.md: « imagecharup
+  - function.imagecolorallocatealpha.md: imagecolorallocatealpha »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorallocate
+---
+# imagecolorallocate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,43 +14,37 @@ imagecolorallocate — Створення кольору зображення
 
 ### Опис
 
-**imagecolorallocate**(
-[GdImage](class.gdimage.md) `$image`,
-int `$red`,
-int `$green`,
-int `$blue`
-): int\|false
+```methodsynopsis
+imagecolorallocate(    GdImage $image,    int $red,    int $green,    int $blue): int|false
+```
 
-Повертає ідентифікатор кольору відповідно до заданих RGB
-компонентами.
+Повертає ідентифікатор кольору відповідно до заданих компонентів RGB.
 
-**imagecolorallocate()** має викликатися для створення кожного кольору,
-який буде використовуватись у зображенні `image`.
+**imagecolorallocate()** має викликатись для створення кожного кольору, який буде використовуватися у зображенні `image`
 
-> **Примітка**:
->
-> Перший виклик **imagecolorallocate()** задає колір фону в палітрових
-> зображення - зображення, створені функцією
-> [imagecreate()](function.imagecreate.md).
+> **Зауваження**
+> 
+> Перший виклик **imagecolorallocate()** задає колір фону у палітрових зображеннях - зображеннях, створених функцією [imagecreate()](function.imagecreate.md)
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
+
 Значення червоного компонента кольору.
 
 `green`
+
 Значення зеленого компонента кольору.
 
 `blue`
+
 Значення синього компонента кольору.
 
-Ці аргументи можуть набувати або ціле значення в діапазоні від
-0 до 255, або шістнадцяткові в діапазоні від 0x00 до 0xFF.
+Ці аргументи можуть приймати або цілочисленні значення від 0 до 255, або шістнадцяткові в діапазоні від 0x00 до 0xFF.
 
 ### Значення, що повертаються
 
@@ -57,26 +52,38 @@ int `$blue`
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**, так і
-значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
-повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecolorallocate()****
 
-` <?php$im = imagecreate(100, 100);// робимо фон червоним$background = imagecolorallocate($im, 255, 0, 0);// створимо кілька квітів$wh$5 5 , 255);$black = imagecolorallocate($im, 0, 0, 0);// шістнадцятковий способ$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);$black = 0 0x00);?> `
+```php
+<?php
+
+$im = imagecreate(100, 100);
+
+// делаем фон красным
+$background = imagecolorallocate($im, 255, 0, 0);
+
+// создадим несколько цветов
+$white = imagecolorallocate($im, 255, 255, 255);
+$black = imagecolorallocate($im, 0, 0, 0);
+
+// шестнадцатеричный способ
+$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
+
+?>
+```
 
 ### Дивіться також
 
-- [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) -
-Створення кольору для зображення
-- [imagecolordeallocate()](function.imagecolordeallocate.md) -
-Розрив асоціації змінної із кольором для заданого зображення
+-   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) - Створення кольору для зображення
+-   [imagecolordeallocate()](function.imagecolordeallocate.md) - Розрив асоціації змінної із кольором для заданого зображення

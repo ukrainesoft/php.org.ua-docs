@@ -1,88 +1,73 @@
-- [« SoapClient::\_\_soapCall](soapclient.soapcall.md)
-- [SoapServer::addFunction »](soapserver.addfunction.md)
-
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Клас SoapServer
-
+---
+navigation:
+  - soapclient.soapcall.md: '« SoapClient::soapCall'
+  - soapserver.addfunction.md: 'SoapServer::addFunction »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
+title: Клас SoapServer
+---
 # Клас SoapServer
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SoapServer є сервером для протоколів [» SOAP 1.1](http://www.w3.org/TR/soap11/) та [» SOAP 1.2](http://www.w3.org/TR/soap12/). Його можна використовувати з описом
-служби WSDL або без нього.
+Клас SoapServer є сервером для протоколів [» SOAP 1.1](http://www.w3.org/TR/soap11/) і [» SOAP 1.2](http://www.w3.org/TR/soap12/). Його можна використовувати з описом служби WSDL або без нього.
 
 ## Огляд класів
 
-class **SoapServer** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-private resource `$service`;
+    
+     
+      class SoapServer
+     
+     {
 
-private ?[SoapFault](class.soapfault.md) `$__soap_fault` = null;
+    /* Свойства */
+    
+     private
+     resource
+      $service;
 
-/\* Методи \*/
+    private
+     ?SoapFault
+      $__soap_fault = null;
 
-public [\_\_construct](soapserver.construct.md)(?string `$wsdl`, array
-`$options` = [])
- public [addFunction](soapserver.addfunction.md)(array\|string\|int
-`$functions`): void
 
-public
-[addSoapHeader](soapserver.addsoapheader.md)([SoapHeader](class.soapheader.md)
-`$header`): void
+    /* Методы */
+    
+   public __construct(?string $wsdl, array $options = [])
 
-public [fault](soapserver.fault.md)(
-string `$code`,
-string `$string`,
-string `$actor` = "",
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$details` = **`null`**,
-string `$name` = ""
-): void
+    public addFunction(array|string|int $functions): void
+public addSoapHeader(SoapHeader $header): void
+public fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
+public getFunctions(): array
+public handle(?string $request = null): void
+public setClass(string $class, mixed ...$args): void
+public setObject(object $object): void
+public setPersistence(int $mode): void
 
-public [getFunctions](soapserver.getfunctions.md)(): array
-
-public [handle](soapserver.handle.md)(?string `$request` =
-**`null`**): void
-
-public [setClass](soapserver.setclass.md)(string `$class`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`): void
-
-public [setObject](soapserver.setobject.md)(object `$object`): void
-
-public [setPersistence](soapserver.setpersistence.md)(int `$mode`):
-void
-
-}
+   }
+```
 
 ## Властивості
 
-`service`
+service
 
-`__soap_fault`
+soapfault
 
 ## Зміст
 
-- [SoapServer::addFunction](soapserver.addfunction.md) — Додає
-одну або кілька функцій для обробки запитів SOAP
-- [SoapServer::addSoapHeader](soapserver.addsoapheader.md) -
-Додати заголовок SOAP у відповідь
-- [SoapServer::\_\_construct](soapserver.construct.md) - Конструктор
-SoapServer
-- [SoapServer::fault](soapserver.fault.md) — Вимушує SoapServer
-повернути помилку
-- [SoapServer::getFunctions](soapserver.getfunctions.md) — Повернути
-список певних функцій
-- [SoapServer::handle](soapserver.handle.md) — Обробка
-SOAP-запиту
-- [SoapServer::setClass](soapserver.setclass.md) — Встановлює
-клас, який обробляє SOAP-запити
-- [SoapServer::setObject](soapserver.setobject.md) — Встановлює
-об'єкт, який використовуватиметься для обробки SOAP-запитів
-- [SoapServer::setPersistence](soapserver.setpersistence.md) -
-Встановлює режим збереження SoapServer
+-   [SoapServer::addFunction](soapserver.addfunction.md) — Додає одну або кілька функцій обробки запитів SOAP
+-   [SoapServer::addSoapHeader](soapserver.addsoapheader.md) — Додати заголовок SOAP у відповідь
+-   [SoapServer::construct](soapserver.construct.md) - Конструктор SoapServer
+-   [SoapServer::fault](soapserver.fault.md) — Вимушує SoapServer повернути помилку
+-   [SoapServer::getFunctions](soapserver.getfunctions.md) — Повернути список функцій
+-   [SoapServer::handle](soapserver.handle.md) - Обробка SOAP-запиту
+-   [SoapServer::setClass](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::setObject](soapserver.setobject.md) — Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
+-   [SoapServer::setPersistence](soapserver.setpersistence.md) — Встановлює режим збереження SoapServer

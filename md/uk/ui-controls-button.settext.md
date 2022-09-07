@@ -1,23 +1,27 @@
-- [«UI\Controls\Button::onClick](ui-controls-button.onclick.md)
-- [UI\Controls\ColorButton »](class.ui-controls-colorbutton.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\Button](class.ui-controls-button.md)
-- Встановити текст
-
-# UI\Controls\Button::setText
+---
+navigation:
+  - ui-controls-button.onclick.md: '« UIControlsButton::onClick'
+  - class.ui-controls-colorbutton.md: ОЙControlsColorButton »
+  - index.md: PHP Manual
+  - class.ui-controls-button.md: ОЙControlsButton
+title: 'ОЙControlsButton::setText'
+---
+# ОЙControlsButton::setText
 
 (UI 0.9.9)
 
-UI\Controls\Button::setText — Встановити текст
+ОЙControlsButton::setText — Встановити текст
 
 ### Опис
 
-public **UI\Controls\Button::setText**(string `$text`)
+```methodsynopsis
+public UI\Controls\Button::setText(string $text)
+```
 
 Встановлює текст (мітку) для цього об'єкта Button
 
 ### Список параметрів
 
 `text`
+
 Новий текст (мітка)

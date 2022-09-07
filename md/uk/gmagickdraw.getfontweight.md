@@ -1,21 +1,24 @@
-- [« GmagickDraw::getfontstyle](gmagickdraw.getfontstyle.md)
-- [GmagickDraw::getstrokecolor »](gmagickdraw.getstrokecolor.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає товщину шрифту
-
+---
+navigation:
+  - gmagickdraw.getfontstyle.md: '« GmagickDraw::getfontstyle'
+  - gmagickdraw.getstrokecolor.md: 'GmagickDraw::getstrokecolor »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfontweight'
+---
 # GmagickDraw::getfontweight
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::getfontweight — Повертає товщину шрифту
 
 ### Опис
 
-public **GmagickDraw::getfontweight**(): int
+```methodsynopsis
+public GmagickDraw::getfontweight(): int
+```
 
-Повертає товщину шрифту, що використовується під час анотування текстом.
+Повертає товщину шрифту, яка використовується при анотуванні текстом.
 
 ### Список параметрів
 
@@ -23,5 +26,4 @@ public **GmagickDraw::getfontweight**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число (int) у разі успішного виконання або 0, якщо
-товщина не встановлена.
+Повертає ціле число (int) у разі успішного виконання або 0, якщо товщина не встановлена.

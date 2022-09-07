@@ -1,22 +1,24 @@
-- [« Swoole\Http\Response::rawcookie](swoole-http-response.rawcookie.md)
-- [Swoole\Http\Response::status »](swoole-http-response.status.md)
+---
+navigation:
+  - swoole-http-response.rawcookie.md: '« SwooleHttpResponse::rawcookie'
+  - swoole-http-response.status.md: 'SwooleHttpResponse::status »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.md: SwooleHttpResponse
+title: 'SwooleHttpResponse::sendfile'
+---
+# SwooleHttpResponse::sendfile
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Надсилає файл через HTTP-відповідь
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Response::sendfile
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Response::sendfile — Відправляє файл через HTTP-відповідь
+SwooleHttpResponse::sendfile — Надсилає файл через HTTP-відповідь
 
 ### Опис
 
-public **Swoole\Http\Response::sendfile**(string `$filename`, int
-`$offset` = ?): ReturnType
+```methodsynopsis
+public Swoole\Http\Response::sendfile(string $filename, int $offset = ?): ReturnType
+```
 
-Відправляє файл через HTTP-відповідь.
+Надсилає файл через HTTP-відповідь.
 
 ### Список параметрів
 

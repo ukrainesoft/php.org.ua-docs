@@ -1,45 +1,39 @@
-- [«wddx_add_vars](function.wddx-add-vars.md)
-- [wddx_packet_end »](function.wddx-packet-end.md)
-
-- [PHP Manual](index.md)
-- [Функції WDDX](ref.wddx.md)
-- Десеріалізує пакет WDDX
-
-#wddx_deserialize
+---
+navigation:
+  - function.wddx-add-vars.md: « wddxaddvars
+  - function.wddx-packet-end.md: wddxpacketend »
+  - index.md: PHP Manual
+  - ref.wddx.md: Функції WDDX
+title: wddxdeserialize
+---
+# wddxdeserialize
 
 (PHP 4, PHP 5, PHP 7)
 
-wddx_deserialize — Десеріалізує пакет WDDX
+wddxdeserialize - Десеріалізує пакет WDDX
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 7.4.0.
+Ця функція була *ВИДАЛЕНО* у PHP 7.4.0.
 
 ### Опис
 
-**wddx_deserialize**(string `$packet`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+wddx_deserialize(string $packet): mixed
+```
 
 Десеріалізує пакет `packet` WDDX.
 
 **Увага**
 
-Не передавайте неперевірене введення користувача в
-**wddx_deserialize()**. Десеріалізація може призвести до того, що коли
-код завантажується та виконується під час ініціалізації та автозавантаження, та
-зловмисник може скористатися цим. Використовуйте безпечний
-стандартний формат обміну даними, такий як JSON (через
-[json_decode()](function.json-decode.md) та
-[json_encode()](function.json-encode.md)), якщо вам потрібно
-передати серіалізовані дані користувачеві.
+Не передавайте неперевірене введення користувача в **wddxdeserialize()**. Десеріалізація може призвести до того, що код завантажується і виконується під час ініціалізації та автозавантаження, і зловмисник може скористатися цим. Використовуйте безпечний стандартний формат обміну даними, таким як JSON (через [jsondecode()](function.json-decode.md) і [jsonencode()](function.json-encode.md)), якщо вам необхідно передати серіалізовані дані користувачеві.
 
 ### Список параметрів
 
 `packet`
+
 Пакет WDDX у вигляді рядка чи потоку.
 
 ### Значення, що повертаються
 
-Повертає десеріалізоване значення, яке може бути рядком,
-числом чи масивом. Зверніть увагу, що структури десеріалізуються в
-асоціативні масиви.
+Повертає десеріалізоване значення, яке може бути рядком, числом чи масивом. Зауважте, що структури десеріалізуються в асоціативні масиви.

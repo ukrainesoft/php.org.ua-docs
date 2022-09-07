@@ -1,27 +1,28 @@
-- [« RecursiveIteratorIterator::current](recursiveiteratoriterator.current.md)
-- [RecursiveIteratorIterator::endIteration »](recursiveiteratoriterator.enditeration.md)
-
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Закінчення дочірніх елементів
-
+---
+navigation:
+  - recursiveiteratoriterator.current.md: '« RecursiveIteratorIterator::current'
+  - recursiveiteratoriterator.enditeration.md: 'RecursiveIteratorIterator::endIteration »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::endChildren'
+---
 # RecursiveIteratorIterator::endChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 RecursiveIteratorIterator::endChildren — Закінчення дочірніх елементів
 
 ### Опис
 
-public **RecursiveIteratorIterator::endChildren**(): void
+```methodsynopsis
+public RecursiveIteratorIterator::endChildren(): void
+```
 
-Викликається, коли закінчилися елементи, що знаходяться на одному рівні
-спорідненості.
+Викликається, коли закінчилися елементи, що є одному рівні кревності.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

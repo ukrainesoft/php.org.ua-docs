@@ -1,40 +1,41 @@
-- [« trader_cdlshortline](function.trader-cdlshortline.md)
-- [trader_cdlstalledpattern »](function.trader-cdlstalledpattern.md)
+---
+navigation:
+  - function.trader-cdlshortline.md: « tradercdlshortline
+  - function.trader-cdlstalledpattern.md: tradercdlstalledpattern »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlspinningtop
+---
+# tradercdlspinningtop
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Дзига
+(PECL trader >= 0.2.0)
 
-#trader_cdlspinningtop
-
-(PECL trader \>= 0.2.0)
-
-trader_cdlspinningtop — Вовчок
+tradercdlspinningtop — Вовчок
 
 ### Опис
 
-**trader_cdlspinningtop**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlspinningtop(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

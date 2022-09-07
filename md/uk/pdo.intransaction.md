@@ -1,23 +1,24 @@
-- [« PDO::getAvailableDrivers](pdo.getavailabledrivers.md)
-- [PDO::lastInsertId »](pdo.lastinsertid.md)
-
-- [PHP Manual](index.md)
-- [PDO](class.pdo.md)
-- Перевіряє, чи розпочато транзакцію
-
+---
+navigation:
+  - pdo.getavailabledrivers.md: '« PDO::getAvailableDrivers'
+  - pdo.lastinsertid.md: 'PDO::lastInsertId »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::inTransaction'
+---
 # PDO::inTransaction
 
-(PHP 5 \>= 5.3.3, Bundled pdo_pgsql, PHP 7, PHP 8)
+(PHP 5> = 5.3.3, Bundled pdopgsql, PHP 7, PHP 8)
 
 PDO::inTransaction — Перевіряє, чи розпочато транзакцію
 
 ### Опис
 
-public **PDO::inTransaction**(): bool
+```methodsynopsis
+public PDO::inTransaction(): bool
+```
 
-Перевіряє, чи активна транзакція в драйвері. Цей метод
-працює тільки для драйверів баз даних, які підтримують
-транзакції.
+Перевіряє, чи активна транзакція в драйвері. Цей метод працює тільки для драйверів бази даних, які підтримують транзакції.
 
 ### Список параметрів
 
@@ -25,5 +26,4 @@ public **PDO::inTransaction**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо транзакція на даний момент активна та
-**`false`**, якщо ні.
+Повертає \*\*`true`\*\*якщо транзакція в даний момент активна і **`false`**, якщо ні.

@@ -1,25 +1,27 @@
-- [«UI\Draw\Pen::stroke](ui-draw-pen.stroke.md)
-- [UI\Draw\Pen::write »](ui-draw-pen.write.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Pen](class.ui-draw-pen.md)
-- Перетворити матрицю
-
-# UI\Draw\Pen::transform
+---
+navigation:
+  - ui-draw-pen.stroke.md: '« UIDrawPen::stroke'
+  - ui-draw-pen.write.md: 'ОЙDrawPen::write »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.md: ОЙDrawPen
+title: 'ОЙDrawPen::transform'
+---
+# ОЙDrawPen::transform
 
 (UI 0.9.9)
 
-UI\Draw\Pen::transform — Перетворити матрицю
+ОЙDrawPen::transform - Перетворити матрицю
 
 ### Опис
 
-public
-**UI\Draw\Pen::transform**([UI\Draw\Matrix](class.ui-draw-matrix.md)
-`$matrix`)
+```methodsynopsis
+public UI\Draw\Pen::transform(UI\Draw\Matrix $matrix)
+```
 
 Перетворює матрицю
 
 ### Список параметрів
 
 `matrix`
+
 Використовувана матриця

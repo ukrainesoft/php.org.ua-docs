@@ -1,56 +1,54 @@
-- [«ldap_modify](function.ldap-modify.md)
-- [ldap_next_entry »](function.ldap-next-entry.md)
-
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Отримати наступний атрибут із результату
-
-#ldap_next_attribute
+---
+navigation:
+  - function.ldap-modify.md: « ldapmodify
+  - function.ldap-next-entry.md: ldapnextentry »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapnextattribute
+---
+# ldapnextattribute
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_next_attribute — Отримати наступний атрибут із результату
+ldapnextattribute — Отримати наступний атрибут із результату
 
 ### Опис
 
-**ldap_next_attribute**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, LDAP\ResultEntry `$entry`): string\|false
+```methodsynopsis
+ldap_next_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
+```
 
-Повертає атрибути запису. Перший виклик **ldap_next_attribute()**
-виробляється з параметром `entry`, який повертається
-[ldap_first_attribute()](function.ldap-first-attribute.md).
+Повертає атрибути запису. Перший виклик **ldapnextattribute()** проводиться з параметром `entry`, який повертається [ldapfirstattribute()](function.ldap-first-attribute.md)
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
-Примірник [LDAP\ResultEntry](class.ldap-result-entry.md).
+
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
 
 `ber_identifier`
+
 Внутрішній стан вказівника зберігається цим параметром.
 
-> **Примітка**:
->
-> Параметр більше не використовується, оскільки це тепер обробляється
-> PHP автоматично. Для зворотної сумісності PHP не викидатиме
-> помилку, якщо цей параметр буде передано.
+> **Зауваження**
+> 
+> Параметр більше не використовується, оскільки це автоматично обробляється PHP. Для зворотної сумісності PHP не буде викидати помилку, якщо цей параметр буде передано.
 
 ### Значення, що повертаються
 
-Повертає наступний атрибут запису у разі успішного виконання та
-**`false`** у разі виникнення помилки.
+Повертає наступний атрибут запису у разі успішного виконання та **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)).    |
-| 8.1.0  | Параметр entry тепер чекає на екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
-- [ldap_get_attributes()](function.ldap-get-attributes.md) -
-Отримує атрибути із запису в результатах пошуку
+-   [ldapgetattributes()](function.ldap-get-attributes.md) - Отримує атрибути із запису у результатах пошуку

@@ -1,10 +1,11 @@
-- [« ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.md)
-- [ColumnResult::getCollationName »](mysql-xdevapi-columnresult.getcollationname.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує набір символів
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.construct.md: '« ColumnResult::construct'
+  - mysql-xdevapi-columnresult.getcollationname.md: 'ColumnResult::getCollationName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+title: 'ColumnResult::getCharacterSetName'
+---
 # ColumnResult::getCharacterSetName
 
 (No version information available, might only be in Git)
@@ -13,12 +14,13 @@ ColumnResult::getCharacterSetName — Отримує набір символів
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getCharacterSetName**(): string
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getCharacterSetName(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +30,12 @@ public **mysql_xdevapi\ColumnResult::getCharacterSetName**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getCharacterSetName()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getCharacterSetName()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

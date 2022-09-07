@@ -1,68 +1,72 @@
-- [« IntlChar::foldCase](intlchar.foldcase.md)
-- [IntlChar::getBidiPairedBracket »](intlchar.getbidipairedbracket.md)
-
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Отримати символ, який представляє задане число в заданій підставі
-
+---
+navigation:
+  - intlchar.foldcase.md: '« IntlChar::foldCase'
+  - intlchar.getbidipairedbracket.md: 'IntlChar::getBidiPairedBracket »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::forDigit'
+---
 # IntlChar::forDigit
 
 (PHP 7, PHP 8)
 
-IntlChar::forDigit — Отримати символ, який представляє задане число в
-заданій підставі
+IntlChar::forDigit — Отримати символ, який представляє задане число в заданій основі
 
 ### Опис
 
-public static **IntlChar::forDigit**(int `$digit`, int `$base` = 10):
-int
+```methodsynopsis
+public static IntlChar::forDigit(int $digit, int $base = 10): int
+```
 
-Визначає представлення символів для конкретної цифри у зазначеній
-системі числення.
+Визначає подання символів для конкретної цифри у зазначеній системі числення.
 
-Якщо значення підстави некоректне, або значення числа не є
-коректним числом у заданій системі числення, буде повернутий
-`U+0000`.
+Якщо значення підстави некоректне, або значення числа не є коректним числом у заданій системі числення, буде повернено `U+0000`
 
-Коректні значення radix лежать у діапазоні від `2` до `36`. Коректні
-значення digit лежать у діапазоні `0<=digit<radix`.
+Коректні значення radix лежать у діапазоні від `2` до `36`. Коректні значення digit лежать у діапазоні `0 <= digit < radix`
 
-Якщо digit менше `10`, то буде повернено '0' + digit. В протилежному
-У разі повернеться 'a' + digit - 10.
+Якщо digit менше `10`, буде повернуто '0' + digit. В іншому випадку повернеться 'a' + digit – 10.
 
 ### Список параметрів
 
 `digit`
+
 Число для перетворення символ.
 
 `base`
-Заснування системи числення (за умовчанням `10`).
+
+Заснування системи числення (за замовчуванням `10`
 
 ### Значення, що повертаються
 
-Символьне уявлення (типу string) заданого числа із заданим
-основою системи числення.
+Символьне уявлення (типу string) заданого числа із заданою основою системи числення.
 
 ### Приклади
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::forDigit(0));var_dump(IntlChar::forDigit(3));var_dump(IntlChar::forDigit(3, 10));var_dump(IntlChar::forDigit(10));var_dump (IntlChar::forDigit(10, 16));?> `
+```php
+<?php
+var_dump(IntlChar::forDigit(0));
+var_dump(IntlChar::forDigit(3));
+var_dump(IntlChar::forDigit(3, 10));
+var_dump(IntlChar::forDigit(10));
+var_dump(IntlChar::forDigit(10, 16));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(48)
 int(51)
 int(51)
 int(0)
 int(97)
+```
 
 ### Дивіться також
 
-- [IntlChar::digit()](intlchar.digit.md) - Отримати десяткове число
-із символу Unicode із заданою основою
-- [IntlChar::charDigitValue()](intlchar.chardigitvalue.md) -
-Отримати десяткову цифру із символу десяткової цифри
-- [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є
-чи символ цифрою
-- **`IntlChar::PROPERTY_NUMERIC_TYPE`**
+-   [IntlChar::digit()](intlchar.digit.md) - Отримати десяткове число із символу Unicode із заданою основою
+-   [IntlChar::charDigitValue()](intlchar.chardigitvalue.md) - Отримати десяткову цифру із символу десяткової цифри
+-   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
+-   **`IntlChar::PROPERTY_NUMERIC_TYPE`**

@@ -1,30 +1,31 @@
-- [« ssdeep_fuzzy_hash_filename](function.ssdeep-fuzzy-hash-filename.md)
-- [Рядки »](book.strings.md)
+---
+navigation:
+  - function.ssdeep-fuzzy-hash-filename.md: « ssdeepfuzzyhashfilename
+  - book.strings.md: Рядки »
+  - index.md: PHP Manual
+  - ref.ssdeep.md: Функції ssdeep
+title: ssdeepfuzzyhash
+---
+# ssdeepfuzzyhash
 
-- [PHP Manual](index.md)
-- [Функції ssdeep](ref.ssdeep.md)
-- Створює нечіткий хеш із рядка
+(PECL ssdeep >= 1.0.0)
 
-#ssdeep_fuzzy_hash
-
-(PECL ssdeep \>= 1.0.0)
-
-ssdeep_fuzzy_hash — Створює нечіткий хеш із рядка
+ssdeepfuzzyhash — Створює нечіткий хеш із рядка
 
 ### Опис
 
-**ssdeep_fuzzy_hash**(string `$to_hash`): string
+```methodsynopsis
+ssdeep_fuzzy_hash(string $to_hash): string
+```
 
-**ssdeep_fuzzy_hash()** обчислює хеш рядки `to_hash`, використовуючи [»
-частково контекстно-переключення хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
-повертає його.
+**ssdeepfuzzyhash()** обчислює хеш рядки `to_hash`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) і повертає його.
 
 ### Список параметрів
 
 `to_hash`
+
 Рядок для хешування.
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання, **`false`** у протилежному
-випадку.
+Повертає рядок у разі успішного виконання, **`false`** в іншому випадку.

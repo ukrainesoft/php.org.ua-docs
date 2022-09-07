@@ -1,24 +1,24 @@
-- [«SolrResponse::getRawRequest](solrresponse.getrawrequest.md)
-- [SolrResponse::getRawResponse »](solrresponse.getrawresponse.md)
-
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає необроблені заголовки запиту, надіслані на сервер
-Solr
-
+---
+navigation:
+  - solrresponse.getrawrequest.md: '« SolrResponse::getRawRequest'
+  - solrresponse.getrawresponse.md: 'SolrResponse::getRawResponse »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
+title: 'SolrResponse::getRawRequestHeaders'
+---
 # SolrResponse::getRawRequestHeaders
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrResponse::getRawRequestHeaders — Повертає необроблені заголовки
-запиту, надіслані на сервер Solr
+SolrResponse::getRawRequestHeaders — Повертає необроблені заголовки запиту, надіслані на сервер Solr
 
 ### Опис
 
-public **SolrResponse::getRawRequestHeaders**(): string
+```methodsynopsis
+public SolrResponse::getRawRequestHeaders(): string
+```
 
-Повертає необроблені заголовки запиту, надіслані на сервер
-Solr.
+Повертає необроблені заголовки запиту на сервер Solr.
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ Solr.
 
 ### Значення, що повертаються
 
-Повертає необроблені заголовки запиту, надіслані на сервер Solr
+Повертає необроблені заголовки запиту на сервер Solr

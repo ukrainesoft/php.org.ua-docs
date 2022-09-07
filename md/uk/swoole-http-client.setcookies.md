@@ -1,19 +1,22 @@
-- [« Swoole\Http\Client::set](swoole-http-client.set.md)
-- [Swoole\Http\Client::setData »](swoole-http-client.setdata.md)
+---
+navigation:
+  - swoole-http-client.set.md: '« SwooleHttpClient::set'
+  - swoole-http-client.setdata.md: 'SwooleHttpClient::setData »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::setCookies'
+---
+# SwooleHttpClient::setCookies
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Встановлює cookies для HTTP-запиту
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::setCookies
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::setCookies — Встановлює cookies для HTTP-запиту
+SwooleHttpClient::setCookies — Встановлює cookies для HTTP-запиту
 
 ### Опис
 
-public **Swoole\Http\Client::setCookies**(array `$cookies`): void
+```methodsynopsis
+public Swoole\Http\Client::setCookies(array $cookies): void
+```
 
 ### Список параметрів
 

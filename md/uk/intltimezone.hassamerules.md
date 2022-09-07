@@ -1,38 +1,36 @@
-- [« IntlTimeZone::getWindowsID](intltimezone.getwindowsid.md)
-- [IntlTimeZone::toDateTimeZone »](intltimezone.todatetimezone.md)
-
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Перевірити, що в іншому часовому поясі використовуються ті самі
-правила та зміщення, що й у першому заданому
-
+---
+navigation:
+  - intltimezone.getwindowsid.md: '« IntlTimeZone::getWindowsID'
+  - intltimezone.todatetimezone.md: 'IntlTimeZone::toDateTimeZone »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::hasSameRules'
+---
 # IntlTimeZone::hasSameRules
 
-# intltz_has_same_rules
+# intltzhassamerules
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::hasSameRules -- intltz_has_same_rules — Перевірити, що у
-іншому часовому поясі використовуються ті ж самі правила та зсуви, що і
-у першому заданому
+IntlTimeZone::hasSameRules -- intltzhassamerules — Перевірити, що в іншому часовому поясі використовуються ті самі правила та зсуви, що й у першому заданому
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public
-**IntlTimeZone::hasSameRules**([IntlTimeZone](class.intltimezone.md)
-`$other`): bool
+```methodsynopsis
+public IntlTimeZone::hasSameRules(IntlTimeZone $other): bool
+```
 
 Процедурний стиль:
 
-**intltz_has_same_rules**([IntlTimeZone](class.intltimezone.md)
-`$timezone`, [IntlTimeZone](class.intltimezone.md) `$other`): bool
+```methodsynopsis
+intltz_has_same_rules(IntlTimeZone $timezone, IntlTimeZone $other): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

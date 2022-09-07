@@ -1,19 +1,22 @@
-- [«UI\Draw\Matrix::invert](ui-draw-matrix.invert.md)
-- [UI\Draw\Matrix::multiply »](ui-draw-matrix.multiply.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Matrix](class.ui-draw-matrix.md)
-- Визначення, чи інвертована матриця
-
-# UI\Draw\Matrix::isInvertible
+---
+navigation:
+  - ui-draw-matrix.invert.md: '« UIDrawMatrix::invert'
+  - ui-draw-matrix.multiply.md: 'ОЙDrawMatrix::multiply »'
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::isInvertible'
+---
+# ОЙDrawMatrix::isInvertible
 
 (UI 0.9.9)
 
-UI\Draw\Matrix::isInvertible — Визначення, чи інвертована матриця
+ОЙDrawMatrix::isInvertible — Визначення, чи інвертована матриця
 
 ### Опис
 
-public **UI\Draw\Matrix::isInvertible**(): bool
+```methodsynopsis
+public UI\Draw\Matrix::isInvertible(): bool
+```
 
 Визначити, чи інвертована матриця
 

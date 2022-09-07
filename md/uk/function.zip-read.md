@@ -1,51 +1,48 @@
-- [«zip_open](function.zip-open.md)
-- [Zlib »](book.zlib.md)
+---
+navigation:
+  - function.zip-open.md: « zipopen
+  - book.zlib.md: Zlib »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipread
+---
+# zipread
 
-- [PHP Manual](index.md)
-- [Функції Zip](ref.zip.md)
-- Зчитує наступний запис у ZIP-архіві
+(PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-#zip_read
-
-(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
-
-zip_read — Зчитує наступний запис у ZIP-архіві
+zipread — Зчитує наступний запис у ZIP-архіві
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**zip_read**(resource `$zip`): resource\|false
+```methodsynopsis
+zip_read(resource $zip): resource|false
+```
 
 Зчитує наступний запис у ZIP-архіві.
 
 ### Список параметрів
 
 `zip`
-ZIP-файл, попередньо відкритий за допомогою функції
-[zip_open()](function.zip-open.md).
+
+ZIP-файл, попередньо відкритий за допомогою функції [zipopen()](function.zip-open.md)
 
 ### Значення, що повертаються
 
-Повертає запис каталогу для подальшого використання з функціями
-`zip_entry_...`, або **`false`**, якщо більше немає записів для читання,
-або код помилки, якщо вона сталася.
+Повертає запис каталогу для подальшого використання з функціями `zip_entry_...`, або \*\*`false`\*\*якщо більше немає записів для читання, або код помилки, якщо вона відбулася.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 
-- [zip_open()](function.zip-open.md) - Відкриває ZIP-архів
-- [zip_close()](function.zip-close.md) - Закриває дескриптор
-ZIP-архіву
-- [zip_entry_open()](function.zip-entry-open.md) - Відкриває
-директорію для читання
-- [zip_entry_read()](function.zip-entry-read.md) - Читає дані з
-відкритого раніше дескриптора директорії
+-   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
+-   [zipclose()](function.zip-close.md) - Закриває дескриптор ZIP-архіву
+-   [zipentryopen()](function.zip-entry-open.md) - відкриває директорію для читання
+-   [zipentryread()](function.zip-entry-read.md) - Читає дані із відкритого раніше дескриптора директорії

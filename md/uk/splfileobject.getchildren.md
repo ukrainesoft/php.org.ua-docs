@@ -1,23 +1,24 @@
-- [« SplFileObject::fwrite](splfileobject.fwrite.md)
-- [SplFileObject::getCsvControl »](splfileobject.getcsvcontrol.md)
-
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Метод-заглушка
-
+---
+navigation:
+  - splfileobject.fwrite.md: '« SplFileObject::fwrite'
+  - splfileobject.getcsvcontrol.md: 'SplFileObject::getCsvControl »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::getChildren'
+---
 # SplFileObject::getChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::getChildren - Метод-заглушка
 
 ### Опис
 
-public **SplFileObject::getChildren**():
-?[RecursiveIterator](class.recursiveiterator.md)
+```methodsynopsis
+public SplFileObject::getChildren(): ?RecursiveIterator
+```
 
-Клас [SplFileObject](class.splfileobject.md) не має дочірніх
-елементів, тому цей метод повертає **`null`**.
+Клас [SplFileObject](class.splfileobject.md) немає дочірніх елементів, тому цей метод повертає **`null`**
 
 ### Список параметрів
 
@@ -25,9 +26,8 @@ public **SplFileObject::getChildren**():
 
 ### Значення, що повертаються
 
-Повертає **`null`**.
+Повертає **`null`**
 
 ### Дивіться також
 
-- [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md) -
-Повертає ітератор для поточного елемента
+-   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md) - Повертає ітератор для поточного елемента

@@ -1,129 +1,143 @@
-- [« MongoDB\BSON oRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.md)
-- [MongoDB\BSON\Binary::\_\_construct »](mongodb-bson-binary.construct.md)
+---
+navigation:
+  - function.mongodb.bson-torelaxedextendedjson.md: « MongoDBBSONtoRelaxedExtendedJSON
+  - mongodb-bson-binary.construct.md: 'MongoDBBSONBinary::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONBinary
+---
+# Клас MongoDBBSONBinary
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Клас MongoDB\BSON\Binary
-
-# Клас MongoDB\BSON\Binary
-
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
-Тип BSON для бінарних даних (тобто масиву байт). Бінарні значення
-також мають підтип, що означає, який тип даних міститься в масиві
-байт. Підтипи з нуля до 127 визначені або зарезервовані. Підтипи
-з 128-255 задаються користувачем.
+Тип BSON для бінарних даних (тобто масиву байт). Бінарні значення також мають підтип, що означає, який тип даних міститься в масиві байт. Підтипи з нуля до 127 визначені або зарезервовані. Підтипи з 128-255 задаються користувачем.
 
 ## Огляд класів
 
-final class **MongoDB\BSON\Binary** implements
-[MongoDB\BSON\BinaryInterface](class.mongodb-bson-binaryinterface.md),
-[MongoDB\BSON\Type](class.mongodb-bson-type.md),
-[Serializable](class.serializable.md),
-[JsonSerializable](class.jsonserializable.md),
-[Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `TYPE_GENERIC` = 0;
+    
+    
+     final
+     
+      class MongoDB\BSON\Binary
+     
 
-const int `TYPE_FUNCTION` = 1;
+     implements 
+       MongoDB\BSON\BinaryInterface,  MongoDB\BSON\Type,  Serializable,  JsonSerializable,  Stringable {
+    
+    /* Константы */
+    
+     const
+     int
+      TYPE_GENERIC = 0;
 
-const int `TYPE_OLD_BINARY` = 2;
+    const
+     int
+      TYPE_FUNCTION = 1;
 
-const int `TYPE_OLD_UUID` = 3;
+    const
+     int
+      TYPE_OLD_BINARY = 2;
 
-const int `TYPE_UUID` = 4;
+    const
+     int
+      TYPE_OLD_UUID = 3;
 
-const int `TYPE_MD5` = 5;
+    const
+     int
+      TYPE_UUID = 4;
 
-const int `TYPE_ENCRYPTED` = 6;
+    const
+     int
+      TYPE_MD5 = 5;
 
-const int `TYPE_COLUMN` = 7;
+    const
+     int
+      TYPE_ENCRYPTED = 6;
 
-const int `TYPE_USER_DEFINED` = 128;
+    const
+     int
+      TYPE_COLUMN = 7;
 
-/\* Методи \*/
+    const
+     int
+      TYPE_USER_DEFINED = 128;
 
-final public [\_\_construct](mongodb-bson-binary.construct.md)(string
-`$data`, int `$type`)
 
-final public [getData](mongodb-bson-binary.getdata.md)(): string
+    /* Методы */
+    
+   final public __construct(string $data, int $type)
+final public getData(): string
+final public getType(): int
+final public jsonSerialize(): mixed
+final public serialize(): string
+final public __toString(): string
+final public unserialize(string $serialized): void
 
-final public [getType](mongodb-bson-binary.gettype.md)(): int
+   }
+```
 
-final public [jsonSerialize](mongodb-bson-binary.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-final public [serialize](mongodb-bson-binary.serialize.md)(): string
-
-final public [\_\_toString](mongodb-bson-binary.tostring.md)(): string
-
-final public [unserialize](mongodb-bson-binary.unserialize.md)(string
-`$serialized`): void
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`MongoDB\BSON\Binary::TYPE_GENERIC`**
+
 Бінарні дані
 
 **`MongoDB\BSON\Binary::TYPE_FUNCTION`**
+
 Функція
 
 **`MongoDB\BSON\Binary::TYPE_OLD_BINARY`**
-Бінарні дані (оголошена застарілою, використовуйте
-**`MongoDB\BSON\Binary::TYPE_GENERIC`**)
+
+Бінарні дані (оголошено застарілою, використовуйте **`MongoDB\BSON\Binary::TYPE_GENERIC`**
 
 **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**
-Універсальний унікальний ідентифікатор (оголошено застарілою).
-Використовуйте **`MongoDB\BSON\Binary::TYPE_UUID`**). При використанні
-цього типу, бінарні дані мають бути довжиною 16 байт.
 
-Історично інші значення кодовані цими типами, але іншими
-драйверами, що базуються на інших конвенціях (наприклад, різний тип
-порядку байт), що робить його нестерпним. Драйвер PHP не застосовує
-будь-яких обробок для даних цього типу.
+Універсальний унікальний ідентифікатор (оголошено застарілою. Використовуйте **`MongoDB\BSON\Binary::TYPE_UUID`**). При використанні цього типу, бінарні дані мають бути довжиною 16 байт.
+
+Історично інші значення кодовані цими типами, але іншими драйверами, базуються на інших конвенціях (наприклад, різний тип порядку байт), що робить його непереносним. Драйвер PHP не застосовує жодних обробок для даних цього типу.
 
 **`MongoDB\BSON\Binary::TYPE_UUID`**
-Універсальний унікальний ідентифікатор. При використанні цього типу
-бінарні дані мають бути завдовжки 16 байт [» RFC 4122](http://www.faqs.org/rfcs/rfc4122).
+
+Універсальний унікальний ідентифікатор. При використанні цього типу, бінарні дані мають бути довжиною 16 байт [» RFC 4122](http://www.faqs.org/rfcs/rfc4122)
 
 **`MongoDB\BSON\Binary::TYPE_MD5`**
-Хеш MD5. При використанні цього типу, бінарні дані мають бути
-довжиною 16 байт.
+
+Хеш MD5. При використанні цього типу, бінарні дані мають бути довжиною 16 байт.
 
 **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**
-Зашифроване значення. Цей підтип використовується для шифрування на
-стороні клієнта.
+
+Зашифроване значення. Цей тип використовується для шифрування на стороні клієнта.
 
 **`MongoDB\BSON\Binary::TYPE_COLUMN`**
+
 Дані стовпця. Підтип використовується для колекцій часових рядів.
 
 **`MongoDB\BSON\Binary::TYPE_USER_DEFINED`**
-Користувальницький тип. У той час як типи з 0 по 127 визначені,
-або зарезервовані, типи з 128 по 255 можуть використовуватися для чого
-завгодно.
 
-## Список змін
+Користувальницький тип. У той час як типи з 0 по 127 визначені, або зарезервовані, типи з 128 по 255 можуть використовуватися для чого завгодно.
 
-[TABLE]
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 |  |
+| Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |  |
+
+Доданий тип **`MongoDB\BSON\Binary::TYPE_COLUMN`**
+
+| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.md). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md).
 
 ## Зміст
- - [MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
-- Створює новий Binary
-- [MongoDB\BSON\Binary::getData](mongodb-bson-binary.getdata.md) -
-Повертає дані Binary
-- [MongoDB\BSON\Binary::getType](mongodb-bson-binary.gettype.md) -
-Повертає тип Binary
-- [MongoDB\BSON\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.md)
-— Повертає уявлення, яке можна перетворити на JSON
-- [MongoDB\BSON\Binary::serialize](mongodb-bson-binary.serialize.md)
-- Серіалізує Binary
-- [MongoDB\BSON\Binary::\_\_toString](mongodb-bson-binary.tostring.md)
-- Повертає дані Binary
-- [MongoDB\BSON\Binary::unserialize](mongodb-bson-binary.unserialize.md)
-- Десеріалізує Binary
+
+-   [MongoDBBSONBinary::construct](mongodb-bson-binary.construct.md) - Створює новий Binary
+-   [MongoDBBSONBinary::getData](mongodb-bson-binary.getdata.md) - Повертає дані Binary
+-   [MongoDBBSONBinary::getType](mongodb-bson-binary.gettype.md) - Повертає тип Binary
+-   [MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONBinary::serialize](mongodb-bson-binary.serialize.md) - Серіалізує Binary
+-   [MongoDBBSONBinary::toString](mongodb-bson-binary.tostring.md) - Повертає дані Binary
+-   [MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.md) - Десеріалізує Binary

@@ -1,20 +1,22 @@
-- [« swoole_event_del](function.swoole-event-del.md)
-- [swoole_event_set »](function.swoole-event-set.md)
+---
+navigation:
+  - function.swoole-event-del.md: « swooleeventdel
+  - function.swoole-event-set.md: swooleeventset »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleeventexit
+---
+# swooleeventexit
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Закрити цикл подій, доступний лише на стороні клієнта
+(PECL swoole >= 1.9.0)
 
-# swoole_event_exit
-
-(PECL swoole \>= 1.9.0)
-
-swoole_event_exit — Закрити цикл подій, доступний лише на стороні
-клієнта
+swooleeventexit — Закрити цикл подій, доступний лише на стороні клієнта
 
 ### Опис
 
-**swoole_event_exit**(): void
+```methodsynopsis
+swoole_event_exit(): void
+```
 
 ### Список параметрів
 

@@ -1,45 +1,61 @@
-- [«uopz_allow_exit](function.uopz-allow-exit.md)
-- [uopz_compose »](function.uopz-compose.md)
+---
+navigation:
+  - function.uopz-allow-exit.md: « uopzallowexit
+  - function.uopz-compose.md: uopzcompose »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzbackup
+---
+# uopzbackup
 
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Резервує функцію
+(PECL uopz 1> = 1.0.3, PECL uopz 2)
 
-#uopz_backup
-
-(PECL uopz 1 \>= 1.0.3, PECL uopz 2)
-
-uopz_backup - Резервує функцію
+uopzbackup - Резервує функцію
 
 **Увага**
 
-Ця функція була *Видалена* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
 
 ### Опис
 
-**uopz_backup**(string `$function`): void
+```methodsynopsis
+uopz_backup(string $function): void
+```
 
-**uopz_backup**(string `$class`, string `$function`): void
+```methodsynopsis
+uopz_backup(string $class, string $function): void
+```
 
-Резервує функцію під час виконання, яка буде відновлена при
-завершення роботи скрипта
+Резервує функцію під час виконання, яка буде відновлена ​​після завершення роботи скрипту
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу, що містить функцію для резервування
 
 `function`
+
 Ім'я функції
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_backup()****
+**Приклад #1 Приклад використання **uopzbackup()****
 
-` <?phpuopz_backup("fgets");uopz_function("fgets", function(){    return true;});var_dump(fgets());?> `
+```php
+<?php
+uopz_backup("fgets");
+uopz_function("fgets", function(){
+    return true;
+});
+var_dump(fgets());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

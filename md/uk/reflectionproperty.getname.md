@@ -1,10 +1,11 @@
-- [« ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md)
-- [ReflectionProperty::getType »](reflectionproperty.gettype.md)
-
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Отримання імені властивості
-
+---
+navigation:
+  - reflectionproperty.getmodifiers.md: '« ReflectionProperty::getModifiers'
+  - reflectionproperty.gettype.md: 'ReflectionProperty::getType »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getName'
+---
 # ReflectionProperty::getName
 
 (PHP 5, PHP 7, PHP 8)
@@ -13,7 +14,9 @@ ReflectionProperty::getName — Отримання імені властивос
 
 ### Опис
 
-public **ReflectionProperty::getName**(): string
+```methodsynopsis
+public ReflectionProperty::getName(): string
+```
 
 Отримує ім'я якості.
 
@@ -23,9 +26,8 @@ public **ReflectionProperty::getName**(): string
 
 ### Значення, що повертаються
 
-Ім'я відображеної якості.
+Ім'я відображеного властивості.
 
 ### Дивіться також
 
-- [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) -
-Отримує значення
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення

@@ -1,22 +1,24 @@
-- [« ibase_errcode](function.ibase-errcode.md)
-- [ibase_execute »](function.ibase-execute.md)
+---
+navigation:
+  - function.ibase-errcode.md: « ibaseerrcode
+  - function.ibase-execute.md: ibaseexecute »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseerrmsg
+---
+# ibaseerrmsg
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Повертає повідомлення про помилку
+(PHP 5, PHP 7 < 7.4.0)
 
-# ibase_errmsg
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-ibase_errmsg — Повертає повідомлення про помилку
+ibaseerrmsg — Повертає повідомлення про помилку
 
 ### Опис
 
-**ibase_errmsg**(): string
+```methodsynopsis
+ibase_errmsg(): string
+```
 
-Повертає повідомлення про помилку, отримане в результаті останнього
-виклику функції InterBase.
+Повертає повідомлення про помилку, отримане внаслідок останнього виклику функції InterBase.
 
 ### Список параметрів
 
@@ -24,10 +26,8 @@ ibase_errmsg — Повертає повідомлення про помилку
 
 ### Значення, що повертаються
 
-Повертає повідомлення про помилку у вигляді рядка або **`false`** якщо помилки
-не відбулося.
+Повертає повідомлення про помилку у вигляді рядка або **`false`** якщо помилки не сталося.
 
 ### Дивіться також
 
-- [ibase_errcode()](function.ibase-errcode.md) - Повертає код
-помилки
+-   [ibaseerrcode()](function.ibase-errcode.md) - Повертає код помилки

@@ -1,42 +1,45 @@
-- [«tidy::html](tidy.md.md)
-- [tidy::isXml »](tidy.isxml.md)
-
-- [PHP Manual](index.md)
-- [Tidy](class.tidy.md)
-- Визначає, чи є документ XHTML-документом
-
+---
+navigation:
+  - tidy.html.md: '« tidy::html'
+  - tidy.isxml.md: 'tidy::isXml »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::isXhtml'
+---
 # tidy::isXhtml
 
-# tidy_is_xhtml
+# tidyісxhtml
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy::isXhtml -- tidy_is_xhtml — Визначає, чи є документ
-XHTML-документом
+tidy::isXhtml -- tidyісxhtml — Визначає, чи є документ XHTML-документом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **tidy::isXhtml**(): bool
+```methodsynopsis
+public tidy::isXhtml(): bool
+```
 
 Процедурний стиль
 
-**tidy_is_xhtml**([tidy](class.tidy.md) `$tidy`): bool
+```methodsynopsis
+tidy_is_xhtml(tidy $tidy): bool
+```
 
-Визначає, чи є документ XHTML-документом.
+Визначає, чи документ XHTML-документом.
 
 ### Список параметрів
 
 `tidy`
-Об'єкт [Tidy](class.tidy.md).
+
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
-Функція повертає **`true`**, якщо вказаний tidy-об'єкт `tidy`
-є XHTML-документом, або **`false`** інакше.
+Функція повертає \*\*`true`\*\*якщо зазначений tidy-об'єкт `tidy` є XHTML-документом, або **`false`** в іншому випадку.
 
 **Увага**
 
-Ця функція ще не реалізована в самому Tidylib, тому завжди
-повертається **`false`**.
+Ця функція ще не реалізована в самому Tidylib, тому завжди повертається **`false`**

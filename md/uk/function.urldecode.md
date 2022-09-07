@@ -1,10 +1,11 @@
-- [«rawurlencode](function.rawurlencode.md)
-- [urlencode »](function.urlencode.md)
-
-- [PHP Manual](index.md)
-- [Функції URL](ref.url.md)
-- Декодування URL-кодованого рядка
-
+---
+navigation:
+  - function.rawurlencode.md: « rawurlencode
+  - function.urlencode.md: urlencode »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
+title: urldecode
+---
 # urldecode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,14 +14,16 @@ urldecode — Декодування URL-кодованого рядка
 
 ### Опис
 
-**urldecode**(string `$string`): string
+```methodsynopsis
+urldecode(string $string): string
+```
 
-Декодує будь-які кодовані послідовності '%##' у даному рядку.
-Символ "плюс" ("+") декодується в символ пропуску.
+Декодує будь-які кодовані послідовності `%##` у цьому рядку. Символ "плюс" ('`+`') декодується в символ пробілу.
 
 ### Список параметрів
 
 `string`
+
 Рядок, який має бути декодований.
 
 ### Значення, що повертаються
@@ -31,22 +34,29 @@ urldecode — Декодування URL-кодованого рядка
 
 **Приклад #1 Приклад використання **urldecode()****
 
-` <?php$query = "my=apples&are=green+and+red";foreach (explode('&', $query) as $chunk) {    $param = explode("=", $chunk); if ($param) {         printf("Значення параметра \"%s\" - \"%s\"<br/>
-", urldecode($param[0]), urldecode($param[1]));    }}?> `
+```php
+<?php
+$query = "my=apples&are=green+and+red";
+
+foreach (explode('&', $query) as $chunk) {
+    $param = explode("=", $chunk);
+
+    if ($param) {
+        printf("Значение параметра \"%s\" - \"%s\"<br/>\n", urldecode($param[0]), urldecode($param[1]));
+    }
+}
+?>
+```
 
 ### Примітки
 
 **Увага**
 
-Змінні в суперглобальних масивах `$_GET` та `$_REQUEST` вже
-декодовані. Застосування **urldecode()** до елементів `$_GET` або
-`$_REQUEST` може призвести до несподіваних та небезпечних результатів.
+Змінні у суперглобальних масивах [GET](reserved.variables.get.md) і [REQUEST](reserved.variables.request.md) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.md) або [REQUEST](reserved.variables.request.md) може призвести до несподіваних та небезпечних результатів.
 
 ### Дивіться також
 
-- [urlencode()](function.urlencode.md) - URL-кодування рядка
-- [rawurlencode()](function.rawurlencode.md) - URL-кодування
-рядки згідно з RFC 3986
-- [rawurldecode()](function.rawurldecode.md) - Декодування
-URL-кодованого рядка
-- [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
+-   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

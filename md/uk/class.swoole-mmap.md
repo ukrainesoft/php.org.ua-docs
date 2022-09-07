@@ -1,29 +1,37 @@
-- [« Swoole\Lock::unlock](swoole-lock.unlock.md)
-- [Swoole\Mmap::open »](swoole-mmap.open.md)
+---
+navigation:
+  - swoole-lock.unlock.md: '« SwooleLock::unlock'
+  - swoole-mmap.open.md: 'SwooleMmap::open »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleMmap
+---
+# Клас SwooleMmap
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Mmap
-
-# Клас Swoole\Mmap
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Mmap** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static [open](swoole-mmap.open.md)(string `$filename`, string
-`$size` = ?, string `$offset` = ?): ReturnType
 
-}
+    
+     
+      class Swoole\Mmap
+     
+     {
+
+
+    /* Методы */
+    
+   public static open(string $filename, string $size = ?, string $offset = ?): ReturnType
+
+   }
+```
 
 ## Зміст
 
-- [Swoole\Mmap::open](swoole-mmap.open.md) — Відобразити файл у
-пам'ять та повернути ресурс потоку, який може використовуватись
-операціями потоку PHP
+-   [SwooleMmap::open](swoole-mmap.open.md) — Відобразити файл у пам'ять і повернути ресурс потоку, який можна використовувати операціями потоку PHP

@@ -1,8 +1,9 @@
-- [« Налаштування під час виконання](yar.configuration.md)
-- [Предвизначені константи »](yar.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yar.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - yar.configuration.md: « Налаштування під час виконання
+  - yar.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - yar.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів

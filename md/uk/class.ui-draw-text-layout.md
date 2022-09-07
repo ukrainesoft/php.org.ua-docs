@@ -1,47 +1,47 @@
-- [« UI\Draw\Brush\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.md)
-- [UI\Draw\Text\Layout::\_\_construct »](ui-draw-text-layout.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Представляє макет тексту
-
+---
+navigation:
+  - ui-draw-brush-radialgradient.construct.md: '« UIDrawBrushRadialGradient::construct'
+  - ui-draw-text-layout.construct.md: 'ОЙDrawTextLayout::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Представляє макет тексту
+---
 # Представляє макет тексту
 
 (UI 0.9.9)
 
 ## Вступ
 
-Текстовий макет є макет тексту, який буде намальований
-пером
+Текстовий макет є макетом тексту, який буде намальований пером
 
 ## Огляд класів
 
-class **UI\Draw\Text\Layout** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-draw-text-layout.construct.md)(string
-`$text`, [UI\Draw\Text\Font](class.ui-draw-text-font.md) `$font`,
-float `$width`)
 
-/\* Методи \*/
+    
+     
+      class UI\Draw\Text\Layout
+     
+     {
 
-public
-[setColor](ui-draw-text-layout.setcolor.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color`, int `$start` = 0, int `$end` = ?)
 
-public [setColor](ui-draw-text-layout.setcolor.md)(int `$color`, int
-`$start` = 0, int `$end` = ?)
+    /* Конструктор */
+    
+   public __construct(string $text, UI\Draw\Text\Font $font, float $width)
 
-public [setWidth](ui-draw-text-layout.setwidth.md)(float `$width`)
 
-}
+    /* Методы */
+    public setColor(UI\Draw\Color $color, int $start = 0, int $end = ?)
+public setColor(int $color, int $start = 0, int $end = ?)
+public setWidth(float $width)
+
+   }
+```
 
 ## Зміст
 
-- [UI\Draw\Text\Layout::\_\_construct](ui-draw-text-layout.construct.md)
-— Створити новий об'єкт макету тексту
-- [UI\Draw\Text\Layout::setColor](ui-draw-text-layout.setcolor.md) -
-Встановити колір
-- [UI\Draw\Text\Layout::setWidth](ui-draw-text-layout.setwidth.md) -
-Встановити ширину
+-   [ОЙDrawTextLayout::construct](ui-draw-text-layout.construct.md) — Створити новий об'єкт макету тексту
+-   [ОЙDrawTextLayout::setColor](ui-draw-text-layout.setcolor.md) - Встановити колір
+-   [ОЙDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.md) - Встановити ширину

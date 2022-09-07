@@ -1,40 +1,38 @@
-- [« mysqli_stmt::$error_list](mysqli-stmt.error-list.md)
-- [mysqli_stmt::execute »](mysqli-stmt.execute.md)
+---
+navigation:
+  - mysqli-stmt.error-list.md: '« mysqlistmt::$errorlist'
+  - mysqli-stmt.execute.md: 'mysqlistmt::execute »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
+title: 'mysqlistmt::$error'
+---
+# mysqlistmt::$error
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Повертає рядок із поясненням останньої помилки під час виконання
-запиту
-
-# mysqli_stmt::$error
-
-# mysqli_stmt_error
+# mysqlistmterror
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::$error -- mysqli_stmt_error — Повертає рядок з
-поясненням останньої помилки під час виконання запиту
+mysqlistmt::$error -- mysqlistmterror — Повертає рядок із поясненням останньої помилки під час виконання запиту
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string `$mysqli_stmt->error`;
+string [$mysqlistmt->error](mysqli-stmt.error.md)
 
 Процедурний стиль
 
-**mysqli_stmt_error**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): string
+```methodsynopsis
+mysqli_stmt_error(mysqli_stmt $statement): string
+```
 
-Повертає рядок із повідомленням про помилку для останнього виклику функції,
-яка могла її спричинити.
+Повертає рядок із повідомленням про помилку для останнього виклику функції, яка могла його викликати.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -44,24 +42,85 @@ string `$mysqli_stmt->error`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* відкриваємо з'єднання */$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno(  вдалося підключитися: %s
-", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCountry LIKE Country");$mysqli->query("INSERT INTO myCountry SELECT * FROM  , Code FROM myCountry ORDER BY Name";if ($stmt = $mysqli->prepare($query)) {    /* удаляємо таблицю */     $mysqli-> y $stmt->execute();   printf("Помилка:%s.
-", $stmt->error);    /* закриваємо запит */   $stmt->close();}/* закриваємо з'єднання*/$mysqli->close();?> `
+```php
+<?php
+/* открываем соединение */
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$mysqli->query("CREATE TABLE myCountry LIKE Country");
+$mysqli->query("INSERT INTO myCountry SELECT * FROM Country");
+
+
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = $mysqli->prepare($query)) {
+
+    /* удаляем таблицу */
+    $mysqli->query("DROP TABLE myCountry");
+
+    /* выполняем запрос */
+    $stmt->execute();
+
+    printf("Ошибка: %s.\n", $stmt->error);
+
+    /* закрываем запрос */
+    $stmt->close();
+}
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-`<?php/* відкриваємо з'єднання */$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno())          підключитися: %s
-mysqli_connect_error()=| FROM myCountry ORDER BY Name";if ($stmt = mysqli_prepare($link, $query)) {    /* удаляем таблицу */    mysqli_query($link, "DROP TABLE myCountry");    /* выполняем запрос */    mysqli_stmt_execute($stmt );   printf("Помилка:%s.
-", mysqli_stmt_error ($stmt));
+```php
+<?php
+/* открываем соединение */
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+mysqli_query($link, "CREATE TABLE myCountry LIKE Country");
+mysqli_query($link, "INSERT INTO myCountry SELECT * FROM Country");
+
+
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = mysqli_prepare($link, $query)) {
+
+    /* удаляем таблицу */
+    mysqli_query($link, "DROP TABLE myCountry");
+
+    /* выполняем запрос */
+    mysqli_stmt_execute($stmt);
+
+    printf("Ошибка: %s.\n", mysqli_stmt_error($stmt));
+
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
+}
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Помилка: Table 'world.myCountry' doesn't exist.
+```
+Ошибка: Table 'world.myCountry' doesn't exist.
+```
 
 ### Дивіться також
 
-- [mysqli_stmt_errno()](mysqli-stmt.errno.md) - Повертає код
-помилки виконання останнього запиту
-- [mysqli_stmt_sqlstate()](mysqli-stmt.sqlstate.md) - Повертає код
-помилки SQLSTATE, викликаної під час виконання останньої операції над
-запитом
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.md) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

@@ -1,10 +1,11 @@
-- [« Встановлення](strings.installation.md)
-- [Типи ресурсів»](strings.resources.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](strings.setup.md)
-- Налаштування під час виконання
-
+---
+navigation:
+  - strings.installation.md: « Установка
+  - strings.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - strings.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

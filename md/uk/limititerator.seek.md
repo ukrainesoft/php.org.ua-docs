@@ -1,25 +1,29 @@
-- [« LimitIterator::rewind](limititerator.rewind.md)
-- [LimitIterator::valid »](limititerator.valid.md)
-
-- [PHP Manual](index.md)
-- [LimitIterator](class.limititerator.md)
-- Переміщує ітератор на задану позицію
-
+---
+navigation:
+  - limititerator.rewind.md: '« LimitIterator::rewind'
+  - limititerator.valid.md: 'LimitIterator::valid »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::seek'
+---
 # LimitIterator::seek
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 LimitIterator::seek - Переміщує ітератор на задану позицію
 
 ### Опис
 
-public **LimitIterator::seek**(int `$offset`): int
+```methodsynopsis
+public LimitIterator::seek(int $offset): int
+```
 
-Переміщує покажчик на задану позицію `offset`.
+Переміщує покажчик на задану позицію `offset`
 
 ### Список параметрів
 
 `offset`
+
 Позиція, яку потрібно перемістити покажчик.
 
 ### Значення, що повертаються
@@ -28,20 +32,12 @@ public **LimitIterator::seek**(int `$offset`): int
 
 ### Помилки
 
-Викидає виняток
-[OutOfBoundsException](class.outofboundsexception.md), якщо задана
-позиція виходить за межі, передані конструктору
-[LimitIterator::\_\_construct()](limititerator.construct.md).
+Викидає виняток [OutOfBoundsException](class.outofboundsexception.md)якщо задана позиція виходить за межі, передані конструктору [LimitIterator::construct()](limititerator.construct.md)
 
 ### Дивіться також
 
-- [LimitIterator::current()](limititerator.current.md) - Отримання
-поточного елемента
-- [LimitIterator::key()](limititerator.key.md) - Отримання поточного
-ключа
-- [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує
-вказівник на початкову позицію
-- [LimitIterator::next()](limititerator.next.md) - Переміщення до
-наступної позиції
-- [LimitIterator::valid()](limititerator.valid.md) - Перевіряє
-валідність поточного елемента
+-   [LimitIterator::current()](limititerator.current.md) - Отримання поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує покажчик на початкову позицію
+-   [LimitIterator::next()](limititerator.next.md) - Переміщення до наступної позиції
+-   [LimitIterator::valid()](limititerator.valid.md) - Перевіряє валідність поточного елемента

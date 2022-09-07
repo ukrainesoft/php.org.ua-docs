@@ -1,49 +1,48 @@
-- [« Swoole\Http\Server::start](swoole-http-server.start.md)
-- [Swoole\Lock::\_\_construct »](swoole-lock.construct.md)
+---
+navigation:
+  - swoole-http-server.start.md: '« SwooleHttpServer::start'
+  - swoole-lock.construct.md: 'SwooleLock::construct »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleLock
+---
+# Клас SwooleLock
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Lock
-
-# Клас Swoole\Lock
-
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Lock** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_destruct](swoole-lock.destruct.md)(): void
 
-public [lock_read](swoole-lock.lock-read.md)(): void
+    
+     
+      class Swoole\Lock
+     
+     {
 
-public [lock](swoole-lock.lock.md)(): void
 
-public [trylock_read](swoole-lock.trylock-read.md)(): void
+    /* Методы */
+    
+   public __destruct(): void
+public lock_read(): void
+public lock(): void
+public trylock_read(): void
+public trylock(): void
+public unlock(): void
 
-public [trylock](swoole-lock.trylock.md)(): void
-
-public [unlock](swoole-lock.unlock.md)(): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Lock::\_\_construct](swoole-lock.construct.md) - Створює
-блокування пам'яті
-- [Swoole\Lock::\_\_destruct](swoole-lock.destruct.md) - Знищує
-блокування пам'яті Swoole
-- [Swoole\Lock::lock_read](swoole-lock.lock-read.md) - Блокує
-читання-запис блокування для читання
-- [Swoole\Lock::lock](swoole-lock.lock.md) — Намагається отримати
-блокування. Заблокується, якщо блокування недоступне
-- [Swoole\Lock::trylock_read](swoole-lock.trylock-read.md) -
-Намагається заблокувати блокування читання-запису для читання та відразу
-повертає, навіть якщо блокування недоступне
-- [Swoole\Lock::trylock](swoole-lock.trylock.md) — Намагається отримати
-блокування і відразу повертає, навіть якщо блокування недоступне
-- [Swoole\Lock::unlock](swoole-lock.unlock.md) — Знімає блокування
+-   [SwooleLock::construct](swoole-lock.construct.md) — Створює блокування пам'яті
+-   [SwooleLock::destruct](swoole-lock.destruct.md) — Знищує блокування пам'яті Swoole
+-   [SwooleLock::lockread](swoole-lock.lock-read.md) — Блокує читання-запис блокування для читання
+-   [SwooleLock::lock](swoole-lock.lock.md) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
+-   [SwooleLock::trylockread](swoole-lock.trylock-read.md) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
+-   [SwooleLock::trylock](swoole-lock.trylock.md) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
+-   [SwooleLock::unlock](swoole-lock.unlock.md) - Знімає блокування

@@ -1,24 +1,24 @@
-- [« sodium_crypto_aead_aes256gcm_is_available](function.sodium-crypto-aead-aes256gcm-is-available.md)
-- [sodium_crypto_aead_chacha20poly1305_decrypt »](function.sodium-crypto-aead-chacha20poly1305-decrypt.md)
+---
+navigation:
+  - function.sodium-crypto-aead-aes256gcm-is-available.md: « sodiumcryptoaeadaes256gcmісavailable
+  - function.sodium-crypto-aead-chacha20poly1305-decrypt.md: sodiumcryptoaeadchacha20poly1305decrypt »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoaeadaes256gcmkeygen
+---
+# sodiumcryptoaeadaes256gcmkeygen
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює випадковий ключ AES-256-GCM
+(PHP 7> = 7.2.0, PHP 8)
 
-# sodium_crypto_aead_aes256gcm_keygen
-
-(PHP 7 \>= 7.2.0, PHP 8)
-
-sodium_crypto_aead_aes256gcm_keygen — Створює випадковий ключ AES-256-GCM
+sodiumcryptoaeadaes256gcmkeygen — Створює випадковий ключ AES-256-GCM
 
 ### Опис
 
-**sodium_crypto_aead_aes256gcm_keygen**(): string
+```methodsynopsis
+sodium_crypto_aead_aes256gcm_keygen(): string
+```
 
-Створює випадковий ключ для використання в
-[sodium_crypto_aead_aes256gcm_encrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.md)
-і
-[sodium_crypto_aead_aes256gcm_decrypt()](function.sodium-crypto-aead-aes256gcm-decrypt.md).
+Створює випадковий ключ для використання в [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.md) і [sodiumcryptoaeadaes256gcmdecrypt()](function.sodium-crypto-aead-aes256gcm-decrypt.md)
 
 ### Список параметрів
 

@@ -1,39 +1,35 @@
-- [«ps_delete](function.ps-delete.md)
-- [ps_end_pattern »](function.ps-end-pattern.md)
+---
+navigation:
+  - function.ps-delete.md: «psdelete
+  - function.ps-end-pattern.md: псendpattern »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псendpage
+---
+# псendpage
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Завершує сторінку
+(PECL ps >= 1.1.0)
 
-#ps_end_page
-
-(PECL ps \>= 1.1.0)
-
-ps_end_page — Завершує сторінку
+псendpage — Завершує сторінку
 
 ### Опис
 
-**ps_end_page**(resource `$psdoc`): bool
+```methodsynopsis
+ps_end_page(resource $psdoc): bool
+```
 
-Завершує сторінку, яку було розпочато за допомогою
-[ps_begin_page()](function.ps-begin-page.md). Завершення сторінки
-призведе до виходу з поточного контексту малювання, який, наприклад,
-вимагає перезавантаження шрифтів, якщо вони завантажувалися на сторінці та
-установки багатьох інших параметрів малювання, таких як ширина лінії або
-колір.
+Завершує сторінку, яку було розпочато за допомогою [псbeginpage()](function.ps-begin-page.md). Завершення сторінки призведе до виходу з поточного контексту малювання, який, наприклад, вимагає перезавантаження шрифтів, якщо вони завантажувалися на сторінці та налаштування багатьох інших параметрів малювання, таких як ширина лінії або колір.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_begin_page()](function.ps-begin-page.md) - Починає нову
-сторінку
+-   [псbeginpage()](function.ps-begin-page.md) - Починає нову сторінку

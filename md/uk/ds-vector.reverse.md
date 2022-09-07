@@ -1,19 +1,22 @@
-- [« Ds\Vector::remove](ds-vector.remove.md)
-- [Ds\Vector::reversed »](ds-vector.reversed.md)
+---
+navigation:
+  - ds-vector.remove.md: '« DsVector::remove'
+  - ds-vector.reversed.md: 'ДсVector::reversed »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
+title: 'ДсVector::reverse'
+---
+# ДсVector::reverse
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Перевертає поточний вектор
+(PECL ds >= 1.0.0)
 
-# Ds\Vector::reverse
-
-(PECL ds \>= 1.0.0)
-
-Ds\Vector::reverse — Перевертає поточний вектор
+ДсVector::reverse — Перевертає поточний вектор
 
 ### Опис
 
-public **Ds\Vector::reverse**(): void
+```methodsynopsis
+public Ds\Vector::reverse(): void
+```
 
 Перевертає поточний вектор.
 
@@ -27,15 +30,24 @@ public **Ds\Vector::reverse**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::reverse()****
+**Приклад #1 Приклад використання **ДсVector::reverse()****
 
-` <?php$vector = new \Ds\Vector(["a", "b", "c"]);$vector->reverse();print_r($vector);?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector->reverse();
+
+print_r($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => c
-[1] => b
-[2] => a
+    [0] => c
+    [1] => b
+    [2] => a
 )
+```

@@ -1,34 +1,34 @@
-- [«Gmagick::write](gmagick.write.md)
-- [GmagickDraw »](class.gmagickdraw.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Записує зображення у вказаний файл
-
+---
+navigation:
+  - gmagick.write.md: '« Gmagick::write'
+  - class.gmagickdraw.md: GmagickDraw »
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::writeimage'
+---
 # Gmagick::writeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::writeimage — Записує зображення у вказаний файл
 
 ### Опис
 
-public **Gmagick::writeimage**(string `$filename`, bool `$all_frames` =
-**`false`**): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::writeimage(string $filename, bool $all_frames = false): Gmagick
+```
 
-Записує зображення у вказаний файл. Якщо як ім'я файлу
-вказано **`null`**, то зображення буде записано у файл, заданий
-[Gmagick::readimage()](gmagick.readimage.md) або
-[Gmagick::setimagefilename()](gmagick.setimagefilename.md).
+Записує зображення у вказаний файл. Якщо в якості імені файлу вказано **`null`**, то зображення буде записано у файл, заданий [Gmagick::readimage()](gmagick.readimage.md) або [Gmagick::setimagefilename()](gmagick.setimagefilename.md)
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

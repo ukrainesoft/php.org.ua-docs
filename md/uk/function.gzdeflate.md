@@ -1,36 +1,39 @@
-- [«gzdecode](function.gzdecode.md)
-- [gzencode »](function.gzencode.md)
-
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Стисне рядок
-
+---
+navigation:
+  - function.gzdecode.md: « gzdecode
+  - function.gzencode.md: gzencode »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzdeflate
+---
 # gzdeflate
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gzdeflate — Стисне рядок
+gzdeflate — Стискає рядок
 
 ### Опис
 
-**gzdeflate**(string `$data`, int `$level` = -1, int `$encoding` =
-**`ZLIB_ENCODING_RAW`**): string\|false
+```methodsynopsis
+gzdeflate(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_RAW): string|false
+```
 
-Ця функція стискає рядок, використовуючи формат даних `DEFLATE`.
+Ця функція стискає рядок, використовуючи формат даних `DEFLATE`
 
-Детальніше про алгоритм стиснення DEFLATE дивіться "[» Формат стиснення даних DEFLATE. Специфікація версії 1.3](http://www.faqs.org/rfcs/rfc1951)"
-(RFC 1951).
+Детальніше про алгоритм стиснення DEFLATE дивіться "[» Формат стиснення даних DEFLATE. Специфікація версії 1.3](http://www.faqs.org/rfcs/rfc1951)(RFC 1951).
 
 ### Список параметрів
 
 `data`
+
 Дані для стиснення.
 
 `level`
-Рівень стиску. 0 – без стиску, 9 – максимум. Якщо не вказано, буде
-використовувати рівень стиснення за замовчуванням бібліотеки zlib.
+
+Рівень стиску. 0 – без стиску, 9 – максимум. Якщо не вказано, використовуватиметься рівень стиснення за замовчуванням бібліотеки zlib.
 
 `encoding`
+
 Одна з **`ZLIB_ENCODING_*`** констант.
 
 ### Значення, що повертаються
@@ -41,12 +44,16 @@ gzdeflate — Стисне рядок
 
 **Приклад #1 Приклад використання **gzdeflate()****
 
-` <?php$compressed==gzdeflate('Сожми меня', 9);echo $compressed;?> `
+```php
+<?php
+$compressed = gzdeflate('Сожми меня', 9);
+echo $compressed;
+?>
+```
 
 ### Дивіться також
 
-- [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
-- [gzcompress()](function.gzcompress.md) - Стиснути рядок
-- [gzuncompress()](function.gzuncompress.md) - Розпакувати стиснуту
-рядок
-- [gzencode()](function.gzencode.md) - Створити стислий рядок gzip
+-   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
+-   [gzcompress()](function.gzcompress.md) - Стиснути рядок
+-   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
+-   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip

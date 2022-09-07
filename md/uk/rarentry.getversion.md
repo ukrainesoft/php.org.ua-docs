@@ -1,25 +1,24 @@
-- [« RarEntry::getUnpackedSize](rarentry.getunpackedsize.md)
-- [RarEntry::isDirectory »](rarentry.isdirectory.md)
-
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Повертає мінімальну версію програми RAR, необхідну для
-розпакування елемента
-
+---
+navigation:
+  - rarentry.getunpackedsize.md: '« RarEntry::getUnpackedSize'
+  - rarentry.isdirectory.md: 'RarEntry::isDirectory »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getVersion'
+---
 # RarEntry::getVersion
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
-RarEntry::getVersion — Повертає мінімальну версію програми RAR,
-необхідну для розпакування елемента
+RarEntry::getVersion — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
 
 ### Опис
 
-public **RarEntry::getVersion**(): int
+```methodsynopsis
+public RarEntry::getVersion(): int
+```
 
-Повертає мінімальну версію програми RAR (тобто WinRAR), необхідну
-для розпакування елемента архіву. Вона закодована у вигляді: 10 основна
-версія + мінорна версія.
+Повертає мінімальну версію програми RAR (тобто WinRAR), необхідну розпакування елемента архіву. Вона закодована у вигляді: 10 основна версія + мінорна версія.
 
 ### Список параметрів
 
@@ -33,4 +32,14 @@ public **RarEntry::getVersion**(): int
 
 **Приклад #1 Приклад використання **RarEntry::getVersion()****
 
-` <?php$rar_file = rar_open('example.rar') or die("Не вдалося|відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не таку запис");echo "Версія Rar, необхідна для розпакування: " . $entry->getVersion();?> `
+```php
+<?php
+
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+
+echo "Версия Rar, необходимая для распаковки: " . $entry->getVersion();
+
+?>
+```

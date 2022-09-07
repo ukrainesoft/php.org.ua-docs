@@ -1,27 +1,28 @@
-- [« OAuth::enableDebug](oauth.enabledebug.md)
-- [OAuth::enableSSLChecks »](oauth.enablesslchecks.md)
-
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Включити переадресацію
-
+---
+navigation:
+  - oauth.enabledebug.md: '« OAuth::enableDebug'
+  - oauth.enablesslchecks.md: 'OAuth::enableSSLChecks »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::enableRedirects'
+---
 # OAuth::enableRedirects
 
-(PECL OAuth = 0.99.9)
+(PECL OAuth >= 0.99.9)
 
-OAuth::enableRedirects — Включити переадресацію
+OAuth::enableRedirects — Увімкнути переадресацію
 
 ### Опис
 
-public **OAuth::enableRedirects**(): bool
+```methodsynopsis
+public OAuth::enableRedirects(): bool
+```
 
-Автоматично переходити та підписувати за дозволеної за замовчуванням
-переадресації.
+Автоматично переходити та підписувати за дозволеної за умовчанням переадресації.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -33,5 +34,4 @@ public **OAuth::enableRedirects**(): bool
 
 ### Дивіться також
 
-- [OAuth::disableRedirects()](oauth.disableredirects.md) - Вимкнути
-переадресацію
+-   [OAuth::disableRedirects()](oauth.disableredirects.md) - Вимкнути переадресацію

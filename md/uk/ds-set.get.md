@@ -1,26 +1,29 @@
-- [« Ds\Set::first](ds-set.first.md)
-- [Ds\Set::intersect »](ds-set.intersect.md)
+---
+navigation:
+  - ds-set.first.md: '« DsSet::first'
+  - ds-set.intersect.md: 'ДсSet::intersect »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
+title: 'ДсSet::get'
+---
+# ДсSet::get
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає значення за індексом
+(PECL ds >= 1.0.0)
 
-# Ds\Set::get
-
-(PECL ds \>= 1.0.0)
-
-Ds\Set::get — Повертає значення за індексом
+ДсSet::get — Повертає значення за індексом
 
 ### Опис
 
-public **Ds\Set::get**(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Set::get(int $index): mixed
+```
 
 Повертає значення за заданим індексом.
 
 ### Список параметрів
 
 `index`
+
 Індекс. Перший елемент має індекс 0.
 
 ### Значення, що повертаються
@@ -29,29 +32,46 @@ public **Ds\Set::get**(int `$index`):
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md), якщо індекс
-некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::get()****
+**Приклад #1 Приклад використання **ДсSet::get()****
 
-` <?php$set = new \Ds\Set(["a", "b", "c"]);var_dump($set->get(0));var_dump($set->get(1) );var_dump($set->get(2));?> `
+```php
+<?php
+$set = new \Ds\Set(["a", "b", "c"]);
 
-Результатом виконання цього прикладу буде щось подібне:
-
-string(1) "a"
-string(1) "b"
-string(1) "c"
-
-**Приклад #2 Приклад використання **Ds\Set::get()** із синтаксисом
-масиву**
-
-` <?php$set = new \Ds\Set(["a", "b", "c"]);var_dump($set[0]);var_dump($set[1]);var_dump($set [2]);?> `
+var_dump($set->get(0));
+var_dump($set->get(1));
+var_dump($set->get(2));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
 string(1) "b"
 string(1) "c"
+```
+
+**Приклад #2 Приклад використання **ДсSet::get()** із синтаксисом масиву**
+
+```php
+<?php
+$set = new \Ds\Set(["a", "b", "c"]);
+
+var_dump($set[0]);
+var_dump($set[1]);
+var_dump($set[2]);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+string(1) "a"
+string(1) "b"
+string(1) "c"
+```

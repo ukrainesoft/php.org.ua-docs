@@ -1,25 +1,29 @@
-- [« Gmagick::queryfonts](gmagick.queryfonts.md)
-- [Gmagick::radialblurimage »](gmagick.radialblurimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає формати, що підтримуються Gmagick
-
+---
+navigation:
+  - gmagick.queryfonts.md: '« Gmagick::queryfonts'
+  - gmagick.radialblurimage.md: 'Gmagick::radialblurimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::queryformats'
+---
 # Gmagick::queryformats
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::queryformats — Повертає формати, які підтримує Gmagick
 
 ### Опис
 
-public **Gmagick::queryformats**(string `$pattern` = "\*"): array
+```methodsynopsis
+public Gmagick::queryformats(string $pattern = "*"): array
+```
 
-Повертає формати, що підтримуються [Gmagick](class.gmagick.md).
+Повертає формати, що підтримуються [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 
 `pattern`
+
 Задає рядок (string), що містить шаблон.
 
 ### Значення, що повертаються

@@ -1,31 +1,35 @@
-- [« XMLDiff\Memory::diff](xmldiff-memory.diff.md)
-- [XMLDiff\File »](class.xmldiff-file.md)
+---
+navigation:
+  - xmldiff-memory.diff.md: '« XMLDiffMemory::diff'
+  - class.xmldiff-file.md: XMLDiffFile »
+  - index.md: PHP Manual
+  - class.xmldiff-memory.md: XMLDiffMemory
+title: 'XMLDiffMemory::merge'
+---
+# XMLDiffMemory::merge
 
-- [PHP Manual](index.md)
-- [XMLDiff\Memory](class.xmldiff-memory.md)
-- Застосувати зміни до документа XML
+(PECL xmldiff >= 0.8.0)
 
-# XMLDiff\Memory::merge
-
-(PECL xmldiff \>= 0.8.0)
-
-XMLDiff\Memory::merge — Застосувати зміни до документа XML
+XMLDiffMemory::merge — Застосувати зміни до документа XML
 
 ### Опис
 
-public **XMLDiff\Memory::merge**(string `$src`, string `$diff`): string
+```methodsynopsis
+public XMLDiff\Memory::merge(string $src, string $diff): string
+```
 
-Створює новий документ XML на базі документа джерела та списку
-змін.
+Створює новий документ XML на базі джерела та списку змін.
 
 ### Список параметрів
 
 `src`
+
 XML-документ джерело.
 
 `diff`
-XML-документ, який містить інформацію про зміни.
+
+XML-документ, що містить інформацію про зміни.
 
 ### Значення, що повертаються
 
-Рядок із новим XML-документом або **`null`**.
+Рядок з новим XML-документом або **`null`**

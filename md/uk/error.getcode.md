@@ -1,10 +1,11 @@
-- [«Error::getPrevious](error.getprevious.md)
-- [Error::getFile »](error.getfile.md)
-
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Повертає код помилки
-
+---
+navigation:
+  - error.getprevious.md: '« Error::getPrevious'
+  - error.getfile.md: 'Error::getFile »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getCode'
+---
 # Error::getCode
 
 (PHP 7, PHP 8)
@@ -13,7 +14,9 @@ Error::getCode — Повертає код помилки
 
 ### Опис
 
-final public **Error::getCode**(): int
+```methodsynopsis
+final public Error::getCode(): int
+```
 
 Повертає код помилки.
 
@@ -27,15 +30,24 @@ final public **Error::getCode**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання**Error::getCode()****
+**Приклад #1 Приклад використання**Error::getCode()\*\*\*\*
 
-`<?phptry {    throw new Error("Якесь повідомлення про помилки", 30);} catch(Error $e) {    echo "Код помилки: " . $e->getCode();}?> `
+```php
+<?php
+try {
+    throw new Error("Какое-то сообщение об ошибке", 30);
+} catch(Error $e) {
+    echo "Код ошибки: " . $e->getCode();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Код помилки: 30
+```
+Код ошибки: 30
+```
 
 ### Дивіться також
 
-- [Throwable::getCode()](throwable.getcode.md) - Повертає код
-винятки
+-   [Throwable::getCode()](throwable.getcode.md) - Повертає код виключення

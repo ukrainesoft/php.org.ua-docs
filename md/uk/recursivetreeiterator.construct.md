@@ -1,50 +1,45 @@
-- [« RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.md)
-- [RecursiveTreeIterator::current »](recursivetreeiterator.current.md)
+---
+navigation:
+  - recursivetreeiterator.callhaschildren.md: '« RecursiveTreeIterator::callHasChildren'
+  - recursivetreeiterator.current.md: 'RecursiveTreeIterator::current »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::construct'
+---
+# RecursiveTreeIterator::construct
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Конструктор класу RecursiveTreeIterator
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-# RecursiveTreeIterator::\_\_construct
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
-
-RecursiveTreeIterator::\_\_construct — Конструктор класу
-RecursiveTreeIterator
+RecursiveTreeIterator::construct — Конструктор класу RecursiveTreeIterator
 
 ### Опис
 
-public **RecursiveTreeIterator::\_\_construct**(
-[RecursiveIterator](class.recursiveiterator.md)\|[IteratorAggregate](class.iteratoraggregate.md)
-`$iterator`,
-int `$flags` = RecursiveTreeIterator::BYPASS_KEY,
-int `$cachingIteratorFlags` = CachingIterator::CATCH_GET_CHILD,
-int `$mode` = RecursiveTreeIterator::SELF_FIRST
-)
+public **RecursiveTreeIterator::construct**  
+[RecursiveIterator](class.recursiveiterator.md)[IteratorAggregate](class.iteratoraggregate.md) `$iterator`  
+int `$flags` = RecursiveTreeIterator::BYPASSKEY,  
+int `$cachingIteratorFlags` = CachingIterator::CATCHGETCHILD,  
+int `$mode` = RecursiveTreeIterator::SELFFIRST
 
-Створює новий об'єкт класу
-[RecursiveTreeIterator](class.recursivetreeiterator.md) на основі
-рекурсивного об'єкту-ітератора.
+Створює новий об'єкт класу [RecursiveTreeIterator](class.recursivetreeiterator.md) на основі рекурсивного об'єкта-ітератора.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `iterator`
-Об'єкт класу [RecursiveIterator](class.recursiveiterator.md) або
-класу [IteratorAggregate](class.iteratoraggregate.md).
+
+Об'єкт класу [RecursiveIterator](class.recursiveiterator.md) або класу [IteratorAggregate](class.iteratoraggregate.md)
 
 `flags`
-Прапори впливають поведінка деяких методів класу. Список можливих
-прапорів можна знайти на сторінці [Предвизначених констант RecursiveTreeIterator](class.recursivetreeiterator.md#recursivetreeiterator.constants).
+
+Прапори впливають поведінка деяких методів класу. Список можливих прапорів можна знайти на сторінці [Обумовлених констант RecursiveTreeIterator](class.recursivetreeiterator.md#recursivetreeiterator.constants)
 
 `caching_it_flags`
-Прапори для налаштування внутрішнього об'єкта
-[RecursiveCachingIterator](class.recursivecachingiterator.md).
+
+Прапори для налаштування внутрішнього об'єкта [RecursiveCachingIterator](class.recursivecachingiterator.md)
 
 `mode`
-Прапори для налаштування внутрішнього об'єкта
-[RecursiveIteratorIterator](class.recursiveiteratoriterator.md).
+
+Прапори для налаштування внутрішнього об'єкта [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

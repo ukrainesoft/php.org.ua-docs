@@ -1,20 +1,22 @@
-- [« Swoole\Server::getLastError](swoole-server.getlasterror.md)
-- [Swoole\Server::listen »](swoole-server.listen.md)
+---
+navigation:
+  - swoole-server.getlasterror.md: '« SwooleServer::getLastError'
+  - swoole-server.listen.md: 'SwooleServer::listen »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::heartbeat'
+---
+# SwooleServer::heartbeat
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Перевіряє всі з'єднання на сервері
+(PECL swoole >= 1.9.0)
 
-# Swoole\Server::heartbeat
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::heartbeat — Перевіряє всі з'єднання на сервері
+SwooleServer::heartbeat — Перевіряє всі з'єднання на сервері
 
 ### Опис
 
-public **Swoole\Server::heartbeat**(bool `$if_close_connection`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Swoole\Server::heartbeat(bool $if_close_connection): mixed
+```
 
 ### Список параметрів
 

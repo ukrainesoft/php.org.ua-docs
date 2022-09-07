@@ -1,28 +1,32 @@
-- [« Swoole\Server::bind](swoole-server.bind.md)
-- [Swoole\Server::close »](swoole-server.close.md)
+---
+navigation:
+  - swoole-server.bind.md: '« SwooleServer::bind'
+  - swoole-server.close.md: 'SwooleServer::close »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
+title: 'SwooleServer::clearTimer'
+---
+# SwooleServer::clearTimer
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Зупиняє та знищує таймер
+# swooletimerclear
 
-# Swoole\Server::clearTimer
+(PECL swoole >= 1.9.0)
 
-# swoole_timer_clear
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Server::clearTimer -- swoole_timer_clear — Зупиняє та
-знищує таймер
+SwooleServer::clearTimer -- swooletimerclear — Зупиняє та знищує таймер
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Swoole\Server::clearTimer**(int `$timer_id`): void
+```methodsynopsis
+public Swoole\Server::clearTimer(int $timer_id): void
+```
 
 Процедурний стиль:
 
-**swoole_timer_clear**(int `$timer_id`): void
+```methodsynopsis
+swoole_timer_clear(int $timer_id): void
+```
 
 Зупиняє та знищує таймер
 

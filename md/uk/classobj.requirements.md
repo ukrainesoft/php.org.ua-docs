@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](classobj.setup.md)
-- [Установка »](classobj.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](classobj.setup.md)
-- Вимоги
-
+---
+navigation:
+  - classobj.setup.md: « Встановлення та налаштування
+  - classobj.installation.md: Установка »
+  - index.md: PHP Manual
+  - classobj.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

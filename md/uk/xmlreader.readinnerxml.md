@@ -1,19 +1,22 @@
-- [« XMLReader::read](xmlreader.read.md)
-- [XMLReader::readOuterXml »](xmlreader.readouterxml.md)
-
-- [PHP Manual](index.md)
-- [XMLReader](class.xmlreader.md)
-- Вийняти XML із поточного вузла
-
+---
+navigation:
+  - xmlreader.read.md: '« XMLReader::read'
+  - xmlreader.readouterxml.md: 'XMLReader::readOuterXml »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::readInnerXml'
+---
 # XMLReader::readInnerXml
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 XMLReader::readInnerXml — Вийняти XML із поточного вузла
 
 ### Опис
 
-public **XMLReader::readInnerXml**(): string
+```methodsynopsis
+public XMLReader::readInnerXml(): string
+```
 
 Читає вміст поточного вузла, включаючи дочірні вузли та розмітку.
 
@@ -23,21 +26,16 @@ public **XMLReader::readInnerXml**(): string
 
 ### Значення, що повертаються
 
-Повертає вміст поточного вузла у вигляді рядка. Порожня стрічка
-повертається у разі виникнення помилки.
+Повертає вміст поточного вузла у вигляді рядка. Порожній рядок повертається у разі виникнення помилки.
 
 ### Примітки
 
 **Застереження**
 
-Ця функція доступна лише якщо PHP скомпільовано з підтримкою libxml
-20620 чи старше.
+Ця функція доступна лише якщо PHP скомпільовано за допомогою libxml 20620 або старше.
 
 ### Дивіться також
 
-- [XMLReader::readString()](xmlreader.readstring.md) - Прочитати
-вміст поточного вузла як рядок
-- [XMLReader::readOuterXml()](xmlreader.readouterxml.md) - Отримати
-XML із поточного вузла, включаючи сам вузол
-- [XMLReader::expand()](xmlreader.expand.md) - Повернути копію
-поточного вузла у вигляді об'єкта DOM
+-   [XMLReader::readString()](xmlreader.readstring.md) - Прочитати вміст поточного вузла як рядок
+-   [XMLReader::readOuterXml()](xmlreader.readouterxml.md) - Отримати XML із поточного вузла, включаючи сам вузол
+-   [XMLReader::expand()](xmlreader.expand.md) - Повернути копію поточного вузла у вигляді об'єкта DOM

@@ -1,18 +1,17 @@
-- [« openssl_get_privatekey](function.openssl-get-privatekey.md)
-- [openssl_open »](function.openssl-open.md)
+---
+navigation:
+  - function.openssl-get-privatekey.md: « opensslgetprivatekey
+  - function.openssl-open.md: opensslopen »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslgetpublickey
+---
+# opensslgetpublickey
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Псевдонім openssl_pkey_get_public
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-#openssl_get_publickey
-
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
-
-openssl_get_publickey - Псевдонім
-[openssl_pkey_get_public()](function.openssl-pkey-get-public.md)
+opensslgetpublickey - Псевдонім [opensslpkeygetpublic()](function.openssl-pkey-get-public.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[openssl_pkey_get_public()](function.openssl-pkey-get-public.md).
+Ця функція є псевдонімом: [opensslpkeygetpublic()](function.openssl-pkey-get-public.md)

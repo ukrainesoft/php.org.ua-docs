@@ -1,10 +1,11 @@
-- [« Встановлення та налаштування](posix.setup.md)
-- [Установка »](posix.installation.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](posix.setup.md)
-- Вимоги
-
+---
+navigation:
+  - posix.setup.md: « Встановлення та налаштування
+  - posix.installation.md: Установка »
+  - index.md: PHP Manual
+  - posix.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

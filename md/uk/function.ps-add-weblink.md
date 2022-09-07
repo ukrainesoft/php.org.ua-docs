@@ -1,68 +1,59 @@
-- [«ps_add_pdflink](function.ps-add-pdflink.md)
-- [ps_arc »](function.ps-arc.md)
+---
+navigation:
+  - function.ps-add-pdflink.md: «psaddpdflink
+  - function.ps-arc.md: псarc »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddweblink
+---
+# псaddweblink
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Додає посилання на веб-сторінку
+(PECL ps >= 1.1.0)
 
-#ps_add_weblink
-
-(PECL ps \>= 1.1.0)
-
-ps_add_weblink — Додає посилання на веб-сторінку
+псaddweblink — Додає посилання на веб-сторінку
 
 ### Опис
 
-**ps_add_weblink**(
-resource `$psdoc`,
-float `$llx`,
-float `$lly`,
-float `$urx`,
-float `$ury`,
-string `$url`
-): bool
+```methodsynopsis
+ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $url): bool
+```
 
-Додає гіперпосилання у вказаному місці, яке вказує на веб-сторінку.
-Вихідна позиція гіперпосилання є прямокутником з нижнім
-лівим кутом в (`llx`, `lly`) та його правим верхнім кутом у (`urx`,
-`ury`). У прямокутника є тонка синя рамка.
+Додає гіперпосилання у вказаному місці, яке вказує на веб-сторінку. Вихідна позиція гіперпосилання є прямокутником з нижнім лівим кутом в (`llx` `lly`) та його правим верхнім кутом в (`urx` `ury`). У прямокутника за промовчанням є тонка синя рамка.
 
-Примітка не відображатиметься під час друку або перегляду документа, але
-буде показано при конвертуванні документа в PDF за допомогою Acrobat
-Distiller™ або Ghostview.
+Примітка не відображатиметься під час друку або перегляду документа, але буде показана під час конвертування документа в pdf за допомогою Acrobat Distiller™ або Ghostview.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `llx`
+
 Координата X лівого нижнього кута.
 
 `lly`
+
 Координата Y лівого нижнього кута.
 
 `urx`
+
 Координата X правого верхнього кута.
 
 `ury`
+
 Координата Y правого верхнього кута.
 
 `url`
-URL-адреса гіперпосилання, що відкривається при натисканні на посилання,
-наприклад, `http://www.php.net`.
+
+URL-адреса гіперпосилання, яка відкривається при натисканні на посилання, наприклад, `http://www.php.net`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_add_launchlink()](function.ps-add-launchlink.md) - Додає
-посилання, що запускає файл
-- [ps_add_locallink()](function.ps-add-locallink.md) - Додає
-посилання на сторінку того ж документа
-- [ps_add_pdflink()](function.ps-add-pdflink.md) - Додає посилання
-на сторінку в іншому PDF-документі
+-   [псaddlaunchlink()](function.ps-add-launchlink.md) - Додає посилання, яке запускає файл
+-   [псaddlocallink()](function.ps-add-locallink.md) - Додає посилання на сторінку того самого документа
+-   [псaddpdflink()](function.ps-add-pdflink.md) - Додає посилання на сторінку в іншому PDF-документі

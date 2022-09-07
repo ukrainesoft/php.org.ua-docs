@@ -1,10 +1,11 @@
-- [« Налаштування під час виконання](imagick.configuration.md)
-- [Предвизначені константи »](imagick.constants.md)
-
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](imagick.setup.md)
-- Типи ресурсів
-
+---
+navigation:
+  - imagick.configuration.md: « Налаштування під час виконання
+  - imagick.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - imagick.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

@@ -1,19 +1,22 @@
-- [« Swoole\Table::key](swoole-table.key.md)
-- [Swoole\Table::rewind »](swoole-table.rewind.md)
+---
+navigation:
+  - swoole-table.key.md: '« SwooleTable::key'
+  - swoole-table.rewind.md: 'SwooleTable::rewind »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
+title: 'SwooleTable::next'
+---
+# SwooleTable::next
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Переміщує ітератор на наступний рядок
+(PECL swoole >= 1.9.0)
 
-# Swoole\Table::next
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Table::next — Переміщує ітератор на наступний рядок
+SwooleTable::next — Переміщує ітератор на наступний рядок
 
 ### Опис
 
-public **Swoole\Table::next**(): ReturnType
+```methodsynopsis
+public Swoole\Table::next(): ReturnType
+```
 
 ### Список параметрів
 

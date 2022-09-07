@@ -1,10 +1,11 @@
-- [«XLSriter](book.xlswriter.md)
-- [Встановлення та налаштування »](xlswriter.setup.md)
-
-- [PHP Manual](index.md)
-- [XLSWriter](book.xlswriter.md)
--   Вступ
-
+---
+navigation:
+  - book.xlswriter.md: « XLSWriter
+  - xlswriter.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.xlswriter.md: XLSWriter
+title: Вступ
+---
 # Вступ
 
 Модуль для швидкого та ефективного експорту в xlsx.

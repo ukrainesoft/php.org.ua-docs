@@ -1,36 +1,47 @@
-- [« ReflectionFiber::getTrace](reflectionfiber.gettrace.md)
-- [ReflectionIntersectionType::getTypes »](reflectionintersectiontype.gettypes.md)
-
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionIntersectionType
-
+---
+navigation:
+  - reflectionfiber.gettrace.md: '« ReflectionFiber::getTrace'
+  - reflectionintersectiontype.gettypes.md: 'ReflectionIntersectionType::getTypes »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionIntersectionType
+---
 # Клас ReflectionIntersectionType
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **ReflectionIntersectionType** extends
-[ReflectionType](class.reflectiontype.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getTypes](reflectionintersectiontype.gettypes.md)(): array
+    
+     
+      class ReflectionIntersectionType
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       ReflectionType
+     
+     {
 
-public [ReflectionType::allowsNull](reflectiontype.allowsnull.md)():
-bool
+    /* Методы */
+    
+   public getTypes(): array
 
-public [ReflectionType::\_\_toString](reflectiontype.tostring.md)():
-string
 
-}
+    /* Наследуемые методы */
+    public ReflectionType::allowsNull(): bool
+public ReflectionType::__toString(): string
+
+   }
+```
 
 ## Зміст
 
-- [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
-— Повертає типи, включені до типу intersection
+-   [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md) — Повертає типи, включені до типу intersection

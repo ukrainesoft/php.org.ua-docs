@@ -1,19 +1,22 @@
-- [« swoole_event_defer](function.swoole-event-defer.md)
-- [swoole_event_exit »](function.swoole-event-exit.md)
+---
+navigation:
+  - function.swoole-event-defer.md: « swooleeventdefer
+  - function.swoole-event-exit.md: swooleeventexit »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
+title: swooleeventdel
+---
+# swooleeventdel
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Видалити всі callback-функції сокету
+(PECL swoole >= 1.9.0)
 
-# swoole_event_del
-
-(PECL swoole \>= 1.9.0)
-
-swoole_event_del — Видалити всі callback-функції сокету
+swooleeventdel — Видалити всі callback функції сокету
 
 ### Опис
 
-**swoole_event_del**(int `$fd`): bool
+```methodsynopsis
+swoole_event_del(int $fd): bool
+```
 
 ### Список параметрів
 
@@ -21,5 +24,4 @@ swoole_event_del — Видалити всі callback-функції сокет�
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

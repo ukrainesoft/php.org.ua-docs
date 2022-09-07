@@ -1,10 +1,11 @@
-- [« ImagickDraw::getFont](imagickdraw.getfont.md)
-- [ImagickDraw::getFontSize »](imagickdraw.getfontsize.md)
-
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає сімейство шрифтів
-
+---
+navigation:
+  - imagickdraw.getfont.md: '« ImagickDraw::getFont'
+  - imagickdraw.getfontsize.md: 'ImagickDraw::getFontSize »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFontFamily'
+---
 # ImagickDraw::getFontFamily
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,16 +14,16 @@ ImagickDraw::getFontFamily — Повертає сімейство шрифті�
 
 ### Опис
 
-public **ImagickDraw::getFontFamily**(): string
+```methodsynopsis
+public ImagickDraw::getFontFamily(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає сімейство шрифтів, що використовується під час анотації тексту.
 
 ### Значення, що повертаються
 
-Повертає поточне вибране сімейство шрифтів або false, якщо сімейство
-шрифтів не визначено.
+Повертає поточне вибране сімейство шрифтів або false, якщо не визначено сімейство шрифтів.

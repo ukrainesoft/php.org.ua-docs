@@ -1,24 +1,26 @@
-- [« Yaf_Request_Http::getRaw](yaf-request-http.getraw.md)
-- [Yaf_Request_Http::isXmlHttpRequest »](yaf-request-http.isxmlhttprequest.md)
+---
+navigation:
+  - yaf-request-http.getraw.md: '« YafRequestHttp::getRaw'
+  - yaf-request-http.isxmlhttprequest.md: 'YafRequestHttp::isXmlHttpRequest »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.md: YafRequestHttp
+title: 'YafRequestHttp::getRequest'
+---
+# YafRequestHttp::getRequest
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Http](class.yaf-request-http.md)
-- Призначення getRequest
+(Yaf >=1.0.0)
 
-# Yaf_Request_Http::getRequest
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Http::getRequest — Призначення getRequest
+YafRequestHttp::getRequest — Призначення getRequest
 
 ### Опис
 
-public **Yaf_Request_Http::getRequest**(): void
+```methodsynopsis
+public Yaf_Request_Http::getRequest(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

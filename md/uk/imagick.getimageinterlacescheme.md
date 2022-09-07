@@ -1,20 +1,22 @@
-- [« Imagick::getImageIndex](imagick.getimageindex.md)
-- [Imagick::getImageInterpolateMethod »](imagick.getimageinterpolatemethod.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує схему надрядкового зображення
-
+---
+navigation:
+  - imagick.getimageindex.md: '« Imagick::getImageIndex'
+  - imagick.getimageinterpolatemethod.md: 'Imagick::getImageInterpolateMethod »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageInterlaceScheme'
+---
 # Imagick::getImageInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageInterlaceScheme — Отримує схему черезрядкового
-зображення
+Imagick::getImageInterlaceScheme — Отримує схему зображення через зображення.
 
 ### Опис
 
-public **Imagick::getImageInterlaceScheme**(): int
+```methodsynopsis
+public Imagick::getImageInterlaceScheme(): int
+```
 
 Отримує схему надрядкового зображення.
 
@@ -24,5 +26,4 @@ public **Imagick::getImageInterlaceScheme**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає схему чергування як ціле
-число. Викликає **ImagickException** у разі виникнення помилки.
+У разі успішного виконання повертає схему чергування ціле число. Викликає **ImagickException** у разі виникнення помилки.

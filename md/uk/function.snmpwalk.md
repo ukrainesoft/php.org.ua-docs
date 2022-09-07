@@ -1,10 +1,11 @@
-- [« snmpset](function.snmpset.md)
-- [snmpwalkoid »](function.snmpwalkoid.md)
-
-- [PHP Manual](index.md)
-- [Функції SNMP](ref.snmp.md)
-- Отримує всі об'єкти SNMP із агента
-
+---
+navigation:
+  - function.snmpset.md: « snmpset
+  - function.snmpwalkoid.md: snmpwalkoid »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpwalk
+---
 # snmpwalk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,54 +14,57 @@ snmpwalk — Отримує всі об'єкти SNMP із агента
 
 ### Опис
 
-**snmpwalk**(
-string `$hostname`,
-string `$community`,
-array\|string `$object_id`,
-int `$timeout` = -1,
-int `$retries` = -1
-): array\|false
+```methodsynopsis
+snmpwalk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+```
 
-Функція **snmpwalk()** використовується для читання всіх значень агента
-SNMP, вказаного в `hostname`.
+Функція **snmpwalk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
 
 ### Список параметрів
 
 `hostname`
+
 Агент SNMP (сервер).
 
 `community`
+
 Read-спільнота.
 
 `object_id`
-Якщо **`null`**, `object_id` береться як корінь дерева об'єктів
-SNMP та всі об'єкти цього дерева повертаються у вигляді масиву.
 
-Якщо вказано `object_id`, повертаються всі об'єкти SNMP нижче цього
-`object_id`.
+Якщо **`null`** `object_id` береться як корінь дерева об'єктів SNMP і всі об'єкти цього дерева повертаються як масиву.
+
+Якщо вказано `object_id`, повертаються всі об'єкти SNMP нижче цього `object_id`
 
 `timeout`
+
 Час очікування у мікросекундах.
 
 `retries`
+
 Кількість повторних спроб після закінчення часу очікування.
 
 ### Значення, що повертаються
 
-Повертає масив значень об'єкта SNMP, починаючи з object_id
-як корінь або **`false`** у разі виникнення помилки.
+Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **snmpwalk()****
 
-` <?php$a = snmpwalk("127.0.0.1", "public", "");foreach ($a as $val) {    echo "$val
-";}?> `
+```php
+<?php
+$a = snmpwalk("127.0.0.1", "public", "");
 
-Виклик функції поверне всі об'єкти SNMP із агента SNMP, що працює на
-localhost. Можна пересуватися за значеннями за допомогою циклу.
+foreach ($a as $val) {
+    echo "$val\n";
+}
+
+?>
+```
+
+Виклик функції поверне всі об'єкти SNMP із агента SNMP, що працює на localhost. Можна переміщуватись за значеннями за допомогою циклу.
 
 ### Дивіться також
 
-- [snmprealwalk()](function.snmprealwalk.md) - Повертає все
-об'єкти, включаючи їх ідентифікатор
+-   [snmprealwalk()](function.snmprealwalk.md) - Повертає всі об'єкти, включаючи їхній ідентифікатор

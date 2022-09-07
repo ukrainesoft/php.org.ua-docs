@@ -1,10 +1,11 @@
-- [« Imagick::flattenImages](imagick.flattenimages.md)
-- [Imagick::floodFillPaintImage »](imagick.floodfillpaintimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює вертикальне дзеркало зображення
-
+---
+navigation:
+  - imagick.flattenimages.md: '« Imagick::flattenImages'
+  - imagick.floodfillpaintimage.md: 'Imagick::floodFillPaintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::flipImage'
+---
 # Imagick::flipImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,10 +14,11 @@ Imagick::flipImage — Створює вертикальне дзеркало з
 
 ### Опис
 
-public **Imagick::flipImage**(): bool
+```methodsynopsis
+public Imagick::flipImage(): bool
+```
 
-Створює вертикальне дзеркало зображення, відображаючи пікселі навколо
-центральної осі X.
+Створює вертикальне дзеркало зображення, що відображає пікселі навколо центральної осі X.
 
 ### Список параметрів
 
@@ -24,7 +26,7 @@ public **Imagick::flipImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -34,9 +36,18 @@ public **Imagick::flipImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::flipImage()****
 
-`<?phpfunction flipImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->flipImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function flipImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->flipImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::flopimage()](imagick.flopimage.md) - Створює
-горизонтальне дзеркальне відображення
+-   [Imagick::flopimage()](imagick.flopimage.md) - Створює горизонтальне дзеркальне відображення

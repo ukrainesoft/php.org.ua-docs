@@ -1,22 +1,22 @@
-- [« Swoole\Lock::lock](swoole-lock.lock.md)
-- [Swoole\Lock::trylock »](swoole-lock.trylock.md)
+---
+navigation:
+  - swoole-lock.lock.md: '« SwooleLock::lock'
+  - swoole-lock.trylock.md: 'SwooleLock::trylock »'
+  - index.md: PHP Manual
+  - class.swoole-lock.md: SwooleLock
+title: 'SwooleLock::trylockread'
+---
+# SwooleLock::trylockread
 
-- [PHP Manual](index.md)
-- [Swoole\Lock](class.swoole-lock.md)
-- Намагається заблокувати блокування читання-запису для читання та одразу
-повертає, навіть якщо блокування недоступне
+(PECL swoole >= 1.9.0)
 
-# Swoole\Lock::trylock_read
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Lock::trylock_read — Намагається заблокувати блокування
-читання-записи для читання і відразу повертає, навіть якщо блокування
-недоступна
+SwooleLock::trylockread — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
 
 ### Опис
 
-public **Swoole\Lock::trylock_read**(): void
+```methodsynopsis
+public Swoole\Lock::trylock_read(): void
+```
 
 ### Список параметрів
 

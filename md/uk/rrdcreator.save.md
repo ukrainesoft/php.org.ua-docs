@@ -1,22 +1,24 @@
-- [« RRDCreator::\_\_construct](rrdcreator.construct.md)
-- [RRDGraph »](class.rrdgraph.md)
-
-- [PHP Manual](index.md)
-- [RRDCreator](class.rrdcreator.md)
-- Зберігає базу даних RRD у файл
-
+---
+navigation:
+  - rrdcreator.construct.md: '« RRDCreator::construct'
+  - class.rrdgraph.md: RRDGraph »
+  - index.md: PHP Manual
+  - class.rrdcreator.md: RRDCreator
+title: 'RRDCreator::save'
+---
 # RRDCreator::save
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
 RRDCreator::save — Зберігає базу даних RRD у файл
 
 ### Опис
 
-public **RRDCreator::save**(): bool
+```methodsynopsis
+public RRDCreator::save(): bool
+```
 
-Зберігає базу даних RRD у файл, ім'я якого визначається
-[RRDCreator::\_\_construct()](rrdcreator.construct.md).
+Зберігає базу даних RRD у файл, ім'я якого визначається [RRDCreator::construct()](rrdcreator.construct.md)
 
 ### Список параметрів
 
@@ -24,5 +26,4 @@ public **RRDCreator::save**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,20 +1,22 @@
-- [« IteratorIterator::current](iteratoriterator.current.md)
-- [IteratorIterator::key »](iteratoriterator.key.md)
-
-- [PHP Manual](index.md)
-- [IteratorIterator](class.iteratoriterator.md)
-- отримує внутрішній ітератор
-
+---
+navigation:
+  - iteratoriterator.current.md: '« IteratorIterator::current'
+  - iteratoriterator.key.md: 'IteratorIterator::key »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::getInnerIterator'
+---
 # IteratorIterator::getInnerIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::getInnerIterator — Отримує внутрішній ітератор
 
 ### Опис
 
-public **IteratorIterator::getInnerIterator**():
-?[Iterator](class.iterator.md)
+```methodsynopsis
+public IteratorIterator::getInnerIterator(): ?Iterator
+```
 
 Отримує внутрішній ітератор.
 
@@ -24,11 +26,9 @@ public **IteratorIterator::getInnerIterator**():
 
 ### Значення, що повертаються
 
-Внутрішній ітератор, переданий методом
-[IteratorIterator::\_\_construct()](iteratoriterator.construct.md) або
-**`null`**, якщо внутрішній ітератор відсутній.
+Внутрішній ітератор, який було передано методу [IteratorIterator::construct()](iteratoriterator.construct.md) або \*\*`null`\*\*якщо внутрішній ітератор відсутній.
 
 ### Дивіться також
 
-- [Iterator](class.iterator.md)
-- [OuterIterator](class.outeriterator.md)
+-   [Iterator](class.iterator.md)
+-   [OuterIterator](class.outeriterator.md)

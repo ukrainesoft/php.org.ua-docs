@@ -1,64 +1,56 @@
-- [« MongoDB\BSON\Symbol::unserialize](mongodb-bson-symbol.unserialize.md)
-- [MongoDB\BSON\Undefined::\_\_construct »](mongodb-bson-undefined.construct.md)
+---
+navigation:
+  - mongodb-bson-symbol.unserialize.md: '« MongoDBBSONSymbol::unserialize'
+  - mongodb-bson-undefined.construct.md: 'MongoDBBSONUndefined::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONUndefined (застаріло)
+---
+# Клас MongoDBBSONUndefined (застаріло)
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Клас MongoDB\BSON\Undefined (застаріло)
-
-# Клас MongoDB\BSON\Undefined (застаріло)
-
-(mongodb \>=1.4.0)
+(mongodb >=1.4.0)
 
 ## Вступ
 
-Тип BSON типу "Undefined". Цей тип BSON застарів, і цей клас не
-може бути створено. Він буде створений з невизначеного типу BSON при
-перетворення BSON в PHP, а також може бути перетворений назад в
-BSON під час зберігання документів у базі даних.
+Тип BSON типу "Undefined". Цей тип BSON застарів і цей клас не може бути створений. Він буде створений з невизначеного типу BSON під час перетворення BSON на PHP, а також може бути перетворений назад на BSON при зберіганні документів у базі даних.
 
 ## Огляд класів
 
-final class **MongoDB\BSON\Undefined** implements
-[MongoDB\BSON\Type](class.mongodb-bson-type.md),
-[Serializable](class.serializable.md),
-[JsonSerializable](class.jsonserializable.md),
-[Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-final private [\_\_construct](mongodb-bson-undefined.construct.md)()
 
-final public
-[jsonSerialize](mongodb-bson-undefined.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    
+     final
+     
+      class MongoDB\BSON\Undefined
+     
 
-final public [serialize](mongodb-bson-undefined.serialize.md)():
-string
+     implements 
+       MongoDB\BSON\Type,  Serializable,  JsonSerializable,  Stringable {
 
-final public [\_\_toString](mongodb-bson-undefined.tostring.md)():
-string
 
-final public
-[unserialize](mongodb-bson-undefined.unserialize.md)(string
-`$serialized`): void
+    /* Методы */
+    
+   final private __construct()
+final public jsonSerialize(): mixed
+final public serialize(): string
+final public __toString(): string
+final public unserialize(string $serialized): void
 
-}
+   }
+```
 
-## Список змін
+## список змін
 
-| Версія              | Опис                                                               |
-| ------------------- | ------------------------------------------------------------------ |
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст
 
-- [MongoDB\BSON\Undefined::\_\_construct](mongodb-bson-undefined.construct.md)
-- Створює новий Undefined (не використовується)
-- [MongoDB\BSON\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md)
-— Повертає уявлення, яке можна перетворити на JSON
-- [MongoDB\BSON\Undefined::serialize](mongodb-bson-undefined.serialize.md)
-- Серіалізує Undefined
-- [MongoDB\BSON\Undefined::\_\_toString](mongodb-bson-undefined.tostring.md)
-— Повертає пустий рядок
-- [MongoDB\BSON\Undefined::unserialize](mongodb-bson-undefined.unserialize.md)
-- Десеріалізує Undefined
+-   [MongoDBBSONUndefined::construct](mongodb-bson-undefined.construct.md) - Створює новий Undefined (не використовується)
+-   [MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.md) - Серіалізує Undefined
+-   [MongoDBBSONUndefined::toString](mongodb-bson-undefined.tostring.md) — Повертає порожній рядок
+-   [MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.md) - Десеріалізує Undefined

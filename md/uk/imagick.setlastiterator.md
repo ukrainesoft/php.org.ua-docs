@@ -1,20 +1,22 @@
-- [« Imagick::setIteratorIndex](imagick.setiteratorindex.md)
-- [Imagick::setOption »](imagick.setoption.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює ітератор Imagick до останнього зображення
-
+---
+navigation:
+  - imagick.setiteratorindex.md: '« Imagick::setIteratorIndex'
+  - imagick.setoption.md: 'Imagick::setOption »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setLastIterator'
+---
 # Imagick::setLastIterator
 
-(PECL imagick 2 \>= 2.0.1, PECL imagick 3)
+(PECL imagick 2> = 2.0.1, PECL imagick 3)
 
-Imagick::setLastIterator - Встановлює ітератор Imagick до останнього
-зображенню
+Imagick::setLastIterator — Встановлює ітератор Imagick до останнього зображення
 
 ### Опис
 
-public **Imagick::setLastIterator**(): bool
+```methodsynopsis
+public Imagick::setLastIterator(): bool
+```
 
 Встановлює ітератор Imagick до останнього зображення.
 
@@ -24,4 +26,4 @@ public **Imagick::setLastIterator**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

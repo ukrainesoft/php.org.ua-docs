@@ -1,29 +1,24 @@
-- [« GearmanClient::returnCode](gearmanclient.returncode.md)
-- [GearmanClient::setClientCallback »](gearmanclient.setclientcallback.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Запустити список завдань у паралельному режимі
-
+---
+navigation:
+  - gearmanclient.returncode.md: '« GearmanClient::returnCode'
+  - gearmanclient.setclientcallback.md: 'GearmanClient::setClientCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::runTasks'
+---
 # GearmanClient::runTasks
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanClient::runTasks — Запустити список завдань у паралельному режимі
 
 ### Опис
 
-public **GearmanClient::runTasks**(): bool
+```methodsynopsis
+public GearmanClient::runTasks(): bool
+```
 
-Для набору завдань, раніше доданих за допомогою
-[GearmanClient::addTask()](gearmanclient.addtask.md),
-[GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.md),
-[GearmanClient::addTaskLow()](gearmanclient.addtasklow.md),
-[GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.md),
-[GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.md)
-або
-[GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.md),
-цей дзвінок починає виконання в паралельному режимі.
+Для набору завдань, раніше доданих за допомогою [GearmanClient::addTask()](gearmanclient.addtask.md) [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.md) [GearmanClient::addTaskLow()](gearmanclient.addtasklow.md) [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.md) [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.md) або [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.md), цей виклик починається в паралельному режимі.
 
 ### Список параметрів
 
@@ -31,10 +26,8 @@ public **GearmanClient::runTasks**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати
-завдання, яке буде виконано в паралельному режимі
+-   [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати завдання, яке буде виконано у паралельному режимі

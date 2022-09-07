@@ -1,10 +1,11 @@
-- [« dngettext](function.dngettext.md)
-- [ngettext»](function.ngettext.md)
-
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Шукає повідомлення у поточному домені
-
+---
+navigation:
+  - function.dngettext.md: « dngettext
+  - function.ngettext.md: ngettext »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: gettext
+---
 # gettext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,40 +14,58 @@ gettext — Шукає повідомлення у поточному домен
 
 ### Опис
 
-**gettext**(string `$message`): string
+```methodsynopsis
+gettext(string $message): string
+```
 
 Шукає повідомлення у поточному домені.
 
 ### Список параметрів
 
 `message`
+
 Повідомлення, що перекладається.
 
 ### Значення, що повертаються
 
-Повертає переведений рядок (string), якщо він знайдений у таблиці
-перекладу, інакше – передане повідомлення.
+Повертає переведений рядок (string), якщо він знайдений у таблиці перекладу, інакше - передане повідомлення.
 
 ### Приклади
 
-**Приклад #1 **gettext()**-check**
+\*\*Приклад #1 \*\*gettext()**check**
 
-` <?php// Встановлюємо російську мовуputenv('LC_ALL=ru_RU');setlocale(LC_ALL, 'ru_RU');// Вказуємо шлях к таблицям перекладівbindtextdomain("myPHPApp", "; ". ". "myPHPApp");// Тепер пошук перекладів буде йти в ./locale/ua_RU/LC_MESSAGES/myPHPApp.mo// Виводимо тестове повідомленняecho gettext("Welcome to M  _("Have a nice day");?> `
+```php
+<?php
+// Устанавливаем русский язык
+putenv('LC_ALL=ru_RU');
+setlocale(LC_ALL, 'ru_RU');
+
+// Указываем путь к таблицам переводов
+bindtextdomain("myPHPApp", "./locale");
+
+// Выбираем домен
+textdomain("myPHPApp");
+
+// Теперь поиск переводов будет идти в ./locale/ru_RU/LC_MESSAGES/myPHPApp.mo
+
+// Выводим тестовое сообщение
+echo gettext("Welcome to My PHP Application");
+
+// Или с использованием псевдонима _()
+echo _("Have a nice day");
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Можна використовувати символ підкреслення '\_' як псевдонім.
-> цієї функції.
+> **Зауваження**
+> 
+> Можна використовувати символ підкреслення '' як псевдонім цієї функції.
 
-> **Примітка**:
->
-> На деяких системах може бути недостатньо вказівки мови, таких
-> Використовуйте [putenv()](function.putenv.md) для вказівки
-> поточної локалі.
+> **Зауваження**
+> 
+> На деяких системах може бути недостатньо вказівки мови, у таких випадках використовуйте [putenv()](function.putenv.md) для вказівки поточної локалі.
 
 ### Дивіться також
 
-- [setlocale()](function.setlocale.md) - Встановлює налаштування
-локалі
+-   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі

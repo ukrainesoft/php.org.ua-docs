@@ -1,24 +1,27 @@
-- [« UI\Controls\EditableCombo::onChange](ui-controls-editablecombo.onchange.md)
-- [UI\Controls\Radio »](class.ui-controls-radio.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\EditableCombo](class.ui-controls-editablecombo.md)
-- Встановити текст
-
-# UI\Controls\EditableCombo::setText
+---
+navigation:
+  - ui-controls-editablecombo.onchange.md: '« UIControlsEditableCombo::onChange'
+  - class.ui-controls-radio.md: ОЙControlsRadio »
+  - index.md: PHP Manual
+  - class.ui-controls-editablecombo.md: ОЙControlsEditableCombo
+title: 'ОЙControlsEditableCombo::setText'
+---
+# ОЙControlsEditableCombo::setText
 
 (UI 0.9.9)
 
-UI\Controls\EditableCombo::setText — Встановити текст
+ОЙControlsEditableCombo::setText — Встановити текст
 
 ### Опис
 
-public **UI\Controls\EditableCombo::setText**(string `$text`)
+```methodsynopsis
+public UI\Controls\EditableCombo::setText(string $text)
+```
 
-Встановить текст обраної на даний момент опції в даному редагованому
-елемент "Комбо"
+Встановить текст обраної в даний момент опції в даному елементі "Комбо", що редагується.
 
 ### Список параметрів
 
 `text`
+
 Новий текст

@@ -1,36 +1,39 @@
-- [« SessionHandlerInterface::write](sessionhandlerinterface.write.md)
-- [SessionIdInterface::create_sid »](sessionidinterface.create-sid.md)
-
-- [PHP Manual](index.md)
-- [Сесії](book.session.md)
-- Інтерфейс SessionIdInterface
-
+---
+navigation:
+  - sessionhandlerinterface.write.md: '« SessionHandlerInterface::write'
+  - sessionidinterface.create-sid.md: 'SessionIdInterface::createsid »'
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Інтерфейс SessionIdInterface
+---
 # Інтерфейс SessionIdInterface
 
-(PHP 5 \>= 5.5.1, PHP 7, PHP 8)
+(PHP 5> = 5.5.1, PHP 7, PHP 8)
 
 ## Вступ
 
-**SessionIdInterface** - це інтерфейс, який визначає
-необов'язкові методи для створення користувальницького обробника сесії.
-Для надання користувальницького обробника сесії функції
-[session_set_save_handler()](function.session-set-save-handler.md),
-використовуючи її ООП реалізацію, клас має реалізовувати цей інтерфейс.
+**SessionIdInterface** - це інтерфейс, який визначає необов'язкові методи для створення користувача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.md), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
-Зверніть увагу, що callback-методи цього класу створені для
-внутрішніх дзвінків PHP і не призначені для дзвінків з вашого коду.
+Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 
 ## Огляд інтерфейсів
 
-interface **SessionIdInterface** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [create_sid](sessionidinterface.create-sid.md)(): string
+    
+     
+      interface SessionIdInterface {
 
-}
+    /* Методы */
+    
+   public create_sid(): string
+
+   }
+```
 
 ## Зміст
 
-- [SessionIdInterface::create_sid](sessionidinterface.create-sid.md)
-- Створити ідентифікатор сесії
+-   [SessionIdInterface::createsid](sessionidinterface.create-sid.md) — Створити ідентифікатор сесії

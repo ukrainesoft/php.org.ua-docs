@@ -1,19 +1,22 @@
-- [« Gmagick::spreadimage](gmagick.spreadimage.md)
-- [Gmagick::swirlimage »](gmagick.swirlimage.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Знімає зображення всіх профілів та коментарів
-
+---
+navigation:
+  - gmagick.spreadimage.md: '« Gmagick::spreadimage'
+  - gmagick.swirlimage.md: 'Gmagick::swirlimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::stripimage'
+---
 # Gmagick::stripimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::stripimage — Знімає зображення всіх профілів та коментарів
 
 ### Опис
 
-public **Gmagick::stripimage**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::stripimage(): Gmagick
+```
 
 Знімає зображення всіх профілів та коментарів.
 

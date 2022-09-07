@@ -1,10 +1,11 @@
-- [« Imagick::getPackageName](imagick.getpackagename.md)
-- [Imagick::getPixelIterator »](imagick.getpixeliterator.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає геометрію сторінки
-
+---
+navigation:
+  - imagick.getpackagename.md: '« Imagick::getPackageName'
+  - imagick.getpixeliterator.md: 'Imagick::getPixelIterator »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getPage'
+---
 # Imagick::getPage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,10 +14,11 @@ Imagick::getPage — Повертає геометрію сторінки
 
 ### Опис
 
-public **Imagick::getPage**(): array
+```methodsynopsis
+public Imagick::getPage(): array
+```
 
-Повертає геометрію сторінки, пов'язану з об'єктом Imagick, як
-асоціативного масиву з ключами "width", "height", "x" та "y".
+Повертає геометрію сторінки, пов'язану з об'єктом Imagick, як асоціативного масиву з ключами "width", "height", "x" і "y".
 
 ### Список параметрів
 
@@ -24,6 +26,4 @@ public **Imagick::getPage**(): array
 
 ### Значення, що повертаються
 
-Повертає геометрію сторінки, пов'язану з об'єктом Imagick, як
-асоціативного масиву з ключами "width", "height", "x" та "y", у разі
-помилки викидає виняток ImagickException.
+Повертає геометрію сторінки, пов'язану з об'єктом Imagick, у вигляді асоціативного масиву з ключами "width", "height", "x" та "y", у разі помилки викидає виняток ImagickException.

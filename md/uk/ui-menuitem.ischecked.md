@@ -1,19 +1,22 @@
-- [« UI\MenuItem::enable](ui-menuitem.enable.md)
-- [UI\MenuItem::onClick »](ui-menuitem.onclick.md)
-
-- [PHP Manual](index.md)
-- [UI\MenuItem](class.ui-menuitem.md)
-- Визначення обраності пункту
-
-# UI\MenuItem::isChecked
+---
+navigation:
+  - ui-menuitem.enable.md: '« UIMenuItem::enable'
+  - ui-menuitem.onclick.md: 'ОЙMenuItem::onClick »'
+  - index.md: PHP Manual
+  - class.ui-menuitem.md: ОЙMenuItem
+title: 'ОЙMenuItem::isChecked'
+---
+# ОЙMenuItem::isChecked
 
 (UI 0.9.9)
 
-UI\MenuItem::isChecked — Визначення вибраності пункту
+ОЙMenuItem::isChecked — Визначення вибраності пункту
 
 ### Опис
 
-public **UI\MenuItem::isChecked**(): bool
+```methodsynopsis
+public UI\MenuItem::isChecked(): bool
+```
 
 Визначити, чи вибрано цей пункт меню
 

@@ -1,51 +1,75 @@
-- [« Imagick::setImageScene](imagick.setimagescene.md)
-- [Imagick::setImageType »](imagick.setimagetype.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює тривалість відображення кадру
-
+---
+navigation:
+  - imagick.setimagescene.md: '« Imagick::setImageScene'
+  - imagick.setimagetype.md: 'Imagick::setImageType »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageTicksPerSecond'
+---
 # Imagick::setImageTicksPerSecond
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageTicksPerSecond — Встановлює тривалість
-відображення кадру
+Imagick::setImageTicksPerSecond — Встановлює тривалість відображення кадру
 
 ### Опис
 
-public **Imagick::setImageTicksPerSecond**(int `$ticks_per_second`):
-bool
+```methodsynopsis
+public Imagick::setImageTicksPerSecond(int $ticks_per_second): bool
+```
 
-Регулює тривалість відображення анімованого кадру
-зображення.
+Регулює тривалість відображення кадру анімованого зображення.
 
-> **Примітка**:
->
-> Для анімованих GIF-зображень ця функція не змінює кількість
-> "тактів зображення" за секунду, яке завжди визначається як 100.
-> Натомість вона регулює кількість часу, протягом якого
-> відображається кадр, щоб імітувати зміну "тактів за секунду".
->
-> Наприклад, для анімованого GIF-зображення, де кожен кадр
-> відображається протягом 20 тактів (1/5 секунди), коли викликається цей
-> метод кожного кадру цього зображення з аргументом `50`, кадри
-> коригуються та відображатимуться протягом 40 тактів (2/5 секунди)
-> анімація відтворюватиметься з половиною вихідної швидкості.
+> **Зауваження**
+> 
+> Для анімованих GIF-зображень ця функція не змінює кількість "тактів зображення" за секунду, яка завжди визначається як 100. Натомість вона регулює кількість часу, протягом якого відображається кадр, щоб імітувати зміну "тактів за секунду".
+> 
+> Наприклад, для анімованого GIF-зображення, де кожен кадр відображається протягом 20 тактів (1/5 секунди), коли цей метод викликається для кожного кадру цього зображення з аргументом `50`, кадри коригуються та відображатимуться протягом 40 тактів (2/5 секунди) та анімація відтворюватиметься з половиною вихідної швидкості.
 
 ### Список параметрів
 
 `ticks_per_second`
-Тривалість, протягом якої має відображатися зображення,
-виявляється у тактах на секунду.
+
+Тривалість, протягом якої має відображатись зображення, виражається в тактах за секунду.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Зміна анімованого GIF-зображення за допомогою
-**Imagick::setImageTicksPerSecond()****
+**Приклад #1 Зміна анімованого GIF-зображення за допомогою **Imagick::setImageTicksPerSecond()****
 
-` <?php// Зміна анімованого gif-зображення так, перша половина gif відтворювалася з половинною швидкістю,// а друга половина відтворювалася с двоєною ick| = $imagick->coalesceImages();$totalFrames = $imagick->getNumberImages();$frameCount = 0;foreach ($imagick as $frame) {    $imagick->setImageTicksPerSecon if ($frameCount < ($totalFrames / 2)) {         // Змініть кадр так, щоб він відображався вдвоє довше, зараз. $imagick->setImageTicksPerSecond(50); } else {         // Змініть кадр так, щоб він відображався вдвічі менше, чем сейчас. $imagick->setImageTicksPerSecond(200); }   $frameCount++;}$imagick = $imagick->deconstructImages();$imagick->writeImages("/path/to/save/output.gif", true);?> `
+```php
+<?php
+
+// Изменение анимированного gif-изображения так, чтобы первая половина gif воспроизводилась с половинной скоростью,
+// а вторая половина воспроизводилась с удвоенной скоростью.
+
+$imagick = new Imagick(realpath("Test.gif"));
+$imagick = $imagick->coalesceImages();
+
+$totalFrames = $imagick->getNumberImages();
+
+$frameCount = 0;
+
+foreach ($imagick as $frame) {
+    $imagick->setImageTicksPerSecond(50);
+
+    if ($frameCount < ($totalFrames / 2)) {
+        // Измените кадр так, чтобы он отображался вдвое дольше, чем сейчас.
+        $imagick->setImageTicksPerSecond(50);
+    } else {
+        // Измените кадр так, чтобы он отображался вдвое меньше, чем сейчас.
+        $imagick->setImageTicksPerSecond(200);
+    }
+
+    $frameCount++;
+}
+
+$imagick = $imagick->deconstructImages();
+
+$imagick->writeImages("/path/to/save/output.gif", true);
+
+?>
+```

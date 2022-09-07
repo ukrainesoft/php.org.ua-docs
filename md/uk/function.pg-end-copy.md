@@ -1,63 +1,62 @@
-- [«pg_delete](function.pg-delete.md)
-- [pg_escape_bytea »](function.pg-escape-bytea.md)
+---
+navigation:
+  - function.pg-delete.md: « pgdelete
+  - function.pg-escape-bytea.md: пгescapebytea »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгendcopy
+---
+# пгendcopy
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Синхронізує з бекендом PostgreSQL
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-#pg_end_copy
-
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
-
-pg_end_copy — Синхронізує з бекендом PostgreSQL
+пгendcopy — Синхронізує з бекендом PostgreSQL
 
 ### Опис
 
-**pg_end_copy**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): bool
+```methodsynopsis
+pg_end_copy(?PgSql\Connection $connection = null): bool
+```
 
-**pg_end_copy()** синхронізує дані між фронтендом PostgreSQL
-(зазвичай процесом веб-сервера) та сервером PostgreSQL після завершення
-копіювання даних, виконаних за допомогою функції
-[pg_put_line()](function.pg-put-line.md). Використання
-**pg_end_copy()** необхідно, щоб уникнути розсинхронізації сервера
-PostgreSQL з фронтендом та повідомлення про помилки.
+**пгendcopy()** синхронізує дані між фронтендом PostgreSQL (зазвичай процесом веб-сервера) та сервером PostgreSQL після завершення копіювання даних, досконалих за допомогою функції [пгputline()](function.pg-put-line.md). Використання **пгendcopy()** необхідно, щоб уникнути розсинхронізації сервера PostgreSQL з фронтендом та повідомлень про помилки.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_end_copy()****
+**Приклад #1 Приклад використання **пгendcopy()****
 
-` <?php $conn==pg_pconnect("dbname=foo"); pg_query($conn, "create table bar (a int4, b char(16), d float8)"); pg_query($conn, "copy bar from stdin"); pg_put_line($conn, "3 hello world 4.5
-"); pg_put_line($conn, "4 goodbye world 7.11
-"); pg_put_line($conn,"".
-"); pg_end_copy($conn);?> `
+```php
+<?php
+  $conn = pg_pconnect("dbname=foo");
+  pg_query($conn, "create table bar (a int4, b char(16), d float8)");
+  pg_query($conn, "copy bar from stdin");
+  pg_put_line($conn, "3\thello world\t4.5\n");
+  pg_put_line($conn, "4\tgoodbye world\t7.11\n");
+  pg_put_line($conn, "\\.\n");
+  pg_end_copy($conn);
+?>
+```
 
 ### Дивіться також
 
-- [pg_put_line()](function.pg-put-line.md) - Передає на PostgreSQL
-сервер рядок із завершальним нулем
+-   [пгputline()](function.pg-put-line.md) - Передає на PostgreSQL сервер рядок із завершальним нулем

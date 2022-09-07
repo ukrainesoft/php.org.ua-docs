@@ -1,28 +1,30 @@
-- [« SolrCollapseFunction::setField](solrcollapsefunction.setfield.md)
-- [SolrCollapseFunction::setMax »](solrcollapsefunction.setmax.md)
-
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Встановлює підказку згортання
-
+---
+navigation:
+  - solrcollapsefunction.setfield.md: '« SolrCollapseFunction::setField'
+  - solrcollapsefunction.setmax.md: 'SolrCollapseFunction::setMax »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::setHint'
+---
 # SolrCollapseFunction::setHint
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrCollapseFunction::setHint — Встановлює підказку згортання
 
 ### Опис
 
-public **SolrCollapseFunction::setHint**(string `$hint`):
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+```methodsynopsis
+public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
+```
 
 Встановлює підказку згортання
 
 ### Список параметрів
 
 `hint`
-В даний час доступна лише одна підказка "top_fc", що позначає
-FieldCache верхнього рівня.
+
+В даний час доступна лише одна підказка "topfc", що означає FieldCache верхнього рівня.
 
 ### Значення, що повертаються
 
@@ -32,8 +34,16 @@ FieldCache верхнього рівня.
 
 **Приклад #1 Приклад використання **SolrCollapseFunction::setHint()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```

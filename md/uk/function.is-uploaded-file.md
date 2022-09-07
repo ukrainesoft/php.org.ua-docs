@@ -1,54 +1,60 @@
-- [«is_readable](function.is-readable.md)
-- [is_writable »](function.is-writable.md)
+---
+navigation:
+  - function.is-readable.md: « isreadable
+  - function.is-writable.md: ісwritable »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісuploadedfile
+---
+# ісuploadedfile
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Визначає, чи файл завантажений за допомогою HTTP POST
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-#is_uploaded_file
-
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
-
-is_uploaded_file — Визначає, чи завантажено файл за допомогою HTTP POST
+ісuploadedfile — Визначає, чи завантажено файл за допомогою HTTP POST
 
 ### Опис
 
-**is_uploaded_file**(string `$filename`): bool
+```methodsynopsis
+is_uploaded_file(string $filename): bool
+```
 
-Повертає **`true`**, якщо файл `filename` був завантажений за допомогою HTTP
-POST. Це корисно для засвідчення того, що зловмисний користувач
-не намагається обдурити скрипт так, щоб він працював із файлами, з якими
-працювати не повинен – наприклад, `/etc/passwd`.
+Повертає **`true`**, якщо файл `filename` був завантажений за допомогою HTTP POST. Це корисно для посвідчення того, що зловмисний користувач не намагається обдурити скрипт так, щоб він працював із файлами, з якими працювати не повинен – наприклад, /etc/passwd.
 
-Такі перевірки особливо корисні, якщо існує ймовірність того, що
-операції над файлом можуть показати його вміст або навіть
-іншим користувачам тієї самої системи.
+Такі перевірки особливо корисні, якщо існує можливість, що операції над файлом можуть показати його вміст користувачеві або навіть іншим користувачам тієї ж системи.
 
-Для правильної роботи функції **is_uploaded_file()** потрібний аргумент виду
-`$_FILES['userfile']['tmp_name']`, - ім'я завантаженого файлу на
-клієнтській машині `$_FILES['userfile']['name']` не підходить.
+Для правильної роботи функції **ісuploadedfile()** потрібен аргумент виду [FILES\['userfile'\]\['tmpname'\]](reserved.variables.files.md), - ім'я завантаженого файлу на клієнтській машині [FILES\['userfile'\]\['name'\]](reserved.variables.files.md) не підходить.
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу, що перевіряється.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **is_uploaded_file()****
+**Приклад #1 Приклад використання функції **ісuploadedfile()****
 
-` <?phpif (is_uploaded_file($_FILES['userfile']['tmp_name'])) {  echo "Файл ". $_FILES['userfile']['name'] ." успішно завантажений.
-";   echo "Відображаємо вміст
-";   readfile($_FILES['userfile']['tmp_name']);} else {   echo "Можлива атака з участю завантаження файлу: ";   echo "файл''t'' . "'.";}?> `
+```php
+<?php
+
+if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
+   echo "Файл ". $_FILES['userfile']['name'] ." успешно загружен.\n";
+   echo "Отображаем содержимое\n";
+   readfile($_FILES['userfile']['tmp_name']);
+} else {
+   echo "Возможная атака с участием загрузки файла: ";
+   echo "файл '". $_FILES['userfile']['tmp_name'] . "'.";
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [move_uploaded_file()](function.move-uploaded-file.md) -
-Переміщує завантажений файл у нове місце
-- `$_FILES`
-- Простий приклад використання можна знайти у розділі "[Завантаження файлів на сервер](features.file-upload.md)".
+-   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце
+-   [FILES](reserved.variables.files.md)
+-   Простий приклад використання можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.md)".

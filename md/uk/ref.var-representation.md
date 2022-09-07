@@ -1,13 +1,13 @@
-- [«Зумовлені константи](var-representation.constants.md)
-- [var_representation »](function.var-representation.md)
-
-- [PHP Manual](index.md)
-- [var_representation](book.var_representation.md)
-- Функції var_representation
-
-# Функції var_representation
+---
+navigation:
+  - var-representation.constants.md: « Обумовлені константи
+  - function.var-representation.md: varrepresentation »
+  - index.md: PHP Manual
+  - book.var_representation.md: varrepresentation
+title: Функції varrepresentation
+---
+# Функції varrepresentation
 
 ## Зміст
 
-- [var_representation](function.var-representation.md) - Повертає
-коротке, читане, розбірливе рядкове уявлення змінної
+-   [varrepresentation](function.var-representation.md) — Повертає коротке, читанне, розбірливе рядкове подання змінної

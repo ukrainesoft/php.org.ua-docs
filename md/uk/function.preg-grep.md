@@ -1,61 +1,63 @@
-- [«preg_filter](function.preg-filter.md)
-- [preg_last_error_msg »](function.preg-last-error-msg.md)
-
-- [PHP Manual](index.md)
-- [Функції PCRE](ref.pcre.md)
-- Повертає масив входжень, які відповідають шаблону
-
-# preg_grep
+---
+navigation:
+  - function.preg-filter.md: « pregfilter
+  - function.preg-last-error-msg.md: preglasterrormsg »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: preggrep
+---
+# preggrep
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-preg_grep — Повертає масив входжень, які відповідають шаблону
+preggrep — Повертає масив входжень, які відповідають шаблону
 
 ### Опис
 
-**preg_grep**(string `$pattern`, array `$array`, int `$flags` = 0):
-array\|false
+```methodsynopsis
+preg_grep(string $pattern, array $array, int $flags = 0): array|false
+```
 
-Повертає масив, що складається з елементів вхідного масиву `array`,
-які відповідають заданому шаблону pattern.
+Повертає масив, що складається з елементів вхідного масиву `array`, які відповідають заданому шаблону `pattern`
 
 ### Список параметрів
 
 `pattern`
+
 Шуканий шаблон у вигляді рядка.
 
 `array`
+
 Вхідний масив.
 
 `flags`
-У випадку, якщо встановлено **`PREG_GREP_INVERT`**, функція
-**preg_grep()** повертає ті елементи масиву, які *не
-відповідають заданому шаблону `pattern`.
+
+У разі, якщо встановлено **`PREG_GREP_INVERT`**, функція **preggrep()** повертає ті елементи масиву, які *Не відповідає* заданому шаблону `pattern`
 
 ### Значення, що повертаються
 
-Повертає масив, індексований ключами з масиву `array` або
-**`false`** у разі виникнення помилки.
+Повертає масив, індексований ключами з масиву `array` або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо переданий шаблон регулярного виразу не компілюється
-допустиме регулярне вираження, видається помилка рівня **`E_WARNING`**.
+Якщо переданий шаблон регулярного виразу не компілюється в допустимий регулярний вираз, видається помилка рівня **`E_WARNING`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **preg_grep()****
+**Приклад #1 Приклад використання **preggrep()****
 
-`<?php// Повертає усі елементи масиву,// містять числа з плаваючою точкою$fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);?> `
+```php
+<?php
+// Возвращает все элементы Масива,
+// содержащие числа с плавающей точкой
+$fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
+?>
+```
 
 ### Дивіться також
 
-- [Регулярні висловлювання PCRE](pcre.pattern.md)
-- [preg_quote()](function.preg-quote.md) - Екранує символи в
-регулярних виразах
-- [preg_match_all()](function.preg-match-all.md) - Виконує
-глобальний пошук шаблону в рядку
-- [preg_filter()](function.preg-filter.md) - Виконує пошук та
-заміну за регулярним виразом
-- [preg_last_error()](function.preg-last-error.md) - Повертає код
-помилки виконання останнього регулярного вираження PCRE
+-   [Регулярні вирази PCRE](pcre.pattern.md)
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregfilter()](function.preg-filter.md) - Здійснює пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

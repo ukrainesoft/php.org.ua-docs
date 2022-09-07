@@ -1,10 +1,11 @@
-- [« Imagick::steganoImage](imagick.steganoimage.md)
-- [Imagick::stripImage »](imagick.stripimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Об'єднує два зображення
-
+---
+navigation:
+  - imagick.steganoimage.md: '« Imagick::steganoImage'
+  - imagick.stripimage.md: 'Imagick::stripImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::stereoImage'
+---
 # Imagick::stereoImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -13,11 +14,11 @@ Imagick::stereoImage — Об'єднує два зображення
 
 ### Опис
 
-public **Imagick::stereoImage**([Imagick](class.imagick.md)
-`$offset_wand`): bool
+```methodsynopsis
+public Imagick::stereoImage(Imagick $offset_wand): bool
+```
 
-Об'єднує два зображення та створює одне зображення, яке є
-складовою лівого та правого зображення стереопари.
+Об'єднує два зображення та створює одне зображення, яке є складовою лівого та правого зображення стереопари.
 
 ### Список параметрів
 
@@ -25,7 +26,7 @@ public **Imagick::stereoImage**([Imagick](class.imagick.md)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

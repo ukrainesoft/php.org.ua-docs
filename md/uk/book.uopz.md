@@ -1,74 +1,48 @@
-- [«runkit7_zval_inspect](function.runkit7-zval-inspect.md)
-- [Вступ »](intro.uopz.md)
-
-- [PHP Manual](index.md)
-- [Зміна поведінки PHP](refs.basic.php.md)
-- User Operations для Zend
-
+---
+navigation:
+  - function.runkit7-zval-inspect.md: « runkit7zvalinspect
+  - intro.uopz.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: User Operations для Zend
+---
 # User Operations для Zend
 
-- [Вступ](intro.uopz.md)
-- [Встановлення та налаштування](uopz.setup.md)
-- [Вимоги](uopz.requirements.md)
-- [Установка](uopz.installation.md)
-- [Налаштування під час виконання](uopz.configuration.md)
-- [Типи ресурсів](uopz.resources.md)
-- [Предвизначені константи](uopz.constants.md)
-- [Функції Uopz](ref.uopz.md)
-- [uopz_add_function](function.uopz-add-function.md) - Додає
-неіснуючу функцію чи метод
-- [uopz_allow_exit](function.uopz-allow-exit.md) — Дозволяє
-керувати вимкненим опкодом exit
-- [uopz_backup](function.uopz-backup.md) - Резервує функцію
-- [uopz_compose](function.uopz-compose.md) — Скласти клас
-- [uopz_copy](function.uopz-copy.md) — Скопіювати функцію
-- [uopz_del_function](function.uopz-del-function.md) — Видаляє
-раніше додану функцію чи метод
-- [uopz_delete](function.uopz-delete.md) — Видалити функцію
-- [uopz_extend](function.uopz-extend.md) - Розширити клас у
-час виконання
-- [uopz_flags](function.uopz-flags.md) — Отримати або встановити
-прапори для функції або класу
-- [uopz_function](function.uopz-function.md) — Створює функцію
-під час виконання
-- [uopz_get_exit_status](function.uopz-get-exit-status.md) -
-Отримати останній встановлений статус виходу
-- [uopz_get_hook](function.uopz-get-hook.md) — Отримує раніше
-встановлений обробник на функцію чи метод
-- [uopz_get_mock](function.uopz-get-mock.md) — Отримати поточний
-імітатор (mock) для класу
-- [uopz_get_property](function.uopz-get-property.md) - Отримує
-значення класу або властивість екземпляра
-- [uopz_get_return](function.uopz-get-return.md) - Отримує
-попереднє встановлене значення, що повертається для функції
-- [uopz_get_static](function.uopz-get-static.md) - Повертає
-статичні змінні в області видимості функції або методу
-- [uopz_implement](function.uopz-implement.md) - Реалізує
-інтерфейс під час виконання
-- [uopz_overload](function.uopz-overload.md) — Перевантажити опкод
-VM
-- [uopz_redefine](function.uopz-redefine.md) — Перевизначити
-константу
-- [uopz_rename](function.uopz-rename.md) — Перейменувати функцію
-під час виконання
-- [uopz_restore](function.uopz-restore.md) — Поновити раніше
-зарезервовану функцію
-- [uopz_set_hook](function.uopz-set-hook.md) - Встановлює
-обробник для виконання під час виклику функції або методу
-- [uopz_set_mock](function.uopz-set-mock.md) — Використовувати
-імітатор замість класу для нових об'єктів
-- [uopz_set_property](function.uopz-set-property.md) -
-Встановлює значення існуючої властивості класу або
-екземпляра
-- [uopz_set_return](function.uopz-set-return.md) — Надати
-значення, що повертається для існуючої функції
-- [uopz_set_static](function.uopz-set-static.md) - Встановлює
-статичні змінні в області видимості функції або методу
-- [uopz_undefine](function.uopz-undefine.md) - Скасує
-визначення константи
-- [uopz_unset_hook](function.uopz-unset-hook.md) — Видаляє раніше
-встановлену функцію чи метод
-- [uopz_unset_mock](function.uopz-unset-mock.md) — Видалити раніше
-встановлений імітатор
-- [uopz_unset_return](function.uopz-unset-return.md) — Скасує
-раніше встановлене значення, що повертається для функції
+-   [Введение](intro.uopz.md)
+-   [Встановлення та налаштування](uopz.setup.md)
+    -   [Вимоги](uopz.requirements.md)
+    -   [Установка](uopz.installation.md)
+    -   [Налаштування під час виконання](uopz.configuration.md)
+    -   [Типи ресурсів](uopz.resources.md)
+-   [Обумовлені константи](uopz.constants.md)
+-   [Функції Uopz](ref.uopz.md)
+    -   [uopzaddfunction](function.uopz-add-function.md) — Додає неіснуючу функцію чи метод
+    -   [uopzallowexit](function.uopz-allow-exit.md) — Дозволяє керувати вимкненим опкодом exit
+    -   [uopzbackup](function.uopz-backup.md) - Резервує функцію
+    -   [uopzcompose](function.uopz-compose.md) - Скласти клас
+    -   [uopzcopy](function.uopz-copy.md) - Скопіювати функцію
+    -   [uopzdelfunction](function.uopz-del-function.md) — Видаляє раніше додану функцію або метод
+    -   [uopzdelete](function.uopz-delete.md) - Видалити функцію
+    -   [uopzextend](function.uopz-extend.md) - Розширити клас під час виконання
+    -   [uopzflags](function.uopz-flags.md) — Отримати або встановити прапори для функції чи класу
+    -   [uopzfunction](function.uopz-function.md) - Створює функцію під час виконання
+    -   [uopzgetexitstatus](function.uopz-get-exit-status.md) — Отримати останній встановлений статус виходу
+    -   [uopzgethook](function.uopz-get-hook.md) — Отримує раніше встановлений обробник на функцію чи метод
+    -   [uopzgetmock](function.uopz-get-mock.md) — Отримати поточний імітатор для класу
+    -   [uopzgetproperty](function.uopz-get-property.md) — Отримує значення класу чи властивість екземпляра
+    -   [uopzgetreturn](function.uopz-get-return.md) — Отримує попереднє встановлене значення, що повертається для функції
+    -   [uopzgetstatic](function.uopz-get-static.md) — Повертає статичні змінні в області видимості функції або методу
+    -   [uopzimplement](function.uopz-implement.md) - Реалізує інтерфейс під час виконання
+    -   [uopzoverload](function.uopz-overload.md) — Перевантажити опкод VM
+    -   [uopzredefine](function.uopz-redefine.md) - Перевизначити константу
+    -   [uopzrename](function.uopz-rename.md) — Перейменувати функцію під час виконання
+    -   [uopzrestore](function.uopz-restore.md) - Відновити раніше зарезервовану функцію
+    -   [uopzsethook](function.uopz-set-hook.md) — Встановлює обробник для виконання під час виклику функції або методу
+    -   [uopzsetmock](function.uopz-set-mock.md) — Використовувати імітатор замість класу для нових об'єктів
+    -   [uopzsetproperty](function.uopz-set-property.md) — Встановлює значення існуючої властивості класу чи екземпляра
+    -   [uopzsetreturn](function.uopz-set-return.md) — Надати значення, що повертається, для існуючої функції
+    -   [uopzsetstatic](function.uopz-set-static.md) — Встановлює статичні змінні у сфері видимості функції чи методу
+    -   [uopzundefine](function.uopz-undefine.md) — Скасує визначення константи
+    -   [uopzunsethook](function.uopz-unset-hook.md) — Видаляє раніше встановлену функцію чи метод
+    -   [uopzunsetmock](function.uopz-unset-mock.md) — Видалити раніше встановлений імітатор
+    -   [uopzunsetreturn](function.uopz-unset-return.md) — Скасує раніше встановлене значення, що повертається для функції

@@ -1,22 +1,24 @@
-- [« UI\Controls\MultilineEntry::getText](ui-controls-multilineentry.gettext.md)
-- [UI\Controls\MultilineEntry::onChange »](ui-controls-multilineentry.onchange.md)
-
-- [PHP Manual](index.md)
-- [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)
-- Визначення "тільки для читання"
-
-# UI\Controls\MultilineEntry::isReadOnly
+---
+navigation:
+  - ui-controls-multilineentry.gettext.md: '« UIControlsMultilineEntry::getText'
+  - ui-controls-multilineentry.onchange.md: 'ОЙControlsMultilineEntry::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::isReadOnly'
+---
+# ОЙControlsMultilineEntry::isReadOnly
 
 (UI 0.9.9)
 
-UI\Controls\MultilineEntry::isReadOnly - Визначення "тільки для читання"
+ОЙControlsMultilineEntry::isReadOnly - Визначення "тільки для читання"
 
 ### Опис
 
-public **UI\Controls\MultilineEntry::isReadOnly**(): bool
+```methodsynopsis
+public UI\Controls\MultilineEntry::isReadOnly(): bool
+```
 
-Визначає, чи є елемент управління "Багаторядне введення" тільки
-для читання
+Визначає, чи є елемент керування "Багаторядкове введення" тільки для читання
 
 ### Список параметрів
 

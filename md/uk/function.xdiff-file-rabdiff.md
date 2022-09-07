@@ -1,67 +1,66 @@
-- [«xdiff_file_patch](function.xdiff-file-patch.md)
-- [xdiff_string_bdiff_size »](function.xdiff-string-bdiff-size.md)
+---
+navigation:
+  - function.xdiff-file-patch.md: xdifffilepatch
+  - function.xdiff-string-bdiff-size.md: xdiffstringbdiffsize »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilerabdiff
+---
+# xdifffilerabdiff
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Створити бінарний патч порівнюючи два файли за допомогою поліномінального
-алгоритму Rabin fingerprinting
+(PECL xdiff >= 1.5.0)
 
-#xdiff_file_rabdiff
-
-(PECL xdiff \>= 1.5.0)
-
-xdiff_file_rabdiff — Створити бінарний патч порівнюючи два файли за допомогою
-поліномінального алгоритму Rabin fingerprinting
+xdifffilerabdiff — Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
 
 ### Опис
 
-**xdiff_file_rabdiff**(string `$old_file`, string `$new_file`, string
-`$dest`): bool
+```methodsynopsis
+xdiff_file_rabdiff(string $old_file, string $new_file, string $dest): bool
+```
 
-Створює бінарний патч порівнюючи два файли та зберігає результат у файл.
-Ця функція відрізняється від
-[xdiff_file_bdiff()](function.xdiff-file-bdiff.md) використовуваним
-алгоритмом, який працює швидше та виробляє патчі меншого
-розміру. Ця функція працює як із текстом, так і з бінарними даними.
-Патч згодом можна застосувати за допомогою функцій
-[xdiff_file_bpatch()](function.xdiff-file-bpatch.md)/[xdiff_string_bpatch()](function.xdiff-string-bpatch.md).
+Створює бінарний патч, порівнюючи два файли і зберігає результат у файл. Ця функція відрізняється від [xdifffilebdiff()](function.xdiff-file-bdiff.md) використовуваним алгоритмом, який працює швидше та виробляє патчі меншого розміру. Ця функція працює як з текстом, так і з бінарними даними. Патч згодом можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.md)[xdiffstringbpatch()](function.xdiff-string-bpatch.md)
 
-Детальніше різниця алгоритмів пояснена на сайті
-[» libxdiff](http://www.xmailserver.org/xdiff-lib.md).
+Детальніше різниця алгоритмів пояснена на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
 
 ### Список параметрів
 
 `old_file`
+
 Шлях до першого, "старого" файлу.
 
 `new_file`
+
 Шлях до другого, "нового" файлу.
 
 `dest`
-Шлях результуючого файлу патчу. Він буде містити різницю між
-старим та новим файлом у бінарному, людинонечитаному форматі.
+
+Шлях результуючого файлу патчу. Він міститиме різницю між старим і новим файлом у бінарному, человеконечитаемом форматі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_file_rabdiff()****
+**Приклад #1 Приклад використання **xdifffilerabdiff()****
 
 Наступний код порівнює два архіви та створює патч.
 
-` <?php$old_version = 'my_script_1.0.tgz';$new_version = 'my_script_1.1.tgz';xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');?> `
+```php
+<?php
+$old_version = 'my_script_1.0.tgz';
+$new_version = 'my_script_1.1.tgz';
+
+xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр
-> memory_limit налаштовано коректно.
+> **Зауваження**
+> 
+> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр memorylimit налаштовано коректно.
 
 ### Дивіться також
 
-- [xdiff_file_bpatch()](function.xdiff-file-bpatch.md) - Застосувати
-бінарний патч до файлу
+-   [xdifffilebpatch()](function.xdiff-file-bpatch.md) - Застосувати бінарний патч до файлу

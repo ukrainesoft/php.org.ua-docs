@@ -1,85 +1,92 @@
-- [« Collectable::isGarbage](collectable.isgarbage.md)
-- [Pool::collect »](pool.collect.md)
-
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
-- Клас Pool
-
+---
+navigation:
+  - collectable.isgarbage.md: '« Collectable::isGarbage'
+  - pool.collect.md: 'Pool::collect »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Pool
+---
 # Клас Pool
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 ## Вступ
 
-Об'єкт Pool є контейнером для зберігання об'єктів Worker,
-управління ними та регулювання їх кількості.
+Об'єкт Pool є контейнером для зберігання об'єктів Worker, управління ними та регулювання їхньої кількості.
 
-Контейнеризація є найвищим рівнем абстракції над
-функціоналом Worker включаючи управління посиланнями в коректному для
-pthreads вигляді.
+Контейнеризація являє собою найвищий рівень абстракції над функціоналом Worker, включаючи управління посиланнями в коректному для pthreads вигляді.
 
 ## Огляд класів
 
-class **Pool** {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$size`;
+    
+    
+     
+      class Pool
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $size;
 
-protected `$class`;
+    protected
+      $class;
 
-protected `$workers`;
+    protected
+      $workers;
 
-protected `$ctor`;
+    protected
+      $ctor;
 
-protected `$last`;
+    protected
+      $last;
 
-/\* Методи \*/
 
-public [\_\_construct](pool.construct.md)(int `$size`, string `$class`
-= ?, array `$ctor` = ?)
 
-public
-[collect](pool.collect.md)([Callable](language.types.callable.md)
-`$collector` = ?): int
+    /* Методы */
+    
+   public __construct(int $size, string $class = ?, array $ctor = ?)
 
-public [resize](pool.resize.md)(int `$size`): void
+    public collect(Callable $collector = ?): int
+public resize(int $size): void
+public shutdown(): void
+public submit(Threaded $task): int
+public submitTo(int $worker, Threaded $task): int
 
-public [shutdown](pool.shutdown.md)(): void
-
-public [submit](pool.submit.md)([Threaded](class.threaded.md)
-`$task`): int
-
-public [submitTo](pool.submitTo.md)(int `$worker`,
-[Threaded](class.threaded.md) `$task`): int
-
-}
+   }
+```
 
 ## Властивості
 
-`size`
+size
+
 максимальна кількість об'єктів Worker
 
-`class`
+class
+
 клас Worker
 
-`workers`
+workers
+
 посилання на об'єкти Worker
 
-`ctor`
+ctor
+
 аргументи конструктора нових об'єктів Worker
 
-`last`
+last
+
 зміщення останнього використаного Worker у workers
 
 ## Зміст
 
-- [Pool::collect](pool.collect.md) — Збирає посилання на виконані
-завдання
-- [Pool::\_\_construct](pool.construct.md) - Створює новий пул
-воркерів
-- [Pool::resize](pool.resize.md) — Змінює розмір пула
-- [Pool::shutdown](pool.shutdown.md) — Вимикає всі воркери
-- [Pool::submit](pool.submit.md) — Відправляє об'єкт на виконання
-- [Pool::submitTo](pool.submitTo.md) — Надсилає завдання конкретному
-воркеру для виконання
+-   [Pool::collect](pool.collect.md) — Збирає посилання на виконані завдання
+-   [Pool::construct](pool.construct.md) - Створює новий пул воркерів
+-   [Pool::resize](pool.resize.md) - Змінює розмір пулу
+-   [Pool::shutdown](pool.shutdown.md) - Вимикає всі воркери
+-   [Pool::submit](pool.submit.md) - Відправляє об'єкт на виконання
+-   [Pool::submitTo](pool.submitTo.md) — Надсилає завдання конкретному воркеру для виконання

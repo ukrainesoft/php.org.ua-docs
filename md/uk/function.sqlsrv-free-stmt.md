@@ -1,55 +1,67 @@
-- [«sqlsrv_field_metadata](function.sqlsrv-field-metadata.md)
-- [sqlsrv_get_config »](function.sqlsrv-get-config.md)
-
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- звільняє всі ресурси для вказаного оператора
-
-#sqlsrv_free_stmt
+---
+navigation:
+  - function.sqlsrv-field-metadata.md: « sqlsrvfieldmetadata
+  - function.sqlsrv-get-config.md: sqlsrvgetconfig »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfreestmt
+---
+# sqlsrvfreestmt
 
 (No version information available, might only be in Git)
 
-sqlsrv_free_stmt — Визволяє всі ресурси для вказаного оператора
+sqlsrvfreestmt — Звільняє всі ресурси для вказаного оператора
 
 ### Опис
 
-**sqlsrv_free_stmt**(resource `$stmt`): bool
+```methodsynopsis
+sqlsrv_free_stmt(resource $stmt): bool
+```
 
-Визволяє всі ресурси для вказаного оператора. Оператор не можна
-використовувати після того, як для нього була викликана функція
-**sqlsrv_free_stmt()**. Якщо **sqlsrv_free_stmt()** викликається в
-оператор, який змінює стан сервера, виконується
-оператора припиняється та оператор відкочується.
+Звільняє всі ресурси для вказаного оператора. Оператор не можна використовувати після того, як для нього була викликана функція **sqlsrvfreestmt()**. Якщо **sqlsrvfreestmt()** викликається у операторі, який змінює стан сервера, виконання оператора припиняється і оператор відкочується.
 
 ### Список параметрів
 
 `stmt`
-Оператор, ресурси якого потрібно звільнити. Зверніть увагу, що
-**`null`** - допустиме значення параметра. Це дозволяє викликати
-функцію у скрипті кілька разів.
+
+Оператор, ресурси якого потрібно звільнити. Зверніть увагу, що **`null`** - Припустиме значення параметра. Це дозволяє викликати функцію у скрипті кілька разів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_free_stmt()****
+**Приклад #1 Приклад використання **sqlsrvfreestmt()****
 
-` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$stmt = sqlsrv_query( $ F| stmt === false ) {     die( print_r( sqlsrv_errors(), true));}/*---------------------------- ---     |Тут можна обробити результати запиту.-------------------------------*//* Звільніть ресурси для оператора */ sqlsrv_free_stmt($stmt);?> `
+```php
+<?php
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+/*-------------------------------
+     Здесь можно обработать результаты запроса.
+-------------------------------*/
+
+/* Освободите ресурсы для оператора */
+sqlsrv_free_stmt( $stmt);
+
+?>
+```
 
 ### Примітки
 
-Основна відмінність між **sqlsrv_free_stmt()** та
-[sqlsrv_cancel()](function.sqlsrv-cancel.md) полягає в тому, що
-ресурс оператора, скасований за допомогою
-[sqlsrv_cancel()](function.sqlsrv-cancel.md), може бути повторно
-виконаний, якщо він був створений за допомогою
-[sqlsrv_prepare()](function.sqlsrv-prepare.md). Ресурс оператора
-скасований за допомогою **sqlsrv_free_statement()**, не може бути повторно
-виконаний.
+Основна відмінність між **sqlsrvfreestmt()** і [sqlsrvcancel()](function.sqlsrv-cancel.md) полягає в тому, що ресурс оператора, скасований за допомогою [sqlsrvcancel()](function.sqlsrv-cancel.md), може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
 
 ### Дивіться також
 
-- [sqlsrv_cancel()](function.sqlsrv-cancel.md) - Скасує оператор
+-   [sqlsrvcancel()](function.sqlsrv-cancel.md) - скасовує оператор

@@ -1,35 +1,32 @@
-- [« MongoDB\Driver\Manager::getWriteConcern](mongodb-driver-manager.getwriteconcern.md)
-- [MongoDB\Driver\Manager::selectServer »](mongodb-driver-manager.selectserver.md)
+---
+navigation:
+  - mongodb-driver-manager.getwriteconcern.md: '« MongoDBDriverManager::getWriteConcern'
+  - mongodb-driver-manager.selectserver.md: 'MongoDBDriverManager::selectServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
+title: 'MongoDBDriverManager::removeSubscriber'
+---
+# MongoDBDriverManager::removeSubscriber
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
-- скасовує реєстрацію передплатника на подію моніторингу в даному
-об'єкті Manager
+(mongodb >=1.10.0)
 
-# MongoDB\Driver\Manager::removeSubscriber
-
-(mongodb \>=1.10.0)
-
-MongoDB\Driver\Manager::removeSubscriber — Скасує реєстрацію
-передплатника на подію моніторингу в даному об'єкті Manager
+MongoDBDriverManager::removeSubscriber — Скасує реєстрацію передплатника на подію моніторингу в даному об'єкті Manager
 
 ### Опис
 
-final public
-**MongoDB\Driver\Manager::removeSubscriber**([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
-`$subscriber`): void
+```methodsynopsis
+final public MongoDB\Driver\Manager::removeSubscriber(MongoDB\Driver\Monitoring\Subscriber $subscriber): void
+```
 
-Скасує реєстрацію передплатника на подію моніторингу в цьому об'єкті
-Manager.
+Скасує реєстрацію передплатника на подію моніторингу у цьому об'єкті Manager.
 
-> **Примітка**: Якщо `subscriber` ще не зареєстрований у цьому
-> об'єкт Manager, функція відпрацює без результату.
+> **Зауваження**: Якщо `subscriber` ще не зареєстрований у цьому об'єкті Manager, функція відпрацює без результату.
 
 ### Список параметрів
 
-`subscriber` ([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md))
-Передплатник на подію моніторингу, якому необхідно скасувати
-реєстрацію в даному об'єкті Manager.
+`subscriber` [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md)
+
+Передплатник на подію моніторингу, якому необхідно скасувати реєстрацію в об'єкті Manager.
 
 ### Значення, що повертаються
 
@@ -37,18 +34,12 @@ Manager.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) -
-Реєструє передплатника на подію моніторингу в даному об'єкті
-Manager
-- [MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
-- [MongoDB\Driver\Monitoring
-emoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md) -
-Скасує глобальну реєстрацію передплатника на подію моніторингу
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md)
+-   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
+-   [MongoDBDriverMonitoringremoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md) - скасовує глобальну реєстрацію передплатника на подію моніторингу
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

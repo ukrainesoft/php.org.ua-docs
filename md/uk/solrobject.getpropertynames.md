@@ -1,21 +1,24 @@
-- [«SolrObject::\_\_destruct](solrobject.destruct.md)
-- [SolrObject::offsetExists »](solrobject.offsetexists.md)
-
-- [PHP Manual](index.md)
-- [SolrObject](class.solrobject.md)
-- Повертає масив усіх імен властивостей
-
+---
+navigation:
+  - solrobject.destruct.md: '« SolrObject::destruct'
+  - solrobject.offsetexists.md: 'SolrObject::offsetExists »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
+title: 'SolrObject::getPropertyNames'
+---
 # SolrObject::getPropertyNames
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrObject::getPropertyNames — Повертає масив усіх імен властивостей
 
 ### Опис
 
-public **SolrObject::getPropertyNames**(): array
+```methodsynopsis
+public SolrObject::getPropertyNames(): array
+```
 
-Повертає масив усіх назв властивостей.
+Повертає масив усіх імен властивостей.
 
 ### Список параметрів
 

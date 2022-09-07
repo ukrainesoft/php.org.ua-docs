@@ -1,35 +1,37 @@
-- [« enchant_broker_get_dict_path](function.enchant-broker-get-dict-path.md)
-- [enchant_broker_init »](function.enchant-broker-init.md)
+---
+navigation:
+  - function.enchant-broker-get-dict-path.md: « enchantbrokergetdictpath
+  - function.enchant-broker-init.md: enchantbrokerinit »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokergeterror
+---
+# enchantbrokergeterror
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Повертає останню помилку брокера
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-#enchant_broker_get_error
-
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
-
-enchant_broker_get_error — Повертає останню помилку брокера
+enchantbrokergeterror — Повертає останню помилку брокера
 
 ### Опис
 
-**enchant_broker_get_error**([EnchantBroker](class.enchantbroker.md)
-`$broker`): string\|false
+```methodsynopsis
+enchant_broker_get_error(EnchantBroker $broker): string|false
+```
 
-Повертає останню помилку, що виникла на брокері.
+Повертає останню помилку на брокері.
 
 ### Список параметрів
 
 `broker`
-Провайдер Enchant, який повертається
-[enchant_broker_init()](function.enchant-broker-init.md).
+
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 
 Повертає рядок з помилкою, якщо такий був, або **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

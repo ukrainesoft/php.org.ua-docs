@@ -1,63 +1,88 @@
-- [« GearmanClient::getErrno](gearmanclient.geterrno.md)
-- [GearmanClient::ping »](gearmanclient.ping.md)
-
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Набуття статусу виконання фонового завдання
-
+---
+navigation:
+  - gearmanclient.geterrno.md: '« GearmanClient::getErrno'
+  - gearmanclient.ping.md: 'GearmanClient::ping »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::jobStatus'
+---
 # GearmanClient::jobStatus
 
-#gearman_job_status
+# gearmanjobstatus
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanClient::jobStatus -- gearman_job_status — Отримання статусу
-виконання фонового завдання
+GearmanClient::jobStatus -- gearmanjobstatus — отримання статусу виконання фонового завдання
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **GearmanClient::jobStatus**(string `$job_handle`): array
+```methodsynopsis
+public GearmanClient::jobStatus(string $job_handle): array
+```
 
-Отримує поточний стан виконання завдання, запущеного у фоновому режимі
-режимі. Інформація про стан включає дані про те, що завдання
-відомо обробнику, чи виконується завдання на даний момент, а також
-відсоток опрацьованих даних.
+Отримує стан виконання завдання, запущеного у фоновому режимі. Інформація про стан включає дані про те, що завдання відомо обробнику, чи виконується завдання в даний момент, а також відсоток оброблених даних.
 
 ### Список параметрів
 
 `job_handle`
+
 Дескриптор завдання, який надається сервером Gearman
 
 ### Значення, що повертаються
 
-Масив, що містить інформацію про завдання, що відповідає заданому
-дескриптору завдання. Перший елемент масиву вказує, чи знає
-обробник про це завдання. Другий елемент вказує, чи виконується
-завдання на даний момент. Третій та четвертий елементи відповідають за частку
-виконаної роботи та загальний обсяг даних, відповідно.
+Масив, що містить інформацію про завдання, яке відповідає заданому дескриптору завдання. Перший елемент масиву вказує, чи обробник знає про це завдання. Другий елемент вказує, чи виконується завдання на даний момент. Третій та четвертий елементи відповідають за частку виконаної роботи та загальний обсяг даних, відповідно.
 
 ### Приклади
 
-**Приклад #1 Моніторинг процесу обробки, що довго виконується у фоновому
-режимі завдання**
+**Приклад #1 Моніторинг процесу обробки завдання, що довго виконується у фоновому режимі**
 
-` <?php/* створюємо клієнта */$gmclient= new GearmanClient();/* додаємо сервер за мовчанням */$gmclient->addServer();/* запускаємо клієнт */$jo reverse", "this is a test");if ($gmclient->returnCode() != GEARMAN_SUCCESS){ echo "Не удалося виконати завдання
-";  exit;}$done = false;do{   sleep(3);   $stat = $gmclient->jobStatus($job_handle);   if (!$stat[0])| done = true;   echo "Виконується: " . ($stat[1] ? "true" : "false") . ", оброблено: " . $stat[2] . ", | "
-";}while(!$done);echo "завершено!
-";?> `
+```php
+<?php
+
+/* создаём клиента */
+$gmclient= new GearmanClient();
+
+/* добавляем сервер по умолчанию */
+$gmclient->addServer();
+
+/* запускаем клиент */
+$job_handle = $gmclient->doBackground("reverse", "this is a test");
+
+if ($gmclient->returnCode() != GEARMAN_SUCCESS)
+{
+  echo "Не удалось выполнить задание\n";
+  exit;
+}
+
+$done = false;
+do
+{
+   sleep(3);
+   $stat = $gmclient->jobStatus($job_handle);
+   if (!$stat[0]) // задание известно обработчику, но ещё не завершено
+      $done = true;
+   echo "Выполняется: " . ($stat[1] ? "true" : "false") . ", обработано: " . $stat[2] . ", всего: " . $stat[3] . "\n";
+}
+while(!$done);
+
+echo "завершено!\n";
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Виконується: true, оброблено: 3, всього: 14
-Виконується: true, оброблено: 6, всього: 14
-Виконується: true, оброблено: 9, всього: 14
-Виконується: true, оброблено: 12, всього: 14
-Виконується: false, оброблено: 0, всього: 0
+```
+Выполняется: true, обработано: 3, всего: 14
+Выполняется: true, обработано: 6, всего: 14
+Выполняется: true, обработано: 9, всего: 14
+Выполняется: true, обработано: 12, всего: 14
+Выполняется: false, обработано: 0, всего: 0
 завершено!
+```
 
 ### Дивіться також
 
-- [GearmanClient::doStatus()](gearmanclient.dostatus.md) - Отримання
-статусу завдання, що виконується
+-   [GearmanClient::doStatus()](gearmanclient.dostatus.md) - Отримання статусу завдання, що виконується

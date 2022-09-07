@@ -1,43 +1,58 @@
-- [«sqlsrv_get_field](function.sqlsrv-get-field.md)
-- [sqlsrv_next_result »](function.sqlsrv-next-result.md)
-
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Вказує, чи має зазначений оператор рядки
-
-#sqlsrv_has_rows
+---
+navigation:
+  - function.sqlsrv-get-field.md: « sqlsrvgetfield
+  - function.sqlsrv-next-result.md: sqlsrvnextresult »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvhasrows
+---
+# sqlsrvhasrows
 
 (No version information available, might only be in Git)
 
-sqlsrv_has_rows — Вказує, чи є вказаний оператор рядка
+sqlsrvhasrows — Вказує, чи є вказаний оператор рядка
 
 ### Опис
 
-**sqlsrv_has_rows**(resource `$stmt`): bool
+```methodsynopsis
+sqlsrv_has_rows(resource $stmt): bool
+```
 
-Вказує, чи має зазначений оператор рядки.
+Вказує, чи має вказаний оператор рядка.
 
 ### Список параметрів
 
 `stmt`
-Ресурс оператора, що повертається
-[sqlsrv_query()](function.sqlsrv-query.md) або
-[sqlsrv_execute()](function.sqlsrv-execute.md).
+
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо у зазначеному операторі є рядки та
-**`false`**, якщо в операторі немає рядків або сталася помилка.
+Повертає **`true`**, якщо у вказаному операторі є рядки та **`false`**, якщо в операторі немає рядків або виникла помилка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_has_rows()****
+**Приклад #1 Приклад використання **sqlsrvhasrows()****
 
-` <?php$server = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );$conn = sqlsrv_connect ( $server, $connectionInfo );$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");if ($stmt) {   $rows = sqlsrv_has_rows if ($rows === true)      echo "Є рядки. <br />"; else      echo "Немає|рядків. <br />";}?> `
+```php
+<?php
+$server = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $server, $connectionInfo );
+
+$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");
+
+if ($stmt) {
+   $rows = sqlsrv_has_rows( $stmt );
+   if ($rows === true)
+      echo "Есть строки. <br />";
+   else
+      echo "Нет строк. <br />";
+}
+?>
+```
 
 ### Дивіться також
 
-- [sqlsrv_num_rows()](function.sqlsrv-num-rows.md) - Отримує
-кількість рядків у наборі результатів
-- [sqlsrv_query()](function.sqlsrv-query.md) - Підготовляє та
-виконує запит
+-   [sqlsrvnumrows()](function.sqlsrv-num-rows.md) - Отримує кількість рядків у наборі результатів
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит

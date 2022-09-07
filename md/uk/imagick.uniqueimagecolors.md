@@ -1,24 +1,24 @@
-- [« Imagick::trimImage](imagick.trimimage.md)
-- [Imagick::unsharpMaskImage »](imagick.unsharpmaskimage.md)
-
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Відкидає все, крім одного, будь-якого кольору пікселя
-
+---
+navigation:
+  - imagick.trimimage.md: '« Imagick::trimImage'
+  - imagick.unsharpmaskimage.md: 'Imagick::unsharpMaskImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::uniqueImageColors'
+---
 # Imagick::uniqueImageColors
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::uniqueImageColors - Відкидає все, крім одного, будь-якого кольору
-пікселя
+Imagick::uniqueImageColors - Відкидає все, крім одного, будь-якого кольору пікселя
 
 ### Опис
 
-public **Imagick::uniqueImageColors**(): bool
+```methodsynopsis
+public Imagick::uniqueImageColors(): bool
+```
 
-Відкидає все, крім одного будь-якого кольору пікселя. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або
-старше.
+Відкидає все, окрім одного, будь-якого кольору пікселя. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -26,10 +26,23 @@ public **Imagick::uniqueImageColors**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::uniqueImageColors()****
 
-` <?phpfunction uniqueImageColors($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); //Reduce the image to 256 colours nicely. $imagick->quantizeImage(256, \Imagick::COLORSPACE_YIQ, 0, false, false); $imagick->uniqueImageColors(); $imagick->scaleimage($imagick->getImageWidth(), $imagick->getImageHeight() * 20); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function uniqueImageColors($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    //Reduce the image to 256 colours nicely.
+    $imagick->quantizeImage(256, \Imagick::COLORSPACE_YIQ, 0, false, false);
+    $imagick->uniqueImageColors();
+    $imagick->scaleimage($imagick->getImageWidth(), $imagick->getImageHeight() * 20);
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

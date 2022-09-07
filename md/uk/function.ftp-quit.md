@@ -1,17 +1,17 @@
-- [«ftp_pwd](function.ftp-pwd.md)
-- [ftp_raw »](function.ftp-raw.md)
-
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Псевдонім ftp_close
-
-#ftp_quit
+---
+navigation:
+  - function.ftp-pwd.md: « ftppwd
+  - function.ftp-raw.md: ftpraw »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpquit
+---
+# ftpquit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_quit - Псевдонім [ftp_close()](function.ftp-close.md)
+ftpquit - Псевдонім [ftpclose()](function.ftp-close.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ftp_close()](function.ftp-close.md).
+Ця функція є псевдонімом: [ftpclose()](function.ftp-close.md)

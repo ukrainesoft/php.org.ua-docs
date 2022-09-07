@@ -1,34 +1,35 @@
-- [«radius_cvt_string](function.radius-cvt-string.md)
-- [radius_demangle »](function.radius-demangle.md)
+---
+navigation:
+  - function.radius-cvt-string.md: « radiuscvtstring
+  - function.radius-demangle.md: radiusdemangle »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusdemanglemppekey
+---
+# radiusdemanglemppekey
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Отримує mppe-ключі зі спотворених даних
+(PECL radius >= 1.2.0)
 
-# radius_demangle_mppe_key
-
-(PECL radius \>= 1.2.0)
-
-radius_demangle_mppe_key — Отримує mppe-ключі зі спотворених даних
+radiusdemanglemppekey — Отримує mppe-ключі зі спотворених даних
 
 ### Опис
 
-**radius_demangle_mppe_key**(resource `$radius_handle`, string
-`$mangled`): string
+```methodsynopsis
+radius_demangle_mppe_key(resource $radius_handle, string $mangled): string
+```
 
-При використанні MPPE з MS-CHAPv2, ключі надсилаються та одержуються
-ключі спотворюються (дивіться [RFC 2548](http://www.faqs.org/rfcs/rfc2548)), проте ця функція марна,
-оскільки я не думаю, що є чи буде реалізація PPTP-MPPE у PHP.
+При використанні MPPE з MS-CHAPv2 ключі відправляються та одержувані ключі спотворюються (дивіться [» RFC 2548](http://www.faqs.org/rfcs/rfc2548)), однак ця функція не є корисною, оскільки я не думаю, що є або буде реалізація PPTP-MPPE в PHP.
 
 ### Список параметрів
 
 `radius_handle`
+
 Ресурс RADIUS
 
 `mangled`
+
 Спотворені дані, які необхідно деформувати
 
 ### Значення, що повертаються
 
-Повертає деформований рядок або **`false`** у разі виникнення
-помилки.
+Повертає деформований рядок або **`false`** у разі виникнення помилки.

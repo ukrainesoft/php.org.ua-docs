@@ -1,21 +1,22 @@
-- [« Swoole\Process::wait](swoole-process.wait.md)
-- [Swoole\Redis\Server »](class.swoole-redis-server.md)
+---
+navigation:
+  - swoole-process.wait.md: '« SwooleProcess::wait'
+  - class.swoole-redis-server.md: SwooleRedisServer »
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
+title: 'SwooleProcess::write'
+---
+# SwooleProcess::write
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Записує дані в канал і зв'язується з батьківським процесом або
-дочірніми процесами
+(PECL swoole >= 1.9.0)
 
-# Swoole\Process::write
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Process::write - Записує дані в канал і зв'язується з
-батьківським процесом чи дочірніми процесами
+SwooleProcess::write — Записує дані в канал і зв'язується з батьківським процесом або дочірніми процесами
 
 ### Опис
 
-public **Swoole\Process::write**(string `$data`): int
+```methodsynopsis
+public Swoole\Process::write(string $data): int
+```
 
 ### Список параметрів
 

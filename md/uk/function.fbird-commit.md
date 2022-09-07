@@ -1,17 +1,17 @@
-- [«fbird_commit_ret](function.fbird-commit-ret.md)
-- [fbird_connect »](function.fbird-connect.md)
+---
+navigation:
+  - function.fbird-commit-ret.md: « fbirdcommitret
+  - function.fbird-connect.md: fbirdconnect »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdcommit
+---
+# fbirdcommit
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_commit
+(PHP 5, PHP 7 < 7.4.0)
 
-#fbird_commit
-
-(PHP 5, PHP 7 \< 7.4.0)
-
-fbird_commit - Псевдонім [ibase_commit()](function.ibase-commit.md)
+fbirdcommit - Псевдонім [ibasecommit()](function.ibase-commit.md)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_commit()](function.ibase-commit.md).
+Ця функція є псевдонімом: [ibasecommit()](function.ibase-commit.md)

@@ -1,25 +1,29 @@
-- [« MongoDB\BSON\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.md)
-- [MongoDB\BSON\MinKeyInterface »](class.mongodb-bson-minkeyinterface.md)
+---
+navigation:
+  - mongodb-bson-javascriptinterface.tostring.md: '« MongoDBBSONJavascriptInterface::toString'
+  - class.mongodb-bson-minkeyinterface.md: MongoDBBSONMinKeyInterface »
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONMaxKeyInterface
+---
+# Інтерфейс MongoDBBSONMaxKeyInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\MaxKeyInterface
-
-# Інтерфейс MongoDB\BSON\MaxKeyInterface
-
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
 ## Вступ
 
-Цей інтерфейс реалізовано
-[MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md), але також
-може використовуватися як параметр, що повертається значення або
-типу якості у класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONJavascript](class.mongodb-bson-javascript.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
-class **MongoDB\BSON\MaxKeyInterface** {
+```synopsis
 
-}
+    
+     
+      class MongoDB\BSON\MaxKeyInterface
+     
+     {
+   }
+```
 
 Цей інтерфейс немає методів.

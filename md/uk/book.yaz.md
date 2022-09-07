@@ -1,62 +1,44 @@
-- [« VarnishLog::getTagName](varnishlog.gettagname.md)
-- [Вступ »](intro.yaz.md)
-
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
-- YAZ
-
+---
+navigation:
+  - varnishlog.gettagname.md: '« VarnishLog::getTagName'
+  - intro.yaz.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: YAZ
+---
 # YAZ
 
-- [Вступ](intro.yaz.md)
-- [Встановлення та налаштування](yaz.setup.md)
-- [Вимоги](yaz.requirements.md)
-- [Установка](yaz.installation.md)
-- [Налаштування під час виконання](yaz.configuration.md)
-- [Типи ресурсів](yaz.resources.md)
-- [Предвизначені константи](yaz.constants.md)
-- [Приклади](yaz.examples.md)
-- [Функції YAZ](ref.yaz.md)
-- [yaz_addinfo](function.yaz-addinfo.md) - Повертає
-додаткову інформацію у разі виникнення помилки
-- [yaz_ccl_conf](function.yaz-ccl-conf.md) - Конфігурує
-CCL-парсер
-- [yaz_ccl_parse](function.yaz-ccl-parse.md) - Викликає парсер
-CCL
-- [yaz_close](function.yaz-close.md) — Закриває з'єднання YAZ
-- [yaz_connect](function.yaz-connect.md) — Підготовка
-з'єднання з сервером Z39.50
-- [yaz_database](function.yaz-database.md) - Визначає бази
-даних у сеансі
-- [yaz_element](function.yaz-element.md) — Вказує ім'я набору
-елементів для пошуку
-- [yaz_errno](function.yaz-errno.md) — Повертає номер помилки
-- [yaz_error](function.yaz-error.md) — Повертає опис
-помилки
-- [yaz_es_result](function.yaz-es-result.md) — Перевіряє
-результат Extended Service
-- [yaz_es](function.yaz-es.md) - Підготовка Extended Service
-Request
-- [yaz_get_option](function.yaz-get-option.md) - Повертає
-значення параметра для підключення
-- [yaz_hits](function.yaz-hits.md) - Повертає кількість
-збігів для останнього пошуку
-- [yaz_itemorder](function.yaz-itemorder.md) - Підготовка
-запит до Z39.50 Item Order з пакетом ILL-Request
-- [yaz_present](function.yaz-present.md) — Готується до пошуку
-(Z39.50 є)
-- [yaz_range](function.yaz-range.md) — Визначає діапазон
-записів для вилучення
-- [yaz_record](function.yaz-record.md) — Повертає запис
-- [yaz_scan_result](function.yaz-scan-result.md) - Повертає
-результат запиту сканування
-- [yaz_scan](function.yaz-scan.md) — Підготовка сканування
-- [yaz_schema](function.yaz-schema.md) - Встановлює схему для
-значень, що повертаються
-- [yaz_search](function.yaz-search.md) — Підготовка пошуку
-- [yaz_set_option](function.yaz-set-option.md) - Встановлює
-параметри для з'єднання
-- [yaz_sort](function.yaz-sort.md) — Визначає критерій сортування
-- [yaz_syntax](function.yaz-syntax.md) — Задає перевагу
-синтаксис для запису
-- [yaz_wait](function.yaz-wait.md) — Очікує на виконання запитів
-Z39.50 серверами
+-   [Введение](intro.yaz.md)
+-   [Встановлення та налаштування](yaz.setup.md)
+    -   [Вимоги](yaz.requirements.md)
+    -   [Установка](yaz.installation.md)
+    -   [Налаштування під час виконання](yaz.configuration.md)
+    -   [Типи ресурсів](yaz.resources.md)
+-   [Обумовлені константи](yaz.constants.md)
+-   [Приклади](yaz.examples.md)
+-   [Функции YAZ](ref.yaz.md)
+    -   [yazaddinfo](function.yaz-addinfo.md) — Повертає додаткову інформацію у разі виникнення помилки
+    -   [yazcclconf](function.yaz-ccl-conf.md) - Конфігурує CCL-парсер
+    -   [yazcclparse](function.yaz-ccl-parse.md) - Викликає парсер CCL
+    -   [yazclose](function.yaz-close.md) — Закриває з'єднання YAZ
+    -   [yazconnect](function.yaz-connect.md) — Готує з'єднання із сервером Z39.50
+    -   [yazdatabase](function.yaz-database.md) — Визначає бази даних у сеансі
+    -   [yazelement](function.yaz-element.md) — Вказує ім'я набору елементів для пошуку
+    -   [yazerrno](function.yaz-errno.md) — Повертає номер помилки
+    -   [yazerror](function.yaz-error.md) — Повертає опис помилки
+    -   [yazесresult](function.yaz-es-result.md) - Перевіряє результат Extended Service
+    -   [yazес](function.yaz-es.md) — готує Extended Service Request
+    -   [yazgetoption](function.yaz-get-option.md) — Повертає значення параметра для підключення
+    -   [yazhits](function.yaz-hits.md) — Повертає кількість збігів для останнього пошуку
+    -   [yazitemorder](function.yaz-itemorder.md) — Підготовка запиту до Z39.50 Item Order з пакетом ILL-Request
+    -   [yazpresent](function.yaz-present.md) — Готується до пошуку (Z39.50 є)
+    -   [yazrange](function.yaz-range.md) — Визначає діапазон записів для отримання
+    -   [yazrecord](function.yaz-record.md) - Повертає запис
+    -   [yazscanresult](function.yaz-scan-result.md) — Повертає результат запиту сканування
+    -   [yazscan](function.yaz-scan.md) - Підготовка сканування
+    -   [yazschema](function.yaz-schema.md) — Встановлює схему для значень, що повертаються.
+    -   [yazsearch](function.yaz-search.md) - Підготовка пошуку
+    -   [yazsetoption](function.yaz-set-option.md) — Встановлює параметри з'єднання
+    -   [yazsort](function.yaz-sort.md) - Задає критерій сортування
+    -   [yazsyntax](function.yaz-syntax.md) — Задає синтаксис, що віддається перевагу, для видобутого запису
+    -   [yazwait](function.yaz-wait.md) — Очікує на виконання запитів Z39.50 серверами

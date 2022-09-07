@@ -1,19 +1,22 @@
-- [« Ds\Map::remove](ds-map.remove.md)
-- [Ds\Map::reversed »](ds-map.reversed.md)
+---
+navigation:
+  - ds-map.remove.md: '« DsMap::remove'
+  - ds-map.reversed.md: 'ДсMap::reversed »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::reverse'
+---
+# ДсMap::reverse
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Перевертає поточну колекцію
+(PECL ds >= 1.0.0)
 
-# Ds\Map::reverse
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::reverse — Перевертає поточну колекцію
+ДсMap::reverse — Перевертає поточну колекцію
 
 ### Опис
 
-public **Ds\Map::reverse**(): void
+```methodsynopsis
+public Ds\Map::reverse(): void
+```
 
 Перевертає поточну колекцію.
 
@@ -27,30 +30,39 @@ public **Ds\Map::reverse**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::reverse()****
+**Приклад #1 Приклад використання **ДсMap::reverse()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$map->reverse();print_r($map) ;?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map->reverse();
+
+print_r($map);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => c
-[value] => 3
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 3
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 2
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 2
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => a
-[value] => 1
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 1
+        )
 
 )
+```

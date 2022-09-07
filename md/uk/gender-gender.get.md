@@ -1,28 +1,33 @@
-- [«Gender\Gender::country](gender-gender.country.md)
-- [Gender\Gender::isNick »](gender-gender.isnick.md)
+---
+navigation:
+  - gender-gender.country.md: '« GenderGender::country'
+  - gender-gender.isnick.md: 'GenderGender::isNick »'
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
+title: 'GenderGender::get'
+---
+# GenderGender::get
 
-- [PHP Manual](index.md)
-- [Gender\Gender](class.gender.md)
-- Отримати підлогу на ім'я
+(PECL gender >= 0.6.0)
 
-# Gender\Gender::get
-
-(PECL gender \>= 0.6.0)
-
-Gender\Gender::get — Отримати підлогу на ім'я
+GenderGender::get — Отримати підлогу на ім'я
 
 ### Опис
 
-public **Gender\Gender::get**(string `$name`, int `$country` = ?): int
+```methodsynopsis
+public Gender\Gender::get(string $name, int $country = ?): int
+```
 
 Отримати підлогу на ім'я в заданій країні.
 
 ### Список параметрів
 
 `name`
+
 Ім'я для перевірки.
 
 `country`
+
 Ідентифікатор країни заданий константою класу Gender.
 
 ### Значення, що повертаються

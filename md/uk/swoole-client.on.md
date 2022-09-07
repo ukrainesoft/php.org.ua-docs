@@ -1,20 +1,22 @@
-- [« Swoole\Client::isConnected](swoole-client.isconnected.md)
-- [Swoole\Client::pause »](swoole-client.pause.md)
+---
+navigation:
+  - swoole-client.isconnected.md: '« SwooleClient::isConnected'
+  - swoole-client.pause.md: 'SwooleClient::pause »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
+title: 'SwooleClient::on'
+---
+# SwooleClient::on
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Додає callback-функції, спричинені подіями
+(PECL swoole >= 1.9.0)
 
-# Swoole\Client::on
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Client::on — Додає callback-функції, спричинені подіями
+SwooleClient::on — Додає callback-функції, спричинені подіями
 
 ### Опис
 
-public **Swoole\Client::on**(string `$event`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Client::on(string $event, callable $callback): void
+```
 
 ### Список параметрів
 

@@ -1,26 +1,28 @@
-- [« SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md)
-- [SplDoublyLinkedList::setIteratorMode »](spldoublylinkedlist.setiteratormode.md)
-
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Серіалізує сховище
-
+---
+navigation:
+  - spldoublylinkedlist.rewind.md: '« SplDoublyLinkedList::rewind'
+  - spldoublylinkedlist.setiteratormode.md: 'SplDoublyLinkedList::setIteratorMode »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::serialize'
+---
 # SplDoublyLinkedList::serialize
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::serialize — Серіалізує сховище
 
 ### Опис
 
-public **SplDoublyLinkedList::serialize**(): string
+```methodsynopsis
+public SplDoublyLinkedList::serialize(): string
+```
 
 Серіалізує сховище.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,5 +34,4 @@ public **SplDoublyLinkedList::serialize**(): string
 
 ### Дивіться також
 
-- [SplDoublyLinkedList::unserialize()](spldoublylinkedlist.unserialize.md) -
-Десеріалізує сховище
+-   [SplDoublyLinkedList::unserialize()](spldoublylinkedlist.unserialize.md) - десеріалізує сховище

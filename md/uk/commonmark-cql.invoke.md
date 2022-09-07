@@ -1,38 +1,39 @@
-- [«CommonMark\CQL::\_\_construct](commonmark-cql.construct.md)
-- [Функції CommonMark »](ref.cmark.md)
+---
+navigation:
+  - commonmark-cql.construct.md: '« CommonMarkCQL::construct'
+  - ref.cmark.md: Функции CommonMark »
+  - index.md: PHP Manual
+  - class.commonmark-cql.md: CommonMarkCQL
+title: 'CommonMarkCQL::invoke'
+---
+# CommonMarkCQL::invoke
 
-- [PHP Manual](index.md)
-- [CommonMark\CQL](class.commonmark-cql.md)
-- Виконання CQL
+(cmark >= 1.1.0)
 
-# CommonMark\CQL::\_\_invoke
-
-(cmark \>= 1.1.0)
-
-CommonMark\CQL::\_\_invoke — Виконання CQL
+CommonMarkCQL::invoke — Виконання CQL
 
 ### Опис
 
-public
-**CommonMark\CQL::\_\_invoke**([CommonMark\Node](class.commonmark-node.md)
-`$root`, [callable](language.types.callable.md) `$handler`)
+```methodsynopsis
+public CommonMark\CQL::__invoke(CommonMark\Node $root, callable $handler)
+```
 
-Повинен викликати поточну функцію CQL у вказаному `root`, виконуючи
-вказаний `handler` при вході в
-[CommonMark\Node](class.commonmark-node.md).
+Повинен викликати поточну функцію CQL у зазначеному `root`, виконуючи вказаний `handler` при вході в [CommonMarkNode](class.commonmark-node.md)
 
 ### Список параметрів
 
 `root`
+
 кореневий вузол дерева
 
 `handler`
+
 повинен мати прототип:
 
-**handler**([CommonMark\Node](class.commonmark-node.md) `$root`,
-[CommonMark\Node](class.commonmark-node.md) `$entering`): ?bool
+```methodsynopsis
+handler(CommonMark\Node $root, CommonMark\Node $entering): ?bool
+```
 
-- Якщо `handler` нічого не повертає (void) або повертає null, CQL
-продовжить виконання
-- Якщо обробник поверне справжнє значення, CQL продовжить виконання
-- Якщо обробник повертає помилкове значення, CQL припинить виконання
+-   Якщо `handler` нічого не повертає (void) або повертає null, CQL продовжить виконання
+-   Якщо обробник поверне справжнє значення, CQL продовжить виконання
+-   Якщо обробник повертає хибне значення, CQL припинить виконання

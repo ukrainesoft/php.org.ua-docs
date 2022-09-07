@@ -1,24 +1,26 @@
-- [« Yaf_Session::offsetUnset](yaf-session.offsetunset.md)
-- [Yaf_Session::\_\_set »](yaf-session.set.md)
+---
+navigation:
+  - yaf-session.offsetunset.md: '« YafSession::offsetUnset'
+  - yaf-session.set.md: 'YafSession::set »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
+title: 'YafSession::rewind'
+---
+# YafSession::rewind
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення rewind
+(Yaf >=1.0.0)
 
-# Yaf_Session::rewind
-
-(Yaf \>=1.0.0)
-
-Yaf_Session::rewind — призначення rewind
+YafSession::rewind — Призначення rewind
 
 ### Опис
 
-public **Yaf_Session::rewind**(): void
+```methodsynopsis
+public Yaf_Session::rewind(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,19 +1,22 @@
-- [«CURLFile::\_\_construct](curlfile.construct.md)
-- [CURLFile::getMimeType »](curlfile.getmimetype.md)
-
-- [PHP Manual](index.md)
-- [CURLFile](class.curlfile.md)
-- Повертає ім'я файлу на сервер
-
+---
+navigation:
+  - curlfile.construct.md: '« CURLFile::construct'
+  - curlfile.getmimetype.md: 'CURLFile::getMimeType »'
+  - index.md: PHP Manual
+  - class.curlfile.md: CURLFile
+title: 'CURLFile::getFilename'
+---
 # CURLFile::getFilename
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 CURLFile::getFilename — Повертає ім'я файлу на сервері
 
 ### Опис
 
-public **CURLFile::getFilename**(): string
+```methodsynopsis
+public CURLFile::getFilename(): string
+```
 
 ### Список параметрів
 

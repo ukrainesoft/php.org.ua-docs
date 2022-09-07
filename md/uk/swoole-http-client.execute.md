@@ -1,21 +1,22 @@
-- [« Swoole\Http\Client::download](swoole-http-client.download.md)
-- [Swoole\Http\Client::get »](swoole-http-client.get.md)
+---
+navigation:
+  - swoole-http-client.download.md: '« SwooleHttpClient::download'
+  - swoole-http-client.get.md: 'SwooleHttpClient::get »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
+title: 'SwooleHttpClient::execute'
+---
+# SwooleHttpClient::execute
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Надсилає HTTP-запит після встановлення параметрів
+(PECL swoole >= 1.9.0)
 
-# Swoole\Http\Client::execute
-
-(PECL swoole \>= 1.9.0)
-
-Swoole\Http\Client::execute — Надсилає HTTP-запит після встановлення
-параметрів
+SwooleHttpClient::execute — Надсилає HTTP-запит після встановлення параметрів
 
 ### Опис
 
-public **Swoole\Http\Client::execute**(string `$path`, string
-`$callback`): void
+```methodsynopsis
+public Swoole\Http\Client::execute(string $path, string $callback): void
+```
 
 ### Список параметрів
 

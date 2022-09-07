@@ -1,10 +1,11 @@
-- [« SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.md)
-- [SqlStatement::getNextResult »](mysql-xdevapi-sqlstatement.getnextresult.md)
-
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
-- Виконує операцію
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatement.construct.md: '« SqlStatement::construct'
+  - mysql-xdevapi-sqlstatement.getnextresult.md: 'SqlStatement::getNextResult »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
+title: 'SqlStatement::execute'
+---
 # SqlStatement::execute
 
 (No version information available, might only be in Git)
@@ -13,13 +14,13 @@ SqlStatement::execute — Виконує операцію
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatement::execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\SqlStatement::execute(): mysql_xdevapi\Result
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,7 +30,12 @@ public **mysql_xdevapi\SqlStatement::execute**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatement::execute()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::execute()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

@@ -1,19 +1,22 @@
-- [« Ds\Queue::allocate](ds-queue.allocate.md)
-- [Ds\Queue::clear »](ds-queue.clear.md)
+---
+navigation:
+  - ds-queue.allocate.md: '« DsQueue::allocate'
+  - ds-queue.clear.md: 'ДсQueue::clear »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
+title: 'ДсQueue::capacity'
+---
+# ДсQueue::capacity
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Повертає поточну місткість
+(PECL ds >= 1.0.0)
 
-# Ds\Queue::capacity
-
-(PECL ds \>= 1.0.0)
-
-Ds\Queue::capacity — Повертає поточну місткість
+ДсQueue::capacity — Повертає поточну місткість
 
 ### Опис
 
-public **Ds\Queue::capacity**(): int
+```methodsynopsis
+public Ds\Queue::capacity(): int
+```
 
 Повертає поточну місткість.
 
@@ -27,11 +30,21 @@ public **Ds\Queue::capacity**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::capacity()****
+**Приклад #1 Приклад використання **ДсQueue::capacity()****
 
-` <?php$queue = new \Ds\Queue();var_dump($queue->capacity());$queue->push(...range(1, 50));var_dump($queue->capacity ());?> `
+```php
+<?php
+$queue = new \Ds\Queue();
+var_dump($queue->capacity());
+
+$queue->push(...range(1, 50));
+var_dump($queue->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(8)
 int(64)
+```

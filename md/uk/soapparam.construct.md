@@ -1,42 +1,48 @@
-- [«SoapParam](class.soapparam.md)
-- [SoapVar »](class.soapvar.md)
-
-- [PHP Manual](index.md)
-- [SoapParam](class.soapparam.md)
-- Конструктор SoapParam
-
-# SoapParam::\_\_construct
+---
+navigation:
+  - class.soapparam.md: « SoapParam
+  - class.soapvar.md: SoapVar »
+  - index.md: PHP Manual
+  - class.soapparam.md: SoapParam
+title: 'SoapParam::construct'
+---
+# SoapParam::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapParam::\_\_construct - Конструктор SoapParam
+SoapParam::construct - Конструктор SoapParam
 
 ### Опис
 
-public
-**SoapParam::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data`, string `$name`)
+public **SoapParam::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`, string `$name`
 
-Створює новий об'єкт [SoapParam](class.soapparam.md).
+Створює новий об'єкт [SoapParam](class.soapparam.md)
 
 ### Список параметрів
 
 `data`
-Дані передачі або повернення. Цей параметр може передаватись
-безпосередньо як значення PHP, але в цьому випадку він називатиметься
-`paramN`, і служба SOAP може його зрозуміти.
+
+Дані передачі або повернення. Цей параметр може передаватися безпосередньо як значення PHP, але в цьому випадку він називатиметься `paramN`, і служба SOAP може його не зрозуміти.
 
 `name`
+
 Назва параметра.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SoapParam::SoapParam()****
 
-` <?php$client = new SoapClient(null,array('location' => "http://localhost/soap.php",                                    'uri'      => "http://test-uri/"));$ client->SomeFunction(new SoapParam($a, "a"),                      new SoapParam($b, "b"),                      new SoapParam($c, "c"));?> `
+```php
+<?php
+$client = new SoapClient(null,array('location' => "http://localhost/soap.php",
+                                    'uri'      => "http://test-uri/"));
+$client->SomeFunction(new SoapParam($a, "a"),
+                      new SoapParam($b, "b"),
+                      new SoapParam($c, "c"));
+?>
+```
 
 ### Дивіться також
 
-- [SoapClient::\_\_soapCall()](soapclient.soapcall.md) - Викликає
-SOAP-функцію
-- **SoapVar::SoapVar()**
+-   [SoapClient::soapCall()](soapclient.soapcall.md) - Викликає SOAP-функцію
+-   **SoapVar::SoapVar()**

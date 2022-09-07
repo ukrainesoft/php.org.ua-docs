@@ -1,54 +1,56 @@
-- [« xml_parser_get_option](function.xml-parser-get-option.md)
-- [xml_set_character_data_handler »](function.xml-set-character-data-handler.md)
-
-- [PHP Manual](index.md)
-- [Функції парсера XML](ref.xml.md)
-- Встановлення значення налаштування XML-аналізатора
-
-#xml_parser_set_option
+---
+navigation:
+  - function.xml-parser-get-option.md: « xmlparsergetoption
+  - function.xml-set-character-data-handler.md: xmlsetcharacterdatahandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlparsersetoption
+---
+# xmlparsersetoption
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xml_parser_set_option — Встановлення значення налаштування XML-аналізатора
+xmlparsersetoption — Встановлення значення налаштування XML-аналізатора
 
 ### Опис
 
-**xml_parser_set_option**([XMLParser](class.xmlparser.md) `$parser`,
-int `$option`, string\|int `$value`): bool
+```methodsynopsis
+xml_parser_set_option(XMLParser $parser, int $option, string|int $value): bool
+```
 
 Встановлює налаштування XML-аналізатора.
 
 ### Список параметрів
 
 `parser`
+
 Посилання на аналізатор XML.
 
 `option`
-Яку установку потрібно встановити. Дивіться нижче.
 
-Доступні такі установки:
+Яке налаштування потрібно встановити. Дивіться нижче.
 
-| Константа Тип даних Опис       |
-| ------------------------------ |
-| **XML_OPTION_CASE_FOLDING**    | integer | Чи потрібно увімкнути [case-folding](xml.case-folding.md) для цього аналізатора. Увімкнено за замовчуванням. 
-| **XML_OPTION_SKIP_TAGSTART**   | integer | Задає кількість символів з початку імені тега, який слід пропустити.
-| **XML_OPTION_SKIP_WHITE**      | integer | Чи потрібно пропускати значення, що складаються з прогалин.
-| **XML_OPTION_TARGET_ENCODING** | string | Встановлює [кодування](xml.encoding.md), яке використовуватиметься XML аналізатором. За замовчуванням використовується кодування, задане при виклику функції [xml_parser_create()](function.xml-parser-create.md). Підтримуються кодування ISO-8859-1, US-ASCII та UTF-8.
+Доступні такі параметри:
 
 **Налаштування XML-аналізатора**
 
+| Константа | Тип данных | Описание |
+| --- | --- | --- |
+| **`XML_OPTION_CASE_FOLDING`** | integer | Чи потрібно включити [case-folding](xml.case-folding.md) для цього аналізатора. Увімкнено за замовчуванням. |
+| **`XML_OPTION_SKIP_TAGSTART`** | integer | Задає кількість символів з початку імені тега, які потрібно пропустити. |
+| **`XML_OPTION_SKIP_WHITE`** | integer | Чи потрібно пропускати значення, що складаються з пропусків. |
+| **`XML_OPTION_TARGET_ENCODING`** | string | Встановлює [кодування](xml.encoding.md), яка буде використовуватися аналізатором XML. За промовчанням використовується кодування, задане під час виклику функції [xmlparsercreate()](function.xml-parser-create.md). Підтримуються кодування `ISO-8859-1` `US-ASCII` і `UTF-8` |
+
 `value`
+
 Нове значення налаштування.
 
 ### Значення, що повертаються
 
-Функція повертає **`false`**, якщо `parser` посилається на неприпустимий
-аналізатор або якщо настроювання не може бути встановлене. В протилежному
-у разі встановлюється нове значення налаштування та повертається значення
-**`true`**.
+Функція повертає **`false`**, якщо `parser` посилається на неприпустимий аналізатор або якщо налаштування не може бути встановлене. Інакше встановлюється нове значення налаштування та повертається значення **`true`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр parser чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |

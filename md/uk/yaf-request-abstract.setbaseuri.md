@@ -1,35 +1,33 @@
-- [« Yaf_Request_Abstract::setActionName](yaf-request-abstract.setactionname.md)
-- [Yaf_Request_Abstract::setControllerName »](yaf-request-abstract.setcontrollername.md)
+---
+navigation:
+  - yaf-request-abstract.setactionname.md: '« YafRequestAbstract::setActionName'
+  - yaf-request-abstract.setcontrollername.md: 'YafRequestAbstract::setControllerName »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
+title: 'YafRequestAbstract::setBaseUri'
+---
+# YafRequestAbstract::setBaseUri
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Встановлює базовий URI
+(Yaf >=1.0.0)
 
-# Yaf_Request_Abstract::setBaseUri
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Abstract::setBaseUri — Встановлює базовий URI
+YafRequestAbstract::setBaseUri — Встановлює базовий URI
 
 ### Опис
 
-public **Yaf_Request_Abstract::setBaseUri**(string `$uir`): bool
+```methodsynopsis
+public Yaf_Request_Abstract::setBaseUri(string $uir): bool
+```
 
-Встановлює базовий URI, базовий URI використовується під час виконання
-маршрутизації, у фазі маршрутизації URI запиту використовується для
-маршрутизації запиту, а базовий URI використовується для пропуску ведучої
-частини (базового URI) URI запиту. Тобто, якщо надходить запит з URI
-запиту a/b/c, якщо ви встановите базовий URI на "a/b", на етапі
-маршрутизації використовуватиметься лише "/c".
+Встановлює базовий URI, базовий URI використовується для виконання маршрутизації, у фазі маршрутизації URI запиту використовується для маршрутизації запиту, а базовий URI використовується для пропуску провідної частини (базового URI) URI запиту. Тобто, якщо надходить запит із URI запиту a/b/c, то якщо ви встановите базовий URI на "a/b", на етапі маршрутизації використовуватиметься лише "/c".
 
-> **Примітка**:
->
-> Як правило, вам не потрібно встановлювати його, Yaf визначить
-> автоматично.
+> **Зауваження**
+> 
+> Як правило, вам не потрібно встановлювати його, Yaf визначить автоматично.
 
 ### Список параметрів
 
 `uir`
+
 Базовий URI
 
 ### Значення, що повертаються

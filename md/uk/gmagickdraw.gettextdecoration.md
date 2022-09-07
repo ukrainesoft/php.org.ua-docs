@@ -1,19 +1,22 @@
-- [« GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.md)
-- [GmagickDraw::gettextencoding »](gmagickdraw.gettextencoding.md)
-
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає оформлення тексту
-
+---
+navigation:
+  - gmagickdraw.getstrokewidth.md: '« GmagickDraw::getstrokewidth'
+  - gmagickdraw.gettextencoding.md: 'GmagickDraw::gettextencoding »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::gettextdecoration'
+---
 # GmagickDraw::gettextdecoration
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::gettextdecoration — Повертає оформлення тексту
 
 ### Опис
 
-public **GmagickDraw::gettextdecoration**(): int
+```methodsynopsis
+public GmagickDraw::gettextdecoration(): int
+```
 
 Повертає оформлення, що застосовується при анотації тексту.
 
@@ -23,5 +26,4 @@ public **GmagickDraw::gettextdecoration**(): int
 
 ### Значення, що повертаються
 
-Повертає одну з констант DECORATION або 0, якщо оформлення не
-встановлено.
+Повертає одну із констант DECORATION або 0, якщо оформлення встановлено.

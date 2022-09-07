@@ -1,19 +1,22 @@
-- [«SolrClient::setServlet](solrclient.setservlet.md)
-- [SolrClient::threads »](solrclient.threads.md)
-
-- [PHP Manual](index.md)
-- [SolrClient](class.solrclient.md)
-- Отримує інформацію про сервер Solr
-
+---
+navigation:
+  - solrclient.setservlet.md: '« SolrClient::setServlet'
+  - solrclient.threads.md: 'SolrClient::threads »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::system'
+---
 # SolrClient::system
 
-(PECL solr \>= 2.0.0)
+(PECL solr >= 2.0.0)
 
 SolrClient::system — Отримує інформацію про сервер Solr
 
 ### Опис
 
-public **SolrClient::system**(): void
+```methodsynopsis
+public SolrClient::system(): void
+```
 
 Отримує інформацію про сервер Solr
 
@@ -23,13 +26,10 @@ public **SolrClient::system**(): void
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SolrGenericResponse](class.solrgenericresponse.md)
-у разі успішного виконання.
+Повертає об'єкт [SolrGenericResponse](class.solrgenericresponse.md) у разі успішного виконання.
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.md), якщо
-клієнт відмовив чи виникла проблема із підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.md), якщо
-сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.

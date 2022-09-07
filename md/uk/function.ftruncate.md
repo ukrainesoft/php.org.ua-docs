@@ -1,10 +1,11 @@
-- [«ftell](function.ftell.md)
-- [fwrite »](function.fwrite.md)
-
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Урізує файл до вказаної довжини
-
+---
+navigation:
+  - function.ftell.md: « ftell
+  - function.fwrite.md: fwrite »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ftruncate
+---
 # ftruncate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -13,50 +14,59 @@ ftruncate — Урізує файл до вказаної довжини
 
 ### Опис
 
-**ftruncate**(resource `$stream`, int `$size`): bool
+```methodsynopsis
+ftruncate(resource $stream, int $size): bool
+```
 
-Приймає файловий покажчик `stream` та урізає відповідний файл до
-розміру `size`.
+Приймає файловий покажчик `stream` та урізує відповідний файл до розміру `size`
 
 ### Список параметрів
 
 `stream`
-Вказівник файлу.
 
-> **Примітка**:
->
-> `stream` має бути відкритим для запису.
+Файловий покажчик.
+
+> **Зауваження**
+> 
+> `stream` має бути відкрито для запису.
 
 `size`
+
 Розмір файлу, до якого він буде обрізаний.
 
-> **Примітка**:
->
-> Якщо `size` більше поточного розміру файлу, файл буде доповнений
-> нульовими байтами.
->
-> Якщо `size` менше поточного розміру файлу, файл буде обрізаний до
-> цього розміру.
+> **Зауваження**
+> 
+> Якщо `size` більше поточного розміру файлу, файл буде доповнений нульовими байтами.
+> 
+> Якщо `size` менше поточного розміру файлу, файл буде обрізаний до цього розміру.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад обрізання файлу**
 
-` <?php$filename = 'lorem_ipsum.txt';$handle =fopen($filename, 'r+');ftruncate($handle, rand(1, filesize($filename)));rewind($handle);echo fread($handle, filesize($filename));fclose($handle);?> `
+```php
+<?php
+$filename = 'lorem_ipsum.txt';
+
+$handle = fopen($filename, 'r+');
+ftruncate($handle, rand(1, filesize($filename)));
+rewind($handle);
+echo fread($handle, filesize($filename));
+fclose($handle);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Файловий покажчик *не* змінюється.
 
 ### Дивіться також
 
-- [fopen()](function.fopen.md) - Відкриває файл або URL
-- [fseek()](function.fseek.md) - Встановлює зміщення у файловому
-вказівнику
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику

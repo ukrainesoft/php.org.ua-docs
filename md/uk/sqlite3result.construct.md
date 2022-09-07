@@ -1,23 +1,22 @@
-- [« SQLite3Result::columnType](sqlite3result.columntype.md)
-- [SQLite3Result::fetchArray »](sqlite3result.fetcharray.md)
-
-- [PHP Manual](index.md)
-- [SQLite3Result](class.sqlite3result.md)
-- Конструктор класу SQLite3Result
-
-# SQLite3Result::\_\_construct
+---
+navigation:
+  - sqlite3result.columntype.md: '« SQLite3Result::columnType'
+  - sqlite3result.fetcharray.md: 'SQLite3Result::fetchArray »'
+  - index.md: PHP Manual
+  - class.sqlite3result.md: SQLite3Result
+title: 'SQLite3Result::construct'
+---
+# SQLite3Result::construct
 
 (No version information available, might only be in Git)
 
-SQLite3Result::\_\_construct — Конструктор класу SQLite3Result
+SQLite3Result::construct — Конструктор класу SQLite3Result
 
 ### Опис
 
-private **SQLite3Result::\_\_construct**()
+private **SQLite3Result::construct**
 
-Примірники [SQLite3Result](class.sqlite3result.md) створюються за допомогою
-[SQLite3::query()](sqlite3.query.md) та
-[SQLite3Stmt::execute()](sqlite3stmt.execute.md).
+Примірники [SQLite3Result](class.sqlite3result.md) створюються за допомогою [SQLite3::query()](sqlite3.query.md) і [SQLite3Stmt::execute()](sqlite3stmt.execute.md)
 
 ### Список параметрів
 

@@ -1,22 +1,24 @@
-- [« OCILob::flush](ocilob.flush.md)
-- [OCILob::getBuffering »](ocilob.getbuffering.md)
-
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Визволяє ресурси, пов'язані з дескриптором LOB
-
+---
+navigation:
+  - ocilob.flush.md: '« OCILob::flush'
+  - ocilob.getbuffering.md: 'OCILob::getBuffering »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::free'
+---
 # OCILob::free
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-OCILob::free — Визволяє ресурси, пов'язані з дескриптором LOB
+OCILob::free — Звільняє ресурси, пов'язані з дескриптором LOB
 
 ### Опис
 
-public **OCILob::free**(): bool
+```methodsynopsis
+public OCILob::free(): bool
+```
 
-Визволяє ресурси, пов'язані з дескриптором LOB, спочатку виділені
-функцією [oci_new_descriptor()](function.oci-new-descriptor.md).
+Звільняє ресурси, пов'язані з дескриптором LOB, спочатку виділені функцією [ocinewdescriptor()](function.oci-new-descriptor.md)
 
 ### Список параметрів
 
@@ -24,11 +26,10 @@ public **OCILob::free**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |

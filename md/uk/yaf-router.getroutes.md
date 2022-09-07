@@ -1,20 +1,22 @@
-- [« Yaf_Router::getRoute](yaf-router.getroute.md)
-- [Yaf_Router::route »](yaf-router.route.md)
+---
+navigation:
+  - yaf-router.getroute.md: '« YafRouter::getRoute'
+  - yaf-router.route.md: 'YafRouter::route »'
+  - index.md: PHP Manual
+  - class.yaf-router.md: YafRouter
+title: 'YafRouter::getRoutes'
+---
+# YafRouter::getRoutes
 
-- [PHP Manual](index.md)
-- [Yaf_Router](class.yaf-router.md)
-- Отримує зареєстровані маршрути
+(Yaf >=1.0.0)
 
-# Yaf_Router::getRoutes
-
-(Yaf \>=1.0.0)
-
-Yaf_Router::getRoutes — Отримує зареєстровані маршрути
+YafRouter::getRoutes — Отримує зареєстровані маршрути
 
 ### Опис
 
-public **Yaf_Router::getRoutes**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Yaf_Router::getRoutes(): mixed
+```
 
 Отримує зареєстровані маршрути
 

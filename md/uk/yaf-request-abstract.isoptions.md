@@ -1,20 +1,22 @@
-- [« Yaf_Request_Abstract::isHead](yaf-request-abstract.ishead.md)
-- [Yaf_Request_Abstract::isPost »](yaf-request-abstract.ispost.md)
+---
+navigation:
+  - yaf-request-abstract.ishead.md: '« YafRequestAbstract::isHead'
+  - yaf-request-abstract.ispost.md: 'YafRequestAbstract::isPost »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
+title: 'YafRequestAbstract::isOptions'
+---
+# YafRequestAbstract::isOptions
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Визначає, чи є запит OPTIONS-запитом
+(Yaf >=1.0.0)
 
-# Yaf_Request_Abstract::isOptions
-
-(Yaf \>=1.0.0)
-
-Yaf_Request_Abstract::isOptions — Визначає запитання.
-OPTIONS-запитом
+YafRequestAbstract::isOptions — Визначає, чи є запит OPTIONS-запитом
 
 ### Опис
 
-public **Yaf_Request_Abstract::isOptions**(): bool
+```methodsynopsis
+public Yaf_Request_Abstract::isOptions(): bool
+```
 
 ### Список параметрів
 

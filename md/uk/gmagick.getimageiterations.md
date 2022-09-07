@@ -1,19 +1,22 @@
-- [« Gmagick::getimageinterlacescheme](gmagick.getimageinterlacescheme.md)
-- [Gmagick::getimagematte »](gmagick.getimagematte.md)
-
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує ітерацію зображення
-
+---
+navigation:
+  - gmagick.getimageinterlacescheme.md: '« Gmagick::getimageinterlacescheme'
+  - gmagick.getimagematte.md: 'Gmagick::getimagematte »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimageiterations'
+---
 # Gmagick::getimageiterations
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageiterations — Отримує ітерацію зображення
 
 ### Опис
 
-public **Gmagick::getimageiterations**(): int
+```methodsynopsis
+public Gmagick::getimageiterations(): int
+```
 
 Отримує ітерацію зображення.
 

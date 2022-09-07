@@ -1,47 +1,59 @@
-- [« ssh2_forward_listen](function.ssh2-forward-listen.md)
-- [ssh2_poll »](function.ssh2-poll.md)
+---
+navigation:
+  - function.ssh2-forward-listen.md: « ssh2forwardlisten
+  - function.ssh2-poll.md: ssh2poll »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2методівnegotiated
+---
+# ssh2методівnegotiated
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Повертає список узгоджених методів
+(PECL ssh2> = 0.9.0)
 
-#ssh2_methods_negotiated
-
-(PECL ssh2 \>= 0.9.0)
-
-ssh2_methods_negotiated — Повертає список узгоджених методів
+ssh2методівnegotiated — Повертає список узгоджених методів
 
 ### Опис
 
-**ssh2_methods_negotiated**(resource `$session`): array
+```methodsynopsis
+ssh2_methods_negotiated(resource $session): array
+```
 
-Повертає перелік узгоджених способів.
+Повертає перелік узгоджених методів.
 
 ### Список параметрів
 
 `session`
-Ідентифікатор з'єднання SSH, отриманий з
-[ssh2_connect()](function.ssh2-connect.md).
+
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Визначимо, які методи узгоджені**
+**Приклад #1 Визначимо, які узгоджені методи**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);$methods = ssh2_methods_negotiated($connection);echo "Ключі шифрування узгоджуються методом: {$methods['k
-";echo "Сервер ідентифікований з використанням {$methods['hostkey']} і ";echo "відбитком: " . ssh2_fingerprint($connection) . ""
-";echo "Пакети від клієнта до серверу:
-";echo " Шифрування: {$methods['client_to_server']['crypt']}
-";echo " Стиснення: {$methods['client_to_server']['comp']}
-";echo " MAC: {$methods['client_to_server']['mac']}
-";echo "Пакети від сервера до клієнту:
-";echo " Шифрування: {$methods['server_to_client']['crypt']}
-";echo " Стиснення: {$methods['server_to_client']['comp']}
-";echo " MAC: {$methods['server_to_client']['mac']}
-";?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+$methods = ssh2_methods_negotiated($connection);
+
+echo "Ключи шифрования согласовываются методом: {$methods['kex']}\n";
+echo "Сервер идентифицирован с использованием {$methods['hostkey']} и ";
+echo "отпечатком: " . ssh2_fingerprint($connection) . "\n";
+
+echo "Пакеты от клиента к серверу:\n";
+echo "\tШифрование: {$methods['client_to_server']['crypt']}\n";
+echo "\tСжатие: {$methods['client_to_server']['comp']}\n";
+echo "\tMAC: {$methods['client_to_server']['mac']}\n";
+
+echo "Пакеты от сервера к клиенту:\n";
+echo "\tШифрование: {$methods['server_to_client']['crypt']}\n";
+echo "\tСжатие: {$methods['server_to_client']['comp']}\n";
+echo "\tMAC: {$methods['server_to_client']['mac']}\n";
+
+?>
+```
 
 ### Дивіться також
 
-- [ssh2_connect()](function.ssh2-connect.md) - Підключення до
-SSH-серверу
+-   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера

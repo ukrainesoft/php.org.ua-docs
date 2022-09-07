@@ -1,25 +1,26 @@
-- [« IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.md)
-- [IntlRuleBasedBreakIterator::getRules »](intlrulebasedbreakiterator.getrules.md)
-
-- [PHP Manual](index.md)
-- [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)
-- Отримати бінарні дані із скомпілованих правил
-
+---
+navigation:
+  - intlrulebasedbreakiterator.construct.md: '« IntlRuleBasedBreakIterator::construct'
+  - intlrulebasedbreakiterator.getrules.md: 'IntlRuleBasedBreakIterator::getRules »'
+  - index.md: PHP Manual
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator
+title: 'IntlRuleBasedBreakIterator::getBinaryRules'
+---
 # IntlRuleBasedBreakIterator::getBinaryRules
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlRuleBasedBreakIterator::getBinaryRules — Отримати бінарні дані з
-скомпілованих правил
+IntlRuleBasedBreakIterator::getBinaryRules — Отримати бінарні дані зі скомпілованих правил
 
 ### Опис
 
-public **IntlRuleBasedBreakIterator::getBinaryRules**(): string\|false
+```methodsynopsis
+public IntlRuleBasedBreakIterator::getBinaryRules(): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

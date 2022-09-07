@@ -1,52 +1,52 @@
-- [« UI\Area::setSize](ui-area.setsize.md)
-- [UI\Executor::\_\_construct »](ui-executor.construct.md)
-
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Планувальник виконання
-
+---
+navigation:
+  - ui-area.setsize.md: '« UIArea::setSize'
+  - ui-executor.construct.md: 'ОЙExecutor::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Планувальник виконання
+---
 # Планувальник виконання
 
 (UI 2.0.0)
 
 ## Вступ
 
-Ця можливість планує повторне виконання callback-функції, корисно
-для анімації та інших подібних дій.
+Ця можливість планує повторне виконання callback-функції, корисне для анімації та інших подібних дій.
 
 ## Огляд класів
 
-abstract class **UI\Executor** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-executor.construct.md)()
 
-public [\_\_construct](ui-executor.construct.md)(int `$microseconds`)
+    
+     
+      abstract
+      class UI\Executor
+     
+     {
 
-public [\_\_construct](ui-executor.construct.md)(int `$seconds`, int
-`$microseconds`)
 
-/\* Методи \*/
+    /* Конструктор */
+    
+   public __construct()
+public __construct(int $microseconds)
+public __construct(int $seconds, int $microseconds)
 
-public [kill](ui-executor.kill.md)(): void
 
-abstract protected [onExecute](ui-executor.onexecute.md)(): void
+    /* Методы */
+    public kill(): void
+abstract protected onExecute(): void
+public setInterval(int $microseconds): bool
+public setInterval(int $seconds, int $microseconds): bool
 
-public [setInterval](ui-executor.setinterval.md)(int `$microseconds`):
-bool
-
-public [setInterval](ui-executor.setinterval.md)(int `$seconds`, int
-`$microseconds`): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Executor::\_\_construct](ui-executor.construct.md) - Створити
-новий об'єкт Executor
-- [UI\Executor::kill](ui-executor.kill.md) - Зупинити виконавця
-- [UI\Executor::onExecute](ui-executor.onexecute.md) -
-Callback-функція виконання
-- [UI\Executor::setInterval](ui-executor.setinterval.md) -
-Управління інтервалом
+-   [ОЙExecutor::construct](ui-executor.construct.md) — Створити новий об'єкт Executor
+-   [ОЙExecutor::kill](ui-executor.kill.md) - Зупинити виконавець
+-   [ОЙExecutor::onExecute](ui-executor.onexecute.md) - Callback-функція виконання
+-   [ОЙExecutor::setInterval](ui-executor.setinterval.md) - Управління інтервалом

@@ -1,21 +1,34 @@
-- [«PgSql\Result](class.pgsql-result.md)
-- [SQLite3 »](book.sqlite3.md)
+---
+navigation:
+  - class.pgsql-result.md: « PgSqlResult
+  - book.sqlite3.md: SQLite3 »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
+title: Клас PgSqlЛоб
+---
+# Клас PgSqlЛоб
 
-- [PHP Manual](index.md)
-- [PostgreSQL](book.pgsql.md)
-- Клас PgSql\Lob
-
-# Клас PgSql\Lob
-
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `pgsql large object`
-PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `pgsql large object` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **PgSql\Lob** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class PgSql\Lob
+     
+     {
+    
+
+   }
+```

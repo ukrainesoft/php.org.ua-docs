@@ -1,58 +1,69 @@
-- [« ZookeeperConfig::set](zookeeperconfig.set.md)
-- [ZookeeperAuthenticationException »](class.zookeeperauthenticationexception.md)
-
-- [PHP Manual](index.md)
-- [ZooKeeper](book.zookeeper.md)
-- Клас ZookeeperException
-
+---
+navigation:
+  - zookeeperconfig.set.md: '« ZookeeperConfig::set'
+  - class.zookeeperauthenticationexception.md: ZookeeperAuthenticationException »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
+title: Клас ZookeeperException
+---
 # Клас ZookeeperException
 
-(PECL zookeeper \>= 0.3.0)
+(PECL zookeeper >= 0.3.0)
 
 ## Вступ
 
-Клас виключень ZooKeeper.
+Клас винятків ZooKeeper.
 
 ## Огляд класів
 
-class **ZookeeperException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
+    
+    
+     
+      class ZookeeperException
+     
+     
+      extends
+       Exception
+     
+     {
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private string `$string` = "";
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-protected int `$code`;
-
-protected string `$file` = "";
-
-protected int `$line`;
-
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

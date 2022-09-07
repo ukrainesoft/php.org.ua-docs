@@ -1,67 +1,85 @@
-- [« CommonMark\Node\Text\Strong](class.commonmark-node-text-strong.md)
-- [CommonMark\Node\ThematicBreak »](class.commonmark-node-thematicbreak.md)
+---
+navigation:
+  - class.commonmark-node-text-strong.md: « CommonMarkNodeTextStrong
+  - class.commonmark-node-thematicbreak.md: CommonMarkNodeThematicBreak »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Emphasis успадковує CommonMarkNode
+---
+# Emphasis успадковує CommonMarkNode
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
-- Emphasis успадковує CommonMark\Node
-
-# Emphasis успадковує CommonMark\Node
-
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
 ## Огляд класів
 
-final class **CommonMark\Node\Text\Emphasis** extends
-[CommonMark\Node](class.commonmark-node.md) implements
-[CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md),
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-public readonly ?Node `$parent`;
+    
+    
+     
+      final
+      class CommonMark\Node\Text\Emphasis
+     
 
-public readonly ?Node `$previous`;
+     
+      extends
+       CommonMark\Node
+     
 
-public readonly ?Node `$next`;
-
-public readonly ?Node `$lastChild`;
-
-public readonly ?Node `$firstChild`;
-
-public readonly int `$startLine`;
-
-public readonly int `$endLine`;
-
-public readonly int `$startColumn`;
-
-public readonly int `$endColumn`;
-
-/\* Наслідувані методи \*/
-
+     implements 
+       CommonMark\Interfaces\IVisitable,  Traversable {
+    
+    /* Наследуемые свойства */
+    
+     public
+     readonly
+     ?Node
+      $parent;
 public
-[CommonMark\Node::appendChild](commonmark-node.appendchild.md)([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $previous;
 public
-[CommonMark\Node::prependChild](commonmark-node.prependchild.md)([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $next;
 public
-[CommonMark\Node::insertAfter](commonmark-node.insertafter.md)([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $lastChild;
 public
-[CommonMark\Node::insertBefore](commonmark-node.insertbefore.md)([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $firstChild;
 public
-[CommonMark\Node::replace](commonmark-node.replace.md)([CommonMark\Node](class.commonmark-node.md)
-`$target`): [CommonMark\Node](class.commonmark-node.md)
-
-public [CommonMark\Node::unlink](commonmark-node.unlink.md)(): void
-
+     readonly
+     int
+      $startLine;
 public
-[CommonMark\Node::accept](commonmark-node.accept.md)([CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-`$visitor`): void
+     readonly
+     int
+      $endLine;
+public
+     readonly
+     int
+      $startColumn;
+public
+     readonly
+     int
+      $endColumn;
 
-}
+
+    /* Наследуемые методы */
+    
+   public CommonMark\Node::appendChild(CommonMark\Node $child): CommonMark\Node
+public CommonMark\Node::prependChild(CommonMark\Node $child): CommonMark\Node
+public CommonMark\Node::insertAfter(CommonMark\Node $sibling): CommonMark\Node
+public CommonMark\Node::insertBefore(CommonMark\Node $sibling): CommonMark\Node
+public CommonMark\Node::replace(CommonMark\Node $target): CommonMark\Node
+public CommonMark\Node::unlink(): void
+public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
+
+
+   }
+```

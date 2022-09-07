@@ -1,32 +1,30 @@
-- [«UI\Draw\Path::end](ui-draw-path.end.md)
-- [UI\Draw\Path::newFigure »](ui-draw-path.newfigure.md)
-
-- [PHP Manual](index.md)
-- [UI\Draw\Path](class.ui-draw-path.md)
-- Намалювати лінію
-
-# UI\Draw\Path::lineTo
+---
+navigation:
+  - ui-draw-path.end.md: '« UIDrawPath::end'
+  - ui-draw-path.newfigure.md: 'ОЙDrawPath::newFigure »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.md: ОЙDrawPath
+title: 'ОЙDrawPath::lineTo'
+---
+# ОЙDrawPath::lineTo
 
 (UI 0.9.9)
 
-UI\Draw\Path::lineTo — Намалювати лінію
+ОЙDrawPath::lineTo — Намалювати лінію
 
 ### Опис
 
-public **UI\Draw\Path::lineTo**(
-[UI\Point](class.ui-point.md) `$point`,
-float `$radius`,
-float `$angle`,
-float `$sweep`,
-float `$negative`
-)
+```methodsynopsis
+public UI\Draw\Path::lineTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+```
 
 Намалює шлях лінії
 
 ### Список параметрів
 
 `point`
-Крапка початку відображення
+
+Точка початку відображення
 
 `radius`
 

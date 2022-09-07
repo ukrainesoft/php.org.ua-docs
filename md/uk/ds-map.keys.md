@@ -1,21 +1,24 @@
-- [« Ds\Map::jsonSerialize](ds-map.jsonserialize.md)
-- [Ds\Map::ksort »](ds-map.ksort.md)
+---
+navigation:
+  - ds-map.jsonserialize.md: '« DsMap::jsonSerialize'
+  - ds-map.ksort.md: 'ДсMap::ksort »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
+title: 'ДсMap::keys'
+---
+# ДсMap::keys
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає набір ключів колекції
+(PECL ds >= 1.0.0)
 
-# Ds\Map::keys
-
-(PECL ds \>= 1.0.0)
-
-Ds\Map::keys — Повертає набір ключів колекції
+ДсMap::keys — Повертає набір ключів колекції
 
 ### Опис
 
-public **Ds\Map::keys**(): [Ds\Set](class.ds-set.md)
+```methodsynopsis
+public Ds\Map::keys(): Ds\Set
+```
 
-Повертає набір ключів колекції із збереженням їх порядку.
+Повертає набір ключів колекції зі збереженням їх порядку.
 
 ### Список параметрів
 
@@ -23,21 +26,28 @@ public **Ds\Map::keys**(): [Ds\Set](class.ds-set.md)
 
 ### Значення, що повертаються
 
-Колекція **Ds\Set**, яка містить усі ключі поточної колекції.
+Колекція **ДсSet**містить всі ключі поточної колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::keys()****
+**Приклад #1 Приклад використання **ДсMap::keys()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->keys());?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+var_dump($map->keys());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Set)#2 (3) {
-[0]=>
-string(1) "a"
-[1]=>
-string(1) "b"
-[2]=>
-string(1) "c"
+  [0]=>
+  string(1) "a"
+  [1]=>
+  string(1) "b"
+  [2]=>
+  string(1) "c"
 }
+```

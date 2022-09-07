@@ -1,160 +1,168 @@
-- [« DOMDocument::xinclude](domdocument.xinclude.md)
-- [DOMDocumentFragment::appendXML »](domdocumentfragment.appendxml.md)
-
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMDocumentFragment
-
+---
+navigation:
+  - domdocument.xinclude.md: '« DOMDocument::xinclude'
+  - domdocumentfragment.appendxml.md: 'DOMDocumentFragment::appendXML »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMDocumentFragment
+---
 # Клас DOMDocumentFragment
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Огляд класів
 
-class **DOMDocumentFragment** extends [DOMNode](class.domnode.md)
-implements [DOMParentNode](class.domparentnode.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly ?[DOMElement](class.domelement.md)
-`$firstElementChild`;
+    
+     
+      class DOMDocumentFragment
+     
 
-public readonly ?[DOMElement](class.domelement.md)
-`$lastElementChild`;
+     
+      extends
+       DOMNode
+     
 
-public readonly int `$childElementCount`;
+     implements 
+       DOMParentNode {
 
-/\* Наслідувані властивості \*/
+    /* Свойства */
+    
+     public
+     readonly
+     ?DOMElement
+      $firstElementChild;
 
-public readonly string `$nodeName`;
+    public
+     readonly
+     ?DOMElement
+      $lastElementChild;
 
-public ?string `$nodeValue`;
+    public
+     readonly
+     int
+      $childElementCount;
 
-public readonly int `$nodeType`;
 
-public readonly ?[DOMNode](class.domnode.md) `$parentNode`;
-
-public readonly [DOMNodeList](class.domnodelist.md) `$childNodes`;
-
-public readonly ?[DOMNode](class.domnode.md) `$firstChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$lastChild`;
-
-public readonly ?[DOMNode](class.domnode.md) `$previousSibling`;
-
-public readonly ?[DOMNode](class.domnode.md) `$nextSibling`;
-
-public readonly ?[DOMNamedNodeMap](class.domnamednodemap.md)
-`$attributes`;
-
-public readonly ?[DOMDocument](class.domdocument.md) `$ownerDocument`;
-
-public readonly ?string `$namespaceURI`;
-
-public string `$prefix`;
-
-public readonly ?string `$localName`;
-
-public readonly ?string `$baseURI`;
-
-public string `$textContent`;
-
-/\* Методи \*/
-
-public [\_\_construct](domdocumentfragment.construct.md)()
-
-public [appendXML](domdocumentfragment.appendxml.md)(string `$data`):
-bool
-
-/\* Наслідувані методи \*/
-
+    /* Наследуемые свойства */
+    public
+     readonly
+     string
+      $nodeName;
 public
-[DOMNode::appendChild](domnode.appendchild.md)([DOMNode](class.domnode.md)
-`$node`): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): string\|false
-
-public [DOMNode::C14NFile](domnode.c14nfile.md)(
-string `$uri`,
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): int\|false
-
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
-**`false`**): [DOMNode](class.domnode.md)\|false
-
-public [DOMNode::getLineNo](domnode.getlineno.md)(): int
-
-public [DOMNode::getNodePath](domnode.getnodepath.md)(): ?string
-
-public [DOMNode::hasAttributes](domnode.hasattributes.md)(): bool
-
-public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
-
+     ?string
+      $nodeValue;
 public
-[DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
-[DOMNode](class.domnode.md)\|false
-
+     readonly
+     int
+      $nodeType;
 public
-[DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md)(string
-`$namespace`): bool
-
+     readonly
+     ?DOMNode
+      $parentNode;
 public
-[DOMNode::isSameNode](domnode.issamenode.md)([DOMNode](class.domnode.md)
-`$otherNode`): bool
-
-public [DOMNode::isSupported](domnode.issupported.md)(string
-`$feature`, string `$version`): bool
-
+     readonly
+     DOMNodeList
+      $childNodes;
 public
-[DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md)(string
-`$prefix`): string
-
-public [DOMNode::lookupPrefix](domnode.lookupprefix.md)(string
-`$namespace`): ?string
-
-public [DOMNode::normalize](domnode.normalize.md)(): void
-
+     readonly
+     ?DOMNode
+      $firstChild;
 public
-[DOMNode::removeChild](domnode.removechild.md)([DOMNode](class.domnode.md)
-`$child`): [DOMNode](class.domnode.md)\|false
-
+     readonly
+     ?DOMNode
+      $lastChild;
 public
-[DOMNode::replaceChild](domnode.replacechild.md)([DOMNode](class.domnode.md)
-`$node`, [DOMNode](class.domnode.md) `$child`):
-[DOMNode](class.domnode.md)\|false
+     readonly
+     ?DOMNode
+      $previousSibling;
+public
+     readonly
+     ?DOMNode
+      $nextSibling;
+public
+     readonly
+     ?DOMNamedNodeMap
+      $attributes;
+public
+     readonly
+     ?DOMDocument
+      $ownerDocument;
+public
+     readonly
+     ?string
+      $namespaceURI;
+public
+     string
+      $prefix;
+public
+     readonly
+     ?string
+      $localName;
+public
+     readonly
+     ?string
+      $baseURI;
+public
+     string
+      $textContent;
 
-}
+
+    /* Методы */
+    
+   public __construct()
+
+    public appendXML(string $data): bool
+
+
+    /* Наследуемые методы */
+    public DOMNode::appendChild(DOMNode $node): DOMNode|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::cloneNode(bool $deep = false): DOMNode|false
+public DOMNode::getLineNo(): int
+public DOMNode::getNodePath(): ?string
+public DOMNode::hasAttributes(): bool
+public DOMNode::hasChildNodes(): bool
+public DOMNode::insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|false
+public DOMNode::isDefaultNamespace(string $namespace): bool
+public DOMNode::isSameNode(DOMNode $otherNode): bool
+public DOMNode::isSupported(string $feature, string $version): bool
+public DOMNode::lookupNamespaceUri(string $prefix): string
+public DOMNode::lookupPrefix(string $namespace): ?string
+public DOMNode::normalize(): void
+public DOMNode::removeChild(DOMNode $child): DOMNode|false
+public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
+
+   }
+```
 
 ## Властивості
 
-`childElementCount`
+childElementCount
+
 Кількість дочірніх елементів.
 
-`firstElementChild`
-Перший дочірній елемент або **`null`**.
+першийЕlementChild
 
-`lastElementChild`
-Останній дочірній елемент або **`null`**.
+Перший дочірній елемент або **`null`**
 
-## Список змін
+останнійеlementChild
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | Додані властивості firstElementChild, lastElementChild та childElementCount.                   |
-| 8.0.0  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md). |
+Останній дочірній елемент або **`null`**
+
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості першихелементівChild, LastElementChild і ChildElementCount. |
+|  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
 
 ## Зміст
 
-- [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md)
-— Додавання необроблених даних XML
-- [DOMDocumentFragment::\_\_construct](domdocumentfragment.construct.md)
-- Конструктор об'єкта DOMDocumentFragment
+-   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md) — Додавання необроблених даних XML
+-   [DOMDocumentFragment::construct](domdocumentfragment.construct.md) - Конструктор об'єкта DOMDocumentFragment

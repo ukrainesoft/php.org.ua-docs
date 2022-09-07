@@ -1,19 +1,22 @@
-- [«UI\Executor::kill](ui-executor.kill.md)
-- [UI\Executor::setInterval »](ui-executor.setinterval.md)
-
-- [PHP Manual](index.md)
-- [UI\Executor](class.ui-executor.md)
-- Callback-функція виконання
-
-# UI\Executor::onExecute
+---
+navigation:
+  - ui-executor.kill.md: '« UIExecutor::kill'
+  - ui-executor.setinterval.md: 'ОЙExecutor::setInterval »'
+  - index.md: PHP Manual
+  - class.ui-executor.md: ОЙExecutor
+title: 'ОЙExecutor::onExecute'
+---
+# ОЙExecutor::onExecute
 
 (UI 2.0.0)
 
-UI\Executor::onExecute — Callback-функція виконання
+ОЙExecutor::onExecute - Callback-функція виконання
 
 ### Опис
 
-abstract protected **UI\Executor::onExecute**(): void
+```methodsynopsis
+abstract protected UI\Executor::onExecute(): void
+```
 
 Поставить у чергу для виконання в основному потоці
 
